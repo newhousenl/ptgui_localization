@@ -7570,14 +7570,6 @@
 		{
 			"id": "photometricsettings.defaults",
 			"helptext": "Reset alle instellingen naar de standaardwaarden."
-		},
-		{
-			"id": "options.gpuacceleration.crashwhileloadingopencldll",
-			"machinetranslated": true
-		},
-		{
-			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
-			"machinetranslated": true
 		}
 	],
 	"helppages": [

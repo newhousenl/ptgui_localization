@@ -7670,14 +7670,6 @@
             "helptext": "Let PTGui decide how much video RAM to use."
         },
         {
-            "id": "options.gpuacceleration.crashwhileloadingopencldll",
-            "txt": "Could not enable OpenCL: the OpenCL driver crashed. You may need to update the GPU driver."
-        },
-        {
-            "id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
-            "txt": "Never ask at startup if GPU acceleration should be disabled"
-        },
-        {
             "id": "photometricsettings.optimizeexposure",
             "helptext": "Controls whether the exposure of individual source images will be adjusted, in order to minimize brightness differences between images.",
             "morehelptext": "<br><br>If enabled, the '@mainwindow.imageparameters.expoffset@' column in the @mainwindow.tabs.imageparameters@ tab will be adjusted. <br><br><b>@photometricsettings.onlyifnecessary@:</b>if the EXIF data of the images contain exposure information, this data will be used and no additional exposure optimization is done. If the EXIF data does not contain exposure information, a full exposure optimization is done.<br><br><b>@photometricsettings.disabled@:</b>exposure will not be optimized and the exposure compensation of all images will be reset to zero upon the next optimization.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b>assumes the EXIF data contains roughly correct exposure data; this is used as a starting point for further exposure optimization.<br><br><b>@photometricsettings.optimizeexposure.full@:</b>performs a full exposure optimization, ignoring any EXIF exposure data.<br><br><b>@photometricsettings.keepcurrent@:</b>the current exposure parameters will be kept."

@@ -9389,14 +9389,6 @@
 			"machinetranslated": true,
 			"helptext": "Controla como o otimizador manipula os pontos de controle @cptable.horizontalline@ e @cptable.verticalline@.",
 			"morehelptext": "<br><br>Os pontos de controle do tipo '@cptable.horizontalline@' e '@cptable.verticalline@' podem ser usados ​​para nivelar um panorama. Eles podem ser adicionados selecionando o tipo correspondente na caixa '@cptypetoadd@' na guia @mainwindow.tabs.controlpoints@. Essa configuração aplica-se somente aos tipos @cptable.horizontalline@ e @cptable.verticalline@, não aos pontos de controle do tipo de linha genéricos.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> o otimizador desconsiderará os pontos de controle @cptable.horizontalline@ e @cptable.verticalline@.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> O otimizador inicialmente utilizará apenas os pontos de controle regulares para alinhar as imagens. Em seguida, @panoeditor.menubar.edit.level@ será executado como uma etapa separada. Isso gira e desloca o panorama como um todo até que os pontos de controle @cptable.horizontalline@ e @cptable.verticalline@ se alinhem horizontalmente e verticalmente. Esta é a opção recomendada: os pontos de controle @cptable.horizontalline@ e @cptable.verticalline@ só serão usados ​​para nivelamento, eles não afetam o alinhamento das imagens ou os parâmetros da lente.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> O otimizador usa todos os pontos de controle, incluindo os pontos de controle @cptable.horizontalline@ e @cptable.verticalline@, para alinhar as imagens e determinar os parâmetros da lente. Use esta opção, por exemplo, se você estiver alinhando linhas horizontais e verticais em uma única imagem, e os parâmetros da lente devem ser ajustados para obter um perfeito alisamento."
-		},
-		{
-			"id": "options.gpuacceleration.crashwhileloadingopencldll",
-			"machinetranslated": true
-		},
-		{
-			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
-			"machinetranslated": true
 		}
 	],
 	"helppages": [

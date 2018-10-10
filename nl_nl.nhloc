@@ -5584,6 +5584,16 @@
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
 			"txt": "Generieke Fisheye-lens"
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true,
+			"txt": "Kon OpenCL niet inschakelen: het OpenCL-stuurprogramma is gecrasht. Mogelijk moet u het GPU-stuurprogramma bijwerken."
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"txt": "Vraag nooit bij het opstarten of GPU-versnelling moet worden uitgeschakeld"
 		}
 	],
 	"tooltips": [
@@ -7570,6 +7580,11 @@
 		{
 			"id": "photometricsettings.defaults",
 			"helptext": "Reset alle instellingen naar de standaardwaarden."
+		},
+		{
+			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"helptext": "Als er een crash optreedt terwijl OpenCL wordt gebruikt, zal PTGui na het herstarten vragen of de GPU-versnelling moet worden uitgeschakeld. Schakel dit selectievakje in als PTGui dit niet meer moet vragen."
 		}
 	],
 	"helppages": [

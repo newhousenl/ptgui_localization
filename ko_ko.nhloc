@@ -2429,6 +2429,11 @@
 			"machinetranslated": true,
 			"helptext": "최적화 프로그램이 @cptable.horizontalline@ 및 @cptable.verticalline@ 제어점을 처리하는 방법을 제어합니다.",
 			"morehelptext": "<br><br>'@cptable.horizontalline@'및 '@cptable.verticalline@'유형의 제어점을 사용하여 파노라마를 수평 조정할 수 있습니다. @mainwindow.tabs.controlpoints@ 탭의 '@cptypetoadd@'상자에서 해당 유형을 선택하여 추가 할 수 있습니다. 이 설정은 일반 라인 유형 제어점이 아닌 @cptable.horizontalline@ 및 @cptable.verticalline@ 유형에만 적용됩니다.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@ :</b> 옵티마이 저는 @cptable.horizontalline@ 및 @cptable.verticalline@ 제어점을 무시합니다.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@ :</b> 옵티마이 저는 처음에는 이미지를 정렬하기 위해 일반 제어점 만 사용합니다. 그런 다음 @panoeditor.menubar.edit.level@는 별도의 단계로 실행됩니다. 이렇게하면 @cptable.horizontalline@ 및 @cptable.verticalline@ 조절 점이 수평 및 수직으로 정렬 될 때까지 파노라마 전체가 회전하고 이동합니다. 이것은 권장되는 옵션입니다 : @cptable.horizontalline@ 및 @cptable.verticalline@ 조절 점은 이미지를 정렬하거나 렌즈 매개 변수에 영향을 미치지 않으므로 수평 조절에만 사용됩니다.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@ :</b> 옵티마이 저는 @cptable.horizontalline@ 및 @cptable.verticalline@ 제어점을 포함한 모든 제어점을 사용하여 이미지를 정렬하고 렌즈 매개 변수를 결정합니다. 이 옵션을 사용하십시오. 예를 들어 단일 이미지에서 수평선과 수직선을 직선으로 만들고 렌즈 매개 변수를 조정하여 완벽한 직선화를 달성해야합니다."
+		},
+		{
+			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"helptext": "OpenCL을 사용하는 동안 충돌이 발생하면 PTGui를 다시 시작하면 GPU 가속을 사용하지 않아야하는지 묻습니다. PTGui에서 더 이상 질문하지 않을 경우이 확인란을 선택하십시오."
 		}
 	],
 	"helppages": [
@@ -9527,6 +9532,16 @@
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
 			"txt": "일반 어안 렌즈"
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true,
+			"txt": "OpenCL을 사용할 수 없습니다 : OpenCL 드라이버가 충돌했습니다. GPU 드라이버를 업데이트해야 할 수도 있습니다."
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"txt": "GPU 가속을 사용 중지해야하는지 여부를 시작시 묻지 마십시오."
 		}
 	]
 }

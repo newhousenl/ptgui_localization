@@ -6962,6 +6962,16 @@
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
 			"txt": "Lente de ojo de pez genérica"
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true,
+			"txt": "No se pudo habilitar OpenCL: el controlador de OpenCL se bloqueó. Es posible que necesite actualizar el controlador de GPU."
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"txt": "Nunca preguntes al inicio si la aceleración de GPU debería estar deshabilitada"
 		}
 	],
 	"tooltips": [
@@ -9389,6 +9399,11 @@
 			"machinetranslated": true,
 			"helptext": "Controla cómo el optimizador maneja los puntos de control @cptable.horizontalline@ y @cptable.verticalline@.",
 			"morehelptext": "<br><br>Los puntos de control del tipo '@cptable.horizontalline@' y '@cptable.verticalline@' se pueden usar para nivelar una panorámica. Se pueden agregar seleccionando el tipo correspondiente en el cuadro '@cptypetoadd@' en la pestaña @mainwindow.tabs.controlpoints@. Esta configuración solo se aplica a los tipos @cptable.horizontalline@ y @cptable.verticalline@, no a los puntos de control de tipo de línea genéricos.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> el optimizador ignorará los puntos de control @cptable.horizontalline@ y @cptable.verticalline@.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> el optimizador inicialmente solo usará los puntos de control regulares para alinear las imágenes. Luego, @panoeditor.menubar.edit.level@ se ejecutará como un paso separado. Esto rota y desplaza el panorama en su totalidad hasta que los puntos de control @cptable.horizontalline@ y @cptable.verticalline@ se alinean horizontal y verticalmente. Esta es la opción recomendada: los puntos de control @cptable.horizontalline@ y @cptable.verticalline@ solo se utilizarán para nivelar, no afectan la alineación de las imágenes ni los parámetros de la lente.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> el optimizador utiliza todos los puntos de control, incluidos los puntos de control @cptable.horizontalline@ y @cptable.verticalline@, para alinear las imágenes y determinar los parámetros de la lente. Utilice esta opción, por ejemplo, si está enderezando líneas horizontales y verticales en una sola imagen, y los parámetros de la lente deben ajustarse para lograr un enderezamiento perfecto."
+		},
+		{
+			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true,
+			"helptext": "Si se produce un bloqueo mientras se utiliza OpenCL, después de reiniciar PTGui le preguntará si la aceleración de GPU debe estar deshabilitada. Seleccione esta casilla de verificación si PTGui ya no debe preguntar esto."
 		}
 	],
 	"helppages": [

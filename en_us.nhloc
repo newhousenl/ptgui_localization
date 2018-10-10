@@ -3250,6 +3250,14 @@
     "txt": "GPU device:"
 },
 {
+    "id": "options.gpuacceleration.crashwhileloadingopencldll",
+    "txt": "Could not enable OpenCL: the OpenCL driver crashed. You may need to update the GPU driver."
+},
+{
+    "id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+    "txt": "Never ask at startup if GPU acceleration should be disabled"
+},
+{
     "id": "options.openclversion",
     "txt": "OpenCL version: %0.%1"
 },
@@ -7669,6 +7677,10 @@
             "id": "options.advanced.gpuacceleration.automaxvideoram",
             "helptext": "Let PTGui decide how much video RAM to use."
         },
+        {
+            "id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
+            "helptext": "If a crash occurs while OpenCL is used, after restarting PTGui will ask if GPU acceleration should be disabled. Select this checkbox if PTGui should no longer ask this."
+        },        
         {
             "id": "photometricsettings.optimizeexposure",
             "helptext": "Controls whether the exposure of individual source images will be adjusted, in order to minimize brightness differences between images.",

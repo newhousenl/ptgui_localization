@@ -2429,6 +2429,14 @@
 			"machinetranslated": true,
 			"helptext": "控制优化程序如何处理@cptable.horizontalline@和@cptable.verticalline@控制点。",
 			"morehelptext": "<br><br>“@cptable.horizontalline@”和“@cptable.verticalline@”类型的控制点可用于调平全景。可以通过在@mainwindow.tabs.controlpoints@选项卡的“@cptypetoadd@”框中选择相应的类型来添加它们。此设置仅适用于@cptable.horizontalline@和@cptable.verticalline@类型，而不适用于通用线型控制点。<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@：</b>优化器将忽略任何@cptable.horizontalline@和@cptable.verticalline@控制点。<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@：</b>优化器最初只使用常规控制点来对齐图像。然后，@panoeditor.menubar.edit.level@将作为单独的步骤运行。这样可以旋转并移动全景图，直到@cptable.horizontalline@和@cptable.verticalline@控制点水平和垂直对齐。这是推荐选项：@cptable.horizontalline@和@cptable.verticalline@控制点仅用于调平，它们不会影响图像的对齐或镜头参数。<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@：</b>优化器使用所有控制点（包括@cptable.horizontalline@和@cptable.verticalline@控制点）来对齐图像并确定镜头参数。使用此选项，例如，如果要在单个图像中拉直水平和垂直线条，则必须调整镜头参数以实现完美拉直。"
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true
 		}
 	],
 	"helppages": [

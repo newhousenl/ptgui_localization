@@ -2429,6 +2429,14 @@
 			"machinetranslated": true,
 			"helptext": "Contrôle la manière dont l'optimiseur gère les points de contrôle @cptable.horizontalline@ et @cptable.verticalline@.",
 			"morehelptext": "<br><br>Les points de contrôle de type &quot;@cptable.horizontalline@&quot; et &quot;@cptable.verticalline@&quot; peuvent être utilisés pour mettre à niveau un panorama. Ils peuvent être ajoutés en sélectionnant le type correspondant dans la zone '@cptypetoadd@' de l'onglet @mainwindow.tabs.controlpoints@. Ce paramètre s'applique uniquement aux types @cptable.horizontalline@ et @cptable.verticalline@, pas aux points de contrôle du type de ligne générique.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> l'optimiseur ignorera tous les points de contrôle @cptable.horizontalline@ et @cptable.verticalline@.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> Au début, l’optimiseur utilisera uniquement les points de contrôle habituels pour l’alignement des images. Ensuite, @panoeditor.menubar.edit.level@ sera exécuté séparément. Cela fait pivoter et déplace le panorama dans son ensemble jusqu'à ce que les points de contrôle @cptable.horizontalline@ et @cptable.verticalline@ soient alignés horizontalement et verticalement. C'est l'option recommandée: les points de contrôle @cptable.horizontalline@ et @cptable.verticalline@ seront uniquement utilisés pour la mise à niveau, ils n'affectent pas l'alignement des images ni les paramètres de l'objectif.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> l'optimiseur utilise tous les points de contrôle, y compris les points de contrôle @cptable.horizontalline@ et @cptable.verticalline@, pour aligner les images et déterminer les paramètres de l'objectif. Utilisez cette option, par exemple si vous redressez des lignes horizontales et verticales sur une seule image et si les paramètres de l’objectif doivent être ajustés pour obtenir un redressement parfait."
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true
 		}
 	],
 	"helppages": [

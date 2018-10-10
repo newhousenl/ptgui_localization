@@ -8007,6 +8007,14 @@
 			"machinetranslated": true,
 			"helptext": "Steuert, wie der Optimierer die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ behandelt.",
 			"morehelptext": "<br><br>Kontrollpunkte vom Typ '@cptable.horizontalline@' und '@cptable.verticalline@' können zum Ausgleichen eines Panoramas verwendet werden. Sie können hinzugefügt werden, indem Sie den entsprechenden Typ im Feld &quot;@cptypetoadd@&quot; auf der Registerkarte @mainwindow.tabs.controlpoints@ auswählen. Diese Einstellung gilt nur für die Typen @cptable.horizontalline@ und @cptable.verticalline@, nicht für die generischen Kontrollpunkte vom Typ Linientyp.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> Der Optimierer ignoriert alle @cptable.horizontalline@- und @cptable.verticalline@-Kontrollpunkte.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> Der Optimierer verwendet anfänglich nur die regulären Kontrollpunkte zum Ausrichten der Bilder. Dann wird @panoeditor.menubar.edit.level@ als separater Schritt ausgeführt. Dadurch wird das Panorama als Ganzes gedreht und verschoben, bis die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ horizontal und vertikal ausgerichtet sind. Dies ist die empfohlene Option: Die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ werden nur zum Nivellieren verwendet, sie haben keinen Einfluss auf die Ausrichtung der Bilder oder die Objektivparameter.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> Der Optimierer verwendet alle Kontrollpunkte, einschließlich der Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@, um die Bilder auszurichten und die Linsenparameter zu bestimmen. Verwenden Sie diese Option, wenn Sie z. B. horizontale und vertikale Linien in einem einzigen Bild begradigen, und die Linsenparameter müssen angepasst werden, um eine perfekte Ausrichtung zu erzielen."
+		},
+		{
+			"id": "options.gpuacceleration.crashwhileloadingopencldll",
+			"machinetranslated": true
+		},
+		{
+			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
+			"machinetranslated": true
 		}
 	],
 	"helppages": [

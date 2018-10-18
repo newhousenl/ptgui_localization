@@ -5609,7 +5609,7 @@
 		{
 			"id": "batchstitcher.askmergebatchlist",
 			"machinetranslated": true,
-			"txt": "Die aktuelle Chargenliste wurde noch nicht vollständig bearbeitet. Möchten Sie die aktuelle Chargenliste schließen und durch diese ersetzen? Oder sollen die Projekte aus dieser Chargenliste an die aktuelle Chargenliste angehängt werden?"
+			"txt": "Die aktuelle Batch-Liste wurde noch nicht vollständig bearbeitet. Möchten Sie die aktuelle Batch-Liste schließen und durch diese ersetzen? Oder sollen die Projekte aus dieser Batch-Liste an die aktuelle Batch-Liste angehängt werden?"
 		}
 	],
 	"tooltips": [

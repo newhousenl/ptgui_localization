@@ -3628,7 +3628,7 @@
 		},
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
-			"txt": "Wilt u de gegenereerde batchlijst nu naar de Batch Stitcher sturen? Als de Batch Stitcher momenteel actief is, zal dit de lijst met taken vervangen."
+			"txt": "Wilt u de gegenereerde batchlijst nu naar de Batch Stitcher sturen?"
 		},
 		{
 			"id": "batchbuilder.or",

@@ -3749,7 +3749,7 @@
 },
 {
     "id": "batchbuilder.asksendtobatchstitcher",
-    "txt": "Would you like to send the generated batch list to the Batch Stitcher now? If the Batch Stitcher is currently active, this will replace the list of jobs."
+    "txt": "Would you like to send the generated batch list to the Batch Stitcher now?"
 },
 {
     "id": "batchbuilder.or",

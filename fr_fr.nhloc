@@ -4510,7 +4510,7 @@
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
 			"machinetranslated": true,
-			"txt": "Souhaitez-vous envoyer la liste de lots générée au programme Stitcher par lots maintenant? Si le traitement par lots est actuellement actif, cela remplacera la liste des travaux."
+			"txt": "Souhaitez-vous envoyer la liste de lots générée au programme Stitcher par lots maintenant?"
 		},
 		{
 			"id": "batchbuilder.or",

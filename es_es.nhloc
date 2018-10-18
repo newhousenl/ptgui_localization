@@ -4495,7 +4495,7 @@
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
 			"machinetranslated": true,
-			"txt": "¿Desea enviar la lista de lotes generados a Sticher por lotes ahora? Si Sticher por lotes está actualmente activo, esto reemplazará la lista de trabajos."
+			"txt": "¿Desea enviar la lista de lotes generados a Sticher por lotes ahora?"
 		},
 		{
 			"id": "batchbuilder.or",

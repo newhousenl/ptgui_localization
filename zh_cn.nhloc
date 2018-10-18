@@ -4511,7 +4511,7 @@
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
 			"machinetranslated": true,
-			"txt": "您是否要立即将生成的批次列表发送到批处理器？如果批处理器当前处于活动状态，则会替换作业列表。"
+			"txt": "您是否要立即将生成的批次列表发送到批处理器？"
 		},
 		{
 			"id": "batchbuilder.or",

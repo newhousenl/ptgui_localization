@@ -3641,7 +3641,7 @@
 		},
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
-			"txt": "Möchten Sie die generierte BatchListe jetzt an den Batch-Stitcher senden? Wenn der Batch-Stitcher gerade aktiv ist, ersetzt dies die Liste der Jobs."
+			"txt": "Möchten Sie die generierte BatchListe jetzt an den Batch-Stitcher senden?"
 		},
 		{
 			"id": "batchbuilder.or",

@@ -5594,6 +5594,26 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "Vraag nooit bij het opstarten of GPU-versnelling moet worden uitgeschakeld"
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": true,
+			"txt": "Batchlijst toevoegen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.replace",
+			"machinetranslated": true,
+			"txt": "Vervangen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.append",
+			"machinetranslated": true,
+			"txt": "Toevoegen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist",
+			"machinetranslated": true,
+			"txt": "De huidige batchlijst is nog niet volledig verwerkt. Wilt u de huidige batchlijst sluiten en vervangen door deze? Of moeten de projecten uit deze batchlijst aan de huidige batchlijst worden toegevoegd?"
 		}
 	],
 	"tooltips": [

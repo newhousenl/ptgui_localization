@@ -1220,6 +1220,10 @@
     "txtfortranslate": "To load Batch List"
 },
 {
+    "id": "batchstitcher.menubar.appendbatchlist",
+    "txt": "Append Batch List"
+},
+{
     "id": "batchstitcher.menubar.recentbatchlists",
     "txt": "Recent Batch Lists"
 },
@@ -3870,6 +3874,18 @@
 {
     "id": "batchstitcher.log",
     "txt": "Log:"
+},
+{
+    "id": "batchstitcher.askmergebatchlist.replace",
+    "txt": "Replace"
+},
+{
+    "id": "batchstitcher.askmergebatchlist.append",
+    "txt": "Append"
+},
+{
+    "id": "batchstitcher.askmergebatchlist",
+    "txt": "The current batch list has not yet been completely processed. Do you want to close the current batch list and replace it with this one? Or should the projects from this batch list be appended to the current batch list?"
 },
 {
     "id": "blendplaneselector.heading",

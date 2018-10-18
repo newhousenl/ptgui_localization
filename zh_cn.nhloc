@@ -6973,6 +6973,26 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "永远不要在启动时询问是否应禁用GPU加速"
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": true,
+			"txt": "附加批次列表"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.replace",
+			"machinetranslated": true,
+			"txt": "更换"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.append",
+			"machinetranslated": true,
+			"txt": "附加"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist",
+			"machinetranslated": true,
+			"txt": "当前批次列表尚未完全处理。是否要关闭当前批次列表并将其替换为此列表？或者，此批次列表中的项目是否应附加到当前批次列表？"
 		}
 	],
 	"tooltips": [

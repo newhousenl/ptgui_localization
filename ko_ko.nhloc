@@ -6973,6 +6973,26 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "GPU 가속을 사용 중지해야하는지 여부를 시작시 묻지 마십시오."
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": true,
+			"txt": "배치 목록 추가"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.replace",
+			"machinetranslated": true,
+			"txt": "바꾸다"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.append",
+			"machinetranslated": true,
+			"txt": "추가"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist",
+			"machinetranslated": true,
+			"txt": "현재 일괄 처리 목록이 아직 완전히 처리되지 않았습니다. 현재 일괄 처리 목록을 닫고이 일괄 처리 목록으로 바꾸시겠습니까? 또는이 일괄 처리 목록의 프로젝트를 현재 일괄 처리 목록에 추가해야합니까?"
 		}
 	],
 	"tooltips": [

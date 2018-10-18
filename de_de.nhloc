@@ -5590,6 +5590,26 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "Fragen Sie niemals beim Start, ob die GPU-Beschleunigung deaktiviert werden soll"
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": true,
+			"txt": "Batch-Liste anhängen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.replace",
+			"machinetranslated": true,
+			"txt": "Ersetzen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.append",
+			"machinetranslated": true,
+			"txt": "Anhängen"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist",
+			"machinetranslated": true,
+			"txt": "Die aktuelle Chargenliste wurde noch nicht vollständig bearbeitet. Möchten Sie die aktuelle Chargenliste schließen und durch diese ersetzen? Oder sollen die Projekte aus dieser Chargenliste an die aktuelle Chargenliste angehängt werden?"
 		}
 	],
 	"tooltips": [

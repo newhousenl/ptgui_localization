@@ -6972,6 +6972,26 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "Nunca pergunte na inicialização se a aceleração da GPU deve ser desativada"
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": true,
+			"txt": "Anexar lista de lotes"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.replace",
+			"machinetranslated": true,
+			"txt": "Substituir"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist.append",
+			"machinetranslated": true,
+			"txt": "Anexar"
+		},
+		{
+			"id": "batchstitcher.askmergebatchlist",
+			"machinetranslated": true,
+			"txt": "A lista de lotes atual ainda não foi completamente processada. Deseja fechar a lista de lotes atual e substituí-la por esta? Ou os projetos dessa lista de lotes devem ser anexados à lista de lotes atual?"
 		}
 	],
 	"tooltips": [

@@ -5996,7 +5996,7 @@
 		{
 			"id": "projectassistant.loadimages",
 			"machinetranslated": true,
-			"helptext": "Laden Sie die Quellbilder für das Panorama.",
+			"helptext": "Quellbilder laden für das Panorama.",
 			"morehelptext": "<br><br>PTGui kann Panoramen zusammenfügen, die aus mehreren Reihen von Bildern bestehen. Laden Sie einfach alle Ihre Quellbilder auf einmal, PTGui wird herausfinden, auf welche Weise sie sich überschneiden.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{

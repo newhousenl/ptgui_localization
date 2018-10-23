@@ -2170,7 +2170,7 @@
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.lenstype",
-			"txt": "Objektivtyp"
+			"txt": "Objektiv"
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.shift",

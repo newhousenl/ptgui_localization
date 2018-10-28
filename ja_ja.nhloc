@@ -319,7 +319,7 @@
 		},
 		{
 			"id": "menubar.file.export",
-			"txt": "エキスポート"
+			"txt": "エクスポート"
 		},
 		{
 			"id": "menubar.file.export.ptgui10project",

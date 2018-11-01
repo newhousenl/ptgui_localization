@@ -4188,7 +4188,7 @@
 		{
 			"id": "txt.trialversion",
 			"machinetranslated": true,
-			"txt": "versão de teste"
+			"txt": "versão de avaliação"
 		},
 		{
 			"id": "txt.licensedto",
@@ -6322,7 +6322,7 @@
 		{
 			"id": "trialversion.title",
 			"machinetranslated": true,
-			"txt": "Versão de teste"
+			"txt": "Versão de avaliação"
 		},
 		{
 			"id": "trialversion.buyptgui",
@@ -6936,7 +6936,7 @@
 			"id": "trialversion.txt",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<font size=2>%0 versão de avaliação</font><br><br>Esta é uma versão de avaliação gratuita do software de imagem panorâmica %0. Esta versão de avaliação permite que você avalie o software e tenha as seguintes limitações<br><br>- os panoramas gerados conterão uma marca d'água visível &quot;www.ptgui.com&quot;<br>- arquivos de projeto da versão de avaliação só podem ser lidos pelo PTGui; exportar para outros aplicativos não é possível.<br><br>Exceto pelas limitações acima, a versão de teste é totalmente funcional. As limitações do teste podem ser removidas com a compra de uma licença. Sua compra suporta o desenvolvimento futuro do PTGui! Clique no botão @trialversion.buyptgui@ para mais informações.<br><br><b>Obrigado por experimentar o %0!</b>"
+			"txt": "<font size=2>%0 versão de avaliação</font><br><br>Esta é uma versão de avaliação gratuita do software de imagem panorâmica %0. Esta versão de avaliação permite que você avalie o software e tenha as seguintes limitações<br><br>- os panoramas gerados conterão uma marca d'água visível &quot;www.ptgui.com&quot;<br>- arquivos de projeto da versão de avaliação só podem ser lidos pelo PTGui; exportar para outros aplicativos não é possível.<br><br>Exceto pelas limitações acima, a versão de avaliação é totalmente funcional. As limitações do teste podem ser removidas com a compra de uma licença. Sua compra suporta o desenvolvimento futuro do PTGui! Clique no botão @trialversion.buyptgui@ para mais informações.<br><br><b>Obrigado por experimentar o %0!</b>"
 		},
 		{
 			"id": "gridsetup.order",

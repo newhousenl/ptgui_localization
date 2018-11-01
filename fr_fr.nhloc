@@ -4213,7 +4213,7 @@
 		{
 			"id": "txt.trialversion",
 			"machinetranslated": true,
-			"txt": "Version d'essai"
+			"txt": "Version d'évaluation"
 		},
 		{
 			"id": "txt.licensedto",
@@ -6357,7 +6357,7 @@
 		{
 			"id": "trialversion.title",
 			"machinetranslated": true,
-			"txt": "Version d'essai"
+			"txt": "Version d'évaluation"
 		},
 		{
 			"id": "trialversion.buyptgui",
@@ -6931,7 +6931,7 @@
 			"id": "trialversion.txt",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<font size=2>%0 Version d'évaluation</font><br><br>Ceci est une version d'essai gratuite du logiciel d'imagerie panoramique %0. Cette version d’essai vous permet d’évaluer le logiciel et présente les limitations suivantes<br><br>- les panoramas générés contiendront un filigrane visible 'www.ptgui.com'<br>- les fichiers de projet de la version d'essai ne peuvent être lus que par PTGui; exporter vers d'autres applications n'est pas possible.<br><br>À l'exception des limitations ci-dessus, la version d'évaluation est entièrement fonctionnelle. Les limitations d'essai peuvent être supprimées en achetant une licence. Votre achat soutient le développement futur de PTGui! Cliquez sur le bouton @trialversion.buyptgui@ pour plus d'informations.<br><br><b>Merci d'avoir essayé %0!</b>"
+			"txt": "<font size=2>%0 Version d'évaluation</font><br><br>Ceci est une version d'évaluation gratuite du logiciel d'imagerie panoramique %0. Cette version d’évaluation vous permet d’évaluer le logiciel et présente les limitations suivantes<br><br>- les panoramas générés contiendront un filigrane visible 'www.ptgui.com'<br>- les fichiers de projet de la version d'évaluation ne peuvent être lus que par PTGui; exporter vers d'autres applications n'est pas possible.<br><br>À l'exception des limitations ci-dessus, la version d'évaluation est entièrement fonctionnelle. Les limitations d'évaluation peuvent être supprimées en achetant une licence. Votre achat soutient le développement futur de PTGui! Cliquez sur le bouton @trialversion.buyptgui@ pour plus d'informations.<br><br><b>Merci d'avoir essayé %0!</b>"
 		},
 		{
 			"id": "gridsetup.order",

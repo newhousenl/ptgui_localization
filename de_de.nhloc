@@ -136,15 +136,15 @@
 		},
 		{
 			"id": "yaw",
-			"txt": "gierwinkel"
+			"txt": "Gierwinkel"
 		},
 		{
 			"id": "pitch",
-			"txt": "nickwinkel"
+			"txt": "Nickwinkel"
 		},
 		{
 			"id": "roll",
-			"txt": "rollwinkel"
+			"txt": "Rollwinkel"
 		},
 		{
 			"id": "pan",
@@ -220,7 +220,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.createpanorama",
-			"txt": "Panorama Erstellen"
+			"txt": "Panorama erstellen"
 		},
 		{
 			"id": "menubar.file",
@@ -232,11 +232,11 @@
 		},
 		{
 			"id": "menubar.file.openproject",
-			"txt": "Projekt Öffnen"
+			"txt": "Projekt öffnen"
 		},
 		{
 			"id": "txt.openpapywizardfile",
-			"txt": "Papywizard-Datei Öffnen"
+			"txt": "Papywizard-Datei öffnen"
 		},
 		{
 			"id": "txt.savepanorama",
@@ -252,11 +252,11 @@
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"txt": "Kamera-Reaktionskurve Laden"
+			"txt": "Kamera-Reaktionskurve laden"
 		},
 		{
 			"id": "txt.savevignettingcurve",
-			"txt": "Vignettierungskurve Speichern"
+			"txt": "Vignettierungskurve speichern"
 		},
 		{
 			"id": "txt.loadvignettingcurve",
@@ -280,7 +280,7 @@
 		},
 		{
 			"id": "txt.openpanorama",
-			"txt": "Panorama Öffnen"
+			"txt": "Panorama öffnen"
 		},
 		{
 			"id": "txt.supportedformats",
@@ -328,7 +328,7 @@
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"txt": "Standard Machen"
+			"txt": "Vorgabe erstellen"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -436,7 +436,7 @@
 		},
 		{
 			"id": "menubar.view.exitfullscreen",
-			"txt": "Vollbildmodus Beenden"
+			"txt": "Vollbildmodus beenden"
 		},
 		{
 			"id": "menubar.images",

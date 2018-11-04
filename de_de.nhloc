@@ -328,7 +328,7 @@
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"txt": "Vorgabe erstellen"
+			"txt": "Standard machen"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -432,7 +432,7 @@
 		},
 		{
 			"id": "menubar.view.enterfullscreen",
-			"txt": "Vollbildmodus Aktivieren"
+			"txt": "Vollbildmodus aktivieren"
 		},
 		{
 			"id": "menubar.view.exitfullscreen",
@@ -536,7 +536,7 @@
 		},
 		{
 			"id": "panoramaeditor.menubar.editindividualimages",
-			"txt": "Einzelne Bilder Bearbeiten"
+			"txt": "Einzelne Bilder bearbeiten"
 		},
 		{
 			"id": "panoramaeditor.menubar.editpano",
@@ -692,15 +692,15 @@
 		},
 		{
 			"id": "panoeditor.menubar.setcenter",
-			"txt": "Mittelpunkt Einstellen"
+			"txt": "Mittelpunkt einstellen"
 		},
 		{
 			"id": "panoeditor.menubar.mouseover",
-			"txt": "Das Bild unter dem Mauszeiger Wählen"
+			"txt": "Das Bild unter dem Mauszeiger wählen"
 		},
 		{
 			"id": "panoeditor.menubar.blended",
-			"txt": "Gemischte Panorama anzeigen"
+			"txt": "Gemischtes Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
@@ -864,7 +864,7 @@
 		},
 		{
 			"id": "createpanorama",
-			"txt": "Panorama Erstellen"
+			"txt": "Panorama erstellen"
 		},
 		{
 			"id": "menubar.project.saveandsendtobatchstitcher",
@@ -1056,11 +1056,11 @@
 		},
 		{
 			"id": "menubar.images.includeonlyunselected",
-			"txt": "Alle außer ausgewählten Bildern einschließen"
+			"txt": "Alle außer ausgewählte Bilder einschließen"
 		},
 		{
 			"id": "menubar.images.removeexcluded",
-			"txt": "Ausgeschlossenen Bilder entfernen"
+			"txt": "Ausgeschlossene Bilder entfernen"
 		},
 		{
 			"id": "menubar.images.sort",
@@ -1229,7 +1229,7 @@
 		{
 			"id": "mainwindow.projectassistant.txtcircularcrop",
 			"format": "html",
-			"txt": "Eine kreisförmige Fischaugenobjektiv wird verwendet. Stellen Sie sicher, dass der Beschneidungskreis in der <a href=0>Registerkarte @mainwindow.tabs.crop@</a> dem tatsächlichen Bildkreis entspricht."
+			"txt": "Ein kreisförmiges Fischaugenobjektiv wird verwendet. Stellen Sie sicher, dass der Beschneidungskreis in der <a href=0>Registerkarte @mainwindow.tabs.crop@</a> dem tatsächlichen Bildkreis entspricht."
 		},
 		{
 			"id": "mainwindow.projectassistant.runalignimagesagain",
@@ -1486,19 +1486,19 @@
 		},
 		{
 			"id": "mainwindow.croptab.left",
-			"txt": "Links:"
+			"txt": "links:"
 		},
 		{
 			"id": "mainwindow.croptab.right",
-			"txt": "Recht:"
+			"txt": "rechts:"
 		},
 		{
 			"id": "mainwindow.croptab.top",
-			"txt": "Oben:"
+			"txt": "oben:"
 		},
 		{
 			"id": "mainwindow.croptab.bottom",
-			"txt": "Unten:"
+			"txt": "unten:"
 		},
 		{
 			"id": "mainwindow.croptab.width",
@@ -1642,7 +1642,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.runoptimizer",
-			"txt": "Optimierer Ausführen"
+			"txt": "Optimierer ausführen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrsection",
@@ -1738,7 +1738,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapsettings",
-			"txt": "Tone Mapping einstellungen"
+			"txt": "Tone Mapping Einstellungen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warningmixhdrldr",
@@ -1862,7 +1862,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.createpanorama",
-			"txt": "Panorama Erstellen"
+			"txt": "Panorama erstellen"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.stitchonlyifenoughcontrolpoints",
@@ -2094,11 +2094,11 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.lenstype",
-			"txt": "Objectivtyp"
+			"txt": "Objektivtyp"
 		},
 		{
 			"id": "mainwindow.imageparameters.hfov",
-			"txt": "Horz Sichtfeld"
+			"txt": "Horizontales Sichtfeld"
 		},
 		{
 			"id": "mainwindow.imageparameters.focallength",
@@ -2360,7 +2360,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usedefault",
-			"txt": "Standard Verwenden "
+			"txt": "Standard verwenden "
 		},
 		{
 			"id": "mainwindow.createpanoramatab.view",
@@ -2628,23 +2628,23 @@
 		},
 		{
 			"id": "cubefacenaming.right",
-			"txt": "Recht:"
+			"txt": "rechts:"
 		},
 		{
 			"id": "cubefacenaming.back",
-			"txt": "Hinten:"
+			"txt": "hinten:"
 		},
 		{
 			"id": "cubefacenaming.left",
-			"txt": "Links:"
+			"txt": "links:"
 		},
 		{
 			"id": "cubefacenaming.top",
-			"txt": "Oben:"
+			"txt": "oben:"
 		},
 		{
 			"id": "cubefacenaming.bottom",
-			"txt": "Unter:"
+			"txt": "unten:"
 		},
 		{
 			"id": "philosphere.heading",
@@ -2885,11 +2885,11 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.secondsbetweenshots",
-			"txt": "sekunden zwischen den Aufnahmen"
+			"txt": "Sekunden zwischen den Aufnahmen"
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
-			"txt": "Verwende original-Aufnahmedatum / -zeit aus EXIF-Daten"
+			"txt": "Verwende Original-Aufnahmedatum / -zeit aus EXIF-Daten"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
@@ -3026,7 +3026,7 @@
 		},
 		{
 			"id": "options.cpeditor.resetcptabwhenswitchingimages",
-			"txt": "'@cptypetoadd@' zurücksetzen, wenn zu anderen Bildern gewechseld wird"
+			"txt": "'@cptypetoadd@' zurücksetzen, wenn zu anderen Bildern gewechselt wird"
 		},
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
@@ -3286,7 +3286,7 @@
 		},
 		{
 			"id": "licenseinfo.failure",
-			"txt": "Fehler beim Aktivieren der Lizenz Möglicherweise befindet sich Ihr Computer hinter einer Firewall oder Internetsicherheitssoftware verhindert den Zugriff auf den Aktivierungsserver.\n\nWenn das Problem weiterhin besteht, verwenden Sie stattdessen die Offline-Aktivierung: Nach dem Schließen dieses Fensters drücken Sie @activateoffline@.\n\nFehlermeldung: %0"
+			"txt": "Fehler beim Aktivieren der Lizenz. Möglicherweise befindet sich Ihr Computer hinter einer Firewall oder Internetsicherheitssoftware verhindert den Zugriff auf den Aktivierungsserver.\n\nWenn das Problem weiterhin besteht, verwenden Sie stattdessen die Offline-Aktivierung: Nach dem Schließen dieses Fensters drücken Sie @activateoffline@.\n\nFehlermeldung: %0"
 		},
 		{
 			"id": "licenseinfo.deactivationfailed",
@@ -3445,7 +3445,7 @@
 		},
 		{
 			"id": "txt.unknownormanuallens",
-			"txt": "Unbekannte oder manuelle Objektiv"
+			"txt": "Unbekanntes oder manuelles Objektiv"
 		},
 		{
 			"id": "txt.genericfisheye",
@@ -3477,7 +3477,7 @@
 		},
 		{
 			"id": "err.blenderfailednooutput",
-			"txt": "%0 ist fehlgeschlagen: irgendwie wurde die Ausgabedatei nicht generiert. Dies könnte auf einen Mangel an Speicherplatz oder Speicherplatz zurückzuführen sein. Bitte versuchen Sie, mit einer geringeren Ausgabegröße zusammen zu fugen."
+			"txt": "%0 ist fehlgeschlagen: irgendwie wurde die Ausgabedatei nicht generiert. Dies könnte auf einen Mangel an Speicherplatz oder Speicherplatz zurückzuführen sein. Bitte versuchen Sie, mit einer geringeren Ausgabegröße zusammen zu fügen."
 		},
 		{
 			"id": "err.invalidvalue",
@@ -3900,7 +3900,7 @@
 		{
 			"id": "cpassistant.shouldaddcps",
 			"format": "html",
-			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama ist noch nicht bereit zum zusammenfügen. Wechseln Sie zur <a href=0>Registerkarte @mainwindow.tabs.controlpoints@,</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
+			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama ist noch nicht bereit zum Zusammenfügen. Wechseln Sie zur <a href=0>Registerkarte @mainwindow.tabs.controlpoints@,</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
 		},
 		{
 			"id": "cpassistant.nocontrolpoints",
@@ -4077,7 +4077,7 @@
 		},
 		{
 			"id": "focallengthdialog.regularlens",
-			"txt": "Normale Objektiv (kein Fischauge)"
+			"txt": "Normales Objektiv (kein Fischauge)"
 		},
 		{
 			"id": "focallengthdialog.caption",
@@ -4101,7 +4101,7 @@
 		},
 		{
 			"id": "focallengthdialog.choosepreset.normal",
-			"txt": "Normale Objektiv"
+			"txt": "Normales Objektiv"
 		},
 		{
 			"id": "focallengthdialog.choosepreset.wide",
@@ -5342,11 +5342,11 @@
 		},
 		{
 			"id": "gridsetup.leftmostyawangle",
-			"txt": "Am weitesten linkse @yaw@:"
+			"txt": "Am weitesten links @yaw@:"
 		},
 		{
 			"id": "gridsetup.rightmostyawangle",
-			"txt": "Ganz rechtse @yaw@:"
+			"txt": "Ganz rechts @yaw@:"
 		},
 		{
 			"id": "gridsetup.spacing",
@@ -5459,7 +5459,7 @@
 		},
 		{
 			"id": "qtvrsettings.cubefacesize",
-			"txt": "Würfelfläche größe:"
+			"txt": "Würfelfläche Größe:"
 		},
 		{
 			"id": "qtvrsettings.initial",
@@ -5657,7 +5657,7 @@
 		{
 			"id": "mainwindow.maskmenu.red",
 			"machinetranslated": true,
-			"helptext": "Malen mit rot. Die rot gemalten Bereiche werden im gemischten Panorama nicht verwendet."
+			"helptext": "Malen mit Rot. Die rot gemalten Bereiche werden im gemischten Panorama nicht verwendet."
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
@@ -5927,7 +5927,7 @@
 			"id": "mainwindow.toolbar.saveproject",
 			"machinetranslated": true,
 			"label": "@menubar.file.saveproject@",
-			"helptext": "Speichern Sie das aktuelle PTGui-Projekt auf der Festplatte. Auf diese Weise können Sie weiter an dem Panorama arbeiten, an dem Sie aufgehört haben.<br><br>Beachten Sie, dass das tatsächliche Panorama nicht gespeichert wird. Verwenden Sie die @mainwindow.createpanoramatab.createpanorama@-Funktion zum Zusammengefüg des Panoramabildes."
+			"helptext": "Speichern Sie das aktuelle PTGui-Projekt auf der Festplatte. Auf diese Weise können Sie weiter an dem Panorama arbeiten, an dem Sie aufgehört haben.<br><br>Beachten Sie, dass das tatsächliche Panorama nicht gespeichert wird. Verwenden Sie die @mainwindow.createpanoramatab.createpanorama@-Funktion zum Zusammengefügen des Panoramabildes."
 		},
 		{
 			"id": "mainwindow.toolbar.undo",
@@ -6014,7 +6014,7 @@
 		{
 			"id": "projectassistant.rotatecw",
 			"machinetranslated": true,
-			"label": "Im Uhrzeiger sinn drehen",
+			"label": "Im Uhrzeigersinn drehen",
 			"helptext": "Drehe alle Bilder im Uhrzeigersinn. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
 		},
 		{

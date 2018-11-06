@@ -3,7 +3,9 @@
 	"line_endings": "unix",
 	"startupmsg": null,
 	"languagenamelocalized": "日本語",
-    "contributors": ["Panoramania Inc."],
+	"contributors": [
+		"Panoramania Inc."
+	],
 	"strings": [
 		{
 			"id": "txt.improvetranslation",

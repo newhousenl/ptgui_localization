@@ -3445,15 +3445,15 @@
 		},
 		{
 			"id": "txt.unknownormanuallens",
-			"txt": "Unbekanntes oder manuelles Objektiv"
+			"txt": "unbekanntes oder manuelles Objektiv"
 		},
 		{
 			"id": "txt.genericfisheye",
-			"txt": "Generisches Fischauge"
+			"txt": "generisches Fischauge"
 		},
 		{
 			"id": "txt.genericxfisheye",
-			"txt": "Generisches %0 Fischauge"
+			"txt": "generisches %0 Fischauge"
 		},
 		{
 			"id": "txt.runningx",
@@ -5569,17 +5569,17 @@
 		{
 			"id": "txt.unknown",
 			"machinetranslated": true,
-			"txt": "Unbekannt"
+			"txt": "unbekannt"
 		},
 		{
 			"id": "txt.genericrectilinearlens",
 			"machinetranslated": true,
-			"txt": "Generische geradlinige Linse"
+			"txt": "generische geradlinige Linse"
 		},
 		{
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
-			"txt": "Generisches Fisheye-Objektiv"
+			"txt": "generisches Fisheye-Objektiv"
 		},
 		{
 			"id": "options.gpuacceleration.crashwhileloadingopencldll",

@@ -3204,7 +3204,7 @@
 		},
 		{
 			"id": "licenseinfo.personal.multipleecomputers",
-			"txt": "Sie verwenden eine persönliche Lizenz. Es kann auf bis zu %1 Computern aktiviert werden, aber PTGui darf nur von %0 auf diesen Computern verwendet werden."
+			"txt": "Sie verwenden eine persönliche Lizenz. PTGUi kann auf bis zu %1 Computern aktiviert werden, aber es darf nur von %0 auf diesen Computern verwendet werden."
 		},
 		{
 			"id": "licenseinfo.company.singlecomputer",

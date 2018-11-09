@@ -1,7 +1,9 @@
 {
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
-	"contributors": [],
+	"contributors": [
+		"Harald Bendschneider"
+	],
 	"languagenamelocalized": "Deutsch",
 	"startupmsg": "Diese deutsche Version von PTGui wurde von einem Computerübersetzungssystem aus dem Englischen ins Deutsche übersetzt. Die Übersetzung ist vielleicht nicht perfekt, aber wir hoffen, dass es verständlich ist. Bei Bedarf können Sie auf die ursprüngliche englische Übersetzung in %0 wechseln.\n\nWenn Sie interessiert sind, helfen Sie uns bitte PTGui zu verbessern, indem Sie Fehler in der deutschen Übersetzung korrigieren. Weitere Informationen finden Sie unter '@help@ - @txt.improvetranslation@'.",
 	"strings": [
@@ -2364,7 +2366,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.view",
-			"txt": "Ansehen"
+			"txt": "Anzeigen"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.errnooutputfileselected",

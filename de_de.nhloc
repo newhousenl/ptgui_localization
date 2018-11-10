@@ -6027,7 +6027,7 @@
 		{
 			"id": "projectassistant.alignimages",
 			"machinetranslated": true,
-			"helptext": "Richte das Panorama ein.",
+			"helptext": "Richte das Panorama aus.",
 			"morehelptext": "<br><br>PTGui analysiert zuerst alle Bilder und platziert Kontrollpunkte auf identischen Merkmalen über Bilder hinweg. Als nächstes werden die Kontrollpunkte vom Optimierer zum Ausrichten der Bilder verwendet. PTGui wählt auch eine geeignete Projektion für das Panorama und passt das Sichtfeld an.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{

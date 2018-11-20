@@ -51,12 +51,12 @@
 		{
 			"id": "txt.savebutton",
 			"machinetranslated": true,
-			"txt": "&Salvar"
+			"txt": "&Guardar"
 		},
 		{
 			"id": "txt.dontsavebutton",
 			"machinetranslated": true,
-			"txt": "Y &no salvar"
+			"txt": "&No Guardar"
 		},
 		{
 			"id": "txt.nobutton",
@@ -112,7 +112,7 @@
 			"id": "txt.finderorexplorer",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<optional platform='windows'>Explorador de Windows</optional><optional platform='mac'>Descubridor</optional>"
+			"txt": "<optional platform='windows'>Explorador de Windows</optional><optional platform='mac'>Finder</optional>"
 		},
 		{
 			"id": "txt.tb",

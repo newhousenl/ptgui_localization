@@ -302,7 +302,7 @@
 		},
 		{
 			"id": "menubar.file.import",
-			"txt": "Einführen"
+			"txt": "Import"
 		},
 		{
 			"id": "menubar.file.saveproject",

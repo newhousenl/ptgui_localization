@@ -5659,7 +5659,7 @@
 		{
 			"id": "mainwindow.maskmenu.red",
 			"machinetranslated": true,
-			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im überblendetes Panorama nicht verwendet."
+			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im überblendeten Panorama nicht verwendet."
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
@@ -6762,7 +6762,7 @@
 		{
 			"id": "createpanoramatab.components.blended",
 			"machinetranslated": true,
-			"helptext": "Speichere das überblendetes Panorama."
+			"helptext": "Speichere das überblendete Panorama."
 		},
 		{
 			"id": "createpanoramatab.components.ldrlayers",

@@ -702,11 +702,11 @@
 		},
 		{
 			"id": "panoeditor.menubar.blended",
-			"txt": "Blended Panorama anzeigen"
+			"txt": "Überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
-			"txt": "Unblended Panorama anzeigen"
+			"txt": "Nicht-überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
@@ -1775,7 +1775,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
-			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein blended Panorama. Schließlich werden die %0 blended Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
+			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein überblendetes Panorama. Schließlich werden die %0 überblendete Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
@@ -2446,7 +2446,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendedpanorama",
-			"txt": "Blended Panorama"
+			"txt": "Überblendetes Panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputfileprefix",
@@ -2466,7 +2466,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing",
-			"txt": "Blenden mit:"
+			"txt": "Überblenden mit:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing.enblend",
@@ -5659,7 +5659,7 @@
 		{
 			"id": "mainwindow.maskmenu.red",
 			"machinetranslated": true,
-			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im blended Panorama nicht verwendet."
+			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im überblendetes Panorama nicht verwendet."
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
@@ -6312,7 +6312,7 @@
 			"id": "cptoolbar.showmask",
 			"machinetranslated": true,
 			"label": "@menubar.controlpoints.showmask@",
-			"helptext": "Blenden Sie die Masken ein oder aus (wie auf der Registerkarte @mainwindow.tabs.mask@ eingestellt)."
+			"helptext": "Blendet die Masken ein oder aus (wie auf der Registerkarte @mainwindow.tabs.mask@ eingestellt)."
 		},
 		{
 			"id": "cptab.cptypetoadd",
@@ -6704,7 +6704,7 @@
 			"id": "createpanoramatab.ldrfileformat",
 			"machinetranslated": true,
 			"helptext": "Dateiformat für das zusammengesetzte Panorama. <optional product='pro'>Bei HDR-Panoramen das Dateiformat, das für die Tone-Mapped-Ausgabe verwendet werden soll.</optional>",
-			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikbereich (8 Bit pro Kanal). Transparenz wird nicht unterstützt: Leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität Geeignet für das Web-Publishing. Wenn das Bild gedruckt oder in einem Bildeditor nachbearbeitet wird, ist es besser, eines der anderen Formate mit 16 Bit pro Kanal zu verwenden.<br><br><b>TIFF:</b> ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit Gleitkomma-TIFF unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF unterstützt dies 8 und 16 Bit pro Kanal Ausgabe <optional product='pro'>(und 32-Bit Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das blended Panorama und verzogene Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. Im Allgemeinen sollte .psb verwendet werden, das keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten: Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als Legacy-Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von @menubar.tools@ | @menubar.tools.publishtowebsite@ ein zusammengefügt Panorama auf einer HTML5-Webseite veröffentlichen."
+			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikbereich (8 Bit pro Kanal). Transparenz wird nicht unterstützt: Leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität Geeignet für das Web-Publishing. Wenn das Bild gedruckt oder in einem Bildeditor nachbearbeitet wird, ist es besser, eines der anderen Formate mit 16 Bit pro Kanal zu verwenden.<br><br><b>TIFF:</b> ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit Gleitkomma-TIFF unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF unterstützt dies 8 und 16 Bit pro Kanal Ausgabe <optional product='pro'>(und 32-Bit Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das überblendetes Panorama und verzogene Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. Im Allgemeinen sollte .psb verwendet werden, das keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten: Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als Legacy-Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von @menubar.tools@ | @menubar.tools.publishtowebsite@ ein zusammengefügt Panorama auf einer HTML5-Webseite veröffentlichen."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -6715,7 +6715,7 @@
 			"id": "createpanoramatab.hdrfileformat",
 			"machinetranslated": true,
 			"helptext": "Dateiformat für die HDR-Ausgabe.",
-			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikbereich der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32 Bit pro Kanal Gleitkomma mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF, Gleitkomma 32 Bit pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das blended HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. Im Allgemeinen sollte das .psb-Format verwendet werden, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann 16-Bit-Gleitkommabilder mit halber Fließrichtung und 32 Bit pro Kanal erzeugen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist das Industriestandardformat für HDR-Bilder.<br><br><b>HDR Radiance:</b> ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot / Grün / Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann bestimmte gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
+			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikbereich der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32 Bit pro Kanal Gleitkomma mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF, Gleitkomma 32 Bit pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das überblendetes HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. Im Allgemeinen sollte das .psb-Format verwendet werden, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann 16-Bit-Gleitkommabilder mit halber Fließrichtung und 32 Bit pro Kanal erzeugen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist das Industriestandardformat für HDR-Bilder.<br><br><b>HDR Radiance:</b> ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot / Grün / Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann bestimmte gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
 		},
 		{
 			"id": "createpanoramatab.hdrfileformatsettings",
@@ -6726,7 +6726,7 @@
 			"id": "createpanoramatab.outputfile",
 			"machinetranslated": true,
 			"helptext": "Der Dateiname, unter dem das Panorama gespeichert wird.",
-			"morehelptext": "<br><br>Wenn ausgegraut, wird der Standarddateiname verwendet. Wählen Sie '@mainwindow.createpanoramatab.usedefault@', um zum Standarddateinamen zurückzukehren. <optional product='pro'>Die Standard-Dateibenennung kann auf der Registerkarte @mainwindow.tabs.projectsettings@ im Abschnitt '@mainwindow.projectsettings.filenaming@' konfiguriert werden.</optional> Die Erweiterung des Dateinamens wird automatisch basierend auf dem oben ausgewählten Dateiformat aktualisiert.<br><br>Wenn ein relativer Pfad eingegeben wird (oder ein Dateiname ohne Ordnername), wird dies relativ zum Speicherort der aktuellen Projektdatei interpretiert.<br><br>Klicken Sie auf @browse@, um den Namen einer Ausgabedatei interaktiv auszuwählen.<br><br>Wenn mehrere Ausgabedateien erstellt werden (z. B. blended Panorama und einzelne Ebenen), werden dem Dateinamen verschiedene Suffixe hinzugefügt."
+			"morehelptext": "<br><br>Wenn ausgegraut, wird der Standarddateiname verwendet. Wählen Sie '@mainwindow.createpanoramatab.usedefault@', um zum Standarddateinamen zurückzukehren. <optional product='pro'>Die Standard-Dateibenennung kann auf der Registerkarte @mainwindow.tabs.projectsettings@ im Abschnitt '@mainwindow.projectsettings.filenaming@' konfiguriert werden.</optional> Die Erweiterung des Dateinamens wird automatisch basierend auf dem oben ausgewählten Dateiformat aktualisiert.<br><br>Wenn ein relativer Pfad eingegeben wird (oder ein Dateiname ohne Ordnername), wird dies relativ zum Speicherort der aktuellen Projektdatei interpretiert.<br><br>Klicken Sie auf @browse@, um den Namen einer Ausgabedatei interaktiv auszuwählen.<br><br>Wenn mehrere Ausgabedateien erstellt werden (z.B. überblendetes Panorama und einzelne Ebenen), werden dem Dateinamen verschiedene Suffixe hinzugefügt."
 		},
 		{
 			"id": "createpanoramatab.outputfiledefault",
@@ -6762,7 +6762,7 @@
 		{
 			"id": "createpanoramatab.components.blended",
 			"machinetranslated": true,
-			"helptext": "Speichere das fertige blended Panorama."
+			"helptext": "Speichere das überblendetes Panorama."
 		},
 		{
 			"id": "createpanoramatab.components.ldrlayers",
@@ -6772,7 +6772,7 @@
 		{
 			"id": "createpanoramatab.components.blendplanes",
 			"machinetranslated": true,
-			"helptext": "Speichere die Belichtungsebenen. PTGui erstellt für jede Belichtungsebene ein blended Panorama, diese werden Belichtungsebenen genannt. Die Belichtungsebenen werden dann zusammengefügt, um das endgültige Panorama zu erstellen."
+			"helptext": "Speichere die Belichtungsebenen. PTGui erstellt für jede Belichtungsebene ein überblendetes Panorama, diese werden Belichtungsebenen genannt. Die Belichtungsebenen werden dann zusammengefügt, um das endgültige Panorama zu erstellen."
 		},
 		{
 			"id": "createpanoramatab.components.hdrpanorama",
@@ -6925,13 +6925,13 @@
 			"id": "panoeditor.toolbar.blended",
 			"machinetranslated": true,
 			"label": "Vermischt",
-			"helptext": "Zeige blended Panorama"
+			"helptext": "Zeige überblendetes Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
 			"machinetranslated": true,
 			"label": "Unverschnitten",
-			"helptext": "Zeige unblended Panorama"
+			"helptext": "Zeige nicht-überblendetes Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
@@ -6995,13 +6995,13 @@
 			"id": "detailviewer.toolbar.blended",
 			"machinetranslated": true,
 			"label": "Vermischt",
-			"helptext": "Zeige blended Panorama"
+			"helptext": "Zeige überblendetes Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
 			"machinetranslated": true,
 			"label": "Unverschnitten",
-			"helptext": "Zeige unblended Panorama"
+			"helptext": "Zeige nicht-überblendetes Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
@@ -8111,7 +8111,7 @@
 		{
 			"id": "mainwindow.masktab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn Sie das Panorama überblenden, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen oder nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Zwei Arten von Masken sind verfügbar: Eine <b>rote</b> Maske zeigt einen Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein sollte; Der Blender verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Blender an, dass ein bestimmter Teil im blended Panorama sichtbar sein muss, dh er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in Rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das blended Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn @panoeditor.menubar.blended@ ausgewählt ist, werden die Masken berücksichtigt. Im @panoeditor.menubar.showseams@-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie das Bild mit der linken Maustaste ein. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool @mainwindow.maskmenu.fill@ gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie @pastemask@.<br><br>Verwenden Sie die Tastenkombinationen @menubar.view.previousimage@ / @menubar.view.nextimage@ im Menü @menubar.view@ und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
+			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn das Panorama überblendet wird, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen oder nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Zwei Arten von Masken sind verfügbar: Eine <b>rote</b> Maske zeigt einen Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein sollte; Der Blender verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Blender an, dass ein bestimmter Teil im blended Panorama sichtbar sein muss, dh er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in Rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das überblendetes Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn @panoeditor.menubar.blended@ ausgewählt ist, werden die Masken berücksichtigt. Im @panoeditor.menubar.showseams@-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie das Bild mit der linken Maustaste ein. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool @mainwindow.maskmenu.fill@ gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie @pastemask@.<br><br>Verwenden Sie die Tastenkombinationen @menubar.view.previousimage@ / @menubar.view.nextimage@ im Menü @menubar.view@ und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
 		},
 		{
 			"id": "mainwindow.imageparamstab",

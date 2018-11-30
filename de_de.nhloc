@@ -2,7 +2,7 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"Harald Bendschneider"
+		"Harald Bendschneider", "Helmuth E. Günther"
 	],
 	"languagenamelocalized": "Deutsch",
 	"startupmsg": "Diese deutsche Version von PTGui wurde von einem Computerübersetzungssystem aus dem Englischen ins Deutsche übersetzt. Die Übersetzung ist vielleicht nicht perfekt, aber wir hoffen, dass es verständlich ist. Bei Bedarf können Sie auf die ursprüngliche englische Übersetzung in %0 wechseln.\n\nWenn Sie interessiert sind, helfen Sie uns bitte PTGui zu verbessern, indem Sie Fehler in der deutschen Übersetzung korrigieren. Weitere Informationen finden Sie unter '@help@ - @txt.improvetranslation@'.",
@@ -270,7 +270,7 @@
 		},
 		{
 			"id": "txt.selectwebpagetemplate",
-			"txt": "Wählen Sie Webseitenvorlage"
+			"txt": "Webseitenvorlage wählen"
 		},
 		{
 			"id": "txt.savetonemapsettings",
@@ -702,11 +702,11 @@
 		},
 		{
 			"id": "panoeditor.menubar.blended",
-			"txt": "Gemischtes Panorama anzeigen"
+			"txt": "Blended Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
-			"txt": "Ungemischtes Panorama anzeigen"
+			"txt": "Unblended Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
@@ -1668,7 +1668,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrdisabled",
-			"txt": "Keine Belichtungsreihe: Alle Bilder werden in einer einzigen Belichtungsebene gemischt"
+			"txt": "Keine Belichtungsreihe: Alle Bilder werden in einer einzigen Belichtungsebene geblend"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurecompensation",
@@ -1775,7 +1775,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
-			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein gemischtes Panorama. Schließlich werden die gemischten Panoramen %0 zu einem einzigen HDR-Panorama zusammengeführt."
+			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein blended Panorama. Schließlich werden die %0 blended Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
@@ -2068,7 +2068,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.blendpriority",
-			"txt": "Mischpriorität"
+			"txt": "Blendpriorität"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
@@ -2446,7 +2446,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendedpanorama",
-			"txt": "Gemischtes Panorama"
+			"txt": "Blended Panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputfileprefix",
@@ -2466,7 +2466,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing",
-			"txt": "Mischen mit:"
+			"txt": "Blenden mit:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing.enblend",
@@ -2490,7 +2490,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode",
-			"txt": "Mischmodus:"
+			"txt": "Blendmodus:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.multiband",
@@ -2498,7 +2498,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.alpha",
-			"txt": "Alpha-Mischung"
+			"txt": "Alpha-Blending"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator",
@@ -3328,7 +3328,7 @@
 		},
 		{
 			"id": "licenseagreement.save",
-			"txt": "Speichern Sie die Lizenzvereinbarung"
+			"txt": "Lizenzvereinbarung speichern"
 		},
 		{
 			"id": "licenseagreement.accept",
@@ -4147,19 +4147,19 @@
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
-			"txt": "Löschen Sie das ausgewählte Element? Das kann nicht rückgängig gemacht werden."
+			"txt": "Das ausgewählte Element löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleitems",
-			"txt": "Löschen Sie die ausgewählten %0 Elemente? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Elemente löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleassociation",
-			"txt": "Löschen Sie die ausgewählte Verknüpfung? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählte Verknüpfung löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleassociations",
-			"txt": "Löschen Sie die ausgewählten %0 Verknüpfungen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Verknüpfungen löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.croppingcircle",
@@ -4507,7 +4507,7 @@
 		},
 		{
 			"id": "err.externalblender.tiffover4gb",
-			"txt": "Eine TIFF-Datei, die an das Blending-Plug-in gesendet werden soll, überschreitet die maximale Größe von 4 GB. Das Panorama ist zu groß und muss mit dem internen Mixer gemischt werden.\n\nBitte wählen Sie stattdessen '@mainwindow.createpanoramatab.blendusing@: PTGui'."
+			"txt": "Eine TIFF-Datei, die an das Blending-Plug-in gesendet werden soll, überschreitet die maximale Größe von 4 GB. Das Panorama ist zu groß und muss mit dem internen Blender geblend werden.\n\nBitte wählen Sie stattdessen '@mainwindow.createpanoramatab.blendusing@: PTGui'."
 		},
 		{
 			"id": "err.stitcher.imagehasunexpectedsize",
@@ -5591,7 +5591,7 @@
 		{
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
-			"txt": "Fragen Sie niemals beim Start, ob die GPU-Beschleunigung deaktiviert werden soll"
+			"txt": "Frage niemals beim Start, ob die GPU-Beschleunigung deaktiviert werden soll"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
@@ -5629,7 +5629,7 @@
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
 			"machinetranslated": true,
-			"helptext": "Schließen Sie die aktuelle BatchListe und löschen Sie die Liste der Projekte."
+			"helptext": "Schließe die aktuelle BatchListe und lösche die Liste der Projekte."
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
@@ -5639,7 +5639,7 @@
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie die aktuelle Liste der Projekte in einer Batchliste."
+			"helptext": "Speichere die aktuelle Liste der Projekte in einer Batchliste."
 		},
 		{
 			"id": "mainwindow.maskmenu.fill",
@@ -5659,12 +5659,12 @@
 		{
 			"id": "mainwindow.maskmenu.red",
 			"machinetranslated": true,
-			"helptext": "Malen mit Rot. Die rot gemalten Bereiche werden im gemischten Panorama nicht verwendet."
+			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im blended Panorama nicht verwendet."
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
 			"machinetranslated": true,
-			"helptext": "Malen Sie mit Grün. Der Mixer wird grünen Flächen Priorität geben."
+			"helptext": "Male mit Grün. Der Blender wird grünen Flächen Priorität geben."
 		},
 		{
 			"id": "menubar.images.unlinkall",
@@ -6200,13 +6200,13 @@
 			"id": "masktoolbar.red",
 			"machinetranslated": true,
 			"label": "@mainwindow.maskmenu.red@ [R]",
-			"helptext": "Male rote Masken. Rote Masken werden verwendet, um unerwünschte Teile eines Bildes aus dem Panorama zu entfernen. Maskierte Bereiche werden transparent.<br><br>Wenn Sie das Panorama zusammenfügen, verwendet der Mixer überlappende Teile aus anderen Bildern."
+			"helptext": "Male rote Masken. Rote Masken werden verwendet, um unerwünschte Teile eines Bildes aus dem Panorama zu entfernen. Maskierte Bereiche werden transparent.<br><br>Wenn Sie das Panorama zusammenfügen, verwendet der Blender überlappende Teile aus anderen Bildern."
 		},
 		{
 			"id": "masktoolbar.green",
 			"machinetranslated": true,
 			"label": "@mainwindow.maskmenu.green@ [G]",
-			"helptext": "Male grüne Masken. Grüne Masken werden verwendet, um anzuzeigen, welche Teile des Bildes beibehalten werden sollen. Der Mixer wird lieber grüne maskierte Teile verwenden und keine überlappenden Bereiche von anderen Bildern."
+			"helptext": "Male grüne Masken. Grüne Masken werden verwendet, um anzuzeigen, welche Teile des Bildes beibehalten werden sollen. Der Blender wird lieber grüne maskierte Teile verwenden und keine überlappenden Bereiche von anderen Bildern."
 		},
 		{
 			"id": "masktoolbar.eraser",
@@ -6390,7 +6390,7 @@
 			"id": "exposurehdrtab.groupintoblendplanes",
 			"machinetranslated": true,
 			"helptext": "Aktiviert den HDR-Modus.",
-			"morehelptext": "<br><br>Wenn aktiviert, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert kann in der Registerkarte @mainwindow.tabs.imageparameters@ angezeigt werden. Alle Bilder mit demselben EV werden zusammengefügt und in eine separate &quot;Belichtungsebene&quot; gemischt. Jede Belichtungsebene ist ein vollständiges Panorama bei einer bestimmten Belichtung. Schließlich werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder einem verschmolzenen Tone-Mapping / Belichtung-Bild verschmolzen."
+			"morehelptext": "<br><br>Wenn aktiviert, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert kann in der Registerkarte @mainwindow.tabs.imageparameters@ angezeigt werden. Alle Bilder mit demselben EV werden zusammengefügt und in eine separate &quot;Belichtungsebene&quot; geblend. Jede Belichtungsebene ist ein vollständiges Panorama bei einer bestimmten Belichtung. Schließlich werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder einem verschmolzenen Tone-Mapping / Belichtung-Bild verschmolzen."
 		},
 		{
 			"id": "exposurehdrtab.truehdrmode",
@@ -6401,7 +6401,7 @@
 		{
 			"id": "exposurehdrtab.exposurefusionmode",
 			"machinetranslated": true,
-			"helptext": "Mischen Sie die Belichtungsebenen mithilfe der Belichtungsfusion.",
+			"helptext": "Mische die Belichtungsebenen mithilfe der Belichtungsfusion.",
 			"morehelptext": "<br><br>Belichtungsfusion fügt die Belichtungsebenen direkt in ein Tone-Mapping-Bild mit niedrigem Dynamikbereich ein. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonwertabbildung zu erzeugen.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
 		},
 		{
@@ -6588,7 +6588,7 @@
 			"id": "projectsettingstab.templatebehavior.panoramasettings",
 			"machinetranslated": true,
 			"helptext": "Wenn diese Option aktiviert ist, kopieren Sie alle Ausgabe- und projektionsbezogenen Parameter in das Zielprojekt.",
-			"morehelptext": "Folgende Parameter werden kopiert:<br><br>• Panorama-Projektion und Sichtfeld<br>• Beschneiden der Ausgabe<br>• Ausgabegröße (Breite x Höhe)<br>• Ausgabedateiformat und zugehörige Einstellungen<br>• Mixereinstellungen<br>• HDR-, Belichtungsfusion- und Tone-Mapping-Einstellungen<br>• Interpolator<br>• Belichtungsoptimierungseinstellungen (für Belichtung und Vignettierungskorrektur)<br>• globaler Weißabgleich und Belichtungsausgleich<br>• Metadateneinstellungen für das Panorama"
+			"morehelptext": "Folgende Parameter werden kopiert:<br><br>• Panorama-Projektion und Sichtfeld<br>• Beschneiden der Ausgabe<br>• Ausgabegröße (Breite x Höhe)<br>• Ausgabedateiformat und zugehörige Einstellungen<br>• Blendereinstellungen<br>• HDR-, Belichtungsfusion- und Tone-Mapping-Einstellungen<br>• Interpolator<br>• Belichtungsoptimierungseinstellungen (für Belichtung und Vignettierungskorrektur)<br>• globaler Weißabgleich und Belichtungsausgleich<br>• Metadateneinstellungen für das Panorama"
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.pojectsettings",
@@ -6704,7 +6704,7 @@
 			"id": "createpanoramatab.ldrfileformat",
 			"machinetranslated": true,
 			"helptext": "Dateiformat für das zusammengesetzte Panorama. <optional product='pro'>Bei HDR-Panoramen das Dateiformat, das für die Tone-Mapped-Ausgabe verwendet werden soll.</optional>",
-			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikbereich (8 Bit pro Kanal). Transparenz wird nicht unterstützt: Leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität Geeignet für das Web-Publishing. Wenn das Bild gedruckt oder in einem Bildeditor nachbearbeitet wird, ist es besser, eines der anderen Formate mit 16 Bit pro Kanal zu verwenden.<br><br><b>TIFF:</b> ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit Gleitkomma-TIFF unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF unterstützt dies 8 und 16 Bit pro Kanal Ausgabe <optional product='pro'>(und 32-Bit Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das gemischte Panorama und verzogene Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. Im Allgemeinen sollte .psb verwendet werden, das keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten: Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als Legacy-Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von @menubar.tools@ | @menubar.tools.publishtowebsite@ ein zusammengefügt Panorama auf einer HTML5-Webseite veröffentlichen."
+			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikbereich (8 Bit pro Kanal). Transparenz wird nicht unterstützt: Leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität Geeignet für das Web-Publishing. Wenn das Bild gedruckt oder in einem Bildeditor nachbearbeitet wird, ist es besser, eines der anderen Formate mit 16 Bit pro Kanal zu verwenden.<br><br><b>TIFF:</b> ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit Gleitkomma-TIFF unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF unterstützt dies 8 und 16 Bit pro Kanal Ausgabe <optional product='pro'>(und 32-Bit Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das blended Panorama und verzogene Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. Im Allgemeinen sollte .psb verwendet werden, das keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten: Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als Legacy-Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von @menubar.tools@ | @menubar.tools.publishtowebsite@ ein zusammengefügt Panorama auf einer HTML5-Webseite veröffentlichen."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -6715,7 +6715,7 @@
 			"id": "createpanoramatab.hdrfileformat",
 			"machinetranslated": true,
 			"helptext": "Dateiformat für die HDR-Ausgabe.",
-			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikbereich der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32 Bit pro Kanal Gleitkomma mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF, Gleitkomma 32 Bit pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das gemischte HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. Im Allgemeinen sollte das .psb-Format verwendet werden, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann 16-Bit-Gleitkommabilder mit halber Fließrichtung und 32 Bit pro Kanal erzeugen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist das Industriestandardformat für HDR-Bilder.<br><br><b>HDR Radiance:</b> ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot / Grün / Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann bestimmte gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
+			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikbereich der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32 Bit pro Kanal Gleitkomma mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und. Psb):</b> wie TIFF, Gleitkomma 32 Bit pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die geschichtete Ausgabe: PTGui kann eine einzelne Datei ausgeben, die das blended HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. Im Allgemeinen sollte das .psb-Format verwendet werden, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann 16-Bit-Gleitkommabilder mit halber Fließrichtung und 32 Bit pro Kanal erzeugen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist das Industriestandardformat für HDR-Bilder.<br><br><b>HDR Radiance:</b> ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot / Grün / Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann bestimmte gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
 		},
 		{
 			"id": "createpanoramatab.hdrfileformatsettings",
@@ -6726,7 +6726,7 @@
 			"id": "createpanoramatab.outputfile",
 			"machinetranslated": true,
 			"helptext": "Der Dateiname, unter dem das Panorama gespeichert wird.",
-			"morehelptext": "<br><br>Wenn ausgegraut, wird der Standarddateiname verwendet. Wählen Sie '@mainwindow.createpanoramatab.usedefault@', um zum Standarddateinamen zurückzukehren. <optional product='pro'>Die Standard-Dateibenennung kann auf der Registerkarte @mainwindow.tabs.projectsettings@ im Abschnitt '@mainwindow.projectsettings.filenaming@' konfiguriert werden.</optional> Die Erweiterung des Dateinamens wird automatisch basierend auf dem oben ausgewählten Dateiformat aktualisiert.<br><br>Wenn ein relativer Pfad eingegeben wird (oder ein Dateiname ohne Ordnername), wird dies relativ zum Speicherort der aktuellen Projektdatei interpretiert.<br><br>Klicken Sie auf @browse@, um den Namen einer Ausgabedatei interaktiv auszuwählen.<br><br>Wenn mehrere Ausgabedateien erstellt werden (z. B. gemischtes Panorama und einzelne Ebenen), werden dem Dateinamen verschiedene Suffixe hinzugefügt."
+			"morehelptext": "<br><br>Wenn ausgegraut, wird der Standarddateiname verwendet. Wählen Sie '@mainwindow.createpanoramatab.usedefault@', um zum Standarddateinamen zurückzukehren. <optional product='pro'>Die Standard-Dateibenennung kann auf der Registerkarte @mainwindow.tabs.projectsettings@ im Abschnitt '@mainwindow.projectsettings.filenaming@' konfiguriert werden.</optional> Die Erweiterung des Dateinamens wird automatisch basierend auf dem oben ausgewählten Dateiformat aktualisiert.<br><br>Wenn ein relativer Pfad eingegeben wird (oder ein Dateiname ohne Ordnername), wird dies relativ zum Speicherort der aktuellen Projektdatei interpretiert.<br><br>Klicken Sie auf @browse@, um den Namen einer Ausgabedatei interaktiv auszuwählen.<br><br>Wenn mehrere Ausgabedateien erstellt werden (z. B. blended Panorama und einzelne Ebenen), werden dem Dateinamen verschiedene Suffixe hinzugefügt."
 		},
 		{
 			"id": "createpanoramatab.outputfiledefault",
@@ -6752,42 +6752,42 @@
 		{
 			"id": "createpanoramatab.components.tonemapped",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie das endgültige Panorama nach dem Tone Mapping."
+			"helptext": "Speichere das Panorama nach dem Tone Mapping."
 		},
 		{
 			"id": "createpanoramatab.components.exposurefused",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie das endgültige Panorama nach der Belichtungsfusion."
+			"helptext": "Speichere das Panorama nach der Belichtungsfusion."
 		},
 		{
 			"id": "createpanoramatab.components.blended",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie das fertige gemischte Panorama."
+			"helptext": "Speichere das fertige blended Panorama."
 		},
 		{
 			"id": "createpanoramatab.components.ldrlayers",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie die einzelnen Quellbilder in einem verzogenen Format."
+			"helptext": "Speichere die einzelnen Quellbilder in einem verzogenen Format."
 		},
 		{
 			"id": "createpanoramatab.components.blendplanes",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie die Belichtungsebenen. PTGui erstellt für jede Belichtungsebene ein gemischtes Panorama, diese werden Belichtungsebenen genannt. Die Belichtungsebenen werden dann zusammengefügt, um das endgültige Panorama zu erstellen."
+			"helptext": "Speichere die Belichtungsebenen. PTGui erstellt für jede Belichtungsebene ein blended Panorama, diese werden Belichtungsebenen genannt. Die Belichtungsebenen werden dann zusammengefügt, um das endgültige Panorama zu erstellen."
 		},
 		{
 			"id": "createpanoramatab.components.hdrpanorama",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie das Panorama im HDR-Format (vor dem Tone-Mapping). Die resultierende Datei erfasst den gesamten Dynamikbereich der Lichtintensitäten in der Szene."
+			"helptext": "Speichere das Panorama im HDR-Format (vor dem Tone-Mapping). Die resultierende Datei erfasst den gesamten Dynamikbereich der Lichtintensitäten in der Szene."
 		},
 		{
 			"id": "createpanoramatab.components.hdrlayers",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie die einzelnen verzerrten Quellbilder, die in das HDR-Format konvertiert wurden. Die Leuchtdichten entsprechen denen des zusammengeführten HDR-Panoramas."
+			"helptext": "Speichere die einzelnen verzerrten Quellbilder, die in das HDR-Format konvertiert wurden. Die Leuchtdichten entsprechen denen des zusammengeführten HDR-Panoramas."
 		},
 		{
 			"id": "createpanoramatab.components.hdrblendplanes",
 			"machinetranslated": true,
-			"helptext": "Speichern Sie die im HDR-Format konvertierten Belichtungsebenen. Die Leuchtdichten entsprechen denen des zusammengeführten HDR-Panoramas."
+			"helptext": "Speichere die im HDR-Format konvertierten Belichtungsebenen. Die Leuchtdichten entsprechen denen des zusammengeführten HDR-Panoramas."
 		},
 		{
 			"id": "createpanoramatab.createpanoramabutton",
@@ -6809,8 +6809,8 @@
 		{
 			"id": "createpanoramatab.blendertype",
 			"machinetranslated": true,
-			"helptext": "Wählen Sie den zu verwendenden Mixer aus.",
-			"morehelptext": "<br><br>Neben seinem eigenen Blender unterstützt PTGui zwei Misch-Plugins: Smartblend und Enblend. Diese müssen zuerst in @optionspreferences@ | @options.plugins@ konfiguriert werden. Beachten Sie, dass die Blending-Plugins Einschränkungen unterliegen: Sie sind langsamer als der PTGui-Blender, können Blending-Artefakte im Nadir und im Zenit erzeugen und unterstützen keine sehr großen Panoramen. <optional product='pro'>Grüne Masken werden auch nur vom PTGui Mixer unterstützt.</optional>"
+			"helptext": "Wählen Sie den zu verwendenden Blender aus.",
+			"morehelptext": "<br><br>Neben seinem eigenen Blender unterstützt PTGui zwei Misch-Plugins: Smartblend und Enblend. Diese müssen zuerst in @optionspreferences@ | @options.plugins@ konfiguriert werden. Beachten Sie, dass die Blending-Plugins Einschränkungen unterliegen: Sie sind langsamer als der PTGui-Blender, können Blending-Artefakte im Nadir und im Zenit erzeugen und unterstützen keine sehr großen Panoramen. <optional product='pro'>Grüne Masken werden auch nur vom PTGui Blender unterstützt.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blenderfeather",
@@ -6925,13 +6925,13 @@
 			"id": "panoeditor.toolbar.blended",
 			"machinetranslated": true,
 			"label": "Vermischt",
-			"helptext": "Zeige gemischtes Panorama"
+			"helptext": "Zeige blended Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
 			"machinetranslated": true,
 			"label": "Unverschnitten",
-			"helptext": "Zeige ungemischtes Panorama"
+			"helptext": "Zeige unblended Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
@@ -6995,13 +6995,13 @@
 			"id": "detailviewer.toolbar.blended",
 			"machinetranslated": true,
 			"label": "Vermischt",
-			"helptext": "Zeige gemischtes Panorama"
+			"helptext": "Zeige blended Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
 			"machinetranslated": true,
 			"label": "Unverschnitten",
-			"helptext": "Zeige ungemischtes Panorama"
+			"helptext": "Zeige unblended Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
@@ -8111,12 +8111,12 @@
 		{
 			"id": "mainwindow.masktab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn Sie das Panorama überblenden, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen oder nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Zwei Arten von Masken sind verfügbar: Eine <b>rote</b> Maske zeigt einen Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein sollte; Der Mixer verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Mixer an, dass ein bestimmter Teil im gemischten Panorama sichtbar sein muss, dh er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in Rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das gemischte Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn @panoeditor.menubar.blended@ ausgewählt ist, werden die Masken berücksichtigt. Im @panoeditor.menubar.showseams@-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie das Bild mit der linken Maustaste ein. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool @mainwindow.maskmenu.fill@ gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie @pastemask@.<br><br>Verwenden Sie die Tastenkombinationen @menubar.view.previousimage@ / @menubar.view.nextimage@ im Menü @menubar.view@ und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
+			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn Sie das Panorama überblenden, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen oder nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Zwei Arten von Masken sind verfügbar: Eine <b>rote</b> Maske zeigt einen Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein sollte; Der Blender verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Blender an, dass ein bestimmter Teil im blended Panorama sichtbar sein muss, dh er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in Rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das blended Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn @panoeditor.menubar.blended@ ausgewählt ist, werden die Masken berücksichtigt. Im @panoeditor.menubar.showseams@-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie das Bild mit der linken Maustaste ein. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool @mainwindow.maskmenu.fill@ gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie @pastemask@.<br><br>Verwenden Sie die Tastenkombinationen @menubar.view.previousimage@ / @menubar.view.nextimage@ im Menü @menubar.view@ und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
 		},
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der die Parameter jedes Bildes numerisch bearbeitet werden können. In der Regel müssen hier keine Einstellungen geändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Ein Parameter kann für mehrere Bilder gleichzeitig geändert werden: Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in allen ausgewählten Zellen eingegeben wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des <b>Quellbilds an</b> .<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzogenes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<br><br><b>@+yaw@, @pitch@ und @roll@: Geben Sie</b> die Blickrichtung an, in der ein Bild aufgenommen wurde, und damit die Position des Bildes im endgültigen Panorama. <b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem <b>Kippwinkel</b> nach oben / unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Objektivöffnung und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus dem EXIF-Header der Image-Datei gelesen, sie können jedoch durch andere Werte überschrieben werden. Diese Werte werden verwendet, um die Spalte @mainwindow.imageparameters.ev@ zu berechnen, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht direkt bearbeitet werden. Dieser Wert wird zum Erzeugen von HDR-Panoramen verwendet: PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und sticht aus jeder Gruppe ein komplettes Panorama. Diese Zwischenpanoramen, so genannte &quot;Belichtungsebenen&quot;, werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Kann zum Einstellen der Helligkeit eines einzelnen Bildes verwendet werden. Wenn Sie beispielsweise einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte @mainwindow.tabs.exposurehdr@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Es wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte @mainwindow.tabs.exposurehdr@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@: Legt</b> die &quot;Wichtigkeit&quot; dieses Bildes für den PTGui-Mixer fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendungsradius. Wenn ein Bild eine sehr niedrige Mischungspriorität aufweist (z. B. 0,001), verwendet der Mischer nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Mischen der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Blend-Priorität ist ein relativer Wert: Beim Blending vergleicht der Blender die Blend-Prioritätswerte der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Der Überblendungsprioritätsparameter ist besonders nützlich für Nadiraufnahmen: Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen Überlagerungspriorität für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Mischungspriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Gesichtspunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben; Die tatsächlichen Werte werden vom Optimierer bestimmt, wenn @+viewpoint@ für die Optimierung auf der Registerkarte @mainwindow.tabs.optimizer@ ausgewählt wird. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Gesichtspunktkorrektur zurückzusetzen. Die Korrektur des Gesichtspunktversatzes funktioniert nur für Fotografien von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verbinden. Verknüpfte Bilder können in dieser Tabelle entweder in einer einzelnen Zeile angezeigt werden, oder die Liste kann mithilfe der kleinen dreieckigen Schaltfläche erweitert werden, um die einzelnen Bilder in jedem verknüpften Satz anzuzeigen.</optional><br><br>Verwenden Sie die @fillyaw@-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360° -Panorama aus 10 Bildern würden die @yaw@-Werte beispielsweise mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der die Parameter jedes Bildes numerisch bearbeitet werden können. In der Regel müssen hier keine Einstellungen geändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Ein Parameter kann für mehrere Bilder gleichzeitig geändert werden: Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in allen ausgewählten Zellen eingegeben wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des <b>Quellbilds an</b> .<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzogenes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<br><br><b>@+yaw@, @pitch@ und @roll@: Geben Sie</b> die Blickrichtung an, in der ein Bild aufgenommen wurde, und damit die Position des Bildes im endgültigen Panorama. <b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem <b>Kippwinkel</b> nach oben / unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Objektivöffnung und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus dem EXIF-Header der Image-Datei gelesen, sie können jedoch durch andere Werte überschrieben werden. Diese Werte werden verwendet, um die Spalte @mainwindow.imageparameters.ev@ zu berechnen, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht direkt bearbeitet werden. Dieser Wert wird zum Erzeugen von HDR-Panoramen verwendet: PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und sticht aus jeder Gruppe ein komplettes Panorama. Diese Zwischenpanoramen, so genannte &quot;Belichtungsebenen&quot;, werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Kann zum Einstellen der Helligkeit eines einzelnen Bildes verwendet werden. Wenn Sie beispielsweise einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte @mainwindow.tabs.exposurehdr@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Es wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte @mainwindow.tabs.exposurehdr@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@: Legt</b> die &quot;Wichtigkeit&quot; dieses Bildes für den PTGui Blender fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendungsradius. Wenn ein Bild eine sehr niedrige Mischungspriorität aufweist (z. B. 0,001), verwendet der Mischer nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Mischen der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Blend-Priorität ist ein relativer Wert: Beim Blending vergleicht der Blender die Blend-Prioritätswerte der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Der Überblendungsprioritätsparameter ist besonders nützlich für Nadiraufnahmen: Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen Überlagerungspriorität für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Mischungspriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Gesichtspunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben; Die tatsächlichen Werte werden vom Optimierer bestimmt, wenn @+viewpoint@ für die Optimierung auf der Registerkarte @mainwindow.tabs.optimizer@ ausgewählt wird. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Gesichtspunktkorrektur zurückzusetzen. Die Korrektur des Gesichtspunktversatzes funktioniert nur für Fotografien von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verbinden. Verknüpfte Bilder können in dieser Tabelle entweder in einer einzelnen Zeile angezeigt werden, oder die Liste kann mithilfe der kleinen dreieckigen Schaltfläche erweitert werden, um die einzelnen Bilder in jedem verknüpften Satz anzuzeigen.</optional><br><br>Verwenden Sie die @fillyaw@-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360° -Panorama aus 10 Bildern würden die @yaw@-Werte beispielsweise mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
 		},
 		{
 			"id": "mainwindow.optimizersettingstab",

@@ -1775,7 +1775,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
-			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein überblendetes Panorama. Schließlich werden die %0 überblendete Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
+			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein überblendetes Panorama. Schließlich werden die %0 überblendeten Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",

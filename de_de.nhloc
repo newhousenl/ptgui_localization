@@ -2,7 +2,7 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"Harald Bendschneider", "Helmuth E. Günther"
+		"Harald Bendschneider", "Helmuth E. Günther", "Thomas Bredenfeld"
 	],
 	"languagenamelocalized": "Deutsch",
 	"startupmsg": "Diese deutsche Version von PTGui wurde von einem Computerübersetzungssystem aus dem Englischen ins Deutsche übersetzt. Die Übersetzung ist vielleicht nicht perfekt, aber wir hoffen, dass es verständlich ist. Bei Bedarf können Sie auf die ursprüngliche englische Übersetzung in %0 wechseln.\n\nWenn Sie interessiert sind, helfen Sie uns bitte PTGui zu verbessern, indem Sie Fehler in der deutschen Übersetzung korrigieren. Weitere Informationen finden Sie unter '@help@ - @txt.improvetranslation@'.",
@@ -110,7 +110,7 @@
 		},
 		{
 			"id": "reset",
-			"txt": "zurücksetzen"
+			"txt": "Zurücksetzen"
 		},
 		{
 			"id": "defaults",
@@ -155,6 +155,10 @@
 		{
 			"id": "tilt",
 			"txt": "Neigung"
+		},
+		{
+			"id": "shear",
+			"txt": "Scherung"
 		},
 		{
 			"id": "viewpoint",
@@ -490,11 +494,11 @@
 		},
 		{
 			"id": "projection.circularfisheye",
-			"txt": "kreisförmiges Fischauge"
+			"txt": "Kreisförmiges Fischauge"
 		},
 		{
 			"id": "projection.fullframefisheye",
-			"txt": "full-Frame Fischauge"
+			"txt": "Vollformatiges Fischauge"
 		},
 		{
 			"id": "projection.transverseequirectangular",
@@ -1274,7 +1278,7 @@
 		{
 			"id": "mainwindow.projectassistant.showpanoramaeditororcreatepanorama",
 			"format": "html",
-			"txt": "Sie können das Panorama im <a href=0>Panorama-Editor</a> in der Vorschau anzeigen und optimieren. Oder erstelle jetzt das Panorama:"
+			"txt": "Sie können das Panorama im <a href=0>Panorama-Editor</a> als Vorschau anzeigen und optimieren oder das Panorama jetzt erstellen:"
 		},
 		{
 			"id": "mainwindow.projectassistant.multiplelenses",
@@ -1291,7 +1295,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.fullframelens",
-			"txt": "Vollbild"
+			"txt": "Vollformat"
 		},
 		{
 			"id": "mainwindow.projectassistant.timescrop",
@@ -1316,7 +1320,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensprofile",
-			"txt": "Objektivenprofil:"
+			"txt": "Objektivprofil:"
 		},
 		{
 			"id": "mainwindow.lensparams.lens",
@@ -1368,7 +1372,7 @@
 		},
 		{
 			"id": "shear",
-			"txt": "shear"
+			"txt": "Scherung"
 		},
 		{
 			"id": "flare",
@@ -1604,7 +1608,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.heavyplusshift",
-			"txt": "Schwer + Objektiveverschiebung"
+			"txt": "Schwer + Objektivverschiebung"
 		},
 		{
 			"id": "mainwindow.optimizertab.optimizeglobally",
@@ -1668,7 +1672,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrdisabled",
-			"txt": "Keine Belichtungsreihe: Alle Bilder werden in einer einzigen Belichtungsebene geblend"
+			"txt": "Keine Belichtungsreihe: Alle Bilder werden zu einer einzigen Belichtungsebene zusammengefügt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurecompensation",
@@ -6056,7 +6060,7 @@
 			"id": "lensparams.lenstype",
 			"machinetranslated": true,
 			"helptext": "Art des Objektivs. In den meisten Fällen kann PTGui dies automatisch feststellen, indem er die EXIF-Daten des Bildes untersucht.",
-			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> ist der am häufigsten verwendete Objektivtyp; Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als <b>Quellbild</b> zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen ein größeres Sichtfeld als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein <b>kreisförmiges Fischaugenobjektiv</b> hat ein Sichtfeld von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein <b>full-Frame Fischaugenobjektiv</b> hat ein engeres Sichtfeld und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Laden eines bereits zusammengefügtes sphärischen Panoramas als <b>Quellbild</b> ."
+			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> ist der am häufigsten verwendete Objektivtyp; Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als <b>Quellbild</b> zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen ein größeres Sichtfeld als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein <b>kreisförmiges Fischaugenobjektiv</b> hat ein Sichtfeld von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein <b>vollformatiges Fischaugenobjektiv</b> hat ein engeres Sichtfeld und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Laden eines bereits zusammengefügtes sphärischen Panoramas als <b>Quellbild</b> ."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
@@ -6101,7 +6105,7 @@
 			"id": "lensparams.shear",
 			"machinetranslated": true,
 			"helptext": "@+shear@: nur für Flachbettscanner verwenden; Für Kamerabilder sollte dies auf 0 gesetzt werden.",
-			"morehelptext": "<br><br>Schlitzscanner können eine gewisse Nicht-Rechtwinkligkeit zwischen der Abtast- und Bewegungsachse aufweisen. Diese Werte kompensieren dies. Die Werte werden vom Optimierer bestimmt, wenn die @shear@-Optimierung aktiviert ist."
+			"morehelptext": "<br><br>Schlitzscanner können eine gewisse Nicht-Rechtwinkligkeit zwischen der Abtast- und Bewegungsachse aufweisen (Scherung). Diese Werte kompensieren dies. Die Werte werden vom Optimierer bestimmt, wenn die @shear@-Optimierung aktiviert ist."
 		},
 		{
 			"id": "lensparams.reset",
@@ -6194,7 +6198,7 @@
 			"id": "previewexposuretoolbar.exposure",
 			"machinetranslated": true,
 			"label": "Vorschau der Belichtung",
-			"helptext": "Erhöhen oder verringern Sie die Helligkeit. Beeinflusst das Bild, das hier im Panorama-Editor und im Detail-Viewer angezeigt wird. Das zusammengefügte Panorama ist nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um auf 0 zurückzusetzen."
+			"helptext": "Erhöhen oder verringern Sie die Helligkeit des Vorschaubildes. Beeinflusst das Bild, das hier im Panorama-Editor und im Detail-Viewer angezeigt wird. Das zusammengefügte Panorama ist nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um auf 0 zurückzusetzen."
 		},
 		{
 			"id": "masktoolbar.red",
@@ -6286,14 +6290,14 @@
 			"id": "cptoolbar.autojump",
 			"machinetranslated": true,
 			"label": "@menubar.controlpoints.autojump@",
-			"helptext": "Bewegen Sie den Mauszeiger auf das andere Bild, nachdem Sie den ersten Punkt eines Kontrollpunktpaares platziert haben.",
+			"helptext": "Bewegt den Mauszeiger automatisch auf das andere Bild, nachdem Sie den ersten Punkt eines Kontrollpunktpaares platziert haben.",
 			"morehelptext": "Die genaue Position, an die die Maus bewegt wird, wird basierend auf der Position anderer Kontrollpunkte in den zwei Bildern berechnet. Daher funktioniert diese Funktion nur, wenn zwei oder mehr Kontrollpunkte für dieses Bildpaar vorhanden sind."
 		},
 		{
 			"id": "cptoolbar.autoadd",
 			"machinetranslated": true,
 			"label": "@menubar.controlpoints.autoadd@",
-			"helptext": "Nachdem Sie den ersten Punkt platziert haben, versuchen Sie, den zweiten Punkt automatisch hinzuzufügen.",
+			"helptext": "Nachdem Sie den ersten Punkt platziert haben, wird versucht, den zweiten Punkt automatisch hinzuzufügen.",
 			"morehelptext": "Vorhandene Kontrollpunkte werden verwendet, um den ungefähren erwarteten Ort des Übereinstimmungspunkts zu berechnen. Daher funktioniert diese Funktion nur, wenn zwei oder mehr Kontrollpunkte für dieses Bildpaar vorhanden sind. Der genaue Ort wird dann durch Analyse der Bilder bestimmt."
 		},
 		{
@@ -6306,7 +6310,7 @@
 			"id": "cptoolbar.autocontrast",
 			"machinetranslated": true,
 			"label": "@menubar.controlpoints.autocontrast@",
-			"helptext": "Erhöhen Sie den Bildkontrast im Floating-Zoom-Fenster."
+			"helptext": "Erhöhen Sie den Bildkontrast in der Suchlupe."
 		},
 		{
 			"id": "cptoolbar.showmask",
@@ -6318,7 +6322,7 @@
 			"id": "cptab.cptypetoadd",
 			"machinetranslated": true,
 			"helptext": "Art des Kontrollpunkts, der als nächstes hinzugefügt werden soll.",
-			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein regulärer Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@ und @cptable.verticalline@: Hierbei</b> handelt es sich um eine spezielle Art von Steuerpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimizer (und die @panoeditor.menubar.edit.level@-Funktion im Panorama-Editor) passen das Panorama so an, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise @cptable.verticalline@-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. @cptable.horizontalline@ Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie Overhead-Stromkabel auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie @cptable.newline@, um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert, und für dieselbe Zeile können weitere Punkte hinzugefügt werden.<br><br>Der Typ eines vorhandenen Kontrollpunkts kann geändert werden, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
+			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein regulärer Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@ und @cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Art von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimizer (und die @panoeditor.menubar.edit.level@-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise @cptable.verticalline@-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. @cptable.horizontalline@ Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie @cptable.newline@, um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert, und für dieselbe Zeile können weitere Punkte hinzugefügt werden.<br><br>Der Typ eines vorhandenen Kontrollpunkts kann geändert werden, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
 		},
 		{
 			"id": "cptab.cptable",
@@ -6401,8 +6405,8 @@
 		{
 			"id": "exposurehdrtab.exposurefusionmode",
 			"machinetranslated": true,
-			"helptext": "Mische die Belichtungsebenen mithilfe der Belichtungsfusion.",
-			"morehelptext": "<br><br>Belichtungsfusion fügt die Belichtungsebenen direkt in ein Tone-Mapping-Bild mit niedrigem Dynamikbereich ein. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonwertabbildung zu erzeugen.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"helptext": "Zusammenfügen der Belichtungsebenen mit Hilfe der Belichtungsfusion.",
+			"morehelptext": "<br><br>Belichtungsfusion fügt die Belichtungsebenen mit Hilfe von automatischen Masken direkt in ein Bild mit niedrigem Dynamikbereich ein. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonwertabbildung zu erzeugen.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
 		},
 		{
 			"id": "exposurehdrtab.dontgroupintoblendplanes",
@@ -6412,8 +6416,8 @@
 		{
 			"id": "exposurehdrtab.tonemapldrpanorama",
 			"machinetranslated": true,
-			"helptext": "Tone-Zuordnung aktivieren",
-			"morehelptext": "<br><br>Tone Mapping ist allgemein bekannt im Zusammenhang mit HDR-Bildern, kann aber auch für normale Low-Dynamic-Range-Bilder verwendet werden. Tone Mapping reduziert den Dynamikbereich durch Verstärkung von Schatten und Abdunklungshighlights, ähnlich der Schatten- / Lichterkorrektur in der Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"helptext": "Tone Mapping aktivieren",
+			"morehelptext": "<br><br>Tone Mapping ist allgemein bekannt im Zusammenhang mit HDR-Bildern, kann aber auch für normale Bilder mit niedrigem Tonwertumfang (LDR) verwendet werden. Tone Mapping reduziert den Dynamikbereich durch Verstärkung von Schatten und Abdunklung von Lichtern, ähnlich der Schatten- / Lichterkorrektur in einer Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
 		},
 		{
 			"id": "exposurehdrtab.exposurecompensation",
@@ -6446,7 +6450,7 @@
 			"id": "exposurehdrtab.vignettinggraph",
 			"machinetranslated": true,
 			"helptext": "Vignettierungskurve",
-			"morehelptext": "<br><br>Die Kurve zeigt die erfasste Vignettierungskurve des Objektivs. Die linke Seite des Diagramms entspricht der Mitte des Objektivs, die rechte Seite entspricht den Bildecken. Im Allgemeinen fällt die Lichtmenge zu den Ecken hin ab, so dass der Graph nach rechts abfällt.<br><br>PTGui wendet die inverse Korrektur an, um den Lichtabfall auszugleichen."
+			"morehelptext": "<br><br>Die Kurve zeigt die erfasste Vignettierungskurve des Objektivs. Die linke Seite des Diagramms entspricht der Mitte des Objektivs, die rechte Seite entspricht den Bildecken. Im Allgemeinen fällt die Lichtmenge zu den Ecken hin ab, so dass die Kurve nach rechts abfällt.<br><br>PTGui wendet die inverse Korrektur an, um den Lichtabfall auszugleichen."
 		},
 		{
 			"id": "exposurehdrtab.cameracurvegraph",
@@ -6457,7 +6461,7 @@
 		{
 			"id": "exposurehdrtab.exposureoffset",
 			"machinetranslated": true,
-			"helptext": "Globaler Belichtungsoffset. Hellt oder verdunkelt das Panorama."
+			"helptext": "Globaler Belichtungsoffset. Hellt das Panorama auf oder dunkelt es ab."
 		},
 		{
 			"id": "exposurehdrtab.whitebalance",
@@ -6489,7 +6493,7 @@
 			"id": "projectsettingstab.alignimages.prealigned",
 			"machinetranslated": true,
 			"helptext": "Wenn aktiviert, sucht der Kontrollpunktgenerator nur nach Kontrollpunkten in den überlappenden Bereichen von Bildern.",
-			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, muss PTGui nicht nach übereinstimmenden Merkmalen zwischen einem Bildpaar suchen, sondern nur zwischen Paaren bekannter überlappender Bilder. Dies ist nicht nur viel schneller, sondern verringert auch das Risiko, falsche Kontrollpunkte zB in symmetrischen Räumen zu finden.<br><br>Wählen Sie dies nur, wenn das Panorama bereits grob ausgerichtet ist, bevor &quot;@alignimages@&quot; ausgeführt wird."
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, muss PTGui nicht nach übereinstimmenden Merkmalen zwischen einem Bildpaar suchen, sondern nur zwischen Paaren bekannter überlappender Bilder. Dies ist nicht nur viel schneller, sondern verringert auch das Risiko, falsche Kontrollpunkte z.B. in symmetrischen Räumen zu finden.<br><br>Wählen Sie dies nur, wenn das Panorama bereits grob ausgerichtet ist, bevor &quot;@alignimages@&quot; ausgeführt wird."
 		},
 		{
 			"id": "projectsettingstab.alignimages.optimize",
@@ -6506,19 +6510,19 @@
 			"id": "projectsettingstab.alignimages.straighten",
 			"machinetranslated": true,
 			"helptext": "Versuchen Sie, das Panorama zu glätten",
-			"morehelptext": "<br><br>Beim Begradigen wird das Panorama so verschoben oder gedreht, dass alle Bilder ungefähr den gleichen @roll@-Winkel (für ein mehrzeiliges Panorama) haben oder alle Bilder ungefähr denselben @pitch@-Winkel haben (für ein einzelnes Zeilenpanorama). Wenn die Kamera korrekt ausgerichtet wurde, sollte dies zu einem Standbild führen.<br><br>Wenn die Kamera nicht waagerecht ausgerichtet ist, ist eine zusätzliche Nivellierung mithilfe der @cptable.verticalline@-Kontrollpunkte erforderlich (siehe Registerkarte @mainwindow.tabs.controlpoints@).<br><br>Diese Funktion kann auch über die aufgerufen werden <optional platform='windows'>Menüleiste im Fenster des Panorama-Editors (@menubar.edit@ | @panoeditor.menubar.edit.straightenpano@).</optional><optional platform='mac'>Menüleiste: Panorama Editor | @menubar.edit@ | @panoeditor.menubar.edit.straightenpano@.</optional>"
+			"morehelptext": "<br><br>Beim Begradigen wird das Panorama so verschoben oder gedreht, dass alle Bilder ungefähr den gleichen @roll@-Winkel (für ein mehrzeiliges Panorama) haben oder alle Bilder ungefähr denselben @pitch@-Winkel haben (für ein einzelnes Zeilenpanorama). Wenn die Kamera korrekt ausgerichtet wurde, sollte dies zu einem Standbild führen.<br><br>Wenn die Kamera nicht waagerecht ausgerichtet ist, ist eine zusätzliche Nivellierung mit Hilfe der @cptable.verticalline@-Kontrollpunkte erforderlich (siehe Registerkarte @mainwindow.tabs.controlpoints@).<br><br>Diese Funktion kann auch aufgerufen werden über die <optional platform='windows'>Menüleiste im Fenster des Panorama-Editors (@menubar.edit@ | @panoeditor.menubar.edit.straightenpano@).</optional><optional platform='mac'>Menüleiste: Panorama Editor | @menubar.edit@ | @panoeditor.menubar.edit.straightenpano@.</optional>"
 		},
 		{
 			"id": "projectsettingstab.alignimages.fit",
 			"machinetranslated": true,
 			"helptext": "Passen Sie das Panorama-Sichtfeld so an, dass das Bild den gesamten Rahmen ausfüllt.",
-			"morehelptext": "<br><br>Diese Funktion kann auch über die aufgerufen werden <optional platform='windows'>Menüleiste im Fenster des Panorama Editors (@menubar.edit@ | @panoeditor.menubar.edit.fitpano@).</optional><optional platform='mac'>Menüleiste: Panorama-Editor | @menubar.edit@ | @panoeditor.menubar.edit.fitpano@.</optional>"
+			"morehelptext": "<br><br>Diese Funktion kann auch aufgerufen werden über die <optional platform='windows'>Menüleiste im Fenster des Panorama Editors (@menubar.edit@ | @panoeditor.menubar.edit.fitpano@).</optional><optional platform='mac'>Menüleiste: Panorama-Editor | @menubar.edit@ | @panoeditor.menubar.edit.fitpano@.</optional>"
 		},
 		{
 			"id": "projectsettingstab.alignimages.chooseprojection",
 			"machinetranslated": true,
 			"helptext": "Wählen Sie eine geeignete Projektion für das Sichtfeld des Panoramas.",
-			"morehelptext": "<br><br>Schmale Panoramen verwenden eine geradlinige Projektion. Bei großen Panoramen wird eine zylindrische Projektion verwendet. Und vollständig sphärische Panoramen verwenden die standardmäßige 360 ​​° x 180° equirectangulare Projektion."
+			"morehelptext": "<br><br>Schmale Panoramen verwenden eine geradlinige Projektion. Bei großen Panoramen wird eine zylindrische Projektion verwendet. Und vollständig sphärische Panoramen verwenden die standardmäßige 360° x 180° equirectangulare Projektion."
 		},
 		{
 			"id": "projectsettingstab.alignimages.optimizeexposure",
@@ -8186,7 +8190,7 @@
 		{
 			"id": "mainwindow.controlpointstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte werden verwendet, um anzuzeigen, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet: Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden: Kontrollpunkte werden als Teil von '@alignimages@' (in der Registerkarte @mainwindow.tabs.projectassistant@) generiert. Kontrollpunkte können auch mit @menubar.controlpoints@ | @menubar.controlpoints.generate@ erzeugt werden. Und mit @mainwindow.cptab.generatecphere@ können Kontrollpunkte in einem bestimmten Bereich erzeugt werden (siehe unten).<br><br>Manchmal ist PTGui nicht in der Lage, Kontrollpunkte automatisch zu generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem Fenster @controlpointassistant@ (siehe @menubar.tools@ | @controlpointassistant@) können Sie bestimmen, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Das Bearbeiten von Kontrollpunkten ist einfach:<br><br>Um einen Kontrollpunkt <b>hinzuzufügen</b> , wählen Sie zwei überlappende Bilder aus, indem Sie auf die Miniaturansichten über jedem Bereich klicken. Klicken Sie dann auf einen Punkt im linken Bild und klicken Sie auf den entsprechenden Punkt im rechten Bild. PTGui fügt für jeden Kontrollpunkt einen nummerierten Marker hinzu. Wenn @menubar.controlpoints.autojump@ aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So <b>erstellen Sie</b> Kontrollpunkte in einem bestimmten Bereich: Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus ziehen. Dann rechtsklicken <optional platform='mac'>(oder Strg + Klick)</optional> im ausgewählten Bereich und wählen Sie @mainwindow.cptab.generatecphere@. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind: der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Steuerpunkt zu <b>verschieben:</b> greifen sie mit der Maus und ziehen , um die gewünschte Position. So <b>löschen Sie</b> einen Kontrollpunkt oder ändern den Typ: Klicken Sie mit der rechten Maustaste auf den Marker oder klicken Sie mit der rechten Maustaste in die Kontrollpunktliste.<br><br>So löschen Sie mehrere Kontrollpunkte: Wählen Sie einen rechteckigen Bereich im Bild aus, indem Sie mit der Maus bei gedrückter Umschalttaste ziehen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> an einem der ausgewählten Kontrollpunkte und wählen Sie Löschen.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte @mainwindow.tabs.controlpoints@:<br>• Verwenden Sie die rechte Maustaste <optional platform='mac'>(oder Strg + Ziehen oder zwei Finger streichen)</optional> um die Bilder zu ziehen und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Bewegen von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können mit der Tastatur verschoben werden: Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Dies zeigt eine Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte &quot;@cptable.dist@&quot; zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle kann sortiert werden, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallaxefehlern können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte werden verwendet, um anzuzeigen, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet: Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden: Kontrollpunkte werden als Teil von '@alignimages@' (in der Registerkarte @mainwindow.tabs.projectassistant@) generiert. Kontrollpunkte können auch mit @menubar.controlpoints@ | @menubar.controlpoints.generate@ erzeugt werden. Und mit @mainwindow.cptab.generatecphere@ können Kontrollpunkte in einem bestimmten Bereich erzeugt werden (siehe unten).<br><br>Manchmal ist PTGui nicht in der Lage, Kontrollpunkte automatisch zu generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem Fenster @controlpointassistant@ (siehe @menubar.tools@ | @controlpointassistant@) können Sie bestimmen, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Das Bearbeiten von Kontrollpunkten ist einfach:<br><br>Um einen Kontrollpunkt <b>hinzuzufügen</b> , wählen Sie zwei überlappende Bilder aus, indem Sie auf die Miniaturansichten über jedem Bereich klicken. Klicken Sie dann auf einen Punkt im linken Bild und klicken Sie auf den entsprechenden Punkt im rechten Bild. PTGui fügt für jeden Kontrollpunkt einen nummerierten Marker hinzu. Wenn @menubar.controlpoints.autojump@ aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So <b>erstellen Sie</b> Kontrollpunkte in einem bestimmten Bereich: Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus ziehen. Dann rechtsklicken <optional platform='mac'>(oder Strg + Klick)</optional> im ausgewählten Bereich und wählen Sie @mainwindow.cptab.generatecphere@. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind: der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu <b>verschieben:</b> greifen sie mit der Maus und ziehen , um die gewünschte Position. So <b>löschen Sie</b> einen Kontrollpunkt oder ändern den Typ: Klicken Sie mit der rechten Maustaste auf den Marker oder klicken Sie mit der rechten Maustaste in die Kontrollpunktliste.<br><br>So löschen Sie mehrere Kontrollpunkte: Wählen Sie einen rechteckigen Bereich im Bild aus, indem Sie mit der Maus bei gedrückter Umschalttaste ziehen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> an einem der ausgewählten Kontrollpunkte und wählen Sie Löschen.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte @mainwindow.tabs.controlpoints@:<br>• Verwenden Sie die rechte Maustaste <optional platform='mac'>(oder Strg + Ziehen oder zwei Finger streichen)</optional> um die Bilder zu ziehen und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Bewegen von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können mit der Tastatur verschoben werden: Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Dies zeigt eine Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte &quot;@cptable.dist@&quot; zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle kann sortiert werden, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallaxefehlern können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
 		}
 	]
 }

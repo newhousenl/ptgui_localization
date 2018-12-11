@@ -1,7 +1,7 @@
 {
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
-	"contributors": [],
+	"contributors": ["Mario Carvajal", "lopertyur"],
 	"languagenamelocalized": "Español",
 	"startupmsg": "Esta versión en español de PTGui ha sido traducida del inglés al español por un sistema de traducción por computadora. La traducción puede no ser perfecta pero esperamos que sea comprensible. Si es necesario, puede cambiar a la traducción original en inglés en %0.\n\nSi está interesado, ayúdenos a mejorar PTGui corrigiendo cualquier error en la traducción al español. Para obtener más información, consulte: '@help@ - @txt.improvetranslation@'.",
 	"strings": [

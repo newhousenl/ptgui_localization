@@ -494,11 +494,11 @@
 		},
 		{
 			"id": "projection.circularfisheye",
-			"txt": "Kreisförmiges Fischauge"
+			"txt": "kreisförmiges Fischauge"
 		},
 		{
 			"id": "projection.fullframefisheye",
-			"txt": "Vollformatiges Fischauge"
+			"txt": "vollformatiges Fischauge"
 		},
 		{
 			"id": "projection.transverseequirectangular",
@@ -1369,10 +1369,6 @@
 		{
 			"id": "mainwindow.lensparams.lenscorrection.shift",
 			"txt": "Verschiebung (lange / kurze Seite):"
-		},
-		{
-			"id": "shear",
-			"txt": "Scherung"
 		},
 		{
 			"id": "flare",

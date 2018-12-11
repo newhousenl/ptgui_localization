@@ -417,7 +417,7 @@
 		{
 			"id": "menubar.file.makedefault",
 			"machinetranslated": true,
-			"txt": "Hacer por defecto"
+			"txt": "Hacer predeterminado"
 		},
 		{
 			"id": "makedefault.confirmation",

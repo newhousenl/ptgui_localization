@@ -2,7 +2,7 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"Jeasung65"
+		"Jeasung Park"
 	],
 	"languagenamelocalized": "한국어",
 	"startupmsg": "PTGui 한국어 버전은  컴퓨터 번역 시스템을 통해 영어에서 한국어로 번역된 것입니다. 번역이 완벽하지는 않지만 이해할 수 있기를 바랍니다. 필요한 경우 %0의 일반 > 언어 옵션에서 원래 영어 번역으로 전환할 수 있습니다.\n\n관심이 있으시면 한국어 번역 오류를 수정하여 PTGui를 개선하는 데 도움을주십시오. 자세한 내용은 '@help@ - @txt.improvetranslation@'를 참조하십시오.",
@@ -2771,13 +2771,13 @@
 			"id": "mainwindow.metadata.latlongtxt1",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "위도와 경도를 쉼표로 구분하여 입력하십시오. 예 : 40° 46'522.92 &quot;, -73° 57'58.02&quot;<br>위치의 좌표를 찾으려면 <a href=\"https://maps.google.com/\">Google지도</a> 로 이동하십시오."
+			"txt": "위도와 경도를 쉼표로 구분하여 입력하십시오. 예 : 40° 46'522.92 &quot;, -73° 57'58.02&quot;<br>위치의 좌표를 찾으려면 <a href=\"https://maps.google.com/\">Google지도</a>로 이동하십시오."
 		},
 		{
 			"id": "mainwindow.metadata.nolatlonginexif",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "EXIF 데이터에 위치가 없습니다. <a href=\"https://maps.google.com/\">위치</a> 를 <a href=\"https://maps.google.com/\">찾고</a> 여기에 좌표를 입력하십시오."
+			"txt": "EXIF 데이터에 위치가 없습니다. <a href=\"https://maps.google.com/\">위치</a>를 <a href=\"https://maps.google.com/\">찾고</a> 여기에 좌표를 입력하십시오."
 		},
 		{
 			"id": "mainwindow.metadata.viewonmap",
@@ -5365,7 +5365,7 @@
 		{
 			"id": "warn.badhdrinterpolator",
 			"machinetranslated": true,
-			"txt": "선택한 보간은 HDR 소스 이미지에 적합하지 않습니다. 소스 이미지의 동적 범위가 넓기 때문에 밝은 픽셀 주위에 어두운 후광이 나타날 수 있습니다.\n\nHDR 소스 이미지로 작업 할 때는 @mainwindow.createpanoramatab.interpolator.bicubicsofter@ 또는 @mainwindow.createpanoramatab.interpolator.bilinear@와 같은 양수 계수 만있는 보간기를 사용하는 것이 좋습니다."
+			"txt": "선택한 보간은 HDR 소스 이미지에 적합하지 않습니다. 소스 이미지의 다이나믹 레인지가 넓기 때문에 밝은 픽셀 주위에 어두운 후광이 나타날 수 있습니다.\n\nHDR 소스 이미지로 작업 할 때는 @mainwindow.createpanoramatab.interpolator.bicubicsofter@ 또는 @mainwindow.createpanoramatab.interpolator.bilinear@와 같은 양수 계수 만있는 보간기를 사용하는 것이 좋습니다."
 		},
 		{
 			"id": "txt.globallensprofile",
@@ -7778,14 +7778,14 @@
 		{
 			"id": "exposurehdrtab.truehdrmode",
 			"machinetranslated": true,
-			"helptext": "블렌드 플레인을 높은 동적 범위 이미지로 병합합니다.",
-			"morehelptext": "<br><br>HDR 이미지는 파노라마의 가장 어두운 부분부터 가장 밝은 부분까지의 전체 동적 범위를 캡처합니다. 디스플레이 또는 인쇄에 적합한 낮은 동적 범위 이미지를 생성하기 위해 선택적으로 톤 매핑 될 수 있습니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
+			"helptext": "블렌드 플레인을 높은 다이나믹 레인지 이미지로 병합합니다.",
+			"morehelptext": "<br><br>HDR 이미지는 파노라마의 가장 어두운 부분부터 가장 밝은 부분까지의 전체 다이나믹 레인지를 캡처합니다. 디스플레이 또는 인쇄에 적합한 낮은 다이나믹 레인지 이미지를 생성하기 위해 선택적으로 톤 매핑 될 수 있습니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
 		},
 		{
 			"id": "exposurehdrtab.exposurefusionmode",
 			"machinetranslated": true,
 			"helptext": "노출 융합을 사용하여 합성 평면을 병합합니다.",
-			"morehelptext": "<br><br>Exposure Fusion은 블렌드 플레인을 톤 매핑 된 낮은 다이나믹 레인지 이미지에 직접 병합합니다. 이것은 우선 톤 매핑을위한 높은 동적 범위 이미지를 생성하는 단계를 건너 뜁니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
+			"morehelptext": "<br><br>Exposure Fusion은 블렌드 플레인을 톤 매핑 된 낮은 다이나믹 레인지 이미지에 직접 병합합니다. 이것은 우선 톤 매핑을위한 높은 다이나믹 레인지 이미지를 생성하는 단계를 건너 뜁니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
 		},
 		{
 			"id": "exposurehdrtab.dontgroupintoblendplanes",
@@ -7796,7 +7796,7 @@
 			"id": "exposurehdrtab.tonemapldrpanorama",
 			"machinetranslated": true,
 			"helptext": "톤 매핑을 활성화 합니다.",
-			"morehelptext": "<br><br>톤 매핑은 일반적으로 HDR 이미지의 컨텍스트에서 알려져 있지만 일반 저 동적 범위 이미지에도 사용할 수 있습니다. 톤 매핑은 이미지 편집 소프트웨어의 그림자 / 강조 표시 보정과 유사하게 그림자를 강조하고 밝은 영역을 어둡게하여 동적 범위를 줄입니다. 이로 인해 특히 고 대비 장면의 경우 더욱 즐거운 이미지를 얻을 수 있습니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
+			"morehelptext": "<br><br>톤 매핑은 일반적으로 HDR 이미지의 컨텍스트에서 알려져 있지만 일반 저 다이나믹 레인지 이미지에도 사용할 수 있습니다. 톤 매핑은 이미지 편집 소프트웨어의 그림자 / 강조 표시 보정과 유사하게 그림자를 강조하고 밝은 영역을 어둡게하여 다이나믹 레인지를 줄입니다. 이로 인해 특히 고 대비 장면의 경우 더욱 즐거운 이미지를 얻을 수 있습니다.<br><br>설정은 파노라마 편집기의 사이드 바에서 조정할 수 있습니다."
 		},
 		{
 			"id": "exposurehdrtab.exposurecompensation",
@@ -8098,7 +8098,7 @@
 			"id": "createpanoramatab.hdrfileformat",
 			"machinetranslated": true,
 			"helptext": "HDR 출력에 사용할 파일 형식입니다.",
-			"morehelptext": "<br><br>PTGui에 의해 생성된 HDR 파일은 장면의 광도의 전체 동적 범위를 지원할 수 있습니다. PTGui는 HDR 출력을 위해 다음 파일 형식을 지원합니다.<br><br><b>TIFF :</b> 32 비트 부동 소수점, 무손실 압축 및 투명도 지원 전통적인 TIFF는 파일 당 4GB로 제한되어 있지만, PTGui는 파일이 커질 때마다 자동으로 BigTIFF 언어를 사용합니다. 모든 TIFF 가능 응용 프로그램이 32 비트 부동 소수점 이미지 또는 BigTIFF 파일을 지원하는 것은 아닙니다.<br><br><b>Photoshop(.psd 및 .psb) :</b> 무손실 압축 및 투명도 지원 기능이있는 채널 별 32 비트 부동 소수점 TIFF와 같습니다. 포토샵 형식의 주요 이점은 레이어 출력입니다. PTGui는 블렌드 HDR 파노라마, 뒤틀린 HDR 소스 이미지 및 HDR 블렌드 플레인을 각각 별도의 레이어에 포함하는 단일 파일을 출력 할 수 있습니다. 이렇게하면 Photoshop에서 파노라마를 손쉽게 수정하고 HDR을 제거 할 수 있습니다. .psd는 4GB의 파일 크기와 30000 픽셀의 너비와 높이로 제한되기 때문에 일반적으로 .psb 형식을 사용해야합니다.<br><br><b>OpenEXR :</b> 이 형식은 원래 시각 효과 업계에서 Industrial Light and Magic(LucasFilm)이 개발했습니다. PTGui는 16 비트 '반 부동'및 32 비트 부동 소수점 이미지를 생성 할 수 있습니다. 투명성이 지원되며 여러 가지 무손실 및 손실 압축 알고리즘이 지원됩니다. 이것은 HDR 이미지의 업계 표준 형식입니다.<br><br><b>HDR Radiance :</b> Radiance 소프트웨어 제품군에서 HDR 지원을 위해 Greg Ward가 처음 생각했습니다. 픽셀은 공통 지수가있는 빨강 / 녹색 / 파랑 삼중 항으로 저장되므로 형식을 RGBE라고도합니다. 투명성은 지원되지 않습니다. 일반적인 지수 인코딩은 특정 포화 색상을 나타낼 수 없기 때문에 손실 압축 형식으로 간주해야합니다."
+			"morehelptext": "<br><br>PTGui에 의해 생성된 HDR 파일은 장면의 광도의 전체 다이나믹 레인지를 지원할 수 있습니다. PTGui는 HDR 출력을 위해 다음 파일 형식을 지원합니다.<br><br><b>TIFF :</b> 32 비트 부동 소수점, 무손실 압축 및 투명도 지원 전통적인 TIFF는 파일 당 4GB로 제한되어 있지만, PTGui는 파일이 커질 때마다 자동으로 BigTIFF 언어를 사용합니다. 모든 TIFF 가능 응용 프로그램이 32 비트 부동 소수점 이미지 또는 BigTIFF 파일을 지원하는 것은 아닙니다.<br><br><b>Photoshop(.psd 및 .psb) :</b> 무손실 압축 및 투명도 지원 기능이있는 채널 별 32 비트 부동 소수점 TIFF와 같습니다. 포토샵 형식의 주요 이점은 레이어 출력입니다. PTGui는 블렌드 HDR 파노라마, 뒤틀린 HDR 소스 이미지 및 HDR 블렌드 플레인을 각각 별도의 레이어에 포함하는 단일 파일을 출력 할 수 있습니다. 이렇게하면 Photoshop에서 파노라마를 손쉽게 수정하고 HDR을 제거 할 수 있습니다. .psd는 4GB의 파일 크기와 30000 픽셀의 너비와 높이로 제한되기 때문에 일반적으로 .psb 형식을 사용해야합니다.<br><br><b>OpenEXR :</b> 이 형식은 원래 시각 효과 업계에서 Industrial Light and Magic(LucasFilm)이 개발했습니다. PTGui는 16 비트 '반 부동'및 32 비트 부동 소수점 이미지를 생성 할 수 있습니다. 투명성이 지원되며 여러 가지 무손실 및 손실 압축 알고리즘이 지원됩니다. 이것은 HDR 이미지의 업계 표준 형식입니다.<br><br><b>HDR Radiance :</b> Radiance 소프트웨어 제품군에서 HDR 지원을 위해 Greg Ward가 처음 생각했습니다. 픽셀은 공통 지수가있는 빨강 / 녹색 / 파랑 삼중 항으로 저장되므로 형식을 RGBE라고도합니다. 투명성은 지원되지 않습니다. 일반적인 지수 인코딩은 특정 포화 색상을 나타낼 수 없기 때문에 손실 압축 형식으로 간주해야합니다."
 		},
 		{
 			"id": "createpanoramatab.hdrfileformatsettings",
@@ -8160,7 +8160,7 @@
 		{
 			"id": "createpanoramatab.components.hdrpanorama",
 			"machinetranslated": true,
-			"helptext": "파노라마를 HDR 형식으로 저장합니다(톤 매핑 이전). 결과 파일은 장면의 광량의 전체 동적 범위를 포함합니다."
+			"helptext": "파노라마를 HDR 형식으로 저장합니다(톤 매핑 이전). 결과 파일은 장면의 광량의 전체 다이나믹 레인지를 포함합니다."
 		},
 		{
 			"id": "createpanoramatab.components.hdrlayers",

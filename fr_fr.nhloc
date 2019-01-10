@@ -991,8 +991,7 @@
 		},
 		{
 			"id": "menubar.help.about",
-			"machinetranslated": true,
-			"txt": "Sur"
+			"txt": "À propos"
 		},
 		{
 			"id": "menubar.help.purchase",

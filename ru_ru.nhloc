@@ -2,7 +2,7 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"Andrey Ilyin"
+		"Andrey Ilyin", "Magomed Khaybulaev"
 	],
 	"languagenamelocalized": "русский",
 	"startupmsg": "Эта русская версия PTGui была переведена с английского на русский с помощью компьютерной системы перевода. Перевод может быть не идеальным, но мы надеемся, что всё будет понятно. При необходимости вы можете перейти на оригинальный английский интерфейс в %0.\n\nЕсли вы заинтересованы, пожалуйста, помогите нам улучшить PTGui, исправив любые ошибки в переводе на русский язык. Для получения дополнительной информации см. «@help@ - @txt.improvetranslation@».",
@@ -17,53 +17,45 @@
 		},
 		{
 			"id": "txt.yesbutton",
-			"machinetranslated": true,
-			"txt": "Да (&Y)"
+			"txt": "Да"
 		},
 		{
 			"id": "warn.overwriteptgui10.overwritebutton",
-			"machinetranslated": true,
-			"txt": "и перезапись (&O)"
+			"txt": "Перезаписать"
 		},
 		{
 			"id": "warn.overwriteptgui10.renamebutton",
-			"machinetranslated": true,
-			"txt": "Переименовать (&R)"
+			"txt": "Переименовать"
 		},
 		{
 			"id": "txt.applybutton",
-			"machinetranslated": true,
-			"txt": "Применять (&A)"
+			"txt": "Применить"
 		},
 		{
 			"id": "txt.apply",
-			"machinetranslated": true,
 			"txt": "Применять"
 		},
 		{
 			"id": "txt.convert",
-			"machinetranslated": true,
-			"txt": "Перерабатывать"
+			"txt": "Конвертировать"
 		},
 		{
 			"id": "txt.convertbutton",
-			"machinetranslated": true,
-			"txt": "Перерабатывать (&O)"
+			"txt": "Конвертировать"
 		},
 		{
 			"id": "txt.savebutton",
-			"machinetranslated": true,
-			"txt": "Сохранить (&S)"
+			"txt": "Сохранить"
 		},
 		{
 			"id": "txt.dontsavebutton",
 			"machinetranslated": true,
-			"txt": "Не сохранять (&D)"
+			"txt": "Не сохранять"
 		},
 		{
 			"id": "txt.nobutton",
 			"machinetranslated": true,
-			"txt": "Нет (&N)"
+			"txt": "Нет"
 		},
 		{
 			"id": "upto",
@@ -82,8 +74,7 @@
 		},
 		{
 			"id": "zoomfit",
-			"machinetranslated": true,
-			"txt": "Поместиться"
+			"txt": "Уместить"
 		},
 		{
 			"id": "mmpostfix",
@@ -138,8 +129,7 @@
 		},
 		{
 			"id": "delete",
-			"machinetranslated": true,
-			"txt": "удалять"
+			"txt": "удалить"
 		},
 		{
 			"id": "reset",
@@ -154,7 +144,7 @@
 		{
 			"id": "presetbutton",
 			"machinetranslated": true,
-			"txt": "Предустановленная"
+			"txt": "Пресеты"
 		},
 		{
 			"id": "saveas",
@@ -178,23 +168,19 @@
 		},
 		{
 			"id": "yaw",
-			"machinetranslated": true,
-			"txt": "Угол по горизонту"
+			"txt": "Угол по горизонту (Yaw)"
 		},
 		{
 			"id": "pitch",
-			"machinetranslated": true,
-			"txt": "Наклон"
+			"txt": "Наклон (Pitch)"
 		},
 		{
 			"id": "roll",
-			"machinetranslated": true,
-			"txt": "Крен"
+			"txt": "Крен (Roll)"
 		},
 		{
 			"id": "pan",
-			"machinetranslated": true,
-			"txt": "панорамирования"
+			"txt": "панорамирование"
 		},
 		{
 			"id": "tilt",
@@ -208,17 +194,14 @@
 		},
 		{
 			"id": "abort",
-			"machinetranslated": true,
-			"txt": "выкинуть"
+			"txt": "Прервать"
 		},
 		{
 			"id": "illwait",
-			"machinetranslated": true,
-			"txt": "Я буду ждать"
+			"txt": "Подождать"
 		},
 		{
 			"id": "txt.error",
-			"machinetranslated": true,
 			"txt": "ошибка"
 		},
 		{

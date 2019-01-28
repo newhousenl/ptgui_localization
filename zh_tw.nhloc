@@ -7,7 +7,7 @@
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
-			"txt": "改進中文翻譯"
+			"txt": "優化中文翻譯"
 		},
 		{
 			"id": "txt.translationby",
@@ -127,7 +127,7 @@
 		{
 			"id": "ok",
 			"machinetranslated": true,
-			"txt": "好"
+			"txt": "是"
 		},
 		{
 			"id": "cancel",
@@ -292,7 +292,7 @@
 		{
 			"id": "menubar.file.newproject",
 			"machinetranslated": true,
-			"txt": "新專案"
+			"txt": "開新專案"
 		},
 		{
 			"id": "menubar.file.openproject",
@@ -382,7 +382,7 @@
 		{
 			"id": "menubar.file.import",
 			"machinetranslated": true,
-			"txt": "輸出"
+			"txt": "置入"
 		},
 		{
 			"id": "menubar.file.saveproject",
@@ -392,12 +392,12 @@
 		{
 			"id": "menubar.file.saveprojectas",
 			"machinetranslated": true,
-			"txt": "將專案另存為"
+			"txt": "另存專案"
 		},
 		{
 			"id": "menubar.file.saveastemplate",
 			"machinetranslated": true,
-			"txt": "另存為模板"
+			"txt": "另存模板"
 		},
 		{
 			"id": "menubar.file.export",
@@ -417,7 +417,7 @@
 		{
 			"id": "menubar.file.makedefault",
 			"machinetranslated": true,
-			"txt": "使預設"
+			"txt": "儲存專案預設值"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -427,7 +427,7 @@
 		{
 			"id": "menubar.file.resetdefault",
 			"machinetranslated": true,
-			"txt": "重置預設專案設定"
+			"txt": "重置預設專案預設值"
 		},
 		{
 			"id": "resetdefault.confirmation",
@@ -437,7 +437,7 @@
 		{
 			"id": "menubar.file.newinstance",
 			"machinetranslated": true,
-			"txt": "啟動新實例"
+			"txt": "另開專案視窗"
 		},
 		{
 			"id": "menubar.file.closewindow",
@@ -447,7 +447,7 @@
 		{
 			"id": "menubar.file.exit",
 			"machinetranslated": true,
-			"txt": "輸出"
+			"txt": "退出"
 		},
 		{
 			"id": "menubar.edit",
@@ -547,12 +547,12 @@
 		{
 			"id": "menubar.view.enterfullscreen",
 			"machinetranslated": true,
-			"txt": "進入全屏"
+			"txt": "進入全螢幕"
 		},
 		{
 			"id": "menubar.view.exitfullscreen",
 			"machinetranslated": true,
-			"txt": "退出全屏"
+			"txt": "退出全螢幕"
 		},
 		{
 			"id": "menubar.images",
@@ -952,22 +952,22 @@
 		{
 			"id": "menubar.help.helpforthiswindow",
 			"machinetranslated": true,
-			"txt": "幫助這個視窗"
+			"txt": "此視窗協助"
 		},
 		{
 			"id": "menubar.help.videotutorial",
 			"machinetranslated": true,
-			"txt": "視訊教程"
+			"txt": "影片教學"
 		},
 		{
 			"id": "menubar.help.whatsnew",
 			"machinetranslated": true,
-			"txt": "什麼是新的？"
+			"txt": "新功能詳情"
 		},
 		{
 			"id": "menubar.help.ptgui.com",
 			"machinetranslated": true,
-			"txt": "PTGui網站"
+			"txt": "官方網站"
 		},
 		{
 			"id": "menubar.help.checkforupdates",
@@ -992,7 +992,7 @@
 		{
 			"id": "menubar.help.purchase",
 			"machinetranslated": true,
-			"txt": "買PTGui"
+			"txt": "購買PTGui"
 		},
 		{
 			"id": "menubar.controlpoints.autojump",
@@ -1587,7 +1587,7 @@
 			"id": "mainwindow.projectassistant.showpanoramaeditororcreatepanorama",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "您可以在<a href=0>全景編輯視窗</a>中預覽和調整全景圖。或者立即創建全景：↓"
+			"txt": "您可以在<a href=0>全景編輯器</a>視窗中預覽和調整全景圖。或者立即創建全景："
 		},
 		{
 			"id": "mainwindow.projectassistant.multiplelenses",
@@ -1608,7 +1608,7 @@
 		{
 			"id": "mainwindow.projectassistant.fullframelens",
 			"machinetranslated": true,
-			"txt": "全畫幅"
+			"txt": "全片幅"
 		},
 		{
 			"id": "mainwindow.projectassistant.timescrop",
@@ -1674,7 +1674,7 @@
 		{
 			"id": "mainwindow.lensparams.fisheyefactor",
 			"machinetranslated": true,
-			"txt": "魚眼因素："
+			"txt": "魚眼數值："
 		},
 		{
 			"id": "mainwindow.lensparams.lenscorrection",
@@ -2283,12 +2283,12 @@
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading",
 			"machinetranslated": true,
-			"txt": "如果檢測到包圍曝光："
+			"txt": "檢測到曝光範圍："
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link",
 			"machinetranslated": true,
-			"txt": "啟用HDR模式並鏈接括號曝光"
+			"txt": "啟用HDR模式並鏈接曝光"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink",
@@ -2298,7 +2298,7 @@
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr",
 			"machinetranslated": true,
-			"txt": "不要啟用HDR模式"
+			"txt": "禁用HDR模式"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.dontask",
@@ -2323,12 +2323,12 @@
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.stitchonlyifenoughcontrolpoints",
 			"machinetranslated": true,
-			"txt": "但只有找到足夠的控制點"
+			"txt": "僅限有足夠的控制點"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming",
 			"machinetranslated": true,
-			"txt": "檔案命名"
+			"txt": "檔案名稱規則"
 		},
 		{
 			"id": "panorama",
@@ -2498,7 +2498,7 @@
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages.dontchange",
 			"machinetranslated": true,
-			"txt": "請勿修改影像的鏈接方式"
+			"txt": "禁用修改影像鏈接方式"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder",
@@ -2558,7 +2558,7 @@
 		{
 			"id": "mainwindow.projectsettings.misc.switchtoequirectforwideanglesourceimages",
 			"machinetranslated": true,
-			"txt": "在載入廣角或球形影像時，將全景圖設定為360°equirectangular投影"
+			"txt": "在載入廣角或球形影像時，將全景圖設定為360°等距離長方圓柱(equirectangular)投影"
 		},
 		{
 			"id": "mainwindow.imageparameters.image",
@@ -3336,7 +3336,7 @@
 		{
 			"id": "photometricsettings.disabled",
 			"machinetranslated": true,
-			"txt": "殘"
+			"txt": "停用"
 		},
 		{
 			"id": "photometricsettings.enabled",
@@ -3396,7 +3396,7 @@
 		{
 			"id": "photometricsettings.global",
 			"machinetranslated": true,
-			"txt": "全球："
+			"txt": "全域："
 		},
 		{
 			"id": "photometricsettings.percamera",
@@ -3592,7 +3592,7 @@
 		{
 			"id": "options.batchstitcher.closewhendone",
 			"machinetranslated": true,
-			"txt": "將專案發送到批處理器后："
+			"txt": "將專案發送到批處理器後："
 		},
 		{
 			"id": "options.batchstitcher.closewhendone.yes",
@@ -5878,7 +5878,7 @@
 		{
 			"id": "txt.loadingproject",
 			"machinetranslated": true,
-			"txt": "載入專案"
+			"txt": "開啟專案"
 		},
 		{
 			"id": "txt.loadingtemplate",
@@ -6795,7 +6795,7 @@
 		{
 			"id": "activationdialog.txt4",
 			"machinetranslated": true,
-			"txt": "啟用需要網際網路連線。如果未連線此計算機或遇到連線問題，請按@activateoffline@按鈕。"
+			"txt": "啟用需要網際網路連線。如果未連線此電腦或遇到連線問題，請按@activateoffline@按鈕。"
 		},
 		{
 			"id": "activationdialog.regname",
@@ -6835,7 +6835,7 @@
 		{
 			"id": "ptguiviewer.newwindow",
 			"machinetranslated": true,
-			"txt": "新窗戶"
+			"txt": "新視窗"
 		},
 		{
 			"id": "ptguiviewer.requiresopenglversion",
@@ -7838,7 +7838,7 @@
 		{
 			"id": "exposurehdrtab.exposureoffset",
 			"machinetranslated": true,
-			"helptext": "全球曝光偏移。使全景變亮或變暗。"
+			"helptext": "全域曝光偏移。使全景變亮或變暗。"
 		},
 		{
 			"id": "exposurehdrtab.whitebalance",

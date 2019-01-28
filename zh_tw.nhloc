@@ -427,7 +427,7 @@
 		{
 			"id": "menubar.file.resetdefault",
 			"machinetranslated": true,
-			"txt": "重置預設專案預設值"
+			"txt": "重置專案預設值"
 		},
 		{
 			"id": "resetdefault.confirmation",
@@ -1759,7 +1759,7 @@
 		{
 			"id": "mainwindow.lensparams.useindividual",
 			"machinetranslated": true,
-			"txt": "使用影像的單個參數："
+			"txt": "獨立影像個別參數："
 		},
 		{
 			"id": "mainwindow.lensparams.cameraportraitorientation",
@@ -4933,7 +4933,7 @@
 		{
 			"id": "fileformatsettings.bitsperchannel",
 			"machinetranslated": true,
-			"txt": "每通道%0位"
+			"txt": "%0位元"
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
@@ -4948,7 +4948,7 @@
 		{
 			"id": "fileformatsettings.bitdepth",
 			"machinetranslated": true,
-			"txt": "位深度："
+			"txt": "位元："
 		},
 		{
 			"id": "fileformatsettings.compression",

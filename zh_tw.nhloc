@@ -3,7 +3,7 @@
 	"line_endings": "unix",
 	"contributors": [],
 	"languagenamelocalized": "繁體中文",
-	"startupmsg": "此繁體中文版 由AllenChen於20190128修訂更正。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
+	"startupmsg": "此繁體中文版 由AllenChen於20190129修訂更正。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
@@ -147,7 +147,7 @@
 		{
 			"id": "defaults",
 			"machinetranslated": true,
-			"txt": "預設"
+			"txt": "預設值"
 		},
 		{
 			"id": "presetbutton",
@@ -172,7 +172,7 @@
 		{
 			"id": "default",
 			"machinetranslated": true,
-			"txt": "預設"
+			"txt": "預設值"
 		},
 		{
 			"id": "yaw",
@@ -1669,7 +1669,7 @@
 		{
 			"id": "mainwindow.lensparams.focallength.hfov",
 			"machinetranslated": true,
-			"txt": "水平視野："
+			"txt": "水平FOV："
 		},
 		{
 			"id": "mainwindow.lensparams.fisheyefactor",
@@ -6228,7 +6228,7 @@
 		{
 			"id": "publishtowebsite.hfov",
 			"machinetranslated": true,
-			"txt": "水平視野："
+			"txt": "水平FOV："
 		},
 		{
 			"id": "publishtowebsite.create",
@@ -6298,7 +6298,7 @@
 		{
 			"id": "publishtowebsite.showfullscreen",
 			"machinetranslated": true,
-			"txt": "顯示全屏按鈕："
+			"txt": "顯示全螢幕按鈕："
 		},
 		{
 			"id": "publishtowebsite.showfullscreen.yes",
@@ -6729,7 +6729,7 @@
 		{
 			"id": "qtvrsettings.initial",
 			"machinetranslated": true,
-			"txt": "Initally："
+			"txt": "初始位子："
 		},
 		{
 			"id": "qtvrsettings.minimum",
@@ -8498,7 +8498,7 @@
 		{
 			"id": "projectionpanel.hfov",
 			"machinetranslated": true,
-			"helptext": "水平視野。",
+			"helptext": "水平FOV。",
 			"morehelptext": "<br><br>也可以使用此視窗底部的滑塊進行調整。見<a href='helppage:projections'>預測</a>"
 		},
 		{
@@ -8637,8 +8637,8 @@
 		{
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
-			"helptext": "啟用或停用檢視器右上角的全屏按鈕。",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全屏支援。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>僅在（現在的舊版）Flash檢視器中提供全屏支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全屏支援。<br><br>全屏顯示使用HTML5全屏API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全屏顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
+			"helptext": "啟用或停用檢視器右上角的全螢幕按鈕。",
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全螢幕支援。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>僅在（現在的舊版）Flash檢視器中提供全螢幕支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全螢幕支援。<br><br>全螢幕顯示使用HTML5全螢幕API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全螢幕顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",
@@ -9457,17 +9457,17 @@
 		{
 			"id": "projections",
 			"machinetranslated": true,
-			"helptext": "<b>預測</b><br><br>全景，或實際上任何照片，是相機周圍場景的平面表示。有三種方法可將三維世界投射到平面上，因此PTGui提供多種全景投影選擇。每個都有自己的屬性和限制。<br><br>在全景圖編輯器，側欄的「投影」部分或使用工具欄中的投影按鈕中選擇所需的投影。 PTGui支援以下預測：<br><br><b>@+projection.rectilinear@（'flat'）：</b>這是全景球體投影到平面上的投影。這是我們的眼睛習慣的投影，普通相機的投影。直線投影具有保留所有直線的獨特屬性：任何在現實世界中直線的線在全景圖中顯示為直線。這使其成為建築影像的合適投影。相同的屬性限制了視野：在物理上不可能投射超過180°的視野，同時保留直線。在90°以上的視野中，在影像的側面和角落處拉伸變得明顯;直線在120°以上變得無法使用。<br><br>通過使用水平和/或垂直壓縮可以減少角部拉伸效果;請參閱全景編輯器中Projection側欄中的「@panoramaeditor.sidebar.projectionpanel.compression@」滑塊。通過壓縮直線檢視，可以建立接近180°x 180°的全景圖而不會出現極端失真。直線不再保留：水平和垂直線仍保持筆直，但使用壓縮時對角線會彎曲。<br><br>對於寬度超過180°的全景圖，應使用其他投影之一：<br><br><b>@+projection.cylindrical@：</b>這是將全景球投射到圓柱體表面上的結果。圓柱形全景圖支援360°水平視野。垂直投影的行為類似於直線：垂直視場的物理極限為180°，實際極限約為120°。因此，圓柱投影主要適用於單行360°全景圖。<br><br>保留所有垂直直線。水平直線通常是彎曲的。只有地平線仍然是直的。<br><br>與直線投影一樣，圓柱形投影可以垂直壓縮。增加垂直壓縮會降低全景頂部和底部附近的拉伸效果。在完全垂直壓縮時，結果等於等角投影。<br><br><b>@+projection.mercator@：</b>此投影類似於@+projection.cylindrical@，但在較高的垂直視野範圍內，頂部和底部的拉伸不太嚴重。這是圓柱形和等角形投影之間的良好折衷，適用於具有更高垂直視場（超過90°）的360°全景圖。除此之外，效能與圓柱投影相同：垂直視場限制為180°;只有垂直直線和水平線在全景圖中保持直線。<br><br><b>@+projection.equirectangular@：</b>這是全景球體的緯度/經度投影。 Equirectangular投影可以具有高達360°x 180°的視野，使其適用於全球面全景圖。<br><br>與圓柱形和墨卡托投影一樣，在垂直投影中只有垂直線和水平線投影為直線。所有其他線條都變得彎曲。<br><br>360°x 180°equirectangular已成為在應用程式之間交換球形全景圖的標準格式。許多互動式全景檢視器直接支援equirectangular影像。<br><br><b>@+projection.transversecylindrical@，@+projection.transversemercator@和@+projection.transverseequirectangular@：</b>這些投影分別等於@+projection.cylindrical@，@+projection.mercator@和@+projection.equirectangular@，但旋轉90°。它們支援高達360°的垂直視場，而水平視場限制為180°。這些投影適用於高垂直全景圖。<br><br><b>@+projection.circularfisheye@和@+projection.fullframefisheye@：</b>這些投影模擬魚眼鏡頭。兩個投影都給出相同的結果，但@projection.circularfisheye@輸出被裁剪為圓形，而@projection.fullframefisheye@輸出被裁剪為矩形。所有方向的視野可達360°。<br><br>此投影可使用壓縮設定。在預設的完全壓縮時，結果是真正的魚眼投影。當壓縮減小（滑塊向左移動）時，投影變形為直線投影。壓縮減小的魚眼檢視可用作廣角直線檢視的折衷方案：在全景中心附近保留直線，但朝向邊緣變得更加彎曲。<br><br><b>@+projection.vedutismo@：</b>以18世紀的繪畫風格命名，這個投影保留了通過全景中心的所有對角直線。它最適合具有清晰「消失點」的廣角場景：如果消失點移動到全景中心，則進入消失點的所有線都保持筆直。<br><br>Vedutismo投影支援高達360°的水平視野，儘管對於非常寬的全景圖，邊緣處的一些垂直拉伸變得明顯。垂直視場限制為180°。任何不通過全景中心點的直線都會彎曲。<br><br><b>@+projection.transversevedutismo@：</b>具有相同的屬性，但水平限制為180°，垂直方向限制為360°，可用於高垂直全景圖。<br><br><b>@+projection.stereographic@：</b>這是從<b>球桿</b>上看到的球體在平面上的投影。它以「小星球」的觀點而聞名。爲了便於建立小行星，提供了另一個名為「@+projection.stereographicdown@」的投影，它是相同的投影，但是旋轉使得場景的最低點位於全景的中心。<br><br>立體投影具有額外的壓縮參數。在最大壓縮時，結果是真實的立體投影;減小壓縮將視點從極點移動到球體的中心，有效地將檢視變形為直線投影。"
+			"helptext": "<b>預測</b><br><br>全景，或實際上任何照片，是相機周圍場景的平面表示。有三種方法可將三維世界投射到平面上，因此PTGui提供多種全景投影選擇。每個都有自己的屬性和限制。<br><br>在全景圖編輯器，側欄的「投影」部分或使用工具欄中的投影按鈕中選擇所需的投影。 PTGui支援以下預測：<br><br><b>@+projection.rectilinear@（'flat'）：</b>這是全景球體投影到平面上的投影。這是我們的眼睛習慣的投影，普通相機的投影。直線投影具有保留所有直線的獨特屬性：任何在現實世界中直線的線在全景圖中顯示為直線。這使其成為建築影像的合適投影。相同的屬性限制了視野：在物理上不可能投射超過180°的視野，同時保留直線。在90°以上的視野中，在影像的側面和角落處拉伸變得明顯;直線在120°以上變得無法使用。<br><br>通過使用水平和/或垂直壓縮可以減少角部拉伸效果;請參閱全景編輯器中Projection側欄中的「@panoramaeditor.sidebar.projectionpanel.compression@」滑塊。通過壓縮直線檢視，可以建立接近180°x 180°的全景圖而不會出現極端失真。直線不再保留：水平和垂直線仍保持筆直，但使用壓縮時對角線會彎曲。<br><br>對於寬度超過180°的全景圖，應使用其他投影之一：<br><br><b>@+projection.cylindrical@：</b>這是將全景球投射到圓柱體表面上的結果。圓柱形全景圖支援360°水平FOV。垂直投影的行為類似於直線：垂直視場的物理極限為180°，實際極限約為120°。因此，圓柱投影主要適用於單行360°全景圖。<br><br>保留所有垂直直線。水平直線通常是彎曲的。只有地平線仍然是直的。<br><br>與直線投影一樣，圓柱形投影可以垂直壓縮。增加垂直壓縮會降低全景頂部和底部附近的拉伸效果。在完全垂直壓縮時，結果等於等角投影。<br><br><b>@+projection.mercator@：</b>此投影類似於@+projection.cylindrical@，但在較高的垂直視野範圍內，頂部和底部的拉伸不太嚴重。這是圓柱形和等角形投影之間的良好折衷，適用於具有更高垂直視場（超過90°）的360°全景圖。除此之外，效能與圓柱投影相同：垂直視場限制為180°;只有垂直直線和水平線在全景圖中保持直線。<br><br><b>@+projection.equirectangular@：</b>這是全景球體的緯度/經度投影。 Equirectangular投影可以具有高達360°x 180°的視野，使其適用於全球面全景圖。<br><br>與圓柱形和墨卡托投影一樣，在垂直投影中只有垂直線和水平線投影為直線。所有其他線條都變得彎曲。<br><br>360°x 180°equirectangular已成為在應用程式之間交換球形全景圖的標準格式。許多互動式全景檢視器直接支援equirectangular影像。<br><br><b>@+projection.transversecylindrical@，@+projection.transversemercator@和@+projection.transverseequirectangular@：</b>這些投影分別等於@+projection.cylindrical@，@+projection.mercator@和@+projection.equirectangular@，但旋轉90°。它們支援高達360°的垂直視場，而水平視場限制為180°。這些投影適用於高垂直全景圖。<br><br><b>@+projection.circularfisheye@和@+projection.fullframefisheye@：</b>這些投影模擬魚眼鏡頭。兩個投影都給出相同的結果，但@projection.circularfisheye@輸出被裁剪為圓形，而@projection.fullframefisheye@輸出被裁剪為矩形。所有方向的視野可達360°。<br><br>此投影可使用壓縮設定。在預設的完全壓縮時，結果是真正的魚眼投影。當壓縮減小（滑塊向左移動）時，投影變形為直線投影。壓縮減小的魚眼檢視可用作廣角直線檢視的折衷方案：在全景中心附近保留直線，但朝向邊緣變得更加彎曲。<br><br><b>@+projection.vedutismo@：</b>以18世紀的繪畫風格命名，這個投影保留了通過全景中心的所有對角直線。它最適合具有清晰「消失點」的廣角場景：如果消失點移動到全景中心，則進入消失點的所有線都保持筆直。<br><br>Vedutismo投影支援高達360°的水平FOV，儘管對於非常寬的全景圖，邊緣處的一些垂直拉伸變得明顯。垂直視場限制為180°。任何不通過全景中心點的直線都會彎曲。<br><br><b>@+projection.transversevedutismo@：</b>具有相同的屬性，但水平限制為180°，垂直方向限制為360°，可用於高垂直全景圖。<br><br><b>@+projection.stereographic@：</b>這是從<b>球桿</b>上看到的球體在平面上的投影。它以「小星球」的觀點而聞名。爲了便於建立小行星，提供了另一個名為「@+projection.stereographicdown@」的投影，它是相同的投影，但是旋轉使得場景的最低點位於全景的中心。<br><br>立體投影具有額外的壓縮參數。在最大壓縮時，結果是真實的立體投影;減小壓縮將視點從極點移動到球體的中心，有效地將檢視變形為直線投影。"
 		},
 		{
 			"id": "publishtowebsite",
 			"machinetranslated": true,
-			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui包括一個PTGui Viewer外掛，用於在網站上發佈360°或全球形全景圖。該外掛使網站訪問者可以通過單擊並拖動滑鼠來「環顧四周」。有關此類互動式全景圖的示例，請訪問www.ptgui.com上的相簿。<br><br>PTGui可以產生所有必要的檔案，只需點選一下即可在網站上發佈全景圖。 PTGui Viewer相容所有現代Web瀏覽器，包括移動裝置上的瀏覽器。<br><br><b>用法</b><br><br>首先應將全景圖拼接成jpeg或tiff格式的常規平面圖像。在@menubar.tools.publishtowebsite@中，將拼接的全景圖新增到列表中，然後按<b>@txt.convert@</b>建立Web發佈所需的檔案。最後，產生的檔案需要上傳到Web伺服器。<br><br><b>拼接全景</b><br><br>通常應該使用equirectangular投影，因為這可以支援完全球形的全景圖。拼接全景圖時，可以在全景編輯器視窗中選擇投影。使用兩個滑塊調整視野，直到全景圖填滿整個畫布，或使用360°x 180°拍攝全球面全景圖。不要在全景編輯器中使用黃色裁剪線：這會導致PTGui Viewer不支援的非對稱裁剪。<br><br>記下全景圖的水平視野：這在全景編輯器側欄中顯示在「投影」下。建議僅將@menubar.tools.publishtowebsite@工具用於寬度超過180°的全景圖：內部全景圖轉換為完整的360°x 180°表示;如果全景的可視部分只是一小部分，則浪費了大量空間。最後轉到@mainwindow.tabs.createpanorama@並以TIFF或JPEG格式創建全景圖。<br><br><b>上傳到網站</b><br><br>@menubar.tools.publishtowebsite@工具產生許多檔案;這些應該上傳到您的Web伺服器上的資料夾。通常，這是使用FTP，SFTP或SCP完成的。有關如何執行此操作的詳細資訊，請與您的網路託管公司聯繫。檔案發佈后，您可以鏈接到上傳的.htm檔案以顯示全景圖。<br><br><b>使用自定義模板</b><br><br>PTGui將產生一個具有預設佈局的基本網頁。如果您知道如何編輯html和css，則可以像任何其他html檔案一樣自定義產生的網頁。或者，可以使用模板自定義@menubar.tools.publishtowebsite@工具產生的頁面佈局。<br><br>選擇<b>@publishtowebsite.usecustomtemplate@</b>以使用您自己的模板。單擊@browse@並指向您自己的模板檔案（.htm格式）。或者單擊<b>@publishtowebsite.createtemplate@</b>以建立新模板檔案：這將建立PTGui預設模板的副本，您可以自定義該模板。<br><br>該模板是一個常規.htm檔案，其中包含3個自定義標記：<br><br>{{TITLE}}  - 將替換為網頁標題欄位中輸入的值<br>{{DESCRIPTION}}  - 替換為在「說明」欄位中輸入的文字<br>{{PARAMS}}  - 全景檢視器外掛的參數"
+			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui包括一個PTGui Viewer外掛，用於在網站上發佈360°或全球形全景圖。該外掛使網站訪問者可以通過單擊並拖動滑鼠來「環顧四周」。有關此類互動式全景圖的示例，請訪問www.ptgui.com上的相簿。<br><br>PTGui可以產生所有必要的檔案，只需點選一下即可在網站上發佈全景圖。 PTGui Viewer相容所有現代Web瀏覽器，包括移動裝置上的瀏覽器。<br><br><b>用法</b><br><br>首先應將全景圖拼接成jpeg或tiff格式的常規平面圖像。在@menubar.tools.publishtowebsite@中，將拼接的全景圖新增到列表中，然後按<b>@txt.convert@</b>建立Web發佈所需的檔案。最後，產生的檔案需要上傳到Web伺服器。<br><br><b>拼接全景</b><br><br>通常應該使用equirectangular投影，因為這可以支援完全球形的全景圖。拼接全景圖時，可以在全景編輯器視窗中選擇投影。使用兩個滑塊調整視野，直到全景圖填滿整個畫布，或使用360°x 180°拍攝全球面全景圖。不要在全景編輯器中使用黃色裁剪線：這會導致PTGui Viewer不支援的非對稱裁剪。<br><br>記下全景圖的水平FOV：這在全景編輯器側欄中顯示在「投影」下。建議僅將@menubar.tools.publishtowebsite@工具用於寬度超過180°的全景圖：內部全景圖轉換為完整的360°x 180°表示;如果全景的可視部分只是一小部分，則浪費了大量空間。最後轉到@mainwindow.tabs.createpanorama@並以TIFF或JPEG格式創建全景圖。<br><br><b>上傳到網站</b><br><br>@menubar.tools.publishtowebsite@工具產生許多檔案;這些應該上傳到您的Web伺服器上的資料夾。通常，這是使用FTP，SFTP或SCP完成的。有關如何執行此操作的詳細資訊，請與您的網路託管公司聯繫。檔案發佈后，您可以鏈接到上傳的.htm檔案以顯示全景圖。<br><br><b>使用自定義模板</b><br><br>PTGui將產生一個具有預設佈局的基本網頁。如果您知道如何編輯html和css，則可以像任何其他html檔案一樣自定義產生的網頁。或者，可以使用模板自定義@menubar.tools.publishtowebsite@工具產生的頁面佈局。<br><br>選擇<b>@publishtowebsite.usecustomtemplate@</b>以使用您自己的模板。單擊@browse@並指向您自己的模板檔案（.htm格式）。或者單擊<b>@publishtowebsite.createtemplate@</b>以建立新模板檔案：這將建立PTGui預設模板的副本，您可以自定義該模板。<br><br>該模板是一個常規.htm檔案，其中包含3個自定義標記：<br><br>{{TITLE}}  - 將替換為網頁標題欄位中輸入的值<br>{{DESCRIPTION}}  - 替換為在「說明」欄位中輸入的文字<br>{{PARAMS}}  - 全景檢視器外掛的參數"
 		},
 		{
 			"id": "converttocubic",
 			"machinetranslated": true,
-			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>使用此工具將現有全景圖轉換為6個立方體面或QuickTime VR格式。<br><br>立方體面是全景投影到立方體的6個面上;許多全景檢視器都需要立方體面格式的源影像。此外，立方體面可用於修飾拼接全景的最低點和天頂。<br><br>QTVR是QuickTime .mov視訊格式的一種特殊方言，支援球形全景的互動式播放。多年來，這一直是在網頁中嵌入全景圖的首選格式：QuickTime外掛安裝在每臺Mac和許多Windows計算機上（它包含在iTunes for Windows中）。 2009年，Apple已經放棄了對QuickTime的QTVR支援，所以現在應該將其視為傳統格式。<br><br><b>拼接全景</b><br><br>要產生立方體面，首先應將全景圖拼接成單個平面圖像。通常應該使用equirectangular投影，因為這可以支援完全球形的全景圖。拼接全景圖時，可以在全景編輯器視窗中選擇投影。使用兩個滑塊調整視野，直到全景圖填滿整個畫布，或使用360°x 180°拍攝全球面全景圖。不要在全景編輯器中使用黃色裁剪線：這會導致非對稱裁剪，轉換工具不支援。<br><br>記下全景圖的水平視野：這將顯示在全景編輯器側欄中的「投影」下。建議僅將此工具用於寬幅或球形全景圖，否則大部分立方體面將為黑色，並且將浪費大量空間以實現全景圖的解析度。最後轉到@mainwindow.tabs.createpanorama@並以TIFF或JPEG格式創建全景圖。<br><br><b>Nadir / zenith修飾</b><br><br>立方體面是修飾天底或天頂的理想格式，PTGui以簡單的方式支援：簡單地將您的equirectangular 360°x 180°全景轉換為立方體面（6個單獨的檔案）。在立方體面部影像中進行任何必要的修飾。要重新組合equirectangular影像，只需啟動一個新的PTGui專案，將6個立方體面新增為源影像，然後直接進入@mainwindow.tabs.createpanorama@。 PTGui將通過檢視檔名來確定哪個影像對應于哪個立方體面。檔名後綴（例如panorama.left.jpg，panorama.top.jpg）應與此視窗中「@cubicconverter.cubefacenaming@」配置的後綴相匹配。"
+			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>使用此工具將現有全景圖轉換為6個立方體面或QuickTime VR格式。<br><br>立方體面是全景投影到立方體的6個面上;許多全景檢視器都需要立方體面格式的源影像。此外，立方體面可用於修飾拼接全景的最低點和天頂。<br><br>QTVR是QuickTime .mov視訊格式的一種特殊方言，支援球形全景的互動式播放。多年來，這一直是在網頁中嵌入全景圖的首選格式：QuickTime外掛安裝在每臺Mac和許多Windows計算機上（它包含在iTunes for Windows中）。 2009年，Apple已經放棄了對QuickTime的QTVR支援，所以現在應該將其視為傳統格式。<br><br><b>拼接全景</b><br><br>要產生立方體面，首先應將全景圖拼接成單個平面圖像。通常應該使用equirectangular投影，因為這可以支援完全球形的全景圖。拼接全景圖時，可以在全景編輯器視窗中選擇投影。使用兩個滑塊調整視野，直到全景圖填滿整個畫布，或使用360°x 180°拍攝全球面全景圖。不要在全景編輯器中使用黃色裁剪線：這會導致非對稱裁剪，轉換工具不支援。<br><br>記下全景圖的水平FOV：這將顯示在全景編輯器側欄中的「投影」下。建議僅將此工具用於寬幅或球形全景圖，否則大部分立方體面將為黑色，並且將浪費大量空間以實現全景圖的解析度。最後轉到@mainwindow.tabs.createpanorama@並以TIFF或JPEG格式創建全景圖。<br><br><b>Nadir / zenith修飾</b><br><br>立方體面是修飾天底或天頂的理想格式，PTGui以簡單的方式支援：簡單地將您的equirectangular 360°x 180°全景轉換為立方體面（6個單獨的檔案）。在立方體面部影像中進行任何必要的修飾。要重新組合equirectangular影像，只需啟動一個新的PTGui專案，將6個立方體面新增為源影像，然後直接進入@mainwindow.tabs.createpanorama@。 PTGui將通過檢視檔名來確定哪個影像對應于哪個立方體面。檔名後綴（例如panorama.left.jpg，panorama.top.jpg）應與此視窗中「@cubicconverter.cubefacenaming@」配置的後綴相匹配。"
 		},
 		{
 			"id": "panoramaeditor",

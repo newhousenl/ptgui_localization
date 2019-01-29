@@ -46,7 +46,7 @@
 		{
 			"id": "txt.convertbutton",
 			"machinetranslated": true,
-			"txt": "兌換（&O）"
+			"txt": "轉換（&O）"
 		},
 		{
 			"id": "txt.savebutton",
@@ -152,7 +152,7 @@
 		{
 			"id": "presetbutton",
 			"machinetranslated": true,
-			"txt": "預置"
+			"txt": "快速設置"
 		},
 		{
 			"id": "saveas",
@@ -837,12 +837,12 @@
 		{
 			"id": "panoramaeditor.sidebar.display",
 			"machinetranslated": true,
-			"txt": "顯示設定"
+			"txt": "設定"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapping",
 			"machinetranslated": true,
-			"txt": "色調對映"
+			"txt": "色調"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusion",
@@ -852,7 +852,7 @@
 		{
 			"id": "panoramaeditor.sidebar.numtransform",
 			"machinetranslated": true,
-			"txt": "數值變換"
+			"txt": "數值"
 		},
 		{
 			"id": "panoramaeditor.sidebar.projection",
@@ -867,7 +867,7 @@
 		{
 			"id": "panoramaeditor.sidebar.panoramapreviewsettingspanel.blendplane",
 			"machinetranslated": true,
-			"txt": "混合飛機："
+			"txt": "混合模式："
 		},
 		{
 			"id": "panoeditor.menubar.setcenter",
@@ -887,7 +887,7 @@
 		{
 			"id": "panoeditor.menubar.unblended",
 			"machinetranslated": true,
-			"txt": "顯示未混合的全景"
+			"txt": "顯示未混合全景"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
@@ -947,7 +947,7 @@
 		{
 			"id": "panoeditor.menubar.tools.preview",
 			"machinetranslated": true,
-			"txt": "在Viewer中顯示"
+			"txt": "在預覽器中顯示"
 		},
 		{
 			"id": "menubar.help.helpforthiswindow",
@@ -1233,12 +1233,12 @@
 		{
 			"id": "menubar.images.remove",
 			"machinetranslated": true,
-			"txt": "去掉"
+			"txt": "去除"
 		},
 		{
 			"id": "menubar.images.replace",
 			"machinetranslated": true,
-			"txt": "更換"
+			"txt": "替換"
 		},
 		{
 			"id": "menubar.images.opencontainingfolder",
@@ -1258,7 +1258,7 @@
 		{
 			"id": "menubar.images.select",
 			"machinetranslated": true,
-			"txt": "選擇"
+			"txt": "選取"
 		},
 		{
 			"id": "menubar.images.select.outside",
@@ -1443,7 +1443,7 @@
 		{
 			"id": "pastemask",
 			"machinetranslated": true,
-			"txt": "貼上面膜"
+			"txt": "貼上遮罩"
 		},
 		{
 			"id": "clearmask",
@@ -1909,7 +1909,7 @@
 		{
 			"id": "cptypetoadd",
 			"machinetranslated": true,
-			"txt": "要新增的控制點型別"
+			"txt": "新增控制點的類別"
 		},
 		{
 			"id": "mainwindow.cptab.cptypetoadd",
@@ -2164,7 +2164,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusionsettings",
 			"machinetranslated": true,
-			"txt": "曝光融合設定"
+			"txt": "曝光混和設定"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapsettings",
@@ -2185,7 +2185,7 @@
 			"id": "mainwindow.exposurehdrpanel.warnmissingexposuredata",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<red>部分或全部源影像不包含曝光資訊。 PTGui需要知道所有源影像的曝光時間。</red>您可以在<a href=0>@mainwindow.tabs.imageparameters@</a>選項卡中輸入此數據。"
+			"txt": "<red>部分或全部源影像不包含曝光資訊。 需要知道所有源影像的曝光時間。</red>您可以在<a href=0>@mainwindow.tabs.imageparameters@</a>選項卡中輸入此數據。"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnsingleblendplane",
@@ -2298,7 +2298,7 @@
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr",
 			"machinetranslated": true,
-			"txt": "禁用HDR模式"
+			"txt": "停用HDR模式"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.dontask",
@@ -2498,7 +2498,7 @@
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages.dontchange",
 			"machinetranslated": true,
-			"txt": "禁用修改影像鏈接方式"
+			"txt": "停用修改影像鏈接方式"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder",
@@ -2825,7 +2825,7 @@
 		{
 			"id": "mainwindow.metadata.cameralocation",
 			"machinetranslated": true,
-			"txt": "相機位置"
+			"txt": "相機位置："
 		},
 		{
 			"id": "mainwindow.metadata.useexiflocation",
@@ -3085,12 +3085,12 @@
 		{
 			"id": "mainwindow.createpanoramatab.feather.sharp",
 			"machinetranslated": true,
-			"txt": "尖銳"
+			"txt": "銳利"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather.soft",
 			"machinetranslated": true,
-			"txt": "柔軟的"
+			"txt": "柔和"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode",
@@ -3110,7 +3110,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.interpolator",
 			"machinetranslated": true,
-			"txt": "插補："
+			"txt": "插補模式："
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator.default",
@@ -3180,12 +3180,12 @@
 		{
 			"id": "cptable.verticalline",
 			"machinetranslated": true,
-			"txt": "垂線"
+			"txt": "垂直線"
 		},
 		{
 			"id": "cptable.newline",
 			"machinetranslated": true,
-			"txt": "新隊"
+			"txt": "新增線"
 		},
 		{
 			"id": "cptable.line",
@@ -3210,12 +3210,12 @@
 		{
 			"id": "bracketedexposureswindow.linktxt",
 			"machinetranslated": true,
-			"txt": "如果影像是從三腳架拍攝的，則選擇此選項，並且它們已經與畫素精度對齊。"
+			"txt": "如果影像是從三腳架拍攝的，則選擇此項，並且它們已經與畫素精準對齊。"
 		},
 		{
 			"id": "bracketedexposureswindow.dontlinktxt",
 			"machinetranslated": true,
-			"txt": "如果影像是手持拍攝的，請選擇此選項。 PTGui將嘗試對齊括號曝光。"
+			"txt": "如果影像是手持拍攝的，請選擇此項。 將嘗試對齊範圍曝光。"
 		},
 		{
 			"id": "bracketedexposureswindow.nohdr",
@@ -3487,7 +3487,7 @@
 		{
 			"id": "options.viewers",
 			"machinetranslated": true,
-			"txt": "觀眾"
+			"txt": "預覽設定"
 		},
 		{
 			"id": "options.controlpointeditor",
@@ -3507,12 +3507,12 @@
 		{
 			"id": "options.theme.dark",
 			"machinetranslated": true,
-			"txt": "黑暗"
+			"txt": "黑"
 		},
 		{
 			"id": "options.theme.light",
 			"machinetranslated": true,
-			"txt": "光"
+			"txt": "白"
 		},
 		{
 			"id": "options.requiresrestart",
@@ -3532,17 +3532,17 @@
 		{
 			"id": "options.tooltipmode",
 			"machinetranslated": true,
-			"txt": "顯示工具提示："
+			"txt": "顯示提示視窗："
 		},
 		{
 			"id": "options.tooltipmode.no",
 			"machinetranslated": true,
-			"txt": "沒有"
+			"txt": "停用"
 		},
 		{
 			"id": "options.tooltipmode.yes",
 			"machinetranslated": true,
-			"txt": "是"
+			"txt": "啟用"
 		},
 		{
 			"id": "options.tooltipmode.onlytoolbars",
@@ -3617,7 +3617,7 @@
 		{
 			"id": "options.showintaskbar.all",
 			"machinetranslated": true,
-			"txt": "所有的窗戶"
+			"txt": "所有的視窗"
 		},
 		{
 			"id": "options.mousewheelaction",
@@ -3647,7 +3647,7 @@
 		{
 			"id": "options.disablemouserepositioning",
 			"machinetranslated": true,
-			"txt": "禁用滑鼠指針重新定位"
+			"txt": "停用滑鼠指針重新定位"
 		},
 		{
 			"id": "options.disablemouserepositioning.txt",
@@ -3713,12 +3713,12 @@
 		{
 			"id": "options.viewerapps",
 			"machinetranslated": true,
-			"txt": "閱讀器應用："
+			"txt": "預覽應用程式："
 		},
 		{
 			"id": "options.viewerapps.select",
 			"machinetranslated": true,
-			"txt": "選擇檢視器應用"
+			"txt": "選擇預覽應用程式"
 		},
 		{
 			"id": "options.cpeditor.magnifier",
@@ -3773,12 +3773,12 @@
 		{
 			"id": "options.cpgenerator.maxcps.perimagepair",
 			"machinetranslated": true,
-			"txt": "每個影像對的控制點"
+			"txt": "個影像控制點"
 		},
 		{
 			"id": "options.cpgenerator.maxcps.perproject",
 			"machinetranslated": true,
-			"txt": "每個專案的控制點"
+			"txt": "個專案控制點"
 		},
 		{
 			"id": "options.enblendapp",
@@ -5403,12 +5403,12 @@
 		{
 			"id": "txt.fillmask",
 			"machinetranslated": true,
-			"txt": "填充面膜"
+			"txt": "填充遮罩"
 		},
 		{
 			"id": "txt.paintmask",
 			"machinetranslated": true,
-			"txt": "油漆面膜"
+			"txt": "油漆遮罩"
 		},
 		{
 			"id": "err.cannotchangephysicallyrotateimages",
@@ -5838,7 +5838,7 @@
 		{
 			"id": "txt.openclcrashaskdisablegpuacceleration",
 			"machinetranslated": true,
-			"txt": "看來PTGui之前在使用OpenCL進行GPU加速時崩潰了。這可能是由於視訊卡驅動程式中的錯誤造成的。從製造商的網站安裝最新的驅動程式可能會解決此問題。\n\n如果問題仍然存在，則必須在沒有GPU加速的情況下執行PTGui。你想現在禁用GPU加速嗎？"
+			"txt": "看來PTGui之前在使用OpenCL進行GPU加速時崩潰了。這可能是由於視訊卡驅動程式中的錯誤造成的。從製造商的網站安裝最新的驅動程式可能會解決此問題。\n\n如果問題仍然存在，則必須在沒有GPU加速的情況下執行PTGui。你想現在停用GPU加速嗎？"
 		},
 		{
 			"id": "txt.aligningimages",
@@ -5898,7 +5898,7 @@
 		{
 			"id": "txt.asksavefirsttime",
 			"machinetranslated": true,
-			"txt": "目前的專案尚未儲存。儲存專案檔案可以讓您從上次停止的地方繼續。\n\n儲存專案？"
+			"txt": "目前專案尚未儲存。儲存專案能讓您從上次的地方繼續編輯。\n\n是否儲存專案？"
 		},
 		{
 			"id": "txt.asksavechanges",
@@ -5908,7 +5908,7 @@
 		{
 			"id": "warn.overwriteptgui10",
 			"machinetranslated": true,
-			"txt": "該專案最初是在早期版本的PTGui中建立的。 PTGui 11及更高版本使用不同的檔案格式;如果您儲存專案，則無法再在PTGui 10或更早版本中打開它。\n\n是否要覆蓋原始專案檔案，或者是否要以其他名稱儲存副本？"
+			"txt": "該專案最初是在早期版本的PTGui中建立的。 PTGui 11及更高版本使用不同的檔案格式;如果您儲存專案，則無法再在PTGui 10或更早版本中打開它。\n\n是否要覆蓋原始專案檔案，或者是否要以其他名稱儲存成副本？"
 		},
 		{
 			"id": "err.dragdropmess",
@@ -6008,7 +6008,7 @@
 		{
 			"id": "txt.confirmoverwrite.several",
 			"machinetranslated": true,
-			"txt": "以下檔案已存在：\n\n%0\n你想覆蓋這些檔案嗎？"
+			"txt": "檔案已存在：\n\n%0\n你想覆蓋這些檔案嗎？"
 		},
 		{
 			"id": "txt.confirmoverwrite.many",
@@ -6018,7 +6018,7 @@
 		{
 			"id": "err.pastemask.nomaskonclipboard",
 			"machinetranslated": true,
-			"txt": "剪貼簿不包含有效的掩碼。請先將遮罩複製到剪貼簿。"
+			"txt": "剪貼簿不包含有效的編碼。請先將遮罩複製到剪貼簿。"
 		},
 		{
 			"id": "err.removeworstcps.nocps",
@@ -6043,7 +6043,7 @@
 		{
 			"id": "papywizardimport.noimages",
 			"machinetranslated": true,
-			"txt": "Papywizard數據檔案包含零影像，或格式無效。"
+			"txt": "Papywizard數據檔案無影像，或格式無效。"
 		},
 		{
 			"id": "papywizardimport.numimagesmismatch",
@@ -6053,7 +6053,7 @@
 		{
 			"id": "papywizardimport.numimagesmismatchbracketed",
 			"machinetranslated": true,
-			"txt": "Papywizard數據檔案包含%0設定的括號曝光，而目前的PTGui專案設定了%1。你確定這是對的嗎？"
+			"txt": "Papywizard數據檔案包含%0設定的範圍曝光，而目前的PTGui專案設定了%1。你確定這是對的嗎？"
 		},
 		{
 			"id": "papywizardimport.firstloadimages",
@@ -6068,7 +6068,7 @@
 		{
 			"id": "err.openclerroroccurred",
 			"machinetranslated": true,
-			"txt": "使用OpenCL進行GPU加速時，PTGui遇到了問題。這可能是由於視訊卡驅動程式中的錯誤造成的。從製造商的網站安裝最新的GPU驅動程式可能會解決問題。\n\n如果問題仍然存在，則必須在沒有GPU加速的情況下執行PTGui。你想現在禁用GPU加速嗎？"
+			"txt": "使用OpenCL進行GPU加速時，PTGui遇到了問題。這可能是由於視訊卡驅動程式中的錯誤造成的。從製造商的網站安裝最新的GPU驅動程式可能會解決問題。\n\n如果問題仍然存在，則必須在沒有GPU加速的情況下執行PTGui。你想現在停用GPU加速嗎？"
 		},
 		{
 			"id": "txt.proceedanyway",
@@ -6108,7 +6108,7 @@
 		{
 			"id": "fileformatsettings.nocompression",
 			"machinetranslated": true,
-			"txt": "沒有壓縮"
+			"txt": "無壓縮"
 		},
 		{
 			"id": "fileformatsettings.unassociatedalpha",
@@ -6123,12 +6123,12 @@
 		{
 			"id": "fileformatsettings.withalpha",
 			"machinetranslated": true,
-			"txt": "與阿爾法"
+			"txt": "帶alpha"
 		},
 		{
 			"id": "fileformatsettings.noalpha",
 			"machinetranslated": true,
-			"txt": "沒有阿爾法"
+			"txt": "無alpha"
 		},
 		{
 			"id": "fileformatsettings.nolayers",
@@ -6198,12 +6198,12 @@
 		{
 			"id": "publishtowebsite.saveforweb",
 			"machinetranslated": true,
-			"txt": "除了網路"
+			"txt": "發布至網路"
 		},
 		{
 			"id": "publishtowebsite.settings",
 			"machinetranslated": true,
-			"txt": "設定："
+			"txt": "設定"
 		},
 		{
 			"id": "publishtowebsite.converting",
@@ -6972,7 +6972,7 @@
 		{
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
-			"txt": "永遠不要在啟動時詢問是否應禁用GPU加速"
+			"txt": "永遠不要在啟動時詢問是否應停用GPU加速"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
@@ -7464,7 +7464,7 @@
 			"id": "lensparams.fisheyefactor",
 			"machinetranslated": true,
 			"helptext": "存在不同種類的魚眼鏡頭投影;此參數設定使用的特定魚眼投影。 PTGui通過EXIF數據識別許多常見的鏡頭模型並自動設定該值。如果有疑問，輸入-0.5，這對應于大多數魚眼鏡頭的等分投影。",
-			"morehelptext": "<br><br>常見價值觀是：<br>等距離：0<br>立體攝影：0.5<br>正交：-1.0<br>Equisolid：-0.5<br>直線（非魚眼）：1.0<br>市場上大多數魚眼鏡頭都具有大致相等的投影。價值並不重要;自動鏡頭失真校正（a / b / c）將補償任何錯誤..<br><br>此值可由優化器計算：為此，將a / b / c鏡頭失真參數設定為零。將@mainwindow.tabs.optimizer@選項卡切換到高級模式，啟用魚眼因子的優化並禁用a / b / c鏡頭失真參數的優化。使用沒有視差的影像，並確保控制點分佈在整個重疊區域。<br><br>數學背景：PTGui對魚眼鏡頭使用以下投影功能：<br>R = f / k tan（kθ）[0 &lt;k≤1]<br>R =fθ[對於k = 0]<br>R = f / k sin（kθ）[對於-1≤k&lt;0]<br>R是投影半徑，f焦距，θ入射光線角度，k是魚眼因子。"
+			"morehelptext": "<br><br>常見價值觀是：<br>等距離：0<br>立體攝影：0.5<br>正交：-1.0<br>Equisolid：-0.5<br>直線（非魚眼）：1.0<br>市場上大多數魚眼鏡頭都具有大致相等的投影。價值並不重要;自動鏡頭失真校正（a / b / c）將補償任何錯誤..<br><br>此值可由優化器計算：為此，將a / b / c鏡頭失真參數設定為零。將@mainwindow.tabs.optimizer@選項卡切換到高級模式，啟用魚眼因子的優化並停用a / b / c鏡頭失真參數的優化。使用沒有視差的影像，並確保控制點分佈在整個重疊區域。<br><br>數學背景：PTGui對魚眼鏡頭使用以下投影功能：<br>R = f / k tan（kθ）[0 &lt;k≤1]<br>R =fθ[對於k = 0]<br>R = f / k sin（kθ）[對於-1≤k&lt;0]<br>R是投影半徑，f焦距，θ入射光線角度，k是魚眼因子。"
 		},
 		{
 			"id": "lensparams.abc",
@@ -7722,7 +7722,7 @@
 			"id": "optimizertab.optimizefocallength",
 			"machinetranslated": true,
 			"helptext": "如果啟用，PTGui將調整鏡頭焦距以改善對齊。",
-			"morehelptext": "<br><br>對於360°全景圖，應始終啟用此功能。<br><br>從使用長焦鏡頭拍攝的影像拼接區域性全景圖時，影像不包含優化器確定精確焦距的線索。在這種情況下，您可以選擇將焦距固定為預設值並禁用優化。<br><br>而且，遭受視差的影像可以被優化為錯誤的焦距值。這可以通過禁用焦距優化來防止。"
+			"morehelptext": "<br><br>對於360°全景圖，應始終啟用此功能。<br><br>從使用長焦鏡頭拍攝的影像拼接區域性全景圖時，影像不包含優化器確定精確焦距的線索。在這種情況下，您可以選擇將焦距固定為預設值並停用優化。<br><br>而且，遭受視差的影像可以被優化為錯誤的焦距值。這可以通過停用焦距優化來防止。"
 		},
 		{
 			"id": "optimizertab.minimizelensdistortion",
@@ -7739,13 +7739,13 @@
 			"id": "optimizertab.optimizeglobally",
 			"machinetranslated": true,
 			"helptext": "選擇要優化的全域性鏡頭設定。",
-			"morehelptext": "<br><br>選中覈取方塊后，優化程式將調整@mainwindow.tabs.lenssettings@選項卡中的適用設定。<br><br><b>@mainwindow.optimizertab.fovfocallength@：</b>如果選擇，則優化視野（或焦距）。對於360°全景圖，應始終啟用此功能。從使用長焦鏡頭拍攝的影像拼接區域性全景圖時，影像不包含優化器確定精確焦距的線索。在這種情況下，您可以選擇將焦距固定為預設值並禁用優化。而且，遭受視差的影像可以被優化為錯誤的焦距值。這可以通過禁用焦距優化來防止。<br><br><b>a / b / c：</b>如果選擇，則優化鏡頭失真校正。如果使用預校準的鏡頭數據，則可以禁用此功能。但一般來說，應優化a，b和c以獲得最精確的拼接。<br><br><b>@mainwindow.imageparameters.fisheyefactor@：</b>如果選擇此選項，請優化@mainwindow.tabs.lenssettings@選項卡中的@mainwindow.imageparameters.fisheyefactor@參數（僅適用於使用魚眼鏡頭時）。通常這不應該優化，PTGui將根據EXIF數據中檢測到的鏡頭模型將魚眼因子設定為預設值。但是，如果您希望優化此參數，則必須避免鏡頭失真校正造成的干擾。因此，在優化魚眼因子之前，請在@mainwindow.tabs.lenssettings@選項卡中將a，b和c重置為0。可以優化a / b / c或魚眼因子，而不是兩者同時因為它們相互干擾。<br><br><b>@mainwindow.imageparameters.longshift@ / @mainwindow.imageparameters.shortshift@：</b>如果選擇，則優化鏡頭移位參數。在大多數情況下，應啟用此功能。僅對於具有大視差的影像，可以禁用移位優化以防止過度擬合。<br><br><b>@+shear@：</b>如果選擇，則優化@shear@。來自數碼相機的影像不會出現@shear@失真;這應僅用於狹縫掃瞄相機或平板掃描器的影像。只應優化水平或垂直@shear@，而不是同時優化兩者。<br><br>如果在@mainwindow.tabs.lenssettings@選項卡中建立了多個鏡頭配置檔案，則可以分別控制每個鏡頭配置檔案的優化。"
+			"morehelptext": "<br><br>選中覈取方塊后，優化程式將調整@mainwindow.tabs.lenssettings@選項卡中的適用設定。<br><br><b>@mainwindow.optimizertab.fovfocallength@：</b>如果選擇，則優化視野（或焦距）。對於360°全景圖，應始終啟用此功能。從使用長焦鏡頭拍攝的影像拼接區域性全景圖時，影像不包含優化器確定精確焦距的線索。在這種情況下，您可以選擇將焦距固定為預設值並停用優化。而且，遭受視差的影像可以被優化為錯誤的焦距值。這可以通過停用焦距優化來防止。<br><br><b>a / b / c：</b>如果選擇，則優化鏡頭失真校正。如果使用預校準的鏡頭數據，則可以停用此功能。但一般來說，應優化a，b和c以獲得最精確的拼接。<br><br><b>@mainwindow.imageparameters.fisheyefactor@：</b>如果選擇此選項，請優化@mainwindow.tabs.lenssettings@選項卡中的@mainwindow.imageparameters.fisheyefactor@參數（僅適用於使用魚眼鏡頭時）。通常這不應該優化，PTGui將根據EXIF數據中檢測到的鏡頭模型將魚眼因子設定為預設值。但是，如果您希望優化此參數，則必須避免鏡頭失真校正造成的干擾。因此，在優化魚眼因子之前，請在@mainwindow.tabs.lenssettings@選項卡中將a，b和c重置為0。可以優化a / b / c或魚眼因子，而不是兩者同時因為它們相互干擾。<br><br><b>@mainwindow.imageparameters.longshift@ / @mainwindow.imageparameters.shortshift@：</b>如果選擇，則優化鏡頭移位參數。在大多數情況下，應啟用此功能。僅對於具有大視差的影像，可以停用移位優化以防止過度擬合。<br><br><b>@+shear@：</b>如果選擇，則優化@shear@。來自數碼相機的影像不會出現@shear@失真;這應僅用於狹縫掃瞄相機或平板掃描器的影像。只應優化水平或垂直@shear@，而不是同時優化兩者。<br><br>如果在@mainwindow.tabs.lenssettings@選項卡中建立了多個鏡頭配置檔案，則可以分別控制每個鏡頭配置檔案的優化。"
 		},
 		{
 			"id": "optimizertab.optimizeperimage",
 			"machinetranslated": true,
 			"helptext": "每影像優化設定。",
-			"morehelptext": "<br><br>一般情況下，@yaw@，@pitch@和@roll@必須針對除一個以外的所有影像（選擇的「錨點」影像）進行優化。<br><br><b>@+yaw@</b>是攝像機在水平面上的旋轉， <b>@+pitch@</b>對應上/下傾斜角度， <b>@+roll@</b>是攝像機繞鏡頭軸旋轉。 <optional product='pro'><br><br><b>@+viewpoint@</b>控制視點優化： <b>@+reset@</b>禁用視點優化，並在下次優化時將視點參數重置為0。 <b>@+keep@</b>禁用進一步的視點優化，但保留影像的當前視點設定。 <b>@+optimize@</b>可為此影像啟用視點優化。</optional><br><br>如果已啟用單個參數（請參閱@mainwindow.tabs.lenssettings@選項卡 - '@mainwindow.lensparams.useindividual@'），則可以在優化中包含或排除這些參數。"
+			"morehelptext": "<br><br>一般情況下，@yaw@，@pitch@和@roll@必須針對除一個以外的所有影像（選擇的「錨點」影像）進行優化。<br><br><b>@+yaw@</b>是攝像機在水平面上的旋轉， <b>@+pitch@</b>對應上/下傾斜角度， <b>@+roll@</b>是攝像機繞鏡頭軸旋轉。 <optional product='pro'><br><br><b>@+viewpoint@</b>控制視點優化： <b>@+reset@</b>停用視點優化，並在下次優化時將視點參數重置為0。 <b>@+keep@</b>停用進一步的視點優化，但保留影像的當前視點設定。 <b>@+optimize@</b>可為此影像啟用視點優化。</optional><br><br>如果已啟用單個參數（請參閱@mainwindow.tabs.lenssettings@選項卡 - '@mainwindow.lensparams.useindividual@'），則可以在優化中包含或排除這些參數。"
 		},
 		{
 			"id": "optimizertab.usecontrolpointsof",
@@ -7788,7 +7788,7 @@
 		{
 			"id": "exposurehdrtab.dontgroupintoblendplanes",
 			"machinetranslated": true,
-			"helptext": "禁用HDR模式。將所有影像合併爲一個全景圖。"
+			"helptext": "停用HDR模式。將所有影像合併爲一個全景圖。"
 		},
 		{
 			"id": "exposurehdrtab.tonemapldrpanorama",
@@ -7921,12 +7921,12 @@
 			"id": "projectsettingstab.batchstitcher.align",
 			"machinetranslated": true,
 			"helptext": "如果啟用，批處理拼接器將在拼接全景圖之前執行「@alignimages@」。",
-			"morehelptext": "<br><br>如果啟用，批處理裝訂器將首先分析影像，產生控制點，優化專案等。上面在@mainwindow.projectsettings.alignimagesbehavior@中配置的具體操作。對齊后，更新的專案檔案將儲存到磁碟。<br><br>如果禁用，專案將與現在完全拼接。<br><br>在批處理產生器中為批處理建立模板時，必須小心地設定此覈取方塊。基本上，批處理構建器有兩種不同的用例：<br><br>1.使用完全相同的設定縫合許多全景圖，而不產生控制點。這可以用於例如多相機裝備，其中所有全景圖保證具有相同的影像取向。在這種情況下，必須跳過「@alignimages@」。<br>2.或者通過將PTGui指向包含影像的資料夾來自動拼接多個全景圖。例如通過在全景三腳架頭上旋轉相機來拍攝影像。<br><br>在後一種情況下，每個全景圖中的影像位置通常會略有不同。即使全景頭具有咔嗒聲停止，機械公差也會導致每個全景影像中的影像方向發生微小變化。爲了補償這一點，PTGui應分析每個全景影像並產生控制點，因此必須在拼接之前執行「@alignimages@」。<br><br>此覈取方塊為自動清除：執行「@alignimages@」后，此覈取方塊將被清除，磁碟上的專案檔案將使用對齊的全景圖進行更新。這可以防止同一專案多次執行'@alignimages@'。"
+			"morehelptext": "<br><br>如果啟用，批處理裝訂器將首先分析影像，產生控制點，優化專案等。上面在@mainwindow.projectsettings.alignimagesbehavior@中配置的具體操作。對齊后，更新的專案檔案將儲存到磁碟。<br><br>如果停用，專案將與現在完全拼接。<br><br>在批處理產生器中為批處理建立模板時，必須小心地設定此覈取方塊。基本上，批處理構建器有兩種不同的用例：<br><br>1.使用完全相同的設定縫合許多全景圖，而不產生控制點。這可以用於例如多相機裝備，其中所有全景圖保證具有相同的影像取向。在這種情況下，必須跳過「@alignimages@」。<br>2.或者通過將PTGui指向包含影像的資料夾來自動拼接多個全景圖。例如通過在全景三腳架頭上旋轉相機來拍攝影像。<br><br>在後一種情況下，每個全景圖中的影像位置通常會略有不同。即使全景頭具有咔嗒聲停止，機械公差也會導致每個全景影像中的影像方向發生微小變化。爲了補償這一點，PTGui應分析每個全景影像並產生控制點，因此必須在拼接之前執行「@alignimages@」。<br><br>此覈取方塊為自動清除：執行「@alignimages@」后，此覈取方塊將被清除，磁碟上的專案檔案將使用對齊的全景圖進行更新。這可以防止同一專案多次執行'@alignimages@'。"
 		},
 		{
 			"id": "projectsettingstab.batchstitcher.stitch",
 			"machinetranslated": true,
-			"helptext": "縫合全景圖。如果要僅將批量拼接器用於對齊全景圖，請禁用此選項。"
+			"helptext": "縫合全景圖。如果要僅將批量拼接器用於對齊全景圖，請停用此選項。"
 		},
 		{
 			"id": "projectsettingstab.batchstitcher.stitchonlyifenoughcontrolpoints",
@@ -7974,7 +7974,7 @@
 		{
 			"id": "projectsettingstab.templatebehavior.pojectsettings",
 			"machinetranslated": true,
-			"helptext": "如果啟用，此選項卡中的所有設定都將複製到目標專案。如果禁用，將保留目標專案的@mainwindow.tabs.projectsettings@選項卡中的設定。"
+			"helptext": "如果啟用，此選項卡中的所有設定都將複製到目標專案。如果停用，將保留目標專案的@mainwindow.tabs.projectsettings@選項卡中的設定。"
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.optimizersettings",
@@ -7991,7 +7991,7 @@
 			"id": "projectsettingstab.batchbuilder.useexif",
 			"machinetranslated": true,
 			"helptext": "如果啟用，批處理產生器將使用自動鏡頭設定來產生專案。",
-			"morehelptext": "<br><br>這將覆蓋模板專案的鏡頭設定，並使用與將影像新增到新專案時相同的預設鏡頭參數。如果要對使用不同相機或鏡頭拍攝的影像使用相同模板，請使用此選項。<br><br>批處理構建器將遵守在鏡頭數據庫和相機數據庫中建立的任何EXIF關聯。<br><br>如果禁用，則忽略影像中的EXIF數據，並簡單地從模板專案中複製鏡頭參數。"
+			"morehelptext": "<br><br>這將覆蓋模板專案的鏡頭設定，並使用與將影像新增到新專案時相同的預設鏡頭參數。如果要對使用不同相機或鏡頭拍攝的影像使用相同模板，請使用此選項。<br><br>批處理構建器將遵守在鏡頭數據庫和相機數據庫中建立的任何EXIF關聯。<br><br>如果停用，則忽略影像中的EXIF數據，並簡單地從模板專案中複製鏡頭參數。"
 		},
 		{
 			"id": "projectsettingstab.misc.useexiforientation",
@@ -8003,7 +8003,7 @@
 			"id": "projectsettingstab.misc.useexif",
 			"machinetranslated": true,
 			"helptext": "將影像新增到專案時自動初始化鏡頭設定。",
-			"morehelptext": "<br><br>如果選擇此選項，PTGui將分析影像的EXIF數據以確定相機和鏡頭的型別。鏡頭設定將根據此數據進行初始化。可以通過在鏡頭數據庫和攝像機數據庫中建立關聯來自定義或覆蓋預設設定。<br><br>這僅適用於通過按「@mainwindow.projectassistant.loadimages@」按鈕或通過將影像拖放到PTGui視窗上新增到專案中的影像。<br><br>如果禁用，則忽略EXIF數據，並在向此專案新增影像時保留目前鏡頭設定。<br><br>對於批處理檔案產生器，可以使用單獨的設定，參見上面的@mainwindow.projectsettings.batchbuilder@。"
+			"morehelptext": "<br><br>如果選擇此選項，PTGui將分析影像的EXIF數據以確定相機和鏡頭的型別。鏡頭設定將根據此數據進行初始化。可以通過在鏡頭數據庫和攝像機數據庫中建立關聯來自定義或覆蓋預設設定。<br><br>這僅適用於通過按「@mainwindow.projectassistant.loadimages@」按鈕或通過將影像拖放到PTGui視窗上新增到專案中的影像。<br><br>如果停用，則忽略EXIF數據，並在向此專案新增影像時保留目前鏡頭設定。<br><br>對於批處理檔案產生器，可以使用單獨的設定，參見上面的@mainwindow.projectsettings.batchbuilder@。"
 		},
 		{
 			"id": "projectsettingstab.misc.askinitializeandoptimize",
@@ -8232,7 +8232,7 @@
 			"machinetranslated": true,
 			"label": "編輯單個影像",
 			"helptext": "使用此模式可以移動或旋轉單個影像。",
-			"morehelptext": "<br><br>通過使用滑鼠左鍵拖動，可以在輸出區域中移動影像。在引擎蓋下，這會改變影像的@yaw@和@pitch@角度。<br><br>用滑鼠右鍵拖動<optional platform='mac'>（或Ctrl +拖動）</optional>影像旋轉。這會修改影像的@roll@角度。<br><br>工具欄左側的「@panoeditor.menubar.mouseover@」按鈕可切換影像的選擇方式。如果啟用，則將滑鼠懸停在影像上時會選擇影像。如果禁用，可以通過單擊全景圖上方的影像圖示來選擇影像。"
+			"morehelptext": "<br><br>通過使用滑鼠左鍵拖動，可以在輸出區域中移動影像。在引擎蓋下，這會改變影像的@yaw@和@pitch@角度。<br><br>用滑鼠右鍵拖動<optional platform='mac'>（或Ctrl +拖動）</optional>影像旋轉。這會修改影像的@roll@角度。<br><br>工具欄左側的「@panoeditor.menubar.mouseover@」按鈕可切換影像的選擇方式。如果啟用，則將滑鼠懸停在影像上時會選擇影像。如果停用，可以通過單擊全景圖上方的影像圖示來選擇影像。"
 		},
 		{
 			"id": "panoeditor.toolbar.editpano",
@@ -8637,8 +8637,8 @@
 		{
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
-			"helptext": "啟用或禁用檢視器右上角的全屏按鈕。",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全屏支援。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>僅在（現在的舊版）Flash檢視器中提供全屏支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>禁用全屏支援。<br><br>全屏顯示使用HTML5全屏API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全屏顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
+			"helptext": "啟用或停用檢視器右上角的全屏按鈕。",
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全屏支援。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>僅在（現在的舊版）Flash檢視器中提供全屏支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全屏支援。<br><br>全屏顯示使用HTML5全屏API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全屏顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",
@@ -8824,7 +8824,7 @@
 			"id": "batchbuilder.alignimages",
 			"machinetranslated": true,
 			"helptext": "配置批量拼接器是否應在拼接前分析和對齊影像。",
-			"morehelptext": "<br><br>預設情況下，這對應于模板專案中@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchstitcheractions@下的設定。此處重複此設定，可以覆蓋此設定，因為它是常見的混淆源。<br><br>可以將批處理拼接器配置為在拼接全景圖之前執行「@alignimages@」。如果啟用，批處理裝訂器將首先分析影像，產生控制點，優化專案等。在@mainwindow.tabs.projectsettings@  - 對齊影像行為下的模板中將配置完成的具體操作。對齊后，更新的專案檔案將儲存到磁碟。<br><br>如果禁用，專案將與模板中的完全拼接，因此模板應包含正確對齊的影像。<br><br>基本上，批處理檔案產生器有兩種不同的用例：<br><br>1.使用完全相同的設定縫合許多全景圖，而不產生控制點。這可以用於例如多相機裝備，其中所有全景圖保證具有相同的影像取向。在這種情況下，必須跳過「@alignimages@」。<br><br>2.或者通過將PTGui指向包含影像的資料夾來自動拼接多個全景圖。例如通過在全景三腳架頭上旋轉相機來拍攝影像。在這種情況下，每個全景圖中的影像位置通常會略有不同。即使全景頭具有咔嗒聲停止，機械公差也會導致每個全景影像中的影像方向發生微小變化。爲了補償這一點，PTGui應該分析每個全景影像並產生控制點，因此必須在縫合之前執行「@alignimages@」。"
+			"morehelptext": "<br><br>預設情況下，這對應于模板專案中@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchstitcheractions@下的設定。此處重複此設定，可以覆蓋此設定，因為它是常見的混淆源。<br><br>可以將批處理拼接器配置為在拼接全景圖之前執行「@alignimages@」。如果啟用，批處理裝訂器將首先分析影像，產生控制點，優化專案等。在@mainwindow.tabs.projectsettings@  - 對齊影像行為下的模板中將配置完成的具體操作。對齊后，更新的專案檔案將儲存到磁碟。<br><br>如果停用，專案將與模板中的完全拼接，因此模板應包含正確對齊的影像。<br><br>基本上，批處理檔案產生器有兩種不同的用例：<br><br>1.使用完全相同的設定縫合許多全景圖，而不產生控制點。這可以用於例如多相機裝備，其中所有全景圖保證具有相同的影像取向。在這種情況下，必須跳過「@alignimages@」。<br><br>2.或者通過將PTGui指向包含影像的資料夾來自動拼接多個全景圖。例如通過在全景三腳架頭上旋轉相機來拍攝影像。在這種情況下，每個全景圖中的影像位置通常會略有不同。即使全景頭具有咔嗒聲停止，機械公差也會導致每個全景影像中的影像方向發生微小變化。爲了補償這一點，PTGui應該分析每個全景影像並產生控制點，因此必須在縫合之前執行「@alignimages@」。"
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
@@ -9210,7 +9210,7 @@
 		{
 			"id": "options.showintaskbar",
 			"machinetranslated": true,
-			"morehelptext": "<b>@options.showintaskbar.mainwindow@：</b> PTGui主視窗的工作列中只顯示一個按鈕。<br><br><b>@options.showintaskbar.all@：</b>每個視窗在工作列中都有一個單獨的按鈕。請注意，Windows工作列選項具有將同一應用程式的所有工作列按鈕組合到一個按鈕的設定。應禁用此選項以檢視單獨的工作列圖示。"
+			"morehelptext": "<b>@options.showintaskbar.mainwindow@：</b> PTGui主視窗的工作列中只顯示一個按鈕。<br><br><b>@options.showintaskbar.all@：</b>每個視窗在工作列中都有一個單獨的按鈕。請注意，Windows工作列選項具有將同一應用程式的所有工作列按鈕組合到一個按鈕的設定。應停用此選項以檢視單獨的工作列圖示。"
 		},
 		{
 			"id": "options.mousewheelaction",
@@ -9221,7 +9221,7 @@
 		{
 			"id": "options.disablemouserepositioning",
 			"machinetranslated": true,
-			"helptext": "對於某些功能，例如@mainwindow.tabs.controlpoints@選項卡中的@menubar.controlpoints.autojump@，PTGui會移動滑鼠指針。這僅適用於滑鼠或觸控板。如果您使用的是平板電腦，鉛筆或觸控式螢幕，則必須禁用滑鼠指針重新定位。"
+			"helptext": "對於某些功能，例如@mainwindow.tabs.controlpoints@選項卡中的@menubar.controlpoints.autojump@，PTGui會移動滑鼠指針。這僅適用於滑鼠或觸控板。如果您使用的是平板電腦，鉛筆或觸控式螢幕，則必須停用滑鼠指針重新定位。"
 		},
 		{
 			"id": "options.foldersandfiles.templatefolder",
@@ -9275,7 +9275,7 @@
 			"id": "options.cpeditor.showlabelsinzoomer",
 			"machinetranslated": true,
 			"helptext": "如果啟用，控制點的編號框將顯示在浮動放大鏡視窗中。",
-			"morehelptext": "<br><br>如果禁用，放大鏡視窗將僅顯示每個控制點的微小交叉標記。隻影響放大鏡視窗;在@mainwindow.tabs.controlpoints@標籤的實際影像中，始終顯示編號標記。"
+			"morehelptext": "<br><br>如果停用，放大鏡視窗將僅顯示每個控制點的微小交叉標記。隻影響放大鏡視窗;在@mainwindow.tabs.controlpoints@標籤的實際影像中，始終顯示編號標記。"
 		},
 		{
 			"id": "options.cpeditor.hidezoomerwhennothovering",
@@ -9286,13 +9286,13 @@
 			"id": "options.cpeditor.resetcptabwhenswitchingimages",
 			"machinetranslated": true,
 			"helptext": "在@mainwindow.tabs.controlpoints@選項卡中切換到不同影像時，控制「@cptypetoadd@」的行為。",
-			"morehelptext": "<br><br>如果啟用，只要顯示不同的影像，'@cptypetoadd@'將重置為預設設定。預設設定為@cptable.normal@，或者如果兩個面板中顯示相同的影像，則為@cptable.verticalline@。<br><br>如果禁用，將保留目前設定。"
+			"morehelptext": "<br><br>如果啟用，只要顯示不同的影像，'@cptypetoadd@'將重置為預設設定。預設設定為@cptable.normal@，或者如果兩個面板中顯示相同的影像，則為@cptable.verticalline@。<br><br>如果停用，將保留目前設定。"
 		},
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
 			"machinetranslated": true,
-			"helptext": "啟用或禁用將滑鼠懸停在@mainwindow.tabs.controlpoints@選項卡中縮圖上方時出現的彈出氣球，以進行括號曝光。",
-			"morehelptext": "<br><br>對於HDR專案，預設情況下PTGui將鏈接影像（包圍曝光）組合成單個合併影像。在@mainwindow.tabs.controlpoints@選項卡中，可能需要顯示單個影像而不是合併影像，因為控制點位於各個影像之間，而不是在鏈接影像組之間。因此，當滑鼠懸停在縮圖上時，PTGui會彈出一個氣球，顯示各個影像。<br><br>如果您發現氣球妨礙了您，可以在此處禁用它。使用鍵盤快捷鍵仍可在@mainwindow.tabs.controlpoints@選項卡中選擇一組括號曝光中的單獨曝光<optional platform='windows'>Ctrl + Alt +向上和Ctrl + Alt +向下</optional><optional platform='mac'>Cmd + Alt + Up和Cmd + Alt + Down</optional> 。"
+			"helptext": "啟用或停用將滑鼠懸停在@mainwindow.tabs.controlpoints@選項卡中縮圖上方時出現的彈出氣球，以進行括號曝光。",
+			"morehelptext": "<br><br>對於HDR專案，預設情況下PTGui將鏈接影像（包圍曝光）組合成單個合併影像。在@mainwindow.tabs.controlpoints@選項卡中，可能需要顯示單個影像而不是合併影像，因為控制點位於各個影像之間，而不是在鏈接影像組之間。因此，當滑鼠懸停在縮圖上時，PTGui會彈出一個氣球，顯示各個影像。<br><br>如果您發現氣球妨礙了您，可以在此處停用它。使用鍵盤快捷鍵仍可在@mainwindow.tabs.controlpoints@選項卡中選擇一組括號曝光中的單獨曝光<optional platform='windows'>Ctrl + Alt +向上和Ctrl + Alt +向下</optional><optional platform='mac'>Cmd + Alt + Up和Cmd + Alt + Down</optional> 。"
 		},
 		{
 			"id": "options.cpgenerator.maxcpsperimagepair",
@@ -9337,7 +9337,7 @@
 			"id": "options.advanced.showconsolewindowforplugins",
 			"machinetranslated": true,
 			"helptext": "如果啟用，混合外掛Enblend和Smartblend將在拼接期間在單獨的命令提示符（DOS）視窗中執行。",
-			"morehelptext": "<br><br>這可能對除錯Enblend或Smartblend的問題很有用。如果啟用，外掛將在命令提示符視窗（「DOS框」）中執行，因此您可以看到詳細的進度。<br><br>建議您禁用此設定：通過讓外掛在後臺執行，PTGui將能夠捕獲並顯示任何錯誤訊息。如果在命令提示符視窗中執行外掛時發生錯誤，PTGui將無法捕獲錯誤訊息，並且在您有機會閱讀錯誤訊息之前將關閉視窗。"
+			"morehelptext": "<br><br>這可能對除錯Enblend或Smartblend的問題很有用。如果啟用，外掛將在命令提示符視窗（「DOS框」）中執行，因此您可以看到詳細的進度。<br><br>建議您停用此設定：通過讓外掛在後臺執行，PTGui將能夠捕獲並顯示任何錯誤訊息。如果在命令提示符視窗中執行外掛時發生錯誤，PTGui將無法捕獲錯誤訊息，並且在您有機會閱讀錯誤訊息之前將關閉視窗。"
 		},
 		{
 			"id": "options.advanced.maxram",
@@ -9359,7 +9359,7 @@
 		{
 			"id": "options.advanced.gpuacceleration.enableforpreview",
 			"machinetranslated": true,
-			"helptext": "如果在使用全景編輯視窗或細節檢視器時遇到問題或崩潰，請禁用此功能。"
+			"helptext": "如果在使用全景編輯視窗或細節檢視器時遇到問題或崩潰，請停用此功能。"
 		},
 		{
 			"id": "options.advanced.gpuacceleration.device",
@@ -9408,7 +9408,7 @@
 			"id": "photometricsettings.optimizevignetting",
 			"machinetranslated": true,
 			"helptext": "配置是否優化漸暈。",
-			"morehelptext": "<br><br>漸暈也被稱為「光線脫落」。漸暈導致影像朝向角落變暗。這是鏡頭的神器;通常，在較大的孔徑（較低的f值值）下效果更強。漸暈是全景曝光不匹配的主要原因。<br><br><b>禁用：</b>漸暈不會被優化，漸暈曲線將在下一次優化時重置為零。<br><br><b>@photometricsettings.enabled@：</b>將優化漸暈。<br><br><b>@photometricsettings.keepcurrent@：</b>將保留目前的漸暈參數。"
+			"morehelptext": "<br><br>漸暈也被稱為「光線脫落」。漸暈導致影像朝向角落變暗。這是鏡頭的神器;通常，在較大的孔徑（較低的f值值）下效果更強。漸暈是全景曝光不匹配的主要原因。<br><br><b>停用：</b>漸暈不會被優化，漸暈曲線將在下一次優化時重置為零。<br><br><b>@photometricsettings.enabled@：</b>將優化漸暈。<br><br><b>@photometricsettings.keepcurrent@：</b>將保留目前的漸暈參數。"
 		},
 		{
 			"id": "photometricsettings.optimizecameracurve",
@@ -9430,14 +9430,14 @@
 		{
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
-			"helptext": "如果在使用OpenCL時發生崩潰，重新啟動PTGui后將詢問是否應禁用GPU加速。如果PTGui不再問這個，請選中此覈取方塊。"
+			"helptext": "如果在使用OpenCL時發生崩潰，重新啟動PTGui后將詢問是否應停用GPU加速。如果PTGui不再問這個，請選中此覈取方塊。"
 		}
 	],
 	"helppages": [
 		{
 			"id": "batchstitcher",
 			"machinetranslated": true,
-			"helptext": "<b>@batchstitcher@</b><br><br>拼接大型全景圖可能需要相當長的時間。 批處理器允許您準備多個專案並批量縫合。使用@mainwindow.tabs.createpanorama@選項卡中的「@mainwindow.createpanoramatab.saveandsendtobatchstitcher@」按鈕和@menubar.project@菜單中的@menubar.project.sendtemporarycopytobatchstitcher@將專案排隊到批處理裝訂器。您也可以使用@menubar.tools@ | @batchstitcher@啟動批處理裝訂器，並手動將專案新增到佇列中。<br><br><b>使用批處理器</b><br><br>批處理器的主要部分（工具欄正下方）是作業佇列。這將列出要處理的作業和已完成的作業。成功完成的工作由右側的綠色複選標記表示。任何因錯誤而中止的工作都會以紅色感嘆號表示;錯誤訊息顯示在底部的「日誌」窗格中。如果目前正在處理作業，則會顯示進度條。<br><br>可以使用工具欄中的@batchstitcher.menubar.addprojects@按鈕或通過將.pts檔案拖到批處理器視窗上，使用@menubar.file@ | @batchstitcher.menubar.addprojects@新增作業。從主視窗執行'@mainwindow.createpanoramatab.saveandsendtobatchstitcher@'時也會新增作業。可以使用滑鼠拖動選擇一個或多個專案。可以使用Del鍵刪除所選專案。可以通過向上或向下拖動行標題（在左側）來重新排序專案列表。<br><br>右鍵點選<optional platform='mac'>（或按住Ctrl鍵並單擊）</optional>在上下文菜單的列表中。使用'@batchstitcher.contextmenu.markasdone@'和'@batchstitcher.contextmenu.markasnotdone@'來改變專案的狀態。如果專案標記為「@batchstitcher.contextmenu.deletewhendone@」，則相應的專案檔案（.pts）將在完成時刪除（當然將保留產生的全景圖）。這被@menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@使用。<br><br>批量拼接器可以通過@batchstitcher.menubar.process@菜單和工具欄中的按鈕啟動和停止。雙擊作業（或按Enter鍵）在新的PTGui視窗中打開專案。 <optional product='pro'><br><br><b>批量訂書機專案設定</b><br><br>批處理器不僅可以拼接全景圖，還可以產生控制點並對齊影像。該行為由專案的@mainwindow.tabs.projectsettings@選項卡中的@mainwindow.projectsettings.batchstitcheractions@設定控制：如果選擇<b>@mainwindow.projectsettings.batchstitcheractions.align@</b> ，批量裝訂器將產生控制點並設定全景圖。如果選擇了<b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> ，批量拼接器將拼接全景圖。</optional><br><br><b>批次列表</b><br><br>批處理列表儲存作業列表，包括每個作業的完成/未完成狀態。使用批次列表可以關閉批量裝訂器並繼續上次停止。批處理裝訂器無法恢復部分完成的作業（您需要重新啟動整個作業），但它會記住批處理列表中的哪些專案已經完成，哪些專案尚未完成。<br><br>通過在批處理器中載入一個或多個作業並選擇@menubar.file@ | @batchstitcher.menubar.savebatchlistas@來建立批處理列表。可以使用@batchstitcher.menubar.openbatchlist@或@batchstitcher.menubar.recentbatchlists@打開現有批次列表。 <optional product='pro'>批處理產生器工具（見下文）還建立可以在批處理拼接器中載入的批處理列表。</optional><br><br>任何時候只能有一個批處理列表處於活動狀態。當批處理列表處於活動狀態且選擇了「@batchstitcher.menubar.autosavebatchlist@」時，對專案列表的任何更改（例如，專案完成時或專案新增到列表中）都會立即儲存到批處理列表中。如果批處理列表非常大（數千個專案或更多），則在每次更改時儲存批處理列表將花費相當長的時間。在這種情況下，最好禁用「@batchstitcher.menubar.autosavebatchlist@」並手動執行@batchstitcher.menubar.savebatchlist@，以便每隔一段時間將修改後的批處理列表寫入磁碟。<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>批量產生器</b><br><br>批處理器和批處理檔案產生器的組合使PTGui Pro成為幾乎完全自動快速對齊和縫合數百個全景圖的強大工具。有關更多資訊，請執行@menubar.tools@ | @batchbuilder@並按下@help@按鈕。</optional>"
+			"helptext": "<b>@batchstitcher@</b><br><br>拼接大型全景圖可能需要相當長的時間。 批處理器允許您準備多個專案並批量縫合。使用@mainwindow.tabs.createpanorama@選項卡中的「@mainwindow.createpanoramatab.saveandsendtobatchstitcher@」按鈕和@menubar.project@菜單中的@menubar.project.sendtemporarycopytobatchstitcher@將專案排隊到批處理裝訂器。您也可以使用@menubar.tools@ | @batchstitcher@啟動批處理裝訂器，並手動將專案新增到佇列中。<br><br><b>使用批處理器</b><br><br>批處理器的主要部分（工具欄正下方）是作業佇列。這將列出要處理的作業和已完成的作業。成功完成的工作由右側的綠色複選標記表示。任何因錯誤而中止的工作都會以紅色感嘆號表示;錯誤訊息顯示在底部的「日誌」窗格中。如果目前正在處理作業，則會顯示進度條。<br><br>可以使用工具欄中的@batchstitcher.menubar.addprojects@按鈕或通過將.pts檔案拖到批處理器視窗上，使用@menubar.file@ | @batchstitcher.menubar.addprojects@新增作業。從主視窗執行'@mainwindow.createpanoramatab.saveandsendtobatchstitcher@'時也會新增作業。可以使用滑鼠拖動選擇一個或多個專案。可以使用Del鍵刪除所選專案。可以通過向上或向下拖動行標題（在左側）來重新排序專案列表。<br><br>右鍵點選<optional platform='mac'>（或按住Ctrl鍵並單擊）</optional>在上下文菜單的列表中。使用'@batchstitcher.contextmenu.markasdone@'和'@batchstitcher.contextmenu.markasnotdone@'來改變專案的狀態。如果專案標記為「@batchstitcher.contextmenu.deletewhendone@」，則相應的專案檔案（.pts）將在完成時刪除（當然將保留產生的全景圖）。這被@menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@使用。<br><br>批量拼接器可以通過@batchstitcher.menubar.process@菜單和工具欄中的按鈕啟動和停止。雙擊作業（或按Enter鍵）在新的PTGui視窗中打開專案。 <optional product='pro'><br><br><b>批量訂書機專案設定</b><br><br>批處理器不僅可以拼接全景圖，還可以產生控制點並對齊影像。該行為由專案的@mainwindow.tabs.projectsettings@選項卡中的@mainwindow.projectsettings.batchstitcheractions@設定控制：如果選擇<b>@mainwindow.projectsettings.batchstitcheractions.align@</b> ，批量裝訂器將產生控制點並設定全景圖。如果選擇了<b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> ，批量拼接器將拼接全景圖。</optional><br><br><b>批次列表</b><br><br>批處理列表儲存作業列表，包括每個作業的完成/未完成狀態。使用批次列表可以關閉批量裝訂器並繼續上次停止。批處理裝訂器無法恢復部分完成的作業（您需要重新啟動整個作業），但它會記住批處理列表中的哪些專案已經完成，哪些專案尚未完成。<br><br>通過在批處理器中載入一個或多個作業並選擇@menubar.file@ | @batchstitcher.menubar.savebatchlistas@來建立批處理列表。可以使用@batchstitcher.menubar.openbatchlist@或@batchstitcher.menubar.recentbatchlists@打開現有批次列表。 <optional product='pro'>批處理產生器工具（見下文）還建立可以在批處理拼接器中載入的批處理列表。</optional><br><br>任何時候只能有一個批處理列表處於活動狀態。當批處理列表處於活動狀態且選擇了「@batchstitcher.menubar.autosavebatchlist@」時，對專案列表的任何更改（例如，專案完成時或專案新增到列表中）都會立即儲存到批處理列表中。如果批處理列表非常大（數千個專案或更多），則在每次更改時儲存批處理列表將花費相當長的時間。在這種情況下，最好停用「@batchstitcher.menubar.autosavebatchlist@」並手動執行@batchstitcher.menubar.savebatchlist@，以便每隔一段時間將修改後的批處理列表寫入磁碟。<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>批量產生器</b><br><br>批處理器和批處理檔案產生器的組合使PTGui Pro成為幾乎完全自動快速對齊和縫合數百個全景圖的強大工具。有關更多資訊，請執行@menubar.tools@ | @batchbuilder@並按下@help@按鈕。</optional>"
 		},
 		{
 			"id": "aligntogrid",
@@ -9447,7 +9447,7 @@
 		{
 			"id": "batchbuilder",
 			"machinetranslated": true,
-			"helptext": "<b>@batchbuilder@</b><br><br>與批處理器結合使用時，批處理檔案產生器是一種用於批量拼接大量全景圖的工具。您通常會為批處理檔案產生器提供一個或多個包含源影像和可選模板專案的資料夾。它分析源影像資料夾以查詢形成全景影像的影像組。將為每組影像建立專案檔案。然後可以將產生的專案檔案發送到批處理器進行處理。<br><br><b>用法</b><br><br>按<b>@batchbuilder.detectpanoramas@</b>掃瞄包含源影像的資料夾以檢視全景圖。批處理產生器然後提出專案列表。這還沒有真正建立專案檔案;影像組仍然可以修改。按黑色十字按鈕可從專案中刪除影像。按剪刀圖示將專案切割為兩個單獨的專案。選擇一個或多個專案並右鍵單擊<optional platform='mac'>（或按住Ctrl鍵並單擊）</optional>對於具有其他選項的上下文菜單：所選專案可以組合到單個專案中或從列表中刪除。影像檔案也可以手動新增到專案中。<br><br>正確設定每個專案的影像后，選擇要使用的模板，然後按<b>@batchbuilder.generateprojects@</b> 。這將建立PTGui專案檔案，每個影像組一個，並將它們發送到批處理器進行處理。<br><br><b>模板</b><br><br>通常，批處理產生器與模板結合使用。該模板配置例如輸出大小，檔案格式以及儲存專案檔案和拼接全景的位置。模板還可以覆蓋預設鏡頭設定或配置全景中源影像的精確定位。<br><br>要建立模板，請啟動新的PTGui Pro專案，設定所需的參數並選擇@menubar.file@ | @menubar.file.saveastemplate@。建立用於批處理產生器的模板的一些準則：<br><br>•請勿在@mainwindow.tabs.createpanorama@選項卡中輸入輸出檔名。而是選擇「@mainwindow.createpanoramatab.usedefault@」作為輸出檔名，並在@mainwindow.tabs.projectsettings@選項卡的@mainwindow.projectsettings.filenaming@部分中設定所需的輸出檔名。否則，所有產生的專案都將寫入相同的全景檔案。<br><br>•在@mainwindow.tabs.projectsettings@選項卡的@mainwindow.projectsettings.filenaming@部分中，選擇：'@panorama@：@mainwindow.projectsettings.filenaming.saveas@：@mainwindow.projectsettings.filenaming.sameasprojectname@'。批處理產生器將通過可選地將（1），（2）等附加到名稱來確保專案名稱是唯一的。因為這會產生唯一的專案檔名，所以它還會為拼接的全景圖產生唯一的檔名。<br><br>•通常所有全景照片都是使用相同的已知鏡頭拍攝的。如果是這樣，可能需要使用預定義的鏡頭設定，而不是讓PTGui Pro根據EXIF數據選擇自動鏡頭設定。這可以通過取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchbuilder@  - '@mainwindow.projectsettings.batchbuilder.useexifshort@'來實現。<br><br>•需要裁剪圓形魚眼影像，但每個相機和鏡頭的裁剪圓度會有所不同。預定義裁剪圈：<br>- 在模板專案中載入一個源影像（調整專案應至少有一個影像的裁剪）<br>- 調整@mainwindow.tabs.crop@選項卡中的裁剪圓<br>- 再次從專案中刪除源影像。即使刪除影像，也會保留裁剪設定。<br>- 取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchbuilder@  - '@mainwindow.projectsettings.batchbuilder.useexifshort@'（否則您的裁剪設定將根據EXIF數據被覆蓋）<br><br>•如果要輸出具有預定義投影和視野的全景圖，請在@mainwindow.tabs.projectsettings@選項卡中禁用「@mainwindow.projectsettings.alignimagesbehavior.fit@」和「@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@」。在全景編輯視窗中切換到所需的投影和視野。<br><br>•如果要輸出具有特定畫素尺寸的全景圖：轉到@mainwindow.tabs.createpanorama@選項卡並選擇「@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@」。否則，PTGui將選擇最佳尺寸，由於優化的鏡頭參數的微小變化，每個全景可能不同。<br><br>•務必選擇@mainwindow.tabs.projectsettings@的適當值 -  @mainwindow.projectsettings.batchstitcheractions@  -  @mainwindow.projectsettings.batchstitcheractions.align@。有關詳細資訊，請參閱工具提示。<br><br>•如果您想在實際縫合之前檢查產生的專案，請取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchstitcheractions@  - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'。因此批量拼接器將僅產生控制點，設定全景圖並儲存修改後的專案。在檢查並可能調整專案之後，再次將它們發送到批處理器以進行最終縫合。<br><br>設定模板后，選擇@menubar.file@ | @menubar.file.saveastemplate@進行儲存。然後它將出現在「@batchbuilder.usetemplate@」列表的批處理產生器中。<br><br>另請參閱： <a href='helppage:workingwithtemplates'>使用模板</a><br><br>"
+			"helptext": "<b>@batchbuilder@</b><br><br>與批處理器結合使用時，批處理檔案產生器是一種用於批量拼接大量全景圖的工具。您通常會為批處理檔案產生器提供一個或多個包含源影像和可選模板專案的資料夾。它分析源影像資料夾以查詢形成全景影像的影像組。將為每組影像建立專案檔案。然後可以將產生的專案檔案發送到批處理器進行處理。<br><br><b>用法</b><br><br>按<b>@batchbuilder.detectpanoramas@</b>掃瞄包含源影像的資料夾以檢視全景圖。批處理產生器然後提出專案列表。這還沒有真正建立專案檔案;影像組仍然可以修改。按黑色十字按鈕可從專案中刪除影像。按剪刀圖示將專案切割為兩個單獨的專案。選擇一個或多個專案並右鍵單擊<optional platform='mac'>（或按住Ctrl鍵並單擊）</optional>對於具有其他選項的上下文菜單：所選專案可以組合到單個專案中或從列表中刪除。影像檔案也可以手動新增到專案中。<br><br>正確設定每個專案的影像后，選擇要使用的模板，然後按<b>@batchbuilder.generateprojects@</b> 。這將建立PTGui專案檔案，每個影像組一個，並將它們發送到批處理器進行處理。<br><br><b>模板</b><br><br>通常，批處理產生器與模板結合使用。該模板配置例如輸出大小，檔案格式以及儲存專案檔案和拼接全景的位置。模板還可以覆蓋預設鏡頭設定或配置全景中源影像的精確定位。<br><br>要建立模板，請啟動新的PTGui Pro專案，設定所需的參數並選擇@menubar.file@ | @menubar.file.saveastemplate@。建立用於批處理產生器的模板的一些準則：<br><br>•請勿在@mainwindow.tabs.createpanorama@選項卡中輸入輸出檔名。而是選擇「@mainwindow.createpanoramatab.usedefault@」作為輸出檔名，並在@mainwindow.tabs.projectsettings@選項卡的@mainwindow.projectsettings.filenaming@部分中設定所需的輸出檔名。否則，所有產生的專案都將寫入相同的全景檔案。<br><br>•在@mainwindow.tabs.projectsettings@選項卡的@mainwindow.projectsettings.filenaming@部分中，選擇：'@panorama@：@mainwindow.projectsettings.filenaming.saveas@：@mainwindow.projectsettings.filenaming.sameasprojectname@'。批處理產生器將通過可選地將（1），（2）等附加到名稱來確保專案名稱是唯一的。因為這會產生唯一的專案檔名，所以它還會為拼接的全景圖產生唯一的檔名。<br><br>•通常所有全景照片都是使用相同的已知鏡頭拍攝的。如果是這樣，可能需要使用預定義的鏡頭設定，而不是讓PTGui Pro根據EXIF數據選擇自動鏡頭設定。這可以通過取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchbuilder@  - '@mainwindow.projectsettings.batchbuilder.useexifshort@'來實現。<br><br>•需要裁剪圓形魚眼影像，但每個相機和鏡頭的裁剪圓度會有所不同。預定義裁剪圈：<br>- 在模板專案中載入一個源影像（調整專案應至少有一個影像的裁剪）<br>- 調整@mainwindow.tabs.crop@選項卡中的裁剪圓<br>- 再次從專案中刪除源影像。即使刪除影像，也會保留裁剪設定。<br>- 取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchbuilder@  - '@mainwindow.projectsettings.batchbuilder.useexifshort@'（否則您的裁剪設定將根據EXIF數據被覆蓋）<br><br>•如果要輸出具有預定義投影和視野的全景圖，請在@mainwindow.tabs.projectsettings@選項卡中停用「@mainwindow.projectsettings.alignimagesbehavior.fit@」和「@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@」。在全景編輯視窗中切換到所需的投影和視野。<br><br>•如果要輸出具有特定畫素尺寸的全景圖：轉到@mainwindow.tabs.createpanorama@選項卡並選擇「@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@」。否則，PTGui將選擇最佳尺寸，由於優化的鏡頭參數的微小變化，每個全景可能不同。<br><br>•務必選擇@mainwindow.tabs.projectsettings@的適當值 -  @mainwindow.projectsettings.batchstitcheractions@  -  @mainwindow.projectsettings.batchstitcheractions.align@。有關詳細資訊，請參閱工具提示。<br><br>•如果您想在實際縫合之前檢查產生的專案，請取消選擇@mainwindow.tabs.projectsettings@  -  @mainwindow.projectsettings.batchstitcheractions@  - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'。因此批量拼接器將僅產生控制點，設定全景圖並儲存修改後的專案。在檢查並可能調整專案之後，再次將它們發送到批處理器以進行最終縫合。<br><br>設定模板后，選擇@menubar.file@ | @menubar.file.saveastemplate@進行儲存。然後它將出現在「@batchbuilder.usetemplate@」列表的批處理產生器中。<br><br>另請參閱： <a href='helppage:workingwithtemplates'>使用模板</a><br><br>"
 		},
 		{
 			"id": "workingwithtemplates",

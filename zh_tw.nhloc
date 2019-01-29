@@ -1,9 +1,9 @@
 {
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
-	"contributors": [],
+	"contributors": [AllenChen],
 	"languagenamelocalized": "繁體中文",
-	"startupmsg": "此繁體中文版 由AllenChen於20190129修訂更正。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
+	"startupmsg": "修訂日期2019-01-29。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
@@ -15,97 +15,78 @@
 		},
 		{
 			"id": "txt.yesbutton",
-			"machinetranslated": true,
 			"txt": "是（&Y）"
 		},
 		{
 			"id": "warn.overwriteptgui10.overwritebutton",
-			"machinetranslated": true,
 			"txt": "覆蓋（&V）"
 		},
 		{
 			"id": "warn.overwriteptgui10.renamebutton",
-			"machinetranslated": true,
 			"txt": "重新命名（&R）"
 		},
 		{
 			"id": "txt.applybutton",
-			"machinetranslated": true,
-			"txt": "應用（&P）"
+			"txt": "套用（&P）"
 		},
 		{
 			"id": "txt.apply",
-			"machinetranslated": true,
-			"txt": "應用"
+			"txt": "套用"
 		},
 		{
 			"id": "txt.convert",
-			"machinetranslated": true,
-			"txt": "兌換"
+			"txt": "轉換"
 		},
 		{
 			"id": "txt.convertbutton",
-			"machinetranslated": true,
 			"txt": "轉換（&O）"
 		},
 		{
 			"id": "txt.savebutton",
-			"machinetranslated": true,
 			"txt": "儲存（&S）"
 		},
 		{
 			"id": "txt.dontsavebutton",
-			"machinetranslated": true,
 			"txt": "不儲存（&D）"
 		},
 		{
 			"id": "txt.nobutton",
-			"machinetranslated": true,
 			"txt": "否（&N）"
 		},
 		{
 			"id": "upto",
-			"machinetranslated": true,
 			"txt": "至"
 		},
 		{
 			"id": "mm",
-			"machinetranslated": true,
 			"txt": "mm"
 		},
 		{
 			"id": "colon",
-			"machinetranslated": true,
 			"txt": "："
 		},
 		{
 			"id": "zoomfit",
-			"machinetranslated": true,
 			"txt": "適應"
 		},
 		{
 			"id": "mmpostfix",
-			"machinetranslated": true,
 			"txt": " @mm@"
 		},
 		{
 			"id": "txt.bytes",
-			"machinetranslated": true,
 			"txt": "位元組"
 		},
 		{
 			"id": "txt.kb",
-			"machinetranslated": true,
 			"txt": "KB"
 		},
 		{
 			"id": "txt.mb",
-			"machinetranslated": true,
 			"txt": "MB"
 		},
 		{
 			"id": "txt.gb",
-			"machinetranslated": true,
 			"txt": "GB"
 		},
 		{
@@ -116,782 +97,626 @@
 		},
 		{
 			"id": "txt.tb",
-			"machinetranslated": true,
 			"txt": "TB"
 		},
 		{
 			"id": "help",
-			"machinetranslated": true,
 			"txt": "幫助"
 		},
 		{
 			"id": "ok",
-			"machinetranslated": true,
 			"txt": "是"
 		},
 		{
 			"id": "cancel",
-			"machinetranslated": true,
 			"txt": "取消"
 		},
 		{
 			"id": "delete",
-			"machinetranslated": true,
 			"txt": "刪除"
 		},
 		{
 			"id": "reset",
-			"machinetranslated": true,
 			"txt": "重置"
 		},
 		{
 			"id": "defaults",
-			"machinetranslated": true,
 			"txt": "預設值"
 		},
 		{
 			"id": "presetbutton",
-			"machinetranslated": true,
 			"txt": "快速設置"
 		},
 		{
 			"id": "saveas",
-			"machinetranslated": true,
 			"txt": "另存為"
 		},
 		{
 			"id": "files",
-			"machinetranslated": true,
 			"txt": "檔"
 		},
 		{
 			"id": "all",
-			"machinetranslated": true,
 			"txt": "所有"
 		},
 		{
 			"id": "default",
-			"machinetranslated": true,
 			"txt": "預設值"
 		},
 		{
 			"id": "yaw",
-			"machinetranslated": true,
 			"txt": "偏航yaw"
 		},
 		{
 			"id": "pitch",
-			"machinetranslated": true,
 			"txt": "俯仰pitch"
 		},
 		{
 			"id": "roll",
-			"machinetranslated": true,
 			"txt": "滾動roll"
 		},
 		{
 			"id": "pan",
-			"machinetranslated": true,
 			"txt": "平移"
 		},
 		{
 			"id": "tilt",
-			"machinetranslated": true,
 			"txt": "傾斜"
 		},
 		{
 			"id": "viewpoint",
-			"machinetranslated": true,
 			"txt": "觀點"
 		},
 		{
 			"id": "abort",
-			"machinetranslated": true,
 			"txt": "退出"
 		},
 		{
 			"id": "illwait",
-			"machinetranslated": true,
 			"txt": "我會等"
 		},
 		{
 			"id": "txt.error",
-			"machinetranslated": true,
 			"txt": "錯誤"
 		},
 		{
 			"id": "mainwindow.tabs.projectassistant",
-			"machinetranslated": true,
 			"txt": "工程助理"
 		},
 		{
 			"id": "mainwindow.tabs.sourceimages",
-			"machinetranslated": true,
 			"txt": "影像"
 		},
 		{
 			"id": "mainwindow.tabs.lenssettings",
-			"machinetranslated": true,
 			"txt": "鏡頭設定"
 		},
 		{
 			"id": "mainwindow.tabs.crop",
-			"machinetranslated": true,
 			"txt": "修剪"
 		},
 		{
 			"id": "mainwindow.tabs.mask",
-			"machinetranslated": true,
 			"txt": "遮罩"
 		},
 		{
 			"id": "mainwindow.tabs.imageparameters",
-			"machinetranslated": true,
 			"txt": "影像參數"
 		},
 		{
 			"id": "mainwindow.tabs.controlpoints",
-			"machinetranslated": true,
 			"txt": "控制點"
 		},
 		{
 			"id": "mainwindow.tabs.optimizer",
-			"machinetranslated": true,
 			"txt": "優化"
 		},
 		{
 			"id": "mainwindow.tabs.exposurehdr",
-			"machinetranslated": true,
 			"txt": "曝光/HDR"
 		},
 		{
 			"id": "mainwindow.tabs.projectsettings",
-			"machinetranslated": true,
 			"txt": "專案設定"
 		},
 		{
 			"id": "mainwindow.tabs.preview",
-			"machinetranslated": true,
 			"txt": "預覽"
 		},
 		{
 			"id": "mainwindow.tabs.metadata",
-			"machinetranslated": true,
 			"txt": "Metadata"
 		},
 		{
 			"id": "mainwindow.tabs.createpanorama",
-			"machinetranslated": true,
 			"txt": "創建全景"
 		},
 		{
 			"id": "menubar.file",
-			"machinetranslated": true,
 			"txt": "檔案"
 		},
 		{
 			"id": "menubar.file.newproject",
-			"machinetranslated": true,
 			"txt": "開新專案"
 		},
 		{
 			"id": "menubar.file.openproject",
-			"machinetranslated": true,
 			"txt": "載入專案"
 		},
 		{
 			"id": "txt.openpapywizardfile",
-			"machinetranslated": true,
 			"txt": "載入Papywizard檔案"
 		},
 		{
 			"id": "txt.savepanorama",
-			"machinetranslated": true,
 			"txt": "儲存全景"
 		},
 		{
 			"id": "txt.replaceimage",
-			"machinetranslated": true,
 			"txt": "替換影像"
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
-			"machinetranslated": true,
 			"txt": "儲存相機響應曲線"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"machinetranslated": true,
 			"txt": "載入相機響應曲線"
 		},
 		{
 			"id": "txt.savevignettingcurve",
-			"machinetranslated": true,
 			"txt": "儲存漸暈曲線"
 		},
 		{
 			"id": "txt.loadvignettingcurve",
-			"machinetranslated": true,
 			"txt": "載入漸暈曲線"
 		},
 		{
 			"id": "txt.savewebpagetemplate",
-			"machinetranslated": true,
 			"txt": "儲存網頁模板"
 		},
 		{
 			"id": "txt.selectwebpagetemplate",
-			"machinetranslated": true,
 			"txt": "選擇網頁模板"
 		},
 		{
 			"id": "txt.savetonemapsettings",
-			"machinetranslated": true,
 			"txt": "儲存色調對映設定"
 		},
 		{
 			"id": "txt.loadtonemapsettings",
-			"machinetranslated": true,
 			"txt": "載入色調對映設定"
 		},
 		{
 			"id": "txt.openpanorama",
-			"machinetranslated": true,
 			"txt": "載入全景"
 		},
 		{
 			"id": "txt.supportedformats",
-			"machinetranslated": true,
 			"txt": "支援的格式"
 		},
 		{
 			"id": "menubar.file.recentprojects",
-			"machinetranslated": true,
 			"txt": "最近的專案"
 		},
 		{
 			"id": "menubar.file.applytemplate",
-			"machinetranslated": true,
-			"txt": "應用模板"
+			"txt": "套用模板"
 		},
 		{
 			"id": "menubar.file.applytemplate.other",
-			"machinetranslated": true,
 			"txt": "其他"
 		},
 		{
 			"id": "menubar.file.import",
-			"machinetranslated": true,
 			"txt": "置入"
 		},
 		{
 			"id": "menubar.file.saveproject",
-			"machinetranslated": true,
 			"txt": "儲存專案"
 		},
 		{
 			"id": "menubar.file.saveprojectas",
-			"machinetranslated": true,
 			"txt": "另存專案"
 		},
 		{
 			"id": "menubar.file.saveastemplate",
-			"machinetranslated": true,
 			"txt": "另存模板"
 		},
 		{
 			"id": "menubar.file.export",
-			"machinetranslated": true,
 			"txt": "輸出"
 		},
 		{
 			"id": "menubar.file.export.ptgui10project",
-			"machinetranslated": true,
 			"txt": "PTGui 10專案"
 		},
 		{
 			"id": "ptgui10export.warning",
-			"machinetranslated": true,
 			"txt": "請注意，並非PTGui 10及更早版本支援此版本PTGui的所有功能。雖然PTGui 10將能夠打開導出的專案，但全景圖可能看起來不同。"
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"machinetranslated": true,
 			"txt": "儲存專案預設值"
 		},
 		{
 			"id": "makedefault.confirmation",
-			"machinetranslated": true,
 			"txt": "是否要將目前設定用作新專案的預設設定？"
 		},
 		{
 			"id": "menubar.file.resetdefault",
-			"machinetranslated": true,
 			"txt": "重置專案預設值"
 		},
 		{
 			"id": "resetdefault.confirmation",
-			"machinetranslated": true,
 			"txt": "這將刪除新專案的已儲存預設設定。啟動新專案時，PTGui將使用自己的預設參數。"
 		},
 		{
 			"id": "menubar.file.newinstance",
-			"machinetranslated": true,
 			"txt": "另開專案視窗"
 		},
 		{
 			"id": "menubar.file.closewindow",
-			"machinetranslated": true,
 			"txt": "關閉視窗"
 		},
 		{
 			"id": "menubar.file.exit",
-			"machinetranslated": true,
 			"txt": "退出"
 		},
 		{
 			"id": "menubar.edit",
-			"machinetranslated": true,
 			"txt": "編輯"
 		},
 		{
 			"id": "menubar.edit.undo",
-			"machinetranslated": true,
 			"txt": "還原"
 		},
 		{
 			"id": "menubar.edit.redo",
-			"machinetranslated": true,
 			"txt": "重做"
 		},
 		{
 			"id": "menubar.edit.cut",
-			"machinetranslated": true,
 			"txt": "剪下"
 		},
 		{
 			"id": "menubar.edit.copy",
-			"machinetranslated": true,
 			"txt": "複製"
 		},
 		{
 			"id": "menubar.edit.paste",
-			"machinetranslated": true,
 			"txt": "貼上"
 		},
 		{
 			"id": "menubar.edit.selectall",
-			"machinetranslated": true,
 			"txt": "全選"
 		},
 		{
 			"id": "batchstitcher.menubar.process",
-			"machinetranslated": true,
 			"txt": "處理"
 		},
 		{
 			"id": "batchstitcher.menubar.process.run",
-			"machinetranslated": true,
 			"txt": "開始"
 		},
 		{
 			"id": "batchstitcher.menubar.process.stop",
-			"machinetranslated": true,
 			"txt": "停止"
 		},
 		{
 			"id": "menubar.view",
-			"machinetranslated": true,
 			"txt": "檢視"
 		},
 		{
 			"id": "menubar.view.zoomin",
-			"machinetranslated": true,
 			"txt": "放大"
 		},
 		{
 			"id": "menubar.view.zoomout",
-			"machinetranslated": true,
 			"txt": "縮小"
 		},
 		{
 			"id": "menubar.view.zoomtofit",
-			"machinetranslated": true,
 			"txt": "縮放至適合"
 		},
 		{
 			"id": "menubar.view.zoomtopercent",
-			"machinetranslated": true,
 			"txt": "放大到"
 		},
 		{
 			"id": "menubar.view.previousimage",
-			"machinetranslated": true,
 			"txt": "上一張影像"
 		},
 		{
 			"id": "menubar.view.nextimage",
-			"machinetranslated": true,
 			"txt": "下一張影像"
 		},
 		{
 			"id": "menubar.view.previousblendplane",
-			"machinetranslated": true,
 			"txt": "以前的混合平面"
 		},
 		{
 			"id": "menubar.view.nextblendplane",
-			"machinetranslated": true,
 			"txt": "下一個混合平面"
 		},
 		{
 			"id": "menubar.view.enterfullscreen",
-			"machinetranslated": true,
 			"txt": "進入全螢幕"
 		},
 		{
 			"id": "menubar.view.exitfullscreen",
-			"machinetranslated": true,
 			"txt": "退出全螢幕"
 		},
 		{
 			"id": "menubar.images",
-			"machinetranslated": true,
 			"txt": "影像"
 		},
 		{
 			"id": "menubar.mask",
-			"machinetranslated": true,
 			"txt": "遮罩"
 		},
 		{
 			"id": "menubar.controlpoints",
-			"machinetranslated": true,
 			"txt": "控制點"
 		},
 		{
 			"id": "menubar.tools",
-			"machinetranslated": true,
 			"txt": "工具"
 		},
 		{
 			"id": "menubar.project",
-			"machinetranslated": true,
 			"txt": "專案"
 		},
 		{
 			"id": "panoramaeditor",
-			"machinetranslated": true,
 			"txt": "全景編輯"
 		},
 		{
 			"id": "menubar.help",
-			"machinetranslated": true,
 			"txt": "@help@"
 		},
 		{
 			"id": "projection.equirectangular",
-			"machinetranslated": true,
 			"txt": "等距離長方圓柱"
 		},
 		{
 			"id": "projection.stereographic",
-			"machinetranslated": true,
 			"txt": "立體"
 		},
 		{
 			"id": "projection.rectilinear",
-			"machinetranslated": true,
 			"txt": "直線"
 		},
 		{
 			"id": "projection.cylindrical",
-			"machinetranslated": true,
 			"txt": "圓柱形"
 		},
 		{
 			"id": "projection.fisheye",
-			"machinetranslated": true,
 			"txt": "魚眼鏡頭"
 		},
 		{
 			"id": "projection.circularfisheye",
-			"machinetranslated": true,
 			"txt": "圓形魚眼"
 		},
 		{
 			"id": "projection.fullframefisheye",
-			"machinetranslated": true,
 			"txt": "全幅魚眼"
 		},
 		{
 			"id": "projection.transverseequirectangular",
-			"machinetranslated": true,
 			"txt": "橫向等長的"
 		},
 		{
 			"id": "projection.transversecylindrical",
-			"machinetranslated": true,
 			"txt": "橫向圓柱形"
 		},
 		{
 			"id": "projection.mercator",
-			"machinetranslated": true,
-			"txt": "墨卡托"
+			"txt": "麥卡托"
 		},
 		{
 			"id": "projection.transversemercator",
-			"machinetranslated": true,
-			"txt": "橫向墨卡托"
+			"txt": "橫向麥卡托"
 		},
 		{
 			"id": "projection.stereographicdown",
-			"machinetranslated": true,
-			"txt": "立體感下來"
+			"txt": "向下立體圖"
 		},
 		{
 			"id": "projection.transversevedutismo",
-			"machinetranslated": true,
 			"txt": "橫向vedutismo"
 		},
 		{
 			"id": "projection.vedutismo",
-			"machinetranslated": true,
 			"txt": "vedutismo"
 		},
 		{
 			"id": "projectionpreset.spherical",
-			"machinetranslated": true,
 			"txt": "球形：360°x 180°@+projection.equirectangular@"
 		},
 		{
 			"id": "projectionpreset.littleplanet",
-			"machinetranslated": true,
 			"txt": "小星球：300°@+projection.stereographic@"
 		},
 		{
 			"id": "projectionpreset.cubeface",
-			"machinetranslated": true,
 			"txt": "立方體面：90°@+projection.rectilinear@"
 		},
 		{
 			"id": "panoramaeditor.menubar.editindividualimages",
-			"machinetranslated": true,
 			"txt": "編輯單個影像"
 		},
 		{
 			"id": "panoramaeditor.menubar.editpano",
-			"machinetranslated": true,
 			"txt": "編輯整個全景圖"
 		},
 		{
 			"id": "panoramaeditor.imagexandy",
-			"machinetranslated": true,
 			"txt": "影像%0和%1"
 		},
 		{
 			"id": "panoramaeditor.editmask",
-			"machinetranslated": true,
 			"txt": "編輯遮罩"
 		},
 		{
 			"id": "panoramaeditor.editcontrolpoints",
-			"machinetranslated": true,
 			"txt": "控制點"
 		},
 		{
 			"id": "panoramaeditor.excluded",
-			"machinetranslated": true,
 			"txt": "（除外）"
 		},
 		{
 			"id": "panoramaeditor.someexcluded",
-			"machinetranslated": true,
 			"txt": "（有些人除外）"
 		},
 		{
 			"id": "panoramaeditor.leftpane",
-			"machinetranslated": true,
 			"txt": "（左窗格）"
 		},
 		{
 			"id": "panoramaeditor.rightpane",
-			"machinetranslated": true,
 			"txt": "（右窗格）"
 		},
 		{
 			"id": "panoramaeditor.closemenu",
-			"machinetranslated": true,
-			"txt": "關"
+			"txt": "關閉"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.enable",
-			"machinetranslated": true,
-			"txt": "應用色調對映"
+			"txt": "套用色調對映"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.brightness",
-			"machinetranslated": true,
 			"txt": "亮度："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.boostshadows",
-			"machinetranslated": true,
 			"txt": "增強陰影："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.reducelights",
-			"machinetranslated": true,
 			"txt": "減少燈光："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.autoboostreduce",
-			"machinetranslated": true,
 			"txt": "自動增強/減少"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.compression",
-			"machinetranslated": true,
 			"txt": "壓縮："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.contrast",
-			"machinetranslated": true,
 			"txt": "對比："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.saturation",
-			"machinetranslated": true,
 			"txt": "飽和："
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.loaddefaults",
-			"machinetranslated": true,
 			"txt": "載入預設"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.sigma",
-			"machinetranslated": true,
-			"txt": "西格瑪："
+			"txt": "西格瑪Sigma："
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.defaults",
-			"machinetranslated": true,
 			"txt": "@defaults@"
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.heading",
-			"machinetranslated": true,
 			"txt": "全景移動："
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.yaw",
-			"machinetranslated": true,
 			"txt": "@+yaw@："
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.pitch",
-			"machinetranslated": true,
 			"txt": "@+pitch@："
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.roll",
-			"machinetranslated": true,
 			"txt": "@+roll@："
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.apply",
-			"machinetranslated": true,
 			"txt": "@txt.apply@"
 		},
 		{
 			"id": "panoramaeditor.sidebar.numericaltransform.reset",
-			"machinetranslated": true,
 			"txt": "@+reset@"
 		},
 		{
 			"id": "panoramaeditor.sidebar.projectionpanel.fov",
-			"machinetranslated": true,
 			"txt": "視野："
 		},
 		{
 			"id": "panoramaeditor.sidebar.projectionpanel.compression",
-			"machinetranslated": true,
 			"txt": "壓縮："
 		},
 		{
 			"id": "panoramaeditor.sidebar.projectionpanel.projection",
-			"machinetranslated": true,
 			"txt": "投影："
 		},
 		{
 			"id": "panoramaeditor.sidebar.projectionpanel.horizontal",
-			"machinetranslated": true,
 			"txt": "水平："
 		},
 		{
 			"id": "panoramaeditor.sidebar.projectionpanel.vertical",
-			"machinetranslated": true,
 			"txt": "垂直："
 		},
 		{
 			"id": "panoramaeditor.sidebar.display",
-			"machinetranslated": true,
 			"txt": "設定"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapping",
-			"machinetranslated": true,
 			"txt": "色調"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusion",
-			"machinetranslated": true,
 			"txt": "曝光融合"
 		},
 		{
 			"id": "panoramaeditor.sidebar.numtransform",
-			"machinetranslated": true,
 			"txt": "數值"
 		},
 		{
 			"id": "panoramaeditor.sidebar.projection",
-			"machinetranslated": true,
 			"txt": "投影"
 		},
 		{
 			"id": "panoramaeditor.sidebar.panoramapreviewsettingspanel.exposure",
-			"machinetranslated": true,
 			"txt": "曝光："
 		},
 		{
 			"id": "panoramaeditor.sidebar.panoramapreviewsettingspanel.blendplane",
-			"machinetranslated": true,
 			"txt": "混合模式："
 		},
 		{
 			"id": "panoeditor.menubar.setcenter",
-			"machinetranslated": true,
-			"txt": "重新中心"
+			"txt": "重置中心點"
 		},
 		{
 			"id": "panoeditor.menubar.mouseover",
-			"machinetranslated": true,
 			"txt": "在滑鼠指針下選擇影像"
 		},
 		{
 			"id": "panoeditor.menubar.blended",
-			"machinetranslated": true,
 			"txt": "顯示混合全景"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
-			"machinetranslated": true,
 			"txt": "顯示未混合全景"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
-			"machinetranslated": true,
 			"txt": "顯示接縫"
 		},
 		{
@@ -906,12 +731,10 @@
 		},
 		{
 			"id": "panoeditor.menubar.edit.fitpano",
-			"machinetranslated": true,
 			"txt": "適合全景"
 		},
 		{
 			"id": "panoeditor.menubar.edit.fitpanohorz",
-			"machinetranslated": true,
 			"txt": "水平適合全景"
 		},
 		{
@@ -2089,7 +1912,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapldrpanorama",
 			"machinetranslated": true,
-			"txt": "將色調對映應用於全景"
+			"txt": "將色調對映套用於全景"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.autoexpadjustmentsection",
@@ -6694,7 +6517,7 @@
 		{
 			"id": "gridsetup.errtoofewimages",
 			"machinetranslated": true,
-			"txt": "應用於影像：%0影像的指定範圍大於實際影像數（%1）。"
+			"txt": "套用於影像：%0影像的指定範圍大於實際影像數（%1）。"
 		},
 		{
 			"id": "gridsetup.erremptyrange",
@@ -7303,7 +7126,7 @@
 			"id": "mainwindow.toolbar.applytemplate",
 			"machinetranslated": true,
 			"label": "@menubar.file.applytemplate@",
-			"helptext": "將模板應用於目前專案。可以使用@menubar.file@ | @menubar.file.saveastemplate@儲存模板。",
+			"helptext": "將模板於目前專案。可以使用@menubar.file@ | @menubar.file.saveastemplate@儲存模板。",
 			"morehelptext": "<br><br>請參閱<a href='helppage:workingwithtemplates'>使用模板</a>"
 		},
 		{
@@ -7443,7 +7266,7 @@
 			"id": "lensparams.lensdatabasebutton",
 			"machinetranslated": true,
 			"helptext": "鏡頭參數可以儲存到鏡頭資料庫中以備將來使用。",
-			"morehelptext": "<br><br>鏡頭資料庫最初是空的，您可以使用它來儲存您自己的設定。每個記錄包括鏡頭參數，shift和@shear@參數以及裁剪參數。使用@save@將目前選定的設定儲存到鏡頭資料庫，或使用@load@從鏡頭資料庫中讀取設定。<br><br>鏡頭資料庫記錄可以與目前載入的影像的EXIF數據相關聯，以便在載入類似影像時自動應用鏡頭設定。這可以通過單擊下面的EXIF按鈕來完成。<br><br>可以通過@menubar.tools@菜單打開鏡頭資料庫。另請參閱： <a href='helppage:lensdatabase'>使用鏡頭資料庫</a>"
+			"morehelptext": "<br><br>鏡頭資料庫最初是空的，您可以使用它來儲存您自己的設定。每個記錄包括鏡頭參數，shift和@shear@參數以及裁剪參數。使用@save@將目前選定的設定儲存到鏡頭資料庫，或使用@load@從鏡頭資料庫中讀取設定。<br><br>鏡頭資料庫記錄可以與目前載入的影像的EXIF數據相關聯，以便在載入類似影像時自動套用鏡頭設定。這可以通過單擊下面的EXIF按鈕來完成。<br><br>可以通過@menubar.tools@菜單打開鏡頭資料庫。另請參閱： <a href='helppage:lensdatabase'>使用鏡頭資料庫</a>"
 		},
 		{
 			"id": "lensparams.focallength",
@@ -7504,7 +7327,7 @@
 		{
 			"id": "lensparams.exifbutton",
 			"machinetranslated": true,
-			"helptext": "EXIF協會：<br><br>•從EXIF數據初始化鏡頭設定或傳感器尺寸。<br>•將目前影像的EXIF數據與特定鏡頭資料庫記錄相關聯：當載入來自同一鏡頭的影像時，將自動應用鏡頭設定。",
+			"helptext": "EXIF協會：<br><br>•從EXIF數據初始化鏡頭設定或傳感器尺寸。<br>•將目前影像的EXIF數據與特定鏡頭資料庫記錄相關聯：當載入來自同一鏡頭的影像時，將自動鏡頭設定。",
 			"morehelptext": "<br><br>另請參閱： <a href='helppage:lensdatabase'>使用鏡頭資料庫</a>和<a href='helppage:cameradatabase'>使用攝像機資料庫</a>"
 		},
 		{
@@ -7827,7 +7650,7 @@
 			"id": "exposurehdrtab.vignettinggraph",
 			"machinetranslated": true,
 			"helptext": "漸暈曲線",
-			"morehelptext": "<br><br>曲線顯示檢測到的鏡頭漸暈曲線。圖的左側對應于鏡頭的中心，右側對應于影像的角。通常，光量會朝向角落下降，因此圖形將向右傾斜。<br><br>PTGui應用逆校正來補償光線衰減。"
+			"morehelptext": "<br><br>曲線顯示檢測到的鏡頭漸暈曲線。圖的左側對應于鏡頭的中心，右側對應于影像的角。通常，光量會朝向角落下降，因此圖形將向右傾斜。<br><br>PTGui套用逆校正來補償光線衰減。"
 		},
 		{
 			"id": "exposurehdrtab.cameracurvegraph",
@@ -7985,7 +7808,7 @@
 			"id": "projectsettingstab.templatebehavior.linkimages",
 			"machinetranslated": true,
 			"helptext": "控制將此專案用作模板時是否以及如何影響影像的鏈接。",
-			"morehelptext": "<br><br>對於HDR全景圖，可以鏈接包圍曝光的曝光。鏈接的影像被迫具有相同的影像參數，因此它們被有效地視為單個影像。在應用模板時，目標專案中的方括號曝光可能尚未鏈接，或者目標專案與模板專案相比具有不同數量的方括號曝光。<br><br>因此，PTGui Pro可以在應用模板時更改影像的鏈接。此設定還會影響批產生器：產生專案檔案時，影像將根據此設定進行鏈接。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@：</b>完全按照模板專案鏈接目標專案中的影像（即假設目標專案中的影像具有相同數量的括號曝光）。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@：</b>通過查詢源影像曝光參數中的重複序列來檢測包圍曝光。執行功能@menubar.images.linkbracketed@  -  @menubar.images.linkbracketed@。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@：</b>保持目標專案不變。<br><br>鏈接影像后，模板的設定將應用於每個鏈接影像組的目標專案。在模板和目標專案中，括號內曝光的數量可能不同。"
+			"morehelptext": "<br><br>對於HDR全景圖，可以鏈接包圍曝光的曝光。鏈接的影像被迫具有相同的影像參數，因此它們被有效地視為單個影像。在套用模板時，目標專案中的方括號曝光可能尚未鏈接，或者目標專案與模板專案相比具有不同數量的方括號曝光。<br><br>因此，PTGui Pro可以在應用模板時更改影像的鏈接。此設定還會影響批產生器：產生專案檔案時，影像將根據此設定進行鏈接。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@：</b>完全按照模板專案鏈接目標專案中的影像（即假設目標專案中的影像具有相同數量的括號曝光）。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@：</b>通過查詢源影像曝光參數中的重複序列來檢測包圍曝光。執行功能@menubar.images.linkbracketed@  -  @menubar.images.linkbracketed@。<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@：</b>保持目標專案不變。<br><br>鏈接影像后，模板的設定將應用於每個鏈接影像組的目標專案。在模板和目標專案中，括號內曝光的數量可能不同。"
 		},
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
@@ -7997,7 +7820,7 @@
 			"id": "projectsettingstab.misc.useexiforientation",
 			"machinetranslated": true,
 			"helptext": "控制如何使用EXIF縱向標記處理影像。",
-			"morehelptext": "<br><br>當以縱向拍攝影像時，許多相機實際上以橫向方向輸出影像，並新增了EXIF方向標記。 Orientation標籤通知影像閱讀器影像的實際方向。此設定控制PTGui處理這些影像的方式：<br><br><b>取消選擇：</b>忽略方向，將影像作為風景影像載入。將此類影像新增到新的PTGui專案時，會應用適當的@roll@角度將影像置於縱向，但從技術上講，它被視為橫向影像。<br><br><b>選中：</b>載入時應用正確的方向，因此影像將以縱向方式載入。<br><br>最初新增此設定是爲了與不支援Orientation標記的其他應用程式相容。因為現在大多數應用程式都支援Orientation標記，所以建議啟用此設定。<br><br>載入影像后無法更改此設定，必須在載入第一張影像之前進行設定。"
+			"morehelptext": "<br><br>當以縱向拍攝影像時，許多相機實際上以橫向方向輸出影像，並新增了EXIF方向標記。 Orientation標籤通知影像閱讀器影像的實際方向。此設定控制PTGui處理這些影像的方式：<br><br><b>取消選擇：</b>忽略方向，將影像作為風景影像載入。將此類影像新增到新的PTGui專案時，會套用適當的@roll@角度將影像置於縱向，但從技術上講，它被視為橫向影像。<br><br><b>選中：</b>載入時套用正確的方向，因此影像將以縱向方式載入。<br><br>最初新增此設定是爲了與不支援Orientation標記的其他應用程式相容。因為現在大多數應用程式都支援Orientation標記，所以建議啟用此設定。<br><br>載入影像后無法更改此設定，必須在載入第一張影像之前進行設定。"
 		},
 		{
 			"id": "projectsettingstab.misc.useexif",
@@ -9457,7 +9280,7 @@
 		{
 			"id": "projections",
 			"machinetranslated": true,
-			"helptext": "<b>預測</b><br><br>全景，或實際上任何照片，是相機周圍場景的平面表示。有三種方法可將三維世界投射到平面上，因此PTGui提供多種全景投影選擇。每個都有自己的屬性和限制。<br><br>在全景圖編輯器，側欄的「投影」部分或使用工具欄中的投影按鈕中選擇所需的投影。 PTGui支援以下預測：<br><br><b>@+projection.rectilinear@（'flat'）：</b>這是全景球體投影到平面上的投影。這是我們的眼睛習慣的投影，普通相機的投影。直線投影具有保留所有直線的獨特屬性：任何在現實世界中直線的線在全景圖中顯示為直線。這使其成為建築影像的合適投影。相同的屬性限制了視野：在物理上不可能投射超過180°的視野，同時保留直線。在90°以上的視野中，在影像的側面和角落處拉伸變得明顯;直線在120°以上變得無法使用。<br><br>通過使用水平和/或垂直壓縮可以減少角部拉伸效果;請參閱全景編輯器中Projection側欄中的「@panoramaeditor.sidebar.projectionpanel.compression@」滑塊。通過壓縮直線檢視，可以建立接近180°x 180°的全景圖而不會出現極端失真。直線不再保留：水平和垂直線仍保持筆直，但使用壓縮時對角線會彎曲。<br><br>對於寬度超過180°的全景圖，應使用其他投影之一：<br><br><b>@+projection.cylindrical@：</b>這是將全景球投射到圓柱體表面上的結果。圓柱形全景圖支援360°水平FOV。垂直投影的行為類似於直線：垂直視場的物理極限為180°，實際極限約為120°。因此，圓柱投影主要適用於單行360°全景圖。<br><br>保留所有垂直直線。水平直線通常是彎曲的。只有地平線仍然是直的。<br><br>與直線投影一樣，圓柱形投影可以垂直壓縮。增加垂直壓縮會降低全景頂部和底部附近的拉伸效果。在完全垂直壓縮時，結果等於等角投影。<br><br><b>@+projection.mercator@：</b>此投影類似於@+projection.cylindrical@，但在較高的垂直視野範圍內，頂部和底部的拉伸不太嚴重。這是圓柱形和等角形投影之間的良好折衷，適用於具有更高垂直視場（超過90°）的360°全景圖。除此之外，效能與圓柱投影相同：垂直視場限制為180°;只有垂直直線和水平線在全景圖中保持直線。<br><br><b>@+projection.equirectangular@：</b>這是全景球體的緯度/經度投影。 Equirectangular投影可以具有高達360°x 180°的視野，使其適用於全球面全景圖。<br><br>與圓柱形和墨卡托投影一樣，在垂直投影中只有垂直線和水平線投影為直線。所有其他線條都變得彎曲。<br><br>360°x 180°equirectangular已成為在應用程式之間交換球形全景圖的標準格式。許多互動式全景檢視器直接支援equirectangular影像。<br><br><b>@+projection.transversecylindrical@，@+projection.transversemercator@和@+projection.transverseequirectangular@：</b>這些投影分別等於@+projection.cylindrical@，@+projection.mercator@和@+projection.equirectangular@，但旋轉90°。它們支援高達360°的垂直視場，而水平視場限制為180°。這些投影適用於高垂直全景圖。<br><br><b>@+projection.circularfisheye@和@+projection.fullframefisheye@：</b>這些投影模擬魚眼鏡頭。兩個投影都給出相同的結果，但@projection.circularfisheye@輸出被裁剪為圓形，而@projection.fullframefisheye@輸出被裁剪為矩形。所有方向的視野可達360°。<br><br>此投影可使用壓縮設定。在預設的完全壓縮時，結果是真正的魚眼投影。當壓縮減小（滑塊向左移動）時，投影變形為直線投影。壓縮減小的魚眼檢視可用作廣角直線檢視的折衷方案：在全景中心附近保留直線，但朝向邊緣變得更加彎曲。<br><br><b>@+projection.vedutismo@：</b>以18世紀的繪畫風格命名，這個投影保留了通過全景中心的所有對角直線。它最適合具有清晰「消失點」的廣角場景：如果消失點移動到全景中心，則進入消失點的所有線都保持筆直。<br><br>Vedutismo投影支援高達360°的水平FOV，儘管對於非常寬的全景圖，邊緣處的一些垂直拉伸變得明顯。垂直視場限制為180°。任何不通過全景中心點的直線都會彎曲。<br><br><b>@+projection.transversevedutismo@：</b>具有相同的屬性，但水平限制為180°，垂直方向限制為360°，可用於高垂直全景圖。<br><br><b>@+projection.stereographic@：</b>這是從<b>球桿</b>上看到的球體在平面上的投影。它以「小星球」的觀點而聞名。爲了便於建立小行星，提供了另一個名為「@+projection.stereographicdown@」的投影，它是相同的投影，但是旋轉使得場景的最低點位於全景的中心。<br><br>立體投影具有額外的壓縮參數。在最大壓縮時，結果是真實的立體投影;減小壓縮將視點從極點移動到球體的中心，有效地將檢視變形為直線投影。"
+			"helptext": "<b>預測</b><br><br>全景，或實際上任何照片，是相機周圍場景的平面表示。有三種方法可將三維世界投射到平面上，因此PTGui提供多種全景投影選擇。每個都有自己的屬性和限制。<br><br>在全景圖編輯器，側欄的「投影」部分或使用工具欄中的投影按鈕中選擇所需的投影。 PTGui支援以下預測：<br><br><b>@+projection.rectilinear@（'flat'）：</b>這是全景球體投影到平面上的投影。這是我們的眼睛習慣的投影，普通相機的投影。直線投影具有保留所有直線的獨特屬性：任何在現實世界中直線的線在全景圖中顯示為直線。這使其成為建築影像的合適投影。相同的屬性限制了視野：在物理上不可能投射超過180°的視野，同時保留直線。在90°以上的視野中，在影像的側面和角落處拉伸變得明顯;直線在120°以上變得無法使用。<br><br>通過使用水平和/或垂直壓縮可以減少角部拉伸效果;請參閱全景編輯器中Projection側欄中的「@panoramaeditor.sidebar.projectionpanel.compression@」滑塊。通過壓縮直線檢視，可以建立接近180°x 180°的全景圖而不會出現極端失真。直線不再保留：水平和垂直線仍保持筆直，但使用壓縮時對角線會彎曲。<br><br>對於寬度超過180°的全景圖，應使用其他投影之一：<br><br><b>@+projection.cylindrical@：</b>這是將全景球投射到圓柱體表面上的結果。圓柱形全景圖支援360°水平FOV。垂直投影的行為類似於直線：垂直視場的物理極限為180°，實際極限約為120°。因此，圓柱投影主要適用於單行360°全景圖。<br><br>保留所有垂直直線。水平直線通常是彎曲的。只有地平線仍然是直的。<br><br>與直線投影一樣，圓柱形投影可以垂直壓縮。增加垂直壓縮會降低全景頂部和底部附近的拉伸效果。在完全垂直壓縮時，結果等於等角投影。<br><br><b>@+projection.mercator@：</b>此投影類似於@+projection.cylindrical@，但在較高的垂直視野範圍內，頂部和底部的拉伸不太嚴重。這是圓柱形和等角形投影之間的良好折衷，適用於具有更高垂直視場（超過90°）的360°全景圖。除此之外，效能與圓柱投影相同：垂直視場限制為180°;只有垂直直線和水平線在全景圖中保持直線。<br><br><b>@+projection.equirectangular@：</b>這是全景球體的緯度/經度投影。 Equirectangular投影可以具有高達360°x 180°的視野，使其適用於全球面全景圖。<br><br>與圓柱形和麥卡托投影一樣，在垂直投影中只有垂直線和水平線投影為直線。所有其他線條都變得彎曲。<br><br>360°x 180°equirectangular已成為在應用程式之間交換球形全景圖的標準格式。許多互動式全景檢視器直接支援equirectangular影像。<br><br><b>@+projection.transversecylindrical@，@+projection.transversemercator@和@+projection.transverseequirectangular@：</b>這些投影分別等於@+projection.cylindrical@，@+projection.mercator@和@+projection.equirectangular@，但旋轉90°。它們支援高達360°的垂直視場，而水平視場限制為180°。這些投影適用於高垂直全景圖。<br><br><b>@+projection.circularfisheye@和@+projection.fullframefisheye@：</b>這些投影模擬魚眼鏡頭。兩個投影都給出相同的結果，但@projection.circularfisheye@輸出被裁剪為圓形，而@projection.fullframefisheye@輸出被裁剪為矩形。所有方向的視野可達360°。<br><br>此投影可使用壓縮設定。在預設的完全壓縮時，結果是真正的魚眼投影。當壓縮減小（滑塊向左移動）時，投影變形為直線投影。壓縮減小的魚眼檢視可用作廣角直線檢視的折衷方案：在全景中心附近保留直線，但朝向邊緣變得更加彎曲。<br><br><b>@+projection.vedutismo@：</b>以18世紀的繪畫風格命名，這個投影保留了通過全景中心的所有對角直線。它最適合具有清晰「消失點」的廣角場景：如果消失點移動到全景中心，則進入消失點的所有線都保持筆直。<br><br>Vedutismo投影支援高達360°的水平FOV，儘管對於非常寬的全景圖，邊緣處的一些垂直拉伸變得明顯。垂直視場限制為180°。任何不通過全景中心點的直線都會彎曲。<br><br><b>@+projection.transversevedutismo@：</b>具有相同的屬性，但水平限制為180°，垂直方向限制為360°，可用於高垂直全景圖。<br><br><b>@+projection.stereographic@：</b>這是從<b>球桿</b>上看到的球體在平面上的投影。它以「小星球」的觀點而聞名。爲了便於建立小行星，提供了另一個名為「@+projection.stereographicdown@」的投影，它是相同的投影，但是旋轉使得場景的最低點位於全景的中心。<br><br>立體投影具有額外的壓縮參數。在最大壓縮時，結果是真實的立體投影;減小壓縮將視點從極點移動到球體的中心，有效地將檢視變形為直線投影。"
 		},
 		{
 			"id": "publishtowebsite",

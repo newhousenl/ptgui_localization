@@ -17,19 +17,19 @@
 		},
 		{
 			"id": "txt.yesbutton",
-			"txt": "Да"
+			"txt": "Да (&Y)"
 		},
 		{
 			"id": "warn.overwriteptgui10.overwritebutton",
-			"txt": "Перезаписать"
+			"txt": "Перезаписать (&O)"
 		},
 		{
 			"id": "warn.overwriteptgui10.renamebutton",
-			"txt": "Переименовать"
+			"txt": "Переименовать (&R)"
 		},
 		{
 			"id": "txt.applybutton",
-			"txt": "Применить"
+			"txt": "Применить (&A)"
 		},
 		{
 			"id": "txt.apply",
@@ -41,21 +41,19 @@
 		},
 		{
 			"id": "txt.convertbutton",
-			"txt": "Конвертировать"
+			"txt": "Конвертировать (&O)"
 		},
 		{
 			"id": "txt.savebutton",
-			"txt": "Сохранить"
+			"txt": "Сохранить (&S)"
 		},
 		{
 			"id": "txt.dontsavebutton",
-			"machinetranslated": true,
-			"txt": "Не сохранять"
+			"txt": "Не сохранять (&D)"
 		},
 		{
 			"id": "txt.nobutton",
-			"machinetranslated": true,
-			"txt": "Нет"
+			"txt": "Нет (&N)"
 		},
 		{
 			"id": "upto",

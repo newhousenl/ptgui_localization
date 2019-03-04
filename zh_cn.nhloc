@@ -1,7 +1,7 @@
 {
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
-	"contributors": [],
+	"contributors": ["Allen Chen"],
 	"languagenamelocalized": "简体中文",
 	"startupmsg": "此简体中文版 由AllenChen於20190129修订更正。\n\n翻译可能并不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切换原始英文。\n\n如果您有兴趣，请通过更正中文翻译中的任何错误来帮助我们改进PTGui。\n有关更多信息，请参阅：'@help@  -  @txt.improvetranslation@'。",
 	"strings": [

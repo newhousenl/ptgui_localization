@@ -6997,6 +6997,22 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Utilisez @menubar.file@ | @batchstitcher.menubar.appendbatchlist@ pour fusionner deux listes de lots. Les projets de la liste de lots sélectionnée seront ajoutés à la liste de lots actuellement active."
+		},
+		{
+			"id": "txt.reactivationwarning",
+			"machinetranslated": true,
+			"txt": "@txt.mustbereactivated@ Voir @menubar.help@ | @menubar.help.licenseinfo@ pour plus d'informations."
+		},
+		{
+			"id": "txt.licenseinfo.reactivationwarning",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@txt.mustbereactivated@ <a href=0>Renouveler l'activation maintenant ...</a>"
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "PTGui doit être réactivé sur cet ordinateur avant %0."
 		}
 	],
 	"tooltips": [

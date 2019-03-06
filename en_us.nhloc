@@ -5727,8 +5727,20 @@
 {
     "id": "txt.genericfisheyelens",
     "txt": "Generic Fisheye Lens"
+},
+{
+    "id": "txt.mustbereactivated",
+    "txt": "PTGui must be re-activated on this computer before %0."
+},
+{
+    "id": "txt.reactivationwarning",
+    "txt": "@txt.mustbereactivated@ See @menubar.help@ | @menubar.help.licenseinfo@ for more information."
+},
+{
+    "id": "txt.licenseinfo.reactivationwarning",
+    "format": "html",
+    "txt": "@txt.mustbereactivated@ <a href=0>Renew activation now...</a>"
 }
-
 
     ],
 

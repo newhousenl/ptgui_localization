@@ -2,7 +2,8 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"Andrey Ilyin", "Magomed Khaybulaev"
+		"Andrey Ilyin",
+		"Magomed Khaybulaev"
 	],
 	"languagenamelocalized": "русский",
 	"startupmsg": "Эта русская версия PTGui была переведена с английского на русский с помощью компьютерной системы перевода. Перевод может быть не идеальным, но мы надеемся, что всё будет понятно. При необходимости вы можете перейти на оригинальный английский интерфейс в %0.\n\nЕсли вы заинтересованы, пожалуйста, помогите нам улучшить PTGui, исправив любые ошибки в переводе на русский язык. Для получения дополнительной информации см. «@help@ - @txt.improvetranslation@».",
@@ -6982,6 +6983,22 @@
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
 			"txt": "Универсальный объектив типа фишай"
+		},
+		{
+			"id": "txt.reactivationwarning",
+			"machinetranslated": true,
+			"txt": "@txt.mustbereactivated@ См. @menubar.help@ | @menubar.help.licenseinfo@ для получения дополнительной информации."
+		},
+		{
+			"id": "txt.licenseinfo.reactivationwarning",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@txt.mustbereactivated@ <a href=0>Обновить активацию сейчас ...</a>"
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "PTGui должен быть повторно активирован на этом компьютере до %0."
 		}
 	],
 	"tooltips": [

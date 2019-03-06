@@ -7001,6 +7001,22 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "두 개의 배치 목록을 병합하려면 @menubar.file@ &#62; @batchstitcher.menubar.appendbatchlist@ 메뉴를 사용하십시오. 선택한 배치 목록의 프로젝트가 현재 활성 배치 목록에 추가됩니다."
+		},
+		{
+			"id": "txt.reactivationwarning",
+			"machinetranslated": true,
+			"txt": "@txt.mustbereactivated@ 자세한 내용은 @menubar.help@ | @menubar.help.licenseinfo@를 참조하십시오."
+		},
+		{
+			"id": "txt.licenseinfo.reactivationwarning",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@txt.mustbereactivated@ <a href=0>지금 활성화 갱신 ...</a>"
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "이 컴퓨터에서 %0 전에 PTGui를 다시 활성화해야합니다."
 		}
 	],
 	"tooltips": [

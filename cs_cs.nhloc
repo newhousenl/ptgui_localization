@@ -5612,11 +5612,6 @@
 			"txt": "Objektivy \"Rybí oko\""
 		},
 		{
-			"id": "txt.mustbereactivated",
-			"machinetranslated": true,
-			"txt": "PTGui musí být znovu aktivován v tomto počítači na %0."
-		},
-		{
 			"id": "txt.reactivationwarning",
 			"machinetranslated": true,
 			"txt": "@txt.mustbereactivated@ Více informací naleznete v @menubar.help@ | @menubar.help.licenseinfo@."
@@ -5626,6 +5621,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "@txt.mustbereactivated@ <a href=0>Obnovit aktivaci nyní ...</a>"
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "PTGui musí být znovu aktivován v tomto počítači před %0."
 		}
 	],
 	"tooltips": [

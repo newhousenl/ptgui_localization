@@ -5620,6 +5620,22 @@
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
 			"txt": "一般的な魚眼レンズ"
+		},
+		{
+			"id": "txt.reactivationwarning",
+			"machinetranslated": true,
+			"txt": "@txt.mustbereactivated@詳細については、@menubar.help@ | @menubar.help.licenseinfo@を参照してください。"
+		},
+		{
+			"id": "txt.licenseinfo.reactivationwarning",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@txt.mustbereactivated@ <a href=0>アクティベーションを今すぐ更新...</a>"
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "PTGuiは%0の前にこのコンピュータで再度アクティブにする必要があります。"
 		}
 	],
 	"tooltips": [

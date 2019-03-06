@@ -5620,6 +5620,22 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Gebruik @menubar.file@ | @batchstitcher.menubar.appendbatchlist@ om twee batchlijsten samen te voegen. De projecten uit de geselecteerde batchlijst worden toegevoegd aan de huidige actieve batchlijst."
+		},
+		{
+			"id": "txt.mustbereactivated",
+			"machinetranslated": true,
+			"txt": "PTGui moet op deze computer opnieuw worden geactiveerd op %0."
+		},
+		{
+			"id": "txt.reactivationwarning",
+			"machinetranslated": true,
+			"txt": "@txt.mustbereactivated@ Zie @menubar.help@ | @menubar.help.licenseinfo@ voor meer informatie."
+		},
+		{
+			"id": "txt.licenseinfo.reactivationwarning",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@txt.mustbereactivated@ <a href=0>Nu activeren verlengen...</a>"
 		}
 	],
 	"tooltips": [

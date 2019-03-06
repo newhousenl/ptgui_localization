@@ -146,7 +146,7 @@
 		},
 		{
 			"id": "yaw",
-			"txt": "stáčení"
+			"txt": "stočit"
 		},
 		{
 			"id": "pitch",
@@ -4890,7 +4890,7 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"txt": "Zdá se, že projekt obsahuje %0 sady %1 expozic s odstupňováním. Chtěli byste propojit pozice expozic v závorce a zacházet s každou sadou jako jediný snímek?\n\nVyžaduje to, aby bracketové expozice (HDR) byly již zarovnány s přesností pixelů. Použijte tuto volbu, pouze pokud byl použit stativ. Pokud byly snímky pořízeny bez použití stativu, zvolte @cancel@."
+			"txt": "Zdá se, že projekt obsahuje %0 sady %1 expozičních sad HDR. Chtěli byste propojit jednotlivé expozice a zacházet s každou sadou jako s jediným snímkem?\n\nVyžaduje to, aby bracketové expozice (HDR) byly již zarovnány s přesností pixelů. Použijte tuto volbu, pouze pokud byl použit stativ. Pokud byly snímky pořízeny bez použití stativu, zvolte @cancel@."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",

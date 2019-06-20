@@ -5636,6 +5636,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "PTGuiは%0の前にこのコンピュータで再度アクティブにする必要があります。"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "パノラマの向きを元のままにする"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "カメラの方位センサーからのメタデータを使用して画像を自動的に配置"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "バッチ処理後にプロジェクトファイルを削除する"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "生成されたバッチリストをバッチスティッチャーに送信する"
 		}
 	],
 	"tooltips": [
@@ -7629,6 +7649,27 @@
 		{
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"helptext": "OpenCLの使用中にクラッシュが発生した場合、PTGuiを再起動するとGPUアクセラレーションを無効にするかどうかを尋ねられます。 PTGuiがこれ以上尋ねない場合は、このチェックボックスを選択します。"
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "テンプレートを適用した後、画像全体の@yaw@、@pitch@、および@roll@ができるだけ元の値に一致するようにパノラマ全体が回転します。",
+			"morehelptext": "<br><br>画像の相対的な配置はテンプレートからコピーされますが、パノラマの全体的な向きはできる限り同じになります。<br><br>テンプレートが事前に配置されている画像に使用される場合は、この設定を有効にします（たとえば、方位センサーからのメタデータに基づく）。"
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "プロジェクトに画像を追加するとき、画像の@yaw@、@pitch@、および@roll@は、カメラの方向センサーからのメタデータに基づいて自動的に初期化されます（サポートされているカメラの場合）。"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "バッチステッチャーは、処理後に生成されたプロジェクトファイルを削除します。元の画像は削除されません。"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "「@batchbuilder.generateprojects@」をクリックすると、バッチ綴じ機が起動してプロジェクトを処理します。"
 		}
 	],
 	"helppages": [

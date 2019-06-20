@@ -7014,6 +7014,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "O PTGui deve ser reativado neste computador antes do %0."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Preserve a orientação original do panorama"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Posicionar imagens automaticamente usando metadados do sensor de orientação da câmera"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Excluir arquivos de projeto após o processamento em lote"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Enviar a Lista de Lotes gerada para o Agrupador de Lotes"
 		}
 	],
 	"tooltips": [
@@ -9446,6 +9466,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "Se ocorrer uma falha enquanto o OpenCL é usado, após a reinicialização do PTGui, será perguntado se a aceleração da GPU deve ser desativada. Marque esta caixa de seleção se PTGui não deve mais perguntar isso."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "Depois de aplicar o modelo, todo o panorama é girado de forma que @yaw@, @pitch@ e @roll@ das imagens correspondam aos valores originais o mais próximo possível.",
+			"morehelptext": "<br><br>O alinhamento relativo das imagens será copiado do modelo, mas a orientação geral do panorama permanecerá a mesma o máximo possível.<br><br>Ative esta configuração se o modelo for usado para imagens posicionadas anteriormente (por exemplo, com base em metadados do sensor de orientação)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "Ao adicionar imagens ao projeto, o @yaw@, @pitch@ e @roll@ das imagens serão inicializados automaticamente com base nos metadados do sensor de orientação da câmera (para câmeras compatíveis)."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "O Batch Stitcher excluirá os arquivos de projeto gerados após o processamento. As imagens de origem não serão apagadas."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "Depois de clicar em '@batchbuilder.generateprojects@', o Batch Stitcher será iniciado para processar os projetos."
 		}
 	],
 	"helppages": [

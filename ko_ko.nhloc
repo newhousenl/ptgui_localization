@@ -7017,6 +7017,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "이 컴퓨터에서 %0 전에 PTGui를 다시 활성화해야합니다."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "파노라마의 원래 방향 유지"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "카메라 방향 센서의 메타 데이터를 사용하여 자동으로 이미지 배치"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "일괄 처리 후 프로젝트 파일 삭제"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "생성 된 배치 목록을 배치 스티 처에 보냅니다."
 		}
 	],
 	"tooltips": [
@@ -9449,6 +9469,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "OpenCL을 사용하는 동안 충돌이 발생해서 PTGui를 다시 시작할 때 GPU 가속을 사용하지 않을지 여부를 묻습니다. PTGui에서 더 이상 질문하지 않을 경우이 확인란을 선택하십시오."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "템플릿을 적용한 후 이미지의 @yaw@, @pitch@ 및 @roll@가 원래 값과 최대한 일치하도록 전체 파노라마가 회전됩니다.",
+			"morehelptext": "<br><br>이미지의 상대적 정렬은 템플릿에서 복사되지만 파노라마의 전체 방향은 최대한 동일하게 유지됩니다.<br><br>템플릿이 미리 배치 된 이미지에 사용되는 경우 (예 : 방향 센서의 메타 데이터를 기반으로)이 설정을 활성화합니다."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "프로젝트에 이미지를 추가 할 때 이미지의 @yaw@, @pitch@ 및 @roll@는 카메라의 방향 센서 (지원되는 카메라 용)의 메타 데이터를 기반으로 자동으로 초기화됩니다."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Batch Stitcher는 처리 후 생성 된 프로젝트 파일을 삭제합니다. 원본 이미지는 삭제되지 않습니다."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "'@batchbuilder.generateprojects@'를 클릭하면 Batch Stitcher가 실행되어 프로젝트를 처리합니다."
 		}
 	],
 	"helppages": [

@@ -5637,6 +5637,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "PTGui muss auf diesem Computer vor %0 erneut aktiviert werden."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Erhalte die ursprüngliche Ausrichtung des Panoramas"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Positioniere Bilder automatisch mithilfe der Metadaten des Ausrichtungssensors der Kamera"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Lösche die Projektdateien nach Verarbeitung"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Sende die generierte Batch Liste an den Batch Stitcher"
 		}
 	],
 	"tooltips": [
@@ -8069,6 +8089,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "Wenn während der Verwendung von OpenCL ein Absturz auftritt, fragt PTGui nach dem Neustart, ob die GPU-Beschleunigung deaktiviert werden soll. Aktivieren Sie dieses Kontrollkästchen, wenn PTGui dies nicht mehr fragen soll."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "Nach dem Anwenden der Vorlage wird das gesamte Panorama so gedreht, dass @yaw@, @pitch@ und @roll@ der Bilder den Originalwerten so gut wie möglich entsprechen.",
+			"morehelptext": "<br><br>Die relative Ausrichtung der Bilder wird aus der Vorlage kopiert, die Gesamtausrichtung des Panoramas bleibt jedoch so weit wie möglich unverändert.<br><br>Aktivieren Sie diese Einstellung, wenn die Vorlage für Bilder verwendet werden soll, die zuvor positioniert wurden (z. B. basierend auf Metadaten des Orientierungssensors)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "Beim Hinzufügen von Bildern zum Projekt werden die Bilder @yaw@, @pitch@ und @roll@ automatisch anhand der Metadaten des Ausrichtungssensors der Kamera (für unterstützte Kameras) initialisiert."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Der Batch Stitcher löscht die erzeugten Projektdateien nach der Verarbeitung. Die Quellbilder werden nicht gelöscht."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "Nachdem Sie auf &quot;@batchbuilder.generateprojects@&quot; geklickt haben, wird der Batch Stitcher gestartet, um die Projekte zu verarbeiten."
 		}
 	],
 	"helppages": [

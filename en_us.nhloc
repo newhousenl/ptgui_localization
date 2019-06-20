@@ -3749,7 +3749,7 @@
 },
 {
     "id": "batchbuilder.asksendtobatchstitcher",
-    "txt": "Would you like to send the generated batch list to the Batch Stitcher now?"
+    "txt": "Would you like to send the generated Batch List to the Batch Stitcher now?"
 },
 {
     "id": "batchbuilder.or",
@@ -5740,6 +5740,22 @@
     "id": "txt.licenseinfo.reactivationwarning",
     "format": "html",
     "txt": "@txt.mustbereactivated@ <a href=0>Renew activation now...</a>"
+},
+{
+    "id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+    "txt": "Preserve original orientation of the panorama"
+},
+{
+    "id": "mainwindow.projectsettings.misc.useorientationsensor",
+    "txt": "Position images automatically using metadata from the camera's orientation sensor"
+},
+{
+    "id": "batchbuilder.deleteprojectswhendone",
+    "txt": "Delete project files after batch processing"
+},
+{
+    "id": "batchbuilder.sendtobatchstitcher",
+    "txt": "Send the generated Batch List to the Batch Stitcher"
 }
 
     ],
@@ -7750,6 +7766,23 @@
         {
             "id": "photometricsettings.defaults",
             "helptext": "Reset all settings to the default values."
+        },
+        {
+            "id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+            "helptext": "After applying the template, the entire panorama is rotated such that the @yaw@, @pitch@ and @roll@ of the images match the original values as closely as possible.",
+            "morehelptext": "<br><br>The relative alignment of the images will be copied from the template, but the overall orientation of the panorama will remain the same as much as possible.<br><br>Enable this setting if the template will be used for images which are positioned beforehand (for example based on metadata from the orientation sensor)."
+        },
+        {
+            "id": "projectsettingstab.misc.useorientationsensor",
+            "helptext": "When adding images to the project, the @yaw@, @pitch@ and @roll@ of the images will be initialized automatically based on metadata from the camera's orientation sensor (for supported cameras)."
+        },
+        {
+            "id": "batchbuilder.deleteprojectswhendone",
+            "helptext": "The Batch Stitcher will delete the generated project files after processing. The source images will not be deleted."
+        },
+        {
+            "id": "batchbuilder.sendtobatchstitcher",
+            "helptext": "After clicking '@batchbuilder.generateprojects@', the Batch Stitcher will be launched to process the projects."
         }
     ],
     "helppages": [

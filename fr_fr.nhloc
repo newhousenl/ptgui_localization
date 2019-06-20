@@ -7013,6 +7013,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "PTGui doit être réactivé sur cet ordinateur avant %0."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Préserver l'orientation d'origine du panorama"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Positionner les images automatiquement à l'aide des métadonnées du capteur d'orientation de l'appareil photo."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Supprimer les fichiers de projet après le traitement par lots"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Envoyer la liste de lots générée à Stitcher par lots"
 		}
 	],
 	"tooltips": [
@@ -9445,6 +9465,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "Si un crash se produit alors que OpenCL est utilisé, après le redémarrage de PTGui, il sera demandé si l'accélération GPU doit être désactivée. Cochez cette case si PTGui ne doit plus demander cela."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "Après avoir appliqué le modèle, le panorama entier est pivoté de telle sorte que les images @yaw@, @pitch@ et @roll@ correspondent le plus fidèlement possible aux valeurs d'origine.",
+			"morehelptext": "<br><br>L'alignement relatif des images sera copié à partir du modèle, mais l'orientation globale du panorama restera autant que possible.<br><br>Activez ce paramètre si le modèle sera utilisé pour des images préalablement positionnées (par exemple, sur la base de métadonnées provenant du capteur d'orientation)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "Lors de l'ajout d'images au projet, les images @yaw@, @pitch@ et @roll@ seront initialisées automatiquement en fonction des métadonnées du capteur d'orientation de la caméra (pour les caméras prises en charge)."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Le traitement par lots supprimera les fichiers de projet générés après le traitement. Les images sources ne seront pas supprimées."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "Après avoir cliqué sur '@batchbuilder.generateprojects@', le programme batch Stitcher sera lancé pour traiter les projets."
 		}
 	],
 	"helppages": [

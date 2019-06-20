@@ -5626,6 +5626,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "PTGui musí být znovu aktivován v tomto počítači před %0."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Zachovat původní orientaci panoramatu"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Umístěte snímky automaticky pomocí metadat ze snímače orientace fotoaparátu"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Smazat soubory projektu po zpracování dávky"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Poslat vygenerovaný seznam dávek do šarže dávek"
 		}
 	],
 	"tooltips": [
@@ -7875,6 +7895,27 @@
 			"id": "photometricsettings.defaults",
 			"machinetranslated": true,
 			"helptext": "i všechna nastavení na výchozí hodnoty."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "Po použití šablony se celé panorama otočí tak, aby @yaw@, @pitch@ a @roll@ obrazů odpovídaly co nejpřesnějším původním hodnotám.",
+			"morehelptext": "<br><br>Relativní zarovnání snímků bude zkopírováno z šablony, ale celková orientace panoramatu zůstane co nejvíce stejná.<br><br>Aktivujte toto nastavení, pokud bude šablona použita pro obrazy, které jsou umístěny předem (například na základě metadat ze snímače orientace)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "Při přidávání snímků do projektu budou snímky @yaw@, @pitch@ a @roll@ automaticky inicializovány na základě metadat ze snímače orientace fotoaparátu (pro podporované kamery)."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Batch Stitcher odstraní vygenerované soubory projektu po zpracování. Zdrojové obrázky nebudou vymazány."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "Po klepnutí na '@batchbuilder.generateprojects@' bude spuštěn Batch Stitcher pro zpracování projektů."
 		}
 	],
 	"helppages": [

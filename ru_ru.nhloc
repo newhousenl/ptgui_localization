@@ -6999,6 +6999,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "PTGui должен быть повторно активирован на этом компьютере до %0."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Сохранить оригинальную ориентацию панорамы"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Позиционируйте изображения автоматически, используя метаданные от датчика ориентации камеры"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Удалить файлы проекта после пакетной обработки"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Отправьте сгенерированный пакетный список Batch Stitcher"
 		}
 	],
 	"tooltips": [
@@ -9431,6 +9451,27 @@
 			"id": "photometricsettings.defaults",
 			"machinetranslated": true,
 			"helptext": "Сбросьте все настройки на значения по умолчанию."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "После применения шаблона вся панорама поворачивается так, что @yaw@, @pitch@ и @roll@ изображений максимально соответствуют исходным значениям.",
+			"morehelptext": "<br><br>Относительное выравнивание изображений будет скопировано из шаблона, но общая ориентация панорамы останется такой же, насколько это возможно.<br><br>Включите эту настройку, если шаблон будет использоваться для изображений, которые расположены заранее (например, на основе метаданных от датчика ориентации)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "При добавлении изображений в проект изображения @yaw@, @pitch@ и @roll@ будут автоматически инициализироваться на основе метаданных датчика ориентации камеры (для поддерживаемых камер)."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Batch Stitcher удалит сгенерированные файлы проекта после обработки. Исходные изображения не будут удалены."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "После нажатия «@batchbuilder.generateprojects@» будет запущен пакетный брошюровщик для обработки проектов."
 		}
 	],
 	"helppages": [

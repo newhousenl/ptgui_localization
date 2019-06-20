@@ -5636,6 +5636,26 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "@txt.mustbereactivated@ <a href=0>Nu activeren verlengen...</a>"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "Behoud de originele oriëntatie van het panorama"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "Positioneer de afbeeldingen automatisch met behulp van metadata van de oriëntatiesensor van de camera"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "Projectbestanden verwijderen na batchverwerking"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "Stuur de gegenereerde batchlijst naar de batchstitcher"
 		}
 	],
 	"tooltips": [
@@ -7627,6 +7647,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "Als er een crash optreedt terwijl OpenCL wordt gebruikt, zal PTGui na het herstarten vragen of de GPU-versnelling moet worden uitgeschakeld. Schakel dit selectievakje in als PTGui dit niet meer moet vragen."
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "Nadat de sjabloon is toegepast, wordt het volledige panorama zodanig geroteerd dat de @yaw@, @pitch@ en @roll@ van de afbeeldingen zo goed mogelijk overeenkomen met de oorspronkelijke waarden.",
+			"morehelptext": "<br><br>De relatieve uitlijning van de afbeeldingen wordt gekopieerd van de sjabloon, maar de algehele oriëntatie van het panorama blijft zoveel mogelijk hetzelfde.<br><br>Schakel deze instelling in als de sjabloon zal worden gebruikt voor afbeeldingen die van tevoren zijn gepositioneerd (bijvoorbeeld op basis van metagegevens van de oriëntatiesensor)."
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "Bij het toevoegen van afbeeldingen aan het project, worden de @yaw@, @pitch@ en @roll@ van de afbeeldingen automatisch geïnitialiseerd op basis van metadata van de oriëntatiesensor van de camera (voor ondersteunde camera's)."
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "De Batch Stitcher verwijdert de gegenereerde projectbestanden na verwerking. De bronafbeeldingen worden niet verwijderd."
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "Nadat u op '@batchbuilder.generateprojects@' hebt geklikt, wordt de Batch Stitcher gestart om de projecten te verwerken."
 		}
 	],
 	"helppages": [

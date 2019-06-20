@@ -7017,6 +7017,26 @@
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
 			"txt": "在%0之前，必须在此计算机上重新激活PTGui。"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"txt": "保留全景的原始方向"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useorientationsensor",
+			"machinetranslated": true,
+			"txt": "使用相机方向传感器的元数据自动定位图像"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"txt": "批处理后删除项目文件"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"txt": "将生成的批处理列表发送到批处理装订器"
 		}
 	],
 	"tooltips": [
@@ -9449,6 +9469,27 @@
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"helptext": "如果在使用OpenCL时发生崩溃，重新启动PTGui后将询问是否应停用GPU加速。如果PTGui不再问这个，请选中此复选框。"
+		},
+		{
+			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
+			"machinetranslated": true,
+			"helptext": "应用模板后，旋转整个全景图，使图像的@yaw@，@pitch@和@roll@尽可能地与原始值匹配。",
+			"morehelptext": "<br><br>将从模板中复制图像的相对对齐，但全景图的整体方向将尽可能保持相同。<br><br>如果模板将用于预先定位的图像（例如，基于方向传感器的元数据），则启用此设置。"
+		},
+		{
+			"id": "projectsettingstab.misc.useorientationsensor",
+			"machinetranslated": true,
+			"helptext": "向项目添加图像时，图像的@yaw@，@pitch@和@roll@将根据摄像机方向传感器（对于支持的摄像机）的元数据自动初始化。"
+		},
+		{
+			"id": "batchbuilder.deleteprojectswhendone",
+			"machinetranslated": true,
+			"helptext": "Batch Stitcher将在处理后删除生成的项目文件。源图像不会被删除。"
+		},
+		{
+			"id": "batchbuilder.sendtobatchstitcher",
+			"machinetranslated": true,
+			"helptext": "点击“@batchbuilder.generateprojects@”后，将启动Batch Stitcher处理项目。"
 		}
 	],
 	"helppages": [

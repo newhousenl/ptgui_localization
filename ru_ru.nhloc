@@ -3822,7 +3822,7 @@
 		{
 			"id": "options.dcrawapp",
 			"machinetranslated": true,
-			"txt": "Расположение приложения dcraw (используется для загрузки RAW-файлов):"
+			"txt": "Расположение приложения dcraw:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -7019,6 +7019,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Отправьте сгенерированный пакетный список Batch Stitcher"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Поддержка файлов RAW"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Декодируйте файлы RAW, используя:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (рекомендуется)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

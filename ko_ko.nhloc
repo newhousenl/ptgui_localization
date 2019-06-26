@@ -3800,7 +3800,7 @@
 		{
 			"id": "options.dcrawapp",
 			"machinetranslated": true,
-			"txt": "DCRaw 응용 프로그램의 위치(RAW 파일로드에 사용) :"
+			"txt": "DCRaw 응용 프로그램의 위치 :"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -7037,6 +7037,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "생성 된 배치 목록을 배치 스티 처에 보냅니다."
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "카메라 RAW 파일 지원"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "다음을 사용하여 RAW 파일을 디코딩하십시오."
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (권장)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

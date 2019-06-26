@@ -3070,7 +3070,7 @@
 		},
 		{
 			"id": "options.dcrawapp",
-			"txt": "dcrawアプリケーションの場所（RAWファイルの読み込みに使用）："
+			"txt": "dcrawアプリケーションの場所："
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -5656,6 +5656,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "生成されたバッチリストをバッチスティッチャーに送信する"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "カメラRAWファイルのサポート"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "以下を使用してRAWファイルをデコードします。"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw（推奨）"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

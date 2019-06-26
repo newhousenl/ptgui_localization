@@ -3790,7 +3790,7 @@
 		{
 			"id": "options.dcrawapp",
 			"machinetranslated": true,
-			"txt": "Ubicación de la aplicación dcraw (utilizada para cargar archivos RAW):"
+			"txt": "Ubicación de la aplicación dcraw:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -7037,6 +7037,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Envíe la lista de lotes generada a la cosedora de lotes"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Compatibilidad con archivos RAW de cámara"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Decodificar archivos RAW utilizando:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (recomendado)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

@@ -3078,7 +3078,7 @@
 		},
 		{
 			"id": "options.dcrawapp",
-			"txt": "Umístění aplikace dcraw (používané pro načítání RAW souborů):"
+			"txt": "Umístění aplikace dcraw:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -5646,6 +5646,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Poslat vygenerovaný seznam dávek do šarže dávek"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Podpora souborů RAW"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Dekódujte soubory RAW pomocí:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (doporučeno)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

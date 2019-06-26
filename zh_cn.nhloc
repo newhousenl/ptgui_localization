@@ -3805,7 +3805,7 @@
 		{
 			"id": "options.dcrawapp",
 			"machinetranslated": true,
-			"txt": "dcraw应用程序的位置（用于加载RAW文件）："
+			"txt": "dcraw应用程序的位置："
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -7037,6 +7037,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "将生成的批处理列表发送到批处理装订器"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Camera RAW文件支持"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "使用以下方法解码RAW文件："
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw（推荐）"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "dcraw的"
 		}
 	],
 	"tooltips": [

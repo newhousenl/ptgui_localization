@@ -3801,7 +3801,7 @@
 		{
 			"id": "options.dcrawapp",
 			"machinetranslated": true,
-			"txt": "Emplacement de l'application dcraw (utilisé pour charger les fichiers RAW):"
+			"txt": "Emplacement de l'application dcraw:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -7033,6 +7033,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Envoyer la liste de lots générée à Stitcher par lots"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Support de fichier Camera RAW"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Décoder les fichiers RAW en utilisant:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (recommandé)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

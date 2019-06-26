@@ -3058,7 +3058,7 @@
 		},
 		{
 			"id": "options.dcrawapp",
-			"txt": "Locatie van de dcraw-applicatie (gebruikt voor het laden van RAW-bestanden):"
+			"txt": "Locatie van de dcraw-applicatie:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -5656,6 +5656,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Stuur de gegenereerde batchlijst naar de batchstitcher"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Camera RAW-bestandsondersteuning"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Decodeer RAW-bestanden met behulp van:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (aanbevolen)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "dcraw"
 		}
 	],
 	"tooltips": [

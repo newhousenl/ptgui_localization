@@ -3067,7 +3067,7 @@
 		},
 		{
 			"id": "options.dcrawapp",
-			"txt": "Speicherort der dcraw-Anwendung (wird zum Laden von RAW-Dateien verwendet):"
+			"txt": "Speicherort der dcraw-Anwendung:"
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
@@ -5657,6 +5657,26 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"txt": "Sende die generierte Batch Liste an den Batch Stitcher"
+		},
+		{
+			"id": "options.rawfilesupport",
+			"machinetranslated": true,
+			"txt": "Unterstützung für Kamera-RAW-Dateien"
+		},
+		{
+			"id": "options.rawdecoder",
+			"machinetranslated": true,
+			"txt": "Dekodiere RAW-Dateien mit:"
+		},
+		{
+			"id": "options.rawdecoder.libraw",
+			"machinetranslated": true,
+			"txt": "LibRaw (empfohlen)"
+		},
+		{
+			"id": "options.rawdecoder.dcraw",
+			"machinetranslated": true,
+			"txt": "DCRaw"
 		}
 	],
 	"tooltips": [

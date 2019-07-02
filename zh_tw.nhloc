@@ -6108,6 +6108,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "dcraw的"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "附加另一個項目"
 		}
 	],
 	"tooltips": [
@@ -8561,6 +8566,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "點擊“@batchbuilder.generateprojects@”後，將啟動Batch Stitcher處理項目。"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "將另一個項目合併到此項目中。來自其他項目的圖像，控制點和鏡頭數據將附加到此項目中。"
 		}
 	],
 	"helppages": [

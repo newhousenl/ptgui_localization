@@ -5676,6 +5676,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "DCRaw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "別のプロジェクトを追加"
 		}
 	],
 	"tooltips": [
@@ -7690,6 +7695,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "「@batchbuilder.generateprojects@」をクリックすると、バッチ綴じ機が起動してプロジェクトを処理します。"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "別のプロジェクトをこのプロジェクトにマージしてください。他のプロジェクトの画像、コントロールポイント、レンズデータがこのプロジェクトに追加されます。"
 		}
 	],
 	"helppages": [

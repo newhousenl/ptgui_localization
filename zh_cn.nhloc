@@ -7057,6 +7057,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "dcraw的"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "附加另一个项目"
 		}
 	],
 	"tooltips": [
@@ -9510,6 +9515,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "点击“@batchbuilder.generateprojects@”后，将启动Batch Stitcher处理项目。"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "将另一个项目合并到此项目中。来自其他项目的图像，控制点和镜头数据将附加到此项目中。"
 		}
 	],
 	"helppages": [

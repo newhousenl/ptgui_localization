@@ -7039,6 +7039,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "DCRaw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "Добавить другой проект"
 		}
 	],
 	"tooltips": [
@@ -9492,6 +9497,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "После нажатия «@batchbuilder.generateprojects@» будет запущен пакетный брошюровщик для обработки проектов."
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "Объединить другой проект в этот проект. Изображения, контрольные точки и данные объектива из другого проекта будут добавлены к этому проекту."
 		}
 	],
 	"helppages": [

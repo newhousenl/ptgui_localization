@@ -7057,6 +7057,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "DCRaw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "다른 프로젝트 추가"
 		}
 	],
 	"tooltips": [
@@ -9510,6 +9515,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "'@batchbuilder.generateprojects@'를 클릭하면 Batch Stitcher가 실행되어 프로젝트를 처리합니다."
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "다른 프로젝트를이 프로젝트에 병합하십시오. 다른 프로젝트의 이미지, 제어점 및 렌즈 데이터가이 프로젝트에 추가됩니다."
 		}
 	],
 	"helppages": [

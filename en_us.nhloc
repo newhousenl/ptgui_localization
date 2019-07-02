@@ -5772,6 +5772,11 @@
 {
     "id": "options.rawdecoder.dcraw",
     "txt": "DCRaw"
+},
+{
+    "id": "menubar.file.mergeproject",
+    "txt": "Append Other Project",
+    "txtfortranslate": "Append another project"
 }
 
     ],
@@ -7799,7 +7804,12 @@
         {
             "id": "batchbuilder.sendtobatchstitcher",
             "helptext": "After clicking '@batchbuilder.generateprojects@', the Batch Stitcher will be launched to process the projects."
+        },
+        {
+            "id": "menubar.file.mergeproject",
+            "helptext": "Merge another project into this project. The images, control points and lens data from the other project will be appended to this project."
         }
+
     ],
     "helppages": [
         {

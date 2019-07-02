@@ -5676,6 +5676,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "dcraw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "Combineer met project"
 		}
 	],
 	"tooltips": [
@@ -7688,6 +7693,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "Nadat u op '@batchbuilder.generateprojects@' hebt geklikt, wordt de Batch Stitcher gestart om de projecten te verwerken."
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "Voeg een ander project samen met dit project. De afbeeldingen, controlepunten en lensgegevens van het andere project worden aan dit project toegevoegd."
 		}
 	],
 	"helppages": [

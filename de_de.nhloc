@@ -5677,6 +5677,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "DCRaw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "Hänge ein anderes Projekt an"
 		}
 	],
 	"tooltips": [
@@ -8130,6 +8135,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "Nachdem Sie auf &quot;@batchbuilder.generateprojects@&quot; geklickt haben, wird der Batch Stitcher gestartet, um die Projekte zu verarbeiten."
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "Fügen Sie ein anderes Projekt in dieses Projekt ein. Die Bilder, Kontrollpunkte und Objektivdaten des anderen Projekts werden an dieses Projekt angehängt."
 		}
 	],
 	"helppages": [

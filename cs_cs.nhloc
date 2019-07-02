@@ -5666,6 +5666,11 @@
 			"id": "options.rawdecoder.dcraw",
 			"machinetranslated": true,
 			"txt": "DCRaw"
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"txt": "Připojit další projekt"
 		}
 	],
 	"tooltips": [
@@ -7936,6 +7941,11 @@
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": true,
 			"helptext": "Po klepnutí na '@batchbuilder.generateprojects@' bude spuštěn Batch Stitcher pro zpracování projektů."
+		},
+		{
+			"id": "menubar.file.mergeproject",
+			"machinetranslated": true,
+			"helptext": "Sloučit do tohoto projektu další projekt. K tomuto projektu budou připojeny obrázky, kontrolní body a data objektivu z jiného projektu."
 		}
 	],
 	"helppages": [

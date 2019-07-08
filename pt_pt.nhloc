@@ -1066,8 +1066,7 @@
 		},
 		{
 			"id": "menubar.project.aligntogrid",
-			"machinetranslated": true,
-			"txt": "Alinhar à grade"
+			"txt": "Alinhar à grelha"
 		},
 		{
 			"id": "menubar.project.optimize",
@@ -6416,8 +6415,7 @@
 		},
 		{
 			"id": "gridsetup.grid",
-			"machinetranslated": true,
-			"txt": "Grade"
+			"txt": "Grelha"
 		},
 		{
 			"id": "gridsetup.grid1",
@@ -6637,37 +6635,30 @@
 		},
 		{
 			"id": "gridsetup.warn1image",
-			"machinetranslated": true,
-			"txt": "A configuração da grade tem 1 imagem; somente a primeira imagem será modificada."
+			"txt": "A configuração da grelha tem 1 imagem; somente a primeira imagem será modificada."
 		},
 		{
 			"id": "gridsetup.warnnumimage",
-			"machinetranslated": true,
-			"txt": "A configuração da grade tem %0 imagens; somente as primeiras %0 imagens serão modificadas."
+			"txt": "A configuração da grelha tem %0 imagens; somente as primeiras %0 imagens serão modificadas."
 		},
 		{
 			"id": "gridsetup.warnproject1image",
-			"machinetranslated": true,
-			"txt": "A configuração da grade tem %0 imagens, mas apenas a primeira imagem será modificada."
+			"txt": "A configuração da grelha tem %0 imagens, mas apenas a primeira imagem será modificada."
 		},
 		{
 			"id": "gridsetup.warndifnumimages",
-			"machinetranslated": true,
-			"txt": "A configuração da grade tem %0 imagens, mas somente as primeiras %1 imagens serão modificadas."
+			"txt": "A configuração da grelha tem %0 imagens, mas somente as primeiras %1 imagens serão modificadas."
 		},
 		{
 			"id": "gridsetup.errapplytoinvalidrange",
-			"machinetranslated": true,
 			"txt": "Aplicar às imagens: o segundo número não pode ser menor que o primeiro número."
 		},
 		{
 			"id": "gridsetup.erremptyproject",
-			"machinetranslated": true,
 			"txt": "O projeto atual está vazio; por favor, carregue algumas imagens primeiro."
 		},
 		{
 			"id": "gridsetup.errtoofewimages",
-			"machinetranslated": true,
 			"txt": "Aplicar às imagens: o intervalo especificado de %0 imagens é maior que o número real de imagens (%1)."
 		},
 		{

@@ -7058,6 +7058,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Ajouter un autre projet"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "Dossier de configuration PTGui"
 		}
 	],
 	"tooltips": [
@@ -9516,6 +9521,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Fusionner un autre projet dans ce projet. Les images, les points de contrôle et les données d'objectif de l'autre projet seront ajoutés à ce projet."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Ouvrez le dossier dans lequel PTGui stocke ses fichiers de configuration."
 		}
 	],
 	"helppages": [

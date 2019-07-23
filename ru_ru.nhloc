@@ -7044,6 +7044,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Добавить другой проект"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "Папка конфигурации PTGui"
 		}
 	],
 	"tooltips": [
@@ -9502,6 +9507,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Объединить другой проект в этот проект. Изображения, контрольные точки и данные объектива из другого проекта будут добавлены к этому проекту."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Откройте папку, в которой PTGui хранит свои файлы конфигурации."
 		}
 	],
 	"helppages": [

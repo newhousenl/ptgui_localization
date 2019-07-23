@@ -5681,6 +5681,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Combineer met project"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "PTGui-configuratiemap"
 		}
 	],
 	"tooltips": [
@@ -7698,6 +7703,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Voeg een ander project samen met dit project. De afbeeldingen, controlepunten en lensgegevens van het andere project worden aan dit project toegevoegd."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Open de map waarin PTGui de configuratiebestanden opslaat."
 		}
 	],
 	"helppages": [

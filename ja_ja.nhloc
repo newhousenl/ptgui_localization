@@ -5681,6 +5681,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "別のプロジェクトを追加"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "PTGui設定フォルダ"
 		}
 	],
 	"tooltips": [
@@ -7700,6 +7705,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "別のプロジェクトをこのプロジェクトにマージしてください。他のプロジェクトの画像、コントロールポイント、レンズデータがこのプロジェクトに追加されます。"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "PTGuiが設定ファイルを保存しているフォルダを開きます。"
 		}
 	],
 	"helppages": [

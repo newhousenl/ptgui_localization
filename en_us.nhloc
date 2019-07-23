@@ -5777,7 +5777,13 @@
     "id": "menubar.file.mergeproject",
     "txt": "Append Other Project",
     "txtfortranslate": "Append another project"
+},
+{
+    "id": "menubar.tools.openfolder.configfolder",
+    "txt": "PTGui Configuration Folder"
 }
+
+
 
     ],
 
@@ -7808,8 +7814,12 @@
         {
             "id": "menubar.file.mergeproject",
             "helptext": "Merge another project into this project. The images, control points and lens data from the other project will be appended to this project."
+        },
+        {
+            "id": "menubar.tools.openfolder.configfolder",
+            "helptext": "Open the folder where PTGui stores its configuration files."
         }
-
+        
     ],
     "helppages": [
         {

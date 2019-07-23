@@ -7052,6 +7052,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Anexar outro projeto"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "Pasta de Configuração PTGui"
 		}
 	],
 	"tooltips": [
@@ -9510,6 +9515,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Mesclar outro projeto neste projeto. As imagens, pontos de controle e dados da lente do outro projeto serão anexados a este projeto."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Abra a pasta onde o PTGui armazena seus arquivos de configuração."
 		}
 	],
 	"helppages": [

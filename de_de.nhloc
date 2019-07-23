@@ -5682,6 +5682,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Hänge ein anderes Projekt an"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "PTGui-Konfigurationsordner"
 		}
 	],
 	"tooltips": [
@@ -5788,7 +5793,7 @@
 		{
 			"id": "menubar.images.opencontainingfolder",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner mit den ausgewählten Quellbildern."
+			"helptext": "Öffne den Ordner mit den ausgewählten Quellbildern."
 		},
 		{
 			"id": "menubar.images.replace",
@@ -5838,27 +5843,27 @@
 		{
 			"id": "menubar.tools.openfolder.templatefolder",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner, in dem Vorlagen standardmäßig gespeichert sind. Dieser Ordner kann in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden."
+			"helptext": "Öffne den Ordner, in dem Vorlagen standardmäßig gespeichert sind. Dieser Ordner kann in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden."
 		},
 		{
 			"id": "menubar.tools.openfolder.batchlistfolder",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner, in dem Serienlisten standardmäßig gespeichert sind. Dieser Ordner kann in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden."
+			"helptext": "Öffne den Ordner, in dem Serienlisten standardmäßig gespeichert sind. Dieser Ordner kann in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden."
 		},
 		{
 			"id": "menubar.tools.openfolder.projectfolder",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner mit der aktuellen Projektdatei."
+			"helptext": "Öffne den Ordner mit der aktuellen Projektdatei."
 		},
 		{
 			"id": "menubar.tools.openfolder.sourceimages",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner mit den Quellbildern des aktuellen Projekts."
+			"helptext": "Öffne den Ordner mit den Quellbildern des aktuellen Projekts."
 		},
 		{
 			"id": "menubar.tools.openfolder.outputfolder",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie den Ordner, in dem die Ausgabedateien des aktuellen Projekts gespeichert werden."
+			"helptext": "Öffne den Ordner, in dem die Ausgabedateien des aktuellen Projekts gespeichert werden."
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -5968,32 +5973,32 @@
 		{
 			"id": "menubar.file.exit",
 			"machinetranslated": true,
-			"helptext": "Beenden Sie PTGui"
+			"helptext": "Beende PTGui"
 		},
 		{
 			"id": "mainwindow.toolbar.newproject",
 			"machinetranslated": true,
 			"label": "@menubar.file.newproject@",
-			"helptext": "Starten Sie ein neues leeres PTGui-Projekt."
+			"helptext": "Starte ein neues leeres PTGui-Projekt."
 		},
 		{
 			"id": "mainwindow.toolbar.openproject",
 			"machinetranslated": true,
 			"label": "@menubar.file.openproject@",
-			"helptext": "Öffnen Sie ein bestehendes PTGui-Projekt."
+			"helptext": "Öffne ein bestehendes PTGui-Projekt."
 		},
 		{
 			"id": "mainwindow.toolbar.applytemplate",
 			"machinetranslated": true,
 			"label": "@menubar.file.applytemplate@",
-			"helptext": "Wenden Sie eine Vorlage auf das aktuelle Projekt an. Vorlagen können mit @menubar.file@ | @menubar.file.saveastemplate@ gespeichert werden.",
+			"helptext": "Wendeeine Vorlage auf das aktuelle Projekt an. Vorlagen können mit @menubar.file@ | @menubar.file.saveastemplate@ gespeichert werden.",
 			"morehelptext": "<br><br>Siehe <a href='helppage:workingwithtemplates'>Arbeiten mit Vorlagen</a>"
 		},
 		{
 			"id": "mainwindow.toolbar.saveproject",
 			"machinetranslated": true,
 			"label": "@menubar.file.saveproject@",
-			"helptext": "Speichern Sie das aktuelle PTGui-Projekt auf der Festplatte. Auf diese Weise können Sie weiter an dem Panorama arbeiten, an dem Sie aufgehört haben.<br><br>Beachten Sie, dass das tatsächliche Panorama nicht gespeichert wird. Verwenden Sie die @mainwindow.createpanoramatab.createpanorama@-Funktion zum Zusammengefügen des Panoramabildes."
+			"helptext": "Speichere das aktuelle PTGui-Projekt auf der Festplatte. Auf diese Weise können Sie weiter an dem Panorama arbeiten, an dem Sie aufgehört haben.<br><br>Beachten Sie, dass das tatsächliche Panorama nicht gespeichert wird. Verwenden Sie die @mainwindow.createpanoramatab.createpanorama@-Funktion zum Zusammengefügen des Panoramabildes."
 		},
 		{
 			"id": "mainwindow.toolbar.undo",
@@ -6805,13 +6810,13 @@
 		{
 			"id": "createpanoramatab.viewoutputfile",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie die generierte Ausgabedatei.",
+			"helptext": "Öffne die generierte Ausgabedatei.",
 			"morehelptext": "<br><br>PTGui fragt Sie, welche Anwendung für die Vorschau verwendet werden soll. Zusätzliche Anwendungen für die Vorschau können in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden."
 		},
 		{
 			"id": "createpanoramatab.dragoutputfile",
 			"machinetranslated": true,
-			"helptext": "Öffnen Sie das generierte Panorama in einer anderen Anwendung, indem Sie dieses Symbol auf die andere Anwendung ziehen und dort ablegen."
+			"helptext": "Öffne das generierte Panorama in einer anderen Anwendung, indem Sie dieses Symbol auf die andere Anwendung ziehen und dort ablegen."
 		},
 		{
 			"id": "createpanoramatab.components.tonemapped",
@@ -8140,6 +8145,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Fügen Sie ein anderes Projekt in dieses Projekt ein. Die Bilder, Kontrollpunkte und Objektivdaten des anderen Projekts werden an dieses Projekt angehängt."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Öffne den Ordner, in dem PTGui die Konfigurationsdateien speichert."
 		}
 	],
 	"helppages": [

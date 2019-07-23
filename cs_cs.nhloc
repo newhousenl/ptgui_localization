@@ -5671,6 +5671,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "Připojit další projekt"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "Konfigurační složka PTGui"
 		}
 	],
 	"tooltips": [
@@ -7946,6 +7951,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "Sloučit do tohoto projektu další projekt. K tomuto projektu budou připojeny obrázky, kontrolní body a data objektivu z jiného projektu."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "Otevřete složku, kde PTGui ukládá své konfigurační soubory."
 		}
 	],
 	"helppages": [

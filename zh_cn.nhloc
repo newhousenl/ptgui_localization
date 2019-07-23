@@ -7062,6 +7062,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "附加另一个项目"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "PTGui配置文件夹"
 		}
 	],
 	"tooltips": [
@@ -9520,6 +9525,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "将另一个项目合并到此项目中。来自其他项目的图像，控制点和镜头数据将附加到此项目中。"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "打开PTGui存储其配置文件的文件夹。"
 		}
 	],
 	"helppages": [

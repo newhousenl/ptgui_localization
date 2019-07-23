@@ -7062,6 +7062,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"txt": "다른 프로젝트 추가"
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"txt": "PTGui 구성 폴더"
 		}
 	],
 	"tooltips": [
@@ -9520,6 +9525,11 @@
 			"id": "menubar.file.mergeproject",
 			"machinetranslated": true,
 			"helptext": "다른 프로젝트를이 프로젝트에 병합하십시오. 다른 프로젝트의 이미지, 제어점 및 렌즈 데이터가이 프로젝트에 추가됩니다."
+		},
+		{
+			"id": "menubar.tools.openfolder.configfolder",
+			"machinetranslated": true,
+			"helptext": "PTGui가 설정 파일을 저장하는 폴더를 엽니 다."
 		}
 	],
 	"helppages": [

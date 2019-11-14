@@ -6118,6 +6118,11 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"txt": "PTGui配置文件夾"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.noisefloor",
+			"machinetranslated": true,
+			"txt": "本底噪聲"
 		}
 	],
 	"tooltips": [
@@ -8581,6 +8586,12 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"helptext": "打開PTGui存儲其配置文件的文件夾。"
+		},
+		{
+			"id": "exposurehdrtab.noisefloor",
+			"machinetranslated": true,
+			"helptext": "合併到HDR時，補償源圖像中的圖像噪聲。",
+			"morehelptext": "<br><br>將包圍曝光的圖像合併為HDR時，PTGui從每個重疊的源圖像中獲取“最佳”像素。對於除最長曝光圖像以外的所有圖像，低於某個亮度的像素將被忽略，因為這些暗像素可能是圖像噪點。此滑塊設置用於丟棄那些有噪聲像素的閾值。如果源圖像有噪點（例如，以高ISO拍攝），並且在HDR全景中可見噪點，請向右移動滑塊，直到噪點消失。但是請注意，這可能會增加運動對象周圍的HDR偽像，因此為了獲得最佳效果，請將滑塊盡可能向左移動，直到開始出現噪點為止。可以在“詳細信息查看器”中觀察結果。<br><br>即使在最亮的曝光下，在黑色的全景部分中仍可能會看到圖像噪點。為減少噪點，應在更長的曝光時間添加更多的包圍曝光的圖像。"
 		}
 	],
 	"helppages": [

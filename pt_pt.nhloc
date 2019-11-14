@@ -7057,6 +7057,11 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"txt": "Pasta de Configuração PTGui"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.noisefloor",
+			"machinetranslated": true,
+			"txt": "Piso de ruído"
 		}
 	],
 	"tooltips": [
@@ -9520,6 +9525,12 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"helptext": "Abra a pasta onde o PTGui armazena seus arquivos de configuração."
+		},
+		{
+			"id": "exposurehdrtab.noisefloor",
+			"machinetranslated": true,
+			"helptext": "Compense o ruído da imagem nas imagens de origem ao mesclar com HDR.",
+			"morehelptext": "<br><br>Ao combinar imagens entre colchetes com HDR, o PTGui obtém os 'melhores' pixels de cada imagem de origem sobreposta. Para todas as imagens, exceto a imagem mais longa exposta, os pixels abaixo de um certo brilho são ignorados, porque esses pixels escuros podem apresentar ruído na imagem. Esse controle deslizante define o limite para descartar esses pixels ruidosos. Se as imagens de origem forem ruidosas (por exemplo, tiradas com ISO alto) e o ruído se tornar visível no panorama HDR, mova o controle deslizante para a direita até que o ruído desapareça. Mas observe que isso pode aumentar os artefatos de HDR ao redor de objetos em movimento; portanto, para obter melhores resultados, mova o controle deslizante o mais para a esquerda possível até que o ruído comece a aparecer. O resultado pode ser observado no Visualizador de detalhes.<br><br>O ruído da imagem ainda pode ser visível em partes do panorama que são pretas, mesmo na exposição mais clara. Para reduzir o ruído, imagens mais agrupadas devem ser adicionadas em tempos de exposição mais longos."
 		}
 	],
 	"helppages": [

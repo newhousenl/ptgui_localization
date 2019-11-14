@@ -5686,6 +5686,11 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"txt": "PTGui設定フォルダ"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.noisefloor",
+			"machinetranslated": true,
+			"txt": "ノイズフロア"
 		}
 	],
 	"tooltips": [
@@ -7710,6 +7715,12 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"helptext": "PTGuiが設定ファイルを保存しているフォルダを開きます。"
+		},
+		{
+			"id": "exposurehdrtab.noisefloor",
+			"machinetranslated": true,
+			"helptext": "HDRにマージするときにソース画像の画像ノイズを補正します。",
+			"morehelptext": "<br><br>ブラケット画像をHDRに結合する場合、PTGuiは重複する各ソース画像から「最適な」ピクセルを取得します。最も長い露出画像を除くすべての画像では、特定の明るさより低いピクセルは無視されます。これらの暗いピクセルは画像ノイズである可能性があるためです。このスライダーは、ノイズの多いピクセルを破棄するためのしきい値を設定します。ソース画像にノイズが多い場合（高ISOで撮影した場合など）、HDRパノラマでノイズが見えるようになる場合は、ノイズがなくなるまでスライダーを右に動かします。ただし、これにより、移動するオブジェクトの周囲のHDRアーティファクトが増加する可能性があるため、最良の結果を得るには、ノイズが表示されるまでスライダーを可能な限り左に移動します。結果は、詳細ビューアーで確認できます。<br><br>画像のノイズは、最も明るい露出であっても、パノラマの一部が黒く見える場合があります。ノイズを減らすには、より長い露出時間でブラケット画像を追加する必要があります。"
 		}
 	],
 	"helppages": [

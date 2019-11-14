@@ -7067,6 +7067,11 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"txt": "Carpeta de configuración de PTGui"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.noisefloor",
+			"machinetranslated": true,
+			"txt": "Piso de ruido"
 		}
 	],
 	"tooltips": [
@@ -9530,6 +9535,12 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"helptext": "Abra la carpeta donde PTGui almacena sus archivos de configuración."
+		},
+		{
+			"id": "exposurehdrtab.noisefloor",
+			"machinetranslated": true,
+			"helptext": "Compense el ruido de la imagen en las imágenes de origen al fusionarse con HDR.",
+			"morehelptext": "<br><br>Al combinar imágenes entre corchetes a HDR, PTGui toma los &quot;mejores&quot; píxeles de cada imagen de origen superpuesta. Para todas las imágenes, excepto la imagen expuesta más larga, los píxeles por debajo de cierto brillo se ignoran, porque esos píxeles oscuros pueden ser ruido de imagen. Este control deslizante establece el umbral para descartar esos píxeles ruidosos. Si las imágenes de origen son ruidosas (por ejemplo, tomadas con ISO alto) y el ruido se hace visible en el panorama HDR, mueva el control deslizante hacia la derecha hasta que desaparezca el ruido. Pero tenga en cuenta que esto puede aumentar los artefactos HDR alrededor de los objetos en movimiento, por lo que para obtener los mejores resultados mueva el control deslizante lo más hacia la izquierda posible hasta que comience a aparecer ruido. El resultado se puede observar en el Visor de detalles.<br><br>El ruido de la imagen aún puede verse en partes del panorama que son negras incluso en la exposición más brillante. Para reducir el ruido, se deben agregar más imágenes entre corchetes a tiempos de exposición más largos."
 		}
 	],
 	"helppages": [

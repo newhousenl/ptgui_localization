@@ -5676,6 +5676,11 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"txt": "Konfigurační složka PTGui"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.noisefloor",
+			"machinetranslated": true,
+			"txt": "Hlasité patro"
 		}
 	],
 	"tooltips": [
@@ -7956,6 +7961,12 @@
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
 			"helptext": "Otevřete složku, kde PTGui ukládá své konfigurační soubory."
+		},
+		{
+			"id": "exposurehdrtab.noisefloor",
+			"machinetranslated": true,
+			"helptext": "Při sloučení s HDR kompenzujte šum obrazu ve zdrojových obrázcích.",
+			"morehelptext": "<br><br>Při kombinaci snímků v závorkách s HDR získává PTGui z každého překrývajícího se zdrojového obrazu „nejlepší“ pixely. U všech obrázků s výjimkou nejdéle exponovaného snímku jsou pixely pod určitým jasem ignorovány, protože tyto tmavé pixely mohou být obrazovým šumem. Tento posuvník nastavuje práh pro odstranění těchto hlučných pixelů. Pokud jsou zdrojové obrázky hlučné (např. Pořízené při vysoké citlivosti ISO) a šum se v panoramatu HDR stane viditelným, posuňte jezdec doprava, dokud šum nezmizí. Nezapomeňte však, že to může zvýšit artefakty HDR kolem pohybujících se objektů, takže pro dosažení nejlepších výsledků posuňte jezdec co nejvíce doleva, dokud se nezačne objevovat šum. Výsledek lze pozorovat v Prohlížeči podrobností.<br><br>Šum obrazu může být stále viditelný v částech panoramatu, které jsou černé i při nejjasnější expozici. Chcete-li snížit šum, je třeba při delších expozičních intervalech přidat více snímků s řadou snímků."
 		}
 	],
 	"helppages": [

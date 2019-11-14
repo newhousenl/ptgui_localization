@@ -5781,7 +5781,12 @@
 {
     "id": "menubar.tools.openfolder.configfolder",
     "txt": "PTGui Configuration Folder"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.noisefloor",
+    "txt": "Noise floor"
 }
+
 
 
 
@@ -7818,6 +7823,11 @@
         {
             "id": "menubar.tools.openfolder.configfolder",
             "helptext": "Open the folder where PTGui stores its configuration files."
+        },
+        {
+            "id": "exposurehdrtab.noisefloor",
+            "helptext": "Compensate for image noise in the source images when merging to HDR.",
+            "morehelptext": "<br><br>When combining bracketed images to HDR, PTGui takes the 'best' pixels from each overlapping source image. For all images except the longest exposed image, pixels below a certain brightness are ignored, because those dark pixels may be image noise. This slider sets the threshold for discarding those noisy pixels. If the source images are noisy (e.g. taken at high ISO) and the noise becomes visible in the HDR panorama, move the slider towards the right until the noise disappears. But note that this may increase HDR artifacts around moving objects, so for the best results move the slider as far to the left as possible until noise starts to appear. The result can be observed in the Detail Viewer.<br><br>Image noise may still be visible in parts of the panorama that are black even in the brightest exposure. To reduce noise, more bracketed images should be added at longer exposure times."
         }
         
     ],

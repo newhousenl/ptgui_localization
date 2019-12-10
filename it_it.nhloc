@@ -5,7 +5,7 @@
 		"Luca Vascon"
 	],
 	"languagenamelocalized": "Italiano",
-	"startupmsg": "Questa versione italiana di PTGui è stata tradotta dall'inglese in italiano tramite un sistema di traduzione al computer. La traduzione potrebbe non essere perfetta ma speriamo che sia comprensibile. Se necessario, è possibile passare alla traduzione inglese originale in %0.\n\nSe sei interessato, ti preghiamo di aiutarci a migliorare PTGui correggendo eventuali errori nella traduzione italiana. Per ulteriori informazioni vedere: '@help@ - @txt.improvetranslation@'.",
+	"startupmsg": null,
 	"strings": [
 		{
 			"id": "txt.improvetranslation",

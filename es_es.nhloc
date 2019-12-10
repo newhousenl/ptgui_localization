@@ -7071,7 +7071,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
-			"txt": "Piso de ruido"
+			"txt": "Ruido de fondo"
 		}
 	],
 	"tooltips": [

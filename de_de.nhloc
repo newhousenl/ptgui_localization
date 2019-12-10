@@ -5691,7 +5691,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
-			"txt": "Geräuschboden"
+			"txt": "Grundrauschen"
 		}
 	],
 	"tooltips": [

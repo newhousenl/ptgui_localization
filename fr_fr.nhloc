@@ -7067,7 +7067,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
-			"txt": "Plancher de bruit"
+			"txt": "Bruit de fond"
 		}
 	],
 	"tooltips": [

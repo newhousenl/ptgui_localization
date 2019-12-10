@@ -316,7 +316,7 @@
 		{
 			"id": "menubar.file.recentprojects",
 			"machinetranslated": true,
-			"txt": "progetti recenti"
+			"txt": "Progetti recenti"
 		},
 		{
 			"id": "menubar.file.applytemplate",
@@ -2551,7 +2551,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.view",
 			"machinetranslated": true,
-			"txt": "vista"
+			"txt": "Vista"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.errnooutputfileselected",

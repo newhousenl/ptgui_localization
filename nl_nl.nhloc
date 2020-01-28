@@ -5691,6 +5691,16 @@
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
 			"txt": "Beeldruisvloer"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"txt": "Horizontaal spiegelen"
+		},
+		{
+			"id": "lensdatabase.mirrored",
+			"machinetranslated": true,
+			"txt": "Horizontaal gespiegeld"
 		}
 	],
 	"tooltips": [
@@ -7719,6 +7729,11 @@
 			"machinetranslated": true,
 			"helptext": "Compenseer de beeldruis in de bronafbeeldingen bij het samenvoegen naar HDR.",
 			"morehelptext": "<br><br>Bij het combineren van belichtingsreeksen naar HDR neemt PTGui de 'beste' pixels van elke overlappende bronafbeelding. Voor alle afbeeldingen behalve de langst belichte afbeelding, worden pixels onder een bepaalde helderheid genegeerd, omdat die donkere pixels beeldruis kunnen zijn. Deze schuifregelaar stelt de drempel in voor het verwijderen van die ruis-pixels. Als de bronbeelden veel ruis bevatten (bijvoorbeeld genomen bij hoge ISO) en de ruis zichtbaar wordt in het HDR-panorama, beweeg dan de schuifregelaar naar rechts totdat de ruis verdwijnt. Houd er echter rekening mee dat dit HDR-artefacten rond bewegende objecten kan versterken, dus voor de beste resultaten de schuifregelaar zo ver mogelijk naar links verplaatsen totdat er ruis verschijnt. Het resultaat is te zien in de Detail Viewer.<br><br>Beeldruis kan nog steeds zichtbaar zijn in delen van het panorama die zelfs in de helderste belichting zwart zijn. Om ruis te verminderen, moeten meer belichtingsreeksen worden toegevoegd bij langere belichtingstijden."
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"helptext": "Spiegel de bronafbeelding horizontaal. Als de afbeelding is bijgesneden, wordt het spiegelen uitgevoerd nadat de afbeelding is bijgesneden."
 		}
 	],
 	"helppages": [

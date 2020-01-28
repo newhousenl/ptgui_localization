@@ -5692,6 +5692,16 @@
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
 			"txt": "Grundrauschen"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"txt": "Horizontal spiegeln"
+		},
+		{
+			"id": "lensdatabase.mirrored",
+			"machinetranslated": true,
+			"txt": "Horizontal gespiegelt"
 		}
 	],
 	"tooltips": [
@@ -8161,6 +8171,11 @@
 			"machinetranslated": true,
 			"helptext": "Kompensieren Sie Bildrauschen in den Quellbildern beim Zusammenführen mit HDR.",
 			"morehelptext": "<br><br>Beim Kombinieren von Bildern mit Belichtungsreihe zu HDR nimmt PTGui die besten Pixel von jedem überlappenden Quellbild. Bei allen Bildern mit Ausnahme des am längsten belichteten Bildes werden Pixel unterhalb einer bestimmten Helligkeit ignoriert, da diese dunklen Pixel Bildrauschen sein können. Dieser Schieberegler legt den Schwellenwert für das Verwerfen dieser verrauschten Pixel fest. Wenn die Quellbilder verrauscht sind (z. B. bei hohen ISO-Werten aufgenommen) und das Bildrauschen im HDR-Panorama sichtbar wird, schieben Sie den Schieberegler nach rechts, bis das Bildrauschen verschwindet. Beachten Sie jedoch, dass dadurch HDR-Artefakte bei sich bewegenden Objekten verstärkt werden können. Bewegen Sie den Schieberegler für optimale Ergebnisse so weit wie möglich nach links, bis Rauschen auftritt. Das Ergebnis kann im Detail Viewer beobachtet werden.<br><br>In Teilen des Panoramas, die selbst bei hellster Belichtung schwarz sind, ist möglicherweise noch Bildrauschen sichtbar. Um das Rauschen zu verringern, sollten bei längeren Belichtungszeiten mehr Bilder mit Belichtungsreihen hinzugefügt werden."
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"helptext": "Das Quellbild horizontal Spiegeln. Wenn das Bild zugeschnitten ist, wird es nach dem Zuschneiden gespiegelt."
 		}
 	],
 	"helppages": [

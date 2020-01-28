@@ -7068,6 +7068,16 @@
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
 			"txt": "Bruit de fond"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"txt": "Miroir horizontalement"
+		},
+		{
+			"id": "lensdatabase.mirrored",
+			"machinetranslated": true,
+			"txt": "Miroir horizontalement"
 		}
 	],
 	"tooltips": [
@@ -9537,6 +9547,11 @@
 			"machinetranslated": true,
 			"helptext": "Compenser le bruit d'image dans les images source lors de la fusion en HDR.",
 			"morehelptext": "<br><br>Lorsque vous combinez des images entre crochets et HDR, PTGui prend les &quot;meilleurs&quot; pixels de chaque image source superposée. Pour toutes les images, à l’exception de la plus longue image exposée, les pixels d’une luminosité inférieure à une certaine luminosité sont ignorés, car ces pixels sombres peuvent être du bruit d’image. Ce curseur définit le seuil de suppression de ces pixels bruyants. Si les images source sont bruyantes (par exemple, prises à une sensibilité ISO élevée) et que le bruit devient visible dans le panorama HDR, déplacez le curseur vers la droite jusqu'à ce que le bruit disparaisse. Notez toutefois que cela peut augmenter les artefacts HDR autour des objets en mouvement. Pour obtenir les meilleurs résultats, déplacez le curseur le plus à gauche possible jusqu'à ce que le bruit commence à apparaître. Le résultat peut être observé dans la visionneuse de détails.<br><br>Le bruit de l'image peut toujours être visible dans certaines parties du panorama qui sont noires, même dans les expositions les plus lumineuses. Pour réduire le bruit, vous devez ajouter davantage d'images entre crochets lorsque les temps d'exposition sont plus longs."
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"helptext": "Miroir l'image source horizontalement. Si l'image est recadrée, la mise en miroir sera effectuée après le recadrage de l'image."
 		}
 	],
 	"helppages": [

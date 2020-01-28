@@ -6656,6 +6656,16 @@
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
 			"txt": "Rumore di fondo"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"txt": "Rispecchia orizzontalmente"
+		},
+		{
+			"id": "lensdatabase.mirrored",
+			"machinetranslated": true,
+			"txt": "Specchiato orizzontalmente"
 		}
 	],
 	"tooltips": [
@@ -9125,6 +9135,11 @@
 			"machinetranslated": true,
 			"helptext": "Compensa il rumore dell'immagine nelle immagini di origine quando si unisce a HDR.",
 			"morehelptext": "<br><br>Quando si combinano immagini tra parentesi in HDR, PTGui prende i pixel &quot;migliori&quot; da ciascuna immagine sorgente sovrapposta. Per tutte le immagini ad eccezione dell'immagine più lunga esposta, i pixel al di sotto di una certa luminosità vengono ignorati, poiché quei pixel scuri potrebbero essere disturbi dell'immagine. Questo cursore imposta la soglia per scartare quei pixel rumorosi. Se le immagini sorgente sono rumorose (ad es. Scattate a valori ISO elevati) e il rumore diventa visibile nel panorama HDR, spostare il cursore verso destra fino a quando il rumore scompare. Tuttavia, ciò potrebbe aumentare gli artefatti HDR intorno agli oggetti in movimento, quindi per ottenere i migliori risultati spostare il dispositivo di scorrimento il più a sinistra possibile finché non viene visualizzato il rumore. Il risultato può essere osservato nel Visualizzatore dettagli.<br><br>Il rumore dell'immagine potrebbe essere ancora visibile in alcune parti del panorama che sono nere anche nell'esposizione più luminosa. Per ridurre il rumore, è necessario aggiungere più immagini tra parentesi a tempi di esposizione più lunghi."
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"helptext": "Specchia l'immagine sorgente in orizzontale. Se l'immagine viene ritagliata, il mirroring verrà eseguito dopo aver ritagliato l'immagine."
 		}
 	],
 	"helppages": [

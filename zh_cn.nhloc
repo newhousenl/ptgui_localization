@@ -7072,6 +7072,16 @@
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
 			"txt": "本底噪声"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"txt": "水平镜像"
+		},
+		{
+			"id": "lensdatabase.mirrored",
+			"machinetranslated": true,
+			"txt": "水平镜像"
 		}
 	],
 	"tooltips": [
@@ -9541,6 +9551,11 @@
 			"machinetranslated": true,
 			"helptext": "合并到HDR时，补偿源图像中的图像噪声。",
 			"morehelptext": "<br><br>将包围曝光的图像合并为HDR时，PTGui从每个重叠的源图像中获取“最佳”像素。对于曝光时间最长的图像以外的所有图像，低于某个亮度的像素将被忽略，因为这些暗像素可能是图像噪点。此滑块设置用于丢弃那些有噪声像素的阈值。如果源图像有噪点（例如，以高ISO拍摄），并且在HDR全景中可见噪点，请向右移动滑块，直到噪点消失。但是请注意，这可能会增加运动对象周围的HDR伪像，因此为了获得最佳效果，请将滑块尽可能向左移动，直到开始出现噪点为止。可以在“详细信息查看器”中观察结果。<br><br>即使在最亮的曝光下，在黑色的全景部分中仍可能会看到图像噪点。为减少噪点，应在更长的曝光时间添加更多的包围曝光的图像。"
+		},
+		{
+			"id": "mainwindow.lensparams.mirrored",
+			"machinetranslated": true,
+			"helptext": "水平镜像源图像。如果图像被裁剪，则将在裁剪图像后进行镜像。"
 		}
 	],
 	"helppages": [

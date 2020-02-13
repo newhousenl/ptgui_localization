@@ -357,7 +357,7 @@
 		{
 			"id": "menubar.file.recentprojects",
 			"machinetranslated": true,
-			"txt": "Недавние Проекты"
+			"txt": "Недавние проекты"
 		},
 		{
 			"id": "menubar.file.applytemplate",
@@ -447,22 +447,20 @@
 		{
 			"id": "menubar.edit.undo",
 			"machinetranslated": true,
-			"txt": "отменить"
+			"txt": "Отменить"
 		},
 		{
 			"id": "menubar.edit.redo",
 			"machinetranslated": true,
-			"txt": "переделывать"
+			"txt": "Повторить"
 		},
 		{
 			"id": "menubar.edit.cut",
-			"machinetranslated": true,
-			"txt": "Резать"
+			"txt": "Вырезать"
 		},
 		{
 			"id": "menubar.edit.copy",
-			"machinetranslated": true,
-			"txt": "копия"
+			"txt": "Копировать"
 		},
 		{
 			"id": "menubar.edit.paste",
@@ -847,7 +845,7 @@
 		{
 			"id": "panoramaeditor.sidebar.projection",
 			"machinetranslated": true,
-			"txt": "проекция"
+			"txt": "Проекция"
 		},
 		{
 			"id": "panoramaeditor.sidebar.panoramapreviewsettingspanel.exposure",
@@ -1057,12 +1055,12 @@
 		{
 			"id": "menubar.project.aligntogrid",
 			"machinetranslated": true,
-			"txt": "Выровнять по сетке"
+			"txt": "Выровнить по сетке"
 		},
 		{
 			"id": "menubar.project.optimize",
 			"machinetranslated": true,
-			"txt": "оптимизировать"
+			"txt": "Оптимизировать"
 		},
 		{
 			"id": "menubar.project.initializeandoptimize",
@@ -1092,7 +1090,7 @@
 		{
 			"id": "batchstitcher",
 			"machinetranslated": true,
-			"txt": "Обработка пакета проектов"
+			"txt": "Пакетная обработка"
 		},
 		{
 			"id": "batchlist",
@@ -1392,7 +1390,7 @@
 		{
 			"id": "mainwindow.maskmenu.eraser",
 			"machinetranslated": true,
-			"txt": "ластик"
+			"txt": "Ластик"
 		},
 		{
 			"id": "mainwindow.maskmenu.draw",
@@ -1402,7 +1400,7 @@
 		{
 			"id": "mainwindow.maskmenu.fill",
 			"machinetranslated": true,
-			"txt": "заполнить"
+			"txt": "Заполнить"
 		},
 		{
 			"id": "mainwindow.maskmenu.decreasepencilsize",
@@ -1502,7 +1500,7 @@
 		{
 			"id": "mainwindow.projectassistant.loadimages",
 			"machinetranslated": true,
-			"txt": "Загрузка изображений"
+			"txt": "Загрузить изображения"
 		},
 		{
 			"id": "mainwindow.projectassistant.sourceimages",
@@ -1938,12 +1936,12 @@
 		{
 			"id": "advanced",
 			"machinetranslated": true,
-			"txt": "продвинутый режим"
+			"txt": "Продвинутый режим"
 		},
 		{
 			"id": "simple",
 			"machinetranslated": true,
-			"txt": "простой режим"
+			"txt": "Простой режим"
 		},
 		{
 			"id": "mainwindow.optimizertab.advanced",
@@ -3526,17 +3524,17 @@
 		{
 			"id": "options.theme",
 			"machinetranslated": true,
-			"txt": "тема:"
+			"txt": "Тема:"
 		},
 		{
 			"id": "options.theme.dark",
 			"machinetranslated": true,
-			"txt": "Темно"
+			"txt": "Темная"
 		},
 		{
 			"id": "options.theme.light",
 			"machinetranslated": true,
-			"txt": "Свет"
+			"txt": "Светлая"
 		},
 		{
 			"id": "options.requiresrestart",

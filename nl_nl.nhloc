@@ -210,6 +210,10 @@
 			"txt": "Belichting / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"txt": "Belichting"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"txt": "Projectinstellingen"
 		},
@@ -5701,6 +5705,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Horizontaal gespiegeld"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Blending:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Zoek optimale naad"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Naden blenden"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Rode maskers:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Maak transparant"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Alleen naden positioneren"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Gaten opvullen"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Panorama- en uitvoerinstellingen"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Initialiseer automatisch de lensinstellingen met behulp van EXIF-gegevens bij het toevoegen van afbeeldingen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Blending"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Belichtingscompensatie"
 		}
 	],
 	"tooltips": [
@@ -7734,6 +7793,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Spiegel de bronafbeelding horizontaal. Als de afbeelding is bijgesneden, wordt het spiegelen uitgevoerd nadat de afbeelding is bijgesneden."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "Overlappende afbeeldingen worden geanalyseerd en de naad wordt zo geplaatst dat deze het minst merkbaar wordt."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Egaliseer kleur en helderheid aan elke kant van de naad om de naad onzichtbaar te maken."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Regelt het gedrag van rode maskers (geplaatst op het tabblad @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: rood geschilderde gebieden op het tabblad @mainwindow.tabs.mask@ worden transparant gemaakt in het panorama. Als er geen andere overlappende afbeeldingen zijn, verschijnt er een gat in het gestitchte panorama. In gelaagde uitvoer (gemaakt met de optie @mainwindow.createpanoramatab.output.individuallayers@), worden rood gemaskeerde gebieden transparant.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: rode maskers worden alleen gebruikt om aan te geven welke gebieden niet zichtbaar moeten zijn in het geblende panorama. De blender vermijdt deze gebieden door de naden ervan weg te bewegen. Als er echter geen andere overlappende afbeeldingen zijn om de gaten op te vullen, verschijnen de rood gemaskeerde gebieden desondanks toch in het uiteindelijke panorama. Gelaagde uitvoer wordt niet beïnvloed door rode maskers."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Vul alle transparante gebieden in het panorama met een kleur die lijkt op het omliggende gebied.",
+			"morehelptext": "<br><br>Indien ingeschakeld, worden alle transparante delen van het panorama gevuld met een vloeiend kleurverloop. Dit kan bijvoorbeeld worden gebruikt om de lucht of de vloer van het panorama te vullen als er geen nadir of zenithafbeelding is gemaakt.<br><br>Het kan ook worden gebruikt in combinatie met de @mainwindow.tabs.mask@-tool om bepaalde delen van het panorama te verbergen. Bijvoorbeeld om gezichten van mensen te vervagen om ze onherkenbaar te maken of om stofvlekken in de foto's te verwijderen."
 		}
 	],
 	"helppages": [
@@ -7799,7 +7880,7 @@
 		},
 		{
 			"id": "mainwindow.controlpointstab",
-			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Controlepunten worden gebruikt om aan te geven welke punten in de bronafbeeldingen samenvallen. De controlepunten worden door de optimizer gebruikt om de afbeeldingen uit te lijnen: de optimizer wijzigt de beeldpositie en lensparameters zodanig dat alle controlepunten zo dicht mogelijk op elkaar passen.<br><br>PTGui kan automatisch controlepunten vinden: controlepunten worden gegenereerd als onderdeel van '@alignimages@' (op het tabblad @mainwindow.tabs.projectassistant@). Controlepunten kunnen ook worden gegenereerd met @menubar.controlpoints@ | @menubar.controlpoints.generate@. En controlepunten kunnen in een specifiek gebied worden gegenereerd met behulp van @mainwindow.cptab.generatecphere@ (zie hieronder).<br><br>Soms lukt het PTGui niet automatisch controlepunten te genereren. In dat geval kunnen controlepunten met de hand worden toegevoegd. Het venster @controlpointassistant@ (zie @menubar.tools@ | @controlpointassistant@) helpt u te bepalen welke afbeeldingen extra controlepunten nodig hebben.<br><br>Als vuistregel geldt dat elk paar overlappende afbeeldingen ten minste 4 controlepunten moet hebben. Probeer de controlepunten zoveel mogelijk over het overlappingsgebied van het afbeeldingspaar te verdelen.<br><br>Werken met controlepunten is eenvoudig:<br><br>Om een controlepunt <b>toe te voegen</b>: selecteer twee overlappende afbeeldingen door op de miniatuurafbeeldingen boven elk venster te klikken. Klik vervolgens op een punt in de linkerafbeelding en klik op het overeenkomende punt in de rechterafbeelding. PTGui voegt een genummerde vlag toe aan elke controlepunt. Als @menubar.controlpoints.autojump@ is ingeschakeld (zie de onderste werkbalk), springt de muisaanwijzer naar de verwachte locatie in de andere afbeelding nadat u op het eerste punt heeft geklikt.<br><br>Om controlepunten in een bepaald gebied te <b>genereren</b>: selecteer een rechthoek in een van de afbeeldingen door met de muis te slepen terwijl u de Shift-toets ingedrukt houdt. Klik vervolgens met de rechtermuisknop <optional platform='mac'>(of Ctrl + klik)</optional> in het geselecteerde gebied en kies @mainwindow.cptab.generatecphere@. PTGui zal zoeken naar overeenkomende details in de andere afbeelding. Dit vereist dat de afbeeldingen al zijn uitgelijnd: met andere woorden, de Panorama-editor moet al een goede voorvertoning van uw panorama weergeven.<br><br>Een controlepunt <b>verplaatsen</b> : pak het met de muis en sleep het naar de gewenste locatie. Een controlepunt <b>verwijderen</b> of het type wijzigen: klik met de rechtermuisknop op de vlag of klik met de rechtermuisknop in de lijst met controlepunten.<br><br>Meerdere controlepunten verwijderen: selecteer een rechthoekig gebied in de afbeelding door met de muis te slepen terwijl u de Shift-toets ingedrukt houdt. De geselecteerde controlepunten beginnen te knipperen. Druk vervolgens op de Delete-toets of klik met de rechtermuisknop <optional platform='mac'>(of Ctrl + klik)</optional> op een van de geselecteerde controlepunten en kies Verwijderen.<br><br>Extra muis- en toetsenbordopdrachten op het tabblad @mainwindow.tabs.controlpoints@:<br>• Gebruik de rechtermuisknop <optional platform='mac'>(of Ctrl + slepen of met twee vingers vegen)</optional> om de afbeeldingen te slepen en in te schuiven. Houd daarnaast de Alt-toets ingedrukt om snel te slepen. <optional platform='windows'><br>• Houd tijdens het verplaatsen van controlepunten de Ctrl-toets ingedrukt om de muis te vertragen met een extra factor 8<br>• Klik met de middelste muisknop om te schakelen tussen 100% zoom en passend-zoomen.</optional><br>• Controlepunten kunnen worden verplaatst met behulp van het toetsenbord: klik op de vlag van het controlepunt en gebruik de pijltjestoetsen om de vlag te verplaatsen.<br><br>Aan de rechterkant van het venster bevindt zich de tabel met controlepunten. Dit toont een lijst met alle controlepunten voor het geselecteerde paar afbeeldingen. In de kolom '@cptable.dist@' worden de controlepuntafstanden weergegeven. De controlepuntafstand is een maat die aangeeft hoe goed een panorama is uitgelijnd: een lagere afstand betekent een betere uitlijning. Afstanden worden gemeten in bronbeeldpixels. De tabel kan worden gesorteerd door op de kop boven de kolom te klikken.<br><br>Over het algemeen is een afstand van minder dan 5 goed. Punten met een afstand van 20 of hoger hebben aandacht nodig, dit kunnen controlepunten zijn die niet goed zijn uitgelijnd, bijvoorbeeld op bewegende objecten.<br><br>Als er veel controlepunten zijn met grote afstanden is dit meestal een teken van parallax. Afbeeldingen met parallax kunnen niet perfect worden gestitched. Parallax moet worden vermeden door alle afbeeldingen vanuit exact hetzelfde gezichtspunt te nemen. Met name voor panorama's binnenshuis is het absoluut noodzakelijk om een een panoramische statiefkop te gebruiken om parallax fouten te vermijden."
+			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Controlepunten worden gebruikt om aan te geven welke punten in de bronafbeeldingen samenvallen. De controlepunten worden door de optimizer gebruikt om de afbeeldingen uit te lijnen: de optimizer wijzigt de beeldpositie en lensparameters zodanig dat alle controlepunten zo dicht mogelijk op elkaar passen.<br><br>PTGui kan automatisch controlepunten vinden: controlepunten worden gegenereerd als onderdeel van '@alignimages@' (op het tabblad @mainwindow.tabs.projectassistant@). Controlepunten kunnen ook worden gegenereerd met @menubar.controlpoints@ | @menubar.controlpoints.generate@. En controlepunten kunnen in een specifiek gebied worden gegenereerd met behulp van @mainwindow.cptab.generatecphere@ (zie hieronder).<br><br>Soms lukt het PTGui niet automatisch controlepunten te genereren. In dat geval kunnen controlepunten met de hand worden toegevoegd. Het venster @controlpointassistant@ (zie @menubar.tools@ | @controlpointassistant@) helpt u te bepalen welke afbeeldingen extra controlepunten nodig hebben.<br><br>Als vuistregel geldt dat elk paar overlappende afbeeldingen ten minste 4 controlepunten moet hebben. Probeer de controlepunten zoveel mogelijk over het overlappingsgebied van het afbeeldingspaar te verdelen.<br><br>Werken met controlepunten is eenvoudig:<br><br>Om een controlepunt <b>toe te voegen</b>: selecteer twee overlappende afbeeldingen door op de miniatuurafbeeldingen boven elk venster te klikken. Klik vervolgens op een punt in de linkerafbeelding en klik op het overeenkomende punt in de rechterafbeelding. PTGui voegt een genummerde vlag toe aan elke controlepunt. Als @menubar.controlpoints.autojump@ is ingeschakeld (zie de onderste werkbalk), springt de muisaanwijzer naar de verwachte locatie in de andere afbeelding nadat u op het eerste punt heeft geklikt.<br><br>Om controlepunten in een bepaald gebied te <b>genereren</b>: selecteer een rechthoek in een van de afbeeldingen door met de muis te slepen terwijl u de Shift-toets ingedrukt houdt. Klik vervolgens met de rechtermuisknop <optional platform='mac'>(of Ctrl + klik)</optional> in het geselecteerde gebied en kies @mainwindow.cptab.generatecphere@. PTGui zal zoeken naar overeenkomende details in de andere afbeelding. Dit vereist dat de afbeeldingen al zijn uitgelijnd: met andere woorden, de Panorama-editor moet al een goede voorvertoning van uw panorama weergeven.<br><br>Een controlepunt <b>verplaatsen</b>: pak het met de muis en sleep het naar de gewenste locatie. Een controlepunt <b>verwijderen</b> of het type wijzigen: klik met de rechtermuisknop op de vlag of klik met de rechtermuisknop in de lijst met controlepunten.<br><br>Meerdere controlepunten verwijderen: selecteer een rechthoekig gebied in de afbeelding door met de muis te slepen terwijl u de Shift-toets ingedrukt houdt. De geselecteerde controlepunten beginnen te knipperen. Druk vervolgens op de Delete-toets of klik met de rechtermuisknop <optional platform='mac'>(of Ctrl + klik)</optional> op een van de geselecteerde controlepunten en kies Verwijderen.<br><br>Extra muis- en toetsenbordopdrachten op het tabblad @mainwindow.tabs.controlpoints@:<br>• Gebruik de rechtermuisknop <optional platform='mac'>(of Ctrl + slepen of met twee vingers vegen)</optional> om de afbeeldingen te slepen en in te schuiven. Houd daarnaast de Alt-toets ingedrukt om snel te slepen. <optional platform='windows'><br>• Houd tijdens het verplaatsen van controlepunten de Ctrl-toets ingedrukt om de muis te vertragen met een extra factor 8<br>• Klik met de middelste muisknop om te schakelen tussen 100% zoom en passend-zoomen.</optional><br>• Controlepunten kunnen worden verplaatst met behulp van het toetsenbord: klik op de vlag van het controlepunt en gebruik de pijltjestoetsen om de vlag te verplaatsen.<br><br>Aan de rechterkant van het venster bevindt zich de tabel met controlepunten. Dit toont een lijst met alle controlepunten voor het geselecteerde paar afbeeldingen. In de kolom '@cptable.dist@' worden de controlepuntafstanden weergegeven. De controlepuntafstand is een maat die aangeeft hoe goed een panorama is uitgelijnd: een lagere afstand betekent een betere uitlijning. Afstanden worden gemeten in bronbeeldpixels. De tabel kan worden gesorteerd door op de kop boven de kolom te klikken.<br><br>Over het algemeen is een afstand van minder dan 5 goed. Punten met een afstand van 20 of hoger hebben aandacht nodig, dit kunnen controlepunten zijn die niet goed zijn uitgelijnd, bijvoorbeeld op bewegende objecten.<br><br>Als er veel controlepunten zijn met grote afstanden is dit meestal een teken van parallax. Afbeeldingen met parallax kunnen niet perfect worden gestitched. Parallax moet worden vermeden door alle afbeeldingen vanuit exact hetzelfde gezichtspunt te nemen. Met name voor panorama's binnenshuis is het absoluut noodzakelijk om een een panoramische statiefkop te gebruiken om parallax fouten te vermijden."
 		},
 		{
 			"id": "mainwindow.optimizersettingstab",

@@ -267,6 +267,11 @@
 			"txt": "Exposição / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"machinetranslated": true,
+			"txt": "Exposição"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"machinetranslated": true,
 			"txt": "Configurações projeto"
@@ -7072,6 +7077,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Espelhado horizontalmente"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Misturando:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Encontre a costura ideal"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Misture as costuras"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Máscaras vermelhas:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Tornar transparente"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Apenas para ajustar costuras"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Preencher orifícios"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Configurações de panorama e saída"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Inicialize automaticamente as configurações da lente usando dados EXIF ao adicionar imagens"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Misturando"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Compensação de exposição"
 		}
 	],
 	"tooltips": [
@@ -9546,6 +9606,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Espelhe a imagem de origem horizontalmente. Se a imagem for cortada, o espelhamento será feito após o corte da imagem."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "As imagens sobrepostas são analisadas e a costura é colocada de modo a se tornar menos perceptível."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Iguale cor e brilho em cada lado da costura, para torná-la invisível."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Controla o comportamento das máscaras vermelhas (colocadas na guia @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: as áreas pintadas de vermelho na guia @mainwindow.tabs.mask@ serão transparentes no panorama. Se não houver outras imagens sobrepostas, um buraco aparecerá no panorama costurado. Na saída em camadas (criada com a opção @mainwindow.createpanoramatab.output.individuallayers@), as áreas vermelhas mascaradas se tornarão transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: máscaras vermelhas são usadas apenas para indicar quais áreas não devem ser visíveis no panorama combinado. O liquidificador evitará essas áreas afastando as costuras delas. No entanto, se não houver outras imagens sobrepostas para preencher as lacunas, as áreas vermelhas mascaradas ainda aparecerão no panorama mesclado. A saída em camadas não é afetada por máscaras vermelhas."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Preencha todas as áreas transparentes no panorama com uma cor semelhante à área circundante.",
+			"morehelptext": "<br><br>Se ativada, todas as áreas transparentes do panorama serão preenchidas com um gradiente de cores suave. Isso pode ser usado, por exemplo, para preencher o céu ou o chão do panorama se nenhuma imagem de nadir ou zênite tiver sido obtida.<br><br>Também pode ser usado em conjunto com a ferramenta @mainwindow.tabs.mask@ para desfocar certas partes do panorama. Por exemplo, para desfocar o rosto das pessoas para torná-las irreconhecíveis ou para remover manchas de poeira nas fotos."
 		}
 	],
 	"helppages": [

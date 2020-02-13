@@ -217,6 +217,10 @@
 			"txt": "Expozice / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"txt": "Expozice"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"txt": "Nastavení projektu"
 		},
@@ -5691,6 +5695,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Zrcadlo vodorovně"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Míchání:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Najděte optimální šev"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Prolnutí přes švy"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Červené masky:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Zajistěte průhlednost"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Používejte pouze k úpravě švů"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Vyplňte otvory"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Panorama a nastavení výstupu"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Při přidávání obrázků automaticky inicializujte nastavení objektivu pomocí dat EXIF"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Míchání"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Kompenzace expozice"
 		}
 	],
 	"tooltips": [
@@ -7982,6 +8041,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Zdrojový obrázek zrcadlete vodorovně. Pokud je obrázek oříznut, bude zrcadlení provedeno po oříznutí obrázku."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "Překrývající se obrazy jsou analyzovány a šev je umístěn tak, aby byl nejméně patrný."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Vyrovnejte barvu a jas na každé straně švu, aby byl šev neviditelný."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Řídí chování červených masek (umístěných na záložce @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b> : červené malované oblasti na kartě @mainwindow.tabs.mask@ budou v panoramatu průhledné. Pokud neexistují žádné další překrývající se obrázky, objeví se ve spojeném panoramatu díra. Ve vrstveném výstupu (vytvořeném s volbou @mainwindow.createpanoramatab.output.individuallayers@) se červené maskované oblasti stanou průhlednými.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b> : červené masky se používají pouze k označení toho, které oblasti by v kombinovaném panoramatu neměly být viditelné. Mixér se těmto oblastem vyhne přesunutím švů z nich. Pokud však neexistují žádné jiné překrývající se obrázky, které by vyplňovaly mezery, budou v kombinovaném panoramatu stále zobrazeny červené maskované oblasti. Vrstvený výstup není ovlivněn červenými maskami."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Vyplňte všechny průhledné oblasti v panoramatu barvou podobnou okolí.",
+			"morehelptext": "<br><br>Pokud je tato možnost povolena, budou všechny průhledné oblasti panoramatu vyplněny plynulým barevným přechodem. To lze použít například k vyplnění oblohy nebo podlahy panoramatu, pokud nebyl pořízen žádný obraz nadir nebo zenith.<br><br>Může být také použit ve spojení s nástrojem @mainwindow.tabs.mask@ k rozostření určitých částí panoramatu. Například k rozostření tváří lidí, aby byly nepoznatelné, nebo k odstranění prachových skvrn na fotografiích."
 		}
 	],
 	"helppages": [

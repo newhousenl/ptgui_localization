@@ -216,6 +216,10 @@
 			"txt": "Belichtung / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"txt": "Belichtung"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"txt": "Projekt Einstellungen"
 		},
@@ -5702,6 +5706,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Horizontal gespiegelt"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Mischen:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Optimale Naht finden"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Über die Nähte mischen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Rote Masken:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Transparent machen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Nur zum Positionieren der Nähte"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Löcher ausfüllen"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Panorama- und Ausgabeeinstellungen"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Automatisches Initialisieren der Objektiveinstellungen mit EXIF-Daten beim Hinzufügen von Bildern"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Mischen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Belichtungskorrektur"
 		}
 	],
 	"tooltips": [
@@ -6502,7 +6561,7 @@
 		{
 			"id": "exposurehdrtab.exposurecompensation",
 			"machinetranslated": true,
-			"helptext": "Passen Sie für Belichtungsunterschiede an, die durch die automatische Belichtung verursacht werden.",
+			"helptext": "Belichtungsunterschiede anpassen, die durch die automatische Belichtung verursacht werden.",
 			"morehelptext": "<br><br>Der Blender kann Belichtungsunterschiede etwas kompensieren, aber für die besten Ergebnisse sollten die überlappenden Bilder ungefähr die gleiche Belichtung haben.<br><br>Wenn die automatische Belichtung aktiviert ist (z. B. bei Verwendung des Av-Modus der Kamera), können benachbarte Bilder unterschiedliche Belichtungswerte haben. Die Belichtungskorrektur untersucht die EXIF-Daten und passt die Belichtungsstärke jedes Bilds vor dem Überblenden an eine durchschnittliche Belichtung an. Kann in Verbindung mit Tone-Mapping verwendet werden, um Szenen mit hohem Kontrast zu bewältigen."
 		},
 		{
@@ -8176,6 +8235,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Das Quellbild horizontal Spiegeln. Wenn das Bild zugeschnitten ist, wird es nach dem Zuschneiden gespiegelt."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "Überlappende Bilder werden analysiert und die Naht so platziert, dass sie am wenigsten auffällt."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Farbe und Helligkeit an jeder Seite der Naht ausgleichen, um die Naht unsichtbar zu machen."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Steuert das Verhalten roter Masken (auf der Registerkarte @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: Rote Bereiche auf der Registerkarte @mainwindow.tabs.mask@ werden im Panorama transparent dargestellt. Wenn sich keine anderen Bilder überlappen, wird im zusammengefügten Panorama ein Loch angezeigt. In der geschichteten Ausgabe (erstellt mit der Option @mainwindow.createpanoramatab.output.individuallayers@) werden rot maskierte Bereiche transparent.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: Rote Masken zeigen nur an, welche Bereiche im überblendeten Panorama nicht sichtbar sein sollen. Der Blender vermeidet diese Bereiche, indem er die Nähte von ihnen wegbewegt. Wenn sich jedoch keine anderen Bilder überlappen, um die Lücken zu füllen, werden die rot maskierten Bereiche weiterhin im überblendeten Panorama angezeigt. Die einzelne Ebenen wirden von roten Masken nicht beeinflusst."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Füllt alle transparenten Bereiche im Panorama mit einer ähnlichen Farbe wie die Umgebung.",
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden alle transparenten Bereiche des Panoramas mit einem weichen Farbverlauf gefüllt. Dies kann zum Beispiel verwendet werden, um den Himmel oder den Boden des Panoramas auszufüllen, wenn kein Nadir- oder Zenitbild aufgenommen wurde.<br><br>Es kann auch in Verbindung mit dem @mainwindow.tabs.mask@-Werkzeug verwendet werden, um bestimmte Teile des Panoramas zu verwischen. Zum Beispiel, um die Gesichter von Personen zu verwischen, um sie unkenntlich zu machen oder um Staubflecken auf den Fotos zu entfernen."
 		}
 	],
 	"helppages": [

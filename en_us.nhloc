@@ -218,6 +218,10 @@
             "txt": "Exposure / HDR"
         },
         {
+            "id": "mainwindow.tabs.exposurehdr_nonpro",
+            "txt": "Exposure"
+        },
+        {
             "id": "mainwindow.tabs.projectsettings",
             "txt": "Project Settings"
         },
@@ -5793,9 +5797,52 @@
 {
     "id": "lensdatabase.mirrored",
     "txt": "Mirrored horizontally"
+},
+{
+    "id": "mainwindow.createpanoramatab.blending",
+    "txt": "Blending:"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+    "txt": "Find optimum seam"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.blending",
+    "txt": "Blend across seams"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+    "txt": "Red masks:"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+    "txt": "Make transparent"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+    "txt": "Use only to adjust seams"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.fillholes",
+    "txt": "Fill holes"
+},
+{
+    "id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+    "txt": "Panorama and Output Settings"
+},
+
+{
+    "id": "mainwindow.projectsettings.misc.useexif_nonpro",
+    "txt": "Automatically initialize the lens settings using EXIF data when adding images"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings",
+    "txt": "Blending"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+    "txt": "Exposure compensation"
 }
-
-
 
 
     ],
@@ -7838,10 +7885,28 @@
             "morehelptext": "<br><br>When combining bracketed images to HDR, PTGui takes the 'best' pixels from each overlapping source image. For all images except the longest exposed image, pixels below a certain brightness are ignored, because those dark pixels may be image noise. This slider sets the threshold for discarding those noisy pixels. If the source images are noisy (e.g. taken at high ISO) and the noise becomes visible in the HDR panorama, move the slider towards the right until the noise disappears. But note that this may increase HDR artifacts around moving objects, so for the best results move the slider as far to the left as possible until noise starts to appear. The result can be observed in the Detail Viewer.<br><br>Image noise may still be visible in parts of the panorama that are black even in the brightest exposure. To reduce noise, more bracketed images should be added at longer exposure times."
         },
         {
+            "id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+            "helptext": "Overlapping images are analyzed and the seam is placed such that it becomes least noticeable."
+        },
+        {
+            "id": "panoramaeditor.sidebar.blendsettings.blending",
+            "helptext": "Equalize color and brightness at each side of the seam, to make the seam invisible."
+        },
+        {
+            "id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+            "helptext": "Controls the behavior of red masks (placed in the @mainwindow.tabs.mask@ tab).",
+            "morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: red painted areas in the @mainwindow.tabs.mask@ tab will be made transparent in the panorama. If there are no other overlapping images, a hole will appear in the stitched panorama. In layered output (created with the @mainwindow.createpanoramatab.output.individuallayers@ option), red masked areas will become transparent.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: red masks are used only to indicate which areas should not be visible in the blended panorama. The blender will avoid these areas by moving the seams away from them. However if there are no other overlapping images to fill the gaps, the red masked areas will still appear in the blended panorama. Layered output is not affected by red masks."
+        },
+        {
+            "id": "panoramaeditor.sidebar.blendsettings.fillholes",
+            "helptext": "Fill all transparent areas in the panorama with a color similar to the surrounding area.",
+            "morehelptext": "<br><br>If enabled, all transparent areas of the panorama will be filled with a smooth color gradient. This can be used for example to fill the sky or floor of the panorama if no nadir or zenith image has been taken.<br><br>It can also be used in conjunction with the @mainwindow.tabs.mask@ tool to blur certain parts of the panorama. For example to blur people's faces to make them unrecognizable, or to remove dust specks in the photos."
+        },
+        {
             "id": "mainwindow.lensparams.mirrored",
             "helptext": "Mirror the source image horizontally. If the image is cropped, mirroring will be done after cropping the image."
         }
-        
+            
     ],
     "helppages": [
         {

@@ -265,6 +265,11 @@
 			"txt": "Exposition / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"machinetranslated": true,
+			"txt": "Exposition"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"machinetranslated": true,
 			"txt": "Paramètres du projet"
@@ -7078,6 +7083,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Miroir horizontalement"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Mélanger:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Trouver la couture optimale"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Mélanger sur les coutures"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Masques rouges:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Rendre transparent"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Uniquement pour ajuster coutures"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Remplisser les trous"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Paramètres de panorama et de sortie"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Initialiser automatiquement les paramètres de l'objectif à l'aide des données EXIF lors de l'ajout d'images"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Mélanger"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Compensation d'exposition"
 		}
 	],
 	"tooltips": [
@@ -9552,6 +9612,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Miroir l'image source horizontalement. Si l'image est recadrée, la mise en miroir sera effectuée après le recadrage de l'image."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "Les images qui se chevauchent sont analysées et la couture est placée de telle sorte qu'elle devient moins perceptible."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Égaliser la couleur et la luminosité de chaque côté de la couture pour la rendre invisible."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Contrôle le comportement des masques rouges (placés dans l'onglet @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: les zones peintes en rouge dans l'onglet @mainwindow.tabs.mask@ seront rendues transparentes dans le panorama. S'il n'y a pas d'autres images qui se chevauchent, un trou apparaîtra dans le panorama cousu. Dans la sortie en couches (créée avec l'option @mainwindow.createpanoramatab.output.individuallayers@), les zones masquées rouges deviennent transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: les masques rouges sont utilisés uniquement pour indiquer les zones qui ne doivent pas être visibles dans le panorama fusionné. Le mélangeur évitera ces zones en éloignant les coutures. Cependant, s'il n'y a pas d'autres images qui se chevauchent pour combler les lacunes, les zones masquées en rouge apparaîtront toujours dans le panorama mélangé. La sortie en couches n'est pas affectée par les masques rouges."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Remplisser toutes les zones transparentes du panorama avec une couleur similaire à la zone environnante.",
+			"morehelptext": "<br><br>Si cette option est activée, toutes les zones transparentes du panorama seront remplies d'un dégradé de couleur lisse. Cela peut être utilisé par exemple pour remplir le ciel ou le sol du panorama si aucune image au nadir ou au zénith n'a été prise.<br><br>Il peut également être utilisé conjointement avec l'outil @mainwindow.tabs.mask@ pour brouiller certaines parties du panorama. Par exemple pour brouiller les visages des gens pour les rendre méconnaissables, ou pour enlever les taches de poussière sur les photos."
 		}
 	],
 	"helppages": [

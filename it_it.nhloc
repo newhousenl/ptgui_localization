@@ -224,6 +224,10 @@
 			"txt": "Esposizione / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"txt": "Esposizione"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"txt": "Impostazioni del progetto"
 		},
@@ -6666,6 +6670,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Specchiato orizzontalmente"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "Mescolanza:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "Trovare cucitura ottimale"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "Mescolare tra le cuciture"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "Maschere rosse:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "Rendi trasparente"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "Solo per posizionare le cuciture"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "Riempire i buchi"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "Impostazioni panorama e output"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "Inizializza automaticamente le impostazioni dell'obiettivo utilizzando i dati EXIF quando aggiungi immagini"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "Mescolanza"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "Compensazione dell'esposizione"
 		}
 	],
 	"tooltips": [
@@ -9140,6 +9199,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Specchia l'immagine sorgente in orizzontale. Se l'immagine viene ritagliata, il mirroring verrà eseguito dopo aver ritagliato l'immagine."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "Le immagini sovrapposte vengono analizzate e la giuntura viene posizionata in modo tale da risultare meno evidente."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "Equalizza il colore e la luminosità su ciascun lato della cucitura, per renderla invisibile."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "Controlla il comportamento delle maschere rosse (inserite nella scheda @mainwindow.tabs.mask@).",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b> : le aree verniciate rosse nella scheda @mainwindow.tabs.mask@ saranno rese trasparenti nel panorama. Se non ci sono altre immagini sovrapposte, verrà visualizzato un buco nel panorama cucito. Nell'output a strati (creato con l'opzione @mainwindow.createpanoramatab.output.individuallayers@), le aree mascherate rosse diventeranno trasparenti.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b> : le maschere rosse vengono utilizzate solo per indicare quali aree non devono essere visibili nel panorama miscelato. Il frullatore eviterà queste aree allontanando le cuciture da esse. Tuttavia, se non vi sono altre immagini sovrapposte per riempire gli spazi vuoti, le aree mascherate rosse appariranno comunque nel panorama combinato. L'output a strati non è influenzato dalle maschere rosse."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "Riempi tutte le aree trasparenti nel panorama con un colore simile all'area circostante.",
+			"morehelptext": "<br><br>Se abilitato, tutte le aree trasparenti del panorama verranno riempite con una sfumatura di colore uniforme. Questo può essere usato ad esempio per riempire il cielo o il fondo del panorama se non è stata scattata alcuna immagine di nadir o zenit.<br><br>Può anche essere utilizzato in combinazione con lo strumento @mainwindow.tabs.mask@ per sfocare alcune parti del panorama. Ad esempio per sfocare i volti delle persone per renderle irriconoscibili o per rimuovere le macchie di polvere nelle foto."
 		}
 	],
 	"helppages": [

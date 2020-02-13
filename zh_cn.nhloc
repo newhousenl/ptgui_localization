@@ -267,6 +267,11 @@
 			"txt": "曝光/HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"machinetranslated": true,
+			"txt": "曝光"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"machinetranslated": true,
 			"txt": "项目设置"
@@ -7082,6 +7087,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "水平镜像"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "混合："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "寻找最佳接缝"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "跨接缝融合"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "红色口罩："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "使透明"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "仅用于调整接缝"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "填充孔"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "全景和输出设置"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "添加图像时使用EXIF数据自动初始化镜头设置"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "调和"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "曝光补偿"
 		}
 	],
 	"tooltips": [
@@ -9556,6 +9616,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "水平镜像源图像。如果图像被裁剪，则将在裁剪图像后进行镜像。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "分析重叠的图像，并放置接缝，以使其最不明显。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "均衡接缝两侧的颜色和亮度，以使接缝不可见。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "控制红色遮罩的行为（位于@mainwindow.tabs.mask@选项卡中）。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>：@mainwindow.tabs.mask@选项卡中的红色区域将在全景图中变为透明。如果没有其他重叠的图像，则在缝合的全景图中会出现一个孔。在分层输出（使用@mainwindow.createpanoramatab.output.individuallayers@选项创建）中，红色遮罩的区域将变为透明。<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>：红色遮罩仅用于指示哪些区域在混合全景图中不可见。搅拌器通过将接缝移开而避开这些区域。但是，如果没有其他重叠的图像可以填补空白，则红色的蒙版区域仍将出现在混合全景图中。分层输出不受红色遮罩的影响。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "用与周围区域相似的颜色填充全景图中的所有透明区域。",
+			"morehelptext": "<br><br>如果启用，则全景图的所有透明区域都将填充平滑的颜色渐变。如果未拍摄到天底或天顶图像，则可用于例如填充全景的天空或地面。<br><br>它也可以与@mainwindow.tabs.mask@工具一起使用，以模糊全景图的某些部分。例如，模糊人脸以使其无法识别，或去除照片中的灰尘斑点。"
 		}
 	],
 	"helppages": [

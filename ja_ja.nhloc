@@ -213,6 +213,10 @@
 			"txt": "露出合成 / HDR"
 		},
 		{
+			"id": "mainwindow.tabs.exposurehdr_nonpro",
+			"txt": "露出合成"
+		},
+		{
 			"id": "mainwindow.tabs.projectsettings",
 			"txt": "プロジェクト設定"
 		},
@@ -5701,6 +5705,61 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "水平にミラー"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blending",
+			"machinetranslated": true,
+			"txt": "ブレンド："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"txt": "最適な縫い目を見つける"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"txt": "縫い目を越えてブレンド"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"txt": "赤いマスク："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
+			"machinetranslated": true,
+			"txt": "透明にする"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
+			"machinetranslated": true,
+			"txt": "縫い目を調整するためにのみ使用"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"txt": "穴を埋める"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
+			"machinetranslated": true,
+			"txt": "パノラマと出力設定"
+		},
+		{
+			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
+			"machinetranslated": true,
+			"txt": "画像を追加するときにEXIFデータを使用してレンズ設定を自動的に初期化します"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings",
+			"machinetranslated": true,
+			"txt": "ブレンド"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
+			"machinetranslated": true,
+			"txt": "露出補正"
 		}
 	],
 	"tooltips": [
@@ -7736,6 +7795,28 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "ソース画像を水平にミラーします。画像がトリミングされている場合、画像のトリミング後にミラーリングが行われます。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
+			"machinetranslated": true,
+			"helptext": "重複する画像が分析され、継ぎ目が目立たなくなるように配置されます。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blending",
+			"machinetranslated": true,
+			"helptext": "シームが見えないように、シームの両側で色と明るさを均一にします。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
+			"machinetranslated": true,
+			"helptext": "赤いマスク（@mainwindow.tabs.mask@タブに配置）の動作を制御します。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b> ：[@mainwindow.tabs.mask@]タブの赤いペイント領域は、パノラマで透明になります。他に重複する画像がない場合、ステッチされたパノラマに穴が表示されます。階層化された出力（@mainwindow.createpanoramatab.output.individuallayers@オプションで作成された）では、赤いマスクされた領域が透明になります。<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b> ：赤いマスクは、ブレンドされたパノラマで表示すべきでない領域を示すためにのみ使用されます。ブレンダーは、継ぎ目をそれらから遠ざけることにより、これらの領域を回避します。ただし、ギャップを埋める重複する画像が他にない場合、ブレンドされたパノラマに赤いマスクされた領域が表示されます。レイヤー化された出力は、赤いマスクの影響を受けません。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
+			"machinetranslated": true,
+			"helptext": "パノラマのすべての透明な領域を、周囲の領域に似た色で塗りつぶします。",
+			"morehelptext": "<br><br>有効にすると、パノラマのすべての透明な領域が滑らかな色のグラデーションで塗りつぶされます。これは、天底や天頂の画像が撮影されていない場合に、たとえばパノラマの空や床を埋めるために使用できます。<br><br>また、@mainwindow.tabs.mask@ツールと組み合わせて使用して、パノラマの特定の部分をぼかすこともできます。たとえば、人の顔をぼかして認識できないようにしたり、写真のほこりを除去したりします。"
 		}
 	],
 	"helppages": [

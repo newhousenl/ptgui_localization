@@ -505,12 +505,12 @@
 		{
 			"id": "menubar.view.zoomtofit",
 			"machinetranslated": true,
-			"txt": "Увеличить до Fit"
+			"txt": "Показать полностью"
 		},
 		{
 			"id": "menubar.view.zoomtopercent",
 			"machinetranslated": true,
-			"txt": "Увеличить"
+			"txt": "Увеличить на"
 		},
 		{
 			"id": "menubar.view.previousimage",
@@ -1190,7 +1190,7 @@
 		{
 			"id": "controlpointassistant",
 			"machinetranslated": true,
-			"txt": "Помощник контрольной точки"
+			"txt": "Помощник контрольных точек"
 		},
 		{
 			"id": "batchbuilder",
@@ -1646,7 +1646,7 @@
 		{
 			"id": "mainwindow.lensparams.lens",
 			"machinetranslated": true,
-			"txt": "объектив"
+			"txt": "Объектив"
 		},
 		{
 			"id": "mainwindow.lensparams.lens.type",
@@ -2710,12 +2710,12 @@
 		{
 			"id": "mainwindow.lenssettings.individualparams.lenstype",
 			"machinetranslated": true,
-			"txt": "объектив"
+			"txt": "Объектив"
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.shift",
 			"machinetranslated": true,
-			"txt": "сдвиг"
+			"txt": "Сдвиг"
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.shear",
@@ -2725,7 +2725,7 @@
 		{
 			"id": "mainwindow.lenssettings.individualparams.crop",
 			"machinetranslated": true,
-			"txt": "очистить"
+			"txt": "Очистить"
 		},
 		{
 			"id": "mainwindow.sourceimages.filename",
@@ -2735,7 +2735,7 @@
 		{
 			"id": "mainwindow.sourceimages.width",
 			"machinetranslated": true,
-			"txt": "ширина"
+			"txt": "Ширина"
 		},
 		{
 			"id": "mainwindow.sourceimages.height",

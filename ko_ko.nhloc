@@ -7142,6 +7142,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "노출 보정"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "출력을위한 색 공간 :"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "가능하면 소스 이미지의 색 공간을 사용하십시오."
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "ICC 색상 프로파일"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "ICC 색상 프로파일로드"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "RGB 색상 프로파일이 아닙니다. RGB 색상 프로파일이 필요합니다 (예 : CMYK 프로파일은 지원되지 않음)."
 		}
 	],
 	"tooltips": [
@@ -9638,6 +9663,18 @@
 			"machinetranslated": true,
 			"helptext": "파노라마의 모든 투명 영역을 주변 영역과 유사한 색상으로 채 웁니다.",
 			"morehelptext": "<br><br>사용 설정하면 파노라마의 모든 투명 영역이 부드러운 색상 그라디언트로 채워집니다. 예를 들어 Nadir 또는 천정 이미지가 촬영되지 않은 경우 파노라마의 하늘 또는 바닥을 채우는 데 사용할 수 있습니다.<br><br>@mainwindow.tabs.mask@ 도구와 함께 사용하여 파노라마의 특정 부분을 흐리게 할 수도 있습니다. 예를 들어 사람들의 얼굴을 흐리게하여 인식 할 수 없게 만들거나 사진에서 먼지 얼룩을 제거 할 수 있습니다."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "생성 된 파노라마에 대한 ICC 색상 프로파일을 선택하십시오.",
+			"morehelptext": "<br><br>디지털 이미지의 색상은 일반적으로 다른 양의 빨강, 녹색 및 파랑 색상을 결합하여 생성됩니다. 그러나 주어진 빨강, 녹색 및 파랑 값 조합은 실제 색상을 고유하게 설명하지는 않습니다. 실제 재생되는 색상은 디스플레이의 물리적 속성에 따라 다릅니다. 다시 말해, 디스플레이 장치마다 약간 다른 종류의 빨강, 녹색 및 파랑 기본 색상이 사용됩니다. 추가 정보가 없으면 이미지가 화면마다 다르게 보일 수 있습니다. 색상 프로파일을 포함하면 이미지의 픽셀 값이 실제 물리적 색상과 일치합니다. PTGui는 모든 색상을 선택한 색상 공간으로 변환하고 이미지 파일에 ICC 색상 프로파일을 포함시킵니다.<br><br>일반적인 색상 프로파일은 다음과 같습니다.<br><br><b>sRGB</b> : 이것은 사실상 디지털 이미지의 표준 색 공간입니다. 보정되지 않은 디스플레이와 색상 관리되지 않은 응용 프로그램에서는 이미지가 합리적으로 보입니다. 파노라마가 인터넷에 게시되는 경우 sRGB를 사용하는 것이 좋습니다. 반면에 sRGB는 비교적 좁은 색 공간입니다. 종이에 인쇄 할 수있는 특정 색상은 sRGB 색상 공간에 포함되지 않습니다.<br><br><b>Adobe RGB (1998)</b> :이 색 공간은 sRGB보다 넓은 색 영역을 가지며 용지에 인쇄 할 수있는 거의 모든 색을 포함합니다. 파노라마를 인쇄하려는 경우이 방법을 사용하는 것이 좋습니다.<br><br><b>ProPhoto RGB</b> 및 <b>Wide Gamut RGB</b> :이 색상 공간은 사람이 인식 할 수있는 거의 모든 색상을 포함하는 매우 넓은 범위를 가지고 있습니다. 그러나 sRGB보다 훨씬 넓은 색상 범위를 다루기 때문에 결과 이미지를 색상 관리 응용 프로그램에서보아야합니다. 그렇지 않으면 색상이 매우 흐릿하게 보입니다.<br><br>넓은 색 영역은 일반적으로 16 비트 출력과 함께 사용해야합니다. 8 비트 해상도로는 사용 가능한 모든 색상을 처리하기에 충분하지 않으며 부드러운 색상 그라디언트는 '포스터 화 된'모양을 가질 수 있습니다. 따라서 JPEG는 8 비트로 제한되므로 적합한 형식이 아닙니다.<br><br>소스 이미지의 색 공간보다 넓은 색 공간으로 출력하면 아무런 이점이 없습니다. sRGB 이미지를 넓은 색 영역으로 변환해도 이미지가 향상되지 않습니다. 따라서 PTGui는 소스 이미지와 동일한 색상 프로파일을 사용하는 옵션을 제공합니다. 파노라마의 모든 이미지의 색상 프로파일이 동일한 경우 기본적으로 수행됩니다.<br><br>RAW 이미지의 경우 색상 공간을 명시 적으로 선택해야합니다. 이 색 공간은 원시 변환 중에 사용됩니다."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "모든 이미지의 색상 공간이 동일한 경우 위에서 선택한 색상 공간 대신이 색상 공간이 사용됩니다.",
+			"morehelptext": "<br><br>RAW 소스 이미지의 경우이 설정이 무시됩니다. RAW 이미지는 항상 위에서 선택한 색 공간으로 변환됩니다."
 		}
 	],
 	"helppages": [

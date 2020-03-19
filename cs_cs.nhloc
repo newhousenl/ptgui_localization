@@ -5750,6 +5750,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Kompenzace expozice"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Barevný prostor pro výstup:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Pokud je to možné, použijte barevný prostor ze zdrojových obrázků"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "ICC barevné profily"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Načtěte barevný profil ICC"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "Nejedná se o barevný profil RGB. Je zapotřebí profilů barev RGB, například profily CMYK nejsou podporovány."
 		}
 	],
 	"tooltips": [
@@ -8063,6 +8088,18 @@
 			"machinetranslated": true,
 			"helptext": "Vyplňte všechny průhledné oblasti v panoramatu barvou podobnou okolí.",
 			"morehelptext": "<br><br>Pokud je tato možnost povolena, budou všechny průhledné oblasti panoramatu vyplněny plynulým barevným přechodem. To lze použít například k vyplnění oblohy nebo podlahy panoramatu, pokud nebyl pořízen žádný obraz nadir nebo zenith.<br><br>Může být také použit ve spojení s nástrojem @mainwindow.tabs.mask@ k rozostření určitých částí panoramatu. Například k rozostření tváří lidí, aby byly nepoznatelné, nebo k odstranění prachových skvrn na fotografiích."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Vyberte barevný profil ICC generovaného panoramatu.",
+			"morehelptext": "<br><br>Barvy v digitálních obrázcích se obvykle vyrábějí kombinací různých množství červené, zelené a modré barvy. Daná kombinace hodnot červené, zelené a modré však jednoznačně nepopisuje fyzickou barvu: skutečná reprodukovaná barva závisí na fyzikálních vlastnostech displeje. Jinými slovy: různá zobrazovací zařízení používají mírně odlišné druhy základních barev červené, zelené a modré. Bez dalších informací může vypadat obraz na každé obrazovce jinak. Zahrnutím barevného profilu jsou hodnoty obrazových bodů v obrázku přiřazeny skutečným fyzickým barvám. PTGui převede všechny barvy do vybraného barevného prostoru a do obrazového souboru přidá barevný profil ICC.<br><br>Běžné barevné profily jsou:<br><br><b>sRGB</b> : Toto je de facto standardní barevný prostor pro digitální obrázky. Obrázek bude vypadat přiměřeně dobře na nekalibrovaných displejích a v aplikacích, které nejsou spravovány barvami. Pokud bude vaše panorama zveřejněno na internetu, sRGB je dobrá volba. Na druhé straně sRGB je relativně úzký barevný prostor. Některé barvy, které lze vytisknout na papír, nejsou pokryty barevným prostorem sRGB.<br><br><b>Adobe RGB (1998)</b> : tento barevný prostor má širší barevnou škálu než sRGB a pokrývá téměř všechny barvy, které lze vytisknout na papír. Toto je dobrá volba, pokud bude panoráma vytištěna.<br><br><b>ProPhoto RGB</b> a <b>Wide Gamut RGB</b> : tyto barevné prostory mají velmi velký gamut, pokrývající téměř všechny možné barvy, které může člověk vnímat. Protože však pokrývají mnohem širší škálu barev než sRGB, musí být výsledný obrázek zobrazen v aplikaci pro správu barev, jinak budou barvy vypadat velmi matně.<br><br>Široké gamutové barevné prostory by se měly obecně používat s 16bitovým výstupem. 8 bitů rozlišení nestačí k pokrytí všech dostupných barev a plynulé barevné přechody mohou mít vzhled „plakátu“. JPEG tedy není vhodným formátem, protože je omezen na 8 bitů.<br><br>Mějte na paměti, že při výstupu do širšího barevného prostoru není větší než barevný prostor zdrojového obrázku. Převod obrazu sRGB do širokého barevného prostoru gamutu nezlepší obraz. PTGui proto nabízí možnost použít stejný barevný profil jako zdrojové obrázky. Ve výchozím nastavení je to v případě, že všechny snímky v panoramatu mají stejný barevný profil.<br><br>U obrázků RAW musí být explicitně vybrán barevný prostor; tento barevný prostor bude použit během hrubé konverze."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Pokud mají všechny obrázky stejný barevný prostor, použije se tento barevný prostor (místo výše uvedeného barevného prostoru).",
+			"morehelptext": "<br><br>Toto nastavení je u zdrojových obrázků RAW ignorováno. Snímky RAW budou vždy převedeny na výše vybraný barevný prostor."
 		}
 	],
 	"helppages": [

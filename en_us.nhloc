@@ -5858,10 +5858,6 @@
     "txt": "ICC color profiles"
 },
 {
-    "id": "txt.iccprofiles",
-    "txt": "ICC color profiles"
-},
-{
     "id": "txt.openiccprofile",
     "txt": "Load ICC color profile"
 },

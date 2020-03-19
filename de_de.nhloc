@@ -5761,6 +5761,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Belichtungskorrektur"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Farbraum für die Ausgabe:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Verwenden Sie nach Möglichkeit den Farbraum aus Quellbildern"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "ICC-Farbprofile"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Laden Sie das ICC-Farbprofil"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "Kein RGB-Farbprofil. Ein RGB-Farbprofil wird benötigt, beispielsweise werden CMYK-Profile nicht unterstützt."
 		}
 	],
 	"tooltips": [
@@ -8257,6 +8282,18 @@
 			"machinetranslated": true,
 			"helptext": "Füllt alle transparenten Bereiche im Panorama mit einer ähnlichen Farbe wie die Umgebung.",
 			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden alle transparenten Bereiche des Panoramas mit einem weichen Farbverlauf gefüllt. Dies kann zum Beispiel verwendet werden, um den Himmel oder den Boden des Panoramas auszufüllen, wenn kein Nadir- oder Zenitbild aufgenommen wurde.<br><br>Es kann auch in Verbindung mit dem @mainwindow.tabs.mask@-Werkzeug verwendet werden, um bestimmte Teile des Panoramas zu verwischen. Zum Beispiel, um die Gesichter von Personen zu verwischen, um sie unkenntlich zu machen oder um Staubflecken auf den Fotos zu entfernen."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Wählen Sie das ICC-Farbprofil für das generierte Panorama aus.",
+			"morehelptext": "<br><br>Farben in digitalen Bildern werden im Allgemeinen durch Kombinieren verschiedener Mengen von roten, grünen und blauen Farben erzeugt. Eine bestimmte Kombination von Rot-, Grün- und Blauwerten beschreibt eine physikalische Farbe jedoch nicht eindeutig: Die tatsächlich reproduzierte Farbe hängt von den physikalischen Eigenschaften der Anzeige ab. Mit anderen Worten: Verschiedene Anzeigegeräte verwenden leicht unterschiedliche Arten von Grundfarben in Rot, Grün und Blau. Ohne weitere Informationen könnte das Bild auf jedem Bildschirm anders aussehen. Durch Einfügen eines Farbprofils werden die Pixelwerte in einem Bild an die tatsächlichen physischen Farben angepasst. PTGui konvertiert alle Farben in den ausgewählten Farbraum und nimmt das ICC-Farbprofil in die Bilddatei auf.<br><br>Übliche Farbprofile sind:<br><br><b>sRGB</b> : Dies ist der De-facto-Standardfarbraum für digitale Bilder. Das Bild sieht auf nicht kalibrierten Displays und in Anwendungen, die nicht farbverwaltet sind, recht gut aus. Wenn Ihr Panorama im Internet veröffentlicht wird, ist sRGB eine gute Wahl. Andererseits ist sRGB ein relativ enger Farbraum. Bestimmte Farben, die auf Papier gedruckt werden können, werden vom sRGB-Farbraum nicht abgedeckt.<br><br><b>Adobe RGB (1998)</b> : Dieser Farbraum hat einen größeren Farbumfang als sRGB und deckt fast alle Farben ab, die auf Papier gedruckt werden können. Dies ist eine gute Wahl, wenn das Panorama gedruckt werden soll.<br><br><b>ProPhoto RGB</b> und <b>Wide Gamut RGB</b> : Diese Farbräume haben einen sehr großen Farbumfang und decken fast alle möglichen Farben ab, die ein Mensch wahrnehmen kann. Da sie jedoch einen viel größeren Farbbereich als sRGB abdecken, muss das resultierende Bild in einer farbverwalteten Anwendung angezeigt werden, da sonst die Farben sehr matt aussehen.<br><br>Die Farbräume mit großem Farbumfang sollten im Allgemeinen mit 16-Bit-Ausgabe verwendet werden. Eine Auflösung von 8 Bit reicht nicht aus, um alle verfügbaren Farben abzudecken, und glatte Farbverläufe können ein &quot;posterisiertes&quot; Aussehen haben. Folglich ist JPEG kein geeignetes Format, da es auf 8 Bit beschränkt ist.<br><br>Beachten Sie, dass die Ausgabe in einem größeren Farbraum als dem Farbraum des Quellbilds keinen Vorteil hat. Durch das Konvertieren eines sRGB-Bilds in einen Farbraum mit großem Farbumfang wird das Bild nicht verbessert. Daher bietet PTGui die Möglichkeit, dasselbe Farbprofil wie die Quellbilder zu verwenden. Dies erfolgt standardmäßig, wenn alle Bilder im Panorama dasselbe Farbprofil haben.<br><br>Für RAW-Bilder muss ein Farbraum explizit ausgewählt werden. Dieser Farbraum wird während der Rohkonvertierung verwendet."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Wenn alle Bilder den gleichen Farbraum haben, wird dieser Farbraum verwendet (anstelle des oben ausgewählten Farbraums).",
+			"morehelptext": "<br><br>Beachten Sie, dass diese Einstellung für RAW-Quellbilder ignoriert wird. RAW-Bilder werden immer in den oben ausgewählten Farbraum konvertiert."
 		}
 	],
 	"helppages": [

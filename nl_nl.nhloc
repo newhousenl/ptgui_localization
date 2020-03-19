@@ -5760,6 +5760,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Belichtingscompensatie"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Kleurruimte voor uitvoer:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Gebruik indien mogelijk kleurruimte van bronafbeeldingen"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "ICC-kleurprofielen"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Laad ICC-kleurprofiel"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "Geen RGB-kleurprofiel. Een RGB-kleurprofiel is nodig, bijvoorbeeld CMYK-profielen worden niet ondersteund."
 		}
 	],
 	"tooltips": [
@@ -7815,6 +7840,18 @@
 			"machinetranslated": true,
 			"helptext": "Vul alle transparante gebieden in het panorama met een kleur die lijkt op het omliggende gebied.",
 			"morehelptext": "<br><br>Indien ingeschakeld, worden alle transparante delen van het panorama gevuld met een vloeiend kleurverloop. Dit kan bijvoorbeeld worden gebruikt om de lucht of de vloer van het panorama te vullen als er geen nadir of zenithafbeelding is gemaakt.<br><br>Het kan ook worden gebruikt in combinatie met de @mainwindow.tabs.mask@-tool om bepaalde delen van het panorama te verbergen. Bijvoorbeeld om gezichten van mensen te vervagen om ze onherkenbaar te maken of om stofvlekken in de foto's te verwijderen."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Selecteer het ICC-kleurprofiel voor het gegenereerde panorama.",
+			"morehelptext": "<br><br>Kleuren in digitale afbeeldingen worden over het algemeen geproduceerd door verschillende hoeveelheden rode, groene en blauwe kleuren te combineren. Een bepaalde combinatie van rode, groene en blauwe waarden beschrijft echter niet op unieke wijze een fysieke kleur: de werkelijke gereproduceerde kleur hangt af van de fysieke eigenschappen van het beeldscherm. Met andere woorden: verschillende weergaveapparaten gebruiken iets verschillende soorten rode, groene en blauwe basiskleuren. Zonder verdere informatie kan de afbeelding er op elk scherm anders uitzien. Door een kleurprofiel op te nemen, worden de pixelwaarden in een afbeelding afgestemd op de werkelijke fysieke kleuren. PTGui converteert alle kleuren naar de geselecteerde kleurruimte en neemt het ICC-kleurprofiel op in het afbeeldingsbestand.<br><br>Veel voorkomende kleurprofielen zijn:<br><br><b>sRGB</b> : dit is de de facto standaard kleurruimte voor digitale afbeeldingen. De afbeelding ziet er redelijk goed uit op niet-gekalibreerde beeldschermen en in toepassingen die niet in kleur zijn beheerd. Als uw panorama op internet wordt geplaatst, is sRGB een goede keuze. Aan de andere kant is sRGB een relatief smalle kleurruimte. Bepaalde kleuren die op papier kunnen worden afgedrukt, vallen niet onder de sRGB-kleurruimte.<br><br><b>Adobe RGB (1998)</b> : deze kleurruimte heeft een breder kleurengamma dan sRGB en omvat bijna alle kleuren die op papier kunnen worden afgedrukt. Dit is een goede keuze als het panorama wordt afgedrukt.<br><br><b>ProPhoto RGB</b> en <b>Wide Gamut RGB</b> : deze kleurruimten hebben een zeer groot gamma, dat bijna alle mogelijke kleuren omvat die een mens kan waarnemen. Maar omdat ze een veel breder kleurenbereik beslaan dan sRGB, moet de resulterende afbeelding worden bekeken in een kleurbeheerde applicatie, anders zien de kleuren er erg saai uit.<br><br>De brede kleurruimten van het gamma moeten over het algemeen worden gebruikt met 16-bits uitvoer. Een resolutie van 8 bits is niet voldoende om alle beschikbare kleuren te dekken, en vloeiende kleurovergangen kunnen een 'posterized' uiterlijk hebben. Bijgevolg is JPEG geen geschikt formaat omdat het beperkt is tot 8 bits.<br><br>Houd er rekening mee dat het geen voordeel heeft om naar een bredere kleurruimte uit te voeren dan de kleurruimte van de bronafbeelding. Het converteren van een sRGB-afbeelding naar een brede kleurruimte zal de afbeelding niet verbeteren. Daarom biedt PTGui de mogelijkheid om hetzelfde kleurprofiel te gebruiken als de bronafbeeldingen. Dit wordt standaard gedaan als alle afbeeldingen in het panorama hetzelfde kleurprofiel hebben.<br><br>Voor RAW-afbeeldingen moet expliciet een kleurruimte worden gekozen; deze kleurruimte wordt gebruikt tijdens onbewerkte conversie."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Als alle afbeeldingen dezelfde kleurruimte hebben, wordt deze kleurruimte gebruikt (in plaats van de hierboven geselecteerde kleurruimte).",
+			"morehelptext": "<br><br>Merk op dat deze instelling wordt genegeerd voor RAW-bronafbeeldingen. RAW-afbeeldingen worden altijd geconverteerd naar de hierboven geselecteerde kleurruimte."
 		}
 	],
 	"helppages": [

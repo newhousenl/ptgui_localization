@@ -7143,6 +7143,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "曝光补偿"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "输出的色彩空间："
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "尽可能使用源图像中的色彩空间"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "ICC颜色配置文件"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "加载ICC颜色配置文件"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "不是RGB颜色配置文件。需要RGB颜色配置文件，例如不支持CMYK配置文件。"
 		}
 	],
 	"tooltips": [
@@ -9639,6 +9664,18 @@
 			"machinetranslated": true,
 			"helptext": "用与周围区域相似的颜色填充全景图中的所有透明区域。",
 			"morehelptext": "<br><br>如果启用，则全景图的所有透明区域都将填充平滑的颜色渐变。如果未拍摄到天底或天顶图像，则可用于例如填充全景的天空或地面。<br><br>它也可以与@mainwindow.tabs.mask@工具一起使用，以模糊全景图的某些部分。例如，模糊人脸以使其无法识别，或去除照片中的灰尘斑点。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "为生成的全景图选择ICC颜色配置文件。",
+			"morehelptext": "<br><br>通常通过组合不同数量的红色，绿色和蓝色来产生数字图像中的颜色。但是，红色，绿色和蓝色值的给定组合并不能唯一地描述物理颜色：实际再现的颜色取决于显示器的物理属性。换句话说：不同的显示设备使用略有不同的红色，绿色和蓝色基色。没有更多信息，图像在每个屏幕上看起来可能会有所不同。通过包括颜色配置文件，图像中的像素值与实际的物理颜色匹配。 PTGui会将所有颜色转换为所选颜色空间，并将ICC颜色配置文件包含在图像文件中。<br><br>常见的颜色配置文件是：<br><br><b>sRGB</b> ：这是数字图像的实际标准色彩空间。在未经校准的显示器上以及未进行颜色管理的应用程序中，该图像将具有合理的外观。如果您的全景图将发布在Internet上，则sRGB是一个不错的选择。另一方面，sRGB是相对狭窄的色彩空间。某些可以打印在纸上的颜色不属于sRGB颜色空间。<br><br><b>Adobe RGB（1998）</b> ：此颜色空间具有比sRGB更大的色域，并且涵盖了几乎所有可以在纸上打印的颜色。如果要打印全景图，这是一个不错的选择。<br><br><b>ProPhoto RGB</b>和<b>宽色域RGB</b> ：这些色域具有很大的色域，涵盖了人类可以感知的几乎所有可能的颜色。但是，由于它们涵盖的颜色范围比sRGB大得多，因此必须在颜色管理的应用程序中查看生成的图像，否则颜色将显得很暗淡。<br><br>宽色域色彩空间通常应与16位输出一起使用。 8位分辨率不足以覆盖所有可用的颜色，并且平滑的颜色渐变可能具有“后置”外观。因此，JPEG是不合适的格式，因为它被限制为8位。<br><br>请记住，输出到比源图像的色彩空间更宽的色彩空间没有任何好处。将sRGB图像转换为宽色域的色彩空间不会改善图像。因此，PTGui提供了使用与源图像相同的颜色配置文件的选项。如果全景图中的所有图像都具有相同的颜色配置文件，则默认情况下会执行此操作。<br><br>对于RAW图像，必须明确选择色彩空间。此颜色空间将在原始转换期间使用。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "如果所有图像具有相同的色彩空间，则将使用此色彩空间（而不是上面选择的色彩空间）。",
+			"morehelptext": "<br><br>请注意，对于RAW源图像，此设置将被忽略。 RAW图像将始终转换为上面选择的色彩空间。"
 		}
 	],
 	"helppages": [

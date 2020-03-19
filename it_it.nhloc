@@ -6725,6 +6725,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Compensazione dell'esposizione"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Spazio colore per l'output:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Utilizzare lo spazio colore dalle immagini sorgente, se possibile"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "Profili colore ICC"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Carica profilo colore ICC"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "Non un profilo colore RGB. È necessario un profilo colore RGB, ad esempio i profili CMYK non sono supportati."
 		}
 	],
 	"tooltips": [
@@ -9221,6 +9246,18 @@
 			"machinetranslated": true,
 			"helptext": "Riempi tutte le aree trasparenti nel panorama con un colore simile all'area circostante.",
 			"morehelptext": "<br><br>Se abilitato, tutte le aree trasparenti del panorama verranno riempite con una sfumatura di colore uniforme. Questo può essere usato ad esempio per riempire il cielo o il fondo del panorama se non è stata scattata alcuna immagine di nadir o zenit.<br><br>Può anche essere utilizzato in combinazione con lo strumento @mainwindow.tabs.mask@ per sfocare alcune parti del panorama. Ad esempio per sfocare i volti delle persone per renderle irriconoscibili o per rimuovere le macchie di polvere nelle foto."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Seleziona il profilo colore ICC per il panorama generato.",
+			"morehelptext": "<br><br>I colori nelle immagini digitali sono generalmente prodotti combinando diverse quantità di colori rosso, verde e blu. Tuttavia, una determinata combinazione di valori di rosso, verde e blu non descrive in modo univoco un colore fisico: il colore riprodotto effettivo dipende dalle proprietà fisiche del display. In altre parole: diversi dispositivi di visualizzazione utilizzano tipi leggermente diversi di colori di base rosso, verde e blu. Senza ulteriori informazioni l'immagine potrebbe apparire diversa su ogni schermo. Includendo un profilo colore, i valori dei pixel in un'immagine sono abbinati ai colori fisici reali. PTGui convertirà tutti i colori nello spazio colore selezionato e includerà il profilo colore ICC nel file di immagine.<br><br>I profili colore comuni sono:<br><br><b>sRGB</b> : questo è lo spazio colore standard di fatto per le immagini digitali. L'immagine apparirà ragionevolmente buona su display non calibrati e in applicazioni che non sono gestite a colori. Se il tuo panorama verrà pubblicato su Internet, sRGB è una buona scelta. D'altra parte sRGB è uno spazio colore relativamente stretto. Alcuni colori che possono essere stampati su carta, non sono coperti dallo spazio colore sRGB.<br><br><b>Adobe RGB (1998)</b> : questo spazio colore ha una gamma cromatica più ampia rispetto a sRGB e copre quasi tutti i colori che possono essere stampati su carta. Questa è una buona scelta se il panorama verrà stampato.<br><br><b>ProPhoto RGB</b> e <b>Wide Gamut RGB</b> : questi spazi colore hanno una gamma molto ampia, che copre quasi tutti i colori possibili che un essere umano può percepire. Ma poiché coprono una gamma di colori molto più ampia rispetto a sRGB, l'immagine risultante deve essere visualizzata in un'applicazione gestita a colori, altrimenti i colori appariranno molto opachi.<br><br>Gli ampi spazi colore di gamma dovrebbero essere generalmente utilizzati con output a 16 bit. 8 bit di risoluzione non sono sufficienti per coprire tutti i colori disponibili e le sfumature di colore uniformi possono avere un aspetto &quot;posterizzato&quot;. Di conseguenza, JPEG non è un formato adatto perché è limitato a 8 bit.<br><br>Tieni presente che non vi è alcun vantaggio nell'output in uno spazio colore più ampio rispetto allo spazio colore dell'immagine sorgente. La conversione di un'immagine sRGB in uno spazio cromatico di ampia gamma non migliorerà l'immagine. Pertanto PTGui offre la possibilità di utilizzare lo stesso profilo colore delle immagini di origine. Questo viene fatto per impostazione predefinita se tutte le immagini nel panorama hanno lo stesso profilo colore.<br><br>Per le immagini RAW è necessario scegliere esplicitamente uno spazio colore; questo spazio colore verrà utilizzato durante la conversione grezza."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Se tutte le immagini hanno lo stesso spazio colore, verrà utilizzato questo spazio colore (anziché lo spazio colore selezionato sopra).",
+			"morehelptext": "<br><br>Si noti che questa impostazione viene ignorata per le immagini di origine RAW. Le immagini RAW verranno sempre convertite nello spazio colore selezionato sopra."
 		}
 	],
 	"helppages": [

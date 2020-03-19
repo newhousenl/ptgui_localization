@@ -7142,6 +7142,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Compensación de exposición"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Espacio de color para salida:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Use espacio de color de las imágenes de origen si es posible"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "Perfiles de color ICC"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Cargar perfil de color ICC"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "No es un perfil de color RGB. Se necesitan perfiles de color RGB, por ejemplo, los perfiles CMYK no son compatibles."
 		}
 	],
 	"tooltips": [
@@ -9638,6 +9663,18 @@
 			"machinetranslated": true,
 			"helptext": "Rellene todas las áreas transparentes en el panorama con un color similar al área circundante.",
 			"morehelptext": "<br><br>Si está habilitado, todas las áreas transparentes del panorama se rellenarán con un degradado de color suave. Esto se puede usar, por ejemplo, para llenar el cielo o el piso de la panorámica si no se ha tomado una imagen nadir o cenital.<br><br>También se puede usar junto con la herramienta @mainwindow.tabs.mask@ para desenfocar ciertas partes del panorama. Por ejemplo, para desenfocar los rostros de las personas para hacerlas irreconocibles, o para eliminar las manchas de polvo en las fotos."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Seleccione el perfil de color ICC para el panorama generado.",
+			"morehelptext": "<br><br>Los colores en las imágenes digitales generalmente se producen combinando diferentes cantidades de colores rojo, verde y azul. Sin embargo, una combinación dada de valores rojo, verde y azul no describe de manera exclusiva un color físico: el color reproducido real depende de las propiedades físicas de la pantalla. En otras palabras: diferentes dispositivos de visualización utilizan tipos ligeramente diferentes de colores básicos rojo, verde y azul. Sin más información, la imagen podría verse diferente en cada pantalla. Al incluir un perfil de color, los valores de píxeles en una imagen coinciden con los colores físicos reales. PTGui convertirá todos los colores al espacio de color seleccionado e incluirá el perfil de color ICC en el archivo de imagen.<br><br>Los perfiles de color comunes son:<br><br><b>sRGB</b> : este es el espacio de color estándar de facto para imágenes digitales. La imagen se verá razonablemente bien en pantallas no calibradas y en aplicaciones que no son de color administrado. Si su panorama se publicará en Internet, sRGB es una buena opción. Por otro lado, sRGB es un espacio de color relativamente estrecho. Ciertos colores que se pueden imprimir en papel no están cubiertos por el espacio de color sRGB.<br><br><b>Adobe RGB (1998)</b> : este espacio de color tiene una gama de colores más amplia que sRGB y cubre casi todos los colores que se pueden imprimir en papel. Esta es una buena opción si se va a imprimir el panorama.<br><br><b>ProPhoto RGB</b> y <b>Wide Gamut RGB</b> : estos espacios de color tienen una gama muy grande, que cubre casi todos los colores posibles que un humano puede percibir. Pero debido a que cubren una gama de colores mucho más amplia que sRGB, la imagen resultante debe verse en una aplicación administrada por color, de lo contrario, los colores se verán muy opacos.<br><br>Los espacios de color de la amplia gama generalmente deben usarse con una salida de 16 bits. 8 bits de resolución no son suficientes para cubrir todos los colores disponibles, y los gradientes de color suaves pueden tener un aspecto &quot;posterizado&quot;. En consecuencia, JPEG no es un formato adecuado porque está limitado a 8 bits.<br><br>Tenga en cuenta que no hay ningún beneficio en la salida a un espacio de color más amplio que el espacio de color de la imagen de origen. Convertir una imagen sRGB en un amplio espacio de color de gama no mejorará la imagen. Por lo tanto, PTGui ofrece la opción de usar el mismo perfil de color que las imágenes de origen. Esto se hace por defecto si todas las imágenes en el panorama tienen el mismo perfil de color.<br><br>Para imágenes RAW, se debe elegir un espacio de color explícitamente; Este espacio de color se utilizará durante la conversión sin formato."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Si todas las imágenes tienen el mismo espacio de color, se utilizará este espacio de color (en lugar del espacio de color seleccionado anteriormente).",
+			"morehelptext": "<br><br>Tenga en cuenta que esta configuración se ignora para las imágenes de origen RAW. Las imágenes RAW siempre se convertirán al espacio de color seleccionado anteriormente."
 		}
 	],
 	"helppages": [

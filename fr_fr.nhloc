@@ -7138,6 +7138,31 @@
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
 			"machinetranslated": true,
 			"txt": "Compensation d'exposition"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"txt": "Espace colorimétrique pour la sortie:"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"txt": "Utilisez si possible l'espace colorimétrique des images source"
+		},
+		{
+			"id": "txt.iccprofiles",
+			"machinetranslated": true,
+			"txt": "Profils de couleurs ICC"
+		},
+		{
+			"id": "txt.openiccprofile",
+			"machinetranslated": true,
+			"txt": "Charger le profil de couleur ICC"
+		},
+		{
+			"id": "err.iccprofilenotrgb",
+			"machinetranslated": true,
+			"txt": "Pas un profil de couleurs RVB. Un profil de couleur RVB est nécessaire, par exemple les profils CMJN ne sont pas pris en charge."
 		}
 	],
 	"tooltips": [
@@ -9634,6 +9659,18 @@
 			"machinetranslated": true,
 			"helptext": "Remplisser toutes les zones transparentes du panorama avec une couleur similaire à la zone environnante.",
 			"morehelptext": "<br><br>Si cette option est activée, toutes les zones transparentes du panorama seront remplies d'un dégradé de couleur lisse. Cela peut être utilisé par exemple pour remplir le ciel ou le sol du panorama si aucune image au nadir ou au zénith n'a été prise.<br><br>Il peut également être utilisé conjointement avec l'outil @mainwindow.tabs.mask@ pour brouiller certaines parties du panorama. Par exemple pour brouiller les visages des gens pour les rendre méconnaissables, ou pour enlever les taches de poussière sur les photos."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.outputcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Sélectionnez le profil de couleurs ICC pour le panorama généré.",
+			"morehelptext": "<br><br>Les couleurs des images numériques sont généralement produites en combinant différentes quantités de couleurs rouge, vert et bleu. Cependant, une combinaison donnée de valeurs rouges, vertes et bleues ne décrit pas uniquement une couleur physique: la couleur réelle reproduite dépend des propriétés physiques de l'affichage. En d'autres termes: différents dispositifs d'affichage utilisent des types de couleurs de base légèrement différents, rouges, verts et bleus. Sans plus d'informations, l'image peut sembler différente sur chaque écran. En incluant un profil de couleur, les valeurs de pixels dans une image sont mises en correspondance avec des couleurs physiques réelles. PTGui convertira toutes les couleurs dans l'espace colorimétrique sélectionné et inclura le profil de couleur ICC dans le fichier image.<br><br>Les profils de couleur courants sont:<br><br><b>sRGB</b> : il s'agit de l'espace colorimétrique standard de facto pour les images numériques. L'image paraîtra raisonnablement bonne sur les écrans non étalonnés et dans les applications qui ne sont pas gérées par les couleurs. Si votre panorama sera publié sur Internet, sRGB est un bon choix. D'un autre côté, le sRGB est un espace colorimétrique relativement étroit. Certaines couleurs pouvant être imprimées sur papier ne sont pas couvertes par l'espace colorimétrique sRGB.<br><br><b>Adobe RGB (1998)</b> : cet espace colorimétrique a une gamme de couleurs plus large que sRGB et couvre presque toutes les couleurs pouvant être imprimées sur papier. C'est un bon choix si le panorama doit être imprimé.<br><br><b>ProPhoto RGB</b> et <b>Wide Gamut RGB</b> : ces espaces colorimétriques ont une très large gamme, couvrant presque toutes les couleurs possibles qu'un humain peut percevoir. Mais parce qu'ils couvrent une gamme de couleurs beaucoup plus large que sRGB, l'image résultante doit être visualisée dans une application à gestion des couleurs, sinon les couleurs seront très ternes.<br><br>Les grands espaces colorimétriques doivent généralement être utilisés avec une sortie 16 bits. 8 bits de résolution ne suffisent pas pour couvrir toutes les couleurs disponibles, et les dégradés de couleurs lisses peuvent avoir un aspect «postérisé». Par conséquent, JPEG n'est pas un format approprié car il est limité à 8 bits.<br><br>Gardez à l'esprit que la sortie vers un espace colorimétrique plus large que l'espace colorimétrique de l'image source ne présente aucun avantage. La conversion d'une image sRGB en un espace colorimétrique large n'améliorera pas l'image. Par conséquent, PTGui offre la possibilité d'utiliser le même profil de couleur que les images source. Cela se fait par défaut si toutes les images du panorama ont le même profil de couleur.<br><br>Pour les images RAW, un espace colorimétrique doit être choisi explicitement; cet espace colorimétrique sera utilisé lors de la conversion brute."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
+			"machinetranslated": true,
+			"helptext": "Si toutes les images ont le même espace colorimétrique, cet espace colorimétrique sera utilisé (au lieu de l'espace colorimétrique sélectionné ci-dessus).",
+			"morehelptext": "<br><br>Notez que ce paramètre est ignoré pour les images source RAW. Les images RAW seront toujours converties dans l'espace colorimétrique sélectionné ci-dessus."
 		}
 	],
 	"helppages": [

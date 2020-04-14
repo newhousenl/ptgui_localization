@@ -5864,6 +5864,34 @@
 {
     "id": "err.iccprofilenotrgb",
     "txt": "Not an RGB color profile. An RGB color profiles is needed, for example CMYK profiles are not supported."
+},
+{
+    "id": "mainwindow.exposurehdrpanel.hdrflow",
+    "txt": "HDR workflow:"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+    "txt": "Merge bracketed images to HDR, then blend"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+    "txt": "Create blend planes first, then merge to HDR"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+    "txt": "Create blend planes first, then merge to HDR"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.mergemethod_short",
+    "txt": "Merge using:"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+    "txt": "Enable Exposure Fusion for single exposures"
+},
+{
+    "id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+    "txt": "Apply Exposure Fusion"
 }
 
 
@@ -7938,8 +7966,29 @@
             "id": "mainwindow.createpanoramatab.usesourcecolorprofile",
             "helptext": "If all images have the same color space, this color space will be used (instead of the color space selected above).",
             "morehelptext": "<br><br>Note that this setting is ignored for RAW source images. RAW images will always be converted to the color space selected above."
+        },
+        {
+            "id": "mainwindow.exposurehdrpanel.hdrflow",
+            "helptext": "Configures how bracketed exposures are handled.",
+            "morehelptext": "<br><br>Bracketed exposures can be processed in two ways:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui first combines each set of bracketed exposures into an HDR image (or combines them using Exposure Fusion). Then, the combined images are blended into a panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> First, so-called 'blend planes' are created. A blend plane is the complete panorama at one exposure level (i.e. all images taken at identical expsoure time, aperture and ISO). Finally, the separate blend planes are combined into an HDR image or an exposure fused image. This method should be used only for panoramas taken in manual exposure mode. It requires that the entire panorama is fully covered at each exposure level.<br><br><b>@options.automatic@:</b> Chooses the best option for the current project. If the images were taken in manual exposure mode, blend planes will be created. Otherwise the bracketed images will be combined first and then blended."
+        },
+        {
+            "id": "mainwindow.exposurehdrpanel.mergemethod",
+            "helptext": "Configures how bracketed exposures are combined.",
+            "morehelptext": "Bracketed exposures (for HDR) will be combined into a single image. PTGui can do this in two different ways:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Bracketed exposures are first combined into a true high dynamic range image. This HDR image covers the entire dynamic range of all source images, from the darkest to the brightest images. Then, generally tone mapping will be used to convert this into a low dynamic range image suitable for displaying or printing.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> bracketed exposures are combined directly into a tone mapped low dynamic range image. This bypasses the step of first creating a high dynamic range image for tone mapping.<br><br>Settings for tone mapping and exposure fusions can be adjusted in the Panorama Editor's sidebar."
+        },
+        {
+            "id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+            "helptext": "Enable Exposure Fusion for non-bracketed images",
+            "morehelptext": "<br><br>Normally, Exposure Fusion is used to combine multiple bracketed expsoures into a single image with reduced dynamic range. But PTGui can use exposure fusion on single images as well, by creating artificial darker and brighter copies of the same image. This increases visible detail in the shadows and highlights, similar to tone mapping."
+        },
+        {
+            "id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+            "helptext": "Combine bracketed exposures using Exposure Fusion",
+            "morehelptext": "<br><br>Exposure Fusion is used to combine multiple bracketed expsoures into a single image with reduced dynamic range. It's also possible to use Exposure Fusion on single, non-bracketed images as well, by creating artificial darker and brighter copies of the same image. This increases visible detail in the shadows and highlights, similar to tone mapping."
         }
-
+        
+        
 
             
     ],

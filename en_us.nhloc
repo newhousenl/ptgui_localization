@@ -5892,6 +5892,22 @@
 {
     "id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
     "txt": "Apply Exposure Fusion"
+},
+{
+    "id": "mainwindow.imageparameters.cameracurve",
+    "txt": "Camera Curve"
+},
+{
+    "id": "txt.globalcameracurve",
+    "txt": "Global camera curve"
+},
+{
+    "id": "txt.cameracurve_n",
+    "txt": "Camera curve #%0"
+},
+{
+    "id": "txt.cameracurve.linear",
+    "txt": "Linear"
 }
 
 

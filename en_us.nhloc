@@ -5908,6 +5908,10 @@
 {
     "id": "txt.cameracurve.linear",
     "txt": "Linear"
+},
+{
+    "id": "err.deletecameracurve_inuse",
+    "txt": "This camera curve cannot be deleted because it is used by one or more images. The camera curve for each image can be selected in the @mainwindow.tabs.imageparameters@ tab."
 }
 
 

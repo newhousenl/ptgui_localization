@@ -8021,7 +8021,7 @@
             "id": "panoramaeditor.sidebar.tryusesourceimagecameracurve",
             "helptext": "If possible, use the source image camera curve also for the output. This will give a neutral look.",
             "morehelptext": "<br><br>Before HDR processing anmd blending, the image is adjusted with the inverse of source image curve (as set in the @mainwindow.tabs.exposurehdr@ tab). This ensures that blending is performed in linear space. After blending, the toning curve shown here applied. If the same curve is used, effectively no corrections are applied and the panorama will look neutral. Uncheck this box to use a custom curve.<br><br>This option has no effect for RAW and HDR source images: PTGui loads RAW and HDR images in linear space, so no toning is applied before blending. In this case a toning curve must be configured explicitly.<br><br>Similarly, if multiple camera curves are used in the same project, a custom toning curve must be used."
-        },
+        }
         
         
         

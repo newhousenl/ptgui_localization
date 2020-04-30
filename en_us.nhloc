@@ -5920,6 +5920,42 @@
 {
     "id": "panoramaeditor.sidebar.tryusesourceimagecameracurve",
     "txt": "Use curve from source images"
+},
+{
+    "id": "txt.toningparameters",
+    "txt": "Toning parameters"
+},
+{
+    "id": "txt.toningcurve",
+    "txt": "Toning curve"
+},
+{
+    "id": "txt.toningcurve.shape",
+    "txt": "Shape:"
+},
+{
+    "id": "txt.toningcurve.shift",
+    "txt": "Shift:"
+},
+{
+    "id": "txt.savetoningparameters",
+    "txt": "Save @txt.toningparameters@"
+},
+{
+    "id": "txt.loadtoningparameters",
+    "txt": "Load @txt.toningparameters@"
+},
+{
+    "id": "txt.saturation",
+    "txt": "Saturation"
+},
+{
+    "id": "txt.saturation.shadows",
+    "txt": "Shadows:"
+},
+{
+    "id": "txt.saturation.shadows",
+    "txt": "Highlights:"
 }
 
 

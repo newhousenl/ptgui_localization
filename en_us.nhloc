@@ -5954,7 +5954,7 @@
     "txt": "Shadows:"
 },
 {
-    "id": "txt.saturation.shadows",
+    "id": "txt.saturation.highlights",
     "txt": "Highlights:"
 }
 

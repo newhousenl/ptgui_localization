@@ -6641,7 +6641,7 @@
         {
             "id": "exposurehdrtab.optimizenow",
             "helptext": "Run exposure optimization.",
-            "morehelptext": "<br><br>Analyzes overlapping pixels from different images. Depending on what's enabled in the @settings@ window, this will adjust vignetting, exposure, the camera response curve, white balance and @lensflare@ compensation until the differences between overlapping pixels have been minimized.<br><br>Because it needs to analyze actual overlapping pixels, only use this function after the panorama has been aligned accurately."
+            "morehelptext": "<br><br>Analyzes overlapping pixels from different images. Depending on what's enabled in the @settings@ window (to open it, press the button next to this one), this will adjust vignetting, exposure, the camera response curve, white balance and @lensflare@ compensation until the differences between overlapping pixels have been minimized.<br><br>Because it needs to analyze actual overlapping pixels, only use this function after the panorama has been aligned accurately."
         },
         {
             "id": "exposurehdrtab.settings",

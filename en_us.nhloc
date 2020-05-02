@@ -5956,6 +5956,14 @@
 {
     "id": "txt.saturation.highlights",
     "txt": "Highlights:"
+},
+{
+    "id": "txt.whitepoint",
+    "txt": "White point:"
+},
+{
+    "id": "mainwindow.imageparameters.whitepoint",
+    "txt": "White point"
 }
 
 

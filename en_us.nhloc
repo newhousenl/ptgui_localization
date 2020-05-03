@@ -5804,7 +5804,7 @@
 },
 {
     "id": "panoramaeditor.sidebar.blendsettings.seamfinding",
-    "txt": "Find optimum seam"
+    "txt": "Find optimum seams"
 },
 {
     "id": "panoramaeditor.sidebar.blendsettings.blending",
@@ -6644,7 +6644,7 @@
         {
             "id": "exposurehdrtab.exposurecompensation",
             "helptext": "Adjust for exposure differences caused by automatic exposure.",
-            "morehelptext": "<br><br>The blender can somewhat compensate for exposure differences, but for the best results the overlapping images should have approximately the same exposure.<br><br>If automatic exposure is enabled (e.g. when using the camera's Av mode), neighboring images may have different exposure levels. Exposure Compensation inspects the EXIF data and adjusts each image's exposure level to an average exposure before blending. Can be used in conjunction with tone mapping to cope with high contrast scenes."
+            "morehelptext": "<br><br>The blender can somewhat compensate for exposure differences, but for the best results the overlapping images should have approximately the same exposure.<br><br>If automatic exposure is enabled (e.g. when using the camera's Av mode), neighboring images may have different exposure levels. @panoramaeditor.sidebar.blendsettings.exposurecompensation@ inspects the EXIF data and adjusts each image's exposure level to an average exposure before blending. Can be used in conjunction with tone mapping to cope with high contrast scenes.<br><br>@panoramaeditor.sidebar.blendsettings.exposurecompensation@ uses only the images' EXIF data to adjust each image's exposure level to an average exposure before blending. If there is no EXIF exposure information available, @mainwindow.exposurehdrpanel.autoexpadjustmentsection@ in the @mainwindow.tabs.exposurehdr@ tab can be used to analyze the images and adjust exposure differences."
         },
         {
             "id": "exposurehdrtab.optimizenow",

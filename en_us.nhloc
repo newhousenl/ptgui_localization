@@ -5958,12 +5958,12 @@
     "txt": "Highlights:"
 },
 {
-    "id": "txt.whitepoint",
-    "txt": "White point:"
+    "id": "mainwindow.imageparameters.whitebalance",
+    "txt": "White balance"
 },
 {
-    "id": "mainwindow.imageparameters.whitepoint",
-    "txt": "White point"
+    "id": "txt.asshot",
+    "txt": "As shot"
 }
 
 

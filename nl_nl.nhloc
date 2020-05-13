@@ -679,7 +679,7 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusion",
-			"txt": "Belichtingsfusie"
+			"txt": "Exposure fusion"
 		},
 		{
 			"id": "panoramaeditor.sidebar.numtransform",
@@ -1662,7 +1662,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod.exposurefusion",
-			"txt": "Belichtingsfusie"
+			"txt": "Exposure fusion"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrdisabled",
@@ -1734,7 +1734,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusionsettings",
-			"txt": "instellingen voor belichtingsfusie"
+			"txt": "instellingen voor exposure fusion"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapsettings",
@@ -6698,7 +6698,7 @@
 		{
 			"id": "projectsettingstab.templatebehavior.panoramasettings",
 			"helptext": "Als dit is ingeschakeld, worden alle uitvoer- en projectiegerelateerde parameters naar het doelproject gekopieerd.",
-			"morehelptext": "De volgende parameters worden gekopieerd:<br><br>• panorama-projectie en gezichtsveld<br>• panorama bijsnijd-instellingen<br>• uitvoerformaat (breedte x hoogte)<br>• uitvoer bestandsformaat en bijbehorende instellingen<br>• blender instellingen<br>• instellingen voor HDR, belichtingsfusie en tonemapping<br>• interpolator<br>• instellingen voor belichtingsoptimalisatie (voor belichting en vignetteringcorrectie)<br>• globale witbalans en belichtingsverschuiving<br>• metadata instellingen voor het panorama"
+			"morehelptext": "De volgende parameters worden gekopieerd:<br><br>• panorama-projectie en gezichtsveld<br>• panorama bijsnijd-instellingen<br>• uitvoerformaat (breedte x hoogte)<br>• uitvoer bestandsformaat en bijbehorende instellingen<br>• blender instellingen<br>• instellingen voor HDR, Exposure fusion en tonemapping<br>• interpolator<br>• instellingen voor belichtingsoptimalisatie (voor belichting en vignetteringcorrectie)<br>• globale witbalans en belichtingsverschuiving<br>• metadata instellingen voor het panorama"
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.pojectsettings",
@@ -7100,7 +7100,7 @@
 		},
 		{
 			"id": "exposurefusionsettings.brightness",
-			"helptext": "Stelt de algehele helderheid in van de belichtingsfusie. 0 is zwart, 1 is wit."
+			"helptext": "Stelt de algehele helderheid in van de exposure fusion. 0 is zwart, 1 is wit."
 		},
 		{
 			"id": "exposurefusionsettings.boostshadows",
@@ -8073,7 +8073,7 @@
 		},
 		{
 			"id": "mainwindow.previewtab",
-			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Maak een voorvertoning aan van het panorama om te zien hoe het uiteindelijke panorama eruit zal zien. Het resultaat is een jpeg-bestand van een bepaalde grootte, dat voor de rest identiek is aan het panorama dat zou worden gegenereerd op het tabblad @mainwindow.tabs.createpanorama@. Voordat er wordt gestitched vraagt ​​PTGui u welke applicatie u wilt gebruiken om een voorvertoning weer te geven.<br><br>Extra toepassingen voor het weergeven van de voorvertoning kunnen worden geconfigureerd in @optionspreferences@ | @options.foldersandfileshtml@. <optional product='pro'><br><br>Voor HDR-panorama's wordt alleen het panorama met tone mapping of belichtingsfusie  gegenereerd.</optional>"
+			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Maak een voorvertoning aan van het panorama om te zien hoe het uiteindelijke panorama eruit zal zien. Het resultaat is een jpeg-bestand van een bepaalde grootte, dat voor de rest identiek is aan het panorama dat zou worden gegenereerd op het tabblad @mainwindow.tabs.createpanorama@. Voordat er wordt gestitched vraagt ​​PTGui u welke applicatie u wilt gebruiken om een voorvertoning weer te geven.<br><br>Extra toepassingen voor het weergeven van de voorvertoning kunnen worden geconfigureerd in @optionspreferences@ | @options.foldersandfileshtml@. <optional product='pro'><br><br>Voor HDR-panorama's wordt alleen het panorama met tone mapping of exposure fusion gegenereerd.</optional>"
 		},
 		{
 			"id": "mainwindow.metadatatab",

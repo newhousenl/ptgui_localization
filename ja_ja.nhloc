@@ -5785,6 +5785,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "RGBカラープロファイルではありません。 RGBカラープロファイルが必要です。たとえば、CMYKプロファイルはサポートされていません。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "HDRワークフロー："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "ブラケット画像をHDRにマージしてからブレンド"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "最初にブレンドプレーンを作成してから、HDRにマージします"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "使用してマージ："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "単一露出の露出フュージョンを有効にする"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Exposure Fusionを適用する"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "カメラカーブ"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "グローバルカメラカーブ"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "カメラ曲線＃%0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "線形"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "このカメラカーブは1つ以上の画像で使用されているため削除できません。各画像のカメラカーブは、@mainwindow.tabs.imageparameters@タブで選択できます。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "後処理"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "調色パラメータ"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "調色曲線"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "形状："
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "シフト："
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "@txt.toningparameters@を保存"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "@txt.toningparameters@をロード"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "飽和"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "影："
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "ハイライト："
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "ホワイトバランス"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "オリジナルとして"
 		}
 	],
 	"tooltips": [
@@ -7512,11 +7627,6 @@
 			"morehelptext": "<br><br>有効にすると、 「Image Parameters」タブの「Exp. offset」列が調整されます。 <br><br><b>必要な場合のみ（Only if necessary）</b>：画像のEXIFデータに露出情報が含まれる場合、 このデータが使用され、 追加の露出最適化は行われません。 EXIFデータに露光情報が含まれていない場合、 完全露光最適化が行われます。 <br><br><b>無効（Disabled）</b>：露出は最適化されず、 次の最適化時にすべての画像の露出補正がゼロにリセットされます。 <br><br><b>有効（微調整のみ）（Enabled (fine tune only)）</b>：EXIFデータにおおよそ正しい露出データが含まれていると仮定します。 これは、 さらなる露光最適化の出発点として使用されます。 <br><br><b>有効（完全）（Enabled (full)）</b>：EXIF露出データを無視して、 完全露光最適化を実行します。 <br><br><b>現在の状態を維持（Keep Current）</b>：現在の露出パラメータが維持されます。 "
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"helptext": "画像間の色の違いを最小限にするために、 個々のソース画像のホワイトバランスを調整するかどうかを制御します。 ",
-			"morehelptext": "<br><br>有効にすると、 「Image Parameters」タブの「WB red/green/blue」列が調整されます。 <br><br><b>必要な場合のみ（Only if necessary）</b>：1つまたは複数の画像のEXIFデータが自動ホワイトバランスが使用されたことを示す場合、 ホワイトバランス最適化が行われます。 画像が固定ホワイトバランスで撮影された場合、 ホワイトバランスは最適化されません。 <br><br><b>無効（Disabled）</b>：ホワイトバランスが最適化されず、 次の最適化時にすべての画像のホワイトバランスパラメータがゼロにリセットされます。 <br><br><b>有効（Enabled）</b>：ホワイトバランスが最適化されます。 <br><br><b>現在の状態を維持（Keep Current）</b>：現在のホワイトバランスパラメータが維持されます。 "
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"helptext": "個々のソース画像のフレアが補正されるかどうかを制御します。 個々の画像のコントラストは、 レンズフレアによって引き起こされるコントラストの低下を補うために増加される。 ",
 			"morehelptext": "<br><br>有効にすると、 「Image Parameters」タブの「Flare」列が調整されます。 <br><br><b>無効（Disabled）</b>：フレアが最適化されず、 次の最適化時にすべての画像のフレアパラメータがゼロにリセットされます。 <br><br><b>有効（Enabled）</b>：フレアは最適化されます。 <br><br><b>現在の状態を維持（Keep Current）</b>：現在のフレアのパラメータは保持されます。 "
@@ -7854,6 +7964,36 @@
 			"machinetranslated": true,
 			"helptext": "すべての画像の色空間が同じ場合、（上記で選択した色空間の代わりに）この色空間が使用されます。",
 			"morehelptext": "<br><br>この設定はRAWソース画像では無視されることに注意してください。 RAW画像は常に上記で選択した色空間に変換されます。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "ブラケット化された露出の処理方法を構成します。",
+			"morehelptext": "<br><br>ブラケット露光は次の2つの方法で処理できます。<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@：</b> PTGuiは最初に、ブラケットされた露出の各セットをHDR画像に結合します（またはExposure Fusionを使用してそれらを結合します）。次に、組み合わされた画像がパノラマにブレンドされます。<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@：</b>最初に、いわゆる「ブレンドプレーン」が作成されます。ブレンドプレーンは、1つの露出レベルでの完全なパノラマです（つまり、同じ露出時間、絞り、ISOで撮影されたすべての画像）。最後に、個別のブレンド平面がHDR画像または露出融合画像に結合されます。この方法は、手動露出モードで撮影したパノラマにのみ使用してください。パノラマ全体が各露出レベルで完全に覆われている必要があります。<br><br><b>@options.automatic@：</b>現在のプロジェクトに最適なオプションを選択します。画像が手動露出モードで撮影された場合、ブレンド平面が作成されます。それ以外の場合は、ブラケット画像が最初に結合され、次にブレンドされます。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "ブラケットされた露出を組み合わせる方法を構成します。",
+			"morehelptext": "ブラケット露光（HDRの場合）は1つの画像に結合されます。 PTGuiはこれを2つの異なる方法で実行できます。<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@：</b>ブラケット露光は、最初に真のハイダイナミックレンジイメージに結合されます。このHDR画像は、最も暗い画像から最も明るい画像まで、すべてのソース画像のダイナミックレンジ全体をカバーしています。次に、一般にトーンマッピングを使用して、これを表示または印刷に適した低ダイナミックレンジの画像に変換します。<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@：</b>ブラケット露光は、トーンマッピングされたローダイナミックレンジイメージに直接結合されます。これは、トーンマッピング用のハイダイナミックレンジイメージを最初に作成するステップをバイパスします。<br><br>トーンマッピングと露出の融合の設定は、パノラマエディターのサイドバーで調整できます。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "ブラケットなしの画像に対してExposure Fusionを有効にする",
+			"morehelptext": "<br><br>通常、Exposure Fusionは、ブラケット化された複数のexpsouresを、ダイナミックレンジを縮小した単一の画像に結合するために使用されます。ただし、PTGuiは、同じ画像の人工的な暗くて明るいコピーを作成することにより、単一の画像にも露出融合を使用できます。これにより、トーンマッピングと同様に、シャドウとハイライトの視覚的な詳細が向上します。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Exposure Fusionを使用してブラケット露光を組み合わせる",
+			"morehelptext": "<br><br>Exposure Fusionは、ブラケット化された複数のexpsouresを、ダイナミックレンジが低減された単一の画像に結合するために使用されます。同じ画像の暗い部分と明るい部分の人工的なコピーを作成することにより、ブラケットなしの単一の画像にもExposure Fusionを使用することもできます。これにより、トーンマッピングと同様に、シャドウとハイライトの視覚的な詳細が向上します。"
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "画像間の色の違いを最小限に抑えるために、個々のソース画像のホワイトバランスを調整するかどうかを制御します。",
+			"morehelptext": "<br><br>有効にすると、@mainwindow.tabs.imageparameters@タブの[@mainwindow.imageparameters.whitebalance@]列が調整されます。<br><br><b>@photometricsettings.onlyifnecessary@：</b> 1つ以上の画像のEXIFデータが自動ホワイトバランスが使用されたことを示している場合、ホワイトバランスの最適化が行われます。 （EXIFデータに従って）画像が特定のホワイトバランスプリセットで撮影された場合、すべての画像は同じホワイトバランス設定であると想定されるため、ホワイトバランスは最適化されません。<br><br><b>@photometricsettings.disabled@：</b>ホワイトバランスは最適化されず、現在のホワイトバランスパラメータが保持されます。<br><br><b>@photometricsettings.enabled@：</b>ホワイトバランスが最適化されます。"
 		}
 	],
 	"helppages": [

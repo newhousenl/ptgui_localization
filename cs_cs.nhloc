@@ -5775,6 +5775,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "Nejedná se o barevný profil RGB. Je zapotřebí profilů barev RGB, například profily CMYK nejsou podporovány."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "Pracovní postup HDR:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "Sloučte závorkované obrázky do HDR a poté prolněte"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "Nejprve vytvořte směsná letadla a poté sloučte s HDR"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "Sloučit pomocí:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "Aktivovat fúzi expozice pro jednotlivé expozice"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Aplikujte Exposure Fusion"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "Křivka kamery"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "Globální křivka kamery"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "Křivka kamery # %0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "Lineární"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "Tuto křivku kamery nelze odstranit, protože ji používá jeden nebo více snímků. Na kartě @mainwindow.tabs.imageparameters@ lze vybrat křivku kamery pro každý snímek."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "Post Process"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "Parametry tónování"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "Tónovací křivka"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "Tvar:"
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "Posun:"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "Ušetřete @txt.toningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "Vložte @txt.toningparameters@"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "Nasycení"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "Stíny:"
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "Přednosti:"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "Vyvážení bílé"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "Jako originál"
 		}
 	],
 	"tooltips": [
@@ -7987,12 +8102,6 @@
 			"morehelptext": "<br><br>Je-li zapnuta, bude sloupec '@mainwindow.imageparameters.expoffset@' na kartě @mainwindow.tabs.imageparameters@ upraven.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF u snímků obsahují informace o expozici, budou tato data použita a nebude provedena žádná další optimalizace expozice. Pokud data EXIF neobsahují informace o expozici, provede se úplná optimalizace expozice.<br><br><b>@photometricsettings.disabled@:</b> expozice nebude optimalizována a korekce expozice všech snímků bude při další optimalizaci vynulována.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> předpokládá, že data EXIF obsahují zhruba správná data o expozici; používá se jako výchozí bod pro další optimalizaci expozice.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> provádí optimalizaci úplné expozice a ignoruje data expozice EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> budou zachovány aktuální expoziční parametry."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Ovládá, zda bude vyvážení bílé jednotlivých zdrojových snímků upraveno, aby se minimalizovaly rozdíly barev mezi snímky.",
-			"morehelptext": "<br><br>Pokud je povoleno, budou sloupce &quot;WB červená / zelená / modrá&quot; na kartě @mainwindow.tabs.imageparameters@ upraveny.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud EXIF data jednoho nebo více snímků ukazují, že bylo použito automatické vyvážení bílé, bude optimalizace vyvážení bílé provedena. Pokud byly pořízeny snímky s pevným vyvážením bílé, není vyvážení bílé optimalizováno.<br><br><b>@photometricsettings.disabled@:</b> vyvážení bílé nebude optimalizováno a parametry vyvážení bílé všech snímků budou při další optimalizaci vynulovány.<br><br><b>@photometricsettings.enabled@:</b> vyvážení bílé bude optimalizováno.<br><br><b>@photometricsettings.keepcurrent@: budou</b> zachovány aktuální parametry vyvážení bílé."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Ovládá, zda bude @lensflare@ jednotlivých zdrojových snímků kompenzován. Kontrast jednotlivých snímků se zvýší, aby se kompenzovalo snížení kontrastu způsobené systémem @lensflare@.",
@@ -8100,6 +8209,42 @@
 			"machinetranslated": true,
 			"helptext": "Pokud mají všechny obrázky stejný barevný prostor, použije se tento barevný prostor (místo výše uvedeného barevného prostoru).",
 			"morehelptext": "<br><br>Toto nastavení je u zdrojových obrázků RAW ignorováno. Snímky RAW budou vždy převedeny na výše vybraný barevný prostor."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Určuje, zda bude vyvážení bílé jednotlivých zdrojových obrázků upraveno, aby se minimalizovaly barevné rozdíly mezi obrázky.",
+			"morehelptext": "<br><br>Pokud je tato možnost povolena, upraví se sloupec „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF jednoho nebo více obrázků naznačují, že bylo použito automatické vyvážení bílé, provede se optimalizace vyvážení bílé. Pokud (podle dat EXIF) byly snímky pořízeny s konkrétní předvolbou vyvážení bílé, předpokládá se, že všechny snímky mají stejné nastavení vyvážení bílé, takže vyvážení bílé nebude optimalizováno.<br><br><b>@photometricsettings.disabled@:</b> Vyvážení bílé nebude optimalizováno a zůstanou zachovány aktuální parametry vyvážení bílé.<br><br><b>@photometricsettings.enabled@:</b> Vyvážení bílé bude optimalizováno."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "Konfiguruje způsob zpracování expozic v závorkách.",
+			"morehelptext": "<br><br>Expozice v závorkách lze zpracovat dvěma způsoby:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui nejprve kombinuje každou sadu expozic v závorkách do obrazu HDR (nebo je kombinuje pomocí Exposure Fusion). Poté se kombinované obrázky spojí do panoramatu.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Nejprve se vytvoří takzvaná „ <b>směsná</b> letadla“. Směšovací rovina je kompletní panorama na jedné expoziční úrovni (tj. Všechny snímky pořízené ve stejném čase expoury, clona a ISO). Nakonec se oddělené roviny prolnutí sloučí do obrazu HDR nebo do obrazu fúzovaného s expozicí. Tuto metodu byste měli použít pouze u panoramatických snímků pořízených v režimu manuální expozice. Vyžaduje, aby bylo celé panorama plně pokryto při každé úrovni expozice.<br><br><b>@options.automatic@: Vybere</b> nejlepší možnost pro aktuální projekt. Pokud byly snímky pořízeny v režimu manuální expozice, vytvoří se roviny prolnutí. V opačném případě budou zkombinované snímky nejprve zkombinovány a poté smíchány."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "Konfiguruje kombinaci expozic v závorkách.",
+			"morehelptext": "Expozice v závorkách (pro HDR) budou sloučeny do jednoho snímku. PTGui to může udělat dvěma různými způsoby:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Expozice v závorkách jsou nejprve sloučeny do skutečného obrazu s vysokým dynamickým rozsahem. Tento obraz HDR pokrývá celý dynamický rozsah všech zdrojových obrazů, od nejtmavších k nejjasnějším obrazům. Potom se obecně použije tónové mapování pro převod na obrázek s nízkým dynamickým rozsahem vhodný pro zobrazení nebo tisk.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> expozice v závorkách jsou kombinovány přímo do tónu mapovaného obrazu s nízkým dynamickým rozsahem. Tím se obchází krok prvního vytvoření obrazu s vysokým dynamickým rozsahem pro mapování tónů.<br><br>Nastavení pro mapování tónů a expoziční fúze lze upravit na postranním panelu Panorama Editoru."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "Povolte Exposure Fusion pro snímky bez orámování",
+			"morehelptext": "<br><br>Exposure Fusion se obvykle používá ke sloučení několika brašovaných expsoures do jednoho snímku se sníženým dynamickým rozsahem. PTGui však může použít fúzi expozice také na jednotlivých snímcích vytvořením umělých tmavších a jasnějších kopií stejného snímku. Tím se zvětšuje viditelný detail ve stínech a světlech, podobně jako tónové mapování."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Zkombinujte expozice v závorkách pomocí Exposure Fusion",
+			"morehelptext": "<br><br>Exposure Fusion se používá ke sloučení několika brašovaných expsoures do jediného snímku se sníženým dynamickým rozsahem. Exposure Fusion lze také použít na jednotlivé snímky bez orámování, a to vytvořením umělých tmavších a jasnějších kopií stejného snímku. Tím se zvětšuje viditelný detail ve stínech a světlech, podobně jako tónové mapování."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Určuje, zda bude vyvážení bílé jednotlivých zdrojových obrázků upraveno, aby se minimalizovaly barevné rozdíly mezi obrázky.",
+			"morehelptext": "<br><br>Pokud je tato možnost povolena, upraví se sloupec „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF jednoho nebo více obrázků naznačují, že bylo použito automatické vyvážení bílé, provede se optimalizace vyvážení bílé. Pokud (podle dat EXIF) byly snímky pořízeny s konkrétní předvolbou vyvážení bílé, předpokládá se, že všechny snímky mají stejné nastavení vyvážení bílé, takže vyvážení bílé nebude optimalizováno.<br><br><b>@photometricsettings.disabled@:</b> Vyvážení bílé nebude optimalizováno a zůstanou zachovány aktuální parametry vyvážení bílé.<br><br><b>@photometricsettings.enabled@:</b> Vyvážení bílé bude optimalizováno."
 		}
 	],
 	"helppages": [

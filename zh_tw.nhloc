@@ -6217,6 +6217,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "不是RGB顏色配置文件。需要RGB顏色配置文件，例如不支持CMYK配置文件。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "HDR工作流程："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "將包圍曝光的圖像合併到HDR，然後融合"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "首先創建混合平面，然後合併到HDR"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "合併使用："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "為單次曝光啟用曝光融合"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "應用曝光融合"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "相機曲線"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "全局相機曲線"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "相機曲線＃%0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "線性的"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "無法刪除此相機曲線，因為它被一個或多個圖像使用。可以在@mainwindow.tabs.imageparameters@選項卡中選擇每個圖像的相機曲線。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "後期處理"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "調色參數"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "色調曲線"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "形狀："
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "轉移："
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "保存@txt.toningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "加載@txt.toningparameters@"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "飽和"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "陰影："
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "強調："
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "白平衡"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "作為原始"
 		}
 	],
 	"tooltips": [
@@ -8601,12 +8716,6 @@
 			"morehelptext": "<br><br>如果啟用，將調整@mainwindow.tabs.imageparameters@選項卡中的「@mainwindow.imageparameters.expoffset@」列。<br><br><b>@photometricsettings.onlyifnecessary@：</b>如果影像的EXIF數據包含曝光資訊，則將使用此數據，並且不會進行其他曝光優化。如果EXIF數據不包含曝光資訊，則完成全曝光優化。<br><br><b>@photometricsettings.disabled@：</b>曝光不會被優化，所有影像的曝光補償將在下一次優化時重置為零。<br><br><b>@photometricsettings.optimizeexposure.finetune@：</b>假設EXIF數據包含大致正確的曝光數據;這被用作進一步曝光優化的起點。<br><br><b>@photometricsettings.optimizeexposure.full@：</b>執行完整曝光優化，忽略任何EXIF曝光數據。<br><br><b>@photometricsettings.keepcurrent@：</b>將保留目前的曝光參數。"
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "控制是否調整各個源影像的白平衡，以最小化影像之間的色差。",
-			"morehelptext": "<br><br>如果啟用，將調整@mainwindow.tabs.imageparameters@選項卡中的「WB紅色/綠色/藍色」列。<br><br><b>@photometricsettings.onlyifnecessary@：</b>如果一個或多個影像的EXIF數據表明使用了自動白平衡，則將進行白平衡優化。如果使用固定的白平衡拍攝影像，則不會優化白平衡。<br><br><b>@photometricsettings.disabled@：</b>不會優化白平衡，並且在下一次優化時，所有影像的白平衡參數將重置為零。<br><br><b>@photometricsettings.enabled@：</b>將優化白平衡。<br><br><b>@photometricsettings.keepcurrent@：</b>將保留目前的白平衡參數。"
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "控制是否補償各個源影像的@lensflare@。將增加單個影像的對比度以補償由@lensflare@引起的對比度的降低。",
@@ -8725,6 +8834,36 @@
 			"machinetranslated": true,
 			"helptext": "如果所有圖像具有相同的色彩空間，則將使用此色彩空間（而不是上面選擇的色彩空間）。",
 			"morehelptext": "<br><br>請注意，對於RAW源圖像，此設置將被忽略。 RAW圖像將始終轉換為上面選擇的色彩空間。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "配置如何處理包圍曝光。",
+			"morehelptext": "<br><br>包圍曝光可以通過兩種方式處理：<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@：</b> PTGui首先將每組包圍曝光的圖像組合到HDR圖像中（或使用Exposure Fusion將其組合）。然後，將合併的圖像混合成全景圖。<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@：</b>首先，創建所謂的“混合平面”。混合平面是一種曝光水平下的完整全景圖（即，所有在相同曝光時間，光圈和ISO下拍攝的圖像）。最後，將單獨的混合平面合併為HDR圖像或曝光融合圖像。此方法僅應用於以手動曝光模式拍攝的全景圖。它要求在每個曝光級別都完全覆蓋整個全景。<br><br><b>@options.automatic@：</b>為當前項目選擇最佳選項。如果圖像是在手動曝光模式下拍攝的，則將創建混合平面。否則，將首先合併包圍的圖像，然後將其融合。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "配置包圍曝光的組合方式。",
+			"morehelptext": "包圍曝光（用於HDR）將合併為一張圖像。 PTGui可以通過兩種不同的方式執行此操作：<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@：先將包圍</b>曝光的圖像合成為真正的高動態範圍圖像。此HDR圖像涵蓋了所有源圖像的整個動態範圍，從最暗的圖像到最亮的圖像。然後，通常將使用色調映射將其轉換為適合顯示或打印的低動態範圍圖像。<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@：</b>包圍曝光直接組合為色調映射的低動態範圍圖像。這繞過了首先創建高動態範圍圖像以進行色調映射的步驟。<br><br>可以在Panorama Editor的側邊欄中調整色調映射和曝光融合的設置。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "為非包圍式圖像啟用Exposure Fusion",
+			"morehelptext": "<br><br>通常，“曝光融合”用於將多個包圍式曝光組合成單個圖像，但動態範圍會減小。但是，PTGui也可以通過為同一圖像創建人造的較暗和較亮的副本來對單個圖像使用曝光融合。與色調映射類似，這會增加陰影和高光中的可見細節。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "使用Exposure Fusion組合包圍曝光",
+			"morehelptext": "<br><br>曝光融合用於將多個包圍式曝光組合成單個圖像，並且動態範圍減小。通過為同一張圖像創建人造的較暗和較亮的副本，也可以在單個非包圍式圖像上使用Exposure Fusion。與色調映射類似，這會增加陰影和高光中的可見細節。"
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "控制是否要調整單個源圖像的白平衡，以最小化圖像之間的色差。",
+			"morehelptext": "<br><br>如果啟用，則將調整@mainwindow.tabs.imageparameters@標籤中的“ @mainwindow.imageparameters.whitebalance@”列。<br><br><b>@photometricsettings.onlyifnecessary@：</b>如果一幅或多幅圖像的EXIF數據指示已使用自動白平衡，則將進行白平衡優化。如果（根據EXIF數據）使用特定的白平衡預設拍攝圖像，則假定所有圖像均具有相同的白平衡設置，因此不會優化白平衡。<br><br><b>@photometricsettings.disabled@：</b>將不會優化白平衡，並且將保留當前的白平衡參數。<br><br><b>@photometricsettings.enabled@：</b>將優化白平衡。"
 		}
 	],
 	"helppages": [

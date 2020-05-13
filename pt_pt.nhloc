@@ -7157,6 +7157,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "Não é um perfil de cores RGB. São necessários perfis de cores RGB, por exemplo, perfis CMYK não são suportados."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "Fluxo de trabalho HDR:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "Mesclar imagens entre colchetes em HDR e mesclar"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "Crie primeiro os planos de mesclagem e depois mescle-os ao HDR"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "Mesclar usando:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "Ativar fusão de exposição para exposições únicas"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Aplicar fusão de exposição"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "Curva da câmera"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "Curva global da câmera"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "Curva da câmera # %0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "Linear"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "Esta curva da câmera não pode ser excluída porque é usada por uma ou mais imagens. A curva da câmera para cada imagem pode ser selecionada na guia @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "Pós-processo"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "Parâmetros de tonificação"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "Curva de tonificação"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "Forma:"
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "Mudança:"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "Salvar @txt.toningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "Carregar @txt.toningparameters@"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "Saturação"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "Sombras:"
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "Luzes:"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "Balanço de branco"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "Como original"
 		}
 	],
 	"tooltips": [
@@ -9541,12 +9656,6 @@
 			"morehelptext": "<br><br>Se ativada, a coluna '@mainwindow.imageparameters.expoffset@' na guia @mainwindow.tabs.imageparameters@ será ajustada.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se os dados EXIF ​​das imagens contiverem informações de exposição, esses dados serão usados ​​e nenhuma otimização de exposição adicional será feita. Se os dados EXIF ​​não contiverem informações de exposição, será feita uma otimização de exposição completa.<br><br><b>@photometricsettings.disabled@: a</b> exposição não será otimizada e a compensação de exposição de todas as imagens será redefinida para zero na próxima otimização.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> assume que os dados EXIF ​​contêm dados de exposição aproximadamente corretos; isso é usado como um ponto de partida para otimização adicional da exposição.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> executa uma otimização de exposição total, ignorando quaisquer dados de exposição EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> os parâmetros de exposição atuais serão mantidos."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Controla se o balanço de branco das imagens de origem individuais será ajustado, para minimizar as diferenças de cores entre as imagens.",
-			"morehelptext": "<br><br>Se ativada, as colunas 'WB vermelho / verde / azul' na guia @mainwindow.tabs.imageparameters@ serão ajustadas.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se os dados EXIF ​​de uma ou mais imagens indicarem que o balanço de branco automático foi usado, a otimização do balanço de branco será feita. Se as imagens foram tiradas com o balanço de brancos fixo, o equilíbrio de brancos não é otimizado.<br><br><b>@photometricsettings.disabled@:</b> o equilíbrio de branco não será otimizado e os parâmetros de balanço de branco de todas as imagens serão redefinidos para zero na próxima otimização.<br><br><b>@photometricsettings.enabled@:</b> o equilíbrio de brancos será otimizado.<br><br><b>@photometricsettings.keepcurrent@:</b> os parâmetros atuais do balanço de branco serão mantidos."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Controla se o @lensflare@ de imagens de fontes individuais será compensado. O contraste das imagens individuais será aumentado para compensar a redução no contraste causada pelo @lensflare@.",
@@ -9665,6 +9774,36 @@
 			"machinetranslated": true,
 			"helptext": "Se todas as imagens tiverem o mesmo espaço de cores, esse espaço de cores será usado (em vez do espaço de cores selecionado acima).",
 			"morehelptext": "<br><br>Observe que essa configuração é ignorada para imagens de origem RAW. As imagens RAW sempre serão convertidas no espaço de cores selecionado acima."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "Configura como as exposições entre colchetes são tratadas.",
+			"morehelptext": "<br><br>As exposições entre colchetes podem ser processadas de duas maneiras:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@: O</b> PTGui primeiro combina cada conjunto de exposições entre colchetes em uma imagem HDR (ou combina-as usando o Exposure Fusion). Em seguida, as imagens combinadas são mescladas em um panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Primeiro, os chamados 'planos de mistura' são criados. Um plano de mesclagem é o panorama completo em um nível de exposição (ou seja, todas as imagens capturadas em tempo de expiração idêntico, abertura e ISO). Finalmente, os planos de mistura separados são combinados em uma imagem HDR ou em uma imagem fundida de exposição. Este método deve ser usado apenas para panoramas tirados no modo de exposição manual. Exige que todo o panorama seja totalmente coberto em cada nível de exposição.<br><br><b>@options.automatic@:</b> Escolhe a melhor opção para o projeto atual. Se as imagens foram tiradas no modo de exposição manual, serão criados planos de mesclagem. Caso contrário, as imagens entre colchetes serão combinadas primeiro e depois combinadas."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "Configura como as exposições entre colchetes são combinadas.",
+			"morehelptext": "As exposições entre colchetes (para HDR) serão combinadas em uma única imagem. O PTGui pode fazer isso de duas maneiras diferentes:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@: As</b> exposições entre <b>parênteses</b> são primeiro combinadas em uma imagem real de faixa dinâmica alta. Essa imagem HDR cobre toda a faixa dinâmica de todas as imagens de origem, das mais escuras às mais brilhantes. Então, geralmente o mapeamento de tons será usado para converter isso em uma imagem de baixo alcance dinâmico adequada para exibição ou impressão.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: as</b> exposições entre colchetes são combinadas diretamente em uma imagem de faixa dinâmica baixa mapeada por tom. Isso ignora o passo de criar primeiro uma imagem de alta faixa dinâmica para o mapeamento de tons.<br><br>As configurações para mapeamento de tons e fusões de exposição podem ser ajustadas na barra lateral do Panorama Editor."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "Ative o Fusion de exposição para imagens sem colchetes",
+			"morehelptext": "<br><br>Normalmente, o Exposure Fusion é usado para combinar vários expsoures entre colchetes em uma única imagem com alcance dinâmico reduzido. Mas o PTGui também pode usar a fusão de exposição em imagens únicas, criando cópias artificiais mais escuras e mais brilhantes da mesma imagem. Isso aumenta os detalhes visíveis nas sombras e realces, semelhante ao mapeamento de tons."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Combine exposições entre colchetes usando o Exposure Fusion",
+			"morehelptext": "<br><br>O Fusion de exposição é usado para combinar vários expsoures entre colchetes em uma única imagem com alcance dinâmico reduzido. Também é possível usar o Exposure Fusion em imagens únicas e sem colchetes, criando cópias artificiais mais escuras e mais brilhantes da mesma imagem. Isso aumenta os detalhes visíveis nas sombras e realces, semelhante ao mapeamento de tons."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Controla se o equilíbrio de branco das imagens de origem individuais será ajustado, a fim de minimizar as diferenças de cores entre as imagens.",
+			"morehelptext": "<br><br>Se ativada, a coluna '@mainwindow.imageparameters.whitebalance@' na guia @mainwindow.tabs.imageparameters@ será ajustada.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se os dados EXIF de uma ou mais imagens indicarem que o balanço de branco automático foi usado, a otimização do balanço de branco será realizada. Se (de acordo com os dados EXIF) as imagens foram capturadas com uma predefinição específica de balanço de branco, presume-se que todas as imagens tenham configurações idênticas de balanço de branco; portanto, o balanço de branco não será otimizado.<br><br><b>@photometricsettings.disabled@:</b> o balanço de brancos não será otimizado e os parâmetros atuais de balanço de brancos serão mantidos.<br><br><b>@photometricsettings.enabled@:</b> o balanço de brancos será otimizado."
 		}
 	],
 	"helppages": [

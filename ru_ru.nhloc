@@ -7147,6 +7147,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "Не цветовой профиль RGB. Требуются цветовые профили RGB, например, профили CMYK не поддерживаются."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "Рабочий процесс HDR:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "Объединить изображения в скобках в HDR, а затем смешать"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "Сначала создайте смешанные плоскости, затем объединяйтесь в HDR"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "Объединить используя:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "Включить экспозицию Fusion для одиночных экспозиций"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Применить экспозицию Fusion"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "Кривая камеры"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "Глобальная кривая камеры"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "Кривая камеры # %0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "линейный"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "Эта кривая камеры не может быть удалена, поскольку она используется одним или несколькими изображениями. Кривая камеры для каждого изображения может быть выбрана на вкладке @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "Пост процесс"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "Параметры тонирования"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "Кривая тонирования"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "Форма:"
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "Сдвиг:"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "Сохранить @txt.toningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "Загрузить @txt.toningparameters@"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "насыщение"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "Тень:"
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "Особенности:"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "баланс белого"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "Как оригинал"
 		}
 	],
 	"tooltips": [
@@ -9542,12 +9657,6 @@
 			"morehelptext": "<br><br>Если включено, будет изменен столбец «@mainwindow.imageparameters.expoffset@» на вкладке @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> если данные EXIF ​​изображений содержат информацию об экспозиции, эти данные будут использоваться, и дополнительная оптимизация экспозиции не будет выполнена. Если данные EXIF ​​не содержат информации об экспозиции, выполняется полная оптимизация экспозиции.<br><br><b>@photometricsettings.disabled@:</b> экспозиция не будет оптимизирована, и компенсация экспозиции всех изображений будет сброшена до нуля при следующей оптимизации.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> предполагает, что данные EXIF ​​содержат примерно правильные данные воздействия; это используется как отправная точка для дальнейшей оптимизации экспозиции.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> выполняет полную оптимизацию экспозиции, игнорируя любые данные экспозиции EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> текущие параметры экспозиции будут сохранены."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Управляет настройкой баланса белого для отдельных исходных изображений, чтобы минимизировать цветовые различия между изображениями.",
-			"morehelptext": "<br><br>Если это разрешено, будут скорректированы столбцы «WB red / green / blue» на вкладке @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> если данные EXIF ​​одного или нескольких изображений показывают, что используется автоматический баланс белого, выполняется оптимизация баланса белого. Если изображения были сделаны с фиксированным балансом белого, баланс белого не оптимизирован.<br><br><b>@photometricsettings.disabled@:</b> баланс белого не будет оптимизирован, а параметры баланса белого для всех изображений будут сброшены до нуля при следующей оптимизации.<br><br><b>@photometricsettings.enabled@:</b> баланс белого будет оптимизирован.<br><br><b>@photometricsettings.keepcurrent@:</b> текущие параметры баланса белого будут сохранены."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Контролирует, будет ли @lensflare@ отдельных изображений исходного изображения компенсироваться. Контраст отдельных изображений будет увеличен, чтобы компенсировать снижение контраста, вызванное @lensflare@.",
@@ -9655,6 +9764,36 @@
 			"machinetranslated": true,
 			"helptext": "Если все изображения имеют одинаковое цветовое пространство, будет использоваться это цветовое пространство (вместо цветового пространства, выбранного выше).",
 			"morehelptext": "<br><br>Обратите внимание, что этот параметр игнорируется для исходных изображений RAW. Изображения RAW всегда будут преобразованы в цветовое пространство, выбранное выше."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "Настраивает, как обрабатываются выдержки в скобках.",
+			"morehelptext": "<br><br>Выдержки в скобках можно обрабатывать двумя способами:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui сначала объединяет каждый набор выдержек в квадратных скобках в изображение HDR (или объединяет их с помощью Exposure Fusion). Затем объединенные изображения смешиваются в панораму.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Сначала <b>создаются</b> так называемые «плоскости смешения». Плоскость смешивания - это полная панорама с одним уровнем экспозиции (т. Е. Все изображения, полученные с одинаковым временем экспозиции, апертурой и ISO). Наконец, отдельные плоскости смешивания объединяются в изображение HDR или изображение с плавной экспозицией. Этот метод следует использовать только для панорам, снятых в режиме ручной экспозиции. Требуется, чтобы вся панорама была полностью покрыта на каждом уровне экспозиции.<br><br><b>@options.automatic@:</b> выбирает лучший вариант для текущего проекта. Если изображения были сделаны в режиме ручной экспозиции, будут созданы плоскости смешивания. В противном случае изображения в квадратных скобках будут сначала объединены, а затем смешаны."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "Настраивает, как заключаются в скобки выдержки.",
+			"morehelptext": "Экспозиции в скобках (для HDR) будут объединены в одно изображение. PTGui может сделать это двумя разными способами:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> выдержки в <b>квадратных</b> скобках сначала объединяются в изображение с высоким динамическим диапазоном. Это HDR-изображение охватывает весь динамический диапазон всех исходных изображений, от самых темных до самых ярких изображений. Затем обычно используется тональное отображение, чтобы преобразовать его в изображение с низким динамическим диапазоном, подходящее для отображения или печати.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> выдержки в скобках объединяются непосредственно в тональное изображение с низким динамическим диапазоном. Это обходит этап первого создания изображения с высоким динамическим диапазоном для тонального отображения.<br><br>Настройки тонального отображения и слияния экспозиции можно отрегулировать на боковой панели редактора панорамы."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "Включить Exposure Fusion для изображений без скобок",
+			"morehelptext": "<br><br>Обычно Exposure Fusion используется для объединения нескольких параметров в квадратных скобках в одно изображение с уменьшенным динамическим диапазоном. Но PTGui также может использовать объединение экспозиции на отдельных изображениях, создавая искусственные более темные и яркие копии одного и того же изображения. Это увеличивает видимые детали в тенях и бликах, аналогично тональному отображению."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Объедините выдержки в скобках с помощью Exposure Fusion",
+			"morehelptext": "<br><br>Exposure Fusion используется для объединения нескольких параметров в квадратных скобках в одно изображение с уменьшенным динамическим диапазоном. Также возможно использовать Exposure Fusion на отдельных изображениях без скобок, создавая искусственные более темные и яркие копии одного и того же изображения. Это увеличивает видимые детали в тенях и бликах, аналогично тональному отображению."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Определяет, будет ли регулироваться баланс белого отдельных исходных изображений, чтобы минимизировать цветовые различия между изображениями.",
+			"morehelptext": "<br><br>Если включено, столбец «@mainwindow.imageparameters.whitebalance@» на вкладке @mainwindow.tabs.imageparameters@ будет скорректирован.<br><br><b>@photometricsettings.onlyifnecessary@:</b> если данные EXIF одного или нескольких изображений указывают на то, что использовался автоматический баланс белого, будет выполнена оптимизация баланса белого. Если (согласно данным EXIF) изображения были сделаны с определенной предустановкой баланса белого, предполагается, что все изображения имеют одинаковые настройки баланса белого, следовательно, баланс белого не будет оптимизирован.<br><br><b>@photometricsettings.disabled@:</b> баланс белого не будет оптимизирован, и текущие параметры баланса белого будут сохранены.<br><br><b>@photometricsettings.enabled@:</b> баланс белого будет оптимизирован."
 		}
 	],
 	"helppages": [

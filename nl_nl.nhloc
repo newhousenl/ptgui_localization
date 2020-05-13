@@ -5785,6 +5785,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "Geen RGB-kleurprofiel. Een RGB-kleurprofiel is nodig, bijvoorbeeld CMYK-profielen worden niet ondersteund."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "HDR-workflow:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "Eerst belichtingsreeksen samenvoegen naar HDR, daarna blenden"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "Eerst blendvlakken maken, daarna samenvoegen naar HDR"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "Samenvoegen met:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "Schakel Exposure Fusion in voor individuele belichtingen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Exposure Fusion inschakelen"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "Camera Curve"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "Globale cameracurve"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "Cameracurve #%0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "Lineair"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "Deze cameracurve kan niet worden verwijderd omdat deze wordt gebruikt door een of meer afbeeldingen. De cameracurve voor elk beeld kan worden geselecteerd op het tabblad @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "Nabewerken"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "Toning parameters"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "Toning curve"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "Vorm:"
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "Verschuiving:"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "Sla @txt.toningparameters@ op"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "Laad @txt.toningparameters@"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "Kleurverzadiging"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "Schaduwen:"
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "Lichten:"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "Witbalans"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "Zoals origineel"
 		}
 	],
 	"tooltips": [
@@ -7741,11 +7856,6 @@
 			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.expoffset@' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> indien de EXIF-gegevens van de afbeeldingen belichtingsinformatie bevatten, worden deze gegevens gebruikt en wordt er geen extra belichtingsoptimalisatie uitgevoerd. Als de EXIF-gegevens geen belichtingsinformatie bevatten, wordt een volledige belichtingsoptimalisatie uitgevoerd.<br><br><b>@photometricsettings.disabled@:</b> de belichting wordt niet geoptimaliseerd en de belichtingscompensatie van alle afbeeldingen wordt bij de volgende optimalisatie op nul teruggezet.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> gaat ervan uit dat de EXIF-gegevens min of meer correcte belichtingsgegevens bevatten; dit wordt gebruikt als startpunt voor verdere optimalisatie van de belichting.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> voert een volledige belichtingsoptimalisatie uit en negeert eventuele EXIF-belichtingsgegevens.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige belichtingsparameters worden behouden."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"helptext": "Bepaalt of de witbalans van afzonderlijke bronafbeeldingen moet worden aangepast om kleurverschillen tussen afbeeldingen te minimaliseren.",
-			"morehelptext": "<br><br>Indien ingeschakeld, worden de kolommen 'WB rood / groen / blauw' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> indien de EXIF-gegevens van een of meer afbeeldingen aangeven dat automatische witbalans is gebruikt, wordt de witbalansoptimalisatie uitgevoerd. Als de opnamen zijn gemaakt met een vaste witbalans, wordt de witbalans niet geoptimaliseerd.<br><br><b>@photometricsettings.disabled@:</b> de witbalans wordt niet geoptimaliseerd en de witbalansparameters van alle afbeeldingen worden bij de volgende optimalisatie op nul teruggezet.<br><br><b>@photometricsettings.enabled@:</b> de witbalans wordt geoptimaliseerd.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige parameters voor de witbalans worden bewaard."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"helptext": "Bepaalt of de lens flare van afzonderlijke bronafbeeldingen wordt gecompenseerd. Het contrast van individuele afbeeldingen zal worden verhoogd om de vermindering in contrast veroorzaakt door lensflare te compenseren.",
 			"morehelptext": "<br><br>Indien ingeschakeld, worden de kolommen 'Flare' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.disabled@:</b> flare wordt niet geoptimaliseerd en de flare-parameters van alle afbeeldingen worden bij de volgende optimalisatie op nul teruggezet.<br><br><b>@photometricsettings.enabled@:</b> flare wordt geoptimaliseerd.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige flare-parameters worden behouden."
@@ -7852,6 +7962,42 @@
 			"machinetranslated": true,
 			"helptext": "Als alle afbeeldingen dezelfde kleurruimte hebben, wordt deze kleurruimte gebruikt (in plaats van de hierboven geselecteerde kleurruimte).",
 			"morehelptext": "<br><br>Merk op dat deze instelling wordt genegeerd voor RAW-bronafbeeldingen. RAW-afbeeldingen worden altijd geconverteerd naar de hierboven geselecteerde kleurruimte."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Bepaalt of de witbalans van individuele bronafbeeldingen wordt aangepast om kleurverschillen tussen afbeeldingen te minimaliseren.",
+			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> als de EXIF-gegevens van een of meer afbeeldingen aangeven dat automatische witbalans is gebruikt, wordt de witbalans geoptimaliseerd. Als (volgens de EXIF-gegevens) de afbeeldingen zijn gemaakt met een specifieke witbalansvoorinstelling, worden alle afbeeldingen verondersteld identieke witbalansinstellingen te hebben, daarom wordt de witbalans niet geoptimaliseerd.<br><br><b>@photometricsettings.disabled@:</b> witbalans wordt niet geoptimaliseerd en de huidige witbalansparameters blijven behouden.<br><br><b>@photometricsettings.enabled@:</b> witbalans wordt geoptimaliseerd."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "Configureert hoe belichtingsreeksen worden behandeld.",
+			"morehelptext": "<br><br>Belichtingsreeksen kunnen op twee manieren worden verwerkt:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combineert eerst elke set belichtingsreeksen in een HDR-afbeelding (of combineert ze met Exposure Fusion). Vervolgens worden de gecombineerde afbeeldingen samengevoegd tot een panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Eerst worden zogenaamde 'blendvlakken' gemaakt. Een blendvlak is het volledige panorama op één belichtingsniveau (dat wil zeggen alle beelden die zijn gemaakt met dezelfde belichtingstijd, diafragma en ISO). Ten slotte worden de afzonderlijke blendvlakken gecombineerd tot een HDR-afbeelding, of gecombineerd met exposure fusion. Deze moet alleen worden gebruikt voor panorama's die zijn gemaakt in de handmatige belichtingsmodus. Het vereist dat een volledig panorama is genomen op elk belichtingsniveau.<br><br><b>@options.automatic@:</b> Kiest de beste optie voor het huidige project. Als de afbeeldingen zijn gemaakt in de handmatige belichtingsmodus, worden blendvlakken gemaakt. Anders worden de belichtingsreeksen eerst gecombineerd en vervolgens geblend."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "Configureert hoe belichtingsreeksen worden gecombineerd.",
+			"morehelptext": "Belichtingsreeksen (voor HDR) worden gecombineerd tot één afbeelding. PTGui kan dit op twee verschillende manieren doen:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtingsreeksen worden eerst gecombineerd tot een HDR afbeelding. Dit HDR-beeld beslaat het volledige dynamische bereik van alle bronbeelden, van de donkerste tot de helderste details. Vervolgens wordt normaalgesproken toonmapping gebruikt om het HDR beeld om te zetten in een afbeelding met een laag dynamisch bereik die geschikt is voor weergave of afdrukken.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtingsreeksen worden direct gecombineerd tot een afbeelding met een laag dynamisch bereik. Dit omzeilt de stap van het eerst creëren van een HDR afbeelding.<br><br>Instellingen voor tonemapping en exposure fusion kunnen worden aangepast in de zijbalk van de Panorama Editor."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "Schakel Exposure Fusion in voor panorama's genomen op 1 enkel belichtingsniveau (geen HDR)",
+			"morehelptext": "<br><br>Normaal gesproken wordt Exposure Fusion gebruikt om meerdere belichtingsreeksen te combineren tot een enkele afbeelding met een laag dynamisch bereik. Maar PTGui kan Exposure Fusion ook op afzonderlijke afbeeldingen gebruiken door kunstmatige donkerdere en helderdere kopieën van dezelfde afbeelding te maken. Dit vergroot zichtbare details in de schaduwen en hooglichten, vergelijkbaar met tonemapping."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Combineer belichtingsreeksen met Exposure Fusion",
+			"morehelptext": "<br><br>Exposure Fusion wordt gebruikt om belichtingsreeksen te combineren naar een afbeelding met een verlaagminderd dynamisch bereik. Het is ook mogelijk om Exposure Fusion te gebruiken op individuele afbeeldingen (geen belihctingsreeksen), door kunstmatige donkerdere en helderdere kopieën van dezelfde afbeelding te maken. Dit vergroot zichtbare details in de schaduwen en hooglichten, vergelijkbaar met tonemapping."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Bepaalt of de witbalans van individuele bronafbeeldingen wordt aangepast om kleurverschillen tussen afbeeldingen te minimaliseren.",
+			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> als de EXIF-gegevens van een of meer afbeeldingen aangeven dat automatische witbalans is gebruikt, wordt de witbalans geoptimaliseerd. Als (volgens de EXIF-gegevens) de afbeeldingen zijn gemaakt met een specifieke witbalansvoorinstelling, worden alle afbeeldingen verondersteld identieke witbalansinstellingen te hebben, daarom wordt de witbalans niet geoptimaliseerd.<br><br><b>@photometricsettings.disabled@:</b> witbalans wordt niet geoptimaliseerd en de huidige witbalansparameters blijven behouden.<br><br><b>@photometricsettings.enabled@:</b> witbalans wordt geoptimaliseerd."
 		}
 	],
 	"helppages": [

@@ -5786,6 +5786,121 @@
 			"id": "err.iccprofilenotrgb",
 			"machinetranslated": true,
 			"txt": "Kein RGB-Farbprofil. Ein RGB-Farbprofil wird benötigt, beispielsweise werden CMYK-Profile nicht unterstützt."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"txt": "HDR-Workflow:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
+			"machinetranslated": true,
+			"txt": "Führt Belichtungsreihen mit HDR zusammen und blendet sie danach"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
+			"machinetranslated": true,
+			"txt": "Erstellt zuerst Belichtungsebene und führt sie dann zusammen"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
+			"machinetranslated": true,
+			"txt": "Zusammenführen mit:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"txt": "Aktivieren Sie die Belichtungsfusion für Einzelbelichtungen"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"txt": "Exposure Fusion einschalten"
+		},
+		{
+			"id": "mainwindow.imageparameters.cameracurve",
+			"machinetranslated": true,
+			"txt": "Kamerakurve"
+		},
+		{
+			"id": "txt.globalcameracurve",
+			"machinetranslated": true,
+			"txt": "Globale Kamerakurve"
+		},
+		{
+			"id": "txt.cameracurve_n",
+			"machinetranslated": true,
+			"txt": "Kamerakurve #%0"
+		},
+		{
+			"id": "txt.cameracurve.linear",
+			"machinetranslated": true,
+			"txt": "Linear"
+		},
+		{
+			"id": "err.deletecameracurve_inuse",
+			"machinetranslated": true,
+			"txt": "Diese Kamerakurve kann nicht gelöscht werden, da sie von einem oder mehreren Bildern verwendet wird. Die Kamerakurve für jedes Bild kann auf der Registerkarte @mainwindow.tabs.imageparameters@ ausgewählt werden."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess",
+			"machinetranslated": true,
+			"txt": "Nachbearbeitung"
+		},
+		{
+			"id": "txt.toningparameters",
+			"machinetranslated": true,
+			"txt": "Toning-Parameter"
+		},
+		{
+			"id": "txt.toningcurve",
+			"machinetranslated": true,
+			"txt": "Toning-kurve"
+		},
+		{
+			"id": "txt.toningcurve.shape",
+			"machinetranslated": true,
+			"txt": "Gestalt:"
+		},
+		{
+			"id": "txt.toningcurve.shift",
+			"machinetranslated": true,
+			"txt": "Verschiebung:"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"txt": "@txt.toningparameters@ speichern"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"txt": "@txt.toningparameters@ laden"
+		},
+		{
+			"id": "txt.saturation",
+			"machinetranslated": true,
+			"txt": "Farbsättigung"
+		},
+		{
+			"id": "txt.saturation.shadows",
+			"machinetranslated": true,
+			"txt": "Schatten:"
+		},
+		{
+			"id": "txt.saturation.highlights",
+			"machinetranslated": true,
+			"txt": "Highlights:"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitebalance",
+			"machinetranslated": true,
+			"txt": "Weißabgleich"
+		},
+		{
+			"id": "txt.asshot",
+			"machinetranslated": true,
+			"txt": "Wie original"
 		}
 	],
 	"tooltips": [
@@ -5842,12 +5957,12 @@
 		{
 			"id": "menubar.images.linkbracketed",
 			"machinetranslated": true,
-			"helptext": "Erfassen Sie Belichtungsreihen und verknüpfen Sie sie."
+			"helptext": "Erfasst Belichtungsreihen und verknüpft sie."
 		},
 		{
 			"id": "menubar.images.reverseorder",
 			"machinetranslated": true,
-			"helptext": "Kehren Sie die Reihenfolge der Bilder um."
+			"helptext": "Kehrt die Reihenfolge der Bilder um."
 		},
 		{
 			"id": "menubar.images.sort",
@@ -5857,37 +5972,37 @@
 		{
 			"id": "menubar.images.removeexcluded",
 			"machinetranslated": true,
-			"helptext": "Entfernen Sie alle Bilder, die als ausgeschlossen aus dem Panorama markiert sind."
+			"helptext": "Entfernt alle Bilder, die als ausgeschlossen aus dem Panorama markiert sind."
 		},
 		{
 			"id": "menubar.images.includeonlyselected",
 			"machinetranslated": true,
-			"helptext": "Fügen Sie die ausgewählten Bilder in das Panorama ein und schließen Sie alle anderen Bilder aus."
+			"helptext": "Fügt die ausgewählten Bilder in das Panorama ein und schließt alle anderen Bilder aus."
 		},
 		{
 			"id": "menubar.images.includeonlyunselected",
 			"machinetranslated": true,
-			"helptext": "Schließen Sie die ausgewählten Bilder aus dem Panorama aus und schließen Sie alle anderen Bilder ein."
+			"helptext": "Schließt die ausgewählten Bilder aus dem Panorama aus und schließt alle anderen Bilder ein."
 		},
 		{
 			"id": "menubar.images.include",
 			"machinetranslated": true,
-			"helptext": "Fügen Sie die ausgewählten Bilder in das Panorama ein."
+			"helptext": "Fügt die ausgewählten Bilder in das Panorama ein."
 		},
 		{
 			"id": "menubar.images.exclude",
 			"machinetranslated": true,
-			"helptext": "Schließen Sie die ausgewählten Bilder aus dem Panorama aus."
+			"helptext": "Schließt die ausgewählten Bilder aus dem Panorama aus."
 		},
 		{
 			"id": "menubar.images.moveup",
 			"machinetranslated": true,
-			"helptext": "Verschieben Sie das ausgewählte Bild in der Liste nach oben. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
+			"helptext": "Verschiebt das ausgewählte Bild in der Liste nach oben. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
 		},
 		{
 			"id": "menubar.images.movedown",
 			"machinetranslated": true,
-			"helptext": "Verschieben Sie das ausgewählte Bild in der Liste nach unten. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
+			"helptext": "Verschiebt das ausgewählte Bild in der Liste nach unten. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
 		},
 		{
 			"id": "menubar.images.opencontainingfolder",
@@ -5897,17 +6012,17 @@
 		{
 			"id": "menubar.images.replace",
 			"machinetranslated": true,
-			"helptext": "Ersetzen Sie die ausgewählten Bilder durch andere Bilder oder durch Bilder mit demselben Dateinamen, jedoch in einem anderen Ordner."
+			"helptext": "Ersetzt die ausgewählten Bilder durch andere Bilder oder durch Bilder mit demselben Dateinamen, jedoch in einem anderen Ordner."
 		},
 		{
 			"id": "menubar.images.remove",
 			"machinetranslated": true,
-			"helptext": "Entfernen Sie die ausgewählten Bilder aus dem Projekt."
+			"helptext": "Entfernt die ausgewählten Bilder aus dem Projekt."
 		},
 		{
 			"id": "addimages",
 			"machinetranslated": true,
-			"helptext": "Fügen Sie dem Projekt Quellbilder hinzu."
+			"helptext": "Fügt dem Projekt Quellbilder hinzu."
 		},
 		{
 			"id": "lensdatabase",
@@ -5937,7 +6052,7 @@
 		{
 			"id": "numericaltransform",
 			"machinetranslated": true,
-			"helptext": "Verschieben oder drehen Sie das Panorama um einen bestimmten Winkel."
+			"helptext": "Verschieben oder dreht das Panorama um einen bestimmten Winkel."
 		},
 		{
 			"id": "menubar.tools.openfolder.templatefolder",
@@ -5967,7 +6082,7 @@
 		{
 			"id": "menubar.tools.philosphere",
 			"machinetranslated": true,
-			"helptext": "Drucken, schneiden und kleben Sie ein sphärisches Panorama in eine &quot;Philosphäre&quot;."
+			"helptext": "Drucken, schneiden und klebt ein sphärisches Panorama in eine &quot;Philosphäre&quot;."
 		},
 		{
 			"id": "menubar.tools.converttocubic",
@@ -5977,32 +6092,32 @@
 		{
 			"id": "menubar.tools.publishtowebsite",
 			"machinetranslated": true,
-			"helptext": "Erstellen Sie eine Webseite zum interaktiven Betrachten eines sphärischen Panoramas."
+			"helptext": "Erstellt eine Webseite zum interaktiven Betrachten eines sphärischen Panoramas."
 		},
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
 			"machinetranslated": true,
-			"helptext": "Senden Sie das aktuelle Projekt zur Verarbeitung an den Batch-Stitcher. Eine Kopie des aktuellen Projekts wird unter einem temporären Dateinamen gespeichert, der an den Batch-Stitcher gesendet wird."
+			"helptext": "Sendet das aktuelle Projekt zur Verarbeitung an den Batch-Stitcher. Eine Kopie des aktuellen Projekts wird unter einem temporären Dateinamen gespeichert, der an den Batch-Stitcher gesendet wird."
 		},
 		{
 			"id": "menubar.project.preview",
 			"machinetranslated": true,
-			"helptext": "Erstellen Sie eine Vorschau des Panoramas in niedriger Auflösung und öffnen Sie dieses Bild in einem Panorama-Viewer."
+			"helptext": "Erstellt eine Vorschau des Panoramas in niedriger Auflösung und öffnt dieses Bild in einem Panorama-Viewer."
 		},
 		{
 			"id": "menubar.project.initializeandoptimize",
 			"machinetranslated": true,
-			"helptext": "Setzen Sie die Objektivparameter zurück und initialisieren Sie die Position aller Quellbilder neu."
+			"helptext": "Setzt die Objektivparameter zurück und initialisiert die Position aller Quellbilder neu."
 		},
 		{
 			"id": "menubar.project.aligntogrid",
 			"machinetranslated": true,
-			"helptext": "Ordnen Sie die Bilder im aktuellen Projekt in einem Raster aus Zeilen und Spalten an."
+			"helptext": "Ordnet die Bilder im aktuellen Projekt in einem Raster aus Zeilen und Spalten an."
 		},
 		{
 			"id": "menubar.controlpoints.deleteworst",
 			"machinetranslated": true,
-			"helptext": "Löschen Sie die Kontrollpunkte mit einem überdurchschnittlichen Fehler."
+			"helptext": "Löscht die Kontrollpunkte mit einem überdurchschnittlichen Fehler."
 		},
 		{
 			"id": "menubar.controlpoints.generateforoverlapping",
@@ -8170,12 +8285,6 @@
 			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, wird die Spalte &quot;@mainwindow.imageparameters.expoffset@&quot; auf der Registerkarte &quot;@mainwindow.tabs.imageparameters@&quot; angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten verwendet und es wird keine zusätzliche Belichtungsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird eine vollständige Belichtungsoptimierung durchgeführt.<br><br><b>@photometricsettings.disabled@: Die</b> Belichtung wird nicht optimiert und die Belichtungskorrektur aller Bilder wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> nimmt an, dass die EXIF-Daten ungefähr korrekte Belichtungsdaten enthalten; Dies dient als Ausgangspunkt für die weitere Optimierung der Belichtung.<br><br><b>@photometricsettings.optimizeexposure.full@: Führt</b> eine vollständige Belichtungsoptimierung durch und ignoriert alle EXIF-Belichtungsdaten.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Belichtungsparameter werden beibehalten."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
-			"morehelptext": "<br><br>Wenn aktiviert, werden die 'WB rot / grün / blau' Spalten in der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder anzeigen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn die Bilder mit festem Weißabgleich erstellt wurden, ist der Weißabgleich nicht optimiert.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die Weißabgleichparameter aller Bilder werden bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Weißabgleichsparameter werden beibehalten."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Steuert, ob @lensflare@ einzelner Quellbilder kompensiert wird. Der Kontrast einzelner Bilder wird erhöht, um die durch @lensflare@ verursachte Kontrastminderung auszugleichen.",
@@ -8294,6 +8403,42 @@
 			"machinetranslated": true,
 			"helptext": "Wenn alle Bilder den gleichen Farbraum haben, wird dieser Farbraum verwendet (anstelle des oben ausgewählten Farbraums).",
 			"morehelptext": "<br><br>Beachten Sie, dass diese Einstellung für RAW-Quellbilder ignoriert wird. RAW-Bilder werden immer in den oben ausgewählten Farbraum konvertiert."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
+			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.hdrflow",
+			"machinetranslated": true,
+			"helptext": "Konfiguriert, wie Belichtungsreihen behandelt werden.",
+			"morehelptext": "<br><br>Belichtungsreihen können auf zwei Arten verarbeitet werden:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui kombiniert zunächst jeden Satz von Belichtungsreihen zu einem HDR-Bild (oder kombiniert sie mit Exposure Fusion). Anschließend werden die kombinierten Bilder zu einem Panorama gemischt.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Zunächst werden sogenannte &quot; <b>Belichtungsebenen</b> &quot; erstellt. Eine Belichtungsebenen ist das vollständige Panorama bei einer Belichtungsstufe (dh alle Bilder, die mit identischer Belichtungszeit, Blende und ISO aufgenommen wurden). Schließlich werden die separaten Belichtungsebenen zu einem HDR-Bild oder einem verschmolzenen Belichtungsbild kombiniert. Diese Methode sollte nur für Panoramen verwendet werden, die im manuellen Belichtungsmodus aufgenommen wurden. Es ist erforderlich, dass das gesamte Panorama bei jeder Belichtungsstufe vollständig abgedeckt ist.<br><br><b>@options.automatic@:</b> Wählt die beste Option für das aktuelle Projekt. Wenn die Bilder im manuellen Belichtungsmodus aufgenommen wurden, werden Belichtungsebenen erstellt. Andernfalls werden die Belichtungsreihen zuerst kombiniert und dann gemischt."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.mergemethod",
+			"machinetranslated": true,
+			"helptext": "Konfiguriert, wie Belichtungsreihen kombiniert werden.",
+			"morehelptext": "Belichtungsreihen (für HDR) werden zu einem einzigen Bild kombiniert. PTGui kann dies auf zwei verschiedene Arten tun:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtungsreihen werden zunächst zu einem echten Bild mit hohem Dynamikbereich kombiniert. Dieses HDR-Bild deckt den gesamten Dynamikbereich aller Quellbilder ab, von den dunkelsten bis zu den hellsten Bildern. Dann wird im Allgemeinen eine Tonzuordnung verwendet, um dies in ein Bild mit niedrigem Dynamikbereich umzuwandeln, das zum Anzeigen oder Drucken geeignet ist.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtungsreihen werden direkt zu einem <b>tonabgebildeten</b> Bild mit niedrigem Dynamikbereich kombiniert. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonabbildung zu erstellen.<br><br>Die Einstellungen für die Tonzuordnung und Belichtungsfusionen können in der Seitenleiste des Panorama-Editors angepasst werden."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
+			"machinetranslated": true,
+			"helptext": "Aktiviert Exposure Fusion für einzelne Bilder (keine Belichtungsreihe)",
+			"morehelptext": "<br><br>Normalerweise wird Exposure Fusion verwendet, um mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich zu kombinieren. PTGui kann Exposure Fusion jedoch auch für einzelne Bilder verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei der Tonemapping."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
+			"machinetranslated": true,
+			"helptext": "Kombiniert Belichtungsreihen mit Exposure Fusion",
+			"morehelptext": "<br><br>Mit Exposure Fusion werden mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich kombiniert. Es ist auch möglich, Exposure Fusion auch für einzelne Bilder (keine Belichtungsreihe) zu verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei der Tonzuordnung."
+		},
+		{
+			"id": "photometricsettings.optimizewhitebalance",
+			"machinetranslated": true,
+			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
+			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert."
 		}
 	],
 	"helppages": [

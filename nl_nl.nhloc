@@ -7964,12 +7964,6 @@
 			"morehelptext": "<br><br>Merk op dat deze instelling wordt genegeerd voor RAW-bronafbeeldingen. RAW-afbeeldingen worden altijd geconverteerd naar de hierboven geselecteerde kleurruimte."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Bepaalt of de witbalans van individuele bronafbeeldingen wordt aangepast om kleurverschillen tussen afbeeldingen te minimaliseren.",
-			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> als de EXIF-gegevens van een of meer afbeeldingen aangeven dat automatische witbalans is gebruikt, wordt de witbalans geoptimaliseerd. Als (volgens de EXIF-gegevens) de afbeeldingen zijn gemaakt met een specifieke witbalansvoorinstelling, worden alle afbeeldingen verondersteld identieke witbalansinstellingen te hebben, daarom wordt de witbalans niet geoptimaliseerd.<br><br><b>@photometricsettings.disabled@:</b> witbalans wordt niet geoptimaliseerd en de huidige witbalansparameters blijven behouden.<br><br><b>@photometricsettings.enabled@:</b> witbalans wordt geoptimaliseerd."
-		},
-		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
 			"helptext": "Configureert hoe belichtingsreeksen worden behandeld.",

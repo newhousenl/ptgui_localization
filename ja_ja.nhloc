@@ -7234,10 +7234,6 @@
 			"helptext": "画像のISO値（EXIFデータによる）が前の画像と異なる場合は、 新しいプロジェクトを開始します。 "
 		},
 		{
-			"id": "batchbuilderdetect.sameiso",
-			"helptext": "パノラマのスキャンを開始します。 "
-		},
-		{
 			"id": "aligntogrid.allimages",
 			"helptext": "現在のプロジェクトのすべての画像にグリッドを適用します。 "
 		},

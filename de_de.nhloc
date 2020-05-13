@@ -8405,12 +8405,6 @@
 			"morehelptext": "<br><br>Beachten Sie, dass diese Einstellung für RAW-Quellbilder ignoriert wird. RAW-Bilder werden immer in den oben ausgewählten Farbraum konvertiert."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
-			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert."
-		},
-		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
 			"helptext": "Konfiguriert, wie Belichtungsreihen behandelt werden.",

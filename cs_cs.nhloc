@@ -8211,12 +8211,6 @@
 			"morehelptext": "<br><br>Toto nastavení je u zdrojových obrázků RAW ignorováno. Snímky RAW budou vždy převedeny na výše vybraný barevný prostor."
 		},
 		{
-			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Určuje, zda bude vyvážení bílé jednotlivých zdrojových obrázků upraveno, aby se minimalizovaly barevné rozdíly mezi obrázky.",
-			"morehelptext": "<br><br>Pokud je tato možnost povolena, upraví se sloupec „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF jednoho nebo více obrázků naznačují, že bylo použito automatické vyvážení bílé, provede se optimalizace vyvážení bílé. Pokud (podle dat EXIF) byly snímky pořízeny s konkrétní předvolbou vyvážení bílé, předpokládá se, že všechny snímky mají stejné nastavení vyvážení bílé, takže vyvážení bílé nebude optimalizováno.<br><br><b>@photometricsettings.disabled@:</b> Vyvážení bílé nebude optimalizováno a zůstanou zachovány aktuální parametry vyvážení bílé.<br><br><b>@photometricsettings.enabled@:</b> Vyvážení bílé bude optimalizováno."
-		},
-		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
 			"helptext": "Konfiguruje způsob zpracování expozic v závorkách.",

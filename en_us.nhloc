@@ -8072,11 +8072,11 @@
         },
         {
             "id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
-            "helptext": "Cannot use the source images' color profile, because RAW or DNG files are loaded. For RAW or DNG files please choose the desired color profile in the list above."
+            "helptext": "Cannot use the source images color space, because RAW or DNG files are loaded. For RAW or DNG files please choose the desired color profile in the list above."
         },
         {
             "id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
-            "helptext": "Cannot use the source images' color profile, because the source images don't have identical color profiles. Choose the desired output color profile in the list above."
+            "helptext": "Cannot use the source images color space, because the source images don't have identical color profiles. Choose the desired output color profile in the list above."
         },
         {
             "id": "exposurehdrtab.currentcameracurveisnotusedwarning",

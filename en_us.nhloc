@@ -5957,6 +5957,22 @@
     "id": "txt.asshot",
     "txtfortranslate": "As original",
     "txt": "As shot"
+},
+{
+    "id": "options.keepmultiplesidebarpanelsopen",
+    "txt": "Keep multiple panels open in the side bar in the @panoramaeditor@"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.blenddatatype",
+    "txt": "Precision:"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+    "txt": "Half float"
+},
+{
+    "id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+    "txt": "Float"
 }
 
 
@@ -8053,6 +8069,28 @@
             "id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
             "helptext": "Combine bracketed exposures using Exposure Fusion",
             "morehelptext": "<br><br>Exposure Fusion is used to combine multiple bracketed expsoures into a single image with reduced dynamic range. It's also possible to use Exposure Fusion on single, non-bracketed images as well, by creating artificial darker and brighter copies of the same image. This increases visible detail in the shadows and highlights, similar to tone mapping."
+        },
+        {
+            "id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+            "helptext": "Cannot use the source images' color profile, because RAW or DNG files are loaded. For RAW or DNG files please choose the desired color profile in the list above."
+        },
+        {
+            "id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+            "helptext": "Cannot use the source images' color profile, because the source images don't have identical color profiles. Choose the desired output color profile in the list above."
+        },
+        {
+            "id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+            "helptext": "This camera curve is currently not used. The camera curve must be assigned to one or more images in the '@mainwindow.imageparameters.cameracurve@' column in the @mainwindow.tabs.imageparameters@ tab."
+        },
+        {
+            "id": "options.keepmultiplesidebarpanelsopen",
+            "helptext": "If selected, multiple panels in the side bar can be open simultaneously. The previous panel will not close automatically when opening another panel."
+        },
+        
+        {
+            "id": "mainwindow.exposurehdrpanel.blenddatatype",
+            "helptext": "Internal precision of the processing pipeline.",
+            "morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> All internal processing is done in 16 bits per channel (64 bits per pixel) 'half' floating point format.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b>All internal processing is done in 32 bits per channel (128 bits per pixel) floating point format.<br><br>Generally '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' is sufficient. Only when working with extremely high dynamic range images (16 stops or more), using '@mainwindow.exposurehdrpanel.blenddatatype.float@' may be necessary to prevent clipping of the highlights, but processing will take longer and require twice as much memory and temporary disk space."
         }
         
         

@@ -5973,6 +5973,10 @@
 {
     "id": "mainwindow.exposurehdrpanel.blenddatatype.float",
     "txt": "Float"
+},
+{
+    "id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+    "txt": "but only if alignment was succesful"
 }
 
 
@@ -8091,7 +8095,13 @@
             "id": "mainwindow.exposurehdrpanel.blenddatatype",
             "helptext": "Internal precision of the processing pipeline.",
             "morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> All internal processing is done in 16 bits per channel (64 bits per pixel) 'half' floating point format.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b>All internal processing is done in 32 bits per channel (128 bits per pixel) floating point format.<br><br>Generally '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' is sufficient. Only when working with extremely high dynamic range images (16 stops or more), using '@mainwindow.exposurehdrpanel.blenddatatype.float@' may be necessary to prevent clipping of the highlights, but processing will take longer and require twice as much memory and temporary disk space."
+        },
+        {
+            "id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+            "helptext": "Skip automatic exposure and color adjustment if the images could not be aligned.",
+            "morehelptext": "<br><br>Automatic exposure and color adjustment is done by comparing pixels from overlapping images. Therefore it is necessary that the images are aligned properly. If this option is enabled, and PTGui failed to align the images (for example because no control points could be found), automatic exposure and color adjustment will be skipped."
         }
+        
         
         
         

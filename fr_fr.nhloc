@@ -7278,6 +7278,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Comme original"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Gardez plusieurs panneaux ouverts dans la barre latérale du @panoramaeditor@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Précision:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "mais seulement si l'alignement a réussi"
 		}
 	],
 	"tooltips": [
@@ -9810,6 +9835,38 @@
 			"machinetranslated": true,
 			"helptext": "Contrôle si la balance des blancs des images source individuelles sera ajustée, afin de minimiser les différences de couleur entre les images.",
 			"morehelptext": "<br><br>Si elle est activée, la colonne '@mainwindow.imageparameters.whitebalance@' de l'onglet @mainwindow.tabs.imageparameters@ sera ajustée.<br><br><b>@photometricsettings.onlyifnecessary@:</b> si les données EXIF d'une ou plusieurs images indiquent que la balance des blancs automatique a été utilisée, l'optimisation de la balance des blancs sera effectuée. Si (selon les données EXIF) les images ont été prises avec un préréglage de balance des blancs spécifique, toutes les images sont supposées avoir des paramètres de balance des blancs identiques, par conséquent la balance des blancs ne sera pas optimisée.<br><br><b>@photometricsettings.disabled@:</b> la balance des blancs ne sera pas optimisée et les paramètres actuels de balance des blancs seront conservés.<br><br><b>@photometricsettings.enabled@:</b> la balance des blancs sera optimisée."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les fichiers RAW ou DNG sont chargés. Pour les fichiers RAW ou DNG, veuillez choisir le profil de couleur souhaité dans la liste ci-dessus."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les images source n'ont pas de profils colorimétriques identiques. Choisissez le profil de couleur de sortie souhaité dans la liste ci-dessus."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Cette courbe de caméra n'est actuellement pas utilisée. La courbe de la caméra doit être affectée à une ou plusieurs images dans la colonne '@mainwindow.imageparameters.cameracurve@' de l'onglet @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Si cette option est sélectionnée, plusieurs panneaux de la barre latérale peuvent être ouverts simultanément. Le panneau précédent ne se fermera pas automatiquement lors de l'ouverture d'un autre panneau."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Précision interne du pipeline de traitement.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Tout le traitement interne se fait en 16 bits par canal (64 bits par pixel) au format demi-virgule flottante.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Tout le traitement interne est effectué au format à virgule flottante 32 bits par canal (128 bits par pixel).<br><br>Généralement, «@mainwindow.exposurehdrpanel.blenddatatype.halffloat@» est suffisant. Uniquement lorsque vous travaillez avec des images à plage dynamique extrêmement élevée (16 arrêts ou plus), l'utilisation de '@mainwindow.exposurehdrpanel.blenddatatype.float@' peut être nécessaire pour éviter l'écrêtage des hautes lumières, mais le traitement prendra plus de temps et nécessitera deux fois plus de mémoire et d'espace disque temporaire."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Ignorez l'exposition automatique et le réglage des couleurs si les images ne peuvent pas être alignées.",
+			"morehelptext": "<br><br>L'exposition automatique et le réglage des couleurs sont effectués en comparant les pixels des images qui se chevauchent. Il est donc nécessaire que les images soient correctement alignées. Si cette option est activée et que PTGui n'a pas réussi à aligner les images (par exemple, car aucun point de contrôle n'a pu être trouvé), l'exposition automatique et le réglage des couleurs seront ignorés."
 		}
 	],
 	"helppages": [

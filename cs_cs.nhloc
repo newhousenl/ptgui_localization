@@ -5890,6 +5890,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Jako originál"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Udržujte více panelů otevřených v postranní liště @panoramaeditor@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Přesnost:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "ale pouze pokud bylo vyrovnání úspěšné"
 		}
 	],
 	"tooltips": [
@@ -8239,6 +8264,38 @@
 			"machinetranslated": true,
 			"helptext": "Určuje, zda bude vyvážení bílé jednotlivých zdrojových obrázků upraveno, aby se minimalizovaly barevné rozdíly mezi obrázky.",
 			"morehelptext": "<br><br>Pokud je tato možnost povolena, upraví se sloupec „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF jednoho nebo více obrázků naznačují, že bylo použito automatické vyvážení bílé, provede se optimalizace vyvážení bílé. Pokud (podle dat EXIF) byly snímky pořízeny s konkrétní předvolbou vyvážení bílé, předpokládá se, že všechny snímky mají stejné nastavení vyvážení bílé, takže vyvážení bílé nebude optimalizováno.<br><br><b>@photometricsettings.disabled@:</b> Vyvážení bílé nebude optimalizováno a zůstanou zachovány aktuální parametry vyvážení bílé.<br><br><b>@photometricsettings.enabled@:</b> Vyvážení bílé bude optimalizováno."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "Nelze použít barevný prostor zdrojových obrázků, protože jsou načteny soubory RAW nebo DNG. U souborů RAW nebo DNG vyberte požadovaný barevný profil z výše uvedeného seznamu."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "Nelze použít barevný prostor zdrojových obrázků, protože zdrojové obrázky nemají identické barevné profily. V seznamu výše vyberte požadovaný barevný profil výstupu."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Tato křivka kamery se momentálně nepoužívá. Křivka kamery musí být přiřazena jednomu nebo více obrázkům ve sloupci „@mainwindow.imageparameters.cameracurve@“ na kartě @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Pokud je vybrána, může být současně otevřeno více panelů v postranní liště. Při otevření jiného panelu se předchozí panel nezavře automaticky."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Vnitřní přesnost zpracovatelského potrubí.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Veškeré interní zpracování se provádí v 16 bitech na kanál (64 bitů na pixel) v polovičním formátu s pohyblivou řádovou čárkou.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Veškeré interní zpracování se provádí ve formátu 32 bitů na kanál (128 bitů na pixel) s pohyblivou řádovou čárkou.<br><br>Obecně postačuje „@mainwindow.exposurehdrpanel.blenddatatype.halffloat@“. Pouze při práci s obrázky s extrémně vysokým dynamickým rozsahem (16 zastávek nebo více) může být použití programu „@mainwindow.exposurehdrpanel.blenddatatype.float@“ nezbytné pro zabránění oříznutí světel, ale zpracování bude trvat déle a bude vyžadovat dvakrát tolik paměti a dočasného místa na disku."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Pokud nelze snímky zarovnat, přeskočte automatické nastavení expozice a barev.",
+			"morehelptext": "<br><br>Automatické nastavení expozice a barev se provádí porovnáním pixelů z překrývajících se obrázků. Proto je nutné, aby obrázky byly správně zarovnány. Pokud je tato možnost povolena a PTGui nedokázala zarovnat obrázky (například proto, že nebyly nalezeny žádné kontrolní body), bude automatická expozice a úprava barev vynecháno."
 		}
 	],
 	"helppages": [

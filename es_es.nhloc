@@ -7282,6 +7282,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Como original"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Mantenga múltiples paneles abiertos en la barra lateral en el @panoramaeditor@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Precisión:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "pero solo si la alineación fue exitosa"
 		}
 	],
 	"tooltips": [
@@ -9814,6 +9839,38 @@
 			"machinetranslated": true,
 			"helptext": "Controla si se ajustará el balance de blancos de las imágenes de origen individuales, para minimizar las diferencias de color entre las imágenes.",
 			"morehelptext": "<br><br>Si está habilitado, la columna '@mainwindow.imageparameters.whitebalance@' en la pestaña @mainwindow.tabs.imageparameters@ se ajustará.<br><br><b>@photometricsettings.onlyifnecessary@:</b> si los datos EXIF de una o más imágenes indican que se utilizó el balance de blancos automático, se realizará la optimización del balance de blancos. Si (de acuerdo con los datos EXIF) las imágenes se tomaron con un preajuste de balance de blancos específico, se supone que todas las imágenes tienen configuraciones de balance de blancos idénticas, por lo tanto, el balance de blancos no se optimizará.<br><br><b>@photometricsettings.disabled@:</b> el balance de blancos no se optimizará y se mantendrán los parámetros actuales del balance de blancos.<br><br><b>@photometricsettings.enabled@:</b> se optimizará el balance de blancos."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "No se puede usar el espacio de color de las imágenes de origen porque se cargan archivos RAW o DNG. Para archivos RAW o DNG, elija el perfil de color deseado en la lista anterior."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "No se puede usar el espacio de color de las imágenes de origen, porque las imágenes de origen no tienen perfiles de color idénticos. Elija el perfil de color de salida deseado en la lista anterior."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Esta curva de cámara no se utiliza actualmente. La curva de la cámara debe asignarse a una o más imágenes en la columna '@mainwindow.imageparameters.cameracurve@' en la pestaña @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Si se selecciona, se pueden abrir varios paneles en la barra lateral simultáneamente. El panel anterior no se cerrará automáticamente al abrir otro panel."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Precisión interna de la tubería de procesamiento.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Todo el procesamiento interno se realiza en formato de coma flotante de 16 bits por canal (64 bits por píxel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> todo el procesamiento interno se realiza en formato de coma flotante de 32 bits por canal (128 bits por píxel).<br><br>En general, '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' es suficiente. Solo cuando se trabaja con imágenes de rango dinámico extremadamente alto (16 paradas o más), puede ser necesario usar '@mainwindow.exposurehdrpanel.blenddatatype.float@' para evitar el recorte de los resaltados, pero el procesamiento llevará más tiempo y requerirá el doble de memoria y espacio temporal en el disco."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Omita la exposición automática y el ajuste de color si las imágenes no se pueden alinear.",
+			"morehelptext": "<br><br>La exposición automática y el ajuste de color se realizan comparando píxeles de imágenes superpuestas. Por lo tanto, es necesario que las imágenes estén alineadas correctamente. Si esta opción está habilitada y PTGui no pudo alinear las imágenes (por ejemplo, porque no se encontraron puntos de control), se omitirá la exposición automática y el ajuste de color."
 		}
 	],
 	"helppages": [

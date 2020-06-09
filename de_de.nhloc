@@ -5901,6 +5901,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Wie original"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Lassen Sie in der Seitenleiste des @panoramaeditor@ mehrere Paneele offen"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Präzision:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "aber nur, wenn die Ausrichtung erfolgreich war"
 		}
 	],
 	"tooltips": [
@@ -8433,6 +8458,38 @@
 			"machinetranslated": true,
 			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
 			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "Der Farbraum der Quellbilder kann nicht verwendet werden, da RAW- oder DNG-Dateien geladen werden. Für RAW- oder DNG-Dateien wählen Sie bitte das gewünschte Farbprofil in der obigen Liste."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "Der Farbraum der Quellbilder kann nicht verwendet werden, da die Quellbilder keine identischen Farbprofile aufweisen. Wählen Sie das gewünschte Ausgabefarbprofil in der obigen Liste."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Diese Kamerakurve wird derzeit nicht verwendet. Die Kamerakurve muss einem oder mehreren Bildern in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte @mainwindow.tabs.imageparameters@ zugewiesen werden."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Wenn diese Option ausgewählt ist, können mehrere Bedienfelder in der Seitenleiste gleichzeitig geöffnet sein. Das vorherige Fenster wird beim Öffnen eines anderen Fensters nicht automatisch geschlossen."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Interne Präzision der Verarbeitungspipeline.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt im half floating point 16 Bit pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt im floating point 32 Bit pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikbereich (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Überspringe die automatische Belichtung und Farbanpassung, wenn die Bilder nicht ausgerichtet werden konnten.",
+			"morehelptext": "<br><br>Die automatische Belichtung und Farbanpassung erfolgt durch Vergleichen von Pixeln aus überlappenden Bildern. Daher ist es notwendig, dass die Bilder richtig ausgerichtet sind. Wenn diese Option aktiviert ist und PTGui die Bilder nicht ausrichten konnte (z. B. weil keine Kontrollpunkte gefunden wurden), werden die automatische Belichtung und Farbanpassung übersprungen."
 		}
 	],
 	"helppages": [

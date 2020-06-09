@@ -6332,6 +6332,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "作為原始"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "在@panoramaeditor@的側欄中保持多個面板處於打開狀態"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "精確："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "但前提是對齊成功"
 		}
 	],
 	"tooltips": [
@@ -8864,6 +8889,38 @@
 			"machinetranslated": true,
 			"helptext": "控制是否要調整單個源圖像的白平衡，以最小化圖像之間的色差。",
 			"morehelptext": "<br><br>如果啟用，則將調整@mainwindow.tabs.imageparameters@標籤中的“ @mainwindow.imageparameters.whitebalance@”列。<br><br><b>@photometricsettings.onlyifnecessary@：</b>如果一幅或多幅圖像的EXIF數據指示已使用自動白平衡，則將進行白平衡優化。如果（根據EXIF數據）使用特定的白平衡預設拍攝圖像，則假定所有圖像均具有相同的白平衡設置，因此不會優化白平衡。<br><br><b>@photometricsettings.disabled@：</b>將不會優化白平衡，並且將保留當前的白平衡參數。<br><br><b>@photometricsettings.enabled@：</b>將優化白平衡。"
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "由於已加載RAW或DNG文件，因此無法使用源圖像的色彩空間。對於RAW或DNG文件，請在上面的列表中選擇所需的顏色配置文件。"
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "無法使用源圖像的色彩空間，因為源圖像的顏色配置文件不同。在上面的列表中選擇所需的輸出顏色配置文件。"
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "目前未使用此相機曲線。必須在@mainwindow.tabs.imageparameters@選項卡的“ @mainwindow.imageparameters.cameracurve@”列中將攝像機曲線分配給一個或多個圖像。"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "如果選擇，可以同時打開側欄中的多個面板。打開另一個面板時，前一個面板不會自動關閉。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "處理管道的內部精度。",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@：</b>所有內部處理<b>均以</b>每通道16位（每像素64位）“半”浮點格式完成。<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@：</b>所有內部處理<b>均以</b>每個通道32位（每個像素128位）浮點格式進行。<br><br>通常，“ @mainwindow.exposurehdrpanel.blenddatatype.halffloat@”就足夠了。僅當使用極高的動態範圍圖像（16檔或更多）時，才可能需要使用“ @mainwindow.exposurehdrpanel.blenddatatype.float@”來防止突出顯示高光，但是處理將花費更長的時間，並且需要兩倍的內存和臨時磁盤空間。"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "如果無法對齊圖像，請跳過自動曝光和色彩調節。",
+			"morehelptext": "<br><br>通過比較重疊圖像中的像素，可以完成自動曝光和色彩調整。因此，必須正確對齊圖像。如果啟用此選項，並且PTGui無法對齊圖像（例如，因為找不到控制點），則將跳過自動曝光和顏色調整。"
 		}
 	],
 	"helppages": [

@@ -5900,6 +5900,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Zoals origineel"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Houd meerdere panelen open in de zijbalk van de @panoramaeditor@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Nauwkeurigheid:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "maar alleen als de uitlijning succesvol was"
 		}
 	],
 	"tooltips": [
@@ -7992,6 +8017,38 @@
 			"machinetranslated": true,
 			"helptext": "Bepaalt of de witbalans van individuele bronafbeeldingen wordt aangepast om kleurverschillen tussen afbeeldingen te minimaliseren.",
 			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> als de EXIF-gegevens van een of meer afbeeldingen aangeven dat automatische witbalans is gebruikt, wordt de witbalans geoptimaliseerd. Als (volgens de EXIF-gegevens) de afbeeldingen zijn gemaakt met een specifieke witbalansvoorinstelling, worden alle afbeeldingen verondersteld identieke witbalansinstellingen te hebben, daarom wordt de witbalans niet geoptimaliseerd.<br><br><b>@photometricsettings.disabled@:</b> witbalans wordt niet geoptimaliseerd en de huidige witbalansparameters blijven behouden.<br><br><b>@photometricsettings.enabled@:</b> witbalans wordt geoptimaliseerd."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "Kan het kleurprofiel van de bronafbeeldingen niet gebruiken, omdat RAW- of DNG-bestanden zijn geladen. Kies voor RAW- of DNG-bestanden het gewenste kleurprofiel in de bovenstaande lijst."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "Kan het kleurprofiel van de bronafbeeldingen niet gebruiken, omdat de bronafbeeldingen geen identieke kleurprofielen hebben. Kies het gewenste uitvoerkleurprofiel in de bovenstaande lijst."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Deze cameracurve wordt momenteel niet gebruikt. De cameracurve moet worden toegewezen aan een of meer afbeeldingen in de kolom '@mainwindow.imageparameters.cameracurve@' op het tabblad @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Indien geselecteerd, kunnen meerdere panelen in de zijbalk tegelijkertijd open zijn. Het vorige paneel sluit niet automatisch bij het openen van een ander paneel."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Interne precisie van de verwerkingspijplijn.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Alle interne verwerking gebeurt in 16 bits per kanaal (64 bits per pixel) 'half' floating point.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Alle interne verwerking gebeurt in 32 bits per kanaal (128 bits per pixel) floating point.<br><br>Over het algemeen is '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' voldoende. Alleen bij het werken met afbeeldingen met een extreem hoog dynamisch bereik (16 stops of meer), kan het gebruik van '@mainwindow.exposurehdrpanel.blenddatatype.float@' nodig zijn om clipping van extreem lichte partijen te voorkomen, maar de verwerking duurt langer en vereist tweemaal zoveel geheugen en tijdelijke schijfruimte."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Sla automatische belichting- en kleurcorrectie over als de afbeeldingen niet konden worden uitgelijnd.",
+			"morehelptext": "<br><br>Automatische belichting- en kleurcorrectie wordt gedaan door pixels van overlappende afbeeldingen te vergelijken. Daarom is het noodzakelijk dat de afbeeldingen goed zijn uitgelijnd. Als deze optie is ingeschakeld en PTGui de afbeeldingen niet succesvol heeft uitgelijnd (bijvoorbeeld omdat er geen controlepunten konden worden gevonden), worden automatische belichting- en kleurcorrectie overgeslagen."
 		}
 	],
 	"helppages": [

@@ -5900,6 +5900,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "オリジナルとして"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor@のサイドバーで複数のパネルを開いたままにする"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "精度："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "しかし、アライメントが成功した場合のみ"
 		}
 	],
 	"tooltips": [
@@ -7990,6 +8015,38 @@
 			"machinetranslated": true,
 			"helptext": "画像間の色の違いを最小限に抑えるために、個々のソース画像のホワイトバランスを調整するかどうかを制御します。",
 			"morehelptext": "<br><br>有効にすると、@mainwindow.tabs.imageparameters@タブの[@mainwindow.imageparameters.whitebalance@]列が調整されます。<br><br><b>@photometricsettings.onlyifnecessary@：</b> 1つ以上の画像のEXIFデータが自動ホワイトバランスが使用されたことを示している場合、ホワイトバランスの最適化が行われます。 （EXIFデータに従って）画像が特定のホワイトバランスプリセットで撮影された場合、すべての画像は同じホワイトバランス設定であると想定されるため、ホワイトバランスは最適化されません。<br><br><b>@photometricsettings.disabled@：</b>ホワイトバランスは最適化されず、現在のホワイトバランスパラメータが保持されます。<br><br><b>@photometricsettings.enabled@：</b>ホワイトバランスが最適化されます。"
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "RAWまたはDNGファイルがロードされているため、ソース画像の色空間を使用できません。 RAWファイルまたはDNGファイルの場合は、上記のリストから目的のカラープロファイルを選択してください。"
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "ソースイメージには同一のカラープロファイルがないため、ソースイメージの色空間を使用できません。上記のリストから目的の出力カラープロファイルを選択します。"
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "このカメラカーブは現在使用されていません。カメラカーブは、@mainwindow.tabs.imageparameters@タブの[@mainwindow.imageparameters.cameracurve@]列の1つ以上の画像に割り当てる必要があります。"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "選択すると、サイドバーの複数のパネルを同時に開くことができます。別のパネルを開いても、前のパネルは自動的に閉じません。"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "処理パイプラインの内部精度。",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@：</b>すべての内部処理は、チャネルあたり16ビット（ピクセルあたり64ビット）の「ハーフ」浮動小数点形式で行われます。<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@：</b>すべての内部処理は、32ビット/チャネル（128ビット/ピクセル）浮動小数点形式で行われます。<br><br>通常、「@mainwindow.exposurehdrpanel.blenddatatype.halffloat@」で十分です。非常に高いダイナミックレンジの画像（16ストップ以上）を使用する場合のみ、ハイライトのクリッピングを防ぐために「@mainwindow.exposurehdrpanel.blenddatatype.float@」を使用する必要がありますが、処理に時間がかかり、2倍のメモリと一時ディスクスペースが必要になります。"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "画像を調整できない場合は、自動露出と色調整をスキップします。",
+			"morehelptext": "<br><br>自動露出と色調整は、重なり合う画像のピクセルを比較することで行われます。したがって、画像を適切に配置する必要があります。このオプションが有効で、PTGuiが画像の位置合わせに失敗した場合（たとえば、制御点が見つからなかったため）、自動露出と色調整はスキップされます。"
 		}
 	],
 	"helppages": [

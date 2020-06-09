@@ -7261,6 +7261,31 @@
 			"id": "txt.asshot",
 			"machinetranslated": true,
 			"txt": "Как оригинал"
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"txt": "Держите несколько панелей открытыми в боковой панели в @panoramaeditor@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"txt": "Точность:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
+			"machinetranslated": true,
+			"txt": "Half float"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
+			"machinetranslated": true,
+			"txt": "Float"
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"txt": "но только если выравнивание было успешным"
 		}
 	],
 	"tooltips": [
@@ -9793,6 +9818,38 @@
 			"machinetranslated": true,
 			"helptext": "Определяет, будет ли регулироваться баланс белого отдельных исходных изображений, чтобы минимизировать цветовые различия между изображениями.",
 			"morehelptext": "<br><br>Если включено, столбец «@mainwindow.imageparameters.whitebalance@» на вкладке @mainwindow.tabs.imageparameters@ будет скорректирован.<br><br><b>@photometricsettings.onlyifnecessary@:</b> если данные EXIF одного или нескольких изображений указывают на то, что использовался автоматический баланс белого, будет выполнена оптимизация баланса белого. Если (согласно данным EXIF) изображения были сделаны с определенной предустановкой баланса белого, предполагается, что все изображения имеют одинаковые настройки баланса белого, следовательно, баланс белого не будет оптимизирован.<br><br><b>@photometricsettings.disabled@:</b> баланс белого не будет оптимизирован, и текущие параметры баланса белого будут сохранены.<br><br><b>@photometricsettings.enabled@:</b> баланс белого будет оптимизирован."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
+			"machinetranslated": true,
+			"helptext": "Невозможно использовать цветовое пространство исходных изображений, так как загружены файлы RAW или DNG. Для файлов RAW или DNG выберите нужный цветовой профиль в списке выше."
+		},
+		{
+			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
+			"machinetranslated": true,
+			"helptext": "Невозможно использовать цветовое пространство исходных изображений, поскольку исходные изображения не имеют идентичных цветовых профилей. Выберите желаемый выходной цветовой профиль в списке выше."
+		},
+		{
+			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
+			"machinetranslated": true,
+			"helptext": "Эта кривая камеры в настоящее время не используется. Кривая камеры должна быть назначена одному или нескольким изображениям в столбце «@mainwindow.imageparameters.cameracurve@» на вкладке @mainwindow.tabs.imageparameters@."
+		},
+		{
+			"id": "options.keepmultiplesidebarpanelsopen",
+			"machinetranslated": true,
+			"helptext": "Если выбрано, несколько панелей в боковой панели могут быть открыты одновременно. Предыдущая панель не закрывается автоматически при открытии другой панели."
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.blenddatatype",
+			"machinetranslated": true,
+			"helptext": "Внутренняя точность обработки трубопровода.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Вся внутренняя обработка выполняется в 16 битах на канал (64 бит на пиксель) в формате «половины» с плавающей запятой.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Вся внутренняя обработка выполняется в формате с плавающей запятой 32 бит на канал (128 бит на пиксель).<br><br>Обычно достаточно «@mainwindow.exposurehdrpanel.blenddatatype.halffloat@». Только при работе с изображениями с чрезвычайно высоким динамическим диапазоном (16 ступеней и более) использование '@mainwindow.exposurehdrpanel.blenddatatype.float@' может оказаться необходимым для предотвращения обрезания бликов, но обработка займет больше времени и потребует вдвое больше памяти и временного дискового пространства."
+		},
+		{
+			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
+			"machinetranslated": true,
+			"helptext": "Пропустите автоматическую настройку экспозиции и цвета, если изображения не могут быть выровнены.",
+			"morehelptext": "<br><br>Автоматическая настройка экспозиции и цвета выполняется путем сравнения пикселей на перекрывающихся изображениях. Поэтому необходимо, чтобы изображения были выровнены правильно. Если эта опция включена и PTGui не удалось выровнять изображения (например, из-за того, что не удалось найти контрольные точки), автоматическая экспозиция и настройка цвета будут пропущены."
 		}
 	],
 	"helppages": [

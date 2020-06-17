@@ -4712,7 +4712,7 @@
 		},
 		{
 			"id": "err.cannotlinkdifferentsize",
-			"txt": "Deze afbeeldingen kunnen niet worden gekoppeld omdat ze verschillende dimensies hebben. Gekoppelde afbeeldingen moeten dezelfde pixelafmetingen hebben."
+			"txt": "Deze afbeeldingen kunnen niet worden gekoppeld omdat ze verschillende dimensies hebben. Om afbeeldingen te koppelen moeten deze dezelfde pixelafmetingen en dezelfde orientatie (liggend/staand) hebben."
 		},
 		{
 			"id": "txt.openclcrashaskdisablegpuacceleration",

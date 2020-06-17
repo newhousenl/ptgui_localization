@@ -4872,7 +4872,7 @@
 },
 {
     "id": "err.cannotlinkdifferentsize",
-    "txt": "These images cannot be linked because they have different dimensions. Linked images should have the same pixel dimensions."
+    "txt": "These images cannot be linked because they have different dimensions. In order to link a set of bracketed images, they should have the same pixel dimensions and the same orientation (all portrait or all landscape)."
 },
 {
     "id": "txt.openclcrashaskdisablegpuacceleration",

@@ -1186,8 +1186,8 @@
 		},
 		{
 			"id": "detailviewer",
-			"machinetranslated": false,
-			"txt": "Visionneuse"
+			"machinetranslated": true,
+			"txt": "Visionneuse de détails"
 		},
 		{
 			"id": "menubar.tools.mainwindow",
@@ -3802,7 +3802,7 @@
 		{
 			"id": "options.enblendapp",
 			"machinetranslated": true,
-			"txt": "Application de fusion:"
+			"txt": "Application Enblend:"
 		},
 		{
 			"id": "options.smartblendapp",
@@ -7053,7 +7053,7 @@
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": false,
-			"txt": "Envoyer à Stitcher la liste de lots générée par lots"
+			"txt": "Envoyer le lot généré à Batch Sticher "
 		},
 		{
 			"id": "options.rawfilesupport",
@@ -8309,37 +8309,36 @@
 		},
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
-			"machinetranslated": true,
-			"helptext": "Si cette option est activée, Batch Builder utilisera les paramètres d'objectif automatiques pour les projets générés.",
-			"morehelptext": "<br><br>Cela remplacera les paramètres d'objectif du projet de modèle et utilisera les mêmes paramètres d'objectif par défaut qui résulteraient de l'ajout des images à un nouveau projet. Utilisez cette option si vous souhaitez utiliser le même modèle pour les images prises avec différents appareils photo ou objectifs.<br><br>Le constructeur de lots honorera toutes les associations EXIF ​​établies dans les bases de données Lens et Camera.<br><br>Si cette option est désactivée, les données EXIF ​​des images sont ignorées et les paramètres de l’objectif sont simplement copiés à partir du projet de modèle."
+			"machinetranslated": false,
+			"helptext": "Si cette option est activée, le générateur de lots utilisera les paramètres d'objectif automatiques pour les projets générés.<br><br>Cela remplacera les paramètres d'objectif du modèle de projet et utilisera les mêmes paramètres d'objectif par défaut que ceux résultant de l'ajout des images à un nouveau projet. Utilisez cette option si vous souhaitez utiliser le même modèle pour les images prises avec différents appareils photo ou objectifs.<br><br>le générateur de lots honorera toutes les associations EXIF ​​établies dans les bases de données 'Lens' et 'Camera'.<br><br>Si cette option est désactivée, les données EXIF ​​des images sont ignorées et les paramètres de l’objectif sont simplement copiés à partir du projet de modèle."
 		},
 		{
 			"id": "projectsettingstab.misc.useexiforientation",
-			"machinetranslated": true,
-			"helptext": "Contrôle la gestion des images avec une balise d’orientation portrait EXIF.",
-			"morehelptext": "<br><br>Lors de la prise d'une image en orientation portrait, de nombreux appareils photo produisent une image en orientation paysage avec une balise EXIF ​​d'orientation ajoutée. La balise Orientation informe le lecteur d'images de l'orientation réelle de l'image. Ce paramètre contrôle la manière dont PTGui gère ces images:<br><br><b>Désélectionné: l'</b> orientation est ignorée, l'image est chargée en tant qu'image paysage. Lors de l'ajout d'une telle image à un nouveau projet PTGui, un angle @roll@ approprié est appliqué pour amener l'image en orientation portrait, mais techniquement, il est traité comme une image de paysage.<br><br><b>Sélectionné:</b> applique l'orientation appropriée lors du chargement afin que l'image soit chargée en orientation portrait.<br><br>Ce paramètre a été ajouté à l'origine pour assurer la compatibilité avec d'autres applications qui ne prennent pas en charge la balise d'orientation. Comme de nos jours, la plupart des applications prennent en charge la balise Orientation, il est recommandé de laisser ce paramètre activé.<br><br>Ce paramètre ne peut pas être modifié une fois les images chargées, vous devez le définir avant de charger la première image."
+			"machinetranslated": false,
+			"helptext": "Définit la façon de gérer des images avec une balise EXIF d’orientation en mode portrait.",
+			"morehelptext": "<br><br>Lors de la prise d'une image en orientation portrait, de nombreux appareils photo produisent une image en orientation paysage et ajoutent une balise EXIF '. La balise d'orientation indique, au lecteur d'images, l'orientation réelle de l'image. Ce paramètre contrôle la manière dont PTGui gère ces images:<br><br><b>Désélectionné: l'</b> orientation est ignorée, l'image est chargée en tant qu'image paysage. Lors de l'ajout d'une telle image à un nouveau projet PTGui, un angle @roll@ approprié est appliqué pour amener l'image en orientation portrait, mais techniquement, elle est traitée comme une image de paysage.<br><br><b>Sélectionné:</b> applique l'orientation appropriée lors du chargement afin que l'image soit chargée en orientation portrait.<br><br>Ce paramètre a été ajouté à l'origine pour assurer la compatibilité avec d'autres applications qui ne prennent pas en charge la balise d'orientation. A présent, la plupart des applications prennent en charge la balise d'orientation, il est recommandé de laisser ce paramètre activé.<br><br>Ce paramètre ne pouvant pas être modifié une fois les images chargées, vous devez le définir avant de charger la première image."
 		},
 		{
 			"id": "projectsettingstab.misc.useexif",
-			"machinetranslated": true,
-			"helptext": "Intialize automatiquement les paramètres de l'objectif lors de l'ajout d'images au projet.",
-			"morehelptext": "<br><br>Si cette option est sélectionnée, PTGui analyse les données EXIF ​​de l'image pour déterminer le type de caméra et d'objectif. Les réglages de l'objectif seront initialisés en fonction de ces données. Les paramètres par défaut peuvent être personnalisés ou remplacés en faisant des associations dans les bases de données Lens et Camera.<br><br>Ceci ne s'applique qu'aux images ajoutées à un projet en appuyant sur le bouton '@mainwindow.projectassistant.loadimages@' ou en faisant glisser des images dans la fenêtre PTGui.<br><br>Si cette option est désactivée, les données EXIF ​​sont ignorées et les paramètres d'objectif actuels sont conservés lors de l'ajout d'images à ce projet.<br><br>Pour le générateur de lot, un paramètre séparé est disponible, voir @mainwindow.projectsettings.batchbuilder@ ci-dessus."
+			"machinetranslated": false,
+			"helptext": "Intialise automatiquement les paramètres de l'objectif lors de l'ajout d'images au projet.",
+			"morehelptext": "<br><br>Si cette option est sélectionnée, PTGui analyse les données EXIF ​​de l'image pour déterminer le type de boitier et d'objectif. Les réglages de l'objectif seront initialisés en fonction de ces données. Les paramètres par défaut peuvent être personnalisés ou remplacés en faisant des associations dans les bases de données 'Lens' et 'Camera'.<br><br>Ceci ne s'applique qu'aux images ajoutées à un projet en appuyant sur le bouton '@mainwindow.projectassistant.loadimages@' ou en faisant glisser des images dans la fenêtre PTGui.<br><br>Si cette option est désactivée, les données EXIF ​​sont ignorées et les paramètres d'objectif actuels sont conservés lors de l'ajout d'images au projet.<br><br>Pour le générateur de lots, un paramètre séparé est disponible, voir @mainwindow.projectsettings.batchbuilder@ ci-dessus."
 		},
 		{
 			"id": "projectsettingstab.misc.askinitializeandoptimize",
-			"machinetranslated": true,
-			"helptext": "Si les images sont complètement mal alignées, il est possible que l'optimiseur reste bloqué. Si ce paramètre est activé, PTGui vous demandera dans ce cas s'il doit exécuter @menubar.project@ | @menubar.project.initializeandoptimize@ afin de ramener les images dans le bon agencement."
+			"machinetranslated": false,
+			"helptext": "Si les images sont totalement mal alignées, il est possible que l'optimiseur reste bloqué. Si ce paramètre est activé, PTGui vous demandera dans ce cas s'il doit exécuter @menubar.project@ | @menubar.project.initializeandoptimize@ afin de ramener les images dans le bon agencement."
 		},
 		{
 			"id": "projectsettingstab.misc.supportduallenscameras",
-			"machinetranslated": true,
-			"helptext": "Configure le support pour les caméras 360° one shot.",
-			"morehelptext": "<br><br>Il existe plusieurs types de caméras panoramiques 360° one shot, produisant un seul fichier image contenant deux images fisheye circulaires côte à côte. Pour assembler, chaque moitié de l'image devrait être chargée dans le projet en tant qu'image source distincte.<br><br>Si activé, lorsque PTGui détecte qu'une image fisheye à double objectif est ajoutée au projet, il charge le même fichier image deux fois. Chacune des deux copies comportera des masques individuels et des cercles de découpe pour extraire les parties respectives de l'image combinée. Les copies seront positionnées à -90° et à + 90° @yaw@.<br><br>Générateur de Lots prend en charge le même comportement.<br><br>Un réglage précis est encore nécessaire: en raison des tolérances de fabrication, il y aura de petites différences entre les caméras individuelles du même type, ce qui entraînera des décalages légèrement différents des cercles d’image. Un modèle peut être créé pour chaque caméra individuelle en prenant une photo (à l'extérieur, sans objets proches de la caméra), en ajoutant des points de contrôle et en optimisant. Ensuite, faites @menubar.file@ | @menubar.file.saveastemplate@. Ce modèle peut être utilisé via @menubar.file@ | @menubar.file.applytemplate@ ou dans le générateur de lots."
+			"machinetranslated": false,
+			"helptext": "Configure le support pour les caméras 360° 'One Shot'.",
+			"morehelptext": "<br><br>Il existe plusieurs types de caméras panoramiques 360° 'One Shot' (prise de vue unique courvrant 360°), produisant un seul fichier image contenant deux images de type fisheye circulaires côte à côte. Pour assembler, chaque moitié de l'image devrait être chargée dans le projet en tant qu'image source distincte.<br><br>Si activé, lorsque PTGui détecte qu'une image fisheye à double objectif est ajoutée au projet, il charge le même fichier image deux fois. Chacune des deux copies comportera des masques individuels et des cercles de découpe pour extraire les parties respectives de l'image combinée. Les copies seront positionnées à -90° et à + 90° @yaw@.<br><br>Le générateur de lots prend en charge le même comportement.<br><br>Un réglage précis est encore nécessaire: en raison des tolérances de fabrication, il y a de petites différences entre les caméras individuelles du même type, ce qui entraîne des décalages légèrement différents des cercles d’image. Un modèle peut être créé, propre à chaque caméra, en prenant une photo (à l'extérieur, sans objets proches de la caméra), en ajoutant des points de contrôle et en optimisant. Ensuite, faites @menubar.file@ | @menubar.file.saveastemplate@. Ce modèle peut être utilisé via @menubar.file@ | @menubar.file.applytemplate@ ou dans le générateur de lots."
 		},
 		{
 			"id": "projectsettingstab.misc.switchtoequirectforwideanglesourceimages",
 			"machinetranslated": true,
-			"helptext": "Lorsque cette option est activée, PTGui bascule vers une position équirectangulaire à 360° x 180° dès qu'un panorama grand angle ou équirectangulaire est chargé. Cela se produit avant d'exécuter &quot;@alignimages@&quot;. Utile pour remapper des panoramas déjà assemblés ou pour charger des images à partir d'appareils photo panoramiques à une prise."
+			"helptext": "Lorsque cette option est activée, PTGui bascule en mode équirectangulaire à 360° x 180° dès qu'un panorama grand angle ou équirectangulaire est chargé. Cela se produit avant d'exécuter &quot;@alignimages@&quot;. Utile pour remapper des panoramas déjà assemblés ou pour charger des images à partir d'appareils photo panoramiques à prise unique."
 		},
 		{
 			"id": "previewtab.size",
@@ -8348,64 +8347,64 @@
 		},
 		{
 			"id": "previewtab.previewbutton",
-			"machinetranslated": true,
-			"helptext": "Cousez et affichez l'aperçu. Avant de broder, PTGui vous demandera quelle application utiliser pour la prévisualisation.",
+			"machinetranslated": false,
+			"helptext": "Assembler et affichez l'aperçu. Avant l'assemblage, PTGui vous demandera quelle application utiliser pour la prévisualisation.",
 			"morehelptext": "<br><br>L'aperçu est toujours généré sous forme d'image JPEG. Pour les autres formats, utilisez la fonction @mainwindow.createpanoramatab.createpanorama@ standard.<br><br>Des applications supplémentaires pour la prévisualisation peuvent être configurées dans @optionspreferences@ | @options.foldersandfileshtml@."
 		},
 		{
 			"id": "previewtab.includeimages",
-			"machinetranslated": true,
-			"helptext": "Incluez uniquement ces images dans l'aperçu généré."
+			"machinetranslated": false,
+			"helptext": "Inclure uniquement ces images dans l'aperçu généré."
 		},
 		{
 			"id": "metadatatab.uselocationofsourceimages",
-			"machinetranslated": true,
-			"helptext": "Copiez les données de localisation des images sources dans le panorama, si disponible. Les images sources doivent contenir des données EXIF ​​GPS."
+			"machinetranslated": false,
+			"helptext": "Copier les données de localisation des images sources dans le panorama, si disponible. Les images sources doivent contenir des données EXIF ​​GPS."
 		},
 		{
 			"id": "metadatatab.latlon",
-			"machinetranslated": true,
-			"helptext": "Entrez les coordonnées GPS où ce panorama a été pris.",
+			"machinetranslated": false,
+			"helptext": "Entrer les coordonnées GPS de l'endroit où ce panorama a été pris.",
 			"morehelptext": "<br><br>L'emplacement doit toujours être entré en tant que latitude suivie de la longitude, séparés par une virgule. Les coordonnées négatives sont utilisées pour l'hémisphère sud et les longitudes orientales. Tous les formats de coordonnées courants sont pris en charge: les coordonnées peuvent être entrées en degrés fractionnaires, en degrés et minutes fractionnaires, ou en degrés, minutes et secondes. Un point (.) Doit être utilisé comme séparateur décimal. Les symboles° '&quot;servent à séparer les degrés, les minutes et les secondes.<br><br>Par exemple, les coordonnées suivantes sont valides et se réfèrent toutes au même emplacement:<br><br>40,78, -73,96715<br>40,78°, -73,96715°<br>40° 46,8 ', -73° 58,029'<br>40° 46'48 &quot;, -73° 58'01&quot;<br><br>Une façon de trouver les coordonnées consiste à aller sur <a href=\"https://maps.google.com/\">Google Maps</a> et à cliquer sur un emplacement. Une fenêtre contextuelle affichera les coordonnées GPS."
 		},
 		{
 			"id": "metadatatab.useorientationofsourceimages",
-			"machinetranslated": true,
-			"helptext": "Utilisez les données de boussole EXIF ​​des images source pour calculer l'angle de la boussole au centre du panorama."
+			"machinetranslated": false,
+			"helptext": "Utiliser les données EXIF ​​de boussole des images source pour calculer l'angle de la boussole au centre du panorama."
 		},
 		{
 			"id": "metadatatab.imagedirection",
-			"machinetranslated": true,
-			"helptext": "Angle Compas au centre du panorama. 0° est au nord, 90° à l'est, 180° au sud, -90° à l'ouest."
+			"machinetranslated": false,
+			"helptext": "Angle du Compas au centre du panorama. 0° est au nord, 90° à l'est, 180° au sud, -90° à l'ouest."
 		},
 		{
 			"id": "metadatatab.resolution",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Valeur de résolution (en pixels par pouce) insérée dans les données EXIF ​​du panorama.",
-			"morehelptext": "<br><br>La valeur de résolution est juste une valeur indicative suggérant le nombre de pixels à imprimer en pouces. Cela ne modifie pas la taille réelle ni le niveau de détail de l'image résultante, mais cela peut être utile dans les flux de travail où les dimensions physiques de l'image imprimée résultante doivent être contrôlées."
+			"morehelptext": "<br><br>La valeur de résolution est juste une valeur indicative suggérant le nombre de pixels à imprimer par pouces. Cela ne modifie pas la taille réelle ni le niveau de détail de l'image résultante, mais cela peut être utile dans les flux de travaux où les dimensions physiques de l'image imprimée résultante doivent être contrôlées."
 		},
 		{
 			"id": "createpanoramatab.widthheight",
-			"machinetranslated": true,
-			"helptext": "Taille (en pixels) du panorama cousu."
+			"machinetranslated": false,
+			"helptext": "Taille (en pixels) du panorama assemblé."
 		},
 		{
 			"id": "createpanoramatab.fixsize",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "La taille de sortie peut être définie sur un nombre de pixels ou sur la taille optimale (ou une fraction de celle-ci).",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> la taille de sortie sera conservée au nombre de pixels donné. Si le rapport de format change (p. Ex. En raison de la modification de la projection, du champ de vision panoramique ou du rognage de sortie), la largeur et la hauteur peuvent changer, mais le nombre total de pixels reste identique. Pour les panoramas sphériques, une projection équirectangulaire 2: 1 est normalement utilisée. Cette option aura donc une largeur et une hauteur fixes.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> conserve le panorama à la taille optimale, ou au pourcentage donné de la taille optimale.<br><br>La taille optimale est la taille de sortie à laquelle la résolution du panorama est égale à la résolution des images source. En d'autres termes, aucun détail des images source ne sera perdu.<br><br>Comme le déformation des images n’est pas uniforme dans le panorama, il n’ya pas de vraie taille optimale: certaines parties des images source peuvent être agrandies alors que d’autres peuvent être réduites. Par conséquent, de manière quelque peu arbitraire, PTGui considère que la taille optimale est la taille où la résolution angulaire du centre des images source est égale à la résolution angulaire du centre du panorama. Si des images provenant de plusieurs objectifs sont utilisées, ce calcul sera basé sur l’image source ayant la résolution la plus élevée.<br><br>Étant donné que la taille optimale dépend de plusieurs paramètres, y compris la distance focale de la lentille généralement ajustée par l'optimiseur, la taille optimale peut varier légèrement après chaque optimisation. Cela dépend aussi du placement des points de contrôle. Si cette fluctuation n'est pas souhaitée, sélectionnez la taille souhaitée, puis sélectionnez «@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@»."
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> la taille de sortie sera conservée au nombre de pixels donné. Si le rapport de format change (p. Ex. En raison de la modification de la projection, du champ de vision panoramique ou du recadrage de sortie), la largeur et la hauteur peuvent changer, mais le nombre total de pixels reste identique. Pour les panoramas sphériques, une projection équirectangulaire 2: 1 est normalement utilisée. Cette option aura donc une largeur et une hauteur fixes.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> conserve le panorama à la taille optimale, ou au pourcentage donné de la taille optimale.<br><br>La taille optimale est la taille de sortie à laquelle la résolution du panorama est égale à la résolution des images source. En d'autres termes, aucun détail des images source ne sera perdu.<br><br>Comme le déformation des images n’est pas uniforme dans le panorama, il n’y a pas de vraie taille optimale: certaines parties des images source peuvent être agrandies alors que d’autres peuvent être réduites. Par conséquent, de manière quelque peu arbitraire, PTGui considère que la taille optimale est la taille où la résolution angulaire du centre des images source est égale à la résolution angulaire du centre du panorama. Si des images provenant de plusieurs objectifs sont utilisées, ce calcul sera basé sur l’image source ayant la résolution la plus élevée.<br><br>Étant donné que la taille optimale dépend de plusieurs paramètres, y compris la distance focale de l'objectif généralement ajustée par l'optimiseur, la taille optimale peut varier légèrement après chaque optimisation. Cela dépend aussi du placement des points de contrôle. Si cette fluctuation n'est pas souhaitée, sélectionnez la taille souhaitée, puis sélectionnez «@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@»."
 		},
 		{
 			"id": "createpanoramatab.hundredpercent",
-			"machinetranslated": true,
-			"helptext": "Définissez la taille de sortie sur la taille optimale.",
+			"machinetranslated": false,
+			"helptext": "fixer la taille de sortie sur la taille optimale.",
 			"morehelptext": "<br><br>La taille optimale est la taille de sortie à laquelle la résolution du panorama est égale à la résolution des images source. En d'autres termes, aucun détail des images source n'est perdu.<br><br>Comme le déformation des images n’est pas uniforme dans le panorama, il n’ya pas de vraie taille optimale: certaines parties des images source peuvent être agrandies alors que d’autres peuvent être réduites. Par conséquent, de manière quelque peu arbitraire, PTGui considère que la taille optimale est la taille où la résolution angulaire du centre des images source est égale à la résolution angulaire du centre du panorama. Si des images provenant de plusieurs objectifs sont utilisées, ce calcul sera basé sur l’image source ayant la résolution la plus élevée."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformat",
-			"machinetranslated": true,
-			"helptext": "Format de fichier à utiliser pour le panorama cousu. <optional product='pro'>Pour les panoramas HDR, le format de fichier à utiliser pour la sortie mappée.</optional>",
-			"morehelptext": "<br><br>PTGui prend en charge les formats de fichier suivants:<br><br><b>JPEG:</b> le format d'image le plus utilisé. Plage dynamique limitée (8 bits par canal). La transparence n'est pas prise en charge: les parties vides du panorama seront rendues en noir. Limité à 65 000 pixels en largeur et hauteur. Compression avec perte avec une qualité configurable. Convient pour la publication Web. Si l'image doit être imprimée ou post-traitée dans un éditeur d'image, il est préférable d'utiliser l'un des autres formats à 16 bits par canal.<br><br><b>TIFF:</b> format d'image polyvalent prenant en charge de nombreuses options. PTGui peut sortir des fichiers TIFF avec 8 ou 16 bits par canal. <optional product='pro'>Pour les panoramas HDR, le format TIFF 32 bits en floating point est également pris en charge.</optional> La compression réduit la taille du fichier et est sans perte (la qualité de l'image n'est pas dégradée). Le format TIFF traditionnel est limité à 4 Go par fichier, mais PTGui utilise automatiquement le dialecte BigTIFF à chaque fois que le fichier grossit. Ces fichiers volumineux ne peuvent cependant être lus que dans des applications prenant en charge BigTIFF. Le format TIFF prend en charge la transparence.<br><br><b>Photoshop (.psd et .psb):</b> comme le format TIFF, il prend en charge les sorties 8 et 16 bits par canal <optional product='pro'>(et floating point 32 bits pour HDR)</optional> avec transparence et compression sans perte. Le principal avantage du format photoshop est la sortie en couches: PTGui peut générer un seul fichier contenant le panorama fusionné et les images sources déformées dans des calques séparés. Cela facilite les retouches du panorama dans Photoshop. Le format .psd est le format de fichier classique Photoshop, limité à 30000 pixels en largeur et hauteur. Ceci est fourni pour la compatibilité ascendante. Généralement, il convient d'utiliser .psb sans limitation de taille (bien que Photoshop ne puisse pas ouvrir de fichiers de plus de 600 000 pixels).<br><br><b>QuickTime VR:</b> QTVR était un dialecte spécial au format vidéo QuickTime .mov d’Apple, qui permettait la lecture interactive de panoramas sphériques. Pendant de nombreuses années, ce format a été choisi pour intégrer des panoramas dans des pages Web: le plug-in QuickTime a été installé sur tous les Mac et de nombreux ordinateurs Windows (inclus avec iTunes pour Windows). Malheureusement, Apple a complètement supprimé le support QTVR de QuickTime et le plug-in de navigateur QuickTime a été abandonné. Donc, QTVR devrait être considéré comme un format hérité. L'alternative moderne pour la publication de panoramas sur le Web est HTML5. PTGui peut publier un panorama assemblé sur une page Web HTML5 à l'aide de @menubar.tools@ | @menubar.tools.publishtowebsite@."
+			"machinetranslated": false,
+			"helptext": "Format de fichier à utiliser pour le panorama assemblé. <optional product='pro'>Pour les panoramas HDR, le format de fichier à utiliser pour la sortie mappée.</optional>",
+			"morehelptext": "<br><br>PTGui prend en charge les formats de fichier suivants:<br><br><b>JPEG:</b> le format d'image le plus utilisé. Plage dynamique limitée (8 bits par canal). La transparence n'est pas prise en charge: les parties vides du panorama seront rendues en noir. Limité à 65 000 pixels en largeur et hauteur. Compression avec perte avec une qualité configurable. Convient pour la publication Web. Si l'image doit être imprimée ou post-traitée dans un éditeur d'image, il est préférable d'utiliser l'un des autres formats à 16 bits par canal.<br><br><b>TIFF:</b> format d'image polyvalent prenant en charge de nombreuses options. PTGui peut générer des fichiers TIFF avec 8 ou 16 bits par canal. <optional product='pro'>Pour les panoramas HDR, le format TIFF 32 bits en 'floating point' est également pris en charge.</optional> La compression réduit la taille du fichier et est sans perte (la qualité de l'image n'est pas dégradée). Le format TIFF traditionnel est limité à 4 Go par fichier, mais PTGui utilise automatiquement la version BigTIFF à chaque fois que le fichier grossit. Ces fichiers volumineux ne peuvent cependant être lus que dans des applications prenant en charge la version BigTIFF. Le format TIFF prend en charge la transparence.<br><br><b>Photoshop (.psd et .psb):</b> comme le format TIFF, il prend en charge les sorties 8 et 16 bits par canal <optional product='pro'>(et floating point 32 bits pour HDR)</optional> avec transparence et compression sans perte. Le principal avantage du format photoshop est la sortie en calques: PTGui peut générer un seul fichier contenant le panorama fusionné et les images sources déformées dans des calques séparés. Cela facilite les retouches du panorama dans Photoshop. Le format .psd est le format de fichier classique Photoshop, limité à 30000 pixels en largeur et hauteur. Ceci est fourni pour la compatibilité ascendante. Généralement, il convient d'utiliser .psb sans limitation de taille (bien que Photoshop ne puisse pas ouvrir de fichiers de plus de 600 000 pixels).<br><br><b>QuickTime VR:</b> QTVR était une version spécifique au format vidéo QuickTime .mov d’Apple, qui permettait la lecture interactive de panoramas sphériques. Pendant de nombreuses années, ce format a été choisi pour intégrer des panoramas dans des pages Web: le plug-in QuickTime a été installé sur tous les Mac et de nombreux ordinateurs Windows (inclus avec iTunes pour Windows). Malheureusement, Apple a complètement supprimé le support QTVR de QuickTime et le plug-in de navigateur QuickTime a été abandonné. Donc, QTVR devrait être considéré comme un format obsolète. L'alternative courante pour la publication de panoramas sur le Web est HTML5. PTGui peut publier un panorama assemblé dans une page Web HTML5 à l'aide de @menubar.tools@ | @menubar.tools.publishtowebsite@."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -8414,9 +8413,9 @@
 		},
 		{
 			"id": "createpanoramatab.hdrfileformat",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Format de fichier à utiliser pour la sortie HDR.",
-			"morehelptext": "<br><br>Les fichiers HDR générés par PTGui sont capables de prendre en charge l’ensemble de la plage dynamique des intensités lumineuses d’une scène. PTGui prend en charge les formats de fichier suivants pour la sortie HDR:<br><br><b>TIFF:</b> floating point 32 bits par canal, avec compression sans perte et prise en charge de la transparence. Le format TIFF traditionnel est limité à 4 Go par fichier, mais PTGui utilise automatiquement le dialecte BigTIFF à chaque fois que le fichier grossit. Notez que toutes les applications compatibles TIFF ne prennent pas en charge les images à floating point 32 bits ou les fichiers BigTIFF.<br><br><b>Photoshop (.psd et .psb):</b> comme le format TIFF, floating point 32 bits par canal, avec compression sans perte et support de la transparence. Le principal avantage du format photoshop est la sortie en couches: PTGui peut générer un seul fichier contenant le panorama HDR mélangé, les images source HDR déformées et les plans d'exposition HDR dans des calques séparés. Cela facilite les retouches et le dégressage HDR du panorama dans Photoshop. En règle générale, le format .psb doit être utilisé, car .psd est limité à une taille de fichier de 4 Go et à une largeur et une hauteur de 30000 pixels.<br><br><b>OpenEXR:</b> ce format a été développé à l'origine par Industrial Light and Magic (de LucasFilm) pour l'industrie des effets visuels. PTGui peut créer des images en floating point de 16 bits et de 32 bits par canal. La transparence est prise en charge, ainsi que plusieurs algorithmes de compression sans perte et avec perte. C'est le format standard de l'industrie pour les images HDR.<br><br><b>HDR Radiance:</b> conçu à l'origine par Greg Ward pour la prise en charge HDR dans sa suite logicielle Radiance. Les pixels sont stockés sous forme de triplet rouge / vert / bleu avec un exposant commun. Par conséquent, le format est également appelé RGBE. La transparence n'est pas prise en charge. Le codage par exposant commun étant incapable de représenter certaines couleurs saturées, cela doit être considéré comme un format compressé avec perte."
+			"morehelptext": "<br><br>Les fichiers HDR générés par PTGui sont capables de prendre en charge l’ensemble de la plage dynamique des intensités lumineuses d’une scène. PTGui prend en charge les formats de fichier suivants pour la sortie HDR:<br><br><b>TIFF:</b> floating point 32 bits par canal, avec compression sans perte et prise en charge de la transparence. Le format TIFF traditionnel est limité à 4 Go par fichier, mais PTGui utilise automatiquement la version BigTIFF à chaque fois que le fichier grossit. Notez que toutes les applications compatibles TIFF ne prennent pas en charge les images à floating point 32 bits ou les fichiers BigTIFF.<br><br><b>Photoshop (.psd et .psb):</b> comme le format TIFF, floating point 32 bits par canal, avec compression sans perte et support de la transparence. Le principal avantage du format photoshop est la sortie en calques: PTGui peut générer un seul fichier contenant le panorama HDR mélangé, les images source HDR déformées et les plans d'exposition HDR dans des calques séparés. Cela facilite les retouches et le traitement des 'effets fantomes HDR' du panorama dans Photoshop. En règle générale, le format .psb doit être utilisé, car .psd est limité à une taille de fichier de 4 Go et à une largeur et une hauteur de 30000 pixels.<br><br><b>OpenEXR:</b> ce format a été développé à l'origine par Industrial Light and Magic (de LucasFilm) pour l'industrie des effets visuels. PTGui peut créer des images en floating point de 16 bits et de 32 bits par canal. La transparence est prise en charge, ainsi que plusieurs algorithmes de compression sans perte et avec perte. C'est le format standard de l'industrie pour les images HDR.<br><br><b>HDR Radiance:</b> conçu à l'origine par Greg Ward pour la prise en charge HDR dans sa suite logicielle Radiance. Les pixels sont stockés sous forme de triplet rouge / vert / bleu avec un exposant commun. Par conséquent, le format est également appelé RGBE. La transparence n'est pas prise en charge. Le codage par exposant commun étant incapable de représenter certaines couleurs saturées, cela doit être considéré comme un format compressé avec perte."
 		},
 		{
 			"id": "createpanoramatab.hdrfileformatsettings",
@@ -8431,147 +8430,147 @@
 		},
 		{
 			"id": "createpanoramatab.outputfiledefault",
-			"machinetranslated": true,
-			"helptext": "Réinitialiser le nom du fichier de sortie à la valeur par défaut. <optional product='pro'>La dénomination par défaut peut être configurée dans l'onglet @mainwindow.tabs.projectsettings@.</optional>"
+			"machinetranslated": false,
+			"helptext": "Réinitialise le nom du fichier de sortie à la valeur par défaut. <optional product='pro'>La dénomination par défaut peut être configurée dans l'onglet @mainwindow.tabs.projectsettings@.</optional>"
 		},
 		{
 			"id": "createpanoramatab.outputfilebrowse",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Ouvre la fenêtre @txt.savepanorama@ pour sélectionner un nom de fichier de sortie de manière interactive."
 		},
 		{
 			"id": "createpanoramatab.viewoutputfile",
-			"machinetranslated": true,
-			"helptext": "Ouvrez le fichier de sortie généré.",
+			"machinetranslated": false,
+			"helptext": "Ouvre le fichier de sortie généré.",
 			"morehelptext": "<br><br>PTGui vous demandera quelle application utiliser pour la prévisualisation. Des applications supplémentaires pour la prévisualisation peuvent être configurées dans @optionspreferences@ | @options.foldersandfileshtml@."
 		},
 		{
 			"id": "createpanoramatab.dragoutputfile",
-			"machinetranslated": true,
-			"helptext": "Ouvrez le panorama généré dans une autre application en faisant glisser cette icône dans l’autre application."
+			"machinetranslated": false,
+			"helptext": "Ouvre le panorama généré dans une autre application en faisant glisser cette icône dans l’autre application."
 		},
 		{
 			"id": "createpanoramatab.components.tonemapped",
-			"machinetranslated": true,
-			"helptext": "Enregistrez le panorama après mappage ton."
+			"machinetranslated": false,
+			"helptext": "Enregistre le panorama après mappage des tons."
 		},
 		{
 			"id": "createpanoramatab.components.exposurefused",
-			"machinetranslated": true,
-			"helptext": "Enregistrez le panorama final après la fusion d'exposition."
+			"machinetranslated": false,
+			"helptext": "Enregistre le panorama final après la fusion d'exposition."
 		},
 		{
 			"id": "createpanoramatab.components.blended",
-			"machinetranslated": true,
-			"helptext": "Enregistrez le panorama final fusionné."
+			"machinetranslated": false,
+			"helptext": "Enregistre le panorama final fusionné."
 		},
 		{
 			"id": "createpanoramatab.components.ldrlayers",
-			"machinetranslated": true,
-			"helptext": "Enregistrez les images source individuelles au format warp."
+			"machinetranslated": false,
+			"helptext": "Enregistre les images source individuelles au format warp."
 		},
 		{
 			"id": "createpanoramatab.components.blendplanes",
-			"machinetranslated": true,
-			"helptext": "Enregistrer les plans d'exposition. PTGui créera un panorama fusionné pour chaque niveau d'exposition. Ce sont les plans d'exposition. Les plans d'exposition sont ensuite fusionnés pour créer le panorama final."
+			"machinetranslated": false,
+			"helptext": "Enregistre les plans d'exposition. PTGui créera un panorama fusionné pour chaque niveau d'exposition. Ce sont les plans d'exposition. Les plans d'exposition sont ensuite fusionnés pour créer le panorama final."
 		},
 		{
 			"id": "createpanoramatab.components.hdrpanorama",
-			"machinetranslated": true,
-			"helptext": "Enregistrez le panorama au format HDR (avant le mappage ton). Le fichier résultant capture la plage dynamique complète des intensités lumineuses de la scène."
+			"machinetranslated": false,
+			"helptext": "Enregistre le panorama au format HDR (avant le mappage des tons). Le fichier résultant capture la plage dynamique complète des intensités lumineuses de la scène."
 		},
 		{
 			"id": "createpanoramatab.components.hdrlayers",
-			"machinetranslated": true,
-			"helptext": "Enregistrez les images source déformées individuelles, converties au format HDR. Les luminances correspondront à celles du panorama HDR fusionné."
+			"machinetranslated": false,
+			"helptext": "Enregistre les images source déformées individuelles, converties au format HDR. Les luminances correspondront à celles du panorama HDR fusionné."
 		},
 		{
 			"id": "createpanoramatab.components.hdrblendplanes",
-			"machinetranslated": true,
-			"helptext": "Enregistrez les plans d'exposition, convertis au format HDR. Les luminances correspondront à celles du panorama HDR fusionné."
+			"machinetranslated": false,
+			"helptext": "Enregistre les plans d'exposition, convertis au format HDR. Les luminances correspondront à celles du panorama HDR fusionné."
 		},
 		{
 			"id": "createpanoramatab.createpanoramabutton",
-			"machinetranslated": true,
-			"helptext": "Cousez le panorama."
+			"machinetranslated": false,
+			"helptext": "Assemble le panorama."
 		},
 		{
 			"id": "createpanoramatab.saveandsendtobatchstitcher",
-			"machinetranslated": true,
-			"helptext": "Envoyez le panorama à Batch Stitcher pour le traitement en arrière-plan.",
-			"morehelptext": "<br><br>Si le projet est modifié, le fichier de projet sera d'abord enregistré sur le disque (comme dans @menubar.file@ | @menubar.file.saveproject@). Ensuite, l'assistant de lot est ouvert et le projet est ajouté à la file d'attente de traitement. <optional product='pro'><br><br>Le programme d'agitation par lots peut être configuré pour aligner le panorama (voir @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@). Si tel est le cas, l'assistant de traitement par lots mettra à jour le projet sur disque une fois les images alignées. Pour éviter le risque de travailler sur différentes versions du même projet, le projet doit être fermé dans cette fenêtre après le lancement du programme d'agrafage par lots.</optional><br><br>Vous pouvez également envoyer le projet au programme d'agitation par lots à l'aide de @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@. Ce dernier enregistre le projet sous un nom de fichier temporaire unique et l'envoie au programme d'agrafage par lots. Utilisez cette option si vous souhaitez envoyer différentes versions du même projet au programme d'agrafage par lots. @menubar.project.saveandsendtobatchstitcher@ utilise le nom de fichier actuel du projet. Par conséquent, les versions précédentes du même projet seront remplacées."
+			"machinetranslated": false,
+			"helptext": "Envoie le panorama à Batch Stitcher pour le traitement en arrière-plan.",
+			"morehelptext": "<br><br>Si le projet est modifié, le fichier de projet sera d'abord enregistré sur le disque (comme dans @menubar.file@ | @menubar.file.saveproject@). Ensuite, l'assistant de lot est ouvert et le projet est ajouté à la file d'attente de traitement. <optional product='pro'><br><br>Le programme d'assemblage par lots peut être configuré pour aligner le panorama (voir @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@). Si tel est le cas, l'assistant de traitement par lots mettra à jour le projet sur le disque une fois les images alignées. Pour éviter le risque de travailler sur différentes versions du même projet, le projet doit être fermé dans cette fenêtre après le lancement du programme d'assemblage par lots.</optional><br><br>Vous pouvez également envoyer le projet au programme d'assemblage par lots à l'aide de @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@. Ce dernier enregistre le projet sous un nom de fichier temporaire unique et l'envoie au programme d'assemblage par lots. Utilisez cette option si vous souhaitez envoyer différentes versions du même projet au programme d'assemblage par lots. @menubar.project.saveandsendtobatchstitcher@ utilise le nom de fichier actuel du projet. Par conséquent, les versions précédentes du même projet seront remplacées."
 		},
 		{
 			"id": "createpanoramatab.includeimages",
-			"machinetranslated": true,
-			"helptext": "Incluez uniquement les images sélectionnées dans le panorama.",
-			"morehelptext": "<br><br>Les images peuvent également être incluses / exclues à l'aide des menus contextuels par clic droit des onglets @mainwindow.tabs.projectassistant@ et @mainwindow.tabs.sourceimages@.<br><br>Et il est possible de cliquer avec le bouton droit de la souris sur Panorama Editor et dans la visionneuse de détails pour exclure l'image à l'emplacement sélectionné. <optional product='pro'><br><br>Pour les panoramas HDR, toutes les images d'un certain niveau d'exposition peuvent être sélectionnées à l'aide de @menubar.images@ | @menubar.images.select@ | @menubar.images.select.blendplane@, et incluses ou exclues à l'aide de @menubar.images@ | ABCD1D</optional>"
+			"machinetranslated": false,
+			"helptext": "Inclue uniquement les images sélectionnées dans le panorama.",
+			"morehelptext": "<br><br>Les images peuvent également être inclues / exclues à l'aide des menus contextuels (accessibles par clic droit) : onglets @mainwindow.tabs.projectassistant@ et @mainwindow.tabs.sourceimages@.<br><br>Et il est possible de cliquer avec le bouton droit de la souris sur Panorama Editor et dans la visionneuse de détails pour exclure l'image à l'emplacement sélectionné. <optional product='pro'><br><br>Pour les panoramas HDR, toutes les images d'un certain niveau d'exposition peuvent être sélectionnées à l'aide de @menubar.images@ | @menubar.images.select@ | @menubar.images.select.blendplane@, et inclues ou exclues à l'aide de @menubar.images@ | ABCD1D</optional>"
 		},
 		{
 			"id": "createpanoramatab.blendertype",
 			"machinetranslated": false,
 			"helptext": "Sélectionnez l'outil de fusion à utiliser.",
-			"morehelptext": "<br><br>Outre son propre outils de fusion, PTGui prend en charge deux plug-ins de fusion: Smartblend et Enblend. Ceux-ci doivent d'abord être configurés dans @optionspreferences@ | @options.plugins@. Gardez à l'esprit que les plugins de mélange ont des limites: ils sont plus lents que l'outil de fusion PTGui, peuvent donner des artefacts de fusion dans le nadir et le zénith et ne prennent pas en charge de très grands panoramas. <optional product='pro'>De plus, les masques verts ne sont pris en charge que par le mélangeur PTGui.</optional>"
+			"morehelptext": "<br><br>Outre son propre outils de fusion, PTGui prend en charge deux plug-ins de fusion: Smartblend et Enblend. Ceux-ci doivent d'abord être configurés dans @optionspreferences@ | @options.plugins@. Gardez à l'esprit que les plugins de fusion ont des limites: ils sont plus lents que l'outil de fusion PTGui, peuvent donner des artefacts de fusion dans le nadir et le zénith et ne prennent pas en charge de très grands panoramas. <optional product='pro'>De plus, les masques verts ne sont pris en charge que par l'assembleur de PTGui.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blenderfeather",
-			"machinetranslated": true,
-			"helptext": "Contrôle la netteté des coutures. Utilisez '@mainwindow.createpanoramatab.feather.soft@' pour un chevauchement lisse, '@mainwindow.createpanoramatab.feather.sharp@' pour une couture dure."
+			"machinetranslated": false,
+			"helptext": "Contrôle la netteté des coutures. Utilisez '@mainwindow.createpanoramatab.feather.soft@' pour un chevauchement lissée (douce), '@mainwindow.createpanoramatab.feather.sharp@' pour une couture franche (dure)."
 		},
 		{
 			"id": "createpanoramatab.blendingmode",
 			"machinetranslated": false,
 			"helptext": "Algorithme de fusion à utiliser.",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> les détails fins sont fusionnés avec un petit chevauchement, tandis que les détails évoluant lentement et les différences de couleur sont mélangés avec un large chevauchement.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> effectue une fusion linéaire simple.<br><br>Généralement, la fusion @mainwindow.createpanoramatab.blendmode.multiband@ donne des résultats supérieurs. Mais la fusion alpha est préférable dans les cas suivants:<br>• lors de la composition d'images adjacentes sans chevauchement (par exemple lors de l'assemblage d'images de faces de cubes dans un panorama)<br>• lors de la fusion d'images source HDR 32 bits dont l'exposition ne correspond pas correctement. Le mélange @mainwindow.createpanoramatab.blendmode.multiband@ peut créer des halos sombres dans un tel cas."
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> les détails fins sont fusionnés avec un petit chevauchement, tandis que les détails évoluant lentement et les différences de couleur sont mélangés avec un large chevauchement.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> effectue une fusion linéaire simple.<br><br>Généralement, la fusion @mainwindow.createpanoramatab.blendmode.multiband@ donne de meilleurs résultats. Mais la fusion alpha est préférable dans les cas suivants:<br>• lors de la composition d'images adjacentes sans chevauchement (par exemple lors de l'assemblage d'images de faces de cubes dans un panorama)<br>• lors de la fusion d'images source HDR 32 bits dont l'exposition ne correspond pas correctement. Le mélange @mainwindow.createpanoramatab.blendmode.multiband@ peut créer des halos sombres dans un tel cas."
 		},
 		{
 			"id": "createpanoramatab.interpolator",
-			"machinetranslated": true,
-			"helptext": "Contrôle la méthode utilisée pour calculer les pixels entre les pixels réels de l’image source.",
-			"morehelptext": "<br><br>Lorsque des images sont transformées en panorama, les valeurs en pixels doivent être calculées entre les pixels de l'image source. Ce processus s'appelle l'interpolation. PTGui fournit plusieurs algorithmes d'interpolation. Chaque algorithme a ses avantages et ses inconvénients. Le meilleur interpolateur est une question de goût et dépend des images réelles. Les différences entre les interpolateurs peuvent être subtiles, mais elles sont perceptibles autour des lignes diagonales (plus lisses ou légèrement irrégulières) et des zones fortement contrastées (artefacts plus ou moins «halo»).<br><br><b>Voisin le plus proche:</b> cet interpolateur sélectionne simplement le pixel le plus proche de l'emplacement du pixel à calculer. L'algorithme est très rapide mais les résultats sont très médiocres.<br><br><b>Bilinéaire: l'</b> interpolation est effectuée en faisant la moyenne des 4 pixels autour de l'emplacement de pixel souhaité. Relativement rapide et meilleur que le plus proche voisin mais non recommandé pour la production.<br><br><b>Bicubique:</b> utilise un noyau 4x4, c'est-à-dire que 16 pixels autour de l'emplacement de pixel souhaité sont utilisés pour calculer chaque pixel du panorama. Trois niveaux de netteté différents sont disponibles. L'interpolateur @mainwindow.createpanoramatab.interpolator.bicubicsofter@ est recommandé lors de l'utilisation d'images sources HDR car il ne contient pas de coefficients négatifs. D'autres interpolateurs ont des coefficients négatifs pouvant provoquer des halos autour des zones à fort contraste dans les panoramas HDR.<br><br><b>Lanczos et Spline:</b> des interpolateurs plus sophistiqués avec des noyaux encore plus gros. Les noyaux plus grands fournissent des lignes diagonales plus lisses mais ont une tendance plus forte à créer des halos visibles autour des objets à contraste élevé.<br><br><b>@default@:</b> utilise Lanczos2 pour les images source ordinaires ou @mainwindow.createpanoramatab.interpolator.bicubicsofter@ pour les images source HDR 32 bits."
+			"machinetranslated": false,
+			"helptext": "Contrôle la méthode utilisée pour l'interpolation des pixels entre les pixels réels de l’image source.",
+			"morehelptext": "<br><br>Lorsque des images sont transformées en panorama, les valeurs en pixels doivent être calculées entre les pixels de l'image source. Ce processus s'appelle l'interpolation. PTGui fournit plusieurs algorithmes d'interpolation. Chaque algorithme a ses avantages et ses inconvénients. Le meilleur interpolateur est une question de goût et dépend des images sources. Les différences entre les interpolateurs peuvent être subtiles, mais elles sont perceptibles autour des lignes diagonales (plus lisses ou légèrement irrégulières) et des zones fortement contrastées ('halos' plus ou moins visible).<br><br><b>Voisin le plus proche:</b> cet interpolateur sélectionne simplement le pixel le plus proche de l'emplacement du pixel à calculer. L'algorithme est très rapide mais les résultats sont très médiocres.<br><br><b>Bilinéaire: l'</b> interpolation est effectuée en faisant la moyenne des 4 pixels autour de l'emplacement de pixel souhaité. Relativement rapide et meilleur que le plus proche voisin mais non recommandé pour la production.<br><br><b>Bicubique:</b> utilise un noyau 4x4, c'est-à-dire que 16 pixels autour de l'emplacement de pixel souhaité sont utilisés pour calculer chaque pixel du panorama. Trois niveaux de netteté différents sont disponibles. L'interpolateur @mainwindow.createpanoramatab.interpolator.bicubicsofter@ est recommandé lors de l'utilisation d'images sources HDR car il ne contient pas de coefficients négatifs. D'autres interpolateurs ont des coefficients négatifs pouvant provoquer des halos autour des zones à fort contraste dans les panoramas HDR.<br><br><b>Lanczos et Spline:</b> des interpolateurs plus sophistiqués avec des noyaux encore plus étendus. Les noyaux plus grands fournissent des lignes diagonales plus lisses mais ont une tendance plus forte à créer des halos visibles autour des objets à contraste élevé.<br><br><b>@default@:</b> utilise Lanczos2 pour les images source ordinaires ou @mainwindow.createpanoramatab.interpolator.bicubicsofter@ pour les images source HDR 32 bits."
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",
-			"machinetranslated": true,
-			"helptext": "Réinitialisez les paramètres de cette section à leurs valeurs par défaut."
+			"machinetranslated": false,
+			"helptext": "Réinitialise les paramètres de cette section à leur valeur par défaut."
 		},
 		{
 			"id": "panoeditor.toolbar.mouseover",
-			"machinetranslated": true,
-			"label": "Sélectionner une image sous le pointeur de la souris",
+			"machinetranslated": false,
+			"label": "Sélection d'une image sous le pointeur de la souris",
 			"helptext": "Lorsque vous déplacez la souris sur le panorama, l’image source située sous le pointeur de la souris est mise en surbrillance."
 		},
 		{
 			"id": "panoeditor.toolbar.help",
-			"machinetranslated": true,
-			"label": "Aidez-moi",
-			"helptext": "Afficher les informations d'aide pour l'éditeur de panorama."
+			"machinetranslated": false,
+			"label": "Aide",
+			"helptext": "Affiche les informations d'aide pour l'éditeur de panorama."
 		},
 		{
 			"id": "panoeditor.toolbar.editimages",
-			"machinetranslated": true,
-			"label": "Éditer des images individuelles",
-			"helptext": "Utilisez ce mode pour déplacer ou faire pivoter des images individuelles.",
-			"morehelptext": "<br><br>En faisant glisser le bouton gauche de la souris, vous pouvez déplacer des images dans la zone de sortie. Sous le capot, les angles @yaw@ et @pitch@ de l'image sont modifiés.<br><br>En faisant glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> les images sont en rotation. Cela modifie l'angle @roll@ de l'image.<br><br>Le bouton '@panoeditor.menubar.mouseover@' situé à gauche de la barre d'outils permet de changer le mode de sélection des images. Si activé, les images sont sélectionnées tout en survolant la souris. Si cette option est désactivée, les images peuvent être sélectionnées en cliquant sur les icônes d’image situées au-dessus du panorama."
+			"machinetranslated": false,
+			"label": "Éditer les images individuellement",
+			"helptext": "Utiliser ce mode pour déplacer ou faire pivoter les images individuellement.",
+			"morehelptext": "<br><br>En faisant glisser le bouton gauche de la souris, vous pouvez déplacer les images affichées. Ceci modifie, les angles @yaw@ et @pitch@ de l'image.<br><br>En faisant glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> les images sont pivotées. Cela modifie l'angle @roll@ de l'image.<br><br>Le bouton '@panoeditor.menubar.mouseover@' situé à gauche de la barre d'outils permet de changer le mode de sélection des images. Si activé, les images sont sélectionnées lorque le pointeur de la souris passe sur l'image. Si cette option est désactivée, les images peuvent être sélectionnées en cliquant sur les vignettes situées au-dessus du panorama."
 		},
 		{
 			"id": "panoeditor.toolbar.editpano",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Editer le panorama",
-			"helptext": "Utilisez ce mode pour déplacer ou faire pivoter le panorama dans son ensemble.",
-			"morehelptext": "<br><br>Faites glisser avec le bouton gauche de la souris pour déplacer le panorama entier. Faites glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> faire pivoter tout le panorama autour de son centre.<br><br>PTGui effectue les modifications en modifiant les angles @yaw@, @pitch@ et @roll@ de toutes les images ensemble."
+			"helptext": "Utiliser ce mode pour déplacer ou faire pivoter le panorama dans son ensemble.",
+			"morehelptext": "<br><br>Faites glisser avec le bouton gauche de la souris pour déplacer le panorama entier. Faites glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> faire pivoter tout le panorama autour de son centre.<br><br>PTGui effectue les modifications en modifiant globalement les angles @yaw@, @pitch@ et @roll@ de toutes les images."
 		},
 		{
 			"id": "panoeditor.toolbar.setcenter",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Définir le centre",
 			"helptext": "Utilisez ce mode pour recentrer le panorama. Cliquez sur le point souhaité dans le panorama."
 		},
 		{
 			"id": "panoeditor.toolbar.fitpano",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Adapter le panorama",
-			"helptext": "Fait que le panorama remplisse la totalité du cadre. Cela se fait en ajustant les champs de vision horizontal et vertical."
+			"helptext": "Ajuste l'affichage du panorama pour qu'il remplisse la totalité du cadre. Cela se fait en ajustant les champs de vision horizontal et vertical."
 		},
 		{
 			"id": "panoeditor.toolbar.centerpano",
@@ -8581,32 +8580,32 @@
 		},
 		{
 			"id": "panoeditor.toolbar.straightenpano",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Redresser le panorama",
-			"helptext": "Déplacez ou faites pivoter le panorama de manière à ce qu'il soit affiché directement."
+			"helptext": "Déplace ou pivote le panorama de manière à ce qu'il soit affiché avec la ligne d'horizon horizontale."
 		},
 		{
 			"id": "panoeditor.toolbar.rectilinear",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Projection rectiligne",
-			"helptext": "Passez en projection rectiligne. En projection rectiligne, les lignes droites restent droites, mais elles ne conviennent que pour les panoramas étroits."
+			"helptext": "Passe en projection rectiligne. En projection rectiligne, les lignes droites restent droites, mais elles ne conviennent que pour les panoramas à faible champ."
 		},
 		{
 			"id": "panoeditor.toolbar.cylindrical",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Projection cylindrique",
-			"helptext": "Passez en projection cylindrique. Convient aux panoramas à 360°."
+			"helptext": "Passe en projection cylindrique. Convient aux panoramas à 360°."
 		},
 		{
 			"id": "panoeditor.toolbar.equirectangular",
 			"machinetranslated": true,
 			"label": "Projection @+projection.equirectangular@",
-			"helptext": "Basculer vers la projection équirectangulaire. C'est la projection à utiliser pour les panoramas sphériques à 360° x 180°."
+			"helptext": "Bascule en projection équirectangulaire. C'est la projection à utiliser pour les panoramas sphériques à 360° x 180°."
 		},
 		{
 			"id": "panoeditor.toolbar.otherprojection",
-			"machinetranslated": true,
-			"label": "Plus de projections"
+			"machinetranslated": false,
+			"label": "autres projections"
 		},
 		{
 			"id": "panoeditor.toolbar.detailviewer",
@@ -8617,56 +8616,56 @@
 		},
 		{
 			"id": "panoeditor.toolbar.preview",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Ouvrir dans le visualiseur externe",
-			"helptext": "Prend une capture d'écran de l'éditeur de panorama et ouvre cette visionneuse externe.",
-			"morehelptext": "<br><br>Utile pour prévisualiser un panorama sphérique de manière interactive dans le visualiseur PTGui. Une capture d'écran de l'éditeur de panorama sera prise, à la taille actuellement affichée. PTGui vous demandera dans quelle application l'image doit être ouverte. Des applications supplémentaires peuvent être configurées dans @optionspreferences@ | @options.foldersandfileshtml@.<br><br>Notez que cela donne un aperçu rapide mais faible résolution. Pour des aperçus de qualité supérieure, utilisez plutôt l’onglet @menubar.project.preview@ de la fenêtre principale."
+			"helptext": "Prend une capture d'écran de l'éditeur de panorama et l'ouvre dans la visionneuse externe.",
+			"morehelptext": "<br><br>Utile pour prévisualiser un panorama sphérique de manière interactive dans le visualiseur PTGui. Une capture d'écran de l'éditeur de panorama sera prise, à la taille actuellement affichée. PTGui vous demandera dans quelle application l'image doit être ouverte. Des applications supplémentaires peuvent être configurées dans @optionspreferences@ | @options.foldersandfileshtml@.<br><br>Notez que cela donne un aperçu rapide mais de faible résolution. Pour des aperçus de qualité supérieure, utilisez plutôt l’onglet @menubar.project.preview@ de la fenêtre principale."
 		},
 		{
 			"id": "panoeditor.toolbar.blended",
 			"machinetranslated": false,
 			"label": "Fusionné",
-			"helptext": "Montrer le panorama fusionné"
+			"helptext": "Montre le panorama fusionné"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
 			"machinetranslated": false,
 			"label": "Non fusionné",
-			"helptext": "Montrer le panorama non fusionné"
+			"helptext": "Montre le panorama non fusionné"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
-			"machinetranslated": true,
-			"label": "Afficher les coutures",
+			"machinetranslated": false,
+			"label": "Affichage des coutures",
 			"helptext": "L'emplacement des coutures est indiqué par des lignes rouges."
 		},
 		{
 			"id": "panoeditor.toolbar.showimagenumbers",
-			"machinetranslated": true,
-			"label": "Afficher les numéros d'image"
+			"machinetranslated": false,
+			"label": "Affichage des numéros d'image"
 		},
 		{
 			"id": "panoeditor.toolbar.ontop",
-			"machinetranslated": true,
-			"label": "Reste le meilleur",
-			"helptext": "Gardez l'éditeur de panorama au-dessus des autres fenêtres."
+			"machinetranslated": false,
+			"label": "maintenir la fenêtre au premier plan",
+			"helptext": "Garde l'éditeur de panorama au-dessus des autres fenêtres."
 		},
 		{
 			"id": "panoeditor.gridbutton",
-			"machinetranslated": true,
-			"label": "Ajuster la superposition de grille"
+			"machinetranslated": false,
+			"label": "Ajuste la taille de la grille"
 		},
 		{
 			"id": "panoeditor.vfovslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Champ de vision vertical",
-			"helptext": "Descendez pour élargir la vue verticalement, montez pour la réduire."
+			"helptext": "Descendre pour élargir la vue verticalement, monter pour la réduire."
 		},
 		{
 			"id": "panoeditor.hfovslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Champ de vision horizontal",
-			"helptext": "Déplacez-vous à droite pour élargir la vue horizontalement, déplacez-vous vers la gauche pour la réduire."
+			"helptext": "Déplacer vers la droite pour élargir la vue horizontalement, déplacer vers la gauche pour la réduire."
 		},
 		{
 			"id": "detailviewer.toolbar.displayzoom",
@@ -8682,122 +8681,122 @@
 		},
 		{
 			"id": "detailviewer.toolbar.dragandhold",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Mode de navigation: glisser et maintenir",
-			"helptext": "Pour naviguer, cliquez et maintenez le bouton de la souris enfoncé. Faites glisser dans la direction souhaitée. la vue se déplacera continuellement jusqu'à ce que le bouton de la souris soit relâché."
+			"helptext": "Pour naviguer, cliquez et maintenez le bouton de la souris enfoncé. Faites glisser dans la direction souhaitée. La vue se déplacera continuellement jusqu'à ce que le bouton de la souris soit relâché."
 		},
 		{
 			"id": "detailviewer.toolbar.dragtomove",
-			"machinetranslated": true,
-			"label": "Mode de navigation: faites glisser pour vous déplacer",
+			"machinetranslated": false,
+			"label": "Mode de navigation: glisser pour déplacer",
 			"helptext": "Pour naviguer, faites glisser le panorama dans la direction souhaitée."
 		},
 		{
 			"id": "detailviewer.toolbar.blended",
 			"machinetranslated": false,
 			"label": "Fusionné",
-			"helptext": "Montrer le panorama fusionné"
+			"helptext": "Montre le panorama fusionné"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
 			"machinetranslated": false,
 			"label": "Non Fusionné",
-			"helptext": "Montrer le panorama non fusionné"
+			"helptext": "Montre le panorama non fusionné"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
-			"machinetranslated": true,
-			"label": "Afficher les coutures",
+			"machinetranslated": false,
+			"label": "Affichage des coutures",
 			"helptext": "L'emplacement des coutures est indiqué par des lignes rouges."
 		},
 		{
 			"id": "detailviewer.toolbar.showimagenumbers",
-			"machinetranslated": true,
-			"label": "Afficher les numéros d'image"
+			"machinetranslated": false,
+			"label": "Affichage des numéros d'image"
 		},
 		{
 			"id": "detailviewer.toolbar.ontop",
-			"machinetranslated": true,
-			"label": "Reste le meilleur",
-			"helptext": "Laissez la visionneuse de détails au-dessus des autres fenêtres."
+			"machinetranslated": false,
+			"label": "maintenir la fenêtre au premier plan",
+			"helptext": "Maintien la visionneuse de détails au-dessus des autres fenêtres."
 		},
 		{
 			"id": "detailviewer.toolbar.help",
-			"machinetranslated": true,
-			"label": "Aidez-moi",
-			"helptext": "Afficher les informations d'aide pour la visionneuse de détails."
+			"machinetranslated": false,
+			"label": "Aide",
+			"helptext": "Affiche les informations d'aide pour la visionneuse de détails."
 		},
 		{
 			"id": "detailviewer.zoomslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Zoom",
-			"helptext": "Déplacer vers le haut pour effectuer un zoom avant, baisser vers le bas pour effectuer un zoom arrière. <optional platform='windows'>Le zoom peut également être effectué à l'aide de la souris.</optional><optional platform='mac'>Le zoom peut également être effectué à l'aide de gestes de pincement de deux doigts sur le trackpad.</optional>"
+			"helptext": "Déplacer vers le haut pour effectuer un zoom avant, déplacer vers le bas pour effectuer un zoom arrière. <optional platform='windows'>Le zoom peut également être effectué à l'aide de la souris.</optional><optional platform='mac'>Le zoom peut également être effectué à l'aide de gestes de pincement de deux doigts sur le trackpad.</optional>"
 		},
 		{
 			"id": "tonemapsettings.enable",
-			"machinetranslated": true,
-			"helptext": "Activer le mappage ton.",
-			"morehelptext": "<br><br>Le mappage ton est généralement connu dans le contexte des images HDR, mais il peut également être utilisé pour des images standard à faible gamme dynamique. Le mappage ton réduit la plage dynamique en accentuant les ombres et en assombrissant les tons clairs, comme pour la correction des ombres / tons clairs dans les logiciels de traitement d'images. Cela conduit à une image plus agréable, en particulier pour les scènes à contraste élevé."
+			"machinetranslated": false,
+			"helptext": "Activer le mappage des tons.",
+			"morehelptext": "<br><br>Le mappage des tons est généralement connu dans le contexte des images HDR, mais il peut également être utilisé pour des images standard à faible gamme dynamique. Le mappage des tons réduit la plage dynamique en accentuant les ombres et en assombrissant les tons clairs, comme pour la correction des ombres / tons clairs dans les logiciels de traitement d'images. Cela conduit à une image plus agréable, en particulier pour les scènes à contraste élevé."
 		},
 		{
 			"id": "tonemapsettings.brightness",
-			"machinetranslated": true,
-			"helptext": "Définit la luminosité générale de l'image mappée. 0 est noir, 1 est blanc."
+			"machinetranslated": false,
+			"helptext": "Définit la luminosité générale de l'image mappée. 0 pour noir, 1 pour blanc."
 		},
 		{
 			"id": "tonemapsettings.boostshadows",
-			"machinetranslated": true,
-			"helptext": "L'augmentation maximale de la luminosité qui sera appliquée. Attention, accentuer les ombres va également amplifier le bruit de l'image."
+			"machinetranslated": false,
+			"helptext": "Augmentation maximale de la luminosité qui sera appliquée. Attention, accentuer les ombres va également amplifier le bruit de l'image."
 		},
 		{
 			"id": "tonemapsettings.reducelights",
-			"machinetranslated": true,
-			"helptext": "La réduction maximale de luminosité qui sera appliquée. Une réduction trop importante de la luminosité entraînera la réduction des reflets coupés en gris."
+			"machinetranslated": false,
+			"helptext": "Réduction maximale de luminosité qui sera appliquée. Une réduction trop importante de la luminosité entraînera la réduction des reflets coupés en gris."
 		},
 		{
 			"id": "tonemapsettings.autoboostreduce",
-			"machinetranslated": true,
-			"helptext": "Utilisez les valeurs automatiques pour augmenter les ombres et réduire les lumières ci-dessus."
+			"machinetranslated": false,
+			"helptext": "Utilisation les valeurs automatiques pour augmenter les ombres et réduire les lumières ci-dessus."
 		},
 		{
 			"id": "tonemapsettings.compression",
-			"machinetranslated": true,
-			"helptext": "Quantité de compression de la plage dynamique. Une compression élevée permet aux zones très sombres et très lumineuses d'être visibles dans l'image mappée, mais une compression faible peut sembler plus naturelle."
+			"machinetranslated": false,
+			"helptext": "Amplitude de compression de la plage dynamique. Une compression élevée permet aux zones très sombres et très lumineuses d'être visibles dans l'image mappée, mais une compression faible peut sembler plus naturelle."
 		},
 		{
 			"id": "tonemapsettings.contrast",
-			"machinetranslated": true,
-			"helptext": "Augmenter ou réduire le contraste de l'image."
+			"machinetranslated": false,
+			"helptext": "Augmente ou réduit le contraste de l'image."
 		},
 		{
 			"id": "tonemapsettings.saturation",
-			"machinetranslated": true,
-			"helptext": "Augmentez ou réduisez le dynamisme des couleurs de l'image mappée."
+			"machinetranslated": false,
+			"helptext": "Augmente ou réduit la saturation des couleurs de l'image mappée."
 		},
 		{
 			"id": "exposurefusionsettings.brightness",
-			"machinetranslated": true,
-			"helptext": "Définit la luminosité générale de l’image fusionnée. 0 est noir, 1 est blanc."
+			"machinetranslated": false,
+			"helptext": "Définit la luminosité générale de l’image fusionnée. 0 pour noir, 1 pour blanc."
 		},
 		{
 			"id": "exposurefusionsettings.boostshadows",
-			"machinetranslated": true,
-			"helptext": "En outre, augmenter les ombres. Cela amplifiera également le bruit de l'image."
+			"machinetranslated": false,
+			"helptext": "Eclairit les ombres. Cela amplifiera également le bruit de l'image."
 		},
 		{
 			"id": "exposurefusionsettings.reducelights",
-			"machinetranslated": true,
-			"helptext": "Réduit en outre la luminosité des hautes lumières. Une réduction trop importante de la luminosité entraînera la réduction des reflets coupés en gris."
+			"machinetranslated": false,
+			"helptext": "Réduit la luminosité des hautes lumières. Une réduction trop importante de la luminosité entraînera la réduction des reflets qui deviendront gris."
 		},
 		{
 			"id": "exposurefusionsettings.sigma",
-			"machinetranslated": true,
-			"helptext": "Force de l'algorithme. À faible sigma, seuls les pixels les mieux exposés sont utilisés. Une valeur plus élevée crée une fusion plus progressive entre les plans de fondu, ce qui réduit légèrement le contraste de l'image. Des valeurs sigma trop faibles peuvent provoquer des artefacts d'image. augmentez le curseur jusqu'à ce que le résultat soit bon."
+			"machinetranslated": false,
+			"helptext": "Force de l'algorithme. À faible sigma, seuls les pixels les mieux exposés sont utilisés. Une valeur plus élevée crée une fusion plus progressive entre les plans de fusion, ce qui réduit légèrement le contraste de l'image. Des valeurs sigma trop faibles peuvent provoquer des artefacts d'image. augmentez le curseur jusqu'à ce que le résultat soit bon."
 		},
 		{
 			"id": "numericaltransform.yaw",
-			"machinetranslated": true,
-			"helptext": "Déplace le panorama vers la gauche ou la droite."
+			"machinetranslated": false,
+			"helptext": "Décale le panorama vers la gauche ou la droite."
 		},
 		{
 			"id": "numericaltransform.pitch",
@@ -8806,8 +8805,8 @@
 		},
 		{
 			"id": "numericaltransform.roll",
-			"machinetranslated": true,
-			"helptext": "Fait pivoter le panorama."
+			"machinetranslated": false,
+			"helptext": "Pivote le panorama."
 		},
 		{
 			"id": "projectionpanel.projection",
@@ -8842,30 +8841,30 @@
 		{
 			"id": "panoramapreviewsettingspanel.exposure",
 			"machinetranslated": true,
-			"helptext": "Augmenter ou diminuer la luminosité de l'aperçu. Affecte l'image telle qu'elle est affichée ici, dans l'onglet @mainwindow.tabs.crop@, <optional product='pro'>@mainwindow.tabs.mask@,</optional> @mainwindow.tabs.controlpoints@ et dans la visionneuse de détails. Le panorama cousu n'est pas affecté.<br><br>Faites un clic droit sur le curseur pour réinitialiser à 0."
+			"helptext": "Augmente ou diminue la luminosité de l'aperçu. Affecte l'image telle qu'elle est affichée ici, dans l'onglet @mainwindow.tabs.crop@, <optional product='pro'>@mainwindow.tabs.mask@,</optional> @mainwindow.tabs.controlpoints@ et dans la visionneuse de détails. Le panorama cousu n'est pas affecté.<br><br>Faites un clic droit sur le curseur pour réinitialiser à 0."
 		},
 		{
 			"id": "panoramapreviewsettingspanel.blendplane",
-			"machinetranslated": true,
-			"helptext": "Pour les panoramas HDR: affichez uniquement le plan d'exposition sélectionné au lieu du panorama fusionné avec tonalité mappée / exposition."
+			"machinetranslated": false,
+			"helptext": "Pour les panoramas HDR: affiche uniquement le plan d'exposition sélectionné au lieu du panorama fusionné avec la tonalité et l'exposition mappée."
 		},
 		{
 			"id": "publishtoweb.sourcefiles",
-			"machinetranslated": true,
-			"helptext": "Les panoramas à traiter. Plusieurs panoramas peuvent être traités par lot.",
-			"morehelptext": "<br><br>Ajoutez des panoramas à la liste en cliquant sur le bouton + ci-dessous ou en glissant-déposant des fichiers dans la liste. Pour plus d'informations, voir <a href='helppage:publishtowebsite'>Utilisation de Publier sur un site Web.</a>"
+			"machinetranslated": false,
+			"helptext": "Panoramas à traiter. Plusieurs panoramas peuvent être traités par lot.",
+			"morehelptext": "<br><br>Ajouter des panoramas à la liste en cliquant sur le bouton + ci-dessous ou en glissant-déposant des fichiers dans la liste. Pour plus d'informations, voir <a href='helppage:publishtowebsite'>Utilisation de Publier sur un site Web.</a>"
 		},
 		{
 			"id": "publishtoweb.sourcefiles.add",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Ajouter",
-			"helptext": "Ajoutez des panoramas à la liste des fichiers à traiter."
+			"helptext": "Ajoute des panoramas à la liste des fichiers à traiter."
 		},
 		{
 			"id": "publishtoweb.sourcefiles.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Retirer",
-			"helptext": "Supprimer les fichiers sélectionnés de la liste."
+			"helptext": "Supprime les fichiers sélectionnés de la liste."
 		},
 		{
 			"id": "publishtoweb.projection",
@@ -8892,52 +8891,52 @@
 		},
 		{
 			"id": "publishtoweb.defaults",
-			"machinetranslated": true,
-			"helptext": "Réinitialiser tous les paramètres ici aux valeurs par défaut."
+			"machinetranslated": false,
+			"helptext": "Réinitialiser tous les paramètres de cette partie aux valeurs par défaut."
 		},
 		{
 			"id": "publishtoweb.convert",
-			"machinetranslated": true,
-			"helptext": "Convertissez les images et générez tous les fichiers pour la publication Web."
+			"machinetranslated": false,
+			"helptext": "Convertir les images et générer tous les fichiers pour la publication Web."
 		},
 		{
 			"id": "publishtowebsettings.createcomponents",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Configure les fichiers à créer.",
-			"morehelptext": "<br><br><b>@txt.allfiles@:</b> générez tous les fichiers nécessaires à la publication Web: mosaïques d'image, fichier html et l'applet de visualisation.<br><br><b>@publishtowebsite.create.images@:</b> convertissez uniquement les images en mosaïques. Utilisez cette option si les fichiers HTML et l'applet de visualisation sont déjà téléchargés sur le site Web."
+			"morehelptext": "<br><br><b>@txt.allfiles@:</b> générer tous les fichiers nécessaires à la publication Web: mosaïques d'image, fichier html et l'applet de visualisation.<br><br><b>@publishtowebsite.create.images@:</b> convertir uniquement les images en mosaïques. Utiliser cette option si les fichiers HTML et l'applet de visualisation sont déjà téléchargés sur le site Web."
 		},
 		{
 			"id": "publishtowebsettings.resolution",
-			"machinetranslated": true,
-			"helptext": "La taille combinée en mégapixels des tuiles .jpg générées.",
-			"morehelptext": "<br><br>Utilisez @options.automatic@ pour choisir la taille optimale à laquelle aucune perte de qualité ne se produit. L'utilisation d'une taille plus petite réduit la durée de téléchargement avant que le panorama ne soit complètement affiché, mais réduit également la qualité de l'image. Lorsque vous utilisez le paramètre @options.automatic@, la taille du panorama de sortie est limitée à 60 mégapixels. Vous pouvez éviter cela en désélectionnant @options.automatic@, mais ces panoramas de grande taille ne peuvent pas être affichés de manière fiable sur tous les ordinateurs. La durée de téléchargement peut également être réduite en abaissant la qualité JPEG ci-dessous."
+			"machinetranslated": false,
+			"helptext": "Taille combinée en mégapixels des tuiles .jpg générées.",
+			"morehelptext": "<br><br>Utiliser @options.automatic@ pour choisir la taille optimale à laquelle aucune perte de qualité ne se produit. L'utilisation d'une taille plus petite réduit la durée de téléchargement avant que le panorama ne soit complètement affiché, mais réduit également la qualité de l'image. Lorsque vous utilisez le paramètre @options.automatic@, la taille du panorama de sortie est limitée à 60 mégapixels. Vous pouvez éviter cela en désélectionnant @options.automatic@, mais ces panoramas de grande taille ne peuvent pas être affichés de manière fiable sur tous les ordinateurs. La durée de téléchargement peut également être réduite en abaissant la qualité JPEG ci-dessous."
 		},
 		{
 			"id": "publishtowebsettings.automaticresolution",
 			"machinetranslated": true,
-			"helptext": "Utilise une résolution correspondant à la résolution d'origine du panorama."
+			"helptext": "Utiliser une résolution correspondant à la résolution d'origine du panorama."
 		},
 		{
 			"id": "publishtowebsettings.mobileresolution",
 			"machinetranslated": true,
-			"helptext": "Utilisez des vignettes plus petites sur les appareils mobiles (Android, iOS).",
+			"helptext": "Utiliser des vignettes plus petites sur les appareils mobiles (Android, iOS).",
 			"morehelptext": "<br><br>Les appareils mobiles ont une mémoire limitée. Si le panorama est trop grand (c'est-à-dire trop de pixels), le navigateur Web de l'appareil manque de mémoire et peut s'arrêter sans avertissement. Ce paramètre indique au navigateur de réduire la taille de l'image avant son affichage. En pratique, 4,5 mégapixels est une limite de sécurité."
 		},
 		{
 			"id": "publishtowebsettings.jpegquality",
-			"machinetranslated": true,
-			"helptext": "Niveau de qualité (0 .. 100) des fichiers .jpg générés. Un nombre inférieur donnera une qualité inférieure mais un téléchargement plus rapide."
+			"machinetranslated": false,
+			"helptext": "Niveau de qualité (0 .. 100) des fichiers .jpg générés. Une valeur faible donnera une qualité d'image inférieure mais le téléchargement sera plus rapide."
 		},
 		{
 			"id": "publishtowebsettings.angles",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Paramètres de visualisation initiaux et limites.",
-			"morehelptext": "<br><br><b>@+pan@</b> définit et limite la direction de vision horizontale: 0° est le centre du panorama, -180° est le côté le plus à gauche et 180° est le côté le plus à droite.<br><br><b>@+tilt@</b> définit et limite la direction de vision verticale: 0° est l'horizon, 90° le zénith et -90° le nadir.<br><br>Sélectionnez <b>@options.automatic@</b> pour définir les limites @pan@ et @tilt@ de manière à ce que la zone visible soit limitée aux limites du panorama.<br><br><b>@panoramaeditor.sidebar.projectionpanel.fov@</b> Ceci définit et limite le zoom: les valeurs faibles effectuent un zoom avant, tandis que les valeurs élevées effectuent un zoom arrière. En pratique, 90° est un bon champ de vision initial et 120° est une valeur maximale appropriée."
+			"morehelptext": "<br><br><b>@+pan@</b> définit et limite la direction de vision horizontale: 0° est le centre du panorama, -180° est le côté le plus à gauche et 180° est le côté le plus à droite.<br><br><b>@+tilt@</b> définit et limite la direction de vision verticale: 0° est l'horizon, 90° le zénith et -90° le nadir.<br><br>Sélectionner <b>@options.automatic@</b> pour définir les limites @pan@ et @tilt@ de manière à ce que la zone visible soit limitée aux limites du panorama.<br><br><b>@panoramaeditor.sidebar.projectionpanel.fov@</b> Ceci définit et limite le zoom: les valeurs faibles effectuent un zoom avant, tandis que les valeurs élevées effectuent un zoom arrière. En pratique, 90° est un bon champ de vision initial et 120° est une valeur maximale appropriée."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.enabled",
-			"machinetranslated": true,
-			"helptext": "Activer la rotation automatique: le panorama commencera à tourner automatiquement lorsque la page Web sera affichée."
+			"machinetranslated": false,
+			"helptext": "Active la rotation automatique: le panorama commencera à tourner automatiquement lorsque la page Web sera affichée."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.speed",
@@ -8951,8 +8950,8 @@
 		},
 		{
 			"id": "publishtowebsettings.autorotate.resumedelay",
-			"machinetranslated": true,
-			"helptext": "Temps en secondes après lequel la rotation automatique prendra le relais."
+			"machinetranslated": false,
+			"helptext": "Temps en secondes après lequel la rotation automatique reprendra."
 		},
 		{
 			"id": "publishtowebsettings.enablefullscreen",
@@ -8962,13 +8961,13 @@
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",
-			"machinetranslated": true,
-			"helptext": "Sur les appareils mobiles, naviguez dans le panorama en faisant pivoter et en inclinant l'appareil."
+			"machinetranslated": false,
+			"helptext": "Pour les appareils mobiles, active la naviguation dans le panorama en faisant pivoter et en inclinant l'appareil."
 		},
 		{
 			"id": "publishtowebsettings.navigatemode",
-			"machinetranslated": true,
-			"helptext": "Comment naviguer dans le panorama à l'aide de la souris.",
+			"machinetranslated": false,
+			"helptext": "Navigation dans le panorama à l'aide de la souris.",
 			"morehelptext": "<br><br><b>@publishtowebsite.mousenav.drag@:</b> maintenez le bouton de la souris enfoncé et faites glisser le panorama dans la direction souhaitée.<br><br><b>@publishtowebsite.mousenav.moveto@:</b> maintenez enfoncé et déplacez la souris: le panorama commencera à tourner dans le sens opposé jusqu'à ce que le bouton de la souris soit relâché.<br><br>Ce paramètre s'applique uniquement aux périphériques basés sur la souris. sur les appareils mobiles, il est possible de naviguer dans le panorama, quel que soit le réglage sélectionné."
 		},
 		{
@@ -8983,8 +8982,8 @@
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.enabled",
-			"machinetranslated": true,
-			"helptext": "Utilisez un modèle HTML personnalisé. Si activé, un fichier de modèle devrait être sélectionné.",
+			"machinetranslated": false,
+			"helptext": "Utiliser un modèle HTML personnalisé. Si activé, un fichier de modèle devra être sélectionné.",
 			"morehelptext": "<br><br>Pour plus d'informations, voir <a href='helppage:publishtowebsite'>Utilisation de Publier sur un site Web.</a>"
 		},
 		{
@@ -8995,33 +8994,33 @@
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.browse",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez le nom de fichier d'un modèle HTML que vous avez créé.",
+			"machinetranslated": false,
+			"helptext": "Sélection du nom de fichier d'un modèle HTML que vous avez créé.",
 			"morehelptext": "<br><br>Pour plus d'informations, voir <a href='helppage:publishtowebsite'>Utilisation de Publier sur un site Web.</a>"
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.createtemplate",
 			"machinetranslated": true,
-			"helptext": "Créez un nouveau modèle HTML. Le modèle peut être personnalisé en modifiant le contenu HTML.",
+			"helptext": "Création un nouveau modèle HTML. Le modèle peut être personnalisé en modifiant le contenu HTML.",
 			"morehelptext": "<br><br>Pour plus d'informations, voir <a href='helppage:publishtowebsite'>Utilisation de Publier sur un site Web.</a>"
 		},
 		{
 			"id": "converttocubic.sourcefiles",
-			"machinetranslated": true,
-			"helptext": "Les panoramas à traiter. Plusieurs panoramas peuvent être traités par lot.",
-			"morehelptext": "<br><br>Ajoutez des panoramas à la liste en cliquant sur le bouton + ci-dessous ou en glissant-déposant des fichiers dans la liste. Pour plus d'informations, voir <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
+			"machinetranslated": false,
+			"helptext": "Panoramas à traiter. Plusieurs panoramas peuvent être traités par lot.",
+			"morehelptext": "<br><br>Ajouter des panoramas à la liste en cliquant sur le bouton + ci-dessous ou en glissant-déposant des fichiers dans la liste. Pour plus d'informations, voir <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
 		},
 		{
 			"id": "converttocubic.sourcefiles.add",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Ajouter",
-			"helptext": "Ajoutez des panoramas à la liste des fichiers à traiter."
+			"helptext": "Ajoute des panoramas à la liste des fichiers à traiter."
 		},
 		{
 			"id": "converttocubic.sourcefiles.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Retirer",
-			"helptext": "Supprimer les fichiers sélectionnés de la liste."
+			"helptext": "Supprime les fichiers sélectionnés de la liste."
 		},
 		{
 			"id": "converttocubic.projection",
@@ -9048,19 +9047,19 @@
 		},
 		{
 			"id": "converttocubic.defaults",
-			"machinetranslated": true,
-			"helptext": "Réinitialiser tous les paramètres ici aux valeurs par défaut."
+			"machinetranslated": false,
+			"helptext": "Réinitialisation tous les paramètres de cette partie aux valeurs par défaut."
 		},
 		{
 			"id": "converttocubic.convert",
-			"machinetranslated": true,
-			"helptext": "Convertissez les images et générez tous les fichiers."
+			"machinetranslated": false,
+			"helptext": "Convertir les images et générer tous les fichiers."
 		},
 		{
 			"id": "converttocubic.targetformat",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Format cible à convertir.",
-			"morehelptext": "<br><br><b>@cubicconverter.convertto.qtvr@:</b> QTVR était un dialecte spécial au format vidéo QuickTime .mov <b>permettant la</b> lecture interactive de panoramas sphériques. Pendant de nombreuses années, ce format a été choisi pour intégrer des panoramas dans des pages Web: le plug-in QuickTime a été installé sur tous les Mac et de nombreux ordinateurs Windows (inclus avec iTunes pour Windows). En 2009, Apple a cessé de prendre en charge QTVR de QuickTime. Ce format devrait donc être considéré comme un format hérité.<br><br><b>@cubicconverter.convertto.cubefacestrip@:</b> conversion en 6 faces de cube placées dans une seule image sous forme de bande horizontale.<br><br><b>@cubicconverter.convertto.cubefaces@:</b> convertir en 6 images de visage de cube individuelles."
+			"morehelptext": "<br><br><b>@cubicconverter.convertto.qtvr@:</b> QTVR était un encodage spécial au format vidéo QuickTime .mov <b>permettant la</b> lecture interactive de panoramas sphériques. Pendant de nombreuses années, ce format a été choisi pour intégrer des panoramas dans des pages Web: le plug-in QuickTime a été installé sur tous les Mac et de nombreux ordinateurs sous Windows (inclus avec iTunes pour Windows). En 2009, Apple a cessé de prendre en charge QTVR de QuickTime. Ce format devrait donc être considéré comme un format obsolète.<br><br><b>@cubicconverter.convertto.cubefacestrip@:</b> conversion en 6 faces de cube placées dans une seule image sous forme de bande horizontale.<br><br><b>@cubicconverter.convertto.cubefaces@:</b> convertir en 6 images de visage de cube individuelles."
 		},
 		{
 			"id": "converttocubic.fileformat",
@@ -9069,23 +9068,23 @@
 		},
 		{
 			"id": "converttocubic.cubefacenames",
-			"machinetranslated": true,
-			"helptext": "Configurez les suffixes de nom de fichier pour les 6 images créées."
+			"machinetranslated": false,
+			"helptext": "Configuration les suffixes de nom de fichier pour les 6 images créées."
 		},
 		{
 			"id": "converttocubicsettings.cubefacesize",
-			"machinetranslated": true,
-			"helptext": "Largeur et hauteur (en pixels) des faces du cube générées. Choisissez @options.automatic@ pour utiliser la taille optimale."
+			"machinetranslated": false,
+			"helptext": "Largeur et hauteur (en pixels) des faces du cube générées. Choisir @options.automatic@ pour utiliser la taille optimale."
 		},
 		{
 			"id": "converttocubicsettings.autocubefacesize",
-			"machinetranslated": true,
-			"helptext": "Utilisez la taille optimale de la face du cube. À cette taille, la résolution de sortie correspond à la résolution de l'image panoramique."
+			"machinetranslated": false,
+			"helptext": "Utilisation de la taille optimale de la face du cube. Dans ce cas, la résolution de sortie correspond à la résolution de l'image panoramique."
 		},
 		{
 			"id": "converttocubicsettings.jpegquality",
-			"machinetranslated": true,
-			"helptext": "Niveau de qualité (0 .. 100) des fichiers .jpg générés. Un nombre inférieur donnera une qualité inférieure mais un téléchargement plus rapide."
+			"machinetranslated": false,
+			"helptext": "Niveau de qualité (0 .. 100) des fichiers .jpg générés. Une valeur faible donnera une qualité inférieure mais un téléchargement plus rapide."
 		},
 		{
 			"id": "converttocubicsettings.windowsize",
@@ -9100,14 +9099,14 @@
 		},
 		{
 			"id": "cptable.filterimage",
-			"machinetranslated": true,
-			"helptext": "Filtrez le tableau pour afficher uniquement les points de contrôle des images sélectionnées."
+			"machinetranslated": false,
+			"helptext": "Filtrage du tableau pour afficher uniquement les points de contrôle des images sélectionnées."
 		},
 		{
 			"id": "cptable.filtertype",
-			"machinetranslated": true,
-			"helptext": "Filtrez le tableau pour afficher uniquement les points de contrôle d'un certain type.",
-			"morehelptext": "<br><br>PTGui prend en charge 4 types de points de contrôle différents: @cptable.normal@, @cptable.horizontalline@, @cptable.verticalline@ et @cptable.line@. Utilisez ce filtre pour afficher uniquement les points de contrôle d'un certain type."
+			"machinetranslated": false,
+			"helptext": "Filtrage du tableau pour afficher uniquement les points de contrôle d'un certain type.",
+			"morehelptext": "<br><br>PTGui prend en charge 4 types de points de contrôle différents: @cptable.normal@, @cptable.horizontalline@, @cptable.verticalline@ et @cptable.line@. Utiliser ce filtre pour afficher uniquement les points de contrôle d'un certain type."
 		},
 		{
 			"id": "cptable.table",
@@ -9116,24 +9115,24 @@
 		},
 		{
 			"id": "batchbuilder.detect",
-			"machinetranslated": true,
-			"helptext": "Détecter des panoramas en analysant des dossiers avec des images."
+			"machinetranslated": false,
+			"helptext": "Détection des panoramas en analysant des dossiers avec des images."
 		},
 		{
 			"id": "batchbuilder.selectmanually",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez un nombre d'images et ajoutez-les à la liste en tant que projet unique."
+			"machinetranslated": false,
+			"helptext": "Sélection d'images et ajout de celles-ci à la liste en tant que projet unique."
 		},
 		{
 			"id": "batchbuilder.projectslist",
-			"machinetranslated": true,
-			"morehelptext": "Liste de projets, une ligne pour chaque projet généré. <a href='helppage:batchbuilder'>Lire la suite...</a>"
+			"machinetranslated": false,
+			"morehelptext": "Liste de projets, chaque ligne correspond à un projet généré. <a href='helppage:batchbuilder'>Lire la suite...</a>"
 		},
 		{
 			"id": "batchbuilder.templatelist",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Modèle à utiliser pour générer les fichiers de projet.",
-			"morehelptext": "<br><br>Générateur de Lots génère des projets en chargeant d’abord un groupe d’images source, puis en appliquant le modèle sélectionné ici. Le projet résultant est enregistré dans un nouveau fichier de projet.<br><br>Tous les modèles du dossier de modèles par défaut sont affichés dans la liste. De plus, les options suivantes sont affichées:<br><br><b>@batchbuilder.newemptyproject@:</b> n'appliquez aucun modèle. Cela donne le même résultat que le démarrage d'un nouveau projet et l'ajout des images source. Lorsqu'il est envoyé au programme batch Stitcher, il lance «@alignimages@», puis assemble le panorama. Si les paramètres par défaut ont été modifiés à l'aide de @menubar.file@ | @menubar.file.makedefault@, les paramètres par défaut modifiés sont utilisés.<br><br><b>@batchbuilder.usecurrentastemplate@:</b> utilisez le projet actuellement ouvert et appliquez-le comme modèle après avoir ajouté des images source.<br><br><b>@menubar.file.applytemplate.other@:</b> sélectionnez un fichier de projet sur le disque à utiliser comme modèle."
+			"morehelptext": "<br><br>Le Générateur de Lots génère des projets en chargeant d’abord un groupe d’images source, puis en appliquant le modèle sélectionné ici. Le projet résultant est enregistré dans un nouveau fichier de projet.<br><br>Tous les modèles du dossier de modèles par défaut sont affichés dans la liste. De plus, les options suivantes sont affichées:<br><br><b>@batchbuilder.newemptyproject@:</b> n'appliquer aucun modèle. Cela donne le même résultat que le démarrage d'un nouveau projet et l'ajout des images source. Lorsqu'il est envoyé au programme batch Stitcher, il lance «@alignimages@», puis assemble le panorama. Si les paramètres par défaut ont été modifiés à l'aide de @menubar.file@ | @menubar.file.makedefault@, les paramètres par défaut modifiés sont utilisés.<br><br><b>@batchbuilder.usecurrentastemplate@:</b> utiliser le projet actuellement ouvert et l'appliquer comme modèle après avoir ajouté des images source.<br><br><b>@menubar.file.applytemplate.other@:</b> sélectionner un fichier de projet sur le disque à utiliser comme modèle."
 		},
 		{
 			"id": "batchbuilder.templatefilename",
@@ -9142,8 +9141,8 @@
 		},
 		{
 			"id": "batchbuilder.alignimages",
-			"machinetranslated": true,
-			"helptext": "Configurez si le programme d'agrafage par lots doit analyser et aligner les images avant l'assemblage.",
+			"machinetranslated": false,
+			"helptext": "Choix si le programme de fusion par lots doit analyser et aligner les images avant l'assemblage.",
 			"morehelptext": "<br><br>Par défaut, cela correspond au paramètre défini sous @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ dans le projet de modèle. Ce paramètre est répété ici et il peut être remplacé car c'est une source de confusion courante.<br><br>Le programme batch Stitcher peut être configuré pour exécuter '@alignimages@' avant d'assembler le panorama. Si cette option est activée, le programme d'agitation par lots analyse d'abord les images, génère des points de contrôle, optimise le projet, etc. Ce qui sera exactement fait est configuré dans le modèle sous @mainwindow.tabs.projectsettings@ - Aligner le comportement des images. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>Si cette option est désactivée, le projet sera cousu exactement comme dans le modèle. Le modèle doit donc contenir des images correctement alignées.<br><br>Il existe essentiellement deux cas d'utilisation différents pour Générateur de Lots:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans générer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br><br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique. Dans ce cas, les positions des images dans chaque panorama seront généralement légèrement différentes. Même si la tête panoramique a des clics arrêtés, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage."
 		},
 		{
@@ -9153,35 +9152,35 @@
 		},
 		{
 			"id": "batchbuilder.browsesavetobatchlist",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez un nom de fichier dans lequel stocker la liste de lots."
+			"machinetranslated": false,
+			"helptext": "Définition du nom de fichier dans lequel stocker la liste de lots."
 		},
 		{
 			"id": "batchbuilder.generate",
-			"machinetranslated": true,
-			"helptext": "Exécutez le générateur de lot pour générer les fichiers de projet."
+			"machinetranslated": false,
+			"helptext": "Exécute le générateur de lot pour générer les fichiers de projet."
 		},
 		{
 			"id": "batchbuilderdetect.method",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Méthode à utiliser pour trouver des panoramas.",
-			"morehelptext": "<br><br>Le générateur de lots peut détecter les panoramas de l’une des manières suivantes:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> utilisez ceci si vous avez déjà organisé vos images source dans des dossiers distincts pour chaque panorama. PTGui Pro recherche dans le dossier choisi, tous les sous-dossiers, sous-sous-dossiers, etc., et génère des fichiers de projet pour chaque dossier contenant une ou plusieurs images. Chaque fichier de projet contiendra toutes les images présentes dans ce dossier.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> utilisez cette méthode si toutes les images source se trouvent dans un dossier et que tous les panoramas doivent comporter un nombre fixe d’images. Par exemple, si un dossier contient 100 images et que le nombre d'images par panorama est défini sur 7, le résultat sera 15 projets avec 7 images chacun (à l'exception du dernier). Les images sont triées et groupées par ordre alphabétique.<br><br><b>@batchbuilderdetect.method.shootingdate@: les</b> projets seront détectés en fonction de la date / heure de prise de vue: les images seront considérées comme formant un panorama si elles ont été prises dans le délai spécifié en secondes. Des critères de filtre supplémentaires vous permettent de filtrer en fonction de la distance focale et de ne qualifier que les images suivantes ayant la même distance focale, le même temps d'exposition, la même ouverture et / ou la même valeur ISO.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> cette méthode peut être utilisée pour créer des panoramas <b>accélérés à</b> partir de plusieurs caméras. La carte mémoire de chaque appareil photo peut être copiée dans un sous-dossier séparé. Chaque sous-dossier doit contenir le même nombre d'images, dans le même ordre numérique croissant. Les fichiers de projet générés prendront une image de chaque sous-dossier (avec les noms des sous-dossiers dans l'ordre alphabétique)."
+			"morehelptext": "<br><br>Le générateur de lots peut détecter les panoramas de l’une des manières suivantes:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> utiliser ceci si vous avez déjà organisé vos images source dans des dossiers distincts pour chaque panorama. PTGui Pro recherche dans le dossier choisi, tous les sous-dossiers, sous-sous-dossiers, etc., et génère des fichiers de projet pour chaque dossier contenant une ou plusieurs images. Chaque fichier de projet contiendra toutes les images présentes dans ce dossier.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> utiliser cette méthode si toutes les images source se trouvent dans un dossier et que tous les panoramas doivent comporter un nombre fixe d’images. Par exemple, si un dossier contient 100 images et que le nombre d'images par panorama est défini sur 7, le résultat sera 15 projets avec 7 images chacun (à l'exception du dernier). Les images sont triées et groupées par ordre alphabétique.<br><br><b>@batchbuilderdetect.method.shootingdate@: les</b> projets seront détectés en fonction de la date / heure de prise de vue: les images seront considérées comme formant un panorama si elles ont été prises dans le délai spécifié en secondes. Des critères de filtre supplémentaires vous permettent de filtrer en fonction de la distance focale et de ne qualifier que les images suivantes ayant la même distance focale, le même temps d'exposition, la même ouverture et / ou la même valeur ISO.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> cette méthode peut être utilisée pour créer des panoramas <b>accélérés à</b> partir de plusieurs caméras. La carte mémoire de chaque appareil photo peut être copiée dans un sous-dossier séparé. Chaque sous-dossier doit contenir le même nombre d'images, dans le même ordre numérique croissant. Les fichiers de projet générés prendront une image de chaque sous-dossier (avec les noms des sous-dossiers dans l'ordre alphabétique)."
 		},
 		{
 			"id": "batchbuilderdetect.folder",
-			"machinetranslated": true,
-			"helptext": "Le dossier racine à analyser. Appuyez sur @browse@ pour sélectionner."
+			"machinetranslated": false,
+			"helptext": "Dossier racine à analyser. Appuyer sur @browse@ pour la sélection."
 		},
 		{
 			"id": "batchbuilderdetect.subfolderprefix",
-			"machinetranslated": true,
-			"helptext": "Analyser uniquement les sous-dossiers dont le nom commence par ces caractères.",
+			"machinetranslated": false,
+			"helptext": "Analyse uniquement les sous-dossiers dont le nom commence par ces caractères.",
 			"morehelptext": "<br><br>Par exemple, si les sous-dossiers contenant les images sont nommés &quot;camera1&quot;, &quot;camera2&quot;, etc., entrez &quot;camera&quot; pour analyser uniquement ces dossiers."
 		},
 		{
 			"id": "batchbuilderdetect.filterextension",
-			"machinetranslated": true,
-			"helptext": "Utilisez uniquement des noms de fichier image avec cette extension.",
+			"machinetranslated": false,
+			"helptext": "Utilise uniquement des noms de fichier image avec cette extension.",
 			"morehelptext": "<br><br>Entrez l'extension sans le point (JPG, pas .JPG). Le filtrage est insensible à la casse, donc cela correspondra à la fois à image.jpg et image.JPG<br><br>Plusieurs extensions peuvent être entrées, séparées par une virgule. Par exemple: tif, jpg"
 		},
 		{
@@ -9197,8 +9196,8 @@
 		},
 		{
 			"id": "batchbuilderdetect.focallength",
-			"machinetranslated": true,
-			"helptext": "Utilisez uniquement des images avec une focale enregistrée (dans les données EXIF) dans cette plage. Laissez vide pour ignorer la focale."
+			"machinetranslated": false,
+			"helptext": "Utilisation uniquement des images avec une focale enregistrée (dans les données EXIF) dans cette plage. Laissez vide pour ignorer la focale."
 		},
 		{
 			"id": "batchbuilderdetect.samefocallength",
@@ -9222,18 +9221,18 @@
 		},
 		{
 			"id": "batchbuilderdetect.run",
-			"machinetranslated": true,
-			"helptext": "Lancer la recherche de panoramas."
+			"machinetranslated": false,
+			"helptext": "Lance la recherche de panoramas."
 		},
 		{
 			"id": "aligntogrid.allimages",
-			"machinetranslated": true,
-			"helptext": "Appliquez la grille à toutes les images du projet en cours."
+			"machinetranslated": false,
+			"helptext": "Applique la grille à toutes les images du projet en cours."
 		},
 		{
 			"id": "aligntogrid.imagerange",
-			"machinetranslated": true,
-			"helptext": "Gamme d'images à laquelle appliquer la grille. La première image du projet porte le numéro 1. La plage comprend le dernier numéro."
+			"machinetranslated": false,
+			"helptext": "Gamme d'images à laquelle appliquer la grille. La première image du projet porte le numéro 1. La dernière valeur est incluse."
 		},
 		{
 			"id": "aligntogrid.rowscolumns",
@@ -9242,68 +9241,68 @@
 		},
 		{
 			"id": "aligntogrid.rowscolumns.preset",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez le nombre de lignes et de colonnes. Cette liste est basée sur le nombre total d'images incluses dans la grille."
+			"machinetranslated": false,
+			"helptext": "Sélection du nombre de lignes et de colonnes. Cette liste est basée sur le nombre total d'images incluses dans la grille."
 		},
 		{
 			"id": "aligntogrid.shootingconfig",
-			"machinetranslated": true,
-			"helptext": "Un total de 16 configurations de prise de vue différentes sont prises en charge. Les flèches illustrent l’ordre de tir sélectionné."
+			"machinetranslated": false,
+			"helptext": "Un total de 16 configurations de prises de vue différentes sont prises en charge. Les flèches illustrent l’ordre de prise de vue sélectionné."
 		},
 		{
 			"id": "aligntogrid.horizontal.center",
-			"machinetranslated": true,
-			"helptext": "Centrer le panorama horizontalement autour de @yaw@ = 0°"
+			"machinetranslated": false,
+			"helptext": "Centre le panorama horizontalement autour de @yaw@ = 0°"
 		},
 		{
 			"id": "aligntogrid.horizontal.offset",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Configure le décalage horizontal (@yaw@) des colonnes."
 		},
 		{
 			"id": "aligntogrid.horizontal.spacedby",
-			"machinetranslated": true,
-			"helptext": "L'intervalle horizontal (en degrés @yaw@) entre les colonnes."
+			"machinetranslated": false,
+			"helptext": "Intervalle horizontal (en degrés @yaw@) entre les colonnes."
 		},
 		{
 			"id": "aligntogrid.horizontal.overlap",
-			"machinetranslated": true,
-			"helptext": "Le chevauchement horizontal (en% de la largeur de l'image) des colonnes."
+			"machinetranslated": false,
+			"helptext": "Chevauchement horizontal (en% de la largeur de l'image) des colonnes."
 		},
 		{
 			"id": "aligntogrid.horizontal.stretch360",
-			"machinetranslated": true,
-			"helptext": "Répartissez les colonnes uniformément pour qu'elles forment un panorama à 360°."
+			"machinetranslated": false,
+			"helptext": "Réparti les colonnes uniformément pour qu'elles forment un panorama à 360°."
 		},
 		{
 			"id": "aligntogrid.vertical.center",
-			"machinetranslated": true,
-			"helptext": "Centrer le panorama verticalement autour de @pitch@ = 0°"
+			"machinetranslated": false,
+			"helptext": "Centre le panorama verticalement autour de @pitch@ = 0°"
 		},
 		{
 			"id": "aligntogrid.vertical.offset",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Configure le décalage vertical (@pitch@) des lignes."
 		},
 		{
 			"id": "aligntogrid.vertical.spacedby",
-			"machinetranslated": true,
-			"helptext": "L'intervalle vertical (en degrés @pitch@) entre les lignes."
+			"machinetranslated": false,
+			"helptext": "Intervalle vertical (en degrés @pitch@) entre les lignes."
 		},
 		{
 			"id": "aligntogrid.vertical.overlap",
-			"machinetranslated": true,
-			"helptext": "Le chevauchement vertical (en% de la hauteur de l'image) des lignes."
+			"machinetranslated": false,
+			"helptext": "Chevauchement vertical (en% de la hauteur de l'image) des lignes."
 		},
 		{
 			"id": "aligntogrid.roll.dontchange",
-			"machinetranslated": true,
-			"helptext": "Conservez tous les angles @roll@ tels quels."
+			"machinetranslated": false,
+			"helptext": "Conservation tous les angles @roll@ tels quels."
 		},
 		{
 			"id": "aligntogrid.roll.set",
-			"machinetranslated": true,
-			"helptext": "Définissez tous les angles @roll@ des images sélectionnées sur cette valeur."
+			"machinetranslated": false,
+			"helptext": "Définit tous les angles @roll@ des images sélectionnées sur cette valeur."
 		},
 		{
 			"id": "aligntogrid.modifyfov",
@@ -9312,44 +9311,44 @@
 		},
 		{
 			"id": "aligntogrid.apply",
-			"machinetranslated": true,
-			"helptext": "Appliquez la grille au panorama. Ouvrez l'éditeur de panorama pour vérifier le résultat."
+			"machinetranslated": false,
+			"helptext": "Applique la grille au panorama. Ouvre l'éditeur de panorama pour vérifier le résultat."
 		},
 		{
 			"id": "batchstitcher.toolbar.addproject",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@batchstitcher.menubar.addprojects@",
-			"helptext": "Ajouter des projets à la file d'attente."
+			"helptext": "Ajoute des projets à la file d'attente."
 		},
 		{
 			"id": "batchstitcher.toolbar.removeproject",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@batchstitcher.menubar.removeprojects@",
-			"helptext": "Supprimez les projets sélectionnés de la file d'attente."
+			"helptext": "Supprime les projets sélectionnés de la file d'attente."
 		},
 		{
 			"id": "batchstitcher.toolbar.openbatchlist",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@batchstitcher.menubar.openbatchlist@",
-			"helptext": "Charger une liste de lots. Une liste de lots stocke une liste de travaux, avec le statut Terminé / Non terminé de chaque travail."
+			"helptext": "Charge une liste de lots. Une liste de lots contient une liste de travaux, avec le statut Terminé / Non terminé de chaque travail."
 		},
 		{
 			"id": "batchstitcher.toolbar.savebatchlist",
-			"machinetranslated": true,
-			"label": "Enregistrer dans la liste de lots",
-			"helptext": "Enregistrez l'état actuel de la file d'attente dans une liste de lots. L’utilisation des listes de lots vous permet de fermer le programme Stitcher par lots et de continuer là où vous les avez laissés."
+			"machinetranslated": false,
+			"label": "Enregistre dans la liste de lots",
+			"helptext": "Enregistre l'état actuel de la file d'attente dans une liste de lots. L’utilisation des listes de lots vous permet de fermer le programme Stitcher par lots et de continuer là où vous les avez laissés."
 		},
 		{
 			"id": "batchstitcher.toolbar.start",
-			"machinetranslated": true,
-			"label": "Courir",
-			"helptext": "Continuer le traitement. Le traitement par lots démarrera le traitement du premier travail non terminé de la file d'attente."
+			"machinetranslated": false,
+			"label": "Continuer",
+			"helptext": "Continue le traitement. Le traitement par lots démarrera le traitement du premier travail non terminé de la file d'attente."
 		},
 		{
 			"id": "batchstitcher.toolbar.stop",
 			"machinetranslated": true,
-			"label": "Arrêtez",
-			"helptext": "Arrêtez le traitement. Le traitement par lots interrompra le traitement du travail en cours (le cas échéant)."
+			"label": "Arrêter",
+			"helptext": "Arrête le traitement. Le traitement par lots interrompra le traitement du travail en cours (le cas échéant)."
 		},
 		{
 			"id": "batchstitcher.toolbar.help",
@@ -9369,16 +9368,16 @@
 		{
 			"id": "philosphere.size",
 			"machinetranslated": true,
-			"helptext": "Taille en pixels du document imprimable généré. Par exemple, entrez 3000 x 1860 pour obtenir une image imprimable à 300 dpi au format A4 / Lettre. Deux documents seront générés."
+			"helptext": "Taille en pixels du document imprimable généré. Par exemple, entrer 3000 x 1860 pour obtenir une image imprimable à 300 dpi au format A4 / Lettre. Deux documents seront générés."
 		},
 		{
 			"id": "philosphere.start",
-			"machinetranslated": true,
-			"helptext": "Lancer la conversion. On vous demandera le fichier image source et on vous demandera où enregistrer les deux images résultantes."
+			"machinetranslated": false,
+			"helptext": "Lance la conversion. le logiciel demandera le reseignement du fichier image source et où enregistrer les deux images résultantes."
 		},
 		{
 			"id": "lensdatabase.entries",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"morehelptext": "Enregistrements de base de données Lens. Voir: <a href='helppage:lensdatabase'>Utilisation de la base de données Lens</a>"
 		},
 		{
@@ -9389,9 +9388,9 @@
 		},
 		{
 			"id": "lensdatabase.entries.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Retirer",
-			"helptext": "Supprimez l'enregistrement de base de données d'objectif sélectionné."
+			"helptext": "Suppression de l'enregistrement de la base de données d'objectif sélectionné."
 		},
 		{
 			"id": "lensdatabase.mappings",
@@ -9424,44 +9423,44 @@
 		},
 		{
 			"id": "cameradatabase.entries.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Retirer",
-			"helptext": "Supprimer l'enregistrement de la base de données de caméras sélectionnée."
+			"helptext": "Supprime l'enregistrement de la base de données de caméras sélectionnée."
 		},
 		{
 			"id": "focallengthdialog.loadfromlensdb",
-			"machinetranslated": true,
-			"helptext": "Utilisez les données d'objectif de la base de données d'objectif.",
-			"morehelptext": "<br><br>Vous pouvez utiliser la base de données d'objectif pour stocker des paramètres d'objectif personnalisés. Sélectionnez dans cette liste pour initialiser tous les paramètres d'objectif de la base de données d'objectif. La base de données d'objectif peut être ouverte via @menubar.tools@ | @lensdatabase@. Voir aussi: <a href='helppage:lensdatabase'>Utilisation de la base de données Lens</a>"
+			"machinetranslated": false,
+			"helptext": "Utilisation les données d'objectif de la base de données d'objectif.",
+			"morehelptext": "<br><br>Il est possible d'utiliser la base de données d'objectif pour stocker des paramètres d'objectif personnalisés. Sélectionner dans cette liste pour initialiser tous les paramètres d'objectif de la base de données d'objectif. La base de données d'objectif peut être ouverte via @menubar.tools@ | @lensdatabase@. Voir aussi: <a href='helppage:lensdatabase'>Utilisation de la base de données Lens</a>"
 		},
 		{
 			"id": "focallengthdialog.focallength",
-			"machinetranslated": true,
-			"helptext": "Longueur focale de la lentille en millimètres.",
-			"morehelptext": "<br><br>Entrez la distance focale réelle, pas la distance focale équivalente de 35mm.<br><br>Après avoir entré la distance focale, la liste '@focallengthdialog.lenstype@' sera mise à jour avec les objectifs correspondants. Sélectionnez le type d'objectif approprié dans la liste."
+			"machinetranslated": false,
+			"helptext": "Longueur focale de l'objectif en millimètres.",
+			"morehelptext": "<br><br>Entrer la longueur focale réelle, pas la distance focale équivalente de 35mm.<br><br>Après avoir entré la longueur focale, la liste '@focallengthdialog.lenstype@' sera mise à jour avec les objectifs correspondants. Sélectionnez le type d'objectif approprié dans la liste."
 		},
 		{
 			"id": "focallengthdialog.focallengthpreset",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez un préréglage ici si vous ne connaissez pas la longueur focale de l'objectif. Si vous connaissez la longueur focale, entrez plutôt la valeur exacte."
+			"machinetranslated": false,
+			"helptext": "Sélectionner un préréglage ici si vous ne connaissez pas la longueur focale de l'objectif. Si vous connaissez la longueur focale, entrez plutôt la valeur exacte."
 		},
 		{
 			"id": "focallengthdialog.lenstype",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez le type d'objectif. Cette liste est filtrée par la distance focale entrée ci-dessus. Entrez donc d'abord la longueur focale.",
-			"morehelptext": "<br><br>Selon la distance focale saisie, cette liste peut afficher les types d’objectif suivants:<br><br><b>@focallengthdialog.regularlens@:</b> pour les objectifs sans fisheye, PTGui n'a pas besoin de connaître de données spécifiques en plus de la distance focale. Par conséquent, cet élément doit être sélectionné pour tous les objectifs sans fisheye.<br><br><b>@txt.genericfisheye@:</b> sélectionnez cette option si votre objectif est un objectif fisheye mais que le modèle d’objectif spécifique ne figure pas dans la liste. PTGui initialisera les paramètres de l'objectif sous la forme @projection.fullframefisheye@ ou @projection.circularfisheye@, selon que le cercle de rognage est visible ou non. Le facteur Fisheye sera réglé à -0,5 pour la projection de fisheye équisolide; c'est le type le plus commun.<br><br><b>Modèles spécifiques d'objectif fisheye: en</b> fonction de la focale saisie, une liste d'objectifs fisheye possibles est affichée. Si votre objectif est dans la liste, sélectionnez-le ici. PTGui initialisera les paramètres de l'objectif sous la forme @projection.fullframefisheye@ ou @projection.circularfisheye@, selon que le cercle de découpe est visible ou non dans l'image. Le facteur fisheye et le cercle de culture seront initialisés de manière appropriée à partir de valeurs connues. Si votre objectif est un objectif fisheye et qu'il ne s'affiche pas ici, veuillez nous envoyer un exemple d'image afin que nous puissions l'inclure dans la prochaine version de PTGui.<br><br>Pour plus d'informations sur les paramètres d'objectif: allez à l'onglet @mainwindow.tabs.lenssettings@ dans la fenêtre principale. Si l'onglet @mainwindow.tabs.lenssettings@ n'est pas affiché, cliquez d'abord sur @advanced@."
+			"machinetranslated": false,
+			"helptext": "Sélectionner le type d'objectif. Cette liste est filtrée par la distance focale entrée ci-dessus. Entrer donc d'abord la longueur focale.",
+			"morehelptext": "<br><br>Selon la longueur focale saisie, cette liste peut afficher les types d’objectif suivants:<br><br><b>@focallengthdialog.regularlens@:</b> pour les objectifs autres que fisheye, PTGui n'a pas besoin de connaître de données spécifiques en plus de la longueur focale. Par conséquent, cet élément doit être sélectionné pour tous les objectifs autres que fisheye.<br><br><b>@txt.genericfisheye@:</b> sélectionner cette option si votre objectif est un objectif fisheye mais que le modèle d’objectif spécifique ne figure pas dans la liste. PTGui initialisera les paramètres de l'objectif sous la forme @projection.fullframefisheye@ ou @projection.circularfisheye@, selon que le cercle de limite de champ est visible ou non. Le facteur Fisheye sera réglé à -0,5 pour la projection de fisheye équisolide; c'est le type le plus commun.<br><br><b>Modèles spécifiques d'objectif fisheye: en</b> fonction de la focale saisie, une liste d'objectifs fisheye possibles est affichée. Si votre objectif est dans la liste, le sélectionner ici. PTGui initialisera les paramètres de l'objectif sous la forme @projection.fullframefisheye@ ou @projection.circularfisheye@, selon que le cercle de découpe est visible ou non dans l'image. Le facteur fisheye et le cercle de limite de champ seront initialisés de manière appropriée à partir de valeurs connues. Si votre objectif est un objectif fisheye et qu'il ne s'affiche pas ici, merci de nous envoyer un exemple d'image afin que nous puissions l'inclure dans la prochaine version de PTGui.<br><br>Pour plus d'informations sur les paramètres d'objectif: aller à l'onglet @mainwindow.tabs.lenssettings@ dans la fenêtre principale. Si l'onglet @mainwindow.tabs.lenssettings@ n'est pas affiché, cliquer d'abord sur @advanced@."
 		},
 		{
 			"id": "focallengthdialog.alwaysuse",
-			"machinetranslated": true,
-			"helptext": "Ajoutez une association à la base de données d'objectif pour ces paramètres d'objectif et les données EXIF ​​de l'image.",
+			"machinetranslated": false,
+			"helptext": "Ajoute une association à la base de données d'objectif pour ces paramètres d'objectif et les données EXIF ​​de l'image.",
 			"morehelptext": "<br><br>En faisant une association dans la base de données Lens, ces paramètres seront automatiquement chargés lors du prochain chargement d'une image provenant du même objectif / appareil photo. Pour plus d'informations, voir: <a href='helppage:lensdatabase'>Utilisation de la base de données Lens</a>"
 		},
 		{
 			"id": "sensorsizedialog.sensorsize",
-			"machinetranslated": true,
-			"helptext": "Entrez la taille du capteur de la caméra ici.",
-			"morehelptext": "<br><br>Pour calculer la projection d'un objectif, PTGui a besoin non seulement de connaître la distance focale, mais également la taille du capteur de l'appareil photo. Sans connaître les dimensions du capteur, la distance focale est une valeur insignifiante. La taille du capteur peut être entrée de 3 manières:<br><br><b>@sensorsizedialog.cropfactor@:</b> il s’agit de la taille relative du capteur par rapport au format traditionnel du capteur plein cadre 24 x 36 mm. 1x correspond à un capteur plein cadre, les valeurs les plus élevées correspondent à des dimensions de capteur inférieures.<br><br><b>@sensorsizedialog.diagonal@:</b> distance entre le coin supérieur gauche et inférieur droit du capteur.<br><br><b>@sensorsizedialog.sensorsize@:</b> largeur et hauteur (en mm) du capteur."
+			"machinetranslated": false,
+			"helptext": "Entrer la taille du capteur de la caméra ici.",
+			"morehelptext": "<br><br>Pour calculer la projection d'un objectif, PTGui a besoin non seulement de connaître la longueur focale, mais également la taille du capteur de l'appareil photo. Sans connaître les dimensions du capteur, la longueur focale est une valeur inutilisable. La taille du capteur peut être entrée de 3 manières:<br><br><b>@sensorsizedialog.cropfactor@:</b> il s’agit de la taille relative du capteur par rapport au format traditionnel du capteur plein cadre 24 x 36 mm. 1x correspond à un capteur plein cadre, les valeurs les plus élevées correspondent à des dimensions de capteur inférieures.<br><br><b>@sensorsizedialog.diagonal@:</b> distance entre le coin supérieur gauche et inférieur droit du capteur.<br><br><b>@sensorsizedialog.sensorsize@:</b> largeur et hauteur (en mm) du capteur."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -9471,20 +9470,20 @@
 		{
 			"id": "sensorsizedialog.alwaysuse",
 			"machinetranslated": true,
-			"helptext": "Ajoutez un enregistrement à la base de données de la caméra pour la taille de capteur donnée et les données EXIF ​​de l'image.",
+			"helptext": "Ajoute un enregistrement à la base de données de la caméra pour la taille de capteur donnée et les données EXIF ​​de l'image.",
 			"morehelptext": "<br><br>En ajoutant un enregistrement à la base de données de la caméra, ces paramètres seront automatiquement chargés lors du prochain chargement d'une image de la même caméra. Pour plus d'informations, voir: <a href='helppage:cameradatabase'>Utilisation de la base de données de l'appareil photo</a>"
 		},
 		{
 			"id": "options.tooltipmode",
-			"machinetranslated": true,
-			"helptext": "Configure si les info-bulles seront affichées. Vous regardez une telle info-bulle maintenant.",
-			"morehelptext": "<br><br>Les info-bulles s'affichent lorsque le pointeur de la souris est maintenu au-dessus d'un champ de saisie pendant une seconde.<br><br><b>@options.tooltipmode.no@:</b> ne pas afficher les info-bulles du tout.<br><br><b>@options.tooltipmode.onlytoolbars@:</b> affiche uniquement les info-bulles pour les icônes de barre d’outils et autres boutons sans texte.<br><br><b>@options.tooltipmode.yes@:</b> affiche toutes les info-bulles."
+			"machinetranslated": false,
+			"helptext": "Configure si les info-bulles doivent être affichées. Une telle info-bulle est présentement affichée.",
+			"morehelptext": "<br><br>Les info-bulles s'affichent lorsque le pointeur de la souris est maintenu au-dessus d'un champ de saisie pendant une seconde.<br><br><b>@options.tooltipmode.no@:</b> aucune info-bulles affichée.<br><br><b>@options.tooltipmode.onlytoolbars@:</b> affiche uniquement les info-bulles pour les icônes de barre d’outils et autres boutons sans texte.<br><br><b>@options.tooltipmode.yes@:</b> affiche toutes les info-bulles."
 		},
 		{
 			"id": "options.contentscalefactor",
-			"machinetranslated": true,
-			"helptext": "Agrandir ou réduire tous les éléments d'interface utilisateur avec ce facteur.",
-			"morehelptext": "<br><br>Définissez la valeur à 100% pour utiliser la taille par défaut. PTGui doit être redémarré pour que les modifications prennent effet. <optional platform='windows'>En raison des limitations de Windows, la taille de la police de la barre de menus n'est pas affectée.</optional>"
+			"machinetranslated": false,
+			"helptext": "Agrandi ou réduit tous les éléments d'interface utilisateur avec ce facteur.",
+			"morehelptext": "<br><br>Définir la valeur à 100% pour utiliser la taille par défaut. PTGui doit être redémarré pour que les modifications prennent effet. <optional platform='windows'>En raison des limitations de Windows, la taille de la police de la barre de menus n'est pas affectée.</optional>"
 		},
 		{
 			"id": "options.showroundedvalues",
@@ -9499,28 +9498,28 @@
 		},
 		{
 			"id": "options.checkforupdates.beta",
-			"machinetranslated": true,
-			"helptext": "Cochez cette case si vous êtes intéressé par les versions bêta de PTGui. Gardez à l'esprit que les versions bêta sont destinées à des tests uniquement, elles peuvent tomber en panne ou causer une perte de données."
+			"machinetranslated": false,
+			"helptext": "Cocher cette case si vous êtes intéressé par les versions bêta de PTGui. Garder à l'esprit que les versions bêta sont destinées uniquement aux tests, elles peuvent boguer ou causer des pertes de données."
 		},
 		{
 			"id": "options.resetwarnings",
-			"machinetranslated": true,
-			"helptext": "Plusieurs messages d'avertissement affichés par PTGui ont une case à cocher intitulée «@txt.dontaskthisagain@», qui mettra l'avertissement en sourdine à l'avenir. Utilisez ce bouton, puis appuyez sur @ok@ pour réactiver tous les messages d’avertissement."
+			"machinetranslated": false,
+			"helptext": "Plusieurs messages d'avertissement affichés par PTGui ont une case à cocher intitulée «@txt.dontaskthisagain@», qui desactivera l'avertissement. Utilisez ce bouton, puis appuyez sur @ok@ pour réactiver tous les messages d’avertissement."
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
 			"machinetranslated": true,
-			"helptext": "Lors de l'ajout d'une seule image à un nouveau projet, s'il est activé, PTGui recherchera dans le dossier des images source d'autres images du même type, prises à peu près au même moment. Si plus d'images sont trouvées, PTGui suggérera d'ajouter ces images aussi."
+			"helptext": "Lors de l'ajout d'une seule image à un nouveau projet, s'il est activé, PTGui recherchera dans le dossier des images source d'autres images du même type, prises à peu près au même moment. Si de telles images sont trouvées, PTGui suggérera de les ajouter également."
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
-			"machinetranslated": true,
-			"helptext": "Ne considérez que les images prises dans ce laps de temps les unes des autres."
+			"machinetranslated": false,
+			"helptext": "Ne considérer que les images prises dans ce laps de temps les unes des autres."
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
-			"machinetranslated": true,
-			"helptext": "Si cette option est sélectionnée, PTGui recherchera dans les données EXIF ​​de l'image la date de prise de vue d'origine. Si non sélectionné, PTGui examinera la date / heure de modification du fichier image.<br><br>Si vous modifiez et enregistrez l'image dans une application de traitement d'image, la date de modification du fichier est modifiée, mais la date de prise de vue d'origine reste la même."
+			"machinetranslated": false,
+			"helptext": "Si cette option est sélectionnée, PTGui recherchera dans les données EXIF ​​de l'image la date de prise de vue d'origine. Sinon, PTGui examinera la date / heure de modification du fichier image.<br><br>Si vous modifiez et enregistrez l'image dans une application de traitement d'image, la date de modification du fichier est modifiée, mais la date de prise de vue d'origine reste la même."
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
@@ -9529,8 +9528,8 @@
 		},
 		{
 			"id": "options.showintaskbar",
-			"machinetranslated": true,
-			"morehelptext": "<b>@options.showintaskbar.mainwindow@:</b> un seul bouton sera affiché dans la barre des tâches pour la fenêtre principale de PTGui.<br><br><b>@options.showintaskbar.all@:</b> chaque fenêtre aura un bouton distinct dans la barre des tâches. Notez que les Options de la barre des tâches Windows ont un paramètre permettant de combiner tous les boutons de la barre d’application de la même application en un seul bouton. Cela devrait être désactivé afin de voir les icônes séparées de la barre des tâches."
+			"machinetranslated": false,
+			"morehelptext": "<b>@options.showintaskbar.mainwindow@:</b> un seul bouton sera affiché dans la barre des tâches pour la fenêtre principale de PTGui.<br><br><b>@options.showintaskbar.all@:</b> chaque fenêtre aura un bouton distinct dans la barre des tâches. Noter que les Options de la barre des tâches Windows ont un paramètre permettant de combiner tous les boutons de la barre d’application de la même application en un seul bouton. Cela devrait être désactivé afin de voir les icônes séparées de la barre des tâches."
 		},
 		{
 			"id": "options.mousewheelaction",
@@ -9550,36 +9549,36 @@
 		},
 		{
 			"id": "options.foldersandfiles.applytemplateinitialfolder",
-			"machinetranslated": true,
-			"helptext": "Configure le dossier initialement affiché lors de @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@.",
-			"morehelptext": "<br><br><b>Dossier Modèles:</b> affiche initialement le dossier configuré ci-dessus.<br><br><b>Rappelez-vous le dernier dossier utilisé:</b> affichez initialement l'emplacement du dossier du dernier modèle appliqué."
+			"machinetranslated": false,
+			"helptext": "Configure le dossier affiché par défaut lors de @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@.",
+			"morehelptext": "<br><br><b>Dossier Modèles:</b> affiche le dossier configuré ci-dessus.<br><br><b>Affiche le dernier dossier utilisé:</b> affiche l'emplacement du dossier du dernier modèle appliqué."
 		},
 		{
 			"id": "options.foldersandfiles.batchlistfolder",
-			"machinetranslated": true,
-			"helptext": "L'emplacement par défaut pour stocker les listes de lots. Bien que les listes de lots puissent être stockées dans n’importe quel dossier, les fichiers du dossier par défaut sont rapidement accessibles. Pour plus d'informations sur les listes de lots, ouvrez le Stitcher par lots et sélectionnez @help@."
+			"machinetranslated": false,
+			"helptext": "Emplacement par défaut pour stocker les listes de lots. Bien que les listes de lots puissent être stockées dans n’importe quel dossier, les fichiers du dossier par défaut sont rapidement accessibles. Pour plus d'informations sur les listes de lots, ouvrir le Stitcher par lots et sélectionnez @help@."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolder",
-			"machinetranslated": true,
-			"helptext": "PTGui stockera des données temporaires dans ces dossiers.",
-			"morehelptext": "<br><br>Pour assembler de grands panoramas, vous devez stocker de nombreux gigaoctets de données temporaires. PTGui utilisera initialement la mémoire RAM pour les données temporaires. Mais lorsque la mémoire sera pleine, des données temporaires seront écrites sur le disque. PTGui n'utilise pas <optional platform='windows'>Espace d'échange Windows.</optional><optional platform='mac'>macOS swap space.</optional> Ici, vous pouvez configurer l'emplacement où les données temporaires sont stockées sur le disque.<br><br>D'abord, les dossiers temporaires marqués <b>@options.defaultfolders.tempfiles.preferred@</b> seront utilisés avant les autres. Si aucun dossier temporaire n'est configuré, le dossier temporaire par défaut du système d'exploitation sera utilisé. Si plusieurs dossiers temporaires sont configurés, PTGui équilibrera leur utilisation pour améliorer les performances.<br><br>Pour la meilleure performance:<br>• utilisez toujours un lecteur SSD pour le stockage temporaire<br>• n'utilisez pas de lecteurs réseau ou USB2<br>• Les données temporaires doivent être stockées sur un disque séparé, différent des images source et du dossier de sortie panorama."
+			"machinetranslated": false,
+			"helptext": "Dossier(s) pour le stockage des données temporaires.",
+			"morehelptext": "<br><br>Pour assembler de grands panoramas,  de nombreux gigaoctets de données temporaires doivent être stockés. PTGui utilisera tout d'abord la mémoire RAM pour les données temporaires. Mais lorsque cette mémoire sera pleine, des données temporaires seront écrites sur le disque. PTGui n'utilise pas <optional platform='windows'>Espace d'échange Windows.</optional><optional platform='mac'>macOS swap space.</optional> Ici, vous pouvez configurer l'emplacement où les données temporaires sont stockées sur le disque.<br><br>D'abord, les dossiers temporaires marqués <b>@options.defaultfolders.tempfiles.preferred@</b> seront utilisés avant les autres. Si aucun dossier temporaire n'est configuré, le dossier temporaire par défaut du système d'exploitation sera utilisé. Si plusieurs dossiers temporaires sont configurés, PTGui équilibrera leur utilisation pour améliorer les performances.<br><br>Pour la meilleure performance:<br>• utilisez toujours un lecteur SSD pour le stockage temporaire<br>• n'utilisez pas de lecteurs réseau ou USB2<br>• Les données temporaires doivent être stockées sur un disque séparé, différent des images sources et du dossier de sortie panorama."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolderpreferred",
 			"machinetranslated": true,
-			"helptext": "Tout d'abord, tous les dossiers temporaires marqués @options.defaultfolders.tempfiles.preferred@ seront utilisés avant les autres."
+			"helptext": "Tout d'abord, tous les dossiers temporaires indiqués comme '@options.defaultfolders.tempfiles.preferred@' seront utilisés avant les autres."
 		},
 		{
 			"id": "options.viewers.viewerapp",
-			"machinetranslated": true,
-			"helptext": "Configurez des applications externes pour afficher ou modifier des panoramas. Entrez le chemin d'accès complet à l'exécutable ou utilisez le bouton @browse@ pour localiser l'application.",
+			"machinetranslated": false,
+			"helptext": "Configuration des applications externes pour afficher ou modifier des panoramas. Entrer le chemin d'accès complet vers l'application ou utiliser le bouton @browse@ pour la localiser.",
 			"morehelptext": "<br><br>Les applications configurées ici apparaîtront dans les listes déroulantes pour:<br>• le bouton @mainwindow.previewtab.previewbutton@ dans l’onglet @mainwindow.tabs.preview@<br>• le bouton @mainwindow.createpanoramatab.view@ dans l’onglet @mainwindow.tabs.createpanorama@<br>• le bouton de la barre d’outils «Ouvrir dans le visualiseur externe» dans l’éditeur de panorama.<br><br>Outre les applications configurées ici, des options s'afficheront pour l'ouverture dans le visualiseur PTGui (si le panorama a une projection équirectangulaire), pour l'ouverture du dossier de sortie et pour l'ouverture du fichier dans le visualiseur d'images par défaut du système d'exploitation."
 		},
 		{
 			"id": "options.cpeditor.zoomersize",
-			"machinetranslated": true,
-			"helptext": "Dimensions de la fenêtre de la loupe flottante dans l'onglet @mainwindow.tabs.controlpoints@. Notez que cela est mesuré en pixels de l’image source; La taille réelle à l'écran dépend également du facteur d'agrandissement."
+			"machinetranslated": false,
+			"helptext": "Dimensions de la fenêtre de la loupe flottante dans l'onglet @mainwindow.tabs.controlpoints@. Noter que cela est exprimé en pixels de l’image source; La taille réelle à l'écran dépend également du facteur d'agrandissement."
 		},
 		{
 			"id": "options.cpeditor.zoomermagnification",
@@ -9593,9 +9592,9 @@
 		},
 		{
 			"id": "options.cpeditor.showlabelsinzoomer",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Si activé, les zones numérotées pour les points de contrôle seront affichées dans la fenêtre de la loupe flottante.",
-			"morehelptext": "<br><br>Si elle est désactivée, la fenêtre de la loupe n’indiquera que de minuscules croix pour chaque point de contrôle. Affecte uniquement la fenêtre de la loupe; dans les images réelles de l'onglet @mainwindow.tabs.controlpoints@, les marqueurs numérotés sont toujours affichés."
+			"morehelptext": "<br><br>Si elle est désactivée, la fenêtre de la loupe n’indiquera que de petites croix pour chaque point de contrôle. Affecte uniquement la fenêtre de la loupe; dans les images réelles de l'onglet @mainwindow.tabs.controlpoints@, les marqueurs numérotés sont toujours affichés."
 		},
 		{
 			"id": "options.cpeditor.hidezoomerwhennothovering",
@@ -9604,15 +9603,15 @@
 		},
 		{
 			"id": "options.cpeditor.resetcptabwhenswitchingimages",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Contrôle le comportement de '@cptypetoadd@' lors du basculement vers des images différentes dans l'onglet @mainwindow.tabs.controlpoints@.",
-			"morehelptext": "<br><br>Si activé, «@cptypetoadd@» sera réinitialisé sur le réglage par défaut chaque fois que différentes images sont affichées. Le paramètre par défaut est @cptable.normal@ ou si la même image est affichée dans les deux panneaux, @cptable.verticalline@.<br><br>Si cette option est désactivée, le paramètre actuel sera conservé."
+			"morehelptext": "<br><br>Si activé, «@cptypetoadd@» sera réinitialisé sur le réglage par défaut chaque fois que des images différentes sont affichées. Le paramètre par défaut est @cptable.normal@ ou si la même image est affichée dans les deux panneaux, @cptable.verticalline@.<br><br>Si cette option est désactivée, le paramètre actuel sera conservé."
 		},
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
-			"machinetranslated": true,
-			"helptext": "Activez ou désactivez la bulle contextuelle qui apparaît lorsque vous passez la souris sur les vignettes de l'onglet @mainwindow.tabs.controlpoints@ pour les photos bracketées.",
-			"morehelptext": "<br><br>Pour les projets HDR, PTGui combine par défaut des images liées (photos bracketées) en une seule image fusionnée. Dans l'onglet @mainwindow.tabs.controlpoints@, il peut être nécessaire d'afficher les images individuelles à la place de l'image fusionnée, car les points de contrôle sont placés entre des images individuelles et non entre des groupes d'images liées. Par conséquent, PTGui fera apparaître une bulle, montrant les images individuelles, lorsque vous passez la souris sur les vignettes.<br><br>Si vous trouvez que le ballon se met en travers de votre chemin, vous pouvez le désactiver ici. Vous pouvez toujours sélectionner des expositions individuelles parmi les photos bracketées dans l'onglet @mainwindow.tabs.controlpoints@ à l'aide des raccourcis clavier. <optional platform='windows'>Ctrl + Alt + Haut et Ctrl + Alt + Bas</optional><optional platform='mac'>Cmd + Alt + Haut et Cmd + Alt + Bas</optional> ."
+			"machinetranslated": false,
+			"helptext": "Active ou désactive la bulle contextuelle qui apparaît lorsque la souris se déplace sur les vignettes de l'onglet @mainwindow.tabs.controlpoints@ pour les photos bracketées.",
+			"morehelptext": "<br><br>Pour les projets HDR, PTGui combine par défaut des images liées (photos bracketées) en une seule image fusionnée. Dans l'onglet @mainwindow.tabs.controlpoints@, il peut être nécessaire d'afficher les images individuelles à la place de l'image fusionnée, car les points de contrôle sont placés entre des images individuelles et non entre des groupes d'images liées. Par conséquent, PTGui fera apparaître une bulle, montrant les images individuelles, lorsque vous passez la souris sur les vignettes.<br><br>Si l'info bulle devient gênante, il est possible de la désactiver ici. Vous pouvez toujours sélectionner des expositions individuelles parmi les photos bracketées dans l'onglet @mainwindow.tabs.controlpoints@ à l'aide des raccourcis clavier. <optional platform='windows'>Ctrl + Alt + Haut et Ctrl + Alt + Bas</optional><optional platform='mac'>Cmd + Alt + Haut et Cmd + Alt + Bas</optional> ."
 		},
 		{
 			"id": "options.cpgenerator.maxcpsperimagepair",
@@ -9629,29 +9628,29 @@
 			"id": "options.plugins.enblend.application",
 			"machinetranslated": false,
 			"helptext": "Sélectionnez le chemin de l'exécutable Enblend ou cliquez sur @browse@ pour le sélectionner sur le disque.",
-			"morehelptext": "<br><br>Enblend est une application tierce de fusion de panoramas. Enblend peut être sélectionné pour être utilisé pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
+			"morehelptext": "<br><br>Enblend est une application tierce de fusion de panoramas. Enblend peut être sélectionnée pour être utilisée pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
 		},
 		{
 			"id": "options.plugins.enblend.cmdline",
-			"machinetranslated": true,
-			"helptext": "Optionnel. Entrez les paramètres de ligne de commande à transmettre à Enblend."
+			"machinetranslated": false,
+			"helptext": "Optionnel. Paramètres de ligne de commande à transmettre à Enblend."
 		},
 		{
 			"id": "options.plugins.smartblend.application",
 			"machinetranslated": false,
-			"helptext": "Sélectionnez le chemin de l'exécutable Smartblend ou cliquez sur @browse@ pour le sélectionner sur le disque.",
-			"morehelptext": "<br><br>Smartblend est une application tierce de fusion de panoramas. Smartblend peut être sélectionné pour être utilisé pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
+			"helptext": "Sélectioner de chemin vers l'exécutable Smartblend ou cliquer sur @browse@ pour le sélectionner sur le disque.",
+			"morehelptext": "<br><br>Smartblend est une application tierce de fusion de panoramas. Smartblend peut être sélectionnée pour être utilisée pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
 		},
 		{
 			"id": "options.plugins.smartblend.cmdline",
-			"machinetranslated": true,
-			"helptext": "Optionnel. Entrez les paramètres de ligne de commande à transmettre à Smartblend."
+			"machinetranslated": false,
+			"helptext": "Optionnel. Paramètres de ligne de commande à transmettre à Smartblend."
 		},
 		{
 			"id": "options.plugins.dcraw.application",
-			"machinetranslated": true,
-			"helptext": "Entrez l'emplacement de votre exécutable dcraw personnalisé. Laissez vide pour utiliser le dcraw fourni avec PTGui.",
-			"morehelptext": "<br><br>Pour le chargement des fichiers RAW de l'appareil photo, PTGui utilise l'application open source DCRaw. PTGui est fourni avec une copie de DCRaw, mais vous pouvez le configurer pour utiliser une version différente de DCRaw en entrant ici le chemin complet de l'exécutable. Cela peut être utile si une version plus récente de DCRaw est disponible par rapport à celle incluse dans PTGui.<br><br>Laissez ce champ vide pour utiliser l'application DCRaw fournie avec PTGui; De nouvelles versions de DCRaw seront incluses avec chaque mise à niveau de PTGui."
+			"machinetranslated": false,
+			"helptext": "Entrer l'emplacement de votre exécutable dcraw personnalisé. Laissez vide pour utiliser le dcraw fourni avec PTGui.",
+			"morehelptext": "<br><br>Pour le chargement des fichiers RAW de l'appareil photo, PTGui utilise l'application open source DCRaw. PTGui est fourni avec une copie de DCRaw, mais vous pouvez le configurer pour utiliser une version différente de DCRaw en entrant ici le chemin complet vers l'exécutable. Cela peut être utile si une version plus récente de DCRaw est disponible par rapport à celle incluse dans PTGui.<br><br>Laisser ce champ vide pour utiliser l'application DCRaw fournie avec PTGui; De nouvelles versions de DCRaw seront incluses avec chaque mise à niveau de PTGui."
 		},
 		{
 			"id": "options.advanced.showconsolewindowforplugins",
@@ -9661,30 +9660,30 @@
 		},
 		{
 			"id": "options.advanced.maxram",
-			"machinetranslated": true,
-			"helptext": "La quantité maximale de RAM à utiliser par PTGui. Utilisez '@options.automatic@' ou configurez-le de manière à être nettement inférieur à la quantité de RAM installée sur l'ordinateur.",
-			"morehelptext": "<br><br>Pendant la couture et le travail sur un projet, PTGui doit conserver beaucoup de données temporaires. Initialement, PTGui conservera les données temporaires dans la mémoire RAM. Ce n'est que lorsque l'utilisation de la mémoire atteint la quantité configurée ici que les données temporaires vont commencer à être écrites dans des fichiers temporaires. Parce que l'accès aux fichiers est beaucoup plus lent que l'accès à la RAM, utiliser plus de RAM augmentera les performances, jusqu'à une limite. Veillez à ne pas allouer trop de RAM à PTGui, sinon le système d'exploitation commencera à échanger d'autres applications actives sur le disque. Si vous constatez que votre ordinateur se bloque alors que PTGui est en train de coudre, cela signifie généralement que PTGui tente d'utiliser plus de RAM que nécessaire. Dans ce cas, réduire ce nombre pourrait aider. Choisissez @options.automatic@ pour permettre à PTGui de choisir un montant par défaut."
+			"machinetranslated": false,
+			"helptext": "Quantité maximale de RAM à utiliser par PTGui. Utiliser '@options.automatic@' ou configurer de manière à être nettement inférieur à la quantité de RAM installée sur l'ordinateur.",
+			"morehelptext": "<br><br>Pendant la fusion et le travail sur un projet, PTGui doit conserver beaucoup de données temporaires. Initialement, PTGui conservera les données temporaires dans la mémoire RAM. Ce n'est que lorsque l'utilisation de la mémoire atteint la quantité configurée ici que les données temporaires vont commencer à être écrites dans des fichiers temporaires. Parce que l'accès aux fichiers est beaucoup plus lent que l'accès à la RAM, utiliser plus de RAM augmentera les performances, jusqu'à une limite. Veillez à ne pas allouer trop de RAM à PTGui, sinon le système d'exploitation commencera à échanger d'autres applications actives sur le disque. Si vous constatez que votre ordinateur se bloque alors que PTGui est en train de travailler, cela signifie généralement que PTGui tente d'utiliser plus de RAM que nécessaire. Dans ce cas, réduire ce nombre pourrait aider. Choisissez @options.automatic@ pour permettre à PTGui de choisir un montant par défaut."
 		},
 		{
 			"id": "options.advanced.automaxram",
-			"machinetranslated": true,
-			"helptext": "Choisissez une valeur appropriée pour la quantité maximale de RAM à utiliser. Désélectionnez cette option si vous souhaitez remplacer ceci."
+			"machinetranslated": false,
+			"helptext": "Modification de la quantité maximale de RAM à utiliser. Désélectionner cette option pour entrer une valeur personnalisée."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.enabled",
-			"machinetranslated": true,
-			"helptext": "Si activé, PTGui utilisera la carte graphique (GPU) pour le traitement de l'image si possible.",
-			"morehelptext": "<br><br>Un GPU puissant peut accélérer la couture plusieurs fois. L'utilisation du GPU pour assembler une carte vidéo prenant en charge OpenCL 1.1 est requise, avec une mémoire vidéo minimale de 512 Mo. Au moins 2 Go de RAM vidéo est recommandé. Tous les GPU récents d’AMD et de NVIDIA sont pris en charge. Les graphiques intégrés (un processeur graphique intégré à la CPU) ne sont pas supportés. en général, cela serait quand même plus lent que la couture sur le CPU."
+			"machinetranslated": false,
+			"helptext": "Si activé, PTGui utilisera, si possible, la carte graphique (GPU) pour le traitement de l'image.",
+			"morehelptext": "<br><br>Un GPU puissant peut réduire significativement les temps de calculs. Une carte vidéo prenant en charge OpenCL 1.1 est requise pour la fusion, avec une mémoire vidéo minimale de 512 Mo. Au moins 2 Go de RAM vidéo est recommandé. Tous les GPU récents d’AMD et de NVIDIA sont pris en charge. Les graphiques intégrés (un processeur graphique intégré à la CPU) ne sont pas supportés, mais de toute façon, les temps de calculs seraient plus long que sur CPU."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.enableforpreview",
-			"machinetranslated": true,
-			"helptext": "Désactivez cette option si vous rencontrez des problèmes ou subissez un blocage lors de l'utilisation de Panorama Editor ou de la visionneuse de détails."
+			"machinetranslated": false,
+			"helptext": "Désactiver cette option en cas de problème ou blocage lors de l'utilisation de Panorama Editor ou de la visionneuse de détails."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.device",
-			"machinetranslated": true,
-			"helptext": "Si votre ordinateur possède plusieurs GPU, sélectionnez le périphérique à utiliser ici."
+			"machinetranslated": false,
+			"helptext": "Si votre ordinateur possède plusieurs GPU, sélectionner ici le périphérique à utiliser."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.maxvideoram",
@@ -9694,7 +9693,7 @@
 		{
 			"id": "options.advanced.gpuacceleration.automaxvideoram",
 			"machinetranslated": true,
-			"helptext": "Laissez PTGui décider de la quantité de RAM vidéo à utiliser."
+			"helptext": "Laisser PTGui décider de la quantité de RAM vidéo à utiliser."
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
@@ -9720,15 +9719,15 @@
 		},
 		{
 			"id": "photometricsettings.optimizevignetting",
-			"machinetranslated": true,
-			"helptext": "Configurez si le vignettage sera optimisé.",
-			"morehelptext": "<br><br>Le vignettage est également appelé «chute de lumière». Le vignettage assombrit l'image vers les coins. C'est un artefact de la lentille; généralement, l'effet est plus fort aux grandes ouvertures (valeurs de f-stop inférieures). Le vignettage est la principale cause des inadéquations d'exposition dans les panoramas.<br><br><b>Désactivé: le</b> vignettage ne sera pas optimisé et la courbe de vignettage sera remise à zéro lors de la prochaine optimisation.<br><br><b>@photometricsettings.enabled@: le</b> vignettage sera optimisé.<br><br><b>@photometricsettings.keepcurrent@:</b> les paramètres de vignettage actuels seront conservés."
+			"machinetranslated": false,
+			"helptext": "Configurer si le vignettage sera optimisé.",
+			"morehelptext": "<br><br>Le vignettage se traduit par un assombrissement de l'image vers les coins. C'est un défaut plus ou moins présent sur les objectifs; généralement, l'effet est plus fort aux grandes ouvertures (valeurs de f-stop faibles). Le vignettage est la principale cause des inadéquations d'exposition dans les panoramas.<br><br><b>Désactivé: le</b> vignettage ne sera pas optimisé et la courbe de vignettage sera remise à zéro lors de la prochaine optimisation.<br><br><b>@photometricsettings.enabled@: le</b> vignettage sera optimisé.<br><br><b>@photometricsettings.keepcurrent@:</b> les paramètres de vignettage actuels seront conservés."
 		},
 		{
 			"id": "photometricsettings.optimizecameracurve",
-			"machinetranslated": true,
-			"helptext": "Configurez si la courbe de réponse de la caméra sera optimisée.",
-			"morehelptext": "<br><br>Les valeurs de pixel dans les fichiers image standard ne représentent pas les intensités lumineuses réelles de la scène. Au lieu de cela, chaque caméra mappe la luminosité enregistrée de chaque pixel en une valeur numérique en fonction d'une courbe donnée. La correction d'exposition et la génération HDR fonctionnent sur les intensités lumineuses du monde réel. La courbe de réponse de la caméra doit donc être connue. PTGui Pro peut déterminer la courbe de réponse en analysant plusieurs images superposées. Les résultats les plus précis sont obtenus s'il existe des images qui se chevauchent prises avec des temps d'exposition différents.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analyser les images pour déterminer la courbe de réponse. La courbe de l'appareil photo ne peut être déterminée avec précision que si le projet contient des pixels superposés pris avec différents paramètres d'exposition. Par conséquent, cette option ne doit être utilisée que pour les projets HDR.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@: n'essayez</b> pas de déterminer la courbe de réponse; utilisez plutôt une courbe standard.<br><br><b>@photometricsettings.keepcurrent@:</b> la courbe de réponse actuelle sera conservée.<br><br><b>@options.automatic@ (par défaut):</b> pour les projets HDR, la courbe de réponse de la caméra sera déterminée; pour les projets non-HDR, la courbe par défaut est utilisée."
+			"machinetranslated": false,
+			"helptext": "Configurer si la courbe de réponse de la caméra sera optimisée.",
+			"morehelptext": "<br><br>Les valeurs de pixel dans les fichiers image standard ne représentent pas les intensités lumineuses réelles de la scène. Au lieu de cela, chaque caméra mappe la luminosité enregistrée de chaque pixel en une valeur numérique en fonction d'une courbe donnée. La correction d'exposition et la génération HDR fonctionnent sur les intensités lumineuses réelles. La courbe de réponse de la caméra doit donc être connue. PTGui Pro peut déterminer la courbe de réponse en analysant plusieurs images superposées. Les résultats les plus précis sont obtenus s'il existe des images qui se chevauchent prises avec des temps d'exposition différents.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analyser les images pour déterminer la courbe de réponse. La courbe de l'appareil photo ne peut être déterminée avec précision que si le projet contient des pixels superposés pris avec différents paramètres d'exposition. Par conséquent, cette option ne doit être utilisée que pour les projets HDR.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@: n'essayez</b> pas de déterminer la courbe de réponse; utilisez plutôt une courbe standard.<br><br><b>@photometricsettings.keepcurrent@:</b> la courbe de réponse actuelle sera conservée.<br><br><b>@options.automatic@ (par défaut):</b> pour les projets HDR, la courbe de réponse de la caméra sera déterminée; pour les projets non-HDR, la courbe par défaut est utilisée."
 		},
 		{
 			"id": "photometricsettings.defaults",
@@ -9748,9 +9747,9 @@
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Après avoir appliqué le modèle, le panorama entier est pivoté de telle sorte que les images @yaw@, @pitch@ et @roll@ correspondent le plus fidèlement possible aux valeurs d'origine.",
-			"morehelptext": "<br><br>L'alignement relatif des images sera copié à partir du modèle, mais l'orientation globale du panorama restera autant que possible.<br><br>Activez ce paramètre si le modèle sera utilisé pour des images préalablement positionnées (par exemple, sur la base de métadonnées provenant du capteur d'orientation)."
+			"morehelptext": "<br><br>L'alignement relatif des images sera copié à partir du modèle, mais l'orientation globale du panorama restera autant que possible.<br><br>Activer ce paramètre si le modèle sera utilisé pour des images préalablement positionnées (par exemple, sur la base de métadonnées provenant du capteur d'orientation)."
 		},
 		{
 			"id": "projectsettingstab.misc.useorientationsensor",
@@ -9775,18 +9774,18 @@
 		{
 			"id": "menubar.tools.openfolder.configfolder",
 			"machinetranslated": true,
-			"helptext": "Ouvrez le dossier dans lequel PTGui stocke ses fichiers de configuration."
+			"helptext": "Ouvrir le dossier dans lequel PTGui stocke ses fichiers de configuration."
 		},
 		{
 			"id": "exposurehdrtab.noisefloor",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Compenser le bruit d'image dans les images source lors de la fusion en HDR.",
-			"morehelptext": "<br><br>Lorsque vous combinez des images entre crochets et HDR, PTGui prend les &quot;meilleurs&quot; pixels de chaque image source superposée. Pour toutes les images, à l’exception de la plus longue image exposée, les pixels d’une luminosité inférieure à une certaine luminosité sont ignorés, car ces pixels sombres peuvent être du bruit d’image. Ce curseur définit le seuil de suppression de ces pixels bruyants. Si les images source sont bruyantes (par exemple, prises à une sensibilité ISO élevée) et que le bruit devient visible dans le panorama HDR, déplacez le curseur vers la droite jusqu'à ce que le bruit disparaisse. Notez toutefois que cela peut augmenter les artefacts HDR autour des objets en mouvement. Pour obtenir les meilleurs résultats, déplacez le curseur le plus à gauche possible jusqu'à ce que le bruit commence à apparaître. Le résultat peut être observé dans la visionneuse de détails.<br><br>Le bruit de l'image peut toujours être visible dans certaines parties du panorama qui sont noires, même dans les expositions les plus lumineuses. Pour réduire le bruit, vous devez ajouter davantage d'images entre crochets lorsque les temps d'exposition sont plus longs."
+			"morehelptext": "<br><br>Lorsque desz images HDR sont combinées, PTGui prend les &quot;meilleurs&quot; pixels de chaque image source superposée. Pour toutes les images, à l’exception de la plus exposition, les pixels d’une luminosité inférieure à une certaine luminosité sont ignorés, car ces pixels sombres peuvent être du bruit d’image. Ce curseur définit le seuil de suppression de ces pixels bruités. Si les images source sont bruitées (par exemple, prises à une sensibilité ISO élevée) et que le bruit devient visible dans le panorama HDR, déplacer le curseur vers la droite jusqu'à ce que le bruit disparaisse. Notez toutefois que cela peut augmenter les artefacts HDR autour des objets en mouvement. Pour obtenir les meilleurs résultats, déplacer le curseur le plus à gauche possible jusqu'à ce que le bruit commence à apparaître. Le résultat peut être observé dans la visionneuse de détails.<br><br>Le bruit de l'image peut toujours être visible dans certaines parties du panorama qui sont noires, même avec les temps d'exposition les plus longs. Pour réduire le bruit, ajouter davantage d'images entre bracketées avec des temps d'exposition plus longs."
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
-			"machinetranslated": true,
-			"helptext": "Miroir l'image source horizontalement. Si l'image est recadrée, la mise en miroir sera effectuée après le recadrage de l'image."
+			"machinetranslated": false,
+			"helptext": "Symétriser source horizontalement. Si l'image est recadrée, la mise en miroir sera effectuée après le recadrage de l'image."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
@@ -9802,19 +9801,19 @@
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
 			"machinetranslated": false,
 			"helptext": "Contrôle le comportement des masques rouges (placés dans l'onglet @mainwindow.tabs.mask@).",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: les zones peintes en rouge dans l'onglet @mainwindow.tabs.mask@ seront rendues transparentes dans le panorama. S'il n'y a pas d'autres images qui se chevauchent, un trou apparaîtra dans le panorama cousu. Dans la sortie en couches (créée avec l'option @mainwindow.createpanoramatab.output.individuallayers@), les zones masquées rouges deviennent transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: les masques rouges sont utilisés uniquement pour indiquer les zones qui ne doivent pas être visibles dans le panorama fusionné. L'outil de fusion évitera ces zones en éloignant les coutures. Cependant, s'il n'y a pas d'autres images qui se chevauchent pour combler les lacunes, les zones masquées en rouge apparaîtront toujours dans le panorama mélangé. La sortie en couches n'est pas affectée par les masques rouges."
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: les zones peintes en rouge dans l'onglet @mainwindow.tabs.mask@ seront rendues transparentes dans le panorama. S'il n'y a pas d'autres images qui se chevauchent, un trou apparaîtra dans le panorama fusionné. Dans la sortie en calques (créée avec l'option @mainwindow.createpanoramatab.output.individuallayers@), les zones masquées rouges deviennent transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: les masques rouges sont utilisés uniquement pour indiquer les zones qui ne doivent pas être visibles dans le panorama fusionné. L'outil de fusion évitera ces zones en éloignant les coutures. Cependant, s'il n'y a pas d'autres images qui se chevauchent pour combler les lacunes, les zones masquées en rouge apparaîtront toujours dans le panorama fusionné. La sortie en calques n'est pas affectée par les masques rouges."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
-			"machinetranslated": true,
-			"helptext": "Remplisser toutes les zones transparentes du panorama avec une couleur similaire à la zone environnante.",
-			"morehelptext": "<br><br>Si cette option est activée, toutes les zones transparentes du panorama seront remplies d'un dégradé de couleur lisse. Cela peut être utilisé par exemple pour remplir le ciel ou le sol du panorama si aucune image au nadir ou au zénith n'a été prise.<br><br>Il peut également être utilisé conjointement avec l'outil @mainwindow.tabs.mask@ pour brouiller certaines parties du panorama. Par exemple pour brouiller les visages des gens pour les rendre méconnaissables, ou pour enlever les taches de poussière sur les photos."
+			"machinetranslated": false,
+			"helptext": "Remplir toutes les zones transparentes du panorama avec une couleur similaire à la zone environnante.",
+			"morehelptext": "<br><br>Si cette option est activée, toutes les zones transparentes du panorama seront remplies d'un dégradé de couleur unies. Cela peut être utilisé par exemple pour remplir le ciel ou le sol du panorama si aucune image au nadir ou au zénith n'a été prise.<br><br>Il peut également être utilisé conjointement avec l'outil @mainwindow.tabs.mask@ pour brouiller certaines parties du panorama. Par exemple pour brouiller les visages des gens pour les rendre méconnaissables, ou pour enlever les taches de poussière sur les photos."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez le profil de couleurs ICC pour le panorama généré.",
-			"morehelptext": "<br><br>Les couleurs des images numériques sont généralement produites en combinant différentes quantités de couleurs rouge, vert et bleu. Cependant, une combinaison donnée de valeurs rouges, vertes et bleues ne décrit pas uniquement une couleur physique: la couleur réelle reproduite dépend des propriétés physiques de l'affichage. En d'autres termes: différents dispositifs d'affichage utilisent des types de couleurs de base légèrement différents, rouges, verts et bleus. Sans plus d'informations, l'image peut sembler différente sur chaque écran. En incluant un profil de couleur, les valeurs de pixels dans une image sont mises en correspondance avec des couleurs physiques réelles. PTGui convertira toutes les couleurs dans l'espace colorimétrique sélectionné et inclura le profil de couleur ICC dans le fichier image.<br><br>Les profils de couleur courants sont:<br><br><b>sRGB</b> : il s'agit de l'espace colorimétrique standard de facto pour les images numériques. L'image paraîtra raisonnablement bonne sur les écrans non étalonnés et dans les applications qui ne sont pas gérées par les couleurs. Si votre panorama sera publié sur Internet, sRGB est un bon choix. D'un autre côté, le sRGB est un espace colorimétrique relativement étroit. Certaines couleurs pouvant être imprimées sur papier ne sont pas couvertes par l'espace colorimétrique sRGB.<br><br><b>Adobe RGB (1998)</b> : cet espace colorimétrique a une gamme de couleurs plus large que sRGB et couvre presque toutes les couleurs pouvant être imprimées sur papier. C'est un bon choix si le panorama doit être imprimé.<br><br><b>ProPhoto RGB</b> et <b>Wide Gamut RGB</b> : ces espaces colorimétriques ont une très large gamme, couvrant presque toutes les couleurs possibles qu'un humain peut percevoir. Mais parce qu'ils couvrent une gamme de couleurs beaucoup plus large que sRGB, l'image résultante doit être visualisée dans une application à gestion des couleurs, sinon les couleurs seront très ternes.<br><br>Les grands espaces colorimétriques doivent généralement être utilisés avec une sortie 16 bits. 8 bits de résolution ne suffisent pas pour couvrir toutes les couleurs disponibles, et les dégradés de couleurs lisses peuvent avoir un aspect «postérisé». Par conséquent, JPEG n'est pas un format approprié car il est limité à 8 bits.<br><br>Gardez à l'esprit que la sortie vers un espace colorimétrique plus large que l'espace colorimétrique de l'image source ne présente aucun avantage. La conversion d'une image sRGB en un espace colorimétrique large n'améliorera pas l'image. Par conséquent, PTGui offre la possibilité d'utiliser le même profil de couleur que les images source. Cela se fait par défaut si toutes les images du panorama ont le même profil de couleur.<br><br>Pour les images RAW, un espace colorimétrique doit être choisi explicitement; cet espace colorimétrique sera utilisé lors de la conversion brute."
+			"machinetranslated": false,
+			"helptext": "Sélectionner le profil de couleurs ICC pour le panorama généré.",
+			"morehelptext": "<br><br>Les couleurs des images numériques sont généralement produites en combinant différentes quantités de primaires rouge, vert et bleu. Cependant, une combinaison donnée de valeurs rouges, vertes et bleues ne décrit pas uniquement une couleur physique: la couleur réelle reproduite dépend des propriétés physiques de l'affichage. En d'autres termes: différents dispositifs d'affichage utilisent des types de couleurs de base, rouges, verts et bleus, légèrement différents. Sans plus d'informations, l'image peut sembler différente d'un écran à l'autre. En incluant un profil de couleur, les valeurs de pixels dans une image sont mises en correspondance avec des couleurs physiques réelles. PTGui convertira toutes les couleurs dans l'espace colorimétrique sélectionné et inclura le profil de couleur ICC dans le fichier image.<br><br>Les profils de couleur courants sont:<br><br><b>sRGB</b> : il s'agit de l'espace colorimétrique standard de facto pour les images numériques. L'image paraîtra raisonnablement bonne sur les écrans non étalonnés et dans les applications qui ne sont pas gérées par les couleurs. Si votre panorama sera publié sur Internet, sRGB est un bon choix. D'un autre côté, le sRGB est un espace colorimétrique relativement étroit. Certaines couleurs pouvant être imprimées sur papier ne sont pas couvertes par l'espace colorimétrique sRGB.<br><br><b>Adobe RGB (1998)</b> : cet espace colorimétrique a une gamme de couleurs plus large que sRGB et couvre presque toutes les couleurs pouvant être imprimées sur papier. C'est un bon choix si le panorama doit être imprimé.<br><br><b>ProPhoto RGB</b> et <b>Wide Gamut RGB</b> : ces espaces colorimétriques ont une très large gamme, couvrant presque toutes les couleurs possibles qu'un humain peut percevoir. Mais parce qu'ils couvrent une gamme de couleurs beaucoup plus large que sRGB, l'image résultante doit être visualisée dans une application à gestion des couleurs, sinon les couleurs seront très ternes.<br><br>Les grands espaces colorimétriques doivent généralement être utilisés avec une sortie 16 bits. 8 bits de résolution ne suffisent pas pour couvrir toutes les couleurs disponibles, et les dégradés de couleurs lisses peuvent avoir un aspect «postérisé». Par conséquent, JPEG n'est pas un format approprié car il est limité à 8 bits.<br><br>Garder à l'esprit que la sortie vers un espace colorimétrique plus large que l'espace colorimétrique de l'image source ne présente aucun avantage. La conversion d'une image sRGB en un espace colorimétrique large n'améliorera pas l'image. Par conséquent, PTGui offre la possibilité d'utiliser le même profil de couleur que les images source. Cela se fait par défaut si toutes les images du panorama ont le même profil de couleur.<br><br>Pour les images RAW, un espace colorimétrique doit être choisi explicitement; cet espace colorimétrique sera utilisé lors de la conversion des images RAW."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
@@ -9825,26 +9824,26 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": false,
-			"helptext": "Configure la gestion des expositions entre crochets.",
-			"morehelptext": "<br><br>Les expositions entre crochets peuvent être traitées de deux manières:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combine d'abord chaque ensemble d'expositions croisées dans une image HDR (ou les combine à l'aide d'Exposure Fusion). Ensuite, les images combinées sont fusionnées dans un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Tout d'abord, les soi-disant «plans de fusion» sont créés. Un plan de mélange est le panorama complet à un niveau d'exposition (c'est-à-dire toutes les images prises à une durée, une ouverture et une sensibilité ISO identiques). Enfin, les plans de fusion séparés sont combinés en une image HDR ou une image fusionnée d'exposition. Cette méthode ne doit être utilisée que pour les panoramas pris en mode d'exposition manuelle. Cela nécessite que l'ensemble du panorama soit entièrement couvert à chaque niveau d'exposition.<br><br><b>@options.automatic@:</b> choisit la meilleure option pour le projet en cours. Si les images ont été prises en mode d'exposition manuel, des plans de fusion seront créés. Sinon, les images entre crochets seront d'abord combinées puis mélangées."
+			"helptext": "Configure la gestion des expositions bracketées.",
+			"morehelptext": "<br><br>Les expositions bracketées peuvent être traitées de deux manières:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combine d'abord chaque ensemble d'expositions croisées dans une image HDR (ou les combine à l'aide d'Exposure Fusion). Ensuite, les images combinées sont fusionnées dans un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Tout d'abord sont créés ce que l'on nomme : les «plans de fusion» . Un plan de Fusion est le panorama complet à un niveau d'exposition (c'est-à-dire toutes les images prises à une durée, une ouverture et une sensibilité ISO identiques). Enfin, les plans de fusion séparés sont combinés en une image HDR ou une image fusionnée d'exposition. Cette méthode ne doit être utilisée que pour les panoramas pris en mode d'exposition manuelle. Cela nécessite que l'ensemble du panorama soit entièrement couvert à chaque niveau d'exposition.<br><br><b>@options.automatic@:</b> choisit la meilleure option pour le projet en cours. Si les images ont été prises en mode d'exposition manuel, des plans de fusion seront créés. Sinon, les images bracketées seront d'abord combinées puis fusionnées."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
-			"machinetranslated": true,
-			"helptext": "Configure la manière dont les expositions entre crochets sont combinées.",
-			"morehelptext": "Les expositions entre crochets (pour HDR) seront combinées en une seule image. PTGui peut le faire de deux manières différentes:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@: les</b> expositions entre crochets sont d'abord combinées en une véritable image à plage dynamique élevée. Cette image HDR couvre toute la plage dynamique de toutes les images source, des images les plus sombres aux plus lumineuses. Ensuite, généralement le mappage des tons sera utilisé pour le convertir en une image à faible gamme dynamique adaptée à l'affichage ou à l'impression.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: les</b> expositions entre parenthèses sont combinées directement dans une image à faible gamme dynamique à <b>mappage de</b> tons. Cela contourne l'étape de création d'une image à plage dynamique élevée pour le mappage des tons.<br><br>Les paramètres de mappage de tons et de fusions d'exposition peuvent être ajustés dans la barre latérale de Panorama Editor."
+			"machinetranslated": false,
+			"helptext": "Configure la manière dont les expositions brackétées sont combinées.",
+			"morehelptext": "Les expositions bracketées (pour HDR) seront combinées en une seule image. PTGui peut le faire de deux manières différentes:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@: les</b> les expositions brackétées sont d'abord combinées en une image à plage dynamique élevée. Cette image HDR couvre toute la plage dynamique de toutes les images source, des images les plus sombres aux plus lumineuses. Ensuite, généralement le mappage des tons sera utilisé pour le convertir en une image à faible gamme dynamique adaptée à l'affichage ou à l'impression.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: les</b> les exposition brackétées sont combinées directement dans une image à faible gamme dynamique à <b>mappage de</b> tons. Cela contourne l'étape de création d'une image à plage dynamique élevée pour le mappage des tons.<br><br>Les paramètres de mappage des tons et de fusions d'exposition peuvent être ajustés dans la barre latérale de Panorama Editor."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
-			"machinetranslated": true,
-			"helptext": "Activer Exposure Fusion pour les images sans bracketing",
-			"morehelptext": "<br><br>Normalement, Exposure Fusion est utilisé pour combiner plusieurs expor- sations entre crochets en une seule image avec une plage dynamique réduite. Mais PTGui peut également utiliser la fusion d'exposition sur des images uniques, en créant des copies artificielles plus sombres et plus lumineuses de la même image. Cela augmente les détails visibles dans les ombres et les hautes lumières, comme pour le mappage des tons."
+			"machinetranslated": false,
+			"helptext": "Activer la fusion d'exposition pour les images non brackétées",
+			"morehelptext": "<br><br>Normalement, la fusion d'exposition est utilisé pour combiner plusieurs expositions brackétées en une seule image avec une plage dynamique réduite. Mais PTGui peut également utiliser la fusion d'exposition sur des images uniques, en créant des copies artificielles plus sombres et plus lumineuses de la même image. Cela augmente les détails visibles dans les ombres et les hautes lumières, comme pour le mappage des tons."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
-			"machinetranslated": true,
-			"helptext": "Combinez des expositions croisées à l'aide d'Exposure Fusion",
-			"morehelptext": "<br><br>Exposure Fusion est utilisé pour combiner plusieurs expsoures entre parenthèses en une seule image avec une plage dynamique réduite. Il est également possible d'utiliser Exposure Fusion sur des images uniques sans bracketing, en créant des copies artificielles plus sombres et plus lumineuses de la même image. Cela augmente les détails visibles dans les ombres et les hautes lumières, comme pour le mappage des tons."
+			"machinetranslated": false,
+			"helptext": "Combiner des expositions croisées à l'aide de la fusion d'exposition",
+			"morehelptext": "<br><br>la fusion d'exposition est utilisée pour combiner plusieurs expsosition bracketées en une seule image avec une plage dynamique réduite. Il est également possible d'utiliser la fusion d'expositin sur des images uniques sans bracketing, en créant des copies artificielles plus sombres et plus lumineuses de la même image. Cela augmente les détails visibles dans les ombres et les hautes lumières, comme pour le mappage des tons."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -9854,13 +9853,13 @@
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
-			"machinetranslated": true,
-			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les fichiers RAW ou DNG sont chargés. Pour les fichiers RAW ou DNG, veuillez choisir le profil de couleur souhaité dans la liste ci-dessus."
+			"machinetranslated": false,
+			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les fichiers RAW ou DNG sont chargés. Pour les fichiers RAW ou DNG, Choisir le profil de couleur souhaité dans la liste ci-dessus."
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
 			"machinetranslated": true,
-			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les images source n'ont pas de profils colorimétriques identiques. Choisissez le profil de couleur de sortie souhaité dans la liste ci-dessus."
+			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les images source n'ont pas de profils colorimétriques identiques. Choisir le profil de couleur de sortie souhaité dans la liste ci-dessus."
 		},
 		{
 			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
@@ -9874,14 +9873,14 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
-			"machinetranslated": true,
-			"helptext": "Précision interne du pipeline de traitement.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Tout le traitement interne se fait en 16 bits par canal (64 bits par pixel) au format demi-virgule flottante.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Tout le traitement interne est effectué au format à virgule flottante 32 bits par canal (128 bits par pixel).<br><br>Généralement, «@mainwindow.exposurehdrpanel.blenddatatype.halffloat@» est suffisant. Uniquement lorsque vous travaillez avec des images à plage dynamique extrêmement élevée (16 arrêts ou plus), l'utilisation de '@mainwindow.exposurehdrpanel.blenddatatype.float@' peut être nécessaire pour éviter l'écrêtage des hautes lumières, mais le traitement prendra plus de temps et nécessitera deux fois plus de mémoire et d'espace disque temporaire."
+			"machinetranslated": false,
+			"helptext": "Précision interne du processus de traitement.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Tout le traitement interne se fait en 16 bits par canal (64 bits par pixel) au format demi-virgule flottante.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Tout le traitement interne est effectué au format à virgule flottante 32 bits par canal (128 bits par pixel).<br><br>Généralement, «@mainwindow.exposurehdrpanel.blenddatatype.halffloat@» est suffisant. Uniquement lorsque vous travaillez avec des images à plage dynamique extrêmement élevée (16 stops ou plus), l'utilisation de '@mainwindow.exposurehdrpanel.blenddatatype.float@' peut être nécessaire pour éviter l'écrêtage des hautes lumières, mais le traitement prendra plus de temps et nécessitera deux fois plus de mémoire et d'espace disque temporaire."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
-			"helptext": "Ignorez l'exposition automatique et le réglage des couleurs si les images ne peuvent pas être alignées.",
+			"helptext": "Ignorer l'exposition automatique et le réglage des couleurs si les images ne peuvent pas être alignées.",
 			"morehelptext": "<br><br>L'exposition automatique et le réglage des couleurs sont effectués en comparant les pixels des images qui se chevauchent. Il est donc nécessaire que les images soient correctement alignées. Si cette option est activée et que PTGui n'a pas réussi à aligner les images (par exemple, car aucun point de contrôle n'a pu être trouvé), l'exposition automatique et le réglage des couleurs seront ignorés."
 		}
 	],

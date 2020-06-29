@@ -110,9 +110,9 @@
 		},
 		{
 			"id": "txt.finderorexplorer",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
-			"txt": "<optional platform='windows'>Windows Explorer</optional><optional platform='mac'>Chercheur</optional>"
+			"txt": "<optional platform='windows'>Windows Explorer</optional><optional platform='mac'>Finder</optional>"
 		},
 		{
 			"id": "txt.tb",
@@ -136,8 +136,8 @@
 		},
 		{
 			"id": "delete",
-			"machinetranslated": true,
-			"txt": "Effacer"
+			"machinetranslated": false,
+			"txt": "Supprimer"
 		},
 		{
 			"id": "reset",
@@ -231,8 +231,8 @@
 		},
 		{
 			"id": "mainwindow.tabs.lenssettings",
-			"machinetranslated": true,
-			"txt": "Objectif"
+			"machinetranslated": false,
+			"txt": "Paramètres de l'objectif"
 		},
 		{
 			"id": "mainwindow.tabs.crop",
@@ -246,8 +246,8 @@
 		},
 		{
 			"id": "mainwindow.tabs.imageparameters",
-			"machinetranslated": true,
-			"txt": "Paramètres d'image"
+			"machinetranslated": false,
+			"txt": "Paramètres de l'image"
 		},
 		{
 			"id": "mainwindow.tabs.controlpoints",
@@ -286,8 +286,8 @@
 		},
 		{
 			"id": "mainwindow.tabs.createpanorama",
-			"machinetranslated": true,
-			"txt": "Créer Panorama"
+			"machinetranslated": false,
+			"txt": "Créer le panorama"
 		},
 		{
 			"id": "menubar.file",
@@ -301,68 +301,68 @@
 		},
 		{
 			"id": "menubar.file.openproject",
-			"machinetranslated": true,
-			"txt": "Ouvrir projet"
+			"machinetranslated": false,
+			"txt": "Ouvrir un projet"
 		},
 		{
 			"id": "txt.openpapywizardfile",
-			"machinetranslated": true,
-			"txt": "Ouvrir fichier Papywizard"
+			"machinetranslated": false,
+			"txt": "Ouvrir un fichier Papywizard"
 		},
 		{
 			"id": "txt.savepanorama",
-			"machinetranslated": true,
-			"txt": "Enregistrer panorama"
+			"machinetranslated": false,
+			"txt": "Enregistrer le panorama"
 		},
 		{
 			"id": "txt.replaceimage",
-			"machinetranslated": true,
-			"txt": "Remplacer image"
+			"machinetranslated": false,
+			"txt": "Remplacer l'image"
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
-			"machinetranslated": true,
-			"txt": "Enregistrer courbe de réponse de la caméra"
+			"machinetranslated": false,
+			"txt": "Enregistrer la courbe de réponse de la caméra"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"machinetranslated": true,
-			"txt": "Ouvrir courbe de réponse de la caméra"
+			"machinetranslated": false,
+			"txt": "Ouvrir la courbe de réponse de la caméra"
 		},
 		{
 			"id": "txt.savevignettingcurve",
-			"machinetranslated": true,
-			"txt": "Enregistrer courbe de vignettage"
+			"machinetranslated": false,
+			"txt": "Enregistrer la courbe de vignettage"
 		},
 		{
 			"id": "txt.loadvignettingcurve",
-			"machinetranslated": true,
-			"txt": "Ouvrir courbe de vignettage"
+			"machinetranslated": false,
+			"txt": "Ouvrir la courbe de vignettage"
 		},
 		{
 			"id": "txt.savewebpagetemplate",
-			"machinetranslated": true,
-			"txt": "Enregistrer modèle de page Web"
+			"machinetranslated": false,
+			"txt": "Enregistrer le modèle de page Web"
 		},
 		{
 			"id": "txt.selectwebpagetemplate",
-			"machinetranslated": true,
-			"txt": "Sélectionner modèle de page Web"
+			"machinetranslated": false,
+			"txt": "Sélectionner le modèle de page Web"
 		},
 		{
 			"id": "txt.savetonemapsettings",
-			"machinetranslated": true,
-			"txt": "Enregistrer paramètres de mappage ton"
+			"machinetranslated": false,
+			"txt": "Enregistrer les paramètres de mappage de ton"
 		},
 		{
 			"id": "txt.loadtonemapsettings",
-			"machinetranslated": true,
-			"txt": "Ouvrir paramètres de mappage ton"
+			"machinetranslated": false,
+			"txt": "Ouvrir les paramètres de mappage de ton"
 		},
 		{
 			"id": "txt.openpanorama",
-			"machinetranslated": true,
-			"txt": "Ouvrir Panorama"
+			"machinetranslated": false,
+			"txt": "Ouvrir un Panorama"
 		},
 		{
 			"id": "txt.supportedformats",
@@ -376,8 +376,8 @@
 		},
 		{
 			"id": "menubar.file.applytemplate",
-			"machinetranslated": true,
-			"txt": "Appliquer modèle"
+			"machinetranslated": false,
+			"txt": "Appliquer un modèle"
 		},
 		{
 			"id": "menubar.file.applytemplate.other",
@@ -391,13 +391,13 @@
 		},
 		{
 			"id": "menubar.file.saveproject",
-			"machinetranslated": true,
-			"txt": "Enregistrer projet"
+			"machinetranslated": false,
+			"txt": "Enregistrer le projet"
 		},
 		{
 			"id": "menubar.file.saveprojectas",
-			"machinetranslated": true,
-			"txt": "Enregistrer projet sous"
+			"machinetranslated": false,
+			"txt": "Enregistrer le projet sous"
 		},
 		{
 			"id": "menubar.file.saveastemplate",
@@ -406,8 +406,8 @@
 		},
 		{
 			"id": "menubar.file.export",
-			"machinetranslated": true,
-			"txt": "Exportation"
+			"machinetranslated": false,
+			"txt": "Export"
 		},
 		{
 			"id": "menubar.file.export.ptgui10project",
@@ -421,8 +421,8 @@
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"machinetranslated": true,
-			"txt": "Faire défaut"
+			"machinetranslated": false,
+			"txt": "Enregistrer défaut"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -431,28 +431,28 @@
 		},
 		{
 			"id": "menubar.file.resetdefault",
-			"machinetranslated": true,
-			"txt": "Réinitialiser paramètres défaut du projet"
+			"machinetranslated": false,
+			"txt": "Réinitialiser les paramètres par défaut"
 		},
 		{
 			"id": "resetdefault.confirmation",
-			"machinetranslated": true,
-			"txt": "Cela supprimera vos paramètres par défaut enregistrés pour les nouveaux projets. PTGui utilisera ses propres paramètres par défaut lorsque vous démarrez un nouveau projet."
+			"machinetranslated": false,
+			"txt": "Cela supprimera vos paramètres par défaut enregistrés pour les nouveaux projets. PTGui utilisera ses propres paramètres par défaut lorsque vous démarrerez un nouveau projet."
 		},
 		{
 			"id": "menubar.file.newinstance",
-			"machinetranslated": true,
-			"txt": "Lancer nouvelle instance"
+			"machinetranslated": false,
+			"txt": "Démarrer une nouvelle instance"
 		},
 		{
 			"id": "menubar.file.closewindow",
-			"machinetranslated": true,
-			"txt": "Fermer fenêtre"
+			"machinetranslated": false,
+			"txt": "Fermer la fenêtre"
 		},
 		{
 			"id": "menubar.file.exit",
-			"machinetranslated": true,
-			"txt": "Sortie"
+			"machinetranslated": false,
+			"txt": "Quitter"
 		},
 		{
 			"id": "menubar.edit",
@@ -466,8 +466,8 @@
 		},
 		{
 			"id": "menubar.edit.redo",
-			"machinetranslated": true,
-			"txt": "Refaire"
+			"machinetranslated": false,
+			"txt": "Retablir"
 		},
 		{
 			"id": "menubar.edit.cut",
@@ -496,8 +496,8 @@
 		},
 		{
 			"id": "batchstitcher.menubar.process.run",
-			"machinetranslated": true,
-			"txt": "Débuter"
+			"machinetranslated": false,
+			"txt": "Démarrer"
 		},
 		{
 			"id": "batchstitcher.menubar.process.stop",
@@ -676,8 +676,8 @@
 		},
 		{
 			"id": "projectionpreset.cubeface",
-			"machinetranslated": true,
-			"txt": "Face du cube: 90° @+projection.rectilinear@"
+			"machinetranslated": false,
+			"txt": "Face de cube: 90° @+projection.rectilinear@"
 		},
 		{
 			"id": "panoramaeditor.menubar.editindividualimages",
@@ -731,8 +731,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.enable",
-			"machinetranslated": true,
-			"txt": "Appliquer mappage de ton"
+			"machinetranslated": false,
+			"txt": "Appliquer un mappage de ton"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.brightness",
@@ -751,8 +751,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.autoboostreduce",
-			"machinetranslated": true,
-			"txt": "Auto renforcer / réduire"
+			"machinetranslated": false,
+			"txt": "Renforcement / réduction auto"
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapsettings.compression",
@@ -846,13 +846,13 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.tonemapping",
-			"machinetranslated": true,
-			"txt": "Mappage ton"
+			"machinetranslated": false,
+			"txt": "Mappage des tons"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusion",
-			"machinetranslated": true,
-			"txt": "Fusion d'exposition"
+			"machinetranslated": false,
+			"txt": "Fusion des expositions"
 		},
 		{
 			"id": "panoramaeditor.sidebar.numtransform",
@@ -886,13 +886,13 @@
 		},
 		{
 			"id": "panoeditor.menubar.blended",
-			"machinetranslated": true,
-			"txt": "Afficher le panorama mélangé"
+			"machinetranslated": false,
+			"txt": "Afficher le panorama fusionné"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
-			"machinetranslated": true,
-			"txt": "Afficher le panorama non mélangé"
+			"machinetranslated": false,
+			"txt": "Afficher le panorama non fusionné"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
@@ -901,8 +901,8 @@
 		},
 		{
 			"id": "panoeditor.menubar.showimagenumbers",
-			"machinetranslated": true,
-			"txt": "Afficher les numéros d'image"
+			"machinetranslated": false,
+			"txt": "Afficher les numéros d'images"
 		},
 		{
 			"id": "panoeditor.menubar.mode",
@@ -956,8 +956,8 @@
 		},
 		{
 			"id": "panoeditor.menubar.tools.preview",
-			"machinetranslated": true,
-			"txt": "Afficher dans visionneuse"
+			"machinetranslated": false,
+			"txt": "Afficher dans la visionneuse"
 		},
 		{
 			"id": "menubar.help.helpforthiswindow",
@@ -971,8 +971,8 @@
 		},
 		{
 			"id": "menubar.help.whatsnew",
-			"machinetranslated": true,
-			"txt": "Quoi de neuf?"
+			"machinetranslated": false,
+			"txt": "Nouveautés"
 		},
 		{
 			"id": "menubar.help.ptgui.com",
@@ -986,8 +986,8 @@
 		},
 		{
 			"id": "menubar.help.licenseinfo",
-			"machinetranslated": true,
-			"txt": "Information de licence"
+			"machinetranslated": false,
+			"txt": "Information sur la licence"
 		},
 		{
 			"id": "menubar.help.systeminfo",
@@ -1025,8 +1025,8 @@
 		},
 		{
 			"id": "menubar.controlpoints.showmask",
-			"machinetranslated": true,
-			"txt": "Afficher masques"
+			"machinetranslated": false,
+			"txt": "Afficher les masques"
 		},
 		{
 			"id": "menubar.controlpoints.generate",
@@ -1065,13 +1065,13 @@
 		},
 		{
 			"id": "alignimages",
-			"machinetranslated": true,
-			"txt": "Aligner images"
+			"machinetranslated": false,
+			"txt": "Aligner les images"
 		},
 		{
 			"id": "menubar.project.aligntogrid",
-			"machinetranslated": true,
-			"txt": "Aligner sur grille"
+			"machinetranslated": false,
+			"txt": "Aligner sur la grille"
 		},
 		{
 			"id": "menubar.project.optimize",
@@ -1091,22 +1091,22 @@
 		{
 			"id": "createpanorama",
 			"machinetranslated": true,
-			"txt": "Créer Panorama"
+			"txt": "Créer le Panorama"
 		},
 		{
 			"id": "menubar.project.saveandsendtobatchstitcher",
-			"machinetranslated": true,
-			"txt": "Enregistrer et envoyer à @batchstitcher@"
+			"machinetranslated": false,
+			"txt": "Enregistrer et transférer à @batchstitcher@"
 		},
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
-			"machinetranslated": true,
-			"txt": "Envoyer une copie temporaire à @batchstitcher@"
+			"machinetranslated": false,
+			"txt": "Transférer une copie temporaire à @batchstitcher@"
 		},
 		{
 			"id": "batchstitcher",
-			"machinetranslated": true,
-			"txt": "Stitcher par lots"
+			"machinetranslated": false,
+			"txt": "Assembler par lots"
 		},
 		{
 			"id": "batchlist",
@@ -1135,8 +1135,8 @@
 		},
 		{
 			"id": "menubar.tools.publishtowebsite",
-			"machinetranslated": true,
-			"txt": "Publier sur le site Web"
+			"machinetranslated": false,
+			"txt": "Publier sur site Web"
 		},
 		{
 			"id": "menubar.tools.converttocubic",
@@ -1186,8 +1186,8 @@
 		},
 		{
 			"id": "detailviewer",
-			"machinetranslated": true,
-			"txt": "Visionneuse de détail"
+			"machinetranslated": false,
+			"txt": "Visionneuse"
 		},
 		{
 			"id": "menubar.tools.mainwindow",
@@ -1206,8 +1206,8 @@
 		},
 		{
 			"id": "controlpointassistant",
-			"machinetranslated": true,
-			"txt": "Assistant de point de contrôle"
+			"machinetranslated": false,
+			"txt": "Assistant de points de contrôle"
 		},
 		{
 			"id": "batchbuilder",
@@ -1221,13 +1221,13 @@
 		},
 		{
 			"id": "lensdatabase",
-			"machinetranslated": true,
-			"txt": "Base de données Lens"
+			"machinetranslated": false,
+			"txt": "Base de données des objectifs"
 		},
 		{
 			"id": "cameradatabase",
-			"machinetranslated": true,
-			"txt": "Base de données de caméra"
+			"machinetranslated": false,
+			"txt": "Base de données des boitiers"
 		},
 		{
 			"id": "fillyaw",
@@ -1321,8 +1321,8 @@
 		},
 		{
 			"id": "menubar.images.exclude",
-			"machinetranslated": true,
-			"txt": "Exclure de Panorama"
+			"machinetranslated": false,
+			"txt": "Exclure du Panorama"
 		},
 		{
 			"id": "menubar.images.includeonlyselected",
@@ -1351,8 +1351,8 @@
 		},
 		{
 			"id": "menubar.images.linkbracketed",
-			"machinetranslated": true,
-			"txt": "Lien HDR photos bracketées"
+			"machinetranslated": false,
+			"txt": "Lier les photos HDR bracketées"
 		},
 		{
 			"id": "menubar.images.unlinkall",
@@ -1396,8 +1396,8 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.red",
-			"machinetranslated": true,
-			"txt": "Rouge (cacher du panorama)"
+			"machinetranslated": false,
+			"txt": "Rouge (exclure du panorama)"
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
@@ -1406,8 +1406,8 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.eraser",
-			"machinetranslated": true,
-			"txt": "La gomme"
+			"machinetranslated": false,
+			"txt": "Gommer"
 		},
 		{
 			"id": "mainwindow.maskmenu.draw",
@@ -1421,43 +1421,43 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.decreasepencilsize",
-			"machinetranslated": true,
-			"txt": "Diminuer la taille du crayon"
+			"machinetranslated": false,
+			"txt": "Diminuer la taille du pinceau"
 		},
 		{
 			"id": "mainwindow.maskmenu.increasepencilsize",
-			"machinetranslated": true,
-			"txt": "Augmenter la taille du crayon"
+			"machinetranslated": false,
+			"txt": "Augmenter la taille du pinceau"
 		},
 		{
 			"id": "mainwindow.maskmenu.pencilsize",
-			"machinetranslated": true,
-			"txt": "Taille de crayon"
+			"machinetranslated": false,
+			"txt": "Taille de pinceau"
 		},
 		{
 			"id": "loadmask",
-			"machinetranslated": true,
-			"txt": "Ouvrir masque"
+			"machinetranslated": false,
+			"txt": "Charger un masque"
 		},
 		{
 			"id": "savemask",
-			"machinetranslated": true,
-			"txt": "Enregistrer masque"
+			"machinetranslated": false,
+			"txt": "Enregistrer le masque"
 		},
 		{
 			"id": "copymask",
-			"machinetranslated": true,
-			"txt": "Copier masque"
+			"machinetranslated": false,
+			"txt": "Copier le masque"
 		},
 		{
 			"id": "pastemask",
-			"machinetranslated": true,
-			"txt": "Coller masque"
+			"machinetranslated": false,
+			"txt": "Coller le masque"
 		},
 		{
 			"id": "clearmask",
-			"machinetranslated": true,
-			"txt": "Effacer masque"
+			"machinetranslated": false,
+			"txt": "Effacer le masque"
 		},
 		{
 			"id": "imagelist.enablevpcorrection",
@@ -1466,18 +1466,23 @@
 		},
 		{
 			"id": "batchstitcher.menubar.addprojects",
-			"machinetranslated": true,
-			"txt": "Ajouter projets"
+			"machinetranslated": false,
+			"txt": "Ajouter des projets"
 		},
 		{
 			"id": "batchstitcher.menubar.removeprojects",
-			"machinetranslated": true,
-			"txt": "Supprimer projet"
+			"machinetranslated": false,
+			"txt": "Supprimer le projet"
 		},
 		{
 			"id": "batchstitcher.menubar.openbatchlist",
-			"machinetranslated": true,
-			"txt": "Ouvrir liste de lots"
+			"machinetranslated": false,
+			"txt": "Ouvrir une liste de lots"
+		},
+		{
+			"id": "batchstitcher.menubar.appendbatchlist",
+			"machinetranslated": false,
+			"txt": "Ajouter une liste de lots"
 		},
 		{
 			"id": "batchstitcher.menubar.recentbatchlists",
@@ -1486,13 +1491,13 @@
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
-			"machinetranslated": true,
-			"txt": "Enregistrer liste de lots"
+			"machinetranslated": false,
+			"txt": "Enregistrer la liste de lots"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlistas",
-			"machinetranslated": true,
-			"txt": "Enregistrer liste de lots sous"
+			"machinetranslated": false,
+			"txt": "Enregistrer la liste de lots sous"
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
@@ -1501,13 +1506,18 @@
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
-			"machinetranslated": true,
-			"txt": "Fermer liste de lots"
+			"machinetranslated": false,
+			"txt": "Fermer la liste de lots"
+		},
+		{
+			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
+			"machinetranslated": false,
+			"txt": "Fermer @batchstitcher@ quand terminé"
 		},
 		{
 			"id": "mainwindow.projectassistant.loadimages",
-			"machinetranslated": true,
-			"txt": "Ouvrir images"
+			"machinetranslated": false,
+			"txt": "Charger des images"
 		},
 		{
 			"id": "mainwindow.projectassistant.sourceimages",
@@ -1531,12 +1541,13 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.cameraportraitorientation",
-			"txt": "Mélange d'images en orientation portrait et paysage; orientation portrait:"
+			"machinetranslated": false,
+			"txt": "Mélange d'images en portrait et paysage; orientation portrait:"
 		},
 		{
 			"id": "mainwindow.projectassistant.setuppanorama",
-			"machinetranslated": true,
-			"txt": "Mettre en place le panorama"
+			"machinetranslated": false,
+			"txt": "Paramétrage du panorama"
 		},
 		{
 			"id": "mainwindow.projectassistant.txtcircularcrop",
@@ -1546,19 +1557,19 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.runalignimagesagain",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
-			"txt": "Exécutez à nouveau <a href=0>@alignimages@</a> pour trouver plus de points de contrôle."
+			"txt": "Réexécuter <a href=0>@alignimages@</a> pour trouver plus de points de contrôle."
 		},
 		{
 			"id": "mainwindow.projectassistant.isprealigned",
-			"machinetranslated": true,
-			"txt": "Les images sont déjà grossièrement positionnées. Rechercher uniquement des points de contrôle dans des zones qui se chevauchent."
+			"machinetranslated": false,
+			"txt": "Les images sont déjà approximativement positionnées. Rechercher uniquement des points de contrôle dans des zones qui se chevauchent."
 		},
 		{
 			"id": "mainwindow.projectassistant.alignimages",
-			"machinetranslated": true,
-			"txt": "Aligner images"
+			"machinetranslated": false,
+			"txt": "Aligner les images"
 		},
 		{
 			"id": "mainwindow.projectassistant.needoptimizemessage",
@@ -1572,18 +1583,18 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.missingcontrolpoints1",
-			"machinetranslated": true,
-			"txt": "Ne pas toutes les images ont de points de contrôle."
+			"machinetranslated": false,
+			"txt": "Certaines images n'ont pas de points de contrôle."
 		},
 		{
 			"id": "mainwindow.projectassistant.missingcontrolpoints2",
-			"machinetranslated": true,
-			"txt": "PTGui n'a pas pu détecter de points de contrôle pour certaines images. Par conséquent, vous devrez peut-être ajouter quelques points de contrôle à la main."
+			"machinetranslated": false,
+			"txt": "PTGui n'a pas pu détecter de points de contrôle pour certaines images. Par conséquent, vous devrez peut-être ajouter quelques points de contrôle manuellement."
 		},
 		{
 			"id": "mainwindow.projectassistant.misplacedcontrolpoints",
-			"machinetranslated": true,
-			"txt": "Le projet peut contenir des points de contrôle égarés."
+			"machinetranslated": false,
+			"txt": "Le projet peut contenir des points de contrôle mal placés."
 		},
 		{
 			"id": "mainwindow.projectassistant.seecpassistantfordetails",
@@ -1615,7 +1626,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.fullframelens",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "plein cadre"
 		},
 		{
@@ -1636,23 +1647,23 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.createpanorama",
-			"machinetranslated": true,
-			"txt": "Créer panorama"
+			"machinetranslated": false,
+			"txt": "Créer le panorama"
 		},
 		{
 			"id": "error.invalidnumber",
-			"machinetranslated": true,
-			"txt": "Pas un numéro: %0"
+			"machinetranslated": false,
+			"txt": "Ceci n'est pas un nombre: %0"
 		},
 		{
 			"id": "mainwindow.lensparams.lensprofile",
-			"machinetranslated": true,
-			"txt": "Profil d'objectif:"
+			"machinetranslated": false,
+			"txt": "Type d'objectif:"
 		},
 		{
 			"id": "mainwindow.lensparams.lens",
 			"machinetranslated": true,
-			"txt": "Lentille"
+			"txt": "Objectif"
 		},
 		{
 			"id": "mainwindow.lensparams.lens.type",
@@ -1661,13 +1672,13 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabasebutton",
-			"machinetranslated": true,
-			"txt": "Base de données Lens"
+			"machinetranslated": false,
+			"txt": "Base de données d'Objectifs"
 		},
 		{
 			"id": "mainwindow.lensparams.focallength",
-			"machinetranslated": true,
-			"txt": "Distance focale:"
+			"machinetranslated": false,
+			"txt": "Focale:"
 		},
 		{
 			"id": "mainwindow.lensparams.focallength.theoretical",
@@ -1741,13 +1752,13 @@
 		},
 		{
 			"id": "mainwindow.lensparams.camera",
-			"machinetranslated": true,
-			"txt": "Caméra"
+			"machinetranslated": false,
+			"txt": "Boitier"
 		},
 		{
 			"id": "mainwindow.lensparams.camera.sensordiagonal",
-			"machinetranslated": true,
-			"txt": "Taille diagonale du capteur:"
+			"machinetranslated": false,
+			"txt": "Taille de la diagonale du capteur:"
 		},
 		{
 			"id": "mainwindow.lensparams.camera.cropfactor",
@@ -1786,8 +1797,8 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabase.saveasnewentry",
-			"machinetranslated": true,
-			"txt": "Enregistrer comme nouvel enregistrement"
+			"machinetranslated": false,
+			"txt": "Enregistrer comme nouvelles entrée"
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabase.overwrite",
@@ -1796,8 +1807,8 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabase.show",
-			"machinetranslated": true,
-			"txt": "Afficher la base de données de lentilles"
+			"machinetranslated": false,
+			"txt": "Afficher la base de données des objectifs"
 		},
 		{
 			"id": "mainwindow.lensparams.initializefromexif",
@@ -1811,28 +1822,28 @@
 		},
 		{
 			"id": "mainwindow.lensparams.loadfromlensdatabase",
-			"machinetranslated": true,
-			"txt": "Charger de la base de données de lentilles: "
+			"machinetranslated": false,
+			"txt": "Charger de la base de données des objectifs: "
 		},
 		{
 			"id": "mainwindow.lensparams.makeexifassociation",
-			"machinetranslated": true,
-			"txt": "Associer EXIF ​​à la base de données d'objectifs"
+			"machinetranslated": false,
+			"txt": "Associer les données EXIF ​​à la base de données des objectifs"
 		},
 		{
 			"id": "mainwindow.lensparams.showlensdatabase",
-			"machinetranslated": true,
-			"txt": "Afficher la base de données de lentilles"
+			"machinetranslated": false,
+			"txt": "Afficher la base de données des objectifs"
 		},
 		{
 			"id": "mainwindow.lensparams.confirmoverwritelensdatabaserecord",
-			"machinetranslated": true,
-			"txt": "Remplacer l'élément de base de données d'objectif existant? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Remplacer l'élément de base de données des objectifs existants? Ceci ne pourra pas être annulé."
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabase.newentry",
-			"machinetranslated": true,
-			"txt": "Nouvel enregistrement"
+			"machinetranslated": false,
+			"txt": "Nouvelle Entrée"
 		},
 		{
 			"id": "mainwindow.lensparams.setsensorsizefromdb",
@@ -1841,13 +1852,13 @@
 		},
 		{
 			"id": "mainwindow.lensparams.savetocameradatabase",
-			"machinetranslated": true,
-			"txt": "Enregistrer dans la base de données de caméras"
+			"machinetranslated": false,
+			"txt": "Enregistrer dans la base de données des caméras"
 		},
 		{
 			"id": "mainwindow.lensparams.confirmmakecameradbassociationforimageswithoutexif",
-			"machinetranslated": true,
-			"txt": "Ceci utilisera la taille actuelle du capteur pour toutes les images sans informations de caméra EXIF. Êtes-vous sûr?"
+			"machinetranslated": false,
+			"txt": "Ceci utilisera la taille actuelle du capteur pour toutes les images qui n'ont pas de données EXIF. Êtes-vous sûr?"
 		},
 		{
 			"id": "mainwindow.lensparams.cameradatabase.show",
@@ -1941,8 +1952,8 @@
 		},
 		{
 			"id": "advanced",
-			"machinetranslated": true,
-			"txt": "Avancée"
+			"machinetranslated": false,
+			"txt": "Avancé"
 		},
 		{
 			"id": "simple",
@@ -2056,8 +2067,8 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.runoptimizer",
-			"machinetranslated": true,
-			"txt": "Run Optimizer"
+			"machinetranslated": false,
+			"txt": "Lancer l'optimisation"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrsection",
@@ -2086,8 +2097,8 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrdisabled",
-			"machinetranslated": true,
-			"txt": "Pas de bracketing: toutes les images sont mélangées dans un seul plan d'exposition"
+			"machinetranslated": false,
+			"txt": "Pas de bracketing: toutes les images sont fusionnées dans un seul plan d'exposition"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurecompensation",
@@ -2097,7 +2108,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapldrpanorama",
 			"machinetranslated": true,
-			"txt": "Appliquer mappage de ton au panorama"
+			"txt": "Appliquer mappage des tons au panorama"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.autoexpadjustmentsection",
@@ -2117,12 +2128,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.askreoptimize",
 			"machinetranslated": true,
-			"txt": "Les paramètres ont été modifiés. Souhaitez-vous effectuer une nouvelle optimisation en fonction des paramètres modifiés?"
+			"txt": "Les paramètres ont été modifiés. Souhaitez-vous effectuer une nouvelle optimisation avec ces nouveaux paramètres ?"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.vignettingcurve",
 			"machinetranslated": true,
-			"txt": "Courbe vignettage:"
+			"txt": "Courbe de vignettage:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.cameracurve",
@@ -2171,13 +2182,13 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusionsettings",
-			"machinetranslated": true,
-			"txt": "paramètres de fusion d'exposition"
+			"machinetranslated": false,
+			"txt": "paramètres de fusion de l'exposition"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapsettings",
-			"machinetranslated": true,
-			"txt": "paramètres du mappage ton"
+			"machinetranslated": false,
+			"txt": "paramètres du mappage des tons"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warningmixhdrldr",
@@ -2197,8 +2208,8 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnsingleblendplane",
-			"machinetranslated": true,
-			"txt": "Toutes les images source ont été prises avec les mêmes paramètres d'exposition. Pour créer un panorama HDR, prenez des photos bracketées (images de la même scène, mais avec un temps d'exposition différent)."
+			"machinetranslated": false,
+			"txt": "Toutes les images sources ont été prises avec les mêmes paramètres d'exposition. Pour créer un panorama HDR, prenez des photos bracketées (images de la même scène, mais avec un temps d'exposition différent)."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numbracketsinfo",
@@ -2219,8 +2230,8 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
-			"machinetranslated": true,
-			"txt": "Les images sources ont été prises à %0 différents niveaux d'exposition. PTGui créera un panorama fusionné pour chaque niveau d'exposition. Enfin, les %0 panoramas fusionnés sont fusionnés en un seul panorama HDR."
+			"machinetranslated": false,
+			"txt": "Les images sources ont été prises à %0 différents niveaux d'exposition. PTGui créera tout d'abord un panorama fusionné pour chaque niveau d'exposition. Puis, ces %0 panoramas seront fusionnés en un seul panorama HDR."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
@@ -2275,13 +2286,13 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure",
-			"machinetranslated": true,
-			"txt": "Effectuer l'exposition automatique et le réglage de la couleur"
+			"machinetranslated": false,
+			"txt": "Calculer automatiquement l'exposition et le réglage de la couleur"
 		},
 		{
 			"id": "resetdefaults",
-			"machinetranslated": true,
-			"txt": "Réinitialiser par défaut"
+			"machinetranslated": false,
+			"txt": "Réinitialiser"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults",
@@ -2314,6 +2325,11 @@
 			"txt": "Faire cela sans demander quand on clique sur '@alignimages@' dans l'onglet @mainwindow.tabs.projectassistant@"
 		},
 		{
+			"id": "mainwindow.projectsettings.hdrdefaults.batchstitcheractions",
+			"machinetranslated": false,
+			"txt": "Actions pour @batchstitcher@"
+		},
+		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.subheading",
 			"machinetranslated": true,
 			"txt": "Lorsque ce projet est chargé dans Batch Stitcher ou lorsqu'il est utilisé comme modèle dans Générateur de Lots:"
@@ -2340,8 +2356,8 @@
 		},
 		{
 			"id": "panorama",
-			"machinetranslated": true,
-			"txt": "panorama"
+			"machinetranslated": false,
+			"txt": "Panorama"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.subheading",
@@ -2350,8 +2366,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.projectfile",
-			"machinetranslated": true,
-			"txt": "Dossier de projet:"
+			"machinetranslated": false,
+			"txt": "Dossier du projet:"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.saveas",
@@ -2376,7 +2392,7 @@
 		{
 			"id": "mainwindow.projectsettings.filenaming.savein",
 			"machinetranslated": true,
-			"txt": "sauver dans"
+			"txt": "sauvegarder dans"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.sourceimagefolder",
@@ -2440,8 +2456,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior",
-			"machinetranslated": true,
-			"txt": "Comportement de modèle"
+			"machinetranslated": false,
+			"txt": "Comportement du modèle"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.subheading",
@@ -2465,8 +2481,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings",
-			"machinetranslated": true,
-			"txt": "Paramètres Panorama, HDR et de sortie"
+			"machinetranslated": false,
+			"txt": "Paramètres de panorama, d'HDR et de sortie"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.projectsettings",
@@ -2515,8 +2531,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexifshort",
-			"machinetranslated": true,
-			"txt": "Initialiser les paramètres d'objectif pour chaque projet en utilisant des données EXIF ​​dans les images"
+			"machinetranslated": false,
+			"txt": "Initialiser les paramètres d'objectif pour chaque projet en utilisant des données EXIF ​​des images"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexif",
@@ -2530,13 +2546,13 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexiforientation",
-			"machinetranslated": true,
-			"txt": "Faire pivoter physiquement les images avec la balise EXIF ​​Orientation lors du chargement"
+			"machinetranslated": false,
+			"txt": "Lors du chargement, pivoter les images automatiquement en fonction de la balise EXIF ​​d'orientation."
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif",
-			"machinetranslated": true,
-			"txt": "Initialiser automatiquement les paramètres de l’objectif à l’aide de données EXIF ​​lors de l’ajout d’images (sauf Générateur de Lots)"
+			"machinetranslated": false,
+			"txt": "​​lors de l’ajout d’images, initialiser automatiquement les paramètres de l’objectif à l’aide des données EXIF (sauf Générateur de Lots)"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.askinitializeandoptimize",
@@ -2575,8 +2591,8 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.blendpriority",
-			"machinetranslated": true,
-			"txt": "Priorité de mélange"
+			"machinetranslated": false,
+			"txt": "Priorité de fusion"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
@@ -2700,8 +2716,8 @@
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.lenstype",
-			"machinetranslated": true,
-			"txt": "Lentille"
+			"machinetranslated": false,
+			"txt": "Objectif"
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.shift",
@@ -2740,8 +2756,8 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.fovfocallength",
-			"machinetranslated": true,
-			"txt": "Champ de vision / longueur focale"
+			"machinetranslated": false,
+			"txt": "Champ de vision / focale"
 		},
 		{
 			"id": "mainwindow.optimizertab.focallength",
@@ -2797,8 +2813,8 @@
 		},
 		{
 			"id": "mainwindow.metadata.entercompassangle",
-			"machinetranslated": true,
-			"txt": "Entrez l'angle de la boussole du centre du panorama. 0° est au nord."
+			"machinetranslated": false,
+			"txt": "Entrez l'angle de la boussole du centre du panorama. 0° rerésente nord."
 		},
 		{
 			"id": "mainwindow.metadata.noorientationfound",
@@ -2807,8 +2823,8 @@
 		},
 		{
 			"id": "mainwindow.metadata.orientation1",
-			"machinetranslated": true,
-			"txt": "Angle compas: %0° (le centre du panorama est %1)."
+			"machinetranslated": false,
+			"txt": "Angle du compas: %0° (le centre du panorama est %1)."
 		},
 		{
 			"id": "mainwindow.metadata.orientation2",
@@ -2818,7 +2834,7 @@
 		{
 			"id": "mainwindow.metadata.compassangle",
 			"machinetranslated": true,
-			"txt": "Angle boussole:"
+			"txt": "Angle de la boussole:"
 		},
 		{
 			"id": "mainwindow.metadata.gpsdata",
@@ -3042,8 +3058,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendedpanorama",
-			"machinetranslated": true,
-			"txt": "Panorama mélangé"
+			"machinetranslated": false,
+			"txt": "Panorama fusionné"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputfileprefix",
@@ -3067,8 +3083,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing",
-			"machinetranslated": true,
-			"txt": "Mélanger en utilisant:"
+			"machinetranslated": false,
+			"txt": "Fusionné en utilisant:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing.enblend",
@@ -3082,8 +3098,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather",
-			"machinetranslated": true,
-			"txt": "Netteté de mélange:"
+			"machinetranslated": false,
+			"txt": "Netteté de fusion:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather.sharp",
@@ -3097,8 +3113,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode",
-			"machinetranslated": true,
-			"txt": "Mode de mélange:"
+			"machinetranslated": false,
+			"txt": "Mode de fusion:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.multiband",
@@ -3107,8 +3123,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.alpha",
-			"machinetranslated": true,
-			"txt": "Mélange alpha"
+			"machinetranslated": false,
+			"txt": "Fusion alpha"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator",
@@ -3202,8 +3218,8 @@
 		},
 		{
 			"id": "cptable.normal",
-			"machinetranslated": true,
-			"txt": "Ordinaire"
+			"machinetranslated": false,
+			"txt": "Normal"
 		},
 		{
 			"id": "bracketedexposureswindow.title",
@@ -3212,8 +3228,8 @@
 		},
 		{
 			"id": "bracketedexposureswindow.linktxt",
-			"machinetranslated": true,
-			"txt": "Choisissez cette option si les images ont été prises à partir d'un trépied et si elles sont déjà alignées sur la précision des pixels."
+			"machinetranslated": false,
+			"txt": "Choisissez cette option si les images ont été prises à partir d'un trépied et si elles sont déjà alignées avec un niveau de précision au pixel."
 		},
 		{
 			"id": "bracketedexposureswindow.dontlinktxt",
@@ -3252,13 +3268,13 @@
 		},
 		{
 			"id": "cubefacenaming.heading",
-			"machinetranslated": true,
-			"txt": "Suffixes de nom de fichier pour les images de face de cube:"
+			"machinetranslated": false,
+			"txt": "Suffixes du nom de fichier pour les images des faces de cube:"
 		},
 		{
 			"id": "cubefacenaming.front",
-			"machinetranslated": true,
-			"txt": "De face:"
+			"machinetranslated": false,
+			"txt": "Face:"
 		},
 		{
 			"id": "cubefacenaming.right",
@@ -3303,8 +3319,8 @@
 		},
 		{
 			"id": "philosphere.warn_not_2_1",
-			"machinetranslated": true,
-			"txt": "Pour créer une PhiloSphere, une image équirectangulaire à 360° x 180° est nécessaire. Une telle image a un rapport largeur / hauteur de 2:1. L'image sélectionnée a un rapport d'aspect différent; très probablement le résultat ne sera pas ce que vous attendiez.\n\nContinuer quand même?"
+			"machinetranslated": false,
+			"txt": "Pour créer une PhiloSphere, une image équirectangulaire à 360° x 180° est nécessaire. Une telle image a un rapport largeur / hauteur de 2:1. L'image sélectionnée a un rapport différent; très probablement le résultat ne sera pas ce que vous attendiez.\n\nContinuer quand même?"
 		},
 		{
 			"id": "philosphere.savepart",
@@ -3318,13 +3334,13 @@
 		},
 		{
 			"id": "philosphere.creating",
-			"machinetranslated": true,
-			"txt": "Création de PhiloSphere"
+			"machinetranslated": false,
+			"txt": "Création de la PhiloSphere"
 		},
 		{
 			"id": "philosphere.title",
-			"machinetranslated": true,
-			"txt": "Créer PhiloSphere"
+			"machinetranslated": false,
+			"txt": "Créer la PhiloSphere"
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
@@ -3343,8 +3359,8 @@
 		},
 		{
 			"id": "photometricsettings.enabled",
-			"machinetranslated": true,
-			"txt": "Activée"
+			"machinetranslated": false,
+			"txt": "Activé"
 		},
 		{
 			"id": "photometricsettings.optimizeexposure.finetune",
@@ -3378,8 +3394,8 @@
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance.info.enabled",
-			"machinetranslated": true,
-			"txt": "Vos images ont été prises avec la balance des blancs automatique.\nLa balance des blancs sera optimisée."
+			"machinetranslated": false,
+			"txt": "Vos images ont été prises avec une balance des blancs automatique.\nLa balance des blancs sera optimisée."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance.info.disabled",
@@ -3514,8 +3530,8 @@
 		},
 		{
 			"id": "options.theme.light",
-			"machinetranslated": true,
-			"txt": "Lumière"
+			"machinetranslated": false,
+			"txt": "Clair"
 		},
 		{
 			"id": "options.requiresrestart",
@@ -3559,8 +3575,8 @@
 		},
 		{
 			"id": "options.checkforupdates",
-			"machinetranslated": true,
-			"txt": "Rechercher automatiquement les mises à jour logicielles"
+			"machinetranslated": false,
+			"txt": "Rechercher automatiquement les mises à jour du logiciel"
 		},
 		{
 			"id": "options.checkforupdates.beta",
@@ -3574,8 +3590,8 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
-			"machinetranslated": true,
-			"txt": "Lorsque ajouter une image, suggérer d'ajouter d'autres images prises à peu près au même moment."
+			"machinetranslated": false,
+			"txt": "lors de l'ajout d'une image, suggérer d'ajouter d'autres images prises à peu près au même moment."
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
@@ -3584,13 +3600,13 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.secondsbetweenshots",
-			"machinetranslated": true,
-			"txt": "secondes entre les tirs"
+			"machinetranslated": false,
+			"txt": "secondes entre les photos"
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
 			"machinetranslated": true,
-			"txt": "Utiliser la date / heure de prise de vue d'origine à partir de données EXIF"
+			"txt": "Utiliser la date / heure de prise de vue d'origine à partir des données EXIF"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
@@ -3599,8 +3615,8 @@
 		},
 		{
 			"id": "options.batchstitcher.closewhendone.yes",
-			"machinetranslated": true,
-			"txt": "Fermer le batch stitcher lorsque vous avez terminé"
+			"machinetranslated": false,
+			"txt": "Fermer le batch stitcher lorsque les calculs sont terminés"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone.no",
@@ -3614,8 +3630,8 @@
 		},
 		{
 			"id": "options.showintaskbar.mainwindow",
-			"machinetranslated": true,
-			"txt": "Seule fenêtre principale"
+			"machinetranslated": false,
+			"txt": "Seulement la fenêtre principale"
 		},
 		{
 			"id": "options.showintaskbar.all",
@@ -3655,7 +3671,7 @@
 		{
 			"id": "options.disablemouserepositioning.txt",
 			"machinetranslated": true,
-			"txt": "(sélectionnez lorsque vous utilisez une tablette, un crayon ou un écran tactile)"
+			"txt": "(A sélectionner lorsque vous utilisez une tablette, un crayon ou un écran tactile)"
 		},
 		{
 			"id": "options.defaultsettings.txt",
@@ -3786,7 +3802,7 @@
 		{
 			"id": "options.enblendapp",
 			"machinetranslated": true,
-			"txt": "Application Enblend:"
+			"txt": "Application de fusion:"
 		},
 		{
 			"id": "options.smartblendapp",
@@ -3990,8 +4006,8 @@
 		},
 		{
 			"id": "licenseinfo.company.multipleecomputers",
-			"machinetranslated": true,
-			"txt": "Vous utilisez une licence d'entreprise. Il peut être activé sur %1 ordinateurs appartenant à %0. PTGui peut être utilisé par tous les utilisateurs de cet ordinateur."
+			"machinetranslated": false,
+			"txt": "Vous utilisez une licence d'entreprise. PTGui peut être activé sur %1 ordinateurs appartenant à %0. PTGui peut être utilisé par tous les utilisateurs de cet ordinateur."
 		},
 		{
 			"id": "licenseinfo.activationcount",
@@ -4005,13 +4021,13 @@
 		},
 		{
 			"id": "licenseinfo.expiredtxt",
-			"machinetranslated": true,
-			"txt": "Ceci est une licence temporaire, qui a expiré à %0."
+			"machinetranslated": false,
+			"txt": "Ceci était une licence temporaire, qui a expirée le %0."
 		},
 		{
 			"id": "licenseinfo.expiredtxt1",
-			"machinetranslated": true,
-			"txt": "Ceci est une licence temporaire, qui a expiré."
+			"machinetranslated": false,
+			"txt": "Ceci est une licence temporaire, qui a expirée."
 		},
 		{
 			"id": "licenseinfo.invalidkey",
@@ -4025,13 +4041,13 @@
 		},
 		{
 			"id": "licenseinfo.deactivatetxt",
-			"machinetranslated": true,
-			"txt": "Appuyez sur @licenseinfo.deactivate@ pour déplacer cette licence vers un autre ordinateur ou pour utiliser une clé de licence différente sur cet ordinateur."
+			"machinetranslated": false,
+			"txt": "Appuyez sur @licenseinfo.deactivate@ pour transférer cette licence sur un autre ordinateur ou pour utiliser une clé de licence différente sur cet ordinateur."
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"machinetranslated": true,
-			"txt": "Cela désactivera votre licence PTGui sur cet ordinateur. Faites cela si vous voulez déplacer PTGui sur un autre ordinateur ou si vous voulez utiliser une clé de licence différente sur cet ordinateur.\n\nSi vous continuez, PTGui va quitter, merci de Enregistrer d'abord votre travail."
+			"machinetranslated": false,
+			"txt": "Cela désactivera votre licence PTGui sur cet ordinateur. Faites cela si vous voulez transférer PTGui sur un autre ordinateur ou si vous voulez utiliser une clé de licence différente sur cet ordinateur.\n\nSi vous continuez, PTGui va quitter, merci de Enregistrer d'abord votre travail."
 		},
 		{
 			"id": "licenseinfo.manageactivations",
@@ -4171,8 +4187,8 @@
 		},
 		{
 			"id": "txt.welcomevideotutorial",
-			"machinetranslated": true,
-			"txt": "Bienvenue sur %0! Si vous utilisez PTGui pour la première fois, nous vous recommandons de visionner notre didacticiel vidéo. Voulez-vous faire ça maintenant?"
+			"machinetranslated": false,
+			"txt": "Bienvenue sur %0! Si vous utilisez PTGui pour la première fois, nous vous recommandons de visionner notre didacticiel vidéo. Voulez-vous le voir maintenant?"
 		},
 		{
 			"id": "txt.welcomevideotutorial.later",
@@ -4248,8 +4264,8 @@
 		},
 		{
 			"id": "txt.optimizerresult.verygood",
-			"machinetranslated": true,
-			"txt": "très bon"
+			"machinetranslated": false,
+			"txt": "très bien"
 		},
 		{
 			"id": "txt.optimizerresult.good",
@@ -4268,8 +4284,8 @@
 		},
 		{
 			"id": "txt.optimizerresult.bad",
-			"machinetranslated": true,
-			"txt": "mal"
+			"machinetranslated": false,
+			"txt": "mauvais"
 		},
 		{
 			"id": "txt.optimizerresult.verybad",
@@ -4378,8 +4394,8 @@
 		},
 		{
 			"id": "err.failedtoopenfileforwriting.containingdirnotexist",
-			"machinetranslated": true,
-			"txt": "Impossible d'écrire dans le fichier:\n%0\n\nparce que le dossier contenant n'existe pas:\n%1"
+			"machinetranslated": false,
+			"txt": "Impossible d'écrire dans le fichier:\n%0\n\nparce que le dossier parent n'existe pas:\n%1"
 		},
 		{
 			"id": "batchbuilder.err.nosubfolders",
@@ -4398,8 +4414,8 @@
 		},
 		{
 			"id": "batchbuilder.err.subfoldershavedifferetnumberofimages",
-			"machinetranslated": true,
-			"txt": "Les sous-dossiers contiennent un nombre différent d'images. Chaque sous-dossier doit contenir le même nombre d'images.\n\nLe dossier '%0' contient des images %1;\nLe dossier '%2' contient des images %3."
+			"machinetranslated": false,
+			"txt": "Les sous-dossiers contiennent un nombre différent d'images. Chaque sous-dossier doit contenir le même nombre d'images.\n\nLe dossier '%0' contient %1 images;\nLe dossier '%2' contient %3 images."
 		},
 		{
 			"id": "batchbuilder.err.noimagefiles",
@@ -4413,8 +4429,8 @@
 		},
 		{
 			"id": "batchbuilder.generatingprojects",
-			"machinetranslated": true,
-			"txt": "Générer des fichiers de projet"
+			"machinetranslated": false,
+			"txt": "Générer les projets"
 		},
 		{
 			"id": "batchbuilder.detectpanoramas",
@@ -4473,13 +4489,13 @@
 		},
 		{
 			"id": "batchbuilder.showinfinder",
-			"machinetranslated": true,
-			"txt": "Afficher dans le Finder"
+			"machinetranslated": false,
+			"txt": "Afficher dans Finder"
 		},
 		{
 			"id": "batchbuilder.showinexplorer",
-			"machinetranslated": true,
-			"txt": "Afficher dans l'explorateur"
+			"machinetranslated": false,
+			"txt": "Afficher dans Explorer"
 		},
 		{
 			"id": "batchbuilder.usecurrentastemplate",
@@ -4593,8 +4609,8 @@
 		},
 		{
 			"id": "batchbuilderdetect.secondsbetweenshots",
-			"machinetranslated": true,
-			"txt": "Temps maximum entre les tirs:"
+			"machinetranslated": false,
+			"txt": "Temps maximum entre les photos:"
 		},
 		{
 			"id": "batchbuilderdetect.seconds",
@@ -4638,8 +4654,8 @@
 		},
 		{
 			"id": "batchstitcher.confirmabort",
-			"machinetranslated": true,
-			"txt": "Le programme stitcher par lots est en train de traiter un projet. ce sera avorté. Continuer?"
+			"machinetranslated": false,
+			"txt": "Le programme stitcher par lots est en train de traiter un projet. Ce traitement sera stoppé. Continuer?"
 		},
 		{
 			"id": "batchstitcher.asksave",
@@ -4658,8 +4674,8 @@
 		},
 		{
 			"id": "batchstitcher.log",
-			"machinetranslated": true,
-			"txt": "Bûche:"
+			"machinetranslated": false,
+			"txt": "Log:"
 		},
 		{
 			"id": "blendplaneselector.heading",
@@ -4713,8 +4729,8 @@
 		},
 		{
 			"id": "sensorsizedialog.diagonal",
-			"machinetranslated": true,
-			"txt": "Capteur diagonale:"
+			"machinetranslated": false,
+			"txt": "diagonale du capteur:"
 		},
 		{
 			"id": "sensorsizedialog.sensorsize",
@@ -4794,8 +4810,8 @@
 		},
 		{
 			"id": "cpassistant.enoughcontrolpoints",
-			"machinetranslated": true,
-			"txt": "Assez de points de contrôle"
+			"machinetranslated": false,
+			"txt": "Suffisamment de points de contrôle"
 		},
 		{
 			"id": "cpassistant.allimageslinked",
@@ -4819,8 +4835,8 @@
 		},
 		{
 			"id": "cpassistant.misalignedcps",
-			"machinetranslated": true,
-			"txt": "points de contrôle désalignement"
+			"machinetranslated": false,
+			"txt": "points de contrôle de désalignement"
 		},
 		{
 			"id": "cpassistant.misalignedcpstext",
@@ -4871,8 +4887,8 @@
 		},
 		{
 			"id": "cpassistant.clusters",
-			"machinetranslated": true,
-			"txt": "Clusters"
+			"machinetranslated": false,
+			"txt": "Groupes"
 		},
 		{
 			"id": "cpassistant.clusterstxt",
@@ -4913,8 +4929,8 @@
 		},
 		{
 			"id": "cpassistant.missingcontrolpointsbottomtxt",
-			"machinetranslated": true,
-			"txt": "Bien qu'il ne soit pas nécessaire de disposer de points de contrôle pour chaque paire d'images se chevauchant (tant que les images sont indirectement liées par des points de contrôle entre d'autres images), cela peut améliorer les résultats d'optimisation."
+			"machinetranslated": false,
+			"txt": "Il n'est pas nécessaire de disposer de points de contrôle pour chaque paire d'images se chevauchant (tant que les images sont indirectement liées par des points de contrôle entre d'autres images). Cependant, cela peut améliorer les résultats d'optimisation."
 		},
 		{
 			"id": "cpassistant.multiplepairstoofewcontrolpointstxt",
@@ -4930,8 +4946,8 @@
 		},
 		{
 			"id": "cpassistant.pairstoofewcontrolpointsbottomtxt",
-			"machinetranslated": true,
-			"txt": "Les meilleurs résultats sont obtenus si chaque paire d'images se chevauchant a au moins 4 points de contrôle."
+			"machinetranslated": false,
+			"txt": "Les meilleurs résultats sont obtenus si chaque paire d'images se chevauchant avec au moins 4 points de contrôle."
 		},
 		{
 			"id": "fileformatsettings.bitsperchannel",
@@ -4960,8 +4976,8 @@
 		},
 		{
 			"id": "fileformatsettings.compression.none",
-			"machinetranslated": true,
-			"txt": "Aucun"
+			"machinetranslated": false,
+			"txt": "Aucune"
 		},
 		{
 			"id": "fileformatsettings.alpha",
@@ -5005,8 +5021,8 @@
 		},
 		{
 			"id": "fileformatsettings.layers.flattened",
-			"machinetranslated": true,
-			"txt": "Aplati"
+			"machinetranslated": false,
+			"txt": "combinées"
 		},
 		{
 			"id": "fillyaw.yawoffirstimage",
@@ -5050,8 +5066,8 @@
 		},
 		{
 			"id": "focallengthdialog.regularlens",
-			"machinetranslated": true,
-			"txt": "Lentille régulière (pas un fisheye)"
+			"machinetranslated": false,
+			"txt": "Lentille classique (autre que fisheye)"
 		},
 		{
 			"id": "focallengthdialog.caption",
@@ -5065,8 +5081,8 @@
 		},
 		{
 			"id": "focallengthdialog.loadfromdb",
-			"machinetranslated": true,
-			"txt": "Charger de la base de données de lentilles:"
+			"machinetranslated": false,
+			"txt": "Charger depuis la base de données de lentilles:"
 		},
 		{
 			"id": "focallengthdialog.choosepreset",
@@ -5080,8 +5096,8 @@
 		},
 		{
 			"id": "focallengthdialog.choosepreset.normal",
-			"machinetranslated": true,
-			"txt": "Lentille normale"
+			"machinetranslated": false,
+			"txt": "Lentille standard"
 		},
 		{
 			"id": "focallengthdialog.choosepreset.wide",
@@ -5120,8 +5136,8 @@
 		},
 		{
 			"id": "lensdatabase.exiflens",
-			"machinetranslated": true,
-			"txt": "Objectif EXIF"
+			"machinetranslated": false,
+			"txt": "EXIF de l'objectif"
 		},
 		{
 			"id": "lensdatabase.additemtxt",
@@ -5135,23 +5151,23 @@
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
-			"machinetranslated": true,
-			"txt": "Supprimer l'élément sélectionné? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer l'élément sélectionné? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleitems",
-			"machinetranslated": true,
-			"txt": "Supprimer les éléments %0 sélectionnés? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer les éléments %0 sélectionnés? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleassociation",
-			"machinetranslated": true,
-			"txt": "Supprimer l'association sélectionnée? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer l'association sélectionnée? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleassociations",
-			"machinetranslated": true,
-			"txt": "Supprimer les associations %0 sélectionnées? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer les associations %0 sélectionnées? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "lensdatabase.croppingcircle",
@@ -5170,8 +5186,8 @@
 		},
 		{
 			"id": "lensdatabase.longside",
-			"machinetranslated": true,
-			"txt": "(long côté)"
+			"machinetranslated": false,
+			"txt": "(Côté long)"
 		},
 		{
 			"id": "lensdatabase.shortside",
@@ -5210,8 +5226,8 @@
 		},
 		{
 			"id": "txt.analyzingimages",
-			"machinetranslated": true,
-			"txt": "Analyser des images"
+			"machinetranslated": false,
+			"txt": "Analyse des images"
 		},
 		{
 			"id": "txt.analyzingcontrolpoints",
@@ -5220,8 +5236,8 @@
 		},
 		{
 			"id": "txt.stitchingpanorama",
-			"machinetranslated": true,
-			"txt": "Génération de panorama"
+			"machinetranslated": false,
+			"txt": "Génération du panorama"
 		},
 		{
 			"id": "txt.convertingtoqtvr",
@@ -5235,13 +5251,13 @@
 		},
 		{
 			"id": "txt.finishingoutputfiles",
-			"machinetranslated": true,
-			"txt": "Finition des fichiers de sortie"
+			"machinetranslated": false,
+			"txt": "Finalisation des fichiers de sortie"
 		},
 		{
 			"id": "txt.finishingoutputfile",
-			"machinetranslated": true,
-			"txt": "Fin du fichier de sortie"
+			"machinetranslated": false,
+			"txt": "Finalisation du fichier de sortie"
 		},
 		{
 			"id": "err.nooutputfilename",
@@ -5250,13 +5266,13 @@
 		},
 		{
 			"id": "err.exposureopt.needtwoimages2",
-			"machinetranslated": true,
-			"txt": "Pour optimiser l'exposition et l'optimisation des couleurs, vous devez sélectionner au moins deux images se chevauchant. Appuyez sur @settings@ et sélectionnez deux images ou plus."
+			"machinetranslated": false,
+			"txt": "Pour optimiser l'exposition et les couleurs, vous devez sélectionner au moins deux images se chevauchant. Appuyez sur @settings@ et sélectionnez deux images ou plus."
 		},
 		{
 			"id": "err.notabatchlist",
 			"machinetranslated": true,
-			"txt": "Ce n'est pas une liste de lot PTGui."
+			"txt": "Ceci n'est pas une liste de lot PTGui."
 		},
 		{
 			"id": "err.lensparamsincompatiblewithv10",
@@ -5280,13 +5296,13 @@
 		},
 		{
 			"id": "err.lensdbfileincompatible",
-			"machinetranslated": true,
-			"txt": "Cette base de données d'objectifs a été créée avec une version plus récente de PTGui et n'est pas compatible avec cette version de PTGui. L'ouverture de cette base de données d'objectif nécessite %0 ou une version ultérieure."
+			"machinetranslated": false,
+			"txt": "Cette base de données d'objectifs a été créée avec une version plus récente de PTGui et n'est pas compatible avec cette version. L'ouverture de cette base de données d'objectif nécessite %0 ou une version ultérieure."
 		},
 		{
 			"id": "err.unexpectedendoffile",
-			"machinetranslated": true,
-			"txt": "Fin inattendue du fichier rencontré"
+			"machinetranslated": false,
+			"txt": "Fin du fichier non valide"
 		},
 		{
 			"id": "err.notjson",
@@ -5330,8 +5346,8 @@
 		},
 		{
 			"id": "warn.compat.txt2",
-			"machinetranslated": true,
-			"txt": "Par conséquent, toutes les fonctionnalités ne sont peut-être pas disponibles et le panorama résultant peut être différent de l'original."
+			"machinetranslated": false,
+			"txt": "Par conséquent, toutes les fonctionnalités ne seront peut-être pas disponibles et le panorama résultant pourrait être différent de l'original."
 		},
 		{
 			"id": "err.incompatibleprojectfromnewerversion",
@@ -5340,8 +5356,8 @@
 		},
 		{
 			"id": "err.psd30000",
-			"machinetranslated": true,
-			"txt": "Les fichiers Photoshop (.psd) ne peuvent pas dépasser 30000 pixels. Veuillez enregistrer dans un autre format de fichier."
+			"machinetranslated": false,
+			"txt": "Les fichiers Photoshop (.psd) ne peuvent pas dépasser 30000 pixels (hauteur ou largeur). Veuillez enregistrer dans un autre format de fichier."
 		},
 		{
 			"id": "err.outputfoldernotexist",
@@ -5350,13 +5366,13 @@
 		},
 		{
 			"id": "warn.psb300000",
-			"machinetranslated": true,
-			"txt": "Bien que PTGui puisse créer des fichiers de documents volumineux (.psb) de plus de 300 000 pixels, Photoshop ne pourra pas ouvrir de telles images."
+			"machinetranslated": false,
+			"txt": "Bien que PTGui puisse créer des fichiers de documents volumineux (.psb) de plus de 300 000 pixels(hauteur ou largeur), Photoshop ne pourra pas ouvrir de telles images."
 		},
 		{
 			"id": "err.jpg65500",
-			"machinetranslated": true,
-			"txt": "PTGui ne prend pas en charge l'enregistrement de fichiers JPEG d'une largeur supérieure ou égale à 65500 pixels. Veuillez enregistrer dans un autre format de fichier."
+			"machinetranslated": false,
+			"txt": "PTGui ne prend pas en charge l'enregistrement de fichiers JPEG d'une largeur ou hauteur supérieure à 65499 pixels. Veuillez choisir autre format de fichier."
 		},
 		{
 			"id": "err.nooutputcomponents",
@@ -5406,12 +5422,12 @@
 		{
 			"id": "txt.fillmask",
 			"machinetranslated": true,
-			"txt": "Remplir masque"
+			"txt": "Remplir un masque"
 		},
 		{
 			"id": "txt.paintmask",
 			"machinetranslated": true,
-			"txt": "Dessiner masque"
+			"txt": "Dessiner un masque"
 		},
 		{
 			"id": "err.cannotchangephysicallyrotateimages",
@@ -5510,18 +5526,18 @@
 		},
 		{
 			"id": "hdrradiance.err.invalid",
-			"machinetranslated": true,
-			"txt": "Ce n'est pas un fichier HDR Radiance valide."
+			"machinetranslated": false,
+			"txt": "Ce n'est pas un fichier de Radiance HDR valide."
 		},
 		{
 			"id": "hdrradiance.err.unsupported.xy",
-			"machinetranslated": true,
-			"txt": "Fichier Radiance HDR non pris en charge. Seuls les fichiers de la configuration \"-Y +X\" sont pris en charge."
+			"machinetranslated": false,
+			"txt": "Fichier de Radiance HDR non pris en charge. Seuls les fichiers de la configuration \"-Y +X\" sont pris en charge."
 		},
 		{
 			"id": "hdrradiance.err.unsupported.encoding",
-			"machinetranslated": true,
-			"txt": "Fichier Radiance HDR non pris en charge. Seuls les fichiers codés en 32-bit_rle_rgbe sont pris en charge."
+			"machinetranslated": false,
+			"txt": "Fichier de Radiance HDR non pris en charge. Seuls les fichiers codés en 32-bit_rle_rgbe sont pris en charge."
 		},
 		{
 			"id": "papywizard.err.noxml",
@@ -5545,13 +5561,13 @@
 		},
 		{
 			"id": "txt.pleasewait",
-			"machinetranslated": true,
-			"txt": "S'il vous plaît, attendez"
+			"machinetranslated": false,
+			"txt": "Merci de patienter"
 		},
 		{
 			"id": "txt.busywouldyouliketoabort",
-			"machinetranslated": true,
-			"txt": "Une opération est toujours en cours d'exécution. Voulez-vous l'avorter?"
+			"machinetranslated": false,
+			"txt": "Une opération est toujours en cours d'exécution. Voulez-vous l'arêter?"
 		},
 		{
 			"id": "tiff.outputover4gb",
@@ -5571,17 +5587,17 @@
 		{
 			"id": "psd.err.max30000",
 			"machinetranslated": true,
-			"txt": "Les fichiers .psd de Photoshop ne peuvent pas dépasser 30000 pixels."
+			"txt": "Les fichiers .psd de Photoshop ne peuvent pas dépasser 30000 pixels (Largeur ou hauteur)."
 		},
 		{
 			"id": "psd.err.over4gb",
-			"machinetranslated": true,
-			"txt": "La taille du fichier .psd de Photoshop a dépassé la taille de fichier maximale de 4 Go autorisée par la spécification. Choisissez plutôt le format Photoshop Large Document (.psb)."
+			"machinetranslated": false,
+			"txt": "La taille du fichier .psd de Photoshop a dépassé la taille de fichier maximale de 4 Go autorisée. Choisissez plutôt le format Photoshop Large Document (.psb)."
 		},
 		{
 			"id": "err.externalblender.tiffover4gb",
-			"machinetranslated": true,
-			"txt": "Un fichier TIFF à envoyer au plug-in de mélange dépasse la taille maximale de 4 Go. Le panorama est trop grand et doit être mélangé à l’aide du mélangeur interne.\n\nVeuillez choisir '@mainwindow.createpanoramatab.blendusing@: PTGui' à la place."
+			"machinetranslated": false,
+			"txt": "Un fichier TIFF, à envoyer au plug-in de fusion, dépasse la taille maximale de 4 Go. Le panorama est trop grand et doit être fusionné à l’aide de l'outil de fusion interne.\n\nVeuillez choisir '@mainwindow.createpanoramatab.blendusing@: PTGui' à la place."
 		},
 		{
 			"id": "err.filenotfound",
@@ -5710,8 +5726,8 @@
 		},
 		{
 			"id": "err.nothumbnailfound",
-			"machinetranslated": true,
-			"txt": "Aucune image miniature trouvée"
+			"machinetranslated": false,
+			"txt": "Aucune vignette trouvée"
 		},
 		{
 			"id": "err.couldnotwritetofolder",
@@ -5755,13 +5771,13 @@
 		},
 		{
 			"id": "err.anotherinstancerunning",
-			"machinetranslated": true,
-			"txt": "Une autre instance de PTGui semble être en cours d'exécution, mais il ne répond pas. Vous devrez peut-être y mettre fin manuellement dans le Gestionnaire des tâches. Le redémarrage de l'ordinateur devrait également résoudre le problème."
+			"machinetranslated": false,
+			"txt": "Une autre instance de PTGui semble être en cours d'exécution, mais celle-ci ne répond pas. Vous devrez peut-être y mettre fin manuellement avec le Gestionnaire des tâches. Le redémarrage de l'ordinateur devrait également résoudre le problème."
 		},
 		{
 			"id": "txt.mac.mustinstalltoapplicationsfolder",
-			"machinetranslated": true,
-			"txt": "%0 doit être installé dans le dossier %1 de votre ordinateur avant de pouvoir l'exécuter. Voulez-vous faire ça maintenant?"
+			"machinetranslated": false,
+			"txt": "%0 doit être installé dans le dossier %1 de votre ordinateur avant de pouvoir l'exécuter. Voulez-vous le faire maintenant?"
 		},
 		{
 			"id": "txt.mac.installtoapplicationsfolderalreadyexists",
@@ -5825,8 +5841,8 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"machinetranslated": true,
-			"txt": "Échec d'initialisation d'OpenCL. Nous aimerions résoudre ce problème. s'il vous plaît contacter support@@ptgui.com et nous donner la sortie de @menubar.help@ - @menubar.help.systeminfo@.\nErreur: "
+			"machinetranslated": false,
+			"txt": "Échec d'initialisation d'OpenCL. Nous aimerions résoudre ce problème. Merci de contacter support@@ptgui.com et de nous donner la sortie de @menubar.help@ - @menubar.help.systeminfo@.\nErreur: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -5845,18 +5861,18 @@
 		},
 		{
 			"id": "txt.aligningimages",
-			"machinetranslated": true,
-			"txt": "Aligner des images"
+			"machinetranslated": false,
+			"txt": "Aligner les images"
 		},
 		{
 			"id": "txt.dontaskthisagain",
-			"machinetranslated": true,
-			"txt": "Ne plus demander ça"
+			"machinetranslated": false,
+			"txt": "Ne plus demander ceci"
 		},
 		{
 			"id": "txt.dontshowthisagain",
-			"machinetranslated": true,
-			"txt": "Ne montre plus cela"
+			"machinetranslated": false,
+			"txt": "Ne plus montrer ceci"
 		},
 		{
 			"id": "txt.dontaskthisagainforthisproject",
@@ -5875,33 +5891,33 @@
 		},
 		{
 			"id": "txt.savingproject",
-			"machinetranslated": true,
-			"txt": "Enregistrer projet"
+			"machinetranslated": false,
+			"txt": "Enregistrer le projet"
 		},
 		{
 			"id": "txt.loadingproject",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Chargement du projet"
 		},
 		{
 			"id": "txt.loadingtemplate",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Chargement du modèle"
 		},
 		{
 			"id": "txt.savingtemplate",
-			"machinetranslated": true,
-			"txt": "Enregistrer modèle"
+			"machinetranslated": false,
+			"txt": "Enregistrer le modèle"
 		},
 		{
 			"id": "txt.exportingproject",
-			"machinetranslated": true,
-			"txt": "Exporer projet"
+			"machinetranslated": false,
+			"txt": "Exporer le projet"
 		},
 		{
 			"id": "txt.asksavefirsttime",
 			"machinetranslated": true,
-			"txt": "Le projet actuel n'a pas encore été enregistré. L'enregistrement du fichier de projet vous permet de continuer là où vous l'avez laissé.\n\nEnregistrer le projet?"
+			"txt": "Le projet actuel n'a pas encore été enregistré. L'enregistrement du fichier du projet vous permet de continuer là où vous l'avez laissé.\n\nEnregistrer le projet?"
 		},
 		{
 			"id": "txt.asksavechanges",
@@ -5940,8 +5956,8 @@
 		},
 		{
 			"id": "err.notfoundaskforfolder2",
-			"machinetranslated": true,
-			"txt": "Aucune des images n'a été trouvée dans le dossier donné. Voulez-vous essayer un autre dossier?"
+			"machinetranslated": false,
+			"txt": "Aucune des images n'a été trouvée dans le dossier spécifié. Voulez-vous essayer un autre dossier?"
 		},
 		{
 			"id": "err.notfoundaskforfolder3",
@@ -5980,8 +5996,8 @@
 		},
 		{
 			"id": "txt.optimizing",
-			"machinetranslated": true,
-			"txt": "L'optimisation"
+			"machinetranslated": false,
+			"txt": "Optimisation"
 		},
 		{
 			"id": "err.optimizerfailed",
@@ -5990,13 +6006,13 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"machinetranslated": true,
-			"txt": "Le projet semble contenir des ensembles %0 d'expositions encadrées %1. Souhaitez-vous lier les positions des photos bracketées et traiter chaque série comme une seule image?\n\nCela nécessite que les photos bracketées soient déjà alignées sur la précision des pixels. Faites ceci uniquement si un trépied était utilisé. Si les images ont été prises sans trépied, choisissez @cancel@."
+			"machinetranslated": false,
+			"txt": "Le projet semble contenir des ensembles %0 d'expositions bracketées %1. Souhaitez-vous lier les positions des photos bracketées et traiter chaque série comme une seule image?\n\nCela nécessite que les photos bracketées soient déjà alignées avec une précision à l'échelle du pixel. Faites ceci uniquement si un trépied aété utilisé. Si les images ont été prises sans trépied, choisissez @cancel@."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
-			"machinetranslated": true,
-			"txt": "Le projet semble contenir des ensembles %0 d'expositions encadrées %1. Qu'est-ce que tu aimerais faire?"
+			"machinetranslated": false,
+			"txt": "Le projet semble contenir des ensembles %0 d'expositions bracketées %1. Que souhaitez-vous faire?"
 		},
 		{
 			"id": "err.nobracketedfound",
@@ -6050,13 +6066,13 @@
 		},
 		{
 			"id": "papywizardimport.numimagesmismatch",
-			"machinetranslated": true,
-			"txt": "Le fichier de données Papywizard contient %0 images, tandis que le projet PTGui en cours contient %1 images. Êtes-vous sûr que c'est vrai?"
+			"machinetranslated": false,
+			"txt": "Le fichier de données Papywizard contient %0 images, tandis que le projet PTGui en cours contient %1 images. Êtes-vous sûr que c'est correct?"
 		},
 		{
 			"id": "papywizardimport.numimagesmismatchbracketed",
-			"machinetranslated": true,
-			"txt": "Le fichier de données Papywizard contient %0 ensembles de photos bracketées, tandis que le projet PTGui en cours comporte %1 ensembles. Êtes-vous sûr que c'est vrai?"
+			"machinetranslated": false,
+			"txt": "Le fichier de données Papywizard contient %0 ensembles de photos bracketées, tandis que le projet PTGui en cours comporte %1 ensembles. Êtes-vous sûr que c'est correct?"
 		},
 		{
 			"id": "papywizardimport.firstloadimages",
@@ -6085,8 +6101,8 @@
 		},
 		{
 			"id": "err.psd4gb",
-			"machinetranslated": true,
-			"txt": "Les fichiers Photoshop (.psd) peuvent contenir jusqu'à 4 gigaoctets. La taille estimée du fichier Photoshop résultant est supérieure à ce maximum, ce qui donne un fichier illisible. Veuillez passer à un autre format de fichier (tel que Photoshop Large Document, .psb)."
+			"machinetranslated": false,
+			"txt": "Les fichiers Photoshop (.psd) peuvent contenir jusqu'à 4 gigaoctets. La taille estimée du fichier Photoshop résultant est supérieure à ce maximum. Le fichier sera illisible. Veuillez choisir un autre format de fichier (tel que Photoshop Large Document, .psb)."
 		},
 		{
 			"id": "err.fovtoolargeforprojection",
@@ -6155,8 +6171,8 @@
 		},
 		{
 			"id": "publishtowebsite.invalidtemplate",
-			"machinetranslated": true,
-			"txt": "Le fichier de modèle n'est pas valide: %0\n\nLe modèle doit contenir les balises suivantes:\n%1\nVoir l'aide pour plus d'informations."
+			"machinetranslated": false,
+			"txt": "Le fichier de modèle n'est pas valide: %0\n\nLe modèle doit contenir les balises suivantes:\n%1\nConsulter l'aide pour plus d'informations."
 		},
 		{
 			"id": "publishtowebsite.megapixelstxt",
@@ -6185,8 +6201,8 @@
 		},
 		{
 			"id": "publishtowebsite.savetosamefolder",
-			"machinetranslated": true,
-			"txt": "Enregistrer dans des fichiers portant le même nom dans le dossier de l'image source"
+			"machinetranslated": false,
+			"txt": "Enregistrer les fichiers avec les mêmes noms que ceux du répertoire source des images"
 		},
 		{
 			"id": "publishtowebsite.saveas",
@@ -6245,8 +6261,8 @@
 		},
 		{
 			"id": "publishtowebsite.create.images",
-			"machinetranslated": true,
-			"txt": "Seulement images"
+			"machinetranslated": false,
+			"txt": "Seulement les images"
 		},
 		{
 			"id": "publishtowebsite.create.resolution",
@@ -6301,7 +6317,7 @@
 		{
 			"id": "publishtowebsite.showfullscreen",
 			"machinetranslated": true,
-			"txt": "Bouton Afficher le plein écran:"
+			"txt": "Bouton Afficher en plein écran:"
 		},
 		{
 			"id": "publishtowebsite.showfullscreen.yes",
@@ -6335,13 +6351,13 @@
 		},
 		{
 			"id": "publishtowebsite.mousenav.drag",
-			"machinetranslated": true,
-			"txt": "Traîne"
+			"machinetranslated": false,
+			"txt": "Drag"
 		},
 		{
 			"id": "publishtowebsite.mousenav.moveto",
-			"machinetranslated": true,
-			"txt": "Déménager à"
+			"machinetranslated": false,
+			"txt": "Déplacer"
 		},
 		{
 			"id": "publishtowebsite.webpagetitle",
@@ -6356,7 +6372,7 @@
 		{
 			"id": "publishtowebsite.createtemplate",
 			"machinetranslated": true,
-			"txt": "Créer modèle"
+			"txt": "Créer un modèle"
 		},
 		{
 			"id": "trialversion.title",
@@ -6380,18 +6396,18 @@
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
-			"machinetranslated": true,
-			"txt": "Bande visages de cube (6x1)"
+			"machinetranslated": false,
+			"txt": "Faces du cube en ligne (6x1)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefaces",
-			"machinetranslated": true,
-			"txt": "Visages de cube, 6 fichiers séparés"
+			"machinetranslated": false,
+			"txt": "Faces du cube, 6 fichiers séparés"
 		},
 		{
 			"id": "cubicconverter.cubefacenaming",
-			"machinetranslated": true,
-			"txt": "Noms de visages de cube"
+			"machinetranslated": false,
+			"txt": "Noms des faces du cube"
 		},
 		{
 			"id": "cubicconverter.savetosamefolder",
@@ -6405,8 +6421,8 @@
 		},
 		{
 			"id": "cubicconverter.converting",
-			"machinetranslated": true,
-			"txt": "Conversion d'image"
+			"machinetranslated": false,
+			"txt": "Conversion de l'image"
 		},
 		{
 			"id": "cubicconverter.convertingmultiple",
@@ -6430,8 +6446,8 @@
 		},
 		{
 			"id": "cameradatabase.diagonal",
-			"machinetranslated": true,
-			"txt": "Taille diagonale"
+			"machinetranslated": false,
+			"txt": "Taille de la diagonale"
 		},
 		{
 			"id": "cameradatabase.toadd",
@@ -6440,13 +6456,13 @@
 		},
 		{
 			"id": "cameradatabase.confirmdelete1",
-			"machinetranslated": true,
-			"txt": "Supprimer l'élément sélectionné? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer l'élément sélectionné? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "cameradatabase.confirmdeletemultiple",
-			"machinetranslated": true,
-			"txt": "Supprimer les éléments %0 sélectionnés? Ça ne peut pas être annulé."
+			"machinetranslated": false,
+			"txt": "Supprimer les éléments %0 sélectionnés? Cela ne pourra pas être annulé."
 		},
 		{
 			"id": "qtvrsettings.cubefacesizetxt",
@@ -6465,8 +6481,8 @@
 		},
 		{
 			"id": "gridsetup.applyto",
-			"machinetranslated": true,
-			"txt": "Postuler à:"
+			"machinetranslated": false,
+			"txt": "Appliquer à:"
 		},
 		{
 			"id": "gridsetup.allimages",
@@ -6520,8 +6536,8 @@
 		},
 		{
 			"id": "gridsetup.shootingconfiguration",
-			"machinetranslated": true,
-			"txt": "Configuration de tournage"
+			"machinetranslated": false,
+			"txt": "Configuration de la prise de vue"
 		},
 		{
 			"id": "gridsetup.byrow",
@@ -6615,8 +6631,8 @@
 		},
 		{
 			"id": "gridsetup.stretch360",
-			"machinetranslated": true,
-			"txt": "Étirer jusqu'à un panorama à 360°"
+			"machinetranslated": false,
+			"txt": "Étirer jusqu'à un panorama de 360°"
 		},
 		{
 			"id": "gridsetup.verticalaxis",
@@ -6655,8 +6671,8 @@
 		},
 		{
 			"id": "gridsetup.dontchange",
-			"machinetranslated": true,
-			"txt": "Ne changez pas"
+			"machinetranslated": false,
+			"txt": "Ne pas changer"
 		},
 		{
 			"id": "gridsetup.setto",
@@ -6701,8 +6717,8 @@
 		},
 		{
 			"id": "gridsetup.erremptyproject",
-			"machinetranslated": true,
-			"txt": "Le projet actuel est vide. veuillez charger quelques images en premier."
+			"machinetranslated": false,
+			"txt": "Le projet actuel est vide. Veuillez tout d'abord charger des images."
 		},
 		{
 			"id": "gridsetup.errtoofewimages",
@@ -6786,8 +6802,8 @@
 		},
 		{
 			"id": "activationdialog.tx1",
-			"machinetranslated": true,
-			"txt": "La clé d'enregistrement est incluse dans l'e-mail de confirmation de commande qui vous a été envoyé après l'achat de la licence %0."
+			"machinetranslated": false,
+			"txt": "La clé d'enregistrement est incluse dans l'e-mail de confirmation de commande qui vous a été envoyé suite à l'achat de la licence %0."
 		},
 		{
 			"id": "activationdialog.txt2_mac",
@@ -6801,9 +6817,9 @@
 		},
 		{
 			"id": "activationdialog.txt3",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
-			"txt": "Si vous avez perdu votre clé d'enregistrement, <a href=0>cliquez ici pour récupérer votre clé.</a>"
+			"txt": "Si vous avez perdu votre clé d'enregistrement, <a href=0>cliquez ici pour la récupérer.</a>"
 		},
 		{
 			"id": "activationdialog.txt4",
@@ -6832,8 +6848,8 @@
 		},
 		{
 			"id": "ptguiviewer.warnopenmanyfiles",
-			"machinetranslated": true,
-			"txt": "Vous essayez d'ouvrir les fichiers %0 simultanément. Êtes-vous sûr que ce soit ce que vous voulez faire?"
+			"machinetranslated": false,
+			"txt": "Vous essayez d'ouvrir les fichiers %0 simultanément. Est-ce bien ce que vous voulez faire?"
 		},
 		{
 			"id": "ptguiviewer.openpanorama",
@@ -6882,13 +6898,13 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.stitchingoncpu",
-			"machinetranslated": true,
-			"txt": "Traitement sur la CPU."
+			"machinetranslated": false,
+			"txt": "Traitement sur le CPU."
 		},
 		{
 			"id": "err.blenderfailednooutput",
-			"machinetranslated": true,
-			"txt": "%0 a échoué: le fichier de sortie n’a pas été généré. Cela peut être dû à un manque de mémoire ou d'espace disque. Essayez de créer le panorama à une taille plus petite."
+			"machinetranslated": false,
+			"txt": "%0 a échoué: le fichier de sortie n’a pas été généré. Cela peut être dû à un manque de mémoire ou d'espace disque. Essayez de réduire la taille du panorama."
 		},
 		{
 			"id": "batchbuilder.alignmode.true",
@@ -6928,14 +6944,14 @@
 		},
 		{
 			"id": "warn.alignimagesmissingcontrolpoints",
-			"machinetranslated": true,
-			"txt": "PTGui a analysé vos images mais n'a pas été en mesure de les faire correspondre à toutes. Pour aligner toutes les images, vous devrez ajouter quelques points de contrôle manuellement. Ces points de contrôle indiquent quelles parties des images doivent se chevaucher.\n\nL'Assistant des points de contrôle fournit des informations détaillées sur les images nécessitant des points de contrôle supplémentaires.\n\nVoulez-vous ajouter des points de contrôle maintenant?"
+			"machinetranslated": false,
+			"txt": "PTGui a analysé vos images mais n'a pas été en mesure de toutes les faire correspondre. Pour aligner toutes les images, vous devrez ajouter des points de contrôle manuellement. Ces points de contrôle indiquent quelles parties des images doivent se chevaucher.\n\nL'Assistant des points de contrôle fournit des informations détaillées sur les images nécessitant des points de contrôle supplémentaires.\n\nVoulez-vous ajouter des points de contrôle maintenant?"
 		},
 		{
 			"id": "trialversion.txt",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
-			"txt": "<font size=2>%0 Version d'évaluation</font><br><br>Ceci est une version d'évaluation gratuite du logiciel d'imagerie panoramique %0. Cette version d’évaluation vous permet d’évaluer le logiciel et présente les limitations suivantes<br><br>- les panoramas générés contiendront un filigrane visible 'www.ptgui.com'<br>- les fichiers de projet de la version d'évaluation ne peuvent être lus que par PTGui; exporter vers d'autres applications n'est pas possible.<br><br>À l'exception des limitations ci-dessus, la version d'évaluation est entièrement fonctionnelle. Les limitations d'évaluation peuvent être supprimées en achetant une licence. Votre achat soutient le développement futur de PTGui! Cliquez sur le bouton @trialversion.buyptgui@ pour plus d'informations.<br><br><b>Merci d'avoir essayé %0!</b>"
+			"txt": "<font size=2>%0 Version d'évaluation</font><br><br>Ceci est une version d'évaluation gratuite du logiciel de création de panorama %0. Cette version vous permet d’évaluer le logiciel et présente les limitations suivantes<br><br>- les panoramas générés contiendront un filigrane visible 'www.ptgui.com'<br>- les fichiers de projet de la version d'évaluation ne peuvent être lus que par PTGui; exporter vers d'autres applications n'est pas possible.<br><br>À l'exception des limitations ci-dessus, la version d'évaluation est entièrement fonctionnelle. Les limitations d'évaluation peuvent être supprimées en achetant une licence. Votre achat soutient les développements futurs de PTGui! Cliquez sur le bouton @trialversion.buyptgui@ pour plus d'informations.<br><br><b>Merci d'avoir essayé %0!</b>"
 		},
 		{
 			"id": "gridsetup.order",
@@ -6959,13 +6975,13 @@
 		},
 		{
 			"id": "txt.genericrectilinearlens",
-			"machinetranslated": true,
-			"txt": "Lentille Rectiligne Générique"
+			"machinetranslated": false,
+			"txt": "objectif Rectiligne Générique"
 		},
 		{
 			"id": "txt.genericfisheyelens",
-			"machinetranslated": true,
-			"txt": "Fisheye Lens Générique"
+			"machinetranslated": false,
+			"txt": "Objectif de type Fisheye Générique"
 		},
 		{
 			"id": "options.gpuacceleration.crashwhileloadingopencldll",
@@ -6994,8 +7010,8 @@
 		},
 		{
 			"id": "batchstitcher.askmergebatchlist",
-			"machinetranslated": true,
-			"txt": "La liste de lots en cours n'a pas encore été complètement traitée. Voulez-vous fermer la liste de lots actuelle et la remplacer par celle-ci? Ou les projets de cette liste de lots doivent-ils être ajoutés à la liste de lots actuelle?"
+			"machinetranslated": false,
+			"txt": "La liste de lots en cours n'a pas encore été complètement traitée. Voulez-vous fermer la liste de lots actuelle et la remplacer par celle-ci? Ou bien les projets de cette liste de lots doivent-ils être ajoutés à la liste de lots actuelle?"
 		},
 		{
 			"id": "batchbuilder.helptext.appendbatchlist",
@@ -7031,13 +7047,13 @@
 		},
 		{
 			"id": "batchbuilder.deleteprojectswhendone",
-			"machinetranslated": true,
-			"txt": "Supprimer les fichiers de projet après le traitement par lots"
+			"machinetranslated": false,
+			"txt": "Supprimer les fichiers du projet après le traitement par lots"
 		},
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
-			"machinetranslated": true,
-			"txt": "Envoyer la liste de lots générée à Stitcher par lots"
+			"machinetranslated": false,
+			"txt": "Envoyer à Stitcher la liste de lots générée par lots"
 		},
 		{
 			"id": "options.rawfilesupport",
@@ -7086,8 +7102,8 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blending",
-			"machinetranslated": true,
-			"txt": "Mélanger:"
+			"machinetranslated": false,
+			"txt": "Fusionner:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
@@ -7096,8 +7112,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blending",
-			"machinetranslated": true,
-			"txt": "Mélanger sur les coutures"
+			"machinetranslated": false,
+			"txt": "Fusionner sur les coutures"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
@@ -7132,7 +7148,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings",
 			"machinetranslated": true,
-			"txt": "Mélanger"
+			"txt": "Fusionner"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
@@ -7161,8 +7177,8 @@
 		},
 		{
 			"id": "err.iccprofilenotrgb",
-			"machinetranslated": true,
-			"txt": "Pas un profil de couleurs RVB. Un profil de couleur RVB est nécessaire, par exemple les profils CMJN ne sont pas pris en charge."
+			"machinetranslated": false,
+			"txt": "Cen'est pas un profil de couleurs RVB. Un profil de couleur RVB est nécessaire, par exemple les profils CMJN ne sont pas pris en charge."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
@@ -7191,8 +7207,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
-			"machinetranslated": true,
-			"txt": "Appliquer Exposure Fusion"
+			"machinetranslated": false,
+			"txt": "Appliquer la Fusoin d'Exposition"
 		},
 		{
 			"id": "mainwindow.imageparameters.cameracurve",
@@ -7226,13 +7242,13 @@
 		},
 		{
 			"id": "txt.toningparameters",
-			"machinetranslated": true,
-			"txt": "Paramètres de tonification"
+			"machinetranslated": false,
+			"txt": "Paramètres de modification des tons"
 		},
 		{
 			"id": "txt.toningcurve",
-			"machinetranslated": true,
-			"txt": "Courbe de tonification"
+			"machinetranslated": false,
+			"txt": "Courbe de modification des tons"
 		},
 		{
 			"id": "txt.toningcurve.shape",
@@ -7292,12 +7308,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
 			"machinetranslated": true,
-			"txt": "Half float"
+			"txt": "demi flotant"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
 			"machinetranslated": true,
-			"txt": "Float"
+			"txt": "Flotant"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
@@ -7308,8 +7324,8 @@
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
-			"machinetranslated": true,
-			"helptext": "Fermez le programme d'agitation par lots lorsque le dernier projet est terminé."
+			"machinetranslated": false,
+			"helptext": "Fermez le programme de stitch par lots lorsque le dernier projet est terminé."
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
@@ -7333,8 +7349,8 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.draw",
-			"machinetranslated": true,
-			"helptext": "Utilisez l'outil Crayon pour dessiner des lignes. Maintenez la touche Maj enfoncée tout en cliquant pour tracer des lignes droites."
+			"machinetranslated": false,
+			"helptext": "Utilisez l'outil pinceau pour dessiner des lignes. Maintenez la touche Maj enfoncée tout en cliquant pour tracer des lignes droites."
 		},
 		{
 			"id": "mainwindow.maskmenu.eraser",
@@ -7348,8 +7364,8 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
-			"machinetranslated": true,
-			"helptext": "Peindre avec du vert. Le mélangeur donnera la priorité aux zones peintes en vert."
+			"machinetranslated": false,
+			"helptext": "Peindre avec du vert. l'outil de fuision donnera la priorité aux zones peintes en vert."
 		},
 		{
 			"id": "menubar.images.unlinkall",
@@ -7358,8 +7374,8 @@
 		},
 		{
 			"id": "menubar.images.linkbracketed",
-			"machinetranslated": true,
-			"helptext": "Détecter les photos bracketées et relier-les."
+			"machinetranslated": false,
+			"helptext": "Détecter les photos bracketées et les lier."
 		},
 		{
 			"id": "menubar.images.reverseorder",
@@ -7418,8 +7434,8 @@
 		},
 		{
 			"id": "menubar.images.remove",
-			"machinetranslated": true,
-			"helptext": "Supprime la ou les images sélectionnées du projet."
+			"machinetranslated": false,
+			"helptext": "Supprime la ou les images sélectionnée(s) du projet."
 		},
 		{
 			"id": "addimages",
@@ -7429,7 +7445,7 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": true,
-			"helptext": "La base de données de lentilles peut être utilisée pour stocker et récupérer des paramètres de lentille personnalisés."
+			"helptext": "La base de données de lentilles peut être utilisée pour stocker et récupérer des paramètres d'objectifs personnalisés."
 		},
 		{
 			"id": "cameradatabase",
@@ -7443,8 +7459,8 @@
 		},
 		{
 			"id": "batchbuilder",
-			"machinetranslated": true,
-			"helptext": "Générateur de Lots peut être utilisé pour générer automatiquement des fichiers de projet pour des dossiers contenant des images."
+			"machinetranslated": false,
+			"helptext": "Le générateur de Lots peut être utilisé pour générer automatiquement des fichiers de projet pour des dossiers contenant des images."
 		},
 		{
 			"id": "batchstitcher",
@@ -7488,8 +7504,8 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"machinetranslated": true,
-			"helptext": "Convertit un panorama sphérique en 6 faces de cube."
+			"machinetranslated": false,
+			"helptext": "Convertit un panorama sphérique en 6 faces d'un cube."
 		},
 		{
 			"id": "menubar.tools.publishtowebsite",
@@ -7499,7 +7515,7 @@
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
 			"machinetranslated": true,
-			"helptext": "Envoyez le projet en cours à Batch Stitcher pour traitement. Une copie du projet en cours est enregistrée sous un nom de fichier temporaire, qui est envoyé au programme d'agitation par lots."
+			"helptext": "Envoyez le projet en cours à Batch Stitcher pour traitement. Une copie du projet en cours est enregistrée sous un nom de fichier temporaire, qui est envoyé au programme de stitching par lots."
 		},
 		{
 			"id": "menubar.project.preview",
@@ -7508,8 +7524,8 @@
 		},
 		{
 			"id": "menubar.project.initializeandoptimize",
-			"machinetranslated": true,
-			"helptext": "Réinitialisez les paramètres de l'objectif et réinitialisez la position de toutes les images source."
+			"machinetranslated": false,
+			"helptext": "Réinitialisez les paramètres de l'objectif et réinitialisez la position de toutes les images sourcse."
 		},
 		{
 			"id": "menubar.project.aligntogrid",
@@ -7633,8 +7649,8 @@
 		},
 		{
 			"id": "mainwindow.toolbar.options",
-			"machinetranslated": true,
-			"label": "Les options"
+			"machinetranslated": false,
+			"label": "Options"
 		},
 		{
 			"id": "mainwindow.toolbar.zoomin",
@@ -7658,21 +7674,21 @@
 		},
 		{
 			"id": "mainwindow.toolbar.panoramaeditor",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@panoramaeditor@",
-			"helptext": "L'éditeur de panorama affiche un aperçu en direct du panorama cousu et offre des options pour la mise à niveau, le rognage et le réglage de la projection et du champ de vision."
+			"helptext": "L'éditeur de panorama affiche un aperçu en direct du panorama réalisé. il permet également l'ajustement du niveau lumineux, le recadrage, le réglage de la projection et du champ de vision."
 		},
 		{
 			"id": "mainwindow.toolbar.controlpointstable",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@controlpointstable@",
-			"helptext": "Ceci répertorie tous les points de contrôle du projet en cours."
+			"helptext": "Ceci liste tous les points de contrôle du projet en cours."
 		},
 		{
 			"id": "mainwindow.toolbar.controlpointsassistant",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@controlpointassistant@",
-			"helptext": "L'assistant de points de contrôle aide à diagnostiquer les problèmes liés au placement des points de contrôle. Il avertira par exemple des images sans points de contrôle ou points de contrôle égarés."
+			"helptext": "L'assistant de points de contrôle aide à diagnostiquer les problèmes liés au placement des points de contrôle. Il avertira par exemple des images sans points de contrôle ou des points de contrôle mal placés."
 		},
 		{
 			"id": "mainwindow.toolbar.help",
@@ -7682,9 +7698,9 @@
 		},
 		{
 			"id": "projectassistant.loadimages",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Chargez les images source pour le panorama.",
-			"morehelptext": "<br><br>PTGui peut assembler des panoramas composés de plusieurs rangées d'images. Il vous suffit de charger toutes vos images source en même temps, PTGui déterminera de quelle manière elles se chevauchent.<br><br>Voir aussi: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
+			"morehelptext": "<br><br>PTGui peut assembler des panoramas composés de plusieurs rangées d'images. Il vous suffit de charger toutes vos images source en même temps, PTGui déterminera de quelle manière elles s'assemblent.<br><br>Voir aussi: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.images",
@@ -7722,10 +7738,10 @@
 		},
 		{
 			"id": "lensparams.globallens",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Profils d'objectif",
 			"helptext": "Un projet peut contenir un ou plusieurs profils d'objectif. Initialement, il existe un seul profil d'objectif nommé &quot;@txt.globallensprofile@&quot; pour toutes les images.",
-			"morehelptext": "<br><br>Un profil d'objectif peut être ajouté en cliquant sur le bouton + ci-dessous. Plusieurs profils d'objectif sont créés automatiquement si des images avec différentes données d'objectif EXIF ​​sont ajoutées au projet. S'il y a plus d'un profil d'objectif, chaque image peut se voir attribuer un profil d'objectif dans la liste '@mainwindow.lensparams.useindividual@' ci-dessous.<br><br>Chaque profil d'objectif contient ses propres paramètres d'objectif, <optional product='pro'>paramètres de vignettage et de courbe de caméra,</optional> paramètres décalage et @shear@ et paramètres de recadrage."
+			"morehelptext": "<br><br>Un profil d'objectif peut être ajouté en cliquant sur le bouton + ci-dessous. Plusieurs profils d'objectif sont créés automatiquement si des images avec différentes données d'objectif EXIF ​​sont ajoutées au projet. S'il y a plus d'un profil d'objectif, chaque image peut se voir attribuer un profil d'objectif dans la liste '@mainwindow.lensparams.useindividual@' ci-dessous.<br><br>Chaque profil d'objectif contient ses propres paramètres d'objectif, <optional product='pro'>paramètres de vignettage et de distorsion,</optional> paramètres décalage et @shear@ et paramètres de recadrage."
 		},
 		{
 			"id": "lensparams.globallens.add",
@@ -7739,20 +7755,20 @@
 		},
 		{
 			"id": "lensparams.lenstype",
-			"machinetranslated": true,
-			"helptext": "Type de lentille. Dans la plupart des cas, PTGui peut déterminer cela automatiquement, en inspectant les données EXIF ​​de l'image.",
+			"machinetranslated": false,
+			"helptext": "Type d'objectif. Dans la plupart des cas, PTGui peut déterminer cela automatiquement, en inspectant les données EXIF ​​de l'image.",
 			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> est le type d'objectif le plus répandu. Les lignes droites dans la scène sont affichées sous forme de lignes droites dans l'image.<br><br><b>@+projection.cylindrical@:</b> peut être utilisé pour charger une image panoramique cylindrique en tant qu'image source.<br><br><b>Les</b> objectifs <b>@+projection.fisheye@</b> ont généralement un champ de vision plus large que les objectifs ordinaires, mais les lignes droites sont projetées sous forme de lignes courbes dans l’image. <b>Les</b> objectifs <b>@projection.circularfisheye@</b> ont un champ de vision de 180° ou plus et projettent une image circulaire qui ne couvre pas la totalité du cadre. Un objectif <b>@projection.fullframefisheye@</b> a un champ de vision plus étroit et couvre l’ensemble de l’image.<br><br><b>@+projection.equirectangular@:</b> pour charger un panorama sphérique déjà <b>assemblé en</b> tant qu'image source."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Les paramètres d'objectif peuvent être stockés dans la base de données d'objectif pour une utilisation ultérieure.",
-			"morehelptext": "<br><br>La base de données d'objectif est initialement vide, vous pouvez l'utiliser pour stocker vos propres paramètres. Chaque enregistrement est composé des paramètres de l’objectif, des paramètres de décalage et @shear@ et des paramètres de recadrage. Utilisez @save@ pour enregistrer les paramètres actuellement sélectionnés dans la base de données d'objectif ou @load@ pour les lire dans la base de données d'objectif.<br><br>Un enregistrement de base de données d'objectif peut être associé aux données EXIF ​​des images actuellement chargées, de sorte que les paramètres d'objectif soient appliqués automatiquement lorsqu'une image similaire est chargée. Cela peut être fait en cliquant sur le bouton EXIF ​​ci-dessous.<br><br>La base de données d'objectifs peut être ouverte via le menu @menubar.tools@. Voir aussi: <a href='helppage:lensdatabase'>Utilisation de la base de données Lens</a>"
+			"morehelptext": "<br><br>La base de données d'objectif est initialement vide, vous pouvez l'utiliser pour stocker vos propres paramètres. Chaque enregistrement est composé des paramètres de l’objectif, des paramètres de décalage et @shear@ et des paramètres de recadrage. Utilisez @save@ pour enregistrer les paramètres actuellement sélectionnés dans la base de données d'objectif ou @load@ pour les lire dans la base de données d'objectif.<br><br>Un enregistrement de base de données d'objectif peut être associé aux données EXIF ​​des images actuellement chargées, de sorte que les paramètres d'objectif soient appliqués automatiquement lorsqu'une image similaire est chargée. Cela peut être fait en cliquant sur le bouton EXIF ​​ci-dessous.<br><br>La base de données d'objectifs peut être ouverte via le menu @menubar.tools@. Voir aussi: <a href='helppage:lensdatabase'>Utilisation de la base de données d'objectifs</a>"
 		},
 		{
 			"id": "lensparams.focallength",
-			"machinetranslated": true,
-			"helptext": "Longueur focale (en millimètres) de la lentille. PTGui peut souvent déterminer cela automatiquement à partir des données EXIF. Entrez la distance focale réelle et non la distance focale équivalente à 35mm.<br><br>La valeur n'a pas besoin d'être très précise; PTGui a simplement besoin d'une estimation approximative de la distance focale lors de l'exécution de '@alignimages@'. Après avoir généré les points de contrôle et exécuté l'optimiseur, cette valeur sera mise à jour avec la focale optimisée."
+			"machinetranslated": false,
+			"helptext": "Longueur focale (en millimètres) de la lentille. PTGui peut souvent déterminer cela automatiquement à partir des données EXIF. Entrez la distance focale réelle et non la distance focale équivalente à 35mm.<br><br>La valeur n'a pas besoin d'être très précise; PTGui a simplement besoin d'une estimation de la distance focale lors de l'exécution de '@alignimages@'. Après avoir généré les points de contrôle et exécuté l'optimiseur, cette valeur sera mise à jour avec la focale optimisée."
 		},
 		{
 			"id": "lensparams.theoreticalfocallength",
@@ -7772,20 +7788,20 @@
 		},
 		{
 			"id": "lensparams.abc",
-			"machinetranslated": true,
-			"helptext": "Paramètres de distorsion radiale de l'objectif (a / b / c): pour compenser la distorsion en barillet et en pince. PTGui détermine ces valeurs automatiquement.",
+			"machinetranslated": false,
+			"helptext": "Paramètres de distorsion radiale de l'objectif (a / b / c): pour compenser la distorsion en barillet et en coussinet. PTGui détermine ces valeurs automatiquement.",
 			"morehelptext": "<br><br>La distorsion de l'objectif est compensée à l'aide d'une fonction de mappage polynomiale du troisième ordre ('a' étant le coefficient le plus élevé). L’optimisation de a / b / c est activée par défaut; cela peut être configuré dans l'onglet @mainwindow.tabs.optimizer@. Pour une optimisation précise, utilisez des images sans parallaxe et veillez à ce que les points de contrôle soient répartis sur toute la zone de chevauchement."
 		},
 		{
 			"id": "lensparams.shift",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Compensation du décalage de l'objectif, pour compenser le décalage entre le centre optique de l'objectif et le centre de l'image. PTGui détermine ces valeurs automatiquement.",
-			"morehelptext": "<br><br>La correction de distorsion de l'objectif et le gauchissement panoramique doivent être appliqués par rapport au centre optique de l'objectif. En raison des tolérances mécaniques, souvent, l’axe optique de l’objectif ne pointe pas exactement vers le centre du capteur de l’appareil photo. Pour une couture précise, ce décalage doit être compensé.<br><br>Le décalage est exprimé en pourcentage des côtés long et court des images. Ainsi, les mêmes valeurs peuvent être utilisées pour des images de tailles différentes, ainsi que pour des images en orientation paysage et portrait.<br><br>Par défaut, PTGui utilise la même valeur de décalage pour toutes les images du projet (ou pour toutes les images utilisant le même profil d'objectif). Si un objectif inclinable a été utilisé avec des réglages de décalage différents pour chaque image, vous pouvez activer les réglages de décalage individuels pour chaque image dans la liste '@mainwindow.lensparams.useindividual@' ci-dessous."
+			"morehelptext": "<br><br>La correction de distorsion de l'objectif et le gauchissement panoramique doivent être appliqués par rapport au centre optique de l'objectif. En raison des tolérances mécaniques, souvent, l’axe optique de l’objectif ne pointe pas exactement vers le centre du capteur de l’appareil photo. Pour une juxtaposition précise, ce décalage doit être compensé.<br><br>Le décalage est exprimé en pourcentage des côtés long et court des images. Ainsi, les mêmes valeurs peuvent être utilisées pour des images de tailles différentes, ainsi que pour des images en orientation paysage et portrait.<br><br>Par défaut, PTGui utilise la même valeur de décalage pour toutes les images du projet (ou pour toutes les images utilisant le même profil d'objectif). Si un objectif inclinable a été utilisé avec des réglages de décalage différents pour chaque image, vous pouvez activer les réglages de décalage individuels pour chaque image dans la liste '@mainwindow.lensparams.useindividual@' ci-dessous."
 		},
 		{
 			"id": "lensparams.shear",
-			"machinetranslated": true,
-			"helptext": "@+shear@: à utiliser uniquement pour les scanneurs à plat; pour les images de la caméra, cette valeur doit être définie sur 0.",
+			"machinetranslated": false,
+			"helptext": "@+shear@: à utiliser uniquement pour les scanners à plat; pour les images de la caméra, cette valeur doit être égale à 0.",
 			"morehelptext": "<br><br>Les scanners à fente peuvent présenter une certaine non-perpendicularité entre l'axe de balayage et l'axe de mouvement. Ces valeurs compensent cela. Les valeurs sont déterminées par l'optimiseur si l'optimisation @shear@ est activée."
 		},
 		{
@@ -7795,9 +7811,9 @@
 		},
 		{
 			"id": "lensparams.sensorsize",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Capteur diagonale / facteur de recadrage: taille de diagonale du capteur de la caméra. Ceci est généralement exprimé en tant que &quot;facteur de culture&quot; ou &quot;multiplicateur de longueur focale&quot;. Pour la plupart des caméras, PTGui peut déterminer cela automatiquement à partir des données EXIF.",
-			"morehelptext": "<br><br>Un facteur de cadrage de 1x correspond aux dimensions classiques du capteur plein cadre de 36 x 24 mm. Un capteur plus petit aura un facteur de culture supérieur à un.<br><br>Pour les lentilles rectilignes et fisheye, PTGui a besoin de connaître la taille du capteur; la projection de l'objectif est déterminée par cette valeur et la distance focale ensemble."
+			"morehelptext": "<br><br>Un facteur de cadrage de 1x correspond aux dimensions classiques du capteur plein cadre de 36 x 24 mm. Un capteur plus petit aura un facteur de culture supérieur à un.<br><br>Pour les objectifs rectilignes et fisheye, PTGui a besoin de connaître la taille du capteur; la projection de l'objectif est déterminée par cette valeur et la distance focale."
 		},
 		{
 			"id": "lensparams.cameradatabase",
@@ -7819,14 +7835,14 @@
 		},
 		{
 			"id": "portraitorientation.shutterup",
-			"machinetranslated": true,
-			"helptext": "Orientation du portrait de la caméra: dans le sens antihoraire",
-			"morehelptext": "<br><br>Si le projet contient un mélange d'images en orientation portrait et paysage, PTGui doit savoir dans quelle direction la caméra a pivoté de paysage en portrait. Ceci afin que la correction de décalage d'objectif soit appliquée dans la bonne direction.<br><br>Sélectionnez ce bouton si la caméra a été pivotée dans le sens antihoraire de paysage en portrait. Sur la plupart des appareils photo, le bouton de l'obturateur serait au-dessus de l'objectif (comme indiqué dans l'icône)."
+			"machinetranslated": false,
+			"helptext": "Orientation en portrait de la caméra: dans le sens antihoraire",
+			"morehelptext": "<br><br>Si le projet contient un mélange d'images en orientation portrait et paysage, PTGui doit savoir dans quelle direction la caméra a pivoté de paysage à portrait. Ceci afin que la correction de décalage d'objectif soit appliquée dans la bonne direction.<br><br>Sélectionnez ce bouton si la caméra a été pivotée dans le sens antihoraire de paysage à portrait. Sur la plupart des appareils photo, le bouton de l'obturateur serait au-dessus de l'objectif (comme indiqué dans l'icône)."
 		},
 		{
 			"id": "portraitorientation.shutterdown",
-			"machinetranslated": true,
-			"helptext": "Orientation du portrait de la caméra: dans le sens des aiguilles d'une montre",
+			"machinetranslated": false,
+			"helptext": "Orientation en portrait de la caméra: dans le sens des aiguilles d'une montre",
 			"morehelptext": "<br><br>Si le projet contient un mélange d'images en orientation portrait et paysage, PTGui doit savoir dans quelle direction la caméra a pivoté de paysage en portrait. Ceci afin que la correction de décalage d'objectif soit appliquée dans la bonne direction.<br><br>Sélectionnez ce bouton si vous faites pivoter l'appareil photo dans le sens des aiguilles d'une montre, de paysage en portrait. Sur la plupart des appareils photo, le bouton de l'obturateur serait en dessous de l'objectif (comme indiqué dans l'icône)."
 		},
 		{
@@ -7841,9 +7857,9 @@
 		},
 		{
 			"id": "croptab.individualcrop",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Utilisez un décalage de recadrage individuel pour cette image.",
-			"morehelptext": "<br><br>Par défaut, toutes les images (ou toutes les images utilisant le même profil d'objectif) utilisent les mêmes paramètres de recadrage. En cochant cette case, la zone de recadrage de cette image spécifique peut être déplacée. Cela peut être utile pour les montages multi-caméras et les caméras 360 à une seule prise, où chaque objectif aura la même projection mais un décalage différent.<br><br>Cela ne fait que <b>déplacer</b> la zone de culture; sa taille sera toujours la même que celle des autres images. Si un recadrage de taille différente est nécessaire, utilisez des paramètres d'objectif individuels pour cette image.<br><br>Correspond à la case à cocher &quot;Recadrer&quot; de la section &quot;@mainwindow.lensparams.useindividual@&quot; de l'onglet @mainwindow.tabs.lenssettings@."
+			"morehelptext": "<br><br>Par défaut, toutes les images (ou toutes les images utilisant le même profil d'objectif) utilisent les mêmes paramètres de recadrage. En cochant cette case, la zone de recadrage de cette image spécifique peut être déplacée. Cela peut être utile pour les montages multi-caméras et les caméras 360 à une seule prise, où chaque objectif aura la même projection mais un décalage différent.<br><br>Cela ne fait que <b>déplacer</b> la zone de recadrage; sa taille sera toujours la même que celle des autres images. Si un recadrage de taille différente est nécessaire, utilisez des paramètres d'objectif individuels pour cette image.<br><br>Correspond à la case à cocher &quot;Recadrer&quot; de la section &quot;@mainwindow.lensparams.useindividual@&quot; de l'onglet @mainwindow.tabs.lenssettings@."
 		},
 		{
 			"id": "croptab.nocrop",
@@ -7864,34 +7880,34 @@
 		},
 		{
 			"id": "rotatetoolbar.clockwise",
-			"machinetranslated": true,
-			"label": "Le sens des aiguilles d'une montre",
+			"machinetranslated": false,
+			"label": "Le sens horaire",
 			"helptext": "N'affecte que l'image affichée ici, le panorama n'est pas modifié."
 		},
 		{
 			"id": "zoomtoolbar.zoomlevel",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Le niveau de zoom",
-			"helptext": "Entrez un pourcentage (100% de la taille d'origine) ou '@zoomfit@' pour effectuer un zoom arrière complet.",
+			"helptext": "Entrez un pourcentage (100% représente la taille d'origine) ou '@zoomfit@' pour effectuer un zoom arrière complet.",
 			"morehelptext": "<br><br><optional platform='windows'>Le zoom peut également être effectué à l'aide de la molette de la souris.</optional><optional platform='mac'>Le zoom peut également être effectué en faisant glisser deux doigts sur le trackpad.</optional> Et il existe plusieurs raccourcis clavier pour zoomer (voir le menu @menubar.view@)"
 		},
 		{
 			"id": "previewexposuretoolbar.exposure",
 			"machinetranslated": true,
 			"label": "Aperçu de l'exposition",
-			"helptext": "Augmenter ou diminuer la luminosité. Affecte l'image telle qu'elle est affichée ici, dans l'éditeur de panorama et dans la visionneuse de détails. Le panorama cousu n'est pas affecté.<br><br>Faites un clic droit sur le curseur pour réinitialiser à 0."
+			"helptext": "Augmenter ou diminuer la luminosité. Affecte l'image telle qu'elle est affichée ici, dans l'éditeur de panorama et dans la visionneuse de détails. Le panorama final n'est pas affecté.<br><br>Faites un clic droit sur le curseur pour réinitialiser à 0."
 		},
 		{
 			"id": "masktoolbar.red",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.red@ [R]",
-			"helptext": "Peindre des masques rouges. Les masques rouges servent à supprimer les parties non désirées d’une image du panorama. Les zones masquées deviendront transparentes.<br><br>Lors de l'assemblage du panorama, le mélangeur utilisera des parties qui se chevauchent d'autres images."
+			"helptext": "Peindre des masques rouges. Les masques rouges servent à supprimer les parties non désirées d’une image du panorama. Les zones masquées deviendront transparentes.<br><br>Lors de l'assemblage du panorama, l'outil de fusion utilisera des parties qui se chevauchent d'autres images."
 		},
 		{
 			"id": "masktoolbar.green",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.green@ [G]",
-			"helptext": "Peindre des masques verts. Les masques verts sont utilisés pour indiquer quelles parties de l'image doivent être conservées. Le mélangeur préférera utiliser des parties masquées en vert et non des zones superposées provenant d'autres images."
+			"helptext": "Peindre des masques verts. Les masques verts sont utilisés pour indiquer quelles parties de l'image doivent être conservées. l'outil de fusion priviligera des parties masquées en vert et non des zones superposées provenant d'autres images."
 		},
 		{
 			"id": "masktoolbar.eraser",
@@ -7919,8 +7935,8 @@
 		},
 		{
 			"id": "masktoolbar.twopanes",
-			"machinetranslated": true,
-			"label": "Montrer deux vitres",
+			"machinetranslated": false,
+			"label": "Montrer deux volets",
 			"helptext": "Afficher deux images en même temps."
 		},
 		{
@@ -7931,9 +7947,9 @@
 		},
 		{
 			"id": "masktoolbar.radius",
-			"machinetranslated": true,
-			"label": "Taille du crayon [K / L]",
-			"helptext": "Taille du crayon pour l'outil de dessin."
+			"machinetranslated": false,
+			"label": "Taille du pinceau [K / L]",
+			"helptext": "Taille du pinceau pour l'outil de dessin."
 		},
 		{
 			"id": "maskimagetoolbar.loadmask",
@@ -7950,9 +7966,9 @@
 		},
 		{
 			"id": "maskimagetoolbar.clearmask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@clearmask@",
-			"helptext": "Supprime tout masquage."
+			"helptext": "Supprime tous les masques."
 		},
 		{
 			"id": "maskimagetoolbar.copymask",
@@ -7989,9 +8005,9 @@
 		},
 		{
 			"id": "cptoolbar.autocontrast",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@menubar.controlpoints.autocontrast@",
-			"helptext": "Augmente le contraste de l'image dans la fenêtre du zoom flottant."
+			"helptext": "Augmente le contraste de l'image dans la fenêtre du zoom flottante."
 		},
 		{
 			"id": "cptoolbar.showmask",
@@ -8073,21 +8089,21 @@
 		},
 		{
 			"id": "exposurehdrtab.groupintoblendplanes",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Active le mode HDR.",
-			"morehelptext": "<br><br>Si cette option est activée, PTGui regroupera toutes les images en fonction de leur valeur d'exposition (durée d'exposition, ouverture et ISO). La valeur EV peut être vue dans l'onglet @mainwindow.tabs.imageparameters@. Toutes les images ayant le même EV seront cousues et mélangées dans un &quot;plan d'exposition&quot; distinct. Chaque plan d'exposition constitue un panorama complet à un certain niveau d'exposition. Enfin, les plans d'exposition sont fusionnés en une seule image HDR ou en une image fusionnée avec tonalité / exposition."
+			"morehelptext": "<br><br>Si cette option est activée, PTGui regroupera toutes les images en fonction de leur valeur d'exposition (durée d'exposition, ouverture et ISO). La valeur EV peut être vue dans l'onglet @mainwindow.tabs.imageparameters@. Toutes les images ayant la même EV seront cousues et fusionnées dans un &quot;plan d'exposition&quot; distinct. Chaque plan d'exposition constitue un panorama complet à un certain niveau d'exposition. Enfin, les plans d'exposition sont fusionnés en une seule image HDR ou en une image fusionnée avec tonalité / exposition."
 		},
 		{
 			"id": "exposurehdrtab.truehdrmode",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Fusionner les plans d'exposition dans une image à plage dynamique élevée.",
-			"morehelptext": "<br><br>L'image HDR capture toute la plage dynamique allant de la partie la plus sombre à la plus lumineuse du panorama. Il peut éventuellement être associé à des tons pour créer une image à faible gamme dynamique adaptée à l'affichage ou à l'impression.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
+			"morehelptext": "<br><br>L'image HDR capture toute la plage dynamique allant de la partie la plus sombre à la plus lumineuse du panorama. Il peut éventuellement être associé à des courbes de tons pour créer une image avec gamme dynamique réduite afin de l'adapter à l'affichage ou à l'impression.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
 		},
 		{
 			"id": "exposurehdrtab.exposurefusionmode",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Fusionner les plans d'exposition en utilisant la fusion d'exposition.",
-			"morehelptext": "<br><br>Exposure Fusion fusionne les plans d'exposition directement dans une image à plage dynamique faible mappée par tons. Cela contourne l'étape de création initiale d'une image à plage dynamique élevée pour le mappage de ton.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
+			"morehelptext": "<br><br>Le mode de fusion d'exposition fusionne les plans d'exposition directement dans une image à plage dynamique faible mappée par tons. Cela contourne l'étape de création initiale d'une image à plage dynamique élevée pour le mappage des tons.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
 		},
 		{
 			"id": "exposurehdrtab.dontgroupintoblendplanes",
@@ -8096,21 +8112,21 @@
 		},
 		{
 			"id": "exposurehdrtab.tonemapldrpanorama",
-			"machinetranslated": true,
-			"helptext": "Activer mappage de ton.",
-			"morehelptext": "<br><br>Le mappage ton est généralement connu dans le contexte des images HDR, mais il peut également être utilisé pour des images standard à faible gamme dynamique. Le mappage ton réduit la plage dynamique en accentuant les ombres et en assombrissant les tons clairs, comme pour la correction des ombres / tons clairs dans les logiciels de traitement d'images. Cela conduit à une image plus agréable, en particulier pour les scènes à contraste élevé.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
+			"machinetranslated": false,
+			"helptext": "Activer mappage des tons.",
+			"morehelptext": "<br><br>Le mappage des tons est généralement utilisé dans le contexte des images HDR, mais il peut également l'être pour des images standard à faible gamme dynamique. Le mappage des tons réduit la plage dynamique en accentuant les ombres et en assombrissant les tons clairs, comme pour la correction des ombres / tons clairs dans les logiciels de traitement d'images. Cela conduit à une image plus douce, en particulier pour les scènes à contraste élevé.<br><br>Les paramètres peuvent être ajustés dans la barre latérale de l'éditeur Panorama."
 		},
 		{
 			"id": "exposurehdrtab.exposurecompensation",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Ajustez les différences d'exposition causées par l'exposition automatique.",
-			"morehelptext": "<br><br>Le mélangeur peut en quelque sorte compenser les différences d’exposition, mais pour obtenir les meilleurs résultats, les images superposées doivent présenter approximativement la même exposition.<br><br>Si l'exposition automatique est activée (par exemple, lorsque vous utilisez le mode Av de l'appareil photo), les images voisines peuvent avoir des niveaux d'exposition différents. La compensation d'exposition inspecte les données EXIF ​​et ajuste le niveau d'exposition de chaque image sur une exposition moyenne avant la fusion. Peut être utilisé en conjonction avec le mappage de ton pour faire face à des scènes à contraste élevé."
+			"morehelptext": "<br><br>L'outil de fusion peut compenser partiellement les différences d’exposition, mais pour obtenir les meilleurs résultats, les images superposées doivent présenter approximativement la même exposition.<br><br>Si l'exposition automatique est activée (par exemple, lorsque vous utilisez le mode Av de l'appareil photo), les images voisines peuvent avoir des niveaux d'exposition différents. La compensation d'exposition lit les données EXIF ​​et ajuste le niveau d'exposition de chaque image sur une exposition moyenne avant la fusion. Peut être utilisé en conjonction avec le mappage des tons pour traiter à des scènes à contraste élevé."
 		},
 		{
 			"id": "exposurehdrtab.optimizenow",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Exécutez l'optimisation d'exposition.",
-			"morehelptext": "<br><br>Analyse les pixels superposés de différentes images. Selon ce qui est activé dans la fenêtre @settings@, cela ajustera le vignettage, l'exposition, la courbe de réponse de l'appareil photo, la balance des blancs et la compensation @lensflare@ jusqu'à ce que les différences entre les pixels superposés aient été minimisées.<br><br>Comme il doit analyser les pixels superposés, utilisez cette fonction uniquement après avoir aligné le panorama avec précision."
+			"morehelptext": "<br><br>Analyse les pixels superposés des différentes images. Selon ce qui est activé dans la fenêtre @settings@, cela ajustera le vignettage, l'exposition, la courbe de réponse de l'appareil photo, la balance des blancs et la compensation @lensflare@ jusqu'à ce que les différences entre les pixels superposés aient été minimisées.<br><br>Comme il doit analyser les pixels superposés, utilisez cette fonction uniquement après avoir aligné le panorama avec précision."
 		},
 		{
 			"id": "exposurehdrtab.settings",
@@ -8129,15 +8145,15 @@
 		},
 		{
 			"id": "exposurehdrtab.vignettinggraph",
-			"machinetranslated": true,
-			"helptext": "Vignettage de la courbe",
-			"morehelptext": "<br><br>La courbe montre la courbe de vignettage détectée de l'objectif. Le côté gauche du graphique correspond au centre de l'objectif, le côté droit correspond aux coins de l'image. Généralement, la quantité de lumière diminue vers les coins, de sorte que le graphique s’incline vers la droite.<br><br>PTGui applique la correction inverse pour compenser la chute de lumière."
+			"machinetranslated": false,
+			"helptext": "Courbe de vignettage",
+			"morehelptext": "<br><br>La courbe montre la fonction de vignettage détectée de l'objectif. Le côté gauche du graphique correspond au centre de l'image, le côté droit correspond aux coins de l'image. Généralement, la quantité de lumière diminue vers les coins.<br><br>PTGui applique la correction inverse pour compenser la chute de lumière."
 		},
 		{
 			"id": "exposurehdrtab.cameracurvegraph",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Courbe de réponse de la caméra",
-			"morehelptext": "<br><br>Cette courbe affiche la correspondance entre les intensités lumineuses réelles et les valeurs en pixels. L'axe horizontal représente la valeur du pixel, à gauche une valeur de 0 et à droite, la valeur maximale du pixel (par exemple, 255 pour une image à 8 bits).<br><br>L'axe vertical indique l'intensité de la lumière. Ceci est montré en EV, donc en échelle logarithmique.<br><br>La courbe de l'appareil photo est nécessaire pour effectuer des corrections d'exposition et de vignettage; ces corrections doivent être appliquées aux intensités lumineuses réelles et non aux valeurs de pixels."
+			"morehelptext": "<br><br>Cette courbe affiche la correspondance entre les intensités lumineuses réelles et les valeurs en pixels. L'axe horizontal représente la valeur du pixel, à gauche une valeur de 0 et à droite, la valeur maximale du pixel (par exemple, 255 pour une image à 8 bits).<br><br>L'axe vertical indique l'intensité de la lumière. Ceci est exprimé en EV, donc en échelle logarithmique.<br><br>La courbe de l'appareil photo est nécessaire pour effectuer des corrections d'exposition et de vignettage; ces corrections doivent être appliquées aux intensités lumineuses réelles et non aux valeurs de pixels."
 		},
 		{
 			"id": "exposurehdrtab.exposureoffset",
@@ -8161,9 +8177,9 @@
 		},
 		{
 			"id": "projectsettingstab.alignimagesbehavior",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Cette section détermine ce qui se passe lorsque l'utilisateur clique sur &quot;@alignimages@&quot; dans l'onglet @mainwindow.tabs.projectassistant@ ou lorsqu'un projet est chargé dans Batch Stitcher et que &quot;@alignimages@&quot; est activé dans @mainwindow.projectsettings.batchstitcheractions@ ci-dessous.",
-			"morehelptext": "<br><br>@alignimages@ effectue plusieurs étapes pour configurer le panorama: les premiers points de contrôle sont générés, puis les images sont alignées en fonction des points de contrôle. Le panorama est éventuellement redressé et une projection appropriée est choisie en fonction du champ de vision.<br><br>La personnalisation de ce comportement peut être utile en particulier lors de l'utilisation de modèles ou lorsque '@alignimages@' est exécuté dans le cadre d'une couture par lots. Par exemple, la projection souhaitée peut déjà être définie dans le modèle et ne doit pas être modifiée lors de la couture par lots."
+			"morehelptext": "<br><br>@alignimages@ effectue plusieurs étapes pour configurer le panorama: les premiers points de contrôle sont générés, puis les images sont alignées en fonction de ces points de contrôle. Le panorama est éventuellement redressé et une projection appropriée est choisie en fonction du champ de vision.<br><br>La personnalisation de ce comportement peut être utile en particulier lors de l'utilisation de modèles ou lorsque '@alignimages@' est exécuté dans le cadre d'un assemblage par lots. Par exemple, la projection souhaitée peut déjà être définie dans le modèle et ne doit pas être modifiée lors del'assemblage par lots."
 		},
 		{
 			"id": "projectsettingstab.alignimages.generatecp",
@@ -8183,15 +8199,15 @@
 		},
 		{
 			"id": "projectsettingstab.alignimages.roughlyarrange",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Essayez d'organiser le panorama approximativement après avoir trouvé des points de contrôle, mais avant d'exécuter l'optimiseur. Ceci est généralement requis.",
-			"morehelptext": "<br><br>L'optimiseur a besoin d'un point de départ approprié pour l'optimisation. Si l'optimiseur est lancé à partir de zéro sur une pile d'images, il risque de rester bloqué dans un minimum local, ce qui entraînera un panorama gâché.<br><br>Pour remédier à cela, le panorama sera configuré en premier lieu image par image. Lorsque toutes les images sont grossièrement disposées, l'optimiseur peut être exécuté pour affiner l'alignement du panorama dans son ensemble.<br><br>La même fonction est remplie avec @menubar.project@ | @menubar.project.initializeandoptimize@."
+			"morehelptext": "<br><br>L'optimiseur a besoin d'un point de départ approprié. Sinon il risque de se calersur une fausse solution (un minimum local), ce qui aboutira à un résultat inexploitable.<br><br>Pour remédier à cela, le panorama sera configuré en premier lieu image par image. Lorsque toutes les images sont grossièrement disposées, l'optimiseur peut être exécuté pour affiner l'alignement du panorama dans son ensemble.<br><br>La même fonction est remplie avec @menubar.project@ | @menubar.project.initializeandoptimize@."
 		},
 		{
 			"id": "projectsettingstab.alignimages.straighten",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Tenter de redresser le panorama",
-			"morehelptext": "<br><br>Le redressement déplacera ou fera pivoter le panorama de sorte que toutes les images aient à peu près le même angle @roll@ (pour un panorama à plusieurs lignes) ou que toutes les images aient à peu près le même angle @pitch@ (pour un panorama à une seule ligne). Si l'appareil photo était correctement mis à niveau, cela devrait donner une image de niveau.<br><br>Si la caméra n'était pas à niveau, une mise à niveau supplémentaire est nécessaire à l'aide des points de contrôle @cptable.verticalline@ (voir l'onglet @mainwindow.tabs.controlpoints@).<br><br>Cette fonction est également accessible depuis le <optional platform='windows'>barre de menus de la fenêtre Panorama Editor (@menubar.edit@ | @panoeditor.menubar.edit.straightenpano@).</optional><optional platform='mac'>barre de menus: Panorama Editor | @menubar.edit@ | @panoeditor.menubar.edit.straightenpano@.</optional>"
+			"morehelptext": "<br><br>Le redressement déplacera ou fera pivoter le panorama de sorte que toutes les images aient à peu près le même angle @roll@ (pour un panorama à plusieurs lignes) ou que toutes les images aient à peu près le même angle @pitch@ (pour un panorama à une seule ligne). Si l'appareil photo est de niveau lors de la prise de vue, cela doit donner une image de niveau.<br><br>dans le cas contraire, une mise à niveau supplémentaire est nécessaire à l'aide des points de contrôle @cptable.verticalline@ (voir l'onglet @mainwindow.tabs.controlpoints@).<br><br>Cette fonction est également accessible depuis le <optional platform='windows'>barre de menus de la fenêtre Panorama Editor (@menubar.edit@ | @panoeditor.menubar.edit.straightenpano@).</optional><optional platform='mac'>barre de menus: Panorama Editor | @menubar.edit@ | @panoeditor.menubar.edit.straightenpano@.</optional>"
 		},
 		{
 			"id": "projectsettingstab.alignimages.fit",
@@ -8201,9 +8217,9 @@
 		},
 		{
 			"id": "projectsettingstab.alignimages.chooseprojection",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Choisissez une projection adaptée au champ de vision du panorama.",
-			"morehelptext": "<br><br>Les panoramas étroits utiliseront la projection rectiligne. Pour les panoramas larges, une projection cylindrique sera utilisée. Et les panoramas entièrement sphériques utiliseront la projection équirectangulaire standard à 360° x 180°."
+			"morehelptext": "<br><br>Les panoramas étroits utiliseront la projection rectiligne. Pour les panoramas larges, une projection cylindrique sera utilisée. Efin, pour les panoramas sphériques complets, la projection équirectangulaire standard à 360° x 180° sera utilisée."
 		},
 		{
 			"id": "projectsettingstab.alignimages.optimizeexposure",
@@ -8212,9 +8228,9 @@
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Paramètres par défaut lorsque des photos bracketées sont détectées.",
-			"morehelptext": "<br><br>Contrôle le réglage par défaut de la fenêtre contextuelle qui apparaît lors de l'exécution de '@alignimages@' sur des photos bracketées.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> les images appartenant au même ensemble de photos bracketées seront liées. Les images liées sont forcées d'avoir les mêmes paramètres @yaw@ / @pitch@ / @roll@ et d'autres paramètres, de sorte qu'elles chevauchent pixel par pixel. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot; sera sélectionné. Utilisez cette option si un trépied stable a été utilisé lors de la prise de vue.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@: les</b> images ne seront pas liées, chaque image de l'ensemble des photos bracketées aura son propre angle @yaw@ / @pitch@ / @roll@. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot; sera sélectionné. Utilisez cette option si les photos bracketées ne se chevauchent pas exactement, par exemple lors de la prise de vue à main levée.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore le fait que des photos bracketées ont été détectées, traite les images comme un panorama non HDR. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrdisabled@&quot; sera sélectionné."
+			"morehelptext": "<br><br>Contrôle le réglage par défaut de la fenêtre contextuelle qui apparaît lors de l'exécution de '@alignimages@' sur des photos bracketées.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> les images appartenant au même ensemble de photos bracketées seront liées. Les images liées sont forcées à avoir les mêmes paramètres @yaw@ / @pitch@ / @roll@ etc., de sorte qu'elles chevauchent pixel par pixel. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot; sera sélectionné. Utilisez cette option si un trépied stable a été utilisé lors de la prise de vue.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@: les</b> images ne seront pas liées, chaque image de l'ensemble des photos bracketées aura son propre angle @yaw@ / @pitch@ / @roll@. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot; sera sélectionné. Utilisez cette option si les photos bracketées ne se chevauchent pas exactement, par exemple lors de la prise de vue à main levée.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore le fait que des photos bracketées ont été détectées, traite les images comme un panorama non HDR. Dans l'onglet @mainwindow.tabs.exposurehdr@, &quot;@mainwindow.exposurehdrpanel.hdrdisabled@&quot; sera sélectionné."
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -8223,9 +8239,9 @@
 		},
 		{
 			"id": "projectsettingstab.batchstitcher.align",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Si cette option est activée, le traitement par lots exécutera '@alignimages@' avant d'assembler le panorama.",
-			"morehelptext": "<br><br>Si cette option est activée, le programme d’agrégation par lots analysera d’abord les images, générera des points de contrôle, optimisera le projet, etc. Ce qui sera fait exactement est configuré ci-dessus dans @mainwindow.projectsettings.alignimagesbehavior@. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>S'il est désactivé, le projet sera cousu exactement tel qu'il est maintenant.<br><br>Lors de la création de modèles pour le traitement par lots dans Générateur de Lots, vous devez cocher cette case correctement. Il existe essentiellement deux cas d'utilisation différents pour le générateur de lot:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans générer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique.<br><br>Dans ce dernier cas, la position des images dans chaque panorama sera généralement légèrement différente. Même si la tête panoramique a des clics arrêtés, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage.<br><br>Cette case à cocher disparaît automatiquement: après l'exécution de '@alignimages@', cette case est désélectionnée et le fichier de projet sur le disque est mis à jour avec le panorama aligné. Cela empêche l'exécution de '@alignimages@' plusieurs fois pour le même projet."
+			"morehelptext": "<br><br>Si cette option est activée, le programme d’agrégation par lots analysera d’abord les images, générera des points de contrôle, optimisera le projet, etc. Ce qui sera fait exactement est configuré ci-dessus dans @mainwindow.projectsettings.alignimagesbehavior@. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>S'il est désactivé, le projet sera asemblé exactement tel qu'il l'est maintenant.<br><br>Lors de la création de modèles pour le traitement par lots dans Générateur de Lots, vous devez cocher cette case correctement. Il existe essentiellement deux cas d'utilisation différents pour le générateur de lot:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans regénérer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique.<br><br>Dans ce dernier cas, la position des images dans chaque panorama sera généralement légèrement différente. Même si la tête panoramique a des positions prédéfininies, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage.<br><br>Cette case à cocher disparaît automatiquement: après l'exécution de '@alignimages@', cette case est désélectionnée et le fichier de projet sur le disque est mis à jour avec le panorama aligné. Cela empêche l'exécution de '@alignimages@' plusieurs fois pour le même projet."
 		},
 		{
 			"id": "projectsettingstab.batchstitcher.stitch",
@@ -8239,20 +8255,20 @@
 		},
 		{
 			"id": "projectsettingstab.filenaming.projectfile",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Cette section configure le nom et l'emplacement par défaut des nouveaux fichiers de projet.",
-			"morehelptext": "<br><br>Ceci détermine le nom de fichier suggéré par défaut lors de l'enregistrement d'un nouveau projet. De plus, Générateur de Lots utilisera cette dénomination lors de la Enregistre des projets générés.<br><br>Si le nom de fichier résultant existe déjà, un numéro entre parenthèses est ajouté automatiquement, par exemple: Panorama (1) .pts"
+			"morehelptext": "<br><br>Ceci détermine le nom de fichier suggéré par défaut lors de l'enregistrement d'un nouveau projet. De plus, Générateur de Lots utilisera cette dénomination lors de l'enregistrement des projets générés.<br><br>Si le nom de fichier résultant existe déjà, un numéro entre parenthèses est ajouté automatiquement, par exemple: Panorama (1) .pts"
 		},
 		{
 			"id": "projectsettingstab.filenaming.outputfile",
 			"machinetranslated": true,
-			"helptext": "Cette section configure le nom et l'emplacement par défaut du fichier d'image panoramique cousu.",
+			"helptext": "Cette section configure le nom et l'emplacement par défaut du fichier d'image panoramique assemblé.",
 			"morehelptext": "<br><br>Le nom du fichier de sortie réel peut être remplacé dans l'onglet @mainwindow.tabs.createpanorama@ du fichier de sortie, mais sinon, la valeur par défaut telle que configurée ici sera utilisée.<br><br>Entrez un nom de fichier sans extension. l'extension (par exemple .jpg) sera ajoutée automatiquement en fonction du format de fichier de sortie sélectionné dans l'onglet @mainwindow.tabs.createpanorama@."
 		},
 		{
 			"id": "projectsettingstab.filenaming.relativesourceimagepaths",
-			"machinetranslated": true,
-			"helptext": "Si activé, le fichier de projet stockera les noms de fichiers d’image source sous forme de chemin relatif à l’emplacement du fichier de projet. Cela garantit que les images source peuvent toujours être trouvées une fois le projet déplacé dans un autre dossier."
+			"machinetranslated": false,
+			"helptext": "Si activé, le fichier de projet stockera les noms de fichiers d’image source sous forme de chemin relatif à l’emplacement du fichier de projet. Cela garantit que les images sources pouront toujours être trouvées si le projet est déplacé dans un autre dossier."
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.lensandcrop",
@@ -8266,14 +8282,14 @@
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.masks",
-			"machinetranslated": true,
-			"helptext": "Si activé, les masques de toutes les images source seront copiés dans le projet cible."
+			"machinetranslated": false,
+			"helptext": "Si activé, les masques de toutes les images sources seront copiés dans le projet cible."
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.panoramasettings",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Si activé, copiez tous les paramètres liés à la sortie et à la projection dans le projet cible.",
-			"morehelptext": "Les paramètres suivants sont copiés:<br><br>• projection panoramique et champ de vision<br>• rognage de sortie<br>• taille de sortie (largeur x hauteur)<br>• format de fichier de sortie et paramètres associés<br>• réglages du mélangeur<br>• réglages HDR, fusion d'exposition et mappage ton<br>• interpolateur<br>• paramètres d'optimisation de l'exposition (pour la correction de l'exposition et du vignettage)<br>• balance des blancs globale et décalage d'exposition<br>• paramètres de métadonnées pour le panorama"
+			"morehelptext": "Les paramètres suivants sont copiés:<br><br>• projection panoramique et champ de vision<br>• recadrage de sortie<br>• taille de sortie (largeur x hauteur)<br>• format de fichier de sortie et paramètres associés<br>• réglages de l'outil de fusion<br>• réglages HDR, fusion d'exposition et mappage des tons<br>• interpolateur<br>• paramètres d'optimisation de l'exposition (pour la correction de l'exposition et du vignettage)<br>• balance des blancs globale et décalage d'exposition<br>• paramètres de métadonnées du panorama"
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.pojectsettings",
@@ -8282,8 +8298,8 @@
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.optimizersettings",
-			"machinetranslated": true,
-			"helptext": "Si activé, copiez les paramètres de l'optimiseur dans le projet cible"
+			"machinetranslated": false,
+			"helptext": "Si activé, copie les paramètres de l'optimiseur dans le projet cible"
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.linkimages",
@@ -8294,7 +8310,7 @@
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
 			"machinetranslated": true,
-			"helptext": "Si cette option est activée, Générateur de Lots utilisera les paramètres d'objectif automatiques pour les projets générés.",
+			"helptext": "Si cette option est activée, Batch Builder utilisera les paramètres d'objectif automatiques pour les projets générés.",
 			"morehelptext": "<br><br>Cela remplacera les paramètres d'objectif du projet de modèle et utilisera les mêmes paramètres d'objectif par défaut qui résulteraient de l'ajout des images à un nouveau projet. Utilisez cette option si vous souhaitez utiliser le même modèle pour les images prises avec différents appareils photo ou objectifs.<br><br>Le constructeur de lots honorera toutes les associations EXIF ​​établies dans les bases de données Lens et Camera.<br><br>Si cette option est désactivée, les données EXIF ​​des images sont ignorées et les paramètres de l’objectif sont simplement copiés à partir du projet de modèle."
 		},
 		{
@@ -8493,9 +8509,9 @@
 		},
 		{
 			"id": "createpanoramatab.blendertype",
-			"machinetranslated": true,
-			"helptext": "Sélectionnez le mélangeur à utiliser.",
-			"morehelptext": "<br><br>Outre son propre mélangeur, PTGui prend en charge deux plug-ins de mélange: Smartblend et Enblend. Ceux-ci doivent d'abord être configurés dans @optionspreferences@ | @options.plugins@. Gardez à l'esprit que les plugins de mélange ont des limites: ils sont plus lents que le mélangeur PTGui, peuvent donner des artefacts de mélange dans le nadir et le zénith et ne prennent pas en charge de très grands panoramas. <optional product='pro'>De plus, les masques verts ne sont pris en charge que par le mélangeur PTGui.</optional>"
+			"machinetranslated": false,
+			"helptext": "Sélectionnez l'outil de fusion à utiliser.",
+			"morehelptext": "<br><br>Outre son propre outils de fusion, PTGui prend en charge deux plug-ins de fusion: Smartblend et Enblend. Ceux-ci doivent d'abord être configurés dans @optionspreferences@ | @options.plugins@. Gardez à l'esprit que les plugins de mélange ont des limites: ils sont plus lents que l'outil de fusion PTGui, peuvent donner des artefacts de fusion dans le nadir et le zénith et ne prennent pas en charge de très grands panoramas. <optional product='pro'>De plus, les masques verts ne sont pris en charge que par le mélangeur PTGui.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blenderfeather",
@@ -8504,9 +8520,9 @@
 		},
 		{
 			"id": "createpanoramatab.blendingmode",
-			"machinetranslated": true,
-			"helptext": "Algorithme de mélange à utiliser.",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> les détails fins sont mélangés avec un petit chevauchement, tandis que les détails évoluant lentement et les différences de couleur sont mélangés avec un large chevauchement.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> effectue une fusion linéaire simple.<br><br>Généralement, le mélange @mainwindow.createpanoramatab.blendmode.multiband@ donne des résultats supérieurs. Mais le mélange alpha est préférable dans les cas suivants:<br>• lors de la composition d'images adjacentes sans chevauchement (par exemple lors de l'assemblage d'images de faces de cubes dans un panorama)<br>• lors de la fusion d'images source HDR 32 bits dont l'exposition ne correspond pas correctement. Le mélange @mainwindow.createpanoramatab.blendmode.multiband@ peut créer des halos sombres dans un tel cas."
+			"machinetranslated": false,
+			"helptext": "Algorithme de fusion à utiliser.",
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> les détails fins sont fusionnés avec un petit chevauchement, tandis que les détails évoluant lentement et les différences de couleur sont mélangés avec un large chevauchement.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> effectue une fusion linéaire simple.<br><br>Généralement, la fusion @mainwindow.createpanoramatab.blendmode.multiband@ donne des résultats supérieurs. Mais la fusion alpha est préférable dans les cas suivants:<br>• lors de la composition d'images adjacentes sans chevauchement (par exemple lors de l'assemblage d'images de faces de cubes dans un panorama)<br>• lors de la fusion d'images source HDR 32 bits dont l'exposition ne correspond pas correctement. Le mélange @mainwindow.createpanoramatab.blendmode.multiband@ peut créer des halos sombres dans un tel cas."
 		},
 		{
 			"id": "createpanoramatab.interpolator",
@@ -8608,15 +8624,15 @@
 		},
 		{
 			"id": "panoeditor.toolbar.blended",
-			"machinetranslated": true,
-			"label": "Mélangé",
+			"machinetranslated": false,
+			"label": "Fusionné",
 			"helptext": "Montrer le panorama fusionné"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
-			"machinetranslated": true,
-			"label": "Non mélangé",
-			"helptext": "Montrer le panorama non mélangé"
+			"machinetranslated": false,
+			"label": "Non fusionné",
+			"helptext": "Montrer le panorama non fusionné"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
@@ -8678,15 +8694,15 @@
 		},
 		{
 			"id": "detailviewer.toolbar.blended",
-			"machinetranslated": true,
-			"label": "Mélangé",
+			"machinetranslated": false,
+			"label": "Fusionné",
 			"helptext": "Montrer le panorama fusionné"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
-			"machinetranslated": true,
-			"label": "Non mélangé",
-			"helptext": "Montrer le panorama non mélangé"
+			"machinetranslated": false,
+			"label": "Non Fusionné",
+			"helptext": "Montrer le panorama non fusionné"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
@@ -9611,9 +9627,9 @@
 		},
 		{
 			"id": "options.plugins.enblend.application",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Sélectionnez le chemin de l'exécutable Enblend ou cliquez sur @browse@ pour le sélectionner sur le disque.",
-			"morehelptext": "<br><br>Enblend est une application tierce de fusion de panoramas. Enblend peut être sélectionné pour être utilisé pour le mélange dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
+			"morehelptext": "<br><br>Enblend est une application tierce de fusion de panoramas. Enblend peut être sélectionné pour être utilisé pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
 		},
 		{
 			"id": "options.plugins.enblend.cmdline",
@@ -9622,9 +9638,9 @@
 		},
 		{
 			"id": "options.plugins.smartblend.application",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Sélectionnez le chemin de l'exécutable Smartblend ou cliquez sur @browse@ pour le sélectionner sur le disque.",
-			"morehelptext": "<br><br>Smartblend est une application tierce de fusion de panoramas. Smartblend peut être sélectionné pour être utilisé pour le mélange dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
+			"morehelptext": "<br><br>Smartblend est une application tierce de fusion de panoramas. Smartblend peut être sélectionné pour être utilisé pour la fusion dans l'onglet @mainwindow.tabs.createpanorama@, sous «@mainwindow.createpanoramatab.blendusing@»."
 		},
 		{
 			"id": "options.plugins.smartblend.cmdline",
@@ -9640,7 +9656,7 @@
 		{
 			"id": "options.advanced.showconsolewindowforplugins",
 			"machinetranslated": true,
-			"helptext": "Si cette option est activée, les plug-ins de mélange Enblend et Smartblend s'exécutent dans une fenêtre d'invite de commande distincte (DOS) pendant l'assemblage.",
+			"helptext": "Si cette option est activée, les plug-ins de fusion Enblend et Smartblend s'exécutent dans une fenêtre d'invite de commande distincte (DOS) pendant l'assemblage.",
 			"morehelptext": "<br><br>Cela peut être utile en cas de problèmes de débogage avec Enblend ou Smartblend. S'il est activé, le plug-in s'exécutera dans une fenêtre d'invite de commande (&quot;Boîte DOS&quot;), afin que vous puissiez voir la progression détaillée.<br><br>Il est toutefois recommandé de désactiver ce paramètre: en faisant fonctionner les plug-ins en arrière-plan, PTGui sera en mesure de détecter et d'afficher tous les messages d'erreur. Si une erreur survient lors de l'exécution d'un plug-in dans une fenêtre d'invite de commande, PTGui ne pourra pas intercepter le message d'erreur et la fenêtre sera fermée avant que vous ayez la possibilité de lire le message d'erreur."
 		},
 		{
@@ -9784,9 +9800,9 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Contrôle le comportement des masques rouges (placés dans l'onglet @mainwindow.tabs.mask@).",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: les zones peintes en rouge dans l'onglet @mainwindow.tabs.mask@ seront rendues transparentes dans le panorama. S'il n'y a pas d'autres images qui se chevauchent, un trou apparaîtra dans le panorama cousu. Dans la sortie en couches (créée avec l'option @mainwindow.createpanoramatab.output.individuallayers@), les zones masquées rouges deviennent transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: les masques rouges sont utilisés uniquement pour indiquer les zones qui ne doivent pas être visibles dans le panorama fusionné. Le mélangeur évitera ces zones en éloignant les coutures. Cependant, s'il n'y a pas d'autres images qui se chevauchent pour combler les lacunes, les zones masquées en rouge apparaîtront toujours dans le panorama mélangé. La sortie en couches n'est pas affectée par les masques rouges."
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: les zones peintes en rouge dans l'onglet @mainwindow.tabs.mask@ seront rendues transparentes dans le panorama. S'il n'y a pas d'autres images qui se chevauchent, un trou apparaîtra dans le panorama cousu. Dans la sortie en couches (créée avec l'option @mainwindow.createpanoramatab.output.individuallayers@), les zones masquées rouges deviennent transparentes.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: les masques rouges sont utilisés uniquement pour indiquer les zones qui ne doivent pas être visibles dans le panorama fusionné. L'outil de fusion évitera ces zones en éloignant les coutures. Cependant, s'il n'y a pas d'autres images qui se chevauchent pour combler les lacunes, les zones masquées en rouge apparaîtront toujours dans le panorama mélangé. La sortie en couches n'est pas affectée par les masques rouges."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
@@ -9808,9 +9824,9 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Configure la gestion des expositions entre crochets.",
-			"morehelptext": "<br><br>Les expositions entre crochets peuvent être traitées de deux manières:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combine d'abord chaque ensemble d'expositions croisées dans une image HDR (ou les combine à l'aide d'Exposure Fusion). Ensuite, les images combinées sont mélangées dans un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Tout d'abord, les soi-disant «plans de fusion» sont créés. Un plan de mélange est le panorama complet à un niveau d'exposition (c'est-à-dire toutes les images prises à une durée, une ouverture et une sensibilité ISO identiques). Enfin, les plans de fusion séparés sont combinés en une image HDR ou une image fusionnée d'exposition. Cette méthode ne doit être utilisée que pour les panoramas pris en mode d'exposition manuelle. Cela nécessite que l'ensemble du panorama soit entièrement couvert à chaque niveau d'exposition.<br><br><b>@options.automatic@:</b> choisit la meilleure option pour le projet en cours. Si les images ont été prises en mode d'exposition manuel, des plans de fusion seront créés. Sinon, les images entre crochets seront d'abord combinées puis mélangées."
+			"morehelptext": "<br><br>Les expositions entre crochets peuvent être traitées de deux manières:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combine d'abord chaque ensemble d'expositions croisées dans une image HDR (ou les combine à l'aide d'Exposure Fusion). Ensuite, les images combinées sont fusionnées dans un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Tout d'abord, les soi-disant «plans de fusion» sont créés. Un plan de mélange est le panorama complet à un niveau d'exposition (c'est-à-dire toutes les images prises à une durée, une ouverture et une sensibilité ISO identiques). Enfin, les plans de fusion séparés sont combinés en une image HDR ou une image fusionnée d'exposition. Cette méthode ne doit être utilisée que pour les panoramas pris en mode d'exposition manuelle. Cela nécessite que l'ensemble du panorama soit entièrement couvert à chaque niveau d'exposition.<br><br><b>@options.automatic@:</b> choisit la meilleure option pour le projet en cours. Si les images ont été prises en mode d'exposition manuel, des plans de fusion seront créés. Sinon, les images entre crochets seront d'abord combinées puis mélangées."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",

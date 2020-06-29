@@ -7053,7 +7053,7 @@
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
 			"machinetranslated": false,
-			"txt": "Envoyer le lot généré à Batch Sticher "
+			"txt": "Envoyer le lot généré à Batch Stitcher "
 		},
 		{
 			"id": "options.rawfilesupport",
@@ -8354,7 +8354,6 @@
 		{
 			"id": "previewtab.includeimages",
 			"machinetranslated": false,
-			"helptext": "Inclure uniquement ces images dans l'aperçu généré."
 		},
 		{
 			"id": "metadatatab.uselocationofsourceimages",
@@ -8397,7 +8396,7 @@
 		{
 			"id": "createpanoramatab.hundredpercent",
 			"machinetranslated": false,
-			"helptext": "fixer la taille de sortie sur la taille optimale.",
+			"helptext": "Fixer la taille de sortie sur la taille optimale.",
 			"morehelptext": "<br><br>La taille optimale est la taille de sortie à laquelle la résolution du panorama est égale à la résolution des images source. En d'autres termes, aucun détail des images source n'est perdu.<br><br>Comme le déformation des images n’est pas uniforme dans le panorama, il n’ya pas de vraie taille optimale: certaines parties des images source peuvent être agrandies alors que d’autres peuvent être réduites. Par conséquent, de manière quelque peu arbitraire, PTGui considère que la taille optimale est la taille où la résolution angulaire du centre des images source est égale à la résolution angulaire du centre du panorama. Si des images provenant de plusieurs objectifs sont utilisées, ce calcul sera basé sur l’image source ayant la résolution la plus élevée."
 		},
 		{
@@ -9780,7 +9779,7 @@
 			"id": "exposurehdrtab.noisefloor",
 			"machinetranslated": false,
 			"helptext": "Compenser le bruit d'image dans les images source lors de la fusion en HDR.",
-			"morehelptext": "<br><br>Lorsque desz images HDR sont combinées, PTGui prend les &quot;meilleurs&quot; pixels de chaque image source superposée. Pour toutes les images, à l’exception de la plus exposition, les pixels d’une luminosité inférieure à une certaine luminosité sont ignorés, car ces pixels sombres peuvent être du bruit d’image. Ce curseur définit le seuil de suppression de ces pixels bruités. Si les images source sont bruitées (par exemple, prises à une sensibilité ISO élevée) et que le bruit devient visible dans le panorama HDR, déplacer le curseur vers la droite jusqu'à ce que le bruit disparaisse. Notez toutefois que cela peut augmenter les artefacts HDR autour des objets en mouvement. Pour obtenir les meilleurs résultats, déplacer le curseur le plus à gauche possible jusqu'à ce que le bruit commence à apparaître. Le résultat peut être observé dans la visionneuse de détails.<br><br>Le bruit de l'image peut toujours être visible dans certaines parties du panorama qui sont noires, même avec les temps d'exposition les plus longs. Pour réduire le bruit, ajouter davantage d'images entre bracketées avec des temps d'exposition plus longs."
+			"morehelptext": "<br><br>Lorsque des images HDR sont combinées, PTGui prend les &quot;meilleurs&quot; pixels de chaque image source superposée. Pour toutes les images, à l’exception de la plus exposition, les pixels d’une luminosité inférieure à une certaine luminosité sont ignorés, car ces pixels sombres peuvent être du bruit d’image. Ce curseur définit le seuil de suppression de ces pixels bruités. Si les images source sont bruitées (par exemple, prises à une sensibilité ISO élevée) et que le bruit devient visible dans le panorama HDR, déplacer le curseur vers la droite jusqu'à ce que le bruit disparaisse. Notez toutefois que cela peut augmenter les artefacts HDR autour des objets en mouvement. Pour obtenir les meilleurs résultats, déplacer le curseur le plus à gauche possible jusqu'à ce que le bruit commence à apparaître. Le résultat peut être observé dans la visionneuse de détails.<br><br>Le bruit de l'image peut toujours être visible dans certaines parties du panorama qui sont noires, même avec les temps d'exposition les plus longs. Pour réduire le bruit, ajouter davantage d'images entre bracketées avec des temps d'exposition plus longs."
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
@@ -9854,7 +9853,7 @@
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
 			"machinetranslated": false,
-			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les fichiers RAW ou DNG sont chargés. Pour les fichiers RAW ou DNG, Choisir le profil de couleur souhaité dans la liste ci-dessus."
+			"helptext": "Impossible d'utiliser l'espace colorimétrique des images source, car les fichiers RAW ou DNG sont chargés. Pour les fichiers RAW ou DNG, choisir le profil de couleur souhaité dans la liste ci-dessus."
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",

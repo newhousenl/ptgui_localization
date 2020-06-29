@@ -8354,6 +8354,7 @@
 		{
 			"id": "previewtab.includeimages",
 			"machinetranslated": false,
+			"helptext": "Inclure  uniquement ces images dans l'aperçu généré."
 		},
 		{
 			"id": "metadatatab.uselocationofsourceimages",

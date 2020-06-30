@@ -6877,11 +6877,6 @@
 			"txt": "Impossible d'initialiser OpenGL: %0"
 		},
 		{
-			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
-			"machinetranslated": true,
-			"txt": "Fermer @batchstitcher@ quand terminé"
-		},
-		{
 			"id": "mainwindow.projectsettings.batchstitcheractions",
 			"machinetranslated": true,
 			"txt": "Actions pour le @batchstitcher@"
@@ -6992,11 +6987,6 @@
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
 			"txt": "Ne demandez jamais au démarrage si l'accélération GPU doit être désactivée"
-		},
-		{
-			"id": "batchstitcher.menubar.appendbatchlist",
-			"machinetranslated": true,
-			"txt": "Ajouter une liste de lot"
 		},
 		{
 			"id": "batchstitcher.askmergebatchlist.replace",

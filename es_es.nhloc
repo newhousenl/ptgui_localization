@@ -7082,6 +7082,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Reflejado horizontalmente"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Estás presionando la tecla Mayús. ¿Desea desactivar la aceleración de GPU para esta sesión?\n\nPresione No para continuar normalmente."
 		}
 	],
 	"tooltips": [

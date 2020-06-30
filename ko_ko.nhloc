@@ -7082,6 +7082,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "수평으로 미러링"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Shift 키를 누르고 있습니다. 이 세션에서 GPU 가속을 비활성화 하시겠습니까?\n\n정상적으로 계속하려면 아니요 를 누르십시오."
 		}
 	],
 	"tooltips": [

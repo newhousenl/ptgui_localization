@@ -7061,6 +7061,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Отражено по горизонтали"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Вы нажимаете клавишу Shift. Вы хотите отключить ускорение графического процессора для этого сеанса?\n\nНажмите Нет, чтобы продолжить как обычно."
 		}
 	],
 	"tooltips": [

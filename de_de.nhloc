@@ -5702,6 +5702,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Horizontal gespiegelt"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Sie drücken die Umschalttaste. Möchten Sie die GPU-Beschleunigung für diese Sitzung deaktivieren?\n\nDrücken Sie Nein, um wie gewohnt fortzufahren."
 		}
 	],
 	"tooltips": [

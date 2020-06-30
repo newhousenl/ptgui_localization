@@ -5691,6 +5691,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Zrcadlo vodorovně"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Stisknete klávesu Shift. Chcete deaktivovat zrychlení GPU pro tuto relaci?\n\nStisknutím Ne pokračujte jako obvykle."
 		}
 	],
 	"tooltips": [

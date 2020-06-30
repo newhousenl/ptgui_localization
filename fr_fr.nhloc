@@ -7078,6 +7078,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "Miroir horizontalement"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Vous appuyez sur la touche Maj. Souhaitez-vous désactiver l'accélération GPU pour cette session?\n\nAppuyez sur Non pour continuer normalement."
 		}
 	],
 	"tooltips": [

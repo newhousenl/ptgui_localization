@@ -5793,6 +5793,10 @@
 {
     "id": "lensdatabase.mirrored",
     "txt": "Mirrored horizontally"
+},
+{
+    "id": "txt.startupwithshift",
+    "txt": "You are pressing the Shift key. Would you like to disable GPU acceleration for this session?\n\nPress No to continue as normal."
 }
 
 

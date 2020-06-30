@@ -6133,6 +6133,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "水平鏡像"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "您正在按Shift鍵。您是否要為此會話禁用GPU加速？\n\n按否繼續正常進行。"
 		}
 	],
 	"tooltips": [

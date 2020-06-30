@@ -5701,6 +5701,11 @@
 			"id": "lensdatabase.mirrored",
 			"machinetranslated": true,
 			"txt": "水平にミラー"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Shiftキーを押しています。このセッションのGPUアクセラレーションを無効にしますか？\n\n通常どおり続行するには、[いいえ]を押します。"
 		}
 	],
 	"tooltips": [

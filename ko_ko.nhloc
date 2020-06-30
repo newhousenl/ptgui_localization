@@ -7307,6 +7307,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "하지만 정렬이 성공한 경우에만"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Shift 키를 누르고 있습니다. 이 세션에서 GPU 가속을 비활성화 하시겠습니까?\n\n정상적으로 계속하려면 아니요 를 누르십시오."
 		}
 	],
 	"tooltips": [

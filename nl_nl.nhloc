@@ -5925,6 +5925,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "maar alleen als de uitlijning succesvol was"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "U drukt op de Shift-toets. Wilt u GPU-versnelling voor deze sessie uitschakelen?\n\nDruk op Nee om door te gaan zoals normaal."
 		}
 	],
 	"tooltips": [

@@ -7286,6 +7286,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "но только если выравнивание было успешным"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Вы нажимаете клавишу Shift. Вы хотите отключить ускорение графического процессора для этого сеанса?\n\nНажмите Нет, чтобы продолжить как обычно."
 		}
 	],
 	"tooltips": [

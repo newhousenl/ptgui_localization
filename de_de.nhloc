@@ -5926,6 +5926,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "aber nur, wenn die Ausrichtung erfolgreich war"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Sie drücken die Umschalttaste. Möchten Sie die GPU-Beschleunigung für diese Sitzung deaktivieren?\n\nDrücken Sie Nein, um wie gewohnt fortzufahren."
 		}
 	],
 	"tooltips": [

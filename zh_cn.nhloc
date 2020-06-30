@@ -7307,6 +7307,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "但前提是对齐成功"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "您正在按Shift键。您是否要为此会话禁用GPU加速？\n\n按否继续正常进行。"
 		}
 	],
 	"tooltips": [

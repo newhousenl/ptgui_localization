@@ -7297,6 +7297,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "mas somente se o alinhamento for bem sucedido"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Você está pressionando a tecla Shift. Deseja desativar a aceleração da GPU para esta sessão?\n\nPressione Não para continuar normalmente."
 		}
 	],
 	"tooltips": [

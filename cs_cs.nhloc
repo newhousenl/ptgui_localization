@@ -5915,6 +5915,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "ale pouze pokud bylo vyrovnání úspěšné"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Stisknete klávesu Shift. Chcete deaktivovat zrychlení GPU pro tuto relaci?\n\nStisknutím Ne pokračujte jako obvykle."
 		}
 	],
 	"tooltips": [

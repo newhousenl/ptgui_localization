@@ -5925,6 +5925,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "しかし、アライメントが成功した場合のみ"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Shiftキーを押しています。このセッションのGPUアクセラレーションを無効にしますか？\n\n通常どおり続行するには、[いいえ]を押します。"
 		}
 	],
 	"tooltips": [

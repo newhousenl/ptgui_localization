@@ -6890,6 +6890,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "ma solo se l'allineamento ha avuto successo"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Stai premendo il tasto Maiusc. Desideri disabilitare l'accelerazione GPU per questa sessione?\n\nPremere No per continuare normalmente."
 		}
 	],
 	"tooltips": [

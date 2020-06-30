@@ -7309,6 +7309,11 @@
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
 			"machinetranslated": true,
 			"txt": "mais seulement si l'alignement a réussi"
+		},
+		{
+			"id": "txt.startupwithshift",
+			"machinetranslated": true,
+			"txt": "Vous appuyez sur la touche Maj. Souhaitez-vous désactiver l'accélération GPU pour cette session?\n\nAppuyez sur Non pour continuer normalement."
 		}
 	],
 	"tooltips": [

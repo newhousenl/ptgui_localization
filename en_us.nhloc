@@ -5977,6 +5977,10 @@
 {
     "id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
     "txt": "but only if alignment was succesful"
+},
+{
+    "id": "txt.startupwithshift",
+    "txt": "You are pressing the Shift key. Would you like to disable GPU acceleration for this session?\n\nPress No to continue as normal."
 }
 
 

@@ -3,7 +3,7 @@
 	"line_endings": "unix",
 	"contributors": ["Sébastien NOYGUES"],
 	"languagenamelocalized": "Français",
-	"startupmsg": "Cette version française de PTGui a été traduite d’anglais en français par un système de traduction informatique. La traduction peut ne pas être parfaite mais nous espérons que cela sera compréhensible. Si nécessaire, vous pouvez passer à la traduction anglaise originale dans %0.\n\nSi vous êtes intéressé, aidez-nous à améliorer PTGui en corrigeant les erreurs de traduction en français. Pour plus d'informations, voir: '@help@ - @txt.improvetranslation@'.",
+	"startupmsg": null,
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
@@ -1106,7 +1106,7 @@
 		{
 			"id": "batchstitcher",
 			"machinetranslated": false,
-			"txt": "Assembler par lots"
+			"txt": "Batch Stitcher"
 		},
 		{
 			"id": "batchlist",
@@ -1637,7 +1637,7 @@
 		{
 			"id": "mainwindow.projectassistant.camera",
 			"machinetranslated": true,
-			"txt": "Caméra:"
+			"txt": "Boitier:"
 		},
 		{
 			"id": "mainwindow.projectassistant.bracketedexposuresmessage",
@@ -1768,7 +1768,7 @@
 		{
 			"id": "mainwindow.lensparams.camera.cameradatabase",
 			"machinetranslated": true,
-			"txt": "Base de données de la caméra"
+			"txt": "Base de données des boitiers"
 		},
 		{
 			"id": "mainwindow.lensparams.noexifdata",
@@ -1783,7 +1783,7 @@
 		{
 			"id": "mainwindow.lensparams.cameraportraitorientation",
 			"machinetranslated": true,
-			"txt": "Orientation portrait de la caméra:"
+			"txt": "Orientation portrait du boitier:"
 		},
 		{
 			"id": "save",
@@ -1848,12 +1848,12 @@
 		{
 			"id": "mainwindow.lensparams.setsensorsizefromdb",
 			"machinetranslated": true,
-			"txt": "Définissez la taille du capteur sur %0 = %1 (à partir de la base de données de l'appareil photo)."
+			"txt": "Définissez la taille du capteur sur %0 = %1 (à partir de la base de données des boitiers)."
 		},
 		{
 			"id": "mainwindow.lensparams.savetocameradatabase",
 			"machinetranslated": false,
-			"txt": "Enregistrer dans la base de données des caméras"
+			"txt": "Enregistrer dans la base de données des boitiers"
 		},
 		{
 			"id": "mainwindow.lensparams.confirmmakecameradbassociationforimageswithoutexif",
@@ -1863,7 +1863,7 @@
 		{
 			"id": "mainwindow.lensparams.cameradatabase.show",
 			"machinetranslated": true,
-			"txt": "Afficher la base de données de la caméra"
+			"txt": "Afficher la base de données des boitiers"
 		},
 		{
 			"id": "mainwindow.croptab.cropping",
@@ -2552,7 +2552,7 @@
 		{
 			"id": "mainwindow.projectsettings.misc.useexif",
 			"machinetranslated": false,
-			"txt": "​​lors de l’ajout d’images, initialiser automatiquement les paramètres de l’objectif à l’aide des données EXIF (sauf pour le Batch Builder)"
+			"txt": "​​Lors de l’ajout d’images, initialiser automatiquement les paramètres de l’objectif à l’aide des données EXIF (sauf pour le Batch Builder)"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.askinitializeandoptimize",
@@ -3420,7 +3420,7 @@
 		{
 			"id": "photometricsettings.percamera",
 			"machinetranslated": true,
-			"txt": "Par caméra / objectif:"
+			"txt": "Par boitier / objectif:"
 		},
 		{
 			"id": "photometricsettings.perimage",
@@ -7153,7 +7153,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
 			"machinetranslated": true,
-			"txt": "Utilisez si possible l'espace colorimétrique des images source"
+			"txt": "Utiliser si possible l'espace colorimétrique des images source"
 		},
 		{
 			"id": "txt.iccprofiles",
@@ -7320,7 +7320,7 @@
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
 			"machinetranslated": false,
-			"helptext": "Fermez le programme de stitch par lots lorsque le dernier projet est terminé."
+			"helptext": "Fermez le programme de Batch Stitcher lorsque le dernier projet est terminé."
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
@@ -7445,7 +7445,7 @@
 		{
 			"id": "cameradatabase",
 			"machinetranslated": true,
-			"helptext": "La base de données de caméras peut être utilisée pour stocker les tailles de capteur de caméras que PTGui ne reconnaît pas automatiquement."
+			"helptext": "La base de données des boitiers peut être utilisée pour stocker les tailles de capteur de caméras que PTGui ne reconnaît pas automatiquement."
 		},
 		{
 			"id": "ptguiviewer",
@@ -7510,7 +7510,7 @@
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
 			"machinetranslated": true,
-			"helptext": "Envoyez le projet en cours à Batch Stitcher pour traitement. Une copie du projet en cours est enregistrée sous un nom de fichier temporaire, qui est envoyé au programme de stitching par lots."
+			"helptext": "Envoyez le projet en cours à Batch Stitcher pour traitement. Une copie du projet en cours est enregistrée sous un nom de fichier temporaire, qui est envoyé au Batch Stitcher."
 		},
 		{
 			"id": "menubar.project.preview",
@@ -7813,8 +7813,8 @@
 		{
 			"id": "lensparams.cameradatabase",
 			"machinetranslated": true,
-			"helptext": "Si PTGui ne reconnaît pas votre caméra, enregistrez la taille de son capteur dans la base de données de la caméra. Lors du prochain chargement d'une image à partir de la même caméra, PTGui utilisera la taille de capteur appropriée.",
-			"morehelptext": "<br><br>Voir aussi: <a href='helppage:cameradatabase'>Utilisation de la base de données de l'appareil photo</a>"
+			"helptext": "Si PTGui ne reconnaît pas votre caméra, enregistrez la taille de son capteur dans la base de données des boitiers. Lors du prochain chargement d'une image à partir de la même caméra, PTGui utilisera la taille de capteur appropriée.",
+			"morehelptext": "<br><br>Voir aussi: <a href='helppage:cameradatabase'>Utilisation de la base de données des boitiers</a>"
 		},
 		{
 			"id": "lensparams.exifbutton",
@@ -8235,8 +8235,8 @@
 		{
 			"id": "projectsettingstab.batchstitcher.align",
 			"machinetranslated": false,
-			"helptext": "Si cette option est activée, le traitement par lots exécutera '@alignimages@' avant d'assembler le panorama.",
-			"morehelptext": "<br><br>Si cette option est activée, le programme d’agrégation par lots analysera d’abord les images, générera des points de contrôle, optimisera le projet, etc. Ce qui sera fait exactement est configuré ci-dessus dans @mainwindow.projectsettings.alignimagesbehavior@. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>S'il est désactivé, le projet sera asemblé exactement tel qu'il l'est maintenant.<br><br>Lors de la création de modèles pour le traitement par lots dans le Batch Builder, vous devez cocher cette case correctement. Il existe essentiellement deux cas d'utilisation différents pour le Batch Builder:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans regénérer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique.<br><br>Dans ce dernier cas, la position des images dans chaque panorama sera généralement légèrement différente. Même si la tête panoramique a des positions prédéfininies, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage.<br><br>Cette case à cocher disparaît automatiquement: après l'exécution de '@alignimages@', cette case est désélectionnée et le fichier de projet sur le disque est mis à jour avec le panorama aligné. Cela empêche l'exécution de '@alignimages@' plusieurs fois pour le même projet."
+			"helptext": "Si cette option est activée, le Batch Stitcher exécutera '@alignimages@' avant d'assembler le panorama.",
+			"morehelptext": "<br><br>Si cette option est activée, le Batch Stitcher analysera d’abord les images, générera des points de contrôle, optimisera le projet, etc. Ce qui sera fait exactement est configuré ci-dessus dans @mainwindow.projectsettings.alignimagesbehavior@. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>S'il est désactivé, le projet sera asemblé exactement tel qu'il l'est maintenant.<br><br>Lors de la création de modèles pour le traitement par lots dans le Batch Builder, vous devez cocher cette case correctement. Il existe essentiellement deux cas d'utilisation différents pour le Batch Builder:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans regénérer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique.<br><br>Dans ce dernier cas, la position des images dans chaque panorama sera généralement légèrement différente. Même si la tête panoramique a des positions prédéfininies, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage.<br><br>Cette case à cocher disparaît automatiquement: après l'exécution de '@alignimages@', cette case est désélectionnée et le fichier de projet sur le disque est mis à jour avec le panorama aligné. Cela empêche l'exécution de '@alignimages@' plusieurs fois pour le même projet."
 		},
 		{
 			"id": "projectsettingstab.batchstitcher.stitch",
@@ -8493,7 +8493,7 @@
 			"id": "createpanoramatab.saveandsendtobatchstitcher",
 			"machinetranslated": false,
 			"helptext": "Envoie le panorama à Batch Stitcher pour le traitement en arrière-plan.",
-			"morehelptext": "<br><br>Si le projet est modifié, le fichier de projet sera d'abord enregistré sur le disque (comme dans @menubar.file@ | @menubar.file.saveproject@). Ensuite, l'assistant de lot est ouvert et le projet est ajouté à la file d'attente de traitement. <optional product='pro'><br><br>Le programme d'assemblage par lots peut être configuré pour aligner le panorama (voir @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@). Si tel est le cas, l'assistant de traitement par lots mettra à jour le projet sur le disque une fois les images alignées. Pour éviter le risque de travailler sur différentes versions du même projet, le projet doit être fermé dans cette fenêtre après le lancement du programme d'assemblage par lots.</optional><br><br>Vous pouvez également envoyer le projet au programme d'assemblage par lots à l'aide de @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@. Ce dernier enregistre le projet sous un nom de fichier temporaire unique et l'envoie au programme d'assemblage par lots. Utilisez cette option si vous souhaitez envoyer différentes versions du même projet au programme d'assemblage par lots. @menubar.project.saveandsendtobatchstitcher@ utilise le nom de fichier actuel du projet. Par conséquent, les versions précédentes du même projet seront remplacées."
+			"morehelptext": "<br><br>Si le projet est modifié, le fichier de projet sera d'abord enregistré sur le disque (comme dans @menubar.file@ | @menubar.file.saveproject@). Ensuite, l'assistant de lot est ouvert et le projet est ajouté à la file d'attente de traitement. <optional product='pro'><br><br>Le Batch Stitcher peut être configuré pour aligner le panorama (voir @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@). Si tel est le cas, le Batch Stitcher mettra à jour le projet sur le disque une fois les images alignées. Pour éviter le risque de travailler sur différentes versions du même projet, le projet doit être fermé dans cette fenêtre après le lancement du Batch Stitcher.</optional><br><br>Vous pouvez également envoyer le projet au Batch Stitcher à l'aide de @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@. Ce dernier enregistre le projet sous un nom de fichier temporaire unique et l'envoie au Batch Stitcher. Utilisez cette option si vous souhaitez envoyer différentes versions du même projet au Batch Stitcher. @menubar.project.saveandsendtobatchstitcher@ utilise le nom de fichier actuel du projet. Par conséquent, les versions précédentes du même projet seront remplacées."
 		},
 		{
 			"id": "createpanoramatab.includeimages",
@@ -9137,8 +9137,8 @@
 		{
 			"id": "batchbuilder.alignimages",
 			"machinetranslated": false,
-			"helptext": "Choix si le programme de fusion par lots doit analyser et aligner les images avant l'assemblage.",
-			"morehelptext": "<br><br>Par défaut, cela correspond au paramètre défini sous @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ dans le projet de modèle. Ce paramètre est répété ici et il peut être remplacé car c'est une source de confusion courante.<br><br>Le programme batch Stitcher peut être configuré pour exécuter '@alignimages@' avant d'assembler le panorama. Si cette option est activée, le programme d'agitation par lots analyse d'abord les images, génère des points de contrôle, optimise le projet, etc. Ce qui sera exactement fait est configuré dans le modèle sous @mainwindow.tabs.projectsettings@ - Aligner le comportement des images. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>Si cette option est désactivée, le projet sera fusionné exactement comme dans le modèle. Le modèle doit donc contenir des images correctement alignées.<br><br>Il existe essentiellement deux cas d'utilisation différents pour le Batch Builder:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans générer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br><br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique. Dans ce cas, les positions des images dans chaque panorama seront généralement légèrement différentes. Même si la tête panoramique a des clics arrêtés, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage."
+			"helptext": "Choix si le Batch Builder doit analyser et aligner les images avant l'assemblage.",
+			"morehelptext": "<br><br>Par défaut, cela correspond au paramètre défini sous @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ dans le projet de modèle. Ce paramètre est répété ici et il peut être remplacé car c'est une source de confusion courante.<br><br>Le programme Batch Stitcher peut être configuré pour exécuter '@alignimages@' avant d'assembler le panorama. Si cette option est activée, le Batch Builder analyse d'abord les images, génère des points de contrôle, optimise le projet, etc. Ce qui sera exactement fait est configuré dans le modèle sous @mainwindow.tabs.projectsettings@ - Aligner le comportement des images. Après l'alignement, le fichier de projet mis à jour sera enregistré sur le disque.<br><br>Si cette option est désactivée, le projet sera fusionné exactement comme dans le modèle. Le modèle doit donc contenir des images correctement alignées.<br><br>Il existe essentiellement deux cas d'utilisation différents pour le Batch Builder:<br><br>1. pour assembler de nombreux panoramas en utilisant exactement les mêmes paramètres, sans générer de points de contrôle. Ceci peut être utilisé par exemple avec des installations à plusieurs caméras, où tous les panoramas ont la même orientation d'image. Dans ce cas, &quot;@alignimages@&quot; doit être ignoré.<br><br>2. ou pour assembler automatiquement un certain nombre de panoramas en pointant simplement PTGui sur un dossier contenant des images. Les images sont prises par exemple en faisant pivoter l'appareil photo sur une tête de trépied panoramique. Dans ce cas, les positions des images dans chaque panorama seront généralement légèrement différentes. Même si la tête panoramique a des clics arrêtés, les tolérances mécaniques entraîneront de petites variations dans les orientations de l'image dans chaque panorama. Pour compenser cela, PTGui doit analyser les images de chaque panorama et générer des points de contrôle. Il est donc nécessaire d'exécuter @alignimages@ avant l'assemblage."
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
@@ -9337,13 +9337,13 @@
 			"id": "batchstitcher.toolbar.start",
 			"machinetranslated": false,
 			"label": "Continuer",
-			"helptext": "Continue le traitement. Le traitement par lots démarrera le traitement du premier travail non terminé de la file d'attente."
+			"helptext": "Continue le traitement. Le Batch Stitcher démarrera le traitement du premier travail non terminé de la file d'attente."
 		},
 		{
 			"id": "batchstitcher.toolbar.stop",
 			"machinetranslated": true,
 			"label": "Arrêter",
-			"helptext": "Arrête le traitement. Le traitement par lots interrompra le traitement du travail en cours (le cas échéant)."
+			"helptext": "Arrête le traitement. Le Batch Stitcher interrompra le traitement du travail en cours (le cas échéant)."
 		},
 		{
 			"id": "batchstitcher.toolbar.help",
@@ -9408,19 +9408,19 @@
 		{
 			"id": "cameradatabase.entries",
 			"machinetranslated": true,
-			"morehelptext": "Enregistrements de base de données de caméra. Voir: <a href='helppage:cameradatabase'>Utilisation de la base de données de caméras</a>"
+			"morehelptext": "Enregistrements de base de données des boitiers. Voir: <a href='helppage:cameradatabase'>Utilisation de la base de données des boitiers</a>"
 		},
 		{
 			"id": "cameradatabase.entries.add",
 			"machinetranslated": true,
 			"label": "Ajouter",
-			"morehelptext": "<br><br>Les enregistrements de base de données de caméra peuvent être ajoutés à partir de l'onglet @mainwindow.tabs.lenssettings@ dans la fenêtre principale. Voir: <a href='helppage:cameradatabase'>Utilisation de la base de données de caméras</a>"
+			"morehelptext": "<br><br>Les enregistrements de base de données des boitiers être ajoutés à partir de l'onglet @mainwindow.tabs.lenssettings@ dans la fenêtre principale. Voir: <a href='helppage:cameradatabase'>Utilisation de la base de données des boitiers</a>"
 		},
 		{
 			"id": "cameradatabase.entries.remove",
 			"machinetranslated": false,
 			"label": "Retirer",
-			"helptext": "Supprime l'enregistrement de la base de données de caméras sélectionnée."
+			"helptext": "Supprime l'enregistrement de la base de données des boitiers sélectionnée."
 		},
 		{
 			"id": "focallengthdialog.loadfromlensdb",
@@ -9465,8 +9465,8 @@
 		{
 			"id": "sensorsizedialog.alwaysuse",
 			"machinetranslated": true,
-			"helptext": "Ajoute un enregistrement à la base de données de la caméra pour la taille de capteur donnée et les données EXIF ​​de l'image.",
-			"morehelptext": "<br><br>En ajoutant un enregistrement à la base de données de la caméra, ces paramètres seront automatiquement chargés lors du prochain chargement d'une image de la même caméra. Pour plus d'informations, voir: <a href='helppage:cameradatabase'>Utilisation de la base de données de l'appareil photo</a>"
+			"helptext": "Ajoute un enregistrement à la base de données des boitiers pour la taille de capteur donnée et les données EXIF ​​de l'image.",
+			"morehelptext": "<br><br>En ajoutant un enregistrement à la base de données des boitiers, ces paramètres seront automatiquement chargés lors du prochain chargement d'une image de la même caméra. Pour plus d'informations, voir: <a href='helppage:cameradatabase'>Utilisation de la base de données des boitiers</a>"
 		},
 		{
 			"id": "options.tooltipmode",
@@ -9754,7 +9754,7 @@
 		{
 			"id": "batchbuilder.deleteprojectswhendone",
 			"machinetranslated": true,
-			"helptext": "Le traitement par lots supprimera les fichiers de projet générés après le traitement. Les images sources ne seront pas supprimées."
+			"helptext": "Le Batch Builder supprimera les fichiers de projet générés après le traitement. Les images sources ne seront pas supprimées."
 		},
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
@@ -9883,7 +9883,7 @@
 		{
 			"id": "batchstitcher",
 			"machinetranslated": false,
-			"helptext": "<b>@batchstitcher@</b><br><br>Assembler de grands panoramas peut prendre un peu de temps. Batch Stitcher vous permet de préparer plusieurs projets et de les faire assembler par lots. Les projets sont mis en file d'attente dans l'agitateur par lots à l'aide du bouton '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' de l'onglet@mainwindow.tabs.createpanorama@ et via @menubar.project.sendtemporarycopytobatchstitcher@ du menu @menubar.project@. Vous pouvez également lancer le programme d'agitation par lots à l'aide de @menubar.tools@ | @batchstitcher@ et ajouter manuellement des projets dans la file d'attente.<br><br><b>Utiliser le Batch Builder</b><br><br>La partie principale de Batch Stitcher (directement sous la barre d’outils) est la file d’attente. Cette liste répertorie les tâches à traiter et les tâches terminées. Les travaux terminés avec succès sont signalés par une coche verte à droite. Toute tâche annulée avec une erreur est indiquée par un point d'exclamation rouge; le message d'erreur est affiché dans le volet Journal en bas. Si un travail est en cours de traitement, une barre de progression s'affiche.<br><br>Les travaux peuvent être ajoutés à l'aide de @menubar.file@ | @batchstitcher.menubar.addprojects@, à l'aide du bouton @batchstitcher.menubar.addprojects@ de la barre d'outils ou en faisant glisser un fichier .pts dans la fenêtre Batch Stitcher. Des tâches seront également ajoutées lors de l'exécution de &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; à partir de la fenêtre principale. Un ou plusieurs projets peuvent être sélectionnés en les faisant glisser avec la souris. Les projets sélectionnés peuvent être supprimés à l'aide de la touche Suppr. La liste des projets peut être réorganisée en faisant glisser l'en-tête de la ligne (à gauche) vers le haut ou le bas.<br><br>Clic-droit <optional platform='mac'>(ou Ctrl + clic)</optional> dans la liste pour un menu contextuel. Utilisez '@batchstitcher.contextmenu.markasdone@' et '@batchstitcher.contextmenu.markasnotdone@' pour modifier le statut d'un projet. Si un projet est marqué comme '@batchstitcher.contextmenu.deletewhendone@', le fichier de projet correspondant (.pts) sera supprimé à la fin (le panorama généré sera bien sûr conservé). Ceci est utilisé par @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Le programme batch Stitcher peut être démarré et arrêté via le menu @batchstitcher.menubar.process@ et en utilisant les boutons de la barre d’outils. Double-cliquez sur un travail (ou appuyez sur la touche Entrée) pour ouvrir le projet dans une nouvelle fenêtre PTGui. <optional product='pro'><br><br><b>Paramètres du projet Batch Builder</b><br><br>Batch Stitcher peut non seulement assembler des panoramas, mais également générer des points de contrôle et aligner des images. Le comportement est contrôlé par les paramètres @mainwindow.projectsettings.batchstitcheractions@ de l'onglet @mainwindow.tabs.projectsettings@ du projet: Si <b>@mainwindow.projectsettings.batchstitcheractions.align@</b> est sélectionné, le programme Batch Builder génère des points de contrôle et configure le panorama. Si <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> est sélectionné, l’ <b>agrafeuse</b> discontinue <b>coud</b> le panorama.</optional><br><br><b>Listes de lots</b><br><br>Une liste de lots stocke une liste de travaux, avec le statut Terminé / Non terminé de chaque travail. L'utilisation de listes de lots vous permet de fermer le programme Batch Builder et de continuer là où vous l'avez laissé. Le programme Batch Builder ne peut pas reprendre des travaux partiellement terminés (vous devez redémarrer tout le travail), mais il se souvient des projets déjà terminés et des projets de la liste de lots non terminés.<br><br>Créez une liste de lots en chargeant une ou plusieurs tâches dans le programme Stitcher et en choisissant @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Les listes de lots existantes peuvent être ouvertes à l'aide de @batchstitcher.menubar.openbatchlist@ ou @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>L'outil Batch Builder (voir ci-dessous) crée également des listes de lots pouvant être chargées dans Batch Stitcher.</optional><br><br>Une seule liste de lots peut être active à la fois. Lorsqu'une liste de lots est active et que &quot;@batchstitcher.menubar.autosavebatchlist@&quot; est sélectionné, toute modification apportée à la liste de projets (par exemple lorsqu'un projet est terminé ou lorsqu'un projet est ajouté à la liste) est immédiatement enregistrée dans la liste de lots. Si la liste de lots est très volumineuse (des milliers de projets ou plus), il faudra beaucoup de temps pour enregistrer la liste de lots à chaque modification. Dans ce cas, il est préférable de désactiver '@batchstitcher.menubar.autosavebatchlist@' et d'effectuer manuellement @batchstitcher.menubar.savebatchlist@ pour écrire la liste de lots modifiée sur le disque de temps en temps.<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>Le Batch Builder</b><br><br>La combinaison du Batch Stitcher et du Batch Builder fait de PTGui Pro un outil puissant pour aligner et assembler rapidement des centaines de panoramas de manière presque entièrement automatique. Pour plus d'informations, faites @menubar.tools@ | @batchbuilder@ et appuyez sur le bouton @help@ à cet endroit.</optional>"
+			"helptext": "<b>@batchstitcher@</b><br><br>Assembler de grands panoramas peut prendre un peu de temps. Batch Stitcher vous permet de préparer plusieurs projets et de les faire assembler par lots. Les projets sont mis en file d'attente dans le Batch Stitcher à l'aide du bouton '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' de l'onglet@mainwindow.tabs.createpanorama@ et via @menubar.project.sendtemporarycopytobatchstitcher@ du menu @menubar.project@. Vous pouvez également lancer le Batch Stitcher à l'aide de @menubar.tools@ | @batchstitcher@ et ajouter manuellement des projets dans la file d'attente.<br><br><b>Utiliser le Batch Builder</b><br><br>La partie principale de Batch Stitcher (directement sous la barre d’outils) est la file d’attente. Cette liste répertorie les tâches à traiter et les tâches terminées. Les travaux terminés avec succès sont signalés par une coche verte à droite. Toute tâche annulée avec une erreur est indiquée par un point d'exclamation rouge; le message d'erreur est affiché dans le volet Journal en bas. Si un travail est en cours de traitement, une barre de progression s'affiche.<br><br>Les travaux peuvent être ajoutés à l'aide de @menubar.file@ | @batchstitcher.menubar.addprojects@, à l'aide du bouton @batchstitcher.menubar.addprojects@ de la barre d'outils ou en faisant glisser un fichier .pts dans la fenêtre Batch Stitcher. Des tâches seront également ajoutées lors de l'exécution de &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; à partir de la fenêtre principale. Un ou plusieurs projets peuvent être sélectionnés en les faisant glisser avec la souris. Les projets sélectionnés peuvent être supprimés à l'aide de la touche Suppr. La liste des projets peut être réorganisée en faisant glisser l'en-tête de la ligne (à gauche) vers le haut ou le bas.<br><br>Clic-droit <optional platform='mac'>(ou Ctrl + clic)</optional> dans la liste pour un menu contextuel. Utilisez '@batchstitcher.contextmenu.markasdone@' et '@batchstitcher.contextmenu.markasnotdone@' pour modifier le statut d'un projet. Si un projet est marqué comme '@batchstitcher.contextmenu.deletewhendone@', le fichier de projet correspondant (.pts) sera supprimé à la fin (le panorama généré sera bien sûr conservé). Ceci est utilisé par @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Le programme batch Stitcher peut être démarré et arrêté via le menu @batchstitcher.menubar.process@ et en utilisant les boutons de la barre d’outils. Double-cliquez sur un travail (ou appuyez sur la touche Entrée) pour ouvrir le projet dans une nouvelle fenêtre PTGui. <optional product='pro'><br><br><b>Paramètres du projet Batch Builder</b><br><br>Batch Stitcher peut non seulement assembler des panoramas, mais également générer des points de contrôle et aligner des images. Le comportement est contrôlé par les paramètres @mainwindow.projectsettings.batchstitcheractions@ de l'onglet @mainwindow.tabs.projectsettings@ du projet: Si <b>@mainwindow.projectsettings.batchstitcheractions.align@</b> est sélectionné, le programme Batch Builder génère des points de contrôle et configure le panorama. Si <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> est sélectionné, l’ <b>agrafeuse</b> discontinue <b>coud</b> le panorama.</optional><br><br><b>Listes de lots</b><br><br>Une liste de lots stocke une liste de travaux, avec le statut Terminé / Non terminé de chaque travail. L'utilisation de listes de lots vous permet de fermer le programme Batch Builder et de continuer là où vous l'avez laissé. Le programme Batch Builder ne peut pas reprendre des travaux partiellement terminés (vous devez redémarrer tout le travail), mais il se souvient des projets déjà terminés et des projets de la liste de lots non terminés.<br><br>Créez une liste de lots en chargeant une ou plusieurs tâches dans le programme Stitcher et en choisissant @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Les listes de lots existantes peuvent être ouvertes à l'aide de @batchstitcher.menubar.openbatchlist@ ou @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>L'outil Batch Builder (voir ci-dessous) crée également des listes de lots pouvant être chargées dans Batch Stitcher.</optional><br><br>Une seule liste de lots peut être active à la fois. Lorsqu'une liste de lots est active et que &quot;@batchstitcher.menubar.autosavebatchlist@&quot; est sélectionné, toute modification apportée à la liste de projets (par exemple lorsqu'un projet est terminé ou lorsqu'un projet est ajouté à la liste) est immédiatement enregistrée dans la liste de lots. Si la liste de lots est très volumineuse (des milliers de projets ou plus), il faudra beaucoup de temps pour enregistrer la liste de lots à chaque modification. Dans ce cas, il est préférable de désactiver '@batchstitcher.menubar.autosavebatchlist@' et d'effectuer manuellement @batchstitcher.menubar.savebatchlist@ pour écrire la liste de lots modifiée sur le disque de temps en temps.<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>Le Batch Builder</b><br><br>La combinaison du Batch Stitcher et du Batch Builder fait de PTGui Pro un outil puissant pour aligner et assembler rapidement des centaines de panoramas de manière presque entièrement automatique. Pour plus d'informations, faites @menubar.tools@ | @batchbuilder@ et appuyez sur le bouton @help@ à cet endroit.</optional>"
 		},
 		{
 			"id": "aligntogrid",
@@ -9893,7 +9893,7 @@
 		{
 			"id": "batchbuilder",
 			"machinetranslated": true,
-			"helptext": "<b>@batchbuilder@</b><br><br>En combinaison avec Batch Stitcher, le Batch Builder est un outil permettant d'assembler un grand nombre de panoramas par lot. Vous devez généralement alimenter le Batch Builder avec un ou plusieurs dossiers avec des images source et éventuellement un projet de modèle. Il analyse les dossiers d'images source pour rechercher des groupes d'images formant un panorama. Les fichiers de projet seront créés pour chaque groupe d'images. Les fichiers de projet générés peuvent ensuite être envoyés à Batch Stitcher pour traitement.<br><br><b>Usage</b><br><br>Appuyez sur <b>@batchbuilder.detectpanoramas@</b> pour numériser un dossier contenant des images source à l’aide de panoramas. Le Batch Builder propose ensuite une liste de projets. Cela ne crée pas encore de fichiers de projet. Les groupes d'images peuvent toujours être modifiés. Appuyez sur le bouton en croix noire pour supprimer des images d'un projet. Appuyez sur l'icône des ciseaux pour couper un projet en deux projets distincts. Sélectionnez un ou plusieurs projets et faites un clic droit <optional platform='mac'>(ou Ctrl + clic)</optional> pour un menu contextuel avec des options supplémentaires: les projets sélectionnés peuvent être combinés en un seul projet ou supprimés de la liste. Des fichiers images peuvent également être ajoutés manuellement à un projet.<br><br>Une fois les images de chaque projet correctement configurées, sélectionnez le modèle à utiliser, puis appuyez sur <b>@batchbuilder.generateprojects@</b> . Cela créera les fichiers de projet PTGui, un pour chaque groupe d'images, et les enverra à Batch Stitcher pour traitement.<br><br><b>Modèles</b><br><br>Généralement, le Batch Builder est utilisé avec un modèle. Le modèle configure par exemple la taille de sortie, le format de fichier et l'emplacement de stockage du fichier de projet et du panorama fusionné. Un modèle peut également remplacer les paramètres d'objectif par défaut ou configurer le positionnement exact des images source dans le panorama.<br><br>Pour créer un modèle, démarrez un nouveau projet PTGui Pro, définissez les paramètres souhaités, puis choisissez @menubar.file@ | @menubar.file.saveastemplate@. Quelques instructions pour la création de modèles à utiliser avec le Batch Builder:<br><br>• N'entrez pas de nom de fichier de sortie dans l'onglet @mainwindow.tabs.createpanorama@. Au lieu de cela, sélectionnez '@mainwindow.createpanoramatab.usedefault@' pour le nom du fichier de sortie et définissez le nom du fichier de sortie souhaité dans la section @mainwindow.projectsettings.filenaming@ de l'onglet @mainwindow.tabs.projectsettings@. Sinon, tous les projets générés écriraient dans le même fichier panorama.<br><br>• Dans la section @mainwindow.projectsettings.filenaming@ de l'onglet @mainwindow.tabs.projectsettings@, sélectionnez: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Le Batch Builder s'assurera que les noms de projets sont uniques en ajoutant éventuellement (1), (2), etc. au nom. Dans la mesure où cela génère des noms de fichier de projet uniques, il en résultera également des noms de fichier uniques pour le panorama fusionné.<br><br>• Souvent, tous les panoramas ont été pris avec le même objectif connu. Si tel est le cas, il peut être souhaitable d’utiliser des paramètres d’objectif prédéfinis au lieu de laisser PTGui Pro choisir les paramètres automatiques d’objectif en fonction des données EXIF. Pour ce faire, désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Les images fisheye circulaires doivent être recadrées, mais le cercle de recadrage sera différent pour chaque appareil photo et chaque objectif. Pour prédéfinir le cercle de recadrage:<br>- chargez l'une de vos images source dans le projet de modèle (pour ajuster le recadrage, le projet doit avoir au moins une image)<br>- ajustez le cercle de rognage dans l'onglet @mainwindow.tabs.crop@<br>- supprimez à nouveau l'image source du projet. Les paramètres de recadrage seront conservés même lorsque l'image est supprimée.<br>- désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (sinon vos paramètres de rognage seraient remplacés en fonction des données EXIF)<br><br>• Si vous souhaitez générer des panoramas avec une projection et un champ de vision prédéfinis, désactivez «@mainwindow.projectsettings.alignimagesbehavior.fit@» et «@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@» dans l'onglet @mainwindow.tabs.projectsettings@. Basculez sur la projection et le champ de vision souhaités dans Panorama Editor.<br><br>• Si vous souhaitez générer un panorama avec des dimensions en pixels spécifiques: ouvrez l'onglet @mainwindow.tabs.createpanorama@ et sélectionnez «@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@». Sinon, PTGui sélectionnera une taille optimale, qui peut être différente pour chaque panorama en raison de légères variations dans les paramètres optimisés de l'objectif.<br><br>• Assurez-vous de choisir la valeur appropriée pour @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Voir l'info-bulle ici pour plus d'informations.<br><br>• Si vous souhaitez inspecter les projets générés avant qu'ils ne soient réellement assemblés, désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. Ainsi, l'agitateur par lots ne génère que des points de contrôle, configure les panoramas et enregistre les projets modifiés. Après avoir inspecté et éventuellement peaufiné les projets, envoyez-les à nouveau à Batch Stitcher pour la couture finale.<br><br>Une fois le modèle configuré, choisissez @menubar.file@ | @menubar.file.saveastemplate@ pour l’enregistrer. Il apparaîtra ensuite dans le Batch Builder de la liste &quot;@batchbuilder.usetemplate@&quot;.<br><br>Voir aussi: <a href='helppage:workingwithtemplates'>Travailler avec des modèles</a><br><br>"
+			"helptext": "<b>@batchbuilder@</b><br><br>En combinaison avec Batch Stitcher, le Batch Builder est un outil permettant d'assembler un grand nombre de panoramas par lot. Vous devez généralement alimenter le Batch Builder avec un ou plusieurs dossiers avec des images source et éventuellement un projet de modèle. Il analyse les dossiers d'images source pour rechercher des groupes d'images formant un panorama. Les fichiers de projet seront créés pour chaque groupe d'images. Les fichiers de projet générés peuvent ensuite être envoyés à Batch Stitcher pour traitement.<br><br><b>Usage</b><br><br>Appuyez sur <b>@batchbuilder.detectpanoramas@</b> pour numériser un dossier contenant des images source à l’aide de panoramas. Le Batch Builder propose ensuite une liste de projets. Cela ne crée pas encore de fichiers de projet. Les groupes d'images peuvent toujours être modifiés. Appuyez sur le bouton en croix noire pour supprimer des images d'un projet. Appuyez sur l'icône des ciseaux pour couper un projet en deux projets distincts. Sélectionnez un ou plusieurs projets et faites un clic droit <optional platform='mac'>(ou Ctrl + clic)</optional> pour un menu contextuel avec des options supplémentaires: les projets sélectionnés peuvent être combinés en un seul projet ou supprimés de la liste. Des fichiers images peuvent également être ajoutés manuellement à un projet.<br><br>Une fois les images de chaque projet correctement configurées, sélectionnez le modèle à utiliser, puis appuyez sur <b>@batchbuilder.generateprojects@</b> . Cela créera les fichiers de projet PTGui, un pour chaque groupe d'images, et les enverra à Batch Stitcher pour traitement.<br><br><b>Modèles</b><br><br>Généralement, le Batch Builder est utilisé avec un modèle. Le modèle configure par exemple la taille de sortie, le format de fichier et l'emplacement de stockage du fichier de projet et du panorama fusionné. Un modèle peut également remplacer les paramètres d'objectif par défaut ou configurer le positionnement exact des images source dans le panorama.<br><br>Pour créer un modèle, démarrez un nouveau projet PTGui Pro, définissez les paramètres souhaités, puis choisissez @menubar.file@ | @menubar.file.saveastemplate@. Quelques instructions pour la création de modèles à utiliser avec le Batch Builder:<br><br>• N'entrez pas de nom de fichier de sortie dans l'onglet @mainwindow.tabs.createpanorama@. Au lieu de cela, sélectionnez '@mainwindow.createpanoramatab.usedefault@' pour le nom du fichier de sortie et définissez le nom du fichier de sortie souhaité dans la section @mainwindow.projectsettings.filenaming@ de l'onglet @mainwindow.tabs.projectsettings@. Sinon, tous les projets générés écriraient dans le même fichier panorama.<br><br>• Dans la section @mainwindow.projectsettings.filenaming@ de l'onglet @mainwindow.tabs.projectsettings@, sélectionnez: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Le Batch Builder s'assurera que les noms de projets sont uniques en ajoutant éventuellement (1), (2), etc. au nom. Dans la mesure où cela génère des noms de fichier de projet uniques, il en résultera également des noms de fichier uniques pour le panorama fusionné.<br><br>• Souvent, tous les panoramas ont été pris avec le même objectif connu. Si tel est le cas, il peut être souhaitable d’utiliser des paramètres d’objectif prédéfinis au lieu de laisser PTGui Pro choisir les paramètres automatiques d’objectif en fonction des données EXIF. Pour ce faire, désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Les images fisheye circulaires doivent être recadrées, mais le cercle de recadrage sera différent pour chaque appareil photo et chaque objectif. Pour prédéfinir le cercle de recadrage:<br>- chargez l'une de vos images source dans le projet de modèle (pour ajuster le recadrage, le projet doit avoir au moins une image)<br>- ajustez le cercle de rognage dans l'onglet @mainwindow.tabs.crop@<br>- supprimez à nouveau l'image source du projet. Les paramètres de recadrage seront conservés même lorsque l'image est supprimée.<br>- désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (sinon vos paramètres de rognage seraient remplacés en fonction des données EXIF)<br><br>• Si vous souhaitez générer des panoramas avec une projection et un champ de vision prédéfinis, désactivez «@mainwindow.projectsettings.alignimagesbehavior.fit@» et «@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@» dans l'onglet @mainwindow.tabs.projectsettings@. Basculez sur la projection et le champ de vision souhaités dans Panorama Editor.<br><br>• Si vous souhaitez générer un panorama avec des dimensions en pixels spécifiques: ouvrez l'onglet @mainwindow.tabs.createpanorama@ et sélectionnez «@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@». Sinon, PTGui sélectionnera une taille optimale, qui peut être différente pour chaque panorama en raison de légères variations dans les paramètres optimisés de l'objectif.<br><br>• Assurez-vous de choisir la valeur appropriée pour @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Voir l'info-bulle ici pour plus d'informations.<br><br>• Si vous souhaitez inspecter les projets générés avant qu'ils ne soient réellement assemblés, désélectionnez @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. Ainsi, le Batch Stitcher ne génère que des points de contrôle, configure les panoramas et enregistre les projets modifiés. Après avoir inspecté et éventuellement peaufiné les projets, envoyez-les à nouveau à Batch Stitcher pour la couture finale.<br><br>Une fois le modèle configuré, choisissez @menubar.file@ | @menubar.file.saveastemplate@ pour l’enregistrer. Il apparaîtra ensuite dans le Batch Builder de la liste &quot;@batchbuilder.usetemplate@&quot;.<br><br>Voir aussi: <a href='helppage:workingwithtemplates'>Travailler avec des modèles</a><br><br>"
 		},
 		{
 			"id": "workingwithtemplates",
@@ -9918,7 +9918,7 @@
 		{
 			"id": "panoramaeditor",
 			"machinetranslated": false,
-			"helptext": "<b>@panoramaeditor@</b><br><br>L'éditeur de panorama affiche un aperçu en direct du panorama. La projection panoramique du panorama peut être modifiée, le panorama peut être recadré et des images individuelles peuvent être déplacées dans le panorama. Panorama Editor est ouvert à partir de @menubar.tools@ | @panoramaeditor@ ou par <optional platform='windows'>en appuyant sur Ctrl + E</optional><optional platform='mac'>en appuyant sur Cmd + E</optional> .<br><br>L’éditeur de panorama peut fonctionner selon trois modes, activés en appuyant sur le bouton correspondant de la barre d’outils:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Pour repositionner des images individuellement dans le panorama.<br><b>@panoramaeditor.menubar.editpano@:</b> pour déplacer ou faire pivoter le panorama dans son ensemble.<br><b>@panoeditor.menubar.setcenter@:</b> pour centrer le panorama autour d'un certain point.<br><br>Selon le mode sélectionné, l'ensemble du panorama ou des images individuelles peuvent être déplacés. Faites glisser avec le bouton gauche de la souris pour vous déplacer. Faites glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> Faire tourner.<br><br>Clic-droit <optional platform='mac'>(ou Ctrl + clic)</optional> dans le panorama pour afficher un menu contextuel permettant d'effectuer des actions sur les images situées sous le pointeur de la souris.<br><br>À gauche et en bas, deux <b>curseurs de champ de vision:</b> utilisez-les pour élargir ou réduire le panorama.<br><br>Sur le côté droit se trouve une <b>barre latérale</b> offrant d’autres options d’édition. La barre latérale peut être masquée ou verrouillée à l’aide du portant le signe '>'.<br><br>Cliquez sur la loupe pour afficher la <b>visionneuse de détails</b> . Vous pourrez ainsi zoomer sur des parties spécifiques du panorama.<br><br>Une <b>grille</b> peut être superposée en faisant glisser le petit bouton triangulaire (en bas) vers la droite.<br><br>Dans la barre d’outils, l’un des trois <b>modes de</b> fusion possibles peut être sélectionné: @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ et @panoeditor.menubar.showseams@. Voir les info-bulles pour plus d'informations."
+			"helptext": "<b>@panoramaeditor@</b><br><br>L'éditeur de panorama affiche un aperçu en direct du panorama. La projection panoramique du panorama peut être modifiée, le panorama peut être recadré et des images individuelles peuvent être déplacées dans le panorama. Panorama Editor est ouvert à partir de @menubar.tools@ | @panoramaeditor@ ou par <optional platform='windows'>en appuyant sur Ctrl + E</optional><optional platform='mac'>en appuyant sur Cmd + E</optional> .<br><br>L’éditeur de panorama peut fonctionner selon trois modes, activés en appuyant sur le bouton correspondant de la barre d’outils:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Pour repositionner des images individuellement dans le panorama.<br><b>@panoramaeditor.menubar.editpano@:</b> pour déplacer ou faire pivoter le panorama dans son ensemble.<br><b>@panoeditor.menubar.setcenter@:</b> pour centrer le panorama autour d'un certain point.<br><br>Selon le mode sélectionné, l'ensemble du panorama ou des images individuelles peuvent être déplacés. Faites glisser avec le bouton gauche de la souris pour vous déplacer. Faites glisser avec le bouton droit de la souris <optional platform='mac'>(ou Ctrl + glisser)</optional> Faire tourner.<br><br>Clic-droit <optional platform='mac'>(ou Ctrl + clic)</optional> dans le panorama pour afficher un menu contextuel permettant d'effectuer des actions sur les images situées sous le pointeur de la souris.<br><br>À gauche et en bas, deux <b>curseurs de champ de vision:</b> utilisez-les pour élargir ou réduire le panorama.<br><br>Sur le côté droit se trouve une <b>barre latérale</b> offrant d’autres options d’édition. La barre latérale peut être masquée ou verrouillée à l’aide du portant le signe '&gt;'.<br><br>Cliquez sur la loupe pour afficher la <b>visionneuse de détails</b> . Vous pourrez ainsi zoomer sur des parties spécifiques du panorama.<br><br>Une <b>grille</b> peut être superposée en faisant glisser le petit bouton triangulaire (en bas) vers la droite.<br><br>Dans la barre d’outils, l’un des trois <b>modes de</b> fusion possibles peut être sélectionné: @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ et @panoeditor.menubar.showseams@. Voir les info-bulles pour plus d'informations."
 		},
 		{
 			"id": "detailviewer",

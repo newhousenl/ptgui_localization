@@ -5920,6 +5920,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Stisknete klávesu Shift. Chcete deaktivovat zrychlení GPU pro tuto relaci?\n\nStisknutím Ne pokračujte jako obvykle."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Přesnost:"
 		}
 	],
 	"tooltips": [
@@ -8301,6 +8306,18 @@
 			"machinetranslated": true,
 			"helptext": "Pokud nelze snímky zarovnat, přeskočte automatické nastavení expozice a barev.",
 			"morehelptext": "<br><br>Automatické nastavení expozice a barev se provádí porovnáním pixelů z překrývajících se obrázků. Proto je nutné, aby obrázky byly správně zarovnány. Pokud je tato možnost povolena a PTGui nedokázala zarovnat obrázky (například proto, že nebyly nalezeny žádné kontrolní body), bude automatická expozice a úprava barev vynecháno."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Přesnost optimálního algoritmu pro hledání švu",
+			"morehelptext": "<br><br>Pokud je povoleno <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> , PTGui se pokusí umístit švy tak, aby byly nejméně patrné. PTGui kontroluje oblasti, kde se obrazy překrývají, a směruje švy přes oblasti, kde se překrývající se obrazy nejvíce podobají. Tento jezdec konfiguruje rozlišení algoritmu pro vyhledávání švů jako zlomek optimální velikosti panoramatu. Ve výchozím nastavení se hledání švu provádí na 1/8 optimální velikosti. To je dostačující pro opravu většiny chyb spojování, například způsobených pohybujícími se objekty. V některých případech může být sešívání vylepšeno jemnějším nastavením švů. Provádění optimálního hledání švu při plném rozlišení však trvá dlouho a vyžaduje mnoho paměti."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "Směšovací roviny nejsou generovány, protože závorkované zdrojové obrazy jsou nejprve sloučeny do HDR a poté sešity.",
+			"morehelptext": "<br><br>PTGui může zpracovávat expozici v závorkách dvěma různými způsoby. Směšovací roviny jsou generovány pouze v případě, že je na kartě @mainwindow.tabs.exposurehdr@ nakonfigurováno „@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@“. Další informace naleznete v nápovědě k tomuto nastavení na kartě @mainwindow.tabs.exposurehdr@."
 		}
 	],
 	"helppages": [

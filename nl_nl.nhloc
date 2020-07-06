@@ -5930,6 +5930,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "U drukt op de Shift-toets. Wilt u GPU-versnelling voor deze sessie uitschakelen?\n\nDruk op Nee om door te gaan zoals normaal."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Precisie:"
 		}
 	],
 	"tooltips": [
@@ -8054,6 +8059,18 @@
 			"machinetranslated": true,
 			"helptext": "Sla automatische belichting- en kleurcorrectie over als de afbeeldingen niet konden worden uitgelijnd.",
 			"morehelptext": "<br><br>Automatische belichting- en kleurcorrectie wordt gedaan door pixels van overlappende afbeeldingen te vergelijken. Daarom is het noodzakelijk dat de afbeeldingen goed zijn uitgelijnd. Als deze optie is ingeschakeld en PTGui de afbeeldingen niet succesvol heeft uitgelijnd (bijvoorbeeld omdat er geen controlepunten konden worden gevonden), worden automatische belichting- en kleurcorrectie overgeslagen."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Precisie van het optimale naadzoekalgoritme",
+			"morehelptext": "<br><br>Als <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> is ingeschakeld, probeert PTGui de naden zo te plaatsen dat ze het minst waarneembaar zijn. PTGui inspecteert de gebieden waar de afbeeldingen elkaar overlappen en leidt de naden door de gebieden waar de overlappende afbeeldingen het meest op elkaar lijken. Deze schuifregelaar configureert de resolutie van het algoritme voor het zoeken naar naden, als een fractie van de optimale grootte van het panorama. Standaard wordt het vinden van naden gedaan op 1/8 van de optimale grootte. Dit is voldoende om de meeste fouten, bijvoorbeeld veroorzaakt door bewegende objecten, te verhelpen. In sommige gevallen kan het resultaat nog worden geperfectioneerd door de naden vast te leggen op een fijnere resolutie. Het naadzoekalgoritme zal dan echter veel tijd en veel geheugen nodig hebben."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "Blendvlakken worden niet gegenereerd omdat de belichtingsreeksen eerst worden samengevoegd tot HDR en vervolgens worden gestitcht.",
+			"morehelptext": "<br><br>PTGui kan belichtingsreeksen op twee verschillende manieren verwerken. Mengvlakken worden alleen gegenereerd als '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' is geconfigureerd op het tabblad @mainwindow.tabs.exposurehdr@. Zie de tooltip voor deze instelling op het tabblad @mainwindow.tabs.exposurehdr@ voor meer informatie."
 		}
 	],
 	"helppages": [

@@ -1,7 +1,9 @@
 {
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
-	"contributors": ["Sébastien NOYGUES"],
+	"contributors": [
+		"Sébastien NOYGUES"
+	],
 	"languagenamelocalized": "Français",
 	"startupmsg": null,
 	"strings": [
@@ -7314,6 +7316,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Vous appuyez sur la touche Maj. Souhaitez-vous désactiver l'accélération GPU pour cette session?\n\nAppuyez sur Non pour continuer normalement."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Précision:"
 		}
 	],
 	"tooltips": [
@@ -9877,6 +9884,18 @@
 			"machinetranslated": true,
 			"helptext": "Ignorer l'exposition automatique et le réglage des couleurs si les images ne peuvent pas être alignées.",
 			"morehelptext": "<br><br>L'exposition automatique et le réglage des couleurs sont effectués en comparant les pixels des images qui se chevauchent. Il est donc nécessaire que les images soient correctement alignées. Si cette option est activée et que PTGui n'a pas réussi à aligner les images (par exemple, car aucun point de contrôle n'a pu être trouvé), l'exposition automatique et le réglage des couleurs seront ignorés."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Précision de l'algorithme optimal de recherche de couture",
+			"morehelptext": "<br><br>Si <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> est activé, PTGui tente de placer les coutures de sorte qu'elles soient les moins perceptibles. PTGui inspecte les zones où les images se chevauchent et achemine les coutures à travers les zones où les images qui se chevauchent sont les plus similaires. Ce curseur configure la résolution de l'algorithme de recherche de couture, en tant que fraction de la taille optimale du panorama. Par défaut, la recherche de couture est effectuée à 1/8 de la taille optimale. Cela suffit pour corriger la plupart des erreurs d'assemblage, par exemple causées par des objets en mouvement. Dans certains cas, la couture peut être encore améliorée par un réglage plus fin des coutures. Cependant, la recherche de couture optimale à pleine résolution prend beaucoup de temps et utilise beaucoup de mémoire."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "Les plans de fusion ne sont pas générés car les images bracketées sont d'abord fusionnées en HDR puis assemblées.",
+			"morehelptext": "<br><br>PTGui peut traiter les expositions bracketées de deux manières différentes. Les plans de fusion sont générés uniquement si «@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@» est configuré dans l'onglet @mainwindow.tabs.exposurehdr@. Pour plus d'informations, consultez l'info-bulle de ce paramètre dans l'onglet @mainwindow.tabs.exposurehdr@."
 		}
 	],
 	"helppages": [

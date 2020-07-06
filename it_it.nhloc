@@ -6895,6 +6895,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Stai premendo il tasto Maiusc. Desideri disabilitare l'accelerazione GPU per questa sessione?\n\nPremere No per continuare normalmente."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Precisione:"
 		}
 	],
 	"tooltips": [
@@ -9459,6 +9464,18 @@
 			"machinetranslated": true,
 			"helptext": "Salta l'esposizione automatica e la regolazione del colore se non è possibile allineare le immagini.",
 			"morehelptext": "<br><br>L'esposizione automatica e la regolazione del colore vengono eseguite confrontando i pixel dalle immagini sovrapposte. Pertanto è necessario che le immagini siano allineate correttamente. Se questa opzione è abilitata e PTGui non è riuscito ad allineare le immagini (ad esempio perché non è stato trovato alcun punto di controllo), l'esposizione automatica e la regolazione del colore verranno ignorate."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Precisione dell'algoritmo di ricerca della cucitura ottimale",
+			"morehelptext": "<br><br>Se <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> è abilitato, PTGui tenta di posizionare le cuciture in modo tale che siano le meno percettibili. PTGui ispeziona le aree in cui le immagini si sovrappongono e instrada le cuciture attraverso le aree in cui le immagini sovrapposte sono più simili. Questo cursore configura la risoluzione dell'algoritmo di ricerca della cucitura, come una frazione della dimensione ottimale del panorama. Per impostazione predefinita, la ricerca della cucitura viene eseguita a 1/8 della dimensione ottimale. Questo è sufficiente per correggere la maggior parte degli errori di cucitura, ad esempio causati dallo spostamento di oggetti. In alcuni casi, le cuciture possono essere ulteriormente migliorate mediante una regolazione più fine delle cuciture. Tuttavia, l'esecuzione ottimale della ricerca della cucitura alla massima risoluzione richiede molto tempo e utilizza molta memoria."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "I piani di fusione non vengono generati perché le immagini in bracketing vengono prima unite a HDR e quindi cucite.",
+			"morehelptext": "<br><br>PTGui può elaborare esposizioni in bracketing in due modi diversi. I piani di fusione vengono generati solo se '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' è configurato nella scheda @mainwindow.tabs.exposurehdr@. Per ulteriori informazioni, consultare la descrizione comandi per questa impostazione nella scheda @mainwindow.tabs.exposurehdr@."
 		}
 	],
 	"helppages": [

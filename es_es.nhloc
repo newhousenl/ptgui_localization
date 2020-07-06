@@ -7312,6 +7312,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Estás presionando la tecla Mayús. ¿Desea desactivar la aceleración de GPU para esta sesión?\n\nPresione No para continuar normalmente."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Precisión:"
 		}
 	],
 	"tooltips": [
@@ -9876,6 +9881,18 @@
 			"machinetranslated": true,
 			"helptext": "Omita la exposición automática y el ajuste de color si las imágenes no se pueden alinear.",
 			"morehelptext": "<br><br>La exposición automática y el ajuste de color se realizan comparando píxeles de imágenes superpuestas. Por lo tanto, es necesario que las imágenes estén alineadas correctamente. Si esta opción está habilitada y PTGui no pudo alinear las imágenes (por ejemplo, porque no se encontraron puntos de control), se omitirá la exposición automática y el ajuste de color."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Precisión del algoritmo óptimo de búsqueda de costura",
+			"morehelptext": "<br><br>Si <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> está habilitado, PTGui intenta colocar las costuras de modo que sean las menos perceptibles. PTGui inspecciona las áreas donde las imágenes se superponen y dirige las costuras a través de las áreas donde las imágenes superpuestas son más similares. Este control deslizante configura la resolución del algoritmo de búsqueda de costura, como una fracción del tamaño óptimo del panorama. Por defecto, la búsqueda de costura se realiza a 1/8 del tamaño óptimo. Esto es suficiente para corregir la mayoría de los errores de costura, por ejemplo, causados por objetos en movimiento. En algunos casos, la costura se puede mejorar aún más mediante un ajuste más fino de las costuras. Sin embargo, realizar una búsqueda de costura óptima a resolución completa lleva mucho tiempo y consume mucha memoria."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "Los planos de mezcla no se generan porque las imágenes de origen entre corchetes se fusionan primero con HDR y luego se unen.",
+			"morehelptext": "<br><br>PTGui puede procesar exposiciones entre paréntesis de dos maneras diferentes. Los planos de mezcla se generan solo si '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' está configurado en la pestaña @mainwindow.tabs.exposurehdr@. Para obtener más información, consulte la información sobre herramientas para esta configuración en la pestaña @mainwindow.tabs.exposurehdr@."
 		}
 	],
 	"helppages": [

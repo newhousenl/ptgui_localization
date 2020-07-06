@@ -6362,6 +6362,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "您正在按Shift鍵。您是否要為此會話禁用GPU加速？\n\n按否繼續正常進行。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "精確："
 		}
 	],
 	"tooltips": [
@@ -8926,6 +8931,18 @@
 			"machinetranslated": true,
 			"helptext": "如果無法對齊圖像，請跳過自動曝光和色彩調節。",
 			"morehelptext": "<br><br>通過比較重疊圖像中的像素，可以完成自動曝光和色彩調整。因此，必須正確對齊圖像。如果啟用此選項，並且PTGui無法對齊圖像（例如，因為找不到控制點），則將跳過自動曝光和顏色調整。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "最佳接縫算法的精度",
+			"morehelptext": "<br><br>如果啟用了<b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> ，則PTGui會嘗試將接縫放置在最<b>不易</b>察覺的位置。 PTGui檢查圖像重疊的區域，並將接縫穿過重疊圖像最相似的區域。該滑塊將接縫查找算法的分辨率配置為全景圖最佳尺寸的一部分。默認情況下，接縫查找以最佳尺寸的1/8完成。這足以修復大多數針跡錯誤，例如由移動物體引起的針跡錯誤。在某些情況下，可以通過更精細地調整接縫來進一步改善針跡。但是，以全分辨率執行最佳接縫查找需要很長時間，並且會佔用大量內存。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "合併平面不會生成，因為包圍的源圖像首先合併到HDR中，然後進行拼接。",
+			"morehelptext": "<br><br>PTGui可以用兩種不同的方式處理包圍曝光。僅當在@mainwindow.tabs.exposurehdr@選項卡中配置了“ @mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@”時，才會生成混合平面。有關更多信息，請參見@mainwindow.tabs.exposurehdr@選項卡中有關此設置的工具提示。"
 		}
 	],
 	"helppages": [

@@ -5930,6 +5930,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Shiftキーを押しています。このセッションのGPUアクセラレーションを無効にしますか？\n\n通常どおり続行するには、[いいえ]を押します。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "精度："
 		}
 	],
 	"tooltips": [
@@ -8052,6 +8057,18 @@
 			"machinetranslated": true,
 			"helptext": "画像を調整できない場合は、自動露出と色調整をスキップします。",
 			"morehelptext": "<br><br>自動露出と色調整は、重なり合う画像のピクセルを比較することで行われます。したがって、画像を適切に配置する必要があります。このオプションが有効で、PTGuiが画像の位置合わせに失敗した場合（たとえば、制御点が見つからなかったため）、自動露出と色調整はスキップされます。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "最適なシーム検出アルゴリズムの精度",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b>が有効になっている場合、 <b>PTGui</b>は目立たないようにシームを配置しようとします。 PTGuiは、画像が重なっている領域を検査し、重なっている画像が最も類似している領域を通して継ぎ目をルーティングします。このスライダーは、シーム検索アルゴリズムの解像度を、パノラマの最適サイズの一部として構成します。デフォルトでは、シーム検索は最適サイズの1/8で行われます。これは、オブジェクトの移動などによって引き起こされるほとんどのスティッチングエラーを修正するには十分です。場合によっては、縫い目をより細かく調整することでステッチをさらに改善できます。ただし、フル解像度で最適なシーム検索を実行すると、時間がかかり、多くのメモリを使用します。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "ブラケットされたソース画像が最初にHDRにマージされてからステッチされるため、ブレンドプレーンは生成されません。",
+			"morehelptext": "<br><br>PTGuiは、2つの異なる方法でブラケット露光を処理できます。ブレンドプレーンは、@mainwindow.tabs.exposurehdr@タブで「@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@」が設定されている場合にのみ生成されます。詳細については、@mainwindow.tabs.exposurehdr@タブでこの設定のツールチップを参照してください。"
 		}
 	],
 	"helppages": [

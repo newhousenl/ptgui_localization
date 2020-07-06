@@ -5931,6 +5931,11 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Sie drücken die Umschalttaste. Möchten Sie die GPU-Beschleunigung für diese Sitzung deaktivieren?\n\nDrücken Sie Nein, um wie gewohnt fortzufahren."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"txt": "Präzision:"
 		}
 	],
 	"tooltips": [
@@ -8495,6 +8500,18 @@
 			"machinetranslated": true,
 			"helptext": "Überspringe die automatische Belichtung und Farbanpassung, wenn die Bilder nicht ausgerichtet werden konnten.",
 			"morehelptext": "<br><br>Die automatische Belichtung und Farbanpassung erfolgt durch Vergleichen von Pixeln aus überlappenden Bildern. Daher ist es notwendig, dass die Bilder richtig ausgerichtet sind. Wenn diese Option aktiviert ist und PTGui die Bilder nicht ausrichten konnte (z. B. weil keine Kontrollpunkte gefunden wurden), werden die automatische Belichtung und Farbanpassung übersprungen."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+			"machinetranslated": true,
+			"helptext": "Präzision des optimalen Nahtfindungsalgorithmus",
+			"morehelptext": "<br><br>Wenn <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> aktiviert ist, versucht PTGui, die Nähte so zu platzieren, dass sie am wenigsten wahrnehmbar sind. PTGui untersucht die Bereiche, in denen sich die Bilder überlappen, und führt die Nähte durch die Bereiche, in denen die überlappenden Bilder am ähnlichsten sind. Dieser Schieberegler konfiguriert die Auflösung des Nahtfindungsalgorithmus als Bruchteil der optimalen Größe des Panoramas. Standardmäßig erfolgt die Nahtfindung bei 1/8 der optimalen Größe. Dies reicht aus, um die meisten Fehler zu beheben, die beispielsweise durch sich bewegende Objekte verursacht werden. In einigen Fällen kann das Ergebnis durch feinere Einstellung der Nähte weiter verbessert werden. Die optimale Nahtfindung bei voller Auflösung dauert jedoch lange und beansprucht viel Speicher."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+			"machinetranslated": true,
+			"helptext": "Mischebenen werden nicht generiert, da Belichtungsreihen zuerst mit HDR zusammengeführt und dann zusammengefügt werden.",
+			"morehelptext": "<br><br>PTGui kann Belichtungsreihen auf zwei verschiedene Arten verarbeiten. Mischebenen werden nur generiert, wenn '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' auf der Registerkarte @mainwindow.tabs.exposurehdr@ konfiguriert ist. Weitere Informationen finden Sie im Tooltip für diese Einstellung auf der Registerkarte @mainwindow.tabs.exposurehdr@."
 		}
 	],
 	"helppages": [

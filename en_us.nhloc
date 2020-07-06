@@ -5981,6 +5981,10 @@
 {
     "id": "txt.startupwithshift",
     "txt": "You are pressing the Shift key. Would you like to disable GPU acceleration for this session?\n\nPress No to continue as normal."
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+    "txt": "Precision:"
 }
 
 
@@ -8104,12 +8108,17 @@
             "id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
             "helptext": "Skip automatic exposure and color adjustment if the images could not be aligned.",
             "morehelptext": "<br><br>Automatic exposure and color adjustment is done by comparing pixels from overlapping images. Therefore it is necessary that the images are aligned properly. If this option is enabled, and PTGui failed to align the images (for example because no control points could be found), automatic exposure and color adjustment will be skipped."
+        },
+        {
+            "id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
+            "helptext": "Precision of the optimum seam finding algorithm",
+            "morehelptext": "<br><br>If <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> is enabled, PTGui attempts to place the seams such that they are the least perceptible. PTGui inspects the areas where the images overlap, and routes the seams through the areas where the overlapping images are most similar. This slider configures the resolution of the seam finding algorithm, as a fraction of the optimum size of the panorama. By default seam finding is done at 1/8 of the optimum size. This is sufficient to fix most stitching errors, for example caused by moving objects. In some cases, stitching can be further improved by finer adjustment of the seams. However, performing optimum seam finding at full resolution takes a long time and uses much memory."
+        },
+        {
+            "id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
+            "helptext": "Blend planes are not generated because bracketed source images are first merged to HDR and then stitched.",
+            "morehelptext": "<br><br>PTGui can process bracketed exposures in two different ways. Blend planes are generated only if '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' is configured in the @mainwindow.tabs.exposurehdr@ tab. For more information see the tooltip for this setting in the @mainwindow.tabs.exposurehdr@ tab."
         }
-        
-        
-        
-        
-
             
     ],
     "helppages": [

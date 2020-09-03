@@ -2680,10 +2680,6 @@
 			"txt": "Maak PhiloSphere"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"txt": "Belichting optimaliseren:"
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"txt": "Alleen indien nodig"
 		},
@@ -2706,14 +2702,6 @@
 		{
 			"id": "photometricsettings.keepcurrent",
 			"txt": "Huidige behouden"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"txt": "De belichtingstijd van uw afbeeldingen is onbekend.\nDe belichting wordt geoptimaliseerd."
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"txt": "De belichtingstijd van uw afbeeldingen is bekend.\nBelichting zal niet worden geoptimaliseerd."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -5935,6 +5923,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "Precisie:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "Optimaliseer helderheid:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "De belichtingstijd van de afbeeldingen is onbekend.\nHelderheid wordt geoptimaliseerd."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "De belichtingstijd van de afbeeldingen is bekend.\nHelderheid wordt niet geoptimaliseerd."
 		}
 	],
 	"tooltips": [
@@ -7886,11 +7889,6 @@
 			"helptext": "Laat PTGui bepalen hoeveel video-RAM moet worden gebruikt."
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"helptext": "Bepaalt of de belichting van afzonderlijke bronafbeeldingen zal worden aangepast om helderheidsverschillen tussen afbeeldingen te minimaliseren.",
-			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.expoffset@' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> indien de EXIF-gegevens van de afbeeldingen belichtingsinformatie bevatten, worden deze gegevens gebruikt en wordt er geen extra belichtingsoptimalisatie uitgevoerd. Als de EXIF-gegevens geen belichtingsinformatie bevatten, wordt een volledige belichtingsoptimalisatie uitgevoerd.<br><br><b>@photometricsettings.disabled@:</b> de belichting wordt niet geoptimaliseerd en de belichtingscompensatie van alle afbeeldingen wordt bij de volgende optimalisatie op nul teruggezet.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> gaat ervan uit dat de EXIF-gegevens min of meer correcte belichtingsgegevens bevatten; dit wordt gebruikt als startpunt voor verdere optimalisatie van de belichting.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> voert een volledige belichtingsoptimalisatie uit en negeert eventuele EXIF-belichtingsgegevens.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige belichtingsparameters worden behouden."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"helptext": "Bepaalt of de lens flare van afzonderlijke bronafbeeldingen wordt gecompenseerd. Het contrast van individuele afbeeldingen zal worden verhoogd om de vermindering in contrast veroorzaakt door lensflare te compenseren.",
 			"morehelptext": "<br><br>Indien ingeschakeld, worden de kolommen 'Flare' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.disabled@:</b> flare wordt niet geoptimaliseerd en de flare-parameters van alle afbeeldingen worden bij de volgende optimalisatie op nul teruggezet.<br><br><b>@photometricsettings.enabled@:</b> flare wordt geoptimaliseerd.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige flare-parameters worden behouden."
@@ -8071,6 +8069,12 @@
 			"machinetranslated": true,
 			"helptext": "Blendvlakken worden niet gegenereerd omdat de belichtingsreeksen eerst worden samengevoegd tot HDR en vervolgens worden gestitcht.",
 			"morehelptext": "<br><br>PTGui kan belichtingsreeksen op twee verschillende manieren verwerken. Mengvlakken worden alleen gegenereerd als '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' is geconfigureerd op het tabblad @mainwindow.tabs.exposurehdr@. Zie de tooltip voor deze instelling op het tabblad @mainwindow.tabs.exposurehdr@ voor meer informatie."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "Bepaalt of de helderheid van individuele bronafbeeldingen wordt aangepast, om de verschillen in helderheid tussen overlappende afbeeldingen te minimaliseren.",
+			"morehelptext": "<br><br>Indien ingeschakeld, wordt de kolom '@mainwindow.imageparameters.expoffset@' in het tabblad @mainwindow.tabs.imageparameters@ aangepast.<br><br><b>@photometricsettings.onlyifnecessary@:</b> als de EXIF-gegevens van de afbeeldingen belichtingsinformatie bevatten, wordt aangenomen dat deze gegevens correct zijn en wordt er geen aanvullende helderheidsoptimalisatie uitgevoerd. Als de EXIF-gegevens geen belichtingsinformatie bevatten, wordt de helderheid geoptimaliseerd.<br><br><b>@photometricsettings.disabled@: de</b> helderheid wordt niet geoptimaliseerd en de kolom '@mainwindow.imageparameters.expoffset@' van alle afbeeldingen in het tabblad @mainwindow.tabs.imageparameters@ wordt bij de volgende optimalisatie op nul gezet.<br><br><b>@photometricsettings.enabled@:</b> helderheid van bronafbeeldingen wordt aangepast.<br><br><b>@photometricsettings.keepcurrent@:</b> de huidige waarden in de kolom '@mainwindow.imageparameters.expoffset@' blijven behouden."
 		}
 	],
 	"helppages": [

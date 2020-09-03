@@ -3326,11 +3326,6 @@
 			"txt": "PhiloSphere 만들기"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"txt": "노출 최적화 :"
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"machinetranslated": true,
 			"txt": "필요한 경우에만"
@@ -3359,16 +3354,6 @@
 			"id": "photometricsettings.keepcurrent",
 			"machinetranslated": true,
 			"txt": "현재 설정 유지"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"machinetranslated": true,
-			"txt": "이미지의 노출 시간을 알 수 없습니다.\n노출이 최적화됩니다."
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"machinetranslated": true,
-			"txt": "이미지의 노출 시간이 판독되었습니다.\n노출이 최적화되지 않습니다."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -7317,6 +7302,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "정도:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "밝기 최적화 :"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "이미지의 노출 시간은 알 수 없습니다.\n밝기가 최적화됩니다."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "이미지의 노출 시간이 알려져 있습니다.\n밝기가 최적화되지 않습니다."
 		}
 	],
 	"tooltips": [
@@ -9695,12 +9695,6 @@
 			"helptext": "PTGui에서 사용할 비디오 RAM의 양을 결정하십시오."
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"helptext": "이미지 간의 밝기 차이를 최소화 하기위해 개별 소스 이미지의 노출을 조정할지 여부를 선택합니다.",
-			"morehelptext": "<br><br>활성화한 경우 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.expoffset@' 항목이 조정됩니다.<br><br><b>@photometricsettings.onlyifnecessary@ :</b> 이미지의 EXIF ​​데이터에 노출 정보가 있는 경우 해당 데이터를 사용하며 추가 노출 최적화는 수행되지 않습니다. EXIF 데이터에 노출 정보가 포함되어 있지 않으면 전체 노출 최적화가 수행됩니다.<br><br><b>@photometricsettings.disabled@ :</b> 노출이 최적화되지 않고 다음 최적화시 모든 이미지의 노출 보정이 0으로 재설정됩니다.<br><br><b>@photometricsettings.optimizeexposure.finetune@ :</b> EXIF 데이터에 대략 정확한 노출 데이터가 포함되어 있다고 가정합니다. 이 데이터는 추가 노출 최적화를 위한 기준점으로 사용됩니다.<br><br><b>@photometricsettings.optimizeexposure.full@ :</b> EXIF 노출 데이터를 무시하고 최대 노출 최적화를 수행합니다.<br><br><b>@photometricsettings.keepcurrent@ :</b> 현재 노출 계수를 유지합니다."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "개별 소스 이미지의 @lensflare@를 보정할지 여부를 선택합니다. 개별 이미지의 대비는 @lensflare@로 인한 대비 감소를 보완하기 위해 증가됩니다.",
@@ -9893,6 +9887,12 @@
 			"machinetranslated": true,
 			"helptext": "괄호로 묶은 소스 이미지가 먼저 HDR에 병합 된 다음 스티칭되기 때문에 혼합 평면이 생성되지 않습니다.",
 			"morehelptext": "<br><br>PTGui는 두 가지 방식으로 브라케팅 노출을 처리 할 수 있습니다. @mainwindow.tabs.exposurehdr@ 탭에서 '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@'가 구성된 경우에만 블렌드 평면이 생성됩니다. 자세한 내용은 @mainwindow.tabs.exposurehdr@ 탭에서이 설정에 대한 툴팁을 참조하십시오."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "겹치는 이미지 간의 밝기 차이를 최소화하기 위해 개별 소스 이미지의 밝기를 조정할지 여부를 제어합니다.",
+			"morehelptext": "<br><br>활성화되면 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.expoffset@'열이 조정됩니다.<br><br><b>@photometricsettings.onlyifnecessary@ :</b> 이미지의 EXIF 데이터에 노출 정보가 포함 된 경우이 데이터는 올바른 것으로 간주되며 추가 밝기 최적화가 수행되지 않습니다. EXIF 데이터에 노출 정보가 포함되어 있지 않으면 밝기가 최적화됩니다.<br><br><b>@photometricsettings.disabled@ :</b> 밝기가 최적화되지 않고 @mainwindow.tabs.imageparameters@ 탭에있는 모든 이미지의 '@mainwindow.imageparameters.expoffset@'열이 다음 최적화시 0으로 재설정됩니다.<br><br><b>@photometricsettings.enabled@ :</b> 소스 이미지의 밝기가 조정됩니다.<br><br><b>@photometricsettings.keepcurrent@ :</b> '@mainwindow.imageparameters.expoffset@'열의 현재 값이 유지됩니다."
 		}
 	],
 	"helppages": [

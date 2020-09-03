@@ -2691,10 +2691,6 @@
 			"txt": "PhiloSphereを作成する"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"txt": "露出を最適化する："
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"txt": "必要な場合のみ"
 		},
@@ -2717,14 +2713,6 @@
 		{
 			"id": "photometricsettings.keepcurrent",
 			"txt": "最新の状態に保ちます"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"txt": "画像の露出時間は不明です。\n露出は最適化されます。"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"txt": "画像の露出時間は判明しています。\n露出は最適化されません。"
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -5935,6 +5923,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "精度："
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "明るさを最適化："
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "画像の露出時間は不明です。\n明るさが最適化されます。"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "画像の露出時間がわかっています。\n明るさは最適化されません。"
 		}
 	],
 	"tooltips": [
@@ -7653,11 +7656,6 @@
 			"helptext": "PTGuiが使用するビデオRAMの量を決定します。 "
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"helptext": "画像間の輝度差を最小限に抑えるために、 個々のソース画像の露出を調整するかどうかを制御します。 ",
-			"morehelptext": "<br><br>有効にすると、 「Image Parameters」タブの「Exp. offset」列が調整されます。 <br><br><b>必要な場合のみ（Only if necessary）</b>：画像のEXIFデータに露出情報が含まれる場合、 このデータが使用され、 追加の露出最適化は行われません。 EXIFデータに露光情報が含まれていない場合、 完全露光最適化が行われます。 <br><br><b>無効（Disabled）</b>：露出は最適化されず、 次の最適化時にすべての画像の露出補正がゼロにリセットされます。 <br><br><b>有効（微調整のみ）（Enabled (fine tune only)）</b>：EXIFデータにおおよそ正しい露出データが含まれていると仮定します。 これは、 さらなる露光最適化の出発点として使用されます。 <br><br><b>有効（完全）（Enabled (full)）</b>：EXIF露出データを無視して、 完全露光最適化を実行します。 <br><br><b>現在の状態を維持（Keep Current）</b>：現在の露出パラメータが維持されます。 "
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"helptext": "個々のソース画像のフレアが補正されるかどうかを制御します。 個々の画像のコントラストは、 レンズフレアによって引き起こされるコントラストの低下を補うために増加される。 ",
 			"morehelptext": "<br><br>有効にすると、 「Image Parameters」タブの「Flare」列が調整されます。 <br><br><b>無効（Disabled）</b>：フレアが最適化されず、 次の最適化時にすべての画像のフレアパラメータがゼロにリセットされます。 <br><br><b>有効（Enabled）</b>：フレアは最適化されます。 <br><br><b>現在の状態を維持（Keep Current）</b>：現在のフレアのパラメータは保持されます。 "
@@ -8069,6 +8067,12 @@
 			"machinetranslated": true,
 			"helptext": "ブラケットされたソース画像が最初にHDRにマージされてからステッチされるため、ブレンドプレーンは生成されません。",
 			"morehelptext": "<br><br>PTGuiは、2つの異なる方法でブラケット露光を処理できます。ブレンドプレーンは、@mainwindow.tabs.exposurehdr@タブで「@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@」が設定されている場合にのみ生成されます。詳細については、@mainwindow.tabs.exposurehdr@タブでこの設定のツールチップを参照してください。"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "重なり合う画像間の明るさの違いを最小限に抑えるために、個々のソース画像の明るさを調整するかどうかを制御します。",
+			"morehelptext": "<br><br>有効にすると、@mainwindow.tabs.imageparameters@タブの「@mainwindow.imageparameters.expoffset@」列が調整されます。<br><br><b>@photometricsettings.onlyifnecessary@：</b>画像のEXIFデータに露出情報が含まれている場合、このデータは正しいと見<b>なされ</b> 、追加の明るさの最適化は行われません。 EXIFデータに露出情報が含まれていない場合、明るさが最適化されます。<br><br><b>@photometricsettings.disabled@：</b>明るさは最適化されず、@mainwindow.tabs.imageparameters@タブのすべての画像の[@mainwindow.imageparameters.expoffset@]列は、次の最適化時にゼロにリセットされます。<br><br><b>@photometricsettings.enabled@：</b>ソース画像の明るさが調整されます。<br><br><b>@photometricsettings.keepcurrent@：</b> 「@mainwindow.imageparameters.expoffset@」列の現在の値が保持されます。"
 		}
 	],
 	"helppages": [

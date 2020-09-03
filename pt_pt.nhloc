@@ -3305,11 +3305,6 @@
 			"txt": "Criar PhiloSphere"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"txt": "Otimizar a exposição:"
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"machinetranslated": true,
 			"txt": "Somente se necessário"
@@ -3338,16 +3333,6 @@
 			"id": "photometricsettings.keepcurrent",
 			"machinetranslated": true,
 			"txt": "Mantenha-se atualizado"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"machinetranslated": true,
-			"txt": "O tempo de exposição de suas imagens é desconhecido.\nA exposição será otimizada."
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"machinetranslated": true,
-			"txt": "O tempo de exposição de suas imagens é conhecido.\nA exposição não será otimizada."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -7307,6 +7292,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "Precisão:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "Otimize o brilho:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "O tempo de exposição de suas imagens é desconhecido.\nO brilho será otimizado."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "O tempo de exposição de suas imagens é conhecido.\nO brilho não será otimizado."
 		}
 	],
 	"tooltips": [
@@ -9685,12 +9685,6 @@
 			"helptext": "Deixe o PTGui decidir quanto de RAM de vídeo usar."
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"helptext": "Controla se a exposição de imagens de fontes individuais será ajustada, para minimizar as diferenças de brilho entre as imagens.",
-			"morehelptext": "<br><br>Se ativada, a coluna '@mainwindow.imageparameters.expoffset@' na guia @mainwindow.tabs.imageparameters@ será ajustada.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se os dados EXIF ​​das imagens contiverem informações de exposição, esses dados serão usados ​​e nenhuma otimização de exposição adicional será feita. Se os dados EXIF ​​não contiverem informações de exposição, será feita uma otimização de exposição completa.<br><br><b>@photometricsettings.disabled@: a</b> exposição não será otimizada e a compensação de exposição de todas as imagens será redefinida para zero na próxima otimização.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> assume que os dados EXIF ​​contêm dados de exposição aproximadamente corretos; isso é usado como um ponto de partida para otimização adicional da exposição.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> executa uma otimização de exposição total, ignorando quaisquer dados de exposição EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> os parâmetros de exposição atuais serão mantidos."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Controla se o @lensflare@ de imagens de fontes individuais será compensado. O contraste das imagens individuais será aumentado para compensar a redução no contraste causada pelo @lensflare@.",
@@ -9883,6 +9877,12 @@
 			"machinetranslated": true,
 			"helptext": "Os planos de mesclagem não são gerados porque as imagens de origem entre colchetes são mescladas primeiro ao HDR e depois unidas.",
 			"morehelptext": "<br><br>O PTGui pode processar exposições entre colchetes de duas maneiras diferentes. Os planos de mistura são gerados apenas se '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' estiver configurado na guia @mainwindow.tabs.exposurehdr@. Para obter mais informações, consulte a dica de ferramenta para essa configuração na guia @mainwindow.tabs.exposurehdr@."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "Controla se o brilho das imagens de origem individuais será ajustado, a fim de minimizar as diferenças de brilho entre as imagens sobrepostas.",
+			"morehelptext": "<br><br>Se ativado, a coluna '@mainwindow.imageparameters.expoffset@' na guia @mainwindow.tabs.imageparameters@ será ajustada.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se os dados EXIF das imagens contiverem informações de exposição, esses dados serão considerados corretos e nenhuma otimização de brilho adicional será realizada. Se os dados EXIF não contiverem informações de exposição, o brilho será otimizado.<br><br><b>@photometricsettings.disabled@: o</b> brilho não será otimizado e a coluna '@mainwindow.imageparameters.expoffset@' de todas as imagens na guia @mainwindow.tabs.imageparameters@ será zerada na próxima otimização.<br><br><b>@photometricsettings.enabled@: o</b> brilho das imagens de origem será ajustado.<br><br><b>@photometricsettings.keepcurrent@:</b> os valores atuais na coluna '@mainwindow.imageparameters.expoffset@' serão mantidos."
 		}
 	],
 	"helppages": [

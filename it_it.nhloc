@@ -2949,11 +2949,6 @@
 			"txt": "Crea PhiloSphere"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"txt": "Ottimizza l'esposizione:"
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"machinetranslated": true,
 			"txt": "Solo se necessario"
@@ -2982,16 +2977,6 @@
 			"id": "photometricsettings.keepcurrent",
 			"machinetranslated": true,
 			"txt": "Mantieni le impostazioni correnti"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"machinetranslated": true,
-			"txt": "Il tempo di esposizione delle tue immagini è sconosciuto.\nL'esposizione sarà ottimizzata."
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"machinetranslated": true,
-			"txt": "Il tempo di esposizione delle tue immagini è noto.\nL'esposizione non sarà ottimizzata."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -6900,6 +6885,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "Precisione:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "Ottimizza la luminosità:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "Il tempo di esposizione delle tue immagini è sconosciuto.\nLa luminosità verrà ottimizzata."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "Il tempo di esposizione delle tue immagini è noto.\nLa luminosità non verrà ottimizzata."
 		}
 	],
 	"tooltips": [
@@ -9289,12 +9289,6 @@
 			"helptext": "Se si verifica un arresto anomalo mentre viene utilizzato OpenCL, dopo il riavvio PTGui chiederà se l'accelerazione GPU deve essere disabilitata. Seleziona questa casella di controllo se PTGui non dovrebbe più chiedere questo."
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"helptext": "Controlla se l'esposizione delle singole immagini sorgente sarà regolata, al fine di minimizzare le differenze di luminosità tra le immagini.",
-			"morehelptext": "<br><br>Se abilitato, la colonna '@mainwindow.imageparameters.expoffset@' nella scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se i dati EXIF ​​delle immagini contengono informazioni sull'esposizione, questi dati verranno utilizzati e non viene eseguita alcuna ottimizzazione aggiuntiva dell'esposizione. Se i dati EXIF ​​non contengono informazioni sull'esposizione, viene eseguita un'ottimizzazione completa dell'esposizione.<br><br><b>@photometricsettings.disabled@: l'</b> esposizione non verrà ottimizzata e la compensazione dell'esposizione di tutte le immagini verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> presuppone che i dati EXIF ​​contengano dati di esposizione approssimativamente corretti; questo è usato come punto di partenza per l'ulteriore ottimizzazione dell'esposizione.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> esegue un'ottimizzazione completa dell'esposizione, ignorando i dati di esposizione EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti i parametri di esposizione correnti."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Controlla se @lensflare@ delle singole immagini sorgente sarà compensato. Il contrasto delle singole immagini verrà aumentato per compensare la riduzione del contrasto causata da @lensflare@.",
@@ -9476,6 +9470,12 @@
 			"machinetranslated": true,
 			"helptext": "I piani di fusione non vengono generati perché le immagini in bracketing vengono prima unite a HDR e quindi cucite.",
 			"morehelptext": "<br><br>PTGui può elaborare esposizioni in bracketing in due modi diversi. I piani di fusione vengono generati solo se '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' è configurato nella scheda @mainwindow.tabs.exposurehdr@. Per ulteriori informazioni, consultare la descrizione comandi per questa impostazione nella scheda @mainwindow.tabs.exposurehdr@."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "Controlla se la luminosità delle singole immagini sorgente verrà regolata, al fine di ridurre al minimo le differenze di luminosità tra le immagini sovrapposte.",
+			"morehelptext": "<br><br>Se abilitato, la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; nella scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se i dati EXIF delle immagini contengono informazioni sull'esposizione, si presume che questi dati siano corretti e non viene eseguita alcuna ulteriore ottimizzazione della luminosità. Se i dati EXIF non contengono informazioni sull'esposizione, la luminosità verrà ottimizzata.<br><br><b>@photometricsettings.disabled@: la</b> luminosità non verrà ottimizzata e la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; di tutte le immagini nella scheda @mainwindow.tabs.imageparameters@ verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@: la</b> luminosità delle immagini sorgente verrà regolata.<br><br><b>@photometricsettings.keepcurrent@: verranno mantenuti</b> i valori correnti nella colonna &quot;@mainwindow.imageparameters.expoffset@&quot;."
 		}
 	],
 	"helppages": [

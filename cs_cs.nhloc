@@ -2699,10 +2699,6 @@
 			"txt": "Vytvořit PhiloSphery"
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"txt": "Optimalizace expozice:"
-		},
-		{
 			"id": "photometricsettings.onlyifnecessary",
 			"txt": "Pouze v případě potřeby"
 		},
@@ -2725,14 +2721,6 @@
 		{
 			"id": "photometricsettings.keepcurrent",
 			"txt": "Zachovat aktuální nastavení"
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"txt": "Doba expozice snímků není známa.\nExpozice bude optimalizována."
-		},
-		{
-			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"txt": "Doba expozice snímků je známa.\nExpozice nebude optimalizována."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -5925,6 +5913,21 @@
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
 			"machinetranslated": true,
 			"txt": "Přesnost:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"txt": "Optimalizace jasu:"
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.enabled",
+			"machinetranslated": true,
+			"txt": "Expoziční čas vašich snímků není znám.\nJas bude optimalizován."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure.info.disabled",
+			"machinetranslated": true,
+			"txt": "Je známa doba expozice vašich snímků.\nJas nebude optimalizován."
 		}
 	],
 	"tooltips": [
@@ -8131,12 +8134,6 @@
 			"helptext": "Pokud dojde k selhání při použití OpenCL, po restartu PTGui se zeptá, zda by mělo být akcelerace GPU vypnutá. Zvolte toto zaškrtávací políčko, pokud se to PTGui již nebude ptát."
 		},
 		{
-			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"helptext": "Ovládá, zda bude upravena expozice jednotlivých zdrojových snímků, aby se minimalizovaly rozdíly v jasu mezi snímky.",
-			"morehelptext": "<br><br>Je-li zapnuta, bude sloupec '@mainwindow.imageparameters.expoffset@' na kartě @mainwindow.tabs.imageparameters@ upraven.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Pokud data EXIF u snímků obsahují informace o expozici, budou tato data použita a nebude provedena žádná další optimalizace expozice. Pokud data EXIF neobsahují informace o expozici, provede se úplná optimalizace expozice.<br><br><b>@photometricsettings.disabled@:</b> expozice nebude optimalizována a korekce expozice všech snímků bude při další optimalizaci vynulována.<br><br><b>@photometricsettings.optimizeexposure.finetune@:</b> předpokládá, že data EXIF obsahují zhruba správná data o expozici; používá se jako výchozí bod pro další optimalizaci expozice.<br><br><b>@photometricsettings.optimizeexposure.full@:</b> provádí optimalizaci úplné expozice a ignoruje data expozice EXIF.<br><br><b>@photometricsettings.keepcurrent@:</b> budou zachovány aktuální expoziční parametry."
-		},
-		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": true,
 			"helptext": "Ovládá, zda bude @lensflare@ jednotlivých zdrojových snímků kompenzován. Kontrast jednotlivých snímků se zvýší, aby se kompenzovalo snížení kontrastu způsobené systémem @lensflare@.",
@@ -8318,6 +8315,12 @@
 			"machinetranslated": true,
 			"helptext": "Směšovací roviny nejsou generovány, protože závorkované zdrojové obrazy jsou nejprve sloučeny do HDR a poté sešity.",
 			"morehelptext": "<br><br>PTGui může zpracovávat expozici v závorkách dvěma různými způsoby. Směšovací roviny jsou generovány pouze v případě, že je na kartě @mainwindow.tabs.exposurehdr@ nakonfigurováno „@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@“. Další informace naleznete v nápovědě k tomuto nastavení na kartě @mainwindow.tabs.exposurehdr@."
+		},
+		{
+			"id": "photometricsettings.optimizeexposure",
+			"machinetranslated": true,
+			"helptext": "Řídí, zda bude upraven jas jednotlivých zdrojových obrázků, aby se minimalizovaly rozdíly v jasu mezi překrývajícími se obrazy.",
+			"morehelptext": "<br><br>Pokud je povoleno, sloupec „@mainwindow.imageparameters.expoffset@“ na kartě @mainwindow.tabs.imageparameters@ bude upraven.<br><br><b>@photometricsettings.onlyifnecessary@:</b> pokud data EXIF obrázků obsahují informace o expozici, předpokládá se, že tato data jsou správná a neprovádí se žádná další optimalizace jasu. Pokud data EXIF neobsahují informace o expozici, bude optimalizován jas.<br><br><b>@photometricsettings.disabled@:</b> jas nebude optimalizován a sloupec „@mainwindow.imageparameters.expoffset@“ všech obrázků na kartě @mainwindow.tabs.imageparameters@ bude při další optimalizaci vynulován.<br><br><b>@photometricsettings.enabled@:</b> bude upraven jas zdrojových obrázků.<br><br><b>@photometricsettings.keepcurrent@:</b> aktuální hodnoty ve sloupci „@mainwindow.imageparameters.expoffset@“ budou zachovány."
 		}
 	],
 	"helppages": [

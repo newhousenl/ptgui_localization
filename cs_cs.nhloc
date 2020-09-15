@@ -5928,6 +5928,21 @@
 			"id": "photometricsettings.optimizeexposure.info.disabled",
 			"machinetranslated": true,
 			"txt": "Je známa doba expozice vašich snímků.\nJas nebude optimalizován."
+		},
+		{
+			"id": "txt.exposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Parametry fúze expozice"
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Uložit @txt.exposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Načtěte @txt.exposurefusionparameters@"
 		}
 	],
 	"tooltips": [
@@ -8321,6 +8336,51 @@
 			"machinetranslated": true,
 			"helptext": "Řídí, zda bude upraven jas jednotlivých zdrojových obrázků, aby se minimalizovaly rozdíly v jasu mezi překrývajícími se obrazy.",
 			"morehelptext": "<br><br>Pokud je povoleno, sloupec „@mainwindow.imageparameters.expoffset@“ na kartě @mainwindow.tabs.imageparameters@ bude upraven.<br><br><b>@photometricsettings.onlyifnecessary@:</b> pokud data EXIF obrázků obsahují informace o expozici, předpokládá se, že tato data jsou správná a neprovádí se žádná další optimalizace jasu. Pokud data EXIF neobsahují informace o expozici, bude optimalizován jas.<br><br><b>@photometricsettings.disabled@:</b> jas nebude optimalizován a sloupec „@mainwindow.imageparameters.expoffset@“ všech obrázků na kartě @mainwindow.tabs.imageparameters@ bude při další optimalizaci vynulován.<br><br><b>@photometricsettings.enabled@:</b> bude upraven jas zdrojových obrázků.<br><br><b>@photometricsettings.keepcurrent@:</b> aktuální hodnoty ve sloupci „@mainwindow.imageparameters.expoffset@“ budou zachovány."
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.saveexposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadexposurefusionparameters@"
+		},
+		{
+			"id": "txt.savetonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.savetonemapsettings@"
+		},
+		{
+			"id": "txt.loadtonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.loadtonemapsettings@"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.savetoningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadtoningparameters@"
+		},
+		{
+			"id": "txt.savecameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.savecameraresponsecurve@"
+		},
+		{
+			"id": "txt.loadcameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.loadcameraresponsecurve@"
+		},
+		{
+			"id": "defaults",
+			"machinetranslated": true,
+			"label": "@defaults@"
 		}
 	],
 	"helppages": [

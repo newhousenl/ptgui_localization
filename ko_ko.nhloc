@@ -7317,6 +7317,21 @@
 			"id": "photometricsettings.optimizeexposure.info.disabled",
 			"machinetranslated": true,
 			"txt": "이미지의 노출 시간이 알려져 있습니다.\n밝기가 최적화되지 않습니다."
+		},
+		{
+			"id": "txt.exposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "노출 융합 매개 변수"
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "@txt.exposurefusionparameters@ 저장"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "@txt.exposurefusionparameters@로드"
 		}
 	],
 	"tooltips": [
@@ -9893,6 +9908,51 @@
 			"machinetranslated": true,
 			"helptext": "겹치는 이미지 간의 밝기 차이를 최소화하기 위해 개별 소스 이미지의 밝기를 조정할지 여부를 제어합니다.",
 			"morehelptext": "<br><br>활성화되면 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.expoffset@'열이 조정됩니다.<br><br><b>@photometricsettings.onlyifnecessary@ :</b> 이미지의 EXIF 데이터에 노출 정보가 포함 된 경우이 데이터는 올바른 것으로 간주되며 추가 밝기 최적화가 수행되지 않습니다. EXIF 데이터에 노출 정보가 포함되어 있지 않으면 밝기가 최적화됩니다.<br><br><b>@photometricsettings.disabled@ :</b> 밝기가 최적화되지 않고 @mainwindow.tabs.imageparameters@ 탭에있는 모든 이미지의 '@mainwindow.imageparameters.expoffset@'열이 다음 최적화시 0으로 재설정됩니다.<br><br><b>@photometricsettings.enabled@ :</b> 소스 이미지의 밝기가 조정됩니다.<br><br><b>@photometricsettings.keepcurrent@ :</b> '@mainwindow.imageparameters.expoffset@'열의 현재 값이 유지됩니다."
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.saveexposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadexposurefusionparameters@"
+		},
+		{
+			"id": "txt.savetonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.savetonemapsettings@"
+		},
+		{
+			"id": "txt.loadtonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.loadtonemapsettings@"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.savetoningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadtoningparameters@"
+		},
+		{
+			"id": "txt.savecameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.savecameraresponsecurve@"
+		},
+		{
+			"id": "txt.loadcameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.loadcameraresponsecurve@"
+		},
+		{
+			"id": "defaults",
+			"machinetranslated": true,
+			"label": "@defaults@"
 		}
 	],
 	"helppages": [

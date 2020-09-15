@@ -6370,6 +6370,21 @@
 			"id": "photometricsettings.optimizeexposure.info.disabled",
 			"machinetranslated": true,
 			"txt": "圖像的曝光時間是已知的。\n亮度不會被優化。"
+		},
+		{
+			"id": "txt.exposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "曝光融合參數"
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "保存@txt.exposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "加載@txt.exposurefusionparameters@"
 		}
 	],
 	"tooltips": [
@@ -8946,6 +8961,51 @@
 			"machinetranslated": true,
 			"helptext": "控制是否要調整單個源圖像的亮度，以最小化重疊圖像之間的亮度差異。",
 			"morehelptext": "<br><br>如果啟用，將調整@mainwindow.tabs.imageparameters@選項卡中的“ @mainwindow.imageparameters.expoffset@”列。<br><br><b>@photometricsettings.onlyifnecessary@：</b>如果圖像的EXIF數據包含曝光信息，則認為該數據正確，並且沒有進行其他亮度優化。如果EXIF數據不包含曝光信息，則將優化亮度。<br><br><b>@photometricsettings.disabled@：</b>亮度不會被優化，@mainwindow.tabs.imageparameters@選項卡中所有圖像的“ @mainwindow.imageparameters.expoffset@”列將在下一次優化時重置為零。<br><br><b>@photometricsettings.enabled@：</b>將調節源圖像的亮度。<br><br><b>@photometricsettings.keepcurrent@：</b>將保留“ @mainwindow.imageparameters.expoffset@”列中的當前值。"
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.saveexposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadexposurefusionparameters@"
+		},
+		{
+			"id": "txt.savetonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.savetonemapsettings@"
+		},
+		{
+			"id": "txt.loadtonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.loadtonemapsettings@"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.savetoningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadtoningparameters@"
+		},
+		{
+			"id": "txt.savecameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.savecameraresponsecurve@"
+		},
+		{
+			"id": "txt.loadcameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.loadcameraresponsecurve@"
+		},
+		{
+			"id": "defaults",
+			"machinetranslated": true,
+			"label": "@defaults@"
 		}
 	],
 	"helppages": [

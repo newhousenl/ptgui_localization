@@ -5985,6 +5985,18 @@
 {
     "id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
     "txt": "Precision:"
+},
+{
+    "id": "txt.exposurefusionparameters",
+    "txt": "Exposure Fusion parameters"
+},
+{
+    "id": "txt.saveexposurefusionparameters",
+    "txt": "Save @txt.exposurefusionparameters@"
+},
+{
+    "id": "txt.loadexposurefusionparameters",
+    "txt": "Load @txt.exposurefusionparameters@"
 }
 
 
@@ -8118,8 +8130,44 @@
             "id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
             "helptext": "Blend planes are not generated because bracketed source images are first merged to HDR and then stitched.",
             "morehelptext": "<br><br>PTGui can process bracketed exposures in two different ways. Blend planes are generated only if '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' is configured in the @mainwindow.tabs.exposurehdr@ tab. For more information see the tooltip for this setting in the @mainwindow.tabs.exposurehdr@ tab."
+        },
+        {
+            "id": "txt.saveexposurefusionparameters",
+            "label": "@txt.saveexposurefusionparameters@"
+        },
+        {
+            "id": "txt.loadexposurefusionparameters",
+            "label": "@txt.loadexposurefusionparameters@"            
+        },
+        {
+            "id": "txt.savetonemapsettings",
+            "label": "@txt.savetonemapsettings@"
+        },
+        {
+            "id": "txt.loadtonemapsettings",
+            "label": "@txt.loadtonemapsettings@"            
+        },
+        {
+            "id": "txt.savetoningparameters",
+            "label": "@txt.savetoningparameters@"
+        },
+        {
+            "id": "txt.loadtoningparameters",
+            "label": "@txt.loadtoningparameters@"            
+        },
+        {
+            "id": "txt.savecameraresponsecurve",
+            "label": "@txt.savecameraresponsecurve@"
+        },
+        {
+            "id": "txt.loadcameraresponsecurve",
+            "label": "@txt.loadcameraresponsecurve@"            
+        },
+        {
+            "id": "defaults",
+            "label": "@defaults@"            
         }
-            
+        
     ],
     "helppages": [
         {

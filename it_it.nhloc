@@ -6900,6 +6900,21 @@
 			"id": "photometricsettings.optimizeexposure.info.disabled",
 			"machinetranslated": true,
 			"txt": "Il tempo di esposizione delle tue immagini è noto.\nLa luminosità non verrà ottimizzata."
+		},
+		{
+			"id": "txt.exposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Parametri di fusione dell'esposizione"
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Salva @txt.exposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"txt": "Carica @txt.exposurefusionparameters@"
 		}
 	],
 	"tooltips": [
@@ -9476,6 +9491,51 @@
 			"machinetranslated": true,
 			"helptext": "Controlla se la luminosità delle singole immagini sorgente verrà regolata, al fine di ridurre al minimo le differenze di luminosità tra le immagini sovrapposte.",
 			"morehelptext": "<br><br>Se abilitato, la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; nella scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se i dati EXIF delle immagini contengono informazioni sull'esposizione, si presume che questi dati siano corretti e non viene eseguita alcuna ulteriore ottimizzazione della luminosità. Se i dati EXIF non contengono informazioni sull'esposizione, la luminosità verrà ottimizzata.<br><br><b>@photometricsettings.disabled@: la</b> luminosità non verrà ottimizzata e la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; di tutte le immagini nella scheda @mainwindow.tabs.imageparameters@ verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@: la</b> luminosità delle immagini sorgente verrà regolata.<br><br><b>@photometricsettings.keepcurrent@: verranno mantenuti</b> i valori correnti nella colonna &quot;@mainwindow.imageparameters.expoffset@&quot;."
+		},
+		{
+			"id": "txt.saveexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.saveexposurefusionparameters@"
+		},
+		{
+			"id": "txt.loadexposurefusionparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadexposurefusionparameters@"
+		},
+		{
+			"id": "txt.savetonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.savetonemapsettings@"
+		},
+		{
+			"id": "txt.loadtonemapsettings",
+			"machinetranslated": true,
+			"label": "@txt.loadtonemapsettings@"
+		},
+		{
+			"id": "txt.savetoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.savetoningparameters@"
+		},
+		{
+			"id": "txt.loadtoningparameters",
+			"machinetranslated": true,
+			"label": "@txt.loadtoningparameters@"
+		},
+		{
+			"id": "txt.savecameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.savecameraresponsecurve@"
+		},
+		{
+			"id": "txt.loadcameraresponsecurve",
+			"machinetranslated": true,
+			"label": "@txt.loadcameraresponsecurve@"
+		},
+		{
+			"id": "defaults",
+			"machinetranslated": true,
+			"label": "@defaults@"
 		}
 	],
 	"helppages": [

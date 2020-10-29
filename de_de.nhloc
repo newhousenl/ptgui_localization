@@ -1247,7 +1247,7 @@
 		{
 			"id": "mainwindow.projectassistant.runalignimagesagain",
 			"format": "html",
-			"txt": "Führen Sie <a href=0>@alignimages@</a> erneut aus, um weitere Kontrollpunkte zu finden."
+			"txt": "Führt <a href=0>@alignimages@</a> erneut aus, um weitere Kontrollpunkte zu finden."
 		},
 		{
 			"id": "mainwindow.projectassistant.isprealigned",
@@ -5798,7 +5798,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
 			"machinetranslated": true,
-			"txt": "Aktivieren Sie die Belichtungsfusion für Einzelbelichtungen"
+			"txt": "Belichtungsfusion für Einzelbelichtungen aktivieren"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
@@ -6682,7 +6682,7 @@
 		{
 			"id": "optimizertab.minimizelensdistortion",
 			"machinetranslated": true,
-			"helptext": "Aktivieren Sie die Optimierung von Objektivverzerrung und Lens Shift.",
+			"helptext": "Aktiviere die Optimierung von Objektivverzerrung und Lens Shift.",
 			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, passt das Optimierungsprogramm die entsprechenden Einstellungen auf der Registerkarte @mainwindow.tabs.lenssettings@ an.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Objektivverzerrung wird nicht optimiert. Dies kann nützlich sein, wenn vorkalibrierte Objektivdaten verwendet werden.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> Optimiere nur den Objektivverzerrungsparameter 'b'. Kann verwendet werden, wenn nur wenige Kontrollpunkte vorhanden sind oder wenn die Bilder an Parallaxefehlern leiden, um das Risiko einer Überanpassung zu verringern.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> Optimiere die Objektivverzerrung (a, b und c).<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (die empfohlene Einstellung):</b> Optimierung der Objektivverzerrung und Optimierung der Objektivverschiebung. Dies führt zu der genauesten Naht."
 		},
 		{
@@ -6743,7 +6743,7 @@
 		{
 			"id": "exposurehdrtab.dontgroupintoblendplanes",
 			"machinetranslated": true,
-			"helptext": "Deaktivieren Sie den HDR-Modus. Zusammenführen aller Bilder zu einem einzigen Panorama."
+			"helptext": "Deaktiviere den HDR-Modus. Zusammenführen aller Bilder zu einem einzigen Panorama."
 		},
 		{
 			"id": "exposurehdrtab.tonemapldrpanorama",
@@ -7593,7 +7593,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Aktiviert oder deaktiviert die Vollbild-Schaltfläche oben rechts im Viewer.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktivieren Sie die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> bietet nur Fullscreen-Unterstützung im (jetzt älteren) Flash-Viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktivieren Sie die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt, mit Ausnahme von Safari unter iOS. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert im Allgemeinen gut, außer wenn das Panorama in einem IFRAME angezeigt wird: In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktiviere die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> bietet nur Fullscreen-Unterstützung im (jetzt älteren) Flash-Viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktiviere die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt, mit Ausnahme von Safari unter iOS. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert im Allgemeinen gut, außer wenn das Panorama in einem IFRAME angezeigt wird: In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",
@@ -8246,7 +8246,7 @@
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
 			"machinetranslated": true,
-			"helptext": "Aktivieren oder deaktivieren Sie die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten in der Registerkarte @mainwindow.tabs.controlpoints@ für Belichtungsreihen bewegen.",
+			"helptext": "Aktiviere oder deaktiviere die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten in der Registerkarte @mainwindow.tabs.controlpoints@ für Belichtungsreihen bewegen.",
 			"morehelptext": "<br><br>Bei HDR-Projekten kombiniert PTGui standardmäßig verknüpfte Bilder (Belichtungsreihen) zu einem einzigen zusammengeführten Bild. In der Registerkarte @mainwindow.tabs.controlpoints@ kann es erforderlich sein, die einzelnen Bilder anstelle des zusammengeführten Bildes anzuzeigen, da Kontrollpunkte zwischen einzelnen Bildern und nicht zwischen Gruppen verknüpfter Bilder platziert werden. Daher öffnet PTGui einen Ballon, der die einzelnen Bilder zeigt, wenn Sie mit der Maus über die Vorschaubilder fahren.<br><br>Wenn Sie feststellen, dass der Ballon Ihnen im Weg steht, können Sie ihn hier deaktivieren. Einzelne Belichtungen aus dem Satz von Belichtungsreihen können weiterhin auf der Registerkarte @mainwindow.tabs.controlpoints@ mit den Tastaturkurzbefehlen ausgewählt werden <optional platform='windows'>Strg + Alt + Hoch und Strg + Alt + Runter</optional><optional platform='mac'>Cmd + Alt + Hoch und Cmd + Alt + Runter</optional> ."
 		},
 		{

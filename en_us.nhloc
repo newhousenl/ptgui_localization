@@ -1907,18 +1907,6 @@
     "txt": "If bracketed exposures are detected:"
 },
 {
-    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link",
-    "txt": "Enable HDR mode and link the bracketed exposures"
-},
-{
-    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink",
-    "txt": "Enable HDR mode but do not link the images"
-},
-{
-    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr",
-    "txt": "Do not enable HDR mode"
-},
-{
     "id": "mainwindow.projectsettings.hdrdefaults.dontask",
     "txt": "Do this without asking when clicking '@alignimages@' in the @mainwindow.tabs.projectassistant@ tab"
 },
@@ -2682,10 +2670,6 @@
 {
     "id": "bracketedexposureswindow.dontlinktxt",
     "txt": "Choose this option if the images were taken handheld. PTGui will attempt to align the bracketed exposures."
-},
-{
-    "id": "bracketedexposureswindow.nohdr",
-    "txt": "This is not an HDR exposure set. Do not enable HDR mode."
 },
 {
     "id": "bracketedexposureswindow.hdrmethod",
@@ -5997,8 +5981,27 @@
 {
     "id": "txt.loadexposurefusionparameters",
     "txt": "Load @txt.exposurefusionparameters@"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link",
+    "txt": "Merge bracketed images to HDR and link the positions"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink",
+    "txt": "Merge bracketed images to HDR, but align them individually"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr",
+    "txt": "Do not enable HDR mode"
+},
+{
+    "id": "bracketedexposureswindow.nohdr",
+    "txt": "This is not an HDR exposure set. Do not enable HDR mode."
+},
+{
+    "id": "mainwindow.imageparameters.linked",
+    "txt": "Link"
 }
-
 
 
 

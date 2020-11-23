@@ -5953,6 +5953,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Řídí, zda jsou pozice obrázků ve skupině snímků v závorkách nezávislé nebo propojené. Zaškrtnutím tohoto políčka vynutíte, aby obrázky v závorkách měly stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. To lze použít, pokud byla sekvence snímků v záběru pořízena ze stativu a obrázky jsou dokonale zarovnány. Zrušením zaškrtnutí tohoto políčka umožníte každému obrázku ve skupině různé polohy. V druhém případě musí být mezi obrázky ve skupině poskytnuty kontrolní body a optimalizátor je jednotlivě zarovná. Obrázky s propojenými pozicemi také sdílejí stejnou masku. Zaškrtávací políčko @mainwindow.imageparameters.linked@ se zobrazuje pouze v případě, že projekt obsahuje skupiny propojených obrázků."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Když kliknete na '@alignimages@' a budou detekovány závorkované obrázky:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Zeptejte se mě, co mám dělat"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Použijte výše uvedené, aniž byste se ptali"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorovat"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Výchozí zpracování expozic v závorkách:"
 		}
 	],
 	"tooltips": [
@@ -8391,6 +8416,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Určuje chování při kliknutí na „@alignimages@“ na kartě @mainwindow.tabs.projectassistant@, pokud jsou detekovány snímky v závorkách.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Zobrazí se dialogové okno s dotazem, zda mají být obrázky propojeny či nikoli.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Nastavení nakonfigurovaná výše (po „@mainwindow.projectsettings.hdrdefaults.subheading_v2@“) bude použita automaticky.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nedělat nic; pokračuje s @alignimages@ jako obvykle."
 		}
 	],
 	"helppages": [

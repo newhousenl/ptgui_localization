@@ -7161,7 +7161,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
 			"machinetranslated": true,
-			"txt": "Combina imágenes entre corchetes en HDR, luego combina"
+			"txt": "Combina imágenes con bracketing en HDR, luego combina"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
@@ -7342,6 +7342,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Controla si las posiciones de las imágenes en un grupo de imágenes de horquillado son independientes o están vinculadas. Marque esta casilla para forzar que las imágenes en un conjunto de horquillado tengan los mismos parámetros @yaw@, @pitch@, @roll@ y @viewpoint@. Esto se puede utilizar si la secuencia de imágenes de horquillado se tomó de un trípode y las imágenes están perfectamente alineadas. Desmarcar esta casilla permite que cada imagen del grupo tenga diferentes posiciones. En el último caso, se deben proporcionar puntos de control entre las imágenes del grupo y el optimizador las alineará individualmente. Las imágenes con posiciones vinculadas también comparten la misma máscara. La casilla de verificación @mainwindow.imageparameters.linked@ se muestra solo si el proyecto contiene grupos de imágenes vinculadas."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Al hacer clic en '@alignimages@' y se detectan imágenes con bracketing:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Pregúntame que hacer"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Aplicar lo anterior sin preguntar"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorar"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Manejo predeterminado de exposiciones con bracketing:"
 		}
 	],
 	"tooltips": [
@@ -9798,7 +9823,7 @@
 			"id": "exposurehdrtab.noisefloor",
 			"machinetranslated": true,
 			"helptext": "Compense el ruido de la imagen en las imágenes de origen al fusionarse con HDR.",
-			"morehelptext": "<br><br>Al combinar imágenes entre corchetes a HDR, PTGui toma los &quot;mejores&quot; píxeles de cada imagen de origen superpuesta. Para todas las imágenes, excepto la imagen expuesta más larga, los píxeles por debajo de cierto brillo se ignoran, porque esos píxeles oscuros pueden ser ruido de imagen. Este control deslizante establece el umbral para descartar esos píxeles ruidosos. Si las imágenes de origen son ruidosas (por ejemplo, tomadas con ISO alto) y el ruido se hace visible en el panorama HDR, mueva el control deslizante hacia la derecha hasta que desaparezca el ruido. Pero tenga en cuenta que esto puede aumentar los artefactos HDR alrededor de los objetos en movimiento, por lo que para obtener los mejores resultados mueva el control deslizante lo más hacia la izquierda posible hasta que comience a aparecer ruido. El resultado se puede observar en el Visor de detalles.<br><br>El ruido de la imagen aún puede verse en partes del panorama que son negras incluso en la exposición más brillante. Para reducir el ruido, se deben agregar más imágenes entre corchetes a tiempos de exposición más largos."
+			"morehelptext": "<br><br>Al combinar imágenes con bracketing a HDR, PTGui toma los &quot;mejores&quot; píxeles de cada imagen de origen superpuesta. Para todas las imágenes, excepto la imagen expuesta más larga, los píxeles por debajo de cierto brillo se ignoran, porque esos píxeles oscuros pueden ser ruido de imagen. Este control deslizante establece el umbral para descartar esos píxeles ruidosos. Si las imágenes de origen son ruidosas (por ejemplo, tomadas con ISO alto) y el ruido se hace visible en el panorama HDR, mueva el control deslizante hacia la derecha hasta que desaparezca el ruido. Pero tenga en cuenta que esto puede aumentar los artefactos HDR alrededor de los objetos en movimiento, por lo que para obtener los mejores resultados mueva el control deslizante lo más hacia la izquierda posible hasta que comience a aparecer ruido. El resultado se puede observar en el Visor de detalles.<br><br>El ruido de la imagen aún puede verse en partes del panorama que son negras incluso en la exposición más brillante. Para reducir el ruido, se deben agregar más imágenes con bracketing a tiempos de exposición más largos."
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
@@ -9842,14 +9867,14 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
-			"helptext": "Configura cómo se manejan las exposiciones entre corchetes.",
-			"morehelptext": "<br><br>Las exposiciones entre corchetes se pueden procesar de dos maneras:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combina primero cada conjunto de exposiciones entre corchetes en una imagen HDR (o las combina usando Exposición Fusion). Luego, las imágenes combinadas se mezclan en un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Primero, se crean los llamados 'planos de mezcla'. Un plano de mezcla es el panorama completo en un nivel de exposición (es decir, todas las imágenes tomadas en tiempo de expulsión, apertura e ISO idénticos). Finalmente, los planos de mezcla separados se combinan en una imagen HDR o una imagen fusionada de exposición. Este método debe usarse solo para panorámicas tomadas en el modo de exposición manual. Requiere que todo el panorama esté completamente cubierto en cada nivel de exposición.<br><br><b>@options.automatic@:</b> elige la mejor opción para el proyecto actual. Si las imágenes se tomaron en el modo de exposición manual, se crearán planos de mezcla. De lo contrario, las imágenes entre corchetes se combinarán primero y luego se combinarán."
+			"helptext": "Configura cómo se manejan las exposiciones con bracketing.",
+			"morehelptext": "<br><br>Las exposiciones con bracketing se pueden procesar de dos maneras:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combina primero cada conjunto de exposiciones con bracketing en una imagen HDR (o las combina usando Exposición Fusion). Luego, las imágenes combinadas se mezclan en un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Primero, se crean los llamados 'planos de mezcla'. Un plano de mezcla es el panorama completo en un nivel de exposición (es decir, todas las imágenes tomadas en tiempo de expulsión, apertura e ISO idénticos). Finalmente, los planos de mezcla separados se combinan en una imagen HDR o una imagen fusionada de exposición. Este método debe usarse solo para panorámicas tomadas en el modo de exposición manual. Requiere que todo el panorama esté completamente cubierto en cada nivel de exposición.<br><br><b>@options.automatic@:</b> elige la mejor opción para el proyecto actual. Si las imágenes se tomaron en el modo de exposición manual, se crearán planos de mezcla. De lo contrario, las imágenes con bracketing se combinarán primero y luego se combinarán."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
 			"machinetranslated": true,
-			"helptext": "Configura cómo se combinan las exposiciones entre corchetes.",
-			"morehelptext": "Las exposiciones entre corchetes (para HDR) se combinarán en una sola imagen. PTGui puede hacer esto de dos maneras diferentes:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> las exposiciones entre corchetes se combinan primero en una verdadera imagen de alto rango dinámico. Esta imagen HDR cubre todo el rango dinámico de todas las imágenes de origen, desde las imágenes más oscuras hasta las más brillantes. Luego, generalmente se utilizará el mapeo de tonos para convertir esto en una imagen de bajo rango dinámico adecuada para mostrar o imprimir.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: las</b> exposiciones entre corchetes se combinan directamente en una imagen de bajo rango dinámico asignada por tonos. Esto evita el paso de crear primero una imagen de alto rango dinámico para el mapeo de tonos.<br><br>Las configuraciones para el mapeo de tonos y las fusiones de exposición se pueden ajustar en la barra lateral del Editor de Panorama."
+			"helptext": "Configura cómo se combinan las exposiciones con bracketing.",
+			"morehelptext": "Las exposiciones con bracketing (para HDR) se combinarán en una sola imagen. PTGui puede hacer esto de dos maneras diferentes:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> las exposiciones con bracketing se combinan primero en una verdadera imagen de alto rango dinámico. Esta imagen HDR cubre todo el rango dinámico de todas las imágenes de origen, desde las imágenes más oscuras hasta las más brillantes. Luego, generalmente se utilizará el mapeo de tonos para convertir esto en una imagen de bajo rango dinámico adecuada para mostrar o imprimir.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: las</b> exposiciones con bracketing se combinan directamente en una imagen de bajo rango dinámico asignada por tonos. Esto evita el paso de crear primero una imagen de alto rango dinámico para el mapeo de tonos.<br><br>Las configuraciones para el mapeo de tonos y las fusiones de exposición se pueden ajustar en la barra lateral del Editor de Panorama."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
@@ -9860,7 +9885,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
 			"machinetranslated": true,
-			"helptext": "Combine exposiciones entre corchetes utilizando Exposure Fusion",
+			"helptext": "Combine exposiciones con bracketing utilizando Exposure Fusion",
 			"morehelptext": "<br><br>Exposure Fusion se usa para combinar múltiples muestras entre paréntesis en una sola imagen con un rango dinámico reducido. También es posible usar Exposure Fusion en imágenes individuales sin corchetes, creando copias artificiales más oscuras y brillantes de la misma imagen. Esto aumenta los detalles visibles en las sombras y los resaltados, de forma similar al mapeo de tonos."
 		},
 		{
@@ -9910,7 +9935,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
 			"machinetranslated": true,
-			"helptext": "Los planos de mezcla no se generan porque las imágenes de origen entre corchetes se fusionan primero con HDR y luego se unen.",
+			"helptext": "Los planos de mezcla no se generan porque las imágenes de origen con bracketing se fusionan primero con HDR y luego se unen.",
 			"morehelptext": "<br><br>PTGui puede procesar exposiciones entre paréntesis de dos maneras diferentes. Los planos de mezcla se generan solo si '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' está configurado en la pestaña @mainwindow.tabs.exposurehdr@. Para obtener más información, consulte la información sobre herramientas para esta configuración en la pestaña @mainwindow.tabs.exposurehdr@."
 		},
 		{
@@ -9963,6 +9988,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Determina el comportamiento al hacer clic en '@alignimages@' en la pestaña @mainwindow.tabs.projectassistant@, si se detectan imágenes con bracketing.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Se <b>mostrará</b> un cuadro de diálogo preguntando si las imágenes deben estar vinculadas o no.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Los ajustes configurados anteriormente (después de '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') se aplicarán automáticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> No hacer nada; continúa con @alignimages@ como de costumbre."
 		}
 	],
 	"helppages": [

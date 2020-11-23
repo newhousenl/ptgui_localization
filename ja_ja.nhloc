@@ -5963,6 +5963,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "括弧で囲まれた画像のグループ内の画像の位置が独立しているか、リンクされているかを制御します。括弧で囲まれたセット内の画像が同じ@yaw@、@pitch@、@roll@、および@viewpoint@パラメーターを持つようにするには、このボックスをチェックします。これは、括弧で囲まれた画像シーケンスが三脚から取得され、画像が完全に位置合わせされている場合に使用できます。このチェックボックスをオフにすると、グループ内の各画像の位置を変えることができます。後者の場合、コントロールポイントはグループ内の画像の間に提供する必要があり、オプティマイザーはそれらを個別に位置合わせします。リンクされた位置を持つ画像も同じマスクを共有します。 @mainwindow.imageparameters.linked@チェックボックスは、プロジェクトにリンクされた画像のグループが含まれている場合にのみ表示されます。"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "「@alignimages@」をクリックすると、括弧で囲まれた画像が検出されます。"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "どうしたらいいか聞いて"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "質問せずに上記を適用します"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "無視する"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "ブラケット露出のデフォルトの処理："
 		}
 	],
 	"tooltips": [
@@ -8143,6 +8168,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "括弧で囲まれた画像が検出された場合に、@mainwindow.tabs.projectassistant@タブで[@alignimages@]をクリックしたときの動作を決定します。",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@：</b>画像をリンクするかどうかを尋ねるダイアログボックスが表示されます。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@：</b>上記で構成された設定（「@mainwindow.projectsettings.hdrdefaults.subheading_v2@」の後）が自動的に適用されます。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@：</b>何もしません。通常どおり@alignimages@を続行します。"
 		}
 	],
 	"helppages": [

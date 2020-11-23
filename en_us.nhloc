@@ -6005,7 +6005,28 @@
 {
     "id": "mainwindow.imageparamstab.linkedhelptxt",
     "txt": "Controls whether the positions of the images in a group of bracketed images are independent, or linked. Check this box to force the images in a bracketed set to have the same @yaw@, @pitch@, @roll@ and @viewpoint@ parameters. This can be used if the bracketed image sequence was taken from a tripod and the images are aligned perfectly. Unchecking this box allows each image in the group to have different positions. In the latter case, control points must be provided between the images in the group and the optimizer will align them individually. Images with linked positions also share the same mask. The @mainwindow.imageparameters.linked@ checkbox is shown only if the project contains groups of linked images."
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.askmode",
+    "txt": "When clicking '@alignimages@' and bracketed images are detected:"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+    "txt": "Ask me what to do"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+    "txt": "Apply the above without asking"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+    "txt": "Ignore"
+},
+{
+    "id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+    "txt": "Default handling of bracketed exposures:"
 }
+
 
 
 
@@ -8173,7 +8194,13 @@
         {
             "id": "defaults",
             "label": "@defaults@"            
+        },
+        {
+            "id": "mainwindow.projectsettings.hdrdefaults.askmode",
+            "helptext": "Determines the behavior when clicking '@alignimages@' in the @mainwindow.tabs.projectassistant@ tab, if bracketed images are detected.",
+            "morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b>A dialog box will be shown, asking whether the images should be linked or not.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b>The settings configured above (after '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') will be applied automatically.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b>Do nothing; continues with @alignimages@ as normal."
         }
+        
         
     ],
     "helppages": [

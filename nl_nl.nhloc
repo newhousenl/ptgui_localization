@@ -5963,6 +5963,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Bepaalt of de posities van de afbeeldingen in een belichtingsreeks onafhankelijk of gekoppeld zijn. Vink dit vakje aan om ervoor te zorgen dat de afbeeldingen in een belichtingsreeks dezelfde @yaw@, @pitch@, @roll@ en @viewpoint@ parameters hebben. Dit kan worden gebruikt als de belichtingsreeksen vanaf een statief zijn genomen en de afbeeldingen perfect zijn uitgelijnd. Als u dit vakje uitschakelt, wordt elke afbeelding in de groep onafhankelijk gepositioneerd. In het laatste geval moeten er controlepunten geplaats worden tussen de afbeeldingen in de groep en zal de optimizer ze afzonderlijk uitlijnen. Afbeeldingen met gekoppelde posities hebben ook hetzelfde masker. Het selectievakje @mainwindow.imageparameters.linked@ wordt alleen weergegeven als het project groepen gekoppelde afbeeldingen bevat."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Wanneer op '@alignimages@' wordt geklikt en belichtingsreeksen zijn gedetecteerd:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Vraag me wat te doen"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Pas het bovenstaande toe zonder te vragen"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Negeren"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Standaardbehandeling van belichtingsreeksen:"
 		}
 	],
 	"tooltips": [
@@ -8145,6 +8170,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Bepaalt het gedrag bij het klikken op '@alignimages@' op het tabblad @mainwindow.tabs.projectassistant@, als belichtingsreeksen zijn gedetecteerd.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Er wordt een dialoogvenster weergegeven waarin wordt gevraagd of de afbeeldingen moeten worden gekoppeld of niet.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> De instellingen die hierboven zijn geconfigureerd (na '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') worden automatisch toegepast.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> niets doen; gaat verder met @alignimages@ zoals normaal."
 		}
 	],
 	"helppages": [

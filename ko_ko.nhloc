@@ -7342,6 +7342,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "괄호로 묶인 이미지 그룹에서 이미지의 위치가 독립적인지 아니면 링크되는지를 제어합니다. 대괄호로 묶인 이미지에 동일한 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 갖도록하려면이 상자를 선택하십시오. 삼각대에서 브라켓 이미지 시퀀스를 가져오고 이미지가 완벽하게 정렬 된 경우에 사용할 수 있습니다. 이 상자를 선택 취소하면 그룹의 각 이미지가 다른 위치를 가질 수 있습니다. 후자의 경우 그룹의 이미지 사이에 제어점을 제공해야하며 최적화 프로그램이 이미지를 개별적으로 정렬합니다. 위치가 연결된 이미지도 동일한 마스크를 공유합니다. @mainwindow.imageparameters.linked@ 확인란은 프로젝트에 연결된 이미지 그룹이 포함 된 경우에만 표시됩니다."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "'@alignimages@'를 클릭하면 브라켓 이미지가 감지됩니다."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "무엇을 해야할지 물어보세요"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "묻지 않고 위의 내용을 적용"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "무시"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "브라켓 노출의 기본 처리 :"
 		}
 	],
 	"tooltips": [
@@ -9963,6 +9988,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "@mainwindow.tabs.projectassistant@ 탭에서 '@alignimages@'를 클릭 할 때 괄호로 묶인 이미지가 감지되는 경우 동작을 결정합니다.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@ :</b> 이미지를 연결해야하는지 여부를 묻는 대화 상자가 표시됩니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@ :</b> 위에서 구성한 설정 ( '@mainwindow.projectsettings.hdrdefaults.subheading_v2@'이후)이 자동으로 적용됩니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@ :</b> 아무것도하지 않습니다. 정상적으로 @alignimages@로 계속됩니다."
 		}
 	],
 	"helppages": [

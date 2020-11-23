@@ -7342,6 +7342,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "控制一组包围的图像组中图像的位置是独立的还是链接的。选中此框可以强制括号内的图像具有相同的@yaw@，@pitch@，@roll@和@viewpoint@参数。如果包围曝光的图像序列是从三脚架上拍摄的，并且图像对齐正确，则可以使用此功能。取消选中此框可使组中的每个图像具有不同的位置。在后一种情况下，必须在组中的图像之间提供控制点，并且优化器将单独对齐它们。具有链接位置的图像也共享相同的蒙版。仅当项目包含链接的图像组时，才会显示@mainwindow.imageparameters.linked@复选框。"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "单击“ @alignimages@”并检测到包围图像："
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "问我该怎么办"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "应用上面的而不问"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "忽视"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "包围曝光的默认处理："
 		}
 	],
 	"tooltips": [
@@ -9963,6 +9988,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "确定如果检测到包围曝光的图像，则在@mainwindow.tabs.projectassistant@选项卡中单击“ @alignimages@”时的行为。",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@：</b>将显示一个对话框，询问是否应链接图像。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@：</b>上面配置的设置（在“ @mainwindow.projectsettings.hdrdefaults.subheading_v2@”之后）将自动应用。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@：</b>不执行任何操作；继续正常使用@alignimages@。"
 		}
 	],
 	"helppages": [

@@ -5964,6 +5964,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Steuert, ob die Positionen der Bilder in einer Gruppe von Bildern in Klammern unabhängig oder verknüpft sind. Aktivieren Sie dieses Kontrollkästchen, um zu erzwingen, dass die Bilder in eine Belichtungsreihe dieselben @yaw@, @pitch@, @roll@ und @viewpoint@ Parameter haben. Dies kann verwendet werden, wenn die Belichtungsreihe von einem Stativ aufgenommen wurde und die Bilder perfekt ausgerichtet sind. Wenn Sie dieses Kontrollkästchen deaktivieren, kann jedes Bild in der Gruppe unterschiedliche Positionen haben. Im letzteren Fall müssen Kontrollpunkte zwischen den Bildern in der Gruppe bereitgestellt werden, und der Optimierer richtet sie einzeln aus. Bilder mit verknüpften Positionen haben dieselbe Maske. Das Kontrollkästchen @mainwindow.imageparameters.linked@ wird nur angezeigt, wenn das Projekt Gruppen verknüpfter Bilder enthält."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Beim Klicken auf \"@alignimages@\", wenn Belichtungsreihen erkannt wirden:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Frag mich, was zu tun"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Das oben genannte anwenden, ohne zu fragen"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorieren"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Standardbehandlung von Belichtungsreihen:"
 		}
 	],
 	"tooltips": [
@@ -8585,6 +8610,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Bestimmt das Verhalten beim Klicken auf '@alignimages@' auf der Registerkarte @mainwindow.tabs.projectassistant@, wenn Belichtungsreihen erkannt werden.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Ein Dialogfeld wird angezeigt, in dem Sie gefragt werden, ob die Bilder verknüpft werden sollen oder nicht.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Die oben konfigurierten Einstellungen (nach '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') werden automatisch angewendet.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nichts tun; fährt mit @alignimages@ wie gewohnt fort."
 		}
 	],
 	"helppages": [

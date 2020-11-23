@@ -7346,6 +7346,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Contrôle si les positions des images dans un groupe d'images brackettées sont indépendantes ou liées. Cochez cette case pour forcer les images dans un ensemble entre parenthèses à avoir les mêmes paramètres @yaw@, @pitch@, @roll@ et @viewpoint@. Cela peut être utilisé si la séquence d'images bracketing a été prise à partir d'un trépied et que les images sont parfaitement alignées. Décocher cette case permet à chaque image du groupe d'avoir des positions différentes. Dans ce dernier cas, des points de contrôle doivent être prévus entre les images du groupe et l'optimiseur les alignera individuellement. Les images avec des positions liées partagent également le même masque. La case à cocher @mainwindow.imageparameters.linked@ s'affiche uniquement si le projet contient des groupes d'images liées."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Lorsque vous cliquez sur '@alignimages@' et que les images bracketées sont détectées:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Demande moi quoi faire"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Appliquez ce qui précède sans demander"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorer"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Gestion par défaut des expositions bracketées:"
 		}
 	],
 	"tooltips": [
@@ -9966,6 +9991,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Détermine le comportement lorsque vous cliquez sur '@alignimages@' dans l'onglet @mainwindow.tabs.projectassistant@, si des images bracketées sont détectées.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Une boîte de dialogue s'affiche, vous demandant si les images doivent être liées ou non.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Les paramètres configurés ci-dessus (après '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') seront appliqués automatiquement.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Ne rien faire; continue avec @alignimages@ comme d'habitude."
 		}
 	],
 	"helppages": [

@@ -7321,6 +7321,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Определяет, являются ли положения изображений в группе изображений в квадратных скобках независимыми или связанными. Установите этот флажок, чтобы изображения в наборе в квадратных скобках имели одинаковые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Это можно использовать, если последовательность изображений в скобках была снята со штатива и изображения идеально выровнены. Если снять этот флажок, каждое изображение в группе будет иметь разные позиции. В последнем случае между изображениями в группе должны быть предусмотрены контрольные точки, и оптимизатор будет выравнивать их индивидуально. Изображения со связанными позициями также имеют одну маску. Флажок @mainwindow.imageparameters.linked@ отображается только в том случае, если проект содержит группы связанных изображений."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "При нажатии «@alignimages@» и обнаружении изображений в скобках:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Спроси меня что делать"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Примените вышеуказанное, не спрашивая"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Игнорировать"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Обработка снимков в скобках по умолчанию:"
 		}
 	],
 	"tooltips": [
@@ -9942,6 +9967,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Определяет поведение при нажатии «@alignimages@» на вкладке @mainwindow.tabs.projectassistant@, если обнаруживаются изображения в скобках.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@: отобразится</b> диалоговое окно с вопросом, следует ли связывать изображения или нет.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Установленные выше настройки (после «@mainwindow.projectsettings.hdrdefaults.subheading_v2@») будут применены автоматически.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> ничего не делать; продолжается с @alignimages@ как обычно."
 		}
 	],
 	"helppages": [

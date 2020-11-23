@@ -7332,6 +7332,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Controla se as posições das imagens em um grupo de imagens de bracketing são independentes ou vinculadas. Marque esta caixa para forçar as imagens de bracketing a terem os mesmos parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@. Isso pode ser usado se a sequência de imagens foi tirada de um tripé e as imagens estão alinhadas perfeitamente. Desmarcar esta caixa permite que cada imagem no grupo tenha posições diferentes. No último caso, os pontos de controle devem ser fornecidos entre as imagens no grupo e o otimizador irá alinhá-los individualmente. Imagens com posições vinculadas também compartilham a mesma máscara. A caixa de seleção @mainwindow.imageparameters.linked@ será exibida apenas se o projeto contiver grupos de imagens vinculadas."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Ao clicar em '@alignimages@' e imagens de bracketing são detectadas:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Me pergunte o que fazer"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Aplique o acima sem perguntar"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorar"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Tratamento padrão de exposições de bracketing:"
 		}
 	],
 	"tooltips": [
@@ -9953,6 +9978,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Determina o comportamento ao clicar em '@alignimages@' na guia @mainwindow.tabs.projectassistant@, se forem detectadas imagens de bracketing.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Uma caixa de diálogo será mostrada, perguntando se as imagens devem ser linkadas ou não.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> As configurações configuradas acima (após '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') serão aplicadas automaticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Não faça nada; continua com @alignimages@ normalmente."
 		}
 	],
 	"helppages": [

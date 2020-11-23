@@ -6925,6 +6925,31 @@
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": true,
 			"txt": "Controlla se le posizioni delle immagini in un gruppo di immagini con bracketing sono indipendenti o collegate. Selezionare questa casella per forzare le immagini in una serie con bracketing ad avere gli stessi parametri @yaw@, @pitch@, @roll@ e @viewpoint@. Può essere utilizzato se la sequenza di immagini con bracketing è stata scattata da un treppiede e le immagini sono perfettamente allineate. Deselezionando questa casella, ogni immagine nel gruppo avrà posizioni diverse. In quest'ultimo caso, i punti di controllo devono essere forniti tra le immagini nel gruppo e l'ottimizzatore le allineerà individualmente. Anche le immagini con posizioni collegate condividono la stessa maschera. La casella di controllo @mainwindow.imageparameters.linked@ viene visualizzata solo se il progetto contiene gruppi di immagini collegate."
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"txt": "Quando si fa clic su \"@alignimages@\" e vengono rilevate immagini con bracketing:"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
+			"machinetranslated": true,
+			"txt": "Chiedimi cosa fare"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
+			"machinetranslated": true,
+			"txt": "Applicare quanto sopra senza chiedere"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
+			"machinetranslated": true,
+			"txt": "Ignorare"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
+			"machinetranslated": true,
+			"txt": "Gestione predefinita delle esposizioni con bracketing:"
 		}
 	],
 	"tooltips": [
@@ -9546,6 +9571,12 @@
 			"id": "defaults",
 			"machinetranslated": true,
 			"label": "@defaults@"
+		},
+		{
+			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
+			"machinetranslated": true,
+			"helptext": "Determina il comportamento quando si fa clic su &quot;@alignimages@&quot; nella scheda @mainwindow.tabs.projectassistant@, se vengono rilevate immagini con bracketing.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> verrà visualizzata una finestra di dialogo che chiede se le immagini devono essere collegate o meno.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> le impostazioni configurate sopra (dopo &quot;@mainwindow.projectsettings.hdrdefaults.subheading_v2@&quot;) verranno applicate automaticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> non <b>eseguire</b> alcuna operazione; continua con @alignimages@ normalmente."
 		}
 	],
 	"helppages": [

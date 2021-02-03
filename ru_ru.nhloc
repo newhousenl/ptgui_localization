@@ -7346,6 +7346,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Обработка снимков в скобках по умолчанию:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Блендер:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Нулевое перекрытие"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Многополосный"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "Не смешивайте"
 		}
 	],
 	"tooltips": [
@@ -9973,6 +9993,12 @@
 			"machinetranslated": true,
 			"helptext": "Определяет поведение при нажатии «@alignimages@» на вкладке @mainwindow.tabs.projectassistant@, если обнаруживаются изображения в скобках.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@: отобразится</b> диалоговое окно с вопросом, следует ли связывать изображения или нет.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Установленные выше настройки (после «@mainwindow.projectsettings.hdrdefaults.subheading_v2@») будут применены автоматически.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> ничего не делать; продолжается с @alignimages@ как обычно."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "Используемый алгоритм смешивания.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> этот алгоритм смешивания работает на <b>стыке</b> между двумя изображениями. Различия в яркости и цвете распределяются по всему изображению, так что любые различия сводятся к минимуму там, где изображения пересекаются на стыках. Изображения не должны перекрываться; пиксели вне швов не используются.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> это классический алгоритм панорамного наложения (использованный в предыдущих версиях PTGui). Смешивание выполняется путем сглаживания различий в цвете и яркости в области перекрытия изображений. Мелкие детали сочетаются в узкой полосе внахлест, однотонные цвета смешиваются с постепенным перекрытием.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Не смешивайте вообще. Разница в цвете и яркости останется видимой.<br><br>В целом, «@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@» дает наилучшие результаты, в частности, если используется «@panoramaeditor.sidebar.blendsettings.seamfinding@» (только для PTGui Pro). Любые объекты за пределами швов будут полностью скрыты, в то время как «@panoramaeditor.sidebar.blendsettings.blender.multiband@» может привести к появлению фантомных изображений объектов за пределами швов, поскольку для смешивания используется вся область перекрытия. С другой стороны, «@panoramaeditor.sidebar.blendsettings.blender.multiband@» может дать лучшие результаты при смешивании очень мелких повторяющихся узоров (например, на потолках или коврах), и он может дать несколько лучшие результаты, если движущийся объект разрезать пополам швом.<br><br>«@panoramaeditor.sidebar.blendsettings.blender.none@» можно использовать в случаях, когда смешивание не требуется, например, при восстановлении панорамы из (не перекрывающихся) граней куба."
 		}
 	],
 	"helppages": [

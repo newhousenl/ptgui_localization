@@ -7367,6 +7367,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Manejo predeterminado de exposiciones con bracketing:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Licuadora:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Superposición cero"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Multibanda"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "No mezcle"
 		}
 	],
 	"tooltips": [
@@ -9994,6 +10014,12 @@
 			"machinetranslated": true,
 			"helptext": "Determina el comportamiento al hacer clic en '@alignimages@' en la pestaña @mainwindow.tabs.projectassistant@, si se detectan imágenes con bracketing.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Se <b>mostrará</b> un cuadro de diálogo preguntando si las imágenes deben estar vinculadas o no.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Los ajustes configurados anteriormente (después de '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') se aplicarán automáticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> No hacer nada; continúa con @alignimages@ como de costumbre."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "El algoritmo de mezcla que se utilizará.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> este algoritmo de fusión funciona en la unión entre dos imágenes. Las diferencias de brillo y color se distribuyen por toda la imagen, de modo que las diferencias se minimizan donde las imágenes se unen en las juntas. Las imágenes no tienen que superponerse; no se utilizan píxeles fuera de las costuras.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Este es el algoritmo clásico de fusión panorámica (como se usa en versiones anteriores de PTGui). La mezcla se realiza suavizando las diferencias de color y brillo en el área donde las imágenes se superponen. Los detalles finos se combinan en una estrecha banda superpuesta, los colores lisos se mezclan con una superposición gradual.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> No mezcle en absoluto. Las diferencias de color y brillo permanecerán visibles.<br><br>En general, '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' dará los mejores resultados, en particular si se utiliza '@panoramaeditor.sidebar.blendsettings.seamfinding@' (solo PTGui Pro). Cualquier objeto fuera de las uniones se ocultará por completo, mientras que '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar como resultado imágenes fantasma de objetos justo fuera de las uniones porque toda la región de superposición se usa para mezclar. Por otro lado, '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar mejores resultados al mezclar patrones repetidos muy finos (por ejemplo, en techos o alfombras) y puede dar resultados algo mejores si un objeto en movimiento se corta por la mitad por una costura.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' se puede utilizar en los casos en los que no se necesita la combinación, por ejemplo, al reconstruir un panorama a partir de caras de cubos (no superpuestas)."
 		}
 	],
 	"helppages": [

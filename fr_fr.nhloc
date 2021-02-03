@@ -7371,6 +7371,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Gestion par défaut des expositions bracketées:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Mixeur:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Aucun chevauchement"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Multibande"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "Ne mélangez pas"
 		}
 	],
 	"tooltips": [
@@ -9997,6 +10017,12 @@
 			"machinetranslated": true,
 			"helptext": "Détermine le comportement lorsque vous cliquez sur '@alignimages@' dans l'onglet @mainwindow.tabs.projectassistant@, si des images bracketées sont détectées.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Une boîte de dialogue s'affiche, vous demandant si les images doivent être liées ou non.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Les paramètres configurés ci-dessus (après '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') seront appliqués automatiquement.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Ne rien faire; continue avec @alignimages@ comme d'habitude."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "L'algorithme de fusion à utiliser.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Cet algorithme de fusion fonctionne à la jonction entre deux images. Les différences de luminosité et de couleur sont réparties sur toute l'image, de sorte que les différences sont minimisées là où les images se rencontrent au niveau des coutures. Les images ne doivent pas se chevaucher; aucun pixel n'est utilisé en dehors des coutures.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Il s'agit de l'algorithme de fusion panoramique classique (tel qu'utilisé dans les versions précédentes de PTGui). Le mélange est effectué en lissant les différences de couleur et de luminosité dans la zone où les images se chevauchent. Les détails fins sont mélangés dans une bande de chevauchement étroite, les couleurs unies sont mélangées avec un chevauchement progressif.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Ne mélangez pas du tout. Les différences de couleur et de luminosité resteront visibles.<br><br>En général, «@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@» donnera les meilleurs résultats, en particulier si «@panoramaeditor.sidebar.blendsettings.seamfinding@» est utilisé (PTGui Pro uniquement). Tous les objets en dehors des coutures seront complètement masqués, alors que '@panoramaeditor.sidebar.blendsettings.blender.multiband@' peut entraîner des images fantômes d'objets juste à l'extérieur des coutures car toute la zone de chevauchement est utilisée pour la fusion. D'un autre côté, «@panoramaeditor.sidebar.blendsettings.blender.multiband@» peut donner de meilleurs résultats lors du mélange de motifs répétitifs très fins (par exemple dans des plafonds ou des tapis) et il peut donner de meilleurs résultats si un objet en mouvement est coupé en deux par une couture.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' peut être utilisé dans les cas où la fusion n'est pas nécessaire, par exemple lors de la reconstruction d'un panorama à partir de faces de cube (sans chevauchement)."
 		}
 	],
 	"helppages": [

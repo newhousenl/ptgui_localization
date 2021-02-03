@@ -5988,6 +5988,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "ブラケット露出のデフォルトの処理："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "ブレンダー："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "重なりゼロ"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "マルチバンド"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "ブレンドしないでください"
 		}
 	],
 	"tooltips": [
@@ -8174,6 +8194,12 @@
 			"machinetranslated": true,
 			"helptext": "括弧で囲まれた画像が検出された場合に、@mainwindow.tabs.projectassistant@タブで[@alignimages@]をクリックしたときの動作を決定します。",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@：</b>画像をリンクするかどうかを尋ねるダイアログボックスが表示されます。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@：</b>上記で構成された設定（「@mainwindow.projectsettings.hdrdefaults.subheading_v2@」の後）が自動的に適用されます。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@：</b>何もしません。通常どおり@alignimages@を続行します。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "使用するブレンディングアルゴリズム。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@：</b>このブレンディングアルゴリズムは、2つの画像間の継ぎ目で機能します。明るさと色の違いは画像全体に分散されるため、画像が継ぎ目で出会う場所で違いが最小限に抑えられます。画像を重ねる必要はありません。継ぎ目の外側ではピクセルは使用されません。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@：</b>これは古典的なパノラマブレンディングアルゴリズムです（以前のPTGuiバージョンで使用されていました）。ブレンドは、画像が重なる領域の色と明るさの違いを滑らかにすることによって行われます。細かいディテールは狭いオーバーラップバンドでブレンドされ、無地の色は徐々にオーバーラップしてブレンドされます。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@：</b>まったくブレンドしないでください。色と明るさの違いは表示されたままになります。<br><br>一般に、特に「@panoramaeditor.sidebar.blendsettings.seamfinding@」が使用されている場合は、「@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@」が最良の結果をもたらします（PTGui Proのみ）。継ぎ目の外側のオブジェクトは完全に非表示になりますが、「@panoramaeditor.sidebar.blendsettings.blender.multiband@」では、オーバーラップ領域全体がブレンドに使用されるため、継ぎ目のすぐ外側のオブジェクトのゴーストイメージが生成される可能性があります。一方、「@panoramaeditor.sidebar.blendsettings.blender.multiband@」は、非常に細かい繰り返しパターン（天井やカーペットなど）をブレンドするとより良い結果が得られる可能性があり、移動するオブジェクトが継ぎ目で半分にカットされると、いくらかより良い結果が得られる可能性があります。<br><br>「@panoramaeditor.sidebar.blendsettings.blender.none@」は、ブレンドが不要な場合、たとえば（重なり合わない）立方体の面からパノラマを再構築する場合に使用できます。"
 		}
 	],
 	"helppages": [

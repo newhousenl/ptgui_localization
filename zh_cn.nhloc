@@ -7367,6 +7367,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "包围曝光的默认处理："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "搅拌机："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "零重叠"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "多频"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "不要融合"
 		}
 	],
 	"tooltips": [
@@ -9994,6 +10014,12 @@
 			"machinetranslated": true,
 			"helptext": "确定如果检测到包围曝光的图像，则在@mainwindow.tabs.projectassistant@选项卡中单击“ @alignimages@”时的行为。",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@：</b>将显示一个对话框，询问是否应链接图像。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@：</b>上面配置的设置（在“ @mainwindow.projectsettings.hdrdefaults.subheading_v2@”之后）将自动应用。<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@：</b>不执行任何操作；继续正常使用@alignimages@。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "要使用的混合算法。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@：</b>此混合算法适用于两个图像之间的接缝。亮度和色差分布在整个图像上，以使图像在接缝处汇合的任何差异最小化。图像不必重叠；接缝外不使用像素。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@：</b>这是经典的全景混合算法（在以前的PTGui版本中使用）。通过平滑图像重叠区域中的颜色和亮度差异来完成融合。精细的细节在狭窄的重叠带中融合，纯色与渐进的重叠融合。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@：完全</b>不要混合。颜色和亮度差异将保持可见。<br><br>通常，“ @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@”将提供最佳结果，尤其是如果使用“ @panoramaeditor.sidebar.blendsettings.seamfinding@”（仅适用于PTGui Pro）。接缝外部的所有对象都将被完全隐藏，而“ @panoramaeditor.sidebar.blendsettings.blender.multiband@”可能会导致接缝外部的对象出现重影，因为整个重叠区域都用于混合。另一方面，“ @panoramaeditor.sidebar.blendsettings.blender.multiband@”在混合非常精细的重复图案（例如在天花板或地毯中）时可能会产生更好的结果，并且如果将移动物体通过接缝切成两半，则可能会产生更好的结果。<br><br>“ @panoramaeditor.sidebar.blendsettings.blender.none@”可用于不需要融合的情况，例如，从（非重叠）立方体面重建全景时。"
 		}
 	],
 	"helppages": [

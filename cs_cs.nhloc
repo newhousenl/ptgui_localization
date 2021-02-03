@@ -5978,6 +5978,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Výchozí zpracování expozic v závorkách:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Mixér:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Nulové překrytí"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Vícepásmový"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "Nemíchejte"
 		}
 	],
 	"tooltips": [
@@ -8422,6 +8442,12 @@
 			"machinetranslated": true,
 			"helptext": "Určuje chování při kliknutí na „@alignimages@“ na kartě @mainwindow.tabs.projectassistant@, pokud jsou detekovány snímky v závorkách.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Zobrazí se dialogové okno s dotazem, zda mají být obrázky propojeny či nikoli.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Nastavení nakonfigurovaná výše (po „@mainwindow.projectsettings.hdrdefaults.subheading_v2@“) bude použita automaticky.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nedělat nic; pokračuje s @alignimages@ jako obvykle."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "Algoritmus míchání, který se má použít.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Tento směšovací algoritmus pracuje ve švu mezi dvěma obrazy. Rozdíly jasu a barev jsou distribuovány po celém obrázku, takže jakékoli rozdíly jsou minimalizovány tam, kde se obrázky setkávají ve švech. Obrázky se nemusí překrývat; mimo švy nejsou použity žádné pixely.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Toto je klasický panoramatický směšovací algoritmus (použitý v předchozích verzích PTGui). Prolínání se provádí vyhlazením rozdílů barev a jasu v oblasti, kde se obrázky překrývají. Jemné detaily jsou smíchány v úzkém pásmu překrytí, běžné barvy jsou smíchány s postupným překrytím.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Nemíchejte vůbec. Rozdíly barev a jasu zůstanou viditelné.<br><br>Obecně bude „@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@“ poskytovat nejlepší výsledky, zejména pokud se použije „@panoramaeditor.sidebar.blendsettings.seamfinding@“ (pouze PTGui Pro). Všechny objekty mimo švy budou kompletně skryty, zatímco '@panoramaeditor.sidebar.blendsettings.blender.multiband@' může mít za následek duchovní obrazy objektů těsně mimo švy, protože pro míchání je použita celá překrývající se oblast. Na druhou stranu, „@panoramaeditor.sidebar.blendsettings.blender.multiband@“ může poskytnout lepší výsledky při míchání velmi jemných opakujících se vzorů (například u stropů nebo koberců) a může přinést poněkud lepší výsledky, pokud je pohybující se předmět rozříznut na polovinu švem.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' lze použít v případech, kdy není potřeba míchání, například při rekonstrukci panoramatu z (nepřekrývajících se) ploch krychle."
 		}
 	],
 	"helppages": [

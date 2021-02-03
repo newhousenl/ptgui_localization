@@ -7367,6 +7367,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "브라켓 노출의 기본 처리 :"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "블렌더 :"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "제로 오버랩"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "멀티 밴드"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "혼합하지 마십시오"
 		}
 	],
 	"tooltips": [
@@ -9994,6 +10014,12 @@
 			"machinetranslated": true,
 			"helptext": "@mainwindow.tabs.projectassistant@ 탭에서 '@alignimages@'를 클릭 할 때 괄호로 묶인 이미지가 감지되는 경우 동작을 결정합니다.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@ :</b> 이미지를 연결해야하는지 여부를 묻는 대화 상자가 표시됩니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@ :</b> 위에서 구성한 설정 ( '@mainwindow.projectsettings.hdrdefaults.subheading_v2@'이후)이 자동으로 적용됩니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@ :</b> 아무것도하지 않습니다. 정상적으로 @alignimages@로 계속됩니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "사용할 혼합 알고리즘입니다.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ :</b> 이 혼합 알고리즘은 두 이미지 사이의 이음새에서 작동합니다. 밝기와 색상 차이가 전체 이미지에 분산되어 이미지가 이음새에서 만나는 곳에서 차이가 최소화됩니다. 이미지가 겹칠 필요는 없습니다. 이음새 외부에는 픽셀이 사용되지 않습니다.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@ :</b> 이것은 고전적인 파노라마 블렌딩 알고리즘입니다 (이전 PTGui 버전에서 사용됨). 혼합은 이미지가 겹치는 영역의 색상과 밝기 차이를 부드럽게하여 수행됩니다. 미세한 디테일은 좁은 겹침 밴드에서 혼합되고, 평범한 색상은 점진적으로 겹치면서 혼합됩니다.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@ :</b> 전혀 혼합하지 마십시오. 색상 및 밝기 차이는 계속 표시됩니다.<br><br>일반적으로 '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@'는 특히 '@panoramaeditor.sidebar.blendsettings.seamfinding@'를 사용하는 경우 (PTGui Pro 만 해당) 최상의 결과를 제공합니다. 이음새 외부의 모든 개체는 완전히 숨겨 지지만 '@panoramaeditor.sidebar.blendsettings.blender.multiband@'는 전체 중첩 영역이 혼합에 사용되기 때문에 이음새 바로 외부 개체의 고스트 이미지를 생성 할 수 있습니다. 반면 '@panoramaeditor.sidebar.blendsettings.blender.multiband@'는 매우 미세한 반복 패턴 (예 : 천장 또는 카펫)을 혼합 할 때 더 나은 결과를 제공 할 수 있으며 움직이는 물체를 이음새로 반으로 자르면 다소 더 나은 결과를 제공 할 수 있습니다.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@'는 블렌딩이 필요하지 않은 경우에 사용할 수 있습니다 (예 : (겹치지 않는) 큐브면에서 파노라마를 재구성 할 때)."
 		}
 	],
 	"helppages": [

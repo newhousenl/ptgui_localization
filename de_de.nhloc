@@ -5989,6 +5989,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Standardbehandlung von Belichtungsreihen:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Überblendungsalgorithmus:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Keine Überlappung"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Multiband"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "Nicht überblenden"
 		}
 	],
 	"tooltips": [
@@ -8616,6 +8636,12 @@
 			"machinetranslated": true,
 			"helptext": "Bestimmt das Verhalten beim Klicken auf '@alignimages@' auf der Registerkarte @mainwindow.tabs.projectassistant@, wenn Belichtungsreihen erkannt werden.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Ein Dialogfeld wird angezeigt, in dem Sie gefragt werden, ob die Bilder verknüpft werden sollen oder nicht.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Die oben konfigurierten Einstellungen (nach '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') werden automatisch angewendet.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nichts tun; fährt mit @alignimages@ wie gewohnt fort."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "Der zu verwendende Überblendungsalgorithmus.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Dieser Überblendungsalgorithmus arbeitet an der Naht zwischen zwei Bildern. Helligkeits- und Farbunterschiede werden über das gesamte Bild verteilt, sodass Unterschiede dort minimiert werden, wo sich die Bilder an den Nähten treffen. Die Bilder müssen sich nicht überlappen. Außerhalb der Nähte werden keine Pixel verwendet.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Dies ist der klassische Panorama-Überblendungsalgorithmus (wie in früheren PTGui-Versionen verwendet). Das Mischen erfolgt durch Glätten der Farb- und Helligkeitsunterschiede in dem Bereich, in dem sich Bilder überlappen. Feine Details werden in einem schmalen Überlappungsband gemischt, unifarbene Farben werden mit einer allmählichen Überlappung gemischt.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@: Überhaupt</b> nicht mischen. Farb- und Helligkeitsunterschiede bleiben sichtbar.<br><br>Im Allgemeinen liefert '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' die besten Ergebnisse, insbesondere wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' verwendet wird (nur PTGui Pro). Alle Objekte außerhalb der Nähte werden vollständig ausgeblendet, während '@panoramaeditor.sidebar.blendsettings.blender.multiband@' zu Geisterbildern von Objekten direkt außerhalb der Nähte führen kann, da der gesamte Überlappungsbereich zum Mischen verwendet wird. Andererseits kann '@panoramaeditor.sidebar.blendsettings.blender.multiband@' bessere Ergebnisse liefern, wenn sehr feine sich wiederholende Muster (z. B. in Decken oder Teppichen) gemischt werden, und es kann etwas bessere Ergebnisse liefern, wenn ein sich bewegendes Objekt durch eine Naht in zwei Hälften geschnitten wird.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' kann in Fällen verwendet werden, in denen keine Überblendung erforderlich ist, z. B. bei der Rekonstruktion eines Panoramas aus (nicht überlappenden) Würfelflächen."
 		}
 	],
 	"helppages": [

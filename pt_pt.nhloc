@@ -7357,6 +7357,26 @@
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
 			"machinetranslated": true,
 			"txt": "Tratamento padrão de exposições de bracketing:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"txt": "Liquidificador:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
+			"machinetranslated": true,
+			"txt": "Sobreposição zero"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
+			"machinetranslated": true,
+			"txt": "Multibanda"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
+			"machinetranslated": true,
+			"txt": "Não misture"
 		}
 	],
 	"tooltips": [
@@ -9984,6 +10004,12 @@
 			"machinetranslated": true,
 			"helptext": "Determina o comportamento ao clicar em '@alignimages@' na guia @mainwindow.tabs.projectassistant@, se forem detectadas imagens de bracketing.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Uma caixa de diálogo será mostrada, perguntando se as imagens devem ser linkadas ou não.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> As configurações configuradas acima (após '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') serão aplicadas automaticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Não faça nada; continua com @alignimages@ normalmente."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.blender",
+			"machinetranslated": true,
+			"helptext": "O algoritmo de combinação a ser usado.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Este algoritmo de combinação funciona na junção entre duas imagens. As diferenças de brilho e cor são distribuídas por toda a imagem, de modo que quaisquer diferenças sejam minimizadas onde as imagens se encontram nas costuras. As imagens não precisam se sobrepor; nenhum pixel é usado fora das costuras.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Este é o algoritmo clássico de combinação panorâmica (usado nas versões anteriores do PTGui). A mesclagem é feita suavizando as diferenças de cor e brilho na área onde as imagens se sobrepõem. Detalhes finos são mesclados em uma faixa de sobreposição estreita, cores lisas são mescladas com uma sobreposição gradual.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Não se misture. As diferenças de cor e brilho permanecerão visíveis.<br><br>Em geral, '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' fornecerá os melhores resultados, em particular se '@panoramaeditor.sidebar.blendsettings.seamfinding@' for usado (apenas PTGui Pro). Quaisquer objetos fora das costuras ficarão completamente ocultos, enquanto '@panoramaeditor.sidebar.blendsettings.blender.multiband@' pode resultar em imagens fantasmas de objetos fora das costuras porque toda a região de sobreposição é usada para mesclar. Por outro lado, '@panoramaeditor.sidebar.blendsettings.blender.multiband@' pode dar melhores resultados ao combinar padrões repetidos muito finos (por exemplo, em tetos ou carpetes) e pode dar resultados um pouco melhores se um objeto em movimento for cortado ao meio por uma costura.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' pode ser usado nos casos em que a combinação não é necessária, por exemplo, ao reconstruir um panorama a partir de faces de cubo (não sobrepostas)."
 		}
 	],
 	"helppages": [

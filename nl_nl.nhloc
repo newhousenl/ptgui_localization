@@ -5992,12 +5992,12 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"txt": "Blender:"
+			"txt": "Blending algoritme:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
 			"machinetranslated": true,
-			"txt": "Geen overlap"
+			"txt": "Zonder overlap"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
@@ -6007,7 +6007,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
-			"txt": "Mix niet"
+			"txt": "Niet blenden"
 		}
 	],
 	"tooltips": [
@@ -8200,8 +8200,8 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"helptext": "Het te gebruiken mengalgoritme.",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Dit <b>mengalgoritme</b> werkt op de naad tussen twee afbeeldingen. Helderheid en kleurverschillen worden over het hele beeld verdeeld, zodat eventuele verschillen daar waar de beelden bij de naden samenkomen, worden geminimaliseerd. De afbeeldingen hoeven elkaar niet te overlappen; er worden geen pixels buiten de naden gebruikt.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Dit is het klassieke panoramische mengalgoritme (zoals gebruikt in eerdere PTGui-versies). Mengen wordt gedaan door de kleur- en helderheidsverschillen in het gebied waar de afbeeldingen elkaar overlappen, te verzachten. Fijne details worden gemengd in een smalle overlappingsband, effen kleuren worden gemengd met een geleidelijke overlap.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@: Helemaal</b> niet mengen. Kleur- en helderheidsverschillen blijven zichtbaar.<br><br>Over het algemeen geeft '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' de beste resultaten, vooral als '@panoramaeditor.sidebar.blendsettings.seamfinding@' wordt gebruikt (alleen PTGui Pro). Alle objecten buiten de naden worden volledig verborgen, terwijl '@panoramaeditor.sidebar.blendsettings.blender.multiband@' kan resulteren in spookbeelden van objecten net buiten de naden omdat het volledige overlappingsgebied wordt gebruikt voor overvloeien. Aan de andere kant kan '@panoramaeditor.sidebar.blendsettings.blender.multiband@' betere resultaten geven bij het mengen van zeer fijne herhalende patronen (bijvoorbeeld in plafonds of tapijten) en het kan iets betere resultaten geven als een bewegend object door een naad doormidden wordt gesneden.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' kan worden gebruikt in gevallen waarin mengen niet nodig is, bijvoorbeeld bij het reconstrueren van een panorama van (niet-overlappende) kubusvlakken."
+			"helptext": "Het te gebruiken blending-algoritme.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Dit blending-algoritme werkt op de naad tussen twee afbeeldingen. Helderheid en kleurverschillen worden over het hele beeld verdeeld, zodat verschillen worden geminimaliseerd bij de naden waar de beelden samenkomen. De afbeeldingen hoeven elkaar niet te overlappen; er worden geen pixels buiten de naden gebruikt.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Dit is het traditionele panoramische blending-algoritme (zoals gebruikt in eerdere PTGui-versies). Blenden wordt gedaan door een geleidelijke overgang te maken in het gebied waar de afbeeldingen elkaar overlappen. Voor fijne details wordt een smalle overlap gebruikt, egale kleuren worden gemengd met een breder overlapgebied.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Niet blenden. Kleur- en helderheidsverschillen blijven zichtbaar.<br><br>In het algemeen geeft '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' de beste resultaten, vooral als '@panoramaeditor.sidebar.blendsettings.seamfinding@' wordt gebruikt (alleen PTGui Pro). Alle objecten buiten de naden blijven volledig verborgen, terwijl '@panoramaeditor.sidebar.blendsettings.blender.multiband@' kan resulteren in 'spookbeelden' van objecten net buiten de naden omdat een deel van het overlappingsgebied buiten de naden ook wordt gebruikt. Aan de andere kant kan '@panoramaeditor.sidebar.blendsettings.blender.multiband@' betere resultaten geven bij het blenden van zeer fijne herhalende patronen (bijvoorbeeld in plafonds of tapijten) en het kan iets betere resultaten geven als een bewegend object door een naad doormidden wordt gesneden.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' kan worden gebruikt in gevallen waarin blenden niet nodig is, bijvoorbeeld bij het reconstrueren van een panorama van (niet-overlappende) kubusvlakken."
 		}
 	],
 	"helppages": [

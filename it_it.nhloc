@@ -6954,7 +6954,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"txt": "Miscelatore:"
+			"txt": "Algoritmo di fusione:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
@@ -6969,7 +6969,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
-			"txt": "Non mescolare"
+			"txt": "Nessuna fusione "
 		}
 	],
 	"tooltips": [
@@ -9601,7 +9601,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"helptext": "L'algoritmo di miscelazione da utilizzare.",
+			"helptext": "L'algoritmo di fusione da utilizzare.",
 			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> questo algoritmo di fusione funziona alla giunzione tra due immagini. La luminosità e le differenze di colore sono distribuite sull'intera immagine, in modo tale da ridurre al minimo eventuali differenze nel punto in cui le immagini si incontrano nelle giunzioni. Le immagini non devono sovrapporsi; nessun pixel viene utilizzato al di fuori delle cuciture.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> questo è il classico algoritmo di fusione panoramica (utilizzato nelle versioni precedenti di PTGui). La fusione viene eseguita attenuando le differenze di colore e luminosità nell'area in cui le immagini si sovrappongono. I dettagli raffinati si fondono in una stretta fascia sovrapposta, i colori a tinta unita si fondono con una graduale sovrapposizione.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Non mescolare affatto. Le differenze di colore e luminosità rimarranno visibili.<br><br>In generale, &quot;@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@&quot; darà i migliori risultati, in particolare se viene utilizzato &quot;@panoramaeditor.sidebar.blendsettings.seamfinding@&quot; (solo PTGui Pro). Tutti gli oggetti al di fuori delle giunzioni verranno nascosti completamente, mentre &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; potrebbe dare come risultato immagini fantasma di oggetti appena fuori dalle giunture perché l'intera regione di sovrapposizione viene utilizzata per la fusione. D'altra parte, &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; può dare risultati migliori quando si fondono motivi ripetuti molto fini (ad esempio in soffitti o tappeti) e può dare risultati leggermente migliori se un oggetto in movimento viene tagliato a metà da una cucitura.<br><br>&quot;@panoramaeditor.sidebar.blendsettings.blender.none@&quot; può essere utilizzato nei casi in cui la fusione non è necessaria, ad esempio quando si ricostruisce un panorama da facce di cubi (non sovrapposte)."
 		}
 	],

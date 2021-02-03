@@ -7371,12 +7371,12 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"txt": "Licuadora:"
+			"txt": "Algoritmo de mezcla:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
 			"machinetranslated": true,
-			"txt": "Superposición cero"
+			"txt": "Sin superposición"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
@@ -7386,7 +7386,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
-			"txt": "No mezcle"
+			"txt": "No mezclar"
 		}
 	],
 	"tooltips": [
@@ -10019,7 +10019,7 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
 			"helptext": "El algoritmo de mezcla que se utilizará.",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> este algoritmo de fusión funciona en la unión entre dos imágenes. Las diferencias de brillo y color se distribuyen por toda la imagen, de modo que las diferencias se minimizan donde las imágenes se unen en las juntas. Las imágenes no tienen que superponerse; no se utilizan píxeles fuera de las costuras.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Este es el algoritmo clásico de fusión panorámica (como se usa en versiones anteriores de PTGui). La mezcla se realiza suavizando las diferencias de color y brillo en el área donde las imágenes se superponen. Los detalles finos se combinan en una estrecha banda superpuesta, los colores lisos se mezclan con una superposición gradual.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> No mezcle en absoluto. Las diferencias de color y brillo permanecerán visibles.<br><br>En general, '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' dará los mejores resultados, en particular si se utiliza '@panoramaeditor.sidebar.blendsettings.seamfinding@' (solo PTGui Pro). Cualquier objeto fuera de las uniones se ocultará por completo, mientras que '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar como resultado imágenes fantasma de objetos justo fuera de las uniones porque toda la región de superposición se usa para mezclar. Por otro lado, '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar mejores resultados al mezclar patrones repetidos muy finos (por ejemplo, en techos o alfombras) y puede dar resultados algo mejores si un objeto en movimiento se corta por la mitad por una costura.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' se puede utilizar en los casos en los que no se necesita la combinación, por ejemplo, al reconstruir un panorama a partir de caras de cubos (no superpuestas)."
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> este algoritmo de mezcla funciona en la unión entre dos imágenes. Las diferencias de brillo y color se distribuyen por toda la imagen, de modo que las diferencias se minimizan donde las imágenes se unen en las juntas. Las imágenes no tienen que superponerse; no se utilizan píxeles fuera de las costuras.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Este es el algoritmo clásico de fusión panorámica (como se usa en versiones anteriores de PTGui). La mezcla se realiza suavizando las diferencias de color y brillo en el área donde las imágenes se superponen. Los detalles finos se combinan en una estrecha banda superpuesta, los colores lisos se mezclan con una superposición gradual.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> No mezcle en absoluto. Las diferencias de color y brillo permanecerán visibles.<br><br>En general, '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' dará los mejores resultados, en particular si se utiliza '@panoramaeditor.sidebar.blendsettings.seamfinding@' (solo PTGui Pro). Cualquier objeto fuera de las uniones se ocultará por completo, mientras que '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar como resultado imágenes fantasma de objetos justo fuera de las uniones porque toda la región de superposición se usa para mezclar. Por otro lado, '@panoramaeditor.sidebar.blendsettings.blender.multiband@' puede dar mejores resultados al mezclar patrones repetidos muy finos (por ejemplo, en techos o alfombras) y puede dar resultados algo mejores si un objeto en movimiento se corta por la mitad por una costura.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' se puede utilizar en los casos en los que no se necesita la combinación, por ejemplo, al reconstruir un panorama a partir de caras de cubos (no superpuestas)."
 		}
 	],
 	"helppages": [

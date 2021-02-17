@@ -7387,6 +7387,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "혼합하지 마십시오"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "이 컴퓨터에서 %0를 활성화해야합니다. 라이센스 키를 입력하십시오 :"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "이메일 애플리케이션에서 키를 선택하고 Cmd + C를 눌러 복사합니다. 그런 다음 위의 텍스트 필드를 클릭하고 Cmd + V를 눌러 코드를 붙여 넣습니다."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "이메일 애플리케이션에서 키를 선택하고 Ctrl + C를 눌러 복사합니다. 그런 다음 위의 텍스트 필드를 클릭하고 Ctrl + V를 눌러 코드를 붙여 넣습니다."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "라이센스 키를 분실 한 경우 <a href=0>여기를 클릭하여 키를 검색하십시오.</a>"
 		}
 	],
 	"tooltips": [

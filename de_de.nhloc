@@ -6009,6 +6009,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Nicht überblenden"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 muss auf diesem Computer aktiviert werden. Bitte geben Sie ihren Lizenzschlüssel ein:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung aus und drücken Sie Cmd + C, um ihn zu kopieren. Klicken Sie dann in das Textfeld oben und drücken Sie Cmd + V, um den Code einzufügen."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung aus und drücken Sie Strg + C, um ihn zu kopieren. Klicken Sie dann in das Textfeld oben und drücken Sie Strg + V, um den Code einzufügen."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Wenn Sie Ihren Lizenzschlüssel verloren haben, <a href=0>klicken Sie hier, um Ihren Schlüssel abzurufen.</a>"
 		}
 	],
 	"tooltips": [

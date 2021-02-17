@@ -6008,6 +6008,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "ブレンドしないでください"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0は、このコンピューターでアクティブ化する必要があります。ライセンスキーを入力してください："
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "電子メールアプリケーションでキーを選択し、Cmd + Cを押してコピーします。次に、上のテキストフィールドをクリックし、Cmd + Vを押してコードを貼り付けます。"
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "電子メールアプリケーションでキーを選択し、Ctrl + Cを押してコピーします。次に、上のテキストフィールドをクリックし、Ctrl + Vを押してコードを貼り付けます。"
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "ライセンスキーを紛失した場合は、<a href=0>ここをクリックしてキーを取得してください。</a>"
 		}
 	],
 	"tooltips": [

@@ -6008,6 +6008,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Niet blenden"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 moet worden geactiveerd op deze computer. Voer de licentiesleutel in:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Selecteer de sleutel in uw e-mailtoepassing en druk op Cmd + C om deze te kopiëren. Klik vervolgens in het tekstveld hierboven en druk op Cmd + V om de code te plakken."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Selecteer de sleutel in uw e-mailtoepassing en druk op Ctrl + C om deze te kopiëren. Klik vervolgens in het tekstveld hierboven en druk op Ctrl + V om de code te plakken."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Als u uw licentiesleutel bent kwijtgeraakt, <a href=0>klik dan hier om uw sleutel op te halen.</a>"
 		}
 	],
 	"tooltips": [

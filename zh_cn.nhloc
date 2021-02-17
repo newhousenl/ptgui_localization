@@ -7387,6 +7387,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "不要融合"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "必须在此计算机上激活%0。请输入您的许可证密钥："
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "在电子邮件应用程序中选择密钥，然后按Cmd + C进行复制。然后单击上方的文本字段，然后按Cmd + V粘贴代码。"
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "在电子邮件应用程序中选择密钥，然后按Ctrl + C进行复制。然后单击上方的文本字段，然后按Ctrl + V粘贴代码。"
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "如果您丢失了许可证密钥，<a href=0>请单击此处检索您的密钥。</a>"
 		}
 	],
 	"tooltips": [

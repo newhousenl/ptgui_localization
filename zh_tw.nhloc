@@ -6440,6 +6440,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "不要融合"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "必須在此計算機上激活%0。請輸入您的許可證密鑰："
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "在電子郵件應用程序中選擇密鑰，然後按Cmd + C進行複制。然後單擊上方的文本字段，然後按Cmd + V粘貼代碼。"
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "在電子郵件應用程序中選擇密鑰，然後按Ctrl + C進行複制。然後單擊上方的文本字段，然後按Ctrl + V粘貼代碼。"
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "如果您丟失了許可證密鑰，<a href=0>請單擊此處檢索您的密鑰。</a>"
 		}
 	],
 	"tooltips": [

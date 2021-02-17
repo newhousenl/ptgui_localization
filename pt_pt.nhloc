@@ -7377,6 +7377,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Não misture"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 deve ser ativado neste computador. Insira sua chave de licença:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Selecione a chave em seu aplicativo de e-mail e pressione Cmd + C para copiá-la. Em seguida, clique no campo de texto acima e pressione Cmd + V para colar o código."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Selecione a chave em seu aplicativo de e-mail e pressione Ctrl + C para copiá-la. Em seguida, clique no campo de texto acima e pressione Ctrl + V para colar o código."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Se você perdeu sua chave de licença, <a href=0>clique aqui para recuperá-la.</a>"
 		}
 	],
 	"tooltips": [

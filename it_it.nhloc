@@ -6970,6 +6970,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Nessuna fusione "
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 deve essere attivato su questo computer. Inserisci la tua chiave di licenza:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Seleziona la chiave nell'applicazione di posta elettronica e premi Cmd + C per copiarla. Quindi fare clic nel campo di testo sopra e premere Cmd + V per incollare il codice."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Seleziona la chiave nell'applicazione di posta elettronica e premi Ctrl + C per copiarla. Quindi fare clic nel campo di testo sopra e premere Ctrl + V per incollare il codice."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Se hai perso la tua chiave di licenza, <a href=0>clicca qui per recuperare la tua chiave.</a>"
 		}
 	],
 	"tooltips": [

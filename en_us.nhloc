@@ -6041,6 +6041,23 @@
 {
     "id": "panoramaeditor.sidebar.blendsettings.blender.none",
     "txt": "Don't blend"
+},
+{
+    "id": "activationdialog.heading_v2",
+    "txt": "%0 must be activated on this computer. Please enter your license key:"
+},
+{
+    "id": "activationdialog.txt2_mac_v2",
+    "txt": "Select the key in your email application and press Cmd+C to copy it. Then click in the text field above and press Cmd+V to paste the code."
+},
+{
+    "id": "activationdialog.txt2_nonmac_v2",
+    "txt": "Select the key in your email application and press Ctrl+C to copy it. Then click in the text field above and press Ctrl+V to paste the code."
+},
+{
+    "id": "activationdialog.txt3_v2",
+    "format": "html",
+    "txt": "If you lost your license key, <a href=0>click here to retrieve your key.</a>"
 }
 
 

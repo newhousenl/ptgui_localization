@@ -7366,6 +7366,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Не смешивайте"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "На этом компьютере должен быть активирован %0. Пожалуйста, введите свой лицензионный ключ:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Выберите ключ в своем почтовом приложении и нажмите Cmd + C, чтобы скопировать его. Затем щелкните текстовое поле выше и нажмите Cmd + V, чтобы вставить код."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Выберите ключ в своем почтовом приложении и нажмите Ctrl + C, чтобы скопировать его. Затем щелкните текстовое поле выше и нажмите Ctrl + V, чтобы вставить код."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Если вы потеряли лицензионный ключ, <a href=0>щелкните здесь, чтобы получить его.</a>"
 		}
 	],
 	"tooltips": [

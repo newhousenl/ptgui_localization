@@ -5998,6 +5998,27 @@
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
 			"txt": "Nemíchejte"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "Na tomto počítači musí být aktivována %0. Zadejte svůj licenční klíč:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím Cmd + C jej zkopírujte. Poté klikněte do textového pole výše a stisknutím Cmd + V vložte kód."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím kláves Ctrl + C jej zkopírujte. Poté klikněte do textového pole výše a vložte Ctrl + V pro vložení kódu."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Pokud jste ztratili licenční klíč, <a href=0>kliknutím sem jej načtete.</a>"
 		}
 	],
 	"tooltips": [

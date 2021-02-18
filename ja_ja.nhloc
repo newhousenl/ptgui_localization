@@ -6029,6 +6029,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "ライセンスキーを紛失した場合は、<a href=0>ここをクリックしてキーを取得してください。</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "別のコンピューターで、%0に移動します\n\nそこで、次のコードとライセンスキーを入力します。\n\n"
 		}
 	],
 	"tooltips": [

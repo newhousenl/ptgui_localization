@@ -6058,6 +6058,10 @@
     "id": "activationdialog.txt3_v2",
     "format": "html",
     "txt": "If you lost your license key, <a href=0>click here to retrieve your key.</a>"
+},
+{
+    "id": "licenseinfo.offlineactivation1_v2",
+    "txt": "On another computer, go to %0\n\nThere, enter the following code and your license key:\n\n"
 }
 
 

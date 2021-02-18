@@ -6991,6 +6991,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Se hai perso la tua chiave di licenza, <a href=0>clicca qui per recuperare la tua chiave.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Su un altro computer, vai a %0\n\nLì, inserisci il seguente codice e la tua chiave di licenza:\n\n"
 		}
 	],
 	"tooltips": [

@@ -6461,6 +6461,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "如果您丟失了許可證密鑰，<a href=0>請單擊此處檢索您的密鑰。</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "在另一台計算機上，轉到%0\n\n在此輸入以下代碼和您的許可證密鑰：\n\n"
 		}
 	],
 	"tooltips": [

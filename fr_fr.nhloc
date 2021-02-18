@@ -7412,6 +7412,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Si vous avez perdu votre clé de licence, <a href=0>cliquez ici pour récupérer votre clé.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Sur un autre ordinateur, accédez à %0\n\nLà, entrez le code suivant et votre clé de licence:\n\n"
 		}
 	],
 	"tooltips": [

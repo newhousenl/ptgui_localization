@@ -7387,6 +7387,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Если вы потеряли лицензионный ключ, <a href=0>щелкните здесь, чтобы получить его.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "На другом компьютере перейдите к %0\n\nТам введите следующий код и свой лицензионный ключ:\n\n"
 		}
 	],
 	"tooltips": [

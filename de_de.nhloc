@@ -6030,6 +6030,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Wenn Sie Ihren Lizenzschlüssel verloren haben, <a href=0>klicken Sie hier, um Ihren Schlüssel abzurufen.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Öffnen Sie auf einem anderen Computer die Webseite %0\n\nGeben Sie dort den folgenden Code und Ihren Lizenzschlüssel ein:\n\n"
 		}
 	],
 	"tooltips": [

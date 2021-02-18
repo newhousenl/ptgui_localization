@@ -7408,6 +7408,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "라이센스 키를 분실 한 경우 <a href=0>여기를 클릭하여 키를 검색하십시오.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "다른 컴퓨터에서 %0로 이동합니다.\n\n여기에 다음 코드와 라이센스 키를 입력하십시오.\n\n"
 		}
 	],
 	"tooltips": [

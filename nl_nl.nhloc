@@ -6029,6 +6029,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Als u uw licentiesleutel bent kwijtgeraakt, <a href=0>klik dan hier om uw sleutel op te halen.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Ga op een andere computer naar %0\n\nVoer daar de volgende code en uw licentiesleutel in:\n\n"
 		}
 	],
 	"tooltips": [

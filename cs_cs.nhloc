@@ -6019,6 +6019,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Pokud jste ztratili licenční klíč, <a href=0>kliknutím sem jej načtete.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Na jiném počítači přejděte na %0\n\nTam zadejte následující kód a licenční klíč:\n\n"
 		}
 	],
 	"tooltips": [

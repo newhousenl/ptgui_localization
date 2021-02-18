@@ -7398,6 +7398,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Se você perdeu sua chave de licença, <a href=0>clique aqui para recuperá-la.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Em outro computador, vá para %0\n\nLá, insira o seguinte código e sua chave de licença:\n\n"
 		}
 	],
 	"tooltips": [

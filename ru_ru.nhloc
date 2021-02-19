@@ -7392,6 +7392,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "На другом компьютере перейдите к %0\n\nТам введите следующий код и свой лицензионный ключ:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Ваша подписка истекает %0."
 		}
 	],
 	"tooltips": [

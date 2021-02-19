@@ -7413,6 +7413,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "在另一台计算机上，转到%0\n\n在此输入以下代码和您的许可证密钥：\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "您的订阅将于%0到期。 "
 		}
 	],
 	"tooltips": [

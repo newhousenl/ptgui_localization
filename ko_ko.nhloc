@@ -7413,6 +7413,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "다른 컴퓨터에서 %0로 이동합니다.\n\n여기에 다음 코드와 라이센스 키를 입력하십시오.\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "구독은 %0에 만료됩니다."
 		}
 	],
 	"tooltips": [

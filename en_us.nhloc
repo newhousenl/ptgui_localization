@@ -6062,10 +6062,11 @@
 {
     "id": "licenseinfo.offlineactivation1_v2",
     "txt": "On another computer, go to %0\n\nThere, enter the following code and your license key:\n\n"
+},
+{
+    "id": "licenseinfo.expiretxt_v2",
+    "txt": "Your subscription expires at %0."
 }
-
-
-
 
     ],
 

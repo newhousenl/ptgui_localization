@@ -6034,6 +6034,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "別のコンピューターで、%0に移動します\n\nそこで、次のコードとライセンスキーを入力します。\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "サブスクリプションは%0に期限切れになります。"
 		}
 	],
 	"tooltips": [

@@ -6466,6 +6466,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "在另一台計算機上，轉到%0\n\n在此輸入以下代碼和您的許可證密鑰：\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "您的訂閱將於%0到期。 "
 		}
 	],
 	"tooltips": [

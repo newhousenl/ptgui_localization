@@ -7413,6 +7413,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "En otra computadora, vaya a %0\n\nAllí, ingrese el siguiente código y su clave de licencia:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Su suscripción vence el %0."
 		}
 	],
 	"tooltips": [

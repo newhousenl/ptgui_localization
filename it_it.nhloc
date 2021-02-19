@@ -6996,6 +6996,11 @@
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
 			"txt": "Su un altro computer, vai a %0\n\nLì, inserisci il seguente codice e la tua chiave di licenza:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "L'abbonamento scade il %0."
 		}
 	],
 	"tooltips": [

@@ -6068,6 +6068,8 @@
     "txt": "Your subscription expires at %0."
 }
 
+
+
     ],
 
 
@@ -8242,7 +8244,50 @@
             "id": "panoramaeditor.sidebar.blendsettings.blender",
             "helptext": "The blending algorithm to be used.",
             "morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b>This algorithm blends images at the seams, requiring no overlap. Brightness and color of each image is adjusted gradually, such that any differences are minimized where the images meet at the seams. From each image only the pixels inside the seams are used.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b>This is the classic panoramic blending algorithm (as used in previous PTGui versions). Blending is done by smoothing the color and brightness differences in the area where images overlap. Fine details are blended in a narrow overlap band, plain colors are blended with a gradual overlap.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b>Don't blend at all. Color and brightness differences will remain visible.<br><br>In general, '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' will give the best results, in particular if '@panoramaeditor.sidebar.blendsettings.seamfinding@' is used (PTGui Pro only). Any objects outside the seams will be hidden completely, whereas '@panoramaeditor.sidebar.blendsettings.blender.multiband@' may result in ghost images of objects just outside the seams because the entire overlap region is used for blending. On the other hand, '@panoramaeditor.sidebar.blendsettings.blender.multiband@' may give better results when blending very fine repeating patterns (for example in ceilings or carpets) and it may give somewhat better results if a moving object is cut in half by a seam.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' can be used in cases where blending is not needed, for example when reconstructing a panorama from (non overlapping) cube faces."
+        },
+        {
+            "id": "exposurehdrtab.cameracurvegraph_v2",
+            "helptext": "Camera response curve",
+            "morehelptext": "<br><br>This curve displays the mapping from true light intensities to pixel values. The horizontal axis represents the light instensity (scene luminance). The vertical axis is the pixel intensity in linear color space (prior to applying the ICC profile's gamma curve). In general PTGui applies the curve twice: before blending, the inverse curve is applied to convert pixel values to linear light intensities. Then, blending, exposure/vignetting correction and HDR merging are performed in linear color space. Then the curve is applied again in the opposite direction to convert from linear luminance to pixel values. Finally, gamma correction according to the ICC color profile is applied when saving the image.<br><br>A project can contain multiple camera curves: for each source image one of the camera curves can be assigned in the '@mainwindow.imageparameters.cameracurve@' column in the @mainwindow.tabs.imageparameters@ tab. The @mainwindow.imageparameters.cameracurve@ field can also be set to '@txt.cameracurve.linear@' if the source image is known to contain linear data. PTGui by default assumes RAW and HDR source images are linear. If all source images are linear, no camera curve will be visible here.<br><br>If multiple, or zero camera curves are configured, the curve to be used for the output can be configured in the @panoramaeditor@ in the @panoramaeditor.sidebar.postprocess@ panel.<br><br>PTGui can determine the camera response curve as part of @mainwindow.exposurehdrpanel.autoexpadjustmentsection@ (press the @mainwindow.exposurehdrpanel.optimizenow@ button). This requires bracketed images: the curve is detemined by comparing the same pixel in different exposures. For single (non bracketed) exposures PTGui will use a default curve, which usually works fine.<br><br>Use the buttons in the toolbar above to edit, load, save or delete the curve, or to add an additional camera curve to the project."
+        },
+        {
+            "id": "txt.addcameraresponsecurve",
+            "helptext": "Add camera response curve",
+            "morehelptext": "<br><br>Adds a camera response curve to the project. A project can contain multiple camera curves; for each source image one of the camera curves can be assigned in the '@mainwindow.imageparameters.cameracurve@' column in the @mainwindow.tabs.imageparameters@ tab."
+        },
+        {
+            "id": "txt.removecameraresponsecurve",
+            "helptext": "Remove camera response curve",
+            "morehelptext": "<br><br>Removes this camera response curve from the project. A curve can be removed only if it is not used in the project: the curve must not be selected in the '@mainwindow.imageparameters.cameracurve@' column in the @mainwindow.tabs.imageparameters@ tab."
+        },
+        {
+            "id": "txt.editcameraresponsecurve",
+            "helptext": "Edit camera response curve"
+        },
+        {
+            "id": "panoramaeditor.sidebar.postprocess.toningcurve",
+            "helptext": "@txt.toningcurve@",
+            "morehelptext": "<br><br>This curve adjusts the mapping from light intensities to pixel values. The horizontal axis represents the light instensity (scene luminance). The vertical axis is the pixel value in linear color space (prior to applying the ICC profile's gamma curve). This curve can be adjusted to change the contrast and brightness of the panorama."
+        },
+        {
+            "id": "toningcurve.shapeshift",
+            "helptext": "Adjust the curve",
+            "morehelptext": "<br><br>Use the Shape and Shift sliders to adjust the curve. The Shape parameter adjust the curve to become more or less S-shaped. The Shift parameter applies an exponential function, effectively shifting the curve towards the left or the right."
+        },
+        {
+            "id": "panoramaeditor.sidebar.postprocess.saturation",
+            "helptext": "Increase or reduce the vibrancy of the colors in the panorama."
+        },
+        {
+            "id": "txt.savevignettingcurve",
+            "helptext": "Save Vignetting Curve"
+        },
+        {
+            "id": "txt.loadvignettingcurve",
+            "helptext": "Load Vignetting Curve",
+            "txtfortranslate": "To load a Vignetting Curve"
         }
+
     ],
     "helppages": [
         {

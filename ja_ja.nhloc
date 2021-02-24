@@ -6039,6 +6039,12 @@
 			"id": "licenseinfo.expiretxt_v2",
 			"machinetranslated": true,
 			"txt": "サブスクリプションは%0に期限切れになります。"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptext2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@：</b> （PTGui Proのみ）：@panoramaeditor.sidebar.blendsettings.seamfinding@（@panoramaeditor@の@mainwindow.createpanoramatab.blending@パネル内）が無効になっている場合、継ぎ目は通常、2つの画像間のオーバーラップの中央に配置されます。これは、ソースイメージの@mainwindow.imageparameters.blendpriority@を増減することで調整できます。これは相対値です。2つの画像のブレンド優先度が150と100の場合、最初の画像の大部分が使用されます。 @panoramaeditor.sidebar.blendsettings.seamfinding@が有効になっている場合、この値は無視されます。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>プロジェクトに複数のカメラ応答曲線が含まれる場合があります。このフィールドは、各ソース画像に使用されるカメラ応答曲線を構成します。カメラの応答曲線は、@mainwindow.tabs.exposurehdr@タブで構成されます。プロジェクトにカメラ応答曲線が1つしかない場合は、「@txt.globalcameracurve@」という名前になります。 <b>@txt.cameracurve.linear@</b>が選択されている場合、画像には線形データが含まれていると見<b>なされ</b>、曲線は適用されません。詳細については、@mainwindow.tabs.exposurehdr@タブのツールチップを参照してください。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>各ソース画像の元のホワイトバランスをケルビン単位の色温度として構成します。これは、@panoramaeditor@の@panoramaeditor.sidebar.postprocess@パネルでターゲットホワイトバランスが構成されている場合に使用されます。ソース画像の色は、ここで設定した色温度から目標色温度に調整されます。このフィールドが空の場合、デフォルト値は5000Kと見なされます。 @panoramaeditor.sidebar.postprocess@パネルで「@txt.asshot@」が選択されている場合、このフィールドは無視されます。<br><br><b>@mainwindow.imageparameters.linked@：</b> （PTGui Proのみ）：ブラケットされたソース画像からHDRパノラマをステッチする場合、このチェックボックスは、ブラケットされた画像が同じ@yaw@、@pitch@、@roll@、および@viewpoint@パラメーターを持つかどうかを構成します。括弧で囲まれた画像が三脚から撮影されたものではなく、独立した@yaw@、@pitch@、@roll@、および@viewpoint@パラメータが必要な場合は、このチェックボックスをオフにします。ブラケット画像を位置合わせするためのコントロールポイントを提供する必要があります。"
 		}
 	],
 	"tooltips": [
@@ -8231,6 +8237,62 @@
 			"machinetranslated": true,
 			"helptext": "使用するブレンディングアルゴリズム。",
 			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@：</b>このブレンディングアルゴリズムは、2つの画像間の継ぎ目で機能します。明るさと色の違いは画像全体に分散されるため、画像が継ぎ目で出会う場所で違いが最小限に抑えられます。画像を重ねる必要はありません。継ぎ目の外側ではピクセルは使用されません。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@：</b>これは古典的なパノラマブレンディングアルゴリズムです（以前のPTGuiバージョンで使用されていました）。ブレンドは、画像が重なる領域の色と明るさの違いを滑らかにすることによって行われます。細かいディテールは狭いオーバーラップバンドでブレンドされ、無地の色は徐々にオーバーラップしてブレンドされます。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@：</b>まったくブレンドしないでください。色と明るさの違いは表示されたままになります。<br><br>一般に、特に「@panoramaeditor.sidebar.blendsettings.seamfinding@」が使用されている場合は、「@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@」が最良の結果をもたらします（PTGui Proのみ）。継ぎ目の外側のオブジェクトは完全に非表示になりますが、「@panoramaeditor.sidebar.blendsettings.blender.multiband@」では、オーバーラップ領域全体がブレンドに使用されるため、継ぎ目のすぐ外側のオブジェクトのゴーストイメージが生成される可能性があります。一方、「@panoramaeditor.sidebar.blendsettings.blender.multiband@」は、非常に細かい繰り返しパターン（天井やカーペットなど）をブレンドするとより良い結果が得られる可能性があり、移動するオブジェクトが継ぎ目で半分にカットされると、いくらかより良い結果が得られる可能性があります。<br><br>「@panoramaeditor.sidebar.blendsettings.blender.none@」は、ブレンドが不要な場合、たとえば（重なり合わない）立方体の面からパノラマを再構築する場合に使用できます。"
+		},
+		{
+			"id": "exposurehdrtab.cameracurvegraph_v2",
+			"machinetranslated": true,
+			"helptext": "カメラの応答曲線",
+			"morehelptext": "<br><br>この曲線は、真の光強度からピクセル値へのマッピングを示しています。横軸は光の強さ（シーンの輝度）を表しています。縦軸は、線形色空間でのピクセル強度です（ICCプロファイルのガンマ曲線を適用する前）。一般に、PTGuiは曲線を2回適用します。ブレンドする前に、逆曲線を適用してピクセル値を線形光強度に変換します。次に、ブレンディング、露出/ケラレ補正、HDRマージが線形色空間で実行されます。次に、曲線が反対方向に再度適用され、線形輝度からピクセル値に変換されます。最後に、画像を保存するときに、ICCカラープロファイルに従ったガンマ補正が適用されます。<br><br>プロジェクトには複数のカメラカーブを含めることができます。ソース画像ごとに、@mainwindow.tabs.imageparameters@タブの[@mainwindow.imageparameters.cameracurve@]列にカメラカーブの1つを割り当てることができます。ソース画像に線形データが含まれていることがわかっている場合は、@mainwindow.imageparameters.cameracurve@フィールドを「@txt.cameracurve.linear@」に設定することもできます。 PTGuiは、デフォルトでRAWおよびHDRソース画像が線形であると想定しています。すべてのソース画像が線形の場合、ここにはカメラカーブは表示されません。<br><br>複数の、またはゼロのカメラカーブが設定されている場合、出力に使用されるカーブは、@panoramaeditor.sidebar.postprocess@パネルの@panoramaeditor@で設定できます。<br><br>PTGuiは、@mainwindow.exposurehdrpanel.autoexpadjustmentsection@の一部としてカメラの応答曲線を決定できます。 @mainwindow.exposurehdrpanel.optimizenow@ボタンを押してください。これにはブラケット画像が必要です。カメラの応答曲線は、露出の異なる画像の同じピクセルを比較することによって決定されます。単一の（ブラケットなしの）露出の場合、PTGuiはデフォルトの曲線を使用します。これは通常は正常に機能します。<br><br>上のツールバーのボタンを使用して、曲線を編集、ロード、保存、または削除したり、プロジェクトにカメラ曲線を追加したりします。"
+		},
+		{
+			"id": "txt.addcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "カメラの応答曲線を追加する",
+			"morehelptext": "<br><br>プロジェクトにカメラの応答曲線を追加します。プロジェクトには複数のカメラカーブを含めることができます。ソース画像ごとに、@mainwindow.tabs.imageparameters@タブの「@mainwindow.imageparameters.cameracurve@」列でカメラカーブの1つを割り当てることができます。"
+		},
+		{
+			"id": "txt.removecameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "カメラの応答曲線を削除します",
+			"morehelptext": "<br><br>このカメラの応答曲線をプロジェクトから削除します。曲線は、プロジェクトで使用されていない場合にのみ削除できます。曲線は、[@mainwindow.tabs.imageparameters@]タブの[@mainwindow.imageparameters.cameracurve@]列で選択しないでください。"
+		},
+		{
+			"id": "txt.editcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "カメラの応答曲線を編集する"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
+			"machinetranslated": true,
+			"helptext": "@txt.toningcurve@",
+			"morehelptext": "<br><br>この曲線は、光の強度からピクセル値へのマッピングを示しています。横軸は光の強さ（シーンの輝度）を表しています。縦軸は線形色空間のピクセル値です（ICCプロファイルのガンマ曲線を適用する前）。この曲線を調整して、パノラマのコントラストと明るさを変更できます。"
+		},
+		{
+			"id": "toningcurve.shapeshift",
+			"machinetranslated": true,
+			"helptext": "カーブを調整する",
+			"morehelptext": "<br><br>ShapeスライダーとShiftスライダーを使用して、曲線を調整します。 Shapeパラメータは、曲線を調整して多かれ少なかれS字型にします。 Shiftパラメーターは指数関数を適用し、曲線を効果的に左または右にシフトします。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.saturation",
+			"machinetranslated": true,
+			"helptext": "パノラマの色の鮮やかさを増減します。"
+		},
+		{
+			"id": "txt.savevignettingcurve",
+			"machinetranslated": true,
+			"helptext": "ケラレ曲線を保存"
+		},
+		{
+			"id": "txt.loadvignettingcurve",
+			"machinetranslated": true,
+			"helptext": "ケラレ曲線をロード"
+		},
+		{
+			"id": "exposurehdrtab.whitebalance_v2",
+			"machinetranslated": true,
+			"helptext": "パノラマ全体のホワイトバランスを調整します。",
+			"morehelptext": "<br><br><b>@txt.asshot@：</b>選択した場合、ホワイトバランスは調整されません。画像は元の色でブレンドされます。<br><br>@txt.asshot@が選択されていない場合は、パノラマに必要な色温度（ケルビン度）を選択できます。ホワイトバランスは、元の色温度から選択した色温度に調整されます。各ソース画像の元の色温度は、[@mainwindow.tabs.imageparameters@]タブの[@mainwindow.imageparameters.whitebalance@]列で構成されます。ソース画像に色温度が指定されていない場合、5000Kが想定されます。"
 		}
 	],
 	"helppages": [
@@ -8292,7 +8354,7 @@
 		},
 		{
 			"id": "mainwindow.imageparamstab",
-			"helptext": "<b>画像パラメータ（Image Parameters）</b><br><br>このページには、 各画像のパラメータを数値で編集できる表があります。 通常、 ここで設定を変更する必要はありません。 通常ならこれらのパラメータは、 オプティマイザによって決定されます。 <br><br>一度に複数の画像のパラメータを変更することができます。 マウスでドラッグしてセルを選択します。 次に、 必要な値を入力します。 これは、 選択したすべてのセルに入力されます。 <br><br><b>画像:</b> ソース画像のサムネールが表示されます。 <br><br><b>変形:</b> 変形されたサムネールです。 最終的なパノラマの見た目がどのようになるのかを表示します。 リアルタイムで更新されます。 <optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>ヨー／ピッチ／ロール</b>： 画像が撮影された視線方向、 つまり最終的なパノラマ内の画像の位置を示します。 <b>ヨー（Yaw）</b>はカメラの水平方向の向きを、 <b>ピッチ（Pitch）</b>は仰角俯角のカメラの向きを、 <b>ロール（Roll）</b>はレンズ光軸を中心とした回転角を表します。 <optional product='pro'><br><br><b>露出／絞り／ISO</b>：露出時間、 レンズ絞り、 ISO感度を表示します。 デフォルトでは、 これらの値は画像ファイルのEXIFヘッダーから読み込まれますが、 他の値によって上書きされる可能性があります。 これらの値は、 HDRパノラマに使用されるEV（以下を参照）を計算するために使用されます。 <br><br>画像の露出値。 EVは、 他の画像と比較して、 取り込まれた光の量を示します。 +1のEVは、 EV0の画像と比較して2倍の光が入ったことを示しています。 これは、 露出時間を2倍にしたり、 ISO感度を倍にしたり、 絞り値を1.4倍に減らしたり、 さらにはこれらの3つの組み合わせによって達成できます。 EVは露出／絞り／ISOカラムの値から計算され、 直接編集することはできません。 EVはHDRパノラマを生成するために使用されます。 PTGuiは画像を同じEVのグループに分け、 各グループから完全なパノラマをスティッチします。 これらの中間パノラマ、 いわゆる「ブレンドプレーン」はHDRパノラマにマージされます。 <br><br><b>露出オフセット</b>：1つの画像の明るさを個別に調整できます。 例えば、 -1の値を入力すると、 画像が1露出値で暗くなります（これは、 2倍の輝度低下に相当します）。 「Exposure / HDR」タブで露出の最適化が有効になっている場合、 この列は自動的に調整されます。 <br><br><b>フレア</b>：このフィールドに正の値を設定すると、 コントラストを上げて画像からフレアを削除します。 「Exposure / HDR」タブでフレアの最適化が有効になっている場合は、 自動的に調整されます。 <br><br><b>ブレンド優先度</b>：この画像のPTGuiブレンダーの「重要度」を設定します。 ブレンドするときは、 高いブレンド優先度を持つ画像がブレンド半径が小さい画像よりも優先されます。 画像のブレンド優先度が非常に低い場合（例えば、 0.001）、 ブレンダは、 他の画像をブレンドした後に残るギャップを埋めるために必要な画像部分のみを使用します。 ブレンドの優先度を少し上げていくと、 画像のわずかな部分しか使用しないで、 よりスムーズなオーバーラップが得られます。 ブレンドの優先順位は相対的な値です。 ブレンドする場合、 ブレンダーは画像のブレンドの優先順位の値を比較し、 最も高い値の画像を優先します。 絶対値は関係ありません。 ブレンド優先度パラメータは、 底面撮影に特に便利です。 球面パノラマの底面画像は特に整列度が悪く、 撮影者の足が画像内に表示される場合があります。 底面画像に低いブレンド優先順位を使用すると、 画像の中央部分のみが使用されます。 底面画像には10、 その他の画像には100のブレンド優先度を使用してみてください。 <br><br><b>VPパラメータ</b>：これらの5つのパラメータは、 他の画像のカメラ位置に対する画像のカメラ位置の視点（ビューポイント）オフセットを補正します。 ここに手動で値を入力する必要はありません。 「Optimizer」タブで最適化のための視点が選択されているときに、 実際の値がオプティマイザによって決定されます。 視点補正をリセットするには、 VPパラメータごとに値0を入力します。 視点オフセット補正は、 平面の写真にのみ適用されます。 このプロセスは、 「Viewpoint Correction」のチュートリアルで詳しく説明されています。 </ optional><br><br>個別のレンズ、 シフトまたはシアーパラメータを使用するように画像が設定されている場合、 これらの値もテーブルに表示されます。 <optional product='pro'><br><br>HDRパノラマの場合、 PTGuiはブラケット付きのソース画像をリンクできます。 リンクされた画像は、 このテーブルに単一の行に折りたたまれて表示されるか、 小さな三角ボタンを使用してリストを展開して、 リンクされた各セットの個々の画像を表示することができます。 </ optional> <br><br>一連の画像の水平画角を一定の角度で初期化するには、 右クリックのコンテキストメニューの「Fill Yaw」機能を使用します。 たとえば、 10枚の画像からなる360度パノラマの場合、 この機能を使用すれば、 ヨー値は0,36,72、 ...の度数に初期化されます。 "
+			"helptext": "<b>画像パラメータ（Image Parameters）</b><br><br>このページには、 各画像のパラメータを数値で編集できる表があります。 通常、 ここで設定を変更する必要はありません。 通常ならこれらのパラメータは、 オプティマイザによって決定されます。 <br><br>一度に複数の画像のパラメータを変更することができます。 マウスでドラッグしてセルを選択します。 次に、 必要な値を入力します。 これは、 選択したすべてのセルに入力されます。 <br><br><b>画像:</b> ソース画像のサムネールが表示されます。 <br><br><b>変形:</b> 変形されたサムネールです。 最終的なパノラマの見た目がどのようになるのかを表示します。 リアルタイムで更新されます。 <optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>ヨー／ピッチ／ロール</b>： 画像が撮影された視線方向、 つまり最終的なパノラマ内の画像の位置を示します。 <b>ヨー（Yaw）</b>はカメラの水平方向の向きを、 <b>ピッチ（Pitch）</b>は仰角俯角のカメラの向きを、 <b>ロール（Roll）</b>はレンズ光軸を中心とした回転角を表します。 <optional product='pro'><br><br><b>露出／絞り／ISO</b>：露出時間、 レンズ絞り、 ISO感度を表示します。 デフォルトでは、 これらの値は画像ファイルのEXIFヘッダーから読み込まれますが、 他の値によって上書きされる可能性があります。 これらの値は、 HDRパノラマに使用されるEV（以下を参照）を計算するために使用されます。 <br><br>画像の露出値。 EVは、 他の画像と比較して、 取り込まれた光の量を示します。 +1のEVは、 EV0の画像と比較して2倍の光が入ったことを示しています。 これは、 露出時間を2倍にしたり、 ISO感度を倍にしたり、 絞り値を1.4倍に減らしたり、 さらにはこれらの3つの組み合わせによって達成できます。 EVは露出／絞り／ISOカラムの値から計算され、 直接編集することはできません。 EVはHDRパノラマを生成するために使用されます。 PTGuiは画像を同じEVのグループに分け、 各グループから完全なパノラマをスティッチします。 これらの中間パノラマ、 いわゆる「ブレンドプレーン」はHDRパノラマにマージされます。 <br><br><b>露出オフセット</b>：1つの画像の明るさを個別に調整できます。 例えば、 -1の値を入力すると、 画像が1露出値で暗くなります（これは、 2倍の輝度低下に相当します）。 「Exposure / HDR」タブで露出の最適化が有効になっている場合、 この列は自動的に調整されます。 <br><br><b>フレア</b>：このフィールドに正の値を設定すると、 コントラストを上げて画像からフレアを削除します。 「Exposure / HDR」タブでフレアの最適化が有効になっている場合は、 自動的に調整されます。 <br><br><b>ブレンド優先度</b>：この画像のPTGuiブレンダーの「重要度」を設定します。 ブレンドするときは、 高いブレンド優先度を持つ画像がブレンド半径が小さい画像よりも優先されます。 画像のブレンド優先度が非常に低い場合（例えば、 0.001）、 ブレンダは、 他の画像をブレンドした後に残るギャップを埋めるために必要な画像部分のみを使用します。 ブレンドの優先度を少し上げていくと、 画像のわずかな部分しか使用しないで、 よりスムーズなオーバーラップが得られます。 ブレンドの優先順位は相対的な値です。 ブレンドする場合、 ブレンダーは画像のブレンドの優先順位の値を比較し、 最も高い値の画像を優先します。 絶対値は関係ありません。 ブレンド優先度パラメータは、 底面撮影に特に便利です。 球面パノラマの底面画像は特に整列度が悪く、 撮影者の足が画像内に表示される場合があります。 底面画像に低いブレンド優先順位を使用すると、 画像の中央部分のみが使用されます。 底面画像には10、 その他の画像には100のブレンド優先度を使用してみてください。 <br><br><b>VPパラメータ</b>：これらの5つのパラメータは、 他の画像のカメラ位置に対する画像のカメラ位置の視点（ビューポイント）オフセットを補正します。 ここに手動で値を入力する必要はありません。 「Optimizer」タブで最適化のための視点が選択されているときに、 実際の値がオプティマイザによって決定されます。 視点補正をリセットするには、 VPパラメータごとに値0を入力します。 視点オフセット補正は、 平面の写真にのみ適用されます。 このプロセスは、 「Viewpoint Correction」のチュートリアルで詳しく説明されています。 </ optional><br><br>個別のレンズ、 シフトまたはシアーパラメータを使用するように画像が設定されている場合、 これらの値もテーブルに表示されます。 <optional product='pro'><br><br>HDRパノラマの場合、 PTGuiはブラケット付きのソース画像をリンクできます。 リンクされた画像は、 このテーブルに単一の行に折りたたまれて表示されるか、 小さな三角ボタンを使用してリストを展開して、 リンクされた各セットの個々の画像を表示することができます。 </ optional> <br><br>一連の画像の水平画角を一定の角度で初期化するには、 右クリックのコンテキストメニューの「Fill Yaw」機能を使用します。 たとえば、 10枚の画像からなる360度パノラマの場合、 この機能を使用すれば、 ヨー値は0,36,72、 ...の度数に初期化されます。 <br><br>@mainwindow.imageparamstab.helptext2@"
 		},
 		{
 			"id": "mainwindow.controlpointstab",

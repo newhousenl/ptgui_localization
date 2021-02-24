@@ -7418,6 +7418,12 @@
 			"id": "licenseinfo.expiretxt_v2",
 			"machinetranslated": true,
 			"txt": "구독은 %0에 만료됩니다."
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptext2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@ :</b> (PTGui Pro 만 해당) : @panoramaeditor.sidebar.blendsettings.seamfinding@ (@panoramaeditor@의 @mainwindow.createpanoramatab.blending@ 패널에서)가 비활성화 된 경우 이음새는 일반적으로 두 이미지 사이의 겹치는 중간에 배치됩니다. 소스 이미지의 @mainwindow.imageparameters.blendpriority@를 늘리거나 줄여서 조정할 수 있습니다. 상대 값입니다. 두 이미지의 혼합 우선 순위가 150과 100 인 경우 첫 번째 이미지의 더 큰 부분이 사용됩니다. @panoramaeditor.sidebar.blendsettings.seamfinding@가 활성화 된 경우이 값은 무시됩니다.<br><br><b>@mainwindow.imageparameters.cameracurve@ :</b> 프로젝트에는 여러 카메라 응답 곡선이 포함될 수 있습니다. 이 필드는 각 소스 이미지에 사용할 카메라 응답 곡선을 구성합니다. 카메라 응답 곡선은 @mainwindow.tabs.exposurehdr@ 탭에서 구성됩니다. 프로젝트에 카메라 응답 곡선이 하나만 포함 된 경우 '@txt.globalcameracurve@'라는 이름이 지정됩니다. <b>@txt.cameracurve.linear@</b> 를 선택하면 이미지에 선형 데이터가 포함 된 것으로 간주되며 곡선이 적용되지 않습니다. 자세한 내용은 @mainwindow.tabs.exposurehdr@ 탭의 도구 설명을 참조하십시오.<br><br><b>@mainwindow.imageparameters.whitebalance@ :</b> 각 소스 이미지의 원래 화이트 밸런스를 켈빈도 단위의 색온도로 구성합니다. 이는 @panoramaeditor@의 @panoramaeditor.sidebar.postprocess@ 패널에서 타겟 화이트 밸런스가 구성된 경우에 사용됩니다. 소스 이미지의 색상은 여기에서 구성된 색온도에서 목표 색온도로 조정됩니다. 이 필드가 비어 있으면 기본값 인 5000K로 간주됩니다. @panoramaeditor.sidebar.postprocess@ 패널에서 '@txt.asshot@'를 선택한 경우이 필드는 무시됩니다.<br><br><b>@mainwindow.imageparameters.linked@ :</b> (PTGui Pro 만 해당) : 브래킷 소스 이미지에서 HDR 파노라마를 연결할 때이 확인란은 브래킷 이미지가 동일한 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가질 지 여부를 구성합니다. 브라케팅 된 이미지가 삼각대에서 촬영되지 않았고 독립된 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가져야하는 경우이 상자를 선택 취소하십시오. 브라케팅 된 이미지를 정렬하려면 제어점을 제공해야합니다."
 		}
 	],
 	"tooltips": [
@@ -10051,6 +10057,62 @@
 			"machinetranslated": true,
 			"helptext": "사용할 혼합 알고리즘입니다.",
 			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ :</b> 이 혼합 알고리즘은 두 이미지 사이의 이음새에서 작동합니다. 밝기와 색상 차이가 전체 이미지에 분산되어 이미지가 이음새에서 만나는 곳에서 차이가 최소화됩니다. 이미지가 겹칠 필요는 없습니다. 이음새 외부에는 픽셀이 사용되지 않습니다.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@ :</b> 이것은 고전적인 파노라마 블렌딩 알고리즘입니다 (이전 PTGui 버전에서 사용됨). 혼합은 이미지가 겹치는 영역의 색상과 밝기 차이를 부드럽게하여 수행됩니다. 미세한 디테일은 좁은 겹침 밴드에서 혼합되고, 평범한 색상은 점진적으로 겹치면서 혼합됩니다.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@ :</b> 전혀 혼합하지 마십시오. 색상 및 밝기 차이는 계속 표시됩니다.<br><br>일반적으로 '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@'는 특히 '@panoramaeditor.sidebar.blendsettings.seamfinding@'를 사용하는 경우 (PTGui Pro 만 해당) 최상의 결과를 제공합니다. 이음새 외부의 모든 개체는 완전히 숨겨 지지만 '@panoramaeditor.sidebar.blendsettings.blender.multiband@'는 전체 중첩 영역이 혼합에 사용되기 때문에 이음새 바로 외부 개체의 고스트 이미지를 생성 할 수 있습니다. 반면 '@panoramaeditor.sidebar.blendsettings.blender.multiband@'는 매우 미세한 반복 패턴 (예 : 천장 또는 카펫)을 혼합 할 때 더 나은 결과를 제공 할 수 있으며 움직이는 물체를 이음새로 반으로 자르면 다소 더 나은 결과를 제공 할 수 있습니다.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@'는 블렌딩이 필요하지 않은 경우에 사용할 수 있습니다 (예 : (겹치지 않는) 큐브면에서 파노라마를 재구성 할 때)."
+		},
+		{
+			"id": "exposurehdrtab.cameracurvegraph_v2",
+			"machinetranslated": true,
+			"helptext": "카메라 반응 곡선",
+			"morehelptext": "<br><br>이 곡선은 실제 조명 강도에서 픽셀 값으로의 매핑을 표시합니다. 수평 축은 빛의 강도 (장면 휘도)를 나타냅니다. 수직 축은 선형 색상 공간의 픽셀 강도입니다 (ICC 프로파일의 감마 곡선을 적용하기 전). 일반적으로 PTGui는 곡선을 두 번 적용합니다. 블렌딩하기 전에 반전 곡선이 적용되어 픽셀 값을 선형 조명 강도로 변환합니다. 그런 다음 블렌딩, 노출 / 비네팅 보정 및 HDR 병합이 선형 색상 공간에서 수행됩니다. 그런 다음 곡선을 반대 방향으로 다시 적용하여 선형 휘도에서 픽셀 값으로 변환합니다. 마지막으로 이미지 저장시 ICC 색상 프로파일에 따른 감마 보정이 적용됩니다.<br><br>프로젝트에는 여러 카메라 곡선이 포함될 수 있습니다. 각 소스 이미지에 대해 카메라 곡선 중 하나는 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.cameracurve@'열에 할당 될 수 있습니다. @mainwindow.imageparameters.cameracurve@ 필드는 소스 이미지가 선형 데이터를 포함하는 것으로 알려진 경우 '@txt.cameracurve.linear@'로 설정할 수도 있습니다. 기본적으로 PTGui는 RAW 및 HDR 소스 이미지가 선형이라고 가정합니다. 모든 소스 이미지가 선형이면 여기에 카메라 곡선이 표시되지 않습니다.<br><br>여러 개 또는 0 개의 카메라 곡선이 구성된 경우 출력에 사용할 곡선은 @panoramaeditor.sidebar.postprocess@ 패널의 @panoramaeditor@에서 구성 할 수 있습니다.<br><br>PTGui는 @mainwindow.exposurehdrpanel.autoexpadjustmentsection@의 일부로 카메라 응답 곡선을 결정할 수 있습니다. 그렇게하려면 @mainwindow.exposurehdrpanel.optimizenow@ 버튼을 누르십시오. 여기에는 브라케팅 된 이미지가 필요합니다. 카메라 응답 곡선은 노출 된 이미지가 다른 동일한 픽셀을 비교하여 결정됩니다. 단일 (브라켓되지 않은) 노출의 경우 PTGui는 일반적으로 잘 작동하는 기본 곡선을 사용합니다.<br><br>위의 도구 모음에있는 버튼을 사용하여 곡선을 편집,로드, 저장 또는 삭제하거나 프로젝트에 카메라 곡선을 추가 할 수 있습니다."
+		},
+		{
+			"id": "txt.addcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "카메라 반응 곡선 추가",
+			"morehelptext": "<br><br>프로젝트에 카메라 응답 곡선을 추가합니다. 프로젝트에는 여러 카메라 곡선이 포함될 수 있습니다. 각 소스 이미지에 대해 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.cameracurve@'열에서 카메라 곡선 중 하나를 할당 할 수 있습니다."
+		},
+		{
+			"id": "txt.removecameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "카메라 반응 곡선 제거",
+			"morehelptext": "<br><br>프로젝트에서이 카메라 응답 곡선을 제거합니다. 곡선은 프로젝트에서 사용되지 않는 경우에만 제거 할 수 있습니다. 곡선은 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.cameracurve@'열에서 선택하면 안됩니다."
+		},
+		{
+			"id": "txt.editcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "카메라 반응 곡선 편집"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
+			"machinetranslated": true,
+			"helptext": "@txt.toningcurve@",
+			"morehelptext": "<br><br>이 곡선은 조명 강도에서 픽셀 값으로의 매핑을 보여줍니다. 수평 축은 빛의 강도 (장면 휘도)를 나타냅니다. 수직 축은 선형 색상 공간의 픽셀 값입니다 (ICC 프로파일의 감마 곡선을 적용하기 전). 이 곡선을 조정하여 파노라마의 대비와 밝기를 변경할 수 있습니다."
+		},
+		{
+			"id": "toningcurve.shapeshift",
+			"machinetranslated": true,
+			"helptext": "곡선 조정",
+			"morehelptext": "<br><br>모양 및 이동 슬라이더를 사용하여 곡선을 조정합니다. Shape 매개 변수는 곡선을 어느 정도 S 자 모양으로 조정합니다. Shift 매개 변수는 지수 함수를 적용하여 곡선을 왼쪽 또는 오른쪽으로 효과적으로 이동합니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.saturation",
+			"machinetranslated": true,
+			"helptext": "파노라마 색상의 선명도를 높이거나 낮 춥니 다."
+		},
+		{
+			"id": "txt.savevignettingcurve",
+			"machinetranslated": true,
+			"helptext": "비네팅 곡선 저장"
+		},
+		{
+			"id": "txt.loadvignettingcurve",
+			"machinetranslated": true,
+			"helptext": "비네팅 곡선 불러 오기"
+		},
+		{
+			"id": "exposurehdrtab.whitebalance_v2",
+			"machinetranslated": true,
+			"helptext": "전체 파노라마의 화이트 밸런스를 조정합니다.",
+			"morehelptext": "<br><br><b>@txt.asshot@ :</b> 선택하면 화이트 밸런스가 조정되지 않습니다. 이미지는 원래 색상으로 혼합됩니다.<br><br>@txt.asshot@를 선택하지 않으면 원하는 파노라마 색 온도 (켈빈도)를 선택할 수 있습니다. 화이트 밸런스는 원래 색온도에서 선택한 색온도로 조정됩니다. 각 소스 이미지의 원래 색온도는 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.whitebalance@'열에서 구성됩니다. 소스 이미지에 색온도가 지정되지 않은 경우 5000K로 간주됩니다."
 		}
 	],
 	"helppages": [
@@ -10127,7 +10189,7 @@
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>이 탭에는 각 이미지의 특성 계수를 수치로 편집할 수 있는 표가 있습니다. 일반적으로 여기에서 설정을 변경할 필요는 거의 없으며 대개 이러한 특성 계수는 최적화 도구에 의해 결정됩니다.<br><br>한 번에 여러 개의 이미지에 대해 특성 계수를 변경할 수 있습니다. 마우스를 끌어 셀을 선택하십시오. 그런 다음 선택한 모든 셀에 입력할 필수 값을 입력하십시오.<br><br><b>@mainwindow.imageparameters.image@ :</b> 원본 이미지의 축소판을 표시합니다.<br><br><b>@mainwindow.imageparameters.warped@ :</b> 파노라마에 맞춰 형태가 변형된 축소판 이미지로 최종 파노라마에서 각 이미지가 어떤 위치에 표시되는 지 보여줍니다. 미리보기 이미지는 실시간으로 업데이트됩니다.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ 및 @roll@ :</b> 사진을 촬영한 시점의 방향을 나타내며 최종 파노라마에서 이미지의 위치를 각도로 ​​나타냅니다. <b>@+yaw@</b>는 카메라를 수평으로 회전한 값이며, <b>@+pitch@</b>는 위 / 아래로 회전한 값에 해당하고 <b>@+roll@</b>은 렌즈 축을 중심으로 카메라가 회전한 값입니다. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@ :</b> 노출 시간, 렌즈 조리개 및 ISO 감도. 기본적으로 이 값은 이미지 파일의 EXIF ​​헤더에서 읽어 오지만 다른 값으로 수정할 수 있습니다. 이 값은 HDR 파노라마에 사용되는 @mainwindow.imageparameters.ev@ 값을 계산하는 데 사용됩니다.<br><br><b>@mainwindow.imageparameters.ev@ :</b> 이미지의 상대 노출값. 이 값은 다른 이미지와 비교하여 계산한 빛의 양을 나타냅니다. +1의 @mainwindow.imageparameters.ev@값은 @mainwindow.imageparameters.ev@값이 0인 이미지와 비교하여 2배의 밝기로 노출되었음을 나타냅니다. 이는 노출 시간(셔터 스피드)을 두 배로 늘리거나 ISO 감도를 두 배로 높이거나 조리개 값을 1.4배 줄이거나 또는 이 세 가지를 조합으로 결정됩니다. @mainwindow.imageparameters.ev@ 열의 수치는 @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ 및 @mainwindow.imageparameters.iso@ 열의 수치를 바탕으로 자동 계산되며 직접 편집할 수 없습니다. 이 값은 HDR 파노라마를 생성하는 데 사용됩니다. PTGui는 이미지를 동일한 @mainwindow.imageparameters.ev@값을 갖는 그룹으로 분리하고 각 그룹마다 완전한 파노라마를 스티칭합니다. 이 중간 파노라마, 소위 '블렌드 플레인'은 HDR 파노라마로 병합됩니다.<br><br><b>@mainwindow.imageparameters.expoffset@ :</b> 단일 이미지의 밝기를 조정하는 데 사용할 수 있습니다. 예를 들어 -1값을 입력하면 이미지가 1노출 값만큼 어두워집니다(이는 2의 밝기 감소에 해당함). 이 열은 @mainwindow.tabs.exposurehdr@ 탭에서 노출 최적화가 활성화된 경우 자동으로 조정됩니다.<br><br><b>@mainwindow.imageparameters.flare@ :</b> 이 열의 양수 값은 대비를 증가시켜 이미지에서 @lensflare@를 제거합니다. @mainwindow.tabs.exposurehdr@ 탭에서 @flare@ 최적화가 활성화된 경우 자동으로 조정됩니다.<br><br><b>@mainwindow.imageparameters.blendpriority@ :</b> PTGui 블렌더에 대해 각 이미지의 '중요도'를 설정합니다. 블렌딩할 때 블렌드 우선순위가 높은 이미지가 블렌드 반경이 낮은 이미지보다 우선합니다. 이미지의 블렌드 우선순위가 매우 낮으면(예 : 0.001) 블렌더는 다른 이미지를 합성한 후에 남을 간격을 채우기 위해 필요한 이미지 부분만 사용합니다. 블렌드 우선순위를 약간 높이면 이미지의 작은 부분만 사용하면서 보다 매끄러운 오버랩을 얻을 수 있습니다. 블렌드 우선순위는 상대값입니다. 블렌딩할 때 블렌더는 이미지의 블렌드 우선순위 값을 비교하고 가장 높은 값의 이미지에 우선순위를 부여합니다. 절대 값은 중요하지 않습니다. 블렌드 우선순위 특성 계수는 바닥 사진에 특히 유용합니다. 구형 파노라마의 바닥 이미지가 일반적으로 잘못 정렬되고 사진 작가의 발이 이미지에 찍힐 수 있습니다. 바닥 이미지에 낮은 블렌드 우선순위를 사용하면 이미지의 가운데 부분만 사용됩니다. 바닥 이미지에 블렌드 우선순위 10을 사용하고 다른 이미지에 100을 사용하십시오.<br><br><b>@mainwindow.imageparameters.vpprefix@ 특성 계수 :</b> 이 5가지 특성 계수는 다른 이미지의 카메라 위치를 기준으로 해당 이미지의 카메라 위치에 의한 시점 차이를 보정하여 적용합니다. 수동으로 여기에 값을 입력할 필요는 없습니다. @mainwindow.tabs.optimizer@ 탭에서 최적화를 위해 @+viewpoint@을 선택하면 최적화 도구가 실제 값을 계산합니다. 시점 보정을 재설정 하려면 각 @mainwindow.imageparameters.vpprefix@ 특성 계수에 0값을 입력하십시오. 시점 차이 보정은 평평한 표면의 사진에만 적용됩니다. 이 과정은 시점 보정 자습서(PTGui 웹 사이트 참조)에서 자세히 설명합니다.</optional><br><br>이미지에 개별 렌즈, 시프트 또는 @shear@ 특성 계수를 사용하도록 구성한 경우 이러한 값이 표에 나타납니다. <optional product='pro'><br><br>HDR 파노라마의 경우 PTGui는 브래킷 노출을 연결할 수 있습니다. 연결된 이미지를 이 테이블에 단일 행으로 축소하여 표시하거나 작은 삼각형 버튼을 클릭하여 목록을 확장해서 연결된 세트의 개별 이미지를 표시할 수 있습니다.</optional><br><br>오른쪽 클릭 컨텍스트 메뉴에서 @fillyaw@ 기능을 사용하여 일련의 이미지에 대한 @yaw@ 각도를 일정하게 증가시킵니다. 예를 들어, 10 개의 이미지로 구성된 360° 파노라마의 경우 @yaw@ 값은이 함수를 사용하여 0°, 36°, 72°, ...로 초기화됩니다."
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>이 탭에는 각 이미지의 특성 계수를 수치로 편집할 수 있는 표가 있습니다. 일반적으로 여기에서 설정을 변경할 필요는 거의 없으며 대개 이러한 특성 계수는 최적화 도구에 의해 결정됩니다.<br><br>한 번에 여러 개의 이미지에 대해 특성 계수를 변경할 수 있습니다. 마우스를 끌어 셀을 선택하십시오. 그런 다음 선택한 모든 셀에 입력할 필수 값을 입력하십시오.<br><br><b>@mainwindow.imageparameters.image@ :</b> 원본 이미지의 축소판을 표시합니다.<br><br><b>@mainwindow.imageparameters.warped@ :</b> 파노라마에 맞춰 형태가 변형된 축소판 이미지로 최종 파노라마에서 각 이미지가 어떤 위치에 표시되는 지 보여줍니다. 미리보기 이미지는 실시간으로 업데이트됩니다.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ 및 @roll@ :</b> 사진을 촬영한 시점의 방향을 나타내며 최종 파노라마에서 이미지의 위치를 각도로 ​​나타냅니다. <b>@+yaw@</b>는 카메라를 수평으로 회전한 값이며, <b>@+pitch@</b>는 위 / 아래로 회전한 값에 해당하고 <b>@+roll@</b>은 렌즈 축을 중심으로 카메라가 회전한 값입니다. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@ :</b> 노출 시간, 렌즈 조리개 및 ISO 감도. 기본적으로 이 값은 이미지 파일의 EXIF ​​헤더에서 읽어 오지만 다른 값으로 수정할 수 있습니다. 이 값은 HDR 파노라마에 사용되는 @mainwindow.imageparameters.ev@ 값을 계산하는 데 사용됩니다.<br><br><b>@mainwindow.imageparameters.ev@ :</b> 이미지의 상대 노출값. 이 값은 다른 이미지와 비교하여 계산한 빛의 양을 나타냅니다. +1의 @mainwindow.imageparameters.ev@값은 @mainwindow.imageparameters.ev@값이 0인 이미지와 비교하여 2배의 밝기로 노출되었음을 나타냅니다. 이는 노출 시간(셔터 스피드)을 두 배로 늘리거나 ISO 감도를 두 배로 높이거나 조리개 값을 1.4배 줄이거나 또는 이 세 가지를 조합으로 결정됩니다. @mainwindow.imageparameters.ev@ 열의 수치는 @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ 및 @mainwindow.imageparameters.iso@ 열의 수치를 바탕으로 자동 계산되며 직접 편집할 수 없습니다. 이 값은 HDR 파노라마를 생성하는 데 사용됩니다. PTGui는 이미지를 동일한 @mainwindow.imageparameters.ev@값을 갖는 그룹으로 분리하고 각 그룹마다 완전한 파노라마를 스티칭합니다. 이 중간 파노라마, 소위 '블렌드 플레인'은 HDR 파노라마로 병합됩니다.<br><br><b>@mainwindow.imageparameters.expoffset@ :</b> 단일 이미지의 밝기를 조정하는 데 사용할 수 있습니다. 예를 들어 -1값을 입력하면 이미지가 1노출 값만큼 어두워집니다(이는 2의 밝기 감소에 해당함). 이 열은 @mainwindow.tabs.exposurehdr@ 탭에서 노출 최적화가 활성화된 경우 자동으로 조정됩니다.<br><br><b>@mainwindow.imageparameters.flare@ :</b> 이 열의 양수 값은 대비를 증가시켜 이미지에서 @lensflare@를 제거합니다. @mainwindow.tabs.exposurehdr@ 탭에서 @flare@ 최적화가 활성화된 경우 자동으로 조정됩니다.<br><br><b>@mainwindow.imageparameters.blendpriority@ :</b> PTGui 블렌더에 대해 각 이미지의 '중요도'를 설정합니다. 블렌딩할 때 블렌드 우선순위가 높은 이미지가 블렌드 반경이 낮은 이미지보다 우선합니다. 이미지의 블렌드 우선순위가 매우 낮으면(예 : 0.001) 블렌더는 다른 이미지를 합성한 후에 남을 간격을 채우기 위해 필요한 이미지 부분만 사용합니다. 블렌드 우선순위를 약간 높이면 이미지의 작은 부분만 사용하면서 보다 매끄러운 오버랩을 얻을 수 있습니다. 블렌드 우선순위는 상대값입니다. 블렌딩할 때 블렌더는 이미지의 블렌드 우선순위 값을 비교하고 가장 높은 값의 이미지에 우선순위를 부여합니다. 절대 값은 중요하지 않습니다. 블렌드 우선순위 특성 계수는 바닥 사진에 특히 유용합니다. 구형 파노라마의 바닥 이미지가 일반적으로 잘못 정렬되고 사진 작가의 발이 이미지에 찍힐 수 있습니다. 바닥 이미지에 낮은 블렌드 우선순위를 사용하면 이미지의 가운데 부분만 사용됩니다. 바닥 이미지에 블렌드 우선순위 10을 사용하고 다른 이미지에 100을 사용하십시오.<br><br><b>@mainwindow.imageparameters.vpprefix@ 특성 계수 :</b> 이 5가지 특성 계수는 다른 이미지의 카메라 위치를 기준으로 해당 이미지의 카메라 위치에 의한 시점 차이를 보정하여 적용합니다. 수동으로 여기에 값을 입력할 필요는 없습니다. @mainwindow.tabs.optimizer@ 탭에서 최적화를 위해 @+viewpoint@을 선택하면 최적화 도구가 실제 값을 계산합니다. 시점 보정을 재설정 하려면 각 @mainwindow.imageparameters.vpprefix@ 특성 계수에 0값을 입력하십시오. 시점 차이 보정은 평평한 표면의 사진에만 적용됩니다. 이 과정은 시점 보정 자습서(PTGui 웹 사이트 참조)에서 자세히 설명합니다.</optional><br><br>이미지에 개별 렌즈, 시프트 또는 @shear@ 특성 계수를 사용하도록 구성한 경우 이러한 값이 표에 나타납니다. <optional product='pro'><br><br>HDR 파노라마의 경우 PTGui는 브래킷 노출을 연결할 수 있습니다. 연결된 이미지를 이 테이블에 단일 행으로 축소하여 표시하거나 작은 삼각형 버튼을 클릭하여 목록을 확장해서 연결된 세트의 개별 이미지를 표시할 수 있습니다.</optional><br><br>오른쪽 클릭 컨텍스트 메뉴에서 @fillyaw@ 기능을 사용하여 일련의 이미지에 대한 @yaw@ 각도를 일정하게 증가시킵니다. 예를 들어, 10 개의 이미지로 구성된 360° 파노라마의 경우 @yaw@ 값은이 함수를 사용하여 0°, 36°, 72°, ...로 초기화됩니다.<br><br>@mainwindow.imageparamstab.helptext2@"
 		},
 		{
 			"id": "mainwindow.controlpointstab",

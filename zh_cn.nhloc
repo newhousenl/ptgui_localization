@@ -7418,6 +7418,12 @@
 			"id": "licenseinfo.expiretxt_v2",
 			"machinetranslated": true,
 			"txt": "您的订阅将于%0到期。 "
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptext2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@：（</b>仅适用于PTGui Pro）：如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@（在@panoramaeditor@的@mainwindow.createpanoramatab.blending@面板中），则接缝通常会放置在两个图像之间的重叠中间。可以通过增加或减少源图像的@mainwindow.imageparameters.blendpriority@进行调整。这是一个相对值：如果两个图像的混合优先级分别为150和100，则将使用第一张图像的较大部分。如果启用了@panoramaeditor.sidebar.blendsettings.seamfinding@，则将忽略此值。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>一个项目可能包含多个相机响应曲线；此字段配置要用于每个源图像的摄像机响应曲线。摄像机响应曲线在@mainwindow.tabs.exposurehdr@选项卡中配置。如果项目仅包含一条相机响应曲线，则将其命名为“ @txt.globalcameracurve@”。如果选择<b>@txt.cameracurve.linear@</b> ，则假定图像包含线性数据，并且不会应用曲线。有关更多信息，请参见@mainwindow.tabs.exposurehdr@选项卡中的工具提示。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>将每个源图像的原始白平衡配置为色温，以开尔文为单位。如果在@panoramaeditor@的@panoramaeditor.sidebar.postprocess@面板中配置了目标白平衡，将使用此功能。源图像的颜色将从此处配置的色温调整为目标色温。如果此字段为空，则假定默认值为5000K。如果在@panoramaeditor.sidebar.postprocess@面板中选择了“ @txt.asshot@”，则忽略此字段。<br><br><b>@mainwindow.imageparameters.linked@：（</b>仅适用于PTGui Pro）：从包围的源图像拼接HDR全景图时，此复选框配置包围的图像是否具有相同的@yaw@，@pitch@，@roll@和@viewpoint@参数。如果括号中的图像不是从三脚架上拍摄的，则应取消选中此框，并且它们应具有独立的@yaw@，@pitch@，@roll@和@viewpoint@参数。需要提供控制点以对齐包围曝光的图像。"
 		}
 	],
 	"tooltips": [
@@ -10051,6 +10057,62 @@
 			"machinetranslated": true,
 			"helptext": "要使用的混合算法。",
 			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@：</b>此混合算法适用于两个图像之间的接缝。亮度和色差分布在整个图像上，以使图像在接缝处汇合的任何差异最小化。图像不必重叠；接缝外不使用像素。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@：</b>这是经典的全景混合算法（在以前的PTGui版本中使用）。通过平滑图像重叠区域中的颜色和亮度差异来完成融合。精细的细节在狭窄的重叠带中融合，纯色与渐进的重叠融合。<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@：完全</b>不要混合。颜色和亮度差异将保持可见。<br><br>通常，“ @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@”将提供最佳结果，尤其是如果使用“ @panoramaeditor.sidebar.blendsettings.seamfinding@”（仅适用于PTGui Pro）。接缝外部的所有对象都将被完全隐藏，而“ @panoramaeditor.sidebar.blendsettings.blender.multiband@”可能会导致接缝外部的对象出现重影，因为整个重叠区域都用于混合。另一方面，“ @panoramaeditor.sidebar.blendsettings.blender.multiband@”在混合非常精细的重复图案（例如在天花板或地毯中）时可能会产生更好的结果，并且如果将移动物体通过接缝切成两半，则可能会产生更好的结果。<br><br>“ @panoramaeditor.sidebar.blendsettings.blender.none@”可用于不需要融合的情况，例如，从（非重叠）立方体面重建全景时。"
+		},
+		{
+			"id": "exposurehdrtab.cameracurvegraph_v2",
+			"machinetranslated": true,
+			"helptext": "相机响应曲线",
+			"morehelptext": "<br><br>该曲线显示了从真实光强度到像素值的映射。横轴表示光强度（场景亮度）。垂直轴是线性色彩空间中的像素强度（在应用ICC配置文件的伽玛曲线之前）。通常，PTGui将曲线应用两次：在混合之前，应用反曲线将像素值转换为线性光强度。然后，在线性色彩空间中执行混合，曝光/渐晕校正和HDR合并。然后再次沿相反方向应用曲线，以将线性亮度转换为像素值。最后，在保存图像时，将根据ICC颜色配置文件进行伽玛校正。<br><br>一个项目可以包含多个相机曲线：对于每个源图像，可以在@mainwindow.tabs.imageparameters@选项卡的“ @mainwindow.imageparameters.cameracurve@”列中分配一个相机曲线。如果已知源图像包含线性数据，则也可以将@mainwindow.imageparameters.cameracurve@字段设置为“ @txt.cameracurve.linear@”。默认情况下，PTGui假定RAW和HDR源图像是线性的。如果所有源图像都是线性的，则此处没有摄像机曲线。<br><br>如果配置了多个或零个摄像机曲线，则可以在@panoramaeditor.sidebar.postprocess@面板的@panoramaeditor@中配置要用于输出的曲线。<br><br>PTGui可以将相机响应曲线确定为@mainwindow.exposurehdrpanel.autoexpadjustmentsection@的一部分。按下@mainwindow.exposurehdrpanel.optimizenow@按钮。这就需要使用包围曝光的图像：通过比较不同曝光图像中的相同像素来确定相机响应曲线。对于单张（无包围曝光）曝光，PTGui将使用默认曲线，通常可以正常工作。<br><br>使用上方工具栏中的按钮来编辑，加载，保存或删除曲线，或向项目中添加其他相机曲线。"
+		},
+		{
+			"id": "txt.addcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "添加相机响应曲线",
+			"morehelptext": "<br><br>将摄像机响应曲线添加到项目。一个项目可以包含多个相机曲线；对于每个源图像，可以在@mainwindow.tabs.imageparameters@选项卡的“ @mainwindow.imageparameters.cameracurve@”列中分配一条相机曲线。"
+		},
+		{
+			"id": "txt.removecameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "删除相机响应曲线",
+			"morehelptext": "<br><br>从项目中删除此相机响应曲线。仅当项目中未使用曲线时，才可以将其删除：不得在@mainwindow.tabs.imageparameters@选项卡的“ @mainwindow.imageparameters.cameracurve@”列中选择该曲线。"
+		},
+		{
+			"id": "txt.editcameraresponsecurve",
+			"machinetranslated": true,
+			"helptext": "编辑相机响应曲线"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
+			"machinetranslated": true,
+			"helptext": "@txt.toningcurve@",
+			"morehelptext": "<br><br>该曲线显示了从光强度到像素值的映射。横轴表示光强度（场景亮度）。垂直轴是线性色彩空间中的像素值（在应用ICC配置文件的伽玛曲线之前）。可以调整此曲线以更改全景的对比度和亮度。"
+		},
+		{
+			"id": "toningcurve.shapeshift",
+			"machinetranslated": true,
+			"helptext": "调整曲线",
+			"morehelptext": "<br><br>使用“形状”和“移动”滑块调整曲线。形状参数可调整曲线以使其大致呈S形。 Shift参数应用指数函数，有效地将曲线向左或向右移动。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.saturation",
+			"machinetranslated": true,
+			"helptext": "增加或减少全景颜色的鲜艳度。"
+		},
+		{
+			"id": "txt.savevignettingcurve",
+			"machinetranslated": true,
+			"helptext": "保存渐晕曲线"
+		},
+		{
+			"id": "txt.loadvignettingcurve",
+			"machinetranslated": true,
+			"helptext": "负载渐晕曲线"
+		},
+		{
+			"id": "exposurehdrtab.whitebalance_v2",
+			"machinetranslated": true,
+			"helptext": "调整整个全景的白平衡。",
+			"morehelptext": "<br><br><b>@txt.asshot@：</b>如果选择，则不会调整白平衡。图像将以原始颜色混合。<br><br>如果未选择@txt.asshot@，则可以选择所需的全景色温（以开尔文为单位）。白平衡将从原始色温调整为所选色温。每个源图像的原始色温在@mainwindow.tabs.imageparameters@选项卡的“ @mainwindow.imageparameters.whitebalance@”列中进行配置。如果没有为源图像提供色温，则假定为5000K。"
 		}
 	],
 	"helppages": [
@@ -10127,7 +10189,7 @@
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>该页面包含一个表格，其中每个图像的参数可以用数字编辑。通常，此处无需更改任何设置，通常这些参数由优化程序确定。<br><br>可以一次更改多个图像的参数：通过拖动鼠标选择单元格。然后键入所需的值，该值将在所有选定的单元格中输入。<br><br><b>@mainwindow.imageparameters.image@：</b>显示源图像的缩略图。<br><br><b>@mainwindow.imageparameters.warped@：</b>这是一个扭曲的缩略图图像，显示图像在最终全景图中的外观。缩略图图像实时更新。<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@，@pitch@和@roll@：</b>指示拍摄照片的查看方向，以及最终全景图像的位置。 <b>@+yaw@</b>是摄象机在水平面上的旋转， <b>@+pitch@</b>对应于上/下倾斜角度， <b>@+roll@</b>是摄象机绕镜头轴旋转。 <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@，@mainwindow.imageparameters.aperture@，@mainwindow.imageparameters.iso@：</b>曝光时间，镜头光圈和ISO感光度。默认情况下，这些值是从图像文件的 EXIF 标头中读取的，但它们可能会被其他值覆盖。这些值用于计算用于 HDR 全景图的@mainwindow.imageparameters.ev@色谱柱。<br><br><b>@mainwindow.imageparameters.ev@：</b>图像的曝光值。该值表示相对于其他图像捕获的光量。 @mainwindow.imageparameters.ev@值为+1表示与@mainwindow.imageparameters.ev@值为0的图像相比，捕获的光量是其两倍。这可以通过将曝光时间加倍，ISO感光度加倍，将光圈值减小1.4倍来实现，或者通过这三者的组合。 @mainwindow.imageparameters.ev@色谱柱是根据@mainwindow.imageparameters.exposure@，@mainwindow.imageparameters.aperture@和@mainwindow.imageparameters.iso@色谱柱中的值计算得出的，不能直接编辑。此值用于生成 HDR 全景图： PTGui 将图像分成具有相同@mainwindow.imageparameters.ev@值的组，并从每个组中拼接完整的全景图。然后将这些中间全景图（所谓的“混合平面”）合并为 HDR 全景图。<br><br><b>@mainwindow.imageparameters.expoffset@：</b>可用于调整单个图像的亮度。例如，输入-1的值使图像变暗1曝光值（其对应于亮度减少2倍）。如果在@mainwindow.tabs.exposurehdr@选项卡中启用了曝光优化，则会自动调整此列。<br><br><b>@mainwindow.imageparameters.flare@：</b>此字段中的正值通过增加对比度从图像中删除@lensflare@。如果在@mainwindow.tabs.exposurehdr@选项卡中启用了@flare@优化，则会自动调整。<br><br><b>@mainwindow.imageparameters.blendpriority@：</b>为 PTGui 混合器设置此图像的“重要性”。混合时，具有高混合优先级的图像优先于具有低混合半径的图像。如果图像具有非常低的混合优先级（例如0.001），则混合器仅使用填充在混合其他图像之后将保留的任何间隙所需的图像部分。略微增加混合优先级可以提供更平滑的重叠，同时仍然只使用一小部分图像。混合优先级是一个相对值：混合时，混合器会比较图像的混合优先级值，并优先考虑具有最高值的图像。绝对值无关紧要。混合优先级参数对于天底拍摄特别有用：球形全景中的最低点图像通常严重对齐，摄影者的脚可能在图像中可见。对最低点图像使用低混合优先级可确保仅使用图像的中心部分。尝试使用10的混合优先级作为最低点图像，对其他图像使用100。<br><br><b>@mainwindow.imageparameters.vpprefix@参数：</b>这5个参数应用相对于其他图像的摄象机位置的图像的摄象机位置的视点偏移的校正。没有必要在这里手动输入值；在@mainwindow.tabs.optimizer@选项卡中选择@+viewpoint@进行优化时，优化程序会确定实际值。要重置视点校正，请为每个@mainwindow.imageparameters.vpprefix@参数输入值0。视点偏移校正仅适用于平面照片；在优化相机的视点教程中详细解释了该过程（参见 PTGui 网站）。</optional><br><br>如果图像配置为使用单个镜头，移位或@shear@参数，则这些值也会显示在表格中。 <optional product='pro'><br><br>对于 HDR 全景图，PTGui 可以链接包围曝光。链接的图像可以在此表格中显示，也可以折叠为单行，也可以使用小三角形按钮展开列表，以显示每个链接集合中的各个图像。</optional><br><br>使用@fillyaw@功能（在右键单击上下文菜单中）将一系列图像的@yaw@角度初始化为恒定增量。例如，对于由10个图像组成的360°全景图，@yaw@值将使用此功能初始化为0°，36°，72°......"
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>该页面包含一个表格，其中每个图像的参数可以用数字编辑。通常，此处无需更改任何设置，通常这些参数由优化程序确定。<br><br>可以一次更改多个图像的参数：通过拖动鼠标选择单元格。然后键入所需的值，该值将在所有选定的单元格中输入。<br><br><b>@mainwindow.imageparameters.image@：</b>显示源图像的缩略图。<br><br><b>@mainwindow.imageparameters.warped@：</b>这是一个扭曲的缩略图图像，显示图像在最终全景图中的外观。缩略图图像实时更新。<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@，@pitch@和@roll@：</b>指示拍摄照片的查看方向，以及最终全景图像的位置。 <b>@+yaw@</b>是摄象机在水平面上的旋转， <b>@+pitch@</b>对应于上/下倾斜角度， <b>@+roll@</b>是摄象机绕镜头轴旋转。 <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@，@mainwindow.imageparameters.aperture@，@mainwindow.imageparameters.iso@：</b>曝光时间，镜头光圈和ISO感光度。默认情况下，这些值是从图像文件的 EXIF 标头中读取的，但它们可能会被其他值覆盖。这些值用于计算用于 HDR 全景图的@mainwindow.imageparameters.ev@色谱柱。<br><br><b>@mainwindow.imageparameters.ev@：</b>图像的曝光值。该值表示相对于其他图像捕获的光量。 @mainwindow.imageparameters.ev@值为+1表示与@mainwindow.imageparameters.ev@值为0的图像相比，捕获的光量是其两倍。这可以通过将曝光时间加倍，ISO感光度加倍，将光圈值减小1.4倍来实现，或者通过这三者的组合。 @mainwindow.imageparameters.ev@色谱柱是根据@mainwindow.imageparameters.exposure@，@mainwindow.imageparameters.aperture@和@mainwindow.imageparameters.iso@色谱柱中的值计算得出的，不能直接编辑。此值用于生成 HDR 全景图： PTGui 将图像分成具有相同@mainwindow.imageparameters.ev@值的组，并从每个组中拼接完整的全景图。然后将这些中间全景图（所谓的“混合平面”）合并为 HDR 全景图。<br><br><b>@mainwindow.imageparameters.expoffset@：</b>可用于调整单个图像的亮度。例如，输入-1的值使图像变暗1曝光值（其对应于亮度减少2倍）。如果在@mainwindow.tabs.exposurehdr@选项卡中启用了曝光优化，则会自动调整此列。<br><br><b>@mainwindow.imageparameters.flare@：</b>此字段中的正值通过增加对比度从图像中删除@lensflare@。如果在@mainwindow.tabs.exposurehdr@选项卡中启用了@flare@优化，则会自动调整。<br><br><b>@mainwindow.imageparameters.blendpriority@：</b>为 PTGui 混合器设置此图像的“重要性”。混合时，具有高混合优先级的图像优先于具有低混合半径的图像。如果图像具有非常低的混合优先级（例如0.001），则混合器仅使用填充在混合其他图像之后将保留的任何间隙所需的图像部分。略微增加混合优先级可以提供更平滑的重叠，同时仍然只使用一小部分图像。混合优先级是一个相对值：混合时，混合器会比较图像的混合优先级值，并优先考虑具有最高值的图像。绝对值无关紧要。混合优先级参数对于天底拍摄特别有用：球形全景中的最低点图像通常严重对齐，摄影者的脚可能在图像中可见。对最低点图像使用低混合优先级可确保仅使用图像的中心部分。尝试使用10的混合优先级作为最低点图像，对其他图像使用100。<br><br><b>@mainwindow.imageparameters.vpprefix@参数：</b>这5个参数应用相对于其他图像的摄象机位置的图像的摄象机位置的视点偏移的校正。没有必要在这里手动输入值；在@mainwindow.tabs.optimizer@选项卡中选择@+viewpoint@进行优化时，优化程序会确定实际值。要重置视点校正，请为每个@mainwindow.imageparameters.vpprefix@参数输入值0。视点偏移校正仅适用于平面照片；在优化相机的视点教程中详细解释了该过程（参见 PTGui 网站）。</optional><br><br>如果图像配置为使用单个镜头，移位或@shear@参数，则这些值也会显示在表格中。 <optional product='pro'><br><br>对于 HDR 全景图，PTGui 可以链接包围曝光。链接的图像可以在此表格中显示，也可以折叠为单行，也可以使用小三角形按钮展开列表，以显示每个链接集合中的各个图像。</optional><br><br>使用@fillyaw@功能（在右键单击上下文菜单中）将一系列图像的@yaw@角度初始化为恒定增量。例如，对于由10个图像组成的360°全景图，@yaw@值将使用此功能初始化为0°，36°，72°......<br><br>@mainwindow.imageparamstab.helptext2@"
 		},
 		{
 			"id": "mainwindow.controlpointstab",

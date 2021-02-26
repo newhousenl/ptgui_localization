@@ -6071,7 +6071,32 @@
     "id": "mainwindow.imageparamstab.helptext2",
     "txt": "<b>@mainwindow.imageparameters.blendpriority@:</b>(PTGui Pro only): If @panoramaeditor.sidebar.blendsettings.seamfinding@ (in the @mainwindow.createpanoramatab.blending@ panel in the @panoramaeditor@) is disabled, seams will normally be placed in the middle of the overlap between two images. This can be adjusted by increasing or decreasing a source image's @mainwindow.imageparameters.blendpriority@. It's a relative value: if two images have a blend priority of 150 and 100, a larger part of the first image will be used. This value is ignored if @panoramaeditor.sidebar.blendsettings.seamfinding@ is enabled.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b>A project may contain multiple camera response curves; this field configures the camera response curve to be used for each source image. Camera response curves are configured in the @mainwindow.tabs.exposurehdr@ tab. If the project contains just one camera response curve, it will be named '@txt.globalcameracurve@'. If <b>@txt.cameracurve.linear@</b> is selected, the image is assumed to contain linear data and no curve will be applied. For more information see the tooltips in the @mainwindow.tabs.exposurehdr@ tab.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b>Configures the original white balance of each source image, as a color temperature in degrees Kelvin. This will be used if a target white balance is configured in the @panoramaeditor.sidebar.postprocess@ panel of the @panoramaeditor@. Colors from the source image will be adjusted from the color temperature configured here to the target color temperature. If this field is empty, a default value of 5000K is assumed. This field is ignored if '@txt.asshot@' is selected in the @panoramaeditor.sidebar.postprocess@ panel.<br><br><b>@mainwindow.imageparameters.linked@:</b>(PTGui Pro only): When stitching HDR panoramas from bracketed source images, this checkbox configures whether the bracketed images will have the same @yaw@, @pitch@, @roll@ and @viewpoint@ parameters. Uncheck this box if the bracketed images were not taken from a tripod and they should have independent @yaw@, @pitch@, @roll@ and @viewpoint@ parameters. Control points will need to be provided for aligning the bracketed images.",
     "format": "html"
+},
+{
+    "id": "proxysettings.button",
+    "txt": "Proxy..."
+},
+{
+    "id": "proxysettings.caption",
+    "txt": "Proxy server"
+},
+{
+    "id": "proxysettings.header",
+    "txt": "If this computer is connected to internet via a proxy server, enter the details here:"
+},
+{
+    "id": "proxysettings.proxyserverurl",
+    "txt": "Proxy server URL:"
+},
+{
+    "id": "proxysettings.proxyserverusername",
+    "txt": "Proxy username:"
+},
+{
+    "id": "proxysettings.proxyserverpassword",
+    "txt": "Proxy password:"
 }
+
 
 
 
@@ -8296,8 +8321,20 @@
             "id": "exposurehdrtab.whitebalance_v2",
             "helptext": "Adjust white balance for the entire panorama.",
             "morehelptext": "<br><br><b>@txt.asshot@:</b>If selected, white balance will not be adjusted. Images will be blended in the original colors.<br><br>If @txt.asshot@ is not selected, a desired color temperature for the panorama (in degrees Kelvin) can be chosen. The white balance will be adjusted from the orginal color temperature to the selected color temperature. The original color temperature of each source image is configured in the '@mainwindow.imageparameters.whitebalance@' column in the @mainwindow.tabs.imageparameters@ tab. If no color temperature is given for a source image, 5000K is assumed."
+        },
+        {
+            "id": "proxysettings.proxyserverurl",
+            "helptext": "Address, protocol and port of the proxy server",
+            "morehelptext": "<br><br>Enter the URL of the proxy server, including the protocol and port number. For example:<br><br><b>http://proxy.example.com:8888</b> (HTTP proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS proxy)<br><br>The proxy server should be configured to allow HTTPS CONNECT. Leave this field empty if the computer can connect to internet without a proxy server."
+        },
+        {
+            "id": "proxysettings.proxyserverusername",
+            "helptext": "If the proxy server requires authentication, enter the user name."
+        },
+        {
+            "id": "proxysettings.proxyserverpassword",
+            "helptext": "If the proxy server requires authentication, enter the password."
         }
-
     ],
     "helppages": [
         {

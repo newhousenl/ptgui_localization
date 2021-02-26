@@ -6035,6 +6035,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (pouze PTGui Pro): Pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ (na panelu @mainwindow.createpanoramatab.blending@ v @panoramaeditor@) deaktivován, švy se obvykle umístí uprostřed překrytí mezi dvěma obrázky. To lze upravit zvětšením nebo zmenšením @mainwindow.imageparameters.blendpriority@ zdrojového obrazu. Je to relativní hodnota: pokud mají dva obrázky prioritu prolnutí 150 a 100, použije se větší část prvního obrázku. Tato hodnota je ignorována, pokud je povolen @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Projekt může obsahovat více křivek odezvy kamery; toto pole konfiguruje křivku odezvy kamery, která se použije pro každý zdrojový obraz. Křivky odezvy kamery se konfigurují na kartě @mainwindow.tabs.exposurehdr@. Pokud projekt obsahuje pouze jednu křivku odezvy kamery, bude mít název „@txt.globalcameracurve@“. Pokud je vybrána <b>@txt.cameracurve.linear@</b> , předpokládá se, že obraz obsahuje lineární data a nebude použita žádná křivka. Další informace najdete v popisech na kartě @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguruje původní vyvážení bílé každého zdrojového obrazu jako teplotu barev ve stupních Kelvina. To se použije, pokud je na panelu @panoramaeditor.sidebar.postprocess@ na @panoramaeditor@ nakonfigurováno cílové vyvážení bílé. Barvy ze zdrojového obrazu budou upraveny z zde nakonfigurované teploty barev na cílovou teplotu barev. Pokud je toto pole prázdné, předpokládá se výchozí hodnota 5000 kB. Toto pole je ignorováno, pokud je na panelu @panoramaeditor.sidebar.postprocess@ vybrána možnost „@txt.asshot@“.<br><br><b>@mainwindow.imageparameters.linked@:</b> (pouze PTGui Pro): Při spojování HDR panoramat z obrazů s hranatými zdroji toto zaškrtávací políčko konfiguruje, zda budou mít hranaté snímky stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Zrušte zaškrtnutí tohoto políčka, pokud snímky v závorkách nebyly pořízeny ze stativu a měly by mít nezávislé parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Pro zarovnání hranatých obrázků bude třeba poskytnout kontrolní body."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Pokud je tento počítač připojen k internetu prostřednictvím serveru proxy, zadejte podrobnosti zde:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL proxy serveru:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Uživatelské jméno proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy heslo:"
 		}
 	],
 	"tooltips": [
@@ -8541,6 +8571,22 @@
 			"machinetranslated": true,
 			"helptext": "Upravte vyvážení bílé pro celé panorama.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> Je-li vybráno, vyvážení bílé barvy nebude upraveno. Obrázky budou smíchány v původních barvách.<br><br>Pokud není vybrána @txt.asshot@, lze zvolit požadovanou teplotu barev pro panorama (ve stupních Kelvina). Vyvážení bílé bude upraveno z původní teploty barev na zvolenou teplotu barev. Původní teplota barev každého zdrojového obrazu je nakonfigurována ve sloupci „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@. Pokud u zdrojového obrazu není uvedena žádná teplota barev, předpokládá se 5000 K."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adresa, protokol a port proxy serveru",
+			"morehelptext": "<br><br>Zadejte adresu URL serveru proxy, včetně protokolu a čísla portu. Například:<br><br><b>http://proxy.example.com:8888</b> (HTTP proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS proxy)<br><br>Proxy server by měl být nakonfigurován tak, aby umožňoval HTTPS CONNECT. Pokud se počítač může připojit k internetu bez proxy serveru, ponechte toto pole prázdné."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Pokud proxy server vyžaduje ověření, zadejte uživatelské jméno."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Pokud proxy server vyžaduje ověření, zadejte heslo."
 		}
 	],
 	"helppages": [

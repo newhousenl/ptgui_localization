@@ -6045,6 +6045,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (alleen PTGui Pro): Als @panoramaeditor.sidebar.blendsettings.seamfinding@ (in het @mainwindow.createpanoramatab.blending@-paneel in de @panoramaeditor@) is uitgeschakeld, worden naden normaal gesproken in het midden van de overlap tussen twee afbeeldingen geplaatst. Dit kan worden aangepast door de @mainwindow.imageparameters.blendpriority@ van een bronafbeelding te verhogen of te verlagen. Het is een relatieve waarde: als twee afbeeldingen een mengprioriteit van 150 en 100 hebben, wordt een groter deel van de eerste afbeelding gebruikt. Deze waarde wordt genegeerd als @panoramaeditor.sidebar.blendsettings.seamfinding@ is ingeschakeld.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Een project kan meerdere camera-responscurves bevatten; dit veld configureert per bronafbeelding de cameraresponscurve die moet worden gebruikt. Camera-responscurves worden geconfigureerd in het tabblad @mainwindow.tabs.exposurehdr@. Als het project slechts één camera-responscurve bevat, krijgt deze de naam '@txt.globalcameracurve@'. Als <b>@txt.cameracurve.linear@</b> is geselecteerd, wordt aangenomen dat de afbeelding lineaire gegevens bevat en wordt er geen curve toegepast. Zie voor meer informatie de tooltip op het tabblad @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configureert de oorspronkelijke witbalans van elk bronbeeld, als kleurtemperatuur in graden Kelvin. Dit wordt gebruikt als er een gewenste witbalans is geconfigureerd in het @panoramaeditor.sidebar.postprocess@-paneel van de @panoramaeditor@. De kleuren van de bronafbeelding worden aangepast van de hier geconfigureerde kleurtemperatuur tot de gewenste kleurtemperatuur. Als dit veld leeg is, wordt uitgegaan van een standaardwaarde van 5000K. Dit veld wordt genegeerd als '@txt.asshot@' is geselecteerd in het @panoramaeditor.sidebar.postprocess@ paneel.<br><br><b>@mainwindow.imageparameters.linked@:</b> (alleen PTGui Pro): bij het samenvoegen van HDR-panorama's van bracketed bronafbeeldingen, configureert dit selectievakje of de bracketed beelden dezelfde parameters @yaw@, @pitch@, @roll@ en @viewpoint@ hebben. Schakel dit selectievakje uit als de bracketed beelden niet van een statief zijn genomen en ze onafhankelijke parameters @yaw@, @pitch@, @roll@ en @viewpoint@ moeten hebben. Er moeten dan controlepunten tussen de bracketed beelden worden geplaatst om ze uit te lijnen."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Als deze computer via een proxyserver is verbonden met internet, voer dan hier de gegevens in:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "Proxyserver URL:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Proxy gebruikersnaam:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy wachtwoord:"
 		}
 	],
 	"tooltips": [
@@ -8295,6 +8325,22 @@
 			"machinetranslated": true,
 			"helptext": "Pas de witbalans aan voor het hele panorama.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> Indien geselecteerd, wordt de witbalans niet aangepast. Afbeeldingen worden geblend in de originele kleuren.<br><br>Als @txt.asshot@ niet is geselecteerd, kan een gewenste kleurtemperatuur voor het panorama (in graden Kelvin) worden gekozen. De witbalans wordt aangepast van de originele kleurtemperatuur naar de geselecteerde kleurtemperatuur. De oorspronkelijke kleurtemperatuur van elke bronafbeelding wordt geconfigureerd in de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@. Als er geen kleurtemperatuur is opgegeven voor een bronbeeld, wordt uitgegaan van 5000K."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adres, protocol en poort van de proxyserver",
+			"morehelptext": "<br><br>Voer de URL van de proxyserver in, inclusief het protocol en het poortnummer. Bijvoorbeeld:<br><br><b>http://proxy.example.com:8888</b> (HTTP-proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS-proxy)<br><br>De proxyserver moet worden geconfigureerd om HTTPS CONNECT toe te staan. Laat dit veld leeg als de computer verbinding kan maken met internet zonder een proxyserver."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Als de proxyserver verificatie vereist, voer de gebruikersnaam in."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Als de proxyserver verificatie vereist, voer het wachtwoord in."
 		}
 	],
 	"helppages": [

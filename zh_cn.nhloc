@@ -7424,6 +7424,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@：（</b>仅适用于PTGui Pro）：如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@（在@panoramaeditor@的@mainwindow.createpanoramatab.blending@面板中），则接缝通常会放置在两个图像之间的重叠中间。可以通过增加或减少源图像的@mainwindow.imageparameters.blendpriority@进行调整。这是一个相对值：如果两个图像的混合优先级分别为150和100，则将使用第一张图像的较大部分。如果启用了@panoramaeditor.sidebar.blendsettings.seamfinding@，则将忽略此值。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>一个项目可能包含多个相机响应曲线；此字段配置要用于每个源图像的摄像机响应曲线。摄像机响应曲线在@mainwindow.tabs.exposurehdr@选项卡中配置。如果项目仅包含一条相机响应曲线，则将其命名为“ @txt.globalcameracurve@”。如果选择<b>@txt.cameracurve.linear@</b> ，则假定图像包含线性数据，并且不会应用曲线。有关更多信息，请参见@mainwindow.tabs.exposurehdr@选项卡中的工具提示。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>将每个源图像的原始白平衡配置为色温，以开尔文为单位。如果在@panoramaeditor@的@panoramaeditor.sidebar.postprocess@面板中配置了目标白平衡，将使用此功能。源图像的颜色将从此处配置的色温调整为目标色温。如果此字段为空，则假定默认值为5000K。如果在@panoramaeditor.sidebar.postprocess@面板中选择了“ @txt.asshot@”，则忽略此字段。<br><br><b>@mainwindow.imageparameters.linked@：（</b>仅适用于PTGui Pro）：从包围的源图像拼接HDR全景图时，此复选框配置包围的图像是否具有相同的@yaw@，@pitch@，@roll@和@viewpoint@参数。如果括号中的图像不是从三脚架上拍摄的，则应取消选中此框，并且它们应具有独立的@yaw@，@pitch@，@roll@和@viewpoint@参数。需要提供控制点以对齐包围曝光的图像。"
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "代理服务器..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "代理服务器"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "如果此计算机通过代理服务器连接到Internet，请在此处输入详细信息："
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "代理服务器网址："
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "代理用户名："
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "代理密码："
 		}
 	],
 	"tooltips": [
@@ -10113,6 +10143,22 @@
 			"machinetranslated": true,
 			"helptext": "调整整个全景的白平衡。",
 			"morehelptext": "<br><br><b>@txt.asshot@：</b>如果选择，则不会调整白平衡。图像将以原始颜色混合。<br><br>如果未选择@txt.asshot@，则可以选择所需的全景色温（以开尔文为单位）。白平衡将从原始色温调整为所选色温。每个源图像的原始色温在@mainwindow.tabs.imageparameters@选项卡的“ @mainwindow.imageparameters.whitebalance@”列中进行配置。如果没有为源图像提供色温，则假定为5000K。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "代理服务器的地址，协议和端口",
+			"morehelptext": "<br><br>输入代理服务器的URL，包括协议和端口号。例如：<br><br><b>http://proxy.example.com:8888</b>（HTTP代理）<br><b>socks5://proxy.example.com:1080</b>（SOCKS代理）<br><br>代理服务器应配置为允许HTTPS CONNECT。如果计算机无需代理服务器即可连接到Internet，则将该字段保留为空。"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "如果代理服务器需要身份验证，请输入用户名。"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "如果代理服务器需要身份验证，请输入密码。"
 		}
 	],
 	"helppages": [

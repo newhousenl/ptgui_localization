@@ -7007,6 +7007,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (solo PTGui Pro): se @panoramaeditor.sidebar.blendsettings.seamfinding@ (nel pannello @mainwindow.createpanoramatab.blending@ nell'@panoramaeditor@) è disabilitato, le giunzioni verranno normalmente posizionate al centro della sovrapposizione tra due immagini. Questo può essere regolato aumentando o diminuendo l'@mainwindow.imageparameters.blendpriority@ di un'immagine sorgente. È un valore relativo: se due immagini hanno una priorità di fusione di 150 e 100, verrà utilizzata una parte più grande della prima immagine. Questo valore viene ignorato se @panoramaeditor.sidebar.blendsettings.seamfinding@ è abilitato.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> un progetto può contenere più curve di risposta della telecamera; questo campo configura la curva di risposta della telecamera da utilizzare per ciascuna immagine sorgente. Le curve di risposta della telecamera sono configurate nella scheda @mainwindow.tabs.exposurehdr@. Se il progetto contiene una sola curva di risposta della telecamera, verrà denominato &quot;@txt.globalcameracurve@&quot;. Se si seleziona <b>@txt.cameracurve.linear@</b> , si presume che l'immagine contenga dati lineari e non verrà applicata alcuna curva. Per ulteriori informazioni, vedere i suggerimenti nella scheda @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> configura il bilanciamento del bianco originale di ciascuna immagine sorgente, come temperatura del colore in gradi Kelvin. Verrà utilizzato se un bilanciamento del bianco target è configurato nel pannello @panoramaeditor.sidebar.postprocess@ dell'@panoramaeditor@. I colori dell'immagine di origine verranno regolati dalla temperatura del colore configurata qui alla temperatura del colore di destinazione. Se questo campo è vuoto, si presume un valore predefinito di 5000K. Questo campo viene ignorato se &quot;@txt.asshot@&quot; è selezionato nel pannello @panoramaeditor.sidebar.postprocess@.<br><br><b>@mainwindow.imageparameters.linked@:</b> (solo PTGui Pro): quando si uniscono panorami HDR da immagini sorgente a forcella, questa casella di controllo consente di configurare se le immagini a forcella avranno gli stessi parametri @yaw@, @pitch@, @roll@ e @viewpoint@. Deselezionare questa casella se le immagini con bracketing non sono state scattate da un treppiede e devono avere parametri @yaw@, @pitch@, @roll@ e @viewpoint@ indipendenti. Dovranno essere forniti punti di controllo per allineare le immagini a forcella."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Server proxy"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Se questo computer è connesso a Internet tramite un server proxy, inserisci i dettagli qui:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL del server proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Nome utente proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Password proxy:"
 		}
 	],
 	"tooltips": [
@@ -9696,6 +9726,22 @@
 			"machinetranslated": true,
 			"helptext": "Regola il bilanciamento del bianco per l'intero panorama.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> se selezionato, il bilanciamento del bianco non verrà regolato. Le immagini verranno miscelate nei colori originali.<br><br>Se @txt.asshot@ non è selezionato, è possibile scegliere la temperatura colore desiderata per il panorama (in gradi Kelvin). Il bilanciamento del bianco verrà regolato dalla temperatura del colore originale alla temperatura del colore selezionata. La temperatura del colore originale di ciascuna immagine sorgente è configurata nella colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; nella scheda @mainwindow.tabs.imageparameters@. Se non viene fornita alcuna temperatura del colore per un'immagine sorgente, si presume 5000K."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Indirizzo, protocollo e porta del server proxy",
+			"morehelptext": "<br><br>Immettere l'URL del server proxy, inclusi il protocollo e il numero di porta. Per esempio:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>Il server proxy dovrebbe essere configurato per consentire HTTPS CONNECT. Lascia vuoto questo campo se il computer può connettersi a Internet senza un server proxy."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Se il server proxy richiede l'autenticazione, immettere il nome utente."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Se il server proxy richiede l'autenticazione, immettere la password."
 		}
 	],
 	"helppages": [

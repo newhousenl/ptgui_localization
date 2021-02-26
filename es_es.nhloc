@@ -7424,6 +7424,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (PTGui Pro solamente): Si @panoramaeditor.sidebar.blendsettings.seamfinding@ (en el panel @mainwindow.createpanoramatab.blending@ en @panoramaeditor@) está deshabilitado, las uniones normalmente se colocarán en el medio de la superposición entre dos imágenes. Esto se puede ajustar aumentando o disminuyendo el @mainwindow.imageparameters.blendpriority@ de la imagen de origen. Es un valor relativo: si dos imágenes tienen una prioridad de mezcla de 150 y 100, se utilizará una mayor parte de la primera imagen. Este valor se ignora si @panoramaeditor.sidebar.blendsettings.seamfinding@ está habilitado.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Un proyecto puede contener múltiples curvas de respuesta de cámara; este campo configura la curva de respuesta de la cámara que se utilizará para cada imagen de origen. Las curvas de respuesta de la cámara se configuran en la pestaña @mainwindow.tabs.exposurehdr@. Si el proyecto contiene solo una curva de respuesta de cámara, se llamará '@txt.globalcameracurve@'. Si se selecciona <b>@txt.cameracurve.linear@</b> , se supone que la imagen contiene datos lineales y no se aplicará ninguna curva. Para obtener más información, consulte la información sobre herramientas en la pestaña @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configura el balance de blancos original de cada imagen de origen, como una temperatura de color en grados Kelvin. Esto se utilizará si se configura un balance de blancos de destino en el panel @panoramaeditor.sidebar.postprocess@ del @panoramaeditor@. Los colores de la imagen de origen se ajustarán desde la temperatura de color configurada aquí hasta la temperatura de color de destino. Si este campo está vacío, se asume un valor predeterminado de 5000 K. Este campo se ignora si se selecciona '@txt.asshot@' en el panel @panoramaeditor.sidebar.postprocess@.<br><br><b>@mainwindow.imageparameters.linked@:</b> (solo PTGui Pro): al unir panorámicas HDR a partir de imágenes de origen entre corchetes, esta casilla de verificación configura si las imágenes entre corchetes tendrán los mismos parámetros @yaw@, @pitch@, @roll@ y @viewpoint@. Desmarque esta casilla si las imágenes entre corchetes no se tomaron desde un trípode y deben tener parámetros independientes @yaw@, @pitch@, @roll@ y @viewpoint@. Será necesario proporcionar puntos de control para alinear las imágenes entre corchetes."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Servidor proxy..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Servidor proxy"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Si esta computadora está conectada a Internet a través de un servidor proxy, ingrese los detalles aquí:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL del servidor proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Nombre de usuario proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Contraseña de proxy:"
 		}
 	],
 	"tooltips": [
@@ -10113,6 +10143,22 @@
 			"machinetranslated": true,
 			"helptext": "Ajuste el balance de blancos para todo el panorama.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> Si se selecciona, el balance de blancos no se ajustará. Las imágenes se mezclarán con los colores originales.<br><br>Si no se selecciona @txt.asshot@, se puede elegir la temperatura de color deseada para el panorama (en grados Kelvin). El balance de blancos se ajustará desde la temperatura de color original a la temperatura de color seleccionada. La temperatura de color original de cada imagen de origen se configura en la columna '@mainwindow.imageparameters.whitebalance@' en la pestaña @mainwindow.tabs.imageparameters@. Si no se proporciona una temperatura de color para una imagen de origen, se supone 5000K."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Dirección, protocolo y puerto del servidor proxy",
+			"morehelptext": "<br><br>Ingrese la URL del servidor proxy, incluido el protocolo y el número de puerto. Por ejemplo:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>El servidor proxy debe configurarse para permitir HTTPS CONNECT. Deje este campo vacío si la computadora puede conectarse a Internet sin un servidor proxy."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Si el servidor proxy requiere autenticación, ingrese el nombre de usuario."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Si el servidor proxy requiere autenticación, ingrese la contraseña."
 		}
 	],
 	"helppages": [

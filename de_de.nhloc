@@ -6046,6 +6046,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ (im Bereich @mainwindow.createpanoramatab.blending@ im @panoramaeditor@) deaktiviert ist, werden Nähte normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies kann durch Erhöhen oder Verringern des @mainwindow.imageparameters.blendpriority@ eines Quellbilds angepasst werden. Dies ist ein relativer Wert: Wenn zwei Bilder eine Mischpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamerakurven enthalten. In diesem Feld wird für jedes Quellbild die Kamerakurve konfiguriert. Die Kamerakurven werden auf der Registerkarte @mainwindow.tabs.exposurehdr@ konfiguriert. Wenn das Projekt nur eine Kamerakurve enthält, wird es als '@txt.globalcameracurve@' bezeichnet. Wenn <b>@txt.cameracurve.linear@</b> ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und keine Kurve angewendet wird. Weitere Informationen finden Sie in den QuickInfos auf der Registerkarte @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds als Farbtemperatur in Grad Kelvin. Dies wird verwendet, wenn im @panoramaeditor.sidebar.postprocess@-Bereich des @panoramaeditor@ ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier konfigurierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 KB angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtunsreihen zusammenfügen, wird in diesem Kontrollkästchen konfiguriert, ob die Bilder in eine Belichtunsreihe dieselben Parameter @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn die Belichtungsreihen nicht von einem Stativ aufgenommen wurden und unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollten. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte bereitgestellt werden."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy Server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Wenn dieser Computer über einen Proxyserver mit dem Internet verbunden ist, geben Sie die Details hier ein:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL des Proxyservers:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Proxy-Benutzername:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy-Passwort:"
 		}
 	],
 	"tooltips": [
@@ -8735,6 +8765,22 @@
 			"machinetranslated": true,
 			"helptext": "Passt den Weißabgleich für das gesamte Panorama an.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> Wenn ausgewählt, wird der Weißabgleich nicht angepasst. Die Bilder werden in den Originalfarben gemischt.<br><br>Wenn @txt.asshot@ nicht ausgewählt ist, kann eine gewünschte Farbtemperatur für das Panorama (in Grad Kelvin) ausgewählt werden. Der Weißabgleich wird von der ursprünglichen Farbtemperatur auf die ausgewählte Farbtemperatur eingestellt. Die ursprüngliche Farbtemperatur jedes Quellbilds wird in der Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ konfiguriert. Wenn für ein Quellbild keine Farbtemperatur angegeben ist, werden 5000 K angenommen."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adresse, Protokoll und Port des Proxyservers",
+			"morehelptext": "<br><br>Geben Sie die URL des Proxyservers ein, einschließlich des Protokolls und der Portnummer. Zum Beispiel:<br><br><b>http://proxy.example.com:8888</b> (HTTP-Proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS-Proxy)<br><br>Der Proxyserver sollte so konfiguriert sein, dass HTTPS CONNECT zulässig ist. Lassen Sie dieses Feld leer, wenn der Computer ohne Proxyserver eine Verbindung zum Internet herstellen kann."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Wenn der Proxyserver eine Authentifizierung erfordert, geben Sie den Benutzernamen ein."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Wenn der Proxyserver eine Authentifizierung erfordert, geben Sie das Kennwort ein."
 		}
 	],
 	"helppages": [

@@ -7403,6 +7403,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (только PTGui Pro): если @panoramaeditor.sidebar.blendsettings.seamfinding@ (на панели @mainwindow.createpanoramatab.blending@ в @panoramaeditor@) отключен, стыки обычно размещаются посередине перекрытия между двумя изображениями. Это можно отрегулировать, увеличивая или уменьшая @mainwindow.imageparameters.blendpriority@ исходного изображения. Это относительное значение: если два изображения имеют приоритет смешивания 150 и 100, будет использоваться большая часть первого изображения. Это значение игнорируется, если включен @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> проект может содержать несколько кривых реакции камеры; в этом поле настраивается кривая отклика камеры, которая будет использоваться для каждого исходного изображения. Кривые реакции камеры настраиваются на вкладке @mainwindow.tabs.exposurehdr@. Если проект содержит только одну кривую реакции камеры, он будет называться «@txt.globalcameracurve@». Если выбран <b>@txt.cameracurve.linear@</b> , предполагается, что изображение содержит линейные данные, и никакая кривая не применяется. Для получения дополнительной информации см. Всплывающие подсказки на вкладке @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> настраивает исходный баланс белого для каждого исходного изображения в виде цветовой температуры в градусах Кельвина. Это будет использоваться, если целевой баланс белого настроен на панели @panoramaeditor.sidebar.postprocess@ @panoramaeditor@. Цвета исходного изображения будут скорректированы от настроенной здесь цветовой температуры до целевой цветовой температуры. Если это поле пусто, предполагается значение по умолчанию 5000 КБ. Это поле игнорируется, если на панели @panoramaeditor.sidebar.postprocess@ выбрано «@txt.asshot@».<br><br><b>@mainwindow.imageparameters.linked@:</b> (только PTGui Pro): при сшивании панорам HDR из исходных изображений в квадратных скобках этот флажок определяет, будут ли изображения в скобках иметь одинаковые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Снимите этот флажок, если изображения в скобках были сняты не со штатива и они должны иметь независимые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Необходимо предоставить контрольные точки для выравнивания изображений в скобках."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Прокси ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Прокси сервер"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Если этот компьютер подключен к Интернету через прокси-сервер, введите данные здесь:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL прокси-сервера:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Имя пользователя прокси:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Пароль прокси:"
 		}
 	],
 	"tooltips": [
@@ -10092,6 +10122,22 @@
 			"machinetranslated": true,
 			"helptext": "Отрегулируйте баланс белого для всей панорамы.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> если выбрано, баланс белого настраиваться не будет. Изображения будут смешаны в исходных цветах.<br><br>Если @txt.asshot@ не выбран, можно выбрать желаемую цветовую температуру для панорамы (в градусах Кельвина). Баланс белого будет изменен от исходной цветовой температуры до выбранной цветовой температуры. Исходная цветовая температура каждого исходного изображения настраивается в столбце «@mainwindow.imageparameters.whitebalance@» на вкладке @mainwindow.tabs.imageparameters@. Если для исходного изображения не указана цветовая температура, предполагается 5000K."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Адрес, протокол и порт прокси-сервера",
+			"morehelptext": "<br><br>Введите URL-адрес прокси-сервера, включая протокол и номер порта. Например:<br><br><b>http://proxy.example.com:8888</b> (HTTP-прокси)<br><b>socks5://proxy.example.com:1080</b> (прокси SOCKS)<br><br>Прокси-сервер должен быть настроен на разрешение HTTPS CONNECT. Оставьте это поле пустым, если компьютер может подключаться к Интернету без прокси-сервера."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Если прокси-сервер требует аутентификации, введите имя пользователя."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Если прокси-сервер требует аутентификации, введите пароль."
 		}
 	],
 	"helppages": [

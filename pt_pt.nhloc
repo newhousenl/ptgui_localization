@@ -7414,6 +7414,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (apenas PTGui Pro): Se @panoramaeditor.sidebar.blendsettings.seamfinding@ (no painel @mainwindow.createpanoramatab.blending@ em @panoramaeditor@) estiver desativado, as costuras serão normalmente colocadas no meio da sobreposição entre duas imagens. Isso pode ser ajustado aumentando ou diminuindo o @mainwindow.imageparameters.blendpriority@ de uma imagem de origem. É um valor relativo: se duas imagens têm uma prioridade de mistura de 150 e 100, uma parte maior da primeira imagem será usada. Este valor será ignorado se @panoramaeditor.sidebar.blendsettings.seamfinding@ estiver ativado.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Um projeto pode conter várias curvas de resposta da câmera; este campo configura a curva de resposta da câmera a ser usada para cada imagem de origem. As curvas de resposta da câmera são configuradas na guia @mainwindow.tabs.exposurehdr@. Se o projeto contiver apenas uma curva de resposta da câmera, ela será nomeada '@txt.globalcameracurve@'. Se <b>@txt.cameracurve.linear@</b> for selecionado, presume-se que a imagem contém dados lineares e nenhuma curva será aplicada. Para obter mais informações, consulte as dicas de ferramentas na guia @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configura o equilíbrio de branco original de cada imagem de origem, como uma temperatura de cor em graus Kelvin. Isso será usado se um equilíbrio de branco de destino for configurado no painel @panoramaeditor.sidebar.postprocess@ do @panoramaeditor@. As cores da imagem de origem serão ajustadas da temperatura da cor configurada aqui para a temperatura da cor alvo. Se este campo estiver vazio, um valor padrão de 5000K será assumido. Este campo será ignorado se '@txt.asshot@' for selecionado no painel @panoramaeditor.sidebar.postprocess@.<br><br><b>@mainwindow.imageparameters.linked@:</b> (apenas PTGui Pro): Ao costurar panoramas HDR de imagens de origem com colchetes, esta caixa de seleção configura se as imagens com colchetes terão os mesmos parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@. Desmarque esta caixa se as imagens com colchetes não foram tiradas de um tripé e deveriam ter os parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@ independentes. Os pontos de controle precisarão ser fornecidos para alinhar as imagens entre colchetes."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Servidor proxy"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Se este computador estiver conectado à Internet por meio de um servidor proxy, insira os detalhes aqui:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL do servidor proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Nome de usuário proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Senha do proxy:"
 		}
 	],
 	"tooltips": [
@@ -10103,6 +10133,22 @@
 			"machinetranslated": true,
 			"helptext": "Ajuste o equilíbrio de branco para todo o panorama.",
 			"morehelptext": "<br><br><b>@txt.asshot@:</b> Se selecionado, o equilíbrio de branco não será ajustado. As imagens serão mescladas nas cores originais.<br><br>Se @txt.asshot@ não for selecionado, uma temperatura de cor desejada para o panorama (em graus Kelvin) pode ser escolhida. O equilíbrio de branco será ajustado da temperatura de cor original para a temperatura de cor selecionada. A temperatura de cor original de cada imagem de origem é configurada na coluna '@mainwindow.imageparameters.whitebalance@' na guia @mainwindow.tabs.imageparameters@. Se nenhuma temperatura de cor for fornecida para uma imagem de origem, 5000K será assumido."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Endereço, protocolo e porta do servidor proxy",
+			"morehelptext": "<br><br>Insira a URL do servidor proxy, incluindo o protocolo e o número da porta. Por exemplo:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>O servidor proxy deve ser configurado para permitir HTTPS CONNECT. Deixe este campo vazio se o computador puder se conectar à Internet sem um servidor proxy."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Se o servidor proxy exigir autenticação, digite o nome do usuário."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Se o servidor proxy requer autenticação, digite a senha."
 		}
 	],
 	"helppages": [

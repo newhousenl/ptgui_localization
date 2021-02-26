@@ -6045,6 +6045,36 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "<b>@mainwindow.imageparameters.blendpriority@：</b> （PTGui Proのみ）：@panoramaeditor.sidebar.blendsettings.seamfinding@（@panoramaeditor@の@mainwindow.createpanoramatab.blending@パネル内）が無効になっている場合、継ぎ目は通常、2つの画像間のオーバーラップの中央に配置されます。これは、ソースイメージの@mainwindow.imageparameters.blendpriority@を増減することで調整できます。これは相対値です。2つの画像のブレンド優先度が150と100の場合、最初の画像の大部分が使用されます。 @panoramaeditor.sidebar.blendsettings.seamfinding@が有効になっている場合、この値は無視されます。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>プロジェクトに複数のカメラ応答曲線が含まれる場合があります。このフィールドは、各ソース画像に使用されるカメラ応答曲線を構成します。カメラの応答曲線は、@mainwindow.tabs.exposurehdr@タブで構成されます。プロジェクトにカメラ応答曲線が1つしかない場合は、「@txt.globalcameracurve@」という名前になります。 <b>@txt.cameracurve.linear@</b>が選択されている場合、画像には線形データが含まれていると見<b>なされ</b>、曲線は適用されません。詳細については、@mainwindow.tabs.exposurehdr@タブのツールチップを参照してください。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>各ソース画像の元のホワイトバランスをケルビン単位の色温度として構成します。これは、@panoramaeditor@の@panoramaeditor.sidebar.postprocess@パネルでターゲットホワイトバランスが構成されている場合に使用されます。ソース画像の色は、ここで設定した色温度から目標色温度に調整されます。このフィールドが空の場合、デフォルト値は5000Kと見なされます。 @panoramaeditor.sidebar.postprocess@パネルで「@txt.asshot@」が選択されている場合、このフィールドは無視されます。<br><br><b>@mainwindow.imageparameters.linked@：</b> （PTGui Proのみ）：ブラケットされたソース画像からHDRパノラマをステッチする場合、このチェックボックスは、ブラケットされた画像が同じ@yaw@、@pitch@、@roll@、および@viewpoint@パラメーターを持つかどうかを構成します。括弧で囲まれた画像が三脚から撮影されたものではなく、独立した@yaw@、@pitch@、@roll@、および@viewpoint@パラメータが必要な場合は、このチェックボックスをオフにします。ブラケット画像を位置合わせするためのコントロールポイントを提供する必要があります。"
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "プロキシサーバー..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "プロキシサーバー"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "このコンピューターがプロキシサーバーを介してインターネットに接続されている場合は、ここに詳細を入力します。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "プロキシサーバーのURL："
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "プロキシユーザー名："
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "プロキシパスワード："
 		}
 	],
 	"tooltips": [
@@ -8293,6 +8323,22 @@
 			"machinetranslated": true,
 			"helptext": "パノラマ全体のホワイトバランスを調整します。",
 			"morehelptext": "<br><br><b>@txt.asshot@：</b>選択した場合、ホワイトバランスは調整されません。画像は元の色でブレンドされます。<br><br>@txt.asshot@が選択されていない場合は、パノラマに必要な色温度（ケルビン度）を選択できます。ホワイトバランスは、元の色温度から選択した色温度に調整されます。各ソース画像の元の色温度は、[@mainwindow.tabs.imageparameters@]タブの[@mainwindow.imageparameters.whitebalance@]列で構成されます。ソース画像に色温度が指定されていない場合、5000Kが想定されます。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーのアドレス、プロトコル、ポート",
+			"morehelptext": "<br><br>プロトコルとポート番号を含むプロキシサーバーのURLを入力します。例えば：<br><br><b>http://proxy.example.com:8888</b>（HTTPプロキシ）<br><b>socks5://proxy.example.com:1080</b> （SOCKSプロキシ）<br><br>プロキシサーバーは、HTTPS接続を許可するように構成する必要があります。コンピューターがプロキシサーバーなしでインターネットに接続できる場合は、このフィールドを空のままにします。"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーで認証が必要な場合は、ユーザー名を入力します。"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーで認証が必要な場合は、パスワードを入力します。"
 		}
 	],
 	"helppages": [

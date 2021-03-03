@@ -5707,6 +5707,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Sie drücken die Umschalttaste. Möchten Sie die GPU-Beschleunigung für diese Sitzung deaktivieren?\n\nDrücken Sie Nein, um wie gewohnt fortzufahren."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 muss auf diesem Computer aktiviert werden. Bitte geben Sie ihren Lizenzschlüssel ein:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung aus und drücken Sie Cmd + C, um ihn zu kopieren. Klicken Sie dann in das Textfeld oben und drücken Sie Cmd + V, um den Code einzufügen."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung aus und drücken Sie Strg + C, um ihn zu kopieren. Klicken Sie dann in das Textfeld oben und drücken Sie Strg + V, um den Code einzufügen."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Wenn Sie Ihren Lizenzschlüssel verloren haben, <a href=0>klicken Sie hier, um Ihren Schlüssel abzurufen.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Öffnen Sie auf einem anderen Computer die Webseite %0\n\nGeben Sie dort den folgenden Code und Ihren Lizenzschlüssel ein:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Ihr Abonnement läuft am %0 ab."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy Server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Wenn dieser Computer über einen Proxyserver mit dem Internet verbunden ist, geben Sie die Details hier ein:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL des Proxyservers:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Proxy-Benutzername:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy-Passwort:"
 		}
 	],
 	"tooltips": [
@@ -8181,6 +8242,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Das Quellbild horizontal Spiegeln. Wenn das Bild zugeschnitten ist, wird es nach dem Zuschneiden gespiegelt."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adresse, Protokoll und Port des Proxyservers",
+			"morehelptext": "<br><br>Geben Sie die URL des Proxyservers ein, einschließlich des Protokolls und der Portnummer. Zum Beispiel:<br><br><b>http://proxy.example.com:8888</b> (HTTP-Proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS-Proxy)<br><br>Der Proxyserver sollte so konfiguriert sein, dass HTTPS CONNECT zulässig ist. Lassen Sie dieses Feld leer, wenn der Computer ohne Proxyserver eine Verbindung zum Internet herstellen kann."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Wenn der Proxyserver eine Authentifizierung erfordert, geben Sie den Benutzernamen ein."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Wenn der Proxyserver eine Authentifizierung erfordert, geben Sie das Kennwort ein."
 		}
 	],
 	"helppages": [

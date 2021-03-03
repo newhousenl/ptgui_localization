@@ -7087,6 +7087,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Shift 키를 누르고 있습니다. 이 세션에서 GPU 가속을 비활성화 하시겠습니까?\n\n정상적으로 계속하려면 아니요 를 누르십시오."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "이 컴퓨터에서 %0를 활성화해야합니다. 라이센스 키를 입력하십시오 :"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "이메일 애플리케이션에서 키를 선택하고 Cmd + C를 눌러 복사합니다. 그런 다음 위의 텍스트 필드를 클릭하고 Cmd + V를 눌러 코드를 붙여 넣습니다."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "이메일 애플리케이션에서 키를 선택하고 Ctrl + C를 눌러 복사합니다. 그런 다음 위의 텍스트 필드를 클릭하고 Ctrl + V를 눌러 코드를 붙여 넣습니다."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "라이센스 키를 분실 한 경우 <a href=0>여기를 클릭하여 키를 검색하십시오.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "다른 컴퓨터에서 %0로 이동합니다.\n\n여기에 다음 코드와 라이센스 키를 입력하십시오.\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "구독은 %0에 만료됩니다."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "프록시 서버..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "프록시 서버"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "이 컴퓨터가 프록시 서버를 통해 인터넷에 연결되어있는 경우 여기에 세부 정보를 입력하십시오."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "프록시 서버 URL :"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "프록시 사용자 이름 :"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "프록시 비밀번호 :"
 		}
 	],
 	"tooltips": [
@@ -9561,6 +9622,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "소스 이미지를 수평으로 미러링하십시오. 이미지가 잘 리면 이미지를 자른 후에 미러링이 수행됩니다."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "프록시 서버의 주소, 프로토콜 및 포트",
+			"morehelptext": "<br><br>프로토콜 및 포트 번호를 포함하여 프록시 서버의 URL을 입력하십시오. 예를 들면 :<br><br><b>http://proxy.example.com:8888</b> (HTTP 프록시)<br><b>socks5://proxy.example.com:1080</b> (SOCKS 프록시)<br><br>프록시 서버는 HTTPS CONNECT를 허용하도록 구성되어야합니다. 컴퓨터가 프록시 서버없이 인터넷에 연결할 수있는 경우이 필드를 비워 둡니다."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "프록시 서버에 인증이 필요한 경우 사용자 이름을 입력합니다."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "프록시 서버에 인증이 필요한 경우 비밀번호를 입력합니다."
 		}
 	],
 	"helppages": [

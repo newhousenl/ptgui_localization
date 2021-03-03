@@ -5706,6 +5706,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "U drukt op de Shift-toets. Wilt u GPU-versnelling voor deze sessie uitschakelen?\n\nDruk op Nee om door te gaan zoals normaal."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 moet worden geactiveerd op deze computer. Voer de licentiesleutel in:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Selecteer de sleutel in uw e-mailtoepassing en druk op Cmd + C om deze te kopiëren. Klik vervolgens in het tekstveld hierboven en druk op Cmd + V om de code te plakken."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Selecteer de sleutel in uw e-mailtoepassing en druk op Ctrl + C om deze te kopiëren. Klik vervolgens in het tekstveld hierboven en druk op Ctrl + V om de code te plakken."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Als u uw licentiesleutel bent kwijtgeraakt, <a href=0>klik dan hier om uw sleutel op te halen.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Ga op een andere computer naar %0\n\nVoer daar de volgende code en uw licentiesleutel in:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Uw abonnement verloopt op %0."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Als deze computer via een proxyserver is verbonden met internet, voer dan hier de gegevens in:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "Proxyserver URL:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Proxy gebruikersnaam:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy wachtwoord:"
 		}
 	],
 	"tooltips": [
@@ -7739,6 +7800,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Spiegel de bronafbeelding horizontaal. Als de afbeelding is bijgesneden, wordt het spiegelen uitgevoerd nadat de afbeelding is bijgesneden."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adres, protocol en poort van de proxyserver",
+			"morehelptext": "<br><br>Voer de URL van de proxyserver in, inclusief het protocol en het poortnummer. Bijvoorbeeld:<br><br><b>http://proxy.example.com:8888</b> (HTTP-proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS-proxy)<br><br>De proxyserver moet worden geconfigureerd om HTTPS CONNECT toe te staan. Laat dit veld leeg als de computer verbinding kan maken met internet zonder een proxyserver."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Als de proxyserver verificatie vereist, voer de gebruikersnaam in."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Als de proxyserver verificatie vereist, voer het wachtwoord in."
 		}
 	],
 	"helppages": [

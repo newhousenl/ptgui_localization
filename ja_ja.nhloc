@@ -5706,6 +5706,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Shiftキーを押しています。このセッションのGPUアクセラレーションを無効にしますか？\n\n通常どおり続行するには、[いいえ]を押します。"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0は、このコンピューターでアクティブ化する必要があります。ライセンスキーを入力してください："
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "電子メールアプリケーションでキーを選択し、Cmd + Cを押してコピーします。次に、上のテキストフィールドをクリックし、Cmd + Vを押してコードを貼り付けます。"
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "電子メールアプリケーションでキーを選択し、Ctrl + Cを押してコピーします。次に、上のテキストフィールドをクリックし、Ctrl + Vを押してコードを貼り付けます。"
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "ライセンスキーを紛失した場合は、<a href=0>ここをクリックしてキーを取得してください。</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "別のコンピューターで、%0に移動します\n\nそこで、次のコードとライセンスキーを入力します。\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "サブスクリプションは%0に期限切れになります。"
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "プロキシサーバー..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "プロキシサーバー"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "このコンピューターがプロキシサーバーを介してインターネットに接続されている場合は、ここに詳細を入力します。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "プロキシサーバーのURL："
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "プロキシユーザー名："
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "プロキシパスワード："
 		}
 	],
 	"tooltips": [
@@ -7741,6 +7802,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "ソース画像を水平にミラーします。画像がトリミングされている場合、画像のトリミング後にミラーリングが行われます。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーのアドレス、プロトコル、ポート",
+			"morehelptext": "<br><br>プロトコルとポート番号を含むプロキシサーバーのURLを入力します。例えば：<br><br><b>http://proxy.example.com:8888</b>（HTTPプロキシ）<br><b>socks5://proxy.example.com:1080</b> （SOCKSプロキシ）<br><br>プロキシサーバーは、HTTPS接続を許可するように構成する必要があります。コンピューターがプロキシサーバーなしでインターネットに接続できる場合は、このフィールドを空のままにします。"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーで認証が必要な場合は、ユーザー名を入力します。"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "プロキシサーバーで認証が必要な場合は、パスワードを入力します。"
 		}
 	],
 	"helppages": [

@@ -5797,6 +5797,55 @@
 {
     "id": "txt.startupwithshift",
     "txt": "You are pressing the Shift key. Would you like to disable GPU acceleration for this session?\n\nPress No to continue as normal."
+},
+{
+    "id": "activationdialog.heading_v2",
+    "txt": "%0 must be activated on this computer. Please enter your license key:"
+},
+{
+    "id": "activationdialog.txt2_mac_v2",
+    "txt": "Select the key in your email application and press Cmd+C to copy it. Then click in the text field above and press Cmd+V to paste the code."
+},
+{
+    "id": "activationdialog.txt2_nonmac_v2",
+    "txt": "Select the key in your email application and press Ctrl+C to copy it. Then click in the text field above and press Ctrl+V to paste the code."
+},
+{
+    "id": "activationdialog.txt3_v2",
+    "format": "html",
+    "txt": "If you lost your license key, <a href=0>click here to retrieve your key.</a>"
+},
+{
+    "id": "licenseinfo.offlineactivation1_v2",
+    "txt": "On another computer, go to %0\n\nThere, enter the following code and your license key:\n\n"
+},
+{
+    "id": "licenseinfo.expiretxt_v2",
+    "txt": "Your subscription expires at %0."
+},
+{
+    "id": "proxysettings.button",
+    "txt": "Proxy..."
+},
+{
+    "id": "proxysettings.caption",
+    "txt": "Proxy server"
+},
+{
+    "id": "proxysettings.header",
+    "txt": "If this computer is connected to internet via a proxy server, enter the details here:"
+},
+{
+    "id": "proxysettings.proxyserverurl",
+    "txt": "Proxy server URL:"
+},
+{
+    "id": "proxysettings.proxyserverusername",
+    "txt": "Proxy username:"
+},
+{
+    "id": "proxysettings.proxyserverpassword",
+    "txt": "Proxy password:"
 }
 
 
@@ -7844,8 +7893,20 @@
         {
             "id": "mainwindow.lensparams.mirrored",
             "helptext": "Mirror the source image horizontally. If the image is cropped, mirroring will be done after cropping the image."
-        }
-        
+        },
+        {
+            "id": "proxysettings.proxyserverurl",
+            "helptext": "Address, protocol and port of the proxy server",
+            "morehelptext": "<br><br>Enter the URL of the proxy server, including the protocol and port number. For example:<br><br><b>http://proxy.example.com:8888</b> (HTTP proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS proxy)<br><br>The proxy server should be configured to allow HTTPS CONNECT. Leave this field empty if the computer can connect to internet without a proxy server."
+        },
+        {
+            "id": "proxysettings.proxyserverusername",
+            "helptext": "If the proxy server requires authentication, enter the user name."
+        },
+        {
+            "id": "proxysettings.proxyserverpassword",
+            "helptext": "If the proxy server requires authentication, enter the password."
+        }        
     ],
     "helppages": [
         {

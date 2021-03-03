@@ -6138,6 +6138,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "您正在按Shift鍵。您是否要為此會話禁用GPU加速？\n\n按否繼續正常進行。"
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "必須在此計算機上激活%0。請輸入您的許可證密鑰："
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "在電子郵件應用程序中選擇密鑰，然後按Cmd + C進行複制。然後單擊上方的文本字段，然後按Cmd + V粘貼代碼。"
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "在電子郵件應用程序中選擇密鑰，然後按Ctrl + C進行複制。然後單擊上方的文本字段，然後按Ctrl + V粘貼代碼。"
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "如果您丟失了許可證密鑰，<a href=0>請單擊此處檢索您的密鑰。</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "在另一台計算機上，轉到%0\n\n在此輸入以下代碼和您的許可證密鑰：\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "您的訂閱將於%0到期。 "
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "代理服務器..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "代理服務器"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "如果此計算機通過代理服務器連接到Internet，請在此處輸入詳細信息："
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "代理服務器網址："
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "代理用戶名："
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "代理密碼："
 		}
 	],
 	"tooltips": [
@@ -8612,6 +8673,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "水平鏡像源圖像。如果圖像被裁剪，則將在裁剪圖像後進行鏡像。"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "代理服務器的地址，協議和端口",
+			"morehelptext": "<br><br>輸入代理服務器的URL，包括協議和端口號。例如：<br><br><b>http://proxy.example.com:8888</b>（HTTP代理）<br><b>socks5://proxy.example.com:1080</b> （SOCKS代理）<br><br>代理服務器應配置為允許HTTPS CONNECT。如果計算機無需代理服務器即可連接到Internet，則將該字段保留為空。"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "如果代理服務器需要身份驗證，請輸入用戶名。"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "如果代理服務器需要身份驗證，請輸入密碼。"
 		}
 	],
 	"helppages": [

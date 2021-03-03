@@ -7066,6 +7066,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Вы нажимаете клавишу Shift. Вы хотите отключить ускорение графического процессора для этого сеанса?\n\nНажмите Нет, чтобы продолжить как обычно."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "На этом компьютере должен быть активирован %0. Пожалуйста, введите свой лицензионный ключ:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Выберите ключ в своем почтовом приложении и нажмите Cmd + C, чтобы скопировать его. Затем щелкните текстовое поле выше и нажмите Cmd + V, чтобы вставить код."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Выберите ключ в своем почтовом приложении и нажмите Ctrl + C, чтобы скопировать его. Затем щелкните текстовое поле выше и нажмите Ctrl + V, чтобы вставить код."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Если вы потеряли лицензионный ключ, <a href=0>щелкните здесь, чтобы получить его.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "На другом компьютере перейдите к %0\n\nТам введите следующий код и свой лицензионный ключ:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Ваша подписка истекает %0."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Прокси ..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Прокси сервер"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Если этот компьютер подключен к Интернету через прокси-сервер, введите данные здесь:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL прокси-сервера:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Имя пользователя прокси:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Пароль прокси:"
 		}
 	],
 	"tooltips": [
@@ -9540,6 +9601,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Зеркально отразите исходное изображение по горизонтали. Если изображение обрезано, зеркальное отображение будет выполнено после обрезки изображения."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Адрес, протокол и порт прокси-сервера",
+			"morehelptext": "<br><br>Введите URL-адрес прокси-сервера, включая протокол и номер порта. Например:<br><br><b>http://proxy.example.com:8888</b> (HTTP-прокси)<br><b>socks5://proxy.example.com:1080</b> (прокси SOCKS)<br><br>Прокси-сервер должен быть настроен на разрешение HTTPS CONNECT. Оставьте это поле пустым, если компьютер может подключаться к Интернету без прокси-сервера."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Если прокси-сервер требует аутентификации, введите имя пользователя."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Если прокси-сервер требует аутентификации, введите пароль."
 		}
 	],
 	"helppages": [

@@ -7083,6 +7083,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Vous appuyez sur la touche Maj. Souhaitez-vous désactiver l'accélération GPU pour cette session?\n\nAppuyez sur Non pour continuer normalement."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "%0 doit être activé sur cet ordinateur. S'il vous plaît entrer votre clé de licence:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Sélectionnez la clé dans votre application de messagerie et appuyez sur Cmd + C pour la copier. Cliquez ensuite dans le champ de texte ci-dessus et appuyez sur Cmd + V pour coller le code."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Sélectionnez la clé dans votre application de messagerie et appuyez sur Ctrl + C pour la copier. Cliquez ensuite dans le champ de texte ci-dessus et appuyez sur Ctrl + V pour coller le code."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Si vous avez perdu votre clé de licence, <a href=0>cliquez ici pour récupérer votre clé.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Sur un autre ordinateur, accédez à %0\n\nLà, entrez le code suivant et votre clé de licence:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Votre abonnement expire le %0."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Serveur proxy..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Serveur proxy"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Si cet ordinateur est connecté à Internet via un serveur proxy, entrez les détails ici:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL du serveur proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Nom d'utilisateur proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Mot de passe proxy:"
 		}
 	],
 	"tooltips": [
@@ -9557,6 +9618,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Miroir l'image source horizontalement. Si l'image est recadrée, la mise en miroir sera effectuée après le recadrage de l'image."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adresse, protocole et port du serveur proxy",
+			"morehelptext": "<br><br>Entrez l'URL du serveur proxy, y compris le protocole et le numéro de port. Par exemple:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>Le serveur proxy doit être configuré pour autoriser HTTPS CONNECT. Laissez ce champ vide si l'ordinateur peut se connecter à Internet sans serveur proxy."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Si le serveur proxy requiert une authentification, entrez le nom d'utilisateur."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Si le serveur proxy requiert une authentification, entrez le mot de passe."
 		}
 	],
 	"helppages": [

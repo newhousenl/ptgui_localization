@@ -5696,6 +5696,67 @@
 			"id": "txt.startupwithshift",
 			"machinetranslated": true,
 			"txt": "Stisknete klávesu Shift. Chcete deaktivovat zrychlení GPU pro tuto relaci?\n\nStisknutím Ne pokračujte jako obvykle."
+		},
+		{
+			"id": "activationdialog.heading_v2",
+			"machinetranslated": true,
+			"txt": "Na tomto počítači musí být aktivována %0. Zadejte svůj licenční klíč:"
+		},
+		{
+			"id": "activationdialog.txt2_mac_v2",
+			"machinetranslated": true,
+			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím Cmd + C jej zkopírujte. Poté klikněte do textového pole výše a stisknutím Cmd + V vložte kód."
+		},
+		{
+			"id": "activationdialog.txt2_nonmac_v2",
+			"machinetranslated": true,
+			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím kláves Ctrl + C jej zkopírujte. Poté klikněte do textového pole výše a vložte Ctrl + V pro vložení kódu."
+		},
+		{
+			"id": "activationdialog.txt3_v2",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Pokud jste ztratili licenční klíč, <a href=0>kliknutím sem jej načtete.</a>"
+		},
+		{
+			"id": "licenseinfo.offlineactivation1_v2",
+			"machinetranslated": true,
+			"txt": "Na jiném počítači přejděte na %0\n\nTam zadejte následující kód a licenční klíč:\n\n"
+		},
+		{
+			"id": "licenseinfo.expiretxt_v2",
+			"machinetranslated": true,
+			"txt": "Platnost vašeho předplatného vyprší %0."
+		},
+		{
+			"id": "proxysettings.button",
+			"machinetranslated": true,
+			"txt": "Proxy..."
+		},
+		{
+			"id": "proxysettings.caption",
+			"machinetranslated": true,
+			"txt": "Proxy server"
+		},
+		{
+			"id": "proxysettings.header",
+			"machinetranslated": true,
+			"txt": "Pokud je tento počítač připojen k internetu prostřednictvím serveru proxy, zadejte podrobnosti zde:"
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"txt": "URL proxy serveru:"
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"txt": "Uživatelské jméno proxy:"
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"txt": "Proxy heslo:"
 		}
 	],
 	"tooltips": [
@@ -7987,6 +8048,22 @@
 			"id": "mainwindow.lensparams.mirrored",
 			"machinetranslated": true,
 			"helptext": "Zdrojový obrázek zrcadlete vodorovně. Pokud je obrázek oříznut, bude zrcadlení provedeno po oříznutí obrázku."
+		},
+		{
+			"id": "proxysettings.proxyserverurl",
+			"machinetranslated": true,
+			"helptext": "Adresa, protokol a port proxy serveru",
+			"morehelptext": "<br><br>Zadejte adresu URL serveru proxy, včetně protokolu a čísla portu. Například:<br><br><b>http://proxy.example.com:8888</b> (HTTP proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS proxy)<br><br>Proxy server by měl být nakonfigurován tak, aby umožňoval HTTPS CONNECT. Pokud se počítač může připojit k internetu bez proxy serveru, ponechte toto pole prázdné."
+		},
+		{
+			"id": "proxysettings.proxyserverusername",
+			"machinetranslated": true,
+			"helptext": "Pokud proxy server vyžaduje ověření, zadejte uživatelské jméno."
+		},
+		{
+			"id": "proxysettings.proxyserverpassword",
+			"machinetranslated": true,
+			"helptext": "Pokud proxy server vyžaduje ověření, zadejte heslo."
 		}
 	],
 	"helppages": [

@@ -7433,6 +7433,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Пароль прокси:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Маскировка отодвигает швы"
 		}
 	],
 	"tooltips": [
@@ -10138,6 +10143,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Если прокси-сервер требует аутентификации, введите пароль."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Расположите швы подальше от маскируемых участков.",
+			"morehelptext": "<br><br>Если этот параметр включен, швы будут прокладываться на расстоянии от любых красных или зеленых маскированных областей. Если этот параметр отключен, швы будут оставаться ближе к середине области перекрытия, даже если маски размещены рядом.<br><br>Доступно только для блендера @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@, и если @panoramaeditor.sidebar.blendsettings.seamfinding@ отключен."
 		}
 	],
 	"helppages": [

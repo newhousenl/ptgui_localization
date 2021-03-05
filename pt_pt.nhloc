@@ -7444,6 +7444,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Senha do proxy:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Máscara empurra costuras para trás"
 		}
 	],
 	"tooltips": [
@@ -10149,6 +10154,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Se o servidor proxy requer autenticação, digite a senha."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Coloque as costuras longe de qualquer área mascarada.",
+			"morehelptext": "<br><br>Se ativado, as costuras serão encaminhadas à distância de qualquer área mascarada em vermelho ou verde. Se desativada, as costuras ficarão próximas ao meio da área de sobreposição, mesmo se as máscaras forem colocadas nas proximidades.<br><br>Disponível apenas para o liquidificador @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ estiver desabilitado."
 		}
 	],
 	"helppages": [

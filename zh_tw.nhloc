@@ -6507,6 +6507,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "代理密碼："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "遮罩推回接縫"
 		}
 	],
 	"tooltips": [
@@ -9212,6 +9217,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "如果代理服務器需要身份驗證，請輸入密碼。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "將接縫放置在遠離任何遮蔽區域的地方。",
+			"morehelptext": "<br><br>如果啟用，則接縫將與任何紅色或綠色蒙版區域保持一定距離。如果禁用，則即使在附近放置遮罩，接縫也將保持在重疊區域的中間。<br><br>僅適用於@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@混合器，並且如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@。"
 		}
 	],
 	"helppages": [

@@ -7454,6 +7454,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Contraseña de proxy:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Enmascaramiento empuja las costuras"
 		}
 	],
 	"tooltips": [
@@ -10159,6 +10164,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Si el servidor proxy requiere autenticación, ingrese la contraseña."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Coloque las costuras lejos de las áreas enmascaradas.",
+			"morehelptext": "<br><br>Si está habilitado, las uniones se enrutarán a una distancia de cualquier área enmascarada roja o verde. Si está desactivado, las costuras permanecerán cerca del centro del área de superposición incluso si se colocan máscaras cerca.<br><br>Solo disponible para la licuadora @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ y si @panoramaeditor.sidebar.blendsettings.seamfinding@ está deshabilitada."
 		}
 	],
 	"helppages": [

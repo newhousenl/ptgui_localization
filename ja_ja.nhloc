@@ -6075,6 +6075,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "プロキシパスワード："
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "マスキングは縫い目を押します"
 		}
 	],
 	"tooltips": [
@@ -8339,6 +8344,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "プロキシサーバーで認証が必要な場合は、パスワードを入力します。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "縫い目をマスクされた領域から離して配置します。",
+			"morehelptext": "<br><br>有効にすると、継ぎ目は赤または緑のマスクされた領域から離れた場所にルーティングされます。無効にすると、マスクが近くに配置されていても、継ぎ目は重なり領域の中央近くに留まります。<br><br>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ブレンダーでのみ使用可能で、@panoramaeditor.sidebar.blendsettings.seamfinding@が無効になっている場合。"
 		}
 	],
 	"helppages": [

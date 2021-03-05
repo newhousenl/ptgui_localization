@@ -6075,6 +6075,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Proxy wachtwoord:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Masker duwt de naad weg"
 		}
 	],
 	"tooltips": [
@@ -8341,6 +8346,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Als de proxyserver verificatie vereist, voer het wachtwoord in."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Plaats de naden uit de buurt van gemaskeerde gebieden.",
+			"morehelptext": "<br><br>Indien ingeschakeld, worden de naden op een afstand van rode of groene gemaskeerde gebieden gerouteerd. Indien uitgeschakeld, blijven de naden dicht bij het midden van het overlappingsgebied, zelfs als er maskers in de buurt zijn geplaatst.<br><br>Alleen beschikbaar voor de @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@-menger en als @panoramaeditor.sidebar.blendsettings.seamfinding@ is uitgeschakeld."
 		}
 	],
 	"helppages": [

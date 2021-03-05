@@ -6076,6 +6076,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Proxy-Passwort:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Maskieren drückt die Nähte zurück"
 		}
 	],
 	"tooltips": [
@@ -8781,6 +8786,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Wenn der Proxyserver eine Authentifizierung erfordert, geben Sie das Kennwort ein."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Platziere die Nähte von maskierten Bereichen entfernt.",
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Nähte in einem Abstand von rot oder grün maskierten Bereichen verlegt. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn Masken in der Nähe platziert werden.<br><br>Nur für den Mixer @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ verfügbar und wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ deaktiviert ist."
 		}
 	],
 	"helppages": [

@@ -6065,6 +6065,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Proxy heslo:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Maskování tlačí zpět švy"
 		}
 	],
 	"tooltips": [
@@ -8587,6 +8592,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Pokud proxy server vyžaduje ověření, zadejte heslo."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Umístěte švy od maskovaných oblastí.",
+			"morehelptext": "<br><br>Pokud je povoleno, švy budou směrovány ve vzdálenosti od jakékoli červené nebo zelené maskované oblasti. Pokud je deaktivováno, švy zůstanou blízko středu oblasti překrytí, i když jsou poblíž umístěny masky.<br><br>K dispozici pouze pro mixér @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ a pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ zakázán."
 		}
 	],
 	"helppages": [

@@ -6095,6 +6095,10 @@
 {
     "id": "proxysettings.proxyserverpassword",
     "txt": "Proxy password:"
+},
+{
+    "id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+    "txt": "Masking pushes back seams"
 }
 
 
@@ -8334,6 +8338,11 @@
         {
             "id": "proxysettings.proxyserverpassword",
             "helptext": "If the proxy server requires authentication, enter the password."
+        },
+        {
+            "id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+            "helptext": "Place the seams away from any masked areas.",
+            "morehelptext": "<br><br>If enabled, the seams will be routed at a distance from any red or green masked areas. If disabled, the seams will stay close to the middle of the overlap area even if masks are placed nearby.<br><br>Only available for the @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ blender, and if @panoramaeditor.sidebar.blendsettings.seamfinding@ is disabled."
         }
     ],
     "helppages": [

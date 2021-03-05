@@ -7454,6 +7454,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "프록시 비밀번호 :"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "마스킹은 솔기를 밀어냅니다"
 		}
 	],
 	"tooltips": [
@@ -10159,6 +10164,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "프록시 서버에 인증이 필요한 경우 비밀번호를 입력합니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "이음새를 가려진 부분에서 멀리 떨어 뜨립니다.",
+			"morehelptext": "<br><br>활성화하면 이음새가 빨간색 또는 녹색 마스크 영역에서 멀리 떨어진 곳에 라우팅됩니다. 비활성화하면 마스크가 근처에 배치 되더라도 이음새가 겹침 영역의 중앙에 가깝게 유지됩니다.<br><br>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 블렌더 및 @panoramaeditor.sidebar.blendsettings.seamfinding@가 비활성화 된 경우에만 사용할 수 있습니다."
 		}
 	],
 	"helppages": [

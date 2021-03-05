@@ -7458,6 +7458,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Mot de passe proxy:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Masquage repousse les coutures"
 		}
 	],
 	"tooltips": [
@@ -10162,6 +10167,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Si le serveur proxy requiert une authentification, entrez le mot de passe."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Placez les coutures loin de toute zone masquée.",
+			"morehelptext": "<br><br>Si cette option est activée, les coutures seront acheminées à distance de toute zone masquée rouge ou verte. Si elle est désactivée, les coutures resteront proches du milieu de la zone de chevauchement même si des masques sont placés à proximité.<br><br>Uniquement disponible pour le mélangeur @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@, et si @panoramaeditor.sidebar.blendsettings.seamfinding@ est désactivé."
 		}
 	],
 	"helppages": [

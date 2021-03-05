@@ -7037,6 +7037,11 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"txt": "Password proxy:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"txt": "Mascheratura spinge le cuciture"
 		}
 	],
 	"tooltips": [
@@ -9742,6 +9747,12 @@
 			"id": "proxysettings.proxyserverpassword",
 			"machinetranslated": true,
 			"helptext": "Se il server proxy richiede l'autenticazione, immettere la password."
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
+			"machinetranslated": true,
+			"helptext": "Posiziona le cuciture lontano dalle aree mascherate.",
+			"morehelptext": "<br><br>Se abilitato, le cuciture verranno instradate a una certa distanza da eventuali aree mascherate rosse o verdi. Se disabilitato, le cuciture rimarranno vicino al centro dell'area di sovrapposizione anche se le maschere sono posizionate nelle vicinanze.<br><br>Disponibile solo per il frullatore @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ è disabilitato."
 		}
 	],
 	"helppages": [

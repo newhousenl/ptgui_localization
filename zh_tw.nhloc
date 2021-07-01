@@ -5,11 +5,11 @@
 		"Allen Chen"
 	],
 	"languagenamelocalized": "繁體中文",
-	"startupmsg": "修訂日期2019-01-29。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
+	"startupmsg": "修訂日期2021-06-29。\n\n翻譯可能並不完美，但希望理解大致上的意思。\n如有必要，您可以到%0 |切換原始英文。\n\n如果您有興趣，請通過更正中文翻譯中的任何錯誤來幫助我們改進PTGui。\n有關更多資訊，請參閱：'@help@  -  @txt.improvetranslation@'。",
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
-			"txt": "優化中文翻譯"
+			"txt": "優化繁中"
 		},
 		{
 			"id": "txt.translationby",
@@ -174,7 +174,7 @@
 		},
 		{
 			"id": "illwait",
-			"txt": "我會等"
+			"txt": "繼續"
 		},
 		{
 			"id": "txt.error",
@@ -1003,7 +1003,7 @@
 		},
 		{
 			"id": "menubar.images.opencontainingfolder",
-			"txt": "打開包含資料夾"
+			"txt": "在檔案總管中開啟"
 		},
 		{
 			"id": "menubar.images.link",
@@ -1127,7 +1127,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.eraser",
-			"txt": "橡皮"
+			"txt": "橡皮擦"
 		},
 		{
 			"id": "mainwindow.maskmenu.draw",
@@ -1789,7 +1789,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior",
-			"txt": "'@alignimages@'的行為"
+			"txt": "'@alignimages@'設置"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.subheading",
@@ -3188,7 +3188,7 @@
 		},
 		{
 			"id": "licenseinfo.company.singlecomputer",
-			"txt": "您正在使用公司許可證。每個許可證金鑰都可以在%0擁有的單臺電腦上啟用。此電腦上的每個使用者都可以使用PTGui。"
+			"txt": "您正在使用公司許可證。每個許可證序號都可以在%0擁有的單臺電腦上啟用。此電腦上的每個使用者都可以使用PTGui。"
 		},
 		{
 			"id": "licenseinfo.company.multipleecomputers",
@@ -3212,7 +3212,7 @@
 		},
 		{
 			"id": "licenseinfo.invalidkey",
-			"txt": "這不是有效的許可證金鑰。"
+			"txt": "這不是有效的許可證序號。"
 		},
 		{
 			"id": "licenseinfo.deactivate",
@@ -3220,11 +3220,11 @@
 		},
 		{
 			"id": "licenseinfo.deactivatetxt",
-			"txt": "按@licenseinfo.deactivate@將此許可證移至另一臺電腦，或在此電腦上使用其他許可證金鑰。"
+			"txt": "按@licenseinfo.deactivate@將此許可證移至另一臺電腦，或在此電腦上使用其他許可證序號。"
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"txt": "這將在此電腦上停用您的PTGui許可證。如果要將PTGui移動到其他電腦，或者要在此電腦上使用其他許可證金鑰，請執行此操作。\n\n如果你繼續，PTGui將退出，所以請先儲存你的工作。"
+			"txt": "這將在此電腦上停用您的PTGui許可證。如果要將PTGui移動到其他電腦，或者要在此電腦上使用其他許可證序號，請執行此操作。\n\n如果你繼續，PTGui將退出，所以請先儲存你的工作。"
 		},
 		{
 			"id": "licenseinfo.manageactivations",
@@ -3236,11 +3236,11 @@
 		},
 		{
 			"id": "licenseinfo.needprokey",
-			"txt": "您的許可證金鑰僅對標準版本的PTGui有效。請輸入PTGui Pro的許可證金鑰，或者下載標準版本。"
+			"txt": "您的許可證序號僅對標準版本的PTGui有效。請輸入PTGui Pro的許可證序號，或者下載標準版本。"
 		},
 		{
 			"id": "licenseinfo.oldkey",
-			"txt": "這是舊的許可證金鑰，對此版本的PTGui無效。"
+			"txt": "這是舊的許可證序號，對此版本的PTGui無效。"
 		},
 		{
 			"id": "licenseinfo.needvalidate",
@@ -3276,7 +3276,7 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation1",
-			"txt": "在另一臺電腦上，轉到%0\n\n在那裡，輸入您的註冊名稱和金鑰以及以下程式碼：\n\n"
+			"txt": "在另一臺電腦上，轉到%0\n\n在那裡，輸入您的註冊名稱和序號以及以下程式碼：\n\n"
 		},
 		{
 			"id": "licenseinfo.offlineactivation2",
@@ -3337,11 +3337,11 @@
 		},
 		{
 			"id": "txt.welcomevideotutorial",
-			"txt": "歡迎來到%0！如果您是第一次使用PTGui，我們建議您觀看我們的視訊教程。你想現在就這樣做嗎？"
+			"txt": "歡迎來到%0！如果您是第一次使用PTGui，我們建議您觀看我們的影片教學。你想現在就這樣做嗎？"
 		},
 		{
 			"id": "txt.welcomevideotutorial.later",
-			"txt": "沒問題。您可以隨時選擇@menubar.help@ | @menubar.help.videotutorial@觀看視訊教程。"
+			"txt": "沒問題。您可以隨時選擇@menubar.help@ | @menubar.help.videotutorial@觀看影片教學。"
 		},
 		{
 			"id": "txt.seewhatsnew",
@@ -3711,7 +3711,7 @@
 		},
 		{
 			"id": "batchstitcher.confirmabort",
-			"txt": "批次處理器忙於處理專案;這將被中止。繼續？"
+			"txt": "批次處理器忙於處理專案; 這將被中止。需要繼續嗎？"
 		},
 		{
 			"id": "batchstitcher.asksave",
@@ -4168,7 +4168,7 @@
 		{
 			"id": "lensdatabase.additemtxt",
 			"machinetranslated": true,
-			"txt": "要新增專案，請單擊@mainwindow.tabs.lenssettings@選項卡中的@mainwindow.lensparams.lensdatabasebutton@按鈕，然後選擇@save@。要檢視@mainwindow.tabs.lenssettings@選項卡，PTGui必須處於高級模式。"
+			"txt": "要新增專案，請單擊@mainwindow.tabs.lenssettings@選項卡中的@mainwindow.lensparams.lensdatabasebutton@按鈕，然後選擇@save@。<br>要檢視@mainwindow.tabs.lenssettings@選項卡，PTGui必須處於高級模式。"
 		},
 		{
 			"id": "lensdatabase.addmappingtxt",
@@ -5408,7 +5408,7 @@
 		{
 			"id": "trialversion.buyptgui",
 			"machinetranslated": true,
-			"txt": "買PTGui"
+			"txt": "購買"
 		},
 		{
 			"id": "cubicconverter.convertto",
@@ -5819,23 +5819,23 @@
 		{
 			"id": "activationdialog.tx1",
 			"machinetranslated": true,
-			"txt": "註冊金鑰包含在您購買%0許可證后發送給您的訂單確認電子郵件中。"
+			"txt": "註冊序號包含在您購買%0許可證后發送給您的訂單確認電子郵件中。"
 		},
 		{
 			"id": "activationdialog.txt2_mac",
 			"machinetranslated": true,
-			"txt": "請使用複製/貼上輸入許可證金鑰：在電子郵件應用程式中選擇金鑰，然後按Cmd + C.然後單擊上面的文字欄位並按Cmd + V貼上程式碼。"
+			"txt": "請使用複製/貼上輸入許可證序號：在電子郵件應用程式中選擇序號，然後按Cmd + C.然後單擊上面的文字欄位並按Cmd + V貼上程式碼。"
 		},
 		{
 			"id": "activationdialog.txt2_nonmac",
 			"machinetranslated": true,
-			"txt": "請使用複製/貼上輸入許可證金鑰：在電子郵件應用程式中選擇金鑰，然後按Ctrl + C.然後單擊上面的文字欄位並按Ctrl + V貼上程式碼。"
+			"txt": "請使用複製/貼上輸入許可證序號：在電子郵件應用程式中選擇序號，然後按Ctrl + C.然後單擊上面的文字欄位並按Ctrl + V貼上程式碼。"
 		},
 		{
 			"id": "activationdialog.txt3",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "如果您丟失了註冊碼， <a href=0>請單擊此處以獲取您的金鑰。</a>"
+			"txt": "如果您丟失了註冊碼， <a href=0>請單擊此處以獲取您的序號。</a>"
 		},
 		{
 			"id": "activationdialog.txt4",
@@ -5850,7 +5850,7 @@
 		{
 			"id": "activationdialog.regkey",
 			"machinetranslated": true,
-			"txt": "註冊金鑰："
+			"txt": "註冊序號："
 		},
 		{
 			"id": "activationdialog.manageactivations",
@@ -5905,7 +5905,7 @@
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions",
 			"machinetranslated": true,
-			"txt": "@batchstitcher@的操作"
+			"txt": "@batchstitcher@設置"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.stitchingongpu",
@@ -6017,7 +6017,7 @@
 		{
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": true,
-			"txt": "永遠不要在啟動時詢問是否應停用GPU加速"
+			"txt": "永遠不要在啟動時詢問是否停用GPU加速"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
@@ -6054,12 +6054,12 @@
 			"id": "txt.licenseinfo.reactivationwarning",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "@txt.mustbereactivated@立即<a href=0>續訂激活...</a>"
+			"txt": "@txt.mustbereactivated@立即<a href=0>續訂啟用...</a>"
 		},
 		{
 			"id": "txt.mustbereactivated",
 			"machinetranslated": true,
-			"txt": "在%0之前，必須在此計算機上重新激活PTGui。"
+			"txt": "在%0之前，必須在此電腦上重新啟用PTGui。"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
@@ -6114,7 +6114,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
 			"machinetranslated": true,
-			"txt": "本底噪聲"
+			"txt": "雜訊"
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
@@ -6129,7 +6129,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.blending",
 			"machinetranslated": true,
-			"txt": "混合："
+			"txt": "混合模式："
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
@@ -6144,7 +6144,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
 			"machinetranslated": true,
-			"txt": "紅色口罩："
+			"txt": "紅色遮罩："
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
@@ -6299,7 +6299,7 @@
 		{
 			"id": "txt.saturation",
 			"machinetranslated": true,
-			"txt": "飽和"
+			"txt": "飽和："
 		},
 		{
 			"id": "txt.saturation.shadows",
@@ -6334,12 +6334,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
 			"machinetranslated": true,
-			"txt": "Half float"
+			"txt": "半浮動"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
 			"machinetranslated": true,
-			"txt": "Float"
+			"txt": "浮動"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
@@ -6404,17 +6404,17 @@
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
 			"machinetranslated": true,
-			"txt": "問我該怎麼辦"
+			"txt": "詢問"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
 			"machinetranslated": true,
-			"txt": "應用上面的而不問"
+			"txt": "不再詢問"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
 			"machinetranslated": true,
-			"txt": "忽視"
+			"txt": "忽略"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
@@ -6424,27 +6424,27 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"txt": "攪拌機："
+			"txt": "融合："
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
 			"machinetranslated": true,
-			"txt": "零重疊"
+			"txt": "融疊無接縫"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
 			"machinetranslated": true,
-			"txt": "多頻"
+			"txt": "多重融疊"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
 			"machinetranslated": true,
-			"txt": "不要融合"
+			"txt": "無"
 		},
 		{
 			"id": "activationdialog.heading_v2",
 			"machinetranslated": true,
-			"txt": "必須在此計算機上激活%0。請輸入您的許可證密鑰："
+			"txt": "必須在此電腦上啟用%0。請輸入您的許可證序號："
 		},
 		{
 			"id": "activationdialog.txt2_mac_v2",
@@ -6465,7 +6465,7 @@
 		{
 			"id": "licenseinfo.offlineactivation1_v2",
 			"machinetranslated": true,
-			"txt": "在另一台計算機上，轉到%0\n\n在此輸入以下代碼和您的許可證密鑰：\n\n"
+			"txt": "在另一台電腦上，轉到%0\n\n在此輸入以下代碼和您的許可證密鑰：\n\n"
 		},
 		{
 			"id": "licenseinfo.expiretxt_v2",
@@ -6491,7 +6491,7 @@
 		{
 			"id": "proxysettings.header",
 			"machinetranslated": true,
-			"txt": "如果此計算機通過代理服務器連接到Internet，請在此處輸入詳細信息："
+			"txt": "如果此電腦通過代理服務器連接到網路，請在此處輸入詳細信息："
 		},
 		{
 			"id": "proxysettings.proxyserverurl",
@@ -6823,7 +6823,7 @@
 			"id": "mainwindow.toolbar.saveproject",
 			"machinetranslated": true,
 			"label": "@menubar.file.saveproject@",
-			"helptext": "將目前的PTGui專案儲存到磁碟。這使您可以繼續處理中斷的全景圖。<br><br>請注意，這不會儲存實際的全景圖;使用@mainwindow.createpanoramatab.createpanorama@功能縫合全景影像。"
+			"helptext": "將目前的PTGui專案儲存到硬碟。這使您可以繼續處理中斷的全景圖。<br><br>請注意，這不會儲存實際的全景圖;使用@mainwindow.createpanoramatab.createpanorama@功能縫合全景影像。"
 		},
 		{
 			"id": "mainwindow.toolbar.undo",
@@ -6887,7 +6887,7 @@
 			"id": "mainwindow.toolbar.help",
 			"machinetranslated": true,
 			"label": "@help@",
-			"helptext": "顯示目前所選選項卡的幫助資訊。"
+			"helptext": "顯示目前所選，選項卡的幫助資訊。"
 		},
 		{
 			"id": "projectassistant.loadimages",
@@ -6905,13 +6905,13 @@
 			"id": "projectassistant.rotateccw",
 			"machinetranslated": true,
 			"label": "逆時針旋轉",
-			"helptext": "逆時針旋轉所有影像。如果影像已經對齊，則會將全景圖旋轉為整體。"
+			"helptext": "逆時針旋轉所有影像。如果影像已經對齊，則會將全景圖整體旋轉。"
 		},
 		{
 			"id": "projectassistant.rotatecw",
 			"machinetranslated": true,
 			"label": "順時針旋轉",
-			"helptext": "順時針旋轉所有影像。如果影像已經對齊，則會將全景圖旋轉為整體。"
+			"helptext": "順時針旋轉所有影像。如果影像已經對齊，則會將全景圖整體旋轉。"
 		},
 		{
 			"id": "projectassistant.isprealigned",
@@ -7313,13 +7313,13 @@
 			"id": "exposurehdrtab.exposurecompensation",
 			"machinetranslated": true,
 			"helptext": "調整自動曝光引起的曝光差異。",
-			"morehelptext": "<br><br>攪拌器可以稍微補償曝光差異，但是爲了獲得最佳結果，重疊影像應該具有大致相同的曝光。<br><br>如果啟用了自動曝光（例如，使用相機的Av模式時），相鄰影像可能具有不同的曝光等級。曝光補償檢查EXIF數據並將每張影像的曝光量調整為拼接前的平均曝光量。可與色調對映結合使用以應對高對比度場景。"
+			"morehelptext": "<br><br>混合模式可以稍微補償曝光差異，但是爲了獲得最佳結果，重疊影像應該具有大致相同的曝光。<br><br>如果啟用了自動曝光（例如，使用相機的Av模式時），相鄰影像可能具有不同的曝光等級。曝光補償檢查EXIF數據並將每張影像的曝光量調整為拼接前的平均曝光量。可與色調對映結合使用以應對高對比度場景。"
 		},
 		{
 			"id": "exposurehdrtab.optimizenow",
 			"machinetranslated": true,
 			"helptext": "執行曝光優化。",
-			"morehelptext": "<br><br>分析來自不同影像的重疊像素。根據@settings@視窗中啟用的內容，這將調整漸暈，曝光，相機應對曲線，白平衡和@lensflare@補償，直到重疊像素之間的差異最小化。<br><br>因為它需要分析實際的重疊像素，所以只有在全景圖準確對齊后才能使用此功能。"
+			"morehelptext": "<br><br>分析來自不同影像的重疊像素。根據@settings@視窗中啟用的內容，這將調整漸暈，曝光，相機應對曲線，白平衡和@lensflare@補償，直到重疊像素之間的差異最小化。<br><br>因為它需要分析實際的重疊像素，所以只有在全景圖準確對齊後才能使用此功能。"
 		},
 		{
 			"id": "exposurehdrtab.settings",
@@ -7737,7 +7737,7 @@
 		{
 			"id": "panoeditor.toolbar.help",
 			"machinetranslated": true,
-			"label": "幫幫我",
+			"label": "幫助",
 			"helptext": "顯示全景編輯器的幫助資訊。"
 		},
 		{
@@ -7917,7 +7917,7 @@
 		{
 			"id": "detailviewer.toolbar.help",
 			"machinetranslated": true,
-			"label": "幫幫我",
+			"label": "幫助",
 			"helptext": "顯示詳細資訊檢視器的幫助資訊。"
 		},
 		{
@@ -8989,7 +8989,7 @@
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
 			"machinetranslated": true,
 			"helptext": "控制紅色遮罩的行為（位於@mainwindow.tabs.mask@選項卡中）。",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>：@mainwindow.tabs.mask@選項卡中的紅色區域將在全景圖中變為透明。如果沒有其他重疊的圖像，則在縫合的全景圖中會出現一個孔。在分層輸出（使用@mainwindow.createpanoramatab.output.individuallayers@選項創建）中，紅色遮罩的區域將變為透明。<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>：紅色遮罩僅用於指示哪些區域在混合全景圖中不可見。攪拌器通過將接縫移開而避開這些區域。但是，如果沒有其他重疊的圖像可以填補空白，則紅色的蒙版區域仍將出現在混合全景圖中。分層輸出不受紅色遮罩的影響。"
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>：@mainwindow.tabs.mask@選項卡中的紅色區域將在全景圖中變為透明。如果沒有其他重疊的圖像，則在縫合的全景圖中會出現一個孔。在分層輸出（使用@mainwindow.createpanoramatab.output.individuallayers@選項創建）中，紅色遮罩的區域將變為透明。<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>：紅色遮罩僅用於指示哪些區域在混合全景圖中不可見。混合模式通過將接縫移開而避開這些區域。但是，如果沒有其他重疊的圖像可以填補空白，則紅色的蒙版區域仍將出現在混合全景圖中。分層輸出不受紅色遮罩的影響。"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
@@ -9206,7 +9206,7 @@
 			"id": "proxysettings.proxyserverurl",
 			"machinetranslated": true,
 			"helptext": "代理服務器的地址，協議和端口",
-			"morehelptext": "<br><br>輸入代理服務器的URL，包括協議和端口號。例如：<br><br><b>http://proxy.example.com:8888</b>（HTTP代理）<br><b>socks5://proxy.example.com:1080</b> （SOCKS代理）<br><br>代理服務器應配置為允許HTTPS CONNECT。如果計算機無需代理服務器即可連接到Internet，則將該字段保留為空。"
+			"morehelptext": "<br><br>輸入代理服務器的URL，包括協議和端口號。例如：<br><br><b>http://proxy.example.com:8888</b>（HTTP代理）<br><b>socks5://proxy.example.com:1080</b> （SOCKS代理）<br><br>代理服務器應配置為允許HTTPS CONNECT。如果電腦無需代理服務器即可連接到Internet，則將該字段保留為空。"
 		},
 		{
 			"id": "proxysettings.proxyserverusername",
@@ -9294,7 +9294,7 @@
 		{
 			"id": "mainwindow.masktab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>拼接全景圖時，PTGui預設情況下將接縫大致放置在兩個源影像之間的重疊區域的中間。特別是當全景圖包含移動的物體或人時，這可能偶爾導致部分切斷的物體，或縫合的全景圖中沒有肢體的人。這可以通過使用遮罩來防止：遮罩告訴拼接器源影像的哪些部分應該或不應該在最終的全景中可見。此外，可以使用掩模來防止在某些區域中產生控制點。<br><br>有兩種類別的掩模： <b>紅色</b>掩模表示源影像的一部分，在最終的全景圖中應該是不可見的;軟體將使用其他源影像的重疊區域來覆蓋缺失的部分。 <b>綠色</b>遮罩告訴攪拌器在拼接全景圖中必須顯示某個部分，即它將優先於其他影像像素上的綠色遮罩像素。<br><br>控制點產生器（和「@alignimages@」）不會將控制點放在紅色遮罩區域中。這對於防止天空中移動的云上的控制點或放置在三腳架上的控制點是有用的。<br><br>可以在全景編輯視窗和細節檢視器中實時觀察遮罩繪畫對拼接全景的影響。如果選擇@panoeditor.menubar.blended@，則會考慮掩模。在@panoeditor.menubar.showseams@模式下，紅線將顯示由於遮罩而導致的接縫位置變化。<br><br>要繪製遮罩，請使用滑鼠左鍵在影像中繪製。使用Shift +單擊繪製直線。可以使用下面的滑塊或使用K和L鍵更改繪畫工具的大小。可以使用@mainwindow.maskmenu.fill@工具填充封閉區域。<br><br>可以複製，貼上，載入和儲存遮罩。要一次將遮罩複製到多個影像，請轉到@mainwindow.tabs.sourceimages@選項卡，選擇影像，右鍵單擊並選擇@pastemask@。<br><br>使用@menubar.view@菜單和工具欄中的@menubar.view.previousimage@ / @menubar.view.nextimage@快捷方式切換到上一個或下一個影像。<br><br>可以在顯示單個影像或兩個影像並排顯示之間切換。"
+			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>拼接全景圖時，PTGui預設情況下將接縫大致放置在兩個源影像之間的重疊區域的中間。特別是當全景圖包含移動的物體或人時，這可能偶爾導致部分切斷的物體，或縫合的全景圖中沒有肢體的人。這可以通過使用遮罩來防止：遮罩告訴拼接器源影像的哪些部分應該或不應該在最終的全景中可見。此外，可以使用掩模來防止在某些區域中產生控制點。<br><br>有兩種類別的掩模： <b>紅色</b>掩模表示源影像的一部分，在最終的全景圖中應該是不可見的;軟體將使用其他源影像的重疊區域來覆蓋缺失的部分。 <b>綠色</b>遮罩告訴混合在拼接全景圖中必須顯示某個部分，即它將優先於其他影像像素上的綠色遮罩像素。<br><br>控制點產生器（和「@alignimages@」）不會將控制點放在紅色遮罩區域中。這對於防止天空中移動的云上的控制點或放置在三腳架上的控制點是有用的。<br><br>可以在全景編輯視窗和細節檢視器中實時觀察遮罩繪畫對拼接全景的影響。如果選擇@panoeditor.menubar.blended@，則會考慮掩模。在@panoeditor.menubar.showseams@模式下，紅線將顯示由於遮罩而導致的接縫位置變化。<br><br>要繪製遮罩，請使用滑鼠左鍵在影像中繪製。使用Shift +單擊繪製直線。可以使用下面的滑塊或使用K和L鍵更改繪畫工具的大小。可以使用@mainwindow.maskmenu.fill@工具填充封閉區域。<br><br>可以複製，貼上，載入和儲存遮罩。要一次將遮罩複製到多個影像，請轉到@mainwindow.tabs.sourceimages@選項卡，選擇影像，右鍵單擊並選擇@pastemask@。<br><br>使用@menubar.view@菜單和工具欄中的@menubar.view.previousimage@ / @menubar.view.nextimage@快捷方式切換到上一個或下一個影像。<br><br>可以在顯示單個影像或兩個影像並排顯示之間切換。"
 		},
 		{
 			"id": "mainwindow.imageparamstab",

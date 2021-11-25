@@ -6099,6 +6099,15 @@
 {
     "id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
     "txt": "Masking pushes back seams"
+},
+{
+    "id": "options.monitorcolorprofile",
+    "txt": "Monitor color profile:",
+    "txtfortranslate": "Color profile for computer screen:"
+},
+{
+    "id": "options.monitorcolorprofile.windowsdefault",
+    "txt": "Use Windows Color Settings"
 }
 
 
@@ -8343,6 +8352,11 @@
             "id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
             "helptext": "Place the seams away from any masked areas.",
             "morehelptext": "<br><br>If enabled, the seams will be routed at a distance from any red or green masked areas. If disabled, the seams will stay close to the middle of the overlap area even if masks are placed nearby.<br><br>Only available for the @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ blender, and if @panoramaeditor.sidebar.blendsettings.seamfinding@ is disabled."
+        },
+        {
+            "id": "options.monitorcolorprofile",
+            "helptext": "Choose the color profile to use for images displayed in the PTGui user interface. Thid setting is used for display only, generated panoramas are not affected.",
+            "morehelptext": "<br><br>If your computer has a calibrated display, you can load its color profile here so that PTGui the PTGui user interface will show the correct colors.<br><br>Under Windows the same can be achieved by configuring the color profile in Windows Color Settings.<br><br>PTGui for Linux will use sRGB if no color profile is loaded here."
         }
     ],
     "helppages": [

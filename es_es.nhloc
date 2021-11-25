@@ -7459,6 +7459,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Enmascaramiento empuja las costuras"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Perfil de color para pantalla:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Usar la configuración de color de Windows"
 		}
 	],
 	"tooltips": [
@@ -10170,6 +10180,12 @@
 			"machinetranslated": true,
 			"helptext": "Coloque las costuras lejos de las áreas enmascaradas.",
 			"morehelptext": "<br><br>Si está habilitado, las uniones se enrutarán a una distancia de cualquier área enmascarada roja o verde. Si está desactivado, las costuras permanecerán cerca del centro del área de superposición incluso si se colocan máscaras cerca.<br><br>Solo disponible para la licuadora @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ y si @panoramaeditor.sidebar.blendsettings.seamfinding@ está deshabilitada."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Elija el perfil de color que se utilizará para las imágenes que se muestran en la interfaz de usuario de PTGui. Esta configuración se usa solo para visualización, los panoramas generados no se ven afectados.",
+			"morehelptext": "<br><br>Si su computadora tiene una pantalla calibrada, puede cargar su perfil de color aquí para que PTGui la interfaz de usuario de PTGui muestre los colores correctos.<br><br>En Windows, se puede lograr lo mismo configurando el perfil de color en Configuración de color de Windows.<br><br>PTGui para Linux utilizará sRGB si no se carga ningún perfil de color aquí."
 		}
 	],
 	"helppages": [

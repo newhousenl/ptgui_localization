@@ -7438,6 +7438,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Маскировка отодвигает швы"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Цветовой профиль экрана:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Использовать настройки цвета Windows"
 		}
 	],
 	"tooltips": [
@@ -10149,6 +10159,12 @@
 			"machinetranslated": true,
 			"helptext": "Расположите швы подальше от маскируемых участков.",
 			"morehelptext": "<br><br>Если этот параметр включен, швы будут прокладываться на расстоянии от любых красных или зеленых маскированных областей. Если этот параметр отключен, швы будут оставаться ближе к середине области перекрытия, даже если маски размещены рядом.<br><br>Доступно только для блендера @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@, и если @panoramaeditor.sidebar.blendsettings.seamfinding@ отключен."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Выберите цветовой профиль, который будет использоваться для изображений, отображаемых в пользовательском интерфейсе PTGui. Настройка Thid используется только для отображения, на сгенерированные панорамы это не влияет.",
+			"morehelptext": "<br><br>Если ваш компьютер имеет откалиброванный дисплей, вы можете загрузить его цветовой профиль сюда, чтобы PTGui в пользовательском интерфейсе PTGui отображал правильные цвета.<br><br>В Windows того же можно добиться, настроив цветовой профиль в настройках цвета Windows.<br><br>PTGui для Linux будет использовать sRGB, если здесь не загружен цветовой профиль."
 		}
 	],
 	"helppages": [

@@ -7449,6 +7449,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Máscara empurra costuras para trás"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Perfil de cor para a tela:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Use as configurações de cores do Windows"
 		}
 	],
 	"tooltips": [
@@ -10160,6 +10170,12 @@
 			"machinetranslated": true,
 			"helptext": "Coloque as costuras longe de qualquer área mascarada.",
 			"morehelptext": "<br><br>Se ativado, as costuras serão encaminhadas à distância de qualquer área mascarada em vermelho ou verde. Se desativada, as costuras ficarão próximas ao meio da área de sobreposição, mesmo se as máscaras forem colocadas nas proximidades.<br><br>Disponível apenas para o liquidificador @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ estiver desabilitado."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Escolha o perfil de cor a ser usado para imagens exibidas na interface de usuário do PTGui. Esta configuração é usada apenas para exibição, os panoramas gerados não são afetados.",
+			"morehelptext": "<br><br>Se o seu computador tiver um monitor calibrado, você pode carregar seu perfil de cor aqui para que a interface de usuário do PTGui PTGui mostre as cores corretas.<br><br>No Windows, o mesmo pode ser obtido configurando o perfil de cores nas Configurações de cores do Windows.<br><br>O PTGui para Linux usará sRGB se nenhum perfil de cor for carregado aqui."
 		}
 	],
 	"helppages": [

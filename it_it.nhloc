@@ -7042,6 +7042,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Mascheratura spinge le cuciture"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Profilo colore per lo schermo:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Usa le impostazioni del colore di Windows"
 		}
 	],
 	"tooltips": [
@@ -9753,6 +9763,12 @@
 			"machinetranslated": true,
 			"helptext": "Posiziona le cuciture lontano dalle aree mascherate.",
 			"morehelptext": "<br><br>Se abilitato, le cuciture verranno instradate a una certa distanza da eventuali aree mascherate rosse o verdi. Se disabilitato, le cuciture rimarranno vicino al centro dell'area di sovrapposizione anche se le maschere sono posizionate nelle vicinanze.<br><br>Disponibile solo per il frullatore @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ è disabilitato."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Scegli il profilo colore da utilizzare per le immagini visualizzate nell'interfaccia utente di PTGui. Questa impostazione viene utilizzata solo per la visualizzazione, i panorami generati non sono interessati.",
+			"morehelptext": "<br><br>Se il tuo computer ha un display calibrato, puoi caricare il suo profilo colore qui in modo che PTGui l'interfaccia utente di PTGui mostri i colori corretti.<br><br>Sotto Windows lo stesso può essere ottenuto configurando il profilo colore in Windows Color Settings.<br><br>PTGui per Linux utilizzerà sRGB se nessun profilo colore è caricato qui."
 		}
 	],
 	"helppages": [

@@ -6081,6 +6081,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Maskieren drückt die Nähte zurück"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Farbprofil für Bildschirm:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Verwende die Windows-Farbeinstellungen"
 		}
 	],
 	"tooltips": [
@@ -8792,6 +8802,12 @@
 			"machinetranslated": true,
 			"helptext": "Platziere die Nähte von maskierten Bereichen entfernt.",
 			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Nähte in einem Abstand von rot oder grün maskierten Bereichen verlegt. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn Masken in der Nähe platziert werden.<br><br>Nur für den Mixer @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ verfügbar und wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ deaktiviert ist."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Farbprofildas für Bilder verwendet werden soll, die in der PTGui-Benutzeroberfläche angezeigt werden. Diese Einstellung wird nur für die Anzeige verwendet, erzeugte Panoramen sind davon nicht betroffen.",
+			"morehelptext": "<br><br>Wenn Ihr Computer über ein kalibriertes Display verfügt, können Sie hier dessen Farbprofil laden, damit PTGui die PTGui-Benutzeroberfläche die richtigen Farben anzeigt.<br><br>Unter Windows kann das gleiche erreicht werden, indem das Farbprofil in den Windows-Farbeinstellungen konfiguriert wird.<br><br>PTGui für Linux verwendet sRGB, wenn hier kein Farbprofil geladen ist."
 		}
 	],
 	"helppages": [

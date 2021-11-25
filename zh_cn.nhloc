@@ -7459,6 +7459,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "遮罩推回接缝"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "电脑屏幕的颜色配置文件："
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "使用 Windows 颜色设置"
 		}
 	],
 	"tooltips": [
@@ -10170,6 +10180,12 @@
 			"machinetranslated": true,
 			"helptext": "将接缝放置在远离任何遮蔽区域的地方。",
 			"morehelptext": "<br><br>如果启用，则接缝将与任何红色或绿色蒙版区域保持一定距离。如果禁用，则即使在附近放置遮罩，接缝也将保持在重叠区域的中间。<br><br>仅适用于@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@混合器，并且如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@。"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "选择要用于 PTGui 用户界面中显示的图像的颜色配置文件。此设置仅用于显示，生成的全景图不受影响。",
+			"morehelptext": "<br><br>如果您的计算机具有校准显示器，您可以在此处加载其颜色配置文件，以便 PTGui PTGui 用户界面将显示正确的颜色。<br><br>在 Windows 下，同样可以通过在 Windows 颜色设置中配置颜色配置文件来实现。<br><br>如果此处未加载颜色配置文件，Linux 版 PTGui 将使用 sRGB。"
 		}
 	],
 	"helppages": [

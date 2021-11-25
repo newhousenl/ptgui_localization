@@ -6070,6 +6070,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Maskování tlačí zpět švy"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Barevný profil pro obrazovku počítače:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Použijte Nastavení barev systému Windows"
 		}
 	],
 	"tooltips": [
@@ -8598,6 +8608,12 @@
 			"machinetranslated": true,
 			"helptext": "Umístěte švy od maskovaných oblastí.",
 			"morehelptext": "<br><br>Pokud je povoleno, švy budou směrovány ve vzdálenosti od jakékoli červené nebo zelené maskované oblasti. Pokud je deaktivováno, švy zůstanou blízko středu oblasti překrytí, i když jsou poblíž umístěny masky.<br><br>K dispozici pouze pro mixér @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ a pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ zakázán."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Vyberte profil barev, který chcete použít pro obrázky zobrazené v uživatelském rozhraní PTGui. Toto nastavení se používá pouze pro zobrazení, generovaná panoramata nejsou ovlivněna.",
+			"morehelptext": "<br><br>Pokud má váš počítač kalibrovaný displej, můžete zde načíst jeho barevný profil, aby PTGui uživatelské rozhraní PTGui zobrazovalo správné barvy.<br><br>V systému Windows lze toho samého dosáhnout konfigurací profilu barev v Nastavení barev systému Windows.<br><br>Pokud zde není načten žádný barevný profil, PTGui pro Linux použije sRGB."
 		}
 	],
 	"helppages": [

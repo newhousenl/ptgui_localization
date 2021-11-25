@@ -6080,6 +6080,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Masker duwt de naad weg"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Kleurprofiel voor beeldscherm:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Windows-kleurinstellingen gebruiken"
 		}
 	],
 	"tooltips": [
@@ -8352,6 +8362,12 @@
 			"machinetranslated": true,
 			"helptext": "Plaats de naden uit de buurt van gemaskeerde gebieden.",
 			"morehelptext": "<br><br>Indien ingeschakeld, worden de naden op een afstand van rode of groene gemaskeerde gebieden gerouteerd. Indien uitgeschakeld, blijven de naden dicht bij het midden van het overlappingsgebied, zelfs als er maskers in de buurt zijn geplaatst.<br><br>Alleen beschikbaar voor de @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@-menger en als @panoramaeditor.sidebar.blendsettings.seamfinding@ is uitgeschakeld."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Het kleurprofiel dat gebruikt wordt voor de PTGui gebruikersinterface. Deze instelling wordt alleen gebruikt voor weergave, gegenereerde panorama's worden niet beïnvloed.",
+			"morehelptext": "<br><br>Als uw computer een gekalibreerd beeldscherm heeft, kunt u het kleurprofiel hier laden, zodat de kleuren juist worden weergegeven..<br><br>Onder Windows kan hetzelfde worden bereikt door het kleurprofiel te configureren in Windows Kleurinstellingen.<br><br>PTGui voor Linux gebruikt sRGB als hier geen kleurprofiel is geladen."
 		}
 	],
 	"helppages": [

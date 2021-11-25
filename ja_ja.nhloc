@@ -6080,6 +6080,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "マスキングは縫い目を押します"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "コンピューター画面のカラープロファイル："
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Windowsの色設定を使用する"
 		}
 	],
 	"tooltips": [
@@ -8350,6 +8360,12 @@
 			"machinetranslated": true,
 			"helptext": "縫い目をマスクされた領域から離して配置します。",
 			"morehelptext": "<br><br>有効にすると、継ぎ目は赤または緑のマスクされた領域から離れた場所にルーティングされます。無効にすると、マスクが近くに配置されていても、継ぎ目は重なり領域の中央近くに留まります。<br><br>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ブレンダーでのみ使用可能で、@panoramaeditor.sidebar.blendsettings.seamfinding@が無効になっている場合。"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "PTGuiユーザーインターフェイスに表示される画像に使用するカラープロファイルを選択します。この設定は表示のみに使用され、生成されたパノラマは影響を受けません。",
+			"morehelptext": "<br><br>コンピューターにキャリブレーションされたディスプレイがある場合は、PTGuiのカラープロファイルをここにロードして、PTGuiのPTGuiユーザーインターフェイスに正しい色が表示されるようにすることができます。<br><br>Windowsでは、Windowsの[色の設定]でカラープロファイルを構成することで同じことができます。<br><br>ここにカラープロファイルがロードされていない場合、PTGui forLinuxはsRGBを使用します。"
 		}
 	],
 	"helppages": [

@@ -7463,6 +7463,16 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": true,
 			"txt": "Masquage repousse les coutures"
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"txt": "Profil de couleur pour écran:"
+		},
+		{
+			"id": "options.monitorcolorprofile.windowsdefault",
+			"machinetranslated": true,
+			"txt": "Utiliser les paramètres de couleur Windows"
 		}
 	],
 	"tooltips": [
@@ -10173,6 +10183,12 @@
 			"machinetranslated": true,
 			"helptext": "Placez les coutures loin de toute zone masquée.",
 			"morehelptext": "<br><br>Si cette option est activée, les coutures seront acheminées à distance de toute zone masquée rouge ou verte. Si elle est désactivée, les coutures resteront proches du milieu de la zone de chevauchement même si des masques sont placés à proximité.<br><br>Uniquement disponible pour le mélangeur @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@, et si @panoramaeditor.sidebar.blendsettings.seamfinding@ est désactivé."
+		},
+		{
+			"id": "options.monitorcolorprofile",
+			"machinetranslated": true,
+			"helptext": "Le profil de couleur à utiliser pour les images affichées dans l'interface utilisateur PTGui. Ce paramètre est utilisé uniquement pour l'affichage, les panoramas générés ne sont pas affectés.",
+			"morehelptext": "<br><br>Si votre ordinateur dispose d'un écran calibré, vous pouvez charger son profil de couleurs ici afin que PTGui l'interface utilisateur de PTGui affiche les bonnes couleurs.<br><br>Sous Windows, la même chose peut être obtenue en configurant le profil de couleur dans les paramètres de couleur de Windows.<br><br>PTGui pour Linux utilisera sRGB si aucun profil de couleur n'est chargé ici."
 		}
 	],
 	"helppages": [

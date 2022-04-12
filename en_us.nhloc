@@ -2073,6 +2073,26 @@
     "id": "mainwindow.projectsettings.templatebehavior.linkimages.dontchange",
     "txt": "Don't modify the way images are linked"
 },
+
+{
+    "id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+    "txt": "Copy camera response curve:"
+},
+{
+    "id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+    "txt": "Yes"
+},
+{
+    "id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+    "txt": "No"
+},
+{
+    "id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+    "txt": "Yes, except for RAW images"
+},
+
+
+
 {
     "id": "mainwindow.projectsettings.batchbuilder",
     "txt": "Batch Builder behavior"
@@ -6942,6 +6962,11 @@
             "id": "projectsettingstab.templatebehavior.linkimages",
             "helptext": "Controls whether and how linking of images is affected when applying this project as a template.",
             "morehelptext": "<br><br>For HDR panoramas bracketed exposures may be linked. Linked images are forced to have the same image parameters, so that they are effectively treated as a single image. When applying a template it's possible that the bracketed exposures in the target project are not yet linked, or that the target project has a different number of bracketed exposures compared to the template project.<br><br>Therefore PTGui Pro can change the linking of images when applying a template. This setting also affects the Batch Builder: images are linked according to this setting when generating project files.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b>link the images in the target project exactly as in the template project (i.e. assume the images in the target project have the same number of bracketed exposures).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b>detect bracketed exposures by looking for repeating sequences in the source images' exposure parameters. This executes the function @menubar.images.linkbracketed@ - @menubar.images.linkbracketed@.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b>keep the target project as it is.<br><br>After linking the images, the template's settings are applied to the target project for each linked group of images. The number of bracketed exposures may be different in the template and target project."
+        },
+        {
+            "id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+            "helptext": "Controls whether the camera response curve is copied from the template.",
+            "morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> All camera response curves are copied from the template project, and the @mainwindow.imageparameters.cameracurve@ fields in the @mainwindow.tabs.imageparameters@ tab are copied from the template.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> The camera response curves are copied from the template, and the @mainwindow.imageparameters.cameracurve@ fields in the @mainwindow.tabs.imageparameters@ tab are copied, except for RAW images. For RAW images, the @mainwindow.imageparameters.cameracurve@ field in the @mainwindow.tabs.imageparameters@ tab will remain set to @txt.cameracurve.linear@ even if the template uses an optimized camera curve. This is the recommended setting; it will ensure that the same template can be used for RAW and regular images.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> The camera response curve settings in the target project will not be modified."
         },
         {
             "id": "projectsettingstab.batchbuilder.useexif",

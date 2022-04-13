@@ -7448,6 +7448,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Использовать настройки цвета Windows"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Скопируйте кривую отклика камеры:"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "Да"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "Нет"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Да, за исключением изображений RAW"
 		}
 	],
 	"tooltips": [
@@ -10165,6 +10185,12 @@
 			"machinetranslated": true,
 			"helptext": "Выберите цветовой профиль, который будет использоваться для изображений, отображаемых в пользовательском интерфейсе PTGui. Настройка Thid используется только для отображения, на сгенерированные панорамы это не влияет.",
 			"morehelptext": "<br><br>Если ваш компьютер имеет откалиброванный дисплей, вы можете загрузить его цветовой профиль сюда, чтобы PTGui в пользовательском интерфейсе PTGui отображал правильные цвета.<br><br>В Windows того же можно добиться, настроив цветовой профиль в настройках цвета Windows.<br><br>PTGui для Linux будет использовать sRGB, если здесь не загружен цветовой профиль."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Определяет, копируется ли кривая отклика камеры из шаблона.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Все кривые отклика камеры копируются из шаблона проекта, а поля @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ копируются из шаблона.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Кривые отклика камеры копируются из шаблона, а поля @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ копируются, за исключением изображений RAW. Для изображений RAW в поле @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ останется значение @txt.cameracurve.linear@, даже если в шаблоне используется оптимизированная кривая камеры. Это рекомендуемая настройка; это гарантирует, что один и тот же шаблон можно использовать для RAW и обычных изображений.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> настройки кривой отклика камеры в целевом проекте не будут изменены."
 		}
 	],
 	"helppages": [

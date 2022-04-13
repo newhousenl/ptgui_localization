@@ -7469,6 +7469,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "使用 Windows 颜色设置"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "复制相机响应曲线："
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "是的"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "不"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "是的，RAW 图像除外"
 		}
 	],
 	"tooltips": [
@@ -10186,6 +10206,12 @@
 			"machinetranslated": true,
 			"helptext": "选择要用于 PTGui 用户界面中显示的图像的颜色配置文件。此设置仅用于显示，生成的全景图不受影响。",
 			"morehelptext": "<br><br>如果您的计算机具有校准显示器，您可以在此处加载其颜色配置文件，以便 PTGui PTGui 用户界面将显示正确的颜色。<br><br>在 Windows 下，同样可以通过在 Windows 颜色设置中配置颜色配置文件来实现。<br><br>如果此处未加载颜色配置文件，Linux 版 PTGui 将使用 sRGB。"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "控制是否从模板复制相机响应曲线。",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@：</b>所有相机响应曲线均从模板项目中复制，@mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段从模板中复制。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@：</b>从模板复制相机响应曲线，并复制 @mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段，RAW 图像除外。对于 RAW 图像，即使模板使用优化的相机曲线，@mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段仍将设置为 @txt.cameracurve.linear@。这是推荐的设置；它将确保相同的模板可用于 RAW 和常规图像。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@：</b>目标项目中的相机响应曲线设置不会被修改。"
 		}
 	],
 	"helppages": [

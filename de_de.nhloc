@@ -6091,6 +6091,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Verwende die Windows-Farbeinstellungen"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Kamerareaktionskurve kopieren:"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "Ja"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "Nein"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Ja, außer bei RAW-Bildern"
 		}
 	],
 	"tooltips": [
@@ -8808,6 +8828,12 @@
 			"machinetranslated": true,
 			"helptext": "Farbprofildas für Bilder verwendet werden soll, die in der PTGui-Benutzeroberfläche angezeigt werden. Diese Einstellung wird nur für die Anzeige verwendet, erzeugte Panoramen sind davon nicht betroffen.",
 			"morehelptext": "<br><br>Wenn Ihr Computer über ein kalibriertes Display verfügt, können Sie hier dessen Farbprofil laden, damit PTGui die PTGui-Benutzeroberfläche die richtigen Farben anzeigt.<br><br>Unter Windows kann das gleiche erreicht werden, indem das Farbprofil in den Windows-Farbeinstellungen konfiguriert wird.<br><br>PTGui für Linux verwendet sRGB, wenn hier kein Farbprofil geladen ist."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Steuert, ob die Kamerareaktionskurve aus der Vorlage kopiert wird.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle Kamerareaktionskurven werden aus dem Vorlagenprojekt kopiert, und die @mainwindow.imageparameters.cameracurve@-Felder auf der Registerkarte @mainwindow.tabs.imageparameters@ werden aus der Vorlage kopiert.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Die Kamerareaktionskurven werden aus der Vorlage kopiert, und die @mainwindow.imageparameters.cameracurve@-Felder auf der Registerkarte @mainwindow.tabs.imageparameters@ werden kopiert, mit Ausnahme von RAW-Bildern. Bei RAW-Bildern bleibt das Feld @mainwindow.imageparameters.cameracurve@ auf der Registerkarte @mainwindow.tabs.imageparameters@ auf @txt.cameracurve.linear@ eingestellt, selbst wenn die Vorlage eine optimierte Kamerakurve verwendet. Dies ist die empfohlene Einstellung; Dadurch wird sichergestellt, dass dieselbe Vorlage für RAW- und normale Bilder verwendet werden kann.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Die Einstellungen der Kamerareaktionskurve im Zielprojekt werden nicht geändert."
 		}
 	],
 	"helppages": [

@@ -7052,6 +7052,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Usa le impostazioni del colore di Windows"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Copia la curva di risposta della fotocamera:"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "sì"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "No"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Sì, ad eccezione delle immagini RAW"
 		}
 	],
 	"tooltips": [
@@ -9769,6 +9789,12 @@
 			"machinetranslated": true,
 			"helptext": "Scegli il profilo colore da utilizzare per le immagini visualizzate nell'interfaccia utente di PTGui. Questa impostazione viene utilizzata solo per la visualizzazione, i panorami generati non sono interessati.",
 			"morehelptext": "<br><br>Se il tuo computer ha un display calibrato, puoi caricare il suo profilo colore qui in modo che PTGui l'interfaccia utente di PTGui mostri i colori corretti.<br><br>Sotto Windows lo stesso può essere ottenuto configurando il profilo colore in Windows Color Settings.<br><br>PTGui per Linux utilizzerà sRGB se nessun profilo colore è caricato qui."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Controlla se la curva di risposta della telecamera viene copiata dal modello.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> tutte le curve di risposta della telecamera vengono copiate dal progetto del modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati dal modello.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> le curve di risposta della telecamera vengono copiate dal modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati, ad eccezione delle immagini RAW. Per le immagini RAW, il campo @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ rimarrà impostato su @txt.cameracurve.linear@ anche se il modello utilizza una curva della telecamera ottimizzata. Questa è l'impostazione consigliata; assicurerà che lo stesso modello possa essere utilizzato per immagini RAW e normali.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Le impostazioni della curva di risposta della telecamera nel progetto di destinazione non verranno modificate."
 		}
 	],
 	"helppages": [

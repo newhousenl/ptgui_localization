@@ -7469,6 +7469,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Usar la configuración de color de Windows"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Copie la curva de respuesta de la cámara:"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "Sí"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "No"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Sí, excepto las imágenes RAW"
 		}
 	],
 	"tooltips": [
@@ -10186,6 +10206,12 @@
 			"machinetranslated": true,
 			"helptext": "Elija el perfil de color que se utilizará para las imágenes que se muestran en la interfaz de usuario de PTGui. Esta configuración se usa solo para visualización, los panoramas generados no se ven afectados.",
 			"morehelptext": "<br><br>Si su computadora tiene una pantalla calibrada, puede cargar su perfil de color aquí para que PTGui la interfaz de usuario de PTGui muestre los colores correctos.<br><br>En Windows, se puede lograr lo mismo configurando el perfil de color en Configuración de color de Windows.<br><br>PTGui para Linux utilizará sRGB si no se carga ningún perfil de color aquí."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Controla si la curva de respuesta de la cámara se copia de la plantilla.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> todas las curvas de respuesta de la cámara se copian del proyecto de plantilla y los campos @mainwindow.imageparameters.cameracurve@ de la pestaña @mainwindow.tabs.imageparameters@ se copian de la plantilla.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> las curvas de respuesta de la cámara se copian de la plantilla y los campos @mainwindow.imageparameters.cameracurve@ de la pestaña @mainwindow.tabs.imageparameters@ se copian, excepto las imágenes RAW. Para imágenes RAW, el campo @mainwindow.imageparameters.cameracurve@ en la pestaña @mainwindow.tabs.imageparameters@ permanecerá establecido en @txt.cameracurve.linear@ incluso si la plantilla usa una curva de cámara optimizada. Esta es la configuración recomendada; se asegurará de que la misma plantilla se pueda usar para imágenes RAW y regulares.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> la configuración de la curva de respuesta de la cámara en el proyecto de destino no se modificará."
 		}
 	],
 	"helppages": [

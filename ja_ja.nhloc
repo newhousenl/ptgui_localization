@@ -6090,6 +6090,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Windowsの色設定を使用する"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "カメラの応答曲線をコピーします。"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "はい"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "いいえ"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "はい、RAW画像を除きます"
 		}
 	],
 	"tooltips": [
@@ -8366,6 +8386,12 @@
 			"machinetranslated": true,
 			"helptext": "PTGuiユーザーインターフェイスに表示される画像に使用するカラープロファイルを選択します。この設定は表示のみに使用され、生成されたパノラマは影響を受けません。",
 			"morehelptext": "<br><br>コンピューターにキャリブレーションされたディスプレイがある場合は、PTGuiのカラープロファイルをここにロードして、PTGuiのPTGuiユーザーインターフェイスに正しい色が表示されるようにすることができます。<br><br>Windowsでは、Windowsの[色の設定]でカラープロファイルを構成することで同じことができます。<br><br>ここにカラープロファイルがロードされていない場合、PTGui forLinuxはsRGBを使用します。"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "カメラの応答曲線をテンプレートからコピーするかどうかを制御します。",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@：</b>すべてのカメラ応答曲線がテンプレートプロジェクトからコピーされ、@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドがテンプレートからコピーされます。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@：</b>カメラの応答曲線がテンプレートからコピーされ、RAW画像を除いて@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドがコピーされます。 RAW画像の場合、テンプレートが最適化されたカメラカーブを使用している場合でも、@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドは@txt.cameracurve.linear@に設定されたままになります。これは推奨設定です。これにより、RAW画像と通常の画像に同じテンプレートを使用できるようになります。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@：</b>ターゲットプロジェクトのカメラ応答曲線の設定は変更されません。"
 		}
 	],
 	"helppages": [

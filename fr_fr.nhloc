@@ -7473,6 +7473,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Utiliser les paramètres de couleur Windows"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Copier la courbe de réponse de la caméra :"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "Oui"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "Non"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Oui, sauf pour les images RAW"
 		}
 	],
 	"tooltips": [
@@ -10189,6 +10209,12 @@
 			"machinetranslated": true,
 			"helptext": "Le profil de couleur à utiliser pour les images affichées dans l'interface utilisateur PTGui. Ce paramètre est utilisé uniquement pour l'affichage, les panoramas générés ne sont pas affectés.",
 			"morehelptext": "<br><br>Si votre ordinateur dispose d'un écran calibré, vous pouvez charger son profil de couleurs ici afin que PTGui l'interface utilisateur de PTGui affiche les bonnes couleurs.<br><br>Sous Windows, la même chose peut être obtenue en configurant le profil de couleur dans les paramètres de couleur de Windows.<br><br>PTGui pour Linux utilisera sRGB si aucun profil de couleur n'est chargé ici."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Contrôle si la courbe de réponse de la caméra est copiée à partir du modèle.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@ :</b> toutes les courbes de réponse de la caméra sont copiées à partir du modèle de projet et les champs @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ sont copiés à partir du modèle.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@ :</b> Les courbes de réponse de la caméra sont copiées à partir du modèle et les champs @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ sont copiés, sauf pour les images RAW. Pour les images RAW, le champ @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ restera défini sur @txt.cameracurve.linear@ même si le modèle utilise une courbe de caméra optimisée. C'est la configuration recommandée; cela garantira que le même modèle peut être utilisé pour les images RAW et régulières.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@ :</b> les paramètres de la courbe de réponse de la caméra dans le projet cible ne seront pas modifiés."
 		}
 	],
 	"helppages": [

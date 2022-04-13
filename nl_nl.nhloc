@@ -6090,6 +6090,26 @@
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": true,
 			"txt": "Windows-kleurinstellingen gebruiken"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"txt": "Cameraresponscurve kopiëren:"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
+			"machinetranslated": true,
+			"txt": "Ja"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
+			"machinetranslated": true,
+			"txt": "Nee"
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
+			"machinetranslated": true,
+			"txt": "Ja, behalve voor RAW-afbeeldingen"
 		}
 	],
 	"tooltips": [
@@ -8368,6 +8388,12 @@
 			"machinetranslated": true,
 			"helptext": "Het kleurprofiel dat gebruikt wordt voor de PTGui gebruikersinterface. Deze instelling wordt alleen gebruikt voor weergave, gegenereerde panorama's worden niet beïnvloed.",
 			"morehelptext": "<br><br>Als uw computer een gekalibreerd beeldscherm heeft, kunt u het kleurprofiel hier laden, zodat de kleuren juist worden weergegeven..<br><br>Onder Windows kan hetzelfde worden bereikt door het kleurprofiel te configureren in Windows Kleurinstellingen.<br><br>PTGui voor Linux gebruikt sRGB als hier geen kleurprofiel is geladen."
+		},
+		{
+			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
+			"machinetranslated": true,
+			"helptext": "Bepaalt of de cameraresponscurve wordt gekopieerd van de sjabloon.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle cameraresponscurves worden gekopieerd uit het sjabloonproject en de @mainwindow.imageparameters.cameracurve@-velden op het tabblad @mainwindow.tabs.imageparameters@ worden gekopieerd uit de sjabloon.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> De cameraresponscurves worden gekopieerd van de sjabloon en de @mainwindow.imageparameters.cameracurve@-velden op het tabblad @mainwindow.tabs.imageparameters@ worden gekopieerd, behalve voor RAW-afbeeldingen. Voor RAW-afbeeldingen blijft het @mainwindow.imageparameters.cameracurve@-veld op het tabblad @mainwindow.tabs.imageparameters@ ingesteld op @txt.cameracurve.linear@, zelfs als de sjabloon een geoptimaliseerde cameracurve gebruikt. Dit is de aanbevolen instelling; het zorgt ervoor dat hetzelfde sjabloon kan worden gebruikt voor RAW- en gewone afbeeldingen.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> De instellingen van de cameraresponscurve in het doelproject worden niet gewijzigd."
 		}
 	],
 	"helppages": [

@@ -7109,8 +7109,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
-			"machinetranslated": true,
-			"txt": "Remplisser les trous"
+			"machinetranslated": false,
+			"txt": "Remplir les trous"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
@@ -7284,13 +7284,13 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
-			"machinetranslated": true,
-			"txt": "demi flotant"
+			"machinetranslated": false,
+			"txt": "demi-flottant"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
-			"machinetranslated": true,
-			"txt": "Flotant"
+			"machinetranslated": false,
+			"txt": "Flottant"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",

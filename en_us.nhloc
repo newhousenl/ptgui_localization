@@ -6128,7 +6128,16 @@
 {
     "id": "options.monitorcolorprofile.windowsdefault",
     "txt": "Use Windows Color Settings"
+},
+{
+    "id": "txt.failedtocontactactivationserver",
+    "txt": "Failed to contact the license server."
+},
+{
+    "id": "txt.failedtocontactactivationserver2",
+    "txt": "@txt.failedtocontactactivationserver@ Please save your work and restart PTGui."
 }
+
 
 
 

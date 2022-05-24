@@ -6100,6 +6100,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "Ano, kromě snímků ve formátu RAW"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "Nepodařilo se kontaktovat licenční server."
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@ Uložte si svou práci a restartujte PTGui."
 		}
 	],
 	"tooltips": [

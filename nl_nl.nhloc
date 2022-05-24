@@ -6110,6 +6110,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "Ja, behalve voor RAW-afbeeldingen"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "Kan geen verbinding maken met de licentieserver."
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@ Sla uw werk op en start PTGui opnieuw."
 		}
 	],
 	"tooltips": [

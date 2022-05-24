@@ -7489,6 +7489,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "예, RAW 이미지 제외"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "라이선스 서버에 접속하지 못했습니다."
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@ 작업을 저장하고 PTGui를 다시 시작하십시오."
 		}
 	],
 	"tooltips": [

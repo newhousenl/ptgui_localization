@@ -7493,6 +7493,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "Oui, sauf pour les images RAW"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "Impossible de contacter le serveur de licences."
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@ Veuillez enregistrer votre travail et redémarrer PTGui."
 		}
 	],
 	"tooltips": [

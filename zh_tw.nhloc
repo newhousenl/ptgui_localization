@@ -6542,6 +6542,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "是的，RAW 圖像除外"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "無法聯繫許可證服務器。"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@ 請保存您的工作並重新啟動 PTGui。"
 		}
 	],
 	"tooltips": [

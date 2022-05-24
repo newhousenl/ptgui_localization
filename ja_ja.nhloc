@@ -6110,6 +6110,16 @@
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
 			"machinetranslated": true,
 			"txt": "はい、RAW画像を除きます"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver",
+			"machinetranslated": true,
+			"txt": "ライセンスサーバーへの接続に失敗しました。"
+		},
+		{
+			"id": "txt.failedtocontactactivationserver2",
+			"machinetranslated": true,
+			"txt": "@txt.failedtocontactactivationserver@作業内容を保存して、PTGuiを再起動してください。"
 		}
 	],
 	"tooltips": [

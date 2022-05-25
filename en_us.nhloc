@@ -6136,6 +6136,14 @@
 {
     "id": "txt.failedtocontactactivationserver2",
     "txt": "@txt.failedtocontactactivationserver@ Please save your work and restart PTGui."
+},
+{
+    "id": "licenseinfo.floating.singlecomputer",
+    "txt": "You are using a floating license. PTGui can be run on one computer at a time."
+},
+{
+    "id": "licenseinfo.floating.multipleecomputers",
+    "txt": "You are using a floating license. PTGui can be run on %0 computers simultaneously."
 }
 
 

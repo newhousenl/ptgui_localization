@@ -6552,6 +6552,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@ 請保存您的工作並重新啟動 PTGui。"
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "您正在使用浮動許可證。 PTGui 一次可以在一台計算機上運行。"
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "您正在使用浮動許可證。 PTGui 可以同時在 %0 台計算機上運行。"
 		}
 	],
 	"tooltips": [

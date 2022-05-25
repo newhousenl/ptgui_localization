@@ -7503,6 +7503,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@ Veuillez enregistrer votre travail et redémarrer PTGui."
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "Vous utilisez une licence flottante. PTGui peut être exécuté sur un ordinateur à la fois."
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "Vous utilisez une licence flottante. PTGui peut être exécuté simultanément sur %0 ordinateurs."
 		}
 	],
 	"tooltips": [

@@ -7478,6 +7478,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@ Пожалуйста, сохраните вашу работу и перезапустите PTGui."
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "Вы используете плавающую лицензию. PTGui можно запускать одновременно на одном компьютере."
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "Вы используете плавающую лицензию. PTGui можно запустить на %0 компьютерах одновременно."
 		}
 	],
 	"tooltips": [

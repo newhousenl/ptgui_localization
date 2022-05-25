@@ -6121,6 +6121,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@ Bitte speichern Sie Ihre Arbeit und starten Sie PTGui neu."
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "Sie verwenden eine Floating-Lizenz. PTGui kann auf jeweils einem Computer ausgeführt werden."
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "Sie verwenden eine Floating-Lizenz. PTGui kann gleichzeitig auf %0 Computern ausgeführt werden."
 		}
 	],
 	"tooltips": [

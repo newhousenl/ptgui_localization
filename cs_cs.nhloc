@@ -6110,6 +6110,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@ Uložte si svou práci a restartujte PTGui."
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "Používáte pohyblivou licenci. PTGui lze spustit na jednom počítači současně."
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "Používáte pohyblivou licenci. PTGui lze spustit na %0 počítačích současně."
 		}
 	],
 	"tooltips": [

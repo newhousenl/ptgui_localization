@@ -6120,6 +6120,16 @@
 			"id": "txt.failedtocontactactivationserver2",
 			"machinetranslated": true,
 			"txt": "@txt.failedtocontactactivationserver@作業内容を保存して、PTGuiを再起動してください。"
+		},
+		{
+			"id": "licenseinfo.floating.singlecomputer",
+			"machinetranslated": true,
+			"txt": "フローティングライセンスを使用しています。 PTGuiは、一度に1台のコンピューターで実行できます。"
+		},
+		{
+			"id": "licenseinfo.floating.multipleecomputers",
+			"machinetranslated": true,
+			"txt": "フローティングライセンスを使用しています。 PTGuiは、%0台のコンピューターで同時に実行できます。"
 		}
 	],
 	"tooltips": [

@@ -6562,6 +6562,11 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "您正在使用浮動許可證。 PTGui 可以同時在 %0 台計算機上運行。"
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "PTGui 中的原始轉換器當前不支持來自此相機 (%0) 的 RAW 文件。要使用這些圖像，請在 Adobe Photoshop 或 Adobe Lightroom 等 RAW 轉換器中將它們轉換為 16 位 TIFF 文件。轉換後的 TIFF 文件可以在 PTGui 中加載。"
 		}
 	],
 	"tooltips": [

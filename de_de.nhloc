@@ -6131,6 +6131,11 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "Sie verwenden eine Floating-Lizenz. PTGui kann gleichzeitig auf %0 Computern ausgeführt werden."
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "RAW-Dateien von dieser Kamera (%0) werden derzeit nicht vom Raw-Konverter in PTGui unterstützt. Um diese Bilder zu verwenden, konvertieren Sie sie in einem RAW-Konverter wie Adobe Photoshop oder Adobe Lightroom in 16-Bit-TIFF-Dateien. Die konvertierten TIFF-Dateien können in PTGui geladen werden."
 		}
 	],
 	"tooltips": [

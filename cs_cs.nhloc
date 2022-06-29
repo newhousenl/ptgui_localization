@@ -6120,6 +6120,11 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "Používáte pohyblivou licenci. PTGui lze spustit na %0 počítačích současně."
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "Soubory RAW z tohoto fotoaparátu (%0) nejsou aktuálně podporovány převodníkem raw v PTGui. Chcete-li tyto obrázky použít, převeďte je na 16bitové soubory TIFF v konvertoru RAW, jako je Adobe Photoshop nebo Adobe Lightroom. Převedené soubory TIFF lze načíst v PTGui."
 		}
 	],
 	"tooltips": [

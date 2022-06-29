@@ -6144,6 +6144,10 @@
 {
     "id": "licenseinfo.floating.multipleecomputers",
     "txt": "You are using a floating license. PTGui can be run on %0 computers simultaneously."
+},
+{
+    "id": "txt.libraw.unsupportedcamera",
+    "txt": "RAW files from this camera (%0) are currently not supported by the raw converter in PTGui. To use these images, convert them to 16 bit TIFF files in a RAW converter such as Adobe Photoshop or Adobe Lightroom. The converted TIFF files can be loaded in PTGui."
 }
 
 

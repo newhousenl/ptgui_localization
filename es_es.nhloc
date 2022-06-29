@@ -7509,6 +7509,11 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "Está utilizando una licencia flotante. PTGui se puede ejecutar en %0 computadoras simultáneamente."
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "Los archivos RAW de esta cámara (%0) actualmente no son compatibles con el convertidor RAW en PTGui. Para utilizar estas imágenes, conviértalas en archivos TIFF de 16 bits en un convertidor RAW como Adobe Photoshop o Adobe Lightroom. Los archivos TIFF convertidos se pueden cargar en PTGui."
 		}
 	],
 	"tooltips": [

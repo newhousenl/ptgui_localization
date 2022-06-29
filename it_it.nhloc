@@ -7092,6 +7092,11 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "Stai usando una licenza mobile. PTGui può essere eseguito contemporaneamente su %0 computer."
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "I file RAW di questa fotocamera (%0) non sono attualmente supportati dal convertitore RAW in PTGui. Per utilizzare queste immagini, convertile in file TIFF a 16 bit in un convertitore RAW come Adobe Photoshop o Adobe Lightroom. I file TIFF convertiti possono essere caricati in PTGui."
 		}
 	],
 	"tooltips": [

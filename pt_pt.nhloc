@@ -7504,6 +7504,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "Arquivos RAW desta câmera (%0) atualmente não são suportados pelo conversor raw no PTGui. Para usar essas imagens, converta-as em arquivos TIFF de 16 bits em um conversor RAW, como Adobe Photoshop ou Adobe Lightroom. Os arquivos TIFF convertidos podem ser carregados no PTGui."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "Falha na ativação de licensekey.json:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Nenhuma das chaves de licença resultou em uma ativação bem-sucedida. A tentativa de usar a última chave de licença resultou neste erro:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Erro para a chave de licença #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "Você precisa ativar o PTGui. Isso pode ser feito executando o PTGui como um aplicativo GUI ou fornecendo um arquivo licensekey.json. Para detalhes consulte: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Não foi possível gravar na pasta: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Entrando em contato com o servidor de ativação..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Feito."
 		}
 	],
 	"tooltips": [

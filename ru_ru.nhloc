@@ -7493,6 +7493,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "Файлы RAW с этой камеры (%0) в настоящее время не поддерживаются конвертером RAW в PTGui. Чтобы использовать эти изображения, конвертируйте их в 16-битные файлы TIFF в конвертере RAW, таком как Adobe Photoshop или Adobe Lightroom. Преобразованные файлы TIFF можно загрузить в PTGui."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "Активация с licensekey.json не удалась:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Ни один из лицензионных ключей не привел к успешной активации. Попытка использовать последний лицензионный ключ привела к этой ошибке:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Ошибка для лицензионного ключа #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "Вам нужно активировать PTGui. Это можно сделать, запустив PTGui как приложение с графическим интерфейсом или предоставив файл licensekey.json. Подробнее см.: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Не удалось записать в папку: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Обращение к серверу активации..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Сделанный."
 		}
 	],
 	"tooltips": [

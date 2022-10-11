@@ -7518,6 +7518,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "Les fichiers RAW de cet appareil photo (%0) ne sont actuellement pas pris en charge par le convertisseur brut de PTGui. Pour utiliser ces images, convertissez-les en fichiers TIFF 16 bits dans un convertisseur RAW tel qu'Adobe Photoshop ou Adobe Lightroom. Les fichiers TIFF convertis peuvent être chargés dans PTGui."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "L'activation à partir de licensekey.json a échoué:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Aucune des clés de licence n'a abouti à une activation réussie. La tentative d'utilisation de la dernière clé de licence a entraîné cette erreur:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Erreur pour la clé de licence #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "Vous devez activer PTGui. Cela peut être fait en exécutant PTGui en tant qu'application graphique ou en fournissant un fichier licensekey.json. Pour plus de détails, voir: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Impossible d'écrire dans le dossier: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Contacter le serveur d'activation..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Fait."
 		}
 	],
 	"tooltips": [

@@ -7514,6 +7514,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "이 카메라의 RAW 파일(%0)은 현재 PTGui의 원시 변환기에서 지원되지 않습니다. 이러한 이미지를 사용하려면 Adobe Photoshop 또는 Adobe Lightroom과 같은 RAW 변환기에서 16비트 TIFF 파일로 변환하십시오. 변환된 TIFF 파일은 PTGui에서 로드할 수 있습니다."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "licensekey.json에서 활성화 실패:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "어떤 라이센스 키도 활성화에 성공하지 못했습니다. 마지막 라이센스 키를 사용하려고 하면 다음 오류가 발생했습니다.\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "라이센스 키 #%0 오류:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "PTGui를 활성화해야 합니다. 이는 PTGui를 GUI 애플리케이션으로 실행하거나 licensekey.json 파일을 제공하여 수행할 수 있습니다. 자세한 내용은 https://www.ptgui.com/support.html을 참조하십시오."
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "폴더에 쓸 수 없음: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "활성화 서버에 접속 중..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "완료."
 		}
 	],
 	"tooltips": [

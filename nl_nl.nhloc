@@ -6135,6 +6135,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "RAW-bestanden van deze camera (%0) worden momenteel niet ondersteund door de raw-converter in PTGui. Om deze afbeeldingen te gebruiken, converteer ze naar 16 bit TIFF-bestanden in een RAW-converter zoals Adobe Photoshop of Adobe Lightroom. De geconverteerde TIFF-bestanden kunnen in PTGui worden geladen."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "Activering d.m.v. licensekey.json mislukt:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Geen van de licentiesleutels heeft geleid tot een succesvolle activering. De laatste licentiesleutel resulteerde in deze fout:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Fout voor licentiesleutel #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "U moet PTGui activeren. Dit kan worden gedaan door PTGui uit te voeren als een GUI-toepassing, of door een bestand licensekey.json aan te maken. Voor meer informatie zie: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Kan niet schrijven naar map: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Contact opnemen met activeringsserver..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Klaar."
 		}
 	],
 	"tooltips": [

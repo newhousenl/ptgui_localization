@@ -6136,6 +6136,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "RAW-Dateien von dieser Kamera (%0) werden derzeit nicht vom Raw-Konverter in PTGui unterstützt. Um diese Bilder zu verwenden, konvertieren Sie sie in einem RAW-Konverter wie Adobe Photoshop oder Adobe Lightroom in 16-Bit-TIFF-Dateien. Die konvertierten TIFF-Dateien können in PTGui geladen werden."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "Aktivierung von licensekey.json fehlgeschlagen:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Keiner der Lizenzschlüssel führte zu einer erfolgreichen Aktivierung. Der Versuch, den letzten Lizenzschlüssel zu verwenden, führte zu diesem Fehler:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Fehler für Lizenzschlüssel #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "Sie müssen PTGui aktivieren. Dies kann durch Ausführen von PTGui als GUI-Anwendung oder durch Bereitstellen einer Datei „licensekey.json“ erfolgen. Einzelheiten finden Sie unter: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Schreiben in Ordner nicht möglich: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Aktivierungsserver wird kontaktiert..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Fertig."
 		}
 	],
 	"tooltips": [

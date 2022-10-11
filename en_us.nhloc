@@ -6148,7 +6148,36 @@
 {
     "id": "txt.libraw.unsupportedcamera",
     "txt": "RAW files from this camera (%0) are currently not supported by the raw converter in PTGui. To use these images, convert them to 16 bit TIFF files in a RAW converter such as Adobe Photoshop or Adobe Lightroom. The converted TIFF files can be loaded in PTGui."
+},
+{
+    "id": "err.activationfromjsonfailed",
+    "txt": "Activation from licensekey.json failed:\n\n%0"
+},
+{
+    "id": "err.allkeysfailed",
+    "txt": "None of the license keys resulted in a successful activation. Attempting to use the last license key resulted in this error:\n\n%0"
+},
+{
+    "id": "err.errorforlicensekeynumber",
+    "txt": "Error for license key #%0:\n\n%1"
+},
+{
+    "id": "err.mustactivateingui",
+    "txt": "You need to activate PTGui. This can be done by running PTGui as a GUI application, or by providing a licensekey.json file. For details see: https://www.ptgui.com/support.html"
+},
+{
+    "id": "err.cannotwritetofolder",
+    "txt": "Could not write to folder: %0"
+},
+{
+    "id": "txt.contactinglicenseserver",
+    "txt": "Contacting activation server..."
+},
+{
+    "id": "txt.done",
+    "txt": "Done."
 }
+
 
 
 

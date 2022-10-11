@@ -6130,6 +6130,46 @@
 			"id": "licenseinfo.floating.multipleecomputers",
 			"machinetranslated": true,
 			"txt": "フローティングライセンスを使用しています。 PTGuiは、%0台のコンピューターで同時に実行できます。"
+		},
+		{
+			"id": "txt.libraw.unsupportedcamera",
+			"machinetranslated": true,
+			"txt": "このカメラ (%0) からの RAW ファイルは、現在 PTGui の raw コンバーターではサポートされていません。これらの画像を使用するには、Adobe Photoshop や Adobe Lightroom などの RAW コンバーターで 16 ビット TIFF ファイルに変換します。変換された TIFF ファイルは、PTGui にロードできます。"
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "licensekey.json からのアクティベーションに失敗しました:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "アクティベーションに成功したライセンス キーはありませんでした。最後のライセンス キーを使用しようとすると、次のエラーが発生しました。\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "ライセンス キー #%0 のエラー:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "PTGui を有効にする必要があります。これは、PTGui を GUI アプリケーションとして実行するか、licensekey.json ファイルを提供することで実行できます。詳細については、https://www.ptgui.com/support.html を参照してください。"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "フォルダに書き込めませんでした: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "アクティベーション サーバーに接続しています..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "終わり。"
 		}
 	],
 	"tooltips": [

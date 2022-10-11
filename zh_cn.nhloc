@@ -7514,6 +7514,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "PTGui 中的原始转换器当前不支持来自此相机 (%0) 的 RAW 文件。要使用这些图像，请在 Adobe Photoshop 或 Adobe Lightroom 等 RAW 转换器中将它们转换为 16 位 TIFF 文件。转换后的 TIFF 文件可以在 PTGui 中加载。"
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "从 licensekey.json 激活失败：\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "没有任何许可证密钥导致成功激活。尝试使用最后一个许可证密钥会导致此错误：\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "许可证密钥 #%0 错误：\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "您需要激活 PTGui。这可以通过将 PTGui 作为 GUI 应用程序运行或通过提供 licensekey.json 文件来完成。详情见：https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "无法写入文件夹：%0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "正在联系激活服务器..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "完毕。"
 		}
 	],
 	"tooltips": [

@@ -6125,6 +6125,41 @@
 			"id": "txt.libraw.unsupportedcamera",
 			"machinetranslated": true,
 			"txt": "Soubory RAW z tohoto fotoaparátu (%0) nejsou aktuálně podporovány převodníkem raw v PTGui. Chcete-li tyto obrázky použít, převeďte je na 16bitové soubory TIFF v konvertoru RAW, jako je Adobe Photoshop nebo Adobe Lightroom. Převedené soubory TIFF lze načíst v PTGui."
+		},
+		{
+			"id": "err.activationfromjsonfailed",
+			"machinetranslated": true,
+			"txt": "Aktivace z licensekey.json se nezdařila:\n\n%0"
+		},
+		{
+			"id": "err.allkeysfailed",
+			"machinetranslated": true,
+			"txt": "Žádný z licenčních klíčů nevedl k úspěšné aktivaci. Pokus o použití posledního licenčního klíče vedl k této chybě:\n\n%0"
+		},
+		{
+			"id": "err.errorforlicensekeynumber",
+			"machinetranslated": true,
+			"txt": "Chyba licenčního klíče #%0:\n\n%1"
+		},
+		{
+			"id": "err.mustactivateingui",
+			"machinetranslated": true,
+			"txt": "Musíte aktivovat PTGui. To lze provést spuštěním PTGui jako GUI aplikace nebo poskytnutím souboru licensekey.json. Podrobnosti viz: https://www.ptgui.com/support.html"
+		},
+		{
+			"id": "err.cannotwritetofolder",
+			"machinetranslated": true,
+			"txt": "Nelze zapisovat do složky: %0"
+		},
+		{
+			"id": "txt.contactinglicenseserver",
+			"machinetranslated": true,
+			"txt": "Kontaktování aktivačního serveru..."
+		},
+		{
+			"id": "txt.done",
+			"machinetranslated": true,
+			"txt": "Hotovo."
 		}
 	],
 	"tooltips": [

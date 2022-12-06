@@ -5,7 +5,8 @@
 		"Harald Bendschneider",
 		"Helmuth E. Günther",
 		"Thomas Bredenfeld",
-		"Erik Krause"
+		"Erik Krause",
+		"Michael Göricke"
 	],
 	"languagenamelocalized": "Deutsch",
 	"startupmsg": null,
@@ -341,7 +342,7 @@
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"txt": "Standard machen"
+			"txt": "Als neuen Standard speichern"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -781,7 +782,7 @@
 		},
 		{
 			"id": "menubar.help.whatsnew",
-			"txt": "Was gibt's Neues?"
+			"txt": "Was gibt es Neues?"
 		},
 		{
 			"id": "menubar.help.ptgui.com",
@@ -833,7 +834,7 @@
 		},
 		{
 			"id": "menubar.controlpoints.generateforoverlapping",
-			"txt": "Generiere Kontrollpunkte für alle überlappenden Bilder"
+			"txt": "Kontrollpunkte für alle überlappenden Bilder generieren"
 		},
 		{
 			"id": "menubar.controlpoints.deleteall",
@@ -881,7 +882,7 @@
 		},
 		{
 			"id": "menubar.project.saveandsendtobatchstitcher",
-			"txt": "Speichern und senden an @batchstitcher@"
+			"txt": "Speichern und an @batchstitcher@ senden"
 		},
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
@@ -1009,7 +1010,7 @@
 		},
 		{
 			"id": "menubar.images.link",
-			"txt": "Verknüpfe ausgewählte Bilder"
+			"txt": "Ausgewählte Bilder verknüpfen"
 		},
 		{
 			"id": "menubar.images.unlink",
@@ -1029,11 +1030,11 @@
 		},
 		{
 			"id": "menubar.images.select.excluded",
-			"txt": "Bilder aus dem Panorama ausgeschlossen"
+			"txt": "Aus dem Panorama ausgeschlossene Bilder"
 		},
 		{
 			"id": "menubar.images.select.included",
-			"txt": "Bilder im Panorama enthalten"
+			"txt": "Im Panorama enthaltene Bilder"
 		},
 		{
 			"id": "menubar.images.select.all",
@@ -1887,7 +1888,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.subheading",
-			"txt": "Verwende die folgenden Standarddateinamen für neue Projekte:"
+			"txt": "Folgenden Standarddateinamen für neue Projekte verwenden:"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.projectfile",
@@ -1931,7 +1932,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt1",
-			"txt": "(jeder relative Pfad wird aus dem Quell-Image-Ordner interpretiert)"
+			"txt": "(jeder relative Pfad wird aus dem Quellbildordner interpretiert)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.panorama",
@@ -1971,7 +1972,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.subheading",
-			"txt": "Wenn dieses Projekt als Vorlage angewendet wird, kopiere die folgenden Einstellungen:"
+			"txt": "Wenn dieses Projekt als Vorlage angewendet wird, die folgenden Einstellungen kopieren:"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.lensandcrop",
@@ -2027,7 +2028,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexifshort",
-			"txt": "Initialisiere die Objektiveinstellungen für jedes Projekt mithilfe von EXIF-Daten in den Bildern"
+			"txt": "Objektiveinstellungen für jedes Projekt mithilfe von EXIF-Daten in den Bildern initialisieren"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexif",
@@ -2039,7 +2040,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexiforientation",
-			"txt": "Drehe Bilder physisch nach dem Laden mit dem EXIF-Orientierungs-Tag"
+			"txt": "Bilder physisch nach dem Laden mit dem EXIF-Orientierungs-Tag drehen"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif",
@@ -2047,7 +2048,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.askinitializeandoptimize",
-			"txt": "Wenn die Optimierung fehlschlägt: Frage, ob das Projekt neu initialisiert werden soll"
+			"txt": "Wenn die Optimierung fehlschlägt: Fragen, ob das Projekt neu initialisiert werden soll"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.supportduallenscameras",
@@ -2063,7 +2064,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.switchtoequirectforwideanglesourceimages",
-			"txt": "Stelle das Panorama beim Laden eines Weitwinkel- oder sphärischen Bildes auf 360° equirectangular Projektion"
+			"txt": "Das Panorama beim Laden eines Weitwinkel- oder sphärischen Bildes auf 360° equirectangular Projektion stellen"
 		},
 		{
 			"id": "mainwindow.imageparameters.image",
@@ -2245,7 +2246,7 @@
 		{
 			"id": "mainwindow.metadata.nolatlonginexif",
 			"format": "html",
-			"txt": "In den EXIF-Daten wurde kein Speicherort gefunden. Sie können <a href=\"https://maps.google.com/\">den Ort finden</a> und die Koordinaten hier eingeben."
+			"txt": "In den EXIF-Daten wurde keine Ortsangabe gefunden. Sie können auf <a href=\"https://maps.google.com/\"> den Ort bestimmen</a> und die Koordinaten hier eingeben."
 		},
 		{
 			"id": "mainwindow.metadata.viewonmap",
@@ -2710,7 +2711,7 @@
 		},
 		{
 			"id": "photometricsettings.keepcurrent",
-			"txt": "Behalte den aktuellen"
+			"txt": "Den aktuellen Wert beibehalten"
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -2758,11 +2759,11 @@
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.generate",
-			"txt": "Generiere neue"
+			"txt": "Neue neue Kurve erstellen"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.usedefault",
-			"txt": "Verwende eine Standardkurve"
+			"txt": "Eine Standardkurve verwenden"
 		},
 		{
 			"id": "photometricsettings.title",
@@ -2874,7 +2875,7 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
-			"txt": "Wenn Sie ein Bild hinzufügen, vorschlagen weitere um die gleiche Zeit aufgenommene Bilder hinzuzufügen"
+			"txt": "Wenn Sie ein Bild hinzufügen, vorschlagen, weitere um die gleiche Zeit aufgenommene Bilder hinzuzufügen"
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
@@ -2918,19 +2919,19 @@
 		},
 		{
 			"id": "options.mousewheelaction.mac.scrolling",
-			"txt": "Scrollen (halte die Cmd-Taste zum Zoomen gedrückt)"
+			"txt": "Scrollen (die Cmd-Taste zum Zoomen gedrückt halten)"
 		},
 		{
 			"id": "options.mousewheelaction.mac.zooming",
-			"txt": "Zoomen (Halte die Cmd-Taste zum Scrollen gedrückt)"
+			"txt": "Zoomen (die Cmd-Taste zum Scrollen gedrückt halten)"
 		},
 		{
 			"id": "options.mousewheelaction.nonmac.scrolling",
-			"txt": "Scrollen (Halte die Strg-Taste gedrückt, um zu zoomen)"
+			"txt": "Scrollen (die Strg-Taste zum Zooem gedrückt halten)"
 		},
 		{
 			"id": "options.mousewheelaction.nonmac.zooming",
-			"txt": "Zoomen (Halte die Strg-Taste zum Scrollen gedrückt)"
+			"txt": "Zoomen (die Strg-Taste zum Scrollen gedrückt halten)"
 		},
 		{
 			"id": "options.disablemouserepositioning",
@@ -2943,7 +2944,7 @@
 		{
 			"id": "options.defaultsettings.txt",
 			"format": "html",
-			"txt": "Suchen Sie nach einer Möglichkeit, die Standardeinstellungen für PTGui-Projekte zu ändern, z.B. das Standard-Ausgabedateiformat? Dies kann mit der Funktion @menubar.file.makedefault@ wie folgt geändert werden:<br><br>- Starten Sie ein neues Projekt mit @menubar.file@ | @menubar.file.newproject@<br>- Nehmen Sie die gewünschten Änderungen an den Standardeinstellungen vor<br>- Wählen Sie @menubar.file@ | @menubar.file.makedefault@<br><br>Um alle Standardeinstellungen auf die PTGui-Standardeinstellungen zurückzusetzen, führen Sie @menubar.file@ | @menubar.file.resetdefault@ aus."
+			"txt": "Sie suchen nach einer Möglichkeit, die Standardeinstellungen für PTGui-Projekte zu ändern, wie z.B. das Standard-Ausgabedateiformat? Dies ändern Sie mit der Funktion '@menubar.file.makedefault@' wie folgt:<br><br>- Starten Sie ein neues Projekt mit '@menubar.file@' | '@menubar.file.newproject@'<br>- Nehmen Sie die gewünschten Änderungen an den Standardeinstellungen vor<br>- Wählen Sie '@menubar.file@' | '@menubar.file.makedefault@'<br><br>Um alle Standardeinstellungen auf die PTGui-Standardeinstellungen zurückzusetzen, führen Sie '@menubar.file@' | '@menubar.file.resetdefault@' aus."
 		},
 		{
 			"id": "options.defaultfolders",
@@ -2955,7 +2956,7 @@
 		},
 		{
 			"id": "options.applytemplateinitialfolder",
-			"txt": "Menü @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@ ... öffnet:"
+			"txt": "Menü '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@' ... öffnet:"
 		},
 		{
 			"id": "options.applytemplateinitialfolder.templatesfolder",
@@ -3015,11 +3016,11 @@
 		},
 		{
 			"id": "options.cpeditor.magnifier.showcplabels",
-			"txt": "Zeige Kontrollpunktbeschriftungen in der Lupe an"
+			"txt": "Kontrollpunktbeschriftungen in der Lupe anzeigen"
 		},
 		{
 			"id": "options.cpeditor.magnifier.hidezoomerwhennothovering",
-			"txt": "Zeige nur die Lupe, wenn sich der Mauszeiger im Bild befindet"
+			"txt": "Die Lupe nur anzeigen, wenn sich der Mauszeiger im Bild befindet"
 		},
 		{
 			"id": "options.cpeditor.resetcptabwhenswitchingimages",
@@ -3095,7 +3096,7 @@
 		},
 		{
 			"id": "options.raminstalled",
-			"txt": "in diesem Computer installiert: %0 MB RAM"
+			"txt": "In diesem Computer installiert: %0 MB RAM"
 		},
 		{
 			"id": "options.hardwareacceleration",
@@ -3123,7 +3124,7 @@
 		},
 		{
 			"id": "options.gpuacceleration.noopenclcompileravailable",
-			"txt": "Kein openCL-Compiler für dieses Gerät verfügbar."
+			"txt": "Kein OpenCL-Compiler für dieses Gerät verfügbar."
 		},
 		{
 			"id": "options.gpuacceleration.noimagesupport",
@@ -3155,7 +3156,7 @@
 		},
 		{
 			"id": "options.gpuacceleration.useforpreviews",
-			"txt": "GPU-Beschleunigung verwenden für den Panorama-Editor und den Detail-Viewer"
+			"txt": "GPU-Beschleunigung für den Panorama-Editor und den Detail-Viewer verwenden"
 		},
 		{
 			"id": "options.gpuacceleration.device",
@@ -3315,7 +3316,7 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation.errinvalidresponse",
-			"txt": "Ungültiger Antwortcode Bitte stellen Sie sicher, dass der Code ohne Fehler kopiert / eingefügt wird."
+			"txt": "Ungültiger Antwortcode. Bitte stellen Sie sicher, dass der Code ohne Fehler kopiert / eingefügt wird."
 		},
 		{
 			"id": "licenseagreement.title",
@@ -3388,7 +3389,7 @@
 		},
 		{
 			"id": "txt.trialversion",
-			"txt": "Probeversion"
+			"txt": "Testversion"
 		},
 		{
 			"id": "txt.licensedto",
@@ -3802,15 +3803,15 @@
 		},
 		{
 			"id": "sensorsizedialog.sensorsize",
-			"txt": "Sensor größe:"
+			"txt": "Sensorgröße:"
 		},
 		{
 			"id": "sensorsizedialog.alwayuse.noexif",
-			"txt": "Diese Daten immer verwenden für Bilder von einer nicht identifizierten Kamera"
+			"txt": "Diese Daten immer für Bilder von einer nicht identifizierten Kamera verwenden"
 		},
 		{
 			"id": "sensorsizedialog.alwaysuse",
-			"txt": "Diese Daten immer verwenden für %0"
+			"txt": "Diese Daten immer für %0 verwenden"
 		},
 		{
 			"id": "sensorsizedialog.heading1",
@@ -4750,7 +4751,7 @@
 		},
 		{
 			"id": "txt.savingproject",
-			"txt": "Projekt speichern"
+			"txt": "Projekt wird gespeichert"
 		},
 		{
 			"id": "txt.loadingproject",
@@ -4862,7 +4863,7 @@
 		},
 		{
 			"id": "txt.confirmoverwrite.one",
-			"txt": "Die Ausgabedatei %0 existiert bereits. Möchten Sie es überschreiben?"
+			"txt": "Die Ausgabedatei %0 existiert bereits. Möchten Sie sie überschreiben?"
 		},
 		{
 			"id": "txt.confirmoverwrite.several",
@@ -5537,7 +5538,7 @@
 		},
 		{
 			"id": "ptguiviewer.openpanorama",
-			"txt": "Öffne das Panorama"
+			"txt": "Panorama öffnen"
 		},
 		{
 			"id": "ptguiviewer.allfiles",
@@ -5585,8 +5586,8 @@
 		},
 		{
 			"id": "options.gpuacceleration.dontaskdisableopenclifcrashed",
-			"machinetranslated": true,
-			"txt": "Frage niemals beim Start, ob die GPU-Beschleunigung deaktiviert werden soll"
+			"machinetranslated": false,
+			"txt": "Niemals beim Start fragen, ob die GPU-Beschleunigung deaktiviert werden soll"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
@@ -5605,8 +5606,8 @@
 		},
 		{
 			"id": "batchstitcher.askmergebatchlist",
-			"machinetranslated": true,
-			"txt": "Die aktuelle Batch-Liste wurde noch nicht vollständig bearbeitet. Möchten Sie die aktuelle Batch-Liste schließen und durch diese ersetzen? Oder sollen die Projekte aus dieser Batch-Liste an die aktuelle Batch-Liste angehängt werden?"
+			"machinetranslated": false,
+			"txt": "Die aktuelle Batch-Liste wurde noch nicht vollständig abgearbeitet. Möchten Sie die aktuelle Batch-Liste schließen und durch diese ersetzen? Oder sollen die Projekte aus dieser Batch-Liste an die aktuelle Batch-Liste angehängt werden?"
 		},
 		{
 			"id": "batchbuilder.helptext.appendbatchlist",
@@ -5637,8 +5638,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useorientationsensor",
-			"machinetranslated": true,
-			"txt": "Positioniere Bilder automatisch mithilfe der Metadaten des Ausrichtungssensors der Kamera"
+			"machinetranslated": false,
+			"txt": "Bilder automatisch mithilfe der Metadaten des Ausrichtungssensors der Kamera positionieren"
 		},
 		{
 			"id": "batchbuilder.deleteprojectswhendone",
@@ -5672,8 +5673,8 @@
 		},
 		{
 			"id": "menubar.file.mergeproject",
-			"machinetranslated": true,
-			"txt": "Hänge ein anderes Projekt an"
+			"machinetranslated": false,
+			"txt": "Ein anderes Projekt anhängen"
 		},
 		{
 			"id": "menubar.tools.openfolder.configfolder",
@@ -7167,9 +7168,9 @@
 		},
 		{
 			"id": "projectsettingstab.misc.useexiforientation",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Steuert den Umgang mit Bildern mit dem EXIF-Hochformat-Tag.",
-			"morehelptext": "<br><br>Wenn ein Bild im Hochformat aufgenommen wird, geben viele Kameras ein Bild im Querformat mit einem zusätzlichen EXIF-Orientierungs-Tag aus. Das Orientierungs-Tag informiert den Bildleser über die tatsächliche Ausrichtung des Bildes. Diese Einstellung steuert, wie PTGui diese Bilder behandelt:<br><br><b>Abgewählt:</b> Ausrichtung wird ignoriert, das Bild wird als Querformatbild geladen. Wenn ein solches Bild einem neuen PTGui-Projekt hinzugefügt wird, wird ein geeigneter @roll@-Winkel angewendet, um das Bild in Hochformat zu bringen, aber technisch wird es als Querformatbild behandelt.<br><br><b>Ausgewählt: Beim</b> Laden die richtige Ausrichtung anwenden, damit das Bild im Hochformat geladen wird.<br><br>Diese Einstellung wurde ursprünglich zur Kompatibilität mit anderen Anwendungen hinzugefügt, die das Orientierungs-Tag nicht unterstützen. Da heutzutage die meisten Anwendungen das Orientierungs-Tag unterstützen, wird empfohlen, diese Einstellung aktiviert zu lassen.<br><br>Diese Einstellung kann nicht geändert werden, nachdem Bilder geladen wurden. Sie muss vor dem Laden des ersten Bildes eingestellt werden."
+			"morehelptext": "<br><br>Wenn ein Bild im Hochformat aufgenommen wird, geben viele Kameras ein Bild im Querformat mit einem zusätzlichen EXIF-Orientierungs-Tag aus. Das Orientierungs-Tag informiert den Bildleser über die tatsächliche Ausrichtung des Bildes. Diese Einstellung steuert, wie PTGui diese Bilder behandelt:<br><br><b>Abgewählt:</b> Ausrichtung wird ignoriert, das Bild wird als Querformatbild geladen. Wenn ein solches Bild einem neuen PTGui-Projekt hinzugefügt wird, wird ein geeigneter @roll@-Winkel angewendet, um das Bild in Hochformat zu bringen, aber technisch wird es als Querformatbild behandelt.<br><br><b>Ausgewählt:</b> Beim Laden die richtige Ausrichtung anwenden, damit das Bild im Hochformat geladen wird.<br><br>Diese Einstellung wurde ursprünglich zur Kompatibilität mit anderen Anwendungen hinzugefügt, die das Orientierungs-Tag nicht unterstützen. Da heutzutage die meisten Anwendungen das Orientierungs-Tag unterstützen, wird empfohlen, diese Einstellung aktiviert zu lassen.<br><br>Diese Einstellung kann nicht geändert werden, nachdem Bilder geladen wurden. Sie muss vor dem Laden des ersten Bildes eingestellt werden."
 		},
 		{
 			"id": "projectsettingstab.misc.useexif",
@@ -7476,37 +7477,37 @@
 		},
 		{
 			"id": "panoeditor.toolbar.blended",
-			"machinetranslated": true,
-			"label": "Vermischt",
+			"machinetranslated": false,
+			"label": "Mit Überblendung anzeigen",
 			"helptext": "Zeige überblendetes Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
-			"machinetranslated": true,
-			"label": "Unverschnitten",
+			"machinetranslated": false,
+			"label": "Ohne Überblendung anzeigen",
 			"helptext": "Zeige nicht-überblendetes Panorama"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
-			"machinetranslated": true,
-			"label": "Zeige Nähte",
+			"machinetranslated": false,
+			"label": "Nähte anzeigen",
 			"helptext": "Die Lage der Nähte ist durch rote Linien gekennzeichnet."
 		},
 		{
 			"id": "panoeditor.toolbar.showimagenumbers",
-			"machinetranslated": true,
-			"label": "Zeige Bildnummern"
+			"machinetranslated": false,
+			"label": "Bildnummern anzeigen"
 		},
 		{
 			"id": "panoeditor.toolbar.ontop",
-			"machinetranslated": true,
-			"label": "Bleib oben",
-			"helptext": "Bewahren Sie den Panorama-Editor über anderen Fenstern auf."
-		},
+			"machinetranslated": false,
+			"label": "Immer im Vordergrund",
+			"helptext": "Der Detail-Viewer bleibt immer im Vordergrund über allen anderen Fenstern."
+},
 		{
 			"id": "panoeditor.gridbutton",
-			"machinetranslated": true,
-			"label": "Past das Raster-Overlay an"
+			"machinetranslated": false,
+			"label": "Passt das Raster-Overlay an"
 		},
 		{
 			"id": "panoeditor.vfovslider",
@@ -7546,32 +7547,32 @@
 		},
 		{
 			"id": "detailviewer.toolbar.blended",
-			"machinetranslated": true,
-			"label": "Vermischt",
+			"machinetranslated": false,
+			"label": "Mit Überblendung anzeigen",
 			"helptext": "Zeige überblendetes Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
-			"machinetranslated": true,
-			"label": "Unverschnitten",
+			"machinetranslated": false,
+			"label": "Ohne Überblendung anzeigen",
 			"helptext": "Zeige nicht-überblendetes Panorama"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
-			"machinetranslated": true,
-			"label": "Zeige Nähte",
+			"machinetranslated": false,
+			"label": "Nähte anzeigen",
 			"helptext": "Die Lage der Nähte ist durch rote Linien gekennzeichnet."
 		},
 		{
 			"id": "detailviewer.toolbar.showimagenumbers",
-			"machinetranslated": true,
-			"label": "Zeige Bildnummern"
+			"machinetranslated": false,
+			"label": "Bildnummern anzeigen"
 		},
 		{
 			"id": "detailviewer.toolbar.ontop",
-			"machinetranslated": true,
-			"label": "Bleib oben",
-			"helptext": "Bewahren Sie den Detail-Viewer über anderen Fenstern auf."
+			"machinetranslated": false,
+			"label": "Immer im Vordergrund",
+			"helptext": "Der Detail-Viewer bleibt immer im Vordergrund über allen anderen Fenstern."
 		},
 		{
 			"id": "detailviewer.toolbar.help",
@@ -7738,9 +7739,9 @@
 		},
 		{
 			"id": "publishtoweb.saveas",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Datei- und Ordnername für die generierten Dateien.",
-			"morehelptext": "<br><br>Mehrere Dateien werden generiert, PTGui fügt verschiedene Suffixe und Erweiterungen hinzu. Wenn ein relativer Pfad eingegeben wird, wird dies relativ zum Quell-Image-Ordner interpretiert."
+			"morehelptext": "<br><br>Mehrere Dateien werden generiert, PTGui fügt verschiedene Suffixe und Erweiterungen hinzu. Wenn ein relativer Pfad eingegeben wird, wird dies relativ zum Quellbildordner interpretiert."
 		},
 		{
 			"id": "publishtoweb.defaults",
@@ -7894,9 +7895,9 @@
 		},
 		{
 			"id": "converttocubic.saveas",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Datei- und Ordnername für die generierten Dateien.",
-			"morehelptext": "<br><br>PTGui fügt das entsprechende Suffix oder die Dateierweiterung hinzu. Wenn ein relativer Pfad eingegeben wird, wird dies relativ zum Quell-Image-Ordner interpretiert."
+			"morehelptext": "<br><br>PTGui fügt das entsprechende Suffix oder die Dateierweiterung hinzu. Wenn ein relativer Pfad eingegeben wird, wird dies relativ zum Quellbildordner interpretiert."
 		},
 		{
 			"id": "converttocubic.defaults",

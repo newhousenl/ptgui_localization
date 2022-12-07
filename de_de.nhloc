@@ -402,11 +402,11 @@
 		},
 		{
 			"id": "batchstitcher.menubar.process.run",
-			"txt": "Laufen"
+			"txt": "Start"
 		},
 		{
 			"id": "batchstitcher.menubar.process.stop",
-			"txt": "Halten"
+			"txt": "Stopp"
 		},
 		{
 			"id": "menubar.view",
@@ -894,7 +894,7 @@
 		},
 		{
 			"id": "batchlist",
-			"txt": "BatchListe"
+			"txt": "Batch-Liste"
 		},
 		{
 			"id": "pressshiftforhelp",
@@ -946,7 +946,7 @@
 		},
 		{
 			"id": "menubar.tools.openfolder.batchlistfolder",
-			"txt": "Batchlistenordner"
+			"txt": "Batch-Listenordner"
 		},
 		{
 			"id": "optionspreferences",
@@ -1186,27 +1186,27 @@
 		},
 		{
 			"id": "batchstitcher.menubar.openbatchlist",
-			"txt": "Batchliste öffnen"
+			"txt": "Batch-Liste öffnen"
 		},
 		{
 			"id": "batchstitcher.menubar.recentbatchlists",
-			"txt": "Zuletzt benutzte Batchlisten"
+			"txt": "Zuletzt benutzte Batch-Listen"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
-			"txt": "Batchliste speichern"
+			"txt": "Batch-Liste speichern"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlistas",
-			"txt": "Batchliste speichern unter"
+			"txt": "Batch-Liste speichern unter"
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
-			"txt": "Batchliste automatisch speichern"
+			"txt": "Batch-Liste automatisch speichern"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
-			"txt": "Batchliste schließen"
+			"txt": "Batch-Liste schließen"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
@@ -2867,7 +2867,7 @@
 		},
 		{
 			"id": "options.checkforupdates.beta",
-			"txt": "Einschließlich Beta-Versionen"
+			"txt": "Beta-Versionen einschließen"
 		},
 		{
 			"id": "options.resetwarnings",
@@ -2875,7 +2875,7 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
-			"txt": "Wenn Sie ein Bild hinzufügen, vorschlagen, weitere, um die gleiche Zeit aufgenommene Bilder hinzufügen"
+			"txt": "Wenn Sie ein Bild hinzufügen, vorschlagen, weitere, um die gleiche Zeit aufgenommene Bilder hinzuzufügen"
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
@@ -2887,7 +2887,7 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
-			"txt": "Verwende Original-Aufnahmedatum und -zeit aus EXIF-Daten"
+			"txt": "Original-Aufnahmedatum und -zeit aus EXIF-Daten verwenden"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
@@ -2939,7 +2939,7 @@
 		},
 		{
 			"id": "options.disablemouserepositioning.txt",
-			"txt": "(Wählen Sie, wenn Sie ein Tablet, einen Bleistift oder einen Touchscreen verwenden)"
+			"txt": "(hilfreich, wenn Sie ein Tablet, einen Stift oder einen Touchscreen verwenden)"
 		},
 		{
 			"id": "options.defaultsettings.txt",
@@ -2968,7 +2968,7 @@
 		},
 		{
 			"id": "options.defaultfolders.batchlists",
-			"txt": "Standardordner für BatchListen:"
+			"txt": "Standardordner für Batch-Listen:"
 		},
 		{
 			"id": "options.defaultfolders.tempfiles",
@@ -3475,7 +3475,7 @@
 		},
 		{
 			"id": "err.blenderfailednooutput",
-			"txt": "%0 ist fehlgeschlagen: irgendwie wurde die Ausgabedatei nicht generiert. Dies könnte auf einen Mangel an Speicherplatz oder Speicherplatz zurückzuführen sein. Bitte versuchen Sie, mit einer geringeren Ausgabegröße zusammen zu fügen."
+			"txt": "%0 ist fehlgeschlagen: Irgendwie wurde die Ausgabedatei nicht generiert. Dies könnte auf einen Mangel an Speicherplatz oder Speicherplatz zurückzuführen sein. Bitte versuchen Sie, mit einer geringeren Ausgabegröße zusammen zu fügen."
 		},
 		{
 			"id": "err.invalidvalue",
@@ -3587,7 +3587,7 @@
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
-			"txt": "In Batchliste speichern:"
+			"txt": "In Batch-Liste speichern:"
 		},
 		{
 			"id": "batchbuilder.removeproject",
@@ -3627,7 +3627,7 @@
 		},
 		{
 			"id": "batchbuilder.batchlistof",
-			"txt": "BatchListe von %0"
+			"txt": "Batch-Liste von %0"
 		},
 		{
 			"id": "batchbuilder.findingpanoramas",
@@ -3639,7 +3639,7 @@
 		},
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
-			"txt": "Möchten Sie die generierte BatchListe jetzt an den Batch-Stitcher senden?"
+			"txt": "Möchten Sie die generierte Batch-Liste jetzt an den Batch-Stitcher senden?"
 		},
 		{
 			"id": "batchbuilder.or",
@@ -3663,7 +3663,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.method.shootingdate",
-			"txt": "Bilder um die gleiche Zeit genommen gruppieren"
+			"txt": "Bilder, um die gleiche Zeit aufgenommen, gruppieren"
 		},
 		{
 			"id": "batchbuilderdetect.method.subfolderpercamera",
@@ -3743,7 +3743,7 @@
 		},
 		{
 			"id": "batchstitcher.asksave",
-			"txt": "Die aktuelle BatchListe wurde geändert. Änderungen in %0 speichern?"
+			"txt": "Die aktuelle Batch-Liste wurde geändert. Änderungen in %0 speichern?"
 		},
 		{
 			"id": "batchstitcher.errnoprojectfile",
@@ -4135,11 +4135,11 @@
 		},
 		{
 			"id": "lensdatabase.additemtxt",
-			"txt": "Um ein Element hinzuzufügen, klicken Sie auf der Registerkarte @mainwindow.tabs.lenssettings@ auf die Schaltfläche @mainwindow.lensparams.lensdatabasebutton@ und wählen Sie @save@. Um die Registerkarte @mainwindow.tabs.lenssettings@ zu sehen, muss sich PTGui im ​​erweiterten Modus befinden."
+			"txt": "Um ein Element hinzuzufügen, klicken Sie auf der Registerkarte '@mainwindow.tabs.lenssettings@' auf die Schaltfläche '@mainwindow.lensparams.lensdatabasebutton@' und wählen Sie '@save@'. Die Registerkarte '@mainwindow.tabs.lenssettings@' wird nur angezeigt, wenn sich PTGui im ​​erweiterten Modus befindet."
 		},
 		{
 			"id": "lensdatabase.addmappingtxt",
-			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte @mainwindow.tabs.lenssettings@ (PTGui sollte im erweiterten Modus sein). Eine Assoziation kann über 'EXIF - @mainwindow.lensparams.makeexifassociation@' hinzugefügt werden."
+			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Eine Assoziation kann über 'EXIF - @mainwindow.lensparams.makeexifassociation@' hinzugefügt werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
@@ -4239,7 +4239,7 @@
 		},
 		{
 			"id": "err.notabatchlist",
-			"txt": "Dies ist keine PTGui-BatchListe."
+			"txt": "Dies ist keine PTGui-Batch-Liste."
 		},
 		{
 			"id": "err.lensparamsincompatiblewithv10",
@@ -4675,11 +4675,11 @@
 		},
 		{
 			"id": "err.openingbatchlistandotherfiles",
-			"txt": "Wenn Sie eine Batchliste in PTGui öffnen, können Sie keine anderen Dateien gleichzeitig öffnen."
+			"txt": "Wenn Sie eine Batch-Liste in PTGui öffnen, können Sie keine anderen Dateien gleichzeitig öffnen."
 		},
 		{
 			"id": "err.canonlyopenasinglebatchfile",
-			"txt": "Nur eine einzelne BatchListe kann gleichzeitig geöffnet sein."
+			"txt": "Nur eine einzelne Batch-Liste kann gleichzeitig geöffnet sein."
 		},
 		{
 			"id": "err.openingprojectfileandimages",
@@ -5643,13 +5643,13 @@
 		},
 		{
 			"id": "batchbuilder.deleteprojectswhendone",
-			"machinetranslated": true,
-			"txt": "Lösche die Projektdateien nach Verarbeitung"
+			"machinetranslated": false,
+			"txt": "Projektdateien nach Verarbeitung löschen"
 		},
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
-			"machinetranslated": true,
-			"txt": "Sende die generierte Batch Liste an den Batch Stitcher"
+			"machinetranslated": false,
+			"txt": "Die generierte Batch-Liste an den Batch Stitcher senden"
 		},
 		{
 			"id": "options.rawfilesupport",
@@ -6182,18 +6182,18 @@
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
-			"machinetranslated": true,
-			"helptext": "Schließe die aktuelle BatchListe und lösche die Liste der Projekte."
+			"machinetranslated": false,
+			"helptext": "Schließe die aktuelle Batch-Liste und lösche die Liste der Projekte."
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
-			"machinetranslated": true,
-			"helptext": "Die aktuelle Batchlisten-Datei wird automatisch auf dem neuesten Stand gehalten."
+			"machinetranslated": false,
+			"helptext": "Die aktuelle Batch-Listen-Datei wird automatisch auf dem neuesten Stand gehalten."
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
-			"machinetranslated": true,
-			"helptext": "Speichere die aktuelle Liste der Projekte in einer Batchliste."
+			"machinetranslated": false,
+			"helptext": "Speichere die aktuelle Liste der Projekte in einer Batch-Liste."
 		},
 		{
 			"id": "mainwindow.maskmenu.fill",
@@ -8001,13 +8001,13 @@
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
-			"machinetranslated": true,
-			"helptext": "Die generierten Projekte werden zu einer BatchListe hinzugefügt. Die Batchliste kann als Ganzes im Batch-stitcher geladen werden. Dies wird im Standardordner für Batchlisten gespeichert."
+			"machinetranslated": false,
+			"helptext": "Die generierten Projekte werden zu einer Batch-Liste hinzugefügt. Die Batch-Liste kann als Ganzes im Batch-stitcher geladen werden. Dies wird im Standardordner für Batch-Listen gespeichert."
 		},
 		{
 			"id": "batchbuilder.browsesavetobatchlist",
-			"machinetranslated": true,
-			"helptext": "Wählen Sie einen Dateinamen, unter dem die Batchliste gespeichert werden soll."
+			"machinetranslated": false,
+			"helptext": "Wählen Sie einen Dateinamen, unter dem die Batch-Liste gespeichert werden soll."
 		},
 		{
 			"id": "batchbuilder.generate",
@@ -8184,24 +8184,24 @@
 			"id": "batchstitcher.toolbar.openbatchlist",
 			"machinetranslated": true,
 			"label": "@batchstitcher.menubar.openbatchlist@",
-			"helptext": "Laden Sie eine BatchListe. Eine Batchliste speichert eine Liste von Jobs mit dem Status Fertig / Nicht erledigt für jeden Job."
+			"helptext": "Laden Sie eine Batch-Liste. Eine Batch-Liste speichert eine Liste von Jobs mit dem Status Fertig / Nicht erledigt für jeden Job."
 		},
 		{
 			"id": "batchstitcher.toolbar.savebatchlist",
-			"machinetranslated": true,
-			"label": "In Batchliste speichern",
-			"helptext": "Speichern Sie den aktuellen Status der Warteschlange in einer BatchListe. Mithilfe von Batchlisten können Sie den Batch-Stitcher schließen und dort fortfahren, wo Sie aufgehört haben."
+			"machinetranslated": false,
+			"label": "In Batch-Liste speichern",
+			"helptext": "Speichern Sie den aktuellen Status der Warteschlange in einer Batch-Liste. Mithilfe von Batch-Listen können Sie den Batch-Stitcher schließen und dort fortfahren, wo Sie aufgehört haben."
 		},
 		{
 			"id": "batchstitcher.toolbar.start",
-			"machinetranslated": true,
-			"label": "Lauf",
-			"helptext": "Verarbeitung fortsetzen Der Batch-Stitcher beginnt mit der Verarbeitung des ersten nicht abgeschlossenen Jobs in der Warteschlange."
+			"machinetranslated": false,
+			"label": "Start",
+			"helptext": "Verarbeitung fortsetzen. Der Batch-Stitcher beginnt mit der Verarbeitung des ersten nicht abgeschlossenen Jobs in der Warteschlange."
 		},
 		{
 			"id": "batchstitcher.toolbar.stop",
-			"machinetranslated": true,
-			"label": "Halt",
+			"machinetranslated": false,
+			"label": "Stopp",
 			"helptext": "Stoppen Sie die Verarbeitung. Der Batch-Stitcher wird die Verarbeitung des aktuellen Jobs (falls vorhanden) abbrechen."
 		},
 		{
@@ -8409,8 +8409,8 @@
 		},
 		{
 			"id": "options.foldersandfiles.batchlistfolder",
-			"machinetranslated": true,
-			"helptext": "Der Standardspeicherort für Batchlisten. Obwohl Batchlisten in einem beliebigen Ordner gespeichert werden können, kann auf die Dateien im Standardordner schnell zugegriffen werden. Um weitere Informationen zu Batchlisten zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie @help@."
+			"machinetranslated": false,
+			"helptext": "Der Standardspeicherort für Batch-Listen. Obwohl Batch-Listen in einem beliebigen Ordner gespeichert werden können, kann auf die Dateien im Standardordner schnell zugegriffen werden. Um weitere Informationen zu Batch-Listen zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie @help@."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolder",
@@ -8900,8 +8900,8 @@
 	"helppages": [
 		{
 			"id": "batchstitcher",
-			"machinetranslated": true,
-			"helptext": "<b>@batchstitcher@</b><br><br>Das Zusammenfügen von großen Panoramen kann ziemlich viel Zeit in Anspruch nehmen. Mit dem Batch-Stitcher können Sie mehrere Projekte vorbereiten und sie im Stapel zusammenfügen lassen. Projekte werden über die Schaltfläche &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; auf der Registerkarte &quot;@mainwindow.tabs.createpanorama@&quot; und über &quot;@menubar.project.sendtemporarycopytobatchstitcher@&quot; im Menü &quot;@menubar.project@&quot; in den Batch-Stitcher eingereiht. Sie können den Batch-Stitcher auch mit @menubar.tools@ | @batchstitcher@ starten und der Warteschlange manuell Projekte hinzufügen.<br><br><b>Batch-Stitcher verwenden</b><br><br>Der Hauptteil des Batch-Stitchers (direkt unter der Symbolleiste) ist die Job-Warteschlange. Hier werden die zu bearbeitenden Jobs und die fertigen Jobs aufgelistet. Erfolgreich abgeschlossene Jobs werden durch ein grünes Häkchen auf der rechten Seite gekennzeichnet. Alle Aufträge, die mit einem Fehler abgebrochen wurden, werden durch ein rotes Ausrufezeichen angezeigt. Die Fehlermeldung wird im Protokollbereich unten angezeigt. Wenn gerade ein Job bearbeitet wird, wird eine Fortschrittsanzeige angezeigt.<br><br>Jobs können mithilfe von @menubar.file@ | @batchstitcher.menubar.addprojects@ hinzugefügt werden, indem Sie die Schaltfläche @batchstitcher.menubar.addprojects@ in der Symbolleiste verwenden oder eine .pts-Datei in das Batch-Stitcher-Fenster ziehen. Jobs werden auch hinzugefügt, wenn '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' im Hauptfenster ausgeführt wird. Ein oder mehrere Projekte können durch Ziehen mit der Maus ausgewählt werden. Ausgewählte Projekte können mit der Entf-Taste entfernt werden. Die Liste der Projekte kann neu geordnet werden, indem Sie den Zeilenkopf (auf der linken Seite) nach oben oder unten ziehen.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> in der Liste für ein Kontextmenü. Verwenden Sie '@batchstitcher.contextmenu.markasdone@' und '@batchstitcher.contextmenu.markasnotdone@', um den Status eines Projekts zu ändern. Wenn ein Projekt als '@batchstitcher.contextmenu.deletewhendone@' markiert ist, wird die entsprechende Projektdatei (.pts) nach Fertigstellung gelöscht (natürlich wird das generierte Panorama beibehalten). Dies wird von @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@ verwendet.<br><br>Der Batch-Stitcher kann über das Menü @batchstitcher.menubar.process@ und über die Schaltflächen in der Symbolleiste gestartet und gestoppt werden. Doppelklicken Sie auf einen Job (oder drücken Sie die Eingabetaste), um das Projekt in einem neuen PTGui-Fenster zu öffnen. <optional product='pro'><br><br><b>Batch-Stitcher-Projekteinstellungen</b><br><br>Der Batch-Stitcher kann nicht nur Panoramen zusammenfügen, sondern auch Kontrollpunkte erzeugen und Bilder ausrichten. Das Verhalten wird durch die Einstellungen von @mainwindow.projectsettings.batchstitcheractions@ auf der Registerkarte @mainwindow.tabs.projectsettings@ des Projekts <b>gesteuert</b> : Wenn <b>@mainwindow.projectsettings.batchstitcheractions.align@</b> ausgewählt ist, erzeugt der Batch- <b>Stitcher</b> Kontrollpunkte und richtet das Panorama ein. Wenn <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> ausgewählt ist, fügt der Batch-Stitcher das Panorama zusammen.</optional><br><br><b>Batchlisten</b><br><br>Eine BatchListe speichert eine Liste von Jobs mit dem Status &quot;Fertig / Nicht erledigt&quot; für jeden Job. Mithilfe von Batchlisten können Sie den Batch-Stitcher schließen und dort fortfahren, wo Sie aufgehört haben. Der Batch-Stitcher kann unvollständige Jobs nicht fortsetzen (Sie müssen den gesamten Job neu starten), aber er merkt sich, welche Projekte in der BatchListe bereits abgeschlossen wurden und welche nicht.<br><br>Erstellen Sie eine BatchListe, indem Sie einen oder mehrere Jobs im Batch-Stitcher laden und @menubar.file@ | @batchstitcher.menubar.savebatchlistas@ auswählen. Vorhandene BatchListen können mit @batchstitcher.menubar.openbatchlist@ oder @batchstitcher.menubar.recentbatchlists@ geöffnet werden. <optional product='pro'>Das Batch-Builder-Tool (siehe unten) erstellt auch BatchListen, die in den Batch-Stitcher geladen werden können.</optional><br><br>Es kann immer nur eine BatchListe aktiv sein. Wenn eine BatchListe aktiv ist und &quot;@batchstitcher.menubar.autosavebatchlist@&quot; ausgewählt ist, werden Änderungen an der Liste der Projekte (z. B. wenn ein Projekt abgeschlossen ist oder wenn ein Projekt zur Liste hinzugefügt wird) sofort in der BatchListe gespeichert. Wenn die Batchliste sehr groß ist (Tausende von Projekten oder mehr), wird das Speichern der Batchliste bei jeder Änderung sehr lange dauern. In diesem Fall ist es besser, '@batchstitcher.menubar.autosavebatchlist@' zu deaktivieren und @batchstitcher.menubar.savebatchlist@ manuell auszuführen, um die geänderte Batchliste von Zeit zu Zeit auf die Festplatte zu schreiben.<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>Batch-Builder</b><br><br>Die Kombination aus Batch-Stitcher und Batch-Builder macht PTGui Pro zu einem leistungsfähigen Werkzeug, um Hunderte von Panoramen schnell und vollautomatisch auszurichten und zusammenzufügen. Weitere Informationen finden Sie unter @menubar.tools@ | @batchbuilder@ und drücken Sie dort die Schaltfläche @help@.</optional>"
+			"machinetranslated": false,
+			"helptext": "<b>@batchstitcher@</b><br><br>Das Zusammenfügen von großen Panoramen kann ziemlich viel Zeit in Anspruch nehmen. Mit dem Batch-Stitcher können Sie mehrere Projekte vorbereiten und sie im Stapel zusammenfügen lassen. Projekte werden über die Schaltfläche &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; auf der Registerkarte &quot;@mainwindow.tabs.createpanorama@&quot; und über &quot;@menubar.project.sendtemporarycopytobatchstitcher@&quot; im Menü &quot;@menubar.project@&quot; in den Batch-Stitcher eingereiht. Sie können den Batch-Stitcher auch mit @menubar.tools@ | @batchstitcher@ starten und der Warteschlange manuell Projekte hinzufügen.<br><br><b>Batch-Stitcher verwenden</b><br><br>Der Hauptteil des Batch-Stitchers (direkt unter der Symbolleiste) ist die Job-Warteschlange. Hier werden die zu bearbeitenden Jobs und die fertigen Jobs aufgelistet. Erfolgreich abgeschlossene Jobs werden durch ein grünes Häkchen auf der rechten Seite gekennzeichnet. Alle Aufträge, die mit einem Fehler abgebrochen wurden, werden durch ein rotes Ausrufezeichen angezeigt. Die Fehlermeldung wird im Protokollbereich unten angezeigt. Wenn gerade ein Job bearbeitet wird, wird eine Fortschrittsanzeige angezeigt.<br><br>Jobs können mithilfe von @menubar.file@ | @batchstitcher.menubar.addprojects@ hinzugefügt werden, indem Sie die Schaltfläche @batchstitcher.menubar.addprojects@ in der Symbolleiste verwenden oder eine .pts-Datei in das Batch-Stitcher-Fenster ziehen. Jobs werden auch hinzugefügt, wenn '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' im Hauptfenster ausgeführt wird. Ein oder mehrere Projekte können durch Ziehen mit der Maus ausgewählt werden. Ausgewählte Projekte können mit der Entf-Taste entfernt werden. Die Liste der Projekte kann neu geordnet werden, indem Sie den Zeilenkopf (auf der linken Seite) nach oben oder unten ziehen.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> in der Liste für ein Kontextmenü. Verwenden Sie '@batchstitcher.contextmenu.markasdone@' und '@batchstitcher.contextmenu.markasnotdone@', um den Status eines Projekts zu ändern. Wenn ein Projekt als '@batchstitcher.contextmenu.deletewhendone@' markiert ist, wird die entsprechende Projektdatei (.pts) nach Fertigstellung gelöscht (natürlich wird das generierte Panorama beibehalten). Dies wird von @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@ verwendet.<br><br>Der Batch-Stitcher kann über das Menü @batchstitcher.menubar.process@ und über die Schaltflächen in der Symbolleiste gestartet und gestoppt werden. Doppelklicken Sie auf einen Job (oder drücken Sie die Eingabetaste), um das Projekt in einem neuen PTGui-Fenster zu öffnen. <optional product='pro'><br><br><b>Batch-Stitcher-Projekteinstellungen</b><br><br>Der Batch-Stitcher kann nicht nur Panoramen zusammenfügen, sondern auch Kontrollpunkte erzeugen und Bilder ausrichten. Das Verhalten wird durch die Einstellungen von @mainwindow.projectsettings.batchstitcheractions@ auf der Registerkarte @mainwindow.tabs.projectsettings@ des Projekts <b>gesteuert</b> : Wenn <b>@mainwindow.projectsettings.batchstitcheractions.align@</b> ausgewählt ist, erzeugt der Batch- <b>Stitcher</b> Kontrollpunkte und richtet das Panorama ein. Wenn <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@</b> ausgewählt ist, fügt der Batch-Stitcher das Panorama zusammen.</optional><br><br><b>Batch-Listen</b><br><br>Eine Batch-Liste speichert eine Liste von Jobs mit dem Status &quot;Fertig / Nicht erledigt&quot; für jeden Job. Mithilfe von Batch-Listen können Sie den Batch-Stitcher schließen und dort fortfahren, wo Sie aufgehört haben. Der Batch-Stitcher kann unvollständige Jobs nicht fortsetzen (Sie müssen den gesamten Job neu starten), aber er merkt sich, welche Projekte in der Batch-Liste bereits abgeschlossen wurden und welche nicht.<br><br>Erstellen Sie eine Batch-Liste, indem Sie einen oder mehrere Jobs im Batch-Stitcher laden und @menubar.file@ | @batchstitcher.menubar.savebatchlistas@ auswählen. Vorhandene Batch-Listen können mit @batchstitcher.menubar.openbatchlist@ oder @batchstitcher.menubar.recentbatchlists@ geöffnet werden. <optional product='pro'>Das Batch-Builder-Tool (siehe unten) erstellt auch Batch-Listen, die in den Batch-Stitcher geladen werden können.</optional><br><br>Es kann immer nur eine Batch-Liste aktiv sein. Wenn eine Batch-Liste aktiv ist und &quot;@batchstitcher.menubar.autosavebatchlist@&quot; ausgewählt ist, werden Änderungen an der Liste der Projekte (z. B. wenn ein Projekt abgeschlossen ist oder wenn ein Projekt zur Liste hinzugefügt wird) sofort in der Batch-Liste gespeichert. Wenn die Batch-Liste sehr groß ist (Tausende von Projekten oder mehr), wird das Speichern der Batch-Liste bei jeder Änderung sehr lange dauern. In diesem Fall ist es besser, '@batchstitcher.menubar.autosavebatchlist@' zu deaktivieren und @batchstitcher.menubar.savebatchlist@ manuell auszuführen, um die geänderte Batch-Liste von Zeit zu Zeit auf die Festplatte zu schreiben.<br><br>@batchbuilder.helptext.appendbatchlist@<optional product='pro'><br><br><b>Batch-Builder</b><br><br>Die Kombination aus Batch-Stitcher und Batch-Builder macht PTGui Pro zu einem leistungsfähigen Werkzeug, um Hunderte von Panoramen schnell und vollautomatisch auszurichten und zusammenzufügen. Weitere Informationen finden Sie unter @menubar.tools@ | @batchbuilder@ und drücken Sie dort die Schaltfläche @help@.</optional>"
 		},
 		{
 			"id": "aligntogrid",

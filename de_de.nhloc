@@ -2080,7 +2080,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "GP "
+			"txt": "SP "
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -6533,9 +6533,9 @@
 		},
 		{
 			"id": "mainwindow.toolbar.controlpointstable",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@controlpointstable@",
-			"helptext": "Dies listet alle Kontrollpunkte im aktuellen Projekt auf."
+			"helptext": "Die Tabelle listet alle Kontrollpunkte im aktuellen Projekt auf."
 		},
 		{
 			"id": "mainwindow.toolbar.controlpointsassistant",
@@ -6552,42 +6552,42 @@
 		{
 			"id": "projectassistant.loadimages",
 			"machinetranslated": true,
-			"helptext": "Quellbilder laden für das Panorama.",
+			"helptext": "Quellbilder für das Panorama laden",
 			"morehelptext": "<br><br>PTGui kann Panoramen zusammenfügen, die aus mehreren Reihen von Bildern bestehen. Laden Sie einfach alle Ihre Quellbilder auf einmal, PTGui wird herausfinden, auf welche Weise sie sich überschneiden.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.images",
 			"machinetranslated": false,
-			"helptext": "Quellbilder für das Panorama.",
-			"morehelptext": "<br><br>Um Quellbilder hinzuzufügen, zu entfernen oder neu anzuordnen, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@.<br><br>Mit einem roten Kreuz markierte Bilder sind vom Panorama ausgeschlossen. <optional product='pro'>Bilder, die mit 'GP' gekennzeichnet sind, haben eine Standpunktkorrektur aktiviert.</optional> Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf einem Bild für ein Kontextmenü, um diese Einstellungen zu ändern.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
+			"helptext": "Quellbilder für das Panorama",
+			"morehelptext": "<br><br>Um Quellbilder hinzuzufügen, zu entfernen oder neu anzuordnen, wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@'.<br><br>Mit einem roten Kreuz markierte Bilder sind vom Panorama ausgeschlossen. <optional product='pro'>Bei mit '@mainwindow.imageparameters.vpprefix@' gekennzeichneten Bildern ist die Standpunktkorrektur aktiviert.</optional> Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild für ein Kontextmenü, um diese Einstellungen zu ändern.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.rotateccw",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Gegen den Uhrzeigersinn drehen",
-			"helptext": "Drehe alle Bilder gegen den Uhrzeigersinn. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
+			"helptext": "Alle Bilder werdn gegen den Uhrzeigersinn gedreht. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
 		},
 		{
 			"id": "projectassistant.rotatecw",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Im Uhrzeigersinn drehen",
-			"helptext": "Drehe alle Bilder im Uhrzeigersinn. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
+			"helptext": "Alle Bilder wwerden im Uhrzeigersinn gedreht. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
 		},
 		{
 			"id": "projectassistant.isprealigned",
-			"machinetranslated": true,
-			"helptext": "Wählen Sie dies, wenn die Bilder bereits ungefähr vorhanden sind. Der Panorama-Editor sollte ein grob ausgerichtetes Panorama anzeigen.<br><br>Der Kontrollpunktgenerator sucht nur in den Bereichen, in denen sich Bilder überlagern, nach Kontrollpunkten. Bei großen Panoramen verkürzt sich die Zeit für die Ausrichtung erheblich. Es minimiert auch das Risiko von falsch platzierten Kontrollpunkten auf ähnlich aussehenden, aber unterschiedlichen Teilen der Szene."
+			"machinetranslated": false,
+			"helptext": "Wählen Sie dies, wenn die Bilder bereits ungefähr ausgerichtet sind. Der Panorama-Editor sollte ein grob ausgerichtetes Panorama anzeigen.<br><br>Der Kontrollpunktgenerator sucht nur in den Bereichen, in denen sich Bilder überlagern, nach Kontrollpunkten. Bei großen Panoramen verkürzt sich die Zeit für die Ausrichtung erheblich. Es minimiert auch das Risiko von falsch platzierten Kontrollpunkten auf ähnlich aussehenden, aber unterschiedlichen Teilen der Szene."
 		},
 		{
 			"id": "projectassistant.alignimages",
-			"machinetranslated": true,
-			"helptext": "Richte das Panorama aus.",
+			"machinetranslated": false,
+			"helptext": "Panorama ausrichten",
 			"morehelptext": "<br><br>PTGui analysiert zuerst alle Bilder und platziert Kontrollpunkte auf identischen Merkmalen über Bilder hinweg. Als nächstes werden die Kontrollpunkte vom Optimierer zum Ausrichten der Bilder verwendet. PTGui wählt auch eine geeignete Projektion für das Panorama und passt das Sichtfeld an.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.createpanorama",
-			"machinetranslated": true,
-			"helptext": "Wechseln Sie zur Registerkarte @mainwindow.tabs.createpanorama@, um das Panoramabild zu bearbeiten."
+			"machinetranslated": false,
+			"helptext": "Wechseln Sie zur Registerkarte '@mainwindow.tabs.createpanorama@', um das Panorama zu erstellen."
 		},
 		{
 			"id": "lensparams.globallens",
@@ -6608,8 +6608,8 @@
 		},
 		{
 			"id": "lensparams.lenstype",
-			"machinetranslated": true,
-			"helptext": "Art des Objektivs. In den meisten Fällen kann PTGui dies automatisch feststellen, indem er die EXIF-Daten des Bildes untersucht.",
+			"machinetranslated": false,
+			"helptext": "Art des Objektivs. In den meisten Fällen kann PTGui dies automatisch feststellen, indem die EXIF-Daten des Bildes untersucht werden.",
 			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> ist der am häufigsten verwendete Objektivtyp; Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als <b>Quellbild</b> zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen ein größeres Sichtfeld als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein <b>kreisförmiges Fischaugenobjektiv</b> hat ein Sichtfeld von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein <b>vollformatiges Fischaugenobjektiv</b> hat ein engeres Sichtfeld und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Laden eines bereits zusammengefügtes sphärischen Panoramas als <b>Quellbild</b> ."
 		},
 		{
@@ -8926,12 +8926,12 @@
 		{
 			"id": "panoramaeditor",
 			"machinetranslated": false,
-			"helptext": "<b>@panoramaeditor@</b><br><br>Der Panorama-Editor zeigt eine Live-Vorschau des Panoramas. Die Panoramaprojektion des Panoramas kann verändert werden, das Panorama kann beschnitten werden und einzelne Bilder können innerhalb des Panoramas bewegt werden. Der Panorama-Editor wird geöffnet von @menubar.tools@ | @panoramaeditor@ oder von <optional platform='windows'>Drücken durch Strg + E</optional><optional platform='mac'>Drücken von Cmd + E</optional> .<br><br>Der Panorama-Editor kann in drei Modi arbeiten, die durch Drücken der entsprechenden Schaltfläche in der Symbolleiste aktiviert werden:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Um Bilder einzeln innerhalb des Panoramas neu zu positionieren.<br><b>@panoramaeditor.menubar.editpano@:</b> um das Panorama als Ganzes zu verschieben oder zu drehen.<br><b>@panoeditor.menubar.setcenter@:</b> um das Panorama um einen bestimmten Punkt zu zentrieren.<br><br>Je nach gewähltem Modus kann entweder das gesamte Panorama oder einzelne Bilder verschoben werden. Ziehen Sie mit der linken Maustaste, um zu verschieben. Ziehen Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Ziehen)</optional> rotieren.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> Klicken Sie im Panorama auf ein Kontextmenü, um Aktionen auf den Bildern unter dem Mauszeiger auszuführen.<br><br>Links und unten befinden sich zwei <b>Schieberegler für den Feldbereich:</b> Verwenden Sie diese, um das Panorama zu vergrößern oder zu verkleinern.<br><br>Auf der rechten Seite befindet sich eine <b>Seitenleiste</b> mit weiteren Bearbeitungsoptionen. Die Seitenleiste kann mithilfe der Pfeiltaste ausgeblendet oder gesperrt werden.<br><br>Klicken Sie auf die Lupe, um den <b>Detail-Viewer</b>  aufzurufen, mit dem Sie in bestimmte Bereiche des Panoramas zoomen können.<br><br>Ein <b>Gitter</b> kann überlagert werden, indem der kleine dreieckige Knopf (unten) nach rechts gezogen wird.<br><br>In der Symbolleiste kann einer von drei <b>Mischmodi</b> ausgewählt werden: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
+			"helptext": "<b>@panoramaeditor@</b><br><br>Der Panorama-Editor zeigt eine Live-Vorschau des Panoramas. Die Panoramaprojektion des Panoramas kann verändert werden, das Panorama kann beschnitten werden und einzelne Bilder können innerhalb des Panoramas bewegt werden. Der Panorama-Editor wird geöffnet über '@menubar.tools@' | '@panoramaeditor@' oder durch <optional platform='windows'>Drücken von Strg + E</optional><optional platform='mac'>Drücken von Cmd + E</optional> .<br><br>Der Panorama-Editor kann in drei Modi arbeiten, die durch Auswahl der entsprechenden Schaltfläche in der Symbolleiste aktiviert werden:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Um Bilder einzeln innerhalb des Panoramas neu zu positionieren.<br><b>@panoramaeditor.menubar.editpano@:</b> Um das Panorama als Ganzes zu verschieben oder zu drehen.<br><b>@panoeditor.menubar.setcenter@:</b> Um das Panorama um einen bestimmten Punkt zu zentrieren.<br><br>Je nach gewähltem Modus kann entweder das gesamte Panorama oder einzelne Bilder verschoben werden. Ziehen Sie mit der linken Maustaste, um zu verschieben. Ziehen Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Ziehen)</optional> um zu rotieren.<br><br>Öffnen Sie mit einem Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf das Panorama für weitere Aktionen das Kontextmenü.<br><br>Am linken und unteren Fensterrand befinden sich zwei <b>Schieberegler für den Feldbereich:</b> Mit ihnen stellen Sie die Größe des Panoramas ein.<br><br>Auf der rechten Seite befindet sich die <b>Seitenleiste</b> mit weiteren Bearbeitungsoptionen. Die Seitenleiste kann mithilfe der Pfeiltaste ausgeblendet oder gesperrt werden.<br><br>Klicken Sie auf die Lupe, um den <b>Detail-Viewer</b>  aufzurufen, mit dem Sie in bestimmte Bereiche des Panoramas zoomen können.<br><br>Ein <b>Gitter</b> kann überlagert werden, indem der kleine dreieckige Knopf (unten) nach rechts gezogen wird.<br><br>In der Symbolleiste kann einer von drei <b>Mischmodi</b> ausgewählt werden: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
 		},
 		{
 			"id": "detailviewer",
 			"machinetranslated": false,
-			"helptext": "<b>@detailviewer@</b><br><br>Die Detailanzeige zeigt eine Echtzeitvorschau eines bestimmten Teils des Panoramas. Verwenden Sie den Detail-Viewer, um in das Panorama zu zoomen, um mögliche Farbstiche oder Mischfehler zu erkennen. Im Perspektivmodus kann der Detailbetrachter auch nützlich sein, um Nadir und Zenit eines sphärischen Panoramas vor dem Zusammenfügen zu untersuchen.<br><br>Um den Detail-Viewer zu öffnen, wählen Sie @menubar.project@ | @detailviewer@, oder drücken Sie die Lupen-Taste im Panorama-Editor.<br><br>Die Navigation im Detail-Viewer erfolgt durch Klicken und Ziehen mit der linken Maustaste. Zwei Navigationsmodi werden unterstützt, siehe unten. Alternativ können die Cursortasten verwendet werden. Der Detail-Viewer kann auch auf einen bestimmten Punkt zentriert werden, indem Sie die Lupe im Panorama-Editor an die gewünschte Position ziehen.<br><br><optional platform='windows'>Zoomen erfolgt durch Drehen des Mausrads bei gedrückter Strg-Taste</optional><optional platform='mac'>Zoomen erfolgt mit zwei Finger-Pinch-Trackpad-Gesten,</optional> oder indem Sie den Schieberegler auf der linken Seite ziehen. Sie können mit den Tasten + und - auch zoomen.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> Im Detail Viewer erscheint ein Kontextmenü. Über dieses Kontextmenü kann schnell zu einem bestimmten Bild in den Registerkarten @mainwindow.tabs.crop@, @mainwindow.tabs.mask@ und @mainwindow.tabs.controlpoints@ gesprungen werden.<br><br>Es stehen zwei Projektionsmodi zur Verfügung, die mit den Symbolleistenschaltflächen ausgewählt werden:<br><b>Zoom-Modus:</b> In diesem Modus zeigt der Detail-Viewer einen rechteckigen Ausschnitt des Panoramas an. Das Panorama wird in der aktuellen Projektion angezeigt.<br><b>Perspektivischer Modus:</b> In diesem Modus wird die aktuelle Ansicht des Panoramas wie bei einem interaktiven Panorama-Viewer auf eine flache (geradlinige) Projektion projiziert.<br><br>Zwei Methoden zur Navigation mit der Maus werden unterstützt, die über die Symbolleistenschaltflächen ausgewählt werden:<br><b>Ziehen zum Verschieben:</b> Das Bild kann in jede Richtung gezogen werden.<br><b>Ziehen und halten:</b> Klicken und halten Sie die Maustaste gedrückt. In die gewünschte Richtung ziehen; Die Ansicht wird kontinuierlich verschoben, bis die Maustaste losgelassen wird. <optional platform='mac'>In beiden Modi kann die Navigation auch mit zwei Fingerwisch-Trackpad-Gesten ausgeführt werden.</optional><br><br>In der Symbolleiste kann einer von drei <b>Mischmodi</b> ausgewählt werden: @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ und @panoeditor.menubar.showseams@. Weitere Informationen finden Sie in den QuickInfos."
+			"helptext": "<b>@detailviewer@</b><br><br>Die Detailanzeige zeigt eine Echtzeitvorschau eines bestimmten Teils des Panoramas. Verwenden Sie den Detail-Viewer, um in das Panorama zu zoomen, um mögliche Übergangs- oder Mischfehler zu erkennen. Im Perspektivmodus kann der Detail-Viewer auch nützlich sein, um Nadir und Zenit eines sphärischen Panoramas vor dem Zusammenfügen zu untersuchen.<br><br>Um den Detail-Viewer zu öffnen, wählen Sie '@menubar.project@' | '@detailviewer@', oder drücken Sie die Lupen-Taste im Panorama-Editor.<br><br>Die Navigation im Detail-Viewer erfolgt durch Klicken und Ziehen mit der linken Maustaste. Zwei Navigationsmodi werden unterstützt, siehe unten. Alternativ können die Cursortasten verwendet werden. Der Detail-Viewer kann auch auf einen bestimmten Punkt zentriert werden, indem Sie die Lupe im Panorama-Editor an die gewünschte Position ziehen.<br><br><optional platform='windows'>Zoomen erfolgt durch Drehen des Mausrads bei gedrückter Strg-Taste</optional><optional platform='mac'>Zoomen erfolgt mit zwei Finger-Pinch-Trackpad-Gesten,</optional> oder indem Sie den Schieberegler auf der linken Seite ziehen. Mit den Tasten '+' und '-' können Sie auch zoomen.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> im Detail Viewer öffnet das Kontextmenü. Über dieses Kontextmenü kann schnell zu einem bestimmten Bild in den Registerkarten @mainwindow.tabs.crop@, @mainwindow.tabs.mask@ und @mainwindow.tabs.controlpoints@ gesprungen werden.<br><br>Es stehen zwei Projektionsmodi zur Verfügung, die mit den Symbolleistenschaltflächen ausgewählt werden:<br><b>Zoom-Modus:</b> In diesem Modus zeigt der Detail-Viewer einen rechteckigen Ausschnitt des Panoramas an. Das Panorama wird in der aktuellen Projektion angezeigt.<br><b>Perspektivischer Modus:</b> In diesem Modus wird die aktuelle Ansicht des Panoramas wie bei einem interaktiven Panorama-Viewer auf eine flache (geradlinige) Projektion projiziert.<br><br>Zwei Methoden zur Navigation mit der Maus werden unterstützt, die über die Symbolleistenschaltflächen ausgewählt werden:<br><b>Ziehen zum Verschieben:</b> Das Bild kann in jede Richtung gezogen werden.<br><b>Ziehen und halten:</b> Klicken und halten Sie die Maustaste gedrückt. In die gewünschte Richtung ziehen, die Ansicht wird kontinuierlich verschoben, bis die Maustaste losgelassen wird. <optional platform='mac'>In beiden Modi kann die Navigation auch mit zwei Fingerwisch-Trackpad-Gesten ausgeführt werden.</optional><br><br>In der Symbolleiste kann einer von drei <b>Mischmodi</b> ausgewählt werden: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
 		},
 		{
 			"id": "mainwindow.projectassistant",

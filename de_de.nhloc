@@ -1122,7 +1122,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.red",
-			"txt": "Rot (ausblenden von Panorama)"
+			"txt": "Rot (vom Panorama ausblenden)"
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
@@ -4203,11 +4203,11 @@
 		},
 		{
 			"id": "txt.analyzingimages",
-			"txt": "Bilder analysieren"
+			"txt": "Bilder werden analysiert"
 		},
 		{
 			"id": "txt.analyzingcontrolpoints",
-			"txt": "Kontrollpunkte analysieren"
+			"txt": "Kontrollpunkte werden analysiert"
 		},
 		{
 			"id": "txt.stitchingpanorama",
@@ -4219,15 +4219,15 @@
 		},
 		{
 			"id": "txt.compressingpsd",
-			"txt": "Komprimieren der Photoshop-Ausgabe"
+			"txt": "Photoshop-Ausgabe wird komprimiert"
 		},
 		{
 			"id": "txt.finishingoutputfiles",
-			"txt": "Ausgabedateien beenden"
+			"txt": "Ausgabedateien werden beendet"
 		},
 		{
 			"id": "txt.finishingoutputfile",
-			"txt": "Ausgabedatei beenden"
+			"txt": "Ausgabedatei wird beendet"
 		},
 		{
 			"id": "err.nooutputfilename",
@@ -4235,7 +4235,7 @@
 		},
 		{
 			"id": "err.exposureopt.needtwoimages2",
-			"txt": "Zur Belichtung und Farboptimierung sollten mindestens zwei überlappende Bilder zur Optimierung ausgewählt werden. Drücken Sie @settings@ und wählen Sie zwei oder mehr Bilder aus."
+			"txt": "Zur Belichtung und Farboptimierung sollten mindestens zwei überlappende Bilder zur Optimierung ausgewählt werden. Drücken Sie '@settings@' und wählen Sie zwei oder mehr Bilder aus."
 		},
 		{
 			"id": "err.notabatchlist",
@@ -4723,7 +4723,7 @@
 		},
 		{
 			"id": "txt.aligningimages",
-			"txt": "Ausrichten von Bildern"
+			"txt": "Bilder werden ausgerichtet"
 		},
 		{
 			"id": "warn.alignimagesmissingcontrolpoints",
@@ -4731,7 +4731,7 @@
 		},
 		{
 			"id": "txt.dontaskthisagain",
-			"txt": "Frag das nicht noch einmal"
+			"txt": "Nicht noch einmal fragen"
 		},
 		{
 			"id": "txt.dontshowthisagain",
@@ -4739,7 +4739,7 @@
 		},
 		{
 			"id": "txt.dontaskthisagainforthisproject",
-			"txt": "Frag das nicht noch einmal für dieses Projekt"
+			"txt": "Nicht noch einmal für dieses Projekt fragen"
 		},
 		{
 			"id": "warn.simplemodewillchangesettings",
@@ -4763,11 +4763,11 @@
 		},
 		{
 			"id": "txt.savingtemplate",
-			"txt": "Vorlage speichern"
+			"txt": "Vorlage wird gespeichert"
 		},
 		{
 			"id": "txt.exportingproject",
-			"txt": "Projekt exportieren"
+			"txt": "Projekt wird exportiert"
 		},
 		{
 			"id": "txt.asksavefirsttime",
@@ -4791,7 +4791,7 @@
 		},
 		{
 			"id": "err.dragdropmess",
-			"txt": "Sie haben mehrere Dateien auf PTGui gelöscht, einschließlich Bildern und Projektdateien.\n\nEntweder ein einzelnes PTGui-Projekt oder ein oder mehrere Bilder löschen."
+			"txt": "Sie haben mehrere Dateien auf PTGui gezogen, einschließlich Bildern und Projektdateien.\n\nZiehen Sie entweder ein einzelnes PTGui-Projekt oder ein oder mehrere Bilder nach PTGui."
 		},
 		{
 			"id": "txt.foundimagesinsamefolder",
@@ -4811,11 +4811,11 @@
 		},
 		{
 			"id": "err.notfoundaskforfolder2",
-			"txt": "Keines der Bilder wurde im angegebenen Ordner gefunden. Möchten Sie einen anderen Ordner ausprobieren?"
+			"txt": "Keines der Bilder wurde im angegebenen Ordner gefunden. Möchten Sie es in einen anderen Ordner versuchen?"
 		},
 		{
 			"id": "err.notfoundaskforfolder3",
-			"txt": "Ein oder mehrere Bilder fehlen noch. Möchten Sie einen anderen Ordner ausprobieren?"
+			"txt": "Ein oder mehrere Bilder fehlen noch. Möchten Sie es in einen anderen Ordner versuchen?"
 		},
 		{
 			"id": "txt.folderforsearchingimages",
@@ -6080,18 +6080,18 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
-			"machinetranslated": true,
-			"txt": "Maskieren drückt die Nähte zurück"
-		},
+			"machinetranslated": false,
+			"txt": "Maskieren verschiebt die Nähte"
+        },
 		{
 			"id": "options.monitorcolorprofile",
-			"machinetranslated": true,
-			"txt": "Farbprofil für Bildschirm:"
-		},
+			"machinetranslated": false,
+			"txt": "Farbprofil des Bildschirms:"
+        },
 		{
 			"id": "options.monitorcolorprofile.windowsdefault",
-			"machinetranslated": true,
-			"txt": "Verwende die Windows-Farbeinstellungen"
+			"machinetranslated": false,
+			"txt": "die Windows-Farbeinstellungen verwenden"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
@@ -6208,17 +6208,17 @@
 		{
 			"id": "mainwindow.maskmenu.eraser",
 			"machinetranslated": true,
-			"helptext": "Radiergummi - entfernt die rot und grün bemalten Bereiche."
+			"helptext": "Radiergummi - entfernt die rot und grün gezeichneten Bereiche."
 		},
 		{
 			"id": "mainwindow.maskmenu.red",
-			"machinetranslated": true,
-			"helptext": "Male mit Rot. Die rot gemalten Bereiche werden im überblendeten Panorama nicht verwendet."
+			"machinetranslated": false,
+			"helptext": "Mit Rot zeichnen. Rot gekennzeichnete Bereiche werden im überblendeten Panorama nicht verwendet."
 		},
 		{
 			"id": "mainwindow.maskmenu.green",
-			"machinetranslated": true,
-			"helptext": "Male mit Grün. Der Blender wird grünen Flächen Priorität geben."
+			"machinetranslated": false,
+			"helptext": "Mit Grün zeichnen. Der Blender wird grünen Bereichen Priorität geben."
 		},
 		{
 			"id": "menubar.images.unlinkall",
@@ -6739,46 +6739,46 @@
 		},
 		{
 			"id": "zoomtoolbar.zoomlevel",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Zoomstufe",
-			"helptext": "Geben Sie einen Prozentsatz ein (100% entspricht der Originalgröße) oder &quot;@zoomfit@&quot;, um vollständig zu verkleinern.",
-			"morehelptext": "<br><br><optional platform='windows'>Zoomen kann auch mit dem Mausrad erfolgen.</optional><optional platform='mac'>Das Zoomen kann auch mit zwei Fingerbewegungen auf dem Trackpad erfolgen.</optional> Und es gibt mehrere Tastenkombinationen zum Zoomen (siehe Menü @menubar.view@)"
+			"helptext": "Geben Sie einen Prozentwert ein (100% entspricht der Originalgröße) oder passen Sie das Bild mit '@zoomfit@' an das Fenster an.",
+			"morehelptext": "<br><br><optional platform='windows'>Sie können auch mit dem Mausrad zoomen.</optional><optional platform='mac'>Sie können auch mit Zweifingerbewegungen auf dem Trackpad zoomen.</optional> Zudem gibt es zum Zoomen mehrere Tastenkombinationen (siehe Menü '@menubar.view@')"
 		},
 		{
 			"id": "previewexposuretoolbar.exposure",
-			"machinetranslated": true,
-			"label": "Vorschau der Belichtung",
-			"helptext": "Erhöhen oder verringern Sie die Helligkeit des Vorschaubildes. Beeinflusst das Bild, das hier im Panorama-Editor und im Detail-Viewer angezeigt wird. Das zusammengefügte Panorama ist nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um auf 0 zurückzusetzen."
+			"machinetranslated": false,
+			"label": "Belichtung der Vorschau",
+			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschaubilder. Dies wirkt sich nur auf die hier angezeigten Bilder, den Panorama-Editor und den Detail-Viewer aus. Das zusammengefügte Panorama ist davon nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um ihn auf 0 zurückzusetzen."
 		},
 		{
 			"id": "masktoolbar.red",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.red@ [R]",
-			"helptext": "Male rote Masken. Rote Masken werden verwendet, um unerwünschte Teile eines Bildes aus dem Panorama zu entfernen. Maskierte Bereiche werden transparent.<br><br>Wenn Sie das Panorama zusammenfügen, verwendet der Blender überlappende Teile aus anderen Bildern."
+			"helptext": "Rote Maske zeichnen. Rote Masken markieren unerwünschte Teile eines Bildes, die nicht im Panorama verwendet werden. Maskierte Bereiche werden transparent.<br><br>Wenn Sie das Panorama zusammenfügen, verwendet der Blender überlappende Teile aus anderen Bildern."
 		},
 		{
 			"id": "masktoolbar.green",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.green@ [G]",
-			"helptext": "Male grüne Masken. Grüne Masken werden verwendet, um anzuzeigen, welche Teile des Bildes beibehalten werden sollen. Der Blender wird lieber grüne maskierte Teile verwenden und keine überlappenden Bereiche von anderen Bildern."
+			"helptext": "Grüne Maske zeichnen. Grüne Masken markieren die Teile eines Bildes, die unbedingt beibehalten werden sollen. Der Blender wird bevorzugt grün maskierte Teile verwenden und keine überlappenden Bereiche von anderen Bildern."
 		},
 		{
 			"id": "masktoolbar.eraser",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.eraser@ [E]",
-			"helptext": "Verwenden Sie den Radiergummi, um rote oder grüne Masken zu entfernen."
+			"helptext": "Mit dem Radiergummi entfernen Sie rote oder grüne Masken."
 		},
 		{
 			"id": "masktoolbar.draw",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.draw@ [D]",
-			"helptext": "Zeichnen Sie Masken, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen. Gerade Linien können gezeichnet werden, indem Sie die Umschalttaste gedrückt halten und auf das Bild klicken."
+			"helptext": "Zeichnen Sie Masken, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen. Gerade Linien zeichnen Sie, indem Sie die Umschalttaste gedrückt halten und auf das Bild klicken."
 		},
 		{
 			"id": "masktoolbar.fill",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@mainwindow.maskmenu.fill@ [F]",
-			"helptext": "Klicken Sie in einen umschlossenen Bereich, um die aktuell ausgewählte Farbe zu füllen."
+			"helptext": "Klicken Sie in einen umschlossenen Bereich, um ihn mit der aktuell ausgewählten Farbe zu füllen."
 		},
 		{
 			"id": "masktoolbar.onepane",
@@ -6806,16 +6806,16 @@
 		},
 		{
 			"id": "maskimagetoolbar.loadmask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@loadmask@",
 			"helptext": "Laden Sie die Maske aus einer Datei.",
-			"morehelptext": "Die Maske sollte als PNG-Datei mit 3 Farben gespeichert werden: Schwarz für nicht maskierte Bereiche und voll gesättigtes Rot und Grün für die Maske. Dies ist das Format, das von der Funktion Maske speichern verwendet wird.<br><br>Es ist möglich, dieselbe Maske für mehrere Bilder gleichzeitig zu laden: Wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, und wählen Sie @loadmask@ im Kontextmenü aus.<br><br>Die geladene Maske wird mit einer vorhandenen Maske zusammengeführt. Wenn die vorhandene Maske vollständig ersetzt werden muss, entfernen Sie sie zuerst mit der Funktion @clearmask@."
+			"morehelptext": "Die Maske sollte als PNG-Datei mit 3 Farben gespeichert sein: Schwarz für nicht maskierte Bereiche und vollständig gesättigtes Rot und Grün für die jeweilige Maske. Dieses Format wird so von der Funktion '@savemask@' erstellt.<br><br>Sie können diese Maske auch für mehrere Bilder gleichzeitig laden: Wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@', wählen Sie die Bilder aus und wählen Sie '@loadmask@' im Kontextmenü aus.<br><br>Die geladene Maske wird mit einer vorhandenen Maske zusammengeführt. Soll die vorhandene Maske jedoch vollständig ersetzt werden, entfernen Sie sie vorher mit der Funktion @clearmask@."
 		},
 		{
 			"id": "maskimagetoolbar.savemask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@savemask@",
-			"helptext": "Speichert die aktuelle Maske in einer PNG-Datei. Dies kann mit der @loadmask@-Funktion wiederverwendet werden."
+			"helptext": "Speichern Sie die aktuelle Maske in einer PNG-Datei. Diese gespeicherte Maske können Sie mit der '@loadmask@'-Funktion jederzeit wieder laden."
 		},
 		{
 			"id": "maskimagetoolbar.clearmask",
@@ -6825,16 +6825,16 @@
 		},
 		{
 			"id": "maskimagetoolbar.copymask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@copymask@",
-			"helptext": "Kopiert die aktuelle Maske in die Zwischenablage. Die Maske kann in andere Bilder eingefügt werden. Es kann auch in externe Bildbearbeitungsprogramme eingefügt werden."
+			"helptext": "Kopiert die aktuelle Maske in die Zwischenablage. Die Maske kann in andere Bilder oder auch in externen Bildbearbeitungsprogrammen eingefügt werden."
 		},
 		{
 			"id": "maskimagetoolbar.pastemask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@pastemask@",
 			"helptext": "Fügen Sie die Maske aus der Zwischenablage ein.",
-			"morehelptext": "Verwenden Sie zuerst die Funktion @copymask@, um eine Maske in die Zwischenablage zu kopieren.<br><br>Es ist möglich, die gleiche Maske gleichzeitig in mehrere Bilder einzufügen: Wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, und wählen Sie @pastemask@ im Kontextmenü aus.<br><br>Die eingefügte Maske wird mit einer vorhandenen Maske zusammengeführt. Wenn die vorhandene Maske vollständig ersetzt werden muss, entfernen Sie sie zuerst mit der Funktion @clearmask@."
+			"morehelptext": "Verwenden Sie zuerst die Funktion '@copymask@', um eine Maske in die Zwischenablage zu kopieren.<br><br>Sie können diese Maske in mehrere Bilder gleichzeitig einzufügen: Wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@', wählen Sie die Bilder aus und wählen Sie '@pastemask@' im Kontextmenü aus.<br><br>Die eingefügte Maske wird mit einer vorhandenen Maske zusammengeführt. Soll die vorhandene Maske jedoch vollständig ersetzt werden, entfernen Sie sie vorher mit der Funktion @clearmask@."
 		},
 		{
 			"id": "cptoolbar.autojump",
@@ -6845,10 +6845,10 @@
 		},
 		{
 			"id": "cptoolbar.autoadd",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@menubar.controlpoints.autoadd@",
 			"helptext": "Nachdem Sie den ersten Punkt platziert haben, wird versucht, den zweiten Punkt automatisch hinzuzufügen.",
-			"morehelptext": "Vorhandene Kontrollpunkte werden verwendet, um den ungefähren erwarteten Ort des Übereinstimmungspunkts zu berechnen. Daher funktioniert diese Funktion nur, wenn zwei oder mehr Kontrollpunkte für dieses Bildpaar vorhanden sind. Der genaue Ort wird dann durch Analyse der Bilder bestimmt."
+			"morehelptext": "Vorhandene Kontrollpunkte werden verwendet, um den ungefähr zu erwarteten Ort des Übereinstimmungspunkts zu berechnen. Daher funktioniert diese Funktion nur, wenn zwei oder mehr Kontrollpunkte für dieses Bildpaar vorhanden sind. Der genaue Ort wird dann durch eine Analyse der Bilder bestimmt."
 		},
 		{
 			"id": "cptoolbar.linkscrollbars",
@@ -6864,22 +6864,22 @@
 		},
 		{
 			"id": "cptoolbar.showmask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@menubar.controlpoints.showmask@",
-			"helptext": "Blendet die Masken ein oder aus (wie auf der Registerkarte @mainwindow.tabs.mask@ eingestellt)."
+			"helptext": "Blendet die Masken ein oder aus (wie auf der Registerkarte '@mainwindow.tabs.mask@' eingestellt)."
 		},
 		{
 			"id": "cptab.cptypetoadd",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Art des Kontrollpunkts, der als nächstes hinzugefügt werden soll.",
-			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein regulärer Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@ und @cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Art von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimizer (und die @panoeditor.menubar.edit.level@-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise @cptable.verticalline@-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. @cptable.horizontalline@ Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie @cptable.newline@, um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert, und für dieselbe Zeile können weitere Punkte hinzugefügt werden.<br><br>Der Typ eines vorhandenen Kontrollpunkts kann geändert werden, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
+			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein normaler Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@</b> und <b>@cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Art von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimierer (und die '@panoeditor.menubar.edit.level@'-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise '@cptable.verticalline@'-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. '@cptable.horizontalline@'-Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie '@cptable.newline@', um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert und für dieselbe Zeile können Sie weitere Punkte hinzugefügen.<br><br>Den Typ eines vorhandenen Kontrollpunkts ändern Sie, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
 		},
 		{
 			"id": "cptab.cptable",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@controlpointstable@",
 			"helptext": "Listet alle Kontrollpunkte für das ausgewählte Bildpaar auf.",
-			"morehelptext": "<br><br>Die Spalte &quot;@cptable.dist@&quot; zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle kann sortiert werden, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallax können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+			"morehelptext": "<br><br>Die Spalte '@cptable.dist@' zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle kann sortiert werden, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallax können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
 		},
 		{
 			"id": "optimizertab.advancedbutton",
@@ -6905,8 +6905,8 @@
 		},
 		{
 			"id": "optimizertab.simplebutton",
-			"machinetranslated": true,
-			"helptext": "Wechseln Sie zur einfachen Optimizer-Oberfläche."
+			"machinetranslated": false,
+			"helptext": "Wechseln Sie zur einfachen Optimierer-Oberfläche."
 		},
 		{
 			"id": "optimizertab.optimizeglobally",
@@ -6918,7 +6918,7 @@
 			"id": "optimizertab.optimizeperimage",
 			"machinetranslated": false,
 			"helptext": "Pro-Bild-Optimierungseinstellungen",
-			"morehelptext": "<br><br>Im Allgemeinen müssen @yaw@, @pitch@ und @roll@ für alle Bilder bis auf eines (das gewählte &quot;Anker&quot; -Bild) optimiert sein.<br><br><b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem <b>Kippwinkel</b> nach oben/unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@+viewpoint@</b> steuert die Optimierung vom Standpunkt: <b>@+reset@</b> deaktiviert die Standpunktoptimierung und setzt die Standpunktparameter bei der nächsten Optimierung auf 0 zurück. <b>@+keep@</b> deaktiviert die weitere Optimierung des Standpunkts, behält jedoch die aktuellen  Standpunktinstellungen des Bilds bei. <b>@+optimize@</b> ermöglicht die Optimierung des Standpunkts für dieses Bild.</optional><br><br>Wenn einzelne Parameter aktiviert wurden (siehe Registerkarte @mainwindow.tabs.lenssettings@ - '@mainwindow.lensparams.useindividual@'), können diese Parameter in die Optimierung einbezogen oder ausgeschlossen werden."
+			"morehelptext": "<br><br>Im Allgemeinen müssen @yaw@, @pitch@ und @roll@ für alle Bilder bis auf eines (das ausgewählte &quot;Anker&quot;-Bild) optimiert sein.<br><br><b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem Kippwinkel nach oben/unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@+viewpoint@</b> steuert die Optimierung vom Standpunkt: <b>@+reset@</b> deaktiviert die Standpunktoptimierung und setzt die Standpunktparameter bei der nächsten Optimierung auf 0 zurück. <b>@+keep@</b> deaktiviert die weitere Optimierung des Standpunkts, behält jedoch die aktuellen Standpunkteinstellungen des Bilds bei. <b>@+optimize@</b> ermöglicht die Optimierung des Standpunkts für dieses Bild.</optional><br><br>Wenn einzelne Parameter aktiviert wurden (siehe Registerkarte '@mainwindow.tabs.lenssettings@' - '@mainwindow.lensparams.useindividual@'), können diese Parameter in die Optimierung einbezogen oder ausgeschlossen werden."
 		},
 		{
 			"id": "optimizertab.usecontrolpointsof",
@@ -8649,7 +8649,7 @@
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
 			"machinetranslated": true,
 			"helptext": "Steuert das Verhalten roter Masken (auf der Registerkarte @mainwindow.tabs.mask@).",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: Rote Bereiche auf der Registerkarte @mainwindow.tabs.mask@ werden im Panorama transparent dargestellt. Wenn sich keine anderen Bilder überlappen, wird im zusammengefügten Panorama ein Loch angezeigt. In der geschichteten Ausgabe (erstellt mit der Option @mainwindow.createpanoramatab.output.individuallayers@) werden rot maskierte Bereiche transparent.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: Rote Masken zeigen nur an, welche Bereiche im überblendeten Panorama nicht sichtbar sein sollen. Der Blender vermeidet diese Bereiche, indem er die Nähte von ihnen wegbewegt. Wenn sich jedoch keine anderen Bilder überlappen, um die Lücken zu füllen, werden die rot maskierten Bereiche weiterhin im überblendeten Panorama angezeigt. Die einzelne Ebenen wirden von roten Masken nicht beeinflusst."
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b>: Rote Bereiche auf der Registerkarte '@mainwindow.tabs.mask@' werden im Panorama transparent dargestellt. Wenn sich keine anderen Bilder überlappen, entsteht im zusammengefügten Panorama ein Loch. In der Ebenen-Ausgabe (erstellt mit der Option '@mainwindow.createpanoramatab.output.individuallayers@') werden rot maskierte Bereiche transparent.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b>: Rote Masken zeigen nur an, welche Bereiche im überblendeten Panorama nicht sichtbar sein sollen. Der Blender vermeidet diese Bereiche, indem er die Nähte von ihnen wegbewegt. Wenn sich jedoch keine anderen Bilder überlappen, um die Lücken zu füllen, werden die rot maskierten Bereiche weiterhin im überblendeten Panorama angezeigt. Die einzelne Ebenen werden von roten Masken nicht beeinflusst."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
@@ -8880,15 +8880,15 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
-			"machinetranslated": true,
-			"helptext": "Platziere die Nähte von maskierten Bereichen entfernt.",
-			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Nähte in einem Abstand von rot oder grün maskierten Bereichen verlegt. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn Masken in der Nähe platziert werden.<br><br>Nur für den Mixer @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ verfügbar und wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ deaktiviert ist."
-		},
+			"machinetranslated": false,
+			"helptext": "Platziere die Nähte entfernt von maskierten Bereichen.",
+            "morehelptext": "<br><br>Wenn diese Option aktiviert, werden die Nähte in einem gewissem Abstand zu den roten und gründen Masken platziert. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' Blender und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist." 
+        },
 		{
 			"id": "options.monitorcolorprofile",
 			"machinetranslated": false,
 			"helptext": "Farbprofil, das für Bilder verwendet werden soll, die in der PTGui-Benutzeroberfläche angezeigt werden. Diese Einstellung wird nur für die Anzeige verwendet, erzeugte Panoramen sind davon nicht betroffen.",
-			"morehelptext": "<br><br>Wenn Ihr Computer über ein kalibriertes Display verfügt, können Sie hier dessen Farbprofil laden, damit PTGui die PTGui-Benutzeroberfläche die richtigen Farben anzeigt.<br><br>Unter Windows kann das gleiche erreicht werden, indem das Farbprofil in den Windows-Farbeinstellungen konfiguriert wird.<br><br>PTGui für Linux verwendet sRGB, wenn hier kein Farbprofil geladen ist."
+			"morehelptext": "<br><br>Wenn Ihr Monitor kalibriert ist, können Sie hier dessen Farbprofil laden, damit PTGui die richtigen Farben anzeigt.<br><br>Unter Windows erreichen Sie das gleiche, indem Sie das Farbprofil in den Windows-Farbeinstellungen konfigurieren.<br><br>PTGui für Linux verwendet sRGB, wenn hier kein Farbprofil geladen ist."
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
@@ -8995,8 +8995,8 @@
 		},
 		{
 			"id": "cptable",
-			"machinetranslated": true,
-			"helptext": "<b>@controlpointstable@</b><br><br>Dieses Fenster zeigt eine Liste aller Kontrollpunkte im Projekt. Es kann gefiltert werden, um nur bestimmte Arten von Kontrollpunkten oder die Kontrollpunkte bestimmter Bilder anzuzeigen, indem die Filteroptionen oben verwendet werden.<br><br>Standardmäßig ist die Tabelle nach Entfernung sortiert. Die Entfernung zeigt an, wie gut oder schlecht ein Kontrollpunkt in das Panorama passt: Je geringer der Abstand, desto besser die Ausrichtung.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallax können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig.<br><br>Durch Klicken auf eine Kopfspalte am oberen Rand der Tabelle wird die Tabelle nach dieser Spalte sortiert. Durch erneutes Klicken wird die Sortierreihenfolge umgekehrt.<br><br>Doppelklicken Sie auf einen Kontrollpunkt, um den ausgewählten Punkt auf der Registerkarte @mainwindow.tabs.controlpoints@ im Hauptfenster zu fokussieren.<br><br>Mehrere Kontrollpunkte können durch Ziehen mit der Maus oder durch Klicken + Klicken ausgewählt werden. Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> um die ausgewählten Punkte zu löschen oder ihren Typ zu ändern."
+			"machinetranslated": false,
+			"helptext": "<b>@controlpointstable@</b><br><br>Dieses Fenster zeigt die Liste aller Kontrollpunkte im Projekt. Es kann gefiltert werden, um nur bestimmte Arten von Kontrollpunkten oder die Kontrollpunkte bestimmter Bilder anzuzeigen, indem die Filteroptionen oben verwendet werden.<br><br>Standardmäßig ist die Tabelle nach Entfernung sortiert. Die Entfernung zeigt an, wie gut oder schlecht ein Kontrollpunkt in das Panorama passt: Je geringer der Abstand, desto besser die Ausrichtung.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxe. Bilder mit Parallax können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig.<br><br>Durch Klicken auf eine Kopfspalte am oberen Rand der Tabelle wird die Tabelle nach dieser Spalte sortiert. Durch erneutes Klicken wird die Sortierreihenfolge umgekehrt.<br><br>Doppelklicken Sie auf einen Kontrollpunkt, um den ausgewählten Punkt auf der Registerkarte '@mainwindow.tabs.controlpoints@' im Hauptfenster zu fokussieren.<br><br>Mehrere Kontrollpunkte können durch Ziehen mit der Maus oder durch Umsch + Klicken ausgewählt werden. Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> um die ausgewählten Punkte zu löschen oder ihren Typ zu ändern."
 		},
 		{
 			"id": "cpassistant",

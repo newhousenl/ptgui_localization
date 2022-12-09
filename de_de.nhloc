@@ -1600,7 +1600,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.no",
-			"txt": "Nein"
+			"txt": "Keine"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.medium",
@@ -1608,11 +1608,11 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.heavy",
-			"txt": "Schwer"
+			"txt": "Stark"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.heavyplusshift",
-			"txt": "Schwer + Objektivverschiebung"
+			"txt": "Stark + Objektivverschiebung"
 		},
 		{
 			"id": "mainwindow.optimizertab.optimizeglobally",
@@ -1628,7 +1628,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.horvertcp",
-			"txt": "Hor / vert Kontrollpunkte:"
+			"txt": "Hor./vert. Kontrollpunkte:"
 		},
 		{
 			"id": "mainwindow.optimizertab.horvertcp.ignore",
@@ -1636,7 +1636,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.horvertcp.levelinsecondpass",
-			"txt": "Ebnen im zweiten Durchgang"
+			"txt": "Im zweiten Durchgang ebnen"
 		},
 		{
 			"id": "mainwindow.optimizertab.horvertcp.includeinsinglepass",
@@ -2120,11 +2120,11 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.longshift",
-			"txt": "Verschieb. (lange)"
+			"txt": "Verschieb. (lange Seite)"
 		},
 		{
 			"id": "mainwindow.imageparameters.shortshift",
-			"txt": "Verschieb. (kurze)"
+			"txt": "Verschieb. (kurze Seite)"
 		},
 		{
 			"id": "mainwindow.imageparameters.horzshear",
@@ -2212,7 +2212,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.fovfocallength",
-			"txt": "Sichtf. / Brennw."
+			"txt": "Sichtf./Brennw."
 		},
 		{
 			"id": "mainwindow.optimizertab.focallength",
@@ -2602,7 +2602,7 @@
 		},
 		{
 			"id": "bracketedexposureswindow.dontlinktxt",
-			"txt": "Wählen Sie diese Option, wenn die Bilder in die Hand genommen wurden. PTGui versucht, die Belichtungsreihen auszurichten."
+			"txt": "Wählen Sie diese Option, wenn die Bilder aus der Hand genommen wurden. PTGui versucht, die Belichtungsreihen auszurichten."
 		},
 		{
 			"id": "bracketedexposureswindow.nohdr",
@@ -2622,7 +2622,7 @@
 		},
 		{
 			"id": "cubefacenaming.errsame",
-			"txt": "Bitte geben Sie einen anderen Wert in jedes Feld ein."
+			"txt": "Bitte geben Sie in jedem Feld einen anderen Wert ein."
 		},
 		{
 			"id": "cubefacenaming.title",
@@ -2727,7 +2727,7 @@
 		},
 		{
 			"id": "photometricsettings.optimizeflare",
-			"txt": "Optimiere @lensflare@:"
+			"txt": "@lensflare@ otimieren:"
 		},
 		{
 			"id": "photometricsettings.images",
@@ -3775,7 +3775,7 @@
 		},
 		{
 			"id": "sensorsizedialog.cropfactor",
-			"txt": "Crop-Faktor / Brennweiten-Multiplikator:"
+			"txt": "Crop-Faktor/Brennweiten-Multiplikator:"
 		},
 		{
 			"id": "sensorsizedialog.choosepreset",
@@ -4855,11 +4855,11 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
-			"txt": "Das Projekt scheint %0 Sätze von %1 Belichtungsreihen zu enthalten. Was würden Sie tun?"
+			"txt": "Das Projekt scheint %0 Sätze von %1 Belichtungsreihen zu enthalten. Was möchten Sie tun?"
 		},
 		{
 			"id": "err.nobracketedfound",
-			"txt": "Es wurden keine HDR-Belichtungssätze gefunden.\n\nUm diese Funktion zu verwenden, sollten die Bilder im Projekt eine wiederholte Belichtungsreihenfolge haben. Die Belichtungszeiten sollten einer sich wiederholenden Sequenz folgen, beispielsweise 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.\n\nStellen Sie bei Belichtungsreihen mit Belichtungsreihen sicher, dass die Kamera im manuellen Modus ist (der Modus \"M\" auf dem Kamera-Einstellrad). Wenn belichtete Aufnahmen im automatischen Belichtungsmodus (häufig als \"P\" -, \"Av\" - oder \"Tv\" -Modus bezeichnet) aufgenommen werden, passt die Kamera die Belichtungszeiten zwischen den Aufnahmen an. PTGui kann nur HDR-Panoramen aus Bildern erstellen, die im manuellen Belichtungsmodus aufgenommen wurden."
+			"txt": "Es wurden keine HDR-Belichtungssätze gefunden.\n\nUm diese Funktion zu verwenden, sollten die Bilder im Projekt eine wiederholte Belichtungsreihenfolge haben. Die Belichtungszeiten sollten einer sich wiederholenden Sequenz folgen, beispielsweise 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.\n\nStellen Sie bei Belichtungsreihen sicher, dass die Kamera im manuellen Modus ist (der Modus \"M\" auf dem Kamera-Einstellrad). Wenn belichtete Aufnahmen im automatischen Belichtungsmodus (häufig als \"P\" -, \"Av\" - oder \"Tv\" -Modus bezeichnet) aufgenommen werden, passt die Kamera die Belichtungszeiten zwischen den Aufnahmen an. PTGui kann nur HDR-Panoramen aus Bildern erstellen, die im manuellen Belichtungsmodus aufgenommen wurden."
 		},
 		{
 			"id": "txt.confirmoverwrite.one",
@@ -4883,7 +4883,7 @@
 		},
 		{
 			"id": "err.removeworstcps.didnothing",
-			"txt": "Es wurden keine Kontrollpunkte gelöscht.\n\n@menubar.controlpoints.deleteworst@ entfernt nur solche Kontrollpunkte, die einen signifikant höheren Fehler aufweisen als die anderen Kontrollpunkte im selben Bildpaar. Wenn viele Kontrollpunkte hohe Fehler aufweisen (was normalerweise durch Parallaxe verursacht wird), werden keine Kontrollpunkte gelöscht.\n\nPTGui stellt außerdem sicher, dass für jedes Bilderpaar mindestens 4 Kontrollpunkte verbleiben."
+			"txt": "Es wurden keine Kontrollpunkte gelöscht.\n\n'@menubar.controlpoints.deleteworst@' entfernt nur solche Kontrollpunkte, die einen signifikant höheren Fehler aufweisen als die anderen Kontrollpunkte im selben Bildpaar. Wenn viele Kontrollpunkte hohe Fehler aufweisen (was normalerweise durch Parallaxe verursacht wird), werden keine Kontrollpunkte gelöscht.\n\nPTGui stellt außerdem sicher, dass für jedes Bilderpaar mindestens 4 Kontrollpunkte verbleiben."
 		},
 		{
 			"id": "err.removeworstcps.deletingoneworstcontrolpoint",
@@ -5829,7 +5829,7 @@
 		{
 			"id": "err.deletecameracurve_inuse",
 			"machinetranslated": false,
-			"txt": "Diese Kamerakurve kann nicht gelöscht werden, da sie von einem oder mehreren Bildern verwendet wird. Die Kamerakurve für jedes Bild wählen Sie auf der Registerkarte @mainwindow.tabs.imageparameters@ aus."
+			"txt": "Diese Kamerakurve kann nicht gelöscht werden, da sie von einem oder mehreren Bildern verwendet wird. Die Kamerakurve für jedes Bild wählen Sie auf der Registerkarte '@mainwindow.tabs.imageparameters@' aus."
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess",
@@ -6571,7 +6571,7 @@
 			"id": "projectassistant.rotatecw",
 			"machinetranslated": false,
 			"label": "Im Uhrzeigersinn drehen",
-			"helptext": "Alle Bilder wwerden im Uhrzeigersinn gedreht. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
+			"helptext": "Alle Bilder werden im Uhrzeigersinn gedreht. Wenn die Bilder bereits ausgerichtet sind, wird das Panorama als Ganzes gedreht."
 		},
 		{
 			"id": "projectassistant.isprealigned",
@@ -6637,13 +6637,13 @@
 			"id": "lensparams.fisheyefactor",
 			"machinetranslated": true,
 			"helptext": "Verschiedene Arten von Fischaugenprojektionen existieren; Dieser Parameter legt die spezifische Fischaugenprojektion fest. PTGui erkennt viele gängige Objektivmodelle anhand der EXIF-Daten und stellt diesen Wert automatisch ein. Im Zweifelsfall geben Sie -0.5 ein, was der äquisoliden Projektion der meisten Fischaugenobjektive entspricht.",
-			"morehelptext": "<br><br>Gemeinsame Werte sind:<br>Äquidistant: 0<br>Stereographisch: 0,5<br>Orthographisch: -1.0<br>Equisolid: -0,5<br>Geradliniges (nicht-Fischauge): 1.0<br>Die meisten Fischaugenobjektive auf dem Markt haben eine ungefähr gleichmäßige Projektion. Der Wert ist nicht kritisch. Automatische Objektivverzerrungskorrektur (a / b / c) kompensiert eventuelle Fehler.<br><br>Dieser Wert kann vom Optimierer berechnet werden: Stellen Sie dazu die Verzerrungsparameter a / b / c auf Null. Schalten Sie die Registerkarte @mainwindow.tabs.optimizer@ in den Erweiterten Modus, aktivieren Sie die Optimierung des Fischaugenfaktors und deaktivieren Sie die Optimierung der a / b / c Objektivverzerrungsparameter. Verwenden Sie Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen.<br><br>Mathematischer Hintergrund: PTGui verwendet die folgende Projektionsfunktion für Fischaugenobjektive:<br>R = f / k tan (kθ) [für 0 &lt;k ≤ 1]<br>R = fθ [für k = 0]<br>R = f / ksin (kθ) [für -1 ≤ k &lt;0]<br>Wobei R der projizierte Radius, f Brennweite, θ eintreffender Lichtstrahlwinkel und k der Fischaugenfaktor ist."
+			"morehelptext": "<br><br>Gemeinsame Werte sind:<br>Äquidistant: 0<br>Stereographisch: 0,5<br>Orthographisch: -1.0<br>Equisolid: -0,5<br>Geradliniges (nicht-Fischauge): 1.0<br>Die meisten Fischaugenobjektive auf dem Markt haben eine ungefähr gleichmäßige Projektion. Der Wert ist nicht kritisch. Automatische Objektivverzerrungskorrektur (a/b/c) kompensiert eventuelle Fehler.<br><br>Dieser Wert kann vom Optimierer berechnet werden: Stellen Sie dazu die Verzerrungsparameter a/b/c auf Null. Schalten Sie die Registerkarte @mainwindow.tabs.optimizer@ in den Erweiterten Modus, aktivieren Sie die Optimierung des Fischaugenfaktors und deaktivieren Sie die Optimierung der a/b/c Objektivverzerrungsparameter. Verwenden Sie Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen.<br><br>Mathematischer Hintergrund: PTGui verwendet die folgende Projektionsfunktion für Fischaugenobjektive:<br>R = f / k tan (kθ) [für 0 &lt;k ≤ 1]<br>R = fθ [für k = 0]<br>R = f / ksin (kθ) [für -1 ≤ k &lt;0]<br>Wobei R der projizierte Radius, f Brennweite, θ eintreffender Lichtstrahlwinkel und k der Fischaugenfaktor ist."
 		},
 		{
 			"id": "lensparams.abc",
 			"machinetranslated": true,
-			"helptext": "Radiale Objektivverzerrungsparameter (a / b / c): zum Kompensieren der Tonnen- und Pincusionsverzerrung. PTGui ermittelt diese Werte automatisch.",
-			"morehelptext": "<br><br>Die Objektivverzerrung wird unter Verwendung einer Polynomabbildungsfunktion dritter Ordnung (wobei &quot;a&quot; der Koeffizient höchster Ordnung ist) kompensiert. Die Optimierung von a / b / c ist standardmäßig aktiviert. Dies kann auf der Registerkarte @mainwindow.tabs.optimizer@ konfiguriert werden. Verwenden Sie zur genauen Optimierung Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen."
+			"helptext": "Radiale Objektivverzerrungsparameter (a/b/c): zum Kompensieren der Tonnen- und Pincusionsverzerrung. PTGui ermittelt diese Werte automatisch.",
+			"morehelptext": "<br><br>Die Objektivverzerrung wird unter Verwendung einer Polynomabbildungsfunktion dritter Ordnung (wobei &quot;a&quot; der Koeffizient höchster Ordnung ist) kompensiert. Die Optimierung von a/b/c ist standardmäßig aktiviert. Dies kann auf der Registerkarte @mainwindow.tabs.optimizer@ konfiguriert werden. Verwenden Sie zur genauen Optimierung Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen."
 		},
 		{
 			"id": "lensparams.shift",
@@ -6721,9 +6721,9 @@
 		},
 		{
 			"id": "rotatetoolbar.counterclockwise",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Gegen den Uhrzeigersinn drehen",
-			"helptext": "Betrifft nur das Bild, das hier angezeigt wird, das Panorama wird nicht geändert."
+			"helptext": "Betrifft nur das hier angezeigte Bild, das Panorama wird nicht geändert."
 		},
 		{
 			"id": "rotatetoolbar.auto",
@@ -6733,9 +6733,9 @@
 		},
 		{
 			"id": "rotatetoolbar.clockwise",
-			"machinetranslated": true,
-			"label": "Im Uhrzeiger sinn drehen",
-			"helptext": "Betrifft nur das Bild, das hier angezeigt wird, das Panorama wird nicht geändert."
+			"machinetranslated": false,
+			"label": "Im Uhrzeigersinn drehen",
+			"helptext": "Betrifft nur das hier angezeigte Bild, das Panorama wird nicht geändert."
 		},
 		{
 			"id": "zoomtoolbar.zoomlevel",
@@ -6747,7 +6747,7 @@
 		{
 			"id": "previewexposuretoolbar.exposure",
 			"machinetranslated": false,
-			"label": "Belichtung der Vorschau",
+			"label": "Helligkeit der Vorschau",
 			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschaubilder. Dies wirkt sich nur auf die hier angezeigten Bilder, den Panorama-Editor und den Detail-Viewer aus. Das zusammengefügte Panorama ist davon nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um ihn auf 0 zurückzusetzen."
 		},
 		{
@@ -6782,15 +6782,15 @@
 		},
 		{
 			"id": "masktoolbar.onepane",
-			"machinetranslated": true,
-			"label": "Zeige ein Fenster",
-			"helptext": "Zeige nur ein einzelnes Bild."
+			"machinetranslated": false,
+			"label": "Ein Fenster",
+			"helptext": "Es wird ein einzelnes Bild angezeigt."
 		},
 		{
 			"id": "masktoolbar.twopanes",
-			"machinetranslated": true,
-			"label": "Zeige zwei Fenster",
-			"helptext": "Zeigen Sie zwei Bilder gleichzeitig an."
+			"machinetranslated": false,
+			"label": "Zwei Fenster",
+			"helptext": "Es werden gleichzeitig zwei Bilder nebeneinander angezeigt."
 		},
 		{
 			"id": "masktoolbar.linkscrollbars",
@@ -6800,8 +6800,8 @@
 		},
 		{
 			"id": "masktoolbar.radius",
-			"machinetranslated": true,
-			"label": "Bleistiftgröße [K / L]",
+			"machinetranslated": false,
+			"label": "Stiftgröße [K / L]",
 			"helptext": "Stiftgröße für das Zeichenwerkzeug"
 		},
 		{
@@ -6809,7 +6809,7 @@
 			"machinetranslated": false,
 			"label": "@loadmask@",
 			"helptext": "Laden Sie die Maske aus einer Datei.",
-			"morehelptext": "Die Maske sollte als PNG-Datei mit 3 Farben gespeichert sein: Schwarz für nicht maskierte Bereiche und vollständig gesättigtes Rot und Grün für die jeweilige Maske. Dieses Format wird so von der Funktion '@savemask@' erstellt.<br><br>Sie können diese Maske auch für mehrere Bilder gleichzeitig laden: Wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@', wählen Sie die Bilder aus und wählen Sie '@loadmask@' im Kontextmenü aus.<br><br>Die geladene Maske wird mit einer vorhandenen Maske zusammengeführt. Soll die vorhandene Maske jedoch vollständig ersetzt werden, entfernen Sie sie vorher mit der Funktion @clearmask@."
+			"morehelptext": "Die Maske sollte als PNG-Datei mit 3 Farben gespeichert sein: Schwarz für nicht maskierte Bereiche und vollständig gesättigtes Rot und Grün für die rote bzw. grüne Maske. Dieses Format wird so von der Funktion '@savemask@' erstellt.<br><br>Diese Maske können Sie auch für mehrere Bilder gleichzeitig laden: Wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@', wählen Sie die Bilder aus und wählen Sie '@loadmask@' im Kontextmenü aus.<br><br>Die geladene Maske wird mit einer vorhandenen Maske zusammengeführt. Soll die vorhandene Maske jedoch vollständig ersetzt werden, entfernen Sie sie vorher mit der Funktion '@clearmask@'."
 		},
 		{
 			"id": "maskimagetoolbar.savemask",
@@ -6854,7 +6854,7 @@
 			"id": "cptoolbar.linkscrollbars",
 			"machinetranslated": true,
 			"label": "@menubar.controlpoints.linkscrollbars@",
-			"helptext": "Verknüpfen Sie die Bildlaufposition der beiden Bilder, so dass sie den gleichen Teil des Panoramas zeigen. PTGui muss wissen, auf welche Art und Weise sich die Bilder überlappen, daher funktioniert dies nur, nachdem die Bilder durch Kontrollpunkte verknüpft wurden."
+			"helptext": "Verknüpfen Sie die Bildlaufposition der beiden Bilder, so dass sie den gleichen Teil des Panoramas zeigen. PTGui muss wissen, auf welche Art und Weise sich die Bilder überlappen. Daher funktioniert dies nur, nachdem die Bilder durch Kontrollpunkte verknüpft wurden."
 		},
 		{
 			"id": "cptoolbar.autocontrast",
@@ -6895,13 +6895,13 @@
 			"id": "optimizertab.optimizefocallength",
 			"machinetranslated": true,
 			"helptext": "Wenn aktiviert, passt PTGui die Brennweite des Objektivs an, um die Ausrichtung zu verbessern.",
-			"morehelptext": "<br><br>Bei 360° -Panoramen sollte dies immer aktiviert sein.<br><br>Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einem langen Teleobjektiv aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, dass der Optimierer die genaue Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren.<br><br>Außerdem können Bilder, die an Parallaxe leiden, auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird."
+			"morehelptext": "<br><br>Bei 360° -Panoramen sollte dies immer aktiviert sein.<br><br>Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einem langen Teleobjektiv aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, dass der Optimierer die genaue Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren.<br><br>Außerdem können Bilder, die eine Parallaxe aufweisen, auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird."
 		},
 		{
 			"id": "optimizertab.minimizelensdistortion",
 			"machinetranslated": true,
-			"helptext": "Aktiviere die Optimierung von Objektivverzerrung und Lens Shift.",
-			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, passt das Optimierungsprogramm die entsprechenden Einstellungen auf der Registerkarte @mainwindow.tabs.lenssettings@ an.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Objektivverzerrung wird nicht optimiert. Dies kann nützlich sein, wenn vorkalibrierte Objektivdaten verwendet werden.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> Optimiere nur den Objektivverzerrungsparameter 'b'. Kann verwendet werden, wenn nur wenige Kontrollpunkte vorhanden sind oder wenn die Bilder an Parallaxefehlern leiden, um das Risiko einer Überanpassung zu verringern.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> Optimiere die Objektivverzerrung (a, b und c).<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (die empfohlene Einstellung):</b> Optimierung der Objektivverzerrung und Optimierung der Objektivverschiebung. Dies führt zu der genauesten Naht."
+			"helptext": "Optimierung von Objektivverzerrung und Objektivverschiebung aktivieren",
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, passt das Optimierer die entsprechenden Einstellungen auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Die Objektivverzerrung wird nicht optimiert. Dies kann nützlich sein, wenn vorkalibrierte Objektivdaten verwendet werden.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> Nur der Objektivverzerrungsparameter 'b' wird optimiert. Kann verwendet werden, wenn nur wenige Kontrollpunkte vorhanden sind oder wenn die Bilder an Parallaxefehlern leiden, um das Risiko einer Überanpassung zu verringern.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> Die vollständige Objektivverzerrung (a, b und c) wird optimiert.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (die empfohlene Einstellung):</b> Optimierung der Objektivverzerrung und Optimierung der Objektivverschiebung. Dies führt zu der genauesten Naht."
 		},
 		{
 			"id": "optimizertab.simplebutton",
@@ -6910,14 +6910,14 @@
 		},
 		{
 			"id": "optimizertab.optimizeglobally",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wählen Sie die globalen Objektiveinstellungen, die optimiert werden sollen.",
-			"morehelptext": "<br><br>Wenn ein Kontrollkästchen ausgewählt ist, passt das Optimierungsprogramm die entsprechenden Einstellungen auf der Registerkarte @mainwindow.tabs.lenssettings@ an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, optimieren Sie das Sichtfeld (oder die Brennweite). Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einem langen Teleobjektiv aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, dass der Optimierer die genaue Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder, die an Parallaxe leiden, auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird.<br><br><b>a / b / c:</b> Wenn ausgewählt, optimieren Sie die Objektivverzerrungskorrektur. Dies kann deaktiviert werden, wenn vorkalibrierte Objektivdaten verwendet werden. Aber im Allgemeinen sollten a, b und c optimiert werden, um eine möglichst genaue Naht zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, den Parameter @mainwindow.imageparameters.fisheyefactor@ auf der Registerkarte @mainwindow.tabs.lenssettings@ optimieren (gilt nur bei Verwendung eines Fischaugenobjektivs). Im Allgemeinen sollte dies nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erfassten Objektivmodell ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Störungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c in der Registerkarte @mainwindow.tabs.lenssettings@ auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a / b / c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig stören.<br><br><b>@mainwindow.imageparameters.longshift@ / @mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starker Parallaxe kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, @shear@ optimieren. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf; Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur der horizontale oder der vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn mehrere Objektivprofile auf der Registerkarte @mainwindow.tabs.lenssettings@ erstellt wurden, kann die Optimierung für jedes Objektivprofil separat gesteuert werden."
+			"morehelptext": "<br><br>Wenn ein Kontrollkästchen ausgewählt ist, passt das Optimierungsprogramm die entsprechenden Einstellungen auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, optimieren Sie das Sichtfeld (oder die Brennweite). Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einer langen Brennweite aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, aus dem der Optimierer die exakte Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder mit Parallaxenfehler auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird.<br><br><b>a/b/c:</b> Wenn ausgewählt, optimieren Sie die Objektivverzerrungskorrektur. Dies kann deaktiviert werden, wenn vorkalibrierte Objektivdaten verwendet werden. Aber im Allgemeinen sollten a, b und c optimiert werden, um eine möglichst genaue Naht zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, wird der Parameter '@mainwindow.imageparameters.fisheyefactor@' auf der Registerkarte '@mainwindow.tabs.lenssettings@' optimiert (gilt nur bei Verwendung eines Fischaugenobjektivs). Im Allgemeinen sollte dies nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erfassten Objektivmodell ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Störungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c in der Registerkarte '@mainwindow.tabs.lenssettings@' auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a/b/c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig ausschließen.<br><br><b>@mainwindow.imageparameters.longshift@/@mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starker Parallaxe kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, wird die @shear@ optimiert. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf. Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur die horizontale oder vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn mehrere Objektivprofile auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellt wurden, kann die Optimierung für jedes Objektivprofil separat gesteuert werden."
 		},
 		{
 			"id": "optimizertab.optimizeperimage",
 			"machinetranslated": false,
-			"helptext": "Pro-Bild-Optimierungseinstellungen",
+			"helptext": "Optimierungseinstellungen pro Bild",
 			"morehelptext": "<br><br>Im Allgemeinen müssen @yaw@, @pitch@ und @roll@ für alle Bilder bis auf eines (das ausgewählte &quot;Anker&quot;-Bild) optimiert sein.<br><br><b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem Kippwinkel nach oben/unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@+viewpoint@</b> steuert die Optimierung vom Standpunkt: <b>@+reset@</b> deaktiviert die Standpunktoptimierung und setzt die Standpunktparameter bei der nächsten Optimierung auf 0 zurück. <b>@+keep@</b> deaktiviert die weitere Optimierung des Standpunkts, behält jedoch die aktuellen Standpunkteinstellungen des Bilds bei. <b>@+optimize@</b> ermöglicht die Optimierung des Standpunkts für dieses Bild.</optional><br><br>Wenn einzelne Parameter aktiviert wurden (siehe Registerkarte '@mainwindow.tabs.lenssettings@' - '@mainwindow.lensparams.useindividual@'), können diese Parameter in die Optimierung einbezogen oder ausgeschlossen werden."
 		},
 		{
@@ -6965,9 +6965,9 @@
 		},
 		{
 			"id": "exposurehdrtab.tonemapldrpanorama",
-			"machinetranslated": true,
-			"helptext": "Tone Mapping aktivieren",
-			"morehelptext": "<br><br>Tone Mapping ist allgemein bekannt im Zusammenhang mit HDR-Bildern, kann aber auch für normale Bilder mit niedrigem Tonwertumfang (LDR) verwendet werden. Tone Mapping reduziert den Dynamikbereich durch Verstärkung von Schatten und Abdunklung von Lichtern, ähnlich der Schatten- / Lichterkorrektur in einer Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"machinetranslated": false,
+			"helptext": "Tone Mapping verwenden",
+			"morehelptext": "<br><br>Tone Mapping ist allgemein im Zusammenhang mit HDR-Bildern bekannt, kann aber auch für normale Bilder mit niedrigem Tonwertumfang (LDR) verwendet werden. Tone Mapping reduziert den Dynamikbereich durch Verstärkung von Schatten und Abdunklung von Lichtern, ähnlich der Schatten-/Lichterkorrektur in einer Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
 		},
 		{
 			"id": "exposurehdrtab.exposurecompensation",
@@ -6983,13 +6983,13 @@
 		},
 		{
 			"id": "exposurehdrtab.settings",
-			"machinetranslated": true,
-			"helptext": "Ändern Sie die Einstellungen für die Belichtungsoptimierung."
+			"machinetranslated": false,
+			"helptext": "Einstellungen für die Belichtungsoptimierung"
 		},
 		{
 			"id": "exposurehdrtab.resetoptimizations",
-			"machinetranslated": true,
-			"helptext": "Setzen Sie alle Belichtungsoptimierungsparameter zurück und setzen Sie die Kurven auf die Standardwerte zurück."
+			"machinetranslated": false,
+			"helptext": "Alle Belichtungsoptimierungsparameter und die Kurven auf die Standardwerte zurücksetzen"
 		},
 		{
 			"id": "exposurehdrtab.lensprofile",
@@ -8551,9 +8551,9 @@
 		},
 		{
 			"id": "photometricsettings.optimizeflare",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Steuert, ob @lensflare@ einzelner Quellbilder kompensiert wird. Der Kontrast einzelner Bilder wird erhöht, um die durch @lensflare@ verursachte Kontrastminderung auszugleichen.",
-			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Spalten &quot;@+flare@&quot; auf der Registerkarte &quot;@mainwindow.tabs.imageparameters@&quot; angepasst.<br><br><b>@photometricsettings.disabled@:</b> @lensflare@ wird nicht optimiert und die @flare@-Parameter aller Bilder werden bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> @lensflare@ wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen @flare@-Parameter werden beibehalten."
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Spalten '@+flare@'; auf der Registerkarte '@mainwindow.tabs.imageparameters@'; angepasst.<br><br><b>@photometricsettings.disabled@:</b> @lensflare@ wird nicht optimiert und die @flare@-Parameter aller Bilder werden bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> @lensflare@ wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen @flare@-Parameter werden beibehalten."
 		},
 		{
 			"id": "photometricsettings.images",
@@ -8569,7 +8569,7 @@
 			"id": "photometricsettings.optimizevignetting",
 			"machinetranslated": false,
 			"helptext": "Konfigurieren Sie, ob die Vignettierung optimiert wird.",
-			"morehelptext": "<br><br>Vignettierung wird auch als &quot;Lichtabfall&quot; bezeichnet. Vignettierung bewirkt, dass ein Bild zu den Ecken dunkler wird. Es ist ein Artefakt des Objektivs; im allgemeinen ist der Effekt bei größeren Aperturen stärker (niedrigere Blendenwerte). Vignettierung ist die Hauptursache für Belichtungsabweichungen in Panoramen.<br><br><b>Deaktiviert: Die</b> Vignettierung wird nicht optimiert und die Vignettierungskurve wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@: Die</b> Vignettierung wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Vignettierungsparameter werden beibehalten."
+			"morehelptext": "<br><br>Vignettierung wird auch als Lichtabfall bezeichnet. Vignettierung bewirkt, dass ein Bild zu den Ecken dunkler wird. Es ist ein Artefakt des Objektivs. Im allgemeinen ist der Effekt bei größerer Blendenöffnung stärker (niedrigere Blendenwerte). Vignettierung ist die Hauptursache für Belichtungsabweichungen in Panoramen.<br><br><b>Deaktiviert:</b> Die Vignettierung wird nicht optimiert und die Vignettierungskurve wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Vignettierung wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Vignettierungsparameter werden beibehalten."
 		},
 		{
 			"id": "photometricsettings.optimizecameracurve",
@@ -8584,9 +8584,9 @@
 		},
 		{
 			"id": "optimizertab.horvertcpmode",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Steuert, wie der Optimierer die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ behandelt.",
-			"morehelptext": "<br><br>Kontrollpunkte vom Typ '@cptable.horizontalline@' und '@cptable.verticalline@' können zum Ausgleichen eines Panoramas verwendet werden. Sie können hinzugefügt werden, indem Sie den entsprechenden Typ im Feld &quot;@cptypetoadd@&quot; auf der Registerkarte @mainwindow.tabs.controlpoints@ auswählen. Diese Einstellung gilt nur für die Typen @cptable.horizontalline@ und @cptable.verticalline@, nicht für die generischen Kontrollpunkte vom Typ Linientyp.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> Der Optimierer ignoriert alle @cptable.horizontalline@- und @cptable.verticalline@-Kontrollpunkte.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> Der Optimierer verwendet anfänglich nur die regulären Kontrollpunkte zum Ausrichten der Bilder. Dann wird @panoeditor.menubar.edit.level@ als separater Schritt ausgeführt. Dadurch wird das Panorama als Ganzes gedreht und verschoben, bis die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ horizontal und vertikal ausgerichtet sind. Dies ist die empfohlene Option: Die Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@ werden nur zum Nivellieren verwendet, sie haben keinen Einfluss auf die Ausrichtung der Bilder oder die Objektivparameter.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> Der Optimierer verwendet alle Kontrollpunkte, einschließlich der Kontrollpunkte @cptable.horizontalline@ und @cptable.verticalline@, um die Bilder auszurichten und die Objektivparameter zu bestimmen. Verwenden Sie diese Option, wenn Sie z. B. horizontale und vertikale Linien in einem einzigen Bild begradigen, und die Objektivparameter müssen angepasst werden, um eine perfekte Ausrichtung zu erzielen."
+			"morehelptext": "<br><br>Kontrollpunkte vom Typ '@cptable.horizontalline@' und '@cptable.verticalline@' können zum Ausgleichen eines Panoramas verwendet werden. Sie können hinzugefügt werden, indem Sie den entsprechenden Typ im Feld '@cptypetoadd@' auf der Registerkarte '@mainwindow.tabs.controlpoints@' auswählen. Diese Einstellung gilt nur für die Typen '@cptable.horizontalline@' und '@cptable.verticalline@', nicht für die Kontrollpunkte vom allgemeinen Linientyp.<br><br><b>@mainwindow.optimizertab.horvertcp.ignore@:</b> Der Optimierer ignoriert alle '@cptable.horizontalline@'- und '@cptable.verticalline@'-Kontrollpunkte.<br><br><b>@mainwindow.optimizertab.horvertcp.levelinsecondpass@:</b> Der Optimierer verwendet anfänglich nur die normalen Kontrollpunkte zum Ausrichten der Bilder. Dann wird '@panoeditor.menubar.edit.level@' als separater Schritt ausgeführt. Dadurch wird das Panorama als Ganzes gedreht und verschoben, bis die Kontrollpunkte '@cptable.horizontalline@' und '@cptable.verticalline@' horizontal und vertikal ausgerichtet sind. Dies ist die empfohlene Option: Die Kontrollpunkte '@cptable.horizontalline@' und '@cptable.verticalline@' werden nur zum Nivellieren verwendet, sie haben keinen Einfluss auf die Ausrichtung der Bilder oder die Objektivparameter.<br><br><b>@mainwindow.optimizertab.horvertcp.includeinsinglepass@:</b> Der Optimierer verwendet alle Kontrollpunkte, einschließlich der Kontrollpunkte '@cptable.horizontalline@' und '@cptable.verticalline@', um die Bilder auszurichten und die Objektivparameter zu bestimmen. Verwenden Sie diese Option, wenn Sie z.B. horizontale und vertikale Linien in einem einzigen Bild begradigen und die Objektivparameter angepasst werden müssen, um eine perfekte Ausrichtung zu erzielen."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
@@ -8671,33 +8671,33 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Konfiguriert, wie Belichtungsreihen behandelt werden.",
-			"morehelptext": "<br><br>Belichtungsreihen können auf zwei Arten verarbeitet werden:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui kombiniert zunächst jeden Satz von Belichtungsreihen zu einem HDR-Bild (oder kombiniert sie mit Belichtungsfusion). Anschließend werden die kombinierten Bilder zu einem Panorama gemischt.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Zunächst werden sogenannte &quot; <b>Belichtungsebenen</b> &quot; erstellt. Eine Belichtungsebenen ist das vollständige Panorama bei einer Belichtungsstufe (dh alle Bilder, die mit identischer Belichtungszeit, Blende und ISO aufgenommen wurden). Schließlich werden die separaten Belichtungsebenen zu einem HDR-Bild oder einem verschmolzenen Belichtungsbild kombiniert. Diese Methode sollte nur für Panoramen verwendet werden, die im manuellen Belichtungsmodus aufgenommen wurden. Es ist erforderlich, dass das gesamte Panorama bei jeder Belichtungsstufe vollständig abgedeckt ist.<br><br><b>@options.automatic@:</b> Wählt die beste Option für das aktuelle Projekt. Wenn die Bilder im manuellen Belichtungsmodus aufgenommen wurden, werden Belichtungsebenen erstellt. Andernfalls werden die Belichtungsreihen zuerst kombiniert und dann gemischt."
+			"morehelptext": "<br><br>Belichtungsreihen können auf zwei Arten verarbeitet werden:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui kombiniert zunächst jeden Satz von Belichtungsreihen zu einem HDR-Bild (oder kombiniert sie mit Belichtungsfusion). Anschließend werden die kombinierten Bilder zu einem Panorama gemischt.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Zunächst werden sogenannte <b>Belichtungsebenen</b> erstellt. Eine Belichtungsebene ist das vollständige Panorama bei einer Belichtungsstufe (d.h. alle Bilder, die mit identischer Belichtungszeit, Blende und ISO aufgenommen wurden). Schließlich werden die separaten Belichtungsebenen zu einem HDR-Bild oder einem verschmolzenen Belichtungsbild kombiniert. Diese Methode sollte nur für Panoramen verwendet werden, die im manuellen Belichtungsmodus aufgenommen wurden. Es ist erforderlich, dass das gesamte Panorama bei jeder Belichtungsstufe vollständig abgedeckt ist.<br><br><b>@options.automatic@:</b> Wählt die beste Option für das aktuelle Projekt. Wenn die Bilder im manuellen Belichtungsmodus aufgenommen wurden, werden Belichtungsebenen erstellt. Andernfalls werden die Belichtungsreihen zuerst kombiniert und dann gemischt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Konfiguriert, wie Belichtungsreihen kombiniert werden.",
-			"morehelptext": "Belichtungsreihen (für HDR) werden zu einem einzigen Bild kombiniert. PTGui kann dies auf zwei verschiedene Arten tun:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtungsreihen werden zunächst zu einem echten Bild mit hohem Dynamikbereich kombiniert. Dieses HDR-Bild deckt den gesamten Dynamikbereich aller Quellbilder ab, von den dunkelsten bis zu den hellsten Bildern. Dann wird im Allgemeinen eine Tonzuordnung verwendet, um dies in ein Bild mit niedrigem Dynamikbereich umzuwandeln, das zum Anzeigen oder Drucken geeignet ist.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtungsreihen werden direkt zu einem <b>tonabgebildeten</b> Bild mit niedrigem Dynamikbereich kombiniert. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonabbildung zu erstellen.<br><br>Die Einstellungen für die Tonzuordnung und Belichtungsfusionen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"morehelptext": "Belichtungsreihen (für HDR) werden zu einem einzigen Bild kombiniert. PTGui kann dies auf zwei verschiedene Arten tun:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtungsreihen werden zunächst zu einem echten Bild mit hohem Dynamikbereich kombiniert. Dieses HDR-Bild deckt den gesamten Dynamikbereich aller Quellbilder ab, von den dunkelsten bis zu den hellsten Bildern. Dann wird im Allgemeinen eine Tonzuordnung verwendet, um dies in ein Bild mit niedrigem Dynamikbereich umzuwandeln, das zum Anzeigen oder Drucken geeignet ist.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtungsreihen werden direkt zu einem Tonemapp-Bild mit niedrigem Dynamikbereich kombiniert. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikbereich für die Tonabbildung zu erstellen.<br><br>Die Einstellungen für die Tonemapping und Belichtungsfusionen können in der Seitenleiste des Panorama-Editors angepasst werden."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Aktiviert Belichtungsfusion für einzelne Bilder (keine Belichtungsreihe)",
-			"morehelptext": "<br><br>Normalerweise wird Belichtungsfusion verwendet, um mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich zu kombinieren. PTGui kann Belichtungsfusion jedoch auch für einzelne Bilder verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei der Tonemapping."
+			"morehelptext": "<br><br>Normalerweise wird Belichtungsfusion verwendet, um mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich zu kombinieren. PTGui kann Belichtungsfusion jedoch auch für einzelne Bilder verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei Tonemapping."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kombiniert Belichtungsreihen mit Belichtungsfusion",
-			"morehelptext": "<br><br>Mit Belichtungsfusion werden mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich kombiniert. Es ist auch möglich, Belichtungsfusion auch für einzelne Bilder (keine Belichtungsreihe) zu verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei der Tonzuordnung."
+			"morehelptext": "<br><br>Mit Belichtungsfusion werden mehrere Belichtungsreihen zu einem einzigen Bild mit reduziertem Dynamikbereich kombiniert. Es ist auch möglich, Belichtungsfusion auch für einzelne Bilder (keine Belichtungsreihe) zu verwenden, indem künstlich dunklere und hellere Kopien desselben Bildes erstellt werden. Dies erhöht die sichtbaren Details in den Schatten und Lichtern, ähnlich wie bei Tonemapping."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
-			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@: Der</b> Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@: Der</b> Weißabgleich wird optimiert."
+			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@:</b> Der Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@:</b> Der Weißabgleich wird optimiert."
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
@@ -8711,8 +8711,8 @@
 		},
 		{
 			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
-			"machinetranslated": true,
-			"helptext": "Diese Kamerakurve wird derzeit nicht verwendet. Die Kamerakurve muss einem oder mehreren Bildern in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte @mainwindow.tabs.imageparameters@ zugewiesen werden."
+			"machinetranslated": false,
+			"helptext": "Diese Kamerakurve wird derzeit nicht verwendet. Die Kamerakurve muss einem oder mehreren Bildern in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
 		},
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
@@ -8745,9 +8745,9 @@
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Steuert, ob die Helligkeit einzelner Quellbilder angepasst wird, um die Helligkeitsunterschiede zwischen überlappenden Bildern zu minimieren.",
-			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.expoffset@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten als korrekt angenommen und es wird keine zusätzliche Helligkeitsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird die Helligkeit optimiert.<br><br><b>@photometricsettings.disabled@: Die</b> Helligkeit wird nicht optimiert und die Spalte '@mainwindow.imageparameters.expoffset@' aller Bilder auf der Registerkarte @mainwindow.tabs.imageparameters@ wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@: Die</b> Helligkeit der <b>Quellbilder</b> wird angepasst.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Werte in der Spalte '@mainwindow.imageparameters.expoffset@' werden beibehalten."
+			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.expoffset@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten als korrekt angenommen und es wird keine zusätzliche Helligkeitsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird die Helligkeit optimiert.<br><br><b>@photometricsettings.disabled@:</b>  DieHelligkeit wird nicht optimiert und die Spalte '@mainwindow.imageparameters.expoffset@' aller Bilder auf der Registerkarte '@mainwindow.tabs.imageparameters@' wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Helligkeit der Quellbilder wird angepasst.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Werte in der Spalte '@mainwindow.imageparameters.expoffset@' werden beibehalten."
 		},
 		{
 			"id": "txt.saveexposurefusionparameters",
@@ -8814,15 +8814,15 @@
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kamerakurve hinzufügen",
-			"morehelptext": "<br><br>Fügt dem Projekt eine Kamerakurve hinzu. Ein Projekt kann mehrere Kamerakurven enthalten. Für jedes Quellbild kann eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte @mainwindow.tabs.imageparameters@ zugewiesen werden."
+			"morehelptext": "<br><br>Fügt dem Projekt eine Kamerakurve hinzu. Ein Projekt kann mehrere Kamerakurven enthalten. Für jedes Quellbild kann eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
 		},
 		{
 			"id": "txt.removecameraresponsecurve",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kamera-Reaktionskurve entfernen",
-			"morehelptext": "<br><br>Entfernt diese Kamerakurve aus dem Projekt. Eine Kurve kann nur entfernt werden, wenn sie nicht im Projekt verwendet wird: Die Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte @mainwindow.tabs.imageparameters@ ausgewählt werden."
+			"morehelptext": "<br><br>Entfernt diese Kamerakurve aus dem Projekt. Eine Kurve kann nur entfernt werden, wenn sie im Projekt nicht verwendet wird. Die Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' ausgewählt sein."
 		},
 		{
 			"id": "txt.editcameraresponsecurve",
@@ -8956,7 +8956,7 @@
 		{
 			"id": "mainwindow.masktab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn das Panorama überblendet wird, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen oder nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Zwei Arten von Masken sind verfügbar: Eine <b>rote</b> Maske zeigt einen Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein sollte; Der Blender verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Blender an, dass ein bestimmter Teil im blended Panorama sichtbar sein muss, d.h. er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in Rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das überblendete Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn '@panoeditor.menubar.blended@' ausgewählt ist, werden die Masken berücksichtigt. Im '@panoeditor.menubar.showseams@'-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie das Bild mit der linken Maustaste ein. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool @mainwindow.maskmenu.fill@ gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte @mainwindow.tabs.sourceimages@, wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie @pastemask@.<br><br>Verwenden Sie die Tastenkombinationen '@menubar.view.previousimage@'/'@menubar.view.nextimage@' im Menü @menubar.view@ und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich, zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
+			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Wenn das Panorama überblendet wird, platziert PTGui standardmäßig die Nähte ungefähr in der Mitte des Überlappungsbereichs zwischen zwei Quellbildern. Insbesondere wenn das Panorama sich bewegende Objekte oder Personen enthält, kann dies gelegentlich zu teilweise abgeschnittenen Objekten oder Personen ohne Gliedmaßen in dem zusammengesetzten Panorama führen. Dies kann durch Verwendung von Masken verhindert werden: Die Maske teilt dem Blender mit, welche Teile des Quellbildes im endgültigen Panorama sichtbar sein sollen und welche nicht. Außerdem können Masken verwendet werden, um zu verhindern, dass Kontrollpunkte in bestimmten Bereichen erzeugt werden.<br><br>Es gibt zwei Arten von Masken: Eine <b>rote</b> Maske definiert den Teil des Quellbildes an, der im endgültigen Panorama nicht sichtbar sein soll. Der Blender verwendet die überlappenden Bereiche der anderen Quellbilder, um die fehlenden Teile abzudecken. Eine <b>grüne</b> Maske weist den Blender an, dass dieser Teil im fertigen Panorama sichtbar sein soll, d.h. er wird die grünen maskierten Pixel den Pixeln der anderen Bilder vorziehen.<br><br>Der Kontrollpunktgenerator (und '@alignimages@') platziert keine Kontrollpunkte in rot maskierten Bereichen. Dies kann nützlich sein, um Kontrollpunkte auf sich bewegenden Wolken am Himmel oder Kontrollpunkte auf dem Stativ zu verhindern.<br><br>Die Auswirkungen der Maskenbemalung auf das überblendete Panorama können in Echtzeit im Panorama-Editor und im Detail-Viewer beobachtet werden. Wenn '@panoeditor.menubar.blended@' ausgewählt ist, werden die Masken berücksichtigt. Im '@panoeditor.menubar.showseams@'-Modus zeigen die roten Linien Änderungen in der Nahtplatzierung aufgrund der Maskierung an.<br><br>Um Masken zu zeichnen, zeichnen Sie mit der linken Maustaste in das Bild. Verwenden Sie die Umschalttaste + Klick, um gerade Linien zu zeichnen. Die Größe des Malwerkzeugs kann mit dem Schieberegler darunter oder mit den Tasten K und L geändert werden. Geschlossene Bereiche können mit dem Tool '@mainwindow.maskmenu.fill@' gefüllt werden.<br><br>Masken können kopiert, eingefügt, geladen und gespeichert werden. Um eine Maske gleichzeitig auf mehrere Bilder zu kopieren, wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@', wählen Sie die Bilder aus, klicken Sie mit der rechten Maustaste und wählen Sie '@pastemask@'.<br><br>Verwenden Sie die Tastenkombinationen '@menubar.view.previousimage@'/'@menubar.view.nextimage@' im Menü '@menubar.view@' und in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Es ist möglich, zwischen einem einzelnen Bild oder zwei Bildern nebeneinander zu wechseln."
 		},
 		{
 			"id": "mainwindow.imageparamstab",
@@ -8965,8 +8965,8 @@
 		},
 		{
 			"id": "mainwindow.optimizersettingstab",
-			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.optimizer@</b><br><br>PTGui richtet Bilder in einem zweistufigen Prozess aus: Zuallererst werden Kontrollpunkte auf übereinstimmenden Merkmalen in verschiedenen Bildern erzeugt. Dann wird der Optimierer gestartet, der die Bild- und Objektivparameter so ändert, dass die Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>Der Optimierer kann über eine einfache oder eine erweiterte Schnittstelle gesteuert werden; Verwenden Sie die Schaltfläche @simple@ oder @advanced@ oben auf der Registerkarte @mainwindow.tabs.optimizer@ zum Wechseln. Die einfache Schnittstelle ist in den meisten Fällen ausreichend. PTGui setzt die Parameter des Optimierers auf Werte, die normalerweise gute Ergebnisse liefern.<br><br>Verwenden Sie die erweiterte Schnittstelle, um detaillierte Kontrolle über jeden einzelnen optimierten Parameter zu erhalten. Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen.<br><br><b>Optimierergebnisse</b><br>Nach dem Ausführen des Optimierers wird PTGui Sie wissen lassen, wie gut die Bilder ausgerichtet sind. Wenn der Optimierer ein nicht so gutes Ergebnis meldet, besteht die Möglichkeit, dass es falsch positionierte Kontrollpunkte gibt. Um diese Kontrollpunkte zu finden, öffnen Sie das Fenster @controlpointstable@ (Menü @menubar.tools@) und überprüfen Sie die Kontrollpunkte mit dem höchsten Abstandswert. Doppelklicken Sie auf einen Kontrollpunkt in der Tabelle, um den Kontrollpunkt auf der Registerkarte @mainwindow.tabs.controlpoints@ zu überprüfen. Doing @menubar.controlpoints@ | @menubar.controlpoints.deleteworst@ kann auch hilfreich sein.<br><br>Wenn Sie regelmäßig mittelmäßige Optimierungsergebnisse erhalten, ist dies in der Regel ein Zeichen von Parallaxe. Bilder mit Parallaxefehlern können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+			"machinetranslated": false,
+			"helptext": "<b>@mainwindow.tabs.optimizer@</b><br><br>PTGui richtet Bilder in einem zweistufigen Prozess aus: Zuerst werden Kontrollpunkte auf übereinstimmenden Merkmalen in verschiedenen Bildern erzeugt. Dann wird der Optimierer gestartet, der die Bild- und Objektivparameter so ändert, dass die Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>Der Optimierer kann über eine einfache oder eine erweiterte Schnittstelle gesteuert werden. Verwenden Sie die Schaltfläche '@simple@' oder '@advanced@' oben auf der Registerkarte '@mainwindow.tabs.optimizer@' zum Wechseln. Die einfache Schnittstelle ist in den meisten Fällen ausreichend. PTGui setzt die Parameter des Optimierers auf Werte, die normalerweise gute Ergebnisse liefern.<br><br>Verwenden Sie die erweiterte Schnittstelle, um detaillierte Kontrolle über jeden einzelnen optimierten Parameter zu erhalten. Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen.<br><br><b>Optimierergebnisse</b><br>Nach dem Ausführen des Optimierers wird PTGui Sie wissen lassen, wie gut die Bilder ausgerichtet sind. Wenn der Optimierer ein nicht so gutes Ergebnis meldet, besteht die Möglichkeit, dass es falsch positionierte Kontrollpunkte gibt. Um diese Kontrollpunkte zu finden, öffnen Sie das Fenster '@controlpointstable@' (Menü '@menubar.tools@') und überprüfen Sie die Kontrollpunkte mit den höchsten Abstandswerten. Doppelklicken Sie auf einen Kontrollpunkt in der Tabelle, um den Kontrollpunkt auf der Registerkarte '@mainwindow.tabs.controlpoints@' zu überprüfen. Ausführen von '@menubar.controlpoints@' | '@menubar.controlpoints.deleteworst@' kann auch hilfreich sein.<br><br>Wenn Sie regelmäßig mittelmäßige Optimierungsergebnisse erhalten, ist dies in der Regel ein Zeichen von Parallaxe. Bilder mit Parallaxefehlern können nicht perfekt zusammengefügt werden. Parallaxen sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
 		},
 		{
 			"id": "mainwindow.exposuretab",

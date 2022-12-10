@@ -1356,7 +1356,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.fisheyefactor",
-			"txt": "Fischaugen-Faktor:"
+			"txt": "Fischaugenfaktor:"
 		},
 		{
 			"id": "mainwindow.lensparams.lenscorrection",
@@ -1408,7 +1408,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.camera.cropfactor",
-			"txt": "Beschneidungsfaktor:"
+			"txt": "Crop-Faktor:"
 		},
 		{
 			"id": "mainwindow.lensparams.camera.cameradatabase",
@@ -1540,7 +1540,7 @@
 		},
 		{
 			"id": "cptypetoadd",
-			"txt": "CP-Typ zum Hinzufügen"
+			"txt": "CP-Typ für Hinzufügen"
 		},
 		{
 			"id": "mainwindow.cptab.cptypetoadd",
@@ -1640,7 +1640,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.horvertcp.includeinsinglepass",
-			"txt": "In einen einzigen Durchgang aufnehmen"
+			"txt": "In einem einzigen Durchgang aufnehmen"
 		},
 		{
 			"id": "mainwindow.optimizertab.linkroll",
@@ -6591,10 +6591,10 @@
 		},
 		{
 			"id": "lensparams.globallens",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Objektivprofile",
-			"helptext": "Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Anfänglich gibt es ein einziges Objektivprofil namens '@txt.globallensprofile@' für alle Bilder.",
-			"morehelptext": "<br><br>Ein Objektivprofil kann hinzugefügt werden, indem Sie auf die Schaltfläche + unten klicken. Mehrere Objektivprofile werden automatisch erstellt, wenn Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzugefügt werden. Wenn mehr als ein Objektivprofil vorhanden ist, kann jedem Bild in der Liste &quot;@mainwindow.lensparams.useindividual@&quot; unten ein Objektivprofil zugewiesen werden.<br><br>Jedes Objektivprofil hat seine eigenen Objektiveinstellungen, <optional product='pro'>Vignettierung und Kamera-Kurveneinstellungen,</optional> Verschiebung und @shear@ Parameter und Crop-Einstellungen."
+			"helptext": "Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Anfänglich gibt es für alle Bilder ein einziges Objektivprofil namens '@txt.globallensprofile@'.",
+			"morehelptext": "<br><br>Mit der Schaltfläche '+' unten fügen Sie ein Objektivprofil hinzu. Mehrere Objektivprofile werden automatisch erstellt, wenn Sie Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzufügen. Ist mehr als ein Objektivprofil vorhanden, können Sie jedem Bild in der Liste '@mainwindow.lensparams.useindividual@' unten ein Objektivprofil zuweisen.<br><br>Jedes Objektivprofil hat seine eigenen Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ Parameter und Crop-Einstellungen."
 		},
 		{
 			"id": "lensparams.globallens.add",
@@ -6604,57 +6604,57 @@
 		{
 			"id": "lensparams.globallens.remove",
 			"machinetranslated": true,
-			"label": "Entfernen Sie das ausgewählte Objektivprofil"
+			"label": "Das ausgewählte Objektivprofil entfernen"
 		},
 		{
 			"id": "lensparams.lenstype",
 			"machinetranslated": false,
 			"helptext": "Art des Objektivs. In den meisten Fällen kann PTGui dies automatisch feststellen, indem die EXIF-Daten des Bildes untersucht werden.",
-			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> ist der am häufigsten verwendete Objektivtyp; Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als <b>Quellbild</b> zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen ein größeres Sichtfeld als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein <b>kreisförmiges Fischaugenobjektiv</b> hat ein Sichtfeld von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein <b>vollformatiges Fischaugenobjektiv</b> hat ein engeres Sichtfeld und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Laden eines bereits zusammengefügtes sphärischen Panoramas als <b>Quellbild</b> ."
+			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als Quellbild zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen ein größeres Sichtfeld als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein kreisförmiges Fischaugenobjektiv hat ein Sichtfeld von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein vollformatiges Fischaugenobjektiv hat ein engeres Sichtfeld und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist ein bereits zusammengefügtes sphärisches Panorama."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
 			"machinetranslated": false,
-			"helptext": "Objektivparameter können für zukünftige Verwendung in der Objektiv-Datenbank gespeichert werden.",
-			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer, Sie können damit Ihre eigenen Einstellungen speichern. Jeder Datensatz besteht aus den Objektivparametern, Verschiebung &amp; @shear@ Parametern und Crop-Parametern. Verwenden Sie @save@, um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder @load@, um die Einstellungen aus der Objektiv-Datenbank zu lesen.<br><br>Eine Objektiv-Datenbankaufzeichnung kann den EXIF-Daten der aktuell geladenen Bilder zugeordnet werden, so dass die Objektiveinstellungen automatisch angewendet werden, wenn ein ähnliches Bild geladen wird. Dies kann durch Klicken auf die EXIF-Schaltfläche unten getan werden.<br><br>Die Objektiv-Datenbank kann über das Menü '@menubar.tools@' geöffnet werden. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"helptext": "Speichern Sie Objektivparameter für die zukünftige Verwendung in der Objektiv-Datenbank.",
+			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer, Sie können darin Ihre eigenen Einstellungen speichern. Jeder Datensatz besteht aus den Objektiv-, Verschiebung-, @shear@- und Crop-Parametern. Verwenden Sie @save@, um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder @load@, um die Einstellungen aus der Objektiv-Datenbank zu lesen.<br><br>Über die Taste EXIF können Sie einen Objektiv-Datenbankeintrag mit den EXIF-Daten der geladenen Bilder verknüpfen. Diese Objektiveinstellungen werden später bei ähnlichen Bildern automatisch angewendet.<br><br>Die Objektiv-Datenbank öffnen Sie über das Menü '@menubar.tools@'. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensparams.focallength",
-			"machinetranslated": true,
-			"helptext": "Brennweite (in Millimetern) des Objektivs. Oft kann PTGui dies automatisch aus den EXIF-Daten ermitteln. Geben Sie die tatsächliche Brennweite ein, nicht die 35-mm-äquivalente Brennweite.<br><br>Der Wert muss nicht sehr genau sein; PTGui benötigt nur eine grobe Schätzung der Brennweite beim Ausführen von '@alignimages@'. Nach dem Erzeugen der Kontrollpunkte und dem Ausführen des Optimierers wird dieser Wert mit der optimierten Brennweite aktualisiert."
+			"machinetranslated": false,
+			"helptext": "Brennweite (in Millimetern) des Objektivs. Oft kann PTGui diesen Wert automatisch aus den EXIF-Daten ermitteln. Geben Sie die tatsächliche Brennweite ein, nicht die 35-mm-äquivalente Brennweite.<br><br>Der Wert muss nicht sehr genau sein. PTGui benötigt nur eine grobe Schätzung der Brennweite beim Ausführen von '@alignimages@'. Nach dem Erzeugen der Kontrollpunkte und dem Ausführen des Optimierers wird dieser Wert mit der optimierten Brennweite aktualisiert."
 		},
 		{
 			"id": "lensparams.theoreticalfocallength",
-			"machinetranslated": true,
-			"helptext": "Theoretische Brennweite, wie aus den EXIF-Daten ermittelt. Kann leer sein.<br><br>Falls verfügbar, setzt @menubar.project@ | @menubar.project.initializeandoptimize@ die Brennweite auf diesen Wert zurück."
+			"machinetranslated": false,
+			"helptext": "Theoretische Brennweite, wie aus den EXIF-Daten ermittelt. Kann leer sein.<br><br>Falls verfügbar, setzt '@menubar.project@' | '@menubar.project.initializeandoptimize@' die Brennweite auf diesen Wert zurück."
 		},
 		{
 			"id": "lensparams.horizontalfieldofview",
-			"machinetranslated": true,
-			"helptext": "Der Betrachtungswinkel (in Grad) zwischen der linken und der rechten Bildkante.<br><br>Wenn das Bild beschnitten ist (auf der Registerkarte @mainwindow.tabs.crop@), geben Sie das Sichtfeld des beschnittenen Bildteils ein.<br><br>Bei geradlinigen und Fischaugenobjektiven wird dieser Wert automatisch aus der Brennweite berechnet."
+			"machinetranslated": false,
+			"helptext": "Der Betrachtungswinkel (in Grad) zwischen der linken und der rechten Bildkante.<br><br>Wenn das Bild beschnitten ist (auf der Registerkarte '@mainwindow.tabs.crop@'), geben Sie das Sichtfeld des beschnittenen Bildteils ein.<br><br>Bei geradlinigen und Fischaugenobjektiven wird dieser Wert automatisch aus der Brennweite berechnet."
 		},
 		{
 			"id": "lensparams.fisheyefactor",
-			"machinetranslated": true,
-			"helptext": "Verschiedene Arten von Fischaugenprojektionen existieren; Dieser Parameter legt die spezifische Fischaugenprojektion fest. PTGui erkennt viele gängige Objektivmodelle anhand der EXIF-Daten und stellt diesen Wert automatisch ein. Im Zweifelsfall geben Sie -0.5 ein, was der äquisoliden Projektion der meisten Fischaugenobjektive entspricht.",
-			"morehelptext": "<br><br>Gemeinsame Werte sind:<br>Äquidistant: 0<br>Stereographisch: 0,5<br>Orthographisch: -1.0<br>Equisolid: -0,5<br>Geradliniges (nicht-Fischauge): 1.0<br>Die meisten Fischaugenobjektive auf dem Markt haben eine ungefähr gleichmäßige Projektion. Der Wert ist nicht kritisch. Automatische Objektivverzerrungskorrektur (a/b/c) kompensiert eventuelle Fehler.<br><br>Dieser Wert kann vom Optimierer berechnet werden: Stellen Sie dazu die Verzerrungsparameter a/b/c auf Null. Schalten Sie die Registerkarte @mainwindow.tabs.optimizer@ in den Erweiterten Modus, aktivieren Sie die Optimierung des Fischaugenfaktors und deaktivieren Sie die Optimierung der a/b/c Objektivverzerrungsparameter. Verwenden Sie Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen.<br><br>Mathematischer Hintergrund: PTGui verwendet die folgende Projektionsfunktion für Fischaugenobjektive:<br>R = f / k tan (kθ) [für 0 &lt;k ≤ 1]<br>R = fθ [für k = 0]<br>R = f / ksin (kθ) [für -1 ≤ k &lt;0]<br>Wobei R der projizierte Radius, f Brennweite, θ eintreffender Lichtstrahlwinkel und k der Fischaugenfaktor ist."
+			"machinetranslated": false,
+			"helptext": "Es gibt verschiedene Arten von Fischaugenprojektionen. Dieser Parameter legt die spezifische Fischaugenprojektion fest. PTGui erkennt viele gängige Objektivmodelle anhand der EXIF-Daten und stellt diesen Wert automatisch ein. Im Zweifelsfall geben Sie -0.5 ein, was der äquisoliden Projektion der meisten Fischaugenobjektive entspricht.",
+			"morehelptext": "<br><br>Typische Werte sind:<br>Äquidistant: 0<br>Stereographisch: 0,5<br>Orthographisch: -1.0<br>Equisolid: -0,5<br>Geradliniges (nicht-Fischauge): 1.0<br>Die meisten Fischaugenobjektive auf dem Markt haben eine ungefähr gleichmäßige Projektion. Der Wert ist nicht kritisch. Automatische Objektivverzerrungskorrektur (a/b/c) kompensiert eventuelle Fehler.<br><br>Dieser Wert kann vom Optimierer berechnet werden: Setzen Sie dazu die Verzerrungsparameter a/b/c auf 0. Schalten Sie die Registerkarte '@mainwindow.tabs.optimizer@' in den Erweiterten Modus, aktivieren Sie die Optimierung des Fischaugenfaktors und deaktivieren Sie die Optimierung der a/b/c Objektivverzerrungsparameter. Verwenden Sie Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen.<br><br>Mathematischer Hintergrund: PTGui verwendet die folgende Projektionsfunktion für Fischaugenobjektive:<br>R = f / k tan (kθ) [für 0 &lt;k ≤ 1]<br>R = fθ [für k = 0]<br>R = f / ksin (kθ) [für -1 ≤ k &lt;0]<br>Wobei R der projizierte Radius, f Brennweite, θ eintreffender Lichtstrahlwinkel und k der Fischaugenfaktor ist."
 		},
 		{
 			"id": "lensparams.abc",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Radiale Objektivverzerrungsparameter (a/b/c): zum Kompensieren der Tonnen- und Pincusionsverzerrung. PTGui ermittelt diese Werte automatisch.",
-			"morehelptext": "<br><br>Die Objektivverzerrung wird unter Verwendung einer Polynomabbildungsfunktion dritter Ordnung (wobei &quot;a&quot; der Koeffizient höchster Ordnung ist) kompensiert. Die Optimierung von a/b/c ist standardmäßig aktiviert. Dies kann auf der Registerkarte @mainwindow.tabs.optimizer@ konfiguriert werden. Verwenden Sie zur genauen Optimierung Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen."
+			"morehelptext": "<br><br>Die Objektivverzerrung wird unter Verwendung einer Polynomabbildungsfunktion dritter Ordnung (wobei 'a' der Koeffizient höchster Ordnung ist) kompensiert. Die Optimierung von a/b/c ist standardmäßig aktiviert. Dies können Sie auf der Registerkarte '@mainwindow.tabs.optimizer@' konfigurieren. Verwenden Sie zur genauen Optimierung Bilder ohne Parallaxe und achten Sie darauf, Kontrollpunkte über den gesamten Überlappungsbereich zu verteilen."
 		},
 		{
 			"id": "lensparams.shift",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kompensation für Objektivverschiebung, um den Versatz zwischen der optischen Mitte des Objektivs und der Bildmitte zu kompensieren. PTGui ermittelt diese Werte automatisch.",
-			"morehelptext": "<br><br>Objektivverzerrungskorrektur und Panoramaverzerrung müssen relativ zum optischen Zentrum des Objektivs angewendet werden. Aufgrund mechanischer Toleranzen zeigt die optische Achse des Objektivs oft nicht genau auf die Mitte des Kamerasensors. Für eine genaue Naht muss dieser Offset kompensiert werden.<br><br>Die Verschiebung wird als Prozentsatz der langen und kurzen Seiten der Bilder ausgedrückt. So können die gleichen Werte für Bilder unterschiedlicher Größe und für Bilder im Quer- und Hochformat verwendet werden.<br><br>Standardmäßig verwendet PTGui den gleichen Verschiebungswert für alle Bilder im Projekt (oder für alle Bilder, die das gleiche Objektivprofil verwenden). Wenn für jedes Bild ein Tilt-Shift-Objektiv mit verschiedenen Shift-Einstellungen verwendet wurde, können in der nachstehenden Liste &quot;@mainwindow.lensparams.useindividual@&quot; individuelle Shift-Einstellungen für jedes Bild aktiviert werden."
+			"morehelptext": "<br><br>Objektivverzerrungskorrektur und Panoramaverzerrung müssen relativ zum optischen Zentrum des Objektivs angewendet werden. Aufgrund mechanischer Toleranzen zeigt die optische Achse des Objektivs oft nicht genau auf die Mitte des Kamerasensors. Für eine genaue Naht muss dieser Offset kompensiert werden.<br><br>Die Verschiebung wird als Prozentsatz der langen und kurzen Seiten der Bilder ausgedrückt. So können die gleichen Werte für Bilder unterschiedlicher Größe und für Bilder im Quer- und Hochformat verwendet werden.<br><br>Standardmäßig verwendet PTGui den gleichen Verschiebungswert für alle Bilder im Projekt (oder für alle Bilder, die das gleiche Objektivprofil verwenden). Wenn Sie für jedes Bild ein Tilt-Shift-Objektiv mit verschiedenen Shift-Einstellungen verwendet haben, können Sie in der nachstehenden Liste '@mainwindow.lensparams.useindividual@' individuelle Shift-Einstellungen für jedes Bild aktivieren."
 		},
 		{
 			"id": "lensparams.shear",
-			"machinetranslated": true,
-			"helptext": "@+shear@: nur für Flachbettscanner verwenden; Für Kamerabilder sollte dies auf 0 gesetzt werden.",
+			"machinetranslated": false,
+			"helptext": "@+shear@: nur für Flachbettscanner verwenden. Für Kamerabilder sollte der Wert auf 0 gesetzt werden.",
 			"morehelptext": "<br><br>Schlitzscanner können eine gewisse Nicht-Rechtwinkligkeit zwischen der Abtast- und Bewegungsachse aufweisen (Scherung). Diese Werte kompensieren dies. Die Werte werden vom Optimierer bestimmt, wenn die @shear@-Optimierung aktiviert ist."
 		},
 		{
@@ -6664,9 +6664,9 @@
 		},
 		{
 			"id": "lensparams.sensorsize",
-			"machinetranslated": true,
-			"helptext": "Sensordiagonale / Crop-Faktor: Die Diagonale des Kamerasensors. Dies wird üblicherweise als &quot;Crop-Faktor&quot; oder &quot;Brennweiten-Multiplikator&quot; ausgedrückt. Bei den meisten Kameras kann PTGui dies automatisch aus den EXIF-Daten ermitteln.",
-			"morehelptext": "<br><br>Ein Crop-Faktor von 1x entspricht den klassischen Vollrahmen-Sensormaßen von 36 x 24 mm. Ein kleinerer Sensor hat einen Crop-Faktor größer als eins.<br><br>Bei geradlinigen und Fischaugenobjektiven muss PTGui die Größe des Sensors kennen; Die Projektion wird durch diesen Wert und die Brennweite zusammen bestimmt."
+			"machinetranslated": false,
+			"helptext": "Sensordiagonale/Crop-Faktor: Die Diagonale des Kamerasensors. Dies wird üblicherweise als 'Crop-Faktor' oder 'Brennweiten-Multiplikator' ausgedrückt. Bei den meisten Kameras kann PTGui dies automatisch aus den EXIF-Daten ermitteln.",
+			"morehelptext": "<br><br>Ein Crop-Faktor von 1x entspricht Maßen des klassischen Vollformat-Sensors von 36 x 24 mm. Ein kleinerer Sensor hat einen Crop-Faktor größer als eins.<br><br>Bei geradlinigen und Fischaugenobjektiven muss PTGui die Größe des Sensors kennen. Die Projektion wird durch diesen Wert und die Brennweite bestimmt."
 		},
 		{
 			"id": "lensparams.cameradatabase",
@@ -6684,19 +6684,19 @@
 			"id": "lensparams.individualparams",
 			"machinetranslated": true,
 			"helptext": "Überschreiben Sie die obigen Einstellungen für einzelne Bilder.",
-			"morehelptext": "<br><br>Standardmäßig werden für alle Bilder im Projekt das gleiche Objektiv, die gleiche Verschiebung, @shear@ und die Zuschneideeinstellungen verwendet. Aktivieren Sie die folgenden Kontrollkästchen, um verschiedene Einstellungen für einzelne Bilder zu verwenden. Dann können einzelne Parameter in der Registerkarte @mainwindow.tabs.imageparameters@ eingestellt werden. Der Optimierer optimiert die ausgewählten Parameter einzeln.<br><br>Wenn mehrere Objektivprofile definiert sind, kann für jedes Quellbild ein Objektivprofil ausgewählt werden."
+			"morehelptext": "<br><br>Standardmäßig werden für alle Bilder im Projekt das gleiche Objektiv, die gleiche Verschiebung, @shear@ und die Zuschnitteinstellungen verwendet. Aktivieren Sie die folgenden Kontrollkästchen, um verschiedene Einstellungen für einzelne Bilder zu verwenden. Dann können einzelne Parameter in der Registerkarte @mainwindow.tabs.imageparameters@ eingestellt werden. Der Optimierer optimiert die ausgewählten Parameter einzeln.<br><br>Wenn mehrere Objektivprofile definiert sind, kann für jedes Quellbild ein Objektivprofil ausgewählt werden."
 		},
 		{
 			"id": "portraitorientation.shutterup",
-			"machinetranslated": true,
-			"helptext": "Hochformat des Kameraporträts: gegen den Uhrzeigersinn",
-			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, muss PTGui wissen, in welche Richtung die Kamera von Querformat zu Querformat gedreht wurde. Dies ist so, dass die Objektivverschiebungskorrektur in der richtigen Richtung angewendet wird.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera gegen den Uhrzeigersinn von Querformat zu Hochformat gedreht wurde. Bei den meisten Kameras befindet sich der Auslöser über dem Objektiv (siehe Symbol)."
+			"machinetranslated": false,
+			"helptext": "Ausrichtung der Kamera im Hochformat: gegen den Uhrzeigersinn",
+			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, muss PTGui wissen, in welche Richtung die Kamera von Querformat zu Querformat gedreht wurde. Diese Information ist notwendig, damit die Objektivverschiebungskorrektur in der richtigen Richtung angewendet wird.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera gegen den Uhrzeigersinn von Querformat zu Hochformat gedreht wurde. Bei den meisten Kameras befindet sich der Auslöser über dem Objektiv (siehe Symbol)."
 		},
 		{
 			"id": "portraitorientation.shutterdown",
 			"machinetranslated": true,
-			"helptext": "Kamera Hochformat: im Uhrzeigersinn",
-			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, muss PTGui wissen, in welche Richtung die Kamera von Querformat zu Querformat gedreht wurde. Dies ist so, dass die Objektivverschiebungskorrektur in der richtigen Richtung angewendet wird.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera im Uhrzeigersinn von Querformat zu Hochformat gedreht wurde. Bei den meisten Kameras befindet sich der Auslöser unter dem Objektiv (wie im Symbol gezeigt)."
+			"helptext": "Ausrichtung der Kamera im Hochformat: im Uhrzeigersinn",
+			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, muss PTGui wissen, in welche Richtung die Kamera von Querformat zu Querformat gedreht wurde. Diese Information ist notwendig, damit die Objektivverschiebungskorrektur in der richtigen Richtung angewendet wird.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera im Uhrzeigersinn von Querformat zu Hochformat gedreht wurde. Bei den meisten Kameras befindet sich der Auslöser unter dem Objektiv (siehe Symbol)."
 		},
 		{
 			"id": "croptab.cropcoords",
@@ -6977,9 +6977,9 @@
 		},
 		{
 			"id": "exposurehdrtab.optimizenow",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Belichtungsoptimierung durchführen.",
-			"morehelptext": "<br><br>Analysiert überlappende Pixel aus verschiedenen Bildern. Je nachdem, was im @settings@-Fenster aktiviert ist, werden Vignettierung, Belichtung, Kameraempfindlichkeitskurve, Weißabgleich und @lensflare@-Kompensation angepasst, bis die Unterschiede zwischen den überlappenden Pixeln minimiert sind.<br><br>Da sie tatsächlich überlappende Pixel analysieren muss, verwenden Sie diese Funktion erst, nachdem das Panorama korrekt ausgerichtet wurde."
+			"morehelptext": "<br><br>Analysiert überlappende Pixel aus verschiedenen Bildern. Je nachdem, was im @settings@-Fenster aktiviert ist, werden Vignettierung, Belichtung, Kameraempfindlichkeitskurve, Weißabgleich und @lensflare@-Kompensation angepasst, bis die Unterschiede zwischen den überlappenden Pixeln minimiert sind.<br><br>Da die Funktion tatsächlich überlappende Pixel analysieren muss, verwenden Sie diese Funktion erst, nachdem das Panorama korrekt ausgerichtet wurde."
 		},
 		{
 			"id": "exposurehdrtab.settings",
@@ -8232,13 +8232,13 @@
 		{
 			"id": "lensdatabase.entries",
 			"machinetranslated": false,
-			"morehelptext": "Objektiv-Datenbank Datensätze. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "Objektiv-Datensätze. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.entries.add",
 			"machinetranslated": true,
 			"label": "Hinzufügen",
-			"morehelptext": "<br><br>Objektiv-Datenbank-Datensätze können über die Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster hinzugefügt werden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Objektiv-Datensätze können über die Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster hinzugefügt werden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.entries.remove",
@@ -8250,7 +8250,7 @@
 			"id": "lensdatabase.mappings",
 			"machinetranslated": false,
 			"helptext": "EXIF-Verknüpfungen für den ausgewählten Objektiv-Datenbankeintrag.",
-			"morehelptext": "<br><br>Objektiv-Datenbank-Datensätze können mit EXIF-Daten verknüpft werden, um benutzerdefinierte Einstellungen automatisch auf Bilder einer bestimmten Kamera und Objektiv-Kombination anzuwenden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Objektiv-Datensätze können mit EXIF-Daten verknüpft werden, um benutzerdefinierte Einstellungen automatisch auf Bilder einer bestimmten Kamera und Objektiv-Kombination anzuwenden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.mappings.add",
@@ -8267,19 +8267,19 @@
 		{
 			"id": "cameradatabase.entries",
 			"machinetranslated": true,
-			"morehelptext": "Kamera-Datenbank-Datensätze. Siehe: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
+			"morehelptext": "Kamera-Datensätze. Siehe: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
 			"id": "cameradatabase.entries.add",
 			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"morehelptext": "<br><br>Kamera-Datenbankdatensätze fügen Sie über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
+			"morehelptext": "<br><br>Kamera-Datensätze fügen Sie über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
 			"id": "cameradatabase.entries.remove",
 			"machinetranslated": true,
 			"label": "Löschen",
-			"helptext": "Entfernen Sie den ausgewählten Kameradatensatz."
+			"helptext": "Entfernen Sie den ausgewählten Kamera-Datensatz."
 		},
 		{
 			"id": "focallengthdialog.loadfromlensdb",
@@ -8302,7 +8302,7 @@
 			"id": "focallengthdialog.lenstype",
 			"machinetranslated": true,
 			"helptext": "Wählt den Objektivtyp. Diese Liste wird nach der oben eingegebenen Brennweite gefiltert, geben Sie also zuerst die Brennweite ein.",
-			"morehelptext": "<br><br>Abhängig von der eingegebenen Brennweite kann diese Liste folgende Objektivtypen anzeigen:<br><br><b>@focallengthdialog.regularlens@:</b> Für nicht-Fischaugenobjektive PTGui muss außer der Brennweite keine spezifischen Daten kennen. Daher sollte dieser Punkt für alle Nicht-Fischaugen-Objektive ausgewählt werden.<br><br><b>@txt.genericfisheye@: Wählen</b> Sie diese Option, wenn Ihr Objektiv ein Fischaugenobjektiv ist, aber das spezifische Objektivmodell nicht in der Liste angezeigt wird. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, abhängig davon, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugen-Faktor wird auf -0,5 für die äquisolide Fischaugenprojektion eingestellt; Dies ist der häufigste Typ.<br><br><b>Spezifische Fischaugenobjektivmodelle:</b> Abhängig von der eingegebenen Brennweite wird eine Liste möglicher Fischaugenobjektive angezeigt. Wenn sich Ihr Objektiv in der Liste befindet, wählen Sie es hier aus. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, je nachdem, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor und der Beschneidungskreis werden aus bekannten Werten entsprechend initialisiert. Wenn Ihr Objektiv ein Fischaugenobjektiv ist und es hier nicht abgebildet ist, senden Sie uns bitte ein Beispielbild, damit wir es in die nächste Version von PTGui aufnehmen können.<br><br>Weitere Informationen zu Objektivparametern finden Sie im Hauptfenster auf der Registerkarte @mainwindow.tabs.lenssettings@. Wenn die Registerkarte @mainwindow.tabs.lenssettings@ nicht angezeigt wird, klicken Sie zuerst auf @advanced@."
+			"morehelptext": "<br><br>Abhängig von der eingegebenen Brennweite kann diese Liste folgende Objektivtypen anzeigen:<br><br><b>@focallengthdialog.regularlens@:</b> Für nicht-Fischaugenobjektive PTGui muss außer der Brennweite keine spezifischen Daten kennen. Daher sollte dieser Punkt für alle Nicht-Fischaugen-Objektive ausgewählt werden.<br><br><b>@txt.genericfisheye@: Wählen</b> Sie diese Option, wenn Ihr Objektiv ein Fischaugenobjektiv ist, aber das spezifische Objektivmodell nicht in der Liste angezeigt wird. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, abhängig davon, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor wird auf -0,5 für die äquisolide Fischaugenprojektion eingestellt; Dies ist der häufigste Typ.<br><br><b>Spezifische Fischaugenobjektivmodelle:</b> Abhängig von der eingegebenen Brennweite wird eine Liste möglicher Fischaugenobjektive angezeigt. Wenn sich Ihr Objektiv in der Liste befindet, wählen Sie es hier aus. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, je nachdem, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor und der Beschneidungskreis werden aus bekannten Werten entsprechend initialisiert. Wenn Ihr Objektiv ein Fischaugenobjektiv ist und es hier nicht abgebildet ist, senden Sie uns bitte ein Beispielbild, damit wir es in die nächste Version von PTGui aufnehmen können.<br><br>Weitere Informationen zu Objektivparametern finden Sie im Hauptfenster auf der Registerkarte @mainwindow.tabs.lenssettings@. Wenn die Registerkarte @mainwindow.tabs.lenssettings@ nicht angezeigt wird, klicken Sie zuerst auf @advanced@."
 		},
 		{
 			"id": "focallengthdialog.alwaysuse",
@@ -8946,12 +8946,12 @@
 		{
 			"id": "mainwindow.lensparamstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Um genaue Nähte zu erhalten, muss PTGui die Eigenschaften der Kamera und des Objektivs kennen, mit denen die Bilder aufgenommen wurden. In den meisten Fällen kann PTGui die Objektiveinstellungen automatisch aus den EXIF-Daten der Bilder bestimmen. Dann ist es fast nie notwendig, diese Einstellungen zu verändern. Nur wenn keine EXIF-Daten gefunden wurden (z.B. bei Verwendung von Objektiven mit manueller Fokussierung), müssen hier die Objektiveinstellungen eingegeben werden. Selbst dann muss PTGui nur die Art des Objektivs und eine grobe Schätzung der Brennweite kennen. Der Optimierer kann hier alle Einstellungen vornehmen.<br><br>Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Dadurch können Bilder von verschiedenen Objektiven oder Kameras im selben Projekt verwendet werden. Anfangs gibt es ein einziges Objektivprofil namens '@txt.globallensprofile@' für alle Bilder. Mehrere Objektivprofile werden automatisch erstellt, wenn Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzugefügt werden. Jedes Objektivprofil hat seinen eigenen Parametersatz für Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ und Zuschneiden.<br><br>Sie können die Objektiv-Datenbank zum Speichern und späteren Abrufen der Parameter Ihres Objektivs verwenden. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Sie öffnen sie mit '@menubar.tools@' | '@lensdatabase@'. Objektiv-Datenbank-Datensätze können mit bestimmten EXIF-Daten verknüpft werden, sodass Ihre Einstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a><br><br><b>Objektivverzerrungskorrektur</b><br>Alle Objektive weisen eine gewisse Verzerrung auf (z. B. Tonnenverzerrung oder Kissenverzerrung). Für eine genaue Naht muss diese Verzerrung korrigiert werden; Dies geschieht im laufenden Betrieb beim Nähen. PTGui verwendet das PanoTools-Objektivmodell zur Verzerrungskorrektur. Dies verwendet eine Polynomfunktion dritter Ordnung mit drei Parametern, die a, b und c genannt werden. Auch hier wird die Objektivverzerrung durch den Optimierer genau bestimmt, so dass es fast nie erforderlich ist, diese Werte manuell anzupassen.<br><br>PTGui kompensiert auch den Versatz des Objektivzentrums von der Bildmitte (Verschiebung). Bei Flachbettscannern kann PTGui auch die @shear@ kompensieren.<br><br><b>Individuelle Einstellungen</b><br>Standardmäßig werden für alle Bilder im Projekt die gleichen Einstellungen für Objektive, Verschiebung, @shear@ und Zuschneiden verwendet. Sie können einzelne Einstellungen für jedes Bilder getrennt überschreiben, indem Sie sie in der Liste '@mainwindow.lensparams.useindividual@' auswählen."
+			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Um genaue Nähte zu erhalten, muss PTGui die Eigenschaften der Kamera und des Objektivs kennen, mit denen die Bilder aufgenommen wurden. In den meisten Fällen kann PTGui die Objektiveinstellungen automatisch aus den EXIF-Daten der Bilder bestimmen. Nur selten ist es notwendig, diese Einstellungen zu verändern. Wenn aber keine EXIF-Daten vorhanden sind (z.B. bei Verwendung von Objektiven mit manueller Fokussierung), müssen Sie hier die Objektiveinstellungen eingegeben. Selbst dann muss PTGui nur die Art des Objektivs und eine grobe Schätzung der Brennweite kennen. Der Optimierer kann hier alle Einstellungen vornehmen.<br><br>Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Dadurch können Bilder von verschiedenen Objektiven oder Kameras im selben Projekt verwendet werden. Anfangs gibt es ein einziges Objektivprofil namens '@txt.globallensprofile@' für alle Bilder. Mehrere Objektivprofile werden automatisch erstellt, wenn Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzugefügt werden. Jedes Objektivprofil hat seinen eigenen Parametersatz für Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ und Zuschneiden.<br><br>Sie können die Objektiv-Datenbank zum Speichern und späteren Abrufen der Parameter Ihres Objektivs verwenden. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Sie öffnen sie mit '@menubar.tools@' | '@lensdatabase@'. Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden, sodass Ihre Einstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a><br><br><b>Objektivverzerrungskorrektur</b><br>Alle Objektive weisen eine gewisse Verzerrung auf (z. B. Tonnenverzerrung oder Kissenverzerrung). Für eine genaue Naht muss diese Verzerrung korrigiert werden; Dies geschieht im laufenden Betrieb beim Nähen. PTGui verwendet das PanoTools-Objektivmodell zur Verzerrungskorrektur. Dies verwendet eine Polynomfunktion dritter Ordnung mit drei Parametern, die a, b und c genannt werden. Auch hier wird die Objektivverzerrung durch den Optimierer genau bestimmt, so dass es fast nie erforderlich ist, diese Werte manuell anzupassen.<br><br>PTGui kompensiert auch den Versatz des Objektivzentrums von der Bildmitte (Verschiebung). Bei Flachbettscannern kann PTGui auch die @shear@ kompensieren.<br><br><b>Individuelle Einstellungen</b><br>Standardmäßig werden für alle Bilder im Projekt die gleichen Einstellungen für Objektive, Verschiebung, @shear@ und Zuschneiden verwendet. Sie können einzelne Einstellungen für jedes Bilder getrennt überschreiben, indem Sie sie in der Liste '@mainwindow.lensparams.useindividual@' auswählen."
 		},
 		{
 			"id": "mainwindow.croptab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.crop@</b><br><br>Hier können Sie die Quellbilder vor dem Zusammenfügen zuschneiden. Zuschneiden ist nicht destruktiv, Ihre Originalbilder werden nicht verändert.<br><br>Zuschneiden wird im Allgemeinen nur für kreisförmige Fischaugenbilder verwendet. Ein solches Objektiv projiziert ein kreisförmiges Bild auf den Bildsensor. PTGui verwendet einen Beschneidungskreis, um sicherzustellen, dass nur Daten innerhalb des Bildkreises verwendet werden.<br><br>Ziehen Sie die Schnittbegrenzung mit der Maus oder verwenden Sie die Eingabefelder auf der rechten Seite, um die Schnittkoordinaten manuell einzugeben. Es ist möglich, außerhalb des Originalbilds zuzuschneiden (größer zu machen).<br><br>Verwenden Sie die Tastenkombinationen '@menubar.view.previousimage@'/'@menubar.view.nextimage@' im Menü '@menubar.view@' oder in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Standardmäßig verwenden alle Bilder (oder alle Bilder, die dasselbe Objektivprofil verwenden) die gleichen Zuschneideeinstellungen. Verwenden Sie '@mainwindow.croptab.individualposition@', um ein bestimmtes Bild anders zuzuschneiden. Dies kann für Multi-Kamera-Rigs und One-Shot-360-Kameras nützlich sein, bei denen jedes Objektiv die gleiche Projektion, aber eine andere Position hat.<br><br>Verwenden Sie die Zuschneidefunktion nicht, um bestimmte unerwünschte Teile Ihrer Fotos zu maskieren. Da die Objektiveinstellungen auf den beschnittenen Teil des Bildes angewendet werden, wird folglich die für das Bild verwendete Brennweite verändert. <optional product='pro'>Stattdessen sollten Sie Masken verwenden.</optional>"
+			"helptext": "<b>@mainwindow.tabs.crop@</b><br><br>Hier können Sie die Quellbilder vor dem Zusammenfügen zuschneiden. Zuschneiden ist nicht destruktiv, Ihre Originalbilder werden nicht verändert.<br><br>Zuschneiden wird im Allgemeinen nur für kreisförmige Fischaugenbilder verwendet. Ein solches Objektiv projiziert ein kreisförmiges Bild auf den Bildsensor. PTGui verwendet einen Beschneidungskreis, um sicherzustellen, dass nur Daten innerhalb des Bildkreises verwendet werden.<br><br>Ziehen Sie die Schnittbegrenzung mit der Maus oder verwenden Sie die Eingabefelder auf der rechten Seite, um die Schnittkoordinaten manuell einzugeben. Es ist möglich, außerhalb des Originalbilds zuzuschneiden (größer zu machen).<br><br>Verwenden Sie die Tastenkombinationen '@menubar.view.previousimage@'/'@menubar.view.nextimage@' im Menü '@menubar.view@' oder in der Symbolleiste, um zum vorherigen oder nächsten Bild zu wechseln.<br><br>Standardmäßig verwenden alle Bilder (oder alle Bilder, die dasselbe Objektivprofil verwenden) die gleichen Zuschnitteinstellungen. Verwenden Sie '@mainwindow.croptab.individualposition@', um ein bestimmtes Bild anders zuzuschneiden. Dies kann für Multi-Kamera-Rigs und One-Shot-360-Kameras nützlich sein, bei denen jedes Objektiv die gleiche Projektion, aber eine andere Position hat.<br><br>Verwenden Sie die Zuschneidefunktion nicht, um bestimmte unerwünschte Teile Ihrer Fotos zu maskieren. Da die Objektiveinstellungen auf den beschnittenen Teil des Bildes angewendet werden, wird folglich die für das Bild verwendete Brennweite verändert. <optional product='pro'>Stattdessen sollten Sie Masken verwenden.</optional>"
 		},
 		{
 			"id": "mainwindow.masktab",
@@ -8981,7 +8981,7 @@
 		{
 			"id": "mainwindow.previewtab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Erstellen Sie eine Vorschau des Panoramas, um zu sehen, wie das endgültige Panorama aussehen wird. Das Ergebnis ist eine JPEG-Datei einer bestimmten Größe, die ansonsten mit dem Panorama identisch ist, das auf der Registerkarte '@mainwindow.tabs.createpanorama@' erzeugt würde. Bevor Sie nähen, fragt PTGui Sie, welche Anwendung für die Vorschau verwendet werden soll.<br><br>Zusätzliche Anwendungen für die Vorschau können in '@optionspreferences@' | '@options.foldersandfileshtml@' konfiguriert werden. <optional product='pro'><br><br>Bei HDR-Panoramen wird nur das Tone-Mapped- oder Belichtungsfusion-Panorama erzeugt.</optional>"
+			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Erstellen Sie eine Vorschau des Panoramas, um zu sehen, wie das endgültige Panorama aussehen wird. Das Ergebnis ist eine JPEG-Datei einer bestimmten Größe, die ansonsten mit dem Panorama identisch ist, das auf der Registerkarte '@mainwindow.tabs.createpanorama@' erzeugt würde. Bevor Sie nähen, fragt PTGui Sie, welche Anwendung für die Vorschau verwendet werden soll.<br><br>Zusätzliche Anwendungen für die Vorschau können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren. <optional product='pro'><br><br>Bei HDR-Panoramen wird nur das Tone-Mapped- oder Belichtungsfusion-Panorama erzeugt.</optional>"
 		},
 		{
 			"id": "mainwindow.metadatatab",
@@ -9011,7 +9011,7 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@lensdatabase@</b><br><br>Sie können die Objektiv-Datenbank verwenden, um die Parameter eines Objektivs zu speichern und abzurufen. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Es kann mit @menubar.tools@ | @lensdatabase@ geöffnet werden. Objektiv-Datenbank-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Dadurch wird PTGui so konfiguriert, dass bestimmte Objektiveinstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist eine Liste von Objektiv-Datenbankdatensätzen. Wenn ein Datensatz ausgewählt ist, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbankdatensatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Das Objektiv-Datenbankfenster kann über @menubar.tools@ | @lensdatabase@ geöffnet werden. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert; Stattdessen erfolgt dies über die Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster. Wenn die Registerkarte @mainwindow.tabs.lenssettings@ nicht angezeigt wird, drücken Sie die Taste @advanced@ in der Seitenleiste des Hauptfensters. In der Registerkarte @mainwindow.tabs.lenssettings@ drücken Sie die Taste @lensdatabase@, um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontales Sichtfeld (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschneideeinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Verbände</b><br><br>Objektiv-Datenbank-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Wenn sie verknüpft sind, werden Einstellungen aus der Objektiv-Datenbank automatisch angewendet, wenn ein Bild von dieser speziellen Kamera / Objektiv-Kombination geladen wird. Assoziationen können auf zwei Arten erfolgen:<br><br>Wenn Bilder von einer nicht erkannten Kamera / Objektiv geladen sind, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es ein Kontrollkästchen 'Immer diese Daten verwenden für ... [Kamera / Objektiv-Kombination]. Wenn ausgewählt, wird eine neue Objektiv-Datenbankaufzeichnung erstellt und den EXIF-Daten des Bildes zugeordnet.<br><br>Verknüpfungen können manuell über die Registerkarte @mainwindow.tabs.lenssettings@ erstellt werden: Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche EXIF, und wählen Sie &quot;@mainwindow.lensparams.makeexifassociation@&quot;, um eine Verknüpfung zu erstellen.<br><br>Um eine Verknüpfung zu entfernen, öffnen Sie das Fenster Objektiv-Datenbank, wählen Sie die Zuordnung in der rechten Tabelle und drücken Sie die Schaltfläche Entfernen."
+			"helptext": "<b>@lensdatabase@</b><br><br>Sie können die Objektiv-Datenbank verwenden, um die Parameter eines Objektivs zu speichern und abzurufen. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Es kann mit @menubar.tools@ | @lensdatabase@ geöffnet werden. Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Dadurch wird PTGui so konfiguriert, dass bestimmte Objektiveinstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist eine Liste von Objektiv-Datensätzen. Wenn ein Datensatz ausgewählt ist, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Das Objektiv-Datenbankfenster kann über @menubar.tools@ | @lensdatabase@ geöffnet werden. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert; Stattdessen erfolgt dies über die Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster. Wenn die Registerkarte @mainwindow.tabs.lenssettings@ nicht angezeigt wird, drücken Sie die Taste @advanced@ in der Seitenleiste des Hauptfensters. In der Registerkarte @mainwindow.tabs.lenssettings@ drücken Sie die Taste @lensdatabase@, um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontales Sichtfeld (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Verbände</b><br><br>Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Wenn sie verknüpft sind, werden Einstellungen aus der Objektiv-Datenbank automatisch angewendet, wenn ein Bild von dieser speziellen Kamera / Objektiv-Kombination geladen wird. Assoziationen können auf zwei Arten erfolgen:<br><br>Wenn Bilder von einer nicht erkannten Kamera / Objektiv geladen sind, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es ein Kontrollkästchen 'Immer diese Daten verwenden für ... [Kamera / Objektiv-Kombination]. Wenn ausgewählt, wird eine neue Objektiv-Datenbankaufzeichnung erstellt und den EXIF-Daten des Bildes zugeordnet.<br><br>Verknüpfungen können manuell über die Registerkarte @mainwindow.tabs.lenssettings@ erstellt werden: Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche EXIF, und wählen Sie &quot;@mainwindow.lensparams.makeexifassociation@&quot;, um eine Verknüpfung zu erstellen.<br><br>Um eine Verknüpfung zu entfernen, öffnen Sie das Fenster Objektiv-Datenbank, wählen Sie die Zuordnung in der rechten Tabelle und drücken Sie die Schaltfläche Entfernen."
 		},
 		{
 			"id": "cameradatabase",

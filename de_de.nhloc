@@ -1018,7 +1018,7 @@
 		},
 		{
 			"id": "menubar.images.select",
-			"txt": "Wählen"
+			"txt": "Bilder auswählen"
 		},
 		{
 			"id": "menubar.images.select.outside",
@@ -1248,7 +1248,7 @@
 		{
 			"id": "mainwindow.projectassistant.runalignimagesagain",
 			"format": "html",
-			"txt": "Führt <a href=0>@alignimages@</a> erneut aus, um weitere Kontrollpunkte zu finden."
+			"txt": "Führen Sie <a href=0>@alignimages@</a> erneut aus, um weitere Kontrollpunkte zu finden."
 		},
 		{
 			"id": "mainwindow.projectassistant.isprealigned",
@@ -1272,7 +1272,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.missingcontrolpoints2",
-			"txt": "PTGui konnte für einige der Bilder keine Kontrollpunkte erkennen. Daher müssen Sie möglicherweise einige Kontrollpunkte manuell hinzufügen."
+			"txt": "PTGui konnte für einige Bilder keine Kontrollpunkte erstellen. Daher müssen Sie möglicherweise einige Kontrollpunkte manuell hinzufügen."
 		},
 		{
 			"id": "mainwindow.projectassistant.misplacedcontrolpoints",
@@ -1792,7 +1792,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior",
-			"txt": "Verhalten von '@alignimages@' "
+			"txt": "Verhalten von '@alignimages@'"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.subheading",
@@ -1956,7 +1956,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt2",
-			"txt": "(jeder relative Pfad wird vom Speicherort der Projektdatei interpretiert)"
+			"txt": "(jeder relative Pfad wird aus Speicherort der Projektdatei interpretiert)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.outputfileoverriddentxt",
@@ -2192,7 +2192,7 @@
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.crop",
-			"txt": "Beschneidung"
+			"txt": "Zuschnitt"
 		},
 		{
 			"id": "mainwindow.sourceimages.filename",
@@ -2241,12 +2241,12 @@
 		{
 			"id": "mainwindow.metadata.latlongtxt1",
 			"format": "html",
-			"txt": "Geben Sie den Längen- und Breitengrad getrennt durch ein Komma ein. Zum Beispiel: 40° 46'52.92 &quot;, -73° 57'58.02&quot;<br>Gehen Sie zu <a href=\"https://maps.google.com/\">Google Maps</a> , um die Koordinaten eines Ortes zu finden."
+			"txt": "Geben Sie den Längen- und Breitengrad getrennt durch ein Komma ein. Zum Beispiel: 40° 46'52.92&quot;, -73° 57'58.02&quot;<br>Gehen Sie zu <a href=\"https://maps.google.com/\">Google Maps</a> , um Koordinaten eines Ortes zu finden."
 		},
 		{
 			"id": "mainwindow.metadata.nolatlonginexif",
 			"format": "html",
-			"txt": "In den EXIF-Daten wurde keine Ortsangabe gefunden. Sie können auf <a href=\"https://maps.google.com/\"> den Ort bestimmen</a> und die Koordinaten hier eingeben."
+			"txt": "In den EXIF-Daten ist keine Ortsangabe enthalten. Sie können auf <a href=\"https://maps.google.com/\"></a> den Ort bestimmen und die Koordinaten hier eingeben."
 		},
 		{
 			"id": "mainwindow.metadata.viewonmap",
@@ -2262,7 +2262,7 @@
 		},
 		{
 			"id": "mainwindow.metadata.noorientationfound",
-			"txt": "In EXIF-Daten wurde keine Ausrichtung gefunden."
+			"txt": "In EXIF-Daten ist keine Ausrichtung enthalten."
 		},
 		{
 			"id": "mainwindow.metadata.orientation1",
@@ -2286,7 +2286,7 @@
 		},
 		{
 			"id": "mainwindow.metadata.useexiflocation",
-			"txt": "Verwende Standortdaten von Quellbildern"
+			"txt": "Standortdaten von Quellbildern verwenden"
 		},
 		{
 			"id": "mainwindow.metadata.orientation",
@@ -2302,7 +2302,7 @@
 		},
 		{
 			"id": "northeast",
-			"txt": "Nordost-"
+			"txt": "Nord-Ost"
 		},
 		{
 			"id": "east",
@@ -2310,7 +2310,7 @@
 		},
 		{
 			"id": "southeast",
-			"txt": "Süd-Osten"
+			"txt": "Süd-Ost"
 		},
 		{
 			"id": "south",
@@ -2318,7 +2318,7 @@
 		},
 		{
 			"id": "southwest",
-			"txt": "Südwesten"
+			"txt": "Süd-West"
 		},
 		{
 			"id": "west",
@@ -2342,7 +2342,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize",
-			"txt": "fixiere auf:"
+			"txt": "Fest Größe:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize.megapixels",
@@ -2446,11 +2446,11 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.tonemappedpanorama",
-			"txt": "Tone-mapped Panorama"
+			"txt": "Tone-Mapping-Panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.exposurefusedpanorama",
-			"txt": "Belichtungsfusioniertes Panorama"
+			"txt": "Belichtungsfusion-Panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendedpanorama",
@@ -2618,7 +2618,7 @@
 		},
 		{
 			"id": "cubefacenaming.errfillall",
-			"txt": "Bitte alle Felder ausfüllen."
+			"txt": "Bitte füllen Sie alle Felder aus."
 		},
 		{
 			"id": "cubefacenaming.errsame",
@@ -2659,7 +2659,7 @@
 		{
 			"id": "philosphere.heading",
 			"format": "html",
-			"txt": "Ein PhiloSpere ist eine Projektion eines Panoramabildes auf ein Polyeder, eine Form, die sich einer echten Kugel annähert. Es ist wahrscheinlich die beste Möglichkeit, Panoramabilder zu drucken. Erfunden von Philo, <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">besuchen Sie seine Website für weitere Informationen.</a><br><br>Um einen PhiloSpere zu erstellen, klicken Sie auf die Schaltfläche <b>@philosphere.start@</b> . Sie werden nach dem Ort Ihres Panoramabildes gefragt. Dies sollte ein 360° x 180° -Panorama in der equirectangularen Projektion sein. PTGui erstellt zwei Bilder, die Sie drucken, falten und in eine PhiloSphere kleben können."
+			"txt": "Eine PhiloSpere ist eine Projektion eines Panoramabildes auf einen Polyeder, eine Form, die sich einer echten Kugel annähert. Es ist wahrscheinlich die beste Möglichkeit, Panoramabilder zu drucken. Sie wurde von Philo erfunden. <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">Besuchen Sie seine Website für weitere Informationen.</a><br><br>Um eine PhiloSpere zu erstellen, klicken Sie auf die Schaltfläche '@philosphere.start@'. Sie werden nach dem Ort Ihres Panoramabildes gefragt. Dies sollte ein 360° x 180°-Panorama in der equirectangularen Projektion sein. PTGui erstellt zwei Bilder, die Sie drucken, falten und in eine PhiloSphere kleben können."
 		},
 		{
 			"id": "philosphere.outputsize",
@@ -2667,11 +2667,11 @@
 		},
 		{
 			"id": "philosphere.start",
-			"txt": "Anfang"
+			"txt": "Start"
 		},
 		{
 			"id": "philosphere.warn_not_2_1",
-			"txt": "Um eine PhiloSphere zu erstellen, wird ein 360° x 180° equirectangular Bild benötigt. Ein solches Bild hat ein Breite / Höhe-Verhältnis von 2:1. Das ausgewählte Bild hat ein anderes Seitenverhältnis; Wahrscheinlich wird das Ergebnis nicht das sein, was Sie erwartet haben.\n\nMache trotzdem weiter?"
+			"txt": "Um eine PhiloSphere zu erstellen, wird ein 360° x 180° equirectangular Bild benötigt. Ein solches Bild hat ein Breiten/Höhen-Verhältnis von 2:1. Das ausgewählte Bild hat ein anderes Seitenverhältnis. Wahrscheinlich wird das Ergebnis nicht Ihren Erwartungen entsprechen.\n\nTrotzdem fortfahren?"
 		},
 		{
 			"id": "philosphere.savepart",
@@ -2683,7 +2683,7 @@
 		},
 		{
 			"id": "philosphere.creating",
-			"txt": "Erstellen von PhiloSphere"
+			"txt": "PhiloSphere wird erstellt"
 		},
 		{
 			"id": "philosphere.title",
@@ -3064,7 +3064,7 @@
 		},
 		{
 			"id": "options.dcrawapp.orleaveempty",
-			"txt": "(leer lassen, um die mit PTGui gebündelte DCRaw zu verwenden)"
+			"txt": "(leer lassen, um das mit PTGui gebündelte DCRaw zu verwenden)"
 		},
 		{
 			"id": "options.dcrawapp.version",
@@ -3176,7 +3176,7 @@
 		},
 		{
 			"id": "options.useatownrisk",
-			"txt": "Verwenden Sie auf eigene Gefahr - dieses Gerät wird derzeit nicht unterstützt"
+			"txt": "Auf eigene Gefahr verwenden - dieses Gerät wird derzeit nicht unterstützt"
 		},
 		{
 			"id": "options.applications",
@@ -3184,7 +3184,7 @@
 		},
 		{
 			"id": "options.errtxttempfolders",
-			"txt": "Überprüfen Sie die Einstellungen im Abschnitt Temporäre Dateien. Lassen Sie im Zweifelsfall den Abschnitt Temporäre Dateien leer. In diesem Fall wählt PTGui automatisch einen geeigneten Ordner aus."
+			"txt": "Überprüfen Sie die Einstellungen im Abschnitt '@options.defaultfolders.tempfiles@'. Lassen Sie im Zweifelsfall den Abschnitt '@options.defaultfolders.tempfiles@' leer. In diesem Fall wählt PTGui automatisch einen geeigneten Ordner aus."
 		},
 		{
 			"id": "about.version",
@@ -3200,7 +3200,7 @@
 		},
 		{
 			"id": "licenseinfo.personal.multipleecomputers",
-			"txt": "Sie verwenden eine persönliche Lizenz. Es kann auf bis zu %1 Computern aktiviert werden, aber PTGui darf nur von %0 auf diesen Computern verwendet werden."
+			"txt": "Sie verwenden eine persönliche Lizenz. Sie kann auf bis zu %1 Computern aktiviert werden, aber PTGui darf nur von %0 auf diesen Computern verwendet werden."
 		},
 		{
 			"id": "licenseinfo.company.singlecomputer",
@@ -3236,11 +3236,11 @@
 		},
 		{
 			"id": "licenseinfo.deactivatetxt",
-			"txt": "Drücken Sie @licenseinfo.deactivate@, um diese Lizenz auf einen anderen Computer zu verschieben oder einen anderen Lizenzschlüssel auf diesem Computer zu verwenden."
+			"txt": "Drücken Sie '@licenseinfo.deactivate@', um diese Lizenz auf einen anderen Computer zu übertragen oder einen anderen Lizenzschlüssel auf diesem Computer zu verwenden."
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer verschieben möchten oder wenn Sie einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird PTGui beenden, also speichern Sie bitte zuerst Ihre Arbeit."
+			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer übertragen möchten oder wenn Sie einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird sich PTGui beenden, also speichern Sie bitte zuerst Ihre Arbeit."
 		},
 		{
 			"id": "licenseinfo.manageactivations",
@@ -3252,7 +3252,7 @@
 		},
 		{
 			"id": "licenseinfo.needprokey",
-			"txt": "Ihr Lizenzschlüssel gilt nur für die Standardversion von PTGui. Bitte geben Sie einen Lizenzschlüssel für PTGui Pro ein, oder laden Sie stattdessen die Standardversion herunter."
+			"txt": "Ihr Lizenzschlüssel gilt nur für die Standardversion von PTGui. Bitte geben Sie einen Lizenzschlüssel für PTGui Pro ein oder laden Sie stattdessen die Standardversion herunter."
 		},
 		{
 			"id": "licenseinfo.oldkey",
@@ -3284,7 +3284,7 @@
 		},
 		{
 			"id": "licenseinfo.failure",
-			"txt": "Fehler beim Aktivieren der Lizenz. Möglicherweise befindet sich Ihr Computer hinter einer Firewall oder Internetsicherheitssoftware verhindert den Zugriff auf den Aktivierungsserver.\n\nWenn das Problem weiterhin besteht, verwenden Sie stattdessen die Offline-Aktivierung: Nach dem Schließen dieses Fensters drücken Sie @activateoffline@.\n\nFehlermeldung: %0"
+			"txt": "Fehler beim Aktivieren der Lizenz. Möglicherweise befindet sich Ihr Computer hinter einer Firewall oder eine Internetsicherheitssoftware verhindert den Zugriff auf den Aktivierungsserver.\n\nWenn das Problem weiterhin besteht, verwenden Sie stattdessen die Offline-Aktivierung: Nach dem Schließen dieses Fensters drücken Sie '@activateoffline@'.\n\nFehlermeldung: %0"
 		},
 		{
 			"id": "licenseinfo.deactivationfailed",
@@ -3296,7 +3296,7 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation2",
-			"txt": "Die Aktivierungswebseite generiert einen Antwortcode. Bitte geben Sie es ein:"
+			"txt": "Die Aktivierungswebseite generiert einen Antwortcode. Bitte geben Sie ihn ein:"
 		},
 		{
 			"id": "licenseinfo.offlineactivation3",
@@ -3316,7 +3316,7 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation.errinvalidresponse",
-			"txt": "Ungültiger Antwortcode. Bitte stellen Sie sicher, dass der Code ohne Fehler kopiert / eingefügt wird."
+			"txt": "Ungültiger Antwortcode. Bitte stellen Sie sicher, dass der Code ohne Fehler kopiert oder eingefügt wird."
 		},
 		{
 			"id": "licenseagreement.title",
@@ -3357,7 +3357,7 @@
 		},
 		{
 			"id": "txt.welcomevideotutorial.later",
-			"txt": "Kein Problem. Sie können das Video-Tutorial jederzeit ansehen, indem Sie @menubar.help@ | @menubar.help.videotutorial@ auswählen."
+			"txt": "Kein Problem. Sie können das Video-Tutorial jederzeit ansehen, indem Sie '@menubar.help@' | '@menubar.help.videotutorial@' auswählen."
 		},
 		{
 			"id": "txt.seewhatsnew",
@@ -3365,7 +3365,7 @@
 		},
 		{
 			"id": "txt.seewhatsnew.later",
-			"txt": "Kein Problem. Sie können diese Informationen jederzeit anzeigen, indem Sie \"@menubar.help@ | @menubar.help.whatsnew@\" auswählen."
+			"txt": "Kein Problem. Sie können diese Informationen jederzeit unter '@menubar.help@' | '@menubar.help.whatsnew@' abrufen."
 		},
 		{
 			"id": "txt.wouldyouliketogotooptions",
@@ -3402,7 +3402,7 @@
 		},
 		{
 			"id": "txt.newversiondownloadlink",
-			"txt": "Der Download-Link wird in Ihrem Webbrowser geöffnet. Klicken Sie auf OK und wechseln Sie zum Webbrowser, um das Upgrade fortzusetzen."
+			"txt": "Der Download-Link wird in Ihrem Webbrowser geöffnet. Klicken Sie auf 'OK' und wechseln Sie zum Webbrowser, um das Upgrade fortzusetzen."
 		},
 		{
 			"id": "txt.optimizerresult",
@@ -3571,7 +3571,7 @@
 		},
 		{
 			"id": "batchbuilder.usetemplate",
-			"txt": "Vorlage benutzen:"
+			"txt": "Vorlage verwenden:"
 		},
 		{
 			"id": "batchbuilder.alignmode",
@@ -3615,7 +3615,7 @@
 		},
 		{
 			"id": "batchbuilder.usecurrentastemplate",
-			"txt": "Benutze das aktuelle Projekt als Vorlage"
+			"txt": "Das aktuelle Projekt als Vorlage verwenden"
 		},
 		{
 			"id": "batchbuilder.currentproject",
@@ -3663,7 +3663,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.method.shootingdate",
-			"txt": "Bilder, um die gleiche Zeit aufgenommen, gruppieren"
+			"txt": "Bilder, die um die gleiche Zeit aufgenommen wurden, gruppieren"
 		},
 		{
 			"id": "batchbuilderdetect.method.subfolderpercamera",
@@ -3687,7 +3687,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.imagefileextensiontxt",
-			"txt": "(z. B. JPG oder leer lassen)"
+			"txt": "(z.B. JPG oder leer lassen)"
 		},
 		{
 			"id": "batchbuilderdetect.imagesperpanorama",
@@ -3723,7 +3723,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.sameiso",
-			"txt": "Nur Bilder mit der gleichen ISO"
+			"txt": "Nur Bilder mit dem gleichen ISO Wert"
 		},
 		{
 			"id": "batchstitcher.err.onlyoneimage",
@@ -3739,7 +3739,7 @@
 		},
 		{
 			"id": "batchstitcher.confirmabort",
-			"txt": "Der Batch-Stitcher verarbeitet gerade ein Projekt; Dies wird abgebrochen. Fortsetzen?"
+			"txt": "Der Batch-Stitcher verarbeitet gerade ein Projekt. Dies wird abgebrochen. Fortsetzen?"
 		},
 		{
 			"id": "batchstitcher.asksave",
@@ -3787,15 +3787,15 @@
 		},
 		{
 			"id": "sensorsizedialog.choosepreset.compact",
-			"txt": "Kompaktkamera, Action- / Sportkamera"
+			"txt": "Kompaktkamera, Action- oder Sportkamera"
 		},
 		{
 			"id": "sensorsizedialog.choosepreset.phone",
-			"txt": "Handy / Tablet"
+			"txt": "Handy/Tablet"
 		},
 		{
 			"id": "sensorsizedialog.choosepreset.notapplicable",
-			"txt": "Nicht anwendbar oder keine Kamera (z. B. 3D-Renderings)"
+			"txt": "Nicht anwendbar oder keine Kamera (z.B. 3D-Renderings)"
 		},
 		{
 			"id": "sensorsizedialog.diagonal",
@@ -3815,7 +3815,7 @@
 		},
 		{
 			"id": "sensorsizedialog.heading1",
-			"txt": "PTGui muss die Sensorgröße der Kamera kennen, aber die EXIF-Daten der Bilder enthalten keine Informationen."
+			"txt": "PTGui muss die Sensorgröße der Kamera kennen, aber die EXIF-Daten der Bilder enthalten diese Informationen nicht."
 		},
 		{
 			"id": "sensorsizedialog.heading2",
@@ -3823,7 +3823,7 @@
 		},
 		{
 			"id": "sensorsizedialog.heading3",
-			"txt": "Bitte füllen Sie eines der folgenden Felder aus. Wenn Sie keine Ahnung haben, klicken Sie auf die Schaltfläche \"@sensorsizedialog.choosepreset@\" und wählen Sie das am besten geeignete Element aus."
+			"txt": "Bitte füllen Sie eines der folgenden Felder aus. Wenn Sie die Daten nicht kennen, klicken Sie auf die Schaltfläche '@sensorsizedialog.choosepreset@' und wählen Sie das am besten geeignete Element aus."
 		},
 		{
 			"id": "sensorsizedialog.txtsubmitexif",
@@ -3880,7 +3880,7 @@
 		},
 		{
 			"id": "cpassistant.hide",
-			"txt": "verbergen"
+			"txt": "ausblenden"
 		},
 		{
 			"id": "cpassistant.misalignedcps",
@@ -3893,12 +3893,12 @@
 		{
 			"id": "cpassistant.toimprovegotocptable",
 			"format": "html",
-			"txt": "Um die Ergebnisse zu verbessern, gehen Sie zum <a href=0>@controlpointstable@</a> und überprüfen Sie die Platzierung der Kontrollpunkte mit dem höchsten Abstandswert."
+			"txt": "Um die Ergebnisse zu verbessern, gehen Sie zur <a href=0>@controlpointstable@</a> und überprüfen Sie die Platzierung der Kontrollpunkte mit dem höchsten Abstandswert."
 		},
 		{
 			"id": "cpassistant.shouldaddcps",
 			"format": "html",
-			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama ist noch nicht bereit zum Zusammenfügen. Wechseln Sie zur <a href=0>Registerkarte @mainwindow.tabs.controlpoints@,</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
+			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama ist noch nicht bereit zum Zusammenfügen. Wechseln Sie zur <a href=0>Registerkarte '@mainwindow.tabs.controlpoints@',</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
 		},
 		{
 			"id": "cpassistant.nocontrolpoints",
@@ -3911,7 +3911,7 @@
 		{
 			"id": "cpassistant.ptguicangeneratecps",
 			"format": "html",
-			"txt": "PTGui kann Kontrollpunkte für Sie generieren, indem Sie <a href=0>@alignimages@ ausführen</a>."
+			"txt": "PTGui kann Kontrollpunkte für Sie generieren, indem Sie <a href=0>'@alignimages@' ausführen</a>."
 		},
 		{
 			"id": "cpassistant.and",
@@ -3965,7 +3965,7 @@
 		},
 		{
 			"id": "cpassistant.missingcontrolpointsbottomtxt",
-			"txt": "Obwohl es nicht notwendig ist, Kontrollpunkte für jedes Paar überschneidender Bilder zu haben (solange die Bilder indirekt durch Kontrollpunkte zwischen anderen Bildern verbunden sind), kann dies die Optimierungsergebnisse verbessern."
+			"txt": "Obwohl es nicht notwendig ist, Kontrollpunkte für jedes Paar sich überschneidender Bilder zu haben (solange die Bilder indirekt durch Kontrollpunkte zwischen anderen Bildern verbunden sind), kann dies die Optimierungsergebnisse verbessern."
 		},
 		{
 			"id": "cpassistant.multiplepairstoofewcontrolpointstxt",
@@ -4139,7 +4139,7 @@
 		},
 		{
 			"id": "lensdatabase.addmappingtxt",
-			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Eine Assoziation kann über 'EXIF - @mainwindow.lensparams.makeexifassociation@' hinzugefügt werden."
+			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Eine Assoziation fügen Sie über 'EXIF' - '@mainwindow.lensparams.makeexifassociation@' hinzu."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
@@ -4163,7 +4163,7 @@
 		},
 		{
 			"id": "lensdatabase.cropped",
-			"txt": "Beschnitten"
+			"txt": "Zugeschnitten"
 		},
 		{
 			"id": "lensdatabase.lensshift",
@@ -4287,7 +4287,7 @@
 		},
 		{
 			"id": "warn.compat.newerandpro",
-			"txt": "Dieses Projekt wurde mit einer neueren Version von PTGui erstellt. Es wurde auch mit der Pro-Version von PTGui erstellt, während Sie die Standardversion von PTGui verwenden."
+			"txt": "Dieses Projekt wurde mit einer neueren Version von PTGui Pro erstellt, während Sie die Standardversion von PTGui verwenden."
 		},
 		{
 			"id": "warn.compat.newer",
@@ -4335,7 +4335,7 @@
 		},
 		{
 			"id": "warn.badhdrinterpolator",
-			"txt": "Der ausgewählte Interpolator ist nicht optimal für HDR-Quellbilder. Aufgrund des hohen Dynamikbereichs der Quellbilder können dunkle Halos um helle Pixel herum erscheinen.\n\nBeim Arbeiten mit HDR-Quellbildern empfiehlt es sich, einen Interpolator mit nur positiven Koeffizienten wie @mainwindow.createpanoramatab.interpolator.bicubicsofter@ oder @mainwindow.createpanoramatab.interpolator.bilinear@ zu verwenden."
+			"txt": "Der ausgewählte Interpolator ist nicht optimal für HDR-Quellbilder. Aufgrund des hohen Dynamikbereichs der Quellbilder können dunkle Halos um helle Pixel herum erscheinen.\n\nBeim Arbeiten mit HDR-Quellbildern empfiehlt es sich, einen Interpolator mit nur positiven Koeffizienten wie '@mainwindow.createpanoramatab.interpolator.bicubicsofter@' oder '@mainwindow.createpanoramatab.interpolator.bilinear@' zu verwenden."
 		},
 		{
 			"id": "txt.globallensprofile",
@@ -4347,7 +4347,7 @@
 		},
 		{
 			"id": "txt.ptswrongextension",
-			"txt": "Der gewählte Dateiname hat die falsche Erweiterung. Möchten Sie es in .pts ändern?"
+			"txt": "Der gewählte Dateiname hat die falsche Erweiterung. Möchten Sie sie in .pts ändern?"
 		},
 		{
 			"id": "txt.allfiles",
@@ -4479,7 +4479,7 @@
 		},
 		{
 			"id": "txt.busywouldyouliketoabort",
-			"txt": "Eine Operation läuft noch. Möchten Sie es abbrechen?"
+			"txt": "Eine Operation läuft noch. Möchten Sie sie abbrechen?"
 		},
 		{
 			"id": "tiff.outputover4gb",
@@ -4499,7 +4499,7 @@
 		},
 		{
 			"id": "psd.err.over4gb",
-			"txt": "Die Größe der Photoshop PSD-Datei hat die maximale Dateigröße von 4 GB überschritten, die von der Spezifikation zugelassen wird. Bitte wählen Sie stattdessen das Photoshop Large Document (.psb) -Format."
+			"txt": "Die Größe der Photoshop PSD-Datei hat die maximale Dateigröße von 4 GB überschritten, die von der Spezifikation zugelassen wird. Bitte wählen Sie stattdessen das Photoshop Large Document (.psb) Format."
 		},
 		{
 			"id": "err.externalblender.tiffover4gb",
@@ -4651,7 +4651,7 @@
 		},
 		{
 			"id": "err.anotherinstancerunning",
-			"txt": "Eine andere Instanz von PTGui scheint zu laufen, reagiert aber nicht. Möglicherweise müssen Sie es im Task-Manager manuell beenden. Neustart des Computers sollte auch das Problem lösen."
+			"txt": "Eine andere Instanz von PTGui scheint zu laufen, reagiert aber nicht. Möglicherweise müssen Sie sie im Task-Manager manuell beenden. Ein Neustart des Computers sollte das Problem auch lösen."
 		},
 		{
 			"id": "txt.mac.mustinstalltoapplicationsfolder",
@@ -4691,15 +4691,15 @@
 		},
 		{
 			"id": "err.levelingfailed1",
-			"txt": "Nivellierung fehlgeschlagen: Ein oder mehrere Kontrollpunkte liegen außerhalb des für die Quellbildprojektion gültigen Bereichs."
+			"txt": "Ausrichtung fehlgeschlagen: Ein oder mehrere Kontrollpunkte liegen außerhalb des für die Quellbildprojektion gültigen Bereichs."
 		},
 		{
 			"id": "err.levelingrequireshvcps",
-			"txt": "Um das Panorama auszugleichen, sollte Ihr Projekt Kontrollpunkte vom Typ '@cptable.horizontalline@' oder '@cptable.verticalline@' enthalten."
+			"txt": "Um das Panorama auszurichten, sollte Ihr Projekt Kontrollpunkte vom Typ '@cptable.horizontalline@' oder '@cptable.verticalline@' enthalten."
 		},
 		{
 			"id": "err.need2imagesforstraighten",
-			"txt": "Mindestens 2 Bilder werden benötigt, um das Panorama zu begradigen. Um ein einzelnes Bild zu nivellieren, platzieren Sie einige \"@cptable.verticalline@\" Kontrollpunkte und verwenden Sie die @panoeditor.menubar.edit.level@ Funktion."
+			"txt": "Mindestens 2 Bilder werden benötigt, um das Panorama zu begradigen. Um ein einzelnes Bild zu begradigen, platzieren Sie einige '@cptable.verticalline@' Kontrollpunkte und verwenden Sie die '@panoeditor.menubar.edit.level@' Funktion."
 		},
 		{
 			"id": "err.straightenfailed",
@@ -4707,7 +4707,7 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"txt": "OpenCL konnte nicht initialisiert werden. Wir möchten dieses Problem beheben. Bitte wenden Sie sich an support@@ptgui.com und senden Sie uns die Ausgabe von @menubar.help@ - @menubar.help.systeminfo@.\nFehler: "
+			"txt": "OpenCL konnte nicht initialisiert werden. Wir möchten dieses Problem beheben. Bitte wenden Sie sich an support@@ptgui.com und senden Sie uns die Ausgabe von '@menubar.help@' - '@menubar.help.systeminfo@'.\nFehler: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -4747,7 +4747,7 @@
 		},
 		{
 			"id": "warn.tempcopytobatchstitcherwillnotsavegeneratecps",
-			"txt": "Für das aktuelle Projekt ist der Batch-Stitcher so konfiguriert, dass er Kontrollpunkte generiert. Sie senden eine temporäre Kopie des aktuellen Projekts an den Batch-Stitcher. Das temporäre Projekt wird nach Fertigstellung gelöscht und die generierten Kontrollpunkte gehen verloren. Es wird empfohlen, stattdessen \"@mainwindow.createpanoramatab.saveandsendtobatchstitcher@\" zu wählen.\n\nFahre dennoch fort?"
+			"txt": "Für das aktuelle Projekt ist der Batch-Stitcher so konfiguriert, dass er Kontrollpunkte generiert. Senden Sie eine temporäre Kopie des aktuellen Projekts an den Batch-Stitcher. Das temporäre Projekt wird nach Fertigstellung gelöscht und die generierten Kontrollpunkte gehen verloren. Es wird empfohlen, stattdessen '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' zu wählen.\n\nTrotzdem fortfahren?"
 		},
 		{
 			"id": "txt.savingproject",
@@ -4843,7 +4843,7 @@
 		},
 		{
 			"id": "txt.optimizing",
-			"txt": "Optimierung"
+			"txt": "Optimierung läuft"
 		},
 		{
 			"id": "err.optimizerfailed",
@@ -4879,7 +4879,7 @@
 		},
 		{
 			"id": "err.removeworstcps.nocps",
-			"txt": "Das Projekt hat noch keine Kontrollpunkte, also gibt es nichts zu tun."
+			"txt": "Das Projekt hat noch keine Kontrollpunkte, es gibt also nichts zu tun."
 		},
 		{
 			"id": "err.removeworstcps.didnothing",
@@ -4911,7 +4911,7 @@
 		},
 		{
 			"id": "err.generatecphere.notfound",
-			"txt": "Konnte keine Kontrollpunkte im ausgewählten Bereich finden."
+			"txt": "Es konnten keine Kontrollpunkte im ausgewählten Bereich gefunden werden."
 		},
 		{
 			"id": "err.openclerroroccurred",
@@ -5027,7 +5027,7 @@
 		},
 		{
 			"id": "publishtowebsite.converting",
-			"txt": "Konvertieren für das Web"
+			"txt": "Konvertierung für das Web läuft"
 		},
 		{
 			"id": "publishtowebsite.confirmoverwrite",
@@ -5087,7 +5087,7 @@
 		},
 		{
 			"id": "publishtowebsite.autorotate.degreespersecond",
-			"txt": "° / s"
+			"txt": "°/s"
 		},
 		{
 			"id": "publishtowebsite.autorotate.resumeafter",
@@ -5099,7 +5099,7 @@
 		},
 		{
 			"id": "publishtowebsite.showfullscreen",
-			"txt": "Schaltfläche Vollbild anzeigen:"
+			"txt": "Schaltfläche 'Vollbild' anzeigen:"
 		},
 		{
 			"id": "publishtowebsite.showfullscreen.yes",
@@ -5160,7 +5160,7 @@
 		},
 		{
 			"id": "cubicconverter.convertto",
-			"txt": "Konvertieren zu:"
+			"txt": "Konvertieren nach:"
 		},
 		{
 			"id": "cubicconverter.convertto.qtvr",
@@ -5188,15 +5188,15 @@
 		},
 		{
 			"id": "cubicconverter.converting",
-			"txt": "Bild konvertieren"
+			"txt": "Bild wird konvertiert"
 		},
 		{
 			"id": "cubicconverter.convertingmultiple",
-			"txt": "Bild %0 von %1 konvertieren"
+			"txt": "Bild %0 von %1 wird konvertiert"
 		},
 		{
 			"id": "cubicconverter.singlefilealreadyexists",
-			"txt": "Die Ausgabedatei existiert bereits:\n%0\nMöchten Sie es überschreiben?"
+			"txt": "Die Ausgabedatei existiert bereits:\n%0\nMöchten Sie sie überschreiben?"
 		},
 		{
 			"id": "cubicconverter.multiplefilesalreadyexist",
@@ -5212,7 +5212,7 @@
 		},
 		{
 			"id": "cameradatabase.toadd",
-			"txt": "Um eine Kamera zu dieser Liste hinzuzufügen, laden Sie ein Bild und gehen Sie zur Registerkarte @mainwindow.tabs.lenssettings@ (PTGui sollte im erweiterten Modus sein). Wählen Sie dort @cameradatabase@ - @mainwindow.lensparams.savetocameradatabase@."
+			"txt": "Um eine Kamera zu dieser Liste hinzuzufügen, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Wählen Sie dort '@cameradatabase@' - '@mainwindow.lensparams.savetocameradatabase@'."
 		},
 		{
 			"id": "cameradatabase.confirmdelete1",
@@ -5260,11 +5260,11 @@
 		},
 		{
 			"id": "gridsetup.column",
-			"txt": "Säule"
+			"txt": "Spalte"
 		},
 		{
 			"id": "gridsetup.columns",
-			"txt": "Säulen"
+			"txt": "Spalten"
 		},
 		{
 			"id": "gridsetup.image",
@@ -5340,11 +5340,11 @@
 		},
 		{
 			"id": "gridsetup.leftmostyawangle",
-			"txt": "Am weitesten links @yaw@:"
+			"txt": "@yaw@ nach ganz links:"
 		},
 		{
 			"id": "gridsetup.rightmostyawangle",
-			"txt": "Ganz rechts @yaw@:"
+			"txt": "@yaw@ nach ganz rechts:"
 		},
 		{
 			"id": "gridsetup.spacing",
@@ -5372,7 +5372,7 @@
 		},
 		{
 			"id": "gridsetup.pitchangle",
-			"txt": "@+pitch@ Winkel:"
+			"txt": "@+pitch@:"
 		},
 		{
 			"id": "gridsetup.topmostpitchangle",
@@ -5384,7 +5384,7 @@
 		},
 		{
 			"id": "gridsetup.orientation",
-			"txt": "Orientierung"
+			"txt": "Ausrichtung"
 		},
 		{
 			"id": "gridsetup.rollangle",
@@ -5409,11 +5409,11 @@
 		},
 		{
 			"id": "gridsetup.warn1image",
-			"txt": "Das Raster-Setup hat 1 Bild; Nur das erste Bild wird geändert."
+			"txt": "Das Raster-Setup hat 1 Bild. Nur das erste Bild wird geändert."
 		},
 		{
 			"id": "gridsetup.warnnumimage",
-			"txt": "Das Raster-Setup hat %0 Bild; nur die ersten %0 Bilder werden geändert."
+			"txt": "Das Raster-Setup hat %0 Bilder. Nur die ersten %0 Bilder werden geändert."
 		},
 		{
 			"id": "gridsetup.warnproject1image",
@@ -5425,7 +5425,7 @@
 		},
 		{
 			"id": "gridsetup.errapplytoinvalidrange",
-			"txt": "Auf Bilder anwenden: Die zweite Zahl darf nicht kleiner als die erste Zahl sein."
+			"txt": "Auf Bilder anwenden: Der zweite Wert darf nicht kleiner als der erste sein."
 		},
 		{
 			"id": "gridsetup.erremptyproject",
@@ -5441,11 +5441,11 @@
 		},
 		{
 			"id": "gridsetup.errwiderthan360byoverlap",
-			"txt": "Ihre Einstellungen würden zu einem Panorama führen, das breiter als 360° ist. Wenn es sich um ein 360° -Panorama handelt, aktivieren Sie das Kontrollkästchen \"@gridsetup.stretch360@\". Andernfalls erhöhen Sie den horizontalen Überlappungsprozentsatz, damit die Bilder einander näher kommen."
+			"txt": "Ihre Einstellungen würden zu einem Panorama führen, das breiter als 360° ist. Wenn es sich um ein 360°-Panorama handelt, aktivieren Sie das Kontrollkästchen '@gridsetup.stretch360@'. Andernfalls erhöhen Sie den horizontalen Überlappungsprozentsatz, damit die Bilder einander näher kommen."
 		},
 		{
 			"id": "gridsetup.errwiderthan360byspacing",
-			"txt": "Ihre Einstellungen würden zu einem Panorama führen, das breiter als 360° ist. Wenn es sich um ein 360° -Panorama handelt, aktivieren Sie das Kontrollkästchen \"@gridsetup.stretch360@\". Andernfalls reduzieren Sie den horizontalen Abstandswinkel, damit die Bilder einander näher kommen."
+			"txt": "Ihre Einstellungen würden zu einem Panorama führen, das breiter als 360° ist. Wenn es sich um ein 360°-Panorama handelt, aktivieren Sie das Kontrollkästchen '@gridsetup.stretch360@'. Andernfalls reduzieren Sie den horizontalen Abstandswinkel, damit die Bilder einander näher kommen."
 		},
 		{
 			"id": "gridsetup.errhigherthan180byoverlap",
@@ -5457,11 +5457,11 @@
 		},
 		{
 			"id": "qtvrsettings.cubefacesize",
-			"txt": "Würfelfläche Größe:"
+			"txt": "Größe Würfelfläche:"
 		},
 		{
 			"id": "qtvrsettings.initial",
-			"txt": "Initiale:"
+			"txt": "Startwert:"
 		},
 		{
 			"id": "qtvrsettings.minimum",
@@ -5550,11 +5550,11 @@
 		},
 		{
 			"id": "ptguiviewer.requiresopenglversion",
-			"txt": "Diese Anwendung erfordert OpenGL %0.%1, die auf Ihrem System nicht unterstützt wird."
+			"txt": "Diese Anwendung erfordert OpenGL %0.%1, das auf Ihrem System nicht unterstützt wird."
 		},
 		{
 			"id": "ptguiviewer.initopenglfailed",
-			"txt": "Initialisierung von OpenGL fehlgeschlagen: %0"
+			"txt": "Initialisierung von OpenGL ist fehlgeschlagen: %0"
 		},
 		{
 			"id": "ptguiviewer.nocompatibleglsl",
@@ -5611,14 +5611,14 @@
 		},
 		{
 			"id": "batchbuilder.helptext.appendbatchlist",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
-			"txt": "Verwenden Sie @menubar.file@ | @batchstitcher.menubar.appendbatchlist@, um zwei Batch-Listen zusammenzuführen. Die Projekte aus der ausgewählten Batch-Liste werden an die aktuell aktive Batch-Liste angehängt."
+			"txt": "Verwenden Sie '@menubar.file@' | '@batchstitcher.menubar.appendbatchlist@', um zwei Batch-Listen zusammenzuführen. Die Projekte aus der ausgewählten Batch-Liste werden an die aktuell aktive Batch-Liste angehängt."
 		},
 		{
 			"id": "txt.reactivationwarning",
-			"machinetranslated": true,
-			"txt": "@txt.mustbereactivated@ Weitere Informationen finden Sie unter @menubar.help@ | @menubar.help.licenseinfo@."
+			"machinetranslated": false,
+			"txt": "@txt.mustbereactivated@ Weitere Informationen finden Sie unter '@menubar.help@' | '@menubar.help.licenseinfo@."
 		},
 		{
 			"id": "txt.licenseinfo.reactivationwarning",
@@ -5633,8 +5633,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
-			"machinetranslated": true,
-			"txt": "Erhalte die ursprüngliche Ausrichtung des Panoramas"
+			"machinetranslated": false,
+			"txt": "Ursprüngliche Ausrichtung des Panoramas erhalte"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useorientationsensor",
@@ -5658,8 +5658,8 @@
 		},
 		{
 			"id": "options.rawdecoder",
-			"machinetranslated": true,
-			"txt": "Dekodiere RAW-Dateien mit:"
+			"machinetranslated": false,
+			"txt": "RAW-Dateien dekodieren mit:"
 		},
 		{
 			"id": "options.rawdecoder.libraw",
@@ -5788,8 +5788,8 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
-			"machinetranslated": true,
-			"txt": "Erstellt zuerst Belichtungsebene und führt sie dann zusammen"
+			"machinetranslated": false,
+			"txt": "Erstellt zuerst eine Belichtungsebene und führt sie dann zusammen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
@@ -5894,7 +5894,7 @@
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
 			"machinetranslated": false,
-			"txt": "In der Seitenleiste des @panoramaeditor@ mehrere Panele offen lassen"
+			"txt": "In der Seitenleiste des @panoramaeditor@s mehrere Panele offen lassen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
@@ -6091,7 +6091,7 @@
 		{
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": false,
-			"txt": "die Windows-Farbeinstellungen verwenden"
+			"txt": "Die Windows Farbeinstellungen verwenden"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
@@ -6165,8 +6165,8 @@
 		},
 		{
 			"id": "txt.contactinglicenseserver",
-			"machinetranslated": true,
-			"txt": "Aktivierungsserver wird kontaktiert..."
+			"machinetranslated": false,
+			"txt": "Der Aktivierungsserver wird kontaktiert..."
 		},
 		{
 			"id": "txt.done",
@@ -6177,13 +6177,13 @@
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
-			"machinetranslated": true,
-			"helptext": "Schließe den Batch-Stitcher, wenn das letzte Projekt abgeschlossen ist."
+			"machinetranslated": false,
+			"helptext": "Den Batch-Stitcher schließen, wenn das letzte Projekt abgeschlossen ist."
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
 			"machinetranslated": false,
-			"helptext": "Schließe die aktuelle Batch-Liste und lösche die Liste der Projekte."
+			"helptext": "Schließen Sie die aktuelle Batch-Liste und löschen Sie die Liste der Projekte."
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
@@ -6193,7 +6193,7 @@
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
 			"machinetranslated": false,
-			"helptext": "Speichere die aktuelle Liste der Projekte in einer Batch-Liste."
+			"helptext": "Speichern Sie die aktuelle Liste der Projekte in einer Batch-Liste."
 		},
 		{
 			"id": "mainwindow.maskmenu.fill",
@@ -6238,62 +6238,62 @@
 		{
 			"id": "menubar.images.sort",
 			"machinetranslated": true,
-			"helptext": "Sortiere alle Bilder in alphabetischer Reihenfolge."
+			"helptext": "Alle Bilder in alphabetischer Reihenfolge sortieren."
 		},
 		{
 			"id": "menubar.images.removeexcluded",
-			"machinetranslated": true,
-			"helptext": "Entfernt alle Bilder, die als ausgeschlossen aus dem Panorama markiert sind."
+			"machinetranslated": false,
+			"helptext": "Alle Bilder entefernen, die als 'Aus dem Panorama ausgeschließen' markiert sind."
 		},
 		{
 			"id": "menubar.images.includeonlyselected",
-			"machinetranslated": true,
-			"helptext": "Fügt die ausgewählten Bilder in das Panorama ein und schließt alle anderen Bilder aus."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder in das Panorama einschließen und alle anderen Bilder ausschließen."
 		},
 		{
 			"id": "menubar.images.includeonlyunselected",
-			"machinetranslated": true,
-			"helptext": "Schließt die ausgewählten Bilder aus dem Panorama aus und schließt alle anderen Bilder ein."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder aus dem Panorama ausschließen und alle anderen Bilder einschließen."
 		},
 		{
 			"id": "menubar.images.include",
-			"machinetranslated": true,
-			"helptext": "Fügt die ausgewählten Bilder in das Panorama ein."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder in das Panorama einschließen."
 		},
 		{
 			"id": "menubar.images.exclude",
-			"machinetranslated": true,
-			"helptext": "Schließt die ausgewählten Bilder aus dem Panorama aus."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder aus dem Panorama ausschließen."
 		},
 		{
 			"id": "menubar.images.moveup",
-			"machinetranslated": true,
-			"helptext": "Verschiebt das ausgewählte Bild in der Liste nach oben. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
+			"machinetranslated": false,
+			"helptext": "Das ausgewählte Bild in der Liste nach oben schieben. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
 		},
 		{
 			"id": "menubar.images.movedown",
-			"machinetranslated": true,
-			"helptext": "Verschiebt das ausgewählte Bild in der Liste nach unten. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
+			"machinetranslated": false,
+			"helptext": "Das ausgewählte Bild in der Liste nach unten schieben. Alternativ können Bilder neu angeordnet werden, indem Sie sie in die Liste ziehen."
 		},
 		{
 			"id": "menubar.images.opencontainingfolder",
-			"machinetranslated": true,
-			"helptext": "Öffne den Ordner mit den ausgewählten Quellbildern."
+			"machinetranslated": false,
+			"helptext": "Den Ordner mit den ausgewählten Quellbildern öffnen."
 		},
 		{
 			"id": "menubar.images.replace",
-			"machinetranslated": true,
-			"helptext": "Ersetzt die ausgewählten Bilder durch andere Bilder oder durch Bilder mit demselben Dateinamen, jedoch in einem anderen Ordner."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder durch andere Bilder oder durch Bilder mit demselben Dateinamen aus einem anderen Ordner ersetzen."
 		},
 		{
 			"id": "menubar.images.remove",
-			"machinetranslated": true,
-			"helptext": "Entfernt die ausgewählten Bilder aus dem Projekt."
+			"machinetranslated": false,
+			"helptext": "Die ausgewählten Bilder aus dem Projekt entfernen."
 		},
 		{
 			"id": "addimages",
-			"machinetranslated": true,
-			"helptext": "Fügt dem Projekt Quellbilder hinzu."
+			"machinetranslated": false,
+			"helptext": "Dem Projekt Quellbilder hinzufügen."
 		},
 		{
 			"id": "lensdatabase",
@@ -6317,8 +6317,8 @@
 		},
 		{
 			"id": "batchstitcher",
-			"machinetranslated": true,
-			"helptext": "Mit dem Batch-Stitcher können mehrere Projekte im Hintergrund bearbeitet werden."
+			"machinetranslated": false,
+			"helptext": "Mit dem Batch-Stitcher können Sie mehrere Projekte im Hintergrund bearbeiten."
 		},
 		{
 			"id": "numericaltransform",
@@ -6442,29 +6442,29 @@
 		},
 		{
 			"id": "menubar.file.resetdefault",
-			"machinetranslated": true,
-			"helptext": "Stellen Sie die ursprünglichen Standard-Projekteinstellungen von PTGui wieder her. Dadurch werden alle von @menubar.file.makedefault@ vorgenommenen benutzerdefinierten Einstellungen entfernt."
+			"machinetranslated": false,
+			"helptext": "Stellen Sie die ursprünglichen Standard-Projekteinstellungen von PTGui wieder her. Dadurch werden alle von '@menubar.file.makedefault@ 'vorgenommenen benutzerdefinierten Einstellungen entfernt."
 		},
 		{
 			"id": "menubar.file.newinstance",
-			"machinetranslated": true,
-			"helptext": "Starten Sie ein neues Projekt in einem neuen Fenster, ohne das aktuelle Projekt zu schließen"
+			"machinetranslated": false,
+			"helptext": "Beginnen Sie ein neues Projekt in einem neuen Fenster, ohne das aktuelle Projekt zu schließen"
 		},
 		{
 			"id": "menubar.file.closewindow",
 			"machinetranslated": false,
-			"helptext": "Schließen Sie dieses Fenster"
+			"helptext": "Dieses Fenster schließen"
 		},
 		{
 			"id": "menubar.file.exit",
-			"machinetranslated": true,
-			"helptext": "Beende PTGui"
+			"machinetranslated": false,
+			"helptext": "PTGui beenden"
 		},
 		{
 			"id": "mainwindow.toolbar.newproject",
 			"machinetranslated": false,
 			"label": "@menubar.file.newproject@",
-			"helptext": "Starten Sie ein neues leeres PTGui-Projekt."
+			"helptext": "Beginnen Sie ein neues leeres PTGui-Projekt."
 		},
 		{
 			"id": "mainwindow.toolbar.openproject",
@@ -6705,8 +6705,8 @@
 		},
 		{
 			"id": "croptab.cropcirclediameter",
-			"machinetranslated": true,
-			"helptext": "Durchmesser des Beschneidungskreises<br><br>Der Durchmesser wird in Millimetern relativ zur Bildsensorgröße dargestellt. Die Bildsensorgröße kann auf der Registerkarte @mainwindow.tabs.lenssettings@ eingestellt werden."
+			"machinetranslated": false,
+			"helptext": "Durchmesser des Beschneidungskreises<br><br>Der Durchmesser wird in Millimetern relativ zur Bildsensorgröße angegeben. Die Bildsensorgröße kann auf der Registerkarte @mainwindow.tabs.lenssettings@ eingestellt werden."
 		},
 		{
 			"id": "croptab.individualcrop",
@@ -6716,8 +6716,8 @@
 		},
 		{
 			"id": "croptab.nocrop",
-			"machinetranslated": true,
-			"helptext": "Setzen Sie den Beschneidungsbereich zurück, um das gesamte Bild abzudecken."
+			"machinetranslated": false,
+			"helptext": "Den Beschneidungsbereich zurücksetzen, um das gesamte Bild abzudecken."
 		},
 		{
 			"id": "rotatetoolbar.counterclockwise",
@@ -6858,9 +6858,9 @@
 		},
 		{
 			"id": "cptoolbar.autocontrast",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@menubar.controlpoints.autocontrast@",
-			"helptext": "Erhöhen Sie den Bildkontrast in der Suchlupe."
+			"helptext": "Erhöhen Sie den Bildkontrast in der Lupe."
 		},
 		{
 			"id": "cptoolbar.showmask",
@@ -6893,9 +6893,9 @@
 		},
 		{
 			"id": "optimizertab.optimizefocallength",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wenn aktiviert, passt PTGui die Brennweite des Objektivs an, um die Ausrichtung zu verbessern.",
-			"morehelptext": "<br><br>Bei 360° -Panoramen sollte dies immer aktiviert sein.<br><br>Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einem langen Teleobjektiv aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, dass der Optimierer die genaue Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren.<br><br>Außerdem können Bilder, die eine Parallaxe aufweisen, auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird."
+			"morehelptext": "<br><br>Bei 360°-Panoramen sollte dies immer aktiviert sein.<br><br>Beim Zusammenfügen eines Teilpanoramas aus Bildern, die mit einem langen Teleobjektiv aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, dass der Optimierer die genaue Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren.<br><br>Außerdem können Bilder, die eine Parallaxe aufweisen, auf einen falschen Brennweitenwert optimiert werden. Dies kann verhindert werden, indem die Brennweitenoptimierung deaktiviert wird."
 		},
 		{
 			"id": "optimizertab.minimizelensdistortion",
@@ -6918,22 +6918,22 @@
 			"id": "optimizertab.optimizeperimage",
 			"machinetranslated": false,
 			"helptext": "Optimierungseinstellungen pro Bild",
-			"morehelptext": "<br><br>Im Allgemeinen müssen @yaw@, @pitch@ und @roll@ für alle Bilder bis auf eines (das ausgewählte &quot;Anker&quot;-Bild) optimiert sein.<br><br><b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem Kippwinkel nach oben/unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@+viewpoint@</b> steuert die Optimierung vom Standpunkt: <b>@+reset@</b> deaktiviert die Standpunktoptimierung und setzt die Standpunktparameter bei der nächsten Optimierung auf 0 zurück. <b>@+keep@</b> deaktiviert die weitere Optimierung des Standpunkts, behält jedoch die aktuellen Standpunkteinstellungen des Bilds bei. <b>@+optimize@</b> ermöglicht die Optimierung des Standpunkts für dieses Bild.</optional><br><br>Wenn einzelne Parameter aktiviert wurden (siehe Registerkarte '@mainwindow.tabs.lenssettings@' - '@mainwindow.lensparams.useindividual@'), können diese Parameter in die Optimierung einbezogen oder ausgeschlossen werden."
+			"morehelptext": "<br><br>Im Allgemeinen müssen @yaw@, @pitch@ und @roll@ für alle Bilder bis auf eines (das ausgewählte 'Anker'-Bild) optimiert sein.<br><br><b>@+yaw@</b> ist die Drehung der Kamera in der horizontalen Ebene, <b>@+pitch@</b> entspricht dem Kippwinkel nach oben/unten und <b>@+roll@</b> ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@+viewpoint@</b> steuert die Optimierung vom Standpunkt: <b>@+reset@</b> deaktiviert die Standpunktoptimierung und setzt die Standpunktparameter bei der nächsten Optimierung auf 0 zurück. <b>@+keep@</b> deaktiviert die weitere Optimierung des Standpunkts, behält jedoch die aktuellen Standpunkteinstellungen des Bilds bei. <b>@+optimize@</b> ermöglicht die Optimierung des Standpunkts für dieses Bild.</optional><br><br>Wenn einzelne Parameter aktiviert wurden (siehe Registerkarte '@mainwindow.tabs.lenssettings@' - '@mainwindow.lensparams.useindividual@'), können diese Parameter in die Optimierung einbezogen oder ausgeschlossen werden."
 		},
 		{
 			"id": "optimizertab.usecontrolpointsof",
-			"machinetranslated": true,
-			"helptext": "Verwenden Sie nur die Kontrollpunkte der ausgewählten Bilder."
+			"machinetranslated": false,
+			"helptext": "Nur die Kontrollpunkte der ausgewählten Bilder verwenden."
 		},
 		{
 			"id": "optimizertab.linkroll",
-			"machinetranslated": true,
-			"helptext": "Erzwingen Sie den gleichen @roll@-Winkel für alle Bilder mit aktivierter @roll@-Optimierung."
+			"machinetranslated": false,
+			"helptext": "Den gleichen @roll@-Winkel für alle Bilder mit aktivierter @roll@-Optimierung erzwingen."
 		},
 		{
 			"id": "optimizertab.linkpitch",
-			"machinetranslated": true,
-			"helptext": "Erzwingen Sie den gleichen @pitch@-Winkel für alle Bilder mit aktivierter @pitch@-Optimierung."
+			"machinetranslated": false,
+			"helptext": "Den gleichen @pitch@-Winkel für alle Bilder mit aktivierter @pitch@-Optimierung erzwingen."
 		},
 		{
 			"id": "optimizertab.runoptimizer",
@@ -7031,7 +7031,7 @@
 		{
 			"id": "projectsettingstab.alignimagesbehavior",
 			"machinetranslated": false,
-			"helptext": "Dieser Abschnitt steuert, was geschieht, wenn auf der Registerkarte '@mainwindow.tabs.projectassistant@' auf '@alignimages@' geklickt wird oder wenn ein Projekt in den Batch-Stitcher geladen wird und '@alignimages@' in '@mainwindow.projectsettings.batchstitcheractions@' unten aktiviert ist.",
+			"helptext": "Dieser Abschnitt steuert das Verhalten, wenn Sie auf der Registerkarte '@mainwindow.tabs.projectassistant@' auf '@alignimages@' geklicken oder wenn Sie ein Projekt in den Batch-Stitcher laden und '@alignimages@' in '@mainwindow.projectsettings.batchstitcheractions@' unten aktiviert ist.",
 			"morehelptext": "<br><br>'@alignimages@' führt mehrere Schritte durch, um das Panorama einzurichten: Zuerst werden Kontrollpunkte erzeugt, dann werden die Bilder basierend auf den Kontrollpunkten ausgerichtet. Optional wird das Panorama begradigt und je nach Blickwinkel eine geeignete Projektion gewählt.<br><br>Das Anpassen dieses Verhaltens kann insbesondere bei der Verwendung von Vorlagen nützlich sein oder wenn '@alignimages@' im Rahmen des Batch-Stitcher ausgeführt wird. Zum Beispiel kann die gewünschte Projektion bereits in der Vorlage eingestellt sein und sie sollte nicht während des Stapelnähens geändert werden."
 		},
 		{
@@ -7052,15 +7052,15 @@
 		},
 		{
 			"id": "projectsettingstab.alignimages.roughlyarrange",
-			"machinetranslated": true,
-			"helptext": "Versuchen Sie, das Panorama nach dem Auffinden von Kontrollpunkten, aber vor dem Ausführen des Optimierers grob anzuordnen. Dies ist in der Regel erforderlich.",
-			"morehelptext": "<br><br>Der Optimierer benötigt einen geeigneten Ausgangspunkt für die Optimierung. Wenn der Optimierer von Grund auf neu auf einem Stapel von Bildern ausgeführt wird, kann es zu einem lokalen Minimum kommen, was zu einem verwirrten Panorama führt.<br><br>Um dies zu vermeiden, wird das Panorama zuerst Bild für Bild aufgebaut. Wenn alle Bilder grob angeordnet sind, kann der Optimierer ausgeführt werden, um die Ausrichtung des Panoramas als Ganzes fein abzustimmen.<br><br>Dieselbe Funktion wird mit @menubar.project@ | @menubar.project.initializeandoptimize@ ausgeführt."
+			"machinetranslated": false,
+			"helptext": "Das Panorama nach dem Auffinden von Kontrollpunkten, aber vor dem Ausführen des Optimierers grob anzuordnen. Dies ist in der Regel erforderlich.",
+			"morehelptext": "<br><br>Der Optimierer benötigt einen geeigneten Ausgangspunkt für die Optimierung. Wenn der Optimierer von Grund auf neu auf einem Stapel von Bildern ausgeführt wird, kann es zu einem lokalen Minimum kommen, was zu einem verwirrten Panorama führt.<br><br>Um dies zu vermeiden, wird das Panorama zuerst Bild für Bild aufgebaut. Wenn alle Bilder grob angeordnet sind, kann der Optimierer ausgeführt werden, um die Ausrichtung des Panoramas als Ganzes fein abzustimmen.<br><br>Dieselbe Funktion wird mit '@menubar.project@' | '@menubar.project.initializeandoptimize@' ausgeführt."
 		},
 		{
 			"id": "projectsettingstab.alignimages.straighten",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Das Panorama zu begradigen",
-			"morehelptext": "<br><br>Beim Begradigen wird das Panorama so verschoben oder gedreht, dass alle Bilder ungefähr den gleichen @roll@-Winkel (für ein mehrzeiliges Panorama) haben oder alle Bilder ungefähr denselben @pitch@-Winkel haben (für ein einzelnes Zeilenpanorama). Wenn die Kamera korrekt ausgerichtet wurde, sollte dies zu einem Standbild führen.<br><br>Wenn die Kamera nicht waagerecht ausgerichtet ist, ist eine zusätzliche Nivellierung mit Hilfe der @cptable.verticalline@-Kontrollpunkte erforderlich (siehe Registerkarte @mainwindow.tabs.controlpoints@).<br><br>Diese Funktion kann auch aufgerufen werden über die <optional platform='windows'>Menüleiste im Fenster des Panorama-Editors (@menubar.edit@ | @panoeditor.menubar.edit.straightenpano@).</optional><optional platform='mac'>Menüleiste: Panorama Editor | @menubar.edit@ | @panoeditor.menubar.edit.straightenpano@.</optional>"
+			"morehelptext": "<br><br>Beim Begradigen wird das Panorama so verschoben oder gedreht, dass alle Bilder ungefähr den gleichen @roll@-Winkel (für ein mehrzeiliges Panorama) haben oder alle Bilder ungefähr denselben @pitch@-Winkel haben (für ein einzelnes Zeilenpanorama). Wenn die Kamera korrekt ausgerichtet wurde, sollte dies zu einem Standbild führen.<br><br>Wenn die Kamera nicht waagerecht ausgerichtet ist, ist eine zusätzliche Nivellierung mit Hilfe der @cptable.verticalline@-Kontrollpunkte erforderlich (siehe Registerkarte '@mainwindow.tabs.controlpoints@').<br><br>Diese Funktion kann auch aufgerufen werden über die <optional platform='windows'>Menüleiste im Fenster des Panorama-Editors ('@menubar.edit@' | '@panoeditor.menubar.edit.straightenpano@').</optional><optional platform='mac'>Menüleiste: Panorama Editor | '@menubar.edit@' | '@panoeditor.menubar.edit.straightenpano@'.</optional>"
 		},
 		{
 			"id": "projectsettingstab.alignimages.fit",
@@ -7373,8 +7373,8 @@
 		},
 		{
 			"id": "createpanoramatab.blendingmode",
-			"machinetranslated": true,
-			"helptext": "Mischungsalgorithmus zu verwenden.",
+			"machinetranslated": false,
+			"helptext": "Überblendungsalgorithmus.",
 			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> feine Details werden mit einer kleinen Überlappung gemischt, während langsam wechselnde Details und Farbunterschiede mit einer großen Überlappung <b>kombiniert</b> werden.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@: Führt</b> eine einfache lineare Mischung aus.<br><br>Im Allgemeinen liefert das @mainwindow.createpanoramatab.blendmode.multiband@-Blending bessere Ergebnisse. In diesen Fällen ist jedoch eine Alpha-Mischung vorzuziehen:<br>• Beim Zusammenfügen benachbarter Bilder ohne Überlappung (z. B. beim Zusammensetzen von Würfelfläche zu einem Panorama)<br>• Beim Überblenden von 32-Bit-HDR-Quellbildern, die nicht korrekt belichtet wurden. @mainwindow.createpanoramatab.blendmode.multiband@ Blending kann in einem solchen Fall dunkle Halos erzeugen."
 		},
 		{
@@ -7385,8 +7385,8 @@
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",
-			"machinetranslated": true,
-			"helptext": "Setzen Sie die Parameter in diesem Abschnitt auf ihre Standardwerte zurück."
+			"machinetranslated": false,
+			"helptext": "Die Parameter in diesem Abschnitt auf ihre Standardwerte zurücksetzen."
 		},
 		{
 			"id": "panoeditor.toolbar.mouseover",
@@ -7446,15 +7446,15 @@
 		},
 		{
 			"id": "panoeditor.toolbar.cylindrical",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Zylindrische Projektion",
-			"helptext": "Wechseln Sie zur zylindrischen Projektion. Geeignet für 360° Panoramen."
+			"helptext": "Wechseln Sie zur zylindrischen Projektion. Geeignet für 360°-Panoramen."
 		},
 		{
 			"id": "panoeditor.toolbar.equirectangular",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@+projection.equirectangular@ Projektion",
-			"helptext": "Wechseln Sie zu equirectangular Projektion. Dies ist die Projektion für sphärische 360 ​​° x 180° Panoramen."
+			"helptext": "Wechseln Sie zu equirectangular Projektion. Dies ist die Projektion für sphärische 360​​° x 180° Panoramen."
 		},
 		{
 			"id": "panoeditor.toolbar.otherprojection",
@@ -7478,14 +7478,14 @@
 		{
 			"id": "panoeditor.toolbar.blended",
 			"machinetranslated": false,
-			"label": "Mit Überblendung anzeigen",
-			"helptext": "Zeige überblendetes Panorama"
+			"label": "Mit Überblendung",
+			"helptext": "Überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.toolbar.noblend",
 			"machinetranslated": false,
-			"label": "Ohne Überblendung anzeigen",
-			"helptext": "Zeige nicht-überblendetes Panorama"
+			"label": "Ohne Überblendung",
+			"helptext": "Nicht-überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "panoeditor.toolbar.showseams",
@@ -7502,42 +7502,42 @@
 			"id": "panoeditor.toolbar.ontop",
 			"machinetranslated": false,
 			"label": "Immer im Vordergrund",
-			"helptext": "Der Panorama-Editor bleibt immer im Vordergrund über allen anderen Fenstern."
+			"helptext": "Der Panorama-Editor bleibt immer über allen anderen Fenstern im Vordergrund."
 },
 		{
 			"id": "panoeditor.gridbutton",
 			"machinetranslated": false,
-			"label": "Passt das Raster-Overlay an"
+			"label": "Das Raster-Overlay anpassen"
 		},
 		{
 			"id": "panoeditor.vfovslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Vertikaler Blickwinkel",
-			"helptext": "Bewegen Sie den Mauszeiger nach unten, um die Ansicht vertikal zu erweitern, und nach oben, um sie schmaler zu machen."
+			"helptext": "Schieben Sie den Schieberegler nach unten, um die Ansicht vertikal zu erweitern, und nach oben, um sie schmaler zu machen."
 		},
 		{
 			"id": "panoeditor.hfovslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Horizontaler Blickwinkel",
-			"helptext": "Nach rechts verschieben, um die Ansicht horizontal zu erweitern, nach links verschieben, um sie schmaler zu machen."
+			"helptext": "Schieben Sie den Schieberegler nach rechts, um die Ansicht horizontal zu erweitern, nach links verschieben, um sie schmaler zu machen."
 		},
 		{
 			"id": "detailviewer.toolbar.displayzoom",
 			"machinetranslated": true,
 			"label": "Anzeigemodus: Zoom",
-			"helptext": "In diesem Modus zeigt der Detail Viewer eine gezoomte Zuschneidung des Panoramas in der tatsächlichen Projektion an."
+			"helptext": "In diesem Modus zeigt der Detail Viewer einen gezoomten Ausschnitt des Panoramas in der tatsächlichen Projektion an."
 		},
 		{
 			"id": "detailviewer.toolbar.displayperspective",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Anzeigemodus: Perspektive",
-			"helptext": "In diesem Modus wird eine perspektivisch korrigierte Ansicht des Panoramas ähnlich einem interaktiven Panorama-Viewer angezeigt."
+			"helptext": "In diesem Modus zeigt der Detail Viewer eine perspektivisch korrigierte Ansicht des Panoramas ähnlich einem interaktiven Panorama-Viewer an."
 		},
 		{
 			"id": "detailviewer.toolbar.dragandhold",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Navigationsmodus: Ziehen und halten",
-			"helptext": "Um zu navigieren, klicken und halten Sie die Maustaste gedrückt. In die gewünschte Richtung ziehen; Die Ansicht wird kontinuierlich verschoben, bis die Maustaste losgelassen wird."
+			"helptext": "Um zu navigieren, klicken und halten Sie die Maustaste gedrückt und ziehen Sie in die gewünschte Richtung. Die Ansicht wird kontinuierlich verschoben, bis die Maustaste losgelassen wird."
 		},
 		{
 			"id": "detailviewer.toolbar.dragtomove",
@@ -7548,14 +7548,14 @@
 		{
 			"id": "detailviewer.toolbar.blended",
 			"machinetranslated": false,
-			"label": "Mit Überblendung anzeigen",
-			"helptext": "Zeige überblendetes Panorama"
+			"label": "Mit Überblendung",
+			"helptext": "Überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "detailviewer.toolbar.noblend",
 			"machinetranslated": false,
-			"label": "Ohne Überblendung anzeigen",
-			"helptext": "Zeige nicht-überblendetes Panorama"
+			"label": "Ohne Überblendung",
+			"helptext": "Nicht-überblendetes Panorama anzeigen"
 		},
 		{
 			"id": "detailviewer.toolbar.showseams",
@@ -7572,7 +7572,7 @@
 			"id": "detailviewer.toolbar.ontop",
 			"machinetranslated": false,
 			"label": "Immer im Vordergrund",
-			"helptext": "Der Detail Viewer bleibt immer im Vordergrund über allen anderen Fenstern."
+			"helptext": "Der Detail Viewer bleibt immer über allen anderen Fenstern im Vordergrund."
 		},
 		{
 			"id": "detailviewer.toolbar.help",
@@ -7582,9 +7582,9 @@
 		},
 		{
 			"id": "detailviewer.zoomslider",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Zoomen",
-			"helptext": "Nach oben bewegen, um hineinzuzoomen, nach unten, um herauszuzoomen. <optional platform='windows'>Zoomen kann auch mit der Maus durchgeführt werden.</optional><optional platform='mac'>Das Zoomen kann auch mit zwei Finger-Pinch-Gesten auf dem Trackpad erfolgen.</optional>"
+			"helptext": "Nach oben bewegen, um hineinzuzoomen, nach unten, um herauszuzoomen. <optional platform='windows'>Zoomen können Sie auch mit der Maus.</optional><optional platform='mac'>Das Zoomen kann auch mit zwei Finger-Pinch-Gesten auf dem Trackpad erfolgen.</optional>"
 		},
 		{
 			"id": "tonemapsettings.enable",
@@ -7624,8 +7624,8 @@
 		},
 		{
 			"id": "tonemapsettings.saturation",
-			"machinetranslated": true,
-			"helptext": "Erhöhen oder reduzieren Sie die Leuchtkraft der Farben im Tone-Mapped-Bild."
+			"machinetranslated": false,
+			"helptext": "Erhöhen oder reduzieren Sie die Farbesättigung im Tone-Mapped-Bild."
 		},
 		{
 			"id": "exposurefusionsettings.brightness",
@@ -7672,13 +7672,13 @@
 			"id": "projectionpanel.hfov",
 			"machinetranslated": true,
 			"helptext": "Horizontaler Blickwinkel.",
-			"morehelptext": "<br><br>Kann auch mit dem Schieberegler am unteren Rand dieses Fensters eingestellt werden. Siehe <a href='helppage:projections'>Projektionen</a>"
+			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler am unteren Rand dieses Fensters eingestellen. Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
 		{
 			"id": "projectionpanel.vfov",
 			"machinetranslated": true,
 			"helptext": "Vertikaler Blickwinkel.",
-			"morehelptext": "<br><br>Kann auch mit dem Schieberegler auf der linken Seite dieses Fensters eingestellt werden. Siehe <a href='helppage:projections'>Projektionen</a>"
+			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler auf der linken Seite dieses Fensters eingestellen. Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
 		{
 			"id": "projectionpanel.compression",
@@ -7688,9 +7688,9 @@
 		},
 		{
 			"id": "projectionpanel.preset",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Einige voreingestellte Projektionen.",
-			"morehelptext": "<br><br><b>@projectionpreset.spherical@:</b> Dies ist die Standardprojektion für sphärische Panoramen.<br><br><b>@projectionpreset.littleplanet@:</b> Dies verwendet die '@projection.stereographicdown@'-Projektion, die das Bild um den Nadir zentriert. Das resultierende Panorama sieht so aus, als wäre es auf einem kleinen Planeten aufgenommen worden, daher der Name.<br><br><b>@projectionpreset.cubeface@: Projiziert</b> das Panorama auf eine Oberfläche eines Würfels."
+			"morehelptext": "<br><br><b>@projectionpreset.spherical@:</b> Dies ist die Standardprojektion für sphärische Panoramen.<br><br><b>@projectionpreset.littleplanet@:</b> Dies verwendet die '@projection.stereographicdown@'-Projektion, die das Bild um den Nadir zentriert. Das resultierende Panorama sieht so aus, als wäre es auf einem kleinen Planeten aufgenommen worden, daher der Name.<br><br><b>@projectionpreset.cubeface@:</b> Projiziert das Panorama auf eine Oberfläche eines Würfels."
 		},
 		{
 			"id": "panoramapreviewsettingspanel.exposure",
@@ -7704,33 +7704,33 @@
 		},
 		{
 			"id": "publishtoweb.sourcefiles",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Die zu verarbeitenden Panoramen. Mehrere Panoramen können im Batch verarbeitet werden.",
-			"morehelptext": "<br><br>Fügen Sie Panoramen zur Liste hinzu, indem Sie auf die Schaltfläche + unten klicken oder indem Sie Dateien per Drag &amp; Drop in die Liste ziehen. Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"morehelptext": "<br><br>Fügen Sie Panoramen zur Liste hinzu, indem Sie auf die Schaltfläche '+' unten klicken oder indem Sie Dateien per Drag &amp; Drop in die Liste ziehen. Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtoweb.sourcefiles.add",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"helptext": "Fügen Sie der Liste der zu verarbeitenden Dateien Panoramen hinzu."
+			"helptext": "Fügen Sie zu verarbeitenden Panoramen hinzu."
 		},
 		{
 			"id": "publishtoweb.sourcefiles.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Löschen",
-			"helptext": "Entferne ausgewählte Dateien aus der Liste."
+			"helptext": "Entfernen Sie die ausgewählten Dateien aus der Liste."
 		},
 		{
 			"id": "publishtoweb.projection",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Projektion des Panoramas. Sphärische Panoramen sind in der Regel in equirectangular Projektion.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtoweb.hfov",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Horizontale Ansicht des Panoramas. Bei sphärischen Panoramen geben Sie 360 ​​° ein.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtoweb.savetosamename",
@@ -7741,7 +7741,7 @@
 			"id": "publishtoweb.saveas",
 			"machinetranslated": false,
 			"helptext": "Datei- und Ordnername für die generierten Dateien.",
-			"morehelptext": "<br><br>Mehrere Dateien werden generiert, PTGui fügt verschiedene Suffixe und Erweiterungen hinzu. Wenn ein relativer Pfad eingegeben wird, wird dies relativ zum Quellbildordner interpretiert."
+			"morehelptext": "<br><br>Es werden mehrere Dateien werden generiert, PTGui fügt daher verschiedene Suffixe und Erweiterungen hinzu. Wenn Sie einen relativer Pfad eingeben, wird dies relativ zum Quellbildordner interpretiert."
 		},
 		{
 			"id": "publishtoweb.defaults",
@@ -7761,120 +7761,120 @@
 		},
 		{
 			"id": "publishtowebsettings.resolution",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Die kombinierte Größe in Megapixeln der generierten .jpg-Kacheln.",
-			"morehelptext": "<br><br>Verwenden Sie @options.automatic@, um die optimale Größe zu wählen, bei der kein Qualitätsverlust auftritt. Die Verwendung einer kleineren Größe verkürzt die Downloadzeit, bevor das Panorama vollständig angezeigt wird, verringert aber auch die Bildqualität. Bei Verwendung der @options.automatic@-Einstellung ist die Ausgangspanoramagröße auf 60 Megapixel begrenzt. Dies kann durch Abwahl von @options.automatic@ überschrieben werden, aber solch große Panoramen können nicht auf jedem Computer zuverlässig angezeigt werden. Die Download-Zeit kann ebenfalls reduziert werden, indem die JPEG-Qualität verringert wird."
+			"morehelptext": "<br><br>Verwenden Sie '@options.automatic@', um die optimale Größe zu wählen, bei der kein Qualitätsverlust auftritt. Die Verwendung einer kleineren Größe verkürzt die Downloadzeit, bevor das Panorama vollständig angezeigt wird, verringert aber auch die Bildqualität. Bei Verwendung der '@options.automatic@'-Einstellung ist die Ausgangspanoramagröße auf 60 Megapixel begrenzt. Dies können Sie durch Abwahl von '@options.automatic@' überschreiben, aber solch große Panoramen können nicht auf jedem Computer zuverlässig angezeigt werden. Die Download-Zeit können Sie ebenfalls reduzieren, indem Sie die JPEG-Qualität verringern."
 		},
 		{
 			"id": "publishtowebsettings.automaticresolution",
-			"machinetranslated": true,
-			"helptext": "Verwendet eine Auflösung, um der ursprünglichen Auflösung des Panoramas zu entsprechen."
+			"machinetranslated": false,
+			"helptext": "Eine Auflösung verwenden, die der ursprünglichen Auflösung des Panoramas zu entspricht."
 		},
 		{
 			"id": "publishtowebsettings.mobileresolution",
-			"machinetranslated": true,
-			"helptext": "Verwenden Sie kleinere Kacheln auf mobilen Geräten (Android, iOS).",
-			"morehelptext": "<br><br>Mobile Geräte haben einen begrenzten Speicher. Wenn das Panorama zu groß ist (dh zu viele Pixel), hat der Webbrowser auf dem Gerät nicht genügend Speicher und kann ohne Vorwarnung heruntergefahren werden. Diese Einstellung weist den Browser an, die Bildgröße vor der Anzeige zu reduzieren. In der Praxis sind 4,5 Megapixel eine sichere Grenze."
+			"machinetranslated": false,
+			"helptext": "Kleinere Kacheln auf mobilen Geräten (Android, iOS) verwenden.",
+			"morehelptext": "<br><br>Mobile Geräte haben einen begrenzten Speicher. Wenn das Panorama zu groß ist (d.h. zu viele Pixel), hat der Webbrowser auf dem Gerät nicht genügend Speicher und kann ohne Vorwarnung geschlossen werden. Diese Einstellung weist den Browser an, die Bildgröße vor der Anzeige zu reduzieren. In der Praxis sind 4,5 Megapixel eine sichere Grenze."
 		},
 		{
 			"id": "publishtowebsettings.jpegquality",
-			"machinetranslated": true,
-			"helptext": "Qualitätsstufe (0 .. 100) der generierten .jpg Dateien. Eine niedrigere Nummer führt zu geringerer Qualität, aber schnellerem Herunterladen."
+			"machinetranslated": false,
+			"helptext": "Qualitätsstufe (0 .. 100) der generierten .jpg Dateien. Ein niedriger Wert führt zu geringerer Qualität, aber schnellerem Herunterladen."
 		},
 		{
 			"id": "publishtowebsettings.angles",
 			"machinetranslated": false,
-			"helptext": "Anfängliche Anzeigeparameter und Grenzwerte",
-			"morehelptext": "<br><br><b>@+pan@</b> legt die horizontale Blickrichtung <b>fest</b> und begrenzt sie: 0° ist der Mittelpunkt des Panoramas, -180° ist die linke Seite und 180° ist die rechte Seite.<br><br><b>@+tilt@</b> setzt und begrenzt die vertikale Blickrichtung: 0° ist der Horizont, 90° der Zenit und -90° der Nadir.<br><br>Wählen Sie '@options.automatic@', um die Grenzwerte für @pan@ und @tilt@ automatisch so festzulegen, dass der sichtbare Bereich auf die Grenzen des Panoramas beschränkt ist.<br><br><b>@panoramaeditor.sidebar.projectionpanel.fov@</b> Hiermit wird der Zoom festgelegt und eingeschränkt: Niedrigere Werte werden vergrößern, höhere Werte zoomen heraus. In der Praxis ist 90° ein guter Blickwinkel und 120° ist ein geeigneter Maximalwert."
+			"helptext": "Start- und Grenzwerte der Anzeigeparameter",
+			"morehelptext": "<br><br><b>@+pan@</b> legt die horizontale Blickrichtung fest und begrenzt sie: 0° ist der Mittelpunkt des Panoramas, -180° ist die linke Seite und 180° ist die rechte Seite.<br><br><b>@+tilt@</b> setzt und begrenzt die vertikale Blickrichtung: 0° ist der Horizont, 90° der Zenit und -90° der Nadir.<br><br>Wählen Sie '@options.automatic@', um die Grenzwerte für @pan@ und @tilt@ automatisch so festzulegen, dass der sichtbare Bereich auf die Grenzen des Panoramas beschränkt ist.<br><br><b>@panoramaeditor.sidebar.projectionpanel.fov@</b> Hiermit wird der Zoom festgelegt und eingeschränkt: Niedrigere Werte werden vergrößern, höhere Werte zoomen heraus. In der Praxis ist 90° ein guter Blickwinkel und 120° ist ein geeigneter Maximalwert."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.enabled",
-			"machinetranslated": true,
-			"helptext": "Automatische Rotation aktivieren: Das Panorama beginnt automatisch zu rotieren, wenn die Webseite angezeigt wird."
+			"machinetranslated": false,
+			"helptext": "Automatische Drehung aktivieren: Das Panorama beginnt automatisch sich zu drehen, wenn die Webseite angezeigt wird."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.speed",
-			"machinetranslated": true,
-			"helptext": "Geschwindigkeit der automatischen Rotation. Ein positiver Wert bewegt die virtuelle Kamera nach links, ein negativer Wert bewegt sich in die entgegengesetzte Richtung."
+			"machinetranslated": false,
+			"helptext": "Geschwindigkeit der automatischen Drehung. Ein positiver Wert bewegt die virtuelle Kamera nach links, ein negativer Wert nach rechts."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.resume",
-			"machinetranslated": true,
-			"helptext": "Die automatische Drehung stoppt, wenn der Benutzer in das Panorama klickt. Wenn diese Einstellung aktiviert ist, wird sie nach einiger Zeit wieder eingeschaltet."
+			"machinetranslated": false,
+			"helptext": "Die automatische Drehung stoppt, wenn der Benutzer in das Panorama klickt. Wenn diese Einstellung aktiviert ist, wird die Drehung nach der eingestellten Zeit wieder fortgesetzt."
 		},
 		{
 			"id": "publishtowebsettings.autorotate.resumedelay",
-			"machinetranslated": true,
-			"helptext": "Zeit in Sekunden, nach der die automatische Rotation übernommen wird."
+			"machinetranslated": false,
+			"helptext": "Zeit in Sekunden, nach der die automatische Rotation fortgesetzt wird."
 		},
 		{
 			"id": "publishtowebsettings.enablefullscreen",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Aktiviert oder deaktiviert die Vollbild-Schaltfläche oben rechts im Viewer.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktiviere die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> bietet nur Fullscreen-Unterstützung im (jetzt älteren) Flash-Viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktiviere die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt, mit Ausnahme von Safari unter iOS. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert im Allgemeinen gut, außer wenn das Panorama in einem IFRAME angezeigt wird: In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktiviert die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> Bietet Fullscreen-Unterstützung nur im (jetzt älteren) Flash-Viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktiviert die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt, mit Ausnahme von Safari unter iOS. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert im Allgemeinen gut, außer wenn das Panorama in einem IFRAME angezeigt wird. In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",
-			"machinetranslated": true,
-			"helptext": "Navigieren Sie auf mobilen Geräten durch Drehen und Kippen des Geräts zum Panorama."
+			"machinetranslated": false,
+			"helptext": "Auf mobilen Geräten das Navigieren im Panoram durch Drehen und Kippen des Geräts ermöglichen."
 		},
 		{
 			"id": "publishtowebsettings.navigatemode",
-			"machinetranslated": true,
-			"helptext": "So navigieren Sie mit der Maus durch das Panorama.",
-			"morehelptext": "<br><br><b>@publishtowebsite.mousenav.drag@:</b> Halten Sie die Maustaste gedrückt und ziehen Sie das Panorama in die gewünschte Richtung.<br><br><b>@publishtowebsite.mousenav.moveto@:</b> Halten Sie die Maustaste <b>gedrückt</b> und bewegen Sie die Maus weg: Das Panorama beginnt sich in die entgegengesetzte Richtung zu drehen, bis die Maustaste losgelassen wird.<br><br>Diese Einstellung gilt nur für mausbasierte Geräte. Auf Mobilgeräten kann das Panorama unabhängig von dieser Einstellung durch Wischen navigiert werden."
+			"machinetranslated": false,
+			"helptext": "Navigieren mit der Maus",
+			"morehelptext": "<br><br><b>@publishtowebsite.mousenav.drag@:</b> Halten Sie die Maustaste gedrückt und ziehen Sie das Panorama in die gewünschte Richtung.<br><br><b>@publishtowebsite.mousenav.moveto@:</b> Halten Sie die Maustaste gedrückt und bewegen Sie die Maus weg: Das Panorama beginnt sich in die entgegengesetzte Richtung zu drehen, bis Sie die Maustaste losgelassen.<br><br>Diese Einstellung gilt nur für mausbasierte Geräte. Auf Mobilgeräten können Sie unabhängig von dieser Einstellung im Panorama durch Wischen navigieren."
 		},
 		{
 			"id": "publishtowebsettings.webpage.title",
-			"machinetranslated": true,
-			"helptext": "Titel der Webseite, über dem Panorama angezeigt."
+			"machinetranslated": false,
+			"helptext": "Titel der Webseite, der über dem Panorama angezeigt wird."
 		},
 		{
 			"id": "publishtowebsettings.webpage.description",
-			"machinetranslated": true,
-			"helptext": "Beschreibung, wird auf der Webseite unter dem Panorama angezeigt."
+			"machinetranslated": false,
+			"helptext": "Beschreibung, die auf der Webseite unter dem Panorama angezeigt wird."
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.enabled",
 			"machinetranslated": true,
 			"helptext": "Verwenden Sie eine benutzerdefinierte HTML-Vorlage. Wenn diese Option aktiviert ist, sollte eine Vorlagendatei ausgewählt werden.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.filename",
-			"machinetranslated": true,
-			"helptext": "Dateiname der zu verwendenden HTML-Vorlage. <b>Drücken Sie @publishtowebsite.createtemplate@</b> , um einen zu erstellen, der bearbeitet werden kann.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"machinetranslated": false,
+			"helptext": "Dateiname der zu verwendenden HTML-Vorlage. Klicken Sie auf '@publishtowebsite.createtemplate@' , um eine Vorlage zu erstellen, die bearbeitet werden kann.",
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.browse",
 			"machinetranslated": true,
 			"helptext": "Wählen Sie den Dateinamen einer von Ihnen erstellten HTML-Vorlage.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "publishtowebsettings.webpage.customtemplate.createtemplate",
 			"machinetranslated": true,
-			"helptext": "Erstellen Sie eine neue HTML-Vorlage. Die Vorlage kann durch Bearbeiten der HTML-Inhalte angepasst werden.",
-			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>Verwenden der Veröffentlichung auf Website</a>"
+			"helptext": "Erstellen Sie eine neue HTML-Vorlage. Die Vorlage können Sie durch Bearbeiten der HTML-Inhalte angepassen.",
+			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
 			"id": "converttocubic.sourcefiles",
-			"machinetranslated": true,
-			"helptext": "Die zu verarbeitenden Panoramen. Mehrere Panoramen können im Batch verarbeitet werden.",
-			"morehelptext": "<br><br>Fügen Sie Panoramen zur Liste hinzu, indem Sie auf die Schaltfläche + unten klicken oder indem Sie Dateien per Drag &amp; Drop in die Liste ziehen. Weitere Informationen finden Sie unter <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
+			"machinetranslated": false,
+			"helptext": "Die zu verarbeitenden Panoramen. Mehrere Panoramen werden im Batch verarbeitet.",
+			"morehelptext": "<br><br>Fügen Sie Panoramen zur Liste hinzu, indem Sie auf die Schaltfläche '+' unten klicken oder indem Sie die Dateien per Drag &amp; Drop in die Liste ziehen. Weitere Informationen finden Sie unter <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
 		},
 		{
 			"id": "converttocubic.sourcefiles.add",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"helptext": "Fügen Sie der Liste der zu verarbeitenden Dateien Panoramen hinzu."
+			"helptext": "Fügen Sie Panoramen zur Liste der zu verarbeitenden Dateien hinzu."
 		},
 		{
 			"id": "converttocubic.sourcefiles.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Löschen",
-			"helptext": "Entferne ausgewählte Dateien aus der Liste."
+			"helptext": "Entfernen Sie ausgewählte Dateien aus der Liste."
 		},
 		{
 			"id": "converttocubic.projection",
@@ -7884,8 +7884,8 @@
 		},
 		{
 			"id": "converttocubic.hfov",
-			"machinetranslated": true,
-			"helptext": "Horizontale Ansicht des Panoramas. Bei sphärischen Panoramen geben Sie 360 ​​° ein.",
+			"machinetranslated": false,
+			"helptext": "Horizontaler Blickwinkel des Panoramas. Bei sphärischen Panoramen geben Sie 360 ​​° ein.",
 			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
 		},
 		{
@@ -7907,7 +7907,7 @@
 		{
 			"id": "converttocubic.convert",
 			"machinetranslated": true,
-			"helptext": "Konvertiere die Bilder und erzeuge alle Dateien."
+			"helptext": "Die Bilder konvertieren und alle Dateien erzeugen."
 		},
 		{
 			"id": "converttocubic.targetformat",
@@ -7937,8 +7937,8 @@
 		},
 		{
 			"id": "converttocubicsettings.jpegquality",
-			"machinetranslated": true,
-			"helptext": "Qualitätsstufe (0 .. 100) der generierten .jpg Dateien. Eine niedrigere Nummer führt zu geringerer Qualität, aber schnellerem Herunterladen."
+			"machinetranslated": false,
+			"helptext": "Qualitätsstufe (0 .. 100) der generierten .jpg Dateien. Ein niedriger Wertführt zu geringerer Qualität, aber schnellerem Herunterladen."
 		},
 		{
 			"id": "converttocubicsettings.windowsize",
@@ -7953,13 +7953,13 @@
 		},
 		{
 			"id": "cptable.filterimage",
-			"machinetranslated": true,
-			"helptext": "Filtern Sie die Tabelle so, dass nur die Kontrollpunkte der ausgewählten Bilder angezeigt werden."
+			"machinetranslated": false,
+			"helptext": "Filtern Sie die Tabelle, dass nur die Kontrollpunkte der ausgewählten Bilder angezeigt werden."
 		},
 		{
 			"id": "cptable.filtertype",
-			"machinetranslated": true,
-			"helptext": "Filtern Sie die Tabelle so, dass nur Kontrollpunkte eines bestimmten Typs angezeigt werden.",
+			"machinetranslated": false,
+			"helptext": "Filtern Sie die Tabelle, dass nur Kontrollpunkte eines bestimmten Typs angezeigt werden.",
 			"morehelptext": "<br><br>PTGui unterstützt 4 verschiedene Kontrollpunkttypen: @cptable.normal@, @cptable.horizontalline@, @cptable.verticalline@ und @cptable.line@. Verwenden Sie diesen Filter, um nur Kontrollpunkte eines bestimmten Typs anzuzeigen."
 		},
 		{
@@ -7969,8 +7969,8 @@
 		},
 		{
 			"id": "batchbuilder.detect",
-			"machinetranslated": true,
-			"helptext": "Erkennen Sie Panoramen, indem Sie Ordner mit Bildern analysieren."
+			"machinetranslated": false,
+			"helptext": "Panoramen durch Analyse von Ordnern mit Bildern finden."
 		},
 		{
 			"id": "batchbuilder.selectmanually",
@@ -7979,8 +7979,8 @@
 		},
 		{
 			"id": "batchbuilder.projectslist",
-			"machinetranslated": true,
-			"morehelptext": "Projektliste, eine Zeile für jedes generierte Projekt. <a href='helppage:batchbuilder'>Weiterlesen...</a>"
+			"machinetranslated": false,
+			"helptext": "Projektliste, eine Zeile für jedes generierte Projekt. <a href='helppage:batchbuilder'>Weiterlesen...</a>"
 		},
 		{
 			"id": "batchbuilder.templatelist",
@@ -7990,19 +7990,19 @@
 		},
 		{
 			"id": "batchbuilder.templatefilename",
-			"machinetranslated": true,
-			"helptext": "Dateiname der zu verwendenden Vorlage. Klicken Sie auf @browse@, um eine auszuwählen."
+			"machinetranslated": false,
+			"helptext": "Dateiname der zu verwendenden Vorlage. Klicken Sie auf '@browse@', um eine auszuwählen."
 		},
 		{
 			"id": "batchbuilder.alignimages",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Legen Sie fest, ob der Batch-Stitcher die Bilder vor dem Stitchen analysieren und ausrichten soll.",
-			"morehelptext": "<br><br>Dies entspricht standardmäßig der Einstellung unter @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ im Vorlagenprojekt. Diese Einstellung wird hier wiederholt und kann außer Kraft gesetzt werden, da dies eine häufige Quelle der Verwirrung ist.<br><br>Der Batch-Stitcher kann so konfiguriert werden, dass '@alignimages@' vor dem Stitchen des Panoramas ausgeführt wird. Wenn aktiviert, analysiert der Batch-Stitcher zuerst die Bilder, generiert Kontrollpunkte, optimiert das Projekt usw. Was genau zu tun ist, wird in der Vorlage unter @mainwindow.tabs.projectsettings@ - Verhalten der Bilder ausrichten konfiguriert. Nach dem Ausrichten wird die aktualisierte Projektdatei auf dem Datenträger gespeichert.<br><br>Wenn diese Option deaktiviert ist, wird das Projekt genau wie in der Vorlage verknüpft, sodass die Vorlage korrekt ausgerichtete Bilder enthalten sollte.<br><br>Im Wesentlichen gibt es zwei verschiedene Anwendungsfälle für den Batch-Builder:<br><br>1. um viele Panoramen mit den gleichen Einstellungen zu versehen, ohne Kontrollpunkte zu erzeugen. Dies kann zum Beispiel bei Multi-Kamera-Rigs verwendet werden, bei denen garantiert ist, dass alle Panoramen die gleichen Bildorientierungen haben. In diesem Fall muss '@alignimages@' übersprungen werden.<br><br>2. oder um automatisch mehrere Panoramen zu zusammenfügen, indem Sie einfach PTGui auf einen Ordner mit Bildern zeigen. Die Bilder werden beispielsweise aufgenommen, indem die Kamera auf einem Panorama-Stativkopf gedreht wird. In diesem Fall sind die Bildpositionen in den einzelnen Panoramen in der Regel leicht unterschiedlich. Selbst wenn der Panoramakopf Klick-Stopps aufweist, führen mechanische Toleranzen zu kleinen Abweichungen in den Bildorientierungen in jedem Panorama. Um dies auszugleichen, sollte PTGui die Bilder für jedes Panorama analysieren und Kontrollpunkte generieren, so dass '@alignimages@' vor dem Stitchen ausgeführt werden muss."
+			"morehelptext": "<br><br>Dies entspricht standardmäßig der Einstellung unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@' im Vorlagenprojekt. Da dies häufig zu Verwirrung führt, wird diese Einstellung wird hier wiederholt, kann aber überschrieben werden, .<br><br>Den Batch-Stitcher können Sie so konfigurieren, dass vor dem Zusammenfügen des Panoramas '@alignimages@' ausgeführt wird. Wenn aktiviert, analysiert der Batch-Stitcher zuerst die Bilder, generiert Kontrollpunkte, optimiert das Projekt usw. Die einzelnen Schritte konfigurieren Sie in der Vorlage unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.alignimagesbehavior@'. Nach dem Ausrichten wird die aktualisierte Projektdatei auf dem Datenträger gespeichert.<br><br>Wenn diese Option deaktiviert ist, wird das Projekt genau wie in der Vorlage zusammengefügt, was bedeutet, die Vorlage sollte korrekt ausgerichtete Bilder enthalten.<br><br>Im Wesentlichen gibt es zwei verschiedene Anwendungsfälle für den Batch-Builder:<br><br>1. Um viele Panoramen mit den gleichen Einstellungen zu versehen, ohne Kontrollpunkte zu erzeugen. Dies können Sie zum Beispiel bei Multi-Kamera-Rigs verwenden, bei denen garantiert ist, dass alle Panoramen die gleiche Bildausrichtung haben. In diesem Fall muss '@alignimages@' übersprungen werden.<br><br>2. Oder um automatisch mehrere Panoramen zu zusammenfügen, indem Sie einfach PTGui auf einen Ordner mit Bildern zeigen. Die Bilder werden beispielsweise aufgenommen, indem die Kamera auf einem Panorama-Stativkopf gedreht wird. In diesem Fall sind die Bildpositionen in den einzelnen Panoramen in der Regel leicht unterschiedlich. Selbst wenn der Panoramakopf Klick-Stopps hat, führen mechanische Toleranzen zu kleinen Abweichungen in der Bildausrichtung in jedem Panorama. Um dies auszugleichen, sollte PTGui die Bilder für jedes Panorama analysieren und Kontrollpunkte generieren, so dass '@alignimages@' vor dem Stitchen ausgeführt werden muss."
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
 			"machinetranslated": false,
-			"helptext": "Die generierten Projekte werden zu einer Batch-Liste hinzugefügt. Die Batch-Liste kann als Ganzes im Batch-stitcher geladen werden. Dies wird im Standardordner für Batch-Listen gespeichert."
+			"helptext": "Die generierten Projekte werden zu einer Batch-Liste hinzugefügt. Die Batch-Liste kann als Ganzes im Batch-Stitcher geladen werden. Dies wird im Standardordner für Batch-Listen gespeichert."
 		},
 		{
 			"id": "batchbuilder.browsesavetobatchlist",
@@ -8016,82 +8016,82 @@
 		},
 		{
 			"id": "batchbuilderdetect.method",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Methode zum Suchen von Panoramen.",
-			"morehelptext": "<br><br>Der Batch-Builder kann Panoramen auf eine der folgenden Arten erkennen:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> Verwenden Sie diese <b>Option</b> , wenn Sie Ihre <b>Quellbilder</b> bereits in separaten Ordnern für jedes Panorama organisiert haben. PTGui Pro sucht im gewählten Ordner, allen Unterordnern, Unterunterordnern usw. nach und erzeugt Projektdateien für jeden Ordner, der ein oder mehrere Bilder enthält. Jede Projektdatei enthält alle Bilder in diesem Ordner.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> Verwenden Sie diese Methode, wenn sich alle <b>Quellbilder</b> in einem Ordner befinden und alle Panoramen eine feste Anzahl von Bildern haben sollten. Wenn beispielsweise ein Ordner 100 Bilder enthält und die Anzahl der Bilder pro Panorama auf 7 eingestellt ist, werden 15 Projekte mit je 7 Bildern (außer dem letzten) erstellt. Bilder werden alphabetisch sortiert und gruppiert.<br><br><b>@batchbuilderdetect.method.shootingdate@:</b> Projekte werden anhand des Aufnahmedatums / <b>-zeitpunkts</b> erkannt: Bilder werden als Panorama betrachtet, wenn sie innerhalb der angegebenen Anzahl von Sekunden nacheinander aufgenommen wurden. Mit zusätzlichen Filterkriterien können Sie basierend auf der Brennweite filtern und nur nachfolgende Bilder mit gleicher Brennweite, Belichtungszeit, Blende und / oder ISO-Wert qualifizieren.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> Diese Methode kann zum Erstellen von Zeitraffer-Panoramen von mehreren Kameras verwendet werden. Die Speicherkarte jeder Kamera kann in einen separaten Unterordner kopiert werden. Jeder Unterordner sollte die gleiche Anzahl von Bildern in der gleichen aufsteigenden numerischen Reihenfolge enthalten. Die generierten Projektdateien nehmen ein Bild aus jedem Unterordner (mit den Namen der Unterordner in alphabetischer Reihenfolge)."
+			"morehelptext": "<br><br>Der Batch-Builder kann Panoramen auf eine der folgenden Arten erkennen:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> Verwenden Sie diese Option, wenn Sie Ihre Quellbilder bereits in separaten Ordnern für jedes Panorama organisiert haben. PTGui Pro sucht im gewählten Ordner, allen Unterordnern, Unterunterordnern usw. nach und erzeugt Projektdateien für jeden Ordner, der ein oder mehrere Bilder enthält. Jede Projektdatei enthält alle Bilder aus diesem Ordner.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> Verwenden Sie diese Methode, wenn sich alle Quellbilder in einem Ordner befinden und alle Panoramen eine feste Anzahl von Bildern haben. Wenn beispielsweise ein Ordner 100 Bilder enthält und die Anzahl der Bilder pro Panorama auf 7 eingestellt ist, werden 15 Projekte mit je 7 Bildern (außer dem letzten) erstellt. Bilder werden alphabetisch sortiert und gruppiert.<br><br><b>@batchbuilderdetect.method.shootingdate@:</b> Projekte werden anhand des Aufnahmedatums/-zeitpunkts erkannt. Bilder werden als Panorama betrachtet, wenn sie innerhalb der angegebenen Anzahl von Sekunden nacheinander aufgenommen wurden. Mit den Filterkriterien wie gleicher Brennweite, Belichtungszeit, Blende und/oder ISO-Wert beschränken Sie die Suche.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> Diese Methode können Sie zum Erstellen von Zeitraffer-Panoramen mit mehreren Kameras verwenden. Die Speicherkarte jeder Kamera kopieren Sie in einen separaten Unterordner. Jeder Unterordner sollte die gleiche Anzahl von Bildern in der gleichen aufsteigenden numerischen Reihenfolge enthalten. Die generierten Projektdateien nehmen je ein Bild aus jedem Unterordner (mit den Namen der Unterordner in alphabetischer Reihenfolge)."
 		},
 		{
 			"id": "batchbuilderdetect.folder",
-			"machinetranslated": true,
-			"helptext": "Der zu überprüfende Stammordner Drücken Sie @browse@ zur Auswahl."
+			"machinetranslated": false,
+			"helptext": "Der Stammordner, der durchsucht werden soll. Klicken Sie auf '@browse@' zur Auswahl."
 		},
 		{
 			"id": "batchbuilderdetect.subfolderprefix",
-			"machinetranslated": true,
-			"helptext": "Scannen Sie nur Unterordner, deren Namen mit diesen Zeichen beginnen.",
-			"morehelptext": "<br><br>Wenn beispielsweise die Unterordner mit den Bildern &quot;Kamera1&quot;, &quot;Kamera2&quot; usw. heißen, geben Sie &quot;Kamera&quot; ein, um nur diese Ordner zu durchsuchen."
+			"machinetranslated": false,
+			"helptext": "Nur Unterordner, deren Namen mit diesen Zeichen beginnen, durchsuchen.",
+			"morehelptext": "<br><br>Wenn beispielsweise die Unterordner mit den Bildern 'Kamera1', 'Kamera2' usw. heißen, geben Sie 'Kamera' ein, um nur diese Ordner zu durchsuchen."
 		},
 		{
 			"id": "batchbuilderdetect.filterextension",
 			"machinetranslated": true,
-			"helptext": "Verwenden Sie nur Bilddateinamen mit dieser Erweiterung.",
-			"morehelptext": "<br><br>Geben Sie die Erweiterung ohne den Punkt ein (JPG, nicht .JPG). Bei der Filterung wird nicht zwischen Groß- und Kleinschreibung unterschieden. Dies entspricht sowohl image.jpg als auch image.JPG<br><br>Mehrere Erweiterungen können getrennt durch ein Komma eingegeben werden. Zum Beispiel: tif, jpg"
+			"helptext": "Nur Bilddateinamen mit dieser Erweiterung verwenden.",
+			"morehelptext": "<br><br>Geben Sie die Erweiterung ohne den Punkt ein (JPG, nicht .JPG). Bei der Filterung wird nicht zwischen Groß- und Kleinschreibung unterschieden. Dies entspricht sowohl image.jpg als auch image.JPG<br><br>Sie können mehrere Erweiterungen getrennt durch ein Komma eingegeben. Zum Beispiel: tif, jpg"
 		},
 		{
 			"id": "batchbuilderdetect.imagesperpanorama",
-			"machinetranslated": true,
-			"helptext": "Anzahl der Bilder für jedes Panorama",
+			"machinetranslated": false,
+			"helptext": "Anzahl der Bilder pro Panorama",
 			"morehelptext": "<br><br>Wenn beispielsweise ein Ordner 100 Bilder enthält und dieser auf 7 eingestellt ist, werden 14 Projekte mit je 7 Bildern und ein Projekt mit 2 Bildern angezeigt. Bilder werden alphabetisch nach Dateinamen sortiert und gruppiert."
 		},
 		{
 			"id": "batchbuilderdetect.secondsbetweenshots",
-			"machinetranslated": true,
-			"helptext": "Maximale Zeit zwischen zwei aufeinanderfolgenden Schüssen. Wenn das nächste Bild mit einer längeren Zeit dazwischen aufgenommen wurde, wird es zu einem nächsten Projekt hinzugefügt."
+			"machinetranslated": false,
+			"helptext": "Maximale Zeitspanne zwischen zwei aufeinanderfolgenden Aufnahmen. Wenn das nächste Bild nach einer längeren Zeitspanne aufgenommen wurde, wird es zum nächsten Projekt hinzugefügt."
 		},
 		{
 			"id": "batchbuilderdetect.focallength",
-			"machinetranslated": true,
-			"helptext": "Verwenden Sie nur Bilder mit einer aufgenommenen Brennweite (in den EXIF-Daten) in diesem Bereich. Lassen Sie die Anzeige leer, um die Brennweite zu ignorieren."
+			"machinetranslated": false,
+			"helptext": "Nur Bilder, die mit einer Brennweite (in den EXIF-Daten) in diesem Bereich aufgenommen wurden, verwenden. Lassen Sie die Anzeige leer, um die Brennweite zu ignorieren."
 		},
 		{
 			"id": "batchbuilderdetect.samefocallength",
-			"machinetranslated": true,
-			"helptext": "Startet ein neues Projekt, wenn ein Bild eine andere Brennweite hat (entsprechend den EXIF-Daten) als das vorherige Bild."
+			"machinetranslated": false,
+			"helptext": "Ein neues Projekt beginnen, wenn ein Bild eine andere Brennweite (entsprechend den EXIF-Daten) als das vorherige Bild hat."
 		},
 		{
 			"id": "batchbuilderdetect.sameexposuretime",
-			"machinetranslated": true,
-			"helptext": "Startet ein neues Projekt, wenn ein Bild eine andere Belichtungszeit hat (gemäß den EXIF-Daten) als das vorherige Bild."
+			"machinetranslated": false,
+			"helptext": "Ein neues Projekt beginnen, wenn ein Bild eine andere Belichtungszeit (gemäß den EXIF-Daten) als das vorherige Bild hat."
 		},
 		{
 			"id": "batchbuilderdetect.sameaperture",
-			"machinetranslated": true,
-			"helptext": "Startet ein neues Projekt, wenn ein Bild eine andere Öffnung (gemäß den EXIF-Daten) als das vorherige Bild hat."
+			"machinetranslated": false,
+			"helptext": "Ein neues Projekt beginnen, wenn ein Bild eine andere Öffnung (gemäß den EXIF-Daten) als das vorherige Bild hat."
 		},
 		{
 			"id": "batchbuilderdetect.sameiso",
-			"machinetranslated": true,
-			"helptext": "Startet ein neues Projekt, wenn ein Bild einen anderen ISO-Wert hat (entsprechend den EXIF-Daten) als das vorherige Bild."
+			"machinetranslated": false,
+			"helptext": "Ein neues Projekt beginnen, wenn ein Bild einen anderen ISO-Wert (entsprechend den EXIF-Daten) als das vorherige Bild hat."
 		},
 		{
 			"id": "batchbuilderdetect.run",
-			"machinetranslated": true,
-			"helptext": "Starten Sie das Scannen nach Panoramen."
+			"machinetranslated": false,
+			"helptext": "Starten Sie die Suche nach Panoramen."
 		},
 		{
 			"id": "aligntogrid.allimages",
-			"machinetranslated": true,
-			"helptext": "Wenden Sie das Raster auf alle Bilder im aktuellen Projekt an."
+			"machinetranslated": false,
+			"helptext": "Das Raster auf alle Bilder im aktuellen Projekt anwenden."
 		},
 		{
 			"id": "aligntogrid.imagerange",
-			"machinetranslated": true,
-			"helptext": "Bereich der Bilder, auf die das Raster angewendet werden soll. Das erste Bild des Projekts hat die Nummer 1. Der Bereich enthält die letzte Nummer."
+			"machinetranslated": false,
+			"helptext": "Bereich der Bilder, auf die das Raster angewendet wird. Das erste Bild des Projekts hat die Nummer 1. Der Bereich enthält die letzte Nummer."
 		},
 		{
 			"id": "aligntogrid.rowscolumns",
-			"machinetranslated": true,
-			"helptext": "Anzahl der Zeilen und Spalten im Raster Verwenden Sie die Schaltfläche @presetbutton@, um aus einer Liste auszuwählen."
+			"machinetranslated": false,
+			"helptext": "Anzahl der Zeilen und Spalten im Raster. Wählen Sie über die Schaltfläche '@presetbutton@' eine Voreinstellung aus."
 		},
 		{
 			"id": "aligntogrid.rowscolumns.preset",
@@ -8100,23 +8100,23 @@
 		},
 		{
 			"id": "aligntogrid.shootingconfig",
-			"machinetranslated": true,
-			"helptext": "Insgesamt werden 16 verschiedene Aufnahmekonfigurationen unterstützt. Die Pfeile zeigen die ausgewählte Schießreihenfolge an."
+			"machinetranslated": false,
+			"helptext": "Insgesamt werden 16 verschiedene Aufnahmekonfigurationen unterstützt. Die Pfeile zeigen die ausgewählte Aufnahmereihenfolge an."
 		},
 		{
 			"id": "aligntogrid.horizontal.center",
 			"machinetranslated": true,
-			"helptext": "Zentriere das Panorama horizontal um @yaw@ = 0°"
+			"helptext": "Das Panorama horizontal um @yaw@ = 0° zentrieren"
 		},
 		{
 			"id": "aligntogrid.horizontal.offset",
-			"machinetranslated": true,
-			"helptext": "Konfiguriert den horizontalen (@yaw@) Offset der Spalten."
+			"machinetranslated": false,
+			"helptext": "Der horizontalen (@yaw@) Offset der Spalten."
 		},
 		{
 			"id": "aligntogrid.horizontal.spacedby",
-			"machinetranslated": true,
-			"helptext": "Das horizontale Intervall (in Grad @yaw@) zwischen den Spalten."
+			"machinetranslated": false,
+			"helptext": "Der horizontale Intervall (in Grad @yaw@) zwischen den Spalten."
 		},
 		{
 			"id": "aligntogrid.horizontal.overlap",
@@ -8125,18 +8125,18 @@
 		},
 		{
 			"id": "aligntogrid.horizontal.stretch360",
-			"machinetranslated": true,
-			"helptext": "Verteilen Sie die Säulen gleichmäßig, so dass sie ein 360° -Panorama bilden."
+			"machinetranslated": false,
+			"helptext": "Spalten gleichmäßig verteilen, so dass sie ein 360°-Panorama bilden."
 		},
 		{
 			"id": "aligntogrid.vertical.center",
 			"machinetranslated": true,
-			"helptext": "Zentriere das Panorama vertikal um @pitch@ = 0°"
+			"helptext": "Das Panorama vertikal um @pitch@ = 0° zentrieren"
 		},
 		{
 			"id": "aligntogrid.vertical.offset",
 			"machinetranslated": true,
-			"helptext": "Konfiguriert den vertikalen (@pitch@) Offset der Zeilen."
+			"helptext": "Deren vertikalen (@pitch@) Offset der Zeilen."
 		},
 		{
 			"id": "aligntogrid.vertical.spacedby",
@@ -8150,18 +8150,18 @@
 		},
 		{
 			"id": "aligntogrid.roll.dontchange",
-			"machinetranslated": true,
-			"helptext": "Behalte alle @roll@-Winkel so, wie sie aktuell sind."
+			"machinetranslated": false,
+			"helptext": "Alle @roll@-Winkel so behalten, wie sie aktuell sind."
 		},
 		{
 			"id": "aligntogrid.roll.set",
-			"machinetranslated": true,
-			"helptext": "Stellen Sie alle @roll@-Winkel der ausgewählten Bilder auf diesen Wert ein."
+			"machinetranslated": false,
+			"helptext": "Alle @roll@-Winkel der ausgewählten Bilder auf diesen Wert einstellen."
 		},
 		{
 			"id": "aligntogrid.modifyfov",
 			"machinetranslated": false,
-			"helptext": "Wenn diese Option ausgewählt ist, wird beim Klicken auf die Schaltfläche '@txt.apply@' der Bickwinkel des Panoramas so eingestellt, dass das Panorama den gesamten Rahmen ausfüllt. Auch eine für diesen Blickwinkel geeignete Projektion wird ausgewählt."
+			"helptext": "Wenn diese Option ausgewählt ist, wird beim Klicken auf die Schaltfläche '@txt.apply@' der Blickwinkel des Panoramas so eingestellt, dass das Panorama den gesamten Rahmen ausfüllt. Auch eine für diesen Blickwinkel geeignete Projektion wird ausgewählt."
 		},
 		{
 			"id": "aligntogrid.apply",
@@ -8170,9 +8170,9 @@
 		},
 		{
 			"id": "batchstitcher.toolbar.addproject",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "@batchstitcher.menubar.addprojects@",
-			"helptext": "Fügen Sie der Warteschlange Projekte hinzu."
+			"helptext": "Fügen Sie Projekte zur Warteschlange hinzu."
 		},
 		{
 			"id": "batchstitcher.toolbar.removeproject",
@@ -8184,12 +8184,12 @@
 			"id": "batchstitcher.toolbar.openbatchlist",
 			"machinetranslated": true,
 			"label": "@batchstitcher.menubar.openbatchlist@",
-			"helptext": "Laden Sie eine Batch-Liste. Eine Batch-Liste speichert eine Liste von Jobs mit dem Status Fertig / Nicht erledigt für jeden Job."
+			"helptext": "Laden Sie eine Batch-Liste. Eine Batch-Liste speichert eine Liste von Jobs mit dem Status Fertig/Nicht erledigt für jeden Job."
 		},
 		{
 			"id": "batchstitcher.toolbar.savebatchlist",
 			"machinetranslated": false,
-			"label": "In Batch-Liste speichern",
+			"label": "Batch-Liste speichern",
 			"helptext": "Speichern Sie den aktuellen Status der Warteschlange in einer Batch-Liste. Mithilfe von Batch-Listen können Sie den Batch-Stitcher schließen und dort fortfahren, wo Sie aufgehört haben."
 		},
 		{
@@ -8212,7 +8212,7 @@
 		{
 			"id": "batchstitcher.clearlog",
 			"machinetranslated": true,
-			"label": "Löschen Sie das Protokoll"
+			"label": "Das Protokoll löschen"
 		},
 		{
 			"id": "batchstitcher.projectslist",
@@ -8221,8 +8221,8 @@
 		},
 		{
 			"id": "philosphere.size",
-			"machinetranslated": true,
-			"helptext": "Größe des erzeugten druckbaren Dokuments in Pixeln Geben Sie beispielsweise 3000 x 1860 ein, um ein druckbares Bild mit einer Auflösung von 300 dpi im A4 / Letter-Format zu erhalten. Zwei Dokumente werden generiert."
+			"machinetranslated": false,
+			"helptext": "Größe des erzeugten druckbaren Dokuments in Pixeln. Geben Sie beispielsweise 3000 x 1860 ein, um ein druckbares Bild mit einer Auflösung von 300 dpi im A4/Letter-Format zu erhalten. Es werden zwei Dokumente erstellt."
 		},
 		{
 			"id": "philosphere.start",
@@ -8236,9 +8236,9 @@
 		},
 		{
 			"id": "lensdatabase.entries.add",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"morehelptext": "<br><br>Objektiv-Datensätze können über die Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster hinzugefügt werden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Objektiv-Datensätze fügen Sie über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.entries.remove",
@@ -8256,7 +8256,7 @@
 			"id": "lensdatabase.mappings.add",
 			"machinetranslated": false,
 			"label": "Fügen Sie EXIF-Verknüpfung hinzu",
-			"morehelptext": "<br><br>Zuordnungen können auf der Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster vorgenommen werden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Zuordnungen nehmen Sie auf der Registerkarte @mainwindow.tabs.lenssettings@ im Hauptfenster vor. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.mappings.remove",
@@ -8307,7 +8307,7 @@
 		{
 			"id": "focallengthdialog.alwaysuse",
 			"machinetranslated": false,
-			"helptext": "Eine neue Zuordnung wird für diese Objektiveinstellungen und die EXIF-Daten des Bildes zur Objektiv-Datenbank hinzugefügt.",
+			"helptext": "Eine neue Zuordnung für diese Objektiveinstellungen und die EXIF-Daten des Bildes zur Objektiv-Datenbank hinzugefügen.",
 			"morehelptext": "<br><br>Wenn Sie eine Zuordnung zur Objektiv-Datenbank hinzufügen, werden diese Einstellungen automatisch beim nächsten Laden eines Bildes mit demselben Objektiv und derselben Kamera geladen. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
@@ -8331,13 +8331,13 @@
 			"id": "options.tooltipmode",
 			"machinetranslated": true,
 			"helptext": "Konfiguriert, ob Quickinfos angezeigt werden. Sie sehen jetzt einen solchen Quickinfo.",
-			"morehelptext": "<br><br>Quickinfos werden angezeigt, wenn der Mauszeiger eine Sekunde lang über einem Eingabefeld gehalten wird.<br><br><b>@options.tooltipmode.no@:</b> Quickinfos überhaupt nicht <b>anzeigen</b> .<br><br><b>@options.tooltipmode.onlytoolbars@: Zeigt</b> nur Quickinfos für Symbolleistensymbole und andere Schaltflächen ohne Text an.<br><br><b>@options.tooltipmode.yes@:</b> zeige alle Quickinfos."
+			"morehelptext": "<br><br>Quickinfos werden angezeigt, wenn Sie den Mauszeiger eine Sekunde lang über einem Eingabefeld halten.<br><br><b>@options.tooltipmode.no@:</b> Quickinfos überhaupt nicht <b>anzeigen</b> .<br><br><b>@options.tooltipmode.onlytoolbars@:</b> Zeigt nur Quickinfos für Symbolleistensymbole und andere Schaltflächen ohne Text an.<br><br><b>@options.tooltipmode.yes@:</b> zeige alle Quickinfos."
 		},
 		{
 			"id": "options.contentscalefactor",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Vergrößern oder verkleinern Sie alle Benutzeroberflächenelemente mit diesem Faktor.",
-			"morehelptext": "<br><br>Auf 100% setzen, um die Standardgröße zu verwenden. PTGui muss neu gestartet werden, damit Änderungen wirksam werden. <optional platform='windows'>Aufgrund von Einschränkungen in Windows ist die Schriftgröße der Menüleiste nicht betroffen.</optional>"
+			"morehelptext": "<br><br>100% bedeutet Standardgröße. PTGui muss neu gestartet werden, damit Änderungen wirksam werden. <optional platform='windows'>Aufgrund von Einschränkungen in Windows ist die Schriftgröße der Menüleiste nicht betroffen.</optional>"
 		},
 		{
 			"id": "options.showroundedvalues",
@@ -8346,9 +8346,9 @@
 		},
 		{
 			"id": "options.checkforupdates",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wenn aktiviert, überprüft PTGui höchstens einmal pro Woche, ob eine neue Version der Software verfügbar ist.",
-			"morehelptext": "<br><br>Wenn eine neue Version verfügbar ist, wird eine Benachrichtigung angezeigt. Sie können auch jederzeit manuell nach Updates suchen, indem Sie @menubar.help@ | @menubar.help.checkforupdates@ verwenden."
+			"morehelptext": "<br><br>Wenn eine neue Version verfügbar ist, wird eine Benachrichtigung angezeigt. Sie können auch jederzeit manuell nach Updates suchen, indem Sie '@menubar.help@' | '@menubar.help.checkforupdates@' verwenden."
 		},
 		{
 			"id": "options.checkforupdates.beta",
@@ -8358,7 +8358,7 @@
 		{
 			"id": "options.resetwarnings",
 			"machinetranslated": false,
-			"helptext": "Mehrere Warnmeldungen, die von PTGui angezeigt werden, haben ein Kontrollkästchen mit der Bezeichnung '@txt.dontaskthisagain@', das die Warnung in Zukunft stummschalten wird. Verwenden Sie diese Schaltfläche und drücken Sie dann @ok@, um alle Warnmeldungen erneut zu aktivieren."
+			"helptext": "Mehrere Warnmeldungen, die von PTGui angezeigt werden, haben ein Kontrollkästchen mit der Bezeichnung '@txt.dontaskthisagain@'. Wenn aktiviert, wird die Warnung anschließend nicht mehr angezeigt. Verwenden Sie diese Schaltfläche und drücken Sie dann '@ok@', um alle Warnmeldungen wieder zu aktivieren."
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
@@ -8367,8 +8367,8 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
-			"machinetranslated": true,
-			"helptext": "Betrachten Sie nur Bilder, die innerhalb dieses Zeitrahmens aufgenommen wurden."
+			"machinetranslated": false,
+			"helptext": "Nur Bilder vorschlagen, die innerhalb dieser Zeitspanne aufgenommen wurden."
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
@@ -8377,13 +8377,13 @@
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
-			"machinetranslated": true,
-			"helptext": "Konfiguriert, ob der Batch-Stitcher mit dem ausgewählten '@batchstitcher.menubar.closebatchstitcherwhenfinished@'-Flag gestartet werden soll. Gilt nur, wenn der Batch-Stitcher von @mainwindow.createpanoramatab.saveandsendtobatchstitcher@ (in der Registerkarte @mainwindow.tabs.createpanorama@) oder @menubar.project.sendtemporarycopytobatchstitcher@ (im Menü @menubar.project@) gestartet wird."
+			"machinetranslated": false,
+			"helptext": "Konfiguriert, ob der Batch-Stitcher mit dem ausgewählten '@batchstitcher.menubar.closebatchstitcherwhenfinished@'-Flag gestartet werden soll. Gilt nur, wenn der Batch-Stitcher von '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' (in der Registerkarte '@mainwindow.tabs.createpanorama@') oder '@menubar.project.sendtemporarycopytobatchstitcher@' (im Menü '@menubar.project@') gestartet wird."
 		},
 		{
 			"id": "options.showintaskbar",
-			"machinetranslated": true,
-			"morehelptext": "<b>@options.showintaskbar.mainwindow@: In</b> der Taskleiste des PTGui-Hauptfensters wird nur eine Schaltfläche angezeigt.<br><br><b>@options.showintaskbar.all@:</b> Jedes Fenster hat eine separate Schaltfläche in der Taskleiste. Beachten Sie, dass die Windows-Taskleistenoptionen über eine Einstellung zum Kombinieren aller Taskleistenschaltflächen derselben Anwendung in einer einzigen Schaltfläche verfügen. Dies sollte deaktiviert werden, um die separaten Taskleistensymbole anzuzeigen."
+			"machinetranslated": false,
+			"helptext": "<b>@options.showintaskbar.mainwindow@:</b> In der Taskleiste wird nur das PTGui-Hauptfensters angezeigt.<br><br><b>@options.showintaskbar.all@:</b> Jedes Fenster wird in der Taskleiste angezeigt. Beachten Sie, dass die Windows-Taskleistenoptionen über eine Einstellung zum Gruppieren aller Fenster derselben Anwendung zu einem einzigen Taskleistensymbole verfügt. Dies sollten Sie deaktiviert, um die separaten Taskleistensymbole anzuzeigen."
 		},
 		{
 			"id": "options.mousewheelaction",
@@ -8398,25 +8398,25 @@
 		},
 		{
 			"id": "options.foldersandfiles.templatefolder",
-			"machinetranslated": true,
-			"helptext": "Standardspeicherort für Vorlagen Vorlagen können in einem beliebigen Ordner gespeichert werden, aber Vorlagen in diesem Ordner werden in der @menubar.file.applytemplate@-Schnellverknüpfungsliste aufgeführt, damit sie schnell aufgerufen werden können."
+			"machinetranslated": false,
+			"helptext": "Standardspeicherort für Vorlagen. Sie können Vorlagen in jedem beliebigen Ordner gespeichern, aber Vorlagen in diesem Ordner werden in der '@menubar.file.applytemplate@'-Schnellverknüpfungsliste aufgeführt, damit sie schnell aufgerufen werden können."
 		},
 		{
 			"id": "options.foldersandfiles.applytemplateinitialfolder",
 			"machinetranslated": false,
 			"helptext": "Konfiguriert den Ordner, der anfänglich angezeigt wird, wenn Sie '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@' ausführen.",
-			"morehelptext": "<br><br><b>Vorlagenordner:</b> Zeigen Sie zunächst den oben konfigurierten Ordner an.<br><br><b>Zuletzt verwendeten Ordner merken:</b> Zeigen Sie zunächst den Speicherort der zuletzt verwendeten Vorlage an."
+			"morehelptext": "<br><br><b>@options.applytemplateinitialfolder.templatesfolder@:</b> Den oben konfigurierten Ordner anzeigen.<br><br><b>@options.applytemplateinitialfolder.rememberlast@</b> Den Speicherort der zuletzt verwendeten Vorlage anzeigen."
 		},
 		{
 			"id": "options.foldersandfiles.batchlistfolder",
 			"machinetranslated": false,
-			"helptext": "Der Standardspeicherort für Batch-Listen. Obwohl Batch-Listen in einem beliebigen Ordner gespeichert werden können, kann auf die Dateien im Standardordner schnell zugegriffen werden. Um weitere Informationen zu Batch-Listen zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie @help@."
+			"helptext": "Der Standardspeicherort für Batch-Listen. Obwohl Sie Batch-Listen in einem beliebigen Ordner gespeichern können, kann auf die Dateien im Standardordner schneller zugegriffen werden. Um weitere Informationen zu Batch-Listen zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie '@help@'."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolder",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "PTGui speichert temporäre Daten in diesen Ordnern.",
-			"morehelptext": "<br><br>Das Zusammenfügen großer Panoramen erfordert das Speichern von vielen Gigabyte temporärer Daten. PTGui wird zunächst RAM-Speicher für temporäre Daten verwenden. Wenn der Speicher voll ist, werden temporäre Daten auf die Festplatte geschrieben. PTGui verwendet nicht <optional platform='windows'>Windows-Auslagerungsspeicher</optional><optional platform='mac'>MacOS Auslagerungsspeicher.</optional> Hier können Sie konfigurieren, wo temporäre Daten auf dem Datenträger gespeichert werden.<br><br>Zuerst werden die temporären Ordner mit der Bezeichnung <b>@options.defaultfolders.tempfiles.preferred@</b> verwendet, bevor die anderen verwendet werden. Wenn kein temporärer Ordner konfiguriert ist, wird der standardmäßige temporäre Ordner des Betriebssystems verwendet. Wenn mehrere temporäre Ordner konfiguriert sind, wird PTGui ihre Nutzung ausgleichen, um die Leistung zu verbessern.<br><br>Für die beste Leistung:<br>• Verwenden Sie immer ein SSD-Laufwerk für den temporären Speicher<br>• Verwenden Sie keine Netzwerk- oder USB2-Laufwerke<br>• Temporäre Daten sollten auf einer separaten Festplatte gespeichert werden, die sich von den Quellbildern und dem Panorama-Ausgabeordner unterscheidet."
+			"morehelptext": "<br><br>Das Zusammenfügen großer Panoramen erfordert das Speichern von vielen Gigabyte temporärer Daten. PTGui wird zunächst RAM-Speicher für die temporäre Daten verwenden. Wenn der Speicher voll ist, werden temporäre Daten auf die Festplatte geschrieben. PTGui verwendet nicht <optional platform='windows'> die Windows Auslagerungsdatei</optional><optional platform='mac'>den MacOS Auslagerungsspeicher.</optional>. Hier können Sie konfigurieren, wo temporäre Daten auf dem Datenträger gespeichert werden.<br><br>Zuerst werden die temporären Ordner mit der Bezeichnung '@options.defaultfolders.tempfiles.preferred@' verwendet, bevor die anderen verwendet werden. Wenn kein temporärer Ordner konfiguriert ist, wird der standardmäßige temporäre Ordner des Betriebssystems verwendet. Wenn mehrere temporäre Ordner konfiguriert sind, wird PTGui ihre Nutzung ausgleichen, um die Leistung zu verbessern.<br><br>Für die beste Leistung:<br>• Verwenden Sie immer ein SSD-Laufwerk für den temporären Speicher<br>• Verwenden Sie keine Netzwerk- oder USB2-Laufwerke<br>• Temporäre Daten sollten auf einer separaten Festplatte gespeichert werden, die sich von den Quellbildern und dem Panorama-Ausgabeordner unterscheidet."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolderpreferred",
@@ -8464,7 +8464,7 @@
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
 			"machinetranslated": false,
-			"helptext": "Aktiviere oder deaktiviere die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten in der Registerkarte '@mainwindow.tabs.controlpoints@' für Belichtungsreihen bewegen.",
+			"helptext": "Aktiviert oder deaktiviert die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten in der Registerkarte '@mainwindow.tabs.controlpoints@' für Belichtungsreihen bewegen.",
 			"morehelptext": "<br><br>Bei HDR-Projekten kombiniert PTGui standardmäßig verknüpfte Bilder (Belichtungsreihen) zu einem einzigen zusammengeführten Bild. In der Registerkarte '@mainwindow.tabs.controlpoints@' kann es erforderlich sein, die einzelnen Bilder anstelle des zusammengeführten Bildes anzuzeigen, da Kontrollpunkte zwischen einzelnen Bildern und nicht zwischen Gruppen verknüpfter Bilder platziert werden. Daher öffnet PTGui einen Ballon, der die einzelnen Bilder zeigt, wenn Sie mit der Maus über die Vorschaubilder fahren.<br><br>Wenn Sie feststellen, dass der Ballon Ihnen im Weg steht, können Sie ihn hier deaktivieren. Einzelne Belichtungen aus dem Satz von Belichtungsreihen können weiterhin auf der Registerkarte '@mainwindow.tabs.controlpoints@' mit den Tastaturkurzbefehlen ausgewählt werden <optional platform='windows'>Strg + Alt + Hoch und Strg + Alt + Runter</optional><optional platform='mac'>Cmd + Alt + Hoch und Cmd + Alt + Runter</optional> ."
 		},
 		{
@@ -8721,33 +8721,33 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Interne Präzision der Verarbeitungspipeline.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt im half floating point 16 Bit pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt im floating point 32 Bit pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikbereich (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt mit Half Floating Point 16 Bit pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt mit Floating Point 32 Bit pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikbereich (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
-			"machinetranslated": true,
-			"helptext": "Überspringe die automatische Belichtung und Farbanpassung, wenn die Bilder nicht ausgerichtet werden konnten.",
-			"morehelptext": "<br><br>Die automatische Belichtung und Farbanpassung erfolgt durch Vergleichen von Pixeln aus überlappenden Bildern. Daher ist es notwendig, dass die Bilder richtig ausgerichtet sind. Wenn diese Option aktiviert ist und PTGui die Bilder nicht ausrichten konnte (z. B. weil keine Kontrollpunkte gefunden wurden), werden die automatische Belichtung und Farbanpassung übersprungen."
+			"machinetranslated": false,
+			"helptext": "Automatische Belichtung und Farbanpassung überspringen, wenn die Bilder nicht ausgerichtet werden konnten.",
+			"morehelptext": "<br><br>Die automatische Belichtung und Farbanpassung erfolgt durch Vergleichen von Pixeln aus überlappenden Bildern. Daher ist es notwendig, dass die Bilder richtig ausgerichtet sind. Wenn diese Option aktiviert ist und PTGui die Bilder nicht ausrichten konnte (z.B. weil keine Kontrollpunkte gefunden wurden), werden die automatische Belichtung und Farbanpassung übersprungen."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Präzision des optimalen Nahtfindungsalgorithmus",
-			"morehelptext": "<br><br>Wenn <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> aktiviert ist, versucht PTGui, die Nähte so zu platzieren, dass sie am wenigsten wahrnehmbar sind. PTGui untersucht die Bereiche, in denen sich die Bilder überlappen, und führt die Nähte durch die Bereiche, in denen die überlappenden Bilder am ähnlichsten sind. Dieser Schieberegler konfiguriert die Auflösung des Nahtfindungsalgorithmus als Bruchteil der optimalen Größe des Panoramas. Standardmäßig erfolgt die Nahtfindung bei 1/8 der optimalen Größe. Dies reicht aus, um die meisten Fehler zu beheben, die beispielsweise durch sich bewegende Objekte verursacht werden. In einigen Fällen kann das Ergebnis durch feinere Einstellung der Nähte weiter verbessert werden. Die optimale Nahtfindung bei voller Auflösung dauert jedoch lange und beansprucht viel Speicher."
+			"morehelptext": "<br><br>Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' aktiviert ist, versucht PTGui, die Nähte so zu platzieren, dass sie am wenigsten wahrnehmbar sind. PTGui untersucht die Bereiche, in denen sich die Bilder überlappen, und führt die Nähte durch die Bereiche, in denen die überlappenden Bilder am ähnlichsten sind. Dieser Schieberegler konfiguriert die Auflösung des Nahtfindungsalgorithmus als Bruchteil der optimalen Größe des Panoramas. Standardmäßig erfolgt die Nahtfindung bei 1/8 der optimalen Größe. Dies reicht aus, um die meisten Fehler zu beheben, die beispielsweise durch sich bewegende Objekte verursacht werden. In einigen Fällen kann das Ergebnis durch feinere Einstellung der Nähte weiter verbessert werden. Die optimale Nahtfindung bei voller Auflösung dauert jedoch lange und beansprucht viel Speicher."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Mischebenen werden nicht generiert, da Belichtungsreihen zuerst mit HDR zusammengeführt und dann zusammengefügt werden.",
-			"morehelptext": "<br><br>PTGui kann Belichtungsreihen auf zwei verschiedene Arten verarbeiten. Mischebenen werden nur generiert, wenn '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' auf der Registerkarte @mainwindow.tabs.exposurehdr@ konfiguriert ist. Weitere Informationen finden Sie im Tooltip für diese Einstellung auf der Registerkarte @mainwindow.tabs.exposurehdr@."
+			"morehelptext": "<br><br>PTGui kann Belichtungsreihen auf zwei verschiedene Arten verarbeiten. Mischebenen werden nur generiert, wenn '@mainwindow.exposurehdrpanel.hdrflow@' '@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' auf der Registerkarte '@mainwindow.tabs.exposurehdr@' konfiguriert ist. Weitere Informationen finden Sie im Tooltip für diese Einstellung auf der Registerkarte '@mainwindow.tabs.exposurehdr@'."
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
 			"machinetranslated": false,
 			"helptext": "Steuert, ob die Helligkeit einzelner Quellbilder angepasst wird, um die Helligkeitsunterschiede zwischen überlappenden Bildern zu minimieren.",
-			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.expoffset@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten als korrekt angenommen und es wird keine zusätzliche Helligkeitsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird die Helligkeit optimiert.<br><br><b>@photometricsettings.disabled@:</b>  DieHelligkeit wird nicht optimiert und die Spalte '@mainwindow.imageparameters.expoffset@' aller Bilder auf der Registerkarte '@mainwindow.tabs.imageparameters@' wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Helligkeit der Quellbilder wird angepasst.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Werte in der Spalte '@mainwindow.imageparameters.expoffset@' werden beibehalten."
+			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.expoffset@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten als korrekt angenommen und es wird keine zusätzliche Helligkeitsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird die Helligkeit optimiert.<br><br><b>@photometricsettings.disabled@:</b> Die Helligkeit wird nicht optimiert und die Spalte '@mainwindow.imageparameters.expoffset@' aller Bilder auf der Registerkarte '@mainwindow.tabs.imageparameters@' wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Helligkeit der Quellbilder wird angepasst.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Werte in der Spalte '@mainwindow.imageparameters.expoffset@' werden beibehalten."
 		},
 		{
 			"id": "txt.saveexposurefusionparameters",
@@ -8796,8 +8796,8 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
-			"machinetranslated": true,
-			"helptext": "Bestimmt das Verhalten beim Klicken auf '@alignimages@' auf der Registerkarte @mainwindow.tabs.projectassistant@, wenn Belichtungsreihen erkannt werden.",
+			"machinetranslated": false,
+			"helptext": "Bestimmt das Verhalten beim Klicken auf '@alignimages@' auf der Registerkarte '@mainwindow.tabs.projectassistant@', wenn Belichtungsreihen erkannt werden.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> Ein Dialogfeld wird angezeigt, in dem Sie gefragt werden, ob die Bilder verknüpft werden sollen oder nicht.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> Die oben konfigurierten Einstellungen (nach '@mainwindow.projectsettings.hdrdefaults.subheading_v2@') werden automatisch angewendet.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nichts tun; fährt mit @alignimages@ wie gewohnt fort."
 		},
 		{
@@ -8810,7 +8810,7 @@
 			"id": "exposurehdrtab.cameracurvegraph_v2",
 			"machinetranslated": false,
 			"helptext": "Kamerakurve",
-			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist die Pixelintensität im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Im Allgemeinen wendet PTGui die Kurve zweimal an: Vor dem Mischen wird die inverse Kurve angewendet, um Pixelwerte in lineare Lichtintensitäten umzuwandeln. Anschließend werden das Mischen, die Belichtungs- / Vignettierungskorrektur und das HDR-Zusammenführen im linearen Farbraum durchgeführt. Dann wird die Kurve erneut in die entgegengesetzte Richtung angewendet, um die lineare Luminanz in Pixelwerte umzuwandeln. Schließlich wird beim Speichern des Bildes eine Gammakorrektur gemäß dem ICC-Farbprofil angewendet.<br><br>Ein Projekt kann mehrere Kamerakurven enthalten: Für jedes Quellbild kann eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte @mainwindow.tabs.imageparameters@ zugewiesen werden. Das Feld @mainwindow.imageparameters.cameracurve@ kann auch auf '@txt.cameracurve.linear@' gesetzt werden, wenn bekannt ist, dass das Quellbild lineare Daten enthält. PTGui geht standardmäßig davon aus, dass RAW- und HDR-Quellbilder linear sind. Wenn alle Quellbilder linear sind, ist hier keine Kamerakurve sichtbar.<br><br>Wenn mehrere oder keine Kamerakurven konfiguriert sind, kann die für die Ausgabe zu verwendende Kurve im @panoramaeditor@ im @panoramaeditor.sidebar.postprocess@-Bedienfeld konfiguriert werden.<br><br>PTGui kann die Kamerakurve als Teil von @mainwindow.exposurehdrpanel.autoexpadjustmentsection@ bestimmen. Drücken Sie dazu die Schaltfläche '@mainwindow.exposurehdrpanel.optimizenow@'. Dies erfordert Belichtungsreihen: Die Kamerakurve wird durch Vergleichen des gleichen Pixels in unterschiedlich belichteten Bildern ermittelt. Für Einzelbelichtungen (ohne Belichtungsreihen) verwendet PTGui eine Standardkurve, die normalerweise einwandfrei funktioniert.<br><br>Verwenden Sie die Schaltflächen in der Symbolleiste oben, um die Kurve zu bearbeiten, zu laden, zu speichern oder zu löschen oder um dem Projekt eine zusätzliche Kamerakurve hinzuzufügen."
+			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist die Pixelintensität im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Im Allgemeinen wendet PTGui die Kurve zweimal an: Vor dem Mischen wird die inverse Kurve angewendet, um Pixelwerte in lineare Lichtintensitäten umzuwandeln. Anschließend werden das Mischen, die Belichtungs-/Vignettierungskorrektur und das HDR-Zusammenführen im linearen Farbraum durchgeführt. Dann wird die Kurve erneut in die entgegengesetzte Richtung angewendet, um die lineare Luminanz in Pixelwerte umzuwandeln. Schließlich wird beim Speichern des Bildes eine Gammakorrektur gemäß dem ICC-Farbprofil angewendet.<br><br>Ein Projekt kann mehrere Kamerakurven enthalten. Für jedes Quellbild können Sie eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugeweisen. Das Feld '@mainwindow.imageparameters.cameracurve@' können Sie auch auf '@txt.cameracurve.linear@' setzen, wenn Ihnen bekannt ist, dass das Quellbild lineare Daten enthält. PTGui geht standardmäßig davon aus, dass RAW- und HDR-Quellbilder linear sind. Wenn alle Quellbilder linear sind, ist hier keine Kamerakurve sichtbar.<br><br>Wenn mehrere oder keine Kamerakurven konfiguriert sind, kann die für die Ausgabe zu verwendende Kurve im @panoramaeditor@ im '@panoramaeditor.sidebar.postprocess@'-Bedienfeld konfiguriert werden.<br><br>PTGui kann die Kamerakurve als Teil von '@mainwindow.exposurehdrpanel.autoexpadjustmentsection@' bestimmen. Drücken Sie dazu die Schaltfläche '@mainwindow.exposurehdrpanel.optimizenow@'. Dies erfordert Belichtungsreihen. Die Kamerakurve wird durch Vergleichen des gleichen Pixels in unterschiedlich belichteten Bildern ermittelt. Für Einzelbelichtungen (ohne Belichtungsreihen) verwendet PTGui eine Standardkurve, die normalerweise einwandfrei funktioniert.<br><br>Verwenden Sie die Schaltflächen in der Symbolleiste oben, um die Kurve zu bearbeiten, zu laden, zu speichern oder zu löschen oder um dem Projekt eine zusätzliche Kamerakurven hinzuzufügen."
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
@@ -8822,7 +8822,7 @@
 			"id": "txt.removecameraresponsecurve",
 			"machinetranslated": false,
 			"helptext": "Kamera-Reaktionskurve entfernen",
-			"morehelptext": "<br><br>Entfernt diese Kamerakurve aus dem Projekt. Eine Kurve kann nur entfernt werden, wenn sie im Projekt nicht verwendet wird. Die Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' ausgewählt sein."
+			"morehelptext": "<br><br>Entfernt diese Kamerakurve aus dem Projekt. Eine Kurve können Sie nur entfernen, wenn sie im Projekt nicht verwendet wird. Die Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' ausgewählt sein."
 		},
 		{
 			"id": "txt.editcameraresponsecurve",
@@ -8843,8 +8843,8 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.saturation",
-			"machinetranslated": true,
-			"helptext": "Erhöhen oder verringern Sie die Lebendigkeit der Farben im Panorama."
+			"machinetranslated": false,
+			"helptext": "Erhöhen oder verringern Sie die Farbesättigung im Panorama."
 		},
 		{
 			"id": "txt.savevignettingcurve",
@@ -8860,7 +8860,7 @@
 			"id": "exposurehdrtab.whitebalance_v2",
 			"machinetranslated": false,
 			"helptext": "Passt den Weißabgleich für das gesamte Panorama an.",
-			"morehelptext": "<br><br><b>@txt.asshot@:</b> Wenn ausgewählt, wird der Weißabgleich nicht angepasst. Die Bilder werden in den Originalfarben gemischt.<br><br>Wenn '@txt.asshot@' nicht ausgewählt ist, kann eine gewünschte Farbtemperatur für das Panorama (in Grad Kelvin) ausgewählt werden. Der Weißabgleich wird von der ursprünglichen Farbtemperatur auf die ausgewählte Farbtemperatur eingestellt. Die ursprüngliche Farbtemperatur jedes Quellbilds wird in der Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ konfiguriert. Wenn für ein Quellbild keine Farbtemperatur angegeben ist, werden 5000 K angenommen."
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, wird der Weißabgleich nicht angepasst. Die Bilder werden in den Originalfarben gemischt.<br><br>Wenn die Option nicht aktiviert ist, können Sie eine gewünschte Farbtemperatur für das Panorama (in Grad Kelvin) einstellen. Der Weißabgleich wird von der ursprünglichen Farbtemperatur auf die ausgewählte Farbtemperatur eingestellt. Die ursprüngliche Farbtemperatur jedes Quellbilds wird in der Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ konfiguriert. Wenn für ein Quellbild keine Farbtemperatur angegeben ist, werden 5000 K angenommen."
 		},
 		{
 			"id": "proxysettings.proxyserverurl",
@@ -8881,8 +8881,8 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": false,
-			"helptext": "Platziere die Nähte entfernt von maskierten Bereichen.",
-            "morehelptext": "<br><br>Wenn diese Option aktiviert, werden die Nähte in einem gewissem Abstand zu den roten und gründen Masken platziert. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' Blender und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist." 
+			"helptext": "Die Nähte entfernt von maskierten Bereichen platzieren.",
+            "morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Nähte in einem gewissem Abstand zu den roten und gründen Masken platziert. Wenn deaktiviert, bleiben die Nähte nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' Blender und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist." 
         },
 		{
 			"id": "options.monitorcolorprofile",
@@ -8970,13 +8970,13 @@
 		},
 		{
 			"id": "mainwindow.exposuretab",
-			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.exposurehdr@</b><br><br>PTGui Pro kann HDR-Panoramen aus Belichtungsreihen zusammenfügen. Dies kann in der HDR-Sektion aktiviert werden.<br><br>Im unteren Bereich sind Belichtungskorrektur, Vignettierungskorrektur und Farbkorrektur konfiguriert.<br><br>Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen."
+			"machinetranslated": false,
+			"helptext": "<b>@mainwindow.tabs.exposurehdr@</b><br><br>PTGui Pro kann HDR-Panoramen aus Belichtungsreihen zusammenfügen. Dies aktivieren Sie in der HDR-Sektion.<br><br>Im unteren Bereich sind Belichtungskorrektur, Vignettierungskorrektur und Farbkorrektur konfiguriert.<br><br>Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen."
 		},
 		{
 			"id": "mainwindow.projectsettingstab",
-			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.projectsettings@</b><br><br>Diese Seite konfiguriert verschiedene Einstellungen, die sich auf das Verhalten von PTGui und Batch-Stitcher auswirken. Die Einstellungen werden als Teil des aktuellen Projekts (oder der Vorlage) gespeichert. Um die Standardeinstellungen für alle neuen Projekte zu ändern, verwenden Sie '@menubar.file@' | '@menubar.file.makedefault@'. Um PTGui auf die Verwendung seiner eigenen Standardeinstellungen zurückzusetzen, führen Sie '@menubar.file@' | '@menubar.file.resetdefault@' aus.<br><br>Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen.<br><br>Siehe auch: <a href='helppage:workingwithtemplates'>Arbeiten mit Vorlagen</a>"
+			"machinetranslated": false,
+			"helptext": "<b>@mainwindow.tabs.projectsettings@</b><br><br>Auf diese Seite konfigurieren Sie verschiedene Einstellungen, die sich auf das Verhalten von PTGui und Batch-Stitcher auswirken. Die Einstellungen werden als Teil des aktuellen Projekts (oder der Vorlage) gespeichert. Um die Standardeinstellungen für alle neuen Projekte zu ändern, verwenden Sie '@menubar.file@' | '@menubar.file.makedefault@'. Um PTGui auf die Verwendung seiner eigenen Standardeinstellungen zurückzusetzen, führen Sie '@menubar.file@' | '@menubar.file.resetdefault@' aus.<br><br>Wenn Sie mehr erfahren möchten, bewegen Sie die Maus über die einzelnen Parameter, um QuickInfos anzuzeigen.<br><br>Siehe auch: <a href='helppage:workingwithtemplates'>Arbeiten mit Vorlagen</a>"
 		},
 		{
 			"id": "mainwindow.previewtab",
@@ -9021,7 +9021,7 @@
 		{
 			"id": "workingwithtemplates",
 			"machinetranslated": false,
-			"helptext": "<b>Mit Vorlagen arbeiten</b><br><br>Mithilfe von Vorlagen können häufig verwendete Einstellungen schnell auf ein Projekt angewendet werden. Eine Vorlage ist nur eine normale PTGui-Projektdatei (mit der Erweiterung .pts) und jedes Projekt kann als Vorlage verwendet werden.<br><br>Verwenden Sie @menubar.file@ | @menubar.file.saveastemplate@, um schnell eine Vorlage aus dem aktiven Projekt zu erstellen und im Ordner Templates zu speichern. Da es sich bei einer Vorlage jedoch nur um eine normale Projektdatei handelt, kann sie auch mit @menubar.file@ | @menubar.file.saveproject@ gespeichert werden.<br><br>Um eine Vorlage auf das aktuelle Projekt anzuwenden, verwenden Sie @menubar.file@ | @menubar.file.applytemplate@ oder klicken Sie auf die Schaltfläche @menubar.file.applytemplate@ in der Symbolleiste.<br><br>In @optionspreferences@ kann ein Standardvorlagenordner für den Vorlagenspeicher konfiguriert werden. '@menubar.file.saveastemplate@' und '@menubar.file.applytemplate@' gehen standardmäßig in diesen Ordner. Mit '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@' können Vorlagen aus einem beliebigen Ordner geladen werden.<br><br>Standardmäßig kopiert '@menubar.file.applytemplate@' alle Einstellungen von der Vorlage mit Ausnahme der Kontrollpunkte und der Quellbilder. Kontrollpunkte werden niemals kopiert, da sie für die tatsächlichen Quellbilder spezifisch sind: Ein Kontrollpunkt, der auf die Ecke eines Gebäudes im ursprünglichen Projekt zeigt, könnte in einem anderen Projekt auf einen klaren blauen Himmel zeigen. Wenn Sie ein Projekt genau wie ein anderes Projekt anheften möchten, sind die Kontrollpunkte nicht notwendig: Der Stitcher ignoriert die Kontrollpunkte und verwendet nur die Bild- und Panoramaeinstellungen, um das Panorama zu erstellen.<br><br><optional product='pro'>Im Abschnitt '@mainwindow.tabs.projectsettings@', Abschnitt '@mainwindow.projectsettings.templatebehavior@' kann eine Vorlage so eingeschränkt werden, dass sie nur für bestimmte Teile eines Projekts gilt. So ist es beispielsweise möglich, eine Vorlage zu erstellen, die nur die Einstellungen des Optimierers ändert.<br><br></optional> Wenn Sie feststellen, dass Sie immer dieselbe Vorlage verwenden, sollten Sie '@menubar.file@' | '@menubar.file.makedefault@' verwenden, wodurch die Standardeinstellungen für alle neuen Projekte geändert werden. <optional product='pro'><br><br>Siehe auch: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>"
+			"helptext": "<b>Mit Vorlagen arbeiten</b><br><br>Mithilfe von Vorlagen können Sie häufig verwendete Einstellungen schnell auf ein Projekt angewenden. Eine Vorlage ist nur eine normale PTGui-Projektdatei (mit der Erweiterung .pts) und jedes Projekt kann als Vorlage verwendet werden.<br><br>Verwenden Sie '@menubar.file@' | '@menubar.file.saveastemplate@', um schnell eine Vorlage aus dem aktiven Projekt zu erstellen und im Ordner Templates zu speichern. Da es sich bei einer Vorlage jedoch nur um eine normale Projektdatei handelt, können Sie sie auch mit '@menubar.file@' | '@menubar.file.saveproject@' speichern.<br><br>Um eine Vorlage auf das aktuelle Projekt anzuwenden, verwenden Sie '@menubar.file@' | '@menubar.file.applytemplate@' oder klicken Sie auf die Schaltfläche '@menubar.file.applytemplate@' in der Symbolleiste.<br><br>In '@optionspreferences@' konfigurieren Sie einen Standardordner für die Vorlagen. '@menubar.file.saveastemplate@' und '@menubar.file.applytemplate@' verwenden standardmäßig in diesen Ordner. Mit '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@' laden Sie Vorlagen aus einem beliebigen Ordner.<br><br>Standardmäßig kopiert '@menubar.file.applytemplate@' alle Einstellungen von der Vorlage mit Ausnahme der Kontrollpunkte und der Quellbilder. Kontrollpunkte werden niemals kopiert, da sie für die tatsächlichen Quellbilder spezifisch sind. Ein Kontrollpunkt, der auf die Ecke eines Gebäudes im ursprünglichen Projekt zeigt, könnte in einem anderen Projekt auf einen klaren blauen Himmel zeigen. Wenn Sie ein Projekt genau wie ein anderes Projekt zusammenfügen möchten, sind die Kontrollpunkte nicht notwendig. Der Stitcher ignoriert die Kontrollpunkte und verwendet nur die Bild- und Panoramaeinstellungen, um das Panorama zu erstellen.<br><br><optional product='pro'>Im Abschnitt '@mainwindow.tabs.projectsettings@', Abschnitt '@mainwindow.projectsettings.templatebehavior@' können Sie eine Vorlage so eingeschränken, dass sie nur für bestimmte Teile eines Projekts gilt. So ist es beispielsweise möglich, eine Vorlage zu erstellen, die nur die Einstellungen des Optimierers ändert.<br><br></optional> Wenn Sie feststellen, dass Sie immer dieselbe Vorlage verwenden, sollten Sie '@menubar.file@' | '@menubar.file.makedefault@' verwenden, wodurch die Standardeinstellungen für alle neuen Projekte geändert werden. <optional product='pro'><br><br>Siehe auch: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>"
 		},
 		{
 			"id": "batchbuilder",
@@ -9031,7 +9031,7 @@
 		{
 			"id": "mainwindow.controlpointstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte werden verwendet, um anzuzeigen, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet: Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden: Kontrollpunkte werden als Teil von '@alignimages@' (in der Registerkarte '@mainwindow.tabs.projectassistant@') generiert. Kontrollpunkte können auch mit '@menubar.controlpoints@' | '@menubar.controlpoints.generate@' erzeugt werden. Und mit '@mainwindow.cptab.generatecphere@' können Kontrollpunkte in einem bestimmten Bereich erzeugt werden (siehe unten).<br><br>Manchmal ist PTGui nicht in der Lage, Kontrollpunkte automatisch zu generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem Fenster '@controlpointassistant@' (siehe '@menubar.tools@' | '@controlpointassistant@') können Sie bestimmen, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Das Bearbeiten von Kontrollpunkten ist einfach:<br><br>Um einen Kontrollpunkt hinzuzufügen, wählen Sie zwei überlappende Bilder durch anklicken der Miniaturansichten über jedem Bereich aus. Klicken Sie dann auf einen Punkt im linken Bild und klicken Sie auf den entsprechenden Punkt im rechten Bild. PTGui fügt für jedem Kontrollpunkt einen nummerierten Marker hinzu. Wenn '@menubar.controlpoints.autojump@' aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So erstellen Sie Kontrollpunkte in einem bestimmten Bereich: Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus ziehen. Dann rechtsklicken <optional platform='mac'>(oder Strg + Klick)</optional> im ausgewählten Bereich und wählen Sie '@mainwindow.cptab.generatecphere@'. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind: der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu verschieben, greifen sie ihn mit der Maus und ziehen ihn zur gewünschten Position. Sie löschen einen Kontrollpunkt oder ändern den Typ, indem Sie mit der rechten Maustaste auf den Marker oder in die Kontrollpunktliste klicken.<br><br>Mehrere Kontrollpunkte löschen Sie, indem Sie einen rechteckigen Bereich im Bild durch ziehen mit der Maus bei gedrückter Umschalttaste auswählen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> an einem der ausgewählten Kontrollpunkte und wählen Sie 'Löschen'.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte '@mainwindow.tabs.controlpoints@':<br>• Verwenden Sie die rechte Maustaste <optional platform='mac'>(oder Strg + Ziehen oder zwei Finger streichen)</optional> um die Bilder zu ziehen und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Bewegen von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können mit der Tastatur verschoben werden: Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Dies zeigt eine Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte '@cptable.dist@' zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle kann sortiert werden, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxenfehlern. Bilder mit Parallaxenfehlern können nicht perfekt zusammengefügt werden. Parallaxenfehler sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte zeigen an, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet. Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden. Kontrollpunkte werden als Teil von '@alignimages@' (in der Registerkarte '@mainwindow.tabs.projectassistant@') generiert. Kontrollpunkte erzeugen Sie auch mit '@menubar.controlpoints@' | '@menubar.controlpoints.generate@'. Und mit '@mainwindow.cptab.generatecphere@' erzeugen Sie Kontrollpunkte in einem bestimmten Bereich (siehe unten).<br><br>Manchmal ist PTGui nicht in der Lage, Kontrollpunkte automatisch zu generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem '@controlpointassistant@' (siehe '@menubar.tools@' | '@controlpointassistant@') überprüfen Sie, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Die Bearbeitung von Kontrollpunkten ist einfach:<br><br>Einen Kontrollpunkt fügen Sie hinzu, indem Sie zwei überlappende Bilder durch Anklicken der Miniaturansichten über jedem Bereich auswählen. Klicken Sie auf einen Punkt im linken Bild und anschließend auf den entsprechenden Punkt im rechten Bild. PTGui fügt jedem Kontrollpunkt einen nummerierten Marker hinzu. Wenn '@menubar.controlpoints.autojump@' aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So erstellen Sie Kontrollpunkte in einem bestimmten Bereich:<br><br>Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus aufziehen. Dann klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> in den ausgewählten Bereich und wählen Sie '@mainwindow.cptab.generatecphere@'. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind. Der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu verschieben, greifen Sie ihn mit der Maus und ziehen ihn zur gewünschten Position. Sie löschen einen Kontrollpunkt oder ändern seinen Typ, indem Sie mit der rechten Maustaste auf den Marker oder in die Kontrollpunktliste klicken.<br><br>Mehrere Kontrollpunkte löschen Sie, indem Sie einen rechteckigen Bereich im Bild durch ziehen mit der Maus bei gedrückter Umschalttaste auswählen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> auf einen der ausgewählten Kontrollpunkte und wählen Sie '@delete@'.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte '@mainwindow.tabs.controlpoints@':<br><br>• Verwenden Sie die rechte Maustaste<optional platform='mac'>( oder Strg + Ziehen oder zwei Finger streichen)</optional>, um die Bilder zu verschieben und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Verschieben von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können Sie mit der Tastatur verschieben. Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Diese zeigt eine Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte '@cptable.dist@' zeigt die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist: Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle können Sie sortieren, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit; Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxenfehlern. Bilder mit Parallaxenfehlern können nicht perfekt zusammengefügt werden. Parallaxenfehler sollten vermieden werden, indem alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
 		}
 	]
 }

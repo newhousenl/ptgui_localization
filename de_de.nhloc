@@ -262,11 +262,11 @@
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
-			"txt": "Kamera-Reaktionskurve speichern"
+			"txt": "Kamera-Kurve speichern"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"txt": "Kamera-Reaktionskurve laden"
+			"txt": "Kamera-Kurve laden"
 		},
 		{
 			"id": "txt.savevignettingcurve",
@@ -1708,7 +1708,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.cameracurve",
-			"txt": "Kamera-Reaktionskurve:"
+			"txt": "Kamera-Kurve:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.finetune",
@@ -2342,7 +2342,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize",
-			"txt": "Größe:"
+			"txt": "Festlegen auf:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize.megapixels",
@@ -2751,7 +2751,7 @@
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve",
-			"txt": "Kamera-Reaktionskurve:"
+			"txt": "Kamera-Kurve:"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.automatic",
@@ -2759,7 +2759,7 @@
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.generate",
-			"txt": "Neue neue Kurve erstellen"
+			"txt": "Neue neue Kamera-Kurve erstellen"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.usedefault",
@@ -2771,11 +2771,11 @@
 		},
 		{
 			"id": "previewappselector.openinptguiviewer",
-			"txt": "Öffnen in @ptguiviewer@"
+			"txt": "Im @ptguiviewer@ öffnen"
 		},
 		{
 			"id": "previewappselector.openin",
-			"txt": "Öffnen in %0"
+			"txt": "In %0 öffnen"
 		},
 		{
 			"id": "previewappselector.openinextension",
@@ -2783,7 +2783,7 @@
 		},
 		{
 			"id": "previewappselector.openoutputfolder",
-			"txt": "Öffne den Ausgabeordner"
+			"txt": "Ausgabeordner öffnen"
 		},
 		{
 			"id": "options.plugins",
@@ -5809,17 +5809,17 @@
 		{
 			"id": "mainwindow.imageparameters.cameracurve",
 			"machinetranslated": true,
-			"txt": "Kamerakurve"
+			"txt": "Kamera-Kurve"
 		},
 		{
 			"id": "txt.globalcameracurve",
 			"machinetranslated": true,
-			"txt": "Globale Kamerakurve"
+			"txt": "Globale Kamera-Kurve"
 		},
 		{
 			"id": "txt.cameracurve_n",
 			"machinetranslated": true,
-			"txt": "Kamerakurve #%0"
+			"txt": "Kamera-Kurve #%0"
 		},
 		{
 			"id": "txt.cameracurve.linear",
@@ -5829,7 +5829,7 @@
 		{
 			"id": "err.deletecameracurve_inuse",
 			"machinetranslated": false,
-			"txt": "Diese Kamerakurve kann nicht gelöscht werden, da sie von einem oder mehreren Bildern verwendet wird. Die Kamerakurve für jedes Bild wählen Sie auf der Registerkarte '@mainwindow.tabs.imageparameters@' aus."
+			"txt": "Diese Kamera-Kurve kann nicht gelöscht werden, da sie von einem oder mehreren Bildern verwendet wird. Die Kamera-Kurve für jedes Bild wählen Sie auf der Registerkarte '@mainwindow.tabs.imageparameters@' aus."
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess",
@@ -5844,7 +5844,7 @@
 		{
 			"id": "txt.toningcurve",
 			"machinetranslated": false,
-			"txt": "Toning-Kurve"
+			"txt": "Belichtungskurve"
 		},
 		{
 			"id": "txt.toningcurve.shape",
@@ -5964,7 +5964,7 @@
 		{
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": false,
-			"txt": "Steuert, ob die Positionen der Bilder einer Belichtungsreihe unabhängig oder verknüpft sind. Aktivieren Sie dieses Kontrollkästchen, um zu erzwingen, dass für die Bilder einer Belichtungsreihe dieselben @yaw@, @pitch@, @roll@ und @viewpoint@ Parameter gesetzt werden. Dies kann verwendet werden, wenn die Belichtungsreihe von einem Stativ aufgenommen wurde und die Bilder perfekt ausgerichtet sind. Wenn Sie dieses Kontrollkästchen deaktivieren, kann jedes Bild in der Gruppe unterschiedliche Positionen haben. Im letzteren Fall müssen Kontrollpunkte zwischen den Bildern in der Gruppe bereitgestellt werden, und der Optimierer richtet sie einzeln aus. Bilder mit verknüpften Positionen haben dieselbe Maske. Das Kontrollkästchen '@mainwindow.imageparameters.linked@' wird nur angezeigt, wenn das Projekt Gruppen verknüpfter Bilder enthält."
+			"txt": "Legt fest, ob die Positionen der Bilder einer Belichtungsreihe unabhängig oder verknüpft sind. Aktivieren Sie dieses Kontrollkästchen, um zu erzwingen, dass für die Bilder einer Belichtungsreihe dieselben @yaw@, @pitch@, @roll@ und @viewpoint@ Parameter gesetzt werden. Dies kann verwendet werden, wenn die Belichtungsreihe von einem Stativ aufgenommen wurde und die Bilder perfekt ausgerichtet sind. Wenn Sie dieses Kontrollkästchen deaktivieren, kann jedes Bild in der Gruppe unterschiedliche Positionen haben. Im letzteren Fall müssen Kontrollpunkte zwischen den Bildern in der Gruppe bereitgestellt werden, und der Optimierer richtet sie einzeln aus. Bilder mit verknüpften Positionen haben dieselbe Maske. Das Kontrollkästchen '@mainwindow.imageparameters.linked@' wird nur angezeigt, wenn das Projekt Gruppen verknüpfter Bilder enthält."
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
@@ -6046,7 +6046,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": false,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im Bereich '@mainwindow.createpanoramatab.blending@' im @panoramaeditor@) deaktiviert ist, werden Nähte normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies kann durch Erhöhen oder Verringern des @mainwindow.imageparameters.blendpriority@ eines Quellbilds angepasst werden. Dies ist ein relativer Wert: Wenn zwei Bilder eine Mischpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamerakurven enthalten. In diesem Feld wird für jedes Quellbild die Kamerakurve konfiguriert. Die Kamerakurven werden auf der Registerkarte @mainwindow.tabs.exposurehdr@ konfiguriert. Wenn das Projekt nur eine Kamerakurve enthält, wird es als '@txt.globalcameracurve@' bezeichnet. Wenn <b>@txt.cameracurve.linear@</b> ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und keine Kurve angewendet wird. Weitere Informationen finden Sie in den QuickInfos auf der Registerkarte @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds als Farbtemperatur in Grad Kelvin. Dies wird verwendet, wenn im @panoramaeditor.sidebar.postprocess@-Bereich des @panoramaeditor@ ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier konfigurierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 KB angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtunsreihen zusammenfügen, wird mit diesem Kontrollkästchen konfiguriert, ob die Bilder einer Belichtungsreihe dieselben Parameter @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn die Belichtungsreihen nicht von einem Stativ aufgenommen wurden und unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollten. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte bereitgestellt werden."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im Bereich '@mainwindow.createpanoramatab.blending@' im @panoramaeditor@) deaktiviert ist, werden Nähte normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies kann durch Erhöhen oder Verringern des @mainwindow.imageparameters.blendpriority@ eines Quellbilds angepasst werden. Dies ist ein relativer Wert: Wenn zwei Bilder eine Mischpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn @panoramaeditor.sidebar.blendsettings.seamfinding@ aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamera-Kurven enthalten. In diesem Feld wird für jedes Quellbild die Kamera-Kurve konfiguriert. Die Kamera-Kurven werden auf der Registerkarte @mainwindow.tabs.exposurehdr@ konfiguriert. Wenn das Projekt nur eine Kamera-Kurve enthält, wird es als '@txt.globalcameracurve@' bezeichnet. Wenn <b>@txt.cameracurve.linear@</b> ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und keine Kamera-Kurve angewendet wird. Weitere Informationen finden Sie in den QuickInfos auf der Registerkarte @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds als Farbtemperatur in Grad Kelvin. Dies wird verwendet, wenn im @panoramaeditor.sidebar.postprocess@-Bereich des @panoramaeditor@ ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier konfigurierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 KB angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtunsreihen zusammenfügen, wird mit diesem Kontrollkästchen konfiguriert, ob die Bilder einer Belichtungsreihe dieselben Parameter @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn die Belichtungsreihen nicht von einem Stativ aufgenommen wurden und unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollten. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte bereitgestellt werden."
 		},
 		{
 			"id": "proxysettings.button",
@@ -6979,7 +6979,7 @@
 			"id": "exposurehdrtab.optimizenow",
 			"machinetranslated": false,
 			"helptext": "Belichtungsoptimierung durchführen.",
-			"morehelptext": "<br><br>Analysiert überlappende Pixel aus verschiedenen Bildern. Je nachdem, was im @settings@-Fenster aktiviert ist, werden Vignettierung, Belichtung, Kameraempfindlichkeitskurve, Weißabgleich und @lensflare@-Kompensation angepasst, bis die Unterschiede zwischen den überlappenden Pixeln minimiert sind.<br><br>Da die Funktion tatsächlich überlappende Pixel analysieren muss, verwenden Sie diese Funktion erst, nachdem das Panorama korrekt ausgerichtet wurde."
+			"morehelptext": "<br><br>Überlappende Pixel aus verschiedenen Bildern werden analysiert. Je nachdem, was im @settings@-Dialog aktiviert ist, werden Vignettierung, Belichtung, Kamerareaktionskurve, Weißabgleich und @lensflare@-Kompensation angepasst, bis die Unterschiede zwischen den überlappenden Pixeln minimiert sind.<br><br>Da die Funktion nur bereits überlappende Pixel analysieren kann, verwenden Sie diese Funktion erst, nachdem das Panorama korrekt ausgerichtet wurde."
 		},
 		{
 			"id": "exposurehdrtab.settings",
@@ -6994,7 +6994,7 @@
 		{
 			"id": "exposurehdrtab.lensprofile",
 			"machinetranslated": true,
-			"helptext": "Für dieses Projekt sind mehrere Objektivprofile definiert. Jedes Objektivprofil hat seine eigene Vignettierungskurve und Kamerakurve. Wählen Sie das Objektivprofil, um die Kurven auf der rechten Seite anzuzeigen."
+			"helptext": "Für dieses Projekt sind mehrere Objektivprofile definiert. Jedes Objektivprofil hat seine eigene Vignettierungskurve und Kamera-Kurve. Wählen Sie das Objektivprofil, um die Kurven auf der rechten Seite anzuzeigen."
 		},
 		{
 			"id": "exposurehdrtab.vignettinggraph",
@@ -7005,7 +7005,7 @@
 		{
 			"id": "exposurehdrtab.cameracurvegraph",
 			"machinetranslated": true,
-			"helptext": "Kamera-Reaktionskurve",
+			"helptext": "Kamera-Kurve",
 			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert den Pixelwert, auf der linken Seite einen Pixelwert von 0 und die rechte Seite den maximalen Pixelwert (z. B. 255 für ein 8-Bit-Bild).<br><br>Die vertikale Achse zeigt die Lichtintensität. Dies wird in EV gezeigt, also ist dies im logarithmischen Maßstab.<br><br>Die Kamera-Kurve wird benötigt, um Belichtungs- und Vignettierungskorrekturen durchzuführen. Diese Korrekturen müssen auf die tatsächlichen Lichtintensitäten angewendet werden, nicht auf Pixelwerte."
 		},
 		{
@@ -7157,7 +7157,7 @@
 		{
 			"id": "projectsettingstab.templatebehavior.linkimages",
 			"machinetranslated": false,
-			"helptext": "Steuert, ob und wie die Verknüpfung von Bildern beim Anwenden dieses Projekts als Vorlage beeinflusst wird.",
+			"helptext": "Legt fest, ob und wie die Verknüpfung von Bildern beim Anwenden dieses Projekts als Vorlage beeinflusst wird.",
 			"morehelptext": "<br><br>Bei HDR-Panoramen können Belichtungsreihen verknüpft werden. Verknüpfte Bilder müssen die gleichen Bildparameter aufweisen, so dass sie effektiv als einzelnes Bild behandelt werden. Beim Anwenden einer Vorlage ist es möglich, dass die Belichtungsreihen im Zielprojekt noch nicht verknüpft sind oder dass das Zielprojekt im Vergleich zum Vorlagenprojekt eine andere Anzahl von Belichtungsreihen aufweist.<br><br>Daher kann PTGui Pro die Verknüpfung von Bildern beim Anwenden einer Vorlage ändern. Diese Einstellung wirkt sich auch auf den Batch-Builder aus: Beim Generieren von Projektdateien werden Bilder entsprechend dieser Einstellung verknüpft.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b> Verknüpfen Sie die Bilder im Zielprojekt genau wie im Vorlagenprojekt (d.h. die Bilder im Zielprojekt haben die gleiche Anzahl von Belichtungsreihen).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b> Erkennung von Belichtungsreihen mit Belichtungsreihen durch Suche nach sich wiederholenden Sequenzen in den Belichtungsparametern der Quellbilder. Dies führt die Funktion '@menubar.images@' | '@menubar.images.linkbracketed@' aus.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b> Behalte das Zielprojekt so, wie es ist.<br><br>Nach dem Verknüpfen der Bilder werden die Einstellungen der Vorlage für jede verknüpfte Gruppe von Bildern auf das Zielprojekt angewendet. Die Anzahl der Bilder in den Belichtungsreihen kann im Vorlagen- und Zielprojekt unterschiedlich sein."
 		},
 		{
@@ -7245,14 +7245,14 @@
 		{
 			"id": "createpanoramatab.fixsize",
 			"machinetranslated": false,
-			"helptext": "Stellen Sie die Ausgabegröße auf eine Anzahl von Pixeln oder auf die optimale Größe (oder einen Bruchteil davon) ein.",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Die Ausgabegröße wird bei der angegebenen Anzahl von Pixeln beibehalten. Wenn sich das Seitenverhältnis ändert (z.B. durch Ändern der Projektion, des Panoramafundgebiets oder Zuschneiden der Ausgabe), können sich Breite und Höhe ändern, die Gesamtzahl der Pixel bleibt jedoch gleich. Für sphärische Panoramen wird normalerweise eine 2: 1 equirektangulare Projektion verwendet, daher ergibt diese Option eine feste Breite und Höhe.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> Behalten Sie das Panorama bei der optimalen Größe oder dem angegebenen Prozentsatz der optimalen Größe bei.<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. Mit anderen Worten, keine Details aus den Quellbildern gehen verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe: Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung der Mitte der Quellbilder gleich der Winkelauflösung der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung.<br><br>Da die optimale Größe von mehreren Parametern abhängt, einschließlich der Brennweite des Objektivs, die normalerweise vom Optimierer eingestellt wird, kann die optimale Größe nach jeder Optimierung leicht variieren. Dies hängt auch von der Platzierung der Kontrollpunkte ab. Wenn diese Fluktuation unerwünscht ist, wählen Sie eine gewünschte Größe und wählen Sie '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
+			"helptext": "Legt fest, ob Sie die Ausgabegröße in Pixeln oder als optimale Größe (oder einen Bruchteil davon) angeben.",
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Die Ausgabegröße wird basierend auf der festgelegten Größe in Pixeln berechnet. Wenn sich das Seitenverhältnis ändert (z.B. durch Ändern der Projektion, des Blickwinkels oder Zuschneiden der Ausgabe), können sich Breite und Höhe ändern, die Gesamtzahl der Pixel bleibt jedoch gleich. Für sphärische Panoramen wird normalerweise eine 2: 1 equirektangulare Projektion verwendet, daher ergibt diese Option eine feste Breite und Höhe.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> Das Panorama wird in der optimalen Größe oder dem davon festgelegten Prozentsatz generiert.<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. So gehen keine Details aus den Quellbildern verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe. Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung in der Mitte der Quellbilder gleich der Winkelauflösung in der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung.<br><br>Da die optimale Größe von mehreren Parametern abhängt, einschließlich der Brennweite des Objektivs, die normalerweise vom Optimierer eingestellt wird, kann die optimale Größe nach jeder Optimierung leicht variieren. Dies hängt auch von der Platzierung der Kontrollpunkte ab. Wenn diese Veränderung unerwünscht ist, wählen Sie eine gewünschte Größe und wählen Sie '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
 		},
 		{
 			"id": "createpanoramatab.hundredpercent",
-			"machinetranslated": true,
-			"helptext": "Stellen Sie die Ausgabegröße auf die optimale Größe ein.",
-			"morehelptext": "<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. Mit anderen Worten, keine Details aus den Quellbildern gehen verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe: Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung der Mitte der Quellbilder gleich der Winkelauflösung der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung."
+			"machinetranslated": false,
+			"helptext": "Ausgabegröße auf die optimale Größe einstellen",
+			"morehelptext": "<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. So gehen keine Details aus den Quellbildern verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe. Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung in der Mitte der Quellbilder gleich der Winkelauflösung in der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformat",
@@ -7380,8 +7380,8 @@
 		{
 			"id": "createpanoramatab.interpolator",
 			"machinetranslated": false,
-			"helptext": "Steuert die Methode zum Berechnen von Pixeln zwischen den tatsächlichen Quellbildpixeln.",
-			"morehelptext": "<br><br>Wenn Bilder in einem Panorama verzerrt werden, müssen die Pixelwerte zwischen den Pixeln im Quellbild berechnet werden. Dieser Vorgang wird als Interpolation bezeichnet. PTGui bietet mehrere Interpolationsalgorithmen. Jeder Algorithmus hat seine Vor- und Nachteile. Welches der beste Interpolator ist, ist eine Frage des Geschmacks und ist abhängig von den tatsächlichen Bildern. Die Unterschiede zwischen Interpolatoren können subtil sein, aber sie sind um diagonale Linien (glatter oder leicht zackig) und um Bereiche mit hohem Kontrast (mehr oder weniger 'Halo'-Artefakte) bemerkbar.<br><br><b>Nächster Nachbar:</b> Dieser Interpolator wählt einfach das Pixel aus, das dem zu berechnenden Pixelort am nächsten ist. Der Algorithmus ist sehr schnell, aber die Ergebnisse sind sehr schlecht.<br><br><b>Bilinear:</b> Die Interpolation erfolgt durch Mittelung der 4 Pixel um die gewünschte Pixelposition herum. Relativ schnell und besser als der 'nächste Nachbar', aber nicht für die Produktion empfohlen.<br><br><b>Bicubic:</b> Verwendet einen 4x4-Kernel, d.h. 16 Pixel um die gewünschte Pixelposition werden verwendet, um jedes Pixel im Panorama zu berechnen. Drei verschiedene Schärfstufen stehen zur Verfügung. Der '@mainwindow.createpanoramatab.interpolator.bicubicsofter@'-Interpolator wird empfohlen, wenn HDR-Quellbilder verwendet werden, da er keine negativen Koeffizienten enthält. Andere Interpolatoren haben negative Koeffizienten, die Halos um Bereiche mit hohem Kontrast in HDR-Panoramen verursachen können.<br><br><b>Lanczos und Spline:</b> Anspruchsvollere Interpolatoren mit noch größeren Kernen. Die größeren Kerne bieten glattere diagonale Linien, haben aber eine stärkere Tendenz, sichtbare Halos um Objekte mit hohem Kontrast zu erzeugen.<br><br><b>@default@:</b> Verwendet 'Lanczos2' für reguläre Quellbilder oder '@mainwindow.createpanoramatab.interpolator.bicubicsofter@' für 32-Bit-HDR-Quellbilder."
+			"helptext": "Die Methode zum Berechnen von Pixeln zwischen den tatsächlichen Quellbildpixeln",
+			"morehelptext": "<br><br>Wenn Bilder in einem Panorama verzerrt werden, müssen die Pixelwerte zwischen den Pixeln im Quellbild berechnet werden. Dieser Vorgang wird als Interpolation bezeichnet. PTGui bietet mehrere Interpolationsalgorithmen. Jeder Algorithmus hat seine Vor- und Nachteile. Welches der beste Interpolator ist, ist eine Frage des Geschmacks und ist abhängig von den tatsächlichen Bildern. Die Unterschiede zwischen Interpolatoren können subtil sein, aber sie sind um diagonale Linien (glatter oder leicht zackig) und um Bereiche mit hohem Kontrast (mehr oder weniger 'Halo'-Artefakte) bemerkbar.<br><br><b>Nächster Nachbar:</b> Dieser Interpolator wählt einfach das Pixel aus, das dem zu berechnenden Pixelort am nächsten ist. Der Algorithmus ist sehr schnell, die Ergebnisse sind aber vergleichsweise schlecht.<br><br><b>Bilinear:</b> Die Interpolation erfolgt durch Mittelung der 4 Pixel um die gewünschte Pixelposition herum. Relativ schnell und besser als der 'nächste Nachbar', aber nicht für die Produktion empfohlen.<br><br><b>Bicubic:</b> Verwendet einen 4x4-Kernel, d.h. 16 Pixel um die gewünschte Pixelposition werden verwendet, um jedes Pixel im Panorama zu berechnen. Drei verschiedene Schärfstufen stehen zur Verfügung. Der '@mainwindow.createpanoramatab.interpolator.bicubicsofter@'-Interpolator wird empfohlen, wenn HDR-Quellbilder verwendet werden, da er keine negativen Koeffizienten enthält. Andere Interpolatoren haben negative Koeffizienten, die Halos um Bereiche mit hohem Kontrast in HDR-Panoramen verursachen können.<br><br><b>Lanczos und Spline:</b> Anspruchsvollere Interpolatoren mit noch größeren Kernen. Die größeren Kerne bieten glattere diagonale Linien, haben aber eine stärkere Tendenz, sichtbare Halos um Objekte mit hohem Kontrast zu erzeugen.<br><br><b>@default@:</b> Verwendet 'Lanczos2' für normale Quellbilder und '@mainwindow.createpanoramatab.interpolator.bicubicsofter@' für 32-Bit-HDR-Quellbilder."
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",
@@ -7391,7 +7391,7 @@
 		{
 			"id": "panoeditor.toolbar.mouseover",
 			"machinetranslated": true,
-			"label": "Wählen Sie das Bild unter dem Mauszeiger",
+			"label": "Wählen Sie das Bild unter dem Mauszeiger aus",
 			"helptext": "Während Sie die Maus über das Panorama bewegen, wird das Quellbild unter dem Mauszeiger hervorgehoben."
 		},
 		{
@@ -7448,13 +7448,13 @@
 			"id": "panoeditor.toolbar.cylindrical",
 			"machinetranslated": false,
 			"label": "Zylindrische Projektion",
-			"helptext": "Wechseln Sie zur zylindrischen Projektion. Geeignet für 360°-Panoramen."
+			"helptext": "Zur zylindrischen Projektion wechseln. Geeignet für 360°-Panoramen."
 		},
 		{
 			"id": "panoeditor.toolbar.equirectangular",
 			"machinetranslated": false,
 			"label": "@+projection.equirectangular@ Projektion",
-			"helptext": "Wechseln Sie zu equirectangular Projektion. Dies ist die Projektion für sphärische 360​​° x 180° Panoramen."
+			"helptext": "Zur equirectangular Projektion wechseln. Dies ist die Projektion für sphärische 360​​° x 180° Panoramen."
 		},
 		{
 			"id": "panoeditor.toolbar.otherprojection",
@@ -7463,17 +7463,17 @@
 		},
 		{
 			"id": "panoeditor.toolbar.detailviewer",
-			"machinetranslated": true,
-			"label": "Zeigen Sie den Detail Viewer an",
+			"machinetranslated": false,
+			"label": "Den Detail Viewer anzeigen",
 			"helptext": "Der Detail Viewer kann zum Vergrößern des Panoramas verwendet werden.",
-			"morehelptext": "<br><br>Im Panorama-Editor wird eine Lupe eingeblendet, die den Standort des Detail Viewers anzeigt. Dieses Symbol kann bewegt werden, um an einem bestimmten Ort zu zoomen.<br><br>Bei sphärischen Panoramen ist der Detail Viewer nützlich, um den Nadir und den Zenit des Panoramas zu untersuchen, da er eine perspektivisch korrigierte Ansicht anzeigt."
+			"morehelptext": "<br><br>Im Panorama-Editor wird eine Lupe eingeblendet, die die Position des Detail Viewers anzeigt. Verwenden Sie diese Lupe, um an einen bestimmten Ort zu zoomen.<br><br>Bei sphärischen Panoramen ist der Detail Viewer nützlich, um den Nadir und den Zenit des Panoramas zu untersuchen, da er eine perspektivisch korrigierte Ansicht zeigt."
 		},
 		{
 			"id": "panoeditor.toolbar.preview",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Im externen Viewer öffnen",
-			"helptext": "Erstellt einen Screenshot des Panorama-Editors und öffnet diesen als externen Viewer.",
-			"morehelptext": "<br><br>Nützlich für die interaktive Vorschau eines sphärischen Panoramas im PTGui Viewer. Ein Screenshot des Panorama-Editors wird in der aktuell angezeigten Größe erstellt. PTGui fragt Sie, in welcher Anwendung das Bild geöffnet werden muss. Zusätzliche Anwendungen können in @optionspreferences@ | @options.foldersandfileshtml@ konfiguriert werden.<br><br>Beachten Sie, dass dies eine schnelle, aber niedrige Auflösungsvorschau bietet. Für eine Vorschau in höherer Qualität verwenden Sie stattdessen die Registerkarte @menubar.project.preview@ im Hauptfenster."
+			"helptext": "Erstellt einen Screenshot des Panorama-Editors und öffnet diesen in einem externen Viewer.",
+			"morehelptext": "<br><br>Nützlich für eine interaktive Vorschau eines sphärischen Panoramas im PTGui Viewer. Ein Screenshot des Panorama-Editors wird in der aktuell angezeigten Größe erstellt. PTGui fragt Sie, in welcher Anwendung das Bild geöffnet werden soll. Zusätzliche Anwendungen können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren.<br><br>Beachten Sie, dass dies eine schnelle, aber nur geringe Auflösung in der Vorschau bietet. Für eine Vorschau in höherer Qualität verwenden Sie stattdessen die Registerkarte '@menubar.project.preview@' im Hauptfenster."
 		},
 		{
 			"id": "panoeditor.toolbar.blended",
@@ -8552,7 +8552,7 @@
 		{
 			"id": "photometricsettings.optimizeflare",
 			"machinetranslated": false,
-			"helptext": "Steuert, ob @lensflare@ einzelner Quellbilder kompensiert wird. Der Kontrast einzelner Bilder wird erhöht, um die durch @lensflare@ verursachte Kontrastminderung auszugleichen.",
+			"helptext": "Legt fest, ob @lensflare@ einzelner Quellbilder kompensiert wird. Der Kontrast einzelner Bilder wird erhöht, um die durch @lensflare@ verursachte Kontrastminderung auszugleichen.",
 			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, werden die Spalten '@+flare@'; auf der Registerkarte '@mainwindow.tabs.imageparameters@'; angepasst.<br><br><b>@photometricsettings.disabled@:</b> @lensflare@ wird nicht optimiert und die @flare@-Parameter aller Bilder werden bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> @lensflare@ wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen @flare@-Parameter werden beibehalten."
 		},
 		{
@@ -8568,14 +8568,14 @@
 		{
 			"id": "photometricsettings.optimizevignetting",
 			"machinetranslated": false,
-			"helptext": "Konfigurieren Sie, ob die Vignettierung optimiert wird.",
+			"helptext": "Legt fest, ob die Vignettierung optimiert wird.",
 			"morehelptext": "<br><br>Vignettierung wird auch als Lichtabfall bezeichnet. Vignettierung bewirkt, dass ein Bild zu den Ecken dunkler wird. Es ist ein Artefakt des Objektivs. Im allgemeinen ist der Effekt bei größerer Blendenöffnung stärker (niedrigere Blendenwerte). Vignettierung ist die Hauptursache für Belichtungsabweichungen in Panoramen.<br><br><b>Deaktiviert:</b> Die Vignettierung wird nicht optimiert und die Vignettierungskurve wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Vignettierung wird optimiert.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Vignettierungsparameter werden beibehalten."
 		},
 		{
 			"id": "photometricsettings.optimizecameracurve",
 			"machinetranslated": true,
-			"helptext": "Konfigurieren Sie, ob die Kamera-Reaktionskurve optimiert wird.",
-			"morehelptext": "<br><br>Die Pixelwerte in regulären Bilddateien repräsentieren nicht die tatsächliche Lichtintensität der Szene in der realen Welt. Stattdessen bildet jede Kamera die aufgezeichnete Helligkeit jedes Pixels entsprechend einer bestimmten Kurve in einen numerischen Wert ab. Belichtungskorrektur und HDR-Erzeugung arbeiten mit realen Lichtintensitäten, daher muss die Kamera-Reaktionskurve bekannt sein. PTGui Pro kann die Antwortkurve durch Analyse mehrerer überlappender Bilder bestimmen. Die genauesten Ergebnisse werden erhalten, wenn überlappende Bilder mit unterschiedlichen Belichtungszeiten aufgenommen werden.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> Analysiere die Bilder, um die Antwortkurve zu bestimmen. Die Kamera-Kurve kann nur genau bestimmt werden, wenn das Projekt überlappende Pixel enthält, die bei verschiedenen Belichtungseinstellungen aufgenommen wurden. Daher sollte diese Option nur für HDR-Projekte verwendet werden.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> Versuchen Sie nicht, die Antwortkurve zu ermitteln. Verwenden Sie stattdessen eine Standardkurve.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuelle Antwortkurve wird beibehalten.<br><br><b>@options.automatic@ (Standard):</b> Für HDR-Projekte wird die Kamera-Reaktionskurve bestimmt; Für Nicht-HDR-Projekte wird die Standardkurve verwendet."
+			"helptext": "Legt fest, ob die Kamera-Kurve optimiert wird.",
+			"morehelptext": "<br><br>Die Pixelwerte in regulären Bilddateien repräsentieren nicht die tatsächliche Lichtintensität der Szene in der realen Welt. Stattdessen bildet jede Kamera die aufgezeichnete Helligkeit jedes Pixels entsprechend einer bestimmten Kurve in einen numerischen Wert ab. Belichtungskorrektur und HDR-Erzeugung arbeiten mit realen Lichtintensitäten, daher muss die Kamera-Kurve bekannt sein. PTGui Pro kann die Antwortkurve durch Analyse mehrerer überlappender Bilder bestimmen. Die genauesten Ergebnisse werden erhalten, wenn überlappende Bilder mit unterschiedlichen Belichtungszeiten aufgenommen werden.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> Analysiere die Bilder, um die Antwortkurve zu bestimmen. Die Kamera-Kurve kann nur genau bestimmt werden, wenn das Projekt überlappende Pixel enthält, die bei verschiedenen Belichtungseinstellungen aufgenommen wurden. Daher sollte diese Option nur für HDR-Projekte verwendet werden.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> Versuchen Sie nicht, die Antwortkurve zu ermitteln. Verwenden Sie stattdessen eine Standardkurve.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuelle Antwortkurve wird beibehalten.<br><br><b>@options.automatic@ (Standard):</b> Für HDR-Projekte wird die Kamera-Kurve bestimmt; Für Nicht-HDR-Projekte wird die Standardkurve verwendet."
 		},
 		{
 			"id": "photometricsettings.defaults",
@@ -8660,7 +8660,7 @@
 		{
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
 			"machinetranslated": false,
-			"helptext": "Wählen Sie das ICC-Farbprofil für das generierte Panorama aus.",
+			"helptext": "Das ICC-Farbprofil für das generierte Panorama",
 			"morehelptext": "<br><br>Farben in digitalen Bildern werden im Allgemeinen durch Kombinieren verschiedener Mengen von roten, grünen und blauen Farben erzeugt. Eine bestimmte Kombination von Rot-, Grün- und Blauwerten beschreibt eine physikalische Farbe jedoch nicht eindeutig: Die tatsächlich reproduzierte Farbe hängt von den physikalischen Eigenschaften der Anzeige ab. Mit anderen Worten: Verschiedene Anzeigegeräte verwenden leicht unterschiedliche Arten von Grundfarben in Rot, Grün und Blau. Ohne weitere Informationen könnte das Bild auf jedem Bildschirm anders aussehen. Durch Einfügen eines Farbprofils werden die Pixelwerte in einem Bild an die tatsächlichen physischen Farben angepasst. PTGui konvertiert alle Farben in den ausgewählten Farbraum und nimmt das ICC-Farbprofil in die Bilddatei auf.<br><br>Übliche Farbprofile sind:<br><br><b>sRGB</b> : Dies ist der De-facto-Standardfarbraum für digitale Bilder. Das Bild sieht auf nicht kalibrierten Displays und in Anwendungen, die nicht farbverwaltet sind, recht gut aus. Wenn Ihr Panorama im Internet veröffentlicht wird, ist sRGB eine gute Wahl. Andererseits ist sRGB ein relativ enger Farbraum. Bestimmte Farben, die auf Papier gedruckt werden können, werden vom sRGB-Farbraum nicht abgedeckt.<br><br><b>Adobe RGB (1998)</b> : Dieser Farbraum hat einen größeren Farbumfang als sRGB und deckt fast alle Farben ab, die auf Papier gedruckt werden können. Dies ist eine gute Wahl, wenn das Panorama gedruckt werden soll.<br><br><b>ProPhoto RGB</b> und <b>Wide Gamut RGB</b> : Diese Farbräume haben einen sehr großen Farbumfang und decken fast alle möglichen Farben ab, die ein Mensch wahrnehmen kann. Da sie jedoch einen viel größeren Farbbereich als sRGB abdecken, muss das resultierende Bild in einer farbverwalteten Anwendung angezeigt werden, da sonst die Farben sehr matt aussehen.<br><br>Die Farbräume mit großem Farbumfang sollten im Allgemeinen mit 16-Bit-Ausgabe verwendet werden. Eine Auflösung von 8 Bit reicht nicht aus, um alle verfügbaren Farben abzudecken, und glatte Farbverläufe können ein &quot;posterisiertes&quot; Aussehen haben. Folglich ist JPEG kein geeignetes Format, da es auf 8 Bit beschränkt ist.<br><br>Beachten Sie, dass die Ausgabe in einem größeren Farbraum als dem Farbraum des Quellbilds keinen Vorteil hat. Durch das Konvertieren eines sRGB-Bilds in einen Farbraum mit großem Farbumfang wird das Bild nicht verbessert. Daher bietet PTGui die Möglichkeit, dasselbe Farbprofil wie das der Quellbilder zu verwenden. Dies erfolgt standardmäßig, wenn alle Bilder im Panorama dasselbe Farbprofil haben.<br><br>Für RAW-Bilder muss ein Farbraum explizit ausgewählt werden. Dieser Farbraum wird während der Rohkonvertierung verwendet."
 		},
 		{
@@ -8696,7 +8696,7 @@
 		{
 			"id": "photometricsettings.optimizewhitebalance",
 			"machinetranslated": false,
-			"helptext": "Steuert, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
+			"helptext": "Legt fest, ob der Weißabgleich einzelner Quellbilder angepasst wird, um Farbunterschiede zwischen Bildern zu minimieren.",
 			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte @mainwindow.tabs.imageparameters@ angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten eines oder mehrerer Bilder darauf hinweisen, dass der automatische Weißabgleich verwendet wurde, wird die Weißabgleichoptimierung durchgeführt. Wenn (gemäß den EXIF-Daten) die Bilder mit einer bestimmten Weißabgleichvoreinstellung aufgenommen wurden, wird angenommen, dass alle Bilder identische Weißabgleicheinstellungen haben, sodass der Weißabgleich nicht optimiert wird.<br><br><b>@photometricsettings.disabled@:</b> Der Weißabgleich wird nicht optimiert und die aktuellen Weißabgleichparameter werden beibehalten.<br><br><b>@photometricsettings.enabled@:</b> Der Weißabgleich wird optimiert."
 		},
 		{
@@ -8712,7 +8712,7 @@
 		{
 			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
 			"machinetranslated": false,
-			"helptext": "Diese Kamerakurve wird derzeit nicht verwendet. Die Kamerakurve muss einem oder mehreren Bildern in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
+			"helptext": "Diese Kamera-Kurve wird derzeit nicht verwendet. Die Kamera-Kurve muss einem oder mehreren Bildern in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
 		},
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
@@ -8746,7 +8746,7 @@
 		{
 			"id": "photometricsettings.optimizeexposure",
 			"machinetranslated": false,
-			"helptext": "Steuert, ob die Helligkeit einzelner Quellbilder angepasst wird, um die Helligkeitsunterschiede zwischen überlappenden Bildern zu minimieren.",
+			"helptext": "Legt fest, ob die Helligkeit einzelner Quellbilder angepasst wird, um die Helligkeitsunterschiede zwischen überlappenden Bildern zu minimieren.",
 			"morehelptext": "<br><br>Wenn aktiviert, wird die Spalte '@mainwindow.imageparameters.expoffset@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' angepasst.<br><br><b>@photometricsettings.onlyifnecessary@:</b> Wenn die EXIF-Daten der Bilder Belichtungsinformationen enthalten, werden diese Daten als korrekt angenommen und es wird keine zusätzliche Helligkeitsoptimierung durchgeführt. Wenn die EXIF-Daten keine Belichtungsinformationen enthalten, wird die Helligkeit optimiert.<br><br><b>@photometricsettings.disabled@:</b> Die Helligkeit wird nicht optimiert und die Spalte '@mainwindow.imageparameters.expoffset@' aller Bilder auf der Registerkarte '@mainwindow.tabs.imageparameters@' wird bei der nächsten Optimierung auf Null zurückgesetzt.<br><br><b>@photometricsettings.enabled@:</b> Die Helligkeit der Quellbilder wird angepasst.<br><br><b>@photometricsettings.keepcurrent@:</b> Die aktuellen Werte in der Spalte '@mainwindow.imageparameters.expoffset@' werden beibehalten."
 		},
 		{
@@ -8809,25 +8809,25 @@
 		{
 			"id": "exposurehdrtab.cameracurvegraph_v2",
 			"machinetranslated": false,
-			"helptext": "Kamerakurve",
-			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist die Pixelintensität im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Im Allgemeinen wendet PTGui die Kurve zweimal an: Vor dem Mischen wird die inverse Kurve angewendet, um Pixelwerte in lineare Lichtintensitäten umzuwandeln. Anschließend werden das Mischen, die Belichtungs-/Vignettierungskorrektur und das HDR-Zusammenführen im linearen Farbraum durchgeführt. Dann wird die Kurve erneut in die entgegengesetzte Richtung angewendet, um die lineare Luminanz in Pixelwerte umzuwandeln. Schließlich wird beim Speichern des Bildes eine Gammakorrektur gemäß dem ICC-Farbprofil angewendet.<br><br>Ein Projekt kann mehrere Kamerakurven enthalten. Für jedes Quellbild können Sie eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugeweisen. Das Feld '@mainwindow.imageparameters.cameracurve@' können Sie auch auf '@txt.cameracurve.linear@' setzen, wenn Ihnen bekannt ist, dass das Quellbild lineare Daten enthält. PTGui geht standardmäßig davon aus, dass RAW- und HDR-Quellbilder linear sind. Wenn alle Quellbilder linear sind, ist hier keine Kamerakurve sichtbar.<br><br>Wenn mehrere oder keine Kamerakurven konfiguriert sind, kann die für die Ausgabe zu verwendende Kurve im @panoramaeditor@ im '@panoramaeditor.sidebar.postprocess@'-Bedienfeld konfiguriert werden.<br><br>PTGui kann die Kamerakurve als Teil von '@mainwindow.exposurehdrpanel.autoexpadjustmentsection@' bestimmen. Drücken Sie dazu die Schaltfläche '@mainwindow.exposurehdrpanel.optimizenow@'. Dies erfordert Belichtungsreihen. Die Kamerakurve wird durch Vergleichen des gleichen Pixels in unterschiedlich belichteten Bildern ermittelt. Für Einzelbelichtungen (ohne Belichtungsreihen) verwendet PTGui eine Standardkurve, die normalerweise einwandfrei funktioniert.<br><br>Verwenden Sie die Schaltflächen in der Symbolleiste oben, um die Kurve zu bearbeiten, zu laden, zu speichern oder zu löschen oder um dem Projekt eine zusätzliche Kamerakurven hinzuzufügen."
+			"helptext": "Kamera-Kurve",
+			"morehelptext": "<br><br>Die Kamera-Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist die Pixelintensität im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Im Allgemeinen wendet PTGui die Kamera-Kurve zweimal an: Vor dem Überblenden wird die inverse Kamera-Kurve angewendet, um Pixelwerte in lineare Lichtintensitäten umzuwandeln. Anschließend werden das Mischen, die Belichtungs-/Vignettierungskorrektur und das HDR-Zusammenführen im linearen Farbraum durchgeführt. Dann wird die Kamera-Kurve erneut in die entgegengesetzte Richtung angewendet, um die lineare Luminanz in Pixelwerte umzuwandeln. Schließlich wird beim Speichern des Bildes eine Gammakorrektur gemäß dem ICC-Farbprofil angewendet.<br><br>Ein Projekt kann mehrere Kamera-Kurven enthalten. Für jedes Quellbild können Sie eine der Kamera-Kurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugeweisen. Das Feld '@mainwindow.imageparameters.cameracurve@' können Sie auch auf '@txt.cameracurve.linear@' setzen, wenn Ihnen bekannt ist, dass das Quellbild lineare Daten enthält. PTGui geht standardmäßig davon aus, dass RAW- und HDR-Quellbilder linear sind. Wenn alle Quellbilder linear sind, ist hier keine Kamera-Kurve sichtbar.<br><br>Wenn mehrere oder keine Kamera-Kurven konfiguriert sind, kann die für die Ausgabe zu verwendende Kamera-Kurve im @panoramaeditor@ im '@panoramaeditor.sidebar.postprocess@'-Bedienfeld konfiguriert werden.<br><br>PTGui kann die Kamera-Kurve als Teil von '@mainwindow.exposurehdrpanel.autoexpadjustmentsection@' bestimmen. Drücken Sie dazu die Schaltfläche '@mainwindow.exposurehdrpanel.optimizenow@'. Dies erfordert Belichtungsreihen. Die Kamera-Kurve wird durch Vergleichen des gleichen Pixels in unterschiedlich belichteten Bildern ermittelt. Für Einzelbelichtungen (ohne Belichtungsreihen) verwendet PTGui eine Standardkurve, die normalerweise einwandfrei funktioniert.<br><br>Verwenden Sie die Schaltflächen in der Symbolleiste oben, um die Kamera-Kurve zu bearbeiten, zu laden, zu speichern oder zu löschen oder um dem Projekt eine zusätzliche Kamera-Kurven hinzuzufügen."
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
 			"machinetranslated": false,
-			"helptext": "Kamerakurve hinzufügen",
-			"morehelptext": "<br><br>Fügt dem Projekt eine Kamerakurve hinzu. Ein Projekt kann mehrere Kamerakurven enthalten. Für jedes Quellbild kann eine der Kamerakurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
+			"helptext": "Kamera-Kurve hinzufügen",
+			"morehelptext": "<br><br>Fügt dem Projekt eine Kamera-Kurve hinzu. Ein Projekt kann mehrere Kamera-Kurven enthalten. Für jedes Quellbild kann eine der Kamera-Kurven in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' zugewiesen werden."
 		},
 		{
 			"id": "txt.removecameraresponsecurve",
 			"machinetranslated": false,
-			"helptext": "Kamera-Reaktionskurve entfernen",
-			"morehelptext": "<br><br>Entfernt diese Kamerakurve aus dem Projekt. Eine Kurve können Sie nur entfernen, wenn sie im Projekt nicht verwendet wird. Die Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' ausgewählt sein."
+			"helptext": "Kamera-Kurve entfernen",
+			"morehelptext": "<br><br>Entfernt diese Kamera-Kurve aus dem Projekt. Eine Kamera-Kurve können Sie nur entfernen, wenn sie im Projekt nicht verwendet wird. Die Kamera-Kurve darf nicht in der Spalte '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' ausgewählt sein."
 		},
 		{
 			"id": "txt.editcameraresponsecurve",
 			"machinetranslated": true,
-			"helptext": "Kamerakurve bearbeiten"
+			"helptext": "Kamera-Kurve bearbeiten"
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
@@ -8893,8 +8893,8 @@
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
 			"machinetranslated": false,
-			"helptext": "Steuert, ob die Kamerareaktionskurve aus der Vorlage kopiert wird.",
-			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle Kamerareaktionskurven werden aus dem Vorlagenprojekt kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden aus der Vorlage kopiert.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Die Kamerareaktionskurven werden aus der Vorlage kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden, mit Ausnahme von RAW-Bildern, kopiert. Bei RAW-Bildern bleibt das Feld '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' auf '@txt.cameracurve.linear@' eingestellt, selbst wenn die Vorlage eine optimierte Kamerakurve verwendet. Dies ist die empfohlene Einstellung. Dadurch wird sichergestellt, dass dieselbe Vorlage für RAW- und normale Bilder verwendet werden kann.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Die Einstellungen der Kamerareaktionskurve werden im Zielprojekt nicht geändert."
+			"helptext": "Legt fest, ob die Kamerareaktionskurve aus der Vorlage kopiert wird.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle Kamerareaktionskurven werden aus dem Vorlagenprojekt kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden aus der Vorlage kopiert.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Die Kamerareaktionskurven werden aus der Vorlage kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden, mit Ausnahme von RAW-Bildern, kopiert. Bei RAW-Bildern bleibt das Feld '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' auf '@txt.cameracurve.linear@' eingestellt, selbst wenn die Vorlage eine optimierte Kamera-Kurve verwendet. Dies ist die empfohlene Einstellung. Dadurch wird sichergestellt, dass dieselbe Vorlage für RAW- und normale Bilder verwendet werden kann.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Die Einstellungen der Kamerareaktionskurve werden im Zielprojekt nicht geändert."
 		}
 	],
 	"helppages": [
@@ -8926,12 +8926,12 @@
 		{
 			"id": "panoramaeditor",
 			"machinetranslated": false,
-			"helptext": "<b>@panoramaeditor@</b><br><br>Der Panorama-Editor zeigt eine Live-Vorschau des Panoramas. Sie können die Projektion des Panoramas verändert, das Panorama beschneiden und einzelne Bilder innerhalb des Panoramas verschieben. Den Panorama-Editor öffnen Sie über '@menubar.tools@' | '@panoramaeditor@' oder durch <optional platform='windows'>Drücken von Strg + E</optional><optional platform='mac'>Drücken von Cmd + E</optional>.<br><br>Der Panorama-Editor bietet drei Modi, die Sie durch Auswahl der entsprechenden Schaltfläche in der Symbolleiste aktivieren:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Um Bilder einzeln innerhalb des Panoramas neu zu positionieren.<br><b>@panoramaeditor.menubar.editpano@:</b> Um das Panorama als Ganzes zu verschieben oder zu drehen.<br><b>@panoeditor.menubar.setcenter@:</b> Um das Panorama um einen bestimmten Punkt zu zentrieren.<br><br>Je nach gewähltem Modus verschieben Sie entweder das gesamte Panorama oder einzelne Bilder. Ziehen Sie mit der linken Maustaste, um zu verschieben. Ziehen Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Ziehen)</optional>, um zu rotieren.<br><br>Öffnen Sie mit einem Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf das Panorama für weitere Aktionen das Kontextmenü.<br><br>Am linken und unteren Fensterrand befinden sich zwei Schieberegler für den Blickwinkel. Mit ihnen stellen Sie die Größe des Panoramas ein.<br><br>Auf der rechten Seite befindet sich die Seitenleiste mit weiteren Bearbeitungsoptionen. Die Seitenleiste können Sie der Pfeiltaste ausblenden oder sperren.<br><br>Klicken Sie auf die Lupe, um den Detail-Viewer aufzurufen, mit dem Sie in bestimmte Bereiche des Panoramas zoomen können.<br><br>Sie können ein Gitter überlageren, indem Sie den kleinen dreieckige Knopf (unten) nach rechts ziehen.<br><br>In der Symbolleiste wählen Sie einen von drei Mischmodi aus: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
+			"helptext": "<b>@panoramaeditor@</b><br><br>Der Panorama-Editor zeigt eine Live-Vorschau des Panoramas. Sie können die Projektion des Panoramas verändern, das Panorama beschneiden und einzelne Bilder innerhalb des Panoramas verschieben. Den Panorama-Editor öffnen Sie über '@menubar.tools@' | '@panoramaeditor@' oder durch <optional platform='windows'>Drücken von Strg + E</optional><optional platform='mac'>Drücken von Cmd + E</optional>.<br><br>Der Panorama-Editor bietet drei Modi, die Sie durch Auswahl der entsprechenden Schaltfläche in der Symbolleiste aktivieren:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Um Bilder einzeln innerhalb des Panoramas neu zu positionieren.<br><b>@panoramaeditor.menubar.editpano@:</b> Um das Panorama als Ganzes zu verschieben oder zu drehen.<br><b>@panoeditor.menubar.setcenter@:</b> Um das Panorama um einen bestimmten Punkt zu zentrieren.<br><br>Je nach gewähltem Modus verschieben Sie entweder das gesamte Panorama oder einzelne Bilder. Ziehen Sie mit der linken Maustaste, um zu verschieben, der rechten <optional platform='mac'> (oder Strg + Ziehen)</optional>, um zu rotieren.<br><br>Öffnen Sie mit einem Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf das Panorama für weitere Aktionen das Kontextmenü.<br><br>Am linken und unteren Fensterrand befinden sich zwei Schieberegler für den Blickwinkel. Mit ihnen stellen Sie die Größe des Panoramas ein.<br><br>Auf der rechten Seite befindet sich die Seitenleiste mit weiteren Bearbeitungsoptionen. Die Seitenleiste können Sie der Pfeiltaste ausblenden oder sperren.<br><br>Klicken Sie auf die Lupe, um den Detail-Viewer aufzurufen, mit dem Sie in bestimmte Bereiche des Panoramas zoomen können.<br><br>Sie können ein Gitter überlageren, indem Sie den kleinen dreieckige Knopf (unten) nach rechts ziehen.<br><br>In der Symbolleiste wählen Sie einen von drei Mischmodi aus: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
 		},
 		{
 			"id": "detailviewer",
 			"machinetranslated": false,
-			"helptext": "<b>@detailviewer@</b><br><br>Die Detail Viewer zeigt eine Echtzeitvorschau eines bestimmten Teils des Panoramas. Verwenden Sie den Detail Viewer, um in das Panorama zu zoomen, um mögliche Übergangs- oder Mischfehler zu erkennen. Im Perspektivmodus kann der Detail Viewer auch nützlich sein, um Nadir und Zenit eines sphärischen Panoramas vor dem Zusammenfügen zu untersuchen.<br><br>Um den Detail Viewer zu öffnen, wählen Sie '@menubar.project@' | '@detailviewer@', oder drücken Sie die Lupen-Schaltfläche im Panorama-Editor.<br><br>Die Navigation im Detail Viewer erfolgt durch Klicken und Ziehen mit der linken Maustaste. Zwei Navigationsmodi werden unterstützt, siehe unten. Alternativ können die Cursortasten verwendet werden. Der Detail Viewer kann auch auf einen bestimmten Punkt zentriert werden, indem Sie die Lupe im Panorama-Editor an die gewünschte Position ziehen.<br><br><optional platform='windows'>Zoomen erfolgt durch Drehen des Mausrads bei gedrückter Strg-Taste</optional><optional platform='mac'>Zoomen erfolgt mit zwei Finger-Pinch-Trackpad-Gesten,</optional> oder indem Sie den Schieberegler auf der linken Seite ziehen. Mit den Tasten '+' und '-' können Sie auch zoomen.<br><br>Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> im Detail Viewer öffnet das Kontextmenü. Über dieses Kontextmenü kann schnell zu einem bestimmten Bild in den Registerkarten @mainwindow.tabs.crop@, @mainwindow.tabs.mask@ und @mainwindow.tabs.controlpoints@ gesprungen werden.<br><br>Es stehen zwei Projektionsmodi zur Verfügung, die mit den Symbolleistenschaltflächen ausgewählt werden:<br><b>Zoom-Modus:</b> In diesem Modus zeigt der Detail Viewer einen rechteckigen Ausschnitt des Panoramas an. Das Panorama wird in der aktuellen Projektion angezeigt.<br><b>Perspektivischer Modus:</b> In diesem Modus wird die aktuelle Ansicht des Panoramas wie bei einem interaktiven Panorama-Viewer auf eine flache (geradlinige) Projektion projiziert.<br><br>Zwei Methoden zur Navigation mit der Maus werden unterstützt, die über die Symbolleistenschaltflächen ausgewählt werden:<br><b>Ziehen zum Verschieben:</b> Das Bild kann in jede Richtung gezogen werden.<br><b>Ziehen und halten:</b> Klicken und halten Sie die Maustaste gedrückt. In die gewünschte Richtung ziehen, die Ansicht wird kontinuierlich verschoben, bis die Maustaste losgelassen wird. <optional platform='mac'>In beiden Modi kann die Navigation auch mit zwei Fingerwisch-Trackpad-Gesten ausgeführt werden.</optional><br><br>In der Symbolleiste kann einer von drei <b>Mischmodi</b> ausgewählt werden: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
+			"helptext": "<b>@detailviewer@</b><br><br>Der Detail Viewer zeigt eine Echtzeitvorschau eines Teils des Panoramas. Verwenden Sie den Detail Viewer, um in das Panorama zu zoomen und dabei mögliche Übergangs- oder Überblendfehler zu suchen. Im Perspektivmodus kann der Detail Viewer auch nützlich sein, um Nadir und Zenit eines sphärischen Panoramas vor dem Zusammenfügen zu untersuchen.<br><br>Den Detail Viewer öffnen Sie über '@menubar.project@' | '@detailviewer@' oder drücken Sie die Lupen-Schaltfläche im Panorama-Editor.<br><br>Im Detail Viewer navigieren Sie durch Klicken und Ziehen mit der linken Maustaste. Es werden zwei Navigationsmodi unterstützt, siehe unten. Alternativ verwenden Sie die Cursortasten. Den Detail Viewer können Sie auch auf einen bestimmten Punkt stellen, indem Sie die Lupe im Panorama-Editor an die gewünschte Position ziehen.<br><br><optional platform='windows'>Zoomen erfolgt durch Drehen des Mausrads bei gedrückter Strg-Taste</optional><optional platform='mac'>Zoomen erfolgt mit zwei Finger-Pinch-Trackpad-Gesten,</optional> oder indem Sie den Schieberegler auf der linken Seite ziehen. Sie können auch mit den Tasten '+' und '-' zoomen.<br><br>Mit einem Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> im Detail Viewer öffnen Sie das Kontextmenü. Über dieses Kontextmenü springen Sie schnell zu einem bestimmten Bild in den Registerkarten '@mainwindow.tabs.crop@', '@mainwindow.tabs.mask@' und '@mainwindow.tabs.controlpoints@'.<br><br>Es stehen Ihnen zwei Projektionsmodi zur Verfügung, die Sie mit den Symbolleistenschaltflächen auswählen:<br><b>Zoom-Modus:</b> In diesem Modus zeigt der Detail Viewer einen rechteckigen Ausschnitt des Panoramas an. Das Panorama wird in der aktuellen Projektion angezeigt.<br><b>Perspektivischer Modus:</b> In diesem Modus wird die aktuelle Ansicht des Panoramas wie bei einem interaktiven Panorama-Viewer auf eine flache (geradlinige) Projektion projiziert.<br><br>Es werden zwei Methoden zur Navigation mit der Maus unterstützt, die Sie über die Symbolleistenschaltflächen ausgewählen:<br><b>Ziehen zum Verschieben:</b> Ziehen Sie das Bild in jede Richtung.<br><b>Ziehen und halten:</b> Klicken und halten Sie die Maustaste gedrückt. Ziehen Sie in die gewünschte Richtung und die Ansicht wird kontinuierlich verschoben, bis Sie die Maustaste wieder losgelassen. <optional platform='mac'>In beiden Modi können die Navigation auch mit zwei Fingerwisch-Trackpad-Gesten ausgeführen.</optional><br><br>In der Symbolleiste wählen Sie einen von drei Überblendmodi aus: '@panoeditor.menubar.blended@', '@panoeditor.menubar.unblended@' und '@panoeditor.menubar.showseams@'. Weitere Informationen finden Sie in den QuickInfos."
 		},
 		{
 			"id": "mainwindow.projectassistant",

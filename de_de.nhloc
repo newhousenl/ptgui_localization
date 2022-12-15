@@ -3923,7 +3923,7 @@
 		},
 		{
 			"id": "cpassistant.imagedoesnothaveanycps",
-			"txt": "Image %0 hat noch keine Kontrollpunkte."
+			"txt": "Bild %0 hat noch keine Kontrollpunkte."
 		},
 		{
 			"id": "cpassistant.imagesdonothaveanycps",

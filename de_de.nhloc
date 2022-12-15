@@ -1448,7 +1448,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.initializefromexif",
-			"txt": "Objektivparameter von EXIF-Daten initialisieren"
+			"txt": "Objektivparameter aus EXIF-Daten initialisieren"
 		},
 		{
 			"id": "mainwindow.lensparams.setfromexif",
@@ -1460,7 +1460,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.makeexifassociation",
-			"txt": "EXIF ​​mit Datensatz der Objektiv-Datenbank verknüpfen"
+			"txt": "EXIF ​​einem Datensatz der Objektiv-Datenbank zuordnen"
 		},
 		{
 			"id": "mainwindow.lensparams.showlensdatabase",
@@ -1932,7 +1932,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt1",
-			"txt": "(jeder relative Pfad wird aus dem Quellbildordner interpretiert)"
+			"txt": "(der relative Pfad wird aus dem Quellbildordner erstellt)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.panorama",
@@ -1956,11 +1956,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt2",
-			"txt": "(jeder relative Pfad wird aus Speicherort der Projektdatei interpretiert)"
+			"txt": "(der relative Pfad wird aus dem Projektdateiordner erstellt)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.outputfileoverriddentxt",
-			"txt": "Dieser Standard-Panoramadateiname wird derzeit überschrieben, siehe Ausgabedatei auf der Registerkarte '@mainwindow.tabs.createpanorama@'"
+			"txt": "Der Standard-Panoramadateiname wird derzeit überschrieben, siehe Ausgabedatei auf der Registerkarte '@mainwindow.tabs.createpanorama@'"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativesourceimagepaths",
@@ -2000,7 +2000,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cpnotcopiedtxt",
-			"txt": "(Kontrollpunkte werden niemals kopiert, da sie spezifisch für die eigentlichen Quellbilder sind)"
+			"txt": "(Kontrollpunkte werden nicht kopiert, da sie spezifisch für die eigentlichen Quellbilder sind)"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages",
@@ -2040,11 +2040,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexiforientation",
-			"txt": "Bilder physisch nach dem Laden mit dem EXIF-Orientierungs-Tag drehen"
+			"txt": "Bilder nach dem Laden nach dem EXIF-Orientierungs-Tag drehen"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif",
-			"txt": "Objektiveinstellungen mit EXIF-Daten beim Hinzufügen von Bildern (außer Batch-Builder) automatisches initialisieren"
+			"txt": "Nach dem Hinzufügen von Bildern (außer Batch-Builder) Objektiveinstellungen automatisch mit EXIF-Daten initialisieren"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.askinitializeandoptimize",
@@ -3815,11 +3815,11 @@
 		},
 		{
 			"id": "sensorsizedialog.heading1",
-			"txt": "PTGui muss die Sensorgröße der Kamera kennen, aber die EXIF-Daten der Bilder enthalten diese Informationen nicht."
+			"txt": "PTGui benötigt die Sensorgröße der Kamera, aber die EXIF-Daten der Bilder enthalten diese Informationen nicht."
 		},
 		{
 			"id": "sensorsizedialog.heading2",
-			"txt": "PTGui muss die Sensorgröße der Kamera kennen, erkennt aber Ihre Kamera nicht."
+			"txt": "PTGui benötigt die Sensorgröße der Kamera, erkennt aber Ihre Kamera nicht."
 		},
 		{
 			"id": "sensorsizedialog.heading3",
@@ -4067,11 +4067,11 @@
 		},
 		{
 			"id": "focallengthdialog.heading.unknownlenstype",
-			"txt": "PTGui muss wissen, ob die Bilder mit einem Fischaugenobjektiv oder einem normalen Objektiv aufgenommen wurden, aber dies konnte anhand der EXIF-Daten nicht festgestellt werden. Bitte sagen Sie, welche Art von Objektiv verwendet wurde:"
+			"txt": "PTGui muss wissen, ob die Bilder mit einem Fischaugenobjektiv oder einem normalen Objektiv aufgenommen wurden. Dies konnte jedoch anhand der EXIF-Daten nicht festgestellt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
 		},
 		{
 			"id": "focallengthdialog.heading.unknownfocallength",
-			"txt": "PTGui muss die Brennweite und die Art des Objektivs kennen, dies konnte jedoch nicht anhand der EXIF-Daten ermittelt werden. Bitte sagen Sie, welche Art von Objektiv verwendet wurde:"
+			"txt": "PTGui benötigt die Brennweite und den Typ des Objektivs. Dies konnte jedoch anhand der EXIF-Daten nicht festgestellt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
 		},
 		{
 			"id": "focallengthdialog.regularlens",
@@ -4139,7 +4139,7 @@
 		},
 		{
 			"id": "lensdatabase.addmappingtxt",
-			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Eine Assoziation fügen Sie über 'EXIF' - '@mainwindow.lensparams.makeexifassociation@' hinzu."
+			"txt": "Um diese Objektiveinstellungen als Standardeinstellungen für Bilder mit bestimmten EXIF-Daten zu verwenden, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Über 'EXIF' - '@mainwindow.lensparams.makeexifassociation@' nehmen Sie die Zuordnung vor."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
@@ -4151,11 +4151,11 @@
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleassociation",
-			"txt": "Die ausgewählte Verknüpfung löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählte Zuordnung löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleassociations",
-			"txt": "Die ausgewählten %0 Verknüpfungen löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Zuordnungen löschen? Das kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.croppingcircle",
@@ -5634,7 +5634,7 @@
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.preservepanoramaorientation",
 			"machinetranslated": false,
-			"txt": "Ursprüngliche Ausrichtung des Panoramas erhalte"
+			"txt": "Ursprüngliche Ausrichtung des Panoramas beibehalten"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useorientationsensor",
@@ -6609,14 +6609,14 @@
 		{
 			"id": "lensparams.lenstype",
 			"machinetranslated": false,
-			"helptext": "Legt die Art des Objektivs fest. In den meisten Fällen kann PTGui dies automatisch feststellen, indem die EXIF-Daten des Bildes untersucht werden.",
+			"helptext": "Legt den Typ des Objektivs fest. In den meisten Fällen kann PTGui dies automatisch feststellen, indem die EXIF-Daten des Bildes untersucht werden.",
 			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als Quellbild zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen einen größeren Blickwinkel als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein kreisförmiges Fischaugenobjektiv hat einen Blickwinkel von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Rahmen abdeckt. Ein vollformatiges Fischaugenobjektiv hat einen engeren Blickwinkel und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist ein bereits zusammengefügtes sphärisches Panorama."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
 			"machinetranslated": false,
-			"helptext": "Speichern Sie Objektivparameter für die zukünftige Verwendung in der Objektiv-Datenbank.",
-			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer, Sie können darin Ihre eigenen Einstellungen speichern. Jeder Datensatz besteht aus den Objektiv-, Verschiebung-, @shear@- und Crop-Parametern. Verwenden Sie @save@, um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder @load@, um die Einstellungen aus der Objektiv-Datenbank zu lesen.<br><br>Über die Schaltfläche 'EXIF' können Sie einen Objektiv-Datenbankeintrag mit den EXIF-Daten der geladenen Bilder verknüpfen. Diese Objektiveinstellungen werden später bei ähnlichen Bildern automatisch angewendet.<br><br>Die Objektiv-Datenbank öffnen Sie über das Menü '@menubar.tools@'. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"helptext": "Objektivparameter für die zukünftige Verwendung in der Objektiv-Datenbank speichern",
+			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer, Sie können darin Ihre eigenen Einstellungen speichern. Jeder Datensatz besteht aus den Objektiv-, Verschiebung-, @shear@- und Crop-Parametern. Verwenden Sie @save@, um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder @load@, um die Einstellungen aus der Objektiv-Datenbank zu lesen.<br><br>Über die Schaltfläche 'EXIF' ordnen Sie die EXIF-Daten der geladenen Bilder einem Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden später bei ähnlichen Bildern automatisch angewendet.<br><br>Die Objektiv-Datenbank öffnen Sie über das Menü '@menubar.tools@'. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensparams.focallength",
@@ -6677,7 +6677,7 @@
 		{
 			"id": "lensparams.exifbutton",
 			"machinetranslated": false,
-			"helptext": "EXIF-Verknüpfungen:<br><br>• Initialisieren Sie die Objektiveinstellungen oder die Sensorgröße anhand der EXIF-Daten.<br>• Verknüpfen Sie die EXIF-Daten des aktuellen Bildes mit einem bestimmten Objektiv-Datenbankeintrag. Die Objektiveinstellungen werden automatisch angewendet, wenn Sie ein Bild mit dem gleichen Objektiv laden.",
+			"helptext": "EXIF Zuordnungen:<br><br>• Initialisieren Sie die Objektiveinstellungen oder die Sensorgröße anhand der EXIF-Daten.<br>• Ornden Sie die EXIF-Daten des aktuellen Bildes einem bestimmten Objektiv-Datenbankeintrag zu. Die Objektiveinstellungen werden automatisch angewendet, wenn Sie ein Bild mit dem gleichen Objektiv laden.",
 			"morehelptext": "<br><br>Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a> und <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
@@ -6872,7 +6872,7 @@
 			"id": "cptab.cptypetoadd",
 			"machinetranslated": false,
 			"helptext": "Typ des Kontrollpunkts, der als nächstes hinzugefügt",
-			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein normaler Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@</b> und <b>@cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Art von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimierer (und die '@panoeditor.menubar.edit.level@'-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise '@cptable.verticalline@'-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. '@cptable.horizontalline@'-Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie '@cptable.newline@', um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert und für dieselbe Zeile können Sie weitere Punkte hinzugefügen.<br><br>Den Typ eines vorhandenen Kontrollpunkts ändern Sie, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
+			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein normaler Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@</b> und <b>@cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Typ von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimierer (und die '@panoeditor.menubar.edit.level@'-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise '@cptable.verticalline@'-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. '@cptable.horizontalline@'-Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie '@cptable.newline@', um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert und für dieselbe Zeile können Sie weitere Punkte hinzugefügen.<br><br>Den Typ eines vorhandenen Kontrollpunkts ändern Sie, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
 		},
 		{
 			"id": "cptab.cptable",
@@ -7164,7 +7164,7 @@
 			"id": "projectsettingstab.batchbuilder.useexif",
 			"machinetranslated": false,
 			"helptext": "Wenn ausgewählt, verwendet der Batch-Builder die automatischen Objektiveinstellungen für die generierten Projekte.",
-			"morehelptext": "<br><br>Dadurch werden die Objektiveinstellungen des Vorlagenprojekts überschrieben und die gleichen Standardobjektivparameter verwendet, die sich aus dem Hinzufügen der Bilder zu einem neuen Projekt ergeben würden. Verwenden Sie diese Option, wenn Sie dieselbe Vorlage für Bilder verwenden möchten, die mit verschiedenen Kameras oder Objektiven aufgenommen wurden.<br><br>Der Batch-Builder berücksichtigt alle EXIF-Verknüpfungen, die in der Objektiv-Datenbank und der Kamera-Datenbank erstellt wurden.<br><br>Wenn nicht ausgewählt, werden EXIF-Daten in den Bildern ignoriert und die Objektivparameter werden einfach aus dem Vorlagenprojekt kopiert."
+			"morehelptext": "<br><br>Dadurch werden die Objektiveinstellungen des Vorlagenprojekts überschrieben und die gleichen Standardobjektivparameter verwendet, die sich aus dem Hinzufügen der Bilder zu einem neuen Projekt ergeben würden. Verwenden Sie diese Option, wenn Sie dieselbe Vorlage für Bilder verwenden möchten, die mit verschiedenen Kameras oder Objektiven aufgenommen wurden.<br><br>Der Batch-Builder berücksichtigt alle EXIF-Zuordnungen, die in der Objektiv-Datenbank und der Kamera-Datenbank erstellt wurden.<br><br>Wenn nicht ausgewählt, werden EXIF-Daten in den Bildern ignoriert und die Objektivparameter werden einfach aus dem Vorlagenprojekt kopiert."
 		},
 		{
 			"id": "projectsettingstab.misc.useexiforientation",
@@ -7745,7 +7745,7 @@
 		},
 		{
 			"id": "publishtoweb.defaults",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Alle Einstellungen auf die Standardwerte zurücksetzen"
 		},
 		{
@@ -7901,7 +7901,7 @@
 		},
 		{
 			"id": "converttocubic.defaults",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Alle Einstellungen auf die Standardwerte zurücksetzen"
 		},
 		{
@@ -8243,26 +8243,26 @@
 		{
 			"id": "lensdatabase.entries.remove",
 			"machinetranslated": false,
-			"label": "Löschen",
+			"label": "Entfernen",
 			"helptext": "Den ausgewählten Objektiv-Datenbankeintrag entfernen."
 		},
 		{
 			"id": "lensdatabase.mappings",
 			"machinetranslated": false,
-			"helptext": "EXIF-Verknüpfungen für den ausgewählten Objektiv-Datenbankeintrag.",
-			"morehelptext": "<br><br>Objektiv-Datensätze können mit EXIF-Daten verknüpft werden, um benutzerdefinierte Einstellungen automatisch auf Bilder einer bestimmten Kamera und Objektiv-Kombination anzuwenden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"helptext": "EXIF-Zuordnungen für den ausgewählten Objektiv-Datenbankeintrag",
+			"morehelptext": "<br><br>Objektiv-Datensätzen werden EXIF-Daten zugeordnet, um benutzerdefinierte Einstellungen automatisch auf Bilder einer bestimmten Kamera und Objektiv-Kombination anzuwenden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.mappings.add",
 			"machinetranslated": false,
-			"label": "EXIF-Verknüpfung hinzufügen",
+			"label": "EXIF-Zuordnung hinzufügen",
 			"morehelptext": "<br><br>Zuordnungen nehmen Sie auf der Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster vor. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.mappings.remove",
 			"machinetranslated": false,
 			"label": "EXIF-Zuordnung entfernen",
-			"morehelptext": "Entfernen Sie die ausgewählte Zuordnung. Die Objektiveinstellungen werden nicht mehr automatisch angewendet, wenn ein Bild von dieser Kamera und diesem Objektiv geladen wird. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Entfernen Sie die ausgewählte Zuordnung. Die Objektiveinstellungen werden nicht mehr automatisch angewendet, wenn ein Bild von dieser Kamera und diesem Objektiv geladen wird. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "cameradatabase.entries",
@@ -8279,7 +8279,7 @@
 			"id": "cameradatabase.entries.remove",
 			"machinetranslated": false,
 			"label": "Löschen",
-			"helptext": "Entfernen Sie den ausgewählten Kamera-Datensatz."
+			"helptext": "Den ausgewählten Kamera-Datensatz entfernen."
 		},
 		{
 			"id": "focallengthdialog.loadfromlensdb",
@@ -8579,7 +8579,7 @@
 		},
 		{
 			"id": "photometricsettings.defaults",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Alle Einstellungen auf die Standardwerte zurücksetzen"
 		},
 		{
@@ -8595,9 +8595,9 @@
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Nach dem Anwenden der Vorlage wird das gesamte Panorama so gedreht, dass @yaw@, @pitch@ und @roll@ der Bilder den Originalwerten so gut wie möglich entsprechen.",
-			"morehelptext": "<br><br>Die relative Ausrichtung der Bilder wird aus der Vorlage kopiert, die Gesamtausrichtung des Panoramas bleibt jedoch so weit wie möglich unverändert.<br><br>Aktivieren Sie diese Einstellung, wenn die Vorlage für Bilder verwendet werden soll, die zuvor positioniert wurden (z. B. basierend auf Metadaten des Orientierungssensors)."
+			"morehelptext": "<br><br>Die relative Ausrichtung der Bilder wird aus der Vorlage kopiert, die Gesamtausrichtung des Panoramas bleibt jedoch so weit wie möglich unverändert.<br><br>Aktivieren Sie diese Einstellung, wenn Sie die Vorlage für Bilder verwenden möchten, die zuvor positioniert wurden (z. B. basierend auf Metadaten des Orientierungssensors)."
 		},
 		{
 			"id": "projectsettingstab.misc.useorientationsensor",
@@ -8946,7 +8946,7 @@
 		{
 			"id": "mainwindow.lensparamstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Um genaue Nähte zu erhalten, muss PTGui die Eigenschaften der Kamera und des Objektivs kennen, mit denen die Bilder aufgenommen wurden. In den meisten Fällen kann PTGui die Objektiveinstellungen automatisch aus den EXIF-Daten der Bilder bestimmen. Nur selten ist es notwendig, diese Einstellungen zu verändern. Wenn aber keine EXIF-Daten vorhanden sind (z.B. bei Verwendung von Objektiven mit manueller Fokussierung), müssen Sie hier die Objektiveinstellungen eingegeben. Selbst dann muss PTGui nur die Art des Objektivs und eine grobe Schätzung der Brennweite kennen. Der Optimierer kann hier alle Einstellungen vornehmen.<br><br>Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Dadurch können Bilder von verschiedenen Objektiven oder Kameras im selben Projekt verwendet werden. Anfangs gibt es ein einziges Objektivprofil namens '@txt.globallensprofile@' für alle Bilder. Mehrere Objektivprofile werden automatisch erstellt, wenn Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzugefügt werden. Jedes Objektivprofil hat seinen eigenen Parametersatz für Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ und Zuschneiden.<br><br>Sie können die Objektiv-Datenbank zum Speichern und späteren Abrufen der Parameter Ihres Objektivs verwenden. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Sie öffnen sie mit '@menubar.tools@' | '@lensdatabase@'. Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden, sodass Ihre Einstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a><br><br><b>Objektivverzerrungskorrektur</b><br>Alle Objektive weisen eine gewisse Verzerrung auf (z.B. Tonnen- oder Kissenverzerrung). Für eine genaue Naht muss diese Verzerrung korrigiert werden. Dies geschieht im laufenden Betrieb beim Zusammenfügen. PTGui verwendet das PanoTools-Objektivmodell zur Verzerrungskorrektur. Dies verwendet eine Polynomfunktion dritter Ordnung mit drei Parametern a, b und c. Auch hier wird die Objektivverzerrung durch den Optimierer genau bestimmt, so dass es fast nie erforderlich ist, diese Werte manuell anzupassen.<br><br>PTGui kompensiert auch den Versatz des Objektivzentrums von der Bildmitte (Verschiebung). Bei Flachbettscannern kann PTGui auch die @shear@ kompensieren.<br><br><b>Individuelle Einstellungen</b><br>Standardmäßig werden für alle Bilder im Projekt die gleichen Einstellungen für Objektive, Verschiebung, @shear@ und Zuschneiden verwendet. Sie können einzelne Einstellungen für jedes Bilder getrennt überschreiben, indem Sie sie in der Liste '@mainwindow.lensparams.useindividual@' auswählen."
+			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Um genaue Nähte zu erhalten, muss PTGui die Eigenschaften der Kamera und des Objektivs kennen, mit denen die Bilder aufgenommen wurden. In den meisten Fällen kann PTGui die Objektiveinstellungen automatisch aus den EXIF-Daten der Bilder bestimmen. Nur selten ist es notwendig, diese Einstellungen zu verändern. Wenn aber keine EXIF-Daten vorhanden sind (z.B. bei Verwendung von Objektiven mit manueller Fokussierung), müssen Sie hier die Objektiveinstellungen eingegeben. Selbst dann muss PTGui nur den Typ des Objektivs und eine grobe Schätzung der Brennweite kennen. Der Optimierer kann hier alle Einstellungen vornehmen.<br><br>Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Dadurch können Bilder von verschiedenen Objektiven oder Kameras im selben Projekt verwendet werden. Anfangs gibt es ein einziges Objektivprofil namens '@txt.globallensprofile@' für alle Bilder. Mehrere Objektivprofile werden automatisch erstellt, wenn Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzugefügt werden. Jedes Objektivprofil hat seinen eigenen Parametersatz für Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ und Zuschneiden.<br><br>Sie können die Objektiv-Datenbank zum Speichern und späteren Abrufen der Parameter Ihres Objektivs verwenden. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Sie öffnen sie mit '@menubar.tools@' | '@lensdatabase@'. Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden, sodass Ihre Einstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a><br><br><b>Objektivverzerrungskorrektur</b><br>Alle Objektive weisen eine gewisse Verzerrung auf (z.B. Tonnen- oder Kissenverzerrung). Für eine genaue Naht muss diese Verzerrung korrigiert werden. Dies geschieht im laufenden Betrieb beim Zusammenfügen. PTGui verwendet das PanoTools-Objektivmodell zur Verzerrungskorrektur. Dies verwendet eine Polynomfunktion dritter Ordnung mit drei Parametern a, b und c. Auch hier wird die Objektivverzerrung durch den Optimierer genau bestimmt, so dass es fast nie erforderlich ist, diese Werte manuell anzupassen.<br><br>PTGui kompensiert auch den Versatz des Objektivzentrums von der Bildmitte (Verschiebung). Bei Flachbettscannern kann PTGui auch die @shear@ kompensieren.<br><br><b>Individuelle Einstellungen</b><br>Standardmäßig werden für alle Bilder im Projekt die gleichen Einstellungen für Objektive, Verschiebung, @shear@ und Zuschneiden verwendet. Sie können einzelne Einstellungen für jedes Bilder getrennt überschreiben, indem Sie sie in der Liste '@mainwindow.lensparams.useindividual@' auswählen."
 		},
 		{
 			"id": "mainwindow.croptab",
@@ -9011,7 +9011,7 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank verwenden Sie, um die Parameter eines Objektivs zu speichern und abzurufen. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Öffnen Sie die Objektiv-Datenbank über '@menubar.tools@' | '@lensdatabase@'. Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Dadurch wird PTGui so konfiguriert, dass bestimmte Objektiveinstellungen automatisch geladen werden, wenn ein Bild von einem bestimmten Objektiv geladen wird.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist eine Liste von Objektiv-Datensätzen. Wenn ein Datensatz ausgewählt ist, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Verknüpfungen</b><br><br>Objektiv-Datensätze können mit bestimmten EXIF-Daten verknüpft werden. Wenn sie verknüpft sind, werden Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald ein Bild von dieser speziellen Kamera/Objektiv-Kombination geladen wird. Verknüpfungen können auf zwei Arten erfolgen:<br><br>Sobald Sie Bilder von einer nicht erkannten Kamera/Objektiv-Kombination laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Immer diese Daten verwenden für ... [Kamera/Objektiv-Kombination]. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und mit den EXIF-Daten des Bildes verknüpft.<br><br>Verknüpfungen können Sie auch manuell über die Registerkarte '@mainwindow.tabs.lenssettings@' erstellen: Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Verknüpfung zu erstellen.<br><br>Um eine Verknüpfung zu entfernen, öffnen Sie das Fenster Objektiv-Datenbank, wählen Sie die Zuordnung in der rechten Tabelle und drücken Sie die Schaltfläche 'Entfernen'."
+			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank verwenden Sie, um die Parameter eines Objektivs zu speichern und abzurufen. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Objektiv-Datensätzen sind bestimmte EXIF-Daten zugeordnet. Dadurch wird PTGui so konfiguriert, dass  Objektiveinstellungen automatisch geladen werden, sobald Sie ein Bild von einem bestimmten Objektiv laden.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Wenn ein Datensatz ausgewählt ist, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Objektiv-Datensätzen sind bestimmte EXIF-Daten zugeordnet. Wenn eine Zuordnung vorhanden ist und ein Bild mit dieser speziellen Kamera/Objektiv-Kombination geladen wird, werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet. Zuordnungen können auf zwei Arten erfolgen:<br><br>Sobald Sie Bilder von einer nicht erkannten Kamera/Objektiv-Kombination laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen ' Diese Daten immer verwenden für ... [Kamera/Objektiv-Kombination]'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die EXIF-Daten des Bildes diesem Eintrag zugeordnet.<br><br>Zuordnungen können Sie auch manuell über die Registerkarte '@mainwindow.tabs.lenssettings@' erstellen: Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
 		},
 		{
 			"id": "cameradatabase",

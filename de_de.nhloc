@@ -3956,30 +3956,30 @@
 		{
 			"id": "cpassistant.multiplemissingcontrolpointstxt",
 			"format": "html",
-			"txt": "Die folgenden Bildpaare überschneiden sich, haben jedoch keine Kontrollpunkte:<br>%0<br>"
+			"txt": "Die folgenden Bildpaare überlappen sich, haben jedoch keine Kontrollpunkte:<br>%0<br>"
 		},
 		{
 			"id": "cpassistant.singlepairmissingcontrolpointstxt",
 			"format": "html",
-			"txt": "Bilder %0 überschneiden sich, haben jedoch keine Kontrollpunkte."
+			"txt": "Bilder %0 überlappen sich, haben jedoch keine Kontrollpunkte."
 		},
 		{
 			"id": "cpassistant.missingcontrolpointsbottomtxt",
-			"txt": "Obwohl nicht jedes Paar sich überschneidender Bilder Kontrollpunkte haben muss (solange die Bilder indirekt durch Kontrollpunkte zwischen anderen Bildern verbunden sind), kann dies die Optimierungsergebnisse verbessern."
+			"txt": "Obwohl nicht jedes Paar sich überlappender Bilder Kontrollpunkte haben muss (solange die Bilder indirekt durch Kontrollpunkte mit anderen Bildern verbunden sind), kann dies die Optimierungsergebnisse verbessern."
 		},
 		{
 			"id": "cpassistant.multiplepairstoofewcontrolpointstxt",
 			"format": "html",
-			"txt": "Die folgenden Bildpaare überschneiden sich und haben weniger als 4 Kontrollpunkte:<br>%0<br>"
+			"txt": "Die folgenden Bildpaare überlappen sich und haben weniger als 4 Kontrollpunkte:<br>%0<br>"
 		},
 		{
 			"id": "cpassistant.singlepairtoofewcontrolpointstxt",
 			"format": "html",
-			"txt": "Bilder %0 überschneiden sich und haben weniger als 4 Kontrollpunkte."
+			"txt": "Bilder %0 überlappen sich und haben weniger als 4 Kontrollpunkte."
 		},
 		{
 			"id": "cpassistant.pairstoofewcontrolpointsbottomtxt",
-			"txt": "Die besten Ergebnisse werden erzielt, wenn jedes Paar sich überschneidender Bilder mindestens 4 Kontrollpunkte aufweist."
+			"txt": "Die besten Ergebnisse werden erzielt, wenn jedes Paar sich überlappender Bilder mindestens 4 Kontrollpunkte aufweist."
 		},
 		{
 			"id": "fileformatsettings.bitsperchannel",
@@ -6553,7 +6553,7 @@
 			"id": "projectassistant.loadimages",
 			"machinetranslated": true,
 			"helptext": "Quellbilder für das Panorama laden",
-			"morehelptext": "<br><br>PTGui kann Panoramen zusammenfügen, die aus mehreren Reihen von Bildern bestehen. Laden Sie einfach alle Ihre Quellbilder auf einmal, PTGui wird herausfinden, auf welche Weise sie sich überschneiden.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
+			"morehelptext": "<br><br>PTGui kann Panoramen zusammenfügen, die aus mehreren Reihen von Bildern bestehen. Laden Sie einfach alle Ihre Quellbilder auf einmal, PTGui wird bestimmen, auf welche Weise sie sich überlappen.<br><br>Siehe auch: <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.images",
@@ -6594,7 +6594,7 @@
 			"machinetranslated": false,
 			"label": "Objektivprofile",
 			"helptext": "Ein Projekt kann ein oder mehrere Objektivprofile enthalten. Anfänglich gibt es für alle Bilder ein einziges Objektivprofil namens '@txt.globallensprofile@'.",
-			"morehelptext": "<br><br>Mit der Schaltfläche '+' unten fügen Sie ein Objektivprofil hinzu. Mehrere Objektivprofile werden automatisch erstellt, wenn Sie Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzufügen. Ist mehr als ein Objektivprofil vorhanden, können Sie jedem Bild in der Liste '@mainwindow.lensparams.useindividual@' unten ein Objektivprofil zuweisen.<br><br>Jedes Objektivprofil hat seine eigenen Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ Parameter und Crop-Einstellungen."
+			"morehelptext": "<br><br>Mit der Schaltfläche '+' unten fügen Sie ein Objektivprofil hinzu. Mehrere Objektivprofile werden automatisch erstellt, wenn Sie Bilder mit verschiedenen EXIF-Objektivdaten zum Projekt hinzufügen. Ist mehr als ein Objektivprofil vorhanden, können Sie jedem Bild in der Liste '@mainwindow.lensparams.useindividual@' unten ein Objektivprofil zuweisen.<br><br>Jedes Objektivprofil hat seine eigenen Objektiveinstellungen, <optional product='pro'>Vignettierung, Kamera-Kurveneinstellungen,</optional> Verschiebung, @shear@ Parameter und Zuschnitteinstellungen."
 		},
 		{
 			"id": "lensparams.globallens.add",
@@ -6901,7 +6901,7 @@
 			"id": "optimizertab.minimizelensdistortion",
 			"machinetranslated": false,
 			"helptext": "Optimierung von Objektivverzerrung und Objektivverschiebung aktivieren",
-			"morehelptext": "<br><br>Wenn ausgewählt, passt das Optimierer die entsprechenden Einstellungen auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Die Objektivverzerrung wird nicht optimiert. Dies kann nützlich sein, wenn vorkalibrierte Objektivdaten verwendet werden.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> Nur der Objektivverzerrungsparameter 'b' wird optimiert. Kann verwendet werden, wenn nur wenige Kontrollpunkte vorhanden sind oder wenn die Bilder an Parallaxefehlern leiden, um das Risiko einer Überanpassung zu verringern.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> Die vollständige Objektivverzerrung (a, b und c) wird optimiert.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (die empfohlene Einstellung):</b> Optimierung der Objektivverzerrung und Optimierung der Objektivverschiebung. Dies führt zur genauesten Naht."
+			"morehelptext": "<br><br>Wenn ausgewählt, passt der Optimierer die entsprechenden Einstellungen auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Die Objektivverzerrung wird nicht optimiert. Dies kann nützlich sein, wenn Sie vorkalibrierte Objektivdaten verwendeen.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> Nur der Objektivverzerrungsparameter 'b' wird optimiert. Sinnvoll, wenn nur wenige Kontrollpunkte vorhanden sind oder wenn die Bilder einen Parallaxenfehler haben, um das Risiko einer Überanpassung zu verringern.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> Die vollständige Objektivverzerrung (a, b und c) wird optimiert.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (die empfohlene Einstellung):</b> Die Objektivverzerrung und die Objektivverschiebung werden optimiert. Dies führt zu genauesten Nähten."
 		},
 		{
 			"id": "optimizertab.simplebutton",
@@ -8936,12 +8936,12 @@
 		{
 			"id": "mainwindow.projectassistant",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.projectassistant@</b><br><br>Willkommen bei PTGui! Sie befinden sich auf der Registerkarte '@mainwindow.tabs.projectassistant@'. Der Projektassistent führt Sie in drei einfachen Schritten durch den Erstellungsprozess eines Panoramas.<br><br>Auf der linken Seite des Fensters befindet sich die Registerkarten-Leiste. Jede Registerkarte öffnet eine Seite mit verschiedenen Einstellungen für das Panorama. Zu Beginn ist nur die Registerkarte '@mainwindow.tabs.projectassistant@' sichtbar. Während des Vorgangs werden andere Registerkarten sichtbar, wenn sie relevant sind. Mit der Schaltfläche '@advanced@' können Sie alle Registerkarten anzeigen. Dies ist jedoch für die meisten Panoramen nicht notwendig.<br><br>Um ein Panorama zu erstellen, folgen Sie diesen drei Schritten:<br><br><b>1. @mainwindow.projectassistant.loadimages@</b><br>Über diese Schaltfläche wählen Sie die Quellbilder aus. Sie können mehrere Dateien gleichzeitig öffnen, indem Sie die <optional platform='windows'>Strg-Taste</optional><optional platform='mac'>Befehlstaste</optional> während der Auswahl der Dateien gedrückt halten. Alternativ ziehen Sie die Dateien per Drag &amp; Drop, z.B. aus dem @txt.finderorexplorer@, in das PTGui-Fenster. Die Reihenfolge der Bilder ist nicht wichtig.<br><br>Im nächsten Schritt bestimmt PTGui die Überschneidung der Bilder. PTGui kann mehrere Reihen von Bildern im selben Panorama verarbeiten, laden Sie einfach alle Bilder auf einmal.<br><br>Die Bilder können Sie bei Bedarf mit den zwei Drehknöpfen drehen. Wenn Sie dies nach dem Ausrichten des Panoramas tun, wird das gesamte Panorama gedreht und die Bilder bleiben ausgerichtet.<br><br><b>2. @mainwindow.projectassistant.setuppanorama@</b><br>Jetzt richtet PTGui die Bilder in zwei aus. Zuerst analysiert PTGui die Bilder und sucht in überlappenden Bildern nach übereinstimmenden Merkmalen. Bei solchen Übereinstimmungsmerkmalen werden Kontrollpunkte hinzugefügt. Anschließend versucht der Optimierer versucht, die Bilder so zu platzieren, dass die Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>Nachdem die Bilder ausgerichtet sind, öffnen Sie den Panorama-Editor, um in der Vorschau das zusammengesetzte Panorama zu beurteilen. Im Fall von fehlerhaften Ausrichtungen wechseln Sie zur Registerkarte '@mainwindow.tabs.controlpoints@'. Dort fügen Sie Kontrollpunkte hinzu oder bearbeiten sie und führen dann den Optimierer aus. <optional product='pro'>Bewegte Objekte entfernen Sie über die Registerkarte '@mainwindow.tabs.mask@'.</optional><br><br><b>3. @mainwindow.tabs.createpanorama@</b><br>Wechseln Sie abschließend mit der Schaltfläche '@mainwindow.tabs.createpanorama@' zur Registerkarte '@mainwindow.tabs.createpanorama@'. Dort konfigurieren Sie die Ausgabeoptionen und fügen das Panorama zusammen."
+			"helptext": "<b>@mainwindow.tabs.projectassistant@</b><br><br>Willkommen bei PTGui! Sie befinden sich auf der Registerkarte '@mainwindow.tabs.projectassistant@'. Der Projektassistent führt Sie in drei einfachen Schritten durch den Erstellungsprozess eines Panoramas.<br><br>Auf der linken Seite des Fensters befindet sich die Registerkarten-Leiste. Jede Registerkarte öffnet eine Seite mit verschiedenen Einstellungen für das Panorama. Zu Beginn ist nur die Registerkarte '@mainwindow.tabs.projectassistant@' sichtbar. Während des Vorgangs werden andere Registerkarten sichtbar, wenn sie relevant sind. Mit der Schaltfläche '@advanced@' können Sie alle Registerkarten anzeigen. Dies ist jedoch für die meisten Panoramen nicht notwendig.<br><br>Um ein Panorama zu erstellen, folgen Sie diesen drei Schritten:<br><br><b>1. @mainwindow.projectassistant.loadimages@</b><br>Über diese Schaltfläche wählen Sie die Quellbilder aus. Sie können mehrere Dateien gleichzeitig öffnen, indem Sie die <optional platform='windows'>Strg-Taste</optional><optional platform='mac'>Befehlstaste</optional> während der Auswahl der Dateien gedrückt halten. Alternativ ziehen Sie die Dateien per Drag &amp; Drop, z.B. aus dem @txt.finderorexplorer@, in das PTGui-Fenster. Die Reihenfolge der Bilder ist nicht wichtig.<br><br>Im nächsten Schritt bestimmt PTGui die Überlappung der Bilder. PTGui kann mehrere Reihen von Bildern im selben Panorama verarbeiten, laden Sie einfach alle Bilder auf einmal.<br><br>Die Bilder können Sie bei Bedarf mit den zwei Drehknöpfen drehen. Wenn Sie dies nach dem Ausrichten des Panoramas tun, wird das gesamte Panorama gedreht und die Bilder bleiben ausgerichtet.<br><br><b>2. @mainwindow.projectassistant.setuppanorama@</b><br>Jetzt richtet PTGui die Bilder in zwei aus. Zuerst analysiert PTGui die Bilder und sucht in überlappenden Bildern nach übereinstimmenden Merkmalen. Bei solchen Übereinstimmungsmerkmalen werden Kontrollpunkte hinzugefügt. Anschließend versucht der Optimierer versucht, die Bilder so zu platzieren, dass die Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>Nachdem die Bilder ausgerichtet sind, öffnen Sie den Panorama-Editor, um in der Vorschau das zusammengesetzte Panorama zu beurteilen. Im Fall von fehlerhaften Ausrichtungen wechseln Sie zur Registerkarte '@mainwindow.tabs.controlpoints@'. Dort fügen Sie Kontrollpunkte hinzu oder bearbeiten sie und führen dann den Optimierer aus. <optional product='pro'>Bewegte Objekte entfernen Sie über die Registerkarte '@mainwindow.tabs.mask@'.</optional><br><br><b>3. @mainwindow.tabs.createpanorama@</b><br>Wechseln Sie abschließend mit der Schaltfläche '@mainwindow.tabs.createpanorama@' zur Registerkarte '@mainwindow.tabs.createpanorama@'. Dort konfigurieren Sie die Ausgabeoptionen und fügen das Panorama zusammen."
 		},
 		{
 			"id": "mainwindow.sourceimagestab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.sourceimages@</b><br><br>Auf dieser Seite wählen Sie die Quellbilder für ein Panorama aus, löschen Bilder oder ordnen sie neu an. Sie wählen ein oder mehrere Bilder aus, indem Sie die Maus über die Bilder ziehen oder klicken Sie bei gedrückter Umschalttaste auf ein Bild, um eine Reihe von Bildern auszuwählen. Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü. Mit der Entf-Taste entfernen Sie ausgewählte Bilder. Dadurch werden nur die Bilder aus dem Projekt entfernt, die Bilddateien werden nicht gelöscht.<br><br>Mit Drag  &amp; Drop ordnen Sie die Bilder neu. Wählen Sie zuerst ein oder mehrere Quellbilder aus. Klicken Sie dann auf den linken Rand (mit den Bildnummern), halten Sie die Maustaste gedrückt und ziehen Sie die Bilder nach oben oder unten zur gewünschten Position.<br><br>Weitere Bilder fügen Sie mit '@menubar.images@' | '@addimages@' hinzu oder ziehen Sie die Dateien per Drag &amp; Drop in das PTGui-Fenster. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verknüpfen. Bei verknüpften Bildern müssen @yaw@, @pitch@, @roll@ und andere Parameter übereinstimmen, damit sie sich exakt überschneiden. Verknüpfte Belichtungsreihen werden meist als Einzelbild angezeigt und auch so behandelt. Mehrere Bilder verknüpfen über das Kontextmenü (Rechtsklick) oder über '@menubar.images@' | '@menubar.images.linkbracketed@'.</optional>"
+			"helptext": "<b>@mainwindow.tabs.sourceimages@</b><br><br>Auf dieser Seite wählen Sie die Quellbilder für ein Panorama aus, löschen Bilder oder ordnen sie neu an. Sie wählen ein oder mehrere Bilder aus, indem Sie die Maus über die Bilder ziehen oder klicken Sie bei gedrückter Umschalttaste auf ein Bild, um eine Reihe von Bildern auszuwählen. Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü. Mit der Entf-Taste entfernen Sie ausgewählte Bilder. Dadurch werden nur die Bilder aus dem Projekt entfernt, die Bilddateien werden nicht gelöscht.<br><br>Mit Drag  &amp; Drop ordnen Sie die Bilder neu. Wählen Sie zuerst ein oder mehrere Quellbilder aus. Klicken Sie dann auf den linken Rand (mit den Bildnummern), halten Sie die Maustaste gedrückt und ziehen Sie die Bilder nach oben oder unten zur gewünschten Position.<br><br>Weitere Bilder fügen Sie mit '@menubar.images@' | '@addimages@' hinzu oder ziehen Sie die Dateien per Drag &amp; Drop in das PTGui-Fenster. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verknüpfen. Bei verknüpften Bildern müssen @yaw@, @pitch@, @roll@ und andere Parameter übereinstimmen, damit sie sich exakt überlappen. Verknüpfte Belichtungsreihen werden meist als Einzelbild angezeigt und auch so behandelt. Mehrere Bilder verknüpfen über das Kontextmenü (Rechtsklick) oder über '@menubar.images@' | '@menubar.images.linkbracketed@'.</optional>"
 		},
 		{
 			"id": "mainwindow.lensparamstab",

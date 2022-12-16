@@ -3811,7 +3811,7 @@
 		},
 		{
 			"id": "sensorsizedialog.alwaysuse",
-			"txt": "Diese Daten immer für %0 verwenden"
+			"txt": "Diese Daten immer für '%0' verwenden"
 		},
 		{
 			"id": "sensorsizedialog.heading1",
@@ -4067,11 +4067,11 @@
 		},
 		{
 			"id": "focallengthdialog.heading.unknownlenstype",
-			"txt": "PTGui muss wissen, ob die Bilder mit einem Fischaugenobjektiv oder einem normalen Objektiv aufgenommen wurden. Dies konnte jedoch anhand der EXIF-Daten nicht festgestellt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
+			"txt": "PTGui muss wissen, ob die Bilder mit einem Fischaugenobjektiv oder einem normalen Objektiv aufgenommen wurden. Dies konnte jedoch anhand der EXIF-Daten nicht bestimmt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
 		},
 		{
 			"id": "focallengthdialog.heading.unknownfocallength",
-			"txt": "PTGui benötigt die Brennweite und den Typ des Objektivs. Dies konnte jedoch anhand der EXIF-Daten nicht festgestellt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
+			"txt": "PTGui benötigt die Brennweite und den Typ des Objektivs. Diese konnten jedoch anhand der EXIF-Daten nicht bestimmt werden. Bitte geben Sie den Typ des verwendeten Objektivs an:"
 		},
 		{
 			"id": "focallengthdialog.regularlens",
@@ -4115,7 +4115,7 @@
 		},
 		{
 			"id": "focallengthdialog.alwaysusefor",
-			"txt": "Diese Daten immer für %0 verwenden"
+			"txt": "Diese Daten immer für '%0' verwenden"
 		},
 		{
 			"id": "lensdatabase.xony",
@@ -4143,19 +4143,19 @@
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
-			"txt": "Das ausgewählte Element löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Das ausgewählte Element löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleitems",
-			"txt": "Die ausgewählten %0 Elemente löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Elemente löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleassociation",
-			"txt": "Die ausgewählte Zuordnung löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählte Zuordnung löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleassociations",
-			"txt": "Die ausgewählten %0 Zuordnungen löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Zuordnungen löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "lensdatabase.croppingcircle",
@@ -5216,11 +5216,11 @@
 		},
 		{
 			"id": "cameradatabase.confirmdelete1",
-			"txt": "Das ausgewählte Element löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Das ausgewählte Element löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "cameradatabase.confirmdeletemultiple",
-			"txt": "Die ausgewählten %0 Elemente löschen? Das kann nicht rückgängig gemacht werden."
+			"txt": "Die ausgewählten %0 Elemente löschen? Dies kann nicht rückgängig gemacht werden."
 		},
 		{
 			"id": "qtvrsettings.cubefacesizetxt",
@@ -6616,7 +6616,7 @@
 			"id": "lensparams.lensdatabasebutton",
 			"machinetranslated": false,
 			"helptext": "Objektivparameter für die zukünftige Verwendung in der Objektiv-Datenbank speichern",
-			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer, Sie können darin Ihre eigenen Einstellungen speichern. Jeder Datensatz besteht aus den Objektiv-, Verschiebung-, @shear@- und Crop-Parametern. Verwenden Sie @save@, um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder @load@, um die Einstellungen aus der Objektiv-Datenbank zu lesen.<br><br>Über die Schaltfläche 'EXIF' ordnen Sie die EXIF-Daten der geladenen Bilder einem Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden später bei ähnlichen Bildern automatisch angewendet.<br><br>Die Objektiv-Datenbank öffnen Sie über das Menü '@menubar.tools@'. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Einstellungen verwendet. Jeder Datensatz besteht aus den Objektiv-, Verschiebung-, @shear@- und Crop-Parametern. Verwenden Sie '@save@', um die aktuell ausgewählten Einstellungen in der Objektiv-Datenbank zu speichern, oder '@load@', um die Einstellungen aus der Objektiv-Datenbank zu laden.<br><br>Über die Schaltfläche 'EXIF' ordnen Sie die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des aktuellen Bildes, einem Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden später automatisch angewendet, sobald Sie ein Bild laden, das mit der gleichen Kamera/Objektiv-Kombination aufgenommen wurde.<br><br>Die Objektiv-Datenbank öffnen Sie über das Menü '@menubar.tools@'. Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensparams.focallength",
@@ -6677,7 +6677,7 @@
 		{
 			"id": "lensparams.exifbutton",
 			"machinetranslated": false,
-			"helptext": "EXIF Zuordnungen:<br><br>• Initialisieren Sie die Objektiveinstellungen oder die Sensorgröße anhand der EXIF-Daten.<br>• Ornden Sie die EXIF-Daten des aktuellen Bildes einem bestimmten Objektiv-Datenbankeintrag zu. Die Objektiveinstellungen werden automatisch angewendet, wenn Sie ein Bild mit dem gleichen Objektiv laden.",
+			"helptext": "EXIF Zuordnungen:<br><br>• Initialisieren Sie die Objektiveinstellungen oder die Sensorgröße anhand der EXIF-Daten.<br>• Ordnen Sie die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des aktuellen Bildes, einem Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden automatisch angewendet, sobald Sie ein Bild laden, das mit der gleichen Kamera/Objektiv-Kombination aufgenommen wurde.",
 			"morehelptext": "<br><br>Siehe auch: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a> und <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
@@ -6827,7 +6827,7 @@
 			"id": "maskimagetoolbar.copymask",
 			"machinetranslated": false,
 			"label": "@copymask@",
-			"helptext": "Kopiert die aktuelle Maske in die Zwischenablage. Die Maske können Sie in andere Bilder oder auch in externen Bildbearbeitungsprogrammen eingefügen."
+			"helptext": "Kopiert die aktuelle Maske in die Zwischenablage. Die Maske können Sie in andere Bilder oder auch in einer externen Bildbearbeitungssoftware eingefügen."
 		},
 		{
 			"id": "maskimagetoolbar.pastemask",
@@ -7352,13 +7352,13 @@
 			"id": "createpanoramatab.saveandsendtobatchstitcher",
 			"machinetranslated": false,
 			"helptext": "Das Panorama an den Batch-Stitcher senden, um es im Hintergrund zu verarbeiten.",
-			"morehelptext": "<br><br>Wenn das Projekt geändert wird, wird die Projektdatei zuerst auf dem Datenträger gespeichert (wie über '@menubar.file@' | '@menubar.file.saveproject@'). Dann wird der Batch-Stitcher geöffnet und das Projekt der Verarbeitungswarteschlange hinzugefügt. <optional product='pro'><br><br>Der Batch-Stitcher kann zum Ausrichten des Panoramas konfiguriert werden (siehe '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@'). Wenn dies der Fall ist, aktualisiert der Batch-Stitcher das Projekt auf dem Datenträger, nachdem die Bilder ausgerichtet wurden. Um das Risiko zu vermeiden, an verschiedenen Versionen desselben Projekts zu arbeiten, muss das Projekt in diesem Fenster geschlossen werden, nachdem der Batch-Stitcher gestartet wurde.</optional><br><br>Alternativ können Sie das Projekt unter Verwendung von '@menubar.project@' | '@menubar.project.sendtemporarycopytobatchstitcher@' an den Batch-Stitcher senden. Letzteres speichert das Projekt unter einem eindeutigen temporären Dateinamen und sendet dieses an den Batch-Stitcher. Verwenden Sie diese Option, wenn Sie verschiedene Versionen desselben Projekts an den Batch-Stitcher senden möchten. '@menubar.project.saveandsendtobatchstitcher@' verwendet den aktuellen Dateinamen des Projekts, sodass frühere Versionen desselben Projekts überschrieben werden."
+			"morehelptext": "<br><br>Wenn das Projekt geändert wird, wird die Projektdatei zuerst auf dem Datenträger gespeichert (wie über '@menubar.file@' | '@menubar.file.saveproject@'). Dann wird der Batch-Stitcher geöffnet und das Projekt der Verarbeitungswarteschlange hinzugefügt. <optional product='pro'><br><br>Der Batch-Stitcher kann zum Ausrichten des Panoramas konfiguriert werden (siehe '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@'). Dann aktualisiert der Batch-Stitcher das Projekt auf dem Datenträger, nachdem die Bilder ausgerichtet wurden. Um das Risiko zu vermeiden, an verschiedenen Versionen desselben Projekts zu arbeiten, muss das Projekt in diesem Fenster geschlossen werden, nachdem der Batch-Stitcher gestartet wurde.</optional><br><br>Alternativ senden Sie das Projekt mit '@menubar.project@' | '@menubar.project.sendtemporarycopytobatchstitcher@' an den Batch-Stitcher. Dies speichert das Projekt unter einem eindeutigen temporären Dateinamen und sendet dieses an den Batch-Stitcher. Verwenden Sie diese Option, wenn Sie verschiedene Versionen desselben Projekts an den Batch-Stitcher senden möchten. '@menubar.project.saveandsendtobatchstitcher@' verwendet den aktuellen Dateinamen des Projekts, sodass frühere Versionen desselben Projekts überschrieben werden."
 		},
 		{
 			"id": "createpanoramatab.includeimages",
 			"machinetranslated": false,
 			"helptext": "Nur die ausgewählten Bilder in das Panorama aufnehmen",
-			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) in den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Und es ist möglich, mit der rechten Maustaste in den Panorama-Editor und den Detail Viewer zu klicken, um das Bild an der angeklickten Stelle auszuschließen. <optional product='pro'><br><br>Bei HDR-Panoramen können alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' ausgewählt werden, und mit '@menubar.images@' | '@menubar.images.include@'/'@menubar.images.exclude@' ein- oder ausgeschlossen werden.</optional>"
+			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) in den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Sie können auch im Panorama-Editor und im Detail Viewer Bilder ausschließen. Dort schließen Sie das Bild an der angeklickten Stelle über das Kontextmenü (Rechtsklick) aus. <optional product='pro'><br><br>Bei HDR-Panoramen können Sie alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' auswählen und mit '@menubar.images@' | '@menubar.images.include@'/'@menubar.images.exclude@' ein- oder ausschliessen.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blendertype",
@@ -8051,7 +8051,7 @@
 		{
 			"id": "batchbuilderdetect.focallength",
 			"machinetranslated": false,
-			"helptext": "Nur Bilder, die mit einer Brennweite (in den EXIF-Daten) in diesem Bereich aufgenommen wurden, verwenden. Lassen Sie die Anzeige leer, um die Brennweite zu ignorieren."
+			"helptext": "Nur Bilder, die mit einer Brennweite (in den EXIF-Daten) in diesem Bereich aufgenommen wurden, verwenden. Lassen Sie den Eintrag leer, um die Brennweite zu ignorieren."
 		},
 		{
 			"id": "batchbuilderdetect.samefocallength",
@@ -8250,7 +8250,7 @@
 			"id": "lensdatabase.mappings",
 			"machinetranslated": false,
 			"helptext": "EXIF-Zuordnungen für den ausgewählten Objektiv-Datenbankeintrag",
-			"morehelptext": "<br><br>Objektiv-Datensätzen werden EXIF-Daten zugeordnet, um benutzerdefinierte Einstellungen automatisch auf Bilder einer bestimmten Kamera und Objektiv-Kombination anzuwenden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Einem Objektiv-Datensatz können Kamera/Objektiv-Kombinationen, bestimmt anhand der EXIF-Daten geladender Bilder, zugeordnet werden. Über diese Zuordnung werden diese Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden. Siehe: <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.mappings.add",
@@ -8301,14 +8301,14 @@
 		{
 			"id": "focallengthdialog.lenstype",
 			"machinetranslated": false,
-			"helptext": "Wählt den Objektivtyp. Diese Liste wird nach der oben eingegebenen Brennweite gefiltert, geben Sie also zuerst die Brennweite ein.",
-			"morehelptext": "<br><br>Abhängig von der eingegebenen Brennweite kann diese Liste folgende Objektivtypen anzeigen:<br><br><b>@focallengthdialog.regularlens@:</b> Für nicht-Fischaugenobjektive PTGui muss außer der Brennweite keine spezifischen Daten kennen. Daher sollte dieser Punkt für alle Nicht-Fischaugen-Objektive ausgewählt werden.<br><br><b>@txt.genericfisheye@: Wählen</b> Sie diese Option, wenn Ihr Objektiv ein Fischaugenobjektiv ist, aber das spezifische Objektivmodell nicht in der Liste angezeigt wird. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, abhängig davon, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor wird auf -0,5 für die äquisolide Fischaugenprojektion eingestellt. Dies ist der häufigste Typ.<br><br><b>Spezifische Fischaugenobjektivmodelle:</b> Abhängig von der eingegebenen Brennweite wird eine Liste möglicher Fischaugenobjektive angezeigt. Wenn sich Ihr Objektiv in der Liste befindet, wählen Sie es hier aus. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, je nachdem, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor und der Beschneidungskreis werden aus bekannten Werten entsprechend initialisiert. Wenn Ihr Objektiv ein Fischaugenobjektiv ist und es hier nicht abgebildet ist, senden Sie uns bitte ein Beispielbild, damit wir es in die nächste Version von PTGui aufnehmen können.<br><br>Weitere Informationen zu Objektivparametern finden Sie im Hauptfenster auf der Registerkarte '@mainwindow.tabs.lenssettings@'. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, klicken Sie zuerst auf @advanced@."
+			"helptext": "Legt den Objektivtyp fest. Diese Liste wird nach der oben eingegebenen Brennweite gefiltert, geben Sie also zuerst die Brennweite ein.",
+			"morehelptext": "<br><br>Abhängig von der eingegebenen Brennweite kann diese Liste folgende Objektivtypen anzeigen:<br><br><b>@focallengthdialog.regularlens@:</b> Für nicht-Fischaugenobjektive PTGui muss außer der Brennweite keine spezifischen Daten kennen. Daher sollte dieser Punkt für alle Nicht-Fischaugen-Objektive ausgewählt werden.<br><br><b>@txt.genericfisheye@: Wählen</b> Sie diese Option, wenn Ihr Objektiv ein Fischaugenobjektiv ist, aber das spezifische Objektivmodell nicht in der Liste angezeigt wird. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, abhängig davon, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor wird auf -0,5 für die äquisolide Fischaugenprojektion eingestellt. Dies ist der häufigste Typ.<br><br><b>Spezifische Fischaugenobjektivmodelle:</b> Abhängig von der eingegebenen Brennweite wird eine Liste möglicher Fischaugenobjektive angezeigt. Wenn sich Ihr Objektiv in der Liste befindet, wählen Sie es hier aus. PTGui initialisiert die Objektivparameter entweder als @projection.fullframefisheye@ oder als @projection.circularfisheye@, je nachdem, ob der Beschneidungskreis im Bild sichtbar ist oder nicht. Der Fischaugenfaktor und der Beschneidungskreis werden aus bekannten Werten entsprechend initialisiert. Wenn Ihr Objektiv ein Fischaugenobjektiv ist und es hier nicht abgebildet ist, senden Sie uns bitte ein Beispielbild, damit wir es in die nächste Version von PTGui aufnehmen können.<br><br>Weitere Informationen zu Objektivparametern finden Sie im Hauptfenster auf der Registerkarte '@mainwindow.tabs.lenssettings@'. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, klicken Sie zuerst auf '@advanced@'."
 		},
 		{
 			"id": "focallengthdialog.alwaysuse",
 			"machinetranslated": false,
-			"helptext": "Eine neue Zuordnung für diese Objektiveinstellungen und den EXIF-Daten des Bildes zur Objektiv-Datenbank hinzufügen.",
-			"morehelptext": "<br><br>Wenn Sie eine Zuordnung zur Objektiv-Datenbank hinzufügen, werden diese Einstellungen automatisch beim nächsten Laden eines Bildes mit demselben Objektiv und derselben Kamera geladen. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"helptext": "Einen Objektiv-Datenbankeintrag erstellen und die Kamera/Objektiv-Kombination zuordnen",
+			"morehelptext": "<br><br>Erstellen Sie einen neuen Objektiv-Datenbankeintrag und ordnen Sie die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des aktuellen Bildes, diesem neuen Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden später automatisch angewendet, sobald Sie ein Bild laden, das mit der gleichen Kamera/Objektiv-Kombination aufgenommen wurde. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "sensorsizedialog.sensorsize",
@@ -8324,8 +8324,8 @@
 		{
 			"id": "sensorsizedialog.alwaysuse",
 			"machinetranslated": false,
-			"helptext": "Einen neuen Datensatz für die angegebene Sensorgröße und den Kameradaten aus den EXIF-Daten des Bildes zur Kamera-Datenbank hinzufügen",
-			"morehelptext": "<br><br>Durch Hinzufügen eines Datensatzes zur Kamera-Datenbank werden diese Einstellungen beim nächsten Laden eines Bildes von derselben Kamera automatisch geladen. Weitere Informationen finden Sie unter: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
+			"helptext": "Einen neuen Datensatz mit der angegebene Sensorgröße und den Kameradaten in der Kamera-Datenbank erstellen",
+			"morehelptext": "<br><br>Erstellen Sie einen neuen Datensatz in der Kamera-Datenbank mit der angegebenen Sensorgröße und den Kameradaten, bestimmt anhand der EXIF-Daten des aktuellen Bildes. Diese Einstellungen werden später beim Laden eines Bildes, das mit der derselben Kamera aufgenommen wurde, automatisch geladen. Weitere Informationen finden Sie unter: <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
 			"id": "options.tooltipmode",
@@ -8373,7 +8373,7 @@
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
 			"machinetranslated": false,
-			"helptext": "Wenn ausgewählt, sucht PTGui in den EXIF-Daten des Bildes nach dem ursprünglichen Aufnahmedatum. Wenn nicht ausgewählt, wird PTGui stattdessen das Änderungsdatum/die Änderungszeit der Bilddatei betrachten.<br><br>Wenn Sie das Bild in einer Bildbearbeitungsanwendung bearbeiten und speichern, wird das Datum der Dateiänderung geändert, das ursprüngliche Aufnahmedatum bleibt jedoch unverändert."
+			"helptext": "Wenn ausgewählt, sucht PTGui in den EXIF-Daten des Bildes nach dem ursprünglichen Aufnahmedatum. Wenn nicht ausgewählt, wird PTGui stattdessen das Änderungsdatum und die Änderungszeit der Bilddatei betrachten.<br><br>Wenn Sie das Bild in einer Bildbearbeitungssoftware bearbeiten und speichern, wird das Datum der Dateiänderung geändert, das ursprüngliche Aufnahmedatum bleibt jedoch unverändert."
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
@@ -9011,7 +9011,7 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank verwenden Sie, um die Parameter eines Objektivs zu speichern und abzurufen. Die Objektiv-Datenbank ist zunächst leer, sie wird nur für Ihre eigenen Daten verwendet. Objektiv-Datensätzen sind bestimmte EXIF-Daten zugeordnet. Dadurch wird PTGui so konfiguriert, dass  Objektiveinstellungen automatisch geladen werden, sobald Sie ein Bild von einem bestimmten Objektiv laden.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Wenn ein Datensatz ausgewählt ist, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Objektiv-Datensätzen sind bestimmte EXIF-Daten zugeordnet. Wenn eine Zuordnung vorhanden ist und ein Bild mit dieser speziellen Kamera/Objektiv-Kombination geladen wird, werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet. Zuordnungen können auf zwei Arten erfolgen:<br><br>Sobald Sie Bilder von einer nicht erkannten Kamera/Objektiv-Kombination laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen ' Diese Daten immer verwenden für ... [Kamera/Objektiv-Kombination]'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die EXIF-Daten des Bildes diesem Eintrag zugeordnet.<br><br>Zuordnungen können Sie auch manuell über die Registerkarte '@mainwindow.tabs.lenssettings@' erstellen: Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
+			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank speichert alle Parameter eines Objektivs, sodass Sie diese Parameter nur einmal eingeben müssen. Optional können Sie einem Eintrag eine Kamera/Objektiv-Kombination zugeordnen (siehe unten). Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Daten verwendet.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Sobald Sie einen Datensatz auswählen, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Einem Objektiv-Datensatz ist optional eine Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten eines Bildes, zugeordnet. Über diese Zuordnung werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden.<br><br>Zuordnungen können auf zwei Arten erfolgen:<br><br>• Sobald Sie Bilder von einem nicht erkannten Objektiv laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Diese Daten immer verwenden für ... [Kamera/Objektiv-Kombination]'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des Bildes, diesem Eintrag zugeordnet.<br><br>• Zuordnungen können Sie auch manuell auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellen. Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, den Objektiv-Datensatz und die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
 		},
 		{
 			"id": "cameradatabase",

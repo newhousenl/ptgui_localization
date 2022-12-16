@@ -418,7 +418,7 @@
 		},
 		{
 			"id": "menubar.view.zoomout",
-			"txt": "Rauszoomen"
+			"txt": "Herauszoomen"
 		},
 		{
 			"id": "menubar.view.zoomtofit",
@@ -1540,7 +1540,7 @@
 		},
 		{
 			"id": "cptypetoadd",
-			"txt": "CP-Typ für Hinzufügen"
+			"txt": "KP-Typ für Hinzufügen"
 		},
 		{
 			"id": "mainwindow.cptab.cptypetoadd",
@@ -3965,7 +3965,7 @@
 		},
 		{
 			"id": "cpassistant.missingcontrolpointsbottomtxt",
-			"txt": "Obwohl nicht jedes Paar sich überlappender Bilder Kontrollpunkte haben muss (solange die Bilder indirekt durch Kontrollpunkte mit anderen Bildern verbunden sind), kann dies die Optimierungsergebnisse verbessern."
+			"txt": "Obwohl nicht jedes Paar sich überlappender Bilder Kontrollpunkte haben muss (solange die Bilder indirekt durch Kontrollpunkte mit anderen Bildern verbunden sind), kann dies doch die Optimierungsergebnisse verbessern."
 		},
 		{
 			"id": "cpassistant.multiplepairstoofewcontrolpointstxt",
@@ -4795,7 +4795,7 @@
 		},
 		{
 			"id": "txt.foundimagesinsamefolder",
-			"txt": "PTGui hat %0 Bilder im selben Ordner gefunden, die ungefähr zur selben Zeit aufgenommen wurden. Möchten Sie diese auch zu Ihrem Projekt hinzufügen?"
+			"txt": "PTGui hat %0 Bilder im selben Ordner gefunden, die ungefähr zum selben Zeitpunkt aufgenommen wurden. Möchten Sie diese auch zu Ihrem Projekt hinzufügen?"
 		},
 		{
 			"id": "cubefacereconstructedpostfix",
@@ -8307,7 +8307,7 @@
 		{
 			"id": "focallengthdialog.alwaysuse",
 			"machinetranslated": false,
-			"helptext": "Einen Objektiv-Datenbankeintrag erstellen und die Kamera/Objektiv-Kombination zuordnen",
+			"helptext": "Einen neuen Objektiv-Datenbankeintrag erstellen und die Kamera/Objektiv-Kombination zuordnen",
 			"morehelptext": "<br><br>Erstellen Sie einen neuen Objektiv-Datenbankeintrag und ordnen Sie die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des aktuellen Bildes, diesem neuen Objektiv-Datenbankeintrag zu. Diese Objektiveinstellungen werden später automatisch angewendet, sobald Sie ein Bild laden, das mit der gleichen Kamera/Objektiv-Kombination aufgenommen wurde. Weitere Informationen finden Sie unter <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{

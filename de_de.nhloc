@@ -286,11 +286,11 @@
 		},
 		{
 			"id": "txt.savetonemapsettings",
-			"txt": "Tone Mapping-Einstellungen speichern"
+			"txt": "Tone-Mapping-Einstellungen speichern"
 		},
 		{
 			"id": "txt.loadtonemapsettings",
-			"txt": "Tone Mapping-Einstellungen laden"
+			"txt": "Tone-Mapping-Einstellungen laden"
 		},
 		{
 			"id": "txt.openpanorama",
@@ -482,7 +482,7 @@
 		},
 		{
 			"id": "projection.equirectangular",
-			"txt": "equirectangular"
+			"txt": "äquirektangulär"
 		},
 		{
 			"id": "projection.stereographic",
@@ -510,7 +510,7 @@
 		},
 		{
 			"id": "projection.transverseequirectangular",
-			"txt": "transversal equirectangular"
+			"txt": "transversal äquirektangulär"
 		},
 		{
 			"id": "projection.transversecylindrical",
@@ -1260,7 +1260,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.needoptimizemessage",
-			"txt": "Kontrollpunkte oder andere Einstellungen wurden geändert und dies hat möglicherweise die Ausrichtung der Bilder beeinflusst. Sie sollten das Projekt zuerst optimieren. Der Optimierer richtet die Bilder so aus, dass die Kontrollpunkte so genau wie möglich übereinstimmen."
+			"txt": "Kontrollpunkte oder andere Einstellungen wurden geändert. Dies hat möglicherweise die Ausrichtung der Bilder beeinflusst. Sie sollten das Projekt zuerst optimieren. Der Optimierer richtet die Bilder so aus, dass die Kontrollpunkte so genau wie möglich übereinstimmen."
 		},
 		{
 			"id": "mainwindow.projectassistant.runoptimizer",
@@ -1276,7 +1276,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.misplacedcontrolpoints",
-			"txt": "Das Projekt kann einige fehlplatzierte Kontrollpunkte enthalten."
+			"txt": "Das Projekt enthält möglicherweise einige falsch platzierte Kontrollpunkte."
 		},
 		{
 			"id": "mainwindow.projectassistant.seecpassistantfordetails",
@@ -1352,7 +1352,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.focallength.hfov",
-			"txt": "Horizontale Blickwinkel:"
+			"txt": "Horizontaler Blickwinkel:"
 		},
 		{
 			"id": "mainwindow.lensparams.fisheyefactor",
@@ -1532,7 +1532,7 @@
 		},
 		{
 			"id": "mainwindow.croptab.nocrop",
-			"txt": "Keine Beschneidung"
+			"txt": "Kein Zuschnitt"
 		},
 		{
 			"id": "mainwindow.masktab.errtwodifferentimages",
@@ -1660,11 +1660,11 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrenabled",
-			"txt": "Gruppiere Belichtungsreihen in separate Belichtungsebenen (für HDR-Panoramen)"
+			"txt": "Belichtungsreihen in einzelne Belichtungsebenen (für HDR-Panoramen) gruppieren"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
-			"txt": "Belichtungsebenen mischen mit:"
+			"txt": "Belichtungsebenen zusammenfügen mit:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod.truehdr",
@@ -1761,7 +1761,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.warnmissingexposuredata",
 			"format": "html",
-			"txt": "<red>Einige oder alle Quellbilder enthalten keine Belichtungsinformation. PTGui muss die Belichtungszeit aller Ihrer Quellbilder kennen.</red> Sie können diese Daten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ eingeben</a>."
+			"txt": "<red>Einige oder alle Quellbilder enthalten keine Belichtungsinformation. PTGui muss die Belichtungszeit aller Ihrer Quellbilder kennen.</red> Sie können diese Daten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ eintragen</a>."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnsingleblendplane",
@@ -1769,12 +1769,12 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numbracketsinfo",
-			"txt": "Das Projekt enthält %0 Sätze mit %1 Belichtungsreihen."
+			"txt": "Das Projekt enthält %0 Sätze mit je %1 Belichtungsreihen."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.infolinked",
 			"format": "html",
-			"txt": "Die Belichtungsreihen sind verknüpft. Die verknüpften Aufnahmen werden genau überlagert. Wenn die Bilder nicht von einem Stativ aufgenommen wurden, ist es besser, die Bilder zu <a href=0>entfernen</a>. In diesem Fall wird PTGui versuchen, die Belichtungsreihen auszurichten."
+			"txt": "Die Belichtungsreihen sind verknüpft. Die verknüpften Aufnahmen werden übereinander gelegt. Wenn die Bilder nicht von einem Stativ aufgenommen wurden, ist es besser, die Bilder zu <a href=0>entfernen</a>. In diesem Fall wird PTGui versuchen, die Belichtungsreihen auszurichten."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.infounlinked",
@@ -1783,12 +1783,12 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
-			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein überblendetes Panorama. Schließlich werden die %0 überblendeten Panoramen zu einem einzigen HDR-Panorama zusammengeführt."
+			"txt": "Die Quellbilder wurden bei %0 verschiedenen Belichtungsstufen aufgenommen. Für jede Belichtungsstufe erstellt PTGui ein überblendetes Panorama. Anschließend werden die %0 überblendeten Panoramen zu einem einzigen HDR-Panorama zusammengefügt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
 			"format": "html",
-			"txt": "<red>Die Bilder wurden scheinbar mit der Kamera im automatischen Belichtungsmodus aufgenommen: Die Kamera hat die Belichtung für jeden Satz von Belichtungsreihen angepasst. Höchstwahrscheinlich kann PTGui diese Bilder nicht korrekt in ein HDR-Panorama einpassen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ anzeigen</a>. Idealerweise sollte die Belichtungszeit einem sich wiederholenden Muster folgen (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass die Belichtung nicht zwischen Belichtungsreihen geändert wird. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt werden."
+			"txt": "<red>Die Bilder wurden scheinbar im automatischen Belichtungsmodus der Kamera aufgenommen. Jeder Satz der Belichtungsreihen ist anders belichtet. Höchstwahrscheinlich kann PTGui für diese Bilder kein korrektes HDR-Panorama erstellen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ einsehen</a>. Idealerweise sollte die Belichtungszeit einem sich wiederholenden Muster folgen (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass sich die Belichtung zwischen Belichtungsreihen nicht ändert. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt sein."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior",
@@ -2000,7 +2000,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cpnotcopiedtxt",
-			"txt": "(Kontrollpunkte werden nicht kopiert, da sie spezifisch für die eigentlichen Quellbilder sind)"
+			"txt": "(Kontrollpunkte werden nicht kopiert, da sie spezifisch für die Quellbilder sind)"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages",
@@ -2064,7 +2064,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.switchtoequirectforwideanglesourceimages",
-			"txt": "Das Panorama beim Laden eines Weitwinkel- oder sphärischen Bildes auf 360° equirectangulare Projektion stellen"
+			"txt": "Das Panorama beim Laden eines Weitwinkel- oder sphärischen Bildes auf 360° äquirektanguläre Projektion stellen"
 		},
 		{
 			"id": "mainwindow.imageparameters.image",
@@ -2241,7 +2241,7 @@
 		{
 			"id": "mainwindow.metadata.latlongtxt1",
 			"format": "html",
-			"txt": "Geben Sie den Längen- und Breitengrad getrennt durch ein Komma ein. Zum Beispiel: 40° 46'52.92&quot;, -73° 57'58.02&quot;<br>Gehen Sie zu <a href=\"https://maps.google.com/\">Google Maps</a> , um Koordinaten eines Ortes zu bestimmen."
+			"txt": "Geben Sie den Längen- und Breitengrad getrennt durch ein Komma ein. Zum Beispiel: 40° 46'52.92&quot;, -73° 57'58.02&quot;<br>Gehen Sie zu <a href=\"https://maps.google.com/\">Google Maps</a>, um Koordinaten eines Ortes zu bestimmen."
 		},
 		{
 			"id": "mainwindow.metadata.nolatlonginexif",
@@ -2659,7 +2659,7 @@
 		{
 			"id": "philosphere.heading",
 			"format": "html",
-			"txt": "Eine PhiloSpere ist eine Projektion eines Panoramabildes auf einen Polyeder, eine Form, die sich einer echten Kugel annähert. Es ist wahrscheinlich die beste Möglichkeit, Panoramabilder zu drucken. Sie wurde von Philo erfunden. <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">Besuchen Sie seine Website für weitere Informationen.</a><br><br>Um eine PhiloSpere zu erstellen, klicken Sie auf die Schaltfläche '@philosphere.start@'. Sie werden nach dem Ort Ihres Panoramabildes gefragt. Dies sollte ein 360° x 180°-Panorama in der equirectangularen Projektion sein. PTGui erstellt zwei Bilder, die Sie drucken, falten und zu einer PhiloSphere zusammenkleben können."
+			"txt": "Eine PhiloSpere ist eine Projektion eines Panoramabildes auf einen Polyeder, eine Form, die sich einer echten Kugel annähert. Es ist wahrscheinlich die beste Möglichkeit, Panoramabilder zu drucken. Sie wurde von Philo erfunden. <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">Besuchen Sie seine Website für weitere Informationen.</a><br><br>Um eine PhiloSpere zu erstellen, klicken Sie auf die Schaltfläche '@philosphere.start@'. Sie werden nach dem Ort Ihres Panoramabildes gefragt. Dies sollte ein 360° x 180°-Panorama in der äquirektangulären Projektion sein. PTGui erstellt zwei Bilder, die Sie drucken, falten und zu einer PhiloSphere zusammenkleben können."
 		},
 		{
 			"id": "philosphere.outputsize",
@@ -2671,7 +2671,7 @@
 		},
 		{
 			"id": "philosphere.warn_not_2_1",
-			"txt": "Um eine PhiloSphere zu erstellen, wird ein 360° x 180° equirectangular Bild benötigt. Ein solches Bild hat ein Breiten/Höhen-Verhältnis von 2:1. Das ausgewählte Bild hat ein anderes Seitenverhältnis. Wahrscheinlich wird das Ergebnis nicht Ihren Erwartungen entsprechen.\n\nTrotzdem fortfahren?"
+			"txt": "Um eine PhiloSphere zu erstellen, wird ein 360° x 180° äquirektanguläres Bild benötigt. Ein solches Bild hat ein Breiten/Höhen-Verhältnis von 2:1. Das ausgewählte Bild hat ein anderes Seitenverhältnis. Wahrscheinlich wird das Ergebnis nicht Ihren Erwartungen entsprechen.\n\nTrotzdem fortfahren?"
 		},
 		{
 			"id": "philosphere.savepart",
@@ -2759,7 +2759,7 @@
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.generate",
-			"txt": "Neue neue Kamera-Kurve erstellen"
+			"txt": "Neue Kamera-Kurve erstellen"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.usedefault",
@@ -3032,15 +3032,15 @@
 		},
 		{
 			"id": "options.cpgenerator.maxcps",
-			"txt": "Generiere höchstens"
+			"txt": "Maximal"
 		},
 		{
 			"id": "options.cpgenerator.maxcps.perimagepair",
-			"txt": "Kontrollpunkte pro Bildpaar"
+			"txt": "Kontrollpunkte pro Bildpaar generieren"
 		},
 		{
 			"id": "options.cpgenerator.maxcps.perproject",
-			"txt": "Kontrollpunkte pro Projekt"
+			"txt": "Kontrollpunkte pro Projekt generieren"
 		},
 		{
 			"id": "options.enblendapp",
@@ -3076,7 +3076,7 @@
 		},
 		{
 			"id": "options.useatmost",
-			"txt": "Verwende höchstens"
+			"txt": "Maximal"
 		},
 		{
 			"id": "options.mbpostfix",
@@ -3084,7 +3084,7 @@
 		},
 		{
 			"id": "options.ofram",
-			"txt": "vom RAM-Speicher"
+			"txt": "vom RAM-Speicher verwenden"
 		},
 		{
 			"id": "options.ofvideoram",
@@ -3116,7 +3116,7 @@
 		},
 		{
 			"id": "options.gpuacceleration.oldclversion",
-			"txt": "Dieses Gerät unterstützt nur die OpenCL-Version %0.%1. Mindestens %2.%3 ist erforderlich."
+			"txt": "Dieses Gerät unterstützt nur die OpenCL-Version %0.%1. Es ist mindestens %2.%3 erforderlich."
 		},
 		{
 			"id": "options.gpuacceleration.cldeviceunavailable",
@@ -3140,7 +3140,7 @@
 		},
 		{
 			"id": "options.gpuacceleration.notenoughlocalmemory",
-			"txt": "Dieses Gerät hat nur %0 kB des lokalen Speichers. Mindestens %1 kB ist erforderlich."
+			"txt": "Dieses Gerät hat nur %0 kB lokalen Speichers. Mindestens %1 kB ist erforderlich."
 		},
 		{
 			"id": "options.gpuacceleration.notagpu",
@@ -3240,7 +3240,7 @@
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer übertragen möchten oder wenn Sie einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird sich PTGui beenden, also speichern Sie bitte zuerst Ihre Arbeit."
+			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer übertragen möchten oder wenn Sie einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird sich PTGui beenden, speichern Sie bitte zuerst Ihre Arbeit."
 		},
 		{
 			"id": "licenseinfo.manageactivations",
@@ -3272,7 +3272,7 @@
 		},
 		{
 			"id": "licenseinfo.checkinglicense",
-			"txt": "Lizenz prüfen"
+			"txt": "Lizenz wird geprüft"
 		},
 		{
 			"id": "licenseinfo.failedtocontactactivation",
@@ -3475,7 +3475,7 @@
 		},
 		{
 			"id": "err.blenderfailednooutput",
-			"txt": "%0 ist fehlgeschlagen: Irgendwie wurde die Ausgabedatei nicht generiert. Dies könnte auf einen Mangel an Speicherplatz oder Speicherplatz zurückzuführen sein. Bitte versuchen Sie, mit einer geringeren Ausgabegröße zusammen zu fügen."
+			"txt": "%0 ist fehlgeschlagen: Die Ausgabedatei wurde nicht erstellt. DerGrund könnte zu wenig RAM-Speicherplatz oder Speicherplatz auf dem Datenträger sein. Bitte versuchen Sie, das Panorame mit einer geringeren Ausgabegröße zu erstellen."
 		},
 		{
 			"id": "err.invalidvalue",
@@ -3531,7 +3531,7 @@
 		},
 		{
 			"id": "batchbuilder.err.nosubfoldersstartingwith",
-			"txt": "Keine Unterordner, die mit '%1' beginnen, wurden gefunden im Ordner: %0"
+			"txt": "Es wurden keine Unterordner, die mit '%1' beginnen, im Ordner '%0' gefunden"
 		},
 		{
 			"id": "batchbuilder.err.nosubfolders2",
@@ -3547,7 +3547,7 @@
 		},
 		{
 			"id": "batchbuilder.err.noimagefileswithextension",
-			"txt": "Keine Bilddateien mit der Erweiterung %1 im Ordner %0 gefunden"
+			"txt": "Keine Bilddateien mit der Erweiterung %1 im Ordner '%0' gefunden"
 		},
 		{
 			"id": "batchbuilder.generatingprojects",
@@ -3727,15 +3727,15 @@
 		},
 		{
 			"id": "batchstitcher.err.onlyoneimage",
-			"txt": "Kontrollpunkte können nicht generiert werden, da nur ein Bild vorhanden ist."
+			"txt": "Es können keine Kontrollpunkte generiert werden, da nur ein Bild vorhanden ist."
 		},
 		{
 			"id": "batchstitcher.err.nocpsfoundaborting",
-			"txt": "Es konnten keine Kontrollpunkte für alle Bilder gefunden werden. Zu diesem Zeitpunkt wird das Panorama nicht zusammengefügt."
+			"txt": "Es konnten nicht für alle Bilder Kontrollpunkte gefunden werden. Das Panorama wird nicht zusammengefügt."
 		},
 		{
 			"id": "batchstitcher.nocpsfoundwarning",
-			"txt": "Es konnten keine Kontrollpunkte für alle Bilder gefunden werden. Das resultierende Panorama enthält nicht ausgerichtete Bilder. Öffnen Sie das Projekt in PTGui, um die fehlenden Kontrollpunkte hinzuzufügen."
+			"txt": "Es konnten nicht Kontrollpunkte für alle Bilder Kontrollpunkte gefunden werden. Das resultierende Panorama enthält nicht ausgerichtete Bilder. Öffnen Sie das Projekt in PTGui, um die fehlenden Kontrollpunkte hinzuzufügen."
 		},
 		{
 			"id": "batchstitcher.confirmabort",
@@ -3755,7 +3755,7 @@
 		},
 		{
 			"id": "batchstitcher.log",
-			"txt": "Log:"
+			"txt": "Protokoll:"
 		},
 		{
 			"id": "blendplaneselector.heading",
@@ -3823,7 +3823,7 @@
 		},
 		{
 			"id": "sensorsizedialog.heading3",
-			"txt": "Bitte füllen Sie eines der folgenden Felder aus. Wenn Sie die Daten nicht kennen, klicken Sie auf die Schaltfläche '@sensorsizedialog.choosepreset@' und wählen Sie das am besten geeignete Element aus."
+			"txt": "Bitte füllen Sie eines der folgenden Felder aus. Wenn Sie die Daten nicht kennen, wählen Sie über die Schaltfläche '@sensorsizedialog.choosepreset@' das am besten geeignete Element aus."
 		},
 		{
 			"id": "sensorsizedialog.txtsubmitexif",
@@ -3931,7 +3931,7 @@
 		},
 		{
 			"id": "cpassistant.clusters",
-			"txt": "Cluster"
+			"txt": "Gruppen"
 		},
 		{
 			"id": "cpassistant.clusterstxt",
@@ -3987,7 +3987,7 @@
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
-			"txt": "32 Bit Gleitkomma"
+			"txt": "32-Bit Gleitkomma"
 		},
 		{
 			"id": "fileformatsettings.fileformatoptionstxt",
@@ -4315,15 +4315,15 @@
 		},
 		{
 			"id": "err.outputfileidenticaltosourcefile",
-			"txt": "Der Name der Ausgabedatei ist identisch mit einem der Quellbilder. Wenn Sie dieses Projekt zusammenfügen, wird eines der Quellbilder überschrieben. Bitte wählen Sie eine andere Ausgabedatei."
+			"txt": "Der Name der Ausgabedatei ist identisch mit dem einer Quellbilddatei. Wenn Sie dieses Projekt zusammenfügen, wird dieses Quellbild überschrieben. Bitte wählen Sie eine andere Ausgabedatei."
 		},
 		{
 			"id": "warn.psb300000",
-			"txt": "Obwohl PTGui Photoshop-Dateien mit großem Dokument (.psb) größer oder größer als 300000 Pixel erstellen kann, kann Photoshop solche großen Bilder nicht öffnen."
+			"txt": "Obwohl PTGui Photoshop-Dateien im großem Dokumentformat (.psb) breiter oder höher als 300000 Pixel erstellen kann, kann Photoshop solche großen Bilder nicht öffnen."
 		},
 		{
 			"id": "err.jpg65500",
-			"txt": "PTGui unterstützt nicht das Speichern von JPEG-Dateien, die größer oder größer als 65500 Pixel sind. Bitte speichern Sie stattdessen in einem anderen Dateiformat."
+			"txt": "PTGui unterstützt nicht das Speichern von JPEG-Dateien, die breiter oder höher als 65500 Pixel sind. Bitte speichern Sie stattdessen in einem anderen Dateiformat."
 		},
 		{
 			"id": "err.nooutputcomponents",
@@ -4367,7 +4367,7 @@
 		},
 		{
 			"id": "txt.paintmask",
-			"txt": "Maske malen"
+			"txt": "Maske zeichnen"
 		},
 		{
 			"id": "err.cannotchangephysicallyrotateimages",
@@ -4495,7 +4495,7 @@
 		},
 		{
 			"id": "psd.err.max30000",
-			"txt": "Photoshop PSD-Dateien können nicht breiter oder größer als 30000 Pixel sein."
+			"txt": "Photoshop PSD-Dateien können nicht breiter oder höher als 30000 Pixel sein."
 		},
 		{
 			"id": "psd.err.over4gb",
@@ -4503,15 +4503,15 @@
 		},
 		{
 			"id": "err.externalblender.tiffover4gb",
-			"txt": "Eine TIFF-Datei, die an das Blending-Plug-in gesendet werden soll, überschreitet die maximale Größe von 4 GB. Das Panorama ist zu groß und muss mit dem internen Blender geblend werden.\n\nBitte wählen Sie stattdessen '@mainwindow.createpanoramatab.blendusing@: PTGui'."
+			"txt": "Eine TIFF-Datei, die an das Blending-Plug-in gesendet werden soll, überschreitet die maximale Größe von 4 GB. Das Panorama ist zu groß und muss mit dem internen Blender zusammengefügt werden.\n\nBitte wählen Sie stattdessen '@mainwindow.createpanoramatab.blendusing@: PTGui'."
 		},
 		{
 			"id": "err.stitcher.imagehasunexpectedsize",
-			"txt": "Die Abmessungen dieses Bildes unterscheiden sich von den Bildmaßen, die in der Projektdatei aufgezeichnet sind. Bitte laden Sie das Projekt neu und fügen Sie es erneut zusammen.\n\nBild:\n%0"
+			"txt": "Die Abmessungen dieses Bildes unterscheiden sich von den Bildmaßen, die in der Projektdatei gespeichert sind. Bitte laden Sie das Projekt neu und fügen Sie es erneut zusammen.\n\nBild:\n%0"
 		},
 		{
 			"id": "err.stitcher.imagehasunexpectedpixelformat",
-			"txt": "Das Pixelformat dieses Bildes unterscheidet sich von dem in der Projektdatei aufgezeichneten Pixelformat. Bitte laden Sie das Projekt neu und fügen Sie es erneut zusammen.\n\nBild:\n%0"
+			"txt": "Das Pixelformat dieses Bildes unterscheidet sich von dem in der Projektdatei gespeichertem Pixelformat. Bitte laden Sie das Projekt neu und fügen Sie es erneut zusammen.\n\nBild:\n%0"
 		},
 		{
 			"id": "err.filenotfound",
@@ -4519,7 +4519,7 @@
 		},
 		{
 			"id": "err.notaptguimaskbitmap",
-			"txt": "Dies scheint kein PTGui-Maskenbild zu sein."
+			"txt": "Dies scheint keine PTGui-Mask zu sein."
 		},
 		{
 			"id": "err.unrecognizedimageformat",
@@ -4667,7 +4667,7 @@
 		},
 		{
 			"id": "err.mac.installtoapplicationsfolderfailed",
-			"txt": "Fehler beim Installieren von %0 im Ordner %1. Wahrscheinlich liegt dies an einem Berechtigungsproblem.\n\nUm die Installation fortzusetzen, ziehen Sie %0 aus dem Image der Installationsdiskette in den Ordner %1 auf Ihrem Mac. Anschließend kann das Image der Installationsdiskette gelöscht und %0 aus dem Ordner %1 gestartet werden.\n\nDer folgende Fehler ist aufgetreten:"
+			"txt": "Fehler bei der Installation von %0 im Ordner %1. Wahrscheinlich liegt dies an einem Berechtigungsproblem.\n\nUm die Installation fortzusetzen, ziehen Sie %0 aus dem Image der Installationsdiskette in den Ordner %1 auf Ihrem Mac. Anschließend kann das Image der Installationsdiskette gelöscht und %0 aus dem Ordner %1 gestartet werden.\n\nDer folgende Fehler ist aufgetreten:"
 		},
 		{
 			"id": "err.unknownfiletype",
@@ -4727,7 +4727,7 @@
 		},
 		{
 			"id": "warn.alignimagesmissingcontrolpoints",
-			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle passen. Sie müssen einige Kontrollpunkte hinzufügen, bevor das Panorama zusammengefügt werden kann. Diese Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen sollten.\n\nDer Kontrollpunkt-Assistent gibt detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte erfordern.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
+			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle ausrichten. Sie müssen einige Kontrollpunkte hinzufügen, bevor das Panorama zusammengefügt werden kann. Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen.\n\nDer Kontrollpunkt-Assistent gibt Ihnen detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte benötigen.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
 		},
 		{
 			"id": "txt.dontaskthisagain",
@@ -4791,7 +4791,7 @@
 		},
 		{
 			"id": "err.dragdropmess",
-			"txt": "Sie haben mehrere Dateien auf PTGui gezogen, einschließlich Bildern und Projektdateien.\n\nZiehen Sie entweder ein einzelnes PTGui-Projekt oder ein oder mehrere Bilder nach PTGui."
+			"txt": "Sie haben mehrere Dateien auf PTGui gezogen, einschließlich Bilder und Projektdateien.\n\nZiehen Sie entweder ein einzelnes PTGui-Projekt oder ein oder mehrere Bilder auf PTGui."
 		},
 		{
 			"id": "txt.foundimagesinsamefolder",
@@ -4811,23 +4811,23 @@
 		},
 		{
 			"id": "err.notfoundaskforfolder2",
-			"txt": "Keines der Bilder wurde im angegebenen Ordner gefunden. Möchten Sie es in einen anderen Ordner versuchen?"
+			"txt": "Keines der Bilder wurde im angegebenen Ordner gefunden. Möchten Sie sie in einem anderen Ordner suchen?"
 		},
 		{
 			"id": "err.notfoundaskforfolder3",
-			"txt": "Ein oder mehrere Bilder fehlen noch. Möchten Sie es in einen anderen Ordner versuchen?"
+			"txt": "Ein oder mehrere Bilder fehlen noch. Möchten Sie sie in einem anderen Ordner suchen?"
 		},
 		{
 			"id": "txt.folderforsearchingimages",
-			"txt": "Suche im folgenden Ordner nach fehlenden Bildern:"
+			"txt": "Im folgenden Ordner nach fehlenden Bildern suchen:"
 		},
 		{
 			"id": "txt.folderforreplacingimages",
-			"txt": "Ersetze sie durch Bilder aus dem folgenden Ordner:"
+			"txt": "Bilder durch Bilder aus dem folgenden Ordner ersetzen:"
 		},
 		{
 			"id": "warn.imageshavebeenunlinked",
-			"txt": "Das Projekt enthält verknüpfte Bilder, aber nur Bilder mit identischer Größe können verknüpft werden. Einige Bilder mussten nicht verknüpft werden, da Ersatzbilder unterschiedliche Größen hatten."
+			"txt": "Das Projekt enthält verknüpfte Bilder, aber nur Bilder mit identischer Größe können verknüpft werden. Bei einigen Bildern mußte die Verknüpfung entfernt werden, da die neuen Bilder eine unterschiedliche Größen haben."
 		},
 		{
 			"id": "warn.somereplacementimagesnotfound",
@@ -4847,15 +4847,15 @@
 		},
 		{
 			"id": "err.optimizerfailed",
-			"txt": "Der Optimierer konnte keine gute Ausrichtung der Bilder erzielen. Möglicherweise führt die aktuelle Fehlausrichtung der Bilder dazu, dass der Optimierer stecken bleibt. Die Ausführung von '@menubar.project.initializeandoptimize@' kann in einem solchen Fall hilfreich sein: Dadurch werden die Objektiveinstellungen und die Bildpositionen auf den ursprünglichen Zustand zurückgesetzt und die Bilder werden von Grund auf neu positioniert.\n\nMöchten Sie '@menubar.project.initializeandoptimize@' ausführen?"
+			"txt": "Der Optimierer konnte keine gute Ausrichtung der Bilder erzielen. Möglicherweise führt die aktuelle Fehlausrichtung der Bilder dazu, dass der Optimierer hängen bleibt. Die Ausführung von '@menubar.project.initializeandoptimize@' kann in einem solchen Fall hilfreich sein. Dadurch werden die Objektiveinstellungen und die Bildpositionen auf den ursprünglichen Zustand zurückgesetzt und die Bilder werden von Grund auf neu positioniert.\n\nMöchten Sie '@menubar.project.initializeandoptimize@' ausführen?"
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"txt": "Das Projekt scheint %0 Sätze von %1 Belichtungsreihen zu enthalten. Möchten Sie die Positionen der Belichtungsreihen verknüpfen und jeden Satz als einzelnes Bild behandeln?\n\nDies erfordert, dass die Belichtungsreihen bereits mit Pixelgenauigkeit ausgerichtet sind. Tun Sie dies nur, wenn ein Stativ verwendet wurde. Wenn die Bilder ohne Stativ aufgenommen wurden, wählen Sie @cancel@."
+			"txt": "Das Projekt scheint %0 Sätze mit je %1 Belichtungsreihen zu enthalten. Möchten Sie die Positionen der Belichtungsreihen verknüpfen und jeden Satz als einzelnes Bild behandeln?\n\nDies erfordert, dass die Belichtungsreihen bereits mit Pixelgenauigkeit ausgerichtet sind. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn die Bilder ohne Stativ aufgenommen wurden, wählen Sie @cancel@."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
-			"txt": "Das Projekt scheint %0 Sätze mit %1 Belichtungsreihen zu enthalten. Was möchten Sie tun?"
+			"txt": "Das Projekt scheint %0 Sätze mit je %1 Belichtungsreihen zu enthalten. Was möchten Sie tun?"
 		},
 		{
 			"id": "err.nobracketedfound",
@@ -4895,11 +4895,11 @@
 		},
 		{
 			"id": "papywizardimport.noimages",
-			"txt": "Die Papywizard-Datendatei enthält null Bilder oder hat ein ungültiges Format."
+			"txt": "Die Papywizard-Datendatei enthält keine Bilder oder hat ein ungültiges Format."
 		},
 		{
 			"id": "papywizardimport.numimagesmismatch",
-			"txt": "Die Papywizard-Datendatei enthält %0 Bilder, während das aktuelle PTGui-Projekt über %1 Bilder verfügt. Sind Sie sicher, dass das richtig ist?"
+			"txt": "Die Papywizard-Datendatei enthält %0 Bilder, während im aktuellen PTGui-Projekt %1 Bilder geladen sind. Sind Sie sicher, dass das richtig ist?"
 		},
 		{
 			"id": "papywizardimport.numimagesmismatchbracketed",
@@ -4927,7 +4927,7 @@
 		},
 		{
 			"id": "err.psd4gb",
-			"txt": "Photoshop-Dateien (.psd) können bis zu 4 Gigabyte groß sein. Die geschätzte Größe der resultierenden Photoshop-Datei ist größer als dieses Maximum und führt zu einer nicht lesbaren Datei. Wechseln Sie zu einem anderen Dateiformat (z. B. Photoshop Large Document, .psb)."
+			"txt": "Photoshop-Dateien (.psd) können bis zu 4 Gigabyte groß sein. Die geschätzte Größe der resultierenden Photoshop-Datei ist größer als dieses Maximum und führt zu einer nicht lesbaren Datei. Wechseln Sie zu einem anderen Dateiformat (z.B. Photoshop Large Document .psb)."
 		},
 		{
 			"id": "err.fovtoolargeforprojection",
@@ -5007,7 +5007,7 @@
 		},
 		{
 			"id": "publishtowebsite.savetosamefolder",
-			"txt": "In Dateien mit demselben Namen im Quellbildordner speichern"
+			"txt": "In Dateien mit gleichem Namen im Quellbildordner speichern"
 		},
 		{
 			"id": "publishtowebsite.saveas",
@@ -5023,7 +5023,7 @@
 		},
 		{
 			"id": "publishtowebsite.settings",
-			"txt": "Die Einstellungen:"
+			"txt": "Einstellungen:"
 		},
 		{
 			"id": "publishtowebsite.converting",
@@ -5152,7 +5152,7 @@
 		{
 			"id": "trialversion.txt",
 			"format": "html",
-			"txt": "<font size=2>%0 Testversion</font><br><br>Dies ist eine kostenlose Testversion der %0 Panorama Stitching Software. Diese Testversion ermöglicht die Evaluierung der Software und unterliegt den folgenden Einschränkungen<br><br>- zusammengefügte Panoramen enthalten ein sichtbares Wasserzeichen &quot;www.ptgui.com&quot;<br>- Projektdateien aus der Testversion können nur von PTGui gelesen werden. Der Export in andere Anwendungen ist nicht möglich.<br><br>Abgesehen von den oben genannten Einschränkungen ist die Testversion voll funktionsfähig. Die Testbeschränkungen können durch den Erwerb einer Lizenz entfernt werden. Ihr Kauf unterstützt die zukünftige Entwicklung von PTGui! Klicken Sie auf die Schaltfläche @trialversion.buyptgui@, um weitere Informationen zu erhalten.<br><br><b>Danke fürs Testen von %0!</b>"
+			"txt": "<font size=2>%0 Testversion</font><br><br>Dies ist eine kostenlose Testversion der %0 Panorama Stitching Software. Diese Testversion ermöglicht die Evaluierung der Software und unterliegt den folgenden Einschränkungen<br><br>- zusammengefügte Panoramen enthalten das sichtbare Wasserzeichen &quot;www.ptgui.com&quot;<br>- Projektdateien aus der Testversion können nur von PTGui gelesen werden. Der Export in andere Anwendungen ist nicht möglich.<br><br>Abgesehen von den oben genannten Einschränkungen ist die Testversion voll funktionsfähig. Die Testbeschränkungen können Sie durch den Erwerb einer Lizenz entfernen. Mit dem Kauf unterstützen Sie die zukünftige Entwicklung von PTGui! Klicken Sie auf die Schaltfläche @trialversion.buyptgui@, um weitere Informationen zu erhalten.<br><br><b>Danke für's Testen von %0!</b>"
 		},
 		{
 			"id": "trialversion.buyptgui",
@@ -5212,7 +5212,7 @@
 		},
 		{
 			"id": "cameradatabase.toadd",
-			"txt": "Um eine Kamera zu dieser Liste hinzuzufügen, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im erweiterten Modus sein). Wählen Sie dort '@cameradatabase@' - '@mainwindow.lensparams.savetocameradatabase@'."
+			"txt": "Um eine Kamera zu dieser Liste hinzuzufügen, laden Sie ein Bild und gehen Sie zur Registerkarte '@mainwindow.tabs.lenssettings@' (PTGui sollte im fortgeschrittenen Modus sein). Wählen Sie dort '@cameradatabase@' - '@mainwindow.lensparams.savetocameradatabase@'."
 		},
 		{
 			"id": "cameradatabase.confirmdelete1",
@@ -5405,7 +5405,7 @@
 		{
 			"id": "gridsetup.viewresult",
 			"format": "html",
-			"txt": "Zeigen Sie das Ergebnis im <a href=0>Panorama-Editor an</a>"
+			"txt": "Das Ergebnis im <a href=0>Panorama-Editor</a> anzeigen"
 		},
 		{
 			"id": "gridsetup.warn1image",
@@ -5449,11 +5449,11 @@
 		},
 		{
 			"id": "gridsetup.errhigherthan180byoverlap",
-			"txt": "Ihre Einstellungen würden zu einem Panorama von mehr als 180° führen. Erhöhen Sie den vertikalen Überlappungsprozentsatz, damit die Bilder einander näher kommen."
+			"txt": "Ihre Einstellungen würden zu einem Panorama von vertikal mehr als 180° führen. Erhöhen Sie den vertikalen Überlappungsprozentsatz, damit die Bilder einander näher kommen."
 		},
 		{
 			"id": "gridsetup.errhigherthan180byspacing",
-			"txt": "Ihre Einstellungen würden zu einem Panorama führen, das breiter als 180° ist. Verringern Sie den vertikalen Abstandswinkel, damit die Bilder einander näher kommen."
+			"txt": "Ihre Einstellungen würden zu einem Panorama von vertikal mehr als 180° führen. Verringern Sie den vertikalen Abstandswinkel, damit die Bilder einander näher kommen."
 		},
 		{
 			"id": "qtvrsettings.cubefacesize",
@@ -5497,15 +5497,15 @@
 		},
 		{
 			"id": "activationdialog.tx1",
-			"txt": "Der Registrierungsschlüssel ist in der Auftragsbestätigungs-E-Mail enthalten, die Ihnen nach dem Kauf einer Lizenz für %0 zugesendet wurde."
+			"txt": "Der Registrierungsschlüssel ist in der E-Mail der Auftragsbestätigungs enthalten, die Ihnen nach dem Kauf einer Lizenz für %0 zugesendet wurde."
 		},
 		{
 			"id": "activationdialog.txt2_mac",
-			"txt": "Bitte verwenden Sie Kopieren / Einfügen, um den Lizenzschlüssel einzugeben: Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung und drücken Sie Cmd + C. Klicken Sie dann in das Textfeld oben und drücken Sie Cmd + V, um den Code einzufügen."
+			"txt": "Bitte verwenden Sie Kopieren/Einfügen, um den Lizenzschlüssel einzugeben. Wählen Sie den Schlüssel aus der E-Mail und drücken Sie Cmd + C. Klicken Sie dann in das Textfeld oben und drücken Sie Cmd + V, um den Code einzufügen."
 		},
 		{
 			"id": "activationdialog.txt2_nonmac",
-			"txt": "Bitte benutzen Sie Kopieren / Einfügen, um den Lizenzschlüssel einzugeben: Wählen Sie den Schlüssel in Ihrer E-Mail-Anwendung und drücken Sie Strg + C. Klicken Sie dann in das Textfeld oben und drücken Sie Strg + V, um den Code einzufügen."
+			"txt": "Bitte benutzen Sie Kopieren/Einfügen, um den Lizenzschlüssel einzugeben. Wählen Sie den Schlüssel aus der E-Mail und drücken Sie Strg + C. Klicken Sie dann in das Textfeld oben und drücken Sie Strg + V, um den Code einzufügen."
 		},
 		{
 			"id": "activationdialog.txt3",
@@ -6046,7 +6046,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": false,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im Bereich '@mainwindow.createpanoramatab.blending@' im @panoramaeditor@) deaktiviert ist, werden Nähte normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies kann durch Erhöhen oder Verringern der @mainwindow.imageparameters.blendpriority@ eines Quellbilds angepasst werden. Dies ist ein relativer Wert: Wenn zwei Bilder eine Mischpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamera-Kurven enthalten. In diesem Feld wird für jedes Quellbild die Kamera-Kurve konfiguriert. Die Kamera-Kurven werden auf der Registerkarte '@mainwindow.tabs.exposurehdr@' definiert. Wenn das Projekt nur eine Kamera-Kurve enthält, wird sie als '@txt.globalcameracurve@' bezeichnet. Wenn '@txt.cameracurve.linear@' ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und keine Kamera-Kurve angewendet wird. Weitere Informationen finden Sie in den QuickInfos auf der Registerkarte '@mainwindow.tabs.exposurehdr@'.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds als Farbtemperatur in Grad Kelvin. Dies wird verwendet, wenn im @panoramaeditor.sidebar.postprocess@-Bereich des @panoramaeditor@ ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier konfigurierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 KB angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtunsreihen zusammenfügen, wird mit diesem Kontrollkästchen konfiguriert, ob die Bilder einer Belichtungsreihe dieselben Parameter @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn die Belichtungsreihen nicht von einem Stativ aufgenommen wurden und unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollten. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte bereitgestellt werden."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im Bereich '@mainwindow.createpanoramatab.blending@' im @panoramaeditor@) deaktiviert ist, werden Nähte normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies passen Sie durch Erhöhen oder Verringern der @mainwindow.imageparameters.blendpriority@ eines Quellbilds an. Die @mainwindow.imageparameters.blendpriority@ ist ein relativer Wert. Wenn zwei Bilder eine Mischpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamera-Kurven enthalten. In diesem Feld wird für jedes Quellbild die Kamera-Kurve konfiguriert. Die Kamera-Kurven werden auf der Registerkarte '@mainwindow.tabs.exposurehdr@' definiert. Wenn das Projekt nur eine Kamera-Kurve enthält, wird sie als '@txt.globalcameracurve@' bezeichnet. Wenn '@txt.cameracurve.linear@' ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und keine Kamera-Kurve angewendet wird. Weitere Informationen finden Sie in den QuickInfos auf der Registerkarte '@mainwindow.tabs.exposurehdr@'.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds als Farbtemperatur in Grad Kelvin. Dies wird verwendet, wenn im @panoramaeditor.sidebar.postprocess@-Bereich des @panoramaeditor@ ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier konfigurierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 KB angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtunsreihen zusammenfügen, wird mit diesem Kontrollkästchen konfiguriert, ob die Bilder einer Belichtungsreihe dieselben Parameter @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn die Belichtungsreihen nicht von einem Stativ aufgenommen wurden und unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollten. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte bereitgestellt werden."
 		},
 		{
 			"id": "proxysettings.button",
@@ -6872,7 +6872,7 @@
 			"id": "cptab.cptypetoadd",
 			"machinetranslated": false,
 			"helptext": "Typ des Kontrollpunkts, der als nächstes hinzugefügt",
-			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein normaler Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@</b> und <b>@cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Typ von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimierer (und die '@panoeditor.menubar.edit.level@'-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die equirektangulare Projektion normalerweise für sphärische Panoramen verwendet wird und weil die equirektangulare Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise '@cptable.verticalline@'-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. '@cptable.horizontalline@'-Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie '@cptable.newline@', um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert und für dieselbe Zeile können Sie weitere Punkte hinzugefügen.<br><br>Den Typ eines vorhandenen Kontrollpunkts ändern Sie, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
+			"morehelptext": "<br><br><b>@cptable.normal@:</b> Ein normaler Kontrollpunkt, der zum Ausrichten der Bilder verwendet wird. Der Optimierer passt die Positionen der Bilder und andere Parameter so an, dass der gleiche Kontrollpunkt in beiden Quellbildern im endgültigen Panorama übereinstimmt. Normale Kontrollpunkte können nur hinzugefügt werden, wenn im linken und rechten Bereich unterschiedliche Bilder angezeigt werden.<br><br><b>@cptable.horizontalline@</b> und <b>@cptable.verticalline@:</b> Hierbei handelt es sich um eine spezielle Typ von Kontrollpunkt, der zum Ausrichten eines Panoramas verwendet wird. In der Regel wird das gleiche Bild im linken und rechten Bereich ausgewählt. Klicken Sie im linken Bereich auf ein vertikales oder horizontales Feature und dann im rechten Bereich auf eine andere Stelle desselben Features.<br><br>Der Optimierer (und die '@panoeditor.menubar.edit.level@'-Funktion im Panorama-Editor) richtet das Panorama so aus, dass die beiden Punkte in der Panoramaprojektion eine vertikale oder horizontale Linie bilden.<br><br>Da die äquirektanguläre Projektion normalerweise für sphärische Panoramen verwendet wird und weil die äquirektanguläre Projektion nur alle geraden vertikalen Linien, aber keine horizontalen Linien erhält, sollten normalerweise '@cptable.verticalline@'-Kontrollpunkte zum Ausgleichen eines Panoramas verwendet werden. '@cptable.horizontalline@'-Kontrollpunkte sollten nur am Horizont der Szene platziert werden (z. B. in Seestückpanoramen), da der Horizont die einzige horizontale Linie ist, die in einem rechtwinkligen Panorama gerade bleibt.<br><br><b>@cptable.newline@:</b> PTGui unterstützt auch allgemeine Kontrollpunkte für gerade Linien. Der Optimierer versucht, die Bilder so auszurichten, dass diese Punkte im Panorama eine gerade Linie bilden (nicht unbedingt horizontal oder vertikal). Dies kann nützlich sein, um Merkmale wie z.B. Stromleitungen auszurichten, bei denen es nicht möglich ist, bestimmte Punkte zu identifizieren. Wählen Sie '@cptable.newline@', um eine neue Zeile zu beginnen. Klicken Sie auf zwei Punkte der Linie im linken und rechten Bild. Der Name wird in Zeile 1 geändert und für dieselbe Zeile können Sie weitere Punkte hinzugefügen.<br><br>Den Typ eines vorhandenen Kontrollpunkts ändern Sie, indem Sie mit der rechten Maustaste auf den Kontrollpunktmarker klicken."
 		},
 		{
 			"id": "cptab.cptable",
@@ -6944,13 +6944,13 @@
 			"id": "exposurehdrtab.groupintoblendplanes",
 			"machinetranslated": false,
 			"helptext": "HDR-Modus aktivieren",
-			"morehelptext": "<br><br>Wenn ausgewählt, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert kann in der Registerkarte '@mainwindow.tabs.imageparameters@' angezeigt werden. Alle Bilder mit demselben EV werden zusammengefügt und in eine separate Belichtungsebene zusammengeführt. Jede Belichtungsebene ist ein vollständiges Panorama bei einer bestimmten Belichtung. Schließlich werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder einem verschmolzenen Tone-Mapping-/Exposure-Fusion-Bild verschmolzen."
+			"morehelptext": "<br><br>Wenn ausgewählt, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert wird in der Registerkarte '@mainwindow.tabs.imageparameters@' angezeigt. Alle Bilder mit demselben EV werden zu einem Panorama in einer separaten Belichtungsebene zusammengeführt. Jede Belichtungsebene ist ein vollständiges Panorama bei einer bestimmten Belichtung. Schließlich werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder mittels Tone Mapping oder Exposure Fusion zu einem Bild mit geringem Dynamikumfang zusammengefügt."
 		},
 		{
 			"id": "exposurehdrtab.truehdrmode",
 			"machinetranslated": false,
 			"helptext": "Ebenen in einem Bild mit hohem Dynamikumfang zusammenfügen",
-			"morehelptext": "<br><br>Das HDR-Bild erfasst den gesamten Dynamikumfang vom dunkelsten bis zum hellsten Teil des Panoramas. Es kann optional in ein Bild mit niedrigem Dynamikumfang umgewandelt werden, das zur Anzeige oder zum Drucken geeignet ist.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"morehelptext": "<br><br>Das HDR-Bild erfasst den gesamten Dynamikumfang vom dunkelsten bis zum hellsten Teil des Panoramas. Es kann optional in ein Bild mit niedrigem Dynamikumfang umgewandelt werden, das zur Anzeige oder zum Drucken geeignet ist.<br><br>Die Einstellungen nehmen Sie in der Seitenleiste des Panorama-Editors vor."
 		},
 		{
 			"id": "exposurehdrtab.exposurefusionmode",
@@ -6967,13 +6967,13 @@
 			"id": "exposurehdrtab.tonemapldrpanorama",
 			"machinetranslated": false,
 			"helptext": "Tone Mapping verwenden",
-			"morehelptext": "<br><br>Tone Mapping ist allgemein im Zusammenhang mit HDR-Bildern bekannt, kann aber auch für normale Bilder mit niedrigem Tonwertumfang (LDR) verwendet werden. Tone Mapping reduziert den Dynamikumfang durch Verstärkung von Schatten und Abdunklung von Lichtern, ähnlich der Schatten-/Lichterkorrektur in einer Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Einstellungen können in der Seitenleiste des Panorama-Editors angepasst werden."
+			"morehelptext": "<br><br>Tone Mapping ist allgemein im Zusammenhang mit HDR-Bildern bekannt, kann aber auch für normale Bilder mit niedrigem Tonwertumfang (LDR) verwendet werden. Tone Mapping reduziert den Dynamikumfang durch Verstärkung von Schatten und Abdunklung von Lichtern, ähnlich der Schatten-/Lichterkorrektur in einer Bildbearbeitungssoftware. Dies führt zu einem angenehmeren Bild, insbesondere für Szenen mit hohem Kontrast.<br><br>Die Einstellungen nehmen Sie in der Seitenleiste des Panorama-Editors vor."
 		},
 		{
 			"id": "exposurehdrtab.exposurecompensation",
 			"machinetranslated": false,
 			"helptext": "Belichtungsunterschiede anpassen, die durch die automatische Belichtung verursacht werden.",
-			"morehelptext": "<br><br>Der Blender kann Belichtungsunterschiede etwas kompensieren, für die besten Ergebnisse sollten die überlappenden Bilder aber ungefähr die gleiche Belichtung haben.<br><br>Wenn die automatische Belichtung aktiviert ist (z.B. bei Verwendung des Av-Modus der Kamera), können benachbarte Bilder unterschiedlich belichtet worden sein. Die Belichtungskorrektur untersucht die EXIF-Daten und passt die Belichtung jedes Bilds vor dem Überblenden an eine durchschnittliche Belichtung an. In Verbindung mit Tone Mapping können Sie so auch mit Szenen mit hohem Kontrast umgehen."
+			"morehelptext": "<br><br>Der Blender kann Belichtungsunterschiede etwas kompensieren, für die besten Ergebnisse sollten die überlappenden Bilder aber ungefähr die gleiche Belichtung haben.<br><br>Wenn die automatische Belichtung aktiviert ist (z.B. bei Verwendung des Av-Modus der Kamera), können benachbarte Bilder unterschiedlich belichtet worden sein. Die Belichtungskorrektur untersucht die EXIF-Daten und passt die Belichtung jedes Bilds vor dem Überblenden an eine durchschnittliche Belichtung an. In Verbindung mit Tone Mapping können Sie so auch mit Szenen mit hohem Kontrast gut verarbeiten."
 		},
 		{
 			"id": "exposurehdrtab.optimizenow",
@@ -7072,7 +7072,7 @@
 			"id": "projectsettingstab.alignimages.chooseprojection",
 			"machinetranslated": false,
 			"helptext": "Eine geeignete Projektion für den Blickwinkel des Panoramas wählen.",
-			"morehelptext": "<br><br>Schmale Panoramen verwenden eine geradlinige Projektion. Bei großen Panoramen wird eine zylindrische Projektion verwendet. Und vollständig sphärische Panoramen verwenden die standardmäßige 360° x 180° equirectangulare Projektion."
+			"morehelptext": "<br><br>Schmale Panoramen verwenden eine geradlinige Projektion. Bei großen Panoramen wird eine zylindrische Projektion verwendet. Und vollständig sphärische Panoramen verwenden die standardmäßige 360° x 180° äquirektanguläre Projektion."
 		},
 		{
 			"id": "projectsettingstab.alignimages.optimizeexposure",
@@ -7192,7 +7192,7 @@
 		{
 			"id": "projectsettingstab.misc.switchtoequirectforwideanglesourceimages",
 			"machinetranslated": false,
-			"helptext": "Wenn ausgewählt, schaltet PTGui auf 360° x 180° equirectangular um, sobald ein Weitwinkel- oder equirektangulares Panorama geladen wird. Dies geschieht vor dem Ausführen von '@alignimages@'. Nützlich für das Umwandeln bereits zusammengefügter Panoramen oder beim Laden von Bildern von 1-Punkt-Panoramakameras."
+			"helptext": "Wenn ausgewählt, schaltet PTGui auf 360° x 180° äquirektangulär um, sobald ein Weitwinkel- oder äquirektanguläres Panorama geladen wird. Dies geschieht vor dem Ausführen von '@alignimages@'. Nützlich für das Umwandeln bereits zusammengefügter Panoramen oder beim Laden von Bildern von 1-Punkt-Panoramakameras."
 		},
 		{
 			"id": "previewtab.size",
@@ -7246,7 +7246,7 @@
 			"id": "createpanoramatab.fixsize",
 			"machinetranslated": false,
 			"helptext": "Legt fest, ob Sie die Ausgabegröße in Pixeln oder als optimale Größe (oder einen Bruchteil davon) angeben.",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Die Ausgabegröße wird basierend auf der festgelegten Größe in Pixeln berechnet. Wenn sich das Seitenverhältnis ändert (z.B. durch Ändern der Projektion, des Blickwinkels oder Zuschneiden der Ausgabe), können sich Breite und Höhe ändern, die Gesamtzahl der Pixel bleibt jedoch gleich. Für sphärische Panoramen wird normalerweise eine 2: 1 equirektangulare Projektion verwendet, daher ergibt diese Option eine feste Breite und Höhe.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> Das Panorama wird in der optimalen Größe oder dem davon festgelegten Prozentsatz generiert.<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. So gehen keine Details aus den Quellbildern verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe. Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung in der Mitte der Quellbilder gleich der Winkelauflösung in der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung.<br><br>Da die optimale Größe von mehreren Parametern abhängt, einschließlich der Brennweite des Objektivs, die normalerweise vom Optimierer eingestellt wird, kann die optimale Größe nach jeder Optimierung leicht variieren. Dies hängt auch von der Platzierung der Kontrollpunkte ab. Wenn diese Veränderung unerwünscht ist, wählen Sie eine gewünschte Größe und wählen Sie '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Die Ausgabegröße wird basierend auf der festgelegten Größe in Pixeln berechnet. Wenn sich das Seitenverhältnis ändert (z.B. durch Ändern der Projektion, des Blickwinkels oder Zuschneiden der Ausgabe), können sich Breite und Höhe ändern, die Gesamtzahl der Pixel bleibt jedoch gleich. Für sphärische Panoramen wird normalerweise eine 2:1 äquirektanguläre Projektion verwendet, daher ergibt diese Option eine feste Breite und Höhe.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> Das Panorama wird in der optimalen Größe oder dem davon festgelegten Prozentsatz generiert.<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. So gehen keine Details aus den Quellbildern verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe. Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung in der Mitte der Quellbilder gleich der Winkelauflösung in der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung.<br><br>Da die optimale Größe von mehreren Parametern abhängt, einschließlich der Brennweite des Objektivs, die normalerweise vom Optimierer eingestellt wird, kann die optimale Größe nach jeder Optimierung leicht variieren. Dies hängt auch von der Platzierung der Kontrollpunkte ab. Wenn diese Veränderung unerwünscht ist, wählen Sie eine gewünschte Größe und wählen Sie '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
 		},
 		{
 			"id": "createpanoramatab.hundredpercent",
@@ -7453,8 +7453,8 @@
 		{
 			"id": "panoeditor.toolbar.equirectangular",
 			"machinetranslated": false,
-			"label": "@+projection.equirectangular@ Projektion",
-			"helptext": "Zur equirectangular Projektion wechseln. Dies ist die Projektion für sphärische 360​​° x 180° Panoramen."
+			"label": "@+projection.equirectangular@e Projektion",
+			"helptext": "Zur äquirektangulären Projektion wechseln. Dies ist die Projektion für sphärische 360​​° x 180° Panoramen."
 		},
 		{
 			"id": "panoeditor.toolbar.otherprojection",
@@ -7595,7 +7595,7 @@
 		{
 			"id": "tonemapsettings.brightness",
 			"machinetranslated": false,
-			"helptext": "Legt die Gesamthelligkeit des Tone-Mapping-Bildes fest. 0 ist schwarz, 1 ist weiß."
+			"helptext": "Legt die Gesamthelligkeit des resultierenden Bildes fest. 0 ist schwarz, 1 ist weiß."
 		},
 		{
 			"id": "tonemapsettings.boostshadows",
@@ -7615,7 +7615,7 @@
 		{
 			"id": "tonemapsettings.compression",
 			"machinetranslated": false,
-			"helptext": "Umfang der Komprimierung des dynamischen Bereichs. Bei hoher Komprimierung können sowohl sehr dunkle als auch sehr helle Bereiche des Bildes im Tone-Mapping-Bild sichtbar sein, eine niedrige Komprimierung kann jedoch natürlicher aussehen."
+			"helptext": "Umfang der Komprimierung des dynamischen Bereichs. Bei hoher Komprimierung können sowohl sehr dunkle als auch sehr helle Bereiche des Bildes im resultierenden Bild sichtbar sein, eine geringe Komprimierung kann jedoch natürlicher aussehen."
 		},
 		{
 			"id": "tonemapsettings.contrast",
@@ -7625,12 +7625,12 @@
 		{
 			"id": "tonemapsettings.saturation",
 			"machinetranslated": false,
-			"helptext": "Erhöhen oder reduzieren Sie die Farbesättigung im Tone-Mapping-Bild."
+			"helptext": "Erhöhen oder reduzieren Sie die Farbesättigung des resultierenden Bild."
 		},
 		{
 			"id": "exposurefusionsettings.brightness",
 			"machinetranslated": true,
-			"helptext": "Legt die Gesamthelligkeit des verschmolzenen Belichtungsbildes fest. 0 ist schwarz, 1 ist weiß."
+			"helptext": "Legt die Gesamthelligkeit des resultierenden Bildes fest. 0 ist schwarz, 1 ist weiß."
 		},
 		{
 			"id": "exposurefusionsettings.boostshadows",
@@ -7645,7 +7645,7 @@
 		{
 			"id": "exposurefusionsettings.sigma",
 			"machinetranslated": false,
-			"helptext": "Stärke des Algorithmus. Bei einem niedrigen Sigma werden nur die am besten belichteten Pixel verwendet. Ein höherer Wert erzeugt eine allmähliche Verschmelzung zwischen den Belichtungsebenen, wodurch der Bildkontrast leicht reduziert wird. Zu niedrige Sigma-Werte können Bildartefakte verursachen. Erhöhen Sie den Schieberegler, bis das Ergebnis gut aussieht."
+			"helptext": "Stärke des Algorithmus. Bei einem niedrigen Sigma werden nur die am besten belichteten Pixel verwendet. Ein höherer Wert erzeugt einen allmählichen Übergang zwischen den Belichtungsebenen, wodurch der Bildkontrast leicht reduziert wird. Zu niedrige Sigma-Werte können Bildartefakte verursachen. Erhöhen Sie den Wert, bis das Ergebnis gut aussieht."
 		},
 		{
 			"id": "numericaltransform.yaw",
@@ -7700,7 +7700,7 @@
 		{
 			"id": "panoramapreviewsettingspanel.blendplane",
 			"machinetranslated": false,
-			"helptext": "Für HDR-Panoramen: Nur die ausgewählte Belichtungsebene anstelle des Tone-Mapping/Exposure-Fusion-Panoramas anzeigen."
+			"helptext": "Für HDR-Panoramen: Nur die ausgewählte Belichtungsebene anstelle das durch Tone Mapping oder Exposure Fusion im Dynamikumfang reduzierte Panoramas anzeigen."
 		},
 		{
 			"id": "publishtoweb.sourcefiles",
@@ -7723,7 +7723,7 @@
 		{
 			"id": "publishtoweb.projection",
 			"machinetranslated": false,
-			"helptext": "Legt die Projektion des Panoramas fest. Sphärische Panoramen sind in der Regel in equirectangular Projektion.",
+			"helptext": "Legt die Projektion des Panoramas fest. Sphärische Panoramen sind in der Regel eine äquirektanguläre Projektion.",
 			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:publishtowebsite'>@menubar.tools.publishtowebsite@</a>"
 		},
 		{
@@ -7879,7 +7879,7 @@
 		{
 			"id": "converttocubic.projection",
 			"machinetranslated": false,
-			"helptext": "Legt die Projektion des Panoramas fest. Sphärische Panoramen sind in der Regel in equirectangular Projektion.",
+			"helptext": "Legt die Projektion des Panoramas fest. Sphärische Panoramen sind in der Regel eine äquirektanguläre Projektion.",
 			"morehelptext": "<br><br>Weitere Informationen finden Sie unter <a href='helppage:converttocubic'>@menubar.tools.converttocubic@</a>"
 		},
 		{
@@ -8212,7 +8212,7 @@
 		{
 			"id": "batchstitcher.clearlog",
 			"machinetranslated": false,
-			"label": "Das Protokoll löschen"
+			"label": "Protokoll löschen"
 		},
 		{
 			"id": "batchstitcher.projectslist",
@@ -8347,7 +8347,7 @@
 		{
 			"id": "options.checkforupdates",
 			"machinetranslated": false,
-			"helptext": "Wenn ausgewählt, überprüft PTGui höchstens einmal pro Woche, ob eine neue Version der Software verfügbar ist.",
+			"helptext": "Wenn ausgewählt, prüft PTGui maximal einmal pro Woche, ob eine neue Version der Software verfügbar ist.",
 			"morehelptext": "<br><br>Wenn eine neue Version verfügbar ist, wird eine Benachrichtigung angezeigt. Sie können auch jederzeit manuell nach Updates suchen, indem Sie '@menubar.help@' | '@menubar.help.checkforupdates@' verwenden."
 		},
 		{
@@ -8399,7 +8399,7 @@
 		{
 			"id": "options.foldersandfiles.templatefolder",
 			"machinetranslated": false,
-			"helptext": "Standardspeicherort für Vorlagen. Sie können Vorlagen in jedem beliebigen Ordner gespeichern, aber Vorlagen in diesem Ordner werden in der '@menubar.file.applytemplate@'-Schnellverknüpfungsliste aufgeführt, damit sie schnell aufgerufen werden können."
+			"helptext": "Standardspeicherort für Vorlagen. Sie können Vorlagen in jedem beliebigen Ordner speichern, aber Vorlagen in diesem Ordner werden in der '@menubar.file.applytemplate@'-Schnellverknüpfungsliste aufgeführt, damit Sie sie schnell aufrufen können."
 		},
 		{
 			"id": "options.foldersandfiles.applytemplateinitialfolder",
@@ -8410,24 +8410,24 @@
 		{
 			"id": "options.foldersandfiles.batchlistfolder",
 			"machinetranslated": false,
-			"helptext": "Der Standardspeicherort für Batch-Listen. Obwohl Sie Batch-Listen in einem beliebigen Ordner gespeichern können, kann auf die Dateien im Standardordner schneller zugegriffen werden. Um weitere Informationen zu Batch-Listen zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie '@help@'."
+			"helptext": "Der Standardspeicherort für Batch-Listen. Obwohl Sie Batch-Listen in einem beliebigen Ordner gespeichern können, können Sie auf die Dateien im Standardordner schneller zugreifen. Um weitere Informationen zu Batch-Listen zu erhalten, öffnen Sie den Batch-Stitcher und wählen Sie '@help@'."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolder",
 			"machinetranslated": false,
 			"helptext": "PTGui speichert temporäre Daten in diesen Ordnern.",
-			"morehelptext": "<br><br>Das Zusammenfügen großer Panoramen erfordert das Speichern von vielen Gigabyte temporärer Daten. PTGui wird zunächst RAM-Speicher für die temporäre Daten verwenden. Wenn der Speicher voll ist, werden temporäre Daten auf den Datenträger geschrieben. PTGui verwendet nicht <optional platform='windows'> die Windows Auslagerungsdatei</optional><optional platform='mac'>den MacOS Auslagerungsspeicher.</optional>. Hier können Sie konfigurieren, wo temporäre Daten auf dem Datenträger gespeichert werden.<br><br>Zuerst werden die temporären Ordner mit der Bezeichnung '@options.defaultfolders.tempfiles.preferred@' verwendet, bevor die anderen verwendet werden. Wenn kein temporärer Ordner konfiguriert ist, wird der standardmäßige temporäre Ordner des Betriebssystems verwendet. Wenn mehrere temporäre Ordner konfiguriert sind, wird PTGui ihre Nutzung ausgleichen, um die Leistung zu verbessern.<br><br>Für die beste Leistung:<br>• Verwenden Sie immer ein SSD-Laufwerk für den temporären Speicher<br>• Verwenden Sie keine Netzwerk- oder USB2-Laufwerke<br>• Temporäre Daten sollten auf einem separaten Datenträger gespeichert werden, der sich von den Quellbildern und dem Panorama-Ausgabeordner unterscheidet."
+			"morehelptext": "<br><br>Das Zusammenfügen großer Panoramen erfordert das Speichern von vielen Gigabyte temporärer Daten. PTGui wird zunächst RAM-Speicher für die temporäre Daten verwenden. Wenn der Speicher voll ist, werden temporäre Daten auf den Datenträger geschrieben. PTGui verwendet nicht <optional platform='windows'> die Windows Auslagerungsdatei</optional><optional platform='mac'>den MacOS Auslagerungsspeicher.</optional>. Hier können Sie konfigurieren, wo temporäre Daten auf dem Datenträger gespeichert werden.<br><br>Zuerst werden die temporären Ordner mit der Bezeichnung '@options.defaultfolders.tempfiles.preferred@' verwendet, bevor die anderen verwendet werden. Wenn kein temporärer Ordner konfiguriert ist, wird der standardmäßige temporäre Ordner des Betriebssystems verwendet. Wenn mehrere temporäre Ordner konfiguriert sind, wird PTGui ihre Nutzung ausgleichen, um die Leistung zu verbessern.<br><br>Für die beste Leistung:<br>• Verwenden Sie immer ein SSD-Laufwerk für den temporären Speicher<br>• Verwenden Sie keine Netzwerk- oder USB2-Laufwerke<br>• Temporäre Daten sollten Sie auf einem separaten Datenträger speichern, der sich von den Quellbildern und dem Panorama-Ausgabeordner unterscheidet."
 		},
 		{
 			"id": "options.foldersandfiles.tempfolderpreferred",
 			"machinetranslated": false,
-			"helptext": "Zunächst werden temporäre Ordner mit der Bezeichnung '@options.defaultfolders.tempfiles.preferred@' verwendet, bevor die anderen verwendet werden."
+			"helptext": "Zunächst werden temporäre Ordner mit der Markierung '@options.defaultfolders.tempfiles.preferred@' verwendet, bevor die anderen verwendet werden."
 		},
 		{
 			"id": "options.viewers.viewerapp",
 			"machinetranslated": false,
 			"helptext": "Konfigurieren Sie externe Anwendungen zum Anzeigen oder Bearbeiten von Panoramen. Geben Sie den vollständigen Pfad zur ausführbaren Datei ein oder verwenden Sie die Schaltfläche '@browse@', um nach der Anwendung zu suchen.",
-			"morehelptext": "<br><br>Hier konfigurierte Anwendungen erscheinen in den Popup-Listen für:<br>• Die Schaltfläche '@mainwindow.previewtab.previewbutton@' auf der Registerkarte '@mainwindow.tabs.preview@'<br>• die Schaltfläche '@mainwindow.createpanoramatab.view@' auf der Registerkarte '@mainwindow.tabs.createpanorama@'<br>• die Schaltfläche 'Im externen Viewer öffnen' in der Symbolleiste des Panorama-Editors.<br><br>Zusätzlich zu den hier konfigurierten Anwendungen werden Optionen zum Öffnen im PTGui Viewer angezeigt (wenn das Panorama eine equirektangulare Projektion hat), zum Öffnen des Ausgabeordners und zum Öffnen der Datei im Standard-Bildbetrachter für das Betriebssystem."
+			"morehelptext": "<br><br>Hier konfigurierte Anwendungen erscheinen in den Popup-Listen für:<br>• Die Schaltfläche '@mainwindow.previewtab.previewbutton@' auf der Registerkarte '@mainwindow.tabs.preview@'<br>• die Schaltfläche '@mainwindow.createpanoramatab.view@' auf der Registerkarte '@mainwindow.tabs.createpanorama@'<br>• die Schaltfläche 'Im externen Viewer öffnen' in der Symbolleiste des Panorama-Editors.<br><br>Zusätzlich zu den hier konfigurierten Anwendungen werden Optionen zum Öffnen im PTGui Viewer angezeigt (wenn das Panorama eine äquirektanguläre Projektion hat), zum Öffnen des Ausgabeordners und zum Öffnen der Datei im Standard-Bildbetrachter für das Betriebssystem."
 		},
 		{
 			"id": "options.cpeditor.zoomersize",
@@ -8616,8 +8616,8 @@
 		},
 		{
 			"id": "menubar.file.mergeproject",
-			"machinetranslated": true,
-			"helptext": "Fügen Sie ein anderes Projekt in dieses Projekt ein. Die Bilder, Kontrollpunkte und Objektivdaten des anderen Projekts werden an dieses Projekt angehängt."
+			"machinetranslated": false,
+			"helptext": "Ein anderes Projekt in dieses Projekt einfügen. Die Bilder, Kontrollpunkte und Objektivdaten des anderen Projekts werden an dieses Projekt angehängt."
 		},
 		{
 			"id": "menubar.tools.openfolder.configfolder",
@@ -8627,7 +8627,7 @@
 		{
 			"id": "exposurehdrtab.noisefloor",
 			"machinetranslated": false,
-			"helptext": "Kompensieren Sie Bildrauschen in den Quellbildern beim Zusammenführen mit HDR.",
+			"helptext": "Bildrauschen in den Quellbildern beim Zusammenfügen zu HDR kompensieren.",
 			"morehelptext": "<br><br>Beim Kombinieren von Bildern mit Belichtungsreihe zu HDR nimmt PTGui die besten Pixel von jedem überlappenden Quellbild. Bei allen Bildern mit Ausnahme des am längsten belichteten Bildes werden Pixel unterhalb einer bestimmten Helligkeit ignoriert, da diese dunklen Pixel Bildrauschen sein können. Dieser Schieberegler legt den Schwellenwert für das Verwerfen dieser verrauschten Pixel fest. Wenn die Quellbilder verrauscht sind (z. B. bei hohen ISO-Werten aufgenommen) und das Bildrauschen im HDR-Panorama sichtbar wird, schieben Sie den Schieberegler nach rechts, bis das Bildrauschen verschwindet. Beachten Sie jedoch, dass dadurch HDR-Artefakte bei sich bewegenden Objekten verstärkt werden können. Bewegen Sie den Schieberegler für optimale Ergebnisse so weit wie möglich nach links, bis Rauschen auftritt. Das Ergebnis können Sie im Detail Viewer bewerten.<br><br>In Teilen des Panoramas, die selbst bei hellster Belichtung schwarz sind, ist möglicherweise noch Bildrauschen sichtbar. Um das Rauschen zu verringern, sollten Sie bei längeren Belichtungszeiten mehr Bilder mit Belichtungsreihen hinzugefügen."
 		},
 		{
@@ -8673,13 +8673,13 @@
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": false,
 			"helptext": "Legt fest, wie Belichtungsreihen behandelt werden.",
-			"morehelptext": "<br><br>Belichtungsreihen können auf zwei Arten verarbeitet werden:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui kombiniert zunächst jeden Satz von Belichtungsreihen zu einem HDR-Bild (oder kombiniert sie mit Exposure Fusion). Anschließend werden die kombinierten Bilder zu einem Panorama gemischt.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Zunächst werden sogenannte <b>Belichtungsebenen</b> erstellt. Eine Belichtungsebene ist das vollständige Panorama bei einer Belichtungsstufe (d.h. alle Bilder, die mit identischer Belichtungszeit, Blende und ISO aufgenommen wurden). Schließlich werden die separaten Belichtungsebenen zu einem HDR-Bild oder einem verschmolzenen Belichtungsbild kombiniert. Diese Methode sollte nur für Panoramen verwendet werden, die im manuellen Belichtungsmodus aufgenommen wurden. Es ist erforderlich, dass das gesamte Panorama bei jeder Belichtungsstufe vollständig abgedeckt ist.<br><br><b>@options.automatic@:</b> Wählt die beste Option für das aktuelle Projekt. Wenn die Bilder im manuellen Belichtungsmodus aufgenommen wurden, werden Belichtungsebenen erstellt. Andernfalls werden die Belichtungsreihen zuerst kombiniert und dann gemischt."
+			"morehelptext": "<br><br>Belichtungsreihen können auf zwei Arten verarbeitet werden:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui kombiniert zunächst jeden Satz von Belichtungsreihen zu einem HDR-Bild (oder kombiniert sie mit Exposure Fusion). Anschließend werden die kombinierten Bilder zu einem Panorama gemischt.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Zunächst werden sogenannte <b>Belichtungsebenen</b> erstellt. Eine Belichtungsebene ist das vollständige Panorama bei einer Belichtungsstufe (d.h. alle Bilder, die mit identischer Belichtungszeit, Blende und ISO aufgenommen wurden). Schließlich werden die separaten Belichtungsebenen zu einem HDR-Bild oder mit Exposure Fusion zu einem Bild mit reduziertem Dynamikumfang zusammengefügt. Diese Methode sollte nur für Panoramen verwendet werden, die im manuellen Belichtungsmodus aufgenommen wurden. Es ist erforderlich, dass das gesamte Panorama bei jeder Belichtungsstufe vollständig abgedeckt ist.<br><br><b>@options.automatic@:</b> Wählt die beste Option für das aktuelle Projekt. Wenn die Bilder im manuellen Belichtungsmodus aufgenommen wurden, werden Belichtungsebenen erstellt. Andernfalls werden die Belichtungsreihen zuerst kombiniert und dann gemischt."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
 			"machinetranslated": false,
 			"helptext": "Legt fest, wie Belichtungsreihen kombiniert werden.",
-			"morehelptext": "Belichtungsreihen (für HDR) werden zu einem einzigen Bild kombiniert. PTGui kann dies auf zwei verschiedene Arten tun:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtungsreihen werden zunächst zu einem echten HDR-Bild mit hohem Dynamikumfang kombiniert. Dieses HDR-Bild deckt den gesamten Dynamikumfang aller Quellbilder ab, von den dunkelsten bis zu den hellsten Bildern. Dann wird im Allgemeinen Tone Mapping angewendet, um das HDR-Bild in ein Bild mit niedrigem Dynamikumfang umzuwandeln, das zum Anzeigen oder Drucken geeignet ist.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtungsreihen werden direkt zum endgültigen Bild mit niedrigem Dynamikumfang kombiniert. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikumfang zu erstellen, das anschließend in ein Bild mit geringem Dynamicumfang umgewandelt wird.<br><br>Die Einstellungen für Tone Mapping und Exposure Fusionen passen Sie in der Seitenleiste des Panorama-Editors an."
+			"morehelptext": "Belichtungsreihen (für HDR) werden zu einem einzigen Bild kombiniert. PTGui kann dies auf zwei verschiedene Arten tun:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Belichtungsreihen werden zunächst zu einem echten HDR-Bild mit hohem Dynamikumfang kombiniert. Dieses HDR-Bild deckt den gesamten Dynamikumfang aller Quellbilder ab, von den dunkelsten bis zu den hellsten Bildern. Dann wird im Allgemeinen mittels Tone Mapping das HDR-Bild in ein Bild mit niedrigem Dynamikumfang umzuwandeln, das zum Anzeigen oder Drucken geeignet ist.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Belichtungsreihen werden direkt zum endgültigen Bild mit niedrigem Dynamikumfang kombiniert. Dies umgeht den Schritt, zuerst ein Bild mit hohem Dynamikumfang zu erstellen, das anschließend in ein Bild mit geringem Dynamicumfang umgewandelt wird.<br><br>Die Einstellungen für Tone Mapping und Exposure Fusionen passen Sie in der Seitenleiste des Panorama-Editors an."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
@@ -8723,7 +8723,7 @@
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
 			"machinetranslated": false,
 			"helptext": "Interne Präzision der Verarbeitungspipeline.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt mit Half Floating Point 16 Bit pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt mit Floating Point 32 Bit pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt mit Half Floating Point 16 Bit pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt mit 32-Bit Gleitkomma pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
@@ -8831,9 +8831,9 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "@txt.toningcurve@",
-			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist der Pixelwert im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Diese Kurve kann angepasst werden, um den Kontrast und die Helligkeit des Panoramas zu ändern."
+			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert die Szenenluminanz. Die vertikale Achse ist der Pixelwert im linearen Farbraum (vor dem Anwenden der Gammakurve des ICC-Profils). Mit dieser Kurve passen Sie Kontrast und Helligkeit des Panoramas an."
 		},
 		{
 			"id": "toningcurve.shapeshift",
@@ -8911,17 +8911,17 @@
 		{
 			"id": "projections",
 			"machinetranslated": false,
-			"helptext": "<b>Projektionen</b><br><br>Ein Panorama oder tatsächlich jedes Foto ist eine flache Darstellung der Szene um die Kamera herum. Es gibt mehrere Möglichkeiten, eine dreidimensionale Welt auf eine flache Oberfläche zu projizieren. Daher bietet PTGui eine große Auswahl an Panoramaprojektionen. Jede hat seine eigenen Eigenschaften und Einschränkungen.<br><br>Die gewünschte Projektion Sie wählen im Panorama-Editor im Bereich '@panoramaeditor.sidebar.projection@' in der Seitenleiste oder über die Projektionsschaltflächen in der Symbolleiste. PTGui unterstützt die folgenden Projektionen:<br><br><b>@+projection.rectilinear@ ('flach'):</b> Dies ist die Projektion der Panoramakugel auf eine ebene Fläche. Es ist die Projektion, an die unsere Augen gewöhnt sind, die Projektion einer normalen Kamera. Die geradlinige Projektion hat die besondere Eigenschaft, alle geraden Linien zu erhalten. Jede gerade Linie in der realen Welt wird im Panorama als gerade Linie dargestellt. Dies macht sie zu einer geeigneten Projektion für Architekturbilder. Die gleiche Eigenschaft begrenzt aber auch den Blickwinkel. Es ist physikalisch unmöglich, mehr als 180° Blickwinkel zu projizieren, während gleichzeitig gerade Linien beibehalten werden. Bei einem Blickwinkel über 90° wird die Dehnung in den Seiten und Ecken des Bildes sichtbar. Geradlinig wird oberhalb 120° unbrauchbar.<br><br>Der Eckenstreckeffekt kann durch Verwendung von horizontaler und/oder vertikaler Kompression verringert werden. Siehe die Schieberegler '@panoramaeditor.sidebar.projectionpanel.compression@' in der Seitenleiste '@panoramaeditor.sidebar.projection@' im Panorama-Editor. Durch Komprimieren der geradlinigen Ansicht können Panoramen in der Nähe von 180° x 180° ohne extreme Verzerrung erzeugt werden. Geraden bleiben jedoch nicht mehr erhalten: Horizontale und vertikale Linien bleiben weiterhin gerade, diagonale Linien werden jedoch gekrümmt, wenn eine Komprimierung verwendet wird.<br><br>Für Panoramen, die breiter als 180° sind, sollten Sie eine der anderen Projektionen verwenden.<br><br><b>@+projection.cylindrical@:</b> Dies ist das Ergebnis der Projektion der Panoramakugel auf die Oberfläche eines Zylinders. Zylindrische Panoramen unterstützen einen horizontalen Blickwinkel von 360°. Vertikal verhält sich die Projektion ähnlich wie '@projection.rectilinear@': Der vertikale Blickwinkel hat eine physikalische Grenze von 180° und eine praktische Grenze von ca. 120°. Die zylindrische Projektion eignet sich daher vor allem für einreihige 360​​° Panoramen.<br><br>Alle vertikalen Geraden bleiben erhalten. Horizontale Geraden sind im Allgemeinen gekrümmt. Nur der Horizont bleibt gerade.<br><br>Wie bei der geradlinigen Projektion kann die zylindrische Projektion vertikal komprimiert werden. Durch Erhöhen der vertikalen Komprimierung wird der Dehnungseffekt am oberen und unteren Rand des Panoramas verringert. Bei voller vertikaler Kompression entspricht das Ergebnis der equirektangularen Projektion.<br><br><b>@+projection.mercator@:</b> Diese Projektion ähnelt '@+projection.cylindrical@', jedoch mit weniger strengen Dehnungen am oberen und unteren Rand bei größeren vertikalen Blickwinkeln. Dies ist ein guter Kompromiss zwischen zylindrischer und equirektangularer Projektion und für 360°-Panoramen mit einem größeren vertikalen Blickwinkel (mehr als 90°) geeignet. Ansonsten sind die Eigenschaften identisch mit der zylindrischen Projektion. Der vertikale Blickwinkel ist auf 180° begrenzt. Nur vertikale Geraden und die Horizontlinie bleiben im Panorama gerade.<br><br><b>@+projection.equirectangular@:</b> Dies ist eine Breiten-/Längenprojektion der Panorama-Kugel. Die equirektangulare Projektion kann einen Blickwinkel von bis zu 360° x 180° haben und ist damit für vollständige Kugelpanoramen geeignet.<br><br>Wie bei der Zylinder- und Mercatorprojektion werden nur vertikale Linien und die Horizontlinie als gerade Linien in rechtwinkliger Projektion projiziert. Alle anderen Linien werden gekrümmt.<br><br>360° x 180° equirectangular hat sich zum Standardformat für den Austausch von sphärischen Panoramen zwischen Anwendungen entwickelt. Viele interaktive Panorama-Viewer unterstützen direkt equirectangulare Bilder.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ und @+projection.transverseequirectangular@:</b> Diese Projektionen entsprechen @+projection.cylindrical@, @+projection.mercator@ bzw. @+projection.equirectangular@, sind jedoch um 90° gedreht. Sie unterstützen einen vertikale Blickwinkel von bis zu 360°, während der horizontale Blickwinkel auf 180° begrenzt ist. Diese Projektionen sind für große vertikale Panoramen geeignet.<br><br><b>@+projection.circularfisheye@ und @+projection.fullframefisheye@:</b> Diese Projektionen simulieren ein Fischaugenobjektiv. Beide Projektionen liefern das gleiche Ergebnis, aber die '@projection.circularfisheye@'-Ausgabe wird auf einen Kreis zugeschnitten, während die '@projection.fullframefisheye@'-Ausgabe auf ein Rechteck zugeschnitten wird. Der Blickwinkel kann in alle Richtungen bis zu 360° betragen.<br><br>Eine Komprimierungseinstellung ist für diese Projektion verfügbar. Bei der standardmäßigen vollständigen Komprimierung ist das Ergebnis eine echte Fischaugenprojektion. Wenn die Komprimierung reduziert wird (der Schieberegler wird nach links bewegt), wird die Projektion in eine geradlinige Projektion umgewandelt. Eine Fischaugen-Ansicht mit reduzierter Kompression kann als Kompromiss für geradlinige Weitwinkelansichten verwendet werden. Gerade Linien bleiben nahe der Mitte des Panoramas erhalten, werden jedoch zu den Rändern hin stärker gekrümmt.<br><br><b>@+projection.vedutismo@:</b> Diese nach der Stilrichtung des 18. Jahrhunderts benannte Projektion bewahrt alle diagonalen Geraden durch das Zentrum des Panoramas. Sie eignet sich am besten für Weitwinkelszenen mit einem klaren Fluchtpunkt. Wenn der Fluchtpunkt durch die Mitte des Panoramas geht, bleiben alle Linien durch den Fluchtpunkt gerade.<br><br>Die Vedutismo-Projektion unterstützt einen horizontale Blickwinkel von bis zu 360°, obwohl sich bei sehr großen Panoramen einige vertikale Dehnungen an den Kanten bemerkbar machen. Der vertikale Blickwinkel ist auf 180° begrenzt. Alle geraden Linien, die nicht durch den Mittelpunkt des Panoramas verlaufen, werden gekrümmt.<br><br><b>@+projection.transversevedutismo@:</b> hat die gleichen Eigenschaften, ist jedoch auf 180° horizontal und 360° vertikal begrenzt und kann für große vertikale Panoramen verwendet werden.<br><br><b>@+projection.stereographic@:</b> Dies ist die Projektion einer Kugel vom Pol aus auf eine ebene Fläche. Sie ist bekannt für die 'kleine Planeten'-Ansichten. Um die Erstellung von kleinen Planeten zu erleichtern, wird eine zusätzliche Projektion namens '@+projection.stereographicdown@' zur Verfügung gestellt, die dieselbe Projektion ist, aber so gedreht wird, dass sich der Nadir der Szene in der Mitte des Panoramas befindet.<br><br>Die stereographische Projektion hat einen zusätzlichen Kompressionsparameter. Bei maximaler Kompression ist das Ergebnis eine echte stereographische Projektion. Durch die Verringerung der Kompression wird der Standpunkt vom Pol in das Zentrum der Kugel bewegt, wodurch die Ansicht in eine geradlinige Projektion verwandelt wird."
+			"helptext": "<b>Projektionen</b><br><br>Ein Panorama oder tatsächlich jedes Foto ist eine flache Darstellung der Szene um die Kamera herum. Es gibt mehrere Möglichkeiten, eine dreidimensionale Welt auf eine flache Oberfläche zu projizieren. Daher bietet PTGui eine große Auswahl an Panoramaprojektionen. Jede hat seine eigenen Eigenschaften und Einschränkungen.<br><br>Die gewünschte Projektion Sie wählen im Panorama-Editor im Bereich '@panoramaeditor.sidebar.projection@' in der Seitenleiste oder über die Projektionsschaltflächen in der Symbolleiste. PTGui unterstützt die folgenden Projektionen:<br><br><b>@+projection.rectilinear@ ('flach'):</b> Dies ist die Projektion der Panoramakugel auf eine ebene Fläche. Es ist die Projektion, an die unsere Augen gewöhnt sind, die Projektion einer normalen Kamera. Die geradlinige Projektion hat die besondere Eigenschaft, alle geraden Linien zu erhalten. Jede gerade Linie in der realen Welt wird im Panorama als gerade Linie dargestellt. Dies macht sie zu einer geeigneten Projektion für Architekturbilder. Die gleiche Eigenschaft begrenzt aber auch den Blickwinkel. Es ist physikalisch unmöglich, mehr als 180° Blickwinkel zu projizieren, während gleichzeitig gerade Linien beibehalten werden. Bei einem Blickwinkel über 90° wird die Dehnung in den Seiten und Ecken des Bildes sichtbar. Geradlinig wird oberhalb 120° unbrauchbar.<br><br>Der Eckenstreckeffekt kann durch Verwendung von horizontaler und/oder vertikaler Kompression verringert werden. Siehe die Schieberegler '@panoramaeditor.sidebar.projectionpanel.compression@' in der Seitenleiste '@panoramaeditor.sidebar.projection@' im Panorama-Editor. Durch Komprimieren der geradlinigen Ansicht können Panoramen in der Nähe von 180° x 180° ohne extreme Verzerrung erzeugt werden. Geraden bleiben jedoch nicht mehr erhalten: Horizontale und vertikale Linien bleiben weiterhin gerade, diagonale Linien werden jedoch gekrümmt, wenn eine Komprimierung verwendet wird.<br><br>Für Panoramen, die breiter als 180° sind, sollten Sie eine der anderen Projektionen verwenden.<br><br><b>@+projection.cylindrical@:</b> Dies ist das Ergebnis der Projektion der Panoramakugel auf die Oberfläche eines Zylinders. Zylindrische Panoramen unterstützen einen horizontalen Blickwinkel von 360°. Vertikal verhält sich die Projektion ähnlich wie '@projection.rectilinear@': Der vertikale Blickwinkel hat eine physikalische Grenze von 180° und eine praktische Grenze von ca. 120°. Die zylindrische Projektion eignet sich daher vor allem für einreihige 360​​° Panoramen.<br><br>Alle vertikalen Geraden bleiben erhalten. Horizontale Geraden sind im Allgemeinen gekrümmt. Nur der Horizont bleibt gerade.<br><br>Wie bei der geradlinigen Projektion kann die zylindrische Projektion vertikal komprimiert werden. Durch Erhöhen der vertikalen Komprimierung wird der Dehnungseffekt am oberen und unteren Rand des Panoramas verringert. Bei voller vertikaler Kompression entspricht das Ergebnis der äquirektangulären Projektion.<br><br><b>@+projection.mercator@:</b> Diese Projektion ähnelt '@+projection.cylindrical@', jedoch mit weniger strengen Dehnungen am oberen und unteren Rand bei größeren vertikalen Blickwinkeln. Dies ist ein guter Kompromiss zwischen zylindrischer und äquirektangulärer Projektion und für 360°-Panoramen mit einem größeren vertikalen Blickwinkel (mehr als 90°) geeignet. Ansonsten sind die Eigenschaften identisch mit der zylindrischen Projektion. Der vertikale Blickwinkel ist auf 180° begrenzt. Nur vertikale Geraden und die Horizontlinie bleiben im Panorama gerade.<br><br><b>@+projection.equirectangular@:</b> Dies ist eine Breiten-/Längenprojektion der Panorama-Kugel. Die äquirektanguläre Projektion kann einen Blickwinkel von bis zu 360° x 180° haben und ist damit für vollständige Kugelpanoramen geeignet.<br><br>Wie bei der Zylinder- und Mercatorprojektion werden nur vertikale Linien und die Horizontlinie als gerade Linien in rechtwinkliger Projektion projiziert. Alle anderen Linien werden gekrümmt.<br><br>360° x 180° äquirektangulär hat sich zum Standardformat für den Austausch von sphärischen Panoramen zwischen Anwendungen entwickelt. Viele interaktive Panorama-Viewer unterstützen direkt äquirektanguläre Bilder.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ und @+projection.transverseequirectangular@:</b> Diese Projektionen entsprechen @+projection.cylindrical@, @+projection.mercator@ bzw. @+projection.equirectangular@, sind jedoch um 90° gedreht. Sie unterstützen einen vertikale Blickwinkel von bis zu 360°, während der horizontale Blickwinkel auf 180° begrenzt ist. Diese Projektionen sind für große vertikale Panoramen geeignet.<br><br><b>@+projection.circularfisheye@ und @+projection.fullframefisheye@:</b> Diese Projektionen simulieren ein Fischaugenobjektiv. Beide Projektionen liefern das gleiche Ergebnis, aber die '@projection.circularfisheye@'-Ausgabe wird auf einen Kreis zugeschnitten, während die '@projection.fullframefisheye@'-Ausgabe auf ein Rechteck zugeschnitten wird. Der Blickwinkel kann in alle Richtungen bis zu 360° betragen.<br><br>Eine Komprimierungseinstellung ist für diese Projektion verfügbar. Bei der standardmäßigen vollständigen Komprimierung ist das Ergebnis eine echte Fischaugenprojektion. Wenn die Komprimierung reduziert wird (der Schieberegler wird nach links bewegt), wird die Projektion in eine geradlinige Projektion umgewandelt. Eine Fischaugen-Ansicht mit reduzierter Kompression kann als Kompromiss für geradlinige Weitwinkelansichten verwendet werden. Gerade Linien bleiben nahe der Mitte des Panoramas erhalten, werden jedoch zu den Rändern hin stärker gekrümmt.<br><br><b>@+projection.vedutismo@:</b> Diese nach der Stilrichtung des 18. Jahrhunderts benannte Projektion bewahrt alle diagonalen Geraden durch das Zentrum des Panoramas. Sie eignet sich am besten für Weitwinkelszenen mit einem klaren Fluchtpunkt. Wenn der Fluchtpunkt durch die Mitte des Panoramas geht, bleiben alle Linien durch den Fluchtpunkt gerade.<br><br>Die Vedutismo-Projektion unterstützt einen horizontale Blickwinkel von bis zu 360°, obwohl sich bei sehr großen Panoramen einige vertikale Dehnungen an den Kanten bemerkbar machen. Der vertikale Blickwinkel ist auf 180° begrenzt. Alle geraden Linien, die nicht durch den Mittelpunkt des Panoramas verlaufen, werden gekrümmt.<br><br><b>@+projection.transversevedutismo@:</b> hat die gleichen Eigenschaften, ist jedoch auf 180° horizontal und 360° vertikal begrenzt und kann für große vertikale Panoramen verwendet werden.<br><br><b>@+projection.stereographic@:</b> Dies ist die Projektion einer Kugel vom Pol aus auf eine ebene Fläche. Sie ist bekannt für die 'kleine Planeten'-Ansichten. Um die Erstellung von kleinen Planeten zu erleichtern, wird eine zusätzliche Projektion namens '@+projection.stereographicdown@' zur Verfügung gestellt, die dieselbe Projektion ist, aber so gedreht wird, dass sich der Nadir der Szene in der Mitte des Panoramas befindet.<br><br>Die stereographische Projektion hat einen zusätzlichen Kompressionsparameter. Bei maximaler Kompression ist das Ergebnis eine echte stereographische Projektion. Durch die Verringerung der Kompression wird der Standpunkt vom Pol in das Zentrum der Kugel bewegt, wodurch die Ansicht in eine geradlinige Projektion verwandelt wird."
 		},
 		{
 			"id": "publishtowebsite",
 			"machinetranslated": false,
-			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui enthält ein PTGui Viewer-Plugin, um ein 360° oder vollständig sphärisches Panorama auf einer Website zu veröffentlichen. Das Plugin ermöglicht es Website-Besuchern, sich durch Klicken und Ziehen mit der Maus in Ihrem Panorama umzusehen. Beispiele für solche interaktiven Panoramen finden Sie in der Galerie auf www.ptgui.com.<br><br>PTGui kann alle notwendigen Dateien für die Veröffentlichung eines Panoramas auf einer Website mit einem Klick generieren. Der PTGui Viewer ist mit allen modernen Webbrowsern kompatibel, einschließlich denen auf mobilen Geräten.<br><br><b>Verwendung</b><br><br>Das Panorama sollte zuerst zu einem normalen flachen Bild im JPEG- oder TIFF-Format zusammengefügt werden. Fügen Sie in der '@menubar.tools.publishtowebsite@' das zusammengefügte Panorama zur Liste hinzu und drücken Sie '@txt.convert@' , um die Dateien zu erstellen, die für das Web-Publishing benötigt werden. Abschließend müssen die generierten Dateien auf den Webserver hochgeladen werden.<br><br><b>Das Panorama zusammenfügen</b><br><br>Im Allgemeinen sollten Sie eine equirektangulare Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Beim Zusammenfügen des Panoramas wählen Sie die Projektion im Panorama-Editor. Passen Sie den Blickwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Leinwand ausfüllt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Schnittlinien im Panorama-Editor. Dies resultiert in einen asymmetrischen Zuschnitt, das vom PTGui Viewer nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Blickwinkel des Panoramas. Dieser wird in der Seitenleiste des Panorama-Editors unter Projektion angezeigt. Es wird empfohlen, das Werkzeug '@menubar.tools.publishtowebsite@' nur für Panoramen zu verwenden, die breiter als 180° sind. Intern wird das Panorama in eine vollständige 360 ​​° x 180°-Darstellung umgewandelt. Es wird viel Platz wird verschwendet, wenn der sichtbare Teil des Panoramas nur ein kleiner Bruchteil ist. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen das Panorama im TIFF- oder JPEG-Format.<br><br><b>Hochladen auf die Website</b><br><br>Das Werkzeug '@menubar.tools.publishtowebsite@' generiert eine Reihe von Dateien. Diese sollten in einen Ordner auf Ihrem Webserver hochgeladen werden. In der Regel geschieht dies über FTP, SFTP oder SCP. Weitere Informationen dazu erhalten Sie von Ihrem Webhosting-Unternehmen. Wenn die Dateien veröffentlicht wurden, können Sie eine Verknüpfung zur hochgeladenen HTM-Datei herstellen, um das Panorama anzuzeigen.<br><br><b>Benutzerdefinierte Vorlagen verwenden</b><br><br>PTGui erzeugt eine einfache Webseite mit einem Standardlayout. Die generierte Webseite wie jede andere HTML- und CSS-Datei an. Alternativ verwenden Sie eine Vorlage, mit der Sie das Layout der vom '@menubar.tools.publishtowebsite@' erzeugten Seiten anpassen.<br><br>Wählen Sie '@publishtowebsite.usecustomtemplate@', um Ihre eigene Vorlage zu verwenden. Klicken Sie auf '@browse@' und wählen Sie Ihre eigene Vorlagendatei (.htm-Format) aus. Oder klicken Sie auf '@publishtowebsite.createtemplate@', um eine neue Vorlagendatei zu erstellen. Dies erstellt eine Kopie der Standardvorlage von PTGui, die Sie anpassen können.<br><br>Die Vorlage ist eine reguläre HTM-Datei mit drei benutzerdefinierten Tags:<br><br>{{TITLE}} - wird durch den im Feld Webseitentitel eingegebenen Wert ersetzt<br>{{DESCRIPTION}} - wird durch den Text ersetzt, der im Feld Beschreibung eingegeben wurde<br>{{PARAMS}} - Parameter für das Panorama-Viewer-Plugin"
+			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui enthält ein PTGui Viewer-Plugin, um ein 360° oder vollständig sphärisches Panorama auf einer Website zu veröffentlichen. Das Plugin ermöglicht es Website-Besuchern, sich durch Klicken und Ziehen mit der Maus in Ihrem Panorama umzusehen. Beispiele für solche interaktiven Panoramen finden Sie in der Galerie auf www.ptgui.com.<br><br>PTGui kann alle notwendigen Dateien für die Veröffentlichung eines Panoramas auf einer Website mit einem Klick generieren. Der PTGui Viewer ist mit allen modernen Webbrowsern kompatibel, einschließlich denen auf mobilen Geräten.<br><br><b>Verwendung</b><br><br>Das Panorama sollte zuerst zu einem normalen flachen Bild im JPEG- oder TIFF-Format zusammengefügt werden. Fügen Sie in der '@menubar.tools.publishtowebsite@' das zusammengefügte Panorama zur Liste hinzu und drücken Sie '@txt.convert@' , um die Dateien zu erstellen, die für das Web-Publishing benötigt werden. Abschließend müssen die generierten Dateien auf den Webserver hochgeladen werden.<br><br><b>Das Panorama zusammenfügen</b><br><br>Im Allgemeinen sollten Sie eine äquirektanguläre Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Beim Zusammenfügen des Panoramas wählen Sie die Projektion im Panorama-Editor. Passen Sie den Blickwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Leinwand ausfüllt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Schnittlinien im Panorama-Editor. Dies resultiert in einen asymmetrischen Zuschnitt, das vom PTGui Viewer nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Blickwinkel des Panoramas. Dieser wird in der Seitenleiste des Panorama-Editors unter Projektion angezeigt. Es wird empfohlen, das Werkzeug '@menubar.tools.publishtowebsite@' nur für Panoramen zu verwenden, die breiter als 180° sind. Intern wird das Panorama in eine vollständige 360 ​​° x 180°-Darstellung umgewandelt. Es wird viel Platz wird verschwendet, wenn der sichtbare Teil des Panoramas nur ein kleiner Bruchteil ist. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen das Panorama im TIFF- oder JPEG-Format.<br><br><b>Hochladen auf die Website</b><br><br>Das Werkzeug '@menubar.tools.publishtowebsite@' generiert eine Reihe von Dateien. Diese sollten in einen Ordner auf Ihrem Webserver hochgeladen werden. In der Regel geschieht dies über FTP, SFTP oder SCP. Weitere Informationen dazu erhalten Sie von Ihrem Webhosting-Unternehmen. Wenn die Dateien veröffentlicht wurden, können Sie eine Verknüpfung zur hochgeladenen HTM-Datei herstellen, um das Panorama anzuzeigen.<br><br><b>Benutzerdefinierte Vorlagen verwenden</b><br><br>PTGui erzeugt eine einfache Webseite mit einem Standardlayout. Die generierte Webseite wie jede andere HTML- und CSS-Datei an. Alternativ verwenden Sie eine Vorlage, mit der Sie das Layout der vom '@menubar.tools.publishtowebsite@' erzeugten Seiten anpassen.<br><br>Wählen Sie '@publishtowebsite.usecustomtemplate@', um Ihre eigene Vorlage zu verwenden. Klicken Sie auf '@browse@' und wählen Sie Ihre eigene Vorlagendatei (.htm-Format) aus. Oder klicken Sie auf '@publishtowebsite.createtemplate@', um eine neue Vorlagendatei zu erstellen. Dies erstellt eine Kopie der Standardvorlage von PTGui, die Sie anpassen können.<br><br>Die Vorlage ist eine reguläre HTM-Datei mit drei benutzerdefinierten Tags:<br><br>{{TITLE}} - wird durch den im Feld Webseitentitel eingegebenen Wert ersetzt<br>{{DESCRIPTION}} - wird durch den Text ersetzt, der im Feld Beschreibung eingegeben wurde<br>{{PARAMS}} - Parameter für das Panorama-Viewer-Plugin"
 		},
 		{
 			"id": "converttocubic",
 			"machinetranslated": false,
-			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Mit diesem Werkzeug konvertieren Sie ein vorhandenes Panorama in 6 Würfelflächen oder in das QuickTime VR-Format.<br><br>Würfelflächen sind die Projektion eines Panoramas auf die 6 Seiten eines Würfels. Viele Panorama-Viewer benötigen Quellbilder im Würfel-Format. Würfelflächen können auch nützlich sein, um den Nadir und Zenit eines zusammengesetzten Panoramas zu retuschieren.<br><br>QTVR war ein spezieller Dialekt im QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt hat. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Im Jahr 2009 hat Apple die Unterstützung für QTVR von QuickTime beendet, daher sollte es jetzt als Legacy-Format betrachtet werden.<br><br><b>Das Panorama zusammenfügen</b><br><br>Um Würfelflächen zu erzeugen, müssen Sie das Panorama zuerst zu einem einzelnen flachen Bild zusammengefügen. Im Allgemeinen sollten Sie eine equirektangulare Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Beim Zusammenfügen des Panoramas wählen Sie die Projektion im Panorama-Editor. Passen Sie den Blickwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Leinwand ausfüllt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Schnittlinien im Panorama-Editor. Dies resultiert in eine asymmetrischen Zuschnitt, der vom Konvertierungswerkzeug nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Blickwinkel des Panoramas. Er wird in der Seitenleiste des Panorama-Editors unter Projektion angezeigt. Es wird empfohlen, dieses Werkzeug nur für breite oder sphärische Panoramen zu verwenden, da ansonsten ein großer Teil der Würfelflächen schwarz ist und viel Platz verschwendet wird, um die Auflösung des Panoramas zu erreichen. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen Sie das Panorama im TIFF- oder JPEG-Format.<br><br><b>Nadir/Zenith Retusche</b><br><br>Würfelflächen sind ein ideales Format für die Retusche des Nadirs oder des Zenits, was PTGui auf einfache Weise unterstützt. Konvertieren Sie Ihr equirectangular 360° x 180° Panorama in Würfelflächen (6 separate Dateien) und führen Sie die notwendigen Retuschearbeiten in den Würfelflächen aus. Das equirectangulare Bild setzen Sie wieder zusammen, indem Sie ein neues PTGui-Projekt starten und die 6 Würfelflächen als Quellbilder hinzufügen. Gehen Sie dann zu '@mainwindow.tabs.createpanorama@'. PTGui wird anhand der Dateinamen bestimmen, welches Bild welcher ​​Würfelfläche entspricht. Die Suffixe der Dateinamen (z. B. panorama.left.jpg, panorama.top.jpg) müssen mit den Suffixen übereinstimmen, die Sie unter '@cubicconverter.cubefacenaming@' in diesem Fenster konfiguriert haben."
+			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Mit diesem Werkzeug konvertieren Sie ein vorhandenes Panorama in 6 Würfelflächen oder in das QuickTime VR-Format.<br><br>Würfelflächen sind die Projektion eines Panoramas auf die 6 Seiten eines Würfels. Viele Panorama-Viewer benötigen Quellbilder im Würfel-Format. Würfelflächen können auch nützlich sein, um den Nadir und Zenit eines zusammengesetzten Panoramas zu retuschieren.<br><br>QTVR war ein spezieller Dialekt im QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt hat. Seit vielen Jahren ist dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Im Jahr 2009 hat Apple die Unterstützung für QTVR von QuickTime beendet, daher sollte es jetzt als Legacy-Format betrachtet werden.<br><br><b>Das Panorama zusammenfügen</b><br><br>Um Würfelflächen zu erzeugen, müssen Sie das Panorama zuerst zu einem einzelnen flachen Bild zusammengefügen. Im Allgemeinen sollten Sie eine äquirektanguläre Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Beim Zusammenfügen des Panoramas wählen Sie die Projektion im Panorama-Editor. Passen Sie den Blickwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Leinwand ausfüllt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Schnittlinien im Panorama-Editor. Dies resultiert in eine asymmetrischen Zuschnitt, der vom Konvertierungswerkzeug nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Blickwinkel des Panoramas. Er wird in der Seitenleiste des Panorama-Editors unter Projektion angezeigt. Es wird empfohlen, dieses Werkzeug nur für breite oder sphärische Panoramen zu verwenden, da ansonsten ein großer Teil der Würfelflächen schwarz ist und viel Platz verschwendet wird, um die Auflösung des Panoramas zu erreichen. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen Sie das Panorama im TIFF- oder JPEG-Format.<br><br><b>Nadir/Zenith Retusche</b><br><br>Würfelflächen sind ein ideales Format für die Retusche des Nadirs oder des Zenits, was PTGui auf einfache Weise unterstützt. Konvertieren Sie Ihr äquirektanguläres 360° x 180° Panorama in Würfelflächen (6 separate Dateien) und führen Sie die notwendigen Retuschearbeiten in den Würfelflächen aus. Das äquirektanguläre Bild setzen Sie wieder zusammen, indem Sie ein neues PTGui-Projekt starten und die 6 Würfelflächen als Quellbilder hinzufügen. Gehen Sie dann zu '@mainwindow.tabs.createpanorama@'. PTGui wird anhand der Dateinamen bestimmen, welches Bild welcher ​​Würfelfläche entspricht. Die Suffixe der Dateinamen (z. B. panorama.left.jpg, panorama.top.jpg) müssen mit den Suffixen übereinstimmen, die Sie unter '@cubicconverter.cubefacenaming@' in diesem Fenster konfiguriert haben."
 		},
 		{
 			"id": "panoramaeditor",
@@ -8961,7 +8961,7 @@
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der Sie die Parameter jedes Bildes numerisch bearbeiten können. In der Regel müssen hier keine Einstellungen verändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Einen Parameter können Sie für mehrere Bilder gleichzeitig ändern. Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in alle ausgewählten Zellen übernommen wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des Quellbilds an.<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzerrtes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ und @roll@:</b> Geben Sie die Blickrichtung an, in der ein Bild aufgenommen wurde und damit die Position des Bildes im endgültigen Panorama. '@+yaw@' ist die Drehung der Kamera in der horizontalen Ebene, '@+pitch@' entspricht dem Kippwinkel nach oben/unten und '@+roll@' ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Blende und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus den EXIF-Daten der Bilddatei gelesen, sie können jedoch durch andere Werte überschrieben werden. Diese Werte werden verwendet, um die Spalte '@mainwindow.imageparameters.ev@' zu berechnen, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit einem @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht direkt bearbeitet werden. Dieser Wert wird zum Erzeugen von HDR-Panoramen verwendet: PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und erstellt aus jeder Gruppe ein komplettes Panorama. Diese Zwischenpanoramen, so genannte 'Belichtungsebenen', werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Kann zur Korrektur der Helligkeit eines einzelnen Bildes verwendet werden. Wenn Sie beispielsweise einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Es wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> Legt die 'Wichtigkeit' dieses Bildes für den PTGui Blender fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendungsradius. Wenn ein Bild eine sehr niedrige Mischungspriorität aufweist (z. B. 0,001), verwendet der Mischer nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Mischen der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Blend-Priorität ist ein relativer Wert: Beim Blending vergleicht der Blender die Blend-Prioritätswerte der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Der Überblendungsprioritätsparameter ist besonders nützlich für Nadiraufnahmen: Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen Überlagerungspriorität für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Mischungspriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Standpunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben. Die tatsächlichen Werte werden vom Optimierer bestimmt, wenn '@+viewpoint@' für die Optimierung auf der Registerkarte '@mainwindow.tabs.optimizer@' ausgewählt ist. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Standpunktkorrektur zurückzusetzen. Die Korrektur des Standpunktversatzes funktioniert nur bei Aufnahmen von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle.<br><br>@mainwindow.imageparamstab.helptext2@<optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verbinden. Verknüpfte Bilder können in dieser Tabelle entweder in einer einzelnen Zeile angezeigt werden oder die Liste kann mithilfe der kleinen dreieckigen Schaltfläche erweitert werden, um die einzelnen Bilder in jedem verknüpften Satz anzuzeigen.</optional><br><br>Verwenden Sie die '@fillyaw@'-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360° -Panorama aus 10 Bildern würden die @yaw@-Werte beispielsweise mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der Sie die Parameter jedes Bildes numerisch bearbeiten können. In der Regel müssen hier keine Einstellungen verändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Einen Parameter können Sie für mehrere Bilder gleichzeitig ändern. Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in alle ausgewählten Zellen übernommen wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des Quellbilds an.<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzerrtes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ und @roll@:</b> Geben Sie die Blickrichtung an, in der ein Bild aufgenommen wurde und damit die Position des Bildes im endgültigen Panorama. '@+yaw@' ist die Drehung der Kamera in der horizontalen Ebene, '@+pitch@' entspricht dem Kippwinkel nach oben/unten und '@+roll@' ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Blende und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus den EXIF-Daten der Bilddatei gelesen, sie können jedoch durch andere Werte überschrieben werden. Diese Werte werden verwendet, um die Spalte '@mainwindow.imageparameters.ev@' zu berechnen, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit einem @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht direkt bearbeitet werden. Dieser Wert wird zum Erzeugen von HDR-Panoramen verwendet: PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und erstellt aus jeder Gruppe ein komplettes Panorama. Diese Zwischenpanoramen, so genannte 'Belichtungsebenen', werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Kann zur Korrektur der Helligkeit eines einzelnen Bildes verwendet werden. Wenn Sie beispielsweise einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Es wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> Legt die 'Wichtigkeit' dieses Bildes für den PTGui Blender fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendungsradius. Wenn ein Bild eine sehr niedrige Mischungspriorität aufweist (z. B. 0,001), verwendet der Mischer nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Mischen der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Blend-Priorität ist ein relativer Wert: Beim Blending vergleicht der Blender die Blend-Prioritätswerte der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Der Überblendungsprioritätsparameter ist besonders nützlich für Nadiraufnahmen: Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen @mainwindow.imageparameters.blendpriority@ für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Mischungspriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Standpunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben. Die tatsächlichen Werte werden vom Optimierer bestimmt, wenn '@+viewpoint@' für die Optimierung auf der Registerkarte '@mainwindow.tabs.optimizer@' ausgewählt ist. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Standpunktkorrektur zurückzusetzen. Die Korrektur des Standpunktversatzes funktioniert nur bei Aufnahmen von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle.<br><br>@mainwindow.imageparamstab.helptext2@<optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verbinden. Verknüpfte Bilder können in dieser Tabelle entweder in einer einzelnen Zeile angezeigt werden oder die Liste kann mithilfe der kleinen dreieckigen Schaltfläche erweitert werden, um die einzelnen Bilder in jedem verknüpften Satz anzuzeigen.</optional><br><br>Verwenden Sie die '@fillyaw@'-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360° -Panorama aus 10 Bildern würden die @yaw@-Werte beispielsweise mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
 		},
 		{
 			"id": "mainwindow.optimizersettingstab",
@@ -8981,12 +8981,12 @@
 		{
 			"id": "mainwindow.previewtab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Erstellen Sie eine Vorschau des Panoramas, in der Sie das endgültige Panorama bewerten können. Das Ergebnis ist eine JPEG-Datei einer bestimmten Größe, die ansonsten mit dem Panorama identisch ist, das auf der Registerkarte '@mainwindow.tabs.createpanorama@' erzeugt würde. Vor dem Zusammenfügen, wird PTGui Sie fragen, welche Anwendung Sie für die Vorschau verwenden möchten.<br><br>Zusätzliche Anwendungen für die Vorschau können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren. <optional product='pro'><br><br>Bei HDR-Panoramen wird nur das Tone-Mapping- oder Exposure-Fusion-Panorama erzeugt.</optional>"
+			"helptext": "<b>@mainwindow.tabs.preview@</b><br><br>Erstellen Sie eine Vorschau des Panoramas, in der Sie das endgültige Panorama bewerten können. Das Ergebnis ist eine JPEG-Datei der angegebenen Größe, die ansonsten mit dem Panorama identisch ist, das auf der Registerkarte '@mainwindow.tabs.createpanorama@' erzeugt würde. Vor dem Zusammenfügen, wird PTGui Sie fragen, welche Anwendung Sie für die Vorschau verwenden möchten.<br><br>Zusätzliche Anwendungen für die Vorschau können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren. <optional product='pro'><br><br>Bei HDR-Panoramen wird nur das durch Tone Mapping oder Exposure Fusion im Dynamikumfang reduzierte Panorama erzeugt.</optional>"
 		},
 		{
 			"id": "mainwindow.metadatatab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.metadata@</b><br><br>Bilder können eingebettete Daten enthalten, die zusätzliche Informationen über das Bild liefern. Dies wird @mainwindow.tabs.metadata@ genannt. Standardmäßig überträgt PTGui bestimmte Metadaten aus den Quellbildern in das generierte Panorama:<br><br>• Das Aufnahmedatum des Panoramas: PTGui verwendet den frühesten Zeitstempel, der in allen Quellbildern des Panoramas gefunden wurde.<br><br>• Belichtungsdaten: Belichtungszeit, Blende und ISO-Empfindlichkeit. Diese Daten werden nur eingebettet, wenn alle Bilder die gleiche Belichtung haben. <optional product='pro'>Wenn separate HDR-Belichtungsebenen ausgegeben werden, haben die Belichtungsebenen die Belichtungsdaten der Quellbilder, die für diese Belichtungsebene verwendet werden.</optional><br><br>• ICC-Farbprofil: Das Farbprofil wird aus den Quellbildern kopiert, jedoch nur, wenn alle Bilder dasselbe Profil haben.<br><br>• GPS-Position: Wenn verfügbar, werden die GPS-Koordinaten der Kamera aus den Quellbildern kopiert. Wenn die Quellbilder unterschiedliche Koordinaten haben, wird der Durchschnitt genommen. Wenn in den Quellbildern keine GPS-Daten enthalten sind, können Sie auf dieser Registerkarte eine Koordinate eingeben.<br><br>• Bildausrichtung: Wenn die Aufnahmerichtung (Kompasswinkel) in einem oder mehreren Quellbildern verfügbar ist, wird diese in das Panorama eingebettet. PTGui korrigiert den Gier-Offset jedes Quellbilds, sodass sich die Bildrichtungs-Metadaten auf die Blickrichtung der Panoramamitte beziehen. Wenn in den Quellbildern keine Orientierungsdaten enthalten sind, können Sie auf dieser Registerkarte ein Wert eingeben.<br><br>• Google PhotoSphere-Metadaten: Für Panoramen in der equirectangularen Projektion wird PTGui 'gpano' xmp-Metadaten einbetten. Dadurch wird sichergestellt, dass Facebook, Google und andere Websites das Bild als sphärisches Panorama erkennen.<br><br>• Für rektilineare Panoramen wird PTGui das FocalLength- und FocalLengthIn35mm-Tag einbetten.<br><br>PTGui schreibt derzeit nur Metadaten in JPEG- und TIFF-Dateien. Metadaten-Unterstützung für andere Formate ist geplant."
+			"helptext": "<b>@mainwindow.tabs.metadata@</b><br><br>Bilder können eingebettete Daten enthalten, die zusätzliche Informationen über das Bild liefern. Dies wird @mainwindow.tabs.metadata@ genannt. Standardmäßig überträgt PTGui bestimmte Metadaten aus den Quellbildern in das generierte Panorama:<br><br>• Das Aufnahmedatum des Panoramas: PTGui verwendet den frühesten Zeitstempel, der in allen Quellbildern des Panoramas gefunden wurde.<br><br>• Belichtungsdaten: Belichtungszeit, Blende und ISO-Empfindlichkeit. Diese Daten werden nur eingebettet, wenn alle Bilder die gleiche Belichtung haben. <optional product='pro'>Wenn separate HDR-Belichtungsebenen ausgegeben werden, haben die Belichtungsebenen die Belichtungsdaten der Quellbilder, die für diese Belichtungsebene verwendet werden.</optional><br><br>• ICC-Farbprofil: Das Farbprofil wird aus den Quellbildern kopiert, jedoch nur, wenn alle Bilder dasselbe Profil haben.<br><br>• GPS-Position: Wenn verfügbar, werden die GPS-Koordinaten der Kamera aus den Quellbildern kopiert. Wenn die Quellbilder unterschiedliche Koordinaten haben, wird der Durchschnitt genommen. Wenn in den Quellbildern keine GPS-Daten enthalten sind, können Sie auf dieser Registerkarte eine Koordinate eingeben.<br><br>• Bildausrichtung: Wenn die Aufnahmerichtung (Kompasswinkel) in einem oder mehreren Quellbildern verfügbar ist, wird diese in das Panorama eingebettet. PTGui korrigiert den Gier-Offset jedes Quellbilds, sodass sich die Bildrichtungs-Metadaten auf die Blickrichtung der Panoramamitte beziehen. Wenn in den Quellbildern keine Orientierungsdaten enthalten sind, können Sie auf dieser Registerkarte ein Wert eingeben.<br><br>• Google PhotoSphere-Metadaten: Für Panoramen in der äquirektangulären Projektion wird PTGui 'gpano' xmp-Metadaten einbetten. Dadurch wird sichergestellt, dass Facebook, Google und andere Websites das Bild als sphärisches Panorama erkennen.<br><br>• Für rektilineare Panoramen wird PTGui das FocalLength- und FocalLengthIn35mm-Tag einbetten.<br><br>PTGui schreibt derzeit nur Metadaten in JPEG- und TIFF-Dateien. Metadaten-Unterstützung für andere Formate ist geplant."
 		},
 		{
 			"id": "mainwindow.createpanoramatab",
@@ -9006,12 +9006,12 @@
 		{
 			"id": "philosphere",
 			"machinetranslated": false,
-			"helptext": "<b>@menubar.tools.philosphere@</b><br><br>Eine PhiloSphere ist eine großartige Möglichkeit, ein sphärisches Panorama zu drucken. Das Panorama wird auf eine Form projiziert, die aus Quadraten und Dreiecken besteht, die zu einer Form zusammengefügt werden können, die einer Kugel nahe kommt (Mathematiker nennen es ein 'Rhombicuboktaeder').<br><br>Sie benötigen ein JPEG-Bild eines 360° x 180° -Panoramas in equirectangular Projektion. Der Vorgang erstellt zwei JPEG-Dateien. Diese zwei Dateien können gedruckt, gefaltet und zusammengeklebt werden.<br><br>Nachdem Sie die gewünschte Größe eingestellt haben, drücken Sie die Schaltfläche 'Start'. Sie werden aufgefordert, den Ort des Panoramas anzugeben. Wenn die Konvertierung abgeschlossen ist, werden Sie zweimal aufgefordert, den Speicherort für die beiden JPEG-Dateien anzugeben."
+			"helptext": "<b>@menubar.tools.philosphere@</b><br><br>Eine PhiloSphere ist eine großartige Möglichkeit, ein sphärisches Panorama zu drucken. Das Panorama wird auf eine Form projiziert, die aus Quadraten und Dreiecken besteht, die zu einer Form zusammengefügt werden können, die einer Kugel nahe kommt (Mathematiker nennen es ein 'Rhombicuboktaeder').<br><br>Sie benötigen ein JPEG-Bild eines 360° x 180° Panoramas in äquirektangulärer Projektion. Der Vorgang erstellt zwei JPEG-Dateien. Diese zwei Dateien können gedruckt, gefaltet und zusammengeklebt werden.<br><br>Nachdem Sie die gewünschte Größe eingestellt haben, drücken Sie die Schaltfläche 'Start'. Sie werden aufgefordert, den Ort des Panoramas anzugeben. Wenn die Konvertierung abgeschlossen ist, werden Sie zweimal aufgefordert, den Speicherort für die beiden JPEG-Dateien anzugeben."
 		},
 		{
 			"id": "lensdatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank speichert alle Parameter eines Objektivs, sodass Sie diese Parameter nur einmal eingeben müssen. Optional können Sie einem Eintrag eine Kamera/Objektiv-Kombination zugeordnen (siehe unten). Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Daten verwendet.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Sobald Sie einen Datensatz auswählen, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für equirectangular und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Einem Objektiv-Datensatz ist optional eine Kamera/Objektiv-Kombination (aus den EXIF-Daten des geladenen Bildes ermittelt) zugeordnet. Über diese Zuordnung werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden.<br><br>Zuordnungen können auf zwei Arten erfolgen:<br><br>• Sobald Sie Bilder von einem nicht erkannten Objektiv laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Diese Daten immer für [Kamera/Objektiv-Kombination] verwenden'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des Bildes, diesem Eintrag zugeordnet.<br><br>• Zuordnungen können Sie auch manuell auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellen. Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, den Objektiv-Datensatz und die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
+			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank speichert alle Parameter eines Objektivs, sodass Sie diese Parameter nur einmal eingeben müssen. Optional können Sie einem Eintrag eine Kamera/Objektiv-Kombination zugeordnen (siehe unten). Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Daten verwendet.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Sobald Sie einen Datensatz auswählen, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (geradlinig, Fischauge, etc.)<br>• Brennweite (für geradlinige und Fischaugenprojektionen) oder horizontaler Blickwinkel (für äquirektanguläre und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Einem Objektiv-Datensatz ist optional eine Kamera/Objektiv-Kombination (aus den EXIF-Daten des geladenen Bildes ermittelt) zugeordnet. Über diese Zuordnung werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden.<br><br>Zuordnungen können auf zwei Arten erfolgen:<br><br>• Sobald Sie Bilder von einem nicht erkannten Objektiv laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Diese Daten immer für [Kamera/Objektiv-Kombination] verwenden'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des Bildes, diesem Eintrag zugeordnet.<br><br>• Zuordnungen können Sie auch manuell auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellen. Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, den Objektiv-Datensatz und die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
 		},
 		{
 			"id": "cameradatabase",

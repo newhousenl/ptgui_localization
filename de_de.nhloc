@@ -5904,12 +5904,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
 			"machinetranslated": true,
-			"txt": "Half Float"
+			"txt": "16-Bit halbe Genauigkeit"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
 			"machinetranslated": true,
-			"txt": "Float"
+			"txt": "32-Bit volle Genauigkeit"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
@@ -8722,8 +8722,8 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
 			"machinetranslated": false,
-			"helptext": "Interne Genauigkeit der Verarbeitungskette.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Die gesamte interne Verarbeitung erfolgt in halber Genauigkeit mit 16-Bit-Gleitkommazahlen pro Kanal (64 Bit pro Pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Die gesamte interne Verarbeitung erfolgt in voller Genauigkeit mit 32-Bit Gleitkommazahlen pro Kanal (128 Bit pro Pixel).<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Stopps oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel Speicher und temporären Speicherplatz."
+			"helptext": "Genauigkeit der Berechnungen.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Alle Berechnungen werden in halber Genauigkeit mit 16-Bit-Gleitkommazahlen pro Kanal (64 Bit pro Pixel) durchgeführt.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Alle Berechnungen werden in voller Genauigkeit mit 32-Bit Gleitkommazahlen pro Kanal (128 Bit pro Pixel) durchgeführt.<br><br>Im Allgemeinen ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Blendenwerte oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel RAM-Speicher und temporären Speicherplatz auf dem Datenträger."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",

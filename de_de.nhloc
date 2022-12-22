@@ -502,11 +502,11 @@
 		},
 		{
 			"id": "projection.circularfisheye",
-			"txt": "kreisförmiges Fischauge"
+			"txt": "Zirkular-Fischauge"
 		},
 		{
 			"id": "projection.fullframefisheye",
-			"txt": "vollformatiges Fischauge"
+			"txt": "Vollformat-Fischauge"
 		},
 		{
 			"id": "projection.transverseequirectangular",
@@ -1234,7 +1234,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.cameraportraitorientation",
-			"txt": "Mischung aus Hochformat und Querformatbildern, Kamera Hochformat:"
+			"txt": "Mischung aus Hochformat- und Querformatbildern. Hochformatausrichtung der Kamera:"
 		},
 		{
 			"id": "mainwindow.projectassistant.setuppanorama",
@@ -1243,12 +1243,12 @@
 		{
 			"id": "mainwindow.projectassistant.txtcircularcrop",
 			"format": "html",
-			"txt": "Ein kreisförmiges Fischaugenobjektiv wird verwendet. Stellen Sie sicher, dass der Beschneidungskreis in der Registerkarte <a href=0>'@mainwindow.tabs.crop@'</a> dem tatsächlichen Bildkreis entspricht."
+			"txt": "Ein Zirkular-Fischaugenobjektiv wird verwendet. Stellen Sie sicher, dass der Beschneidungskreis auf der Registerkarte <a href=0>'@mainwindow.tabs.crop@'</a> dem tatsächlichen Bildkreis entspricht."
 		},
 		{
 			"id": "mainwindow.projectassistant.runalignimagesagain",
 			"format": "html",
-			"txt": "Führen Sie <a href=0>@alignimages@</a> erneut aus, um weitere Kontrollpunkte zu finden."
+			"txt": "Führen Sie <a href=0>'@alignimages@'</a> erneut aus, um weitere Kontrollpunkte zu finden."
 		},
 		{
 			"id": "mainwindow.projectassistant.isprealigned",
@@ -1286,12 +1286,12 @@
 		{
 			"id": "mainwindow.projectassistant.showpanoramaeditororcreatepanorama",
 			"format": "html",
-			"txt": "Sie können das Panorama im <a href=0>Panorama-Editor</a> als Vorschau anzeigen und optimieren oder das Panorama jetzt erstellen:"
+			"txt": "Sie können sich das Panorama im <a href=0>Panorama-Editor</a> als Vorschau ansehen und optimieren oder das Panorama jetzt erstellen:"
 		},
 		{
 			"id": "mainwindow.projectassistant.multiplelenses",
 			"format": "html",
-			"txt": "Mehrere Objektive werden verwendet. Ändern Sie die Einstellungen auf der Registerkarte <a href=0>@mainwindow.tabs.lenssettings@</a>."
+			"txt": "Mehrere Objektive werden verwendet. Passen Sie die Einstellungen auf der Registerkarte <a href=0>'@mainwindow.tabs.lenssettings'@</a> an."
 		},
 		{
 			"id": "mainwindow.projectassistant.projection",
@@ -1307,7 +1307,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.timescrop",
-			"txt": "%0x Crop-Faktor"
+			"txt": "Crop-Faktor %0x"
 		},
 		{
 			"id": "mainwindow.projectassistant.camera",
@@ -1761,7 +1761,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.warnmissingexposuredata",
 			"format": "html",
-			"txt": "<red>Einige oder alle Quellbilder enthalten keine Belichtungsinformation. PTGui muss die Belichtungszeit aller Ihrer Quellbilder kennen.</red> Sie können diese Daten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ eintragen</a>."
+			"txt": "<red>Einige oder alle Quellbilder enthalten keine Belichtungsinformation. PTGui muss die Belichtungszeit aller Ihrer Quellbilder kennen.</red> Sie können diese Daten auf der Registerkarte <a href=0>'@mainwindow.tabs.imageparameters@'</a> eintragen."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warnsingleblendplane",
@@ -1779,7 +1779,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.infounlinked",
 			"format": "html",
-			"txt": "Die Belichtungsreihen sind nicht verknüpft. PTGui wird versuchen, die einzelnen Belichtungsreihen auszurichten. Wenn die Bilder von einem Stativ aufgenommen wurden, möchten Sie möglicherweise die Aufnahmen in <a href=0>Belichtungsreihen verbinden</a> ."
+			"txt": "Die Belichtungsreihen sind nicht verknüpft. PTGui wird versuchen, die einzelnen Belichtungsreihen auszurichten. Wenn die Bilder von einem Stativ aufgenommen wurden, möchten Sie möglicherweise die Aufnahmen <a href=0>in Belichtungsreihen verknüpfen</a> ."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
@@ -1788,7 +1788,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
 			"format": "html",
-			"txt": "<red>Die Bilder wurden scheinbar im automatischen Belichtungsmodus der Kamera aufgenommen. Jeder Satz der Belichtungsreihen ist anders belichtet. Höchstwahrscheinlich kann PTGui für diese Bilder kein korrektes HDR-Panorama erstellen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>@mainwindow.tabs.imageparameters@ einsehen</a>. Idealerweise sollte die Belichtungszeit einem sich wiederholenden Muster folgen (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass sich die Belichtung zwischen Belichtungsreihen nicht ändert. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt sein."
+			"txt": "<red>Die Bilder wurden scheinbar im automatischen Belichtungsmodus der Kamera aufgenommen. Jeder Satz der Belichtungsreihen ist anders belichtet. Höchstwahrscheinlich kann PTGui für diese Bilder kein korrektes HDR-Panorama erstellen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>'@mainwindow.tabs.imageparameters@'</a> einsehen. Idealerweise flogt die Belichtungszeit einem sich wiederholenden Muster (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass sich die Belichtung zwischen Belichtungsreihen nicht ändert. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt sein."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior",
@@ -6610,7 +6610,7 @@
 			"id": "lensparams.lenstype",
 			"machinetranslated": false,
 			"helptext": "Legt den Typ des Objektivs fest. In den meisten Fällen kann PTGui dies automatisch anhand der EXIF-Daten des Bildes feststellen.",
-			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als Quellbild zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen einen größeren Blickwinkel als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein kreisförmiges Fischaugenobjektiv hat einen Blickwinkel von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Sensor abdeckt. Ein vollformatiges Fischaugenobjektiv hat einen engeren Blickwinkel und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist bereits ein sphärisches Panorama."
+			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Kann verwendet werden, um ein zylindrisches Panoramabild als Quellbild zu laden.<br><br><b>Fischaugenobjektive</b> haben im Allgemeinen einen größeren Blickwinkel als normale Objektive, aber gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein Zirkular-Fischaugenobjektiv hat einen Blickwinkel von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Sensor abdeckt. Ein Vollformat-Fischaugenobjektiv hat einen engeren Blickwinkel und deckt das gesamte Bild ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist bereits ein sphärisches Panorama."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
@@ -6684,7 +6684,7 @@
 			"id": "lensparams.individualparams",
 			"machinetranslated": false,
 			"helptext": "Die Einstellungen von oben für einzelne Bilder überschreiben",
-			"morehelptext": "<br><br>Standardmäßig werden für alle Bilder im Projekt das gleiche Objektiv, die gleiche Verschiebung, @shear@ und die Zuschnitteinstellungen verwendet. Aktivieren Sie die folgenden Kontrollkästchen, um unterschiedliche Einstellungen für einzelne Bilder zu verwenden. Dann können Sie einzelne Parameter in der Registerkarte '@mainwindow.tabs.imageparameters@' einstellen. Der Optimierer optimiert die ausgewählten Parameter einzeln.<br><br>Wenn mehrere Objektivprofile definiert sind, kann für jedes Quellbild ein Objektivprofil ausgewählt werden."
+			"morehelptext": "<br><br>Standardmäßig werden für alle Bilder im Projekt das gleiche Objektiv, die gleiche Verschiebung, @shear@ und die Zuschnitteinstellungen verwendet. Aktivieren Sie die folgenden Kontrollkästchen, um unterschiedliche Einstellungen für einzelne Bilder zu verwenden. Dann können Sie einzelne Parameter auf der Registerkarte '@mainwindow.tabs.imageparameters@' einstellen. Der Optimierer optimiert die ausgewählten Parameter einzeln.<br><br>Wenn mehrere Objektivprofile definiert sind, kann für jedes Quellbild ein Objektivprofil ausgewählt werden."
 		},
 		{
 			"id": "portraitorientation.shutterup",
@@ -6912,7 +6912,7 @@
 			"id": "optimizertab.optimizeglobally",
 			"machinetranslated": false,
 			"helptext": "Die globalen Objektiveinstellungen, die optimiert werden sollen.",
-			"morehelptext": "<br><br>Wenn ein Element ausgewählt ist, passt der Optimierer die entsprechende Einstellung auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, wird der Blickwinkel (oder die Brennweite) optimiert. Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Erstellen eines Teilpanoramas aus Bildern, die mit einer langen Brennweite aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, aus dem der Optimierer die exakte Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder mit Parallaxenfehler auf einen falschen Brennweitenwert optimiert werden. Dies können Sie verhindern, indem Sie die Brennweitenoptimierung deaktivieren.<br><br><b>a/b/c:</b> Wenn ausgewählt, wird die Objektivverzerrungskorrektur optimiert. Dies können Sie deaktivieren, wenn Sie vorkalibrierte Objektivdaten verwenden. Aber im Allgemeinen sollten a, b und c optimiert werden, um eine möglichst genaue Schnittkante zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, wird der Parameter '@mainwindow.imageparameters.fisheyefactor@' auf der Registerkarte '@mainwindow.tabs.lenssettings@' optimiert (gilt nur bei Verwendung eines Fischaugenobjektivs). Im Allgemeinen sollte dies nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erfassten Objektivmodell ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Rückwirkungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c in der Registerkarte '@mainwindow.tabs.lenssettings@' auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a/b/c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig ausschließen.<br><br><b>@mainwindow.imageparameters.longshift@/@mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starker Parallaxe kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, wird die @shear@ optimiert. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf. Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur die horizontale oder vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn Sie mehrere Objektivprofile auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellt haben, können Sie die Optimierung für jedes Objektivprofil separat steuern."
+			"morehelptext": "<br><br>Wenn ein Element ausgewählt ist, passt der Optimierer die entsprechende Einstellung auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, wird der Blickwinkel (oder die Brennweite) optimiert. Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Erstellen eines Teilpanoramas aus Bildern, die mit einer langen Brennweite aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, aus dem der Optimierer die exakte Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder mit Parallaxenfehler auf einen falschen Brennweitenwert optimiert werden. Dies können Sie verhindern, indem Sie die Brennweitenoptimierung deaktivieren.<br><br><b>a/b/c:</b> Wenn ausgewählt, wird die Objektivverzerrungskorrektur optimiert. Dies können Sie deaktivieren, wenn Sie vorkalibrierte Objektivdaten verwenden. Aber im Allgemeinen sollten a, b und c optimiert werden, um eine möglichst genaue Schnittkante zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, wird der Parameter '@mainwindow.imageparameters.fisheyefactor@' auf der Registerkarte '@mainwindow.tabs.lenssettings@' optimiert (gilt nur bei Verwendung eines Fischaugenobjektivs). Im Allgemeinen sollte dies nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erfassten Objektivmodell ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Rückwirkungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c auf der Registerkarte '@mainwindow.tabs.lenssettings@' auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a/b/c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig ausschließen.<br><br><b>@mainwindow.imageparameters.longshift@/@mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starker Parallaxe kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, wird die @shear@ optimiert. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf. Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur die horizontale oder vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn Sie mehrere Objektivprofile auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellt haben, können Sie die Optimierung für jedes Objektivprofil separat steuern."
 		},
 		{
 			"id": "optimizertab.optimizeperimage",
@@ -6944,7 +6944,7 @@
 			"id": "exposurehdrtab.groupintoblendplanes",
 			"machinetranslated": false,
 			"helptext": "HDR-Modus aktivieren",
-			"morehelptext": "<br><br>Wenn ausgewählt, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert wird in der Registerkarte '@mainwindow.tabs.imageparameters@' angezeigt. Alle Bilder mit demselben EV werden zu einem Panorama in einer separaten Belichtungsebene zusammengefügt. Jede Belichtungsebene ist ein vollständiges Panorama bei einer Belichtung. Anschließend werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder mittels Tone Mapping oder Exposure Fusion zu einem Bild mit geringem Dynamikumfang zusammengefügt."
+			"morehelptext": "<br><br>Wenn ausgewählt, gruppiert PTGui alle Bilder nach ihrem Belichtungswert (Belichtungszeit, Blende und ISO). Der EV-Wert wird auf der Registerkarte '@mainwindow.tabs.imageparameters@' angezeigt. Alle Bilder mit demselben EV werden zu einem Panorama in einer separaten Belichtungsebene zusammengefügt. Jede Belichtungsebene ist ein vollständiges Panorama bei einer Belichtung. Anschließend werden die Belichtungsebenen zu einem einzelnen HDR-Bild oder mittels Tone Mapping oder Exposure Fusion zu einem Bild mit geringem Dynamikumfang zusammengefügt."
 		},
 		{
 			"id": "exposurehdrtab.truehdrmode",
@@ -7083,7 +7083,7 @@
 			"id": "projectsettingstab.alignimages.hdrdefaultmode",
 			"machinetranslated": false,
 			"helptext": "Legt die Standardeinstellungen fest, wenn Belichtungsreihen erkannt werden.",
-			"morehelptext": "<br><br>Steuert die Standardeinstellung des Popup-Fensters, das bei der Ausführung von '@alignimages@' für Belichtungsreihen geöffnet wird.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> Bilder im selben Satz von Belichtungsreihen werden verknüpft. Verknüpfte Bilder müssen dieselben @yaw@, @pitch@, @roll@ und andere Einstellungen aufweisen, sodass sie Pixel für Pixel überlappen. In der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn Sie für die Aufnahme ein stabiles Stativ verwendet haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> Bilder werden nicht verknüpft, jedes Bild in der Reihe von Belichtungsreihen hat seinen eigenen @yaw@, @pitch@, @roll@. In der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn sich Belichtungsreihen nicht genau überlappen, z.B. wenn Sie die Bilder aus der Hand aufgenommen haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> Erkannte Belichtungsreihen werden ignoriert, die Bilder werden als nicht HDR-Panorama behandelt. In der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrdisabled@' ausgewählt."
+			"morehelptext": "<br><br>Steuert die Standardeinstellung des Popup-Fensters, das bei der Ausführung von '@alignimages@' für Belichtungsreihen geöffnet wird.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> Bilder im selben Satz von Belichtungsreihen werden verknüpft. Verknüpfte Bilder müssen dieselben @yaw@, @pitch@, @roll@ und andere Einstellungen aufweisen, sodass sie Pixel für Pixel überlappen. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn Sie für die Aufnahme ein stabiles Stativ verwendet haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> Bilder werden nicht verknüpft, jedes Bild in der Reihe von Belichtungsreihen hat seinen eigenen @yaw@, @pitch@, @roll@. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn sich Belichtungsreihen nicht genau überlappen, z.B. wenn Sie die Bilder aus der Hand aufgenommen haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> Erkannte Belichtungsreihen werden ignoriert, die Bilder werden als nicht HDR-Panorama behandelt. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrdisabled@' ausgewählt."
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -7116,7 +7116,7 @@
 			"id": "projectsettingstab.filenaming.outputfile",
 			"machinetranslated": false,
 			"helptext": "In diesem Abschnitt werden der Standardname und der Standardname der fertigen Panoramabilddatei festgelegt.",
-			"morehelptext": "<br><br>Den Name der Ausgabedatei können Sie in der Registerkarte '@mainwindow.tabs.createpanorama@' unter Ausgabedatei überschrieben, ansonsten wird der hier konfigurierte Standardwert verwendet.<br><br>Geben Sie einen Dateinamen ohne Erweiterung ein. Die Erweiterung (z.B. .jpg) wird automatisch basierend auf dem im '@mainwindow.tabs.createpanorama@'-Tab ausgewählten Ausgabedateiformat angehängt."
+			"morehelptext": "<br><br>Den Name der Ausgabedatei können Sie auf der Registerkarte '@mainwindow.tabs.createpanorama@' unter Ausgabedatei überschrieben, ansonsten wird der hier konfigurierte Standardwert verwendet.<br><br>Geben Sie einen Dateinamen ohne Erweiterung ein. Die Erweiterung (z.B. .jpg) wird automatisch basierend auf dem im '@mainwindow.tabs.createpanorama@'-Tab ausgewählten Ausgabedateiformat angehängt."
 		},
 		{
 			"id": "projectsettingstab.filenaming.relativesourceimagepaths",
@@ -7285,7 +7285,7 @@
 		{
 			"id": "createpanoramatab.outputfiledefault",
 			"machinetranslated": false,
-			"helptext": "Für den Namen der Ausgabedatei den Standardwert verwenden. <optional product='pro'>Die Standardbenennung konfigurieren Sie in der Registerkarte '@mainwindow.tabs.projectsettings@'.</optional>"
+			"helptext": "Für den Namen der Ausgabedatei den Standardwert verwenden. <optional product='pro'>Die Standardbenennung konfigurieren Sie auf der Registerkarte '@mainwindow.tabs.projectsettings@'.</optional>"
 		},
 		{
 			"id": "createpanoramatab.outputfilebrowse",
@@ -7358,7 +7358,7 @@
 			"id": "createpanoramatab.includeimages",
 			"machinetranslated": false,
 			"helptext": "Nur die ausgewählten Bilder in das Panorama aufnehmen",
-			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) in den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Sie können auch im Panorama-Editor und im Detail Viewer Bilder ausschließen. Dort schließen Sie das Bild an der angeklickten Stelle über das Kontextmenü (Rechtsklick) aus. <optional product='pro'><br><br>Bei HDR-Panoramen können Sie alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' auswählen und mit '@menubar.images@' | '@menubar.images.include@'/'@menubar.images.exclude@' ein- oder ausschliessen.</optional>"
+			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) auf den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Sie können auch im Panorama-Editor und im Detail Viewer Bilder ausschließen. Dort schließen Sie das Bild an der angeklickten Stelle über das Kontextmenü (Rechtsklick) aus. <optional product='pro'><br><br>Bei HDR-Panoramen können Sie alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' auswählen und mit '@menubar.images@' | '@menubar.images.include@'/'@menubar.images.exclude@' ein- oder ausschliessen.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blendertype",
@@ -7615,7 +7615,7 @@
 		{
 			"id": "tonemapsettings.compression",
 			"machinetranslated": false,
-			"helptext": "Umfang der Komprimierung des dynamischen Bereichs. Bei hoher Komprimierung können sowohl sehr dunkle als auch sehr helle Bereiche des Bildes im resultierenden Bild sichtbar sein, eine geringe Komprimierung kann jedoch natürlicher aussehen."
+			"helptext": "Umfang der Kompression des dynamischen Bereichs. Bei hoher Komprimierung können sowohl sehr dunkle als auch sehr helle Bereiche des Bildes im resultierenden Bild sichtbar gemacht werden, eine geringe Komprimierung kann jedoch natürlicher aussehen."
 		},
 		{
 			"id": "tonemapsettings.contrast",
@@ -7672,13 +7672,13 @@
 			"id": "projectionpanel.hfov",
 			"machinetranslated": false,
 			"helptext": "Horizontaler Blickwinkel.",
-			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler am unteren Rand dieses Fensters eingestellen. Siehe <a href='helppage:projections'>Projektionen</a>"
+			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler am unteren Rand dieses Fensters einstellen. Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
 		{
 			"id": "projectionpanel.vfov",
 			"machinetranslated": false,
 			"helptext": "Vertikaler Blickwinkel.",
-			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler auf der linken Seite dieses Fensters eingestellen. Siehe <a href='helppage:projections'>Projektionen</a>"
+			"morehelptext": "<br><br>Können Sie auch mit dem Schieberegler auf der linken Seite dieses Fensters einstellen. Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
 		{
 			"id": "projectionpanel.compression",
@@ -8202,7 +8202,7 @@
 			"id": "batchstitcher.toolbar.stop",
 			"machinetranslated": false,
 			"label": "Stopp",
-			"helptext": "Stoppen Sie die Verarbeitung. Der Batch-Stitcher wird die Verarbeitung des aktuellen Auftrags (falls vorhanden) abbrechen."
+			"helptext": "Verarbeitung anhalten. Der Batch-Stitcher wird die Verarbeitung des aktuellen Auftrags (falls vorhanden) abbrechen."
 		},
 		{
 			"id": "batchstitcher.toolbar.help",
@@ -8238,7 +8238,7 @@
 			"id": "lensdatabase.entries.add",
 			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"morehelptext": "<br><br>Objektiv-Datensätze fügen Sie über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
+			"morehelptext": "<br><br>Objektiv-Datensätze fügen Sie auf der Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe <a href='helppage:lensdatabase'>Verwenden der Objektiv-Datenbank</a>"
 		},
 		{
 			"id": "lensdatabase.entries.remove",
@@ -8273,7 +8273,7 @@
 			"id": "cameradatabase.entries.add",
 			"machinetranslated": false,
 			"label": "Hinzufügen",
-			"morehelptext": "<br><br>Kamera-Datensätze fügen Sie über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
+			"morehelptext": "<br><br>Kamera-Datensätze fügen Sie auf der Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster hinzu. Siehe <a href='helppage:cameradatabase'>Verwenden der Kamera-Datenbank</a>"
 		},
 		{
 			"id": "cameradatabase.entries.remove",
@@ -8378,7 +8378,7 @@
 		{
 			"id": "options.batchstitcher.closewhendone",
 			"machinetranslated": false,
-			"helptext": "Legt fest, ob der Batch-Stitcher mit dem ausgewählten '@batchstitcher.menubar.closebatchstitcherwhenfinished@'-Flag gestartet werden soll. Gilt nur, wenn der Batch-Stitcher von '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' (in der Registerkarte '@mainwindow.tabs.createpanorama@') oder '@menubar.project.sendtemporarycopytobatchstitcher@' (im Menü '@menubar.project@') gestartet wird."
+			"helptext": "Legt fest, ob der Batch-Stitcher mit dem ausgewählten '@batchstitcher.menubar.closebatchstitcherwhenfinished@'-Flag gestartet werden soll. Gilt nur, wenn der Batch-Stitcher von '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' (auf der Registerkarte '@mainwindow.tabs.createpanorama@') oder '@menubar.project.sendtemporarycopytobatchstitcher@' (im Menü '@menubar.project@') gestartet wird."
 		},
 		{
 			"id": "options.showintaskbar",
@@ -8448,7 +8448,7 @@
 			"id": "options.cpeditor.showlabelsinzoomer",
 			"machinetranslated": false,
 			"helptext": "Wenn ausgewählt, werden nummerierte Felder für die Kontrollpunkte im schwebenden Vergrößerungsfenster angezeigt.",
-			"morehelptext": "<br><br>Wenn nicht ausgewählt, zeigt das Vergrößerungsfenster nur kleine Kreuzmarkierungen für jeden Kontrollpunkt an. Betrifft nur das Vergrößerungsfenster. In den tatsächlichen Bildern in der Registerkarte '@mainwindow.tabs.controlpoints@' werden immer nummerierte Markierungen angezeigt."
+			"morehelptext": "<br><br>Wenn nicht ausgewählt, zeigt das Vergrößerungsfenster nur kleine Kreuzmarkierungen für jeden Kontrollpunkt an. Betrifft nur das Vergrößerungsfenster. In den tatsächlichen Bildern auf der Registerkarte '@mainwindow.tabs.controlpoints@' werden immer nummerierte Markierungen angezeigt."
 		},
 		{
 			"id": "options.cpeditor.hidezoomerwhennothovering",
@@ -8464,8 +8464,8 @@
 		{
 			"id": "options.cpeditor.showimagepickerballoon",
 			"machinetranslated": false,
-			"helptext": "Aktiviert oder deaktiviert die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten in der Registerkarte '@mainwindow.tabs.controlpoints@' für Belichtungsreihen bewegen.",
-			"morehelptext": "<br><br>Bei HDR-Projekten kombiniert PTGui standardmäßig verknüpfte Bilder (Belichtungsreihen) zu einem einzigen zusammengefügten Bild. In der Registerkarte '@mainwindow.tabs.controlpoints@' kann es erforderlich sein, die einzelnen Bilder anstelle des zusammengefügten Bildes anzuzeigen, da Kontrollpunkte zwischen einzelnen Bildern und nicht zwischen Gruppen verknüpfter Bilder platziert werden. Daher öffnet PTGui einen Ballon, der die einzelnen Bilder zeigt, wenn Sie mit der Maus über die Vorschaubilder fahren.<br><br>Wenn Sie feststellen, dass der Ballon Ihnen im Weg steht, können Sie ihn hier deaktivieren. Einzelne Belichtungen aus dem Satz von Belichtungsreihen können weiterhin auf der Registerkarte '@mainwindow.tabs.controlpoints@' mit den Tastaturkurzbefehlen ausgewählt werden <optional platform='windows'>Strg + Alt + Hoch und Strg + Alt + Runter</optional><optional platform='mac'>Cmd + Alt + Hoch und Cmd + Alt + Runter</optional> ."
+			"helptext": "Aktiviert oder deaktiviert die Popup-Sprechblase, die angezeigt wird, wenn Sie die Maus über die Miniaturansichten auf der Registerkarte '@mainwindow.tabs.controlpoints@' für Belichtungsreihen bewegen.",
+			"morehelptext": "<br><br>Bei HDR-Projekten kombiniert PTGui standardmäßig verknüpfte Bilder (Belichtungsreihen) zu einem einzigen zusammengefügten Bild. Auf der Registerkarte '@mainwindow.tabs.controlpoints@' kann es erforderlich sein, die einzelnen Bilder anstelle des zusammengefügten Bildes anzuzeigen, da Kontrollpunkte zwischen einzelnen Bildern und nicht zwischen Gruppen verknüpfter Bilder platziert werden. Daher öffnet PTGui einen Ballon, der die einzelnen Bilder zeigt, wenn Sie mit der Maus über die Vorschaubilder fahren.<br><br>Wenn Sie feststellen, dass der Ballon Ihnen im Weg steht, können Sie ihn hier deaktivieren. Einzelne Belichtungen aus dem Satz von Belichtungsreihen können weiterhin auf der Registerkarte '@mainwindow.tabs.controlpoints@' mit den Tastaturkurzbefehlen ausgewählt werden <optional platform='windows'>Strg + Alt + Hoch und Strg + Alt + Runter</optional><optional platform='mac'>Cmd + Alt + Hoch und Cmd + Alt + Runter</optional> ."
 		},
 		{
 			"id": "options.cpgenerator.maxcpsperimagepair",
@@ -8493,7 +8493,7 @@
 			"id": "options.plugins.smartblend.application",
 			"machinetranslated": false,
 			"helptext": "Wählen Sie den Pfad der ausführbaren Smartblend-Datei oder klicken Sie auf '@browse@', um sie auf dem Datenträger auszuwählen.",
-			"morehelptext": "<br><br>Smartblend ist eine Panorama-Überblendanwendung von Drittanbietern. Smartblend kann in der Registerkarte '@mainwindow.tabs.createpanorama@' unter '@mainwindow.createpanoramatab.blendusing@' für die Überblendung ausgewählt werden."
+			"morehelptext": "<br><br>Smartblend ist eine Panorama-Überblendanwendung von Drittanbietern. Smartblend kann auf der Registerkarte '@mainwindow.tabs.createpanorama@' unter '@mainwindow.createpanoramatab.blendusing@' für die Überblendung ausgewählt werden."
 		},
 		{
 			"id": "options.plugins.smartblend.cmdline",
@@ -9011,12 +9011,12 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank speichert alle Parameter eines Objektivs, sodass Sie diese Parameter nur einmal eingeben müssen. Optional können Sie einem Eintrag eine Kamera/Objektiv-Kombination zugeordnen (siehe unten). Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Daten verwendet.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Sobald Sie einen Datensatz auswählen, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. In der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (rectilinear, Fischauge, etc.)<br>• Brennweite (für rectilineare und Fischaugenprojektionen) oder horizontaler Blickwinkel (für äquirektanguläre und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Einem Objektiv-Datensatz ist optional eine Kamera/Objektiv-Kombination (aus den EXIF-Daten des geladenen Bildes ermittelt) zugeordnet. Über diese Zuordnung werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden.<br><br>Zuordnungen können auf zwei Arten erfolgen:<br><br>• Sobald Sie Bilder von einem nicht erkannten Objektiv laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Diese Daten immer für [Kamera/Objektiv-Kombination] verwenden'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des Bildes, diesem Eintrag zugeordnet.<br><br>• Zuordnungen können Sie auch manuell auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellen. Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, den Objektiv-Datensatz und die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
+			"helptext": "<b>@lensdatabase@</b><br><br>Die Objektiv-Datenbank speichert alle Parameter eines Objektivs, sodass Sie diese Parameter nur einmal eingeben müssen. Optional können Sie einem Eintrag eine Kamera/Objektiv-Kombination zugeordnen (siehe unten). Die Objektiv-Datenbank ist zunächst leer und wird nur für Ihre eigenen Daten verwendet.<br><br>Die Objektiv-Datenbank besteht aus zwei Bereichen: Der linke Bereich ist die Liste der Objektiv-Datensätze. Sobald Sie einen Datensatz auswählen, werden im rechten Bereich die Eigenschaften des ausgewählten Objektiv-Datenbanksatzes angezeigt.<br><br><b>Verwenden der Objektiv-Datenbank</b><br><br>Die Objektiv-Datenbank öffnen Sie über '@menubar.tools@' | '@lensdatabase@'. Datensätze werden nicht direkt aus dem Objektiv-Datenbankfenster geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wenn die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt wird, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters. Auf der Registerkarte '@mainwindow.tabs.lenssettings@' drücken Sie die Schaltfläche '@lensdatabase@', um die aktuellen Objektiveinstellungen von oder in die Objektiv-Datenbank zu laden oder zu speichern.<br><br>Die folgenden Parameter sind in der Objektiv-Datenbank gespeichert:<br>• Objektivprojektion (rectilinear, Fischauge, etc.)<br>• Brennweite (für rectilineare und Fischaugenprojektionen) oder horizontaler Blickwinkel (für äquirektanguläre und zylindrische Projektion)<br>• Fischaugenfaktor (für Fischaugenobjektive)<br>• Zuschnitteinstellungen<br>• Objektivverzerrungskorrektur<br>• Objektivverschiebung<br>• @shear@ Korrektur<br><br><b>EXIF-Zuordnungen</b><br><br>Einem Objektiv-Datensatz ist optional eine Kamera/Objektiv-Kombination (aus den EXIF-Daten des geladenen Bildes ermittelt) zugeordnet. Über diese Zuordnung werden die Einstellungen aus der Objektiv-Datenbank automatisch angewendet, sobald Sie ein Bild mit dieser Kamera/Objektiv-Kombination laden.<br><br>Zuordnungen können auf zwei Arten erfolgen:<br><br>• Sobald Sie Bilder von einem nicht erkannten Objektiv laden, werden Sie von PTGui aufgefordert, den Objektivtyp und die Brennweite einzugeben. Im selben Fenster gibt es das Kontrollkästchen 'Diese Daten immer für [Kamera/Objektiv-Kombination] verwenden'. Wenn ausgewählt, wird ein neuer Objektiv-Datenbankeintrag erstellt und die Kamera/Objektiv-Kombination, bestimmt anhand der EXIF-Daten des Bildes, diesem Eintrag zugeordnet.<br><br>• Zuordnungen können Sie auch manuell auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellen. Klicken Sie nach dem Laden eines Bildes auf die Schaltfläche 'EXIF' und wählen Sie '@mainwindow.lensparams.makeexifassociation@', um eine Zuordnung zu erstellen.<br><br>Eine Zuordnung entfernen Sie, indem Sie die Objektiv-Datenbank öffnen, den Objektiv-Datensatz und die Zuordnung in der rechten Tabelle auswählen und die Schaltfläche 'Entfernen' drücken."
 		},
 		{
 			"id": "cameradatabase",
 			"machinetranslated": false,
-			"helptext": "<b>@cameradatabase@</b><br><br>Zur Berechnung der Projektion eines Objektivs benötigt PTGui nicht nur die Brennweite, sondern auch die Sensorgröße der Kamera. Denn ohne die Sensormaße ist die Brennweite ein bedeutungsloser Wert. PTGui kennt die Sensorgröße von über 2000 Kameras, trotzdem es ist möglich, dass Ihre Kamera nicht dabei ist. In diesem Fall können Sie diese Daten zur Kamera-Datenbank hinzufügen.<br><br><b>Verwenden der Kamera-Datenbank</b><br><br>Die Kamera-Datenbank öffnen Sie über '@menubar.tools@' | '@cameradatabase@'. Datensätze werden nicht direkt von hier geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wird die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters.<br><br>Drücken Sie in der Registerkarte '@mainwindow.tabs.lenssettings@' die Schaltfläche '@cameradatabase@', um die aktuelle Sensorgröße von oder in die Objektiv-Datenbank zu laden oder zu speichern und ordnen Sie diese Daten dem Kameramodell zu, wie im Feld EXIF-Kameramodell angegeben. Wenn Sie das nächste Mal ein Bild mit diesem EXIF-Kameramodell laden, setzt PTGui automatisch die Daten der Kamerasensorgröße."
+			"helptext": "<b>@cameradatabase@</b><br><br>Zur Berechnung der Projektion eines Objektivs benötigt PTGui nicht nur die Brennweite, sondern auch die Sensorgröße der Kamera. Denn ohne die Sensormaße ist die Brennweite ein bedeutungsloser Wert. PTGui kennt die Sensorgröße von über 2000 Kameras, trotzdem es ist möglich, dass Ihre Kamera nicht dabei ist. In diesem Fall können Sie diese Daten zur Kamera-Datenbank hinzufügen.<br><br><b>Verwenden der Kamera-Datenbank</b><br><br>Die Kamera-Datenbank öffnen Sie über '@menubar.tools@' | '@cameradatabase@'. Datensätze werden nicht direkt von hier geladen und gespeichert. Stattdessen erfolgt dies über die Registerkarte '@mainwindow.tabs.lenssettings@' im Hauptfenster. Wird die Registerkarte '@mainwindow.tabs.lenssettings@' nicht angezeigt, drücken Sie die Schaltfläche '@advanced@' in der Seitenleiste des Hauptfensters.<br><br>Drücken Sie auf der Registerkarte '@mainwindow.tabs.lenssettings@' die Schaltfläche '@cameradatabase@', um die aktuelle Sensorgröße von oder in die Objektiv-Datenbank zu laden oder zu speichern und ordnen Sie diese Daten dem Kameramodell zu, wie im Feld EXIF-Kameramodell angegeben. Wenn Sie das nächste Mal ein Bild mit diesem EXIF-Kameramodell laden, setzt PTGui automatisch die Daten der Kamerasensorgröße."
 		},
 		{
 			"id": "workingwithtemplates",
@@ -9031,7 +9031,7 @@
 		{
 			"id": "mainwindow.controlpointstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte zeigen an, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet. Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden. Kontrollpunkte werden als Teil von '@alignimages@' (in der Registerkarte '@mainwindow.tabs.projectassistant@') generiert. Kontrollpunkte erzeugen Sie auch mit '@menubar.controlpoints@' | '@menubar.controlpoints.generate@'. Und mit '@mainwindow.cptab.generatecphere@' erzeugen Sie Kontrollpunkte in einem vorgegebenen Bereich (siehe unten).<br><br>Manchmal kann PTGui Kontrollpunkte nicht automatisch generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem '@controlpointassistant@' (siehe '@menubar.tools@' | '@controlpointassistant@') überprüfen Sie, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Die Bearbeitung von Kontrollpunkten ist einfach:<br><br>Einen Kontrollpunkt fügen Sie hinzu, indem Sie zwei überlappende Bilder durch Anklicken der Miniaturansichten über jedem Bereich auswählen. Klicken Sie auf einen Punkt im linken Bild und anschließend auf den entsprechenden Punkt im rechten Bild. PTGui fügt jedem Kontrollpunkt einen nummerierten Marker hinzu. Wenn '@menubar.controlpoints.autojump@' aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So erstellen Sie Kontrollpunkte in einem vorgegebenen Bereich:<br><br>Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus aufziehen. Dann klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> in den ausgewählten Bereich und wählen Sie '@mainwindow.cptab.generatecphere@'. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind. Der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu verschieben, greifen Sie ihn mit der Maus und ziehen ihn zur gewünschten Position. Sie löschen einen Kontrollpunkt oder ändern seinen Typ, indem Sie mit der rechten Maustaste auf den Marker oder in die Kontrollpunktliste klicken.<br><br>Mehrere Kontrollpunkte löschen Sie, indem Sie einen rechteckigen Bereich im Bild durch ziehen mit der Maus bei gedrückter Umschalttaste auswählen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> auf einen der ausgewählten Kontrollpunkte und wählen Sie '@delete@'.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte '@mainwindow.tabs.controlpoints@':<br><br>• Verwenden Sie die rechte Maustaste<optional platform='mac'>( oder Strg + Ziehen oder zwei Finger streichen)</optional>, um die Bilder zu verschieben und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Verschieben von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können Sie mit der Tastatur verschieben. Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Diese enthält die Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte '@cptable.dist@' enthält die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist. Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle sortieren Sie, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit. Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxenfehlern. Bilder mit Parallaxenfehlern können nicht perfekt zusammengefügt werden. Parallaxenfehler sollten Sie vermeiden, indem Sie alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte zeigen an, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet. Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden. Kontrollpunkte werden als Teil von '@alignimages@' (auf der Registerkarte '@mainwindow.tabs.projectassistant@') generiert. Kontrollpunkte erzeugen Sie auch mit '@menubar.controlpoints@' | '@menubar.controlpoints.generate@'. Und mit '@mainwindow.cptab.generatecphere@' erzeugen Sie Kontrollpunkte in einem vorgegebenen Bereich (siehe unten).<br><br>Manchmal kann PTGui Kontrollpunkte nicht automatisch generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem '@controlpointassistant@' (siehe '@menubar.tools@' | '@controlpointassistant@') überprüfen Sie, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Die Bearbeitung von Kontrollpunkten ist einfach:<br><br>Einen Kontrollpunkt fügen Sie hinzu, indem Sie zwei überlappende Bilder durch Anklicken der Miniaturansichten über jedem Bereich auswählen. Klicken Sie auf einen Punkt im linken Bild und anschließend auf den entsprechenden Punkt im rechten Bild. PTGui fügt jedem Kontrollpunkt einen nummerierten Marker hinzu. Wenn '@menubar.controlpoints.autojump@' aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So erstellen Sie Kontrollpunkte in einem vorgegebenen Bereich:<br><br>Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus aufziehen. Dann klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> in den ausgewählten Bereich und wählen Sie '@mainwindow.cptab.generatecphere@'. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind. Der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu verschieben, greifen Sie ihn mit der Maus und ziehen ihn zur gewünschten Position. Sie löschen einen Kontrollpunkt oder ändern seinen Typ, indem Sie mit der rechten Maustaste auf den Marker oder in die Kontrollpunktliste klicken.<br><br>Mehrere Kontrollpunkte löschen Sie, indem Sie einen rechteckigen Bereich im Bild durch ziehen mit der Maus bei gedrückter Umschalttaste auswählen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> auf einen der ausgewählten Kontrollpunkte und wählen Sie '@delete@'.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte '@mainwindow.tabs.controlpoints@':<br><br>• Verwenden Sie die rechte Maustaste<optional platform='mac'>( oder Strg + Ziehen oder zwei Finger streichen)</optional>, um die Bilder zu verschieben und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Verschieben von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können Sie mit der Tastatur verschieben. Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Diese enthält die Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte '@cptable.dist@' enthält die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist. Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Entfernungen werden in Quellbildpixeln gemessen. Die Tabelle sortieren Sie, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>Im Allgemeinen ist eine Entfernung unter 5 gut. Punkte mit einem Abstand von 20 oder mehr benötigen Aufmerksamkeit. Dies könnten falsch ausgerichtete Kontrollpunkte sein, beispielsweise bei sich bewegenden Objekten.<br><br>Wenn es viele Kontrollpunkte mit hoher Distanz gibt, ist dies normalerweise ein Zeichen von Parallaxenfehlern. Bilder mit Parallaxenfehlern können nicht perfekt zusammengefügt werden. Parallaxenfehler sollten Sie vermeiden, indem Sie alle Bilder von genau demselben Standpunkt aus aufgenommen werden. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
 		}
 	]
 }

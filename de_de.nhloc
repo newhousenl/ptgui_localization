@@ -4887,7 +4887,7 @@
 		},
 		{
 			"id": "err.removeworstcps.deletingoneworstcontrolpoint",
-			"txt": "Ein ungünstigster Kontrollpunkt (von %0 Gesamtkontrollpunkten) wird gelöscht. Möchten Sie fortfahren und das Projekt erneut optimieren?"
+			"txt": "Ein schlechter Kontrollpunkt (von %0 Gesamtkontrollpunkten) wird gelöscht. Möchten Sie fortfahren und das Projekt erneut optimieren?"
 		},
 		{
 			"id": "err.removeworstcps.deletingsomeworstcontrolpoint",
@@ -4935,7 +4935,7 @@
 		},
 		{
 			"id": "fileformatsettings.qualitytxt",
-			"txt": "Qualität: %0 %%"
+			"txt": "Qualität: %0%%"
 		},
 		{
 			"id": "fileformatsettings.packbitscompression",

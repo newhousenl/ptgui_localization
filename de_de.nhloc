@@ -222,7 +222,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.projectsettings",
-			"txt": "Projekt Einstellungen"
+			"txt": "Projekteinstellungen"
 		},
 		{
 			"id": "mainwindow.tabs.preview",
@@ -1788,7 +1788,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.warnautoexposure",
 			"format": "html",
-			"txt": "<red>Die Bilder wurden scheinbar im automatischen Belichtungsmodus der Kamera aufgenommen. Jeder Belichtungsreihe ist anders belichtet. Höchstwahrscheinlich kann PTGui für diese Bilder kein korrektes HDR-Panorama erstellen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>'@mainwindow.tabs.imageparameters@'</a> einsehen. Idealerweise folgt die Belichtungszeit einem sich wiederholenden Muster (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass sich die Belichtung zwischen Belichtungsreihen nicht ändert. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt sein."
+			"txt": "<red>Die Bilder wurden scheinbar im automatischen Belichtungsmodus der Kamera aufgenommen. Jede Belichtungsreihe ist anders belichtet. Höchstwahrscheinlich kann PTGui für diese Bilder kein korrektes HDR-Panorama erstellen.</red> Sie können die tatsächlichen Belichtungsdaten auf der Registerkarte <a href=0>'@mainwindow.tabs.imageparameters@'</a> einsehen. Idealerweise folgt die Belichtungszeit einem sich wiederholenden Muster (z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.).<br><br>Stellen Sie die Kamera beim Fotografieren von HDR-Panoramen auf den manuellen Belichtungsmodus (den Modus 'M' auf dem Kamera-Einstellrad), um sicherzustellen, dass sich die Belichtung zwischen Belichtungsreihen nicht ändert. Bei jeder Belichtungszeit sollte das komplette Panorama abgedeckt sein."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior",
@@ -3385,7 +3385,7 @@
 		},
 		{
 			"id": "txt.ptguiuptodate",
-			"txt": "PTGui auf diesem Computer ist auf dem neuesten Stand."
+			"txt": "PTGui ist auf dem neuesten Stand."
 		},
 		{
 			"id": "txt.trialversion",
@@ -4851,7 +4851,7 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"txt": "Das Projekt scheint %0 Belichtungsreihen mit je %1 Bildern zu enthalten. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als einzelnes Bild behandeln?\n\nDies erfordert, dass die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sind. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
+			"txt": "Das Projekt scheint %0 Belichtungsreihen mit je %1 Bildern zu enthalten. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als ein einzelnes Bild behandeln?\n\nDazu müssen die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sein. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
@@ -5571,7 +5571,7 @@
 		},
 		{
 			"id": "txt.genericrectilinearlens",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "generisches rectilineares Objektiv"
 		},
 		{
@@ -5738,7 +5738,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Nach dem Hinzufügen von Bildern Objektiveinstellungen automatisch mit EXIF-Daten initialisieren"
 		},
 		{
@@ -5773,7 +5773,7 @@
 		},
 		{
 			"id": "err.iccprofilenotrgb",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Kein RGB-Farbprofil. Ein RGB-Farbprofil wird benötigt, z.B. werden CMYK-Profile nicht unterstützt."
 		},
 		{
@@ -5808,17 +5808,17 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.cameracurve",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Kamera-Kurve"
 		},
 		{
 			"id": "txt.globalcameracurve",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Globale Kamera-Kurve"
 		},
 		{
 			"id": "txt.cameracurve_n",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Kamera-Kurve #%0"
 		},
 		{
@@ -5888,7 +5888,7 @@
 		},
 		{
 			"id": "txt.asshot",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Wie Original"
 		},
 		{
@@ -5964,7 +5964,7 @@
 		{
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
 			"machinetranslated": false,
-			"txt": "Legt fest, ob die Positionen der Bilder einer Belichtungsreihe unabhängig oder verknüpft sind. Aktivieren Sie dieses Kontrollkästchen, um für die Bilder einer Belichtungsreihe dieselben @yaw@, @pitch@, @roll@ und @viewpoint@-Parameter zu erzwingen. Verknüpfen Sie Bilder, wenn Sie die Belichtungsreihe von einem Stativ aufgenommen haben und so die Bilder perfekt ausgerichtet sind. Wenn die Bilder nicht verknüpft sind, kann jedes Bild in der Gruppe unterschiedlich positioniert sein. In diesem Fall müssen Kontrollpunkte zwischen den Bildern in der Gruppe erstellt werden und der Optimierer richtet die Bilder einzeln aus. Bilder mit verknüpften Positionen haben dieselbe Maske. Das Kontrollkästchen '@mainwindow.imageparameters.linked@' wird nur angezeigt, wenn das Projekt Gruppen verknüpfter Bilder enthält."
+			"txt": "Legt fest, ob die Positionen der Bilder einer Belichtungsreihe unabhängig oder verknüpft sind. Aktivieren Sie dieses Kontrollkästchen, um für die Bilder einer Belichtungsreihe dieselben @yaw@, @pitch@, @roll@ und @viewpoint@-Parameter zu erzwingen. Verknüpfen Sie Bilder, wenn Sie die Belichtungsreihe von einem Stativ aufgenommen haben und so die Bilder perfekt ausgerichtet sind. Wenn die Bilder nicht verknüpft sind, kann jedes Bild in der Gruppe unterschiedlich positioniert werden. In diesem Fall müssen Kontrollpunkte zwischen den Bildern in der Gruppe erstellt werden und der Optimierer richtet die Bilder einzeln aus. Bilder mit verknüpften Positionen haben dieselbe Maske. Das Kontrollkästchen '@mainwindow.imageparameters.linked@' wird nur angezeigt, wenn das Projekt Gruppen verknüpfter Bilder enthält."
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
@@ -6060,7 +6060,7 @@
 		},
 		{
 			"id": "proxysettings.header",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Wenn dieser Computer über einen Proxyserver mit dem Internet verbunden ist, geben Sie hier die Zugangsdaten an:"
 		},
 		{
@@ -6125,7 +6125,7 @@
 		},
 		{
 			"id": "licenseinfo.floating.singlecomputer",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"txt": "Sie verwenden eine Floating-Lizenz. PTGui kann zeitgleich auf nur einem Computer ausgeführt werden."
 		},
 		{
@@ -6146,7 +6146,7 @@
 		{
 			"id": "err.allkeysfailed",
 			"machinetranslated": true,
-			"txt": "Keiner der Lizenzschlüssel führte zu einer erfolgreichen Aktivierung. Der Versuch, den letzten Lizenzschlüssel zu verwenden, führte zu diesem Fehler:\n\n%0"
+			"txt": "Keiner der Lizenzschlüssel führte zu einer erfolgreichen Aktivierung. Der Versuch beim letzten Lizenzschlüssel führte zu folgendem Fehler:\n\n%0"
 		},
 		{
 			"id": "err.errorforlicensekeynumber",
@@ -6207,7 +6207,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.eraser",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Radiergummi - entfernt die rot und grün gezeichneten Bereiche."
 		},
 		{
@@ -6237,7 +6237,7 @@
 		},
 		{
 			"id": "menubar.images.sort",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Alle Bilder in alphabetischer Reihenfolge sortieren."
 		},
 		{
@@ -6297,8 +6297,8 @@
 		},
 		{
 			"id": "lensdatabase",
-			"machinetranslated": true,
-			"helptext": "Die Objektiv-Datenbank dient zum Speichern und Abrufen benutzerdefinierter Objektivparameter."
+			"machinetranslated": false,
+			"helptext": "Die Objektiv-Datenbank dient zum Speichern und Laden benutzerdefinierter Objektivparameter."
 		},
 		{
 			"id": "cameradatabase",
@@ -6307,7 +6307,7 @@
 		},
 		{
 			"id": "ptguiviewer",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Der @ptguiviewer@ ist eine Anwendung zum Betrachten von sphärischen Panoramen."
 		},
 		{
@@ -6342,7 +6342,7 @@
 		},
 		{
 			"id": "menubar.tools.openfolder.sourceimages",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Ordner mit den Quellbildern des aktuellen Projekts öffnen."
 		},
 		{
@@ -6402,17 +6402,17 @@
 		},
 		{
 			"id": "menubar.controlpoints.generate",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Alle Bilder im Projekt analysieren und Kontrollpunkte erzeugen."
 		},
 		{
 			"id": "menubar.view.previousblendplane",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Zur vorherigen Belichtung in der Belichtungsreihe wechseln."
 		},
 		{
 			"id": "menubar.view.nextblendplane",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Zur nächsten Belichtung in der Belichtungsreihe wechseln."
 		},
 		{
@@ -6551,7 +6551,7 @@
 		},
 		{
 			"id": "projectassistant.loadimages",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Quellbilder für das Panorama laden",
 			"morehelptext": "<br><br>PTGui kann Panoramen erstellen, die aus mehreren Reihen von Bildern bestehen. Laden Sie einfach alle Ihre Quellbilder auf einmal, PTGui wird feststellen, wie sie sich überlappen.<br><br>Siehe auch <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
@@ -6603,7 +6603,7 @@
 		},
 		{
 			"id": "lensparams.globallens.remove",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Das ausgewählte Objektivprofil entfernen"
 		},
 		{
@@ -6700,8 +6700,8 @@
 		},
 		{
 			"id": "croptab.cropcoords",
-			"machinetranslated": true,
-			"helptext": "Koordinaten (in Pixel) des Zuschneidebereichs"
+			"machinetranslated": false,
+			"helptext": "Koordinaten (in Pixel) des Zuschnitts"
 		},
 		{
 			"id": "croptab.cropcirclediameter",
@@ -6883,7 +6883,7 @@
 		},
 		{
 			"id": "optimizertab.advancedbutton",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Zur erweiterten Optimierer-Oberfläche wechseln"
 		},
 		{
@@ -6912,7 +6912,7 @@
 			"id": "optimizertab.optimizeglobally",
 			"machinetranslated": false,
 			"helptext": "Die globalen Objektiveinstellungen, die optimiert werden sollen.",
-			"morehelptext": "<br><br>Wenn ein Element ausgewählt ist, passt der Optimierer die entsprechende Einstellung auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, wird der Bildwinkel (oder die Brennweite) optimiert. Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Erstellen eines Teilpanoramas aus Bildern, die mit einer langen Brennweite aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, aus dem der Optimierer die exakte Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder mit Parallaxenfehlern auf einen falschen Brennweitenwert optimiert werden. Dies können Sie verhindern, indem Sie die Brennweitenoptimierung deaktivieren.<br><br><b>a/b/c:</b> Wenn ausgewählt, wird die Objektivverzerrungskorrektur optimiert. Dies können Sie deaktivieren, wenn Sie vorkalibrierte Objektivdaten verwenden. In der Regel sollten Sie a, b und c optimieren, um eine möglichst genaue Schnittkante zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, wird der Parameter '@mainwindow.imageparameters.fisheyefactor@' auf der Registerkarte '@mainwindow.tabs.lenssettings@' optimiert (gilt nur bei Verwendung eines Fischaugenobjektivs). In der Regel sollte dieser Wert nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erkannten Objektiv ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Rückwirkungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c auf der Registerkarte '@mainwindow.tabs.lenssettings@' auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a/b/c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig ausschließen.<br><br><b>@mainwindow.imageparameters.longshift@/@mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starkerm Parallaxenfehler kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, wird die @shear@ optimiert. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf. Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur die horizontale oder vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn Sie mehrere Objektivprofile auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellt haben, können Sie die Optimierung für jedes Objektivprofil separat steuern."
+			"morehelptext": "<br><br>Für jedes ausgewählte Element passt der Optimierer die entsprechende Einstellung auf der Registerkarte '@mainwindow.tabs.lenssettings@' an.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> Wenn ausgewählt, wird der Bildwinkel (oder die Brennweite) optimiert. Bei 360° -Panoramen sollte dies immer aktiviert sein. Beim Erstellen eines Teilpanoramas aus Bildern, die mit einer langen Brennweite aufgenommen wurden, enthalten die Bilder keinen Hinweis darauf, aus dem der Optimierer die exakte Brennweite bestimmen kann. In diesem Fall können Sie die Brennweite auf einen voreingestellten Wert festlegen und die Optimierung deaktivieren. Außerdem können Bilder mit Parallaxenfehlern auf einen falschen Brennweitenwert optimiert werden. Dies können Sie verhindern, indem Sie die Brennweitenoptimierung deaktivieren.<br><br><b>a/b/c:</b> Wenn ausgewählt, wird die Objektivverzerrungskorrektur optimiert. Dies können Sie deaktivieren, wenn Sie vorkalibrierte Objektivdaten verwenden. In der Regel sollten Sie a, b und c optimieren, um eine möglichst genaue Schnittkante zu erhalten.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> Wenn ausgewählt, wird der Parameter '@mainwindow.imageparameters.fisheyefactor@' auf der Registerkarte '@mainwindow.tabs.lenssettings@' optimiert (gilt nur bei Verwendung eines Fischaugenobjektivs). In der Regel sollte dieser Wert nicht optimiert werden. PTGui stellt den Fischaugenfaktor auf einen voreingestellten Wert basierend auf dem in den EXIF-Daten erkannten Objektiv ein. Wenn Sie jedoch die Optimierung dieses Parameters aktivieren möchten, müssen Rückwirkungen durch die Objektivverzerrungskorrektur vermieden werden. Setzen Sie daher a, b und c auf der Registerkarte '@mainwindow.tabs.lenssettings@' auf 0 zurück, bevor Sie den Fischaugenfaktor optimieren. Entweder a/b/c oder der Fischaugenfaktor können optimiert werden, nicht beide gleichzeitig, da sie sich gegenseitig ausschließen.<br><br><b>@mainwindow.imageparameters.longshift@/@mainwindow.imageparameters.shortshift@:</b> Wenn ausgewählt, optimieren Sie die Objektivverschiebungsparameter. In den meisten Fällen sollte dies aktiviert sein. Nur bei Bildern mit starkerm Parallaxenfehler kann die Shift-Optimierung deaktiviert werden, um eine Überanpassung zu verhindern.<br><br><b>@+shear@:</b> Wenn ausgewählt, wird die @shear@ optimiert. Bilder von einer Digitalkamera weisen keine @shear@-Verzerrung auf. Dies sollte nur für Bilder von Schlitz-Scannerkameras oder Flachbettscannern verwendet werden. Nur die horizontale oder vertikale @shear@ sollte optimiert werden, nicht beide gleichzeitig.<br><br>Wenn Sie mehrere Objektivprofile auf der Registerkarte '@mainwindow.tabs.lenssettings@' erstellt haben, können Sie die Optimierung für jedes Objektivprofil separat steuern."
 		},
 		{
 			"id": "optimizertab.optimizeperimage",
@@ -6998,7 +6998,7 @@
 		},
 		{
 			"id": "exposurehdrtab.vignettinggraph",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Vignettierungskurve",
 			"morehelptext": "<br><br>Die Kurve zeigt die erfasste Vignettierungskurve des Objektivs. Die linke Seite des Diagramms entspricht der Mitte des Objektivs, die rechte Seite entspricht den Bildecken. In der Regel fällt die Lichtmenge zu den Ecken hin ab, so dass die Kurve nach rechts abfällt.<br><br>PTGui wendet die inverse Korrektur an, um den Lichtabfall auszugleichen."
 		},
@@ -7087,7 +7087,7 @@
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wenn ausgewählt, wird die oben konfigurierte Einstellung bei der Ausführung von '@alignimages@' vorausgewählt, aber die Bestätigung wird weiterhin abgefragt."
 		},
 		{
@@ -7109,14 +7109,14 @@
 		{
 			"id": "projectsettingstab.filenaming.projectfile",
 			"machinetranslated": false,
-			"helptext": "In diesem Abschnitt werden der Standardname und der Speicherort neuer Projektdateien festgelegt.",
+			"helptext": "In diesem Abschnitt werden der Standardname und der Standardspeicherort neuer Projektdateien festgelegt.",
 			"morehelptext": "<br><br>Dies bestimmt den standardmäßig vorgeschlagenen Dateinamen beim Speichern eines neuen Projekts. Auch der Batch-Builder verwendet diese Benennung beim Speichern der generierten Projekte.<br><br>Wenn der resultierende Dateiname bereits existiert, wird automatisch eine Zahl in Klammern angehängt, z.B.: Panorama (1) .pts"
 		},
 		{
 			"id": "projectsettingstab.filenaming.outputfile",
 			"machinetranslated": false,
-			"helptext": "In diesem Abschnitt werden der Standardname und der Standardname der fertigen Panoramabilddatei festgelegt.",
-			"morehelptext": "<br><br>Den Name der Ausgabedatei können Sie auf der Registerkarte '@mainwindow.tabs.createpanorama@' unter Ausgabedatei überschrieben, ansonsten wird der hier konfigurierte Standardwert verwendet.<br><br>Geben Sie einen Dateinamen ohne Erweiterung ein. Die Erweiterung (z.B. .jpg) wird automatisch basierend auf dem im '@mainwindow.tabs.createpanorama@'-Tab ausgewählten Ausgabedateiformat angehängt."
+			"helptext": "In diesem Abschnitt werden der Standardname und der Standardspeicherort der fertigen Panoramabilddatei festgelegt.",
+			"morehelptext": "<br><br>Den Name der Ausgabedatei können Sie auf der Registerkarte '@mainwindow.tabs.createpanorama@' unter Ausgabedatei überschreiben, ansonsten wird der hier konfigurierte Standardwert verwendet.<br><br>Geben Sie einen Dateinamen ohne Erweiterung ein. Die Erweiterung (z.B. .jpg) wird automatisch basierend auf dem auf der Registerkarte '@mainwindow.tabs.createpanorama@' ausgewählten Ausgabedateiformat angehängt."
 		},
 		{
 			"id": "projectsettingstab.filenaming.relativesourceimagepaths",
@@ -7158,7 +7158,7 @@
 			"id": "projectsettingstab.templatebehavior.linkimages",
 			"machinetranslated": false,
 			"helptext": "Legt fest, ob und wie die Verknüpfung von Bildern beim Anwenden dieses Projekts als Vorlage beeinflusst wird.",
-			"morehelptext": "<br><br>Bei HDR-Panoramen können die Bilder von Belichtungsreihen verknüpft werden. Bei verknüpften Bildern werden die gleichen Bildparameter erzwungen, so dass sie effektiv als einzelnes Bild behandelt werden. Beim Anwenden einer Vorlage ist es möglich, dass die Bilder der Belichtungsreihen im Zielprojekt noch nicht verknüpft sind oder dass das Zielprojekt im Vergleich zum Vorlagenprojekt eine andere Anzahl von Belichtungsreihen hat.<br><br>Daher kann PTGui Pro die Verknüpfung von Bildern beim Anwenden einer Vorlage ändern. Diese Einstellung wirkt sich auch auf den Batch-Builder aus. Beim Generieren von Projektdateien werden Bilder entsprechend dieser Einstellung verknüpft.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b> Die Bilder im Zielprojekt werden genau wie im Vorlagenprojekt verknüpft (d.h. die Bilder im Zielprojekt haben die gleiche Anzahl von Belichtungsreihen).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b> Erkennung von Belichtungsreihen durch Suche nach sich wiederholenden Sequenzen in den Belichtungsparametern der Quellbilder. Dies führt die Funktion '@menubar.images@' | '@menubar.images.linkbracketed@' aus.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b> Das Zielprojekt wird so beibehalten, wie es ist.<br><br>Nach dem die Bilder verknüpft sind, werden die Einstellungen der Vorlage für jede verknüpfte Gruppe von Bildern auf das Zielprojekt angewendet. Die Anzahl der Bilder in den Belichtungsreihen kann im Vorlagen- und Zielprojekt unterschiedlich sein."
+			"morehelptext": "<br><br>Bei HDR-Panoramen können die Bilder von Belichtungsreihen verknüpft werden. Bei verknüpften Bildern werden die gleichen Bildparameter erzwungen, so dass sie effektiv als einzelnes Bild behandelt werden. Beim Anwenden einer Vorlage ist es möglich, dass die Bilder der Belichtungsreihen im Zielprojekt noch nicht verknüpft sind oder dass das Zielprojekt im Vergleich zum Vorlagenprojekt eine andere Anzahl von Belichtungsreihen hat.<br><br>Daher kann PTGui Pro die Verknüpfung von Bildern beim Anwenden einer Vorlage ändern. Diese Einstellung wirkt sich auch auf den Batch-Builder aus. Beim Generieren von Projektdateien werden Bilder entsprechend dieser Einstellung verknüpft.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b> Die Bilder im Zielprojekt werden genau wie im Vorlagenprojekt verknüpft (d.h. die Bilder im Zielprojekt haben die gleiche Anzahl von Belichtungsreihen).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b> Erkennung von Belichtungsreihen durch Suche nach sich wiederholenden Sequenzen in den Belichtungsparametern der Quellbilder. Dies führt die Funktion '@menubar.images@' | '@menubar.images.linkbracketed@' aus.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b> Das Zielprojekt wird so beibehalten, wie es ist.<br><br>Nachdem die Bilder verknüpft sind, werden die Einstellungen der Vorlage für jede verknüpfte Gruppe von Bildern auf das Zielprojekt angewendet. Die Anzahl der Bilder in den Belichtungsreihen kann im Vorlagen- und Zielprojekt unterschiedlich sein."
 		},
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
@@ -7187,7 +7187,7 @@
 			"id": "projectsettingstab.misc.supportduallenscameras",
 			"machinetranslated": false,
 			"helptext": "Legt die Unterstützung für 360°-One-Shot-Kameras fest",
-			"morehelptext": "<br><br>Es gibt mehrere Arten von 360°-One-Shot-Panoramakameras, die eine einzige Bilddatei mit zwei kreisförmigen Fischaugenbildern nebeneinander erzeugen. Zum Erstellen müsste jede Hälfte des Bildes als separates Quellbild in das Projekt geladen werden.<br><br>Wenn diese Option ausgewählt ist und wenn PTGui erkennt, dass dem Projekt eine Datei mit zwei Fischaugenbildern hinzugefügt wurde, wird dieselbe Bilddatei zweimal geladen. Jede der zwei Kopien hat individuelle Masken und Beschneidungskreise, um die jeweiligen Teile aus dem kombinierten Bild zu extrahieren. Die Kopien werden bei -90° und + 90° @yaw@ positioniert.<br><br>Der Batch-Builder unterstützt das gleiche Verhalten.<br><br>Eine Feinabstimmung ist noch notwendig. Aufgrund von Fertigungstoleranzen gibt es kleine Unterschiede zwischen einzelnen Kameras des gleichen Typs, was zu leicht unterschiedlichen Offsets der Bildkreise führt. Sie können für jede einzelne Kamera eine Vorlage erstellen, indem Sie ein Foto aufnehmen (außen, ohne Objekte in der Nähe der Kamera), Kontrollpunkte hinzugefügen und optimieren. Dann führen Sie '@menubar.file@' | '@menubar.file.saveastemplate@' aus. Diese Vorlage verwenden Sie bei '@menubar.file@' | '@menubar.file.applytemplate@' oder im Batch-Builder."
+			"morehelptext": "<br><br>Es gibt mehrere Arten von 360°-One-Shot-Panoramakameras, die eine einzige Bilddatei mit zwei kreisförmigen Fischaugenbildern nebeneinander erzeugen. Zum Erstellen müsste jede Hälfte des Bildes als separates Quellbild in das Projekt geladen werden.<br><br>Wenn diese Option ausgewählt ist und wenn PTGui erkennt, dass dem Projekt eine Datei mit zwei Fischaugenbildern hinzugefügt wurde, wird dieselbe Bilddatei zweimal geladen. Jede der zwei Kopien hat individuelle Masken und Beschneidungskreise, um die jeweiligen Teile aus dem kombinierten Bild zu extrahieren. Die Kopien werden bei -90° und + 90° @yaw@ positioniert.<br><br>Der Batch-Builder unterstützt das gleiche Verhalten.<br><br>Eine Feinabstimmung ist noch notwendig. Aufgrund von Fertigungstoleranzen gibt es kleine Unterschiede zwischen einzelnen Kameras des gleichen Typs, was zu leicht unterschiedlichen Offsets der Bildkreise führt. Sie können für jede einzelne Kamera eine Vorlage erstellen, indem Sie ein Foto aufnehmen (außen, ohne Objekte in der Nähe der Kamera), Kontrollpunkte hinzugefügen und optimieren. Dann führen Sie '@menubar.file@' | '@menubar.file.saveastemplate@' aus. Diese Vorlage verwenden Sie mit '@menubar.file@' | '@menubar.file.applytemplate@' oder im Batch-Builder."
 		},
 		{
 			"id": "projectsettingstab.misc.switchtoequirectforwideanglesourceimages",
@@ -7219,7 +7219,7 @@
 			"id": "metadatatab.latlon",
 			"machinetranslated": false,
 			"helptext": "Die GPS-Koordinaten, an denen dieses Panorama aufgenommen wurde.",
-			"morehelptext": "<br><br>Eine Position geben Sie als Kombination von Breiten- und Längengrad an, beide von einem Komma getrennt. Negative Koordinaten werden für die südliche Hemisphäre und für östliche Längen verwendet. Alle gängigen Koordinatenformate werden unterstützt: Koordinaten können in Grad, Grad und Minuten oder als Grad, Minuten und Sekunden eingegeben werden. Ein Punkt (.) dient als Dezimaltrennzeichen. Die Symbole ° '&quot; sind die Trennzeichen für Grad, Minuten und Sekunden.<br><br>Zum Beispiel sind die folgenden Koordinaten gültig und beziehen sich alle auf den gleichen Ort:<br><br>40,78, -73,96715<br>40,78°, -73,96715°<br>40° 46,8 ', -73° 58,829'<br>40° 46'48 &quot;, -73° 58'01&quot;<br><br>Koordinaten zu erhalten Sie z.B. auf <a href=\"https://maps.google.com/\">Google Maps</a> und dort auf einen Ort klicken."
+			"morehelptext": "<br><br>Eine Position geben Sie als Kombination von Breiten- und Längengrad an, beide von einem Komma getrennt. Negative Koordinaten werden für die südliche Hemisphäre und für östliche Längen verwendet. Alle gängigen Koordinatenformate werden unterstützt: Koordinaten können in Grad, Grad und Minuten oder in Grad, Minuten und Sekunden eingegeben werden.Ein Punkt (.) dient als Dezimaltrennzeichen. Die Symbole ° '&quot; sind die Trennzeichen für Grad, Minuten und Sekunden.<br><br>Zum Beispiel sind die folgenden Koordinaten gültig und beziehen sich alle auf den gleichen Ort:<br><br>40,78, -73,96715<br>40,78°, -73,96715°<br>40° 46,8 ', -73° 58,829'<br>40° 46'48 &quot;, -73° 58'01&quot;<br><br>Koordinaten zu erhalten Sie z.B. auf <a href=\"https://maps.google.com/\">Google Maps</a> und dort auf einen Ort klicken."
 		},
 		{
 			"id": "metadatatab.useorientationofsourceimages",
@@ -7228,7 +7228,7 @@
 		},
 		{
 			"id": "metadatatab.imagedirection",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kompasswinkel, der auf die Mitte des Panoramas zeigt. 0° ist Norden, 90° ist Osten, 180° ist Süden, -90° ist Westen."
 		},
 		{
@@ -7239,7 +7239,7 @@
 		},
 		{
 			"id": "createpanoramatab.widthheight",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Größe des fertigen Panoramas (in Pixel)"
 		},
 		{
@@ -7267,7 +7267,7 @@
 		},
 		{
 			"id": "createpanoramatab.hdrfileformat",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Dateiformat für die HDR-Ausgabe.",
 			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikumfang der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32-Bit Gleitkomma pro Kanal mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF, 32-Bit Gleitkomma pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei ausgeben, die das überblendete HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. In der Regel ist das .psb-Format die bessere Wahl, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann die Bilder mit 16-Bit und 32-Bit Gleitkommazahlen pro Kanal erstellen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist der Industriestandard für HDR-Bilder.<br><br><b>HDR Radiance:</b> Ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot/Grün/Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann einige gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
 		},
@@ -7289,7 +7289,7 @@
 		},
 		{
 			"id": "createpanoramatab.outputfilebrowse",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Das Fenster '@txt.savepanorama@' öffnen, um den Name einer Ausgabedatei auszuwählen."
 		},
 		{
@@ -7409,7 +7409,7 @@
 		},
 		{
 			"id": "panoeditor.toolbar.editpano",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Panorama bearbeiten",
 			"helptext": "Verwenden Sie diesen Modus, um das Panorama als Ganzes zu verschieben oder zu drehen.",
 			"morehelptext": "<br><br>Ziehen Sie mit der linken Maustaste, um das gesamte Panorama zu verschieben. Ziehen Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Ziehen)</optional> um das gesamte Panorama um seine Mitte zu drehen.<br><br>PTGui führt diese Änderungen durch, indem die @yaw@-, @pitch@- und @roll@ aller Bilder zusammen geändert werden."
@@ -7440,7 +7440,7 @@
 		},
 		{
 			"id": "panoeditor.toolbar.rectilinear",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"label": "Rectilineare Projektion",
 			"helptext": "Zur rectilinearen Projektion wechseln. In der rectilinearen Projektion bleiben gerade Linien gerade, aber sie ist nur für schmale Panoramen geeignet."
 		},
@@ -7599,7 +7599,7 @@
 		},
 		{
 			"id": "tonemapsettings.boostshadows",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Die maximale Erhöhung der Helligkeit, die angewendet wird. Vorsicht, wenn Sie die Schatten verstärken, wird auch das Bildrauschen verstärkt."
 		},
 		{
@@ -7629,7 +7629,7 @@
 		},
 		{
 			"id": "exposurefusionsettings.brightness",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Legt die Gesamthelligkeit des resultierenden Bildes fest. 0 ist schwarz, 1 ist weiß."
 		},
 		{
@@ -7664,7 +7664,7 @@
 		},
 		{
 			"id": "projectionpanel.projection",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Legt die Projektion für das Panorama fest.",
 			"morehelptext": "<br><br>Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
@@ -7682,7 +7682,7 @@
 		},
 		{
 			"id": "projectionpanel.compression",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Kompression der Projektion",
 			"morehelptext": "<br><br>Siehe <a href='helppage:projections'>Projektionen</a>"
 		},
@@ -7917,12 +7917,12 @@
 		},
 		{
 			"id": "converttocubic.fileformat",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Legt das Dateiformat der zu erstellenden Bilder fest"
 		},
 		{
 			"id": "converttocubic.cubefacenames",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Dateinamen-Suffixe für die 6 Würfelflächen konfigurieren."
 		},
 		{
@@ -7942,7 +7942,7 @@
 		},
 		{
 			"id": "converttocubicsettings.windowsize",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Die anfängliche Größe (in Pixeln), mit der das QuickTime-Player-Fenster auf dem Bildschirm angezeigt wird, wenn die QTVR .mov-Datei zum ersten Mal geöffnet wird. Der Benutzer kann die Größe des Fensters nachträglich ändern."
 		},
 		{
@@ -7997,7 +7997,7 @@
 			"id": "batchbuilder.alignimages",
 			"machinetranslated": false,
 			"helptext": "Legen Sie fest, ob der Batch-Stitcher die Bilder vor dem Erstellen analysieren und ausrichten soll.",
-			"morehelptext": "<br><br>Dies entspricht standardmäßig der Einstellung unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@' im Vorlagenprojekt. Da dies häufig zu Verwirrung führt, wird diese Einstellung hier wiederholt, kann aber überschrieben werden.<br><br>Den Batch-Stitcher können Sie so konfigurieren, dass vor dem Erstellen des Panoramas '@alignimages@' ausgeführt wird. Wenn ausgewählt, analysiert der Batch-Stitcher zuerst die Bilder, generiert Kontrollpunkte, optimiert das Projekt usw. Die einzelnen Schritte konfigurieren Sie in der Vorlage unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.alignimagesbehavior@'. Nach dem Ausrichten wird die aktualisierte Projektdatei auf dem Datenträger gespeichert.<br><br>Wenn diese Option nicht ausgewählt ist, wird das Projekt genau nach Vorlage erstellt, was bedeutet, die Vorlage sollte korrekt ausgerichtete Bilder enthalten.<br><br>Im Wesentlichen gibt es zwei verschiedene Anwendungsfälle für den Batch-Builder:<br><br>1. Um viele Panoramen mit den gleichen Einstellungen zu versehen, ohne Kontrollpunkte zu erzeugen. Dies können Sie zum Beispiel bei Multi-Kamera-Rigs verwenden, bei denen garantiert ist, dass alle Panoramen die gleiche Bildausrichtung haben. In diesem Fall muss '@alignimages@' übersprungen werden.<br><br>2. Oder um automatisch mehrere Panoramen zu erstellen, indem Sie einfach PTGui auf einen Ordner mit Bildern zeigen. Die Bilder werden z.B. aufgenommen, indem die Kamera auf einem Panorama-Stativkopf gedreht wird. In diesem Fall sind die Bildpositionen in den einzelnen Panoramen in der Regel leicht unterschiedlich. Selbst wenn der Panoramakopf Klick-Stopps hat, führen mechanische Toleranzen zu kleinen Abweichungen in der Bildausrichtung in jedem Panorama. Um dies auszugleichen, sollte PTGui die Bilder für jedes Panorama analysieren und Kontrollpunkte generieren, so dass '@alignimages@' vor dem Erstellen ausgeführt werden muss."
+			"morehelptext": "<br><br>Dies entspricht standardmäßig der Einstellung unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@' im Vorlagenprojekt. Da dies häufig zu Verwirrung führt, wird diese Einstellung hier wiederholt und kann auch hier verändert werden.<br><br>Den Batch-Stitcher können Sie so konfigurieren, dass vor dem Erstellen des Panoramas '@alignimages@' ausgeführt wird. Wenn ausgewählt, analysiert der Batch-Stitcher zuerst die Bilder, generiert Kontrollpunkte, optimiert das Projekt usw. Die einzelnen Schritte konfigurieren Sie in der Vorlage unter '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.alignimagesbehavior@'. Nach dem Ausrichten wird die aktualisierte Projektdatei auf dem Datenträger gespeichert.<br><br>Wenn diese Option nicht ausgewählt ist, wird das Projekt genau nach Vorlage erstellt, was bedeutet, die Vorlage sollte korrekt ausgerichtete Bilder enthalten.<br><br>Im Wesentlichen gibt es zwei verschiedene Anwendungsfälle für den Batch-Builder:<br><br>1. Um viele Panoramen mit den gleichen Einstellungen zu versehen, ohne Kontrollpunkte zu erzeugen. Dies können Sie zum Beispiel bei Multi-Kamera-Rigs verwenden, bei denen garantiert ist, dass alle Panoramen die gleiche Bildausrichtung haben. In diesem Fall muss '@alignimages@' übersprungen werden.<br><br>2. Oder um automatisch mehrere Panoramen zu erstellen, indem Sie einfach PTGui auf einen Ordner mit Bildern zeigen. Die Bilder werden z.B. aufgenommen, indem die Kamera auf einem Panorama-Stativkopf gedreht wird. In diesem Fall sind die Bildpositionen in den einzelnen Panoramen in der Regel leicht unterschiedlich. Selbst wenn der Panoramakopf Klick-Stopps hat, führen mechanische Toleranzen zu kleinen Abweichungen in der Bildausrichtung in jedem Panorama. Um dies auszugleichen, sollte PTGui die Bilder für jedes Panorama analysieren und Kontrollpunkte generieren, so dass '@alignimages@' vor dem Erstellen ausgeführt werden muss."
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
@@ -8318,7 +8318,7 @@
 		},
 		{
 			"id": "sensorsizedialog.preset",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wenn Sie die Größe des Kamerasensors nicht kennen, wählen Sie das am besten passende Element aus dieser Liste aus."
 		},
 		{
@@ -8536,7 +8536,7 @@
 		},
 		{
 			"id": "options.advanced.gpuacceleration.device",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Wenn Ihr Computer über mehrere GPUs verfügt, wählen Sie das Gerät aus, das verwendet werden soll."
 		},
 		{
@@ -8637,12 +8637,12 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Überlappende Bilder analysieren und Schnittkanten so platzieren, dass sie am wenigsten auffallen."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blending",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Farbe und Helligkeit an jeder Seite der Schnittkante ausgleichen, um den Bildübergang unsichtbar zu machen."
 		},
 		{
@@ -8706,7 +8706,7 @@
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Der Farbraum der Quellbilder kann nicht verwendet werden, da die Quellbilder keine identischen Farbprofile haben. Wählen Sie das gewünschte Ausgabefarbprofil in der obigen Liste."
 		},
 		{
@@ -8864,9 +8864,9 @@
 		},
 		{
 			"id": "proxysettings.proxyserverurl",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "Adresse, Protokoll und Port des Proxyservers",
-			"morehelptext": "<br><br>Geben Sie die URL des Proxyservers ein, einschließlich des Protokolls und der Portnummer. Zum Beispiel:<br><br><b>http://proxy.example.com:8888</b> (HTTP-Proxy)<br><b>socks5://proxy.example.com:1080</b> (SOCKS-Proxy)<br><br>Der Proxyserver sollte so konfiguriert sein, dass HTTPS CONNECT zulässig ist. Lassen Sie dieses Feld leer, wenn der Computer ohne Proxyserver eine Verbindung zum Internet herstellen kann."
+			"morehelptext": "<br><br>Geben Sie die URL des Proxyservers ein, einschließlich des Protokolls und der Portnummer. Zum Beispiel:<br><br><b>http://proxy.beispiel.de:8888</b> (HTTP-Proxy)<br><b>socks5://proxy.beispiel.de:1080</b> (SOCKS-Proxy)<br><br>Der Proxyserver sollte so konfiguriert sein, dass HTTPS CONNECT zugelassen ist. Lassen Sie dieses Feld leer, wenn der Computer ohne Proxyserver eine Verbindung zum Internet herstellen kann."
 		},
 		{
 			"id": "proxysettings.proxyserverusername",
@@ -8941,7 +8941,7 @@
 		{
 			"id": "mainwindow.sourceimagestab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.sourceimages@</b><br><br>Auf dieser Seite wählen Sie die Quellbilder für ein Panorama aus, löschen Bilder oder ordnen sie neu an. Sie wählen ein oder mehrere Bilder aus, indem Sie die Maus über die Bilder ziehen oder klicken Sie bei gedrückter Umschalttaste auf ein Bild, um eine Reihe von Bildern auszuwählen. Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü. Mit der Entf-Taste entfernen Sie ausgewählte Bilder. Dadurch werden nur die Bilder aus dem Projekt entfernt, die Bilddateien auf dem Datenträger werden nicht gelöscht.<br><br>Mit Drag  &amp; Drop ordnen Sie die Bilder neu. Wählen Sie zuerst ein oder mehrere Quellbilder aus. Klicken Sie dann auf den linken Rand (mit den Bildnummern), halten Sie die Maustaste gedrückt und ziehen Sie die Bilder nach oben oder unten zur gewünschten Position.<br><br>Weitere Bilder fügen Sie mit '@menubar.images@' | '@addimages@' hinzu oder ziehen Sie die Dateien per Drag &amp; Drop in das PTGui-Fenster. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verknüpfen. Bei verknüpften Bildern werden @yaw@, @pitch@, @roll@ und andere Parameter auf den jeweils gleichen Wert gesetzt, damit sie sich exakt überlappen. Verknüpfte Belichtungsreihen werden als Einzelbild angezeigt und auch so behandelt. Mehrere Bilder verknüpfen Sie über das Kontextmenü (Rechtsklick) oder mit '@menubar.images@' | '@menubar.images.linkbracketed@'.</optional>"
+			"helptext": "<b>@mainwindow.tabs.sourceimages@</b><br><br>Auf dieser Seite wählen Sie die Quellbilder für ein Panorama aus, löschen Bilder oder ordnen sie neu an. Sie wählen ein oder mehrere Bilder aus, indem Sie die Maus über die Bilder ziehen oder klicken Sie bei gedrückter Umschalttaste auf ein Bild, um eine Reihe von Bildern auszuwählen. Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü. Mit der Entf-Taste entfernen Sie ausgewählte Bilder. Dadurch werden nur die Bilder aus dem Projekt entfernt, die Bilddateien auf dem Datenträger werden nicht gelöscht.<br><br>Mit Drag  &amp; Drop ordnen Sie die Bilder neu. Wählen Sie zuerst ein oder mehrere Quellbilder aus. Klicken Sie dann auf den linken Rand (mit den Bildnummern), halten Sie die Maustaste gedrückt und ziehen Sie die Bilder nach oben oder unten zur gewünschten Position.<br><br>Weitere Bilder fügen Sie mit '@menubar.images@' | '@addimages@' hinzu oder ziehen Sie die Dateien per Drag &amp; Drop in das PTGui-Fenster. <optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui die Bilder von Belichtungsreihen verknüpfen. Bei verknüpften Bildern werden @yaw@, @pitch@, @roll@ und andere Parameter auf den jeweils gleichen Wert gesetzt, damit sie sich exakt überlappen. Verknüpfte Bilder werden als Einzelbild angezeigt und auch so behandelt. Mehrere Bilder verknüpfen Sie über das Kontextmenü (Rechtsklick) oder mit '@menubar.images@' | '@menubar.images.linkbracketed@'.</optional>"
 		},
 		{
 			"id": "mainwindow.lensparamstab",
@@ -8961,7 +8961,7 @@
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": false,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der Sie die Parameter jedes Bildes bearbeiten können. In der Regel müssen hier keine Einstellungen verändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Einen Parameter können Sie für mehrere Bilder gleichzeitig ändern. Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in alle ausgewählten Zellen übernommen wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des Quellbilds an.<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzerrtes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ und @roll@:</b> Gibt die Blickrichtung an, in der ein Bild aufgenommen wurde und damit die Position des Bildes im endgültigen Panorama. '@+yaw@' ist die Drehung der Kamera in der horizontalen Ebene, '@+pitch@' entspricht dem Kippwinkel nach oben/unten und '@+roll@' ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Blende und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus den EXIF-Daten der Bilddatei gelesen, Sie können sie jedoch durch andere Werte überschrieben. Mit diesen Werten wird die Spalte '@mainwindow.imageparameters.ev@' berechnet, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit einem @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei erreicht werden. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht bearbeitet werden. Der Wert wird zum Erstellen von HDR-Panoramen verwendet. PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und erstellt aus jeder Gruppe ein vollständiges Panorama. Diese Zwischenpanoramen, so genannte 'Belichtungsebenen', werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Dient zur Korrektur der Helligkeit eines Bildes. Wenn Sie z.B. einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Er wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> Legt die 'Wichtigkeit' eines Bildes für den Überblendalgorithmus fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendradius. Wenn ein Bild eine sehr niedrige Überblendpriorität hat (z.B. 0,001), verwendet der Überblendalgorithmus nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Überblenden der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Überblendpriorität ist ein relativer Wert. Beim Überblenden vergleicht der Überblendalgorithmus die Überblendprioritäten der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Die Überblendpriorität ist besonders für Nadiraufnahmen nützlich. Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen @mainwindow.imageparameters.blendpriority@ für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Überblendpriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Standpunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben. Die tatsächlichen Werte werden vom Optimierer ermittelt, wenn '@+viewpoint@' für die Optimierung auf der Registerkarte '@mainwindow.tabs.optimizer@' ausgewählt ist. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Standpunktkorrektur zurückzusetzen. Die Korrektur des Standpunktversatzes funktioniert nur bei Aufnahmen von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle.<br><br>@mainwindow.imageparamstab.helptext2@<optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui Belichtungsreihen verknüpfen. Verknüpfte Bilder werden in dieser Tabelle entweder in einer einzelnen Zeile angezeigt oder die Liste kann mithilfe der kleinen Dreiecke erweitert werden, um die einzelnen Bilder in jedem verknüpften Satz anzuzeigen.</optional><br><br>Verwenden Sie die '@fillyaw@'-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360°-Panorama aus 10 Bildern würden die @yaw@-Werte mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Diese Seite enthält eine Tabelle, in der Sie die Parameter jedes Bildes bearbeiten können. In der Regel müssen hier keine Einstellungen verändert werden, diese Parameter werden normalerweise vom Optimierer festgelegt.<br><br>Einen Parameter können Sie für mehrere Bilder gleichzeitig ändern. Wählen Sie die Zellen durch Ziehen mit der Maus aus. Geben Sie dann den gewünschten Wert ein, der in alle ausgewählten Zellen übernommen wird.<br><br><b>@mainwindow.imageparameters.image@:</b> Zeigt ein Miniaturbild des Quellbilds an.<br><br><b>@mainwindow.imageparameters.warped@:</b> Dies ist ein verzerrtes Miniaturbild, das zeigt, wie das Bild im endgültigen Panorama aussehen wird. Die Miniaturbilder werden in Echtzeit aktualisiert.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@ und @roll@:</b> Gibt die Blickrichtung an, in der ein Bild aufgenommen wurde und damit die Position des Bildes im endgültigen Panorama. '@+yaw@' ist die Drehung der Kamera in der horizontalen Ebene, '@+pitch@' entspricht dem Kippwinkel nach oben/unten und '@+roll@' ist die Drehung der Kamera um die Objektivachse. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> Belichtungszeit, Blende und ISO-Empfindlichkeit. Standardmäßig werden diese Werte aus den EXIF-Daten der Bilddatei gelesen, Sie können sie jedoch durch andere Werte überschrieben. Mit diesen Werten wird die Spalte '@mainwindow.imageparameters.ev@' berechnet, die für HDR-Panoramen verwendet wird.<br><br><b>@mainwindow.imageparameters.ev@:</b> Der Belichtungswert der Bilder. Dieser Wert gibt die Menge des aufgenommenen Lichts relativ zu den anderen Bildern an. Ein @mainwindow.imageparameters.ev@-Wert von +1 zeigt an, dass im Vergleich zu einem Bild mit einem @mainwindow.imageparameters.ev@ von 0 doppelt so viel Licht erfasst wurde. Dies könnte durch Verdoppelung der Belichtungszeit, Verdopplung der ISO-Empfindlichkeit, Verringerung des Blendenwerts um den Faktor 1,4 oder durch eine Kombination dieser drei erreicht werden. Die Spalte @mainwindow.imageparameters.ev@ wird aus den Werten in den Spalten @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ und @mainwindow.imageparameters.iso@ berechnet und kann nicht bearbeitet werden. Der Wert wird zum Erstellen von HDR-Panoramen verwendet. PTGui trennt die Bilder in Gruppen mit identischen @mainwindow.imageparameters.ev@-Werten und erstellt aus jeder Gruppe ein vollständiges Panorama. Diese Zwischenpanoramen, so genannte 'Belichtungsebenen', werden dann zu einem HDR-Panorama zusammengefügt.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> Dient zur Korrektur der Helligkeit eines Bildes. Wenn Sie z.B. einen Wert von -1 eingeben, verdunkelt sich das Bild um 1 Belichtungswert (was einer Helligkeitsreduktion um einen Faktor 2 entspricht). Diese Spalte wird automatisch angepasst, wenn die Belichtungsoptimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.flare@:</b> Ein positiver Wert in diesem Feld entfernt @lensflare@ durch Erhöhung des Kontrasts aus dem Bild. Er wird automatisch angepasst, wenn die @flare@-Optimierung auf der Registerkarte '@mainwindow.tabs.exposurehdr@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> Legt die 'Wichtigkeit' eines Bildes für den Überblendalgorithmus fest. Beim Überblenden haben Bilder mit einer hohen Überblendung Vorrang vor Bildern mit einem niedrigen Überblendradius. Wenn ein Bild eine sehr niedrige Überblendpriorität hat (z.B. 0,001), verwendet der Überblendalgorithmus nur die Teile des Bildes, die notwendig sind, um Lücken zu füllen, die nach dem Überblenden der anderen Bilder verbleiben würden. Wenn Sie die Priorität der Überblendung etwas erhöhen, wird eine sanftere Überlappung erzielt, während immer noch nur ein kleiner Teil des Bildes verwendet wird. Die Überblendpriorität ist ein relativer Wert. Beim Überblenden vergleicht der Überblendalgorithmus die Überblendprioritäten der Bilder und gibt dem Bild mit dem höchsten Wert Priorität. Der absolute Wert spielt keine Rolle. Die Überblendpriorität ist besonders für Nadiraufnahmen nützlich. Ein Nadirbild in einem sphärischen Panorama ist typischerweise schlecht ausgerichtet und die Füße des Fotografen können im Bild sichtbar sein. Die Verwendung einer niedrigen @mainwindow.imageparameters.blendpriority@ für das Nadir-Bild stellt sicher, dass nur der mittlere Teil des Bildes verwendet wird. Verwenden Sie für das Nadirbild eine Überblendpriorität von 10 und für die anderen Bilder 100.<br><br><b>@mainwindow.imageparameters.vpprefix@-Parameter:</b> Diese 5 Parameter wenden eine Korrektur für den Standpunktversatz der Kameraposition eines Bildes relativ zur Kameraposition der anderen Bilder an. Es ist nicht notwendig, hier manuell Werte einzugeben. Die tatsächlichen Werte werden vom Optimierer ermittelt, wenn '@+viewpoint@' für die Optimierung auf der Registerkarte '@mainwindow.tabs.optimizer@' ausgewählt ist. Geben Sie für jeden @mainwindow.imageparameters.vpprefix@-Parameter den Wert 0 ein, um die Standpunktkorrektur zurückzusetzen. Die Korrektur des Standpunktversatzes funktioniert nur bei Aufnahmen von flachen Oberflächen. Der Prozess wird ausführlich im Viewpoint Correction-Tutorial erklärt (siehe PTGui-Website).</optional><br><br>Wenn Bilder für die Verwendung von individuellen Objektiv-, Verschiebung- oder @shear@-Parametern konfiguriert sind, erscheinen diese Werte auch in der Tabelle.<br><br>@mainwindow.imageparamstab.helptext2@<optional product='pro'><br><br>Bei HDR-Panoramen kann PTGui die Bilder von Belichtungsreihen verknüpfen. Verknüpfte Bilder werden in dieser Tabelle entweder in einer einzelnen Zeile angezeigt oder die Liste kann mithilfe der kleinen Dreiecke erweitert werden, um die einzelnen Bilder in jeder verknüpften Gruppe anzuzeigen.</optional><br><br>Verwenden Sie die '@fillyaw@'-Funktion (im Kontextmenü der rechten Maustaste), um die @yaw@-Winkel für eine Reihe von Bildern in konstanten Schritten zu initialisieren. Bei einem 360°-Panorama aus 10 Bildern würden die @yaw@-Werte mit dieser Funktion auf 0°, 36°, 72°, ... initialisiert werden."
 		},
 		{
 			"id": "mainwindow.optimizersettingstab",
@@ -9000,7 +9000,7 @@
 		},
 		{
 			"id": "cpassistant",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"helptext": "<b>@controlpointassistant@</b><br><br>Mit dem Kontrollpunkt-Assistenten diagnostizieren Sie Probleme bei der Platzierung von Kontrollpunkten. Er warnt vor:<br><br>• Bildern, die keine Kontrollpunkte haben<br><br>• Gruppen von Bildern, die zwar mit anderen Bildern durch Kontrollpunkte verbunden sind, aber nicht miteinander verbunden sind<br><br>• Bildern mit keinen oder zu wenigen Kontrollpunkten<br><br>• Paaren überlappender Bilder, für die keine Kontrollpunkte definiert sind"
 		},
 		{

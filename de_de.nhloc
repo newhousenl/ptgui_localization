@@ -1260,7 +1260,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.needoptimizemessage",
-			"txt": "Kontrollpunkte oder andere Einstellungen wurden geändert. Dies hat möglicherweise die Ausrichtung der Bilder beeinflusst. Sie sollten das Projekt zuerst optimieren. Der Optimierer richtet die Bilder so aus, dass die Kontrollpunkte so genau wie möglich übereinstimmen."
+			"txt": "Sie haben Kontrollpunkte oder andere Einstellungen geändert. Dies hat möglicherweise die Ausrichtung der Bilder beeinflusst. Daher sollten Sie das Projekt zuerst optimieren. Der Optimierer richtet die Bilder so aus, dass die Kontrollpunkte so genau wie möglich übereinanderliegen."
 		},
 		{
 			"id": "mainwindow.projectassistant.runoptimizer",
@@ -1286,7 +1286,7 @@
 		{
 			"id": "mainwindow.projectassistant.showpanoramaeditororcreatepanorama",
 			"format": "html",
-			"txt": "Sie können sich das Panorama im <a href=0>Panorama-Editor</a> in der Vorschau ansehen und optimieren oder das Panorama jetzt erstellen:"
+			"txt": "Überprüfen und optimieren Sie das Panorama im <a href=0>Panorama-Editor</a> oder erstellen Sie jetzt das Panorama:"
 		},
 		{
 			"id": "mainwindow.projectassistant.multiplelenses",
@@ -1324,7 +1324,7 @@
 		},
 		{
 			"id": "error.invalidnumber",
-			"txt": "Keine Nummer: %0"
+			"txt": "Keine Zahl: %0"
 		},
 		{
 			"id": "mainwindow.lensparams.lensprofile",
@@ -3407,7 +3407,7 @@
 		{
 			"id": "txt.optimizerresult",
 			"format": "html",
-			"txt": "Der Optimierer hat Ihr Panorama optimiert und die folgenden Ergebnisse zurückgegeben:<br><br>Durchschnittliche Kontrollpunktabstand: %0<br>Minimaler Kontrollpunktabstand: %1<br>Maximaler Kontrollpunktabstand: %2<br><br>(gemessen in Quellbildpixeln)<br><br>Dies ist %3<br><br>Möchten Sie die vom Optimierer vorgenommenen Änderungen akzeptieren?"
+			"txt": "Der Optimierer hat Ihr Panorama optimiert und liefert die folgenden Ergebnisse:<br><br>Durchschnittlicher Kontrollpunktabstand: %0<br>Minimaler Kontrollpunktabstand: %1<br>Maximaler Kontrollpunktabstand: %2<br><br>(gemessen in Quellbildpixeln)<br><br>Dies ist %3<br><br>Möchten Sie die vom Optimierer vorgenommenen Änderungen übernehmen?"
 		},
 		{
 			"id": "txt.optimizerresult.toogood",
@@ -3447,11 +3447,11 @@
 		},
 		{
 			"id": "txt.genericfisheye",
-			"txt": "generisches Fischaugenobjektiv"
+			"txt": "universales Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.genericxfisheye",
-			"txt": "generisches %0 Fischaugenobjektiv"
+			"txt": "universales %0 Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.runningx",
@@ -4727,7 +4727,7 @@
 		},
 		{
 			"id": "warn.alignimagesmissingcontrolpoints",
-			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle ausrichten. Sie müssen einige Kontrollpunkte hinzufügen, bevor das Panorama erstellt werden kann. Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen.\n\nDer Kontrollpunkt-Assistent gibt Ihnen detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte benötigen.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
+			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle Bilder ausrichten. Sie müssen einige Kontrollpunkte hinzufügen, bevor das Panorama erstellt werden kann. Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen.\n\nDer Kontrollpunkt-Assistent gibt Ihnen detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte benötigen.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
 		},
 		{
 			"id": "txt.dontaskthisagain",
@@ -4743,7 +4743,7 @@
 		},
 		{
 			"id": "warn.simplemodewillchangesettings",
-			"txt": "Einige der fortgeschrittenen Einstellungen dieses Projekts wurden geändert. Durch Zurückschalten in den einfachen Modus werden alle fortgeschrittenen Einstellungen auf ihre Standardwerte zurückgesetzt. Möchten Sie fortfahren?"
+			"txt": "Einige der Fortgeschrittenen-Einstellungen dieses Projekts wurden geändert. Mit dem Zurückschalten in den einfachen Modus werden alle Fortgeschrittenen-Einstellungen auf ihre Standardwerte zurückgesetzt. Möchten Sie fortfahren?"
 		},
 		{
 			"id": "warn.tempcopytobatchstitcherwillnotsavegeneratecps",
@@ -4795,7 +4795,7 @@
 		},
 		{
 			"id": "txt.foundimagesinsamefolder",
-			"txt": "PTGui hat im selben Ordner weitere %0 Bilder gefunden, die ungefähr zur gleichen Zeit aufgenommen wurden. Möchten Sie diese Bilder auch zu Ihrem Projekt hinzufügen?"
+			"txt": "PTGui hat im selben Ordner weitere %0 Bilder gefunden, die ungefähr zur gleichen Zeit aufgenommen wurden. Möchten Sie auch diese Bilder zu Ihrem Projekt hinzufügen?"
 		},
 		{
 			"id": "cubefacereconstructedpostfix",
@@ -4803,7 +4803,7 @@
 		},
 		{
 			"id": "err.couldnotloadimage",
-			"txt": "Bild konnte nicht geladen werden:"
+			"txt": "Das Bild konnte nicht geladen werden:"
 		},
 		{
 			"id": "err.notfoundaskforfolder1",
@@ -4827,7 +4827,7 @@
 		},
 		{
 			"id": "warn.imageshavebeenunlinked",
-			"txt": "Das Projekt enthält verknüpfte Bilder, aber nur Bilder mit identischer Größe können verknüpft werden. Bei einigen Bildern mußte die Verknüpfung entfernt werden, da die neuen Bilder eine unterschiedliche Größen haben."
+			"txt": "Das Projekt enthält verknüpfte Bilder, aber nur Bilder mit identischer Größe können verknüpft werden. Bei einigen Bildern mußte die Verknüpfung entfernt werden, da die neuen Bilder eine andere Größe haben."
 		},
 		{
 			"id": "warn.somereplacementimagesnotfound",
@@ -4911,7 +4911,7 @@
 		},
 		{
 			"id": "err.generatecphere.notfound",
-			"txt": "Es konnten keine Kontrollpunkte im ausgewählten Bereich gefunden werden."
+			"txt": "Im ausgewählten Bereich wurden keine Kontrollpunkte gefunden."
 		},
 		{
 			"id": "err.openclerroroccurred",
@@ -5572,12 +5572,12 @@
 		{
 			"id": "txt.genericrectilinearlens",
 			"machinetranslated": false,
-			"txt": "generisches rectilineares Objektiv"
+			"txt": "universales rectilineares Objektiv"
 		},
 		{
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
-			"txt": "generisches Fischaugenobjektiv"
+			"txt": "universales Fischaugenobjektiv"
 		},
 		{
 			"id": "options.gpuacceleration.crashwhileloadingopencldll",
@@ -6559,7 +6559,7 @@
 			"id": "projectassistant.images",
 			"machinetranslated": false,
 			"helptext": "Quellbilder für das Panorama",
-			"morehelptext": "<br><br>Um Quellbilder hinzuzufügen, zu entfernen oder neu anzuordnen, wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@'.<br><br>Mit einem roten Kreuz markierte Bilder sind vom Panorama ausgeschlossen. <optional product='pro'>Bei mit '@mainwindow.imageparameters.vpprefix@' gekennzeichneten Bildern ist die Standpunktkorrektur aktiviert.</optional> Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü, wo Sie diese Einstellungen ändern können.<br><br>Siehe auch <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
+			"morehelptext": "<br><br>Um Quellbilder hinzuzufügen, zu entfernen oder neu anzuordnen, wechseln Sie zur Registerkarte '@mainwindow.tabs.sourceimages@'.<br><br>Mit einem roten Kreuz markierte Bilder sind vom Panorama ausgeschlossen. <optional product='pro'>Bei mit '@mainwindow.imageparameters.vpprefix@' gekennzeichneten Bildern ist die Standpunktkorrektur aktiviert.</optional> Ein Rechtsklick <optional platform='mac'>(oder Strg + Klick)</optional> auf ein Bild öffnet das Kontextmenü, wo Sie diese Einstellungen vornehmen.<br><br>Siehe auch <a href='helppage:mainwindow.projectassistant'>@mainwindow.tabs.projectassistant@</a>"
 		},
 		{
 			"id": "projectassistant.rotateccw",

@@ -2241,12 +2241,12 @@
 		{
 			"id": "mainwindow.metadata.latlongtxt1",
 			"format": "html",
-			"txt": "Geben Sie den Längen- und Breitengrad getrennt durch ein Komma ein. Zum Beispiel: 40° 46'52.92&quot;, -73° 57'58.02&quot;<br>Auf <a href=\"https://maps.google.com/\">Google Maps</a> können Sie den Ort bestimmen und die Koordinaten hier eingeben."
+			"txt": "Geben Sie den Längen- und Breitengrad durch ein Komma getrennt ein. Zum Beispiel: 40° 46'52.92&quot;, -73° 57'58.02&quot;<br>Auf <a href=\"https://maps.google.com/\">Google Maps</a> können Sie die Position bestimmen und die Koordinaten hier eingeben."
 		},
 		{
 			"id": "mainwindow.metadata.nolatlonginexif",
 			"format": "html",
-			"txt": "In den EXIF-Daten ist keine Ortsangabe enthalten. Auf <a href=\"https://maps.google.com/\">Google Maps</a> können Sie den Ort bestimmen und die Koordinaten hier eingeben."
+			"txt": "In den EXIF-Daten ist keine Ortsangabe enthalten. Auf <a href=\"https://maps.google.com/\">Google Maps</a> können Sie die Position bestimmen und die Koordinaten hier eingeben."
 		},
 		{
 			"id": "mainwindow.metadata.viewonmap",
@@ -2606,7 +2606,7 @@
 		},
 		{
 			"id": "bracketedexposureswindow.nohdr",
-			"txt": "Dies ist kein HDR-Belichtungssatz. Den HDR-Modus nicht aktivieren."
+			"txt": "Dies sind keine HDR-Belichtungsreihen. Den HDR-Modus nicht aktivieren."
 		},
 		{
 			"id": "bracketedexposureswindow.hdrmethod",
@@ -3447,11 +3447,11 @@
 		},
 		{
 			"id": "txt.genericfisheye",
-			"txt": "universales Fischaugenobjektiv"
+			"txt": "universelles Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.genericxfisheye",
-			"txt": "universales %0 Fischaugenobjektiv"
+			"txt": "universelles %0 Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.runningx",
@@ -4851,11 +4851,11 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"txt": "Das Projekt scheint %0 Belichtungsreihen mit je %1 Bildern zu enthalten. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als ein einzelnes Bild behandeln?\n\nDazu müssen die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sein. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
+			"txt": "Das Projekt enthält %0 Belichtungsreihen mit je %1 Bildern. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als ein einzelnes Bild behandeln?\n\nDazu müssen die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sein. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
-			"txt": "Das Projekt scheint %0 Belichtungsreihen mit je %1 Bildern zu enthalten. Was möchten Sie tun?"
+			"txt": "Das Projekt enthält %0 Belichtungsreihen mit je %1 Bildern. Was möchten Sie tun?"
 		},
 		{
 			"id": "err.nobracketedfound",
@@ -5572,12 +5572,12 @@
 		{
 			"id": "txt.genericrectilinearlens",
 			"machinetranslated": false,
-			"txt": "universales rectilineares Objektiv"
+			"txt": "universelles rectilineares Objektiv"
 		},
 		{
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
-			"txt": "universales Fischaugenobjektiv"
+			"txt": "universelles Fischaugenobjektiv"
 		},
 		{
 			"id": "options.gpuacceleration.crashwhileloadingopencldll",
@@ -6610,7 +6610,7 @@
 			"id": "lensparams.lenstype",
 			"machinetranslated": false,
 			"helptext": "Legt den Typ des Objektivs fest. In den meisten Fällen kann PTGui den Typ automatisch anhand der EXIF-Daten des Bildes feststellen.",
-			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Geraden in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Das Quellbild ist ein zylindrisches Panoramabild.<br><br><b>Fischaugenobjektive</b> haben in der Regel einen größeren Bildwinkel als normale Objektive, gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein Zirkular-Fischaugenobjektiv hat einen Bildwinkel von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Sensor abdeckt. Ein Vollformat-Fischaugenobjektiv hat einen engeren Bildwinkel und deckt den gesamten Sensor ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist bereits ein sphärisches Panorama."
+			"morehelptext": "<br><br><b>@+projection.rectilinear@:</b> Ist der am häufigsten verwendete Objektivtyp. Gerade Linien in der Szene werden als gerade Linien im Bild angezeigt.<br><br><b>@+projection.cylindrical@:</b> Das Quellbild ist ein zylindrisches Panoramabild.<br><br><b>Fischaugenobjektive</b> haben in der Regel einen größeren Bildwinkel als normale Objektive, gerade Linien werden als gekrümmte Linien im Bild projiziert. Ein Zirkular-Fischaugenobjektiv hat einen Bildwinkel von 180° oder mehr und projiziert ein kreisförmiges Bild, das nicht den gesamten Sensor abdeckt. Ein Vollformat-Fischaugenobjektiv hat einen engeren Bildwinkel und deckt den gesamten Sensor ab.<br><br><b>@+projection.equirectangular@:</b> Das Quellbild ist ein sphärisches Panorama."
 		},
 		{
 			"id": "lensparams.lensdatabasebutton",
@@ -6666,7 +6666,7 @@
 			"id": "lensparams.sensorsize",
 			"machinetranslated": false,
 			"helptext": "Sensordiagonale/Crop-Faktor: Die Diagonale des Kamerasensors wird üblicherweise als 'Crop-Faktor' oder 'Brennweiten-Multiplikator' ausgedrückt. Für die meisten Kameras kann PTGui dies automatisch aus den EXIF-Daten ermitteln.",
-			"morehelptext": "<br><br>Ein Crop-Faktor von 1x entspricht den Maßen des klassischen Vollformat-Sensors von 36 x 24 mm. Ein kleinerer Sensor hat einen Crop-Faktor größer als eins.<br><br>Bei rectilinearen und Fischaugenobjektiven muss PTGui die Größe des Sensors kennen. Mit diesem Wert und der Brennweite wird die Projektion bestimmt."
+			"morehelptext": "<br><br>Ein Crop-Faktor von 1x entspricht den Maßen des klassischen Vollformat-Sensors von 36 x 24 mm. Ein kleinerer Sensor hat einen Crop-Faktor größer als 1.<br><br>Bei rectilinearen und Fischaugenobjektiven muss PTGui die Größe des Sensors kennen. Mit diesem Wert und der Brennweite wird die Projektion bestimmt."
 		},
 		{
 			"id": "lensparams.cameradatabase",
@@ -7083,7 +7083,7 @@
 			"id": "projectsettingstab.alignimages.hdrdefaultmode",
 			"machinetranslated": false,
 			"helptext": "Legt die Standardeinstellungen fest, wenn Belichtungsreihen erkannt werden.",
-			"morehelptext": "<br><br>Steuert die Standardeinstellung des Popup-Fensters, das bei der Ausführung von '@alignimages@' für Belichtungsreihen geöffnet wird.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> Bilder einer Belichtungsreihe werden verknüpft. Bei verknüpften Bildern werden dieselben @yaw@, @pitch@, @roll@ und andere Einstellungen erzwungen, sodass sie Pixel für Pixel überlappen. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn Sie für die Aufnahme ein stabiles Stativ verwendet haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> Bilder werden nicht verknüpft, jedes Bild einer Belichtungsreihe hat seinen eigenen @yaw@, @pitch@, @roll@. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrenabled@' ausgewählt. Verwenden Sie diese Option, wenn sich die Bilder einer Belichtungsreihe nicht genau überlappen, z.B. wenn Sie die Bilder aus der Hand aufgenommen haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> Erkannte Belichtungsreihen werden ignoriert, die Bilder werden als Nicht-HDR-Panorama behandelt. Auf der Registerkarte '@mainwindow.tabs.exposurehdr@' wird '@mainwindow.exposurehdrpanel.hdrdisabled@' ausgewählt."
+			"morehelptext": "<br><br>Steuert die Standardeinstellung des Popup-Fensters, das bei der Ausführung von '@alignimages@' für Belichtungsreihen geöffnet wird.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> Es wird ein HDR-Panorama erstellt. Die Bilder einer Belichtungsreihe werden gruppiert und verknüpft, d.h. auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden die Kontrollkästchen '@mainwindow.imageparameters.linked@' ausgewählt. Bei verknüpften Bildern werden dieselben @yaw@, @pitch@ und @roll@ erzwungen. Verwenden Sie diese Option, wenn Sie für die Aufnahme ein stabiles Stativ verwendet haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> Es wird ein HDR-Panorama erstellt. Die Bilder einer Belichtungsreihe werden gruppiert, aber nicht verknüpft, d.h. auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden die Kontrollkästchen '@mainwindow.imageparameters.linked@' nicht ausgewählt. Jedes Bild einer Belichtungsreihe hat seinen eigenen @yaw@, @pitch@, @roll@. Verwenden Sie diese Option, wenn sich die Bilder einer Belichtungsreihe nicht genau überlappen, z.B. wenn Sie die Bilder aus der Hand aufgenommen haben.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> Erkannte Belichtungsreihen werden ignoriert, die Bilder werden nicht verknüpft und es wird kein HDR-Panorama erstellt."
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -7219,7 +7219,7 @@
 			"id": "metadatatab.latlon",
 			"machinetranslated": false,
 			"helptext": "Die GPS-Koordinaten, an denen dieses Panorama aufgenommen wurde.",
-			"morehelptext": "<br><br>Eine Position geben Sie als Kombination von Breiten- und Längengrad an, beide von einem Komma getrennt. Negative Koordinaten werden für die südliche Hemisphäre und für östliche Längen verwendet. Alle gängigen Koordinatenformate werden unterstützt: Koordinaten können in Grad, Grad und Minuten oder in Grad, Minuten und Sekunden eingegeben werden.Ein Punkt (.) dient als Dezimaltrennzeichen. Die Symbole ° '&quot; sind die Trennzeichen für Grad, Minuten und Sekunden.<br><br>Zum Beispiel sind die folgenden Koordinaten gültig und beziehen sich alle auf den gleichen Ort:<br><br>40,78, -73,96715<br>40,78°, -73,96715°<br>40° 46,8 ', -73° 58,829'<br>40° 46'48 &quot;, -73° 58'01&quot;<br><br>Koordinaten zu erhalten Sie z.B. auf <a href=\"https://maps.google.com/\">Google Maps</a> und dort auf einen Ort klicken."
+			"morehelptext": "<br><br>Eine Position geben Sie als Kombination von Breiten- und Längengrad durch ein Komma getrennt an. Negative Koordinaten werden für die südliche Hemisphäre und für östliche Längen verwendet. Alle gängigen Koordinatenformate werden unterstützt: Koordinaten können in Grad, Grad und Minuten oder in Grad, Minuten und Sekunden eingegeben werden.Ein Punkt (.) dient als Dezimaltrennzeichen. Die Symbole ° '&quot; sind die Trennzeichen für Grad, Minuten und Sekunden.<br><br>Zum Beispiel sind die folgenden Koordinaten gültig und beziehen sich alle auf den gleichen Ort:<br><br>40,78, -73,96715<br>40,78°, -73,96715°<br>40° 46,8 ', -73° 58,829'<br>40° 46'48 &quot;, -73° 58'01&quot;<br><br>Auf <a href=\"https://maps.google.com/\">Google Maps</a> können Sie die Position bestimmen und die Koordinaten hier eingeben."
 		},
 		{
 			"id": "metadatatab.useorientationofsourceimages",
@@ -7235,7 +7235,7 @@
 			"id": "metadatatab.resolution",
 			"machinetranslated": false,
 			"helptext": "Der Wert der Auflösung (in Pixel pro Zoll), der in die EXIF-Daten des Panoramas eingefügt wird.",
-			"morehelptext": "<br><br>Dieser Wert ist nur ein indikativer Wert, der die Anzahl der Pixel angibt, die in einem Zoll gedruckt werden sollen. Er ändert nicht die tatsächliche Größe oder Detailtiefe im resultierenden Bild. Er kann aber in Arbeitsabläufen hilfreich sein, in denen die Abmessungen des resultierenden gedruckten Bildes gesteuert werden müssen."
+			"morehelptext": "<br><br>Dieser Wert ist nur ein indikativer Wert, der die Anzahl der Pixel angibt, die in einem Zoll gedruckt werden sollen. Er ändert nicht die tatsächliche Größe oder Detailtiefe im resultierenden Bild. Er kann aber in Arbeitsabläufen hilfreich sein, bei denen die Abmessungen des resultierenden gedruckten Bildes gesteuert werden müssen."
 		},
 		{
 			"id": "createpanoramatab.widthheight",
@@ -7245,7 +7245,7 @@
 		{
 			"id": "createpanoramatab.fixsize",
 			"machinetranslated": false,
-			"helptext": "Legt fest, ob Sie die Ausgabegröße in Pixeln oder als optimale Größe (oder einen Bruchteil davon) angeben.",
+			"helptext": "Legt fest, ob die Ausgabegröße in Pixeln oder als optimale Größe (oder einen Bruchteil davon) angegeben wird.",
 			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Die Ausgabegröße wird basierend auf der festgelegten Größe in Pixeln berechnet. Wenn sich das Seitenverhältnis ändert (z.B. durch Ändern der Projektion, der Bildwinkel oder Zuschneiden der Ausgabe), können sich Breite und Höhe ändern, die Gesamtzahl der Pixel bleibt jedoch gleich. Für sphärische Panoramen wird normalerweise eine 2:1 äquirektanguläre Projektion verwendet, daher ergibt diese Option eine feste Breite und Höhe.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> Das Panorama wird in der optimalen Größe oder dem davon festgelegten Prozentsatz generiert.<br><br>Die optimale Größe ist die Ausgabegröße, bei der die Auflösung des Panoramas der Auflösung der Quellbilder entspricht. So gehen keine Details aus den Quellbildern verloren.<br><br>Da Bildverzerrungen im Panorama nicht einheitlich sind, gibt es keine echte optimale Größe. Einige Teile der Quellbilder können vergrößert werden, während andere Teile verkleinert werden können. Daher betrachtet PTGui etwas willkürlich die optimale Größe als die Größe, bei der die Winkelauflösung in der Mitte der Quellbilder gleich der Winkelauflösung in der Mitte des Panoramas ist. Wenn Bilder von mehreren Objektiven verwendet werden, basiert diese Berechnung auf dem Quellbild mit der höchsten Auflösung.<br><br>Da die optimale Größe von mehreren Parametern abhängt, einschließlich der Brennweite des Objektivs, die normalerweise vom Optimierer eingestellt wird, kann die optimale Größe nach jeder Optimierung leicht variieren. Dies hängt auch von der Platzierung der Kontrollpunkte ab. Wenn diese Veränderung unerwünscht ist, wählen Sie eine gewünschte Größe und wählen Sie '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
 		},
 		{
@@ -7352,13 +7352,13 @@
 			"id": "createpanoramatab.saveandsendtobatchstitcher",
 			"machinetranslated": false,
 			"helptext": "Das Panorama an den Batch-Stitcher senden, um es im Hintergrund zu verarbeiten.",
-			"morehelptext": "<br><br>Wenn das Projekt geändert wurde, wird die Projektdatei zuerst auf dem Datenträger gespeichert (wie mit '@menubar.file@' | '@menubar.file.saveproject@'). Dann wird der Batch-Stitcher geöffnet und das Projekt zur Verarbeitungswarteschlange hinzugefügt. <optional product='pro'><br><br>Den Batch-Stitcher können Sie so konfigurieren, dass er das Panorama ausrichtet (siehe '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@'). In diesem Fall aktualisiert der Batch-Stitcher das Projekt auf dem Datenträger, nachdem er dir Bilder ausgerichtet hat. Um das Risiko zu vermeiden, an verschiedenen Versionen desselben Projekts zu arbeiten, müssen Sie das Projekt in diesem Fenster geschließen, nachdem der Batch-Stitcher gestartet wurde.</optional><br><br>Alternativ senden Sie das Projekt mit '@menubar.project@' | '@menubar.project.sendtemporarycopytobatchstitcher@' an den Batch-Stitcher. Dabei wird das Projekt unter einem eindeutigen temporären Dateinamen gespeichert und diese Kopie dann an den Batch-Stitcher gesendet. Verwenden Sie diese Option, wenn Sie verschiedene Versionen desselben Projekts an den Batch-Stitcher senden möchten. '@menubar.project.saveandsendtobatchstitcher@' verwendet den aktuellen Dateinamen des Projekts, sodass vorherige Versionen desselben Projekts überschrieben werden."
+			"morehelptext": "<br><br>Wenn das Projekt geändert wurde, wird die Projektdatei zuerst auf dem Datenträger gespeichert (wie mit '@menubar.file@' | '@menubar.file.saveproject@'). Dann wird der Batch-Stitcher geöffnet und das Projekt zur Verarbeitungswarteschlange hinzugefügt. <optional product='pro'><br><br>Den Batch-Stitcher können Sie so konfigurieren, dass er das Panorama ausrichtet (siehe '@mainwindow.tabs.projectsettings@' - '@mainwindow.projectsettings.batchstitcheractions@'). In diesem Fall aktualisiert der Batch-Stitcher das Projekt auf dem Datenträger, nachdem er die Bilder ausgerichtet hat. Um das Risiko zu vermeiden, an verschiedenen Versionen desselben Projekts zu arbeiten, müssen Sie das Projekt in diesem Fenster geschließen, nachdem der Batch-Stitcher gestartet wurde.</optional><br><br>Alternativ senden Sie das Projekt mit '@menubar.project@' | '@menubar.project.sendtemporarycopytobatchstitcher@' an den Batch-Stitcher. Dabei wird das Projekt unter einem eindeutigen temporären Dateinamen gespeichert und diese Kopie dann an den Batch-Stitcher gesendet. Verwenden Sie diese Option, wenn Sie verschiedene Versionen desselben Projekts an den Batch-Stitcher senden möchten. '@menubar.project.saveandsendtobatchstitcher@' verwendet den aktuellen Dateinamen des Projekts, sodass vorherige Versionen desselben Projekts überschrieben werden."
 		},
 		{
 			"id": "createpanoramatab.includeimages",
 			"machinetranslated": false,
 			"helptext": "Nur die ausgewählten Bilder in das Panorama aufnehmen",
-			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) auf den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Sie können auch im Panorama-Editor und im Detail-Viewer Bilder ausschließen. Dort schließen Sie das Bild an der angeklickten Stelle über das Kontextmenü (Rechtsklick) aus. <optional product='pro'><br><br>Bei HDR-Panoramen können Sie alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' auswählen und mit '@menubar.images@' | '@menubar.images.include@' ein- bzw. mit '@menubar.images.exclude@' ausschliessen.</optional>"
+			"morehelptext": "<br><br>Einzelne Bilder können Sie auch über das Kontextmenü (Rechtsklick) auf den Registerkarten '@mainwindow.tabs.projectassistant@' und '@mainwindow.tabs.sourceimages@' ein- und ausschließen.<br><br>Sie können auch im Panorama-Editor und im Detail-Viewer Bilder ausschließen. Dort schließen Sie das Bild an der angeklickten Stelle über das Kontextmenü (Rechtsklick) aus. <optional product='pro'><br><br>Bei HDR-Panoramen können Sie alle Bilder mit einer bestimmten Belichtungsstufe mit '@menubar.images@' | '@menubar.images.select@' | '@menubar.images.select.blendplane@' auswählen und mit '@menubar.images@' | '@menubar.images.include@' ein- bzw. mit '@menubar.images.exclude@' ausschließen.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blendertype",
@@ -8035,7 +8035,7 @@
 			"id": "batchbuilderdetect.filterextension",
 			"machinetranslated": false,
 			"helptext": "Nur Bilddateinamen mit dieser Erweiterung verwenden.",
-			"morehelptext": "<br><br>Geben Sie die Erweiterung ohne den Punkt ein (JPG, nicht .JPG). Bei der Filterung wird nicht zwischen Groß- und Kleinschreibung unterschieden. Dies entspricht sowohl image.jpg als auch image.JPG<br><br>Sie können mehrere Erweiterungen getrennt durch ein Komma eingegeben. Zum Beispiel: tif, jpg"
+			"morehelptext": "<br><br>Geben Sie die Erweiterung ohne den Punkt ein (JPG, nicht .JPG). Bei der Filterung wird nicht zwischen Groß- und Kleinschreibung unterschieden. Dies entspricht sowohl image.jpg als auch image.JPG<br><br>Sie können mehrere Erweiterungen durch ein Komma getrennt eingegeben. Zum Beispiel: tif, jpg"
 		},
 		{
 			"id": "batchbuilderdetect.imagesperpanorama",
@@ -8661,7 +8661,7 @@
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
 			"machinetranslated": false,
 			"helptext": "Das ICC-Farbprofil für das generierte Panorama",
-			"morehelptext": "<br><br>Farben in digitalen Bildern werden in der Regel durch Kombinieren verschiedener Mengen von roten, grünen und blauen Farben erzeugt. Eine Kombination von Rot-, Grün- und Blauwerten beschreibt eine physikalische Farbe jedoch nicht eindeutig. Die tatsächlich reproduzierte Farbe hängt von den physikalischen Eigenschaften der Anzeige ab. D.h. verschiedene Anzeigegeräte verwenden leicht unterschiedliche Arten von Grundfarben in Rot, Grün und Blau. Ohne weitere Informationen könnte das Bild auf jedem Bildschirm anders aussehen. Durch Einfügen eines Farbprofils werden die Pixelwerte in einem Bild an die tatsächlichen Farben angepasst. PTGui konvertiert alle Farben in den ausgewählten Farbraum und nimmt das ICC-Farbprofil in die Bilddatei auf.<br><br>Übliche Farbprofile sind:<br><br><b>sRGB</b> : Dies ist der De-facto-Standardfarbraum für digitale Bilder. Das Bild sieht auf nicht kalibrierten Displays und in Anwendungen, die nicht farbverwaltet sind, recht gut aus. Wenn Ihr Panorama im Internet veröffentlicht wird, ist sRGB eine gute Wahl. Andererseits ist sRGB ein relativ enger Farbraum. Einige Farben, die auf Papier gedruckt werden können, werden vom sRGB-Farbraum nicht abgedeckt.<br><br><b>Adobe RGB (1998)</b> : Dieser Farbraum hat einen größeren Farbumfang als sRGB und deckt fast alle Farben ab, die auf Papier gedruckt werden können. Dies ist eine gute Wahl, wenn das Panorama gedruckt werden soll.<br><br><b>ProPhoto RGB</b> und <b>Wide Gamut RGB</b> : Diese Farbräume haben einen sehr großen Farbumfang und decken fast alle möglichen Farben ab, die ein Mensch wahrnehmen kann. Da sie jedoch einen viel größeren Farbbereich als sRGB abdecken, muss das resultierende Bild in einer farbverwalteten Anwendung angezeigt werden, da sonst die Farben sehr matt aussehen.<br><br>Die Farbräume mit großem Farbumfang sollten in der Regel mit 16-Bit-Ausgabe verwendet werden. Eine Auflösung von 8 Bit reicht nicht aus, um alle verfügbaren Farben abzudecken und glatte Farbverläufe können ein &quot;posterisiertes&quot; Aussehen haben. Folglich ist JPEG kein geeignetes Format, da es auf 8 Bit beschränkt ist.<br><br>Beachten Sie, dass die Ausgabe in einem größeren Farbraum als dem Farbraum des Quellbilds keinen Vorteil hat. Durch das Konvertieren eines sRGB-Bilds in einen Farbraum mit großem Farbumfang wird das Bild nicht verbessert. Daher bietet PTGui die Möglichkeit, dasselbe Farbprofil wie das der Quellbilder zu verwenden. Dies erfolgt standardmäßig, wenn alle Bilder im Panorama dasselbe Farbprofil haben.<br><br>Für RAW-Bilder muss ein Farbraum explizit ausgewählt werden. Dieser Farbraum wird während der Rohkonvertierung verwendet."
+			"morehelptext": "<br><br>Farben in digitalen Bildern werden durch Kombinieren verschiedener Anteile von roten, grünen und blauen Farben erzeugt. Eine Kombination von Rot-, Grün- und Blauwerten beschreibt eine physikalische Farbe jedoch nicht eindeutig. Die tatsächlich reproduzierte Farbe hängt von den physikalischen Eigenschaften des Monitors ab. D.h. verschiedene Monitore verwenden leicht unterschiedliche Töne der Grundfarben Rot, Grün und Blau. Ohne weitere Informationen könnte das Bild auf jedem Bildschirm anders aussehen. Durch Einfügen eines Farbprofils werden die Pixelwerte in einem Bild an die tatsächlichen Farben angepasst. PTGui konvertiert alle Farben in den ausgewählten Farbraum und nimmt das ICC-Farbprofil in die Bilddatei auf.<br><br>Übliche Farbprofile sind:<br><br><b>sRGB</b>: Dies ist der De-facto-Standardfarbraum für digitale Bilder. Das Bild sieht auf nicht kalibrierten Monitoren und in Anwendungen, die nicht farbverwaltet sind, recht gut aus. Wenn Ihr Panorama im Internet veröffentlicht wird, ist sRGB eine gute Wahl. Andererseits ist sRGB ein relativ enger Farbraum. Einige Farben, die auf Papier gedruckt werden können, werden vom sRGB-Farbraum nicht abgedeckt.<br><br><b>Adobe RGB (1998)</b>: Dieser Farbraum hat einen größeren Farbumfang als sRGB und deckt fast alle Farben ab, die auf Papier gedruckt werden können. Dies ist eine gute Wahl, wenn das Panorama gedruckt werden soll.<br><br><b>ProPhoto RGB</b> und <b>Wide Gamut RGB</b>: Diese Farbräume haben einen sehr großen Farbumfang und decken fast alle möglichen Farben ab, die ein Mensch wahrnehmen kann. Da sie jedoch einen viel größeren Farbumfang als sRGB abdecken, muss das resultierende Bild in einer farbverwalteten Anwendung angezeigt werden, da sonst die Farben sehr matt wirken.<br><br>Die Farbräume mit großem Farbumfang sollten in der Regel mit 16-Bit-Ausgabe verwendet werden. Eine Auflösung von 8 Bit reicht nicht aus, um alle verfügbaren Farben abzudecken und glatte Farbverläufe können ein &quot;posterisiertes&quot; Aussehen haben. Folglich ist JPEG kein geeignetes Format, weil es auf 8 Bit beschränkt ist.<br><br>Beachten Sie, dass die Ausgabe in einem größeren Farbraum als dem Farbraum des Quellbilds keinen Vorteil hat. Durch die Konvertierung eines sRGB-Bilds in einen Farbraum mit größerem Farbumfang wird das Bild nicht verbessert. Daher bietet PTGui die Möglichkeit, dasselbe Farbprofil wie das der Quellbilder zu verwenden. Dies erfolgt standardmäßig, wenn alle Bilder im Panorama dasselbe Farbprofil haben.<br><br>Für RAW-Bilder muss ein Farbraum explizit ausgewählt werden. Dieser Farbraum wird während der RAW-Konvertierung verwendet."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",

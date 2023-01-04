@@ -3208,7 +3208,7 @@
 		},
 		{
 			"id": "licenseinfo.company.multipleecomputers",
-			"txt": "Sie verwenden eine Firmenlizenz. Es kann auf bis zu %1 Computern aktiviert werden, die %0 gehören. PTGui kann von jedem Benutzer dieses Computers verwendet werden."
+			"txt": "Sie verwenden eine Firmenlizenz. Sie kann auf bis zu %1 Computern aktiviert werden, die %0 gehören. PTGui kann von jedem Benutzer dieses Computers verwendet werden."
 		},
 		{
 			"id": "licenseinfo.activationcount",
@@ -3240,7 +3240,7 @@
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer übertragen möchten oder wenn Sie einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird sich PTGui beenden, speichern Sie bitte zuerst Ihre Arbeit."
+			"txt": "Dadurch wird Ihre PTGui-Lizenz auf diesem Computer deaktiviert. Tun Sie dies, wenn Sie PTGui auf einen anderen Computer übertragen oder einen anderen Lizenzschlüssel auf diesem Computer verwenden möchten.\n\nWenn Sie fortfahren, wird sich PTGui beenden, speichern Sie bitte zuerst Ihre Arbeit."
 		},
 		{
 			"id": "licenseinfo.manageactivations",
@@ -3539,7 +3539,7 @@
 		},
 		{
 			"id": "batchbuilder.err.subfoldershavedifferetnumberofimages",
-			"txt": "Die Unterordner enthalten unterschiedlich viele Bilder. Jeder Unterordner muss die gleiche Anzahl von Bildern enthalten.\n\nOrdner '%0' enthält %1 Bilder;\nDer Ordner '%2' enthält %3 Bilder."
+			"txt": "Die Unterordner enthalten unterschiedlich viele Bilder. Jeder Unterordner muss die gleiche Anzahl von Bildern enthalten.\n\nOrdner '%0' enthält %1 Bilder.\nDer Ordner '%2' enthält %3 Bilder."
 		},
 		{
 			"id": "batchbuilder.err.noimagefiles",
@@ -3823,7 +3823,7 @@
 		},
 		{
 			"id": "sensorsizedialog.heading3",
-			"txt": "Bitte füllen Sie eines der folgenden Felder aus. Wenn Sie die Daten nicht kennen, wählen Sie mit der Schaltfläche '@sensorsizedialog.choosepreset@' das am besten geeignete Element aus."
+			"txt": "Bitte tragen Sie in eines der folgenden Felder den passenden Wert ein. Wenn Sie die Daten nicht kennen, wählen Sie mit '@sensorsizedialog.choosepreset@' das am besten geeignete Element aus."
 		},
 		{
 			"id": "sensorsizedialog.txtsubmitexif",
@@ -3898,7 +3898,7 @@
 		{
 			"id": "cpassistant.shouldaddcps",
 			"format": "html",
-			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama kann noch nicht erstellt. Wechseln Sie zur <a href=0>Registerkarte '@mainwindow.tabs.controlpoints@'</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
+			"txt": "Alle Bilder in einem PTGui-Projekt sollten durch Kontrollpunkte direkt oder indirekt (über Kontrollpunkte, die andere Bilder verbinden) verbunden sein.<br><br>Ihr Panorama kann noch nicht erstellt werden. Wechseln Sie zur <a href=0>Registerkarte '@mainwindow.tabs.controlpoints@'</a> und fügen Sie die erforderlichen Kontrollpunkte hinzu."
 		},
 		{
 			"id": "cpassistant.nocontrolpoints",
@@ -3987,7 +3987,7 @@
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
-			"txt": "32-Bit Gleitkomma"
+			"txt": "32-Bit-Gleitkomma"
 		},
 		{
 			"id": "fileformatsettings.fileformatoptionstxt",
@@ -4119,7 +4119,7 @@
 		},
 		{
 			"id": "lensdatabase.xony",
-			"txt": "%0 auf %1"
+			"txt": "%0 an %1"
 		},
 		{
 			"id": "lensdatabase.unknowncameranoexif",
@@ -4715,7 +4715,7 @@
 		},
 		{
 			"id": "err.cannotlinkdifferentsize",
-			"txt": "Diese Bilder können nicht verknüpft werden, da sie unterschiedliche Abmessungen haben. Verknüpfte Bilder müssen die gleichen Pixelmaße haben."
+			"txt": "Diese Bilder können nicht verknüpft werden, da sie unterschiedliche Abmessungen haben. Verknüpfte Bilder müssen die gleiche Größe und Ausrichtung (alle im Hoch- oder Querformat) haben."
 		},
 		{
 			"id": "txt.openclcrashaskdisablegpuacceleration",
@@ -4727,7 +4727,7 @@
 		},
 		{
 			"id": "warn.alignimagesmissingcontrolpoints",
-			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle Bilder ausrichten. Sie müssen einige Kontrollpunkte hinzufügen, bevor das Panorama erstellt werden kann. Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen.\n\nDer Kontrollpunkt-Assistent gibt Ihnen detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte benötigen.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
+			"txt": "PTGui hat Ihre Bilder analysiert, konnte aber nicht alle Bilder ausrichten. Sie müssen einige Kontrollpunkte hinzufügen, bevor Sie das Panorama erstellen können. Kontrollpunkte zeigen an, welche Teile welcher Bilder sich überlappen.\n\nDer Kontrollpunkt-Assistent gibt Ihnen detaillierte Informationen darüber, welche Bilder zusätzliche Kontrollpunkte benötigen.\n\nMöchten Sie jetzt Kontrollpunkte hinzufügen?"
 		},
 		{
 			"id": "txt.dontaskthisagain",
@@ -5894,7 +5894,7 @@
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
 			"machinetranslated": false,
-			"txt": "In der Seitenleiste des @panoramaeditor@s mehrere Panele offen lassen"
+			"txt": "In der Seitenleiste des @panoramaeditor@s mehrere Bedienfelder offen lassen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
@@ -5904,12 +5904,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
 			"machinetranslated": false,
-			"txt": "halbe Genauigkeit (16-Bit)"
+			"txt": "halbe Genauigkeit (16 Bit)"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
 			"machinetranslated": false,
-			"txt": "volle Genauigkeit (32-Bit)"
+			"txt": "volle Genauigkeit (32 Bit)"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
@@ -6690,13 +6690,13 @@
 			"id": "portraitorientation.shutterup",
 			"machinetranslated": false,
 			"helptext": "Ausrichtung der Kamera im Hochformat: gegen den Uhrzeigersinn",
-			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, benötigt PTGui die Information, in welche Richtung Sie die Kamera vom Querformat ins Hochformat gedreht haben. Mit dieser Information wird die Objektivverschiebungskorrektur in der richtigen Richtung angewendet.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera gegen den Uhrzeigersinn vom Querformat ins Hochformat gedreht wurde. Bei den meisten Kameras befindet sich dann der Auslöser überhalb des Objektivs (siehe Symbol)."
+			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, benötigt PTGui die Information, in welche Richtung Sie die Kamera vom Querformat ins Hochformat gedreht haben. Mit dieser Information wird die Objektivverschiebungskorrektur in die richtige Richtung angewendet.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera gegen den Uhrzeigersinn vom Querformat ins Hochformat gedreht wurde. Bei den meisten Kameras befindet sich dann der Auslöser überhalb des Objektivs (siehe Symbol)."
 		},
 		{
 			"id": "portraitorientation.shutterdown",
 			"machinetranslated": false,
 			"helptext": "Ausrichtung der Kamera im Hochformat: im Uhrzeigersinn",
-			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, benötigt PTGui die Information, in welche Richtung Sie die Kamera vom Querformat ins Hochformat gedreht haben. Mit dieser Information wird die Objektivverschiebungskorrektur in der richtigen Richtung angewendet.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera im Uhrzeigersinn vom Querformat ins Hochformat gedreht wurde. Bei den meisten Kameras befindet sich dann der Auslöser unterhalb des Objektivs (siehe Symbol)."
+			"morehelptext": "<br><br>Wenn das Projekt eine Mischung aus Bildern im Hoch- und Querformat enthält, benötigt PTGui die Information, in welche Richtung Sie die Kamera vom Querformat ins Hochformat gedreht haben. Mit dieser Information wird die Objektivverschiebungskorrektur in die richtige Richtung angewendet.<br><br>Wählen Sie diese Schaltfläche, wenn die Kamera im Uhrzeigersinn vom Querformat ins Hochformat gedreht wurde. Bei den meisten Kameras befindet sich dann der Auslöser unterhalb des Objektivs (siehe Symbol)."
 		},
 		{
 			"id": "croptab.cropcoords",
@@ -6717,7 +6717,7 @@
 		{
 			"id": "croptab.nocrop",
 			"machinetranslated": false,
-			"helptext": "Den Beschneidungsbereich zurücksetzen, um das gesamte Bild abzudecken."
+			"helptext": "Den Zuschnitt zurücksetzen, um die gesamte Bildfläche zu verwenden."
 		},
 		{
 			"id": "rotatetoolbar.counterclockwise",
@@ -6972,7 +6972,7 @@
 		{
 			"id": "exposurehdrtab.exposurecompensation",
 			"machinetranslated": false,
-			"helptext": "Belichtungsunterschiede anpassen, die durch die automatische Belichtung verursacht werden.",
+			"helptext": "Belichtungsunterschiede anpassen, die durch eine automatische Belichtung entstanden sind.",
 			"morehelptext": "<br><br>Der Überblendalgorithmus kann Belichtungsunterschiede etwas kompensieren, für die besten Ergebnisse sollten die überlappenden Bilder aber ungefähr die gleiche Belichtung haben.<br><br>Wenn die Bilder mit automatischer Belichtung aufgenommen wurden (z.B. bei Verwendung des Av-Modus der Kamera), können benachbarte Bilder unterschiedlich belichtet worden sein. Die Belichtungskorrektur untersucht die EXIF-Daten und passt die Belichtung jedes Bilds vor dem Überblenden an eine durchschnittliche Belichtung an. In Verbindung mit Tone Mapping können Sie so auch Szenen mit hohem Kontrast gut verarbeiten."
 		},
 		{
@@ -7197,7 +7197,7 @@
 		{
 			"id": "previewtab.size",
 			"machinetranslated": true,
-			"helptext": "Größe (in Pixel) des generierten Vorschaubildes"
+			"helptext": "Größe (in Pixel) des erstellten Vorschaubildes"
 		},
 		{
 			"id": "previewtab.previewbutton",
@@ -7258,7 +7258,7 @@
 			"id": "createpanoramatab.ldrfileformat",
 			"machinetranslated": false,
 			"helptext": "Dateiformat des fertigen Panoramas. <optional product='pro'>Bei HDR-Panoramen das Dateiformat, das für das LDR-Format verwendet wird.</optional>",
-			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikumfang (8 Bit pro Kanal). Transparenz wird nicht unterstützt, leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität. Geeignet für das Web-Publishing. Soll das Bild gedruckt oder in einem Bildeditor nachbearbeitet werden, ist eines der anderen Formate mit 16 Bit pro Kanal besser geeignet.<br><br><b>TIFF:</b> Ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit Gleitkomma unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, PTGui verwendet aber automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF unterstützt dies 8 und 16 Bit pro Ausgabekanal <optional product='pro'>(und 32-Bit Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei erstellen, die das überblendete Panorama und die verzerrten Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. In der Regel ist das .psb-Format die bessere Wahl, da es keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als veraltetes Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von '@menubar.tools@' | '@menubar.tools.publishtowebsite@' ein erstelltes Panorama auf einer HTML5-Webseite veröffentlichen."
+			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikumfang (8 Bit pro Kanal). Transparenz wird nicht unterstützt, leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität. Geeignet für das Web-Publishing. Soll das Bild gedruckt oder in einem Bildeditor nachbearbeitet werden, ist eines der anderen Formate mit 16 Bit pro Kanal besser geeignet.<br><br><b>TIFF:</b> Ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit-Gleitkomma unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, PTGui verwendet aber automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF unterstützt dies 8 und 16 Bit pro Ausgabekanal <optional product='pro'>(und 32-Bit-Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei erstellen, die das überblendete Panorama und die verzerrten Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. In der Regel ist das .psb-Format die bessere Wahl, da es keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als veraltetes Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von '@menubar.tools@' | '@menubar.tools.publishtowebsite@' ein erstelltes Panorama auf einer HTML5-Webseite veröffentlichen."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -7269,7 +7269,7 @@
 			"id": "createpanoramatab.hdrfileformat",
 			"machinetranslated": false,
 			"helptext": "Dateiformat für die HDR-Ausgabe.",
-			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikumfang der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32-Bit Gleitkomma pro Kanal mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF, 32-Bit Gleitkomma pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei ausgeben, die das überblendete HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. In der Regel ist das .psb-Format die bessere Wahl, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann die Bilder mit 16-Bit und 32-Bit Gleitkommazahlen pro Kanal erstellen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist der Industriestandard für HDR-Bilder.<br><br><b>HDR Radiance:</b> Ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot/Grün/Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann einige gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
+			"morehelptext": "<br><br>Die von PTGui erzeugten HDR-Dateien können den gesamten Dynamikumfang der Lichtintensitäten in einer Szene unterstützen. PTGui unterstützt die folgenden Dateiformate für die HDR-Ausgabe:<br><br><b>TIFF:</b> 32-Bit-Gleitkomma pro Kanal mit verlustfreier Komprimierung und Transparenzunterstützung. Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, aber PTGui verwendet automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Beachten Sie, dass nicht alle TIFF-fähigen Anwendungen 32-Bit-Gleitkommabilder oder BigTIFF-Dateien unterstützen.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF, 32-Bit-Gleitkomma pro Kanal, mit verlustfreier Komprimierung und Transparenzunterstützung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei ausgeben, die das überblendete HDR-Panorama, verzerrte HDR-Quellbilder und HDR-Belichtungsebenen in separaten Ebenen enthält. Dies erleichtert die Retusche und HDR-Korrektur des Panoramas in Photoshop. In der Regel ist das .psb-Format die bessere Wahl, da .psd auf 4 GB Dateigröße und 30000 Pixel Breite und Höhe beschränkt ist.<br><br><b>OpenEXR:</b> Dieses Format wurde ursprünglich von Industrial Light and Magic (von LucasFilm) für die Visual-Effects-Industrie entwickelt. PTGui kann die Bilder mit 16-Bit- und 32-Bit-Gleitkommazahlen pro Kanal erstellen. Transparenz wird ebenso unterstützt wie verschiedene verlustfreie und verlustbehaftete Komprimierungsalgorithmen. Dies ist der Industriestandard für HDR-Bilder.<br><br><b>HDR Radiance:</b> Ursprünglich von Greg Ward für die HDR-Unterstützung in seiner Radiance-Software-Suite konzipiert. Pixel werden als Rot/Grün/Blau-Tripel mit einem gemeinsamen Exponenten gespeichert, daher wird das Format auch als RGBE bezeichnet. Transparenz wird nicht unterstützt. Die gemeinsame Exponentencodierung kann einige gesättigte Farben nicht darstellen, daher sollte dies als verlustbehaftetes komprimiertes Format betrachtet werden."
 		},
 		{
 			"id": "createpanoramatab.hdrfileformatsettings",
@@ -7301,7 +7301,7 @@
 		{
 			"id": "createpanoramatab.dragoutputfile",
 			"machinetranslated": false,
-			"helptext": "Das generierte Panorama in einer anderen Anwendung öffnen, indem Sie dieses Symbol auf die andere Anwendung ziehen und dort ablegen."
+			"helptext": "Das erstellte Panorama in einer anderen Anwendung öffnen, indem Sie dieses Symbol auf die andere Anwendung ziehen und dort ablegen."
 		},
 		{
 			"id": "createpanoramatab.components.tonemapped",
@@ -7690,7 +7690,7 @@
 			"id": "projectionpanel.preset",
 			"machinetranslated": false,
 			"helptext": "Einige voreingestellte Projektionen.",
-			"morehelptext": "<br><br><b>@projectionpreset.spherical@:</b> Dies ist die Standardprojektion für sphärische Panoramen.<br><br><b>@projectionpreset.littleplanet@:</b> Dies verwendet die '@projection.stereographicdown@'-Projektion, die das Bild um den Nadir zentriert. Das resultierende Panorama sieht so aus, als wäre es auf einem kleinen Planeten aufgenommen worden, daher der Name.<br><br><b>@projectionpreset.cubeface@:</b> Projiziert das Panorama auf die Oberfläche eines Würfels."
+			"morehelptext": "<br><br><b>@projectionpreset.spherical@:</b> Dies ist die Standardprojektion für sphärische Panoramen.<br><br><b>@projectionpreset.littleplanet@:</b> Dies verwendet die '@projection.stereographicdown@'-Projektion, die das Bild um den Nadir zentriert. Das resultierende Panorama sieht aus, als wäre es auf einem kleinen Planeten aufgenommen worden, daher der Name.<br><br><b>@projectionpreset.cubeface@:</b> Projiziert das Panorama auf die Oberfläche eines Würfels."
 		},
 		{
 			"id": "panoramapreviewsettingspanel.exposure",
@@ -7954,12 +7954,12 @@
 		{
 			"id": "cptable.filterimage",
 			"machinetranslated": false,
-			"helptext": "Filtern Sie die Tabelle, dass nur die Kontrollpunkte der ausgewählten Bilder angezeigt werden."
+			"helptext": "Nur Kontrollpunkte der ausgewählten Bilder angezeigen."
 		},
 		{
 			"id": "cptable.filtertype",
 			"machinetranslated": false,
-			"helptext": "Filtern Sie die Tabelle, dass nur Kontrollpunkte eines bestimmten Typs angezeigt werden.",
+			"helptext": "Nur Kontrollpunkte eines bestimmten Typs angezeigen.",
 			"morehelptext": "<br><br>PTGui unterstützt 4 verschiedene Kontrollpunkttypen: '@cptable.normal@', '@cptable.horizontalline@', '@cptable.verticalline@' und '@cptable.line@'. Verwenden Sie diesen Filter, um nur Kontrollpunkte eines bestimmten Typs anzuzeigen."
 		},
 		{
@@ -8655,7 +8655,7 @@
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
 			"machinetranslated": false,
 			"helptext": "Füllt alle transparenten Bereiche im Panorama mit einer ähnlichen Farbe aus der Umgebung.",
-			"morehelptext": "<br><br>Wenn ausgewählt, werden alle transparenten Bereiche des Panoramas mit einem weichen Farbverlauf gefüllt. Dies können Sie zum Beispiel verwenden, um den Himmel oder den Boden des Panoramas auszufüllen, wenn Sie kein Nadir- oder Zenitbild aufgenommen haben.<br><br>Die Funktion können Sie auch in Verbindung mit dem @mainwindow.tabs.mask@-Werkzeug verwenden, um bestimmte Teile des Panoramas zu verwischen. Zum Beispiel, um Gesichter von Personen zu verwischen und sie unkenntlich zu machen oder um Staubflecken auf den Fotos zu entfernen."
+			"morehelptext": "<br><br>Wenn ausgewählt, werden alle transparenten Bereiche des Panoramas mit einem weichen Farbverlauf gefüllt. Dies können Sie zum Beispiel verwenden, um den Himmel oder den Boden des Panoramas auszufüllen, wenn Sie kein Nadir- oder Zenitbild aufgenommen haben.<br><br>Die Funktion können Sie auch in Verbindung mit dem @mainwindow.tabs.mask@-Werkzeug verwenden, um bestimmte Teile des Panoramas zu verwischen. Zum Beispiel, um Gesichter von Personen zu verwischen und sie so unkenntlich zu machen oder um Staubflecken auf den Fotos zu entfernen."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
@@ -8723,7 +8723,7 @@
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
 			"machinetranslated": false,
 			"helptext": "Legt die Genauigkeit der Berechnungen fest.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Alle Berechnungen werden in halber Genauigkeit mit 16-Bit-Gleitkommazahlen pro Kanal (64 Bit pro Pixel) durchgeführt.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Alle Berechnungen werden in voller Genauigkeit mit 32-Bit Gleitkommazahlen pro Kanal (128 Bit pro Pixel) durchgeführt.<br><br>In der Regel ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Blendenwerte oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel RAM-Speicher und temporären Speicherplatz auf dem Datenträger."
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> Alle Berechnungen werden mit halber Genauigkeit mit 16-Bit-Gleitkommazahlen pro Kanal (64 Bit pro Pixel) durchgeführt.<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> Alle Berechnungen werden mit voller Genauigkeit mit 32-Bit-Gleitkommazahlen pro Kanal (128 Bit pro Pixel) durchgeführt.<br><br>In der Regel ist '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' ausreichend. Nur bei der Arbeit mit Bildern mit extrem hohem Dynamikumfang (16 Blendenwerte oder mehr) kann die Verwendung von '@mainwindow.exposurehdrpanel.blenddatatype.float@' erforderlich sein, um ein Abschneiden der Glanzlichter zu verhindern. Die Verarbeitung dauert jedoch länger und erfordert doppelt so viel RAM-Speicher und temporären Speicherplatz auf dem Datenträger."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",

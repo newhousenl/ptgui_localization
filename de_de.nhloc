@@ -926,7 +926,7 @@
 		},
 		{
 			"id": "menubar.tools.openfolder",
-			"txt": "Ordner der Bilder öffnen"
+			"txt": "Ordner öffnen"
 		},
 		{
 			"id": "menubar.tools.openfolder.sourceimages",
@@ -4115,11 +4115,11 @@
 		},
 		{
 			"id": "focallengthdialog.alwaysusefor",
-			"txt": "Diese Daten immer für '%0' verwenden"
+			"txt": "Diese Daten immer für %0 verwenden"
 		},
 		{
 			"id": "lensdatabase.xony",
-			"txt": "%0 an %1"
+			"txt": "'%0' an '%1'"
 		},
 		{
 			"id": "lensdatabase.unknowncameranoexif",

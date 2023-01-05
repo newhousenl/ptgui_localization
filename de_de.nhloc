@@ -3447,11 +3447,11 @@
 		},
 		{
 			"id": "txt.genericfisheye",
-			"txt": "universelles Fischaugenobjektiv"
+			"txt": "generisches Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.genericxfisheye",
-			"txt": "universelles %0 Fischaugenobjektiv"
+			"txt": "generisches %0 Fischaugenobjektiv"
 		},
 		{
 			"id": "txt.runningx",
@@ -4115,11 +4115,11 @@
 		},
 		{
 			"id": "focallengthdialog.alwaysusefor",
-			"txt": "Diese Daten immer für %0 verwenden"
+			"txt": "Diese Daten immer für '%0' verwenden"
 		},
 		{
 			"id": "lensdatabase.xony",
-			"txt": "'%0' an '%1'"
+			"txt": "%0 an %1"
 		},
 		{
 			"id": "lensdatabase.unknowncameranoexif",
@@ -5572,12 +5572,12 @@
 		{
 			"id": "txt.genericrectilinearlens",
 			"machinetranslated": false,
-			"txt": "universelles rectilineares Objektiv"
+			"txt": "generisches rectilineares Objektiv"
 		},
 		{
 			"id": "txt.genericfisheyelens",
 			"machinetranslated": true,
-			"txt": "universelles Fischaugenobjektiv"
+			"txt": "generisches Fischaugenobjektiv"
 		},
 		{
 			"id": "options.gpuacceleration.crashwhileloadingopencldll",

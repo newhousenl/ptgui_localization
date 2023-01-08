@@ -2944,7 +2944,7 @@
 		{
 			"id": "options.defaultsettings.txt",
 			"format": "html",
-			"txt": "Sie suchen nach einer Möglichkeit, die Standardeinstellungen für PTGui-Projekte zu ändern, wie z.B. das Standard-Ausgabedateiformat? Dies ändern Sie mit der Funktion '@menubar.file.makedefault@' wie folgt:<br><br>- Starten Sie ein neues Projekt mit '@menubar.file@' | '@menubar.file.newproject@'<br>- Nehmen Sie die gewünschten Änderungen an den Standardeinstellungen vor<br>- Wählen Sie '@menubar.file@' | '@menubar.file.makedefault@'<br><br>Um alle Standardeinstellungen auf die PTGui-Standardeinstellungen zurückzusetzen, führen Sie '@menubar.file@' | '@menubar.file.resetdefault@' aus."
+			"txt": "Sie suchen nach einer Möglichkeit, die Standardeinstellungen für PTGui-Projekte zu ändern, wie z.B. das Standard-Ausgabedateiformat? Sie ändern sie mit der Funktion '@menubar.file.makedefault@' wie folgt:<br><br>- Starten Sie ein neues Projekt mit '@menubar.file@' | '@menubar.file.newproject@'<br>- Nehmen Sie die gewünschten Änderungen an den Standardeinstellungen vor<br>- Wählen Sie '@menubar.file@' | '@menubar.file.makedefault@'<br><br>Um alle Standardeinstellungen auf die PTGui-Standardeinstellungen zurückzusetzen, führen Sie '@menubar.file@' | '@menubar.file.resetdefault@' aus."
 		},
 		{
 			"id": "options.defaultfolders",
@@ -3411,7 +3411,7 @@
 		},
 		{
 			"id": "txt.optimizerresult.toogood",
-			"txt": "zu gut um wahr zu sein"
+			"txt": "zu gut, um wahr zu sein"
 		},
 		{
 			"id": "txt.optimizerresult.verygood",
@@ -4743,7 +4743,7 @@
 		},
 		{
 			"id": "warn.simplemodewillchangesettings",
-			"txt": "Einige der Fortgeschrittenen-Einstellungen dieses Projekts wurden geändert. Mit dem Zurückschalten in den einfachen Modus werden alle Fortgeschrittenen-Einstellungen auf ihre Standardwerte zurückgesetzt. Möchten Sie fortfahren?"
+			"txt": "Einige der Fortgeschrittenen-Einstellungen dieses Projekts wurden geändert. Mit dem Zurückschalten in den einfachen Modus werden alle Fortgeschrittenen-Einstellungen auf ihre Standardwerte zurückgesetzt.\n\nMöchten Sie fortfahren?"
 		},
 		{
 			"id": "warn.tempcopytobatchstitcherwillnotsavegeneratecps",
@@ -7006,7 +7006,7 @@
 			"id": "exposurehdrtab.cameracurvegraph",
 			"machinetranslated": false,
 			"helptext": "Kamera-Kurve",
-			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert den Pixelwert, auf der linken Seite einen Pixelwert von 0 und die rechte Seite den maximalen Pixelwert (z.B. 255 für ein 8-Bit-Bild).<br><br>Die vertikale Achse zeigt die Lichtintensität. Dies wird in EV gezeigt, also ist dies im logarithmischen Maßstab.<br><br>Die Kamera-Kurve wird benötigt, um Belichtungs- und Vignettierungskorrekturen durchzuführen. Diese Korrekturen müssen auf die tatsächlichen Lichtintensitäten angewendet werden, nicht auf Pixelwerte."
+			"morehelptext": "<br><br>Diese Kurve zeigt die Abbildung von echten Lichtintensitäten auf Pixelwerte. Die horizontale Achse repräsentiert den Pixelwert, auf der linken Seite einen Pixelwert von 0 und die rechte Seite den maximalen Pixelwert (z.B. 255 für ein 8-Bit-Bild).<br><br>Die vertikale Achse zeigt die Lichtintensität in EV, also im logarithmischen Maßstab.<br><br>Die Kamera-Kurve wird benötigt, um Belichtungs- und Vignettierungskorrekturen durchzuführen. Diese Korrekturen müssen auf die tatsächlichen Lichtintensitäten angewendet werden, nicht auf Pixelwerte."
 		},
 		{
 			"id": "exposurehdrtab.exposureoffset",
@@ -7258,7 +7258,7 @@
 			"id": "createpanoramatab.ldrfileformat",
 			"machinetranslated": false,
 			"helptext": "Dateiformat des fertigen Panoramas. <optional product='pro'>Bei HDR-Panoramen das Dateiformat, das für das LDR-Format verwendet wird.</optional>",
-			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikumfang (8 Bit pro Kanal). Transparenz wird nicht unterstützt, leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität. Geeignet für das Web-Publishing. Soll das Bild gedruckt oder in einem Bildeditor nachbearbeitet werden, ist eines der anderen Formate mit 16 Bit pro Kanal besser geeignet.<br><br><b>TIFF:</b> Ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit-Gleitkomma unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, PTGui verwendet aber automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF unterstützt dies 8 und 16 Bit pro Ausgabekanal <optional product='pro'>(und 32-Bit-Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei erstellen, die das überblendete Panorama und die verzerrten Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. In der Regel ist das .psb-Format die bessere Wahl, da es keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als veraltetes Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von '@menubar.tools@' | '@menubar.tools.publishtowebsite@' ein erstelltes Panorama auf einer HTML5-Webseite veröffentlichen."
+			"morehelptext": "<br><br>PTGui unterstützt die folgenden Dateiformate:<br><br><b>JPEG:</b> Das am häufigsten verwendete Bildformat. Begrenzter Dynamikumfang (8 Bit pro Kanal). Transparenz wird nicht unterstützt, leere Teile des Panoramas werden schwarz dargestellt. Begrenzt auf 65000 Pixel Breite und Höhe. Verlustbehaftete Komprimierung mit konfigurierbarer Qualität. Geeignet für das Web-Publishing. Soll das Bild gedruckt oder in einem Bildeditor nachbearbeitet werden, ist eines der anderen Formate mit 16 Bit pro Kanal besser geeignet.<br><br><b>TIFF:</b> Ein vielseitiges Bildformat, das viele Optionen unterstützt. PTGui kann TIFF-Dateien mit 8 oder 16 Bit pro Kanal ausgeben. <optional product='pro'>Für HDR-Panoramen wird auch 32-Bit-Gleitkomma unterstützt.</optional> Die Komprimierung verringert die Dateigröße und ist verlustfrei (die Bildqualität wird nicht beeinträchtigt). Traditionelles TIFF ist auf 4 GB pro Datei beschränkt, PTGui verwendet aber automatisch den BigTIFF-Dialekt, wenn die Datei größer wird. Diese großen Dateien können nur in Anwendungen gelesen werden, die BigTIFF unterstützen. Das TIFF-Format unterstützt Transparenz.<br><br><b>Photoshop (.psd und .psb):</b> Wie TIFF unterstützten die Photoshop-Formate 8 und 16 Bit pro Ausgabekanal <optional product='pro'>(und 32-Bit-Gleitkomma für HDR)</optional> mit Transparenz und verlustfreier Komprimierung. Der Hauptvorteil des Photoshop-Formats ist die Ausgabe mit Ebenen. PTGui kann eine einzelne Datei erstellen, die das überblendete Panorama und die verzerrten Quellbilder in separaten Ebenen enthält. Dies erleichtert das Retuschieren des Panoramas in Photoshop. Das .psd-Format ist das klassische Photoshop-Dateiformat, das auf 30000 Pixel Breite und Höhe beschränkt ist. Dies ist aus Gründen der Abwärtskompatibilität vorgesehen. In der Regel ist das .psb-Format die bessere Wahl, da es keine Größenbeschränkungen hat (obwohl Photoshop selbst keine Dateien öffnen kann, die breiter als 600000 Pixel sind).<br><br><b>QuickTime VR:</b> QTVR war ein spezieller Dialekt in Apples QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Leider hat Apple die QTVR-Unterstützung von QuickTime komplett entfernt und das QuickTime-Browser-Plugin wurde eingestellt. QTVR sollte daher als veraltetes Format betrachtet werden. Die moderne Alternative für die Veröffentlichung von Panoramen im Web ist HTML5. PTGui kann mit Hilfe von '@menubar.tools@' | '@menubar.tools.publishtowebsite@' ein erstelltes Panorama auf einer HTML5-Webseite veröffentlichen."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -7473,7 +7473,7 @@
 			"machinetranslated": false,
 			"label": "Im externen Viewer öffnen",
 			"helptext": "Erstellt einen Screenshot des Panorama-Editors und öffnet diesen in einem externen Viewer.",
-			"morehelptext": "<br><br>Nützlich für eine interaktive Vorschau eines sphärischen Panoramas im @ptguiviewer@. Ein Screenshot des Panorama-Editors wird in der aktuell angezeigten Größe erstellt. PTGui fragt Sie, in welcher Anwendung das Bild geöffnet werden soll. Zusätzliche Anwendungen können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren.<br><br>Beachten Sie, dass dies zwar eine schnelle, aber nur geringe Auflösung in der Vorschau bietet. Für eine Vorschau in höherer Qualität verwenden Sie stattdessen die Registerkarte '@menubar.project.preview@' im Hauptfenster."
+			"morehelptext": "<br><br>Nützlich für eine interaktive Vorschau eines sphärischen Panoramas im @ptguiviewer@. Es wird ein Screenshot des Panorama-Editors in der aktuell angezeigten Größe erstellt. PTGui fragt Sie, in welcher Anwendung das Bild geöffnet werden soll. Zusätzliche Anwendungen können Sie in '@optionspreferences@' | '@options.foldersandfileshtml@' konfigurieren.<br><br>Beachten Sie, dass diese Funktion zwar eine schnelle, aber nur geringe Auflösung für die Vorschau bietet. Für eine Vorschau in höherer Qualität verwenden Sie stattdessen die Registerkarte '@menubar.project.preview@' im Hauptfenster."
 		},
 		{
 			"id": "panoeditor.toolbar.blended",
@@ -7635,7 +7635,7 @@
 		{
 			"id": "exposurefusionsettings.boostshadows",
 			"machinetranslated": false,
-			"helptext": "Hellt zusätzlich die Schatten auf. Dies wird auch das Bildrauschen verstärken."
+			"helptext": "Hellt zusätzlich die Schatten auf. Bildrauschen wird ggf. auch verstärkt."
 		},
 		{
 			"id": "exposurefusionsettings.reducelights",
@@ -8432,7 +8432,7 @@
 		{
 			"id": "options.cpeditor.zoomersize",
 			"machinetranslated": false,
-			"helptext": "Abmessungen des schwebenden Vergrößerungsfensters auf der Registerkarte '@mainwindow.tabs.controlpoints@'. Beachten Sie, dass dies in Quellbildpixeln gemessen wird. Die tatsächliche Größe auf dem Bildschirm hängt auch vom Vergrößerungsfaktor ab."
+			"helptext": "Abmessungen des schwebenden Vergrößerungsfensters auf der Registerkarte '@mainwindow.tabs.controlpoints@'. Beachten Sie, dass der Wert in Quellbildpixeln gemessen wird. Die tatsächliche Größe auf dem Bildschirm hängt auch vom Vergrößerungsfaktor ab."
 		},
 		{
 			"id": "options.cpeditor.zoomermagnification",
@@ -8516,12 +8516,12 @@
 			"id": "options.advanced.maxram",
 			"machinetranslated": false,
 			"helptext": "Die maximale Menge an RAM, die von PTGui verwendet wird. Verwenden Sie '@options.automatic@' oder legen Sie einen Wert fest, der deutlich unter dem auf dem Computer installierten RAM-Speicher liegt.",
-			"morehelptext": "<br><br>Während des Erstellens des Panoramas und während der Arbeit an einem Projekt speichert PTGui viele temporäre Daten. Anfangs speichert PTGui temporäre Daten im RAM-Speicher. Nur wenn die Speicherauslastung den hier festgelegten Wert erreicht, werden temporäre Daten in temporäre Dateien geschrieben. Da der Zugriff auf Dateien wesentlich langsamer ist als der Zugriff auf RAM, erhöht die Verwendung von mehr RAM die Leistung bis zu einem gewissen Grad. Achten Sie aber darauf, PTGui nicht zu viel RAM zuzuweisen, da das Betriebssystem sonst andere aktive Anwendungen auf den Datenträger kopiert. Wenn Ihr Computer beim Arbeiten mit PTGui stockt, bedeutet dies normalerweise, PTGui versucht mehr RAM zu verwenden, als verfügbar ist. In diesem Fall kann es helfen, diesen Wert zu reduzieren. Mit '@options.automatic@' verwendet PTGui einen Standardwert."
+			"morehelptext": "<br><br>Während des Erstellens des Panoramas und während der Arbeit an einem Projekt speichert PTGui viele temporäre Daten. Anfangs speichert PTGui temporäre Daten im RAM-Speicher. Nur wenn die Speicherauslastung den hier festgelegten Wert erreicht, werden temporäre Daten in temporäre Dateien geschrieben. Da der Zugriff auf Dateien wesentlich langsamer ist als der Zugriff auf RAM, erhöht die Verwendung von mehr RAM die Leistung bis zu einem gewissen Grad. Achten Sie aber darauf, PTGui nicht zu viel RAM zuzuweisen, da das Betriebssystem sonst andere aktive Anwendungen auf den Datenträger kopiert. Wenn Ihr Computer beim Arbeiten mit PTGui stockt, bedeutet dies in der Regel, PTGui versucht mehr RAM zu verwenden, als verfügbar ist. In diesem Fall kann es helfen, diesen Wert zu reduzieren. Mit '@options.automatic@' verwendet PTGui einen Standardwert."
 		},
 		{
 			"id": "options.advanced.automaxram",
 			"machinetranslated": false,
-			"helptext": "Automatisch einen geeigneten Wert für die maximale Größe des zu verwendenden RAM wählen. Deaktivieren Sie diese Option, wenn Sie dies überschreiben möchten."
+			"helptext": "Automatisch einen geeigneten Wert für die maximale Größe des zu verwendenden RAM wählen. Deaktivieren Sie diese Option, wenn Sie den Wert manuell konfigurieren möchten."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.enabled",
@@ -8591,7 +8591,7 @@
 		{
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
 			"machinetranslated": false,
-			"helptext": "Wenn OpenCL während der Verwendung abstürzt, fragt PTGui nach dem Neustart, ob die GPU-Beschleunigung deaktiviert werden soll. Aktivieren Sie dieses Kontrollkästchen, wenn PTGui dies nicht mehr fragen soll."
+			"helptext": "Wenn OpenCL während der Verwendung abstürzt, fragt PTGui nach dem Neustart, ob die GPU-Beschleunigung deaktiviert werden soll. Aktivieren Sie dieses Kontrollkästchen, wenn PTGui  nicht mehr danach fragen soll."
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",

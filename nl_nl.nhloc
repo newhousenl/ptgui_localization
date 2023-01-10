@@ -5469,6 +5469,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@:"
+		},
+		{
 			"id": "jpegquality",
 			"txt": "JPEG-kwaliteit:"
 		},

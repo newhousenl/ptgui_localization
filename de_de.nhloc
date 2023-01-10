@@ -5484,6 +5484,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "Blickwinkel:"
+		},
+		{
 			"id": "jpegquality",
 			"txt": "JPEG-Qualität:"
 		},

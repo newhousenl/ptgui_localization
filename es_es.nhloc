@@ -1627,7 +1627,7 @@
 			"id": "mainwindow.projectassistant.bracketedexposuresmessage",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "Se detectaron exposiciones entre paréntesis: <a href=0>habilite el modo HDR</a> o <a href=1>no HDR</a>"
+			"txt": "Se detectaron exposiciones horquilladas: <a href=0>habilite el modo HDR</a> o <a href=1>no HDR</a>"
 		},
 		{
 			"id": "mainwindow.projectassistant.createpanorama",
@@ -5965,12 +5965,12 @@
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
 			"machinetranslated": true,
-			"txt": "El proyecto parece contener conjuntos %0 de imágenes de horquillado %1. Que te gustaría hacer?"
+			"txt": "El proyecto parece contener %0 conjuntos de %1 exposiciones horquilladas. Que te gustaría hacer?"
 		},
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "No se encontraron conjuntos de exposición HDR.\n\nPara usar esta función, las imágenes en el proyecto deben tener una secuencia de horquillado de exposición repetida. Los tiempos de exposición deben seguir una secuencia de repetición, por ejemplo 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nCuando tome imágenes de horquillado, asegúrese de configurar la cámara en modo manual (el modo 'M' en el dial de la cámara). Si las exposiciones entre paréntesis se toman en el modo de exposición automática (comúnmente denominado 'P', 'Av' o 'Tv'), la cámara ajustará los tiempos de exposición entre tomas. PTGui solo puede crear panoramas HDR a partir de imágenes tomadas en modo de exposición manual."
+			"txt": "No se encontraron conjuntos de exposición HDR.\n\nPara usar esta función, las imágenes en el proyecto deben tener una secuencia de horquillado de exposición repetida. Los tiempos de exposición deben seguir una secuencia de repetición, por ejemplo 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nCuando tome imágenes de horquillado, asegúrese de configurar la cámara en modo manual (el modo 'M' en el dial de la cámara). Si las exposiciones horquilladas se toman en el modo de exposición automática (comúnmente denominado 'P', 'Av' o 'Tv'), la cámara ajustará los tiempos de exposición entre tomas. PTGui solo puede crear panoramas HDR a partir de imágenes tomadas en modo de exposición manual."
 		},
 		{
 			"id": "txt.confirmoverwrite.one",
@@ -8466,12 +8466,6 @@
 			"helptext": "Ejecuta la función '@mainwindow.exposurehdrpanel.optimizenow@' en la pestaña @mainwindow.tabs.exposurehdr@, para calibrar el viñeteado y la optimización de la exposición."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "Ajustes por defecto cuando se detectan imágenes de horquillado.",
-			"morehelptext": "<br><br>Controla la configuración predeterminada de la ventana emergente que aparece cuando se ejecuta '@alignimages@' en imágenes de horquillado.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@: las</b> imágenes en el mismo conjunto de imágenes de horquillado se vincularán. Las imágenes vinculadas se ven obligadas a tener el mismo @yaw@ / @pitch@ / @roll@ y otras configuraciones, por lo que se superponen píxel a píxel. En la pestaña @mainwindow.tabs.exposurehdr@, se seleccionará '@mainwindow.exposurehdrpanel.hdrenabled@'. Utilice esta opción si se usó un trípode estable al disparar.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@: las</b> imágenes no se vincularán, cada imagen del conjunto de imágenes de horquillado tendrá su propio ángulo @yaw@ / @pitch@ / @roll@. En la pestaña @mainwindow.tabs.exposurehdr@, se seleccionará '@mainwindow.exposurehdrpanel.hdrenabled@'. Use esto si las imágenes de horquillado no se superponen exactamente, por ejemplo, cuando se dispara con la mano.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore el hecho de que se detectaron imágenes de horquillado, trate las imágenes como un panorama no HDR. En la pestaña @mainwindow.tabs.exposurehdr@, se seleccionará '@mainwindow.exposurehdrpanel.hdrdisabled@'."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"machinetranslated": true,
 			"helptext": "Si se deselecciona, la configuración configurada anteriormente se preseleccionará cuando se ejecute '@alignimages@', pero aún se solicitará confirmación."
@@ -8496,7 +8490,7 @@
 			"id": "projectsettingstab.filenaming.projectfile",
 			"machinetranslated": true,
 			"helptext": "Esta sección configura el nombre predeterminado y la ubicación de los nuevos archivos de proyecto.",
-			"morehelptext": "<br><br>Esto determina el nombre de archivo sugerido por defecto al guardar un nuevo proyecto. Además, el generador de lotes utilizará esta denominación al guardar los proyectos generados.<br><br>Si el nombre del archivo resultante ya existe, se agrega automáticamente un número entre paréntesis, por ejemplo: Panorama (1) .pts"
+			"morehelptext": "<br><br>Esto determina el nombre de archivo sugerido por defecto al guardar un nuevo proyecto. Además, el generador de lotes utilizará esta denominación al guardar los proyectos generados.<br><br>Si el nombre del archivo resultante ya existe, se agrega automáticamente un número entre paréntesis, por ejemplo: Panorama (1).pts"
 		},
 		{
 			"id": "projectsettingstab.filenaming.outputfile",
@@ -10071,13 +10065,13 @@
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
 			"machinetranslated": true,
 			"helptext": "Habilitar Exposición Fusion para imágenes sin corchetes",
-			"morehelptext": "<br><br>Normalmente, Exposure Fusion se usa para combinar múltiples muestras entre paréntesis en una sola imagen con un rango dinámico reducido. Pero PTGui también puede usar la fusión de exposición en imágenes individuales, creando copias artificiales más oscuras y brillantes de la misma imagen. Esto aumenta los detalles visibles en las sombras y los resaltados, de forma similar al mapeo de tonos."
+			"morehelptext": "<br><br>Normalmente, Exposure Fusion se usa para combinar múltiples exposiciones horquilladas en una sola imagen con un rango dinámico reducido. Pero PTGui también puede usar la fusión de exposición en imágenes individuales, creando copias artificiales más oscuras y brillantes de la misma imagen. Esto aumenta los detalles visibles en las sombras y los resaltados, de forma similar al mapeo de tonos."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
 			"machinetranslated": true,
 			"helptext": "Combine exposiciones con bracketing utilizando Exposure Fusion",
-			"morehelptext": "<br><br>Exposure Fusion se usa para combinar múltiples muestras entre paréntesis en una sola imagen con un rango dinámico reducido. También es posible usar Exposure Fusion en imágenes individuales sin corchetes, creando copias artificiales más oscuras y brillantes de la misma imagen. Esto aumenta los detalles visibles en las sombras y los resaltados, de forma similar al mapeo de tonos."
+			"morehelptext": "<br><br>Exposure Fusion se usa para combinar múltiples exposiciones horquilladas en una sola imagen con un rango dinámico reducido. También es posible usar Exposure Fusion en imágenes individuales sin corchetes, creando copias artificiales más oscuras y brillantes de la misma imagen. Esto aumenta los detalles visibles en las sombras y los resaltados, de forma similar al mapeo de tonos."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -10127,7 +10121,7 @@
 			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
 			"machinetranslated": true,
 			"helptext": "Los planos de mezcla no se generan porque las imágenes de origen con bracketing se fusionan primero con HDR y luego se unen.",
-			"morehelptext": "<br><br>PTGui puede procesar exposiciones entre paréntesis de dos maneras diferentes. Los planos de mezcla se generan solo si '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' está configurado en la pestaña @mainwindow.tabs.exposurehdr@. Para obtener más información, consulte la información sobre herramientas para esta configuración en la pestaña @mainwindow.tabs.exposurehdr@."
+			"morehelptext": "<br><br>PTGui puede procesar exposiciones horquilladas de dos maneras diferentes. Los planos de mezcla se generan solo si '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' está configurado en la pestaña @mainwindow.tabs.exposurehdr@. Para obtener más información, consulte la información sobre herramientas para esta configuración en la pestaña @mainwindow.tabs.exposurehdr@."
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
@@ -10281,6 +10275,12 @@
 			"machinetranslated": true,
 			"helptext": "Controla si la curva de respuesta de la cámara se copia de la plantilla.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> todas las curvas de respuesta de la cámara se copian del proyecto de plantilla y los campos @mainwindow.imageparameters.cameracurve@ de la pestaña @mainwindow.tabs.imageparameters@ se copian de la plantilla.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> las curvas de respuesta de la cámara se copian de la plantilla y los campos @mainwindow.imageparameters.cameracurve@ de la pestaña @mainwindow.tabs.imageparameters@ se copian, excepto las imágenes RAW. Para imágenes RAW, el campo @mainwindow.imageparameters.cameracurve@ en la pestaña @mainwindow.tabs.imageparameters@ permanecerá establecido en @txt.cameracurve.linear@ incluso si la plantilla usa una curva de cámara optimizada. Esta es la configuración recomendada; se asegurará de que la misma plantilla se pueda usar para imágenes RAW y regulares.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> la configuración de la curva de respuesta de la cámara en el proyecto de destino no se modificará."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Ajustes predeterminados cuando se detectan exposiciones horquilladas.",
+			"morehelptext": "<br><br>Controla la configuración predeterminada de la ventana emergente que aparece cuando se ejecuta '@alignimages@' en exposiciones horquilladas.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> las exposiciones horquilladas se combinan (para formar un panorama HDR). Además, las imágenes en cada conjunto entre corchetes deben tener la misma configuración @yaw@ / @pitch@ / @roll@ marcando las casillas de verificación @mainwindow.imageparameters.linked@ en la pestaña @mainwindow.tabs.imageparameters@. Utilice esta opción si se utilizó un trípode estable durante la filmación.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> las imágenes entre corchetes se combinan para formar un panorama HDR, pero las casillas de verificación @mainwindow.imageparameters.linked@ en la pestaña @mainwindow.tabs.imageparameters@ no están marcadas. Esto significa que cada imagen tendrá su propio ángulo @yaw@ / @pitch@ / @roll@. Úselo si las exposiciones entre corchetes no se superponen exactamente, por ejemplo, al disparar cámara en mano.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore el hecho de que se detectaron exposiciones horquilladas. Las imágenes no se combinan y no se genera ningún panorama HDR."
 		}
 	],
 	"helppages": [

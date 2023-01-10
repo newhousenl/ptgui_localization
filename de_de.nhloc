@@ -6090,12 +6090,12 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": false,
 			"txt": "Masken verschieben Schnittkanten"
-        },
+		},
 		{
 			"id": "options.monitorcolorprofile",
 			"machinetranslated": false,
 			"txt": "Farbprofil des Bildschirms:"
-        },
+		},
 		{
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": false,
@@ -7511,7 +7511,7 @@
 			"machinetranslated": false,
 			"label": "Immer im Vordergrund",
 			"helptext": "Der Panorama-Editor bleibt immer über allen anderen Fenstern im Vordergrund."
-},
+		},
 		{
 			"id": "panoeditor.gridbutton",
 			"machinetranslated": false,
@@ -8890,8 +8890,8 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": false,
 			"helptext": "Schnittkanten entfernt von maskierten Bereichen platzieren.",
-            "morehelptext": "<br><br>Wenn ausgewählt, werden Schnittkanten in einem gewissem Abstand zu roten und grünen Masken platziert. Wenn nicht ausgewählt, bleiben die Schnittkanten nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den Überblendalgorithmus '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist." 
-        },
+			"morehelptext": "<br><br>Wenn ausgewählt, werden Schnittkanten in einem gewissem Abstand zu roten und grünen Masken platziert. Wenn nicht ausgewählt, bleiben die Schnittkanten nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den Überblendalgorithmus '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist."
+		},
 		{
 			"id": "options.monitorcolorprofile",
 			"machinetranslated": false,

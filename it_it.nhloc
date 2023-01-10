@@ -1849,12 +1849,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.infolinked",
 			"format": "html",
-			"txt": "Le esposizioni tra parentesi sono collegate; le esposizioni collegate saranno sovrapposte rigidamente. Se le immagini non sono state prese da un treppiede, è meglio <a href=0>scollegare</a> le immagini. In tal caso PTGui tenterà di allineare tra loro le esposizioni a forcella."
+			"txt": "Le esposizioni con bracketing sono collegate; le esposizioni collegate saranno sovrapposte rigidamente. Se le immagini non sono state prese da un treppiede, è meglio <a href=0>scollegare</a> le immagini. In tal caso PTGui tenterà di allineare tra loro le esposizioni a forcella."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.infounlinked",
 			"format": "html",
-			"txt": "Le esposizioni tra parentesi non sono collegate; PTGui tenterà di allineare le singole esposizioni a forcella. Se le immagini sono state prese da un treppiede, è possibile <a href=0>collegare le esposizioni a forcella</a> ."
+			"txt": "Le esposizioni con bracketing non sono collegate; PTGui tenterà di allineare le singole esposizioni a forcella. Se le immagini sono state prese da un treppiede, è possibile <a href=0>collegare le esposizioni a forcella</a> ."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numblendplanesinfo",
@@ -5680,7 +5680,7 @@
 		{
 			"id": "txt.confirmlinkhdrsets",
 			"machinetranslated": true,
-			"txt": "Il progetto sembra contenere %0 serie di %1 esposizioni in bracketing. Vorresti collegare le posizioni delle esposizioni a forcella e trattare ogni insieme come una singola immagine?\n\nCiò richiede che le esposizioni tra parentesi siano già allineate con la precisione dei pixel. Fallo solo se è stato utilizzato un treppiede. Se le immagini sono state scattate senza utilizzare un treppiede, scegliere @cancel@."
+			"txt": "Il progetto sembra contenere %0 serie di %1 esposizioni in bracketing. Vorresti collegare le posizioni delle esposizioni a forcella e trattare ogni insieme come una singola immagine?\n\nCiò richiede che le esposizioni con bracketing siano già allineate con la precisione dei pixel. Fallo solo se è stato utilizzato un treppiede. Se le immagini sono state scattate senza utilizzare un treppiede, scegliere @cancel@."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
@@ -6753,7 +6753,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
 			"machinetranslated": true,
-			"txt": "Unisci le immagini tra parentesi su HDR, quindi fonde"
+			"txt": "Unisci le immagini con bracketing su HDR, quindi fonde"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
@@ -7197,7 +7197,7 @@
 		{
 			"id": "menubar.images.linkbracketed",
 			"machinetranslated": true,
-			"helptext": "Rileva le esposizioni tra parentesi e collegale."
+			"helptext": "Rileva le esposizioni con bracketing e collegale."
 		},
 		{
 			"id": "menubar.images.reverseorder",
@@ -8055,12 +8055,6 @@
 			"helptext": "Esegue la funzione '@mainwindow.exposurehdrpanel.optimizenow@' nella scheda @mainwindow.tabs.exposurehdr@, per calibrare la vignettatura e l'ottimizzazione dell'esposizione."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "Impostazioni predefinite quando vengono rilevate esposizioni a forcella.",
-			"morehelptext": "<br><br>Controlla l'impostazione predefinita della finestra popup che appare quando si esegue '@alignimages@' su esposizioni a forcella.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@: le</b> immagini dello stesso set di esposizioni a parentesi saranno collegate. Le immagini collegate sono forzate ad avere lo stesso @yaw@ / @pitch@ / @roll@ e altre impostazioni, quindi si sovrappongono pixel per pixel. Nella scheda @mainwindow.tabs.exposurehdr@, verrà selezionato '@mainwindow.exposurehdrpanel.hdrenabled@'. Utilizzare questa opzione se è stato utilizzato un treppiede stabile durante le riprese.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@: le</b> immagini non saranno collegate, ogni immagine nel set di esposizioni a forcella avrà il proprio angolo @yaw@ / @pitch@ / @roll@. Nella scheda @mainwindow.tabs.exposurehdr@, verrà selezionato '@mainwindow.exposurehdrpanel.hdrenabled@'. Utilizzare questo se le esposizioni a forcella non si sovrappongono esattamente, ad esempio quando si riprende a mano.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignorare il fatto che sono state rilevate esposizioni con <b>bracketing</b> , trattare le immagini come un panorama non HDR. Nella scheda @mainwindow.tabs.exposurehdr@, verrà selezionato '@mainwindow.exposurehdrpanel.hdrdisabled@'."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"machinetranslated": true,
 			"helptext": "Se deselezionato, l'impostazione configurata sopra verrà preselezionata quando si esegue '@alignimages@', ma verrà comunque richiesta la conferma."
@@ -8085,7 +8079,7 @@
 			"id": "projectsettingstab.filenaming.projectfile",
 			"machinetranslated": true,
 			"helptext": "Questa sezione configura il nome e la posizione predefiniti dei nuovi file di progetto.",
-			"morehelptext": "<br><br>Questo determina il nome del file suggerito per impostazione predefinita quando si salva un nuovo progetto. Anche il Batch Builder userà questa denominazione per salvare i progetti generati.<br><br>Se il nome del file risultante esiste già, viene aggiunto automaticamente un numero tra parentesi, ad esempio Panorama (1) .pts"
+			"morehelptext": "<br><br>Questo determina il nome del file suggerito per impostazione predefinita quando si salva un nuovo progetto. Anche il Batch Builder userà questa denominazione per salvare i progetti generati.<br><br>Se il nome del file risultante esiste già, viene aggiunto automaticamente un numero tra parentesi, ad esempio Panorama (1).pts"
 		},
 		{
 			"id": "projectsettingstab.filenaming.outputfile",
@@ -8133,7 +8127,7 @@
 			"id": "projectsettingstab.templatebehavior.linkimages",
 			"machinetranslated": true,
 			"helptext": "Controlla se e in che modo il collegamento delle immagini è interessato quando si applica questo progetto come modello.",
-			"morehelptext": "<br><br>Per i panorami HDR è possibile collegare esposizioni con bracketing. Le immagini collegate sono forzate ad avere gli stessi parametri dell'immagine, in modo che siano trattate efficacemente come una singola immagine. Quando si applica un modello è possibile che le esposizioni tra parentesi nel progetto di destinazione non siano ancora collegate o che il progetto di destinazione abbia un diverso numero di esposizioni a parentesi rispetto al progetto di modello.<br><br>Pertanto, PTGui Pro può modificare il collegamento delle immagini quando si applica un modello. Questa impostazione influisce anche su Batch Builder: le immagini sono collegate in base a questa impostazione durante la generazione di file di progetto.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b> collega le immagini nel progetto di destinazione esattamente come nel progetto di modello (ovvero supponiamo che le immagini nel progetto di destinazione abbiano lo stesso numero di esposizioni a forcella).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b> rileva le esposizioni tra parentesi cercando sequenze ripetute nei parametri di esposizione delle immagini sorgente. Esegue la funzione @menubar.images.linkbracketed@ - @menubar.images.linkbracketed@.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b> mantieni il progetto target così com'è.<br><br>Dopo aver collegato le immagini, le impostazioni del modello vengono applicate al progetto di destinazione per ciascun gruppo di immagini collegate. Il numero di esposizioni tra parentesi potrebbe essere diverso nel modello e nel progetto di destinazione."
+			"morehelptext": "<br><br>Per i panorami HDR è possibile collegare esposizioni con bracketing. Le immagini collegate sono forzate ad avere gli stessi parametri dell'immagine, in modo che siano trattate efficacemente come una singola immagine. Quando si applica un modello è possibile che le esposizioni con bracketing nel progetto di destinazione non siano ancora collegate o che il progetto di destinazione abbia un diverso numero di esposizioni a parentesi rispetto al progetto di modello.<br><br>Pertanto, PTGui Pro può modificare il collegamento delle immagini quando si applica un modello. Questa impostazione influisce anche su Batch Builder: le immagini sono collegate in base a questa impostazione durante la generazione di file di progetto.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.asintemplate@:</b> collega le immagini nel progetto di destinazione esattamente come nel progetto di modello (ovvero supponiamo che le immagini nel progetto di destinazione abbiano lo stesso numero di esposizioni a forcella).<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.autolink@:</b> rileva le esposizioni con bracketing cercando sequenze ripetute nei parametri di esposizione delle immagini sorgente. Esegue la funzione @menubar.images.linkbracketed@ - @menubar.images.linkbracketed@.<br><br><b>@mainwindow.projectsettings.templatebehavior.linkimages.dontchange@:</b> mantieni il progetto target così com'è.<br><br>Dopo aver collegato le immagini, le impostazioni del modello vengono applicate al progetto di destinazione per ciascun gruppo di immagini collegate. Il numero di esposizioni con bracketing potrebbe essere diverso nel modello e nel progetto di destinazione."
 		},
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
@@ -9597,7 +9591,7 @@
 			"id": "exposurehdrtab.noisefloor",
 			"machinetranslated": true,
 			"helptext": "Compensa il rumore dell'immagine nelle immagini di origine quando si unisce a HDR.",
-			"morehelptext": "<br><br>Quando si combinano immagini tra parentesi in HDR, PTGui prende i pixel &quot;migliori&quot; da ciascuna immagine sorgente sovrapposta. Per tutte le immagini ad eccezione dell'immagine più lunga esposta, i pixel al di sotto di una certa luminosità vengono ignorati, poiché quei pixel scuri potrebbero essere disturbi dell'immagine. Questo cursore imposta la soglia per scartare quei pixel rumorosi. Se le immagini sorgente sono rumorose (ad es. Scattate a valori ISO elevati) e il rumore diventa visibile nel panorama HDR, spostare il cursore verso destra fino a quando il rumore scompare. Tuttavia, ciò potrebbe aumentare gli artefatti HDR intorno agli oggetti in movimento, quindi per ottenere i migliori risultati spostare il dispositivo di scorrimento il più a sinistra possibile finché non viene visualizzato il rumore. Il risultato può essere osservato nel Visualizzatore dettagli.<br><br>Il rumore dell'immagine potrebbe essere ancora visibile in alcune parti del panorama che sono nere anche nell'esposizione più luminosa. Per ridurre il rumore, è necessario aggiungere più immagini tra parentesi a tempi di esposizione più lunghi."
+			"morehelptext": "<br><br>Quando si combinano immagini con bracketing in HDR, PTGui prende i pixel &quot;migliori&quot; da ciascuna immagine sorgente sovrapposta. Per tutte le immagini ad eccezione dell'immagine più lunga esposta, i pixel al di sotto di una certa luminosità vengono ignorati, poiché quei pixel scuri potrebbero essere disturbi dell'immagine. Questo cursore imposta la soglia per scartare quei pixel rumorosi. Se le immagini sorgente sono rumorose (ad es. Scattate a valori ISO elevati) e il rumore diventa visibile nel panorama HDR, spostare il cursore verso destra fino a quando il rumore scompare. Tuttavia, ciò potrebbe aumentare gli artefatti HDR intorno agli oggetti in movimento, quindi per ottenere i migliori risultati spostare il dispositivo di scorrimento il più a sinistra possibile finché non viene visualizzato il rumore. Il risultato può essere osservato nel Visualizzatore dettagli.<br><br>Il rumore dell'immagine potrebbe essere ancora visibile in alcune parti del panorama che sono nere anche nell'esposizione più luminosa. Per ridurre il rumore, è necessario aggiungere più immagini con bracketing a tempi di esposizione più lunghi."
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
@@ -9641,26 +9635,26 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
-			"helptext": "Configura come vengono gestite le esposizioni tra parentesi.",
-			"morehelptext": "<br><br>Le esposizioni tra parentesi possono essere elaborate in due modi:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui per prima cosa combina ogni serie di esposizioni tra parentesi in un'immagine HDR (o le combina usando Fusion esposizione). Quindi, le immagini combinate vengono unite in un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@: vengono creati i</b> primi &quot;piani di fusione&quot;. Un piano di fusione è il panorama completo a un livello di esposizione (ovvero tutte le immagini scattate con tempi di esposizione, apertura e ISO identici). Infine, i piani di fusione separati vengono combinati in un'immagine HDR o in un'immagine fusa con l'esposizione. Questo metodo deve essere utilizzato solo per i panorami acquisiti nella modalità di esposizione manuale. Richiede che l'intero panorama sia completamente coperto ad ogni livello di esposizione.<br><br><b>@options.automatic@:</b> sceglie l'opzione migliore per il progetto corrente. Se le immagini sono state scattate in modalità di esposizione manuale, verranno creati i piani di fusione. In caso contrario, le immagini tra parentesi verranno prima combinate e poi miscelate."
+			"helptext": "Configura come vengono gestite le esposizioni con bracketing.",
+			"morehelptext": "<br><br>Le esposizioni con bracketing possono essere elaborate in due modi:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui per prima cosa combina ogni serie di esposizioni con bracketing in un'immagine HDR (o le combina usando Fusion esposizione). Quindi, le immagini combinate vengono unite in un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@: vengono creati i</b> primi &quot;piani di fusione&quot;. Un piano di fusione è il panorama completo a un livello di esposizione (ovvero tutte le immagini scattate con tempi di esposizione, apertura e ISO identici). Infine, i piani di fusione separati vengono combinati in un'immagine HDR o in un'immagine fusa con l'esposizione. Questo metodo deve essere utilizzato solo per i panorami acquisiti nella modalità di esposizione manuale. Richiede che l'intero panorama sia completamente coperto ad ogni livello di esposizione.<br><br><b>@options.automatic@:</b> sceglie l'opzione migliore per il progetto corrente. Se le immagini sono state scattate in modalità di esposizione manuale, verranno creati i piani di fusione. In caso contrario, le immagini con bracketing verranno prima combinate e poi miscelate."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
 			"machinetranslated": true,
-			"helptext": "Configura come vengono combinate le esposizioni tra parentesi.",
-			"morehelptext": "Le esposizioni tra parentesi (per HDR) verranno combinate in un'unica immagine. PTGui può farlo in due modi diversi:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> le esposizioni con bracketing vengono prima combinate in una vera immagine ad alta gamma dinamica. Questa immagine HDR copre l'intera gamma dinamica di tutte le immagini sorgente, dalle immagini più scure a quelle più luminose. Quindi, generalmente verrà utilizzata la mappatura dei toni per convertirla in un'immagine a bassa gamma dinamica adatta per la visualizzazione o la stampa.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: le</b> esposizioni tra parentesi vengono combinate direttamente in un'immagine a bassa gamma dinamica mappata in toni. In questo modo si ignora la prima fase di creazione di un'immagine ad alta gamma dinamica per la mappatura dei toni.<br><br>Le impostazioni per la mappatura dei toni e le fusioni di esposizione possono essere regolate nella barra laterale di Panorama Editor."
+			"helptext": "Configura come vengono combinate le esposizioni con bracketing.",
+			"morehelptext": "Le esposizioni con bracketing (per HDR) verranno combinate in un'unica immagine. PTGui può farlo in due modi diversi:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> le esposizioni con bracketing vengono prima combinate in una vera immagine ad alta gamma dinamica. Questa immagine HDR copre l'intera gamma dinamica di tutte le immagini sorgente, dalle immagini più scure a quelle più luminose. Quindi, generalmente verrà utilizzata la mappatura dei toni per convertirla in un'immagine a bassa gamma dinamica adatta per la visualizzazione o la stampa.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: le</b> esposizioni con bracketing vengono combinate direttamente in un'immagine a bassa gamma dinamica mappata in toni. In questo modo si ignora la prima fase di creazione di un'immagine ad alta gamma dinamica per la mappatura dei toni.<br><br>Le impostazioni per la mappatura dei toni e le fusioni di esposizione possono essere regolate nella barra laterale di Panorama Editor."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
 			"machinetranslated": true,
 			"helptext": "Abilita Fusion esposizione per immagini senza parentesi",
-			"morehelptext": "<br><br>Normalmente, Exposure Fusion viene utilizzato per combinare più expsoures tra parentesi in una singola immagine con una gamma dinamica ridotta. Ma PTGui può utilizzare la fusione dell'esposizione anche su singole immagini, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni."
+			"morehelptext": "<br><br>Normalmente, Exposure Fusion viene utilizzato per combinare più expsoures con bracketing in una singola immagine con una gamma dinamica ridotta. Ma PTGui può utilizzare la fusione dell'esposizione anche su singole immagini, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
 			"machinetranslated": true,
-			"helptext": "Combina esposizioni tra parentesi usando Fusion Exposure",
-			"morehelptext": "<br><br>La fusione dell'esposizione viene utilizzata per combinare più expesoures tra parentesi in una singola immagine con intervallo dinamico ridotto. È anche possibile utilizzare Exposure Fusion anche su immagini singole, senza parentesi, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni."
+			"helptext": "Combina esposizioni con bracketing usando Fusion Exposure",
+			"morehelptext": "<br><br>La fusione dell'esposizione viene utilizzata per combinare più expesoures con bracketing in una singola immagine con intervallo dinamico ridotto. È anche possibile utilizzare Exposure Fusion anche su immagini singole, senza parentesi, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
@@ -9864,6 +9858,12 @@
 			"machinetranslated": true,
 			"helptext": "Controlla se la curva di risposta della telecamera viene copiata dal modello.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> tutte le curve di risposta della telecamera vengono copiate dal progetto del modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati dal modello.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> le curve di risposta della telecamera vengono copiate dal modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati, ad eccezione delle immagini RAW. Per le immagini RAW, il campo @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ rimarrà impostato su @txt.cameracurve.linear@ anche se il modello utilizza una curva della telecamera ottimizzata. Questa è l'impostazione consigliata; assicurerà che lo stesso modello possa essere utilizzato per immagini RAW e normali.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Le impostazioni della curva di risposta della telecamera nel progetto di destinazione non verranno modificate."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Impostazioni predefinite quando vengono rilevate esposizioni con bracketing.",
+			"morehelptext": "<br><br>Controlla l'impostazione predefinita della finestra popup che appare quando si esegue '@alignimages@' su esposizioni a forcella.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> le immagini con bracketing vengono combinate (per formare un panorama HDR). Inoltre, le immagini in ogni serie con bracketing devono avere le stesse impostazioni @yaw@ / @pitch@ / @roll@ selezionando le caselle di controllo @mainwindow.imageparameters.linked@ nella scheda @mainwindow.tabs.imageparameters@. Utilizzare questa opzione se è stato utilizzato un treppiede stabile durante le riprese.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> le immagini con bracketing vengono combinate per formare un panorama HDR, ma le caselle di controllo @mainwindow.imageparameters.linked@ nella scheda @mainwindow.tabs.imageparameters@ non sono selezionate. Ciò significa che ogni immagine avrà il proprio angolo @yaw@ / @pitch@ / @roll@. Utilizzare questa opzione se le esposizioni con bracketing non si sovrappongono esattamente, ad esempio quando si scatta a mano libera.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignora il fatto che sono state rilevate esposizioni con bracketing. Le immagini non vengono combinate e non viene generato alcun panorama HDR."
 		}
 	],
 	"helppages": [

@@ -4923,6 +4923,11 @@
 			"txt": "채널당 %0 비트"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 비트"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32 비트 부동 소수점"

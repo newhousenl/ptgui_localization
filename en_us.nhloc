@@ -4132,6 +4132,10 @@
     "txt": "%0 bits per channel"
 },
 {
+    "id": "fileformatsettings.bits",
+    "txt": "%0 bits"
+},
+{
     "id": "fileformatsettings.32bitsfloatingpoints",
     "txt": "32 bits floating point"
 },

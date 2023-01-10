@@ -4942,6 +4942,11 @@
 			"txt": "%0 bits par canal"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 bits"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32 bits floating point"

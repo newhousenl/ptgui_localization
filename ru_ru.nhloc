@@ -4999,6 +4999,11 @@
 			"txt": "%0 бит на канал"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 бит"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32-битная плавающая точка"

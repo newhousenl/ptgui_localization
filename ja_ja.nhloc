@@ -3996,6 +3996,10 @@
 			"txt": "チャネルあたりの%0ビット"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0ビット"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32ビット浮動小数点"
 		},

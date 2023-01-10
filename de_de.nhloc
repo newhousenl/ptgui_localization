@@ -3986,6 +3986,10 @@
 			"txt": "%0 Bit pro Kanal"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0 Bit"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32-Bit-Gleitkomma"
 		},

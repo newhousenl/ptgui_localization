@@ -4025,6 +4025,10 @@
 			"txt": "%0 bitů na kanál"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0 bitů"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32 bitů bodů"
 		},

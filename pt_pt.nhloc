@@ -4893,7 +4893,12 @@
 		{
 			"id": "fileformatsettings.bitsperchannel",
 			"machinetranslated": true,
-			"txt": "Bits %0 por canal"
+			"txt": "%0 bits por canal"
+		},
+		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 bits"
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",

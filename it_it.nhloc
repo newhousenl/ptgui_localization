@@ -4603,6 +4603,11 @@
 			"txt": "%0 bit per canale"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 bit"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32 bit in virgola mobile"

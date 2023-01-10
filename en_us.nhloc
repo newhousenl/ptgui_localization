@@ -7964,7 +7964,7 @@
         {
             "id": "sensorsizedialog.sensorsize",
             "helptext": "Enter the camera sensor size here.",
-            "morehelptext": "<br><br>To calculate the projection of a lens PTGui not only needs to know the focal length but also the camera's sensor size. Without knowing the sensor dimensions, the focal length is a meaningless value. The sensor size can be entered in 3 ways:<br><br><b>@sensorsizedialog.cropfactor@:</b>this is the relative sensor size compared to the traditional full frame 24 x 36 mm sensor format. 1x corresponds to a full frame sensor, higher values correspond to smaller sensor dimensions.<br><br><b>@sensorsizedialog.diagonal@:</b>the distance between the sensor's top left and bottom right corner.<br><br><b>@sensorsizedialog.sensorsize@:</b>width and height (in mm) of the sensor."
+            "morehelptext": "<br><br>To calculate the projection of a lens PTGui not only needs to know the focal length but also the camera's sensor size. Without knowing the sensor dimensions, the focal length is a meaningless value. The sensor size can be entered in 3 ways:<br><br><b>@sensorsizedialog.cropfactor@</b>this is the relative sensor size compared to the traditional full frame 24 x 36 mm sensor format. 1x corresponds to a full frame sensor, higher values correspond to smaller sensor dimensions.<br><br><b>@sensorsizedialog.diagonal@</b>the distance between the sensor's top left and bottom right corner.<br><br><b>@sensorsizedialog.sensorsize@</b>width and height (in mm) of the sensor."
         },
         {
             "id": "sensorsizedialog.preset",

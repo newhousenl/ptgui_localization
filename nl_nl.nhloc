@@ -7928,7 +7928,7 @@
 		{
 			"id": "sensorsizedialog.sensorsize",
 			"helptext": "Voer de sensorafmetingen van de camera hier in.",
-			"morehelptext": "<br><br>Om de projectie van een lens te  berekenen moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder deze afmetingen is de brandpuntsafstand een betenisloos getal. De sensorgrootte kan op 3 manieren worden ingevoerd:<br><br><b>@sensorsizedialog.cropfactor@:</b> dit is de relatieve sensorgrootte in vergelijking met het traditionele full-frame 24 x 36 mm sensorformaat. 1x komt overeen met een vol formaat sensor, hogere waarden komen overeen met kleinere sensorafmetingen.<br><br><b>@sensorsizedialog.diagonal@:</b> de afstand tussen de linkerbovenhoek en rechteronderhoek van de sensor.<br><br><b>@sensorsizedialog.sensorsize@:</b> breedte en hoogte (in mm) van de sensor."
+			"morehelptext": "<br><br>Om de projectie van een lens te  berekenen moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder deze afmetingen is de brandpuntsafstand een betenisloos getal. De sensorgrootte kan op 3 manieren worden ingevoerd:<br><br><b>@sensorsizedialog.cropfactor@</b> dit is de relatieve sensorgrootte in vergelijking met het traditionele full-frame 24 x 36 mm sensorformaat. 1x komt overeen met een vol formaat sensor, hogere waarden komen overeen met kleinere sensorafmetingen.<br><br><b>@sensorsizedialog.diagonal@</b> de afstand tussen de linkerbovenhoek en rechteronderhoek van de sensor.<br><br><b>@sensorsizedialog.sensorsize@</b> breedte en hoogte (in mm) van de sensor."
 		},
 		{
 			"id": "sensorsizedialog.preset",

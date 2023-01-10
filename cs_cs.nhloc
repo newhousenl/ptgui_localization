@@ -8125,7 +8125,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "Zde zadejte velikost snímače fotoaparátůy.",
-			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@:</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@:</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@:</b> šířka a výška (v mm) snímače."
+			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@</b> šířka a výška (v mm) snímače."
 		},
 		{
 			"id": "sensorsizedialog.preset",

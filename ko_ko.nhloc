@@ -9691,7 +9691,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "여기에 카메라 센서 크기를 입력하십시오.",
-			"morehelptext": "<br><br>렌즈의 화각을 계산하려면 PTGui는 초점 거리뿐만 아니라 카메라의 센서 크기도 알아야 합니다. 센서 크기를 모르는 상태에서 초점 거리는 의미 없는 값입니다. 센서 크기는 3가지 방법으로 입력할 수 있습니다.<br><br><b>@sensorsizedialog.cropfactor@ :</b> 이것은 전통적 풀 프레임 24 x 36mm 센서 포맷과 비교된 상대적 센서 크기입니다. 1x는 전체 프레임 센서에 해당하며, 높은 값은 센서 크기가 작은 것에 해당합니다.<br><br><b>@sensorsizedialog.diagonal@ :</b> 센서의 왼쪽 상단과 오른쪽 하단 모서리 사이의 거리.<br><br><b>@sensorsizedialog.sensorsize@ :</b> 센서의 너비와 높이(mm)."
+			"morehelptext": "<br><br>렌즈의 화각을 계산하려면 PTGui는 초점 거리뿐만 아니라 카메라의 센서 크기도 알아야 합니다. 센서 크기를 모르는 상태에서 초점 거리는 의미 없는 값입니다. 센서 크기는 3가지 방법으로 입력할 수 있습니다.<br><br><b>@sensorsizedialog.cropfactor@</b> 이것은 전통적 풀 프레임 24 x 36mm 센서 포맷과 비교된 상대적 센서 크기입니다. 1x는 전체 프레임 센서에 해당하며, 높은 값은 센서 크기가 작은 것에 해당합니다.<br><br><b>@sensorsizedialog.diagonal@</b> 센서의 왼쪽 상단과 오른쪽 하단 모서리 사이의 거리.<br><br><b>@sensorsizedialog.sensorsize@</b> 센서의 너비와 높이(mm)."
 		},
 		{
 			"id": "sensorsizedialog.preset",

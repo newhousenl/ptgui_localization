@@ -9681,7 +9681,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "Digite o tamanho do sensor da câmera aqui.",
-			"morehelptext": "<br><br>Para calcular a projeção de uma lente PTGui não só precisa conhecer a distância focal, mas também o tamanho do sensor da câmera. Sem conhecer as dimensões do sensor, a distância focal é um valor sem sentido. O tamanho do sensor pode ser inserido de 3 maneiras:<br><br><b>@sensorsizedialog.cropfactor@:</b> este é o tamanho do sensor relativo comparado com o formato tradicional de sensor full frame 24 x 36 mm. 1x corresponde a um sensor full frame, valores maiores correspondem a dimensões menores do sensor.<br><br><b>@sensorsizedialog.diagonal@:</b> a distância entre o canto superior esquerdo e o canto inferior direito do sensor.<br><br><b>@sensorsizedialog.sensorsize@:</b> largura e altura (em mm) do sensor."
+			"morehelptext": "<br><br>Para calcular a projeção de uma lente PTGui não só precisa conhecer a distância focal, mas também o tamanho do sensor da câmera. Sem conhecer as dimensões do sensor, a distância focal é um valor sem sentido. O tamanho do sensor pode ser inserido de 3 maneiras:<br><br><b>@sensorsizedialog.cropfactor@</b> este é o tamanho do sensor relativo comparado com o formato tradicional de sensor full frame 24 x 36 mm. 1x corresponde a um sensor full frame, valores maiores correspondem a dimensões menores do sensor.<br><br><b>@sensorsizedialog.diagonal@</b> a distância entre o canto superior esquerdo e o canto inferior direito do sensor.<br><br><b>@sensorsizedialog.sensorsize@</b> largura e altura (em mm) do sensor."
 		},
 		{
 			"id": "sensorsizedialog.preset",

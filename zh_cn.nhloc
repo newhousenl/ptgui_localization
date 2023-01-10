@@ -9691,7 +9691,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "在此处输入相机传感器尺寸。",
-			"morehelptext": "<br><br>要计算镜头的投影，PTGui 不仅需要知道焦距，还需要知道相机的传感器尺寸。在不知道传感器尺寸的情况下，焦距是无意义的值。传感器尺寸可以通过3种方式输入：<br><br><b>@sensorsizedialog.cropfactor@：</b>与传统的全画幅24 x 36 mm传感器格式相比，这是相对传感器尺寸。 1x对应于全帧传感器，较高的值对应于较小的传感器尺寸。<br><br><b>@sensorsizedialog.diagonal@：</b>传感器左上角和右下角之间的距离。<br><br><b>@sensorsizedialog.sensorsize@：</b>传感器的宽度和高度（以mm为单位）。"
+			"morehelptext": "<br><br>要计算镜头的投影，PTGui 不仅需要知道焦距，还需要知道相机的传感器尺寸。在不知道传感器尺寸的情况下，焦距是无意义的值。传感器尺寸可以通过3种方式输入：<br><br><b>@sensorsizedialog.cropfactor@</b>与传统的全画幅24 x 36 mm传感器格式相比，这是相对传感器尺寸。 1x对应于全帧传感器，较高的值对应于较小的传感器尺寸。<br><br><b>@sensorsizedialog.diagonal@</b>传感器左上角和右下角之间的距离。<br><br><b>@sensorsizedialog.sensorsize@</b>传感器的宽度和高度（以mm为单位）。"
 		},
 		{
 			"id": "sensorsizedialog.preset",

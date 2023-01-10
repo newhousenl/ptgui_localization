@@ -2155,8 +2155,8 @@
 },
 {
     "id": "mainwindow.imageparameters.vpprefix",
-    "txt": "VP ",
-    "txtfortranslate": "@viewpoint@ "
+    "txt": "VP",
+    "txtfortranslate": "@viewpoint@"
 },
 {
     "id": "mainwindow.imageparameters.vpx",

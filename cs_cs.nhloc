@@ -166,7 +166,7 @@
 		},
 		{
 			"id": "viewpoint",
-			"txt": "zorný úhel"
+			"txt": "hledisko"
 		},
 		{
 			"id": "abort",
@@ -2089,7 +2089,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "@viewpoint@ "
+			"txt": "HL"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",

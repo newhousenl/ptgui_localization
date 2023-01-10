@@ -2584,7 +2584,7 @@
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
 			"machinetranslated": true,
-			"txt": "@viewpoint@ "
+			"txt": "@viewpoint@"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",

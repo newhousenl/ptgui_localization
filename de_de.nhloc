@@ -482,7 +482,7 @@
 		},
 		{
 			"id": "projection.equirectangular",
-			"txt": "Äquirektangulär"
+			"txt": "äquirektangulär"
 		},
 		{
 			"id": "projection.stereographic",
@@ -2080,7 +2080,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "SP "
+			"txt": "SP"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -3986,6 +3986,10 @@
 			"txt": "%0 Bit pro Kanal"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0 Bit"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32-Bit-Gleitkomma"
 		},
@@ -5480,6 +5484,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "Blickwinkel:"
+		},
+		{
 			"id": "jpegquality",
 			"txt": "JPEG-Qualität:"
 		},
@@ -6082,12 +6090,12 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": false,
 			"txt": "Masken verschieben Schnittkanten"
-        },
+		},
 		{
 			"id": "options.monitorcolorprofile",
 			"machinetranslated": false,
 			"txt": "Farbprofil des Bildschirms:"
-        },
+		},
 		{
 			"id": "options.monitorcolorprofile.windowsdefault",
 			"machinetranslated": false,
@@ -7503,7 +7511,7 @@
 			"machinetranslated": false,
 			"label": "Immer im Vordergrund",
 			"helptext": "Der Panorama-Editor bleibt immer über allen anderen Fenstern im Vordergrund."
-},
+		},
 		{
 			"id": "panoeditor.gridbutton",
 			"machinetranslated": false,
@@ -8882,8 +8890,8 @@
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
 			"machinetranslated": false,
 			"helptext": "Schnittkanten entfernt von maskierten Bereichen platzieren.",
-            "morehelptext": "<br><br>Wenn ausgewählt, werden Schnittkanten in einem gewissem Abstand zu roten und grünen Masken platziert. Wenn nicht ausgewählt, bleiben die Schnittkanten nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den Überblendalgorithmus '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist." 
-        },
+			"morehelptext": "<br><br>Wenn ausgewählt, werden Schnittkanten in einem gewissem Abstand zu roten und grünen Masken platziert. Wenn nicht ausgewählt, bleiben die Schnittkanten nahe der Mitte des Überlappungsbereichs, auch wenn in der Nähe Masken plaziert sind.<br><br>Nur verfügbar für den Überblendalgorithmus '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' und wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' deaktiviert ist."
+		},
 		{
 			"id": "options.monitorcolorprofile",
 			"machinetranslated": false,

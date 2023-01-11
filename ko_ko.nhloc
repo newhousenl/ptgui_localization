@@ -2580,7 +2580,7 @@
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
 			"machinetranslated": true,
-			"txt": "시점 "
+			"txt": "시점"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -4923,6 +4923,11 @@
 			"txt": "채널당 %0 비트"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 비트"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32 비트 부동 소수점"
@@ -6739,6 +6744,10 @@
 			"txt": "@+tilt@ :"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@ :"
+		},
+		{
 			"id": "jpegquality",
 			"machinetranslated": true,
 			"txt": "JPEG 품질 :"
@@ -8457,12 +8466,6 @@
 			"helptext": "비네팅 및 노출 최적화를 보정하기 위해 @mainwindow.tabs.exposurehdr@ 탭에서 '@mainwindow.exposurehdrpanel.optimizenow@'기능을 실행합니다."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "브래킷 노출이 감지되면 기본 설정.",
-			"morehelptext": "<br><br>브래킷 노출에 '@alignimages@'를 실행할 때 나타나는 팝업 창의 기본 설정을 설정합니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@ :</b> 동일한 브래킷 노출 세트의 이미지가 연결됩니다. 연결된 이미지는 동일한 @yaw@ / @pitch@ / @roll@ 및 기타 설정을 갖도록 강제되므로 픽셀 단위로 겹칩니다. @mainwindow.tabs.exposurehdr@ 탭에서 '@mainwindow.exposurehdrpanel.hdrenabled@'가 선택됩니다. 촬영 중에 안정된 삼각대를 사용한 경우 이 옵션을 사용하십시오.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@ :</b> 이미지가 연결되지 않습니다. 브래킷 노출 세트의 각 이미지는 자체 @yaw@ / @pitch@ / @roll@ 각도를 갖습니다. @mainwindow.tabs.exposurehdr@ 탭에서 '@mainwindow.exposurehdrpanel.hdrenabled@'가 선택됩니다. 브래킷 노출 촬영한 이미지 세트가 정확하게 겹치지 않는 경우, 예를 들어 손으로 들고 촬영했을 경우 이 옵션을 사용하십시오.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@ :</b> 브래킷 노출이 감지되었다는 사실을 무시하고 이미지를 비 HDR 파노라마로 처리합니다. @mainwindow.tabs.exposurehdr@ 탭에서 '@mainwindow.exposurehdrpanel.hdrdisabled@'가 선택됩니다."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"machinetranslated": true,
 			"helptext": "이 옵션을 선택하지 않으면 '@alignimages@'를 실행할 때 위의 구성 설정이 미리 선택되지만 확인 메시지가 계속 표시됩니다."
@@ -9691,7 +9694,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "여기에 카메라 센서 크기를 입력하십시오.",
-			"morehelptext": "<br><br>렌즈의 화각을 계산하려면 PTGui는 초점 거리뿐만 아니라 카메라의 센서 크기도 알아야 합니다. 센서 크기를 모르는 상태에서 초점 거리는 의미 없는 값입니다. 센서 크기는 3가지 방법으로 입력할 수 있습니다.<br><br><b>@sensorsizedialog.cropfactor@ :</b> 이것은 전통적 풀 프레임 24 x 36mm 센서 포맷과 비교된 상대적 센서 크기입니다. 1x는 전체 프레임 센서에 해당하며, 높은 값은 센서 크기가 작은 것에 해당합니다.<br><br><b>@sensorsizedialog.diagonal@ :</b> 센서의 왼쪽 상단과 오른쪽 하단 모서리 사이의 거리.<br><br><b>@sensorsizedialog.sensorsize@ :</b> 센서의 너비와 높이(mm)."
+			"morehelptext": "<br><br>렌즈의 화각을 계산하려면 PTGui는 초점 거리뿐만 아니라 카메라의 센서 크기도 알아야 합니다. 센서 크기를 모르는 상태에서 초점 거리는 의미 없는 값입니다. 센서 크기는 3가지 방법으로 입력할 수 있습니다.<br><br><b>@sensorsizedialog.cropfactor@</b> 이것은 전통적 풀 프레임 24 x 36mm 센서 포맷과 비교된 상대적 센서 크기입니다. 1x는 전체 프레임 센서에 해당하며, 높은 값은 센서 크기가 작은 것에 해당합니다.<br><br><b>@sensorsizedialog.diagonal@</b> 센서의 왼쪽 상단과 오른쪽 하단 모서리 사이의 거리.<br><br><b>@sensorsizedialog.sensorsize@</b> 센서의 너비와 높이(mm)."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -10272,6 +10275,12 @@
 			"machinetranslated": true,
 			"helptext": "카메라 응답 곡선이 템플릿에서 복사되는지 여부를 제어합니다.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> 모든 카메라 응답 곡선은 템플릿 프로젝트에서 복사되고 @mainwindow.tabs.imageparameters@ 탭의 @mainwindow.imageparameters.cameracurve@ 필드는 템플릿에서 복사됩니다.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> 카메라 응답 곡선은 템플릿에서 복사되고 @mainwindow.tabs.imageparameters@ 탭의 @mainwindow.imageparameters.cameracurve@ 필드는 RAW 이미지를 제외하고 복사됩니다. RAW 이미지의 경우 템플릿이 최적화된 카메라 곡선을 사용하더라도 @mainwindow.tabs.imageparameters@ 탭의 @mainwindow.imageparameters.cameracurve@ 필드는 @txt.cameracurve.linear@로 설정된 상태로 유지됩니다. 이것은 권장 설정입니다. RAW 및 일반 이미지에 동일한 템플릿을 사용할 수 있습니다.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> 대상 프로젝트의 카메라 응답 곡선 설정은 수정되지 않습니다."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "브라케팅 노출이 감지될 때의 기본 설정입니다.",
+			"morehelptext": "<br><br>브라켓 노출에서 '@alignimages@'를 실행할 때 나타나는 팝업 창의 기본 설정을 제어합니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> 브래킷 이미지가 결합됩니다(HDR 파노라마 형성). 또한 각 브라켓 세트의 이미지는 @mainwindow.tabs.imageparameters@ 탭에서 @mainwindow.imageparameters.linked@ 확인란을 선택하여 동일한 @yaw@ / @pitch@ / @roll@ 설정을 갖도록 강제 적용됩니다. 촬영하는 동안 안정적인 삼각대를 사용한 경우 이 옵션을 사용합니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> 브래킷 이미지가 결합되어 HDR 파노라마를 형성하지만 @mainwindow.tabs.imageparameters@ 탭의 @mainwindow.imageparameters.linked@ 확인란이 선택되지 않습니다. 즉, 각 이미지에는 고유한 @yaw@ / @pitch@ / @roll@ 각도가 있습니다. 예를 들어 손으로 들고 촬영할 때와 같이 브라케팅된 노출이 정확하게 겹치지 않는 경우 이 기능을 사용합니다.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> 브래킷 노출이 감지되었다는 사실을 무시합니다. 이미지가 결합되지 않고 HDR 파노라마가 생성되지 않습니다."
 		}
 	],
 	"helppages": [

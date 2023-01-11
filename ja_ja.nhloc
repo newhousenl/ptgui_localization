@@ -3996,6 +3996,10 @@
 			"txt": "チャネルあたりの%0ビット"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0ビット"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32ビット浮動小数点"
 		},
@@ -5482,6 +5486,10 @@
 			"txt": "@+tilt@："
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@："
+		},
+		{
 			"id": "jpegquality",
 			"txt": "JPEG品質："
 		},
@@ -6688,11 +6696,6 @@
 		{
 			"id": "projectsettingstab.alignimages.optimizeexposure",
 			"helptext": "ケラレと露出の最適化を調整するために、 「Exposure / HDR」タブの「Optimize Now」を実行します。 "
-		},
-		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"helptext": "ブラケット画像が検出されたときのデフォルト設定。 ",
-			"morehelptext": "<br><br>ブラケット画像で「Align Images」を実行する際に表示されるポップアップウィンドウのデフォルトの設定をします。 <br><br><b> HDRモードを有効にして画像をリンク</b>：同じブラケットセット内の隣接する画像がリンクされます。 リンクされた画像は同じヨー/ピッチ/ロールおよび他の設定を有するように強制されるので、 それらは画素毎に重複します。 「HDR / Exposure」タブで、 「グループブラケット画像（group bracketed images）」が選択されます。 撮影中に安定した三脚を使用した場合は、 このオプションを使用してください。 <br><br><b> HDRモードを有効にしますが、 画像をリンクしません</b>：画像はリンクされません。 ブラケットセットの各画像は、 独自のヨー/ピッチ/ロール角を持つことができます。 「HDR / Exposure」タブで、 「グループブラケット画像（group bracketed images）」が選択されます。 ブラケット画像が正確に重なっていない場合、 たとえば手持ち撮影時などに使用します。 <br><br><b> HDRモードを有効にしません</b>：ブラケットセットが検出されたという事実を無視し、 その画像を非HDRパノラマとして扱います。 「HDR / Exposure」タブで、 [ブラケティングなし（no bracketing）]が選択されます。 "
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -8452,6 +8455,12 @@
 			"machinetranslated": true,
 			"helptext": "カメラの応答曲線をテンプレートからコピーするかどうかを制御します。",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@：</b>すべてのカメラ応答曲線がテンプレートプロジェクトからコピーされ、@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドがテンプレートからコピーされます。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@：</b>カメラの応答曲線がテンプレートからコピーされ、RAW画像を除いて@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドがコピーされます。 RAW画像の場合、テンプレートが最適化されたカメラカーブを使用している場合でも、@mainwindow.tabs.imageparameters@タブの@mainwindow.imageparameters.cameracurve@フィールドは@txt.cameracurve.linear@に設定されたままになります。これは推奨設定です。これにより、RAW画像と通常の画像に同じテンプレートを使用できるようになります。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@：</b>ターゲットプロジェクトのカメラ応答曲線の設定は変更されません。"
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "ブラケット露出が検出された場合のデフォルト設定。",
+			"morehelptext": "<br><br>ブラケット露出で「@alignimages@」を実行したときに表示されるポップアップ ウィンドウのデフォルト設定を制御します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b>ブラケット画像が結合されます (HDR パノラマを形成するため)。また、[@mainwindow.tabs.imageparameters@] タブの [@mainwindow.imageparameters.linked@] チェックボックスをオンにすることで、各ブラケット セット内の画像に同じ @yaw@ / @pitch@ / @roll@ 設定が適用されます。撮影中に安定した三脚が使用された場合は、このオプションを使用します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b>ブラケット画像を組み合わせて HDR パノラマを形成しますが、[@mainwindow.tabs.imageparameters@] タブの [@mainwindow.imageparameters.linked@] チェックボックスがオフになっています。これは、各画像に独自の @yaw@ / @pitch@ / @roll@ 角度があることを意味します。手持ちで撮影する場合など、露出ブラケットが正確に重ならない場合に使用します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b>ブラケット露出が検出されたという事実を無視します。画像は結合されず、HDR パノラマは生成されません。"
 		}
 	],
 	"helppages": [

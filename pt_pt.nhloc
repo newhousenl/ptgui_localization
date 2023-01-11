@@ -2564,7 +2564,7 @@
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
 			"machinetranslated": true,
-			"txt": "PdV "
+			"txt": "PdV"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -4893,7 +4893,12 @@
 		{
 			"id": "fileformatsettings.bitsperchannel",
 			"machinetranslated": true,
-			"txt": "Bits %0 por canal"
+			"txt": "%0 bits por canal"
+		},
+		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 bits"
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
@@ -6709,6 +6714,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@:"
+		},
+		{
 			"id": "jpegquality",
 			"machinetranslated": true,
 			"txt": "Qualidade JPEG:"
@@ -7151,7 +7160,7 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
 			"machinetranslated": true,
-			"txt": "Mesclar imagens entre colchetes em HDR e mesclar"
+			"txt": "Mesclar imagens com bracketing em HDR e mesclar"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
@@ -7413,7 +7422,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (apenas PTGui Pro): Se @panoramaeditor.sidebar.blendsettings.seamfinding@ (no painel @mainwindow.createpanoramatab.blending@ em @panoramaeditor@) estiver desativado, as costuras serão normalmente colocadas no meio da sobreposição entre duas imagens. Isso pode ser ajustado aumentando ou diminuindo o @mainwindow.imageparameters.blendpriority@ de uma imagem de origem. É um valor relativo: se duas imagens têm uma prioridade de mistura de 150 e 100, uma parte maior da primeira imagem será usada. Este valor será ignorado se @panoramaeditor.sidebar.blendsettings.seamfinding@ estiver ativado.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Um projeto pode conter várias curvas de resposta da câmera; este campo configura a curva de resposta da câmera a ser usada para cada imagem de origem. As curvas de resposta da câmera são configuradas na guia @mainwindow.tabs.exposurehdr@. Se o projeto contiver apenas uma curva de resposta da câmera, ela será nomeada '@txt.globalcameracurve@'. Se <b>@txt.cameracurve.linear@</b> for selecionado, presume-se que a imagem contém dados lineares e nenhuma curva será aplicada. Para obter mais informações, consulte as dicas de ferramentas na guia @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configura o equilíbrio de branco original de cada imagem de origem, como uma temperatura de cor em graus Kelvin. Isso será usado se um equilíbrio de branco de destino for configurado no painel @panoramaeditor.sidebar.postprocess@ do @panoramaeditor@. As cores da imagem de origem serão ajustadas da temperatura da cor configurada aqui para a temperatura da cor alvo. Se este campo estiver vazio, um valor padrão de 5000K será assumido. Este campo será ignorado se '@txt.asshot@' for selecionado no painel @panoramaeditor.sidebar.postprocess@.<br><br><b>@mainwindow.imageparameters.linked@:</b> (apenas PTGui Pro): Ao costurar panoramas HDR de imagens de origem com colchetes, esta caixa de seleção configura se as imagens com colchetes terão os mesmos parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@. Desmarque esta caixa se as imagens com colchetes não foram tiradas de um tripé e deveriam ter os parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@ independentes. Os pontos de controle precisarão ser fornecidos para alinhar as imagens entre colchetes."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (apenas PTGui Pro): Se @panoramaeditor.sidebar.blendsettings.seamfinding@ (no painel @mainwindow.createpanoramatab.blending@ em @panoramaeditor@) estiver desativado, as costuras serão normalmente colocadas no meio da sobreposição entre duas imagens. Isso pode ser ajustado aumentando ou diminuindo o @mainwindow.imageparameters.blendpriority@ de uma imagem de origem. É um valor relativo: se duas imagens têm uma prioridade de mistura de 150 e 100, uma parte maior da primeira imagem será usada. Este valor será ignorado se @panoramaeditor.sidebar.blendsettings.seamfinding@ estiver ativado.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Um projeto pode conter várias curvas de resposta da câmera; este campo configura a curva de resposta da câmera a ser usada para cada imagem de origem. As curvas de resposta da câmera são configuradas na guia @mainwindow.tabs.exposurehdr@. Se o projeto contiver apenas uma curva de resposta da câmera, ela será nomeada '@txt.globalcameracurve@'. Se <b>@txt.cameracurve.linear@</b> for selecionado, presume-se que a imagem contém dados lineares e nenhuma curva será aplicada. Para obter mais informações, consulte as dicas de ferramentas na guia @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configura o equilíbrio de branco original de cada imagem de origem, como uma temperatura de cor em graus Kelvin. Isso será usado se um equilíbrio de branco de destino for configurado no painel @panoramaeditor.sidebar.postprocess@ do @panoramaeditor@. As cores da imagem de origem serão ajustadas da temperatura da cor configurada aqui para a temperatura da cor alvo. Se este campo estiver vazio, um valor padrão de 5000K será assumido. Este campo será ignorado se '@txt.asshot@' for selecionado no painel @panoramaeditor.sidebar.postprocess@.<br><br><b>@mainwindow.imageparameters.linked@:</b> (apenas PTGui Pro): Ao costurar panoramas HDR de imagens de origem com bracketing, esta caixa de seleção configura se as imagens com bracketing terão os mesmos parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@. Desmarque esta caixa se as imagens com bracketing não foram tiradas de um tripé e deveriam ter os parâmetros @yaw@, @pitch@, @roll@ e @viewpoint@ independentes. Os pontos de controle precisarão ser fornecidos para alinhar as imagens com bracketing."
 		},
 		{
 			"id": "proxysettings.button",
@@ -8445,12 +8454,6 @@
 			"id": "projectsettingstab.alignimages.optimizeexposure",
 			"machinetranslated": true,
 			"helptext": "Executa a função '@mainwindow.exposurehdrpanel.optimizenow@' na guia @mainwindow.tabs.exposurehdr@, para calibrar a otimização de vinhetas e de exposição."
-		},
-		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "Configurações padrão quando imagens de bracketing são detectadas.",
-			"morehelptext": "<br><br>Controla a configuração padrão da janela pop-up que aparece ao executar '@alignimages@' em imagens de bracketing.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> imagens no mesmo conjunto de exposições <b>agrupadas</b> serão vinculadas. Imagens vinculadas são forçadas a ter o mesmo @yaw@ / @pitch@ / @roll@ e outras configurações, de modo que elas se sobreponham pixel por pixel. Na aba @mainwindow.tabs.exposurehdr@, '@mainwindow.exposurehdrpanel.hdrenabled@' será selecionado. Use essa opção se um tripé estável tiver sido usado durante o disparo.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@: as</b> imagens não serão vinculadas, cada imagem no conjunto de exposições agrupadas terá seu próprio ângulo @yaw@ / @pitch@ / @roll@. Na aba @mainwindow.tabs.exposurehdr@, '@mainwindow.exposurehdrpanel.hdrenabled@' será selecionado. Use isto se as imagens de bracketing não se sobrepuserem exatamente, por exemplo, ao fotografar manualmente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore o fato de que as exposições <b>agrupadas</b> foram detectadas, trate as imagens como um panorama não HDR. Na aba @mainwindow.tabs.exposurehdr@, '@mainwindow.exposurehdrpanel.hdrdisabled@' será selecionado."
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -9681,7 +9684,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "Digite o tamanho do sensor da câmera aqui.",
-			"morehelptext": "<br><br>Para calcular a projeção de uma lente PTGui não só precisa conhecer a distância focal, mas também o tamanho do sensor da câmera. Sem conhecer as dimensões do sensor, a distância focal é um valor sem sentido. O tamanho do sensor pode ser inserido de 3 maneiras:<br><br><b>@sensorsizedialog.cropfactor@:</b> este é o tamanho do sensor relativo comparado com o formato tradicional de sensor full frame 24 x 36 mm. 1x corresponde a um sensor full frame, valores maiores correspondem a dimensões menores do sensor.<br><br><b>@sensorsizedialog.diagonal@:</b> a distância entre o canto superior esquerdo e o canto inferior direito do sensor.<br><br><b>@sensorsizedialog.sensorsize@:</b> largura e altura (em mm) do sensor."
+			"morehelptext": "<br><br>Para calcular a projeção de uma lente PTGui não só precisa conhecer a distância focal, mas também o tamanho do sensor da câmera. Sem conhecer as dimensões do sensor, a distância focal é um valor sem sentido. O tamanho do sensor pode ser inserido de 3 maneiras:<br><br><b>@sensorsizedialog.cropfactor@</b> este é o tamanho do sensor relativo comparado com o formato tradicional de sensor full frame 24 x 36 mm. 1x corresponde a um sensor full frame, valores maiores correspondem a dimensões menores do sensor.<br><br><b>@sensorsizedialog.diagonal@</b> a distância entre o canto superior esquerdo e o canto inferior direito do sensor.<br><br><b>@sensorsizedialog.sensorsize@</b> largura e altura (em mm) do sensor."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -10177,7 +10180,7 @@
 			"id": "exposurehdrtab.cameracurvegraph_v2",
 			"machinetranslated": true,
 			"helptext": "Curva de resposta da câmera",
-			"morehelptext": "<br><br>Esta curva exibe o mapeamento de intensidades reais de luz para valores de pixel. O eixo horizontal representa a intensidade da luz (luminância da cena). O eixo vertical é a intensidade do pixel no espaço de cor linear (antes de aplicar a curva gama do perfil ICC). Em geral, o PTGui aplica a curva duas vezes: antes de combinar, a curva inversa é aplicada para converter valores de pixel em intensidades de luz linear. Em seguida, a combinação, correção de exposição / vinheta e fusão HDR são realizadas no espaço de cor linear. Em seguida, a curva é aplicada novamente na direção oposta para converter de luminância linear para valores de pixel. Finalmente, a correção de gama de acordo com o perfil de cores ICC é aplicada ao salvar a imagem.<br><br>Um projeto pode conter várias curvas de câmera: para cada imagem de origem, uma das curvas de câmera pode ser atribuída na coluna '@mainwindow.imageparameters.cameracurve@' na guia @mainwindow.tabs.imageparameters@. O campo @mainwindow.imageparameters.cameracurve@ também pode ser definido como '@txt.cameracurve.linear@' se a imagem de origem for conhecida por conter dados lineares. O PTGui por padrão assume que as imagens de origem RAW e HDR são lineares. Se todas as imagens de origem forem lineares, nenhuma curva da câmera será visível aqui.<br><br>Se múltiplas ou zero curvas de câmera são configuradas, a curva a ser usada para a saída pode ser configurada no @panoramaeditor@ no painel @panoramaeditor.sidebar.postprocess@.<br><br>PTGui pode determinar a curva de resposta da câmera como parte de @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Pressione o botão @mainwindow.exposurehdrpanel.optimizenow@ para fazer isso. Isso requer imagens com colchetes: a curva de resposta da câmera é determinada pela comparação do mesmo pixel em imagens com exposição diferente. Para exposições únicas (sem colchetes), o PTGui usará uma curva padrão, que geralmente funciona bem.<br><br>Use os botões na barra de ferramentas acima para editar, carregar, salvar ou excluir a curva ou para adicionar uma curva de câmera adicional ao projeto."
+			"morehelptext": "<br><br>Esta curva exibe o mapeamento de intensidades reais de luz para valores de pixel. O eixo horizontal representa a intensidade da luz (luminância da cena). O eixo vertical é a intensidade do pixel no espaço de cor linear (antes de aplicar a curva gama do perfil ICC). Em geral, o PTGui aplica a curva duas vezes: antes de combinar, a curva inversa é aplicada para converter valores de pixel em intensidades de luz linear. Em seguida, a combinação, correção de exposição / vinheta e fusão HDR são realizadas no espaço de cor linear. Em seguida, a curva é aplicada novamente na direção oposta para converter de luminância linear para valores de pixel. Finalmente, a correção de gama de acordo com o perfil de cores ICC é aplicada ao salvar a imagem.<br><br>Um projeto pode conter várias curvas de câmera: para cada imagem de origem, uma das curvas de câmera pode ser atribuída na coluna '@mainwindow.imageparameters.cameracurve@' na guia @mainwindow.tabs.imageparameters@. O campo @mainwindow.imageparameters.cameracurve@ também pode ser definido como '@txt.cameracurve.linear@' se a imagem de origem for conhecida por conter dados lineares. O PTGui por padrão assume que as imagens de origem RAW e HDR são lineares. Se todas as imagens de origem forem lineares, nenhuma curva da câmera será visível aqui.<br><br>Se múltiplas ou zero curvas de câmera são configuradas, a curva a ser usada para a saída pode ser configurada no @panoramaeditor@ no painel @panoramaeditor.sidebar.postprocess@.<br><br>PTGui pode determinar a curva de resposta da câmera como parte de @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Pressione o botão @mainwindow.exposurehdrpanel.optimizenow@ para fazer isso. Isso requer imagens com bracketing: a curva de resposta da câmera é determinada pela comparação do mesmo pixel em imagens com exposição diferente. Para exposições únicas (sem colchetes), o PTGui usará uma curva padrão, que geralmente funciona bem.<br><br>Use os botões na barra de ferramentas acima para editar, carregar, salvar ou excluir a curva ou para adicionar uma curva de câmera adicional ao projeto."
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
@@ -10262,6 +10265,12 @@
 			"machinetranslated": true,
 			"helptext": "Controla se a curva de resposta da câmera é copiada do modelo.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Todas as curvas de resposta da câmera são copiadas do projeto modelo e os campos @mainwindow.imageparameters.cameracurve@ na guia @mainwindow.tabs.imageparameters@ são copiados do modelo.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> As curvas de resposta da câmera são copiadas do modelo e os campos @mainwindow.imageparameters.cameracurve@ na guia @mainwindow.tabs.imageparameters@ são copiados, exceto para imagens RAW. Para imagens RAW, o campo @mainwindow.imageparameters.cameracurve@ na guia @mainwindow.tabs.imageparameters@ permanecerá definido como @txt.cameracurve.linear@ mesmo se o modelo usar uma curva de câmera otimizada. Esta é a configuração recomendada; isso garantirá que o mesmo modelo possa ser usado para imagens RAW e regulares.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> As configurações da curva de resposta da câmera no projeto de destino não serão modificadas."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Configurações padrão quando exposições com bracketing são detectadas.",
+			"morehelptext": "<br><br>Controla a configuração padrão da janela pop-up que aparece ao executar '@alignimages@' em exposições com bracketing.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> imagens com bracketing são combinadas (para formar um panorama HDR). Além disso, as imagens em cada conjunto entre colchetes são forçadas a ter as mesmas configurações @yaw@ / @pitch@ / @roll@ marcando as caixas de seleção @mainwindow.imageparameters.linked@ na guia @mainwindow.tabs.imageparameters@. Use esta opção se um tripé estável foi usado durante a filmagem.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> imagens com bracketing são combinadas para formar um panorama HDR, mas as caixas de seleção @mainwindow.imageparameters.linked@ na guia @mainwindow.tabs.imageparameters@ não estão marcadas. Isso significa que cada imagem terá seu próprio ângulo @yaw@ / @pitch@ / @roll@. Use isso se as exposições com bracketing não se sobrepuserem exatamente, por exemplo, ao fotografar com as mãos.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore o fato de que foram detectadas exposições com bracketing. As imagens não são combinadas e nenhum panorama HDR é gerado."
 		}
 	],
 	"helppages": [

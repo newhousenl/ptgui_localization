@@ -2070,7 +2070,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "VP "
+			"txt": "VP"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -3971,6 +3971,10 @@
 			"txt": "%0 bits per kanaal"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0 bits"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32 bits float"
 		},
@@ -5465,6 +5469,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@:"
+		},
+		{
 			"id": "jpegquality",
 			"txt": "JPEG-kwaliteit:"
 		},
@@ -6918,11 +6926,6 @@
 			"helptext": "Voert de functie '@mainwindow.exposurehdrpanel.optimizenow@' uit op het tabblad @mainwindow.tabs.exposurehdr@ om vignettering en belichtingsoptimalisatie te kalibreren."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"helptext": "Standaardinstellingen wanneer een belichtingsreeks wordt gedetecteerd.",
-			"morehelptext": "<br><br>Bepaalt de standaardinstelling van het pop-upvenster dat verschijnt wanneer '@alignimages@' wordt uitgevoerd op belichtingreeksen.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> afbeeldingen in dezelfde belichtingsreeksen worden gekoppeld. Gekoppelde afbeeldingen worden gedwongen dezelfde @yaw@ / @pitch@ / @roll@ en andere instellingen te hebben, zodat ze pixel voor pixel overlappen. Op het tabblad @mainwindow.tabs.exposurehdr@ wordt '@mainwindow.exposurehdrpanel.hdrenabled@' geselecteerd. Gebruik deze optie als een stabiel statief werd gebruikt tijdens het fotograferen.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> afbeeldingen worden niet gekoppeld, elke afbeelding in de belichtingsreeks heeft zijn eigen @yaw@ / @pitch@ / @roll@-hoek. Op het tabblad @mainwindow.tabs.exposurehdr@ wordt '@mainwindow.exposurehdrpanel.hdrenabled@' geselecteerd. Gebruik dit als de belichtingsreeksen niet precies overlappen, bijvoorbeeld bij opnames zonder statief.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> negeer het feit dat een belichtingsreeks werd gedetecteerd, behandel de beelden als een panorama zonder HDR. Op het tabblad @mainwindow.tabs.exposurehdr@ wordt '@mainwindow.exposurehdrpanel.hdrdisabled@' geselecteerd."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"helptext": "Indien uitgeschakeld, zal de bovenstaande geconfigureerde instelling worden voorgeselecteerd bij het uitvoeren van '@alignimages@', maar er zal nog steeds om bevestiging worden gevraagd."
 		},
@@ -7928,7 +7931,7 @@
 		{
 			"id": "sensorsizedialog.sensorsize",
 			"helptext": "Voer de sensorafmetingen van de camera hier in.",
-			"morehelptext": "<br><br>Om de projectie van een lens te  berekenen moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder deze afmetingen is de brandpuntsafstand een betenisloos getal. De sensorgrootte kan op 3 manieren worden ingevoerd:<br><br><b>@sensorsizedialog.cropfactor@:</b> dit is de relatieve sensorgrootte in vergelijking met het traditionele full-frame 24 x 36 mm sensorformaat. 1x komt overeen met een vol formaat sensor, hogere waarden komen overeen met kleinere sensorafmetingen.<br><br><b>@sensorsizedialog.diagonal@:</b> de afstand tussen de linkerbovenhoek en rechteronderhoek van de sensor.<br><br><b>@sensorsizedialog.sensorsize@:</b> breedte en hoogte (in mm) van de sensor."
+			"morehelptext": "<br><br>Om de projectie van een lens te  berekenen moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder deze afmetingen is de brandpuntsafstand een betenisloos getal. De sensorgrootte kan op 3 manieren worden ingevoerd:<br><br><b>@sensorsizedialog.cropfactor@</b> dit is de relatieve sensorgrootte in vergelijking met het traditionele full-frame 24 x 36 mm sensorformaat. 1x komt overeen met een vol formaat sensor, hogere waarden komen overeen met kleinere sensorafmetingen.<br><br><b>@sensorsizedialog.diagonal@</b> de afstand tussen de linkerbovenhoek en rechteronderhoek van de sensor.<br><br><b>@sensorsizedialog.sensorsize@</b> breedte en hoogte (in mm) van de sensor."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -8454,6 +8457,12 @@
 			"machinetranslated": true,
 			"helptext": "Bepaalt of de cameraresponscurve wordt gekopieerd van de sjabloon.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle cameraresponscurves worden gekopieerd uit het sjabloonproject en de @mainwindow.imageparameters.cameracurve@-velden op het tabblad @mainwindow.tabs.imageparameters@ worden gekopieerd uit de sjabloon.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> De cameraresponscurves worden gekopieerd van de sjabloon en de @mainwindow.imageparameters.cameracurve@-velden op het tabblad @mainwindow.tabs.imageparameters@ worden gekopieerd, behalve voor RAW-afbeeldingen. Voor RAW-afbeeldingen blijft het @mainwindow.imageparameters.cameracurve@-veld op het tabblad @mainwindow.tabs.imageparameters@ ingesteld op @txt.cameracurve.linear@, zelfs als de sjabloon een geoptimaliseerde cameracurve gebruikt. Dit is de aanbevolen instelling; het zorgt ervoor dat hetzelfde sjabloon kan worden gebruikt voor RAW- en gewone afbeeldingen.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> De instellingen van de cameraresponscurve in het doelproject worden niet gewijzigd."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Standaardinstellingen wanneer belichtingsreeksen worden gedetecteerd.",
+			"morehelptext": "<br><br>Bepaalt de standaardinstelling van het pop-upvenster dat verschijnt wanneer '@alignimages@' wordt uitgevoerd op belichtingsreeksen.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> belichtingsreeksen worden gecombineerd (om een HDR-panorama te vormen). Ook worden de afbeeldingen in elke belichtingsreeks gedwongen om dezelfde @yaw@ / @pitch@ / @roll@-instellingen te hebben door de @mainwindow.imageparameters.linked@-selectievakjes op het tabblad @mainwindow.tabs.imageparameters@ aan te vinken. Gebruik deze optie als tijdens het fotograferen een stabiel statief is gebruikt.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> belichtingsreeksen worden gecombineerd om een HDR-panorama te vormen, maar de selectievakjes @mainwindow.imageparameters.linked@ op het tabblad @mainwindow.tabs.imageparameters@ zijn niet aangevinkt. Dit betekent dat elke afbeelding zijn eigen @yaw@ / @pitch@ / @roll@ hoek heeft. Gebruik dit als de belichtingsreeksen elkaar niet exact overlappen, bijvoorbeeld bij opnamen zonder statief.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> negeer het feit dat belichtingsreeksen zijn gedetecteerd. De belichtingsreeksen worden niet gecombineerd en er wordt een niet-HDR panorama gegenereerd."
 		}
 	],
 	"helppages": [

@@ -166,7 +166,7 @@
 		},
 		{
 			"id": "viewpoint",
-			"txt": "zorný úhel"
+			"txt": "hledisko"
 		},
 		{
 			"id": "abort",
@@ -2089,7 +2089,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "@viewpoint@ "
+			"txt": "HL"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -4025,6 +4025,10 @@
 			"txt": "%0 bitů na kanál"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"txt": "%0 bitů"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"txt": "32 bitů bodů"
 		},
@@ -5511,6 +5515,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@:"
+		},
+		{
 			"id": "jpegquality",
 			"txt": "Kvalita JPEG:"
 		},
@@ -6908,11 +6916,6 @@
 			"helptext": "Spustí funkci &quot;@mainwindow.exposurehdrpanel.optimizenow@&quot; na kartě @mainwindow.tabs.exposurehdr@ pro kalibraci vignetování a optimalizace expozice."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"helptext": "Výchozí nastavení, pokud jsou detekovány expozice HDR.",
-			"morehelptext": "<br><br>Ovládá výchozí nastavení vyskakovacího okna, které se objeví při spouštění &quot;@alignimages@&quot; na expozici HDR.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> snímky ve stejné sadě expozic se spojí. Připojené snímky jsou nuceny mít stejné @yaw@ / @pitch@ / @roll@ a další nastavení, takže překrývají pixely o pixely. Na kartě @mainwindow.tabs.exposurehdr@ se zvolí &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot;. Touto volbou použijte, pokud byl při fotografování používán stabilní stativ.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> snímky nebudou propojeny, každý snímek v sadě posunutých expozic bude mít svůj vlastní úhel @yaw@ / @pitch@ / @roll@. Na kartě @mainwindow.tabs.exposurehdr@ se vybere &quot;@mainwindow.exposurehdrpanel.hdrenabled@&quot;. Tuto možnost použijte, pokud se expozice HDR přesně nepřekrývají, například při fotografování z ruky (bez stativu).<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignorujte skutečnost, že byly rozpoznané expozice HDR, <b>upravte</b> snímky jako panorama bez HDR. Na kartě @mainwindow.tabs.exposurehdr@ se zvolí &quot;@mainwindow.exposurehdrpanel.hdrdisabled@&quot;."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"helptext": "V případě zrušení výběru bude nastavení nakonfigurováno při spuštění funkce &quot;@alignimages@&quot;, ale potvrzení bude stále požadováno."
 		},
@@ -8125,7 +8128,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "Zde zadejte velikost snímače fotoaparátůy.",
-			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@:</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@:</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@:</b> šířka a výška (v mm) snímače."
+			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@</b> šířka a výška (v mm) snímače."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -8700,6 +8703,12 @@
 			"machinetranslated": true,
 			"helptext": "Řídí, zda se křivka odezvy kamery zkopíruje ze šablony.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Všechny křivky odezvy kamery jsou zkopírovány z projektu šablony a pole @mainwindow.imageparameters.cameracurve@ na kartě @mainwindow.tabs.imageparameters@ jsou zkopírována ze šablony.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Křivky odezvy fotoaparátu jsou zkopírovány ze šablony a pole @mainwindow.imageparameters.cameracurve@ na kartě @mainwindow.tabs.imageparameters@ jsou zkopírována, s výjimkou snímků RAW. U snímků RAW zůstane pole @mainwindow.imageparameters.cameracurve@ na kartě @mainwindow.tabs.imageparameters@ nastaveno na @txt.cameracurve.linear@, i když šablona používá optimalizovanou křivku fotoaparátu. Toto je doporučené nastavení; zajistí, že stejnou šablonu lze použít pro RAW i běžné snímky.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Nastavení křivky odezvy kamery v cílovém projektu se nezmění."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Výchozí nastavení při detekci odstupňovaných expozic.",
+			"morehelptext": "<br><br>Řídí výchozí nastavení vyskakovacího okna, které se objeví při spuštění '@alignimages@' na odstupňované expozice.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> snímky s různou expozicí se sloučí (k vytvoření panoramatu HDR). Snímky v každé oddělené sadě jsou také nuceny mít stejná nastavení @yaw@ / @pitch@ / @roll@ zaškrtnutím políček @mainwindow.imageparameters.linked@ na kartě @mainwindow.tabs.imageparameters@. Tuto možnost použijte, pokud byl při fotografování použit stabilní stativ.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> snímky v závorkách se spojí do panoramatu HDR, ale zaškrtávací políčka @mainwindow.imageparameters.linked@ na kartě @mainwindow.tabs.imageparameters@ nejsou zaškrtnuta. To znamená, že každý snímek bude mít svůj vlastní úhel @yaw@ / @pitch@ / @roll@. Tuto možnost použijte, pokud se stupňované expozice přesně nepřekrývají, například při fotografování z ruky.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignorujte skutečnost, že byly zjištěny odstupňované expozice. Snímky se nekombinují a negeneruje se žádné HDR panorama."
 		}
 	],
 	"helppages": [

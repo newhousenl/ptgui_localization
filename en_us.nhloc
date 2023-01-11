@@ -2155,8 +2155,8 @@
 },
 {
     "id": "mainwindow.imageparameters.vpprefix",
-    "txt": "VP ",
-    "txtfortranslate": "@viewpoint@ "
+    "txt": "VP",
+    "txtfortranslate": "@viewpoint@"
 },
 {
     "id": "mainwindow.imageparameters.vpx",
@@ -4132,6 +4132,10 @@
     "txt": "%0 bits per channel"
 },
 {
+    "id": "fileformatsettings.bits",
+    "txt": "%0 bits"
+},
+{
     "id": "fileformatsettings.32bitsfloatingpoints",
     "txt": "32 bits floating point"
 },
@@ -5644,6 +5648,10 @@
     "txt": "@+tilt@:"
 },
 {
+    "id": "qtvrsettings.fov",
+    "txt": "@mainwindow.optimizertab.fov@:"
+},
+{
     "id": "jpegquality",
     "txt": "JPEG quality:"
 },
@@ -6950,7 +6958,7 @@
         {
             "id": "projectsettingstab.alignimages.hdrdefaultmode",
             "helptext": "Default settings when bracketed exposures are detected.",
-            "morehelptext": "<br><br>Controls the default setting of the popup window that appears when running '@alignimages@' on a bracketed exposures.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b>images in the same set of bracketed exposures will be linked. Linked images are forced to have the same @yaw@ / @pitch@ / @roll@ and other settings, so they overlap pixel by pixel. In the @mainwindow.tabs.exposurehdr@ tab, '@mainwindow.exposurehdrpanel.hdrenabled@' will be selected. Use this option if a stable tripod was used while shooting.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b>images will not be linked, each image in the set of bracketed exposures will have its own @yaw@ / @pitch@ / @roll@ angle. In the @mainwindow.tabs.exposurehdr@ tab, '@mainwindow.exposurehdrpanel.hdrenabled@' will be selected. Use this if the bracketed exposures do not overlap exactly, for example when shooting hand held.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b>ignore the fact that bracketed exposures were detected, treat the images as a non HDR panorama. In the @mainwindow.tabs.exposurehdr@ tab, '@mainwindow.exposurehdrpanel.hdrdisabled@' will be selected."
+            "morehelptext": "<br><br>Controls the default setting of the popup window that appears when running '@alignimages@' on bracketed exposures.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b>bracketed images are combined (to form an HDR panorama). Also, the images in each bracketed set are forced to have the same @yaw@ / @pitch@ / @roll@ settings by checking the @mainwindow.imageparameters.linked@ checkboxes in the @mainwindow.tabs.imageparameters@ tab. Use this option if a stable tripod was used while shooting.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b>bracketed images are combined to form an HDR panorama, but the @mainwindow.imageparameters.linked@ checkboxes in the @mainwindow.tabs.imageparameters@ tab are not checked. This means that each image will have its own @yaw@ / @pitch@ / @roll@ angle. Use this if the bracketed exposures do not overlap exactly, for example when shooting hand held.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b>ignore the fact that bracketed exposures were detected. The images are not combined and no HDR panorama is generated."
         },
         {
             "id": "projectsettingstab.alignimages.hdrdefaultdontask",
@@ -7964,7 +7972,7 @@
         {
             "id": "sensorsizedialog.sensorsize",
             "helptext": "Enter the camera sensor size here.",
-            "morehelptext": "<br><br>To calculate the projection of a lens PTGui not only needs to know the focal length but also the camera's sensor size. Without knowing the sensor dimensions, the focal length is a meaningless value. The sensor size can be entered in 3 ways:<br><br><b>@sensorsizedialog.cropfactor@:</b>this is the relative sensor size compared to the traditional full frame 24 x 36 mm sensor format. 1x corresponds to a full frame sensor, higher values correspond to smaller sensor dimensions.<br><br><b>@sensorsizedialog.diagonal@:</b>the distance between the sensor's top left and bottom right corner.<br><br><b>@sensorsizedialog.sensorsize@:</b>width and height (in mm) of the sensor."
+            "morehelptext": "<br><br>To calculate the projection of a lens PTGui not only needs to know the focal length but also the camera's sensor size. Without knowing the sensor dimensions, the focal length is a meaningless value. The sensor size can be entered in 3 ways:<br><br><b>@sensorsizedialog.cropfactor@</b>this is the relative sensor size compared to the traditional full frame 24 x 36 mm sensor format. 1x corresponds to a full frame sensor, higher values correspond to smaller sensor dimensions.<br><br><b>@sensorsizedialog.diagonal@</b>the distance between the sensor's top left and bottom right corner.<br><br><b>@sensorsizedialog.sensorsize@</b>width and height (in mm) of the sensor."
         },
         {
             "id": "sensorsizedialog.preset",

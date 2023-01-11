@@ -2584,7 +2584,7 @@
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
 			"machinetranslated": true,
-			"txt": "@viewpoint@ "
+			"txt": "@viewpoint@"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -4999,6 +4999,11 @@
 			"txt": "%0 бит на канал"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 бит"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32-битная плавающая точка"
@@ -6856,6 +6861,10 @@
 			"txt": "@+tilt@:"
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@:"
+		},
+		{
 			"id": "jpegquality",
 			"machinetranslated": true,
 			"txt": "Качество JPEG:"
@@ -8442,12 +8451,6 @@
 			"helptext": "Выполняет функцию @mainwindow.exposurehdrpanel.optimizenow@ на вкладке @mainwindow.tabs.exposurehdr@ для калибровки виньетирования и оптимизации экспозиции."
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "Настройки по умолчанию при обнаружении экспозиции в скобках.",
-			"morehelptext": "<br><br>Управляет настройкой по умолчанию всплывающего окна, которое появляется при запуске «@alignimages@» при заключении в скобки.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> изображения в одном и том же наборе заключенных в скобки экспозиций будут связаны. Связанные изображения вынуждены иметь одинаковые @yaw@ / @pitch@ / @roll@ и другие настройки, поэтому они перекрывают пиксель за пикселем. На вкладке @mainwindow.tabs.exposurehdr@ будет выбран «@mainwindow.exposurehdrpanel.hdrenabled@». Используйте эту опцию, если во время съемки использовался стабильный штатив.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> изображения не будут связаны, каждое изображение в наборе заключенных в скобки экспозиций будет иметь собственный угол @yaw@ / @pitch@ / @roll@. На вкладке @mainwindow.tabs.exposurehdr@ будет выбран «@mainwindow.exposurehdrpanel.hdrenabled@». Используйте это, если экспозиции в скобках не совпадают точно, например, при съемке рук.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> игнорировать тот факт, что были обнаружены скобки, обрабатывать изображения как панораму без HDR. На вкладке @mainwindow.tabs.exposurehdr@ будет выбран «@mainwindow.exposurehdrpanel.hdrdisabled@»."
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"machinetranslated": true,
 			"helptext": "Если этот параметр отменен, выбранная выше настройка будет предварительно выбрана при запуске «@alignimages@», но подтверждение по-прежнему будет задано."
@@ -9676,7 +9679,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "Введите здесь размер сенсора камеры.",
-			"morehelptext": "<br><br>Для расчета проекции объектива PTGui требуется не только знать фокусное расстояние, но и размер сенсора камеры. Не зная размеры сенсора, фокусное расстояние является бессмысленным. Размер сенсора можно ввести тремя способами:<br><br><b>@sensorsizedialog.cropfactor@:</b> это относительный размер сенсора по сравнению с традиционным полноформатным форматом сенсора 24 x 36 мм. 1x соответствует датчику полного кадра, более высокие значения соответствуют меньшим размерам сенсора.<br><br><b>@sensorsizedialog.diagonal@:</b> расстояние между верхним левым и нижним правыми углами сенсора.<br><br><b>@sensorsizedialog.sensorsize@:</b> ширина и высота (в мм) сенсора."
+			"morehelptext": "<br><br>Для расчета проекции объектива PTGui требуется не только знать фокусное расстояние, но и размер сенсора камеры. Не зная размеры сенсора, фокусное расстояние является бессмысленным. Размер сенсора можно ввести тремя способами:<br><br><b>@sensorsizedialog.cropfactor@</b> это относительный размер сенсора по сравнению с традиционным полноформатным форматом сенсора 24 x 36 мм. 1x соответствует датчику полного кадра, более высокие значения соответствуют меньшим размерам сенсора.<br><br><b>@sensorsizedialog.diagonal@</b> расстояние между верхним левым и нижним правыми углами сенсора.<br><br><b>@sensorsizedialog.sensorsize@</b> ширина и высота (в мм) сенсора."
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -10251,6 +10254,12 @@
 			"machinetranslated": true,
 			"helptext": "Определяет, копируется ли кривая отклика камеры из шаблона.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Все кривые отклика камеры копируются из шаблона проекта, а поля @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ копируются из шаблона.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Кривые отклика камеры копируются из шаблона, а поля @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ копируются, за исключением изображений RAW. Для изображений RAW в поле @mainwindow.imageparameters.cameracurve@ на вкладке @mainwindow.tabs.imageparameters@ останется значение @txt.cameracurve.linear@, даже если в шаблоне используется оптимизированная кривая камеры. Это рекомендуемая настройка; это гарантирует, что один и тот же шаблон можно использовать для RAW и обычных изображений.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> настройки кривой отклика камеры в целевом проекте не будут изменены."
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "Настройки по умолчанию при обнаружении брекетинга экспозиции.",
+			"morehelptext": "<br><br>Управляет настройкой по умолчанию всплывающего окна, которое появляется при запуске «@alignimages@» на экспозициях с брекетингом.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> изображения в брекетинге объединяются (для формирования панорамы HDR). Кроме того, изображения в каждом наборе в скобках должны иметь одинаковые настройки @yaw@ / @pitch@ / @roll@, установив флажки @mainwindow.imageparameters.linked@ на вкладке @mainwindow.tabs.imageparameters@. Используйте этот вариант, если во время съемки использовался устойчивый штатив.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> изображения в брекетинге объединяются для формирования панорамы HDR, но флажки @mainwindow.imageparameters.linked@ на вкладке @mainwindow.tabs.imageparameters@ не отмечены. Это означает, что каждое изображение будет иметь свой угол @yaw@/@pitch@/@roll@. Используйте это, если экспозиция в брекетинге не перекрывается точно, например, при съемке с рук.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> игнорировать тот факт, что были обнаружены брекетинговые экспозиции. Изображения не объединяются, и панорама HDR не создается."
 		}
 	],
 	"helppages": [

@@ -4928,6 +4928,11 @@
 			"txt": "每通道 %0 位"
 		},
 		{
+			"id": "fileformatsettings.bits",
+			"machinetranslated": true,
+			"txt": "%0 位"
+		},
+		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
 			"machinetranslated": true,
 			"txt": "32 位浮点"
@@ -6744,6 +6749,10 @@
 			"txt": "@+tilt@："
 		},
 		{
+			"id": "qtvrsettings.fov",
+			"txt": "@mainwindow.optimizertab.fov@："
+		},
+		{
 			"id": "jpegquality",
 			"machinetranslated": true,
 			"txt": "JPEG 品质："
@@ -8457,12 +8466,6 @@
 			"helptext": "运行@mainwindow.tabs.exposurehdr@选项卡中的“@mainwindow.exposurehdrpanel.optimizenow@”功能，以校准渐变和曝光优化。"
 		},
 		{
-			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "检测到包围曝光时的默认设置。",
-			"morehelptext": "<br><br>控制在包围曝光中运行“@alignimages@”时出现的弹出窗口的默认设置。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@：</b>将链接同一组包围曝光中的图像。链接的图像被强制具有相同的@yaw@ / @pitch@ / @roll@和其他设置，因此它们逐个像素地重叠。在@mainwindow.tabs.exposurehdr@选项卡中，将选择“@mainwindow.exposurehdrpanel.hdrenabled@”。如果在拍摄时使用稳定的三脚架，请使用此选项。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@：</b>图像不会链接，包围曝光组中的每个图像都有自己的@yaw@ / @pitch@ / @roll@角度。在@mainwindow.tabs.exposurehdr@选项卡中，将选择“@mainwindow.exposurehdrpanel.hdrenabled@”。如果包围曝光不完全重叠，例如手持拍摄时，请使用此选项。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@：</b>忽略检测到包围曝光的事实，将图像视为非 HDR 全景图。在@mainwindow.tabs.exposurehdr@选项卡中，将选择“@mainwindow.exposurehdrpanel.hdrdisabled@”。"
-		},
-		{
 			"id": "projectsettingstab.alignimages.hdrdefaultdontask",
 			"machinetranslated": true,
 			"helptext": "如果取消选择，运行'@alignimages@'时将预先选择上面配置的设置，但仍会询问确认。"
@@ -9691,7 +9694,7 @@
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
 			"helptext": "在此处输入相机传感器尺寸。",
-			"morehelptext": "<br><br>要计算镜头的投影，PTGui 不仅需要知道焦距，还需要知道相机的传感器尺寸。在不知道传感器尺寸的情况下，焦距是无意义的值。传感器尺寸可以通过3种方式输入：<br><br><b>@sensorsizedialog.cropfactor@：</b>与传统的全画幅24 x 36 mm传感器格式相比，这是相对传感器尺寸。 1x对应于全帧传感器，较高的值对应于较小的传感器尺寸。<br><br><b>@sensorsizedialog.diagonal@：</b>传感器左上角和右下角之间的距离。<br><br><b>@sensorsizedialog.sensorsize@：</b>传感器的宽度和高度（以mm为单位）。"
+			"morehelptext": "<br><br>要计算镜头的投影，PTGui 不仅需要知道焦距，还需要知道相机的传感器尺寸。在不知道传感器尺寸的情况下，焦距是无意义的值。传感器尺寸可以通过3种方式输入：<br><br><b>@sensorsizedialog.cropfactor@</b>与传统的全画幅24 x 36 mm传感器格式相比，这是相对传感器尺寸。 1x对应于全帧传感器，较高的值对应于较小的传感器尺寸。<br><br><b>@sensorsizedialog.diagonal@</b>传感器左上角和右下角之间的距离。<br><br><b>@sensorsizedialog.sensorsize@</b>传感器的宽度和高度（以mm为单位）。"
 		},
 		{
 			"id": "sensorsizedialog.preset",
@@ -10272,6 +10275,12 @@
 			"machinetranslated": true,
 			"helptext": "控制是否从模板复制相机响应曲线。",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@：</b>所有相机响应曲线均从模板项目中复制，@mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段从模板中复制。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@：</b>从模板复制相机响应曲线，并复制 @mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段，RAW 图像除外。对于 RAW 图像，即使模板使用优化的相机曲线，@mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.cameracurve@ 字段仍将设置为 @txt.cameracurve.linear@。这是推荐的设置；它将确保相同的模板可用于 RAW 和常规图像。<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@：</b>目标项目中的相机响应曲线设置不会被修改。"
+		},
+		{
+			"id": "projectsettingstab.alignimages.hdrdefaultmode",
+			"machinetranslated": true,
+			"helptext": "检测到包围曝光时的默认设置。",
+			"morehelptext": "<br><br>控制在包围式曝光中运行“@alignimages@”时出现的弹出窗口的默认设置。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@：</b>合并包围曝光的图像（形成 HDR 全景图）。此外，通过选中 @mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.linked@ 复选框，强制每个括号集中的图像具有相同的 @yaw@ / @pitch@ / @roll@ 设置。如果拍摄时使用了稳定的三脚架，请使用此选项。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@：</b>组合包围曝光的图像以形成 HDR 全景图，但未选中 @mainwindow.tabs.imageparameters@ 选项卡中的 @mainwindow.imageparameters.linked@ 复选框。这意味着每个图像都有自己的 @yaw@ / @pitch@ / @roll@ 角度。如果包围曝光不完全重叠，例如手持拍摄时，请使用此选项。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@：</b>忽略检测到包围曝光的事实。图像没有合并，也没有生成 HDR 全景图。"
 		}
 	],
 	"helppages": [

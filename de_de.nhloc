@@ -5095,11 +5095,11 @@
 		},
 		{
 			"id": "publishtowebsite.autorotate.resumeafter",
-			"txt": "Fortsetzen nach"
+			"txt": "Nach"
 		},
 		{
 			"id": "publishtowebsite.autorotate.secondsofinactivity",
-			"txt": "Sekunden Inaktivität"
+			"txt": "Sekunden Inaktivität fortsetzen"
 		},
 		{
 			"id": "publishtowebsite.showfullscreen",

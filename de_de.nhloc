@@ -2879,7 +2879,7 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
-			"txt": "bis zu:"
+			"txt": "bis zu"
 		},
 		{
 			"id": "options.autoaddrelatedimages.secondsbetweenshots",
@@ -2956,7 +2956,7 @@
 		},
 		{
 			"id": "options.applytemplateinitialfolder",
-			"txt": "Menü '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@' ... öffnet:"
+			"txt": "Menü '@menubar.file@' | '@menubar.file.applytemplate@' | '@menubar.file.applytemplate.other@...' öffnet:"
 		},
 		{
 			"id": "options.applytemplateinitialfolder.templatesfolder",
@@ -5095,11 +5095,11 @@
 		},
 		{
 			"id": "publishtowebsite.autorotate.resumeafter",
-			"txt": "Fortsetzen nach"
+			"txt": "Nach"
 		},
 		{
 			"id": "publishtowebsite.autorotate.secondsofinactivity",
-			"txt": "Sekunden Inaktivität"
+			"txt": "Sekunden Inaktivität fortsetzen"
 		},
 		{
 			"id": "publishtowebsite.showfullscreen",
@@ -8371,7 +8371,7 @@
 		{
 			"id": "options.autoaddrelatedimages.enabled",
 			"machinetranslated": false,
-			"helptext": "Wenn ausgewählt und Sie ein einzelnes Bild zu einem neuen Projekt hinzufügen, wird PTGui den Quellbildordner nach anderen Bildern desselben Typs durchsuchen, die ungefähr zur gleichen Zeit aufgenommen wurden. Wenn mehr Bilder gefunden werden, schlägt PTGui vor, diese Bilder ebenfalls hinzuzufügen."
+			"helptext": "Wenn ausgewählt und Sie ein einzelnes Bild zu einem neuen Projekt hinzufügen, wird PTGui den Quellbildordner nach weiteren Bildern desselben Typs durchsuchen, die ungefähr zur gleichen Zeit aufgenommen wurden. Werden Bilder gefunden, schlägt PTGui vor, diese Bilder ebenfalls hinzuzufügen."
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",

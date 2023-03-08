@@ -6611,6 +6611,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "完畢。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "算法："
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "默認"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGUI 12.20"
 		}
 	],
 	"tooltips": [
@@ -9334,6 +9349,12 @@
 			"machinetranslated": true,
 			"helptext": "檢測到包圍曝光時的默認設置。",
 			"morehelptext": "<br><br>控制在包圍式曝光中運行“@alignimages@”時出現的彈出窗口的默認設置。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@：</b>合併包圍曝光的圖像（形成 HDR 全景圖）。此外，通過選中 @mainwindow.tabs.imageparameters@ 選項卡中的 @mainwindow.imageparameters.linked@ 複選框，強制每個括號集中的圖像具有相同的 @yaw@ / @pitch@ / @roll@ 設置。如果拍攝時使用了穩定的三腳架，請使用此選項。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@：</b>組合包圍曝光的圖像以形成 HDR 全景圖，但未選中 @mainwindow.tabs.imageparameters@ 選項卡中的 @mainwindow.imageparameters.linked@ 複選框。這意味著每個圖像都有自己的 @yaw@ / @pitch@ / @roll@ 角度。如果包圍曝光不完全重疊，例如手持拍攝時，請使用此選項。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@：</b>忽略檢測到包圍曝光的事實。圖像沒有合併，也沒有生成 HDR 全景圖。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "用於曝光融合的算法",
+			"morehelptext": "<br><br>PTGui 12.0 至 12.20 使用與 PTGui 11 及更早版本不同的曝光融合算法。在 PTGui 12.21 及更高版本中，舊算法再次可用，並且默認使用它，因為它提供了更好的結果。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@：</b>使用 PTGui 12.0 到 12.20 中使用的曝光融合算法。出於與在 PTGui 12.0 至 12.20 中創建的項目的兼容性原因，此選項可用，不應用於新項目。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@：</b>這是原始的曝光融合算法。這會提供最佳結果，並且是新項目的推薦選項。"
 		}
 	],
 	"helppages": [

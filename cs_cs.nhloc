@@ -6168,6 +6168,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Hotovo."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Algoritmus:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "Výchozí"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -8709,6 +8724,12 @@
 			"machinetranslated": true,
 			"helptext": "Výchozí nastavení při detekci odstupňovaných expozic.",
 			"morehelptext": "<br><br>Řídí výchozí nastavení vyskakovacího okna, které se objeví při spuštění '@alignimages@' na odstupňované expozice.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> snímky s různou expozicí se sloučí (k vytvoření panoramatu HDR). Snímky v každé oddělené sadě jsou také nuceny mít stejná nastavení @yaw@ / @pitch@ / @roll@ zaškrtnutím políček @mainwindow.imageparameters.linked@ na kartě @mainwindow.tabs.imageparameters@. Tuto možnost použijte, pokud byl při fotografování použit stabilní stativ.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> snímky v závorkách se spojí do panoramatu HDR, ale zaškrtávací políčka @mainwindow.imageparameters.linked@ na kartě @mainwindow.tabs.imageparameters@ nejsou zaškrtnuta. To znamená, že každý snímek bude mít svůj vlastní úhel @yaw@ / @pitch@ / @roll@. Tuto možnost použijte, pokud se stupňované expozice přesně nepřekrývají, například při fotografování z ruky.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignorujte skutečnost, že byly zjištěny odstupňované expozice. Snímky se nekombinují a negeneruje se žádné HDR panorama."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Algoritmus, který se má použít pro fúzi expozice",
+			"morehelptext": "<br><br>PTGui 12.0 až 12.20 používaly jiný expoziční fúzní algoritmus než PTGui 11 a starší. V PTGui 12.21 a novějších je starý algoritmus znovu zpřístupněn a používá se ve výchozím nastavení, protože poskytuje lepší výsledky.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> použijte expoziční fúzní algoritmus, který byl použit v PTGui 12.0 až 12.20. Tato možnost je dostupná z důvodu kompatibility s projekty vytvořenými v PTGui 12.0 až 12.20 a neměla by se používat pro nové projekty.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> toto je původní algoritmus fúze expozice. To poskytuje nejlepší výsledky a je to doporučená možnost pro nové projekty."
 		}
 	],
 	"helppages": [

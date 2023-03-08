@@ -6178,6 +6178,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Klaar."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Algoritme:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "Standaard"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -8463,6 +8478,12 @@
 			"machinetranslated": true,
 			"helptext": "Standaardinstellingen wanneer belichtingsreeksen worden gedetecteerd.",
 			"morehelptext": "<br><br>Bepaalt de standaardinstelling van het pop-upvenster dat verschijnt wanneer '@alignimages@' wordt uitgevoerd op belichtingsreeksen.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> belichtingsreeksen worden gecombineerd (om een HDR-panorama te vormen). Ook worden de afbeeldingen in elke belichtingsreeks gedwongen om dezelfde @yaw@ / @pitch@ / @roll@-instellingen te hebben door de @mainwindow.imageparameters.linked@-selectievakjes op het tabblad @mainwindow.tabs.imageparameters@ aan te vinken. Gebruik deze optie als tijdens het fotograferen een stabiel statief is gebruikt.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> belichtingsreeksen worden gecombineerd om een HDR-panorama te vormen, maar de selectievakjes @mainwindow.imageparameters.linked@ op het tabblad @mainwindow.tabs.imageparameters@ zijn niet aangevinkt. Dit betekent dat elke afbeelding zijn eigen @yaw@ / @pitch@ / @roll@ hoek heeft. Gebruik dit als de belichtingsreeksen elkaar niet exact overlappen, bijvoorbeeld bij opnamen zonder statief.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> negeer het feit dat belichtingsreeksen zijn gedetecteerd. De belichtingsreeksen worden niet gecombineerd en er wordt een niet-HDR panorama gegenereerd."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Te gebruiken algoritme voor exposure fusion",
+			"morehelptext": "<br><br>PTGui 12.0 tot 12.20 gebruikte een ander algoritme voor exposure fusion dan PTGui 11 en eerder. Sinds PTGui 12.21 is het oude algoritme weer beschikbaar en wordt het standaard gebruikt, omdat het betere resultaten geeft.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> gebruik het algoritme voor exposure fusion dat werd gebruikt in PTGui 12.0 tot 12.20. Deze optie is beschikbaar voor compatibiliteit met projecten die zijn gemaakt in PTGui 12.0 tot 12.20. We raden aan dit niet te gebruiken voor nieuwe projecten.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> dit is het originele algoritme voor exposure fusion. Dit geeft de beste resultaten en is de aanbevolen optie voor nieuwe projecten."
 		}
 	],
 	"helppages": [

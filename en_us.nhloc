@@ -6184,7 +6184,20 @@
 {
     "id": "txt.done",
     "txt": "Done."
+},
+{
+    "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+    "txt": "Algorithm:"
+},
+{
+    "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+    "txt": "Default"
+},
+{
+    "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+    "txt": "PTGui 12.20"
 }
+
 
 
 
@@ -8440,6 +8453,11 @@
             "id": "options.monitorcolorprofile",
             "helptext": "Choose the color profile to use for images displayed in the PTGui user interface. Thid setting is used for display only, generated panoramas are not affected.",
             "morehelptext": "<br><br>If your computer has a calibrated display, you can load its color profile here so that PTGui the PTGui user interface will show the correct colors.<br><br>Under Windows the same can be achieved by configuring the color profile in Windows Color Settings.<br><br>PTGui for Linux will use sRGB if no color profile is loaded here."
+        },
+        {
+            "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+            "helptext": "Algorithm to use for exposure fusion",
+            "morehelptext": "<br><br>PTGui 12.0 to 12.20 used a different exposure fusion algoritm than PTGui 11 and earlier. In PTGui 12.21 and later, the old algorithm is made available again, and it is used by default, because it gives better results.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> use the exposure fusion algorithm that was used in PTGui 12.0 to 12.20. This option is available for compatibility reasons with projects created in PTGui 12.0 to 12.20 and should not be used for new projects.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> this is the original exposure fusion algorithm. This gives the best results and is the recommended option for new projects."
         }
     ],
     "helppages": [

@@ -6178,6 +6178,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "終わり。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "アルゴリズム："
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "デフォルト"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -8461,6 +8476,12 @@
 			"machinetranslated": true,
 			"helptext": "ブラケット露出が検出された場合のデフォルト設定。",
 			"morehelptext": "<br><br>ブラケット露出で「@alignimages@」を実行したときに表示されるポップアップ ウィンドウのデフォルト設定を制御します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b>ブラケット画像が結合されます (HDR パノラマを形成するため)。また、[@mainwindow.tabs.imageparameters@] タブの [@mainwindow.imageparameters.linked@] チェックボックスをオンにすることで、各ブラケット セット内の画像に同じ @yaw@ / @pitch@ / @roll@ 設定が適用されます。撮影中に安定した三脚が使用された場合は、このオプションを使用します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b>ブラケット画像を組み合わせて HDR パノラマを形成しますが、[@mainwindow.tabs.imageparameters@] タブの [@mainwindow.imageparameters.linked@] チェックボックスがオフになっています。これは、各画像に独自の @yaw@ / @pitch@ / @roll@ 角度があることを意味します。手持ちで撮影する場合など、露出ブラケットが正確に重ならない場合に使用します。<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b>ブラケット露出が検出されたという事実を無視します。画像は結合されず、HDR パノラマは生成されません。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "露出融合に使用するアルゴリズム",
+			"morehelptext": "<br><br>PTGui 12.0 から 12.20 は、PTGui 11 以前とは異なる露出融合アルゴリズムを使用していました。 PTGui 12.21 以降では、古いアルゴリズムが再び利用可能になり、より良い結果が得られるため、デフォルトで使用されます。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> PTGui 12.0 から 12.20 で使用されていた露出融合アルゴリズムを使用します。このオプションは、PTGui 12.0 から 12.20 で作成されたプロジェクトとの互換性のために使用でき、新しいプロジェクトには使用しないでください。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b>これはオリジナルの露出融合アルゴリズムです。これは最良の結果をもたらし、新しいプロジェクトに推奨されるオプションです。"
 		}
 	],
 	"helppages": [

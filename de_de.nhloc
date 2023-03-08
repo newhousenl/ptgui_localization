@@ -6180,6 +6180,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Fertig."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Algorithmus:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "Standard"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -8903,6 +8918,12 @@
 			"machinetranslated": false,
 			"helptext": "Legt fest, ob die Kamerakurve aus der Vorlage kopiert wird.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> Alle Kamerarkurven werden aus dem Vorlagenprojekt kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden aus der Vorlage kopiert.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> Die Kamerakurven werden aus der Vorlage kopiert und die '@mainwindow.imageparameters.cameracurve@'-Felder auf der Registerkarte '@mainwindow.tabs.imageparameters@' werden, mit Ausnahme von RAW-Bildern, kopiert. Bei RAW-Bildern bleibt das Feld '@mainwindow.imageparameters.cameracurve@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' auf '@txt.cameracurve.linear@' eingestellt, selbst wenn die Vorlage eine optimierte Kamera-Kurve verwendet. Dies ist die empfohlene Einstellung. Dadurch wird sichergestellt, dass dieselbe Vorlage für RAW- und normale Bilder verwendet werden kann.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Die Einstellungen der Kamerakurve werden im Zielprojekt nicht geändert."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Algorithmus zur Verwendung für Exposure Fusion",
+			"morehelptext": "<br><br>PTGui 12.0 bis 12.20 verwendete einen anderen Exposure Fusion Algorithmus als PTGui 11 und früher. In PTGui 12.21 und höher wird der alte Algorithmus wieder verfügbar gemacht und standardmäßig verwendet, da er bessere Ergebnisse liefert.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> Verwendet den Algorithmus, der in PTGui 12.0 bis 12.20 verwendet wurde. Diese Option ist aus Kompatibilitätsgründen mit Projekten verfügbar, die in PTGui 12.0 bis 12.20 erstellt wurden, und sollte nicht für neue Projekte verwendet werden.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> Dies ist der ursprüngliche Exposure Fusion Algorithmus. Dies liefert die besten Ergebnisse und ist die empfohlene Option für neue Projekte."
 		}
 	],
 	"helppages": [

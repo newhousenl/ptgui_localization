@@ -7548,6 +7548,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Feito."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Algoritmo:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "Padrão"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -10271,6 +10286,12 @@
 			"machinetranslated": true,
 			"helptext": "Configurações padrão quando exposições com bracketing são detectadas.",
 			"morehelptext": "<br><br>Controla a configuração padrão da janela pop-up que aparece ao executar '@alignimages@' em exposições com bracketing.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> imagens com bracketing são combinadas (para formar um panorama HDR). Além disso, as imagens em cada conjunto entre colchetes são forçadas a ter as mesmas configurações @yaw@ / @pitch@ / @roll@ marcando as caixas de seleção @mainwindow.imageparameters.linked@ na guia @mainwindow.tabs.imageparameters@. Use esta opção se um tripé estável foi usado durante a filmagem.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> imagens com bracketing são combinadas para formar um panorama HDR, mas as caixas de seleção @mainwindow.imageparameters.linked@ na guia @mainwindow.tabs.imageparameters@ não estão marcadas. Isso significa que cada imagem terá seu próprio ângulo @yaw@ / @pitch@ / @roll@. Use isso se as exposições com bracketing não se sobrepuserem exatamente, por exemplo, ao fotografar com as mãos.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignore o fato de que foram detectadas exposições com bracketing. As imagens não são combinadas e nenhum panorama HDR é gerado."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Algoritmo a ser usado para fusão de exposição",
+			"morehelptext": "<br><br>O PTGui 12.0 a 12.20 usou um algoritmo de fusão de exposição diferente do PTGui 11 e anteriores. No PTGui 12.21 e posteriores, o algoritmo antigo é disponibilizado novamente e é usado por padrão, pois dá melhores resultados.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> use o algoritmo de fusão de exposição que foi usado no PTGui 12.0 a 12.20. Esta opção está disponível por questões de compatibilidade com projetos criados no PTGui 12.0 a 12.20 e não deve ser utilizada para novos projetos.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> este é o algoritmo de fusão de exposição original. Isso dá os melhores resultados e é a opção recomendada para novos projetos."
 		}
 	],
 	"helppages": [

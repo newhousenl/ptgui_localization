@@ -7537,6 +7537,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Сделанный."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Алгоритм:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "По умолчанию"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -10260,6 +10275,12 @@
 			"machinetranslated": true,
 			"helptext": "Настройки по умолчанию при обнаружении брекетинга экспозиции.",
 			"morehelptext": "<br><br>Управляет настройкой по умолчанию всплывающего окна, которое появляется при запуске «@alignimages@» на экспозициях с брекетингом.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> изображения в брекетинге объединяются (для формирования панорамы HDR). Кроме того, изображения в каждом наборе в скобках должны иметь одинаковые настройки @yaw@ / @pitch@ / @roll@, установив флажки @mainwindow.imageparameters.linked@ на вкладке @mainwindow.tabs.imageparameters@. Используйте этот вариант, если во время съемки использовался устойчивый штатив.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> изображения в брекетинге объединяются для формирования панорамы HDR, но флажки @mainwindow.imageparameters.linked@ на вкладке @mainwindow.tabs.imageparameters@ не отмечены. Это означает, что каждое изображение будет иметь свой угол @yaw@/@pitch@/@roll@. Используйте это, если экспозиция в брекетинге не перекрывается точно, например, при съемке с рук.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> игнорировать тот факт, что были обнаружены брекетинговые экспозиции. Изображения не объединяются, и панорама HDR не создается."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Алгоритм для использования для слияния экспозиций",
+			"morehelptext": "<br><br>В версиях PTGui 12.0–12.20 использовался другой алгоритм объединения экспозиции, чем в PTGui 11 и более ранних версиях. В PTGui 12.21 и более поздних версиях снова доступен старый алгоритм, который используется по умолчанию, поскольку дает лучшие результаты.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> используйте алгоритм объединения экспозиций, который использовался в PTGui 12.0–12.20. Этот параметр доступен для совместимости с проектами, созданными в PTGui 12.0–12.20, и не должен использоваться для новых проектов.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> это оригинальный алгоритм объединения экспозиций. Это дает наилучшие результаты и рекомендуется для новых проектов."
 		}
 	],
 	"helppages": [

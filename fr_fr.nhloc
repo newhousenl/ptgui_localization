@@ -7562,6 +7562,21 @@
 			"id": "txt.done",
 			"machinetranslated": true,
 			"txt": "Fait."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"txt": "Algorithme:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.default",
+			"machinetranslated": true,
+			"txt": "Défaut"
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
+			"machinetranslated": true,
+			"txt": "PTGui 12.20"
 		}
 	],
 	"tooltips": [
@@ -10284,6 +10299,12 @@
 			"machinetranslated": true,
 			"helptext": "Contrôle si la courbe de réponse de la caméra est copiée à partir du modèle.",
 			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@ :</b> toutes les courbes de réponse de la caméra sont copiées à partir du modèle de projet et les champs @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ sont copiés à partir du modèle.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@ :</b> Les courbes de réponse de la caméra sont copiées à partir du modèle et les champs @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ sont copiés, sauf pour les images RAW. Pour les images RAW, le champ @mainwindow.imageparameters.cameracurve@ de l'onglet @mainwindow.tabs.imageparameters@ restera défini sur @txt.cameracurve.linear@ même si le modèle utilise une courbe de caméra optimisée. C'est la configuration recommandée; cela garantira que le même modèle peut être utilisé pour les images RAW et régulières.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@ :</b> les paramètres de la courbe de réponse de la caméra dans le projet cible ne seront pas modifiés."
+		},
+		{
+			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
+			"machinetranslated": true,
+			"helptext": "Algorithme à utiliser pour la fusion d'exposition",
+			"morehelptext": "<br><br>PTGui 12.0 à 12.20 utilisait un algorithme de fusion d'exposition différent de PTGui 11 et versions antérieures. Dans PTGui 12.21 et versions ultérieures, l'ancien algorithme est à nouveau disponible et il est utilisé par défaut, car il donne de meilleurs résultats.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@ :</b> utilisez l'algorithme de fusion d'exposition qui a été utilisé dans PTGui 12.0 à 12.20. Cette option est disponible pour des raisons de compatibilité avec les projets créés dans PTGui 12.0 à 12.20 et ne doit pas être utilisée pour les nouveaux projets.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@ :</b> il s'agit de l'algorithme original de fusion d'exposition. Cela donne les meilleurs résultats et est l'option recommandée pour les nouveaux projets."
 		}
 	],
 	"helppages": [

@@ -4,15 +4,14 @@ Localization files for PTGui (www.ptgui.com)
 These files contain all localizable texts of the user interface, tooltips and help pages of PTGui. We have generated machine translations into many languages. We hope the translations are usable but they are not perfect. If you would like to help us by correcting any errors, improving any quirky translations etc, this is much appreciated!
 
 ## How to contribute
-Please submit any changes by forking this repository and sending pull requests via GitHub. Using GitHub makes it possible for multiple people to collaborate on the same files. If you are new to git and GitHub, see the instructions below to get started. A little familiarity with JSON and HTML syntax is probably helpful. 
+The preferred way to contribute is by by forking this repository and sending pull requests via GitHub. Using GitHub makes it possible for multiple people to collaborate on the same files. If you are new to git and GitHub, see the instructions below to get started. But if this sounds to complicated, feel free to send us your changes by email.
 
-You can make any changes in the .nhloc file. Remove the `"machinetranslated": true` line from all text you find to be correctly translated. If the meaning of a translation is unclear, the original english text can be looked up in en_us.nhloc. This file contains the original texts we used for machine translation.
+Make the changes in the .nhloc file corresponding to your language. Remove the `"machinetranslated": true` line from all text you find to be correctly translated. If the meaning of a translation is unclear, the original english text can be looked up in en_us.nhloc. This file contains the original texts we used for machine translation.
 
 Changes can be reviewed 'live' in the PTGui application. In Windows, update the .nhloc file in `C:\Program Files\PTGui\Translations'`. On Mac, ctrl+click on the PTGui application, select Show Package Contents and browse to the Contents/Resources/Translations folder. Quit and restart PTGui and it should show the modified texts.
 
 If you would like to be mentioned in the About box please add your name to the 'contributors' section. 
 
-Finally, submit a pull request to send us your modifications.
 
 ## Structure of the localization files
 Localizations are stored in files with the .nhloc extension. This is a JSON format. The fields and structure are documented in the [JSON schema](https://www.ptgui.com/schemas/nhloc_v2.schema.json). A JSON schema aware editor such as VS Code (see below) will show tooltips and syntax suggestions while editing.
@@ -27,15 +26,25 @@ Keep in mind that JSON does not permit multi line strings, therefore line ending
 
 Strings, tooltips and helppages can refer to texts in the 'strings' section. For example, if `@ok@` occurs in a string or help page, PTGui will lookup the string with `"id": "ok"` in the 'strings' section and replace it with the corresponding 'txt' field. If a `+` is added, as in `@+ok@`, the first character of the resulting string will be capitalized (so 'acceptar' would become 'Acceptar').
 
-## Editing .nhloc files
-A great editor is Microsoft's Visual Studio Code. It runs on Windows, Mac and Linux and can be downloaded [here](https://code.visualstudio.com/). It understands the JSON syntax and it automatically downloads and uses our JSON schema.
+## Editing translations using PTGui Language Editor
+
+Michael Göricke has created a fantastic tool specifically for editing the PTGui language files! It runs on Windows and can be downloaded at https://github.com/gomi42/PTGui-Language-Editor/releases
+
+After opening the editor, click the Load button and browse to the folder containing the .nhloc files. Then select the language in the dropdown (e.g. 'de_de'). The left column shows the original english text, the right hand column is where the translated text can be edited. The middle column shows the preview with formatting and string lookups (like `@ok@`) replaced.
+
+Before starting to edit, be sure to get the latest copies of the translations from https://github.com/newhousenl/ptgui_localization. They may be newer than the ones included with your copy of PTGui. Consider using git if you are familiar with this tool (see below).
+
+## Editing .nhloc files using Visual Studio Code
+Alternatively, Microsoft's Visual Studio Code can be used. It runs on Windows, Mac and Linux and can be downloaded [here](https://code.visualstudio.com/). It understands the JSON syntax and it automatically downloads and uses our JSON schema.
 
 In VS Code select File | Open and open the folder containing the .nhloc files. In the explorer sidebar click on the .nhloc file you wish to edit. By default the file will be shown as Plain Text. In the status bar, at the bottom right, click on the 'Plain Text' field. Select 'Configure File Association for .nhloc', then select JSON. You should now see the file with syntax coloring. Any errors will be marked in red; please be sure to fix them before submitting pull requests.
 
-## Setting up Git and GitHub
+## Collaborating using Git and GitHub
+By using Git and GitHub, multiple people can collaborate on the same files. Instead of sending us the edited language file, you send a 'pull request' containing just the changes you made. This way, multiple people can edit different parts of the same file.
+
 If you don't have a GitHub account yet, sign up for a free account at  [github.com](https://github.com/).
 
-It's easiest to get started by downloading and installing the [GitHub Desktop application](https://desktop.github.com). When you run GitHub Desktop, sign into your GitHub account when asked.
+An easy way to get started is by downloading and installing the [GitHub Desktop application](https://desktop.github.com). When you run GitHub Desktop, sign into your GitHub account when asked.
 
 Go to https://github.com/newhousenl/ptgui_localization and click the Fork button at the top right. You must be signed into your GitHub account. This creates a copy of our 'master' repository in your own account. Your changes will be made to your forked repository. So called Pull Requests are used to synchronize changes made by multiple users back to our master repository.
 
@@ -51,5 +60,9 @@ When done editing, return to the GitHub Desktop application. Your changes should
 Then upload the locally committed changes to your GitHub account by clicking Push Origin at the top.
 
 Finally, create a Pull Request to send us your changes. In GitHub Desktop, select Branch | Create Pull Request. This will open GitHub in your web browser. Click on the green Create Pull Request button. You can (optionally) leave a comment, then press the Create Pull Request button a second time to complete the pull request. Your changes have now been sent to us. You will receive a notification from GitHub once we have merged your changes.
+
+## Sending us your changes
+
+If using Git and GitHub sounds too complicated, just send us your changes by email! We're happy with all contributions. Please send the modified .nhloc file to support@ptgui.com.
 
 Thanks!

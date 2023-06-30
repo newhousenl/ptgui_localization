@@ -4721,7 +4721,8 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"txt": "OpenCLの初期化に失敗しました。この問題を解決したい。 support@@ptgui.comに連絡し、@menubar.help@  -  @menubar.help.systeminfo@の出力をお知らせください。\nエラー： "
+			"machinetranslated": true,
+			"txt": "OpenCLの初期化に失敗しました。詳細については、www.ptgui.com/kb/100 を参照してください。\nエラー： "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -4865,7 +4866,8 @@
 		},
 		{
 			"id": "err.nobracketedfound",
-			"txt": "HDR露出セットが見つかりませんでした。\n\nこの機能を使用するには、プロジェクト内の画像に繰り返し露出ブラケティングシーケンスが必要です。露光時間は、例えば1/25,1 / 100,1 / 400,1 / 25,1 / 100,1 / 400などの繰り返しシーケンスに従うべきです。\n\nブラケット露出を撮影するときは、カメラをマニュアルモード（カメラダイヤルの「M」モード）に設定してください。自動露出モード（一般に「P」「Av」「Tv」モードと呼ばれます）でブラケット露出が行われると、カメラはショット間の露出時間を調整します。 PTGuiでは手動露出モードで撮影した画像からのみHDRパノラマを作成できます。"
+			"machinetranslated": true,
+			"txt": "HDR 露出セットが見つかりません。\n\nこの機能を使用するには、プロジェクト内の画像に露出ブラケット シーケンスが繰り返し含まれている必要があります。詳細については、www.ptgui.com/kb/101 を参照してください。"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

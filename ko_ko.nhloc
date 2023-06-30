@@ -5815,7 +5815,7 @@
 		{
 			"id": "err.initopenclfailed",
 			"machinetranslated": true,
-			"txt": "OpenCL을 초기화하지 못했습니다. 이 문제를 해결하고 싶습니다. support@@ptgui.com에 연락하여 @menubar.help@ - @menubar.help.systeminfo@의 출력을 제공하십시오.\n오류: "
+			"txt": "OpenCL을 초기화하지 못했습니다. 자세한 내용은  www.ptgui.com/kb/100 을 참조하십시오.\n오류: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -5990,7 +5990,7 @@
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "HDR 노출 세트가 없습니다.\n\n이 기능을 사용하려면 프로젝트의 이미지에 반복 노출 브래킷팅 순서가 있어야 합니다. 노출 시간은 반복 순서(예 : 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 등)를 따라야 합니다.\n\n브래킷 노출을 할 때는 카메라를 수동 모드(카메라 다이얼의 'M'모드)로 설정하십시오. 자동 노출 모드(일반적으로 'P', 'Av'또는 'Tv'모드라고 함)에서 브래킷 노출을 촬영하면 카메라는 촬영간의 노출 시간을 조정합니다. PTGui는 수동 노출 모드로 촬영한 이미지에서만 HDR 파노라마를 만들 수 있습니다."
+			"txt": "HDR 노출 세트를 찾을 수 없습니다.\n\n이 기능을 사용하려면 프로젝트의 이미지에 노출 브라케팅 시퀀스가 반복되어야 합니다. 자세한 내용은  www.ptgui.com/kb/101 을 참조하십시오."
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

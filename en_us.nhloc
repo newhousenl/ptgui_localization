@@ -4872,7 +4872,7 @@
 
 {
     "id": "err.initopenclfailed",
-    "txt": "Failed to initialize OpenCL. We'd like to fix this problem; please contact support@@ptgui.com and give us the output of @menubar.help@ - @menubar.help.systeminfo@.\nError: "
+    "txt": "Failed to initialize OpenCL. Please see www.ptgui.com/kb/100 for more information.\nError: "
 },
 {
     "id": "err.tempfoldersunavailable",
@@ -5016,7 +5016,7 @@
 },
 {
     "id": "err.nobracketedfound",
-    "txt": "No HDR exposure sets found.\n\nTo use this function, the images in the project should have a repeating exposure bracketing sequence. The exposure times should follow a repeating sequence, for example 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nWhen taking bracketed exposures, be sure to set the camera in manual mode (the 'M' mode on the camera dial). If bracketed exposures are taken in automatic exposure mode (commonly named 'P', 'Av' or 'Tv' modes), the camera will adjust the exposure times between shots. PTGui can only create HDR panoramas from images taken in manual exposure mode."
+    "txt": "No HDR exposure sets found.\n\nTo use this function, the images in the project should have a repeating exposure bracketing sequence. For more informtion see: www.ptgui.com/kb/101"
 },
 {
     "id": "txt.confirmoverwrite.one",

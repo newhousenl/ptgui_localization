@@ -5832,11 +5832,6 @@
 			"txt": "Impossible de redresser le panorama. Veuillez aligner manuellement le panorama dans l'éditeur de panorama."
 		},
 		{
-			"id": "err.initopenclfailed",
-			"machinetranslated": false,
-			"txt": "Échec d'initialisation d'OpenCL. Nous aimerions résoudre ce problème. Merci de contacter support@@ptgui.com et de nous donner la sortie de @menubar.help@ - @menubar.help.systeminfo@.\nErreur: "
-		},
-		{
 			"id": "err.tempfoldersunavailable",
 			"machinetranslated": true,
 			"txt": "Un ou plusieurs des dossiers temporaires configurés ne peuvent pas être utilisés:\n\n"
@@ -6009,7 +6004,7 @@
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "Aucun ensemble d'exposition HDR trouvé.\n\nPour utiliser cette fonction, les images du projet doivent avoir une séquence de bracketing d'exposition répétée. Les temps d'exposition doivent suivre une séquence répétée, par exemple 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nLorsque vous prenez des photos bracketées, veillez à régler l'appareil photo en mode manuel (le mode «M» sur le cadran de l'appareil photo). Si des photos bracketées sont prises en mode d'exposition automatique (communément appelés modes «P», «Av» ou «Tv»), l'appareil photo ajustera les durées d'exposition entre les prises de vue. PTGui peut uniquement créer des panoramas HDR à partir d'images prises en mode d'exposition manuelle."
+			"txt": "Aucun ensemble d'exposition HDR trouvé.\n\nPour utiliser cette fonction, les images du projet doivent avoir une séquence de bracketing d'exposition répétée. Pour plus d'informations, voir : www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",
@@ -7577,6 +7572,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.initopenclfailed",
+			"machinetranslated": true,
+			"txt": "Échec de l'initialisation d'OpenCL. Veuillez consulter www.ptgui.com/kb/100 pour plus d'informations.\nErreur: "
 		}
 	],
 	"tooltips": [

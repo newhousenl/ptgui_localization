@@ -5820,7 +5820,7 @@
 		{
 			"id": "err.initopenclfailed",
 			"machinetranslated": true,
-			"txt": "无法初始化 OpenCL 。我们想解决这个问题；请联系support@@ptgui.com并提供@menubar.help@ - @menubar.help.systeminfo@的输出。\n错误： "
+			"txt": "无法初始化 OpenCL。请访问 www.ptgui.com/kb/100 了解更多信息。\n错误： "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -5995,7 +5995,7 @@
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "未找到 HDR 曝光集。\n\n要使用此功能，项目中的图像应具有重复曝光包围串行。曝光时间应遵循重复串行，例如1 / 25,1 / 100,1 / 400,1 / 25,1 / 100,1 / 400等。\n\n在拍摄包围曝光时，请务必将相机设置为手动模式（相机转盘上的“M”模式）。如果在自动曝光模式（通常称为“P”，“Av”或“Tv”模式）下进行包围曝光，相机将调整拍摄之间的曝光时间。PTGui 只能从手动曝光模式下拍摄的图像创建 HDR 全景图。"
+			"txt": "未找到 HDR 曝光集。\n\n要使用此功能，项目中的图像应具有重复的包围曝光序列。欲了解更多信息，请参阅：www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

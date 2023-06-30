@@ -5793,11 +5793,6 @@
 			"txt": "No se pudo enderezar el panorama. Alinee el panorama manualmente en el Editor de Panorama."
 		},
 		{
-			"id": "err.initopenclfailed",
-			"machinetranslated": true,
-			"txt": "Error al inicializar OpenCL. Nos gustaría solucionar este problema; Póngase en contacto con support@@ptgui.com y dénos la salida de @menubar.help@ - @menubar.help.systeminfo@.\nError: "
-		},
-		{
 			"id": "err.tempfoldersunavailable",
 			"machinetranslated": true,
 			"txt": "Una o más de las carpetas temporales configuradas no se pueden usar:\n\n"
@@ -5966,11 +5961,6 @@
 			"id": "txt.confirmlinkhdrsetsshort",
 			"machinetranslated": true,
 			"txt": "El proyecto parece contener %0 conjuntos de %1 exposiciones horquilladas. Que te gustaría hacer?"
-		},
-		{
-			"id": "err.nobracketedfound",
-			"machinetranslated": true,
-			"txt": "No se encontraron conjuntos de exposición HDR.\n\nPara usar esta función, las imágenes en el proyecto deben tener una secuencia de horquillado de exposición repetida. Los tiempos de exposición deben seguir una secuencia de repetición, por ejemplo 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nCuando tome imágenes de horquillado, asegúrese de configurar la cámara en modo manual (el modo 'M' en el dial de la cámara). Si las exposiciones horquilladas se toman en el modo de exposición automática (comúnmente denominado 'P', 'Av' o 'Tv'), la cámara ajustará los tiempos de exposición entre tomas. PTGui solo puede crear panoramas HDR a partir de imágenes tomadas en modo de exposición manual."
 		},
 		{
 			"id": "txt.confirmoverwrite.one",
@@ -7573,6 +7563,16 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.initopenclfailed",
+			"machinetranslated": true,
+			"txt": "No se pudo inicializar OpenCL. Consulte www.ptgui.com/kb/100 para obtener más información.\nError: "
+		},
+		{
+			"id": "err.nobracketedfound",
+			"machinetranslated": true,
+			"txt": "No se encontraron conjuntos de exposición HDR.\n\nPara utilizar esta función, las imágenes del proyecto deben tener una secuencia de horquillado de exposición repetitiva. Para más información ver: www.ptgui.com/kb/101"
 		}
 	],
 	"tooltips": [

@@ -5783,7 +5783,7 @@
 		{
 			"id": "err.initopenclfailed",
 			"machinetranslated": true,
-			"txt": "Falha ao inicializar o OpenCL. Nós gostaríamos de corrigir esse problema; por favor contate support@@ptgui.com e nos dê a saída de @menubar.help@ - @menubar.help.systeminfo@.\nErro: "
+			"txt": "Falha ao inicializar o OpenCL. Consulte www.ptgui.com/kb/100 para mais informações.\nErro: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -5958,7 +5958,7 @@
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "Não foram encontrados conjuntos de exposição HDR.\n\nPara usar essa função, as imagens no projeto devem ter uma seqüência repetitiva de bracketing de exposição. Os tempos de exposição devem seguir uma sequência repetitiva, por exemplo, 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, etc.\n\nAo fotografar exposições enquadradas, certifique-se de ajustar a câmera no modo manual (o modo 'M' no dial da câmera). Se as imagens de bracketing forem feitas no modo de exposição automática (geralmente chamado de modos 'P', 'Av' ou 'Tv'), a câmera ajustará os tempos de exposição entre as fotos. O PTGui só pode criar panoramas HDR a partir de imagens tiradas no modo de exposição manual."
+			"txt": "Não foram encontrados conjuntos de exposição HDR.\n\nPara usar esta função, as imagens no projeto devem ter uma sequência de bracketing de exposição repetitiva. Para mais informações consulte: www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

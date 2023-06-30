@@ -5510,7 +5510,7 @@
 		{
 			"id": "err.initopenclfailed",
 			"machinetranslated": true,
-			"txt": "Impossibile inizializzare OpenCL. Vorremmo risolvere questo problema; si prega di contattare support@@ptgui.com e darci l'output di @menubar.help@ - @menubar.help.systeminfo@.\nErrore: "
+			"txt": "Impossibile inizializzare OpenCL. Per ulteriori informazioni, vedere www.ptgui.com/kb/100.\nErrore: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -5690,7 +5690,7 @@
 		{
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
-			"txt": "Nessun set di esposizioni HDR trovato.\n\nPer utilizzare questa funzione, le immagini nel progetto dovrebbero avere una sequenza di bracketing dell'esposizione ripetuta. I tempi di esposizione dovrebbero seguire una sequenza ripetuta, ad esempio 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, ecc.\n\nQuando si riprendono le esposizioni a forcella, assicurarsi di impostare la fotocamera in modalità manuale (la modalità 'M' sul quadrante della fotocamera). Se le esposizioni con bracketing vengono eseguite in modalità di esposizione automatica (comunemente denominata modalità \"P\", \"Av\" o \"Tv\"), la fotocamera regolerà i tempi di esposizione tra gli scatti. PTGui può creare solo panorami HDR da immagini scattate in modalità esposizione manuale."
+			"txt": "Nessun set di esposizioni HDR trovato.\n\nPer utilizzare questa funzione, le immagini nel progetto dovrebbero avere una sequenza di bracketing dell'esposizione ripetuta. Per ulteriori informazioni vedere: www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

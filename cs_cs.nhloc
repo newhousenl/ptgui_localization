@@ -4750,7 +4750,8 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"txt": "Nepodařilo se inicializovat OpenCL. Rádi bychom tento problém vyřešili; kontaktujte prosím support@@ptgui.com a připojte výstup @menubar.help@ - @menubar.help.systeminfo@.\nChyba: "
+			"machinetranslated": true,
+			"txt": "Nepodařilo se inicializovat OpenCL. Více informací naleznete na www.ptgui.com/kb/100.\nChyba: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -4894,7 +4895,8 @@
 		},
 		{
 			"id": "err.nobracketedfound",
-			"txt": "Nebyly nalezeny žádné soubory s expozicí HDR.\n\nChcete-li tuto funkci použít, měly by být snímky v projektu opakující sekvenci. Doba expozice by měla odpovídat sekvenci, například 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 atd.\n\nPři fotografování vícenásobných expozic nezapomeňte nastavit fotoaparát do manuálního režimu (režim \"M\" na voliči fotoaparátu). Pokud jsou jednotlivé expozice pořízeny v režimu automatické expozice (běžně nazývané režimy \"P\", \"Av\" nebo \"Tv\"), fotoaparát upraví čas expozice mezi snímky a řada snímků tedy nemá stejné nastavení. PTGui může vytvářet panorama z HDR pouze ze snímků pořízených v režimu ruční expozice (manuální,\"M\")."
+			"machinetranslated": true,
+			"txt": "Nebyly nalezeny žádné sady expozice HDR.\n\nChcete-li použít tuto funkci, snímky v projektu by měly mít sekvenci opakování expozice bracketingu. Další informace najdete na: www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

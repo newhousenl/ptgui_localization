@@ -4711,7 +4711,7 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"txt": "OpenCL konnte nicht initialisiert werden. Wir möchten dieses Problem beheben. Bitte wenden Sie sich an support@@ptgui.com und senden Sie uns die Ausgabe von '@menubar.help@' - '@menubar.help.systeminfo@'.\nFehler: "
+			"txt": "OpenCL konnte nicht initialisiert werden. Weitere Informationen finden Sie unter www.ptgui.com/kb/100.\nFehler: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -4863,7 +4863,7 @@
 		},
 		{
 			"id": "err.nobracketedfound",
-			"txt": "Es wurden keine HDR-Belichtungsreihen gefunden.\n\nFür diese Funktion müssen Sie die Bilder mit einer sich wiederholenden Belichtungsreihenfolge aufnehmen. Die Belichtungszeiten müssen immer der gleichen Sequenz folgen, z.B. 1/25, 1/100, 1/400, 1/25, 1/100, 1/400 usw.\n\nNehmen Sie die Belichtungsreihen immer mit manuell eingestellter Belichtung auf (der Modus \"M\" auf dem Kamera-Einstellrad). Bei automatischer Belichtung (häufig als \"P\"-, \"Av\"- oder \"Tv\"-Modus bezeichnet) wird jede Belichtungsreihe anders belichtet. PTGui kann HDR-Panoramen nur aus Bildern erstellen, die Sie mit manueller Belichtung aufgenommen haben."
+			"txt": "Für diese Funktion müssen Sie die Bilder mit einer sich wiederholenden Belichtungsreihenfolge aufnehmen. Weitere Informationen finden Sie unter: www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

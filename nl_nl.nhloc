@@ -4696,7 +4696,7 @@
 		},
 		{
 			"id": "err.initopenclfailed",
-			"txt": "Initialiseren van OpenCL is mislukt. We willen dit probleem oplossen; Neem contact op met support@@ptgui.com en mail ons de uitvoer van @menubar.help@ - @menubar.help.systeminfo@.\nFout: "
+			"txt": "Initialiseren van OpenCL is mislukt. Zie www.ptgui.com/kb/100 voor meer informatie.\nFout: "
 		},
 		{
 			"id": "err.tempfoldersunavailable",
@@ -4848,7 +4848,7 @@
 		},
 		{
 			"id": "err.nobracketedfound",
-			"txt": "Geen HDR-belichtingsreeksen gevonden.\n\nOm deze functie te gebruiken, moeten de afbeeldingen in het project een repeterende belichtingsvolgorde hebben. De belichtingstijden moeten een herhalende reeks volgen, bijvoorbeeld 1/25, 1/100, 1/400, 1/25, 1/100, 1/400, enz.\n\nZorg er bij het maken van belichtingsreeksen voor dat de camera in de handmatige modus staat (de 'M'-modus op de camera-draaiknop). Indien belichtingsreeksen worden genomen in de automatische belichtingsmodus (gewoonlijk 'P', 'Av' of 'Tv' genoemd), past de camera namelijk de belichtingstijd tussen de opnamen aan. PTGui kan alleen HDR-panorama's maken van foto's die zijn gemaakt in de handmatige belichtingsmodus."
+			"txt": "Geen HDR-belichtingsreeksen gevonden.\n\nOm deze functie te gebruiken, moeten de afbeeldingen in het project een repeterende belichtingsvolgorde hebben. Voor meer informatie zie: www.ptgui.com/kb/101"
 		},
 		{
 			"id": "txt.confirmoverwrite.one",

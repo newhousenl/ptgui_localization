@@ -6298,11 +6298,6 @@
 			"txt": "사용"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "플래시 뷰어에만"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "사용 안함"
@@ -9211,7 +9206,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "뷰어의 오른쪽 상단에 전체 화면 버튼을 사용하거나 사용하지 않도록 설정합니다.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@ :</b> 전체 화면을 지원합니다.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@ :</b>(현재의 레거시) Flash 뷰어에서만 전체 화면 지원을 제공합니다.<br><br><b>@publishtowebsite.showfullscreen.no@ :</b> 전체 화면 지원을 비활성합니다.<br><br>전체 화면 표시는 HTML5 전체 화면 API를 사용합니다. 요즘에는 대부분의 웹 브라우저에서 지원되지만 iOS의 Safari는 예외입니다. 지원되지 않는 장치에서는 전체 웹 페이지를 채우기 위해 파노라마를 확장하여 전체 화면 표시를 에뮬레이션합니다. 일반적으로 아이프레임에 파노라마를 표시하는 경우를 제외하고는 정상적으로 작동합니다. 이 경우 파노라마는 전체 브라우저 창이 아닌 전체 아이프레임을 채우기 위해 확장됩니다."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@ :</b> 전체 화면을 지원합니다.<br><br><b>@publishtowebsite.showfullscreen.no@ :</b> 전체 화면 지원을 비활성합니다.<br><br>전체 화면 표시는 HTML5 전체 화면 API를 사용합니다. 요즘에는 대부분의 웹 브라우저에서 지원되지만 iOS의 Safari는 예외입니다. 지원되지 않는 장치에서는 전체 웹 페이지를 채우기 위해 파노라마를 확장하여 전체 화면 표시를 에뮬레이션합니다. 일반적으로 아이프레임에 파노라마를 표시하는 경우를 제외하고는 정상적으로 작동합니다. 이 경우 파노라마는 전체 브라우저 창이 아닌 전체 아이프레임을 채우기 위해 확장됩니다."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

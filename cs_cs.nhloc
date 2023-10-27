@@ -5143,10 +5143,6 @@
 			"txt": "Ano"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"txt": "Pouze ve Flash prohlížeči"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"txt": "Ne"
 		},
@@ -7647,7 +7643,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Aktivuje nebo deaktivuje tlačítko celé obrazovky v pravém horním rohu prohlížeče.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> podpora celé obrazovky.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> Podporu celé obrazovky nabízí pouze prohlížeč Flash (nyní starší).<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Zakázat podporu celé obrazovky.<br><br>Celoobrazovkové zobrazení používá rozhraní API HTML5 na celou obrazovku. To je dnes podporováno většinou webových prohlížečů kromě Safari v systému iOS. Na nepodporovaných zařízeních se celá obrazovka emuluje rozbalením a, aby se vyplnila celá webová stránka. To obvykle funguje dobře, s výjimkou zobrazení panorama v IFRAME: v takovém případě se a rozbalí tak, aby vyplňovala celý iframe, nikoliv celé okno prohlížeče."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> podpora celé obrazovky.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Zakázat podporu celé obrazovky.<br><br>Celoobrazovkové zobrazení používá rozhraní API HTML5 na celou obrazovku. Na nepodporovaných zařízeních se celá obrazovka emuluje rozbalením a, aby se vyplnila celá webová stránka. To obvykle funguje dobře, s výjimkou zobrazení panorama v IFRAME: v takovém případě se a rozbalí tak, aby vyplňovala celý iframe, nikoliv celé okno prohlížeče."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

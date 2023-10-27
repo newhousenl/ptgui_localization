@@ -6312,11 +6312,6 @@
 			"txt": "Oui"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "Seulement dans la visionneuse Flash"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "Non"
@@ -9220,7 +9215,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Active ou désactive le bouton plein écran en haut à droite de la visionneuse.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@: active le</b> support plein écran.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> offre uniquement la prise en charge plein écran dans la visionneuse Flash (désormais existante).<br><br><b>@publishtowebsite.showfullscreen.no@:</b> désactive le support plein écran.<br><br>L'affichage plein écran utilise l'API HTML5 plein écran. Ceci est supporté de nos jours par la plupart des navigateurs Web, à l'exception de Safari sur iOS. Sur les appareils non pris en charge, l'affichage en plein écran est émulé en développant le panorama pour remplir toute la page Web. Cela fonctionne généralement bien, sauf lorsque vous affichez le panorama dans un IFRAME: dans ce cas, le panorama s’agrandira pour remplir l’iframe entier et non la fenêtre entière du navigateur."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@: active le</b> support plein écran.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> désactive le support plein écran.<br><br>L'affichage plein écran utilise l'API HTML5 plein écran. Ceci est supporté de nos jours par la plupart des navigateurs Web. Sur les appareils non pris en charge, l'affichage en plein écran est émulé en développant le panorama pour remplir toute la page Web. Cela fonctionne généralement bien, sauf lorsque vous affichez le panorama dans un IFRAME: dans ce cas, le panorama s’agrandira pour remplir l’iframe entier et non la fenêtre entière du navigateur."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

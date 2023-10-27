@@ -5110,10 +5110,6 @@
 			"txt": "Ja"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"txt": "Nur im Flash-Viewer"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"txt": "Nein"
 		},
@@ -7839,7 +7835,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": false,
 			"helptext": "Aktiviert oder deaktiviert die Vollbild-Schaltfläche oben rechts im Viewer.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktiviert die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> Bietet Vollbildunterstützung nur im (jetzt älteren) Flash-Viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktiviert die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt, mit Ausnahme von Safari unter iOS. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert in der Regel gut, außer wenn das Panorama in einem IFRAME angezeigt wird. In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> Aktiviert die Vollbildunterstützung.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Deaktiviert die Vollbildunterstützung.<br><br>Die Vollbildanzeige verwendet die HTML5-Vollbild-API. Dies wird heutzutage von den meisten Webbrowsern unterstützt. Bei nicht unterstützten Geräten wird die Vollbildanzeige emuliert, indem das Panorama erweitert wird, um die gesamte Webseite auszufüllen. Dies funktioniert in der Regel gut, außer wenn das Panorama in einem IFRAME angezeigt wird. In diesem Fall wird das Panorama erweitert, um den gesamten Iframe und nicht das gesamte Browserfenster auszufüllen."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

@@ -5114,10 +5114,6 @@
 			"txt": "はい"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"txt": "Flashビューワーでのみ"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"txt": "いいえ"
 		},

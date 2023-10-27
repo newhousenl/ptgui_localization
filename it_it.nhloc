@@ -5998,11 +5998,6 @@
 			"txt": "sì"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "Solo nel visualizzatore Flash"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "No"
@@ -8800,7 +8795,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Abilita o disabilita il pulsante a schermo intero in alto a destra del visualizzatore.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> abilita il supporto a schermo intero.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> offre solo il supporto a schermo intero nel visualizzatore Flash (ora legacy).<br><br><b>@publishtowebsite.showfullscreen.no@:</b> disabilita il supporto a schermo intero.<br><br>La visualizzazione a schermo intero utilizza l'API a schermo intero HTML5. Questo è supportato in questi giorni dalla maggior parte dei browser Web, ad eccezione di Safari su iOS. Sui dispositivi non supportati, la visualizzazione a schermo intero viene emulata espandendo il panorama per riempire l'intera pagina web. Generalmente funziona bene, tranne quando si visualizza il panorama in un IFRAME: in tal caso il panorama si espande per riempire l'intero iframe, non l'intera finestra del browser."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> abilita il supporto a schermo intero.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> disabilita il supporto a schermo intero.<br><br>La visualizzazione a schermo intero utilizza l'API a schermo intero HTML5. Questo è supportato in questi giorni dalla maggior parte dei browser Web. Sui dispositivi non supportati, la visualizzazione a schermo intero viene emulata espandendo il panorama per riempire l'intera pagina web. Generalmente funziona bene, tranne quando si visualizza il panorama in un IFRAME: in tal caso il panorama si espande per riempire l'intero iframe, non l'intera finestra del browser."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

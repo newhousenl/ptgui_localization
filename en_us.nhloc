@@ -5264,10 +5264,6 @@
     "txt": "Yes"
 },
 {
-    "id": "publishtowebsite.showfullscreen.onlyflash",
-    "txt": "Only in Flash viewer"
-},
-{
     "id": "publishtowebsite.showfullscreen.no",
     "txt": "No"
 },
@@ -7571,7 +7567,7 @@
         {
             "id": "publishtowebsettings.enablefullscreen",
             "helptext": "Enables or disables the full screen button at the top right of the viewer.",
-            "morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b>enable full screen support.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b>only offer fullscreen support in the (now legacy) Flash viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b>disable full screen support.<br><br>Full screen display uses the HTML5 full screen API. This is supported these days by most web browsers, except for Safari on iOS. On unsupported devices, full screen display is emulated by expanding the panorama to fill the entire web page. This generally works fine, except when displaying the panorama in an IFRAME: in such a case the panorama will expand to fill the entire iframe, not the entire browser window."
+            "morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b>enable full screen support.<br><br><b>@publishtowebsite.showfullscreen.no@:</b>disable full screen support.<br><br>Full screen display uses the HTML5 full screen API. This is supported these days by most web browsers. On unsupported devices, full screen display is emulated by expanding the panorama to fill the entire web page. This generally works fine, except when displaying the panorama in an IFRAME: in such a case the panorama will expand to fill the entire iframe, not the entire browser window."
         },
         {
             "id": "publishtowebsettings.enablegyroscope",

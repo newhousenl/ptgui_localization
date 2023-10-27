@@ -6303,11 +6303,6 @@
 			"txt": "是"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "仅限 Flash 查看器"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "否"
@@ -9211,7 +9206,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "启用或停用查看器右上角的全屏幕按钮。",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>启用全屏幕支持。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>仅在（现在的旧版）Flash查看器中提供全屏幕支持。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全屏幕支持。<br><br>全屏幕显示使用 HTML5 全屏幕API。当前大多数网络浏览器都支持此功能，但iOS上的Safari除外。在不支持的设备上，通过展开全景图以填充整个网页来仿真全屏幕显示。这通常可以正常工作，除非在IFRAME中显示全景：在这种情况下，全景图将展开以填充整个iframe，而不是整个浏览器窗口。"
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>启用全屏幕支持。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全屏幕支持。<br><br>全屏幕显示使用 HTML5 全屏幕API。当前大多数网络浏览器都支持此功能，但iOS上的Safari除外。在不支持的设备上，通过展开全景图以填充整个网页来仿真全屏幕显示。这通常可以正常工作，除非在IFRAME中显示全景：在这种情况下，全景图将展开以填充整个iframe，而不是整个浏览器窗口。"
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

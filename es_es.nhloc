@@ -6268,11 +6268,6 @@
 			"txt": "Sí"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "Sólo en el visor de Flash"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "No"
@@ -9211,7 +9206,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Activa o desactiva el botón de pantalla completa en la parte superior derecha del visor.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> habilita el soporte de pantalla completa.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> solo ofrece soporte de pantalla completa en el visor de Flash (ahora legado).<br><br><b>@publishtowebsite.showfullscreen.no@:</b> deshabilita el soporte de pantalla completa.<br><br>La visualización de pantalla completa utiliza la API de pantalla completa HTML5. Esto es compatible en la actualidad con la mayoría de los navegadores web, a excepción de Safari en iOS. En dispositivos no compatibles, la visualización de pantalla completa se emula al expandir el panorama para llenar toda la página web. Esto generalmente funciona bien, excepto cuando se muestra el panorama en un IFRAME: en tal caso, el panorama se expandirá para llenar todo el iframe, no toda la ventana del navegador."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> habilita el soporte de pantalla completa.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> deshabilita el soporte de pantalla completa.<br><br>La visualización de pantalla completa utiliza la API de pantalla completa HTML5. Esto es compatible en la actualidad con la mayoría de los navegadores web. En dispositivos no compatibles, la visualización de pantalla completa se emula al expandir el panorama para llenar toda la página web. Esto generalmente funciona bien, excepto cuando se muestra el panorama en un IFRAME: en tal caso, el panorama se expandirá para llenar todo el iframe, no toda la ventana del navegador."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

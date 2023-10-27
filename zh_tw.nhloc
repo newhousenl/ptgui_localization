@@ -5356,11 +5356,6 @@
 			"txt": "是"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "僅限Flash檢視器"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "沒有"
@@ -8264,7 +8259,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "啟用或停用檢視器右上角的全螢幕按鈕。",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全螢幕支援。<br><br><b>@publishtowebsite.showfullscreen.onlyflash@：</b>僅在（現在的舊版）Flash檢視器中提供全螢幕支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全螢幕支援。<br><br>全螢幕顯示使用HTML5全螢幕API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全螢幕顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@：</b>啟用全螢幕支援。<br><br><b>@publishtowebsite.showfullscreen.no@：</b>停用全螢幕支援。<br><br>全螢幕顯示使用HTML5全螢幕API。目前大多數網路瀏覽器都支援此功能，但iOS上的Safari除外。在不支援的裝置上，通過展開全景圖以填充整個網頁來模擬全螢幕顯示。這通常可以正常工作，除非在IFRAME中顯示全景：在這種情況下，全景圖將展開以填充整個iframe，而不是整個瀏覽器視窗。"
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

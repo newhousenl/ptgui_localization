@@ -5095,10 +5095,6 @@
 			"txt": "Ja"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"txt": "Alleen in Flash-viewer"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"txt": "Nee"
 		},
@@ -7541,7 +7537,7 @@
 		{
 			"id": "publishtowebsettings.enablefullscreen",
 			"helptext": "Schakelt de knop Volledig Scherm in de rechterbovenhoek van de viewer in of uit.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> ondersteuning voor Volledig Scherm inschakelen.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> bied alleen ondersteuning voor Volledig Scherm in de (verouderde) Flash-viewer.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Ondersteuning voor Volledig Scherm uitschakelen.<br><br>In volledig scherm wordt de HTML5 API op volledig scherm gebruikt. Dit wordt tegenwoordig door de meeste webbrowsers ondersteund, behalve Safari op iOS. Op niet-ondersteunde apparaten wordt de volledige schermweergave geëmuleerd door het panorama uit te vouwen om de hele webpagina te vullen. Dit werkt over het algemeen goed, behalve wanneer het panorama in een IFRAME wordt weergegeven: in een dergelijk geval wordt het panorama uitvergroot om het hele iframe te vullen, niet het volledige browservenster."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> ondersteuning voor Volledig Scherm inschakelen.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> Ondersteuning voor Volledig Scherm uitschakelen.<br><br>In volledig scherm wordt de HTML5 Fullscreen API gebruikt. Dit wordt tegenwoordig door de meeste webbrowsers ondersteund. Op niet-ondersteunde apparaten wordt de volledige schermweergave geëmuleerd door het panorama uit te vouwen om de hele webpagina te vullen. Dit werkt over het algemeen goed, behalve wanneer het panorama in een IFRAME wordt weergegeven: in een dergelijk geval wordt het panorama uitvergroot om het hele iframe te vullen, niet het volledige browservenster."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

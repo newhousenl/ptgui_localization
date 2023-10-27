@@ -6266,11 +6266,6 @@
 			"txt": "Sim"
 		},
 		{
-			"id": "publishtowebsite.showfullscreen.onlyflash",
-			"machinetranslated": true,
-			"txt": "Apenas no visualizador de Flash"
-		},
-		{
 			"id": "publishtowebsite.showfullscreen.no",
 			"machinetranslated": true,
 			"txt": "Não"
@@ -9201,7 +9196,7 @@
 			"id": "publishtowebsettings.enablefullscreen",
 			"machinetranslated": true,
 			"helptext": "Ativa ou desativa o botão de tela cheia no canto superior direito do visualizador.",
-			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> ative o suporte de tela cheia.<br><br><b>@publishtowebsite.showfullscreen.onlyflash@:</b> oferece apenas suporte de tela cheia no visualizador de Flash (agora herdado).<br><br><b>@publishtowebsite.showfullscreen.no@:</b> desativa o suporte de tela cheia.<br><br>A exibição em tela cheia usa a API de tela inteira em HTML5. Isso é suportado atualmente pela maioria dos navegadores, com exceção do Safari no iOS. Em dispositivos não suportados, a exibição em tela cheia é emulada expandindo o panorama para preencher toda a página da Web. Isso geralmente funciona bem, exceto ao exibir o panorama em um IFRAME: nesse caso, o panorama será expandido para preencher todo o iframe, não a janela inteira do navegador."
+			"morehelptext": "<br><br><b>@publishtowebsite.showfullscreen.yes@:</b> ative o suporte de tela cheia.<br><br><b>@publishtowebsite.showfullscreen.no@:</b> desativa o suporte de tela cheia.<br><br>A exibição em tela cheia usa a API de tela inteira em HTML5. Isso é suportado atualmente pela maioria dos navegadores. Em dispositivos não suportados, a exibição em tela cheia é emulada expandindo o panorama para preencher toda a página da Web. Isso geralmente funciona bem, exceto ao exibir o panorama em um IFRAME: nesse caso, o panorama será expandido para preencher todo o iframe, não a janela inteira do navegador."
 		},
 		{
 			"id": "publishtowebsettings.enablegyroscope",

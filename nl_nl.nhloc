@@ -2500,7 +2500,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator",
-			"txt": "interpolator:"
+			"txt": "Interpolator:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator.default",
@@ -6193,6 +6193,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "Het geselecteerde uitvoerkleurprofiel kan niet worden gebruikt, waarschijnlijk omdat het een profield is dat alleen als bron gebruikt kan worden.\n\nGa naar het tabblad @mainwindow.createpanoramatab.createpanorama@ en selecteer een andere uitvoerkleurruimte. We raden aan een profiel met een grote kleurruimte te kiezen (bijvoorbeeld ProPhoto RGB), zodat de beeldkwaliteit niet wordt beïnvloed."
 		}
 	],
 	"tooltips": [

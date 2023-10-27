@@ -7573,6 +7573,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGUI 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "无法使用所选的输出颜色配置文件，很可能是因为它是仅源配置文件。\n\n请转至 @mainwindow.createpanoramatab.createpanorama@ 选项卡并选择不同的输出色彩空间。建议选择宽色域配置文件（例如 ProPhoto RGB），这样图像质量不会受到影响。"
 		}
 	],
 	"tooltips": [

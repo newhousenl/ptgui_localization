@@ -7563,6 +7563,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "O perfil de cores de saída selecionado não pode ser usado, provavelmente porque é um perfil somente de origem.\n\nVá para a guia @mainwindow.createpanoramatab.createpanorama@ e selecione um espaço de cores de saída diferente. Recomenda-se a escolha de um perfil de ampla gama (como ProPhoto RGB), para que a qualidade da imagem não seja afetada."
 		}
 	],
 	"tooltips": [

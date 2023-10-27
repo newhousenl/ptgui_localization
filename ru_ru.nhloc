@@ -7552,6 +7552,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "Выбранный выходной цветовой профиль невозможно использовать, скорее всего, потому, что это профиль только для источника.\n\nПерейдите на вкладку @mainwindow.createpanoramatab.createpanorama@ и выберите другое выходное цветовое пространство. Рекомендуется выбрать профиль с широкой гаммой (например, ProPhoto RGB), чтобы не повлиять на качество изображения."
 		}
 	],
 	"tooltips": [

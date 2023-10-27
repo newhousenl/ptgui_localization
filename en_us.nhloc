@@ -6196,13 +6196,11 @@
 {
     "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
     "txt": "PTGui 12.20"
+},
+{
+    "id": "err.lcms.couldntlinkprofiles",
+    "txt": "The selected output color profile cannot be used, most likely because it's a source-only profile.\n\nPlease go to the @mainwindow.createpanoramatab.createpanorama@ tab and select a different output color space. Choosing a wide gamut profile (such as ProPhoto RGB) is recommended, so that the image quality is not affected."
 }
-
-
-
-
-
-
 
     ],
 

@@ -6195,6 +6195,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "Das ausgewählte Ausgabefarbprofil kann nicht verwendet werden, wahrscheinlich weil es sich um ein reines Quellprofil handelt.\n\nBitte gehen Sie zur Registerkarte @mainwindow.createpanoramatab.createpanorama@ und wählen Sie einen anderen Farbraum für die Ausgabe aus. Es wird empfohlen, ein Profil mit großem Farbumfang (z. B. ProPhoto RGB) zu wählen, damit die Bildqualität nicht beeinträchtigt wird."
 		}
 	],
 	"tooltips": [

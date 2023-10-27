@@ -7573,6 +7573,11 @@
 			"id": "err.nobracketedfound",
 			"machinetranslated": true,
 			"txt": "No se encontraron conjuntos de exposición HDR.\n\nPara utilizar esta función, las imágenes del proyecto deben tener una secuencia de horquillado de exposición repetitiva. Para más información ver: www.ptgui.com/kb/101"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "El perfil de color de salida seleccionado no se puede utilizar, probablemente porque es un perfil de solo origen.\n\nVaya a la pestaña @mainwindow.createpanoramatab.createpanorama@ y seleccione un espacio de color de salida diferente. Se recomienda elegir un perfil de gama amplia (como ProPhoto RGB) para que la calidad de la imagen no se vea afectada."
 		}
 	],
 	"tooltips": [

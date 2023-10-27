@@ -6195,6 +6195,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "選択した出力カラー プロファイルは使用できません。おそらく、ソースのみのプロファイルであることが考えられます。\n\n[@mainwindow.createpanoramatab.createpanorama@] タブに移動し、別の出力カラー スペースを選択してください。画質に影響を与えないように、広色域プロファイル (ProPhoto RGB など) を選択することをお勧めします。"
 		}
 	],
 	"tooltips": [

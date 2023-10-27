@@ -7577,6 +7577,11 @@
 			"id": "err.initopenclfailed",
 			"machinetranslated": true,
 			"txt": "Échec de l'initialisation d'OpenCL. Veuillez consulter www.ptgui.com/kb/100 pour plus d'informations.\nErreur: "
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "Le profil de couleur de sortie sélectionné ne peut pas être utilisé, probablement parce qu'il s'agit d'un profil source uniquement.\n\nVeuillez accéder à l'onglet @mainwindow.createpanoramatab.createpanorama@ et sélectionner un espace colorimétrique pour la sortie différent. Il est recommandé de choisir un profil à large gamme (tel que ProPhoto RVB), afin que la qualité de l'image ne soit pas affectée."
 		}
 	],
 	"tooltips": [

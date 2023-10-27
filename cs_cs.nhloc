@@ -6185,6 +6185,11 @@
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
 			"txt": "PTGui 12.20"
+		},
+		{
+			"id": "err.lcms.couldntlinkprofiles",
+			"machinetranslated": true,
+			"txt": "Vybraný výstupní barevný profil nelze použít, pravděpodobně proto, že se jedná pouze o zdrojový profil.\n\nPřejděte na kartu @mainwindow.createpanoramatab.createpanorama@ a vyberte jiný výstupní barevný prostor. Doporučuje se zvolit profil širokého gamutu (například ProPhoto RGB), aby nebyla ovlivněna kvalita obrazu."
 		}
 	],
 	"tooltips": [

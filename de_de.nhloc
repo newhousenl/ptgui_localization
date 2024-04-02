@@ -6759,7 +6759,7 @@
 		{
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
-			"txt": "Patchbild bearbeiten in:"
+			"txt": "Patch-Bild bearbeiten in:"
 		},
 		{
 			"id": "detailviewer.sidebar.patch.openin.patcheditor",
@@ -9506,7 +9506,7 @@
 			"id": "detailviewer.sidebar.patch.createpatch",
 			"machinetranslated": true,
 			"helptext": "Einen Patch für die aktuelle Ansicht erstellen.",
-			"morehelptext": "<br><br>Erfasst die aktuelle Ansicht und speichert sie als Patchbild. Das Patchbild wird dem Projekt hinzugefügt und dem Panorama überlagert. Der @patchwindow@ wird zum Bearbeiten des Patches geöffnet.<br><br>Mit dem Patch können unerwünschte Teile des Panoramas entfernt werden, beispielsweise um ein Stativ oder eine Person zu entfernen. Der Patch kann auch zum Füllen von Löchern verwendet werden, die nicht durch die Quellbilder abgedeckt werden, beispielsweise der Nadir oder der Zenit."
+			"morehelptext": "<br><br>Erfasst die aktuelle Ansicht und speichert sie als Patch-Bild. Das Patch-Bild wird dem Projekt hinzugefügt und dem Panorama überlagert. Der @patchwindow@ wird zum Bearbeiten des Patches geöffnet.<br><br>Mit dem Patch können unerwünschte Teile des Panoramas entfernt werden, beispielsweise um ein Stativ oder eine Person zu entfernen. Der Patch kann auch zum Füllen von Löchern verwendet werden, die nicht durch die Quellbilder abgedeckt werden, beispielsweise der Nadir oder der Zenit."
 		},
 		{
 			"id": "detailviewer.sidebar.extract",

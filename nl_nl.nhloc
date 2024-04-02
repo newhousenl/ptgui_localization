@@ -6048,7 +6048,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (alleen PTGui Pro): Als @panoramaeditor.sidebar.blendsettings.seamfinding@ (in het @mainwindow.createpanoramatab.blending@-paneel in de @panoramaeditor@) is uitgeschakeld, worden naden normaal gesproken in het midden van de overlap tussen twee afbeeldingen geplaatst. Dit kan worden aangepast door de @mainwindow.imageparameters.blendpriority@ van een bronafbeelding te verhogen of te verlagen. Het is een relatieve waarde: als twee afbeeldingen een mengprioriteit van 150 en 100 hebben, wordt een groter deel van de eerste afbeelding gebruikt. Deze waarde wordt genegeerd als @panoramaeditor.sidebar.blendsettings.seamfinding@ is ingeschakeld.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Een project kan meerdere camera-responscurves bevatten; dit veld configureert per bronafbeelding de cameraresponscurve die moet worden gebruikt. Camera-responscurves worden geconfigureerd in het tabblad @mainwindow.tabs.exposurehdr@. Als het project slechts één camera-responscurve bevat, krijgt deze de naam '@txt.globalcameracurve@'. Als <b>@txt.cameracurve.linear@</b> is geselecteerd, wordt aangenomen dat de afbeelding lineaire gegevens bevat en wordt er geen curve toegepast. Zie voor meer informatie de tooltip op het tabblad @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Configureert de oorspronkelijke witbalans van elk bronbeeld, als kleurtemperatuur in graden Kelvin. Dit wordt gebruikt als er een gewenste witbalans is geconfigureerd in het @panoramaeditor.sidebar.postprocess@-paneel van de @panoramaeditor@. De kleuren van de bronafbeelding worden aangepast van de hier geconfigureerde kleurtemperatuur tot de gewenste kleurtemperatuur. Als dit veld leeg is, wordt uitgegaan van een standaardwaarde van 5000K. Dit veld wordt genegeerd als '@txt.asshot@' is geselecteerd in het @panoramaeditor.sidebar.postprocess@ paneel.<br><br><b>@mainwindow.imageparameters.linked@:</b> (alleen PTGui Pro): bij het samenvoegen van HDR-panorama's van bracketed bronafbeeldingen, configureert dit selectievakje of de bracketed beelden dezelfde parameters @yaw@, @pitch@, @roll@ en @viewpoint@ hebben. Schakel dit selectievakje uit als de bracketed beelden niet van een statief zijn genomen en ze onafhankelijke parameters @yaw@, @pitch@, @roll@ en @viewpoint@ moeten hebben. Er moeten dan controlepunten tussen de bracketed beelden worden geplaatst om ze uit te lijnen."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (alleen PTGui Pro): Als @panoramaeditor.sidebar.blendsettings.seamfinding@ (in het @mainwindow.createpanoramatab.blending@-paneel in de @panoramaeditor@) is uitgeschakeld, worden naden normaal gesproken in het midden van de overlap tussen twee afbeeldingen geplaatst. Dit kan worden aangepast door de @mainwindow.imageparameters.blendpriority@ van een bronafbeelding te verhogen of te verlagen. Het is een relatieve waarde: als twee afbeeldingen een mengprioriteit van 150 en 100 hebben, wordt een groter deel van de eerste afbeelding gebruikt. Deze waarde wordt genegeerd als @panoramaeditor.sidebar.blendsettings.seamfinding@ is ingeschakeld.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Een project kan meerdere camera-responscurves bevatten; dit veld configureert per bronafbeelding de cameraresponscurve die moet worden gebruikt. Camera-responscurves worden geconfigureerd in het tabblad @mainwindow.tabs.exposurehdr@. Als het project slechts één camera-responscurve bevat, krijgt deze de naam '@txt.globalcameracurve@'. Als <b>@txt.cameracurve.linear@</b> is geselecteerd, wordt aangenomen dat de afbeelding lineaire gegevens bevat en wordt er geen curve toegepast. Zie voor meer informatie de tooltip op het tabblad @mainwindow.tabs.exposurehdr@.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (alleen PTGui Pro): bij het samenvoegen van HDR-panorama's van bracketed bronafbeeldingen, configureert dit selectievakje of de bracketed beelden dezelfde parameters @yaw@, @pitch@, @roll@ en @viewpoint@ hebben. Schakel dit selectievakje uit als de bracketed beelden niet van een statief zijn genomen en ze onafhankelijke parameters @yaw@, @pitch@, @roll@ en @viewpoint@ moeten hebben. Er moeten dan controlepunten tussen de bracketed beelden worden geplaatst om ze uit te lijnen."
 		},
 		{
 			"id": "proxysettings.button",
@@ -6194,6 +6194,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "Het geselecteerde uitvoerkleurprofiel kan niet worden gebruikt, waarschijnlijk omdat het een profield is dat alleen als bron gebruikt kan worden.\n\nGa naar het tabblad @mainwindow.createpanoramatab.createpanorama@ en selecteer een andere uitvoerkleurruimte. We raden aan een profiel met een grote kleurruimte te kiezen (bijvoorbeeld ProPhoto RGB), zodat de beeldkwaliteit niet wordt beïnvloed."
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "(diagonaal)"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "Weergave"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "Patch"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "Snapshot"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "Afbeelding opslaan"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "Maak een patch"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "Patch editor"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "Afbeelding openen"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "Afbeelding opslaan"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "Automatisch opslaan"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "Afbeelding opslaan als"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "Opslaan..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "De afbeelding is gewijzigd. Wilt u opslaan?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "Niet-ondersteund bestandstype: .%0. Kan alleen opslaan als TIFF, JPEG2000 of JPEG."
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "Er zijn meerdere bestanden tegelijk neergezet maar er kan slechts één bestand tegelijk worden geopend."
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "Punt verwijderen"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "Patch verwijderen"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "Punt toevoegen"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze functie is alleen beschikbaar in de <a href=0>perspectiefmodus</a> ."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "Grootte:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "Resolutie:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "Formaat:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "Opslaan in projectmap"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "Kies locatie..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze functie is niet beschikbaar als blend planes worden gebruikt. <a href=0>Blend planes uitschakelen.</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "Patch"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "Uitsnijden"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "Met transparantie"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "%0x compressie"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "verliesvrij"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "Compressie:"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "Verwijder controlepunten tussen niet-aangrenzende afbeeldingen"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "Er zijn geen controlepunten verwijderd.\n\nControlepunten worden alleen verwijderd als een ander beeld op de rechte lijn tussen de twee beeldcentra ligt. De middelste afbeelding moet minimaal 4 controlepunten hebben met elke buur."
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "Eén controlepunt (van %0) wordt verwijderd. Wilt u doorgaan en het project opnieuw optimaliseren?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " %0-controlepunten (van %1) worden verwijderd. Wilt u doorgaan en het project opnieuw optimaliseren?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "Schakel @mainwindow.createpanoramatab.output.blendplanes@ in"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Niet beschikbaar voor DNG uitvoer"
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Tone Mapping en Exposure Fusion zijn uitgeschakeld voor DNG uitvoer"
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "Probeer PTGui (standaardversie)"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "Probeer PTGui Pro"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "Wat is het verschil tussen de standaardversie en PTGui Pro?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "Afstand:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "Normaal"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "Nauw"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "Automatisch"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "Onbekend ICC-kleurprofiel"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "Het ICC-kleurprofiel is van een niet-ondersteund type."
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "Niet-ondersteund ICC-kleurprofiel: %0. In plaats hiervan zal sRGB worden gebruikt."
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "Niet-ondersteund ICC-kleurprofiel: %0. Voor OpenEXR-uitvoer moet een lineair kleurprofiel worden geselecteerd."
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "Het ICC-kleurprofiel kan niet worden gelezen. In plaats hiervan zal sRGB worden gebruikt. De volgende fout is opgetreden:\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "Het ICC-kleurprofiel is beschadigd."
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "RAW voorbewerking"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "Ruisonderdrukking toepassen"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "Chroma:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "Luma:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "Verwijder CA"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "Deze afbeelding (%0) is geen RAW bestand."
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "Deze RAW afbeelding (%0) kan niet worden voorbewerkt omdat deze een alfakanaal (transparantie) heeft."
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "Deze RAW afbeelding (%0) kan niet worden voorbewerkt omdat deze in floating point formaat is."
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Er kunnen meer aanpassingen worden gedaan in het <a href=0>@panoramaeditor.sidebar.postprocess@</a> paneel in de @panoramaeditor@."
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "Ga naar tabblad"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "Volgende tabblad"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "Vorig tabblad"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "Schakel tussen eenvoudige/geavanceerd"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "ZIP compressieniveau:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "DWA compressieniveau:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "licentie"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@, @mainwindow.imageparameters.whitepoint.tint@:</b>Configureert de originele witbalans van elke bronafbeelding. Als er voor het panorama een andere witbalans wordt gekozen (in het @panoramaeditor.sidebar.postprocess@-paneel van de @panoramaeditor@), of als afbeeldingen met verschillende witbalans in hetzelfde panorama worden gebruikt, zal PTGui een conversie naar de doelwitbalans uitvoeren. Om dit te doen moet de originele witbalans van de bronafbeeldingen bekend zijn. <b>@mainwindow.imageparameters.whitepoint.temperature@</b> is de kleurtemperatuur in Kelvin en past de blauw-amber balans aan. Gebruikelijke waarden zijn 3000K voor gloeilampen, 3500K voor zonsopgang of zonsondergang, 5000K voor daglicht en 6500K voor bewolkte lucht. <b>@mainwindow.imageparameters.whitepoint.tint@</b> past de groen-magenta balans aan. Gewoonlijk kan dit op de neutrale waarde 0 worden gezet.",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ temp"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ tint"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "Temperatuur:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "Tint:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "Onverwachte opdrachtregel optie: %0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "Fout in opdrachtregel. Gebruik: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "Deze sjabloon is een PTGui 10-projectbestand. Hoewel PTGui nog steeds PTGui 10-projectbestanden kan laden, kunnen ze niet als sjabloon worden gebruikt. Open de sjabloon en sla deze eerst op in het huidige PTGui bestandsformaat."
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "Projectbestand genereren"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR belichting"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "Referentie:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "Middelste belichting"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "Helderste belichting"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "Absolute belichting"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "Offset:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Stel een absolute belichtingswaarde in. Dit wordt gedefinieerd als een EV-offset ten opzichte van een belichting van 1 seconde bij f/1.0 en ISO 100. De kleur wit in deze (denkbeeldige) belichting komt overeen met 1,0 in het HDR-panorama. Elke verlaging met 1 verdubbelt de helderheid. Met andere woorden: EV = log2(diafragma^2 / (belichtingstijd * ISO / 100)).<br><br>Om een absolute belichting voor het panorama te kunnen gebruiken, moet de belichting van alle bronbeelden bekend zijn. De belichtingstijd, het diafragma en de ISO van elke bronafbeelding kunnen worden ingesteld op het tabblad @mainwindow.tabs.imageparameters@. Als de ISO van een of meerdere afbeeldingen onbekend is, wordt voor alle afbeeldingen uitgegaan van ISO 100. Op dezelfde manier wordt uitgegaan van een diafragma van f/1.0 en een belichtingstijd van 1 seconde als deze parameter niet voor elke bronafbeelding is gespecificeerd."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "Pipet"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "Witbalans aanpassen (klik op een grijs gekleurd gebied)"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "HDR belichting aanpassen"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "Pas de HDR belichting aan zodat deze pixel de helderheid heeft:"
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "Dit is een zwarte pixel. Selecteer een niet-zwarte pixel."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "Toon:"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "LDR panorama"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR panorama"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze instellingen hebben alleen invloed op de HDR uitvoer. Momenteel wordt het LDR panorama getoond. <a href=\"0\">Omschakelen naar HDR voorvertoning.</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze instellingen hebben alleen invloed op de LDR uitvoer. Momenteel wordt het HDR panorama getoond. <a href=\"0\">Omschakelen naar LDR voorvertoning.</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Belichtingsaanpassing is actief: <a href=\"0\">resetten</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "witbalans"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "Koppel groepen van"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "afbeeldingen"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "Het project bevat slechts %0 afbeeldingen."
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "Het project bevat %0 afbeeldingen, wat geen veelvoud is van %1."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "Het project zal één set van %0 gekoppelde afbeeldingen bevatten."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "Het project zal %0 sets van %1 gekoppelde afbeeldingen bevatten."
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "Uw licentie is geüpgraded naar PTGui Pro. Om de Pro-functies te activeren, moet PTGui opnieuw opstarten. Wilt u uw werk opslaan en PTGui nu opnieuw opstarten?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "Upgrade naar PTGui Pro"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "Naden zoeken op 1/%0 duurt lang!"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "Bewerken in @patchwindow@"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "Hierdoor wordt de bronafbeelding gewijzigd en overschreven. Weet u het zeker?"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "Het huidige project moet eerst worden opgeslagen. Wilt u dit nu doen?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "Het project bevat patchafbeeldingen. Als u het project optimaliseert, worden afbeeldingen verplaatst, waardoor de patches niet meer uitgelijnd zijn. Weet u het zeker?"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze instellingen hebben alleen invloed op de LDR-uitvoer.  Momenteel wordt het HDR panorama getoond."
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "Kan %0 niet in %1 openen."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "Bewerk de patchafbeelding in:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "Applicatie:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "Bestandslocatie openen"
 		}
 	],
 	"tooltips": [
@@ -8485,6 +9084,225 @@
 			"machinetranslated": true,
 			"helptext": "Te gebruiken algoritme voor exposure fusion",
 			"morehelptext": "<br><br>PTGui 12.0 tot 12.20 gebruikte een ander algoritme voor exposure fusion dan PTGui 11 en eerder. Sinds PTGui 12.21 is het oude algoritme weer beschikbaar en wordt het standaard gebruikt, omdat het betere resultaten geeft.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> gebruik het algoritme voor exposure fusion dat werd gebruikt in PTGui 12.0 tot 12.20. Deze optie is beschikbaar voor compatibiliteit met projecten die zijn gemaakt in PTGui 12.0 tot 12.20. We raden aan dit niet te gebruiken voor nieuwe projecten.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> dit is het originele algoritme voor exposure fusion. Dit geeft de beste resultaten en is de aanbevolen optie voor nieuwe projecten."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "Maak een patch voor de huidige weergave.",
+			"morehelptext": "<br><br>Sla de huidige weergave op als een patchafbeelding. De patchafbeelding wordt aan het project toegevoegd en over het panorama gelegd. De @patchwindow@ wordt geopend om de patch te bewerken.<br><br>Deze functie kan worden gebruikt om ongewenste delen van het panorama te verwijderen, bijvoorbeeld een persoon of het camerastatief. Het is ook mogelijk om gaten op te vullen op delen van het panorama waarvoor geen bronafbeelding beschikbaar is, bijvoorbeeld het nadir of het zenit."
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "Maak een snapshot van de huidige weergave op volledige resolutie"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "Bekijk of bewerk de kijkrichting van de @detailviewer@"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "Afbeelding openen",
+			"helptext": "Open een afbeelding om te retoucheren."
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "Afbeelding opslaan",
+			"helptext": "Sla de bewerkte afbeelding op."
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "Automatisch opslaan",
+			"helptext": "Sla de bewerkte afbeelding automatisch op na elke wijziging."
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "Sla afbeelding op als",
+			"helptext": "Sla de bewerkte afbeelding op onder een andere naam."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "De Patch-functie is niet beschikbaar in combinatie met blendvlakken.",
+			"morehelptext": "<br><br>De Patch-functie slaat de huidige weergave op als een patch-afbeelding. De patchafbeelding wordt aan het project toegevoegd en over het panorama gelegd. Dit is alleen mogelijk als het project één enkel blendvlak heeft.<br><br>Blendvlakken kunnen worden uitgeschakeld door op het tabblad @mainwindow.tabs.exposurehdr@ over te schakelen naar de workflow '@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@'.<br><br>Of u kunt het panorama eerst afmaken en stitchen. Vervolgens kan de patch-tool worden gebruikt door het voltooide panorama in een nieuw PTGui-project te laden."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "Bestandsformaat voor de patchafbeelding.",
+			"morehelptext": "<br><br>De afbeelding kan worden opgeslagen in JPEG, TIFF of JPEG2000 formaat:<br><br><b>TIFF</b> geeft de beste beeldkwaliteit, maar de bestanden kunnen erg groot zijn. 8 bit TIFF kan worden gebruikt als de bronbeelden ook 8 bits per kanaal bevatten en identieke belichting hebben. Anders kan beter 16 bit TIFF worden gebruikt om het volledige dynamische bereik te behouden.<br><br><b>JPEG</b> is beperkt tot 8 bits per kanaal en ondersteunt geen transparantie, maar de bestandsgrootte van de patchafbeelding zal veel kleiner zijn.<br><br><b>JPEG2000</b> ondersteunt transparantie en zowel 8 als 16 bit per kanaal. De bestandsgrootte is veel kleiner dan die van TIFF vanwege compressie met verlies."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "Instellingen"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "Grootte (in pixels) van de snapshot. Kies 100% om een snapshot met de optimale grootte te maken."
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "Maak een snapshot van de huidige weergave en sla deze op. Er wordt om de bestandsnaam gevraagd."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "Stel de pitch in op -90° om het nadir te bekijken."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "Stel de pitch in op 0°."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "Stel de pitch in op 90° om het zenit te bekijken."
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "Afbeelding openen",
+			"helptext": "Open een afbeelding om te retoucheren."
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "Automatisch opslaan",
+			"helptext": "Na elke wijziging wordt de bewerkte afbeelding automatisch opgeslagen."
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "Afbeelding opslaan",
+			"helptext": "Sla de bewerkte afbeelding op."
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "Modus: gat snijden",
+			"helptext": "Snij een gat in de afbeelding om ongewenste delen te verwijderen.",
+			"morehelptext": "<br><br>Klik in de afbeelding om een polygoon te maken. Dit deel van de afbeelding wordt transparant gemaakt. Gebruik deze functie om ongewenste delen van de afbeelding te verwijderen voordat u een patch toevoegt."
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "Modus: Patch",
+			"helptext": "Retoucheer de afbeelding door patches te kopiëren.",
+			"morehelptext": "<br><br>Om een patch te maken, klikt u in de afbeelding om een afgesloten gebied te tekenen. Dit gebied zal worden gebruikt als bestemming voor de patch. Sleep vervolgens de patch naar de locatie die als bron voor de patch moet worden gebruikt. De patch wordt van het brongebied naar het bestemmingsgebied gekopieerd."
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "Zoek optimale naden",
+			"helptext": "Probeer een optimale naad te vinden tussen de patch en de onderliggende afbeelding.",
+			"morehelptext": "<br><br>Indien ingeschakeld, wordt de naad tussen de patchafbeelding en de onderliggende afbeelding door gebieden geleid waar de patchafbeelding en de onderliggende afbeelding het meest op elkaar lijken. Dit zorgt voor het meest naadloze resultaat. Gebruik eerst de 'uitsnijden'-modus om aan te geven welke delen van de oorspronkelijke afbeelding verborgen dienen te worden.<br><br>Indien uitgeschakeld, wordt de patch in zijn geheel over de afbeelding gelegd. De randen zullen nog steeds overvloeien, maar het resultaat zal niet zo naadloos zijn."
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "Help"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "Bewaar alleen controlepunten tussen afbeeldingen die directe buren zijn."
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "Configureert de afstand tussen elementen van de gebruikersinterface. Op kleinere schermen kan dit ingesteld worden op '@options.spacing.narrow@'."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "Pas de witbalans van het panorama aan.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> Indien geselecteerd, wordt het panorama gemaakt met de gemiddelde witbalans van de bronafbeeldingen. Als alle afbeeldingen dezelfde witbalans hebben, wordt er geen witbalansconversie uitgevoerd.<br><br>Als @panoramaeditor.sidebar.postprocess.whitebalance.auto@ niet is geselecteerd, kan een gewenste kleurtemperatuur voor het panorama (in graden Kelvin) worden gekozen. De witbalans wordt aangepast van de oorspronkelijke kleurtemperatuur naar de geselecteerde kleurtemperatuur. De originele kleurtemperatuur van elke bronafbeelding wordt geconfigureerd in de kolom '@mainwindow.imageparameters.whitebalance@' op het tabblad @mainwindow.tabs.imageparameters@. Als van geen van de bronafbeeldingen de kleurtemperatuur bekend is, wordt uitgegaan van 5000K."
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "Sterkte van ruisonderdrukking voor chrominantieruis (kleurruis)."
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "Sterkte van ruisonderdrukking voor luminantieruis (helderheid)."
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Compressieniveau dat wordt gebruikt voor ZIP-compressie. Tussen 0 (voor lage compressie en hoge beeldkwaliteit) en 9 (hoge compressie en lagere kwaliteit)."
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "Chromatische aberratie is een lensvervorming die ervoor zorgt dat verschillende kleuren iets anders worden scherpgesteld. Dit kan worden gezien als een gekleurde rand rond de randen van objecten. De hoeveelheid chromatische aberratiereductie kan worden aangepast."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "Stelt de helderheid in van het gegenereerde HDR-beeld.",
+			"morehelptext": "<br><br>HDR-beelden hebben een (vrijwel) onbeperkt dynamisch bereik. Voor normale afbeeldingen met een laag dynamisch bereik komt de kleur wit overeen met de maximale pixelwaarde die kan worden opgeslagen. Maar voor HDR-beelden bestaat ‘wit’ niet en moet er een referentiehelderheid worden geselecteerd. PTGui kan de helderheid van het gegenereerde HDR-beeld op de volgende manieren schalen:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Als het panorama wordt gegenereerd uit belichtingsreeksen, komt de waarde 1,0 in het HDR-panorama overeen met wit in de middenbelichting. Als bijvoorbeeld 0/-2/+2-bracketing is gebruikt, hebben witte pixels in de 0EV-belichting een pixelwaarde van 1,0 in het panorama. Als gevolg hiervan zal het resulterende HDR-panorama doorgaans pixels bevatten die helderder zijn dan 1. Dit is de standaardinstelling.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Als het panorama wordt gegenereerd uit belichtingsreeksen, komt de kleur wit in het helderste bronbeeld overeen met 1,0 in het HDR-panorama. Alle pixels van het HDR-beeld zullen dus tussen 0 en 1 liggen.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Houd er rekening mee dat hiermee slechts een referentiehelderheid voor het HDR-beeld wordt ingesteld. HDR-beelden kunnen niet direct worden weergegeven en de daadwerkelijke betekenis van een 1,0 pixelwaarde is afhankelijk van de toepassing. Er is geen risico op overbelichting bij HDR-beelden: als het HDR-beeld te helder is, kan de helderheid worden verminderd nadat het is gegenereerd. In tegenstelling tot gewone beelden zal er bij HDR-beelden geen sprake zijn van clipping van heldere delen."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "Pas een extra offset toe op de HDR helderheid.",
+			"morehelptext": "<br><br>Een positieve waarde verhoogt de helderheid, vergelijkbaar met belichtingscompensatie op een camera."
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "Wijzig de belichting van het HDR-panorama, zodat deze pixel de opgegeven helderheid heeft in het HDR-panorama.",
+			"morehelptext": "<br><br>Dit heeft alleen invloed op de helderheid van het HDR-panorama. Het LDR-panorama (na tone mapping of exposure fusion) wordt niet beïnvloed. De HDR-belichting kan handmatig worden aangepast in de zijbalk '@panoramaeditor.sidebar.hdrpostprocess@' in de @panoramaeditor@.<br><br>Een mogelijke toepassing is het fotograferen van een grijskaart met bekende reflectie en het afstemmen van de HDR-belichting op de lichtintensiteit van de scène op de locatie van de grijskaart."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "Pipet",
+			"morehelptext": "<br><br>Klik in het panorama om een kleur te selecteren. De volgende functies worden ondersteund:<br><br><b>Witbalansaanpassing:</b> klik op een grijs gekleurd object in de scène. De witbalans wordt zo aangepast dat het geselecteerde object neutraal grijs wordt.<optional product='pro'><br><br><b>HDR-belichting aanpassen:</b> pas de belichting van het HDR-panorama zo aan dat de geselecteerde pixel een bepaalde helderheid heeft.</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "Schakel tussen HDR- en LDR-preview.",
+			"morehelptext": "<br><br>Kies of de @panoramaeditor@ en @detailviewer@ het HDR panorama of het LDR panorama weergeven.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> Toon de uitvoer met laag dynamisch bereik, overeenkomend met de uitvoeroptie '@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@' op het tabblad @mainwindow.tabs.createpanorama@. U ziet een voorbeeld van het resultaat van de tone mapping en eventuele instellingen die zijn toegepast in het paneel @panoramaeditor.sidebar.postprocess@ in de @panoramaeditor@.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> Toon de HDR uitvoer, overeenkomend met de uitvoeroptie '@mainwindow.createpanoramatab.output.hdrblended@' op het tabblad @mainwindow.tabs.createpanorama@. Het volledige dynamische bereik van het HDR-beeld kan worden geïnspecteerd door de schuifregelaar 'Belichting' hieronder aan te passen. De instellingen in het paneel @panoramaeditor.sidebar.hdrpostprocess@ in het @panoramaeditor@ worden toegepast. Er worden geen tooncurven toegepast, waardoor het beeld er enigszins bleek uitziet in vergelijking met de LDR-preview."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "HDR-uitvoer is niet beschikbaar bij gebruik van Exposure Fusion.",
+			"morehelptext": "<br><br>Met Exposure Fusion worden belichtingsreeksen samengevoegd tot LDR zonder eerst een HDR afbeelding te genereren. Om HDR-uitvoer te zien, schakelt u Exposure Fusion uit in de @panoramaeditor@-zijbalk."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "Verhoog of verlaag de helderheid van het voorbeeld. Heeft alleen invloed op het beeld zoals weergegeven in de @panoramaeditor@ en @detailviewer@, niet op de daadwerkelijke uitvoer."
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Compressieniveau dat moet worden gebruikt voor DWA-compressie. 0 is verliesvrij; hogere waarden geven een hogere compressie en een lagere beeldkwaliteit."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "Selecteert de toepassing die moet worden gebruikt voor het bewerken van de gegenereerde patchafbeelding.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bewerk de patchafbeelding in de @patchwindow@ die bij PTGui wordt geleverd.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Kies een externe applicatie om de patchafbeelding te bewerken. Hier worden alle applicaties vermeld die zijn geregistreerd om het bestandstype van de patchimage te verwerken.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open de map met de patchafbeelding in @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [
@@ -8594,7 +9412,17 @@
 		},
 		{
 			"id": "cameradatabase",
-			"helptext": "<b>@cameradatabase@</b><br><br>Voor het berekenen van de projectie van een lens moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder de sensorafmetingen te kennen, is de brandpuntsafstand een betekenisloze waarde. PTGui kent de sensorafmetingen van meer dan 2000 camera's, maar het is mogelijk dat uw camera niet is inbegrepen. In dat geval kunt u deze gegevens toevoegen aan de cameradatabase.<br><br><b>Gebruik van de cameradatabase</b><br><br>Het cameradatabase-venster kan worden geopend via @menubar.tools@ | @cameradatabase@. Records worden niet rechtstreeks vanaf hier geladen en opgeslagen; in plaats daarvan wordt dit gedaan vanaf het tabblad @mainwindow.tabs.lenssettings@ in het hoofdvenster. Als het tabblad @mainwindow.tabs.lenssettings@ niet wordt weergegeven, drukt u op de knop @advanced@ in de zijbalk van het hoofdvenster.<br><br>In het @mainwindow.tabs.lenssettings@-tabblad drukt u op de @cameradatabase@-knop om de huidige sensorafmeting van of naar de lensdatabase te laden of op te slaan en koppelt u deze gegevens aan het cameramodel zoals gevonden in het veld EXIF ​​'cameramodel'. De volgende keer dat een afbeelding met dit EXIF ​​cameramodel wordt geladen, wordt de afmeting van de camerasensor automatisch geïnitialiseerd."
+			"helptext": "<b>@cameradatabase@</b><br><br>Voor het berekenen van de projectie van een lens moet PTGui niet alleen de brandpuntsafstand weten, maar ook de sensorafmetingen van de camera. Zonder de sensorafmetingen te kennen, is de brandpuntsafstand een betekenisloze waarde. PTGui kent de sensorafmetingen van meer dan 2000 camera's, maar het is mogelijk dat uw camera niet is inbegrepen. In dat geval kunt u deze gegevens toevoegen aan de cameradatabase.<br><br><b>Gebruik van de cameradatabase</b><br><br>Het cameradatabase-venster kan worden geopend via @menubar.tools@ | @cameradatabase@. Records worden niet rechtstreeks vanaf hier geladen en opgeslagen; in plaats daarvan wordt dit gedaan vanaf het tabblad @mainwindow.tabs.lenssettings@ in het hoofdvenster. Als het tabblad @mainwindow.tabs.lenssettings@ niet wordt weergegeven, drukt u op de knop @advanced@ in de zijbalk van het hoofdvenster.<br><br>In het @mainwindow.tabs.lenssettings@-tabblad drukt u op de @cameradatabase@-knop om de huidige sensorafmeting van of naar de lensdatabase te laden of op te slaan en koppelt u deze gegevens aan het cameramodel zoals gevonden in het veld EXIF 'model'. De volgende keer dat een afbeelding met dit EXIF cameramodel wordt geladen, wordt de afmeting van de camerasensor automatisch geïnitialiseerd."
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>Gebruik dit hulpmiddel om kleine stitchfouten te retoucheren, ongewenste voorwerpen te verwijderen of het statief te verbergen. Retoucheren wordt gedaan door delen van de afbeelding te klonen en deze over een ander deel van de afbeelding te laten overvloeien. De @patchwindow@ kan op twee manieren worden geopend:<br><br>Navigeer in het venster <b>@detailviewer@</b> naar het deel van het panorama dat u wilt retoucheren, open de zijbalk @detailviewer.sidebar.patch@ en druk op de knop @detailviewer.sidebar.patch.createpatch@. Hierdoor wordt een snapshot gemaakt van de huidige weergave en wordt deze als nieuwe bronafbeelding aan het panorama toegevoegd. De toegevoegde afbeelding heeft een volledig groen masker om ervoor te zorgen dat de patchafbeelding wordt gebruikt in plaats van de originele bronafbeeldingen. Vervolgens wordt de @patchwindow@ geopend voor het bewerken van de patchafbeelding.<br><br>Of open @patchwindow@ rechtstreeks vanuit het menu <b>@menubar.tools@</b> als zelfstandig hulpmiddel. Hierdoor kan elke JPEG, JPEG2000 of TIFF afbeelding worden geopend voor bewerking.<br><br>De @patchwindow@ werkt in twee mogelijke modi:<br><br><b>@patchwindow.mode.cut@:</b> Gebruik deze modus om ongewenste objecten uit de afbeelding te verwijderen. Klik in de afbeelding om een vorm rond het object te tekenen. Het besloten gebied wordt transparant gemaakt. Dit is vergelijkbaar met het gedrag van de rode maskers op het tabblad @mainwindow.tabs.mask@.<br><br><b>@patchwindow.mode.patch@:</b> Klik in deze modus in de afbeelding om een vorm te tekenen rond het deel van de afbeelding dat vervangen moet worden door een patch. Sleep de vorm vervolgens naar het gewenste brongebied voor de patch. Het doelgebied wordt vervangen door het gekloonde brongebied.<br><br>Patches kunnen worden verplaatst of bewerkt: klik in een patch om deze te activeren. Het brongebied voor de actieve patch wordt aangegeven met een gele stippellijn. De patch, of het brongebied ervan, kan worden verplaatst door deze te slepen. De patch kan worden bewerkt door de hoekpunten ervan te slepen. Nieuwe hoekpunten kunnen worden toegevoegd door met de rechtermuisknop op een rand te klikken. Klik met de rechtermuisknop op een hoekpunt om het te verwijderen. Op macOS kan Ctrl+klik worden gebruikt in plaats van de rechtermuisknop.<br><br>Standaard is <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> ingeschakeld: de verbinding tussen de patchafbeelding en de onderliggende afbeelding wordt door gebieden geleid waar ze het meest op elkaar lijken. Dit zorgt voor het meest naadloze resultaat, maar slechts een deel van de patch wordt gebruikt. De naadlijn wordt aangegeven door een rode lijn wanneer u de muisaanwijzer over het venster beweegt. Als ongewenste delen van de originele afbeelding nog steeds in de patch worden weergegeven, maak die delen dan transparant met behulp van de '@patchwindow.mode.cut@'-modus, zoals hierboven uitgelegd. De naad wordt rond de transparante gebieden geleid. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> kan worden uitgeschakeld in de onderste toolbar. Indien uitgeschakeld, wordt de patch in zijn geheel over de afbeelding gelegd. De randen worden nog steeds ge-blend, maar het resultaat is mogelijk niet zo naadloos.<br><br>Als <b>@patchwindow.autosave@</b> is geselecteerd, worden alle bewerkingen onmiddellijk op schijf opgeslagen. Gebruik anders de knop Opslaan om de gepatchte afbeelding op te slaan.<br><br>Als de @patchwindow@ is gestart door een patch aan te maken in het @detailviewer@-venster, wordt de bewerkte patchafbeelding automatisch opnieuw geladen en wordt het project na een paar seconden bijgewerkt. Na het patchen van het panorama mogen controlepunten niet meer worden bewerkt. Het uitvoeren van de optimalisatie zou de uitlijning van de afbeeldingen wijzigen en de patchafbeelding zou niet langer de oorspronkelijke uitlijning van de afbeeldingen weerspiegelen. Daarom moet het patchen worden uitgevoerd als laatste stap in het stikproces. Vanaf nul beginnen is altijd mogelijk door simpelweg naar het tabblad @mainwindow.tabs.sourceimages@ te gaan en de patchafbeelding uit het project te verwijderen.<br><br>In plaats van een patchafbeelding toe te voegen aan een PTGui-project, is het ook mogelijk om een reeds samengevoegd panorama te retoucheren: Nadat u het panorama hebt samengevoegd, start u een nieuw project en voegt u het samengevoegde panorama toe als bronafbeelding. Open vervolgens het @detailviewer@-venster en start vanaf daar de @patchwindow@."
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>Op dit tabblad kunnen instellingen voor het ontwikkelen van RAW-beelden worden aangepast:<br><br><b>Ruisonderdrukking:</b> Vooral bij hogere ISO-waarden kunnen RAW-cameragegevens aanzienlijke hoeveelheden ruis bevatten. PTGui kan tijdens RAW-conversie ruisonderdrukking toepassen op de RAW-gegevens. De sterkte van de ruisonderdrukking kan afzonderlijk worden geregeld voor chrominantie (kleur) en luminantie (helderheid).<br><br><b>Verwijdering van chromatische abberatie:</b> Chromatische aberratie is een soort lensvervorming waardoor verschillende kleuren enigszins anders worden scherpgesteld. Dit wordt zichtbaar als een gekleurde rand rond de randen van objecten. De sterkte van de chromatische aberratiereductie kan worden aangepast.<br><br>De instellingen op dit tabblad worden toegepast op RAW- en DNG-bronafbeeldingen voordat ze worden gestitcht. Verdere aanpassingen kunnen worden gedaan in de @panoramaeditor@ op de tabbladen @panoramaeditor.sidebar.postprocess@ en @panoramaeditor.sidebar.whitebalance@; deze aanpassingen worden toegepast op het gestitchte panorama."
 		}
 	]
 }

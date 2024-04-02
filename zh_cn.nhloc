@@ -7427,7 +7427,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@：（</b>仅适用于PTGui Pro）：如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@（在@panoramaeditor@的@mainwindow.createpanoramatab.blending@面板中），则接缝通常会放置在两个图像之间的重叠中间。可以通过增加或减少源图像的@mainwindow.imageparameters.blendpriority@进行调整。这是一个相对值：如果两个图像的混合优先级分别为150和100，则将使用第一张图像的较大部分。如果启用了@panoramaeditor.sidebar.blendsettings.seamfinding@，则将忽略此值。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>一个项目可能包含多个相机响应曲线；此字段配置要用于每个源图像的摄像机响应曲线。摄像机响应曲线在@mainwindow.tabs.exposurehdr@选项卡中配置。如果项目仅包含一条相机响应曲线，则将其命名为“ @txt.globalcameracurve@”。如果选择<b>@txt.cameracurve.linear@</b> ，则假定图像包含线性数据，并且不会应用曲线。有关更多信息，请参见@mainwindow.tabs.exposurehdr@选项卡中的工具提示。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>将每个源图像的原始白平衡配置为色温，以开尔文为单位。如果在@panoramaeditor@的@panoramaeditor.sidebar.postprocess@面板中配置了目标白平衡，将使用此功能。源图像的颜色将从此处配置的色温调整为目标色温。如果此字段为空，则假定默认值为5000K。如果在@panoramaeditor.sidebar.postprocess@面板中选择了“ @txt.asshot@”，则忽略此字段。<br><br><b>@mainwindow.imageparameters.linked@：（</b>仅适用于PTGui Pro）：从包围的源图像拼接HDR全景图时，此复选框配置包围的图像是否具有相同的@yaw@，@pitch@，@roll@和@viewpoint@参数。如果括号中的图像不是从三脚架上拍摄的，则应取消选中此框，并且它们应具有独立的@yaw@，@pitch@，@roll@和@viewpoint@参数。需要提供控制点以对齐包围曝光的图像。"
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@：（</b>仅适用于PTGui Pro）：如果禁用了@panoramaeditor.sidebar.blendsettings.seamfinding@（在@panoramaeditor@的@mainwindow.createpanoramatab.blending@面板中），则接缝通常会放置在两个图像之间的重叠中间。可以通过增加或减少源图像的@mainwindow.imageparameters.blendpriority@进行调整。这是一个相对值：如果两个图像的混合优先级分别为150和100，则将使用第一张图像的较大部分。如果启用了@panoramaeditor.sidebar.blendsettings.seamfinding@，则将忽略此值。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>一个项目可能包含多个相机响应曲线；此字段配置要用于每个源图像的摄像机响应曲线。摄像机响应曲线在@mainwindow.tabs.exposurehdr@选项卡中配置。如果项目仅包含一条相机响应曲线，则将其命名为“ @txt.globalcameracurve@”。如果选择<b>@txt.cameracurve.linear@</b> ，则假定图像包含线性数据，并且不会应用曲线。有关更多信息，请参见@mainwindow.tabs.exposurehdr@选项卡中的工具提示。<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@：（</b>仅适用于PTGui Pro）：从包围的源图像拼接HDR全景图时，此复选框配置包围的图像是否具有相同的@yaw@，@pitch@，@roll@和@viewpoint@参数。如果括号中的图像不是从三脚架上拍摄的，则应取消选中此框，并且它们应具有独立的@yaw@，@pitch@，@roll@和@viewpoint@参数。需要提供控制点以对齐包围曝光的图像。"
 		},
 		{
 			"id": "proxysettings.button",
@@ -7573,6 +7573,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "无法使用所选的输出颜色配置文件，很可能是因为它是仅源配置文件。\n\n请转至 @mainwindow.createpanoramatab.createpanorama@ 选项卡并选择不同的输出色彩空间。建议选择宽色域配置文件（例如 ProPhoto RGB），这样图像质量不会受到影响。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@："
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@："
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "（对角线）"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "看法"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "修补"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "快照"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "保存图片"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "创建补丁"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "补丁编辑器"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "打开图像"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "保存图片"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "自动保存"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "图像另存为"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "保存..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "该图像已被修改。您想保存它吗？"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "不支持的文件类型：.%0。只能另存为 TIFF 或 JPEG。"
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "多个文件被删除。一次只能打开一个文件。"
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "删除此点"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "删除这个补丁"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "添加一个点"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "此功能仅在<a href=0>透视模式</a>下可用。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "尺寸："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "解决："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "格式："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "保存在项目文件夹中"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "选择位置..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "使用混合平面时此功能不可用。<a href=0>禁用混合平面。</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "修补"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "切"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "与阿尔法"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "%0x 压缩"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "无损的"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "压缩："
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "删除不相邻图像之间的控制点"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "没有删除控制点。\n\n仅当另一个图像位于两个图像中心之间的直线上时，才会删除控制点。中间图像的每个邻居至少应有 4 个控制点。"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "将删除一个控制点（%0 总控制点）。您想继续并重新优化该项目吗？"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " %0 控制点（%1 总控制点）将被删除。您想继续并重新优化该项目吗？"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "启用 @mainwindow.createpanoramatab.output.blendplanes@"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "不适用于 DNG 输出"
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "DNG 输出禁用色调映射和曝光融合"
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "尝试 PTGui（标准版）"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "尝试 PTGui Pro"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "标准版和PTGui Pro有什么区别？"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "间距："
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "常规的"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "狭窄的"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "自动的"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "未知的 ICC 配置文件"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "ICC 颜色配置文件属于不受支持的类型。"
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "不支持的 ICC 颜色配置文件：%0。使用 sRGB 代替。"
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "不支持的 ICC 颜色配置文件：%0。对于 OpenEXR 输出，需要线性颜色配置文件。"
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "无法解析 ICC 颜色配置文件。使用 sRGB 代替。发生以下错误：\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "ICC 颜色配置文件已损坏。"
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "RAW预处理"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "应用降噪"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "色度降噪："
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "亮度降噪："
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "消除色差"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "此图像 (%0) 不是原始文件。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "此原始图像 (%0) 无法进行预处理，因为它具有 Alpha 通道。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "此原始图像 (%0) 无法进行预处理，因为它包含浮点数据。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "更多调整可在<a href=0>@panoramaeditor@ 的 @panoramaeditor.sidebar.postprocess@</a>面板中进行。"
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "转到选项卡"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "下一个选项卡"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "上一个选项卡"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "切换简单/高级模式"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "ZIP压缩级别："
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "DWA压缩级别："
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "执照"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@、@mainwindow.imageparameters.whitepoint.tint@：</b>配置每个源图像的原始白平衡。如果为全景图选择了不同的白平衡（在 @panoramaeditor@ 的 @panoramaeditor.sidebar.postprocess@ 面板中），或者如果具有不同白平衡的图像混合在全景图中，PTGui 将转换为目标白平衡。为此，需要知道源图像的原始白平衡。 <b>@mainwindow.imageparameters.whitepoint.temperature@</b> 是开尔文色温，用于调整蓝琥珀色平衡。白炽灯的常见值为 3000K，日出或日落时为 3500K，日光为 5000K，阴天为 6500K。 <b>@mainwindow.imageparameters.whitepoint.tint@</b> 调整绿色-洋红色平衡。对于源图像，通常可以将其设置为中性值 0。",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 温度"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 色调"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "温度："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "着色："
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "意外的命令行选项：%0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "命令行错误。用途：%0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "该模板是 PTGui 10 项目文件。虽然 PTGui 仍然可以加载 PTGui 10 项目文件，但它们不能用作模板。请打开模板并将其保存为当前的 PTGui 格式。"
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "生成项目文件"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR 曝光"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "参考："
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "中曝光"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "最亮曝光"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "绝对曝光"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO："
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "抵消："
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "设置绝对曝光值。这被定义为在 f/1.0 和 ISO 100 下 1 秒曝光的 EV 偏移。此（假想）曝光中的白色将对应于 HDR 全景图中的 1.0。将值减少 1 将使亮度加倍。换句话说：EV = log2(光圈^2 / (曝光时间 * ISO / 100))。<br><br>为了对全景图使用绝对曝光，必须知道所有源图像的曝光。每个源图像的曝光时间、光圈和 ISO 可以在 @mainwindow.tabs.imageparameters@ 选项卡中设置。如果一张或多张图像的 ISO 未知，则所有图像均假定 ISO 100。同样，如果没有为任何源图像指定此参数，则所有图像均假定光圈为 f/1.0，曝光时间为 1 秒。"
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "颜色采样器"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "调整白平衡（单击灰色区域）"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "调整 HDR 曝光"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "调整 HDR 曝光，使该像素具有亮度："
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "这是一个黑色像素。请选择一个非黑色像素。"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "展示："
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "LDR全景图"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR全景"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "这些设置仅影响 HDR 输出。您当前正在查看 LDR 全景图。<a href=\"0\">切换到 HDR 预览</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "这些设置仅影响 LDR 输出。您当前正在查看 HDR 全景图。<a href=\"0\">切换到 LDR 预览</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "预览曝光调整已激活：<a href=\"0\">重置</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "白平衡"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "链接组："
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "括号内的图像"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "该项目仅包含 %0 图像。"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "该项目包含 %0 图像，该图像不是 %1 的倍数。"
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "该项目将有一组 %0 图像。"
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "该项目将具有 %0 组 %1 图像。"
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "您的许可证已升级到 PTGui Pro。要激活 Pro 功能，PTGui 需要重新启动。您想保存您的工作并立即重新启动 PTGui 吗？"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "升级到 PTGui 专业版"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "在 1/%0 处寻找接缝需要很长时间！"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "在 @patchwindow@ 中编辑"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "这将修改并覆盖源图像。你确定吗？"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "必须先保存当前项目。您现在愿意这样做吗？"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "该项目包含补丁图像。优化项目会移动图像，导致补丁错位。你确定吗？"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "这些设置仅影响 LDR 输出。您当前正在查看 HDR 全景图。"
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "无法在 %1 中打开 %0。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "编辑补丁图像："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "应用："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "打开文件所在位置"
 		}
 	],
 	"tooltips": [
@@ -10302,6 +10901,225 @@
 			"machinetranslated": true,
 			"helptext": "用于曝光融合的算法",
 			"morehelptext": "<br><br>PTGui 12.0 至 12.20 使用与 PTGui 11 及更早版本不同的曝光融合算法。在 PTGui 12.21 及更高版本中，旧算法再次可用，并且默认使用它，因为它提供了更好的结果。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@：</b>使用 PTGui 12.0 到 12.20 中使用的曝光融合算法。出于与在 PTGui 12.0 至 12.20 中创建的项目的兼容性原因，此选项可用，不应用于新项目。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@：</b>这是原始的曝光融合算法。这会提供最佳结果，并且是新项目的推荐选项。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "为当前视图创建补丁。",
+			"morehelptext": "<br><br>捕获当前视图并将其保存为补丁图像。补丁图像将添加到项目中并覆盖在全景图上。 @patchwindow@ 将开放来编辑补丁。<br><br>该补丁可用于删除全景图中不需要的部分，例如删除三脚架或人物。该补丁还可用于填充源图像未覆盖的任何孔洞，例如最低点或最高点。"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "以全分辨率创建当前视图的快照"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "检查或编辑 @detailviewer@ 的视角"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "打开图像",
+			"helptext": "打开图像进行修饰。"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "保存图片",
+			"helptext": "保存编辑后的图像。"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "自动保存",
+			"helptext": "每次更改后自动保存编辑后的图像。"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "图像另存为",
+			"helptext": "以不同的名称保存编辑后的图像。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "修补工具不可与混合平面一起使用。",
+			"morehelptext": "<br><br>修补工具捕获当前视图并将其保存为修补图像。补丁图像将添加到项目中并覆盖在全景图上。仅当项目具有单个混合平面时才可能实现。<br><br>可以通过切换到 @mainwindow.tabs.exposurehdr@ 选项卡中的工作流程“@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@”来禁用混合平面。<br><br>或者，也可以先完成并缝合全景图。然后可以通过在新的 PTGui 项目中加载完成的全景图来使用修补工具。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "用于图像的文件格式。",
+			"morehelptext": "<br><br>图像可以保存为 JPEG、TIFF 或 JPEG2000 格式：<br><br>建议使用<b>TIFF</b>以获得最高图像质量，但文件可能非常大。如果源图像限制为每通道 8 位且具有相同的曝光，则可以使用 8 位 TIFF。否则，应使用 16 位 TIFF 来保留完整的动态范围。<br><br><b>JPEG</b>限制为每像素8位，并且不支持透明度，但补丁图像的文件大小会小得多。<br><br><b>JPEG2000</b>支持透明度以及每通道 8 和 16 位。由于有损压缩，文件大小比 TIFF 小得多。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "设置"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "快照图像的大小（以像素为单位）。将结果设置为 100% 以创建最佳大小的快照。"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "创建并保存当前视图的快照。系统将提示您输入文件名。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "将俯仰角设置为 -90°，以查看最低点。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "将俯仰角设置为 0°。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "将俯仰角设置为 90°，以查看天顶。"
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "打开图像",
+			"helptext": "打开图像进行修饰。"
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "自动保存",
+			"helptext": "每次更改后，自动保存编辑后的图像。"
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "保存图片",
+			"helptext": "保存编辑后的图像。"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "方式: 切孔",
+			"helptext": "在图像上切一个洞以去除不需要的部分。",
+			"morehelptext": "<br><br>单击图像以创建一个封闭区域。图像的这部分将变得透明。在添加补丁之前，使用此功能删除图像中不需要的部分。"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "模式：补丁",
+			"helptext": "通过复制补丁来修饰图像。",
+			"morehelptext": "<br><br>要创建补丁，请在图像中单击以创建封闭区域。该区域将用作补丁的目标。接下来，将补丁拖到应用作补丁源的位置。补丁将从源区域复制到目标区域。"
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "找到最佳接缝",
+			"helptext": "尝试找到补丁和底层图像之间的最佳接缝。",
+			"morehelptext": "<br><br>如果启用，补丁图像和底层图像之间的接缝将穿过补丁图像和底层图像最相似的区域。这将创造最无缝的结果。您需要首先使用“切孔”模式来指示底层图像的哪些部分在最终结果中不可见。<br><br>如果禁用，补丁将作为一个整体覆盖。边缘仍会混合，但结果不会那么无缝。"
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "帮助"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "仅保留直接相邻图像之间的控制点。"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "配置用户界面元素之间的间距。在较小的屏幕上，这可能设置为“@options.spacing.narrow@”。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "调整全景的白平衡。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@：</b>如果选择，将以平均源图像的白平衡创建全景图。如果所有图像具有相同的白平衡，则不进行白平衡转换。<br><br>如果未选择 @panoramaeditor.sidebar.postprocess.whitebalance.auto@，则可以选择全景图所需的色温（以开氏度为单位）。白平衡将从原始色温调整为所选色温。每个源图像的原始色温在 @mainwindow.tabs.imageparameters@ 选项卡的“@mainwindow.imageparameters.whitebalance@”列中配置。如果任何源图像的色温均未知，则假定为 5000K。"
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "色度（颜色）噪声的降噪强度"
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "亮度（亮度）噪声的降噪强度"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "用于 ZIP 压缩的压缩级别。介于 0（低压缩和高图像质量）和 9（高压缩和较低质量）之间。"
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "色差是一种镜头畸变，导致不同颜色的聚焦略有不同。这可以看作是物体边缘周围的彩色条纹。色差减少量可以调整。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "设置生成的 HDR 图像的亮度。",
+			"morehelptext": "<br><br>HDR 图像具有（实际上）无限的动态范围。对于常规低动态范围图像，白色对应于可以存储的最大像素值。但对于 HDR 图像，不存在“白色”这样的东西，需要选择参考亮度。 PTGui 可以通过以下方式缩放生成的 HDR 图像的亮度：<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@：</b>如果全景图是从包围图像生成的，则 HDR 全景图中的值 1.0 对应于中间曝光的白色。例如，如果使用 0/-2/+2 包围曝光，则 0EV 曝光中的白色像素在全景图中的像素值为 1.0。生成的 HDR 全景图通常包含比 1 更亮的像素。这是默认设置。<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@：</b>如果全景图是从包围图像生成的，则最亮源图像中的白色将对应于 HDR 全景图中的 1.0。因此，HDR 图像的所有像素都将介于 0 和 1 之间。<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@：</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>请注意，这只是为 HDR 图像设置任意参考亮度。 HDR图像无法直接显示，1.0像素值的实际含义取决于应用程序。 HDR 图像不存在曝光过度的风险：如果 HDR 图像太亮，可以在生成后按比例缩小。与常规图像相反，HDR 图像中不会发生高光剪切。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "在 EV 中对 HDR 图像的亮度应用额外的偏移。",
+			"morehelptext": "<br><br>正值会增加亮度，类似于相机上的曝光补偿。"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "更改 HDR 全景图的曝光度，使该像素在 HDR 全景图中具有指定的亮度。",
+			"morehelptext": "<br><br>这仅影响 HDR 全景的亮度。 LDR 全景（色调映射或曝光融合）不受影响。可以在 @panoramaeditor@ 的“@panoramaeditor.sidebar.hdrpostprocess@”侧栏中手动调整 HDR 曝光。<br><br>一种可能的应用是拍摄具有已知反射率的灰卡，并将 HDR 曝光与灰卡位置处的场景光强度进行匹配。"
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "颜色采样器",
+			"morehelptext": "<br><br>在全景图中单击以选择颜色。支持以下功能：<br><br><b>白平衡调整：</b>单击场景中的灰色物体。将调整白平衡，使所选对象变为中性灰色。<optional product='pro'><br><br><b>调整 HDR 曝光：</b>调整 HDR 全景图的曝光度，使所选像素具有一定的亮度。</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "在 HDR 和 LDR 预览之间切换。",
+			"morehelptext": "<br><br>生成 HDR 全景图时，选择 @panoramaeditor@ 和 @detailviewer@ 是显示高动态范围全景图还是低动态范围全景图。<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@</b> 显示低动态范围输出，对应于 @mainwindow.tabs.createpanorama@ 选项卡中的“@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@”输出选项。这将预览色调映射的结果以及 @panoramaeditor@ 中 @panoramaeditor.sidebar.postprocess@ 面板中应用的任何设置。<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@</b> 显示高动态范围输出的预览，对应于 @mainwindow.tabs.createpanorama@ 选项卡中的“@mainwindow.createpanoramatab.output.hdrblended@”输出选项。可以通过调整下面的“曝光”滑块来检查 HDR 图像的完整动态范围。将应用 @panoramaeditor@ 中 @panoramaeditor.sidebar.hdrpostprocess@ 面板中的设置。未应用色调曲线，因此与 LDR 预览相比，图像会显得暗淡。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "使用 Exposure Fusion 时，HDR 输出不可用。",
+			"morehelptext": "<br><br>通过 Exposure Fusion，包围式图像会合并到 LDR，而无需先生成高动态范围图像。要启用 HDR 输出，请在 @panoramaeditor@ 侧栏中禁用曝光融合。"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "增加或减少预览的亮度。仅影响 @panoramaeditor@ 和 @detailviewer@ 中显示的图像，而不影响实际输出。"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "用于 DWA 压缩的压缩级别。 0 是无损的；值越高，压缩率越高，图像质量越低。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "选择用于编辑生成的补丁图像的应用程序。",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@：</b>编辑 PTGui 附带的 @patchwindow@ 中的补丁映像。<br><br><b>@detailviewer.sidebar.patch.openin.application@：</b>选择外部应用程序来编辑补丁图像。这里列出了所有注册来处理补丁映像文件类型的应用程序。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@：</b>打开 @txt.finderorexplorer@ 中包含补丁映像的文件夹。"
 		}
 	],
 	"helppages": [
@@ -10439,6 +11257,16 @@
 			"id": "cameradatabase",
 			"machinetranslated": true,
 			"helptext": "<b>@cameradatabase@</b><br><br>要计算镜头的投影，PTGui 不仅需要知道焦距，还需要知道相机的传感器尺寸。在不知道传感器尺寸的情况下，焦距是无意义的值。PTGui 知道超过2000台摄象机的传感器尺寸，但可能不包括您的摄象机。在这种情况下，您可以将此数据添加到摄象机数据库。<br><br><b>使用相机数据库</b><br><br>可以通过@menubar.tools@ | @cameradatabase@打开摄象机数据库窗口。记录不会直接从此处加载和保存；相反，这是通过主窗口中的@mainwindow.tabs.lenssettings@选项卡完成的。如果未显示@mainwindow.tabs.lenssettings@选项卡，请按主窗口侧栏上的@advanced@按钮。<br><br>在@mainwindow.tabs.lenssettings@选项卡中，按@cameradatabase@按钮从镜头数据库加载或保存当前传感器尺寸，并将此数据与 EXIF “相机型号”字段中的相机型号相关联。下次使用此 EXIF 相机型号加载图像时，PTGui 将自动初始化相机传感器尺寸数据。"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>使用此工具可以修饰小的拼接错误、删除不需要的对象（如三脚架）或填充全景图中缺失的部分。修饰是通过克隆图像的某些部分并将它们混合到图像的另一部分来完成的。 @patchwindow@ 可以通过两种方式打开：<br><br>在<b>@detailviewer@</b>窗口中，导航至要修饰的全景图部分，打开 @detailviewer.sidebar.patch@ 侧栏并按 @detailviewer.sidebar.patch.createpatch@ 按钮。这将创建当前视图的快照并将其作为新的源图像添加到全景图中。添加的图像将具有全绿色蒙版，以确保使用补丁图像代替原始源图像。然后 @patchwindow@ 将打开以编辑补丁图像。<br><br>或者，直接从<b>@menubar.tools@ 菜单</b>将 @patchwindow@ 作为独立工具打开。这允许打开任何 JPEG、JPEG2000 或 TIFF 图像进行编辑。<br><br>@patchwindow@ 以两种可能的模式运行：<br><br><b>@patchwindow.mode.cut@：</b>使用此模式从图像中删除不需要的对象。单击图像以围绕对象绘制形状。封闭区域将变得透明。<br><br><b>@patchwindow.mode.patch@：</b>在此模式下，单击图像以在图像中应覆盖补丁的部分周围绘制形状。然后将形状拖动到要用作面片源的区域。目标区域将被克隆的源区域替换。<br><br>可以移动或编辑补丁：在补丁内部单击以将其激活。活动补丁的源区域将由黄色虚线指示。可以通过拖动来移动补丁或其源区域。可以通过拖动其顶点来编辑面片。可以通过右键单击边来添加新顶点。右键单击顶点可将其删除。在 macOS 上，可以使用 Ctrl+单击代替鼠标右键。<br><br>默认情况下， <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b>已启用：修补图像和底层图像之间的接缝将穿过它们最相似的区域。这将创建最无缝的结果，但仅使用补丁的一部分。将鼠标指针悬停在窗口上时，接缝线由红线指示。如果原始图像中不需要的部分仍然通过补丁显示，请使用“@patchwindow.mode.cut@”模式使这些部分透明，如上所述。接缝将围绕透明区域布线。 <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b>可以在底部工具栏中禁用。如果禁用，补丁将作为一个整体覆盖。边缘仍将被混合，但结果可能不那么无缝。<br><br>如果选择<b>@patchwindow.autosave@</b> ，所有编辑都会立即保存到磁盘。否则，请使用“保存”按钮保存修补后的图像。<br><br>如果通过在 @detailviewer@ 窗口中创建补丁来启动 @patchwindow@，则编辑后的补丁映像将自动重新加载，并且项目将在几秒钟后更新。修补全景图后，不应再编辑控制点。运行优化器将修改图像的对齐方式，并且补丁图像将不再反映图像的原始对齐方式。因此，修补应作为拼接过程的最后一步进行。只需转到 @mainwindow.tabs.sourceimages@ 选项卡并从项目中删除补丁映像，即可从头开始。<br><br>无需将修补图像添加到 PTGui 项目中，还可以修饰已缝合的全景图：缝合全景图后，启动一个新项目并将缝合的全景图添加为源图像。然后打开 @detailviewer@ 窗口并从那里启动 @patchwindow@。"
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>在此选项卡上可以调整 RAW 图像的显影设置：<br><br><b>降噪：</b>尤其是在较高 ISO 值时，RAW 相机数据可能包含大量噪声。 PTGui 可以在 RAW 转换过程中对 RAW 数据应用降噪。可以分别控制色度（颜色）和亮度（亮度）的降噪强度。<br><br><b>色差消除：</b>色差是一种镜头畸变，导致不同颜色的聚焦略有不同。这可以看作是物体边缘周围的彩色条纹。色差减少量可以调整。<br><br>此选项卡上的设置将在拼接之前应用于 RAW 和 DNG 源图像。可以在 @panoramaeditor.sidebar.postprocess@ 和 @panoramaeditor.sidebar.whitebalance@ 选项卡中的 @panoramaeditor@ 中进行进一步调整；这些调整将应用于拼接的全景图。"
 		}
 	]
 }

@@ -7406,7 +7406,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (только PTGui Pro): если @panoramaeditor.sidebar.blendsettings.seamfinding@ (на панели @mainwindow.createpanoramatab.blending@ в @panoramaeditor@) отключен, стыки обычно размещаются посередине перекрытия между двумя изображениями. Это можно отрегулировать, увеличивая или уменьшая @mainwindow.imageparameters.blendpriority@ исходного изображения. Это относительное значение: если два изображения имеют приоритет смешивания 150 и 100, будет использоваться большая часть первого изображения. Это значение игнорируется, если включен @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> проект может содержать несколько кривых реакции камеры; в этом поле настраивается кривая отклика камеры, которая будет использоваться для каждого исходного изображения. Кривые реакции камеры настраиваются на вкладке @mainwindow.tabs.exposurehdr@. Если проект содержит только одну кривую реакции камеры, он будет называться «@txt.globalcameracurve@». Если выбран <b>@txt.cameracurve.linear@</b> , предполагается, что изображение содержит линейные данные, и никакая кривая не применяется. Для получения дополнительной информации см. Всплывающие подсказки на вкладке @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> настраивает исходный баланс белого для каждого исходного изображения в виде цветовой температуры в градусах Кельвина. Это будет использоваться, если целевой баланс белого настроен на панели @panoramaeditor.sidebar.postprocess@ @panoramaeditor@. Цвета исходного изображения будут скорректированы от настроенной здесь цветовой температуры до целевой цветовой температуры. Если это поле пусто, предполагается значение по умолчанию 5000 КБ. Это поле игнорируется, если на панели @panoramaeditor.sidebar.postprocess@ выбрано «@txt.asshot@».<br><br><b>@mainwindow.imageparameters.linked@:</b> (только PTGui Pro): при сшивании панорам HDR из исходных изображений в квадратных скобках этот флажок определяет, будут ли изображения в скобках иметь одинаковые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Снимите этот флажок, если изображения в скобках были сняты не со штатива и они должны иметь независимые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Необходимо предоставить контрольные точки для выравнивания изображений в скобках."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (только PTGui Pro): если @panoramaeditor.sidebar.blendsettings.seamfinding@ (на панели @mainwindow.createpanoramatab.blending@ в @panoramaeditor@) отключен, стыки обычно размещаются посередине перекрытия между двумя изображениями. Это можно отрегулировать, увеличивая или уменьшая @mainwindow.imageparameters.blendpriority@ исходного изображения. Это относительное значение: если два изображения имеют приоритет смешивания 150 и 100, будет использоваться большая часть первого изображения. Это значение игнорируется, если включен @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> проект может содержать несколько кривых реакции камеры; в этом поле настраивается кривая отклика камеры, которая будет использоваться для каждого исходного изображения. Кривые реакции камеры настраиваются на вкладке @mainwindow.tabs.exposurehdr@. Если проект содержит только одну кривую реакции камеры, он будет называться «@txt.globalcameracurve@». Если выбран <b>@txt.cameracurve.linear@</b> , предполагается, что изображение содержит линейные данные, и никакая кривая не применяется. Для получения дополнительной информации см. Всплывающие подсказки на вкладке @mainwindow.tabs.exposurehdr@.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (только PTGui Pro): при сшивании панорам HDR из исходных изображений в квадратных скобках этот флажок определяет, будут ли изображения в скобках иметь одинаковые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Снимите этот флажок, если изображения в скобках были сняты не со штатива и они должны иметь независимые параметры @yaw@, @pitch@, @roll@ и @viewpoint@. Необходимо предоставить контрольные точки для выравнивания изображений в скобках."
 		},
 		{
 			"id": "proxysettings.button",
@@ -7552,6 +7552,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "Выбранный выходной цветовой профиль невозможно использовать, скорее всего, потому, что это профиль только для источника.\n\nПерейдите на вкладку @mainwindow.createpanoramatab.createpanorama@ и выберите другое выходное цветовое пространство. Рекомендуется выбрать профиль с широкой гаммой (например, ProPhoto RGB), чтобы не повлиять на качество изображения."
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "(диагональ)"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "Вид"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "Пластырь"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "Снимок"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "Сохранить изображение"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "Создать патч"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "Редактор патчей"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "Открыть изображение"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "Сохранить изображение"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "Сохранить автоматически"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "Сохранить изображение как"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "Сохранение..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "Изображение было изменено. Хотите сохранить его?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "Неподдерживаемый тип файла: .%0. Можно сохранить только в формате TIFF или JPEG."
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "Несколько файлов были удалены. Одновременно можно открыть только один файл."
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "Удалить этот пункт"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "Удалить этот патч"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "Добавить точку"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эта функция доступна только в <a href=0>режиме перспективы</a> ."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "Размер:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "Разрешение:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "Формат:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "Сохраняем в папке проекта"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "Выберите место..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эта функция недоступна при использовании плоскостей сглаживания. <a href=0>Отключить плоскости смешивания.</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "Пластырь"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "Резать"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "С альфа"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "Сжатие %0x"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "без потерь"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "Сжатие:"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "Удаление контрольных точек между несмежными изображениями"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "Ни одна контрольная точка не была удалена.\n\nКонтрольные точки удаляются только в том случае, если другое изображение лежит на прямой между двумя центрами изображения. Среднее изображение должно иметь как минимум 4 контрольные точки с каждым соседом."
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "Одна контрольная точка (из общего числа контрольных точек %0) будет удалена. Хотите продолжить и повторно оптимизировать проект?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " Контрольные точки %0 (из общего числа контрольных точек %1) будут удалены. Хотите продолжить и повторно оптимизировать проект?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "Включить @mainwindow.createpanoramatab.output.blendplanes@"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Недоступно для вывода DNG."
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Tone Mapping и Exposure Fusion отключены для вывода DNG."
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "Попробуйте PTGui (стандартная версия)"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "Попробуйте PTGui Pro"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "В чем разница между стандартной версией и PTGui Pro?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "Расстояние:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "Обычный"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "Узкий"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "Автоматический"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "Неизвестный профиль ICC"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "Цветовой профиль ICC неподдерживаемого типа."
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "Неподдерживаемый цветовой профиль ICC: %0. Вместо этого используйте sRGB."
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "Неподдерживаемый цветовой профиль ICC: %0. Для вывода OpenEXR необходим линейный цветовой профиль."
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "Не удалось проанализировать цветовой профиль ICC. Вместо этого используйте sRGB. Произошла следующая ошибка:\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "Цветовой профиль ICC поврежден."
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "Предварительная обработка RAW"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "Применить шумоподавление"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "Снижение цветного шума:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "Подавление яркостного шума:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "Удалить хроматическую аберрацию"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "Это изображение (%0) не является необработанным файлом."
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "Это необработанное изображение (%0) невозможно подвергнуть предварительной обработке, поскольку оно имеет альфа-канал."
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "Это необработанное изображение (%0) невозможно подвергнуть предварительной обработке, поскольку оно содержит данные с плавающей запятой."
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Дополнительные настройки можно выполнить на панели <a href=0>@panoramaeditor.sidebar.postprocess@</a> в @panoramaeditor@."
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "Перейти на вкладку"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "Следующая вкладка"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "Предыдущая вкладка"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "Переключить простой/расширенный режим"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "Уровень сжатия ZIP:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "Уровень сжатия DWA:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "лицензия"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@, @mainwindow.imageparameters.whitepoint.tint@:</b> настраивает исходный баланс белого каждого исходного изображения. Если для панорамы выбран другой баланс белого (на панели @panoramaeditor.sidebar.postprocess@ модели @panoramaeditor@) или если в панораме смешаны изображения с разными балансами белого, PTGui выполнит преобразование в целевой баланс белого. Для этого ему необходимо знать исходный баланс белого исходных изображений. <b>@mainwindow.imageparameters.whitepoint.temperature@</b> — это цветовая температура в Кельвинах, регулирующая баланс синего и янтарного цветов. Общие значения: 3000К для освещения лампами накаливания, 3500К для восхода или заката солнца, 5000К для дневного света и 6500К для пасмурного неба. <b>@mainwindow.imageparameters.whitepoint.tint@</b> регулирует баланс зеленого и пурпурного. Для исходных изображений обычно можно установить нейтральное значение 0.",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ температура"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ оттенок"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "Температура:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "Оттенок:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "Неожиданный параметр командной строки: %0."
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "Ошибка в командной строке. Использование: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "Этот шаблон представляет собой файл проекта PTGui 10. Хотя PTGui по-прежнему может загружать файлы проекта PTGui 10, их нельзя использовать в качестве шаблона. Откройте шаблон и сохраните его в текущем формате PTGui."
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "Создание файла проекта"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR-экспозиция"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "Ссылка:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "Средняя экспозиция"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "Самая яркая экспозиция"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "Абсолютная экспозиция"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "ЕВ @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "Компенсировать:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Установите абсолютное значение экспозиции. Это определяется как смещение EV от экспозиции в 1 секунду при f/1,0 и ISO 100. Белый цвет в этой (воображаемой) экспозиции будет соответствовать 1,0 в панораме HDR. Уменьшение значения на 1 увеличит яркость вдвое. Другими словами: EV = log2(диафрагма^2 / (время_экспозиции * ISO / 100)).<br><br>Чтобы использовать абсолютную экспозицию для панорамы, необходимо знать экспозицию всех исходных изображений. Время экспозиции, диафрагму и ISO каждого исходного изображения можно установить на вкладке @mainwindow.tabs.imageparameters@. Если значение ISO одного или нескольких изображений неизвестно, для всех изображений предполагается значение ISO 100. Аналогично, для всех изображений предполагается диафрагма f/1,0 и время экспозиции 1 секунда, если этот параметр не указан ни для одного из исходных изображений."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "Образец цвета"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "Отрегулируйте баланс белого (нажмите на область серого цвета)"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "Отрегулируйте экспозицию HDR"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "Отрегулируйте экспозицию HDR так, чтобы этот пиксель имел яркость:"
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "Это черный пиксель. Пожалуйста, выберите нечерный пиксель."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "Показывать:"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "ЛДР панорама"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR-панорама"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эти настройки влияют только на вывод HDR. Вы сейчас просматриваете панораму LDR. <a href=\"0\">Переключиться на просмотр HDR</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эти настройки влияют только на выход LDR. Вы сейчас просматриваете панораму HDR. <a href=\"0\">Переключиться на предварительный просмотр LDR</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Регулировка экспозиции предварительного просмотра активна: <a href=\"0\">сброс</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "баланс белого"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "Связать группы:"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "изображения в квадратных скобках"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "Проект содержит только изображения %0."
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "Проект содержит изображения %0, которые не кратны %1."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "В проекте будет один набор изображений %0."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "В проекте будут использоваться наборы изображений %0 из изображений %1."
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "Ваша лицензия была обновлена до PTGui Pro. Чтобы активировать функции Pro, PTGui необходимо перезагрузить. Хотите сохранить свою работу и перезапустить PTGui сейчас?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "Обновление до PTGui Pro"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "Поиск шва на 1/%0 занимает много времени!"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "Редактировать в @patchwindow@."
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "Это изменит и перезапишет исходное изображение. Вы уверены?"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "Текущий проект необходимо сначала сохранить. Хотели бы вы сделать это сейчас?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "Проект содержит изображения патчей. Оптимизация проекта приведет к перемещению изображений, что приведет к смещению фрагментов. Вы уверены?"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эти настройки влияют только на выход LDR. Вы сейчас просматриваете панораму HDR."
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "Не удалось открыть %0 в %1."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "Отредактируйте изображение патча в:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "Приложение:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "Местонахождение открытого файла"
 		}
 	],
 	"tooltips": [
@@ -10281,6 +10880,225 @@
 			"machinetranslated": true,
 			"helptext": "Алгоритм для использования для слияния экспозиций",
 			"morehelptext": "<br><br>В версиях PTGui 12.0–12.20 использовался другой алгоритм объединения экспозиции, чем в PTGui 11 и более ранних версиях. В PTGui 12.21 и более поздних версиях снова доступен старый алгоритм, который используется по умолчанию, поскольку дает лучшие результаты.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> используйте алгоритм объединения экспозиций, который использовался в PTGui 12.0–12.20. Этот параметр доступен для совместимости с проектами, созданными в PTGui 12.0–12.20, и не должен использоваться для новых проектов.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> это оригинальный алгоритм объединения экспозиций. Это дает наилучшие результаты и рекомендуется для новых проектов."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "Создайте патч для текущего представления.",
+			"morehelptext": "<br><br>Захватите текущий вид и сохраните его как изображение патча. Изображение патча будет добавлено в проект и наложено на панораму. @patchwindow@ будет открыт для редактирования патча.<br><br>Патч можно использовать для удаления ненужных частей панорамы, например для удаления штатива или человека. Патч также можно использовать для заполнения любых дыр, не закрытых исходными изображениями, например надира или зенита."
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "Создайте снимок текущего вида в полном разрешении."
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "Проверьте или отредактируйте углы обзора @detailviewer@."
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "Открыть изображение",
+			"helptext": "Откройте изображение для ретуши."
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "Сохранить изображение",
+			"helptext": "Сохраните отредактированное изображение."
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "Сохранить автоматически",
+			"helptext": "Автоматически сохранять отредактированное изображение после каждого изменения."
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "Сохранить изображение как",
+			"helptext": "Сохраните отредактированное изображение под другим именем."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "Инструмент «Заплатка» недоступен в сочетании с плоскостями перехода.",
+			"morehelptext": "<br><br>Инструмент «Заплатка» фиксирует текущий вид и сохраняет его как изображение заплатки. Изображение патча будет добавлено в проект и наложено на панораму. Это возможно только в том случае, если в проекте имеется одна плоскость перехода.<br><br>Плоскости сопряжения можно отключить, переключившись на рабочий процесс «@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@» на вкладке @mainwindow.tabs.exposurehdr@.<br><br>Или, как вариант, сначала дорисовать и сшить панораму. Затем можно использовать инструмент патча, загрузив готовую панораму в новый проект PTGui."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "Формат файла, который будет использоваться для изображения.",
+			"morehelptext": "<br><br>Изображение можно сохранить в формате JPEG, TIFF или JPEG2000:<br><br><b>TIFF</b> рекомендуется для изображения высочайшего качества, но файлы могут быть очень большими. 8-битный TIFF можно использовать, если исходные изображения ограничены 8 битами на канал и имеют одинаковую экспозицию. В противном случае следует использовать 16-битный TIFF для сохранения полного динамического диапазона.<br><br><b>JPEG</b> ограничен 8 битами на пиксель и не поддерживает прозрачность, но размер файла изображения патча будет намного меньше.<br><br><b>JPEG2000</b> поддерживает прозрачность и 8- и 16-битный формат на канал. Размер файла намного меньше, чем TIFF, из-за сжатия с потерями."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "Настройки"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "Размер (в пикселях) снимка изображения. Установите результат на 100%, чтобы создать снимок оптимального размера."
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "Создайте и сохраните снимок текущего вида. Вам будет предложено ввести имя файла."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "Установите шаг на -90°, чтобы увидеть надир."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "Установите наклон на 0°."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "Установите угол наклона на 90°, чтобы увидеть зенит."
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "Открыть изображение",
+			"helptext": "Откройте изображение для ретуши."
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "Сохранить автоматически",
+			"helptext": "После каждого изменения автоматически сохранять отредактированное изображение."
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "Сохранить изображение",
+			"helptext": "Сохраните отредактированное изображение."
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "Режим: Вырезать отверстие",
+			"helptext": "Вырежьте отверстие в изображении, чтобы удалить ненужные части.",
+			"morehelptext": "<br><br>Нажмите на изображение, чтобы создать замкнутую область. Эта часть изображения будет сделана прозрачной. Используйте эту функцию, чтобы удалить ненужные части изображения перед добавлением патча."
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "Режим: Патч",
+			"helptext": "Отретушируйте изображение, скопировав патчи.",
+			"morehelptext": "<br><br>Чтобы создать патч, щелкните изображение, чтобы создать замкнутую область. Эта область будет использоваться в качестве места назначения для патча. Затем перетащите патч в место, которое будет использоваться в качестве источника патча. Патч будет скопирован из источника в область назначения."
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "Найдите оптимальные швы",
+			"helptext": "Попытайтесь найти оптимальный шов между заплаткой и основным изображением.",
+			"morehelptext": "<br><br>Если этот параметр включен, стык между изображением патча и нижележащим изображением будет проходить через области, где изображение патча и нижележащее изображение наиболее похожи. Это позволит добиться максимально плавного результата. Вам необходимо указать, какие части основного изображения не должны быть видны в конечном результате, сначала используя режим «Вырезать отверстие».<br><br>Если отключено, патч будет наложен целиком. Края по-прежнему будут смешаны, но результат будет не таким цельным."
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "Помощь"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "Сохраняйте контрольные точки только между изображениями, которые являются прямыми соседями."
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "Настраивает расстояние между элементами пользовательского интерфейса. На экранах меньшего размера можно установить значение «@options.spacing.narrow@»."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "Отрегулируйте баланс белого панорамы.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> Если этот параметр выбран, панорама будет создана со средним балансом белого исходного изображения. Если все изображения имеют одинаковый баланс белого, преобразование баланса белого не выполняется.<br><br>Если @panoramaeditor.sidebar.postprocess.whitebalance.auto@ не выбран, можно выбрать желаемую цветовую температуру панорамы (в градусах Кельвина). Баланс белого будет отрегулирован от исходной цветовой температуры до выбранной цветовой температуры. Исходная цветовая температура каждого исходного изображения настраивается в столбце «@mainwindow.imageparameters.whitebalance@» на вкладке @mainwindow.tabs.imageparameters@. Если ни для одного из исходных изображений цветовая температура неизвестна, предполагается, что она равна 5000K."
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "Сила подавления цветного (цветового) шума"
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "Сила шумоподавления яркостного шума"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Уровень сжатия, используемый для сжатия ZIP. От 0 (низкое сжатие и высокое качество изображения) до 9 (высокое сжатие и низкое качество)."
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "Хроматическая аберрация — это тип искажения объектива, из-за которого разные цвета фокусируются немного по-разному. Это можно увидеть как цветную бахрому по краям объектов. Степень уменьшения хроматических аберраций можно регулировать."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "Устанавливает яркость создаваемого HDR-изображения.",
+			"morehelptext": "<br><br>HDR-изображения имеют (практически) неограниченный динамический диапазон. Для обычных изображений с низким динамическим диапазоном белый цвет соответствует максимальному значению пикселей, которое можно сохранить. Но для изображений HDR не существует такого понятия, как «белый», и необходимо выбрать эталонную яркость. PTGui может масштабировать яркость созданного HDR-изображения следующими способами:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Если панорама создается из изображений с брекетингом, значение 1,0 в панораме HDR соответствует белому цвету в средней экспозиции. Например, если использовался брекетинг 0/-2/+2, белые пиксели при экспозиции 0EV будут иметь значение пикселя 1,0 в панораме. Получающаяся панорама HDR обычно будет содержать пиксели ярче 1. Это настройка по умолчанию.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Если панорама создается из изображений в брекетинге, белый цвет в самом ярком исходном изображении будет соответствовать 1,0 в панораме HDR. Таким образом, все пиксели HDR-изображения будут иметь значения от 0 до 1.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Обратите внимание, что это всего лишь устанавливает произвольную эталонную яркость для изображения HDR. Изображения HDR не могут отображаться напрямую, и фактическое значение значения 1,0 пикселя зависит от приложения. В изображениях HDR нет риска переэкспонирования: если изображение HDR слишком яркое, его можно уменьшить после создания. В отличие от обычных изображений, в изображениях HDR не происходит обрезка светлых участков."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "Примените дополнительное смещение в EV к яркости HDR-изображения.",
+			"morehelptext": "<br><br>Положительное значение увеличивает яркость, аналогично компенсации экспозиции в камере."
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "Измените экспозицию панорамы HDR так, чтобы этот пиксель имел указанную яркость в панораме HDR.",
+			"morehelptext": "<br><br>Это влияет только на яркость HDR-панорамы. Панорама LDR (тоновая карта или объединенная экспозиция) не затрагивается. Экспозицию HDR можно настроить вручную на боковой панели «@panoramaeditor.sidebar.hdrpostprocess@» в @panoramaeditor@.<br><br>Возможное применение — сфотографировать серую карту с известной отражательной способностью и сопоставить экспозицию HDR с интенсивностью освещения сцены в месте расположения серой карты."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "Образец цвета",
+			"morehelptext": "<br><br>Нажмите на панораму, чтобы выбрать цвет. Поддерживаются следующие функции:<br><br><b>Регулировка баланса белого:</b> нажмите на объект серого цвета в сцене. Баланс белого будет настроен таким образом, что выбранный объект станет нейтрально-серым.<optional product='pro'><br><br><b>Настройка экспозиции HDR:</b> отрегулируйте экспозицию панорамы HDR таким образом, чтобы выбранный пиксель имел определенную яркость.</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "Переключение между предварительным просмотром HDR и LDR.",
+			"morehelptext": "<br><br>При создании панорам HDR выберите, будут ли @panoramaeditor@ и @detailviewer@ отображать панораму с расширенным динамическим диапазоном или с низким динамическим диапазоном.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> отображение выходного сигнала с низким динамическим диапазоном, соответствующего параметру вывода «@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@» на вкладке @mainwindow.tabs.createpanorama@. При этом можно просмотреть результат тональной компрессии и любые настройки, примененные на панели @panoramaeditor.sidebar.postprocess@ в @panoramaeditor@.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> отображение предварительного просмотра выходного сигнала с расширенным динамическим диапазоном, соответствующего параметру вывода «@mainwindow.createpanoramatab.output.hdrblended@» на вкладке @mainwindow.tabs.createpanorama@. Полный динамический диапазон HDR-изображения можно просмотреть, отрегулировав ползунок «Экспозиция» ниже. Настройки панели @panoramaeditor.sidebar.hdrpostprocess@ в @panoramaeditor@ применяются. Кривые тона не применяются, поэтому изображение будет выглядеть тусклым по сравнению с предварительным просмотром LDR."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "Вывод HDR недоступен при использовании Exposure Fusion.",
+			"morehelptext": "<br><br>С помощью Exposure Fusion изображения в скобках объединяются с LDR без предварительного создания изображения с расширенным динамическим диапазоном. Чтобы включить вывод HDR, отключите Exposure Fusion на боковой панели @panoramaeditor@."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "Увеличьте или уменьшите яркость предварительного просмотра. Влияет только на изображение, отображаемое в @panoramaeditor@ и @detailviewer@, но не на фактический результат."
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Уровень сжатия, используемый для сжатия DWA. 0 – без потерь; более высокие значения дают более высокое сжатие и более низкое качество изображения."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "Выбирает приложение, которое будет использоваться для редактирования сгенерированного изображения патча.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> отредактируйте изображение патча в @patchwindow@, включенном в PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> выберите внешнее приложение для редактирования изображения патча. Здесь перечислены все приложения, зарегистрированные для обработки типа файла образа исправления.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> откройте папку, содержащую изображение исправления, в @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [
@@ -10418,6 +11236,16 @@
 			"id": "cameradatabase",
 			"machinetranslated": true,
 			"helptext": "<b>@cameradatabase@</b><br><br>Для расчета проекции объектива PTGui требуется не только знать фокусное расстояние, но и размер сенсора камеры. Не зная размеры сенсора, фокусное расстояние является бессмысленным. PTGui знает размер сенсора более 2000 камер, но возможно, что ваша камера не включена. В этом случае вы можете добавить эти данные в базу данных камеры.<br><br><b>Использование базы данных камеры</b><br><br>Окно базы данных камеры можно открыть через @menubar.tools@ | @cameradatabase@. Записи не загружаются и не сохраняются непосредственно здесь; вместо этого это делается с вкладки @mainwindow.tabs.lenssettings@ в главном окне. Если вкладка @mainwindow.tabs.lenssettings@ не отображается, нажмите кнопку @advanced@ на боковой панели главного окна.<br><br>На вкладке @mainwindow.tabs.lenssettings@ нажмите кнопку @cameradatabase@, чтобы загрузить или сохранить текущий размер сенсора из базы данных объектива или в базу данных объектива и связать эти данные с моделью камеры, как показано в поле модели камеры EXIF. В следующий раз, когда изображение загрузится с помощью этой модели EXIF-камеры, PTGui автоматически инициализирует данные о размере сенсора камеры."
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>Используйте этот инструмент, чтобы ретушировать небольшие ошибки сшивания, удалять ненужные объекты (например, штатив) или заполнять недостающие части панорамы. Ретушь осуществляется путем клонирования частей изображения и их наложения на другую часть изображения. @patchwindow@ можно открыть двумя способами:<br><br>В окне <b>@detailviewer@</b> перейдите к той части панорамы, которую нужно ретушировать, откройте боковую панель @detailviewer.sidebar.patch@ и нажмите кнопку @detailviewer.sidebar.patch.createpatch@. При этом создается снимок текущего вида и добавляется в панораму в качестве нового исходного изображения. Добавленное изображение будет иметь полностью зеленую маску, чтобы гарантировать, что изображение исправления будет использоваться вместо исходных исходных изображений. Затем откроется @patchwindow@ для редактирования образа патча.<br><br>Или откройте @patchwindow@ непосредственно из <b>меню @menubar.tools@</b> как отдельный инструмент. Это позволяет открыть для редактирования любое изображение JPEG, JPEG2000 или TIFF.<br><br>@patchwindow@ работает в двух возможных режимах:<br><br><b>@patchwindow.mode.cut@:</b> используйте этот режим для удаления ненужных объектов из изображения. Нажмите на изображение, чтобы нарисовать фигуру вокруг объекта. Закрытая область станет прозрачной.<br><br><b>@patchwindow.mode.patch@:</b> В этом режиме щелкните изображение, чтобы нарисовать фигуру вокруг той части изображения, которая должна быть покрыта заплаткой. Затем перетащите фигуру в область, которая будет использоваться в качестве источника патча. Целевая область будет заменена клонированной исходной областью.<br><br>Патчи можно перемещать и редактировать: щелкните внутри патча, чтобы активировать его. Исходная область активного патча будет обозначена желтой пунктирной линией. Патч или его исходную область можно перемещать, перетаскивая его. Патч можно редактировать, перетаскивая его вершины. Новые вершины можно добавить, щелкнув правой кнопкой мыши по ребру. Щелкните правой кнопкой мыши по вершине, чтобы удалить ее. В macOS вместо правой кнопки мыши можно использовать сочетание клавиш Ctrl+щелчок.<br><br>По умолчанию <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> включен: шов между изображением патча и базовым изображением будет проложен через области, где они наиболее похожи. Это позволит создать наиболее цельный результат, но будет использоваться только часть патча. Линия шва обозначается красной линией при наведении указателя мыши на окно. Если нежелательные части исходного изображения все еще отображаются через патч, сделайте эти части прозрачными, используя режим «@patchwindow.mode.cut@», как описано выше. Шов будет проходить вокруг прозрачных областей. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> можно отключить на нижней панели инструментов. Если отключено, патч будет наложен целиком. Края по-прежнему будут смешаны, но результат может быть не таким цельным.<br><br>Если выбрано <b>@patchwindow.autosave@</b> , все изменения немедленно сохраняются на диске. В противном случае используйте кнопку «Сохранить», чтобы сохранить исправленное изображение.<br><br>Если @patchwindow@ был запущен путем создания патча в окне @detailviewer@, отредактированное изображение патча будет перезагружено автоматически, и проект обновится через несколько секунд. После исправления панорамы контрольные точки редактировать больше нельзя. Запуск оптимизатора изменит выравнивание изображений, и изображение исправления больше не будет отражать исходное выравнивание изображений. Поэтому исправление следует выполнять как заключительный этап процесса сшивания. Начать с нуля всегда можно, просто перейдя на вкладку @mainwindow.tabs.sourceimages@ и удалив образ патча из проекта.<br><br>Вместо добавления изображения патча в проект PTGui также можно отретушировать уже сшитую панораму: после сшивания панорамы запустите новый проект и добавьте сшитую панораму в качестве исходного изображения. Затем откройте окно @detailviewer@ и запустите оттуда @patchwindow@."
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>На этой вкладке можно настроить параметры обработки изображений RAW:<br><br><b>Снижение шума.</b> Данные камеры RAW, особенно при более высоких значениях ISO, могут содержать значительное количество шума. PTGui может применять шумоподавление к данным RAW во время преобразования RAW. Силу шумоподавления можно контролировать отдельно для цветности (цвета) и яркости (яркости).<br><br><b>Удаление хроматической аберрации.</b> Хроматическая аберрация — это тип искажения объектива, из-за которого разные цвета фокусируются немного по-разному. Это можно увидеть как цветную бахрому по краям объектов. Степень уменьшения хроматических аберраций можно регулировать.<br><br>Настройки на этой вкладке применяются к исходным изображениям RAW и DNG перед сшивкой. Дальнейшие настройки можно внести в @panoramaeditor@ на вкладках @panoramaeditor.sidebar.postprocess@ и @panoramaeditor.sidebar.whitebalance@; эти настройки применяются к сшитой панораме."
 		}
 	]
 }

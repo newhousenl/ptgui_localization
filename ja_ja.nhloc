@@ -6050,7 +6050,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@：</b> （PTGui Proのみ）：@panoramaeditor.sidebar.blendsettings.seamfinding@（@panoramaeditor@の@mainwindow.createpanoramatab.blending@パネル内）が無効になっている場合、継ぎ目は通常、2つの画像間のオーバーラップの中央に配置されます。これは、ソースイメージの@mainwindow.imageparameters.blendpriority@を増減することで調整できます。これは相対値です。2つの画像のブレンド優先度が150と100の場合、最初の画像の大部分が使用されます。 @panoramaeditor.sidebar.blendsettings.seamfinding@が有効になっている場合、この値は無視されます。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>プロジェクトに複数のカメラ応答曲線が含まれる場合があります。このフィールドは、各ソース画像に使用されるカメラ応答曲線を構成します。カメラの応答曲線は、@mainwindow.tabs.exposurehdr@タブで構成されます。プロジェクトにカメラ応答曲線が1つしかない場合は、「@txt.globalcameracurve@」という名前になります。 <b>@txt.cameracurve.linear@</b>が選択されている場合、画像には線形データが含まれていると見<b>なされ</b>、曲線は適用されません。詳細については、@mainwindow.tabs.exposurehdr@タブのツールチップを参照してください。<br><br><b>@mainwindow.imageparameters.whitebalance@：</b>各ソース画像の元のホワイトバランスをケルビン単位の色温度として構成します。これは、@panoramaeditor@の@panoramaeditor.sidebar.postprocess@パネルでターゲットホワイトバランスが構成されている場合に使用されます。ソース画像の色は、ここで設定した色温度から目標色温度に調整されます。このフィールドが空の場合、デフォルト値は5000Kと見なされます。 @panoramaeditor.sidebar.postprocess@パネルで「@txt.asshot@」が選択されている場合、このフィールドは無視されます。<br><br><b>@mainwindow.imageparameters.linked@：</b> （PTGui Proのみ）：ブラケットされたソース画像からHDRパノラマをステッチする場合、このチェックボックスは、ブラケットされた画像が同じ@yaw@、@pitch@、@roll@、および@viewpoint@パラメーターを持つかどうかを構成します。括弧で囲まれた画像が三脚から撮影されたものではなく、独立した@yaw@、@pitch@、@roll@、および@viewpoint@パラメータが必要な場合は、このチェックボックスをオフにします。ブラケット画像を位置合わせするためのコントロールポイントを提供する必要があります。"
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@：</b> （PTGui Proのみ）：@panoramaeditor.sidebar.blendsettings.seamfinding@（@panoramaeditor@の@mainwindow.createpanoramatab.blending@パネル内）が無効になっている場合、継ぎ目は通常、2つの画像間のオーバーラップの中央に配置されます。これは、ソースイメージの@mainwindow.imageparameters.blendpriority@を増減することで調整できます。これは相対値です。2つの画像のブレンド優先度が150と100の場合、最初の画像の大部分が使用されます。 @panoramaeditor.sidebar.blendsettings.seamfinding@が有効になっている場合、この値は無視されます。<br><br><b>@mainwindow.imageparameters.cameracurve@：</b>プロジェクトに複数のカメラ応答曲線が含まれる場合があります。このフィールドは、各ソース画像に使用されるカメラ応答曲線を構成します。カメラの応答曲線は、@mainwindow.tabs.exposurehdr@タブで構成されます。プロジェクトにカメラ応答曲線が1つしかない場合は、「@txt.globalcameracurve@」という名前になります。 <b>@txt.cameracurve.linear@</b>が選択されている場合、画像には線形データが含まれていると見<b>なされ</b>、曲線は適用されません。詳細については、@mainwindow.tabs.exposurehdr@タブのツールチップを参照してください。<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@：</b> （PTGui Proのみ）：ブラケットされたソース画像からHDRパノラマをステッチする場合、このチェックボックスは、ブラケットされた画像が同じ@yaw@、@pitch@、@roll@、および@viewpoint@パラメーターを持つかどうかを構成します。括弧で囲まれた画像が三脚から撮影されたものではなく、独立した@yaw@、@pitch@、@roll@、および@viewpoint@パラメータが必要な場合は、このチェックボックスをオフにします。ブラケット画像を位置合わせするためのコントロールポイントを提供する必要があります。"
 		},
 		{
 			"id": "proxysettings.button",
@@ -6196,6 +6196,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "選択した出力カラー プロファイルは使用できません。おそらく、ソースのみのプロファイルであることが考えられます。\n\n[@mainwindow.createpanoramatab.createpanorama@] タブに移動し、別の出力カラー スペースを選択してください。画質に影響を与えないように、広色域プロファイル (ProPhoto RGB など) を選択することをお勧めします。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "（対角線）"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "ビュー"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "パッチ"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "スナップショット"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "画像を保存"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "パッチの作成"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "パッチエディター"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "画像を開く"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "画像を保存"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "自動的に保存"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "画像を保存します"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "保存中..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "画像は変更されました。保存しますか?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "サポートされていないファイル タイプ: .%0。 TIFFまたはJPEGでのみ保存できます。"
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "複数のファイルがドロップされました。一度に開くことができるファイルは 1 つだけです。"
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "この点を削除"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "このパッチを削除します"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "ポイントを追加する"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "この機能は<a href=0>パースペクティブ モード</a>でのみ使用できます。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "サイズ："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "解決："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "フォーマット："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "プロジェクトフォルダーに保存"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "場所を選択してください..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "この機能は、ブレンド プレーンが使用されている場合には使用できません。<a href=0>ブレンドプレーンを無効にします。</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "パッチ"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "カット"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "アルファあり"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "10000EFGHx 圧縮10000EFGHx 圧縮"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "無損失の"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "圧縮："
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "隣接しない画像間のコントロール ポイントを削除する"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "コントロール ポイントは削除されていません。\n\n制御点は、別の画像が 2 つの画像中心間の直線上にある場合にのみ削除されます。中央の画像には、各隣接画像に対して少なくとも 4 つのコントロール ポイントが必要です。"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "1 つのコントロール ポイント (合計コントロール ポイント %0 のうち) が削除されます。プロジェクトを続行して再最適化しますか?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " %0 コントロール ポイント (合計 %1 コントロール ポイントのうち) が削除されます。プロジェクトを続行して再最適化しますか?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "@mainwindow.createpanoramatab.output.blendplanes@を有効にする"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "DNG 出力には使用できません"
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "DNG 出力ではトーン マッピングと露出フュージョンが無効になっています"
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "PTGui (標準バージョン) を試す"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "PTGui Pro を試してみる"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "標準バージョンと PTGui Pro の違いは何ですか?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "間隔:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "通常"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "狭い"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "自動"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "不明な ICC プロファイル"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "ICC カラー プロファイルはサポートされていないタイプです。"
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "サポートされていない ICC カラー プロファイル: %0。代わりに sRGB を使用します。"
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "サポートされていない ICC カラー プロファイル: %0。 OpenEXR 出力の場合は、線形カラー プロファイルが必要です。"
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "ICCカラープロファイルの解析に失敗しました。代わりに sRGB を使用します。次のエラーが発生しました:\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "ICC カラー プロファイルが壊れています。"
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "RAW前処理"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "ノイズリダクションを適用する"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "クロマノイズ低減："
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "ルミナンスノイズリダクション:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "色収差を除去する"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "この画像 (%0) は RAW ファイルではありません。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "この生画像 (%0) にはアルファ チャネルがあるため、前処理できません。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "この生画像 (%0) には浮動小数点データが含まれているため、前処理できません。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@panoramaeditor@ の<a href=0>@panoramaeditor.sidebar.postprocess@</a>パネルでさらに調整を行うことができます。"
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "タブに移動"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "次のタブ"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "前のタブ"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "シンプルモード/アドバンストモードの切り替え"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "ZIP 圧縮レベル:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "DWA 圧縮レベル:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "ライセンス"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@、@mainwindow.imageparameters.whitepoint.tint@:</b>各ソース画像の元のホワイト バランスを設定します。パノラマに別のホワイト バランスが選択されている場合 (@panoramaeditor@ の @panoramaeditor.sidebar.postprocess@ パネル内)、または異なるホワイト バランスの画像がパノラマ内に混在している場合、PTGui はターゲット ホワイト バランスへの変換を実行します。これを行うには、ソース画像の元のホワイト バランスを知る必要があります。 <b>@mainwindow.imageparameters.whitepoint.temperature@</b> はケルビン単位の色温度で、ブルーとアンバーのバランスを調整します。一般的な値は、白熱灯の場合は 3000K、日の出または日没の場合は 3500K、日光の場合は 5000K、曇り空の場合は 6500K です。 <b>@mainwindow.imageparameters.whitepoint.tint@</b> はグリーンとマゼンタのバランスを調整します。ソース イメージの場合、これは通常、ニュートラル値 0 に設定できます。",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 温度"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 色合い"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "温度："
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "色合い:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "予期しないコマンド ライン オプション: %0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "コマンドラインでエラーが発生しました。使用法: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "このテンプレートは PTGui 10 プロジェクト ファイルです。 PTGui は引き続き PTGui 10 プロジェクト ファイルをロードできますが、テンプレートとして使用することはできません。テンプレートを開いて、現在の PTGui 形式で保存してください。"
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "プロジェクトファイルの生成"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR露出"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "参照:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "中間露出"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "最も明るい露出"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "絶対露出"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "オフセット："
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "絶対露出値を設定します。これは、f/1.0、ISO 100 での 1 秒の露出からの EV オフセットとして定義されます。この (仮想の) 露出の白色は、HDR パノラマの 1.0 に対応します。値を 1 減らすと明るさが 2 倍になります。言い換えると、EV = log2(絞り^2 / (露出時間 * ISO / 100)) となります。<br><br>パノラマに絶対露出を使用するには、すべてのソース画像の露出を知っておく必要があります。各ソース画像の露光時間、絞り、ISO は、@mainwindow.tabs.imageparameters@ タブで設定できます。 1 つ以上のイメージの ISO が不明な場合は、すべてのイメージに対して ISO 100 が想定されます。同様に、ソース イメージのいずれかでこのパラメータが指定されていない場合は、すべてのイメージで絞り f/1.0 と露光時間 1 秒が想定されます。"
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "カラーサンプラー"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "ホワイトバランスを調整します（灰色の領域をクリック）"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "HDR露出を調整する"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "このピクセルが明るくなるように HDR 露出を調整します。"
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "これは黒いピクセルです。黒以外のピクセルを選択してください。"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "見せる："
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "LDR パノラマ"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR パノラマ"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "これらの設定は、HDR 出力にのみ影響します。現在、LDR パノラマを表示しています。 <a href=\"0\">HDR プレビューに切り替える</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "これらの設定は、LDR 出力にのみ影響します。現在、HDR パノラマを表示しています。 <a href=\"0\">LDR プレビューに切り替える</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "プレビュー露出調整が有効です:<a href=\"0\">リセット</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "ホワイトバランス"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "次のリンク グループ:"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "括弧付き画像"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "プロジェクトには %0 イメージのみが含まれています。"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "プロジェクトには %0 イメージが含まれていますが、これは %1 の倍数ではありません。"
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "プロジェクトには、%0 イメージのセットが 1 つ含まれます。"
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "プロジェクトには、%1 イメージの %0 セットが含まれます。"
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "ライセンスが PTGui Pro にアップグレードされました。 Pro 機能を有効にするには、PTGui を再起動する必要があります。作業内容を保存して、PTGui を今すぐ再起動しますか?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "PTGui Pro にアップグレードする"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "1/%0 での継ぎ目検索には時間がかかります。"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "@patchwindow@で編集"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "これにより、ソース イメージが変更され、上書きされます。本気ですか？"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "まず現在のプロジェクトを保存する必要があります。今すぐそれを行いますか?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "プロジェクトにはパッチ イメージが含まれています。プロジェクトを最適化すると画像が移動し、パッチの位置がずれることがあります。本気ですか？"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "これらの設定は、LDR 出力にのみ影響します。現在、HDR パノラマを表示しています。"
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "%1 で %0 を開けませんでした。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "次の場所でパッチ イメージを編集します。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "応用："
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "開いているファイルの場所"
 		}
 	],
 	"tooltips": [
@@ -8485,6 +9084,225 @@
 			"machinetranslated": true,
 			"helptext": "露出融合に使用するアルゴリズム",
 			"morehelptext": "<br><br>PTGui 12.0 から 12.20 は、PTGui 11 以前とは異なる露出融合アルゴリズムを使用していました。 PTGui 12.21 以降では、古いアルゴリズムが再び利用可能になり、より良い結果が得られるため、デフォルトで使用されます。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> PTGui 12.0 から 12.20 で使用されていた露出融合アルゴリズムを使用します。このオプションは、PTGui 12.0 から 12.20 で作成されたプロジェクトとの互換性のために使用でき、新しいプロジェクトには使用しないでください。<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b>これはオリジナルの露出融合アルゴリズムです。これは最良の結果をもたらし、新しいプロジェクトに推奨されるオプションです。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "現在のビューのパッチを作成します。",
+			"morehelptext": "<br><br>現在のビューをキャプチャし、パッチ イメージとして保存します。パッチ画像がプロジェクトに追加され、パノラマに重ねられます。 @patchwindow@ はパッチを編集するためにオープンエンドになります。<br><br>このパッチを使用すると、三脚や人物を削除するなど、パノラマの不要な部分を削除できます。パッチは、ソース イメージで覆われていない穴 (天底や天頂など) を埋めるために使用することもできます。"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "現在のビューのスナップショットを最大解像度で作成します"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "@detailviewer@ の視野角を検査または編集する"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "画像を開く",
+			"helptext": "レタッチする画像を開きます。"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "画像を保存",
+			"helptext": "編集した画像を保存します。"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "自動的に保存",
+			"helptext": "編集した画像を変更するたびに自動的に保存します。"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "画像を保存します",
+			"helptext": "編集した画像を別名で保存します。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "パッチ ツールはブレンド プレーンと組み合わせて使用することはできません。",
+			"morehelptext": "<br><br>パッチ ツールは、現在のビューをキャプチャし、パッチ イメージとして保存します。パッチ画像がプロジェクトに追加され、パノラマに重ねられます。これは、プロジェクトに単一のブレンド プレーンがある場合にのみ可能です。<br><br>ブレンド プレーンを無効にするには、「@mainwindow.tabs.exposurehdr@」タブのワークフロー「@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@」に切り替えます。<br><br>または、最初にパノラマを仕上げてステッチします。その後、完成したパノラマを新しい PTGui プロジェクトにロードすることで、パッチ ツールを使用できるようになります。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "画像に使用されるファイル形式。",
+			"morehelptext": "<br><br>画像は JPEG、TIFF、または JPEG2000 形式で保存できます。<br><br>最高の画質を得るには<b>TIFF</b>が推奨されますが、ファイルが非常に大きくなる可能性があります。ソース画像がチャンネルあたり 8 ビットに制限されており、露出が同一の場合、8 ビット TIFF を使用できます。それ以外の場合は、ダイナミック レンジ全体を維持するために 16 ビット TIFF を使用する必要があります。<br><br><b>JPEG は</b>1 ピクセルあたり 8 ビットに制限されており、透明度はサポートされていませんが、パッチ イメージのファイル サイズははるかに小さくなります。<br><br><b>JPEG2000 は、</b>透明度およびチャネルごとに 8 ビットと 16 ビットの両方をサポートします。非可逆圧縮により、ファイル サイズは TIFF よりもはるかに小さくなります。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "設定"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "スナップショット イメージのサイズ (ピクセル単位)。最適なサイズでスナップショットを作成するには、結果を 100% に設定します。"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "現在のビューのスナップショットを作成して保存します。ファイル名の入力を求められます。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "天底を表示するには、ピッチを -90° に設定します。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "ピッチを0°に設定します。"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "天頂を表示するには、ピッチを 90° に設定します。"
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "画像を開く",
+			"helptext": "レタッチする画像を開きます。"
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "自動的に保存",
+			"helptext": "変更するたびに、編集した画像が自動的に保存されます。"
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "画像を保存",
+			"helptext": "編集した画像を保存します。"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "モード: カットホール",
+			"helptext": "画像に穴を開けて不要な部分を削除します。",
+			"morehelptext": "<br><br>画像内をクリックして、囲まれた領域を作成します。画像のこの部分が透明になります。パッチを追加する前に、この機能を使用して画像の不要な部分を削除します。"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "モード: パッチ",
+			"helptext": "パッチをコピーして画像をレタッチします。",
+			"morehelptext": "<br><br>パッチを作成するには、画像内をクリックして囲まれた領域を作成します。この領域はパッチの宛先として使用されます。次に、パッチをパッチのソースとして使用する場所にドラッグします。パッチがソース領域から宛先領域にコピーされます。"
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "最適な縫い目を見つける",
+			"helptext": "パッチとその下にある画像の間の最適な継ぎ目を見つけようとします。",
+			"morehelptext": "<br><br>有効にすると、パッチ イメージとその下のイメージの間の継ぎ目は、パッチ イメージとその下のイメージが最も類似している領域を経由してルーティングされます。これにより、最もシームレスな結果が得られます。最初に「カットホール」モードを使用して、基礎となる画像のどの部分が最終結果に表示されないようにするかを指定する必要があります。<br><br>無効にすると、パッチ全体がオーバーレイされます。エッジは引き続きブレンドされますが、結果はシームレスではなくなります。"
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "ヘルプ"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "直接隣接するイメージ間のコントロール ポイントのみを保持します。"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "ユーザー インターフェイス要素間の間隔を構成します。小さい画面では、これは「@options.spacing.narrow@」に設定される場合があります。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "パノラマ写真のホワイトバランスを調整します。",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b>選択すると、平均的なソース画像のホワイト バランスでパノラマが作成されます。すべての画像のホワイトバランスが同じ場合、ホワイトバランス変換は行われません。<br><br>@panoramaeditor.sidebar.postprocess.whitebalance.auto@ が選択されていない場合は、パノラマの希望の色温度 (ケルビン度) を選択できます。ホワイトバランスは、元の色温度から選択した色温度に調整されます。各ソース画像の元の色温度は、「@mainwindow.tabs.imageparameters@」タブの「@mainwindow.imageparameters.whitebalance@」列で設定されます。ソース画像の色温度が不明な場合は、5000K が想定されます。"
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "色（カラー）ノイズに対するノイズリダクションの強さ"
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "輝度（明るさ）ノイズに対するノイズリダクションの強さ"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "ZIP 圧縮に使用する圧縮レベル。 0 (低圧縮かつ高画質) ～ 9 (高圧縮かつ低画質) の間。"
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "色収差はレンズの歪みの一種で、異なる色にわずかに異なる焦点の合わせ方を引き起こします。これは、オブジェクトのエッジの周りの色のフリンジとして見られます。色収差の軽減量を調整できます。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "生成される HDR 画像の明るさを設定します。",
+			"morehelptext": "<br><br>HDR 画像には (事実上) 無制限のダイナミック レンジがあります。通常の低ダイナミック レンジ画像の場合、白は保存できる最大ピクセル値に対応します。ただし、HDR 画像の場合は「白」というものはなく、基準となる明るさを選択する必要があります。 PTGui は、次の方法で生成された HDR 画像の明るさをスケーリングできます。<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b>パノラマがブラケットされた画像から生成されている場合、HDR パノラマの値 1.0 は中間露出の白に対応します。たとえば、0/-2/+2 ブラケティングが使用された場合、0EV 露出の白いピクセルはパノラマ内で 1.0 のピクセル値を持ちます。結果として得られる HDR パノラマには、通常、1 より明るいピクセルが含まれます。これがデフォルト設定です。<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b>パノラマがブラケットされたイメージから生成された場合、最も明るいソースイメージの白の色は、HDR パノラマの 1.0 に対応します。したがって、HDR 画像のすべてのピクセルは 0 から 1 の間になります。<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>これは、HDR 画像の任意の基準輝度を設定するだけであることに注意してください。 HDR 画像は直接表示できません。1.0 ピクセル値の実際の意味はアプリケーションによって異なります。 HDR 画像では露出オーバーのリスクはありません。HDR 画像が明るすぎる場合は、生成後に縮小できます。通常の画像とは異なり、HDR 画像ではハイライトのクリッピングは発生しません。"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "HDR 画像の明るさに EV 単位の追加オフセットを適用します。",
+			"morehelptext": "<br><br>正の値を指定すると、カメラの露出補正と同様に明るさが増加します。"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "このピクセルが HDR パノラマで指定された明るさになるように、HDR パノラマの露出を変更します。",
+			"morehelptext": "<br><br>これは、HDR パノラマの明るさにのみ影響します。 LDR パノラマ (トーン マッピングまたは露出フュージョン) は影響を受けません。 HDR 露出は、@panoramaeditor@ の「@panoramaeditor.sidebar.hdrpostprocess@」サイド バーで手動で調整できます。<br><br>考えられる用途としては、既知の反射率でグレー カードを撮影し、HDR 露出をグレー カードの位置でのシーンの光の強度に合わせることが考えられます。"
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "カラーサンプラー",
+			"morehelptext": "<br><br>パノラマ内をクリックして色を選択します。次の機能がサポートされています。<br><br><b>ホワイトバランス調整:</b>シーン内の灰色のオブジェクトをクリックします。選択したオブジェクトがニュートラルグレーになるようにホワイトバランスが調整されます。<optional product='pro'><br><br><b>HDR 露出の調整:</b>選択したピクセルが特定の明るさになるように HDR パノラマの露出を調整します。</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "HDR プレビューと LDR プレビューを切り替えます。",
+			"morehelptext": "<br><br>HDR パノラマを生成する場合、@panoramaeditor@ および @detailviewer@ が高ダイナミック レンジのパノラマを表示するか、低ダイナミック レンジのパノラマを表示するかを選択します。<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> 「@mainwindow.tabs.createpanorama@」タブの「@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@」出力オプションに対応する、低ダイナミック レンジ出力を表示します。これにより、トーン マッピングの結果と、@panoramaeditor.sidebar.postprocess@ パネルで適用された設定が @panoramaeditor@ にプレビューされます。<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> 「@mainwindow.tabs.createpanorama@」タブの「@mainwindow.createpanoramatab.output.hdrblended@」出力オプションに対応するハイ ダイナミック レンジ出力のプレビューを表示します。 HDR 画像の全ダイナミック レンジは、下の「露出」スライダーを調整することで検査できます。 @panoramaeditor@ の @panoramaeditor.sidebar.hdrpostprocess@ パネルの設定が適用されます。トーンカーブが適用されていないため、LDR プレビューに比べて画像がくすんで見えます。"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "Exposure Fusion を使用している場合、HDR 出力は利用できません。",
+			"morehelptext": "<br><br>Exposure Fusion を使用すると、最初にハイ ダイナミック レンジ イメージを生成することなく、ブラケットされたイメージが LDR にマージされます。 HDR 出力を有効にするには、@panoramaeditor@ サイドバーで Exposure Fusion を無効にします。"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "プレビューの明るさを増減します。 @panoramaeditor@ および @detailviewer@ に表示されるイメージにのみ影響し、実際の出力には影響しません。"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "DWA 圧縮に使用する圧縮レベル。 0 はロスレスです。値を大きくすると、圧縮率が高くなり、画質が低下します。"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "生成したパッチイメージを編集するアプリケーションを選択します。",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui に付属の @patchwindow@ 内のパッチ イメージを編集します。<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b>パッチ イメージを編集するには、外部アプリケーションを選択します。ここでは、パッチ イメージのファイル タイプを処理するために登録されているすべてのアプリケーションが一覧表示されます。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@ のパッチ イメージを含むフォルダーを開きます。"
 		}
 	],
 	"helppages": [
@@ -8603,6 +9421,16 @@
 		{
 			"id": "cameradatabase",
 			"helptext": "<b>@cameradatabase@</b><br><br>レンズPTGuiの投影を計算するには、焦点距離だけでなくカメラのセンササイズも知る必要があります。センサの寸法を知らなければ、焦点距離は無意味な値である。 PTGuiは2000台以上のカメラのセンサーサイズを認識しますが、カメラは含まれていない可能性があります。その場合、このデータをカメラデータベースに追加することができます。<br><br><b>カメラデータベースの使用</b><br><br>カメラデータベースウィンドウは、@menubar.tools@ | @cameradatabase@経由で開くことができます。レコードはロードされず、ここから直接保存されます。代わりに、これはメインウィンドウの@mainwindow.tabs.lenssettings@タブから実行されます。 @mainwindow.tabs.lenssettings@タブが表示されていない場合は、メインウィンドウのサイドバーの@advanced@ボタンを押します。<br><br>「@mainwindow.tabs.lenssettings@」タブで、@cameradatabase@ボタンを押してレンズデータベースとの間で現在のセンサーサイズをロードまたは保存し、このデータをEXIF 'カメラモデル'フィールドにあるカメラモデルに関連付けます。次回このEXIFカメラモデルがロードされると、PTGuiは自動的にカメラセンサーサイズデータを初期化します。"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>このツールを使用して、小さなステッチ エラーを修正したり、不要なオブジェクト (三脚など) を削除したり、パノラマの欠落部分を埋めたりすることができます。レタッチは、画像の一部を複製し、画像の別の部分にブレンドすることによって行われます。 @patchwindow@ は 2 つの方法で開くことができます。<br><br><b>@detailviewer@</b>ウィンドウで、レタッチするパノラマの部分に移動し、@detailviewer.sidebar.patch@ サイド バーを開いて、@detailviewer.sidebar.patch.createpatch@ ボタンを押します。これにより、現在のビューのスナップショットが作成され、新しいソース イメージとしてパノラマに追加されます。追加されたイメージには完全に緑色のマスクが付けられ、パッチ イメージが元のソース イメージの代わりに使用されるようになります。次に、パッチ イメージを編集するために @patchwindow@ が開きます。<br><br>または、 <b>@menubar.tools@ メニュー</b>からスタンドアロン ツールとして @patchwindow@ を直接開きます。これにより、JPEG、JPEG2000、または TIFF 画像を開いて編集できるようになります。<br><br>@patchwindow@ は、次の 2 つのモードで動作します。<br><br><b>@patchwindow.mode.cut@:</b>画像から不要なオブジェクトを削除するには、このモードを使用します。画像内をクリックして、オブジェクトの周囲に形状を描画します。囲まれた領域が透明になります。<br><br><b>@patchwindow.mode.patch@:</b>このモードでは、画像をクリックして、パッチで覆う必要がある画像部分の周囲に形状を描画します。次に、パッチのソースとして使用する領域にシェイプをドラッグします。ターゲット領域は、複製されたソース領域に置き換えられます。<br><br>パッチは移動または編集できます。パッチ内をクリックしてアクティブにします。アクティブなパッチのソース領域は黄色の破線で示されます。パッチまたはそのソース領域は、ドラッグして移動できます。パッチは頂点をドラッグすることで編集できます。エッジを右クリックすると、新しい頂点を追加できます。頂点を右クリックして削除します。 macOS では、マウスの右ボタンの代わりに Ctrl キーを押しながらクリックすることができます。<br><br>デフォルトでは、 <b>@panoramaeditor.sidebar.blendsettings.seamfinding@ が</b>有効になっています。パッチ イメージとその下にあるイメージの間の継ぎ目は、最も類似している領域を経由してルーティングされます。これにより、最もシームレスな結果が得られますが、パッチの一部のみが使用されます。マウス ポインタをウィンドウ上に置くと、継ぎ目ラインが赤い線で示されます。元の画像の不要な部分がパッチを通してまだ表示されている場合は、上で説明したように「@patchwindow.mode.cut@」モードを使用してそれらの部分を透明にします。縫い目は透明な領域の周りに配線されます。 <b>@panoramaeditor.sidebar.blendsettings.seamfinding@ は、</b>下部のツールバーで無効にできます。無効にすると、パッチ全体がオーバーレイされます。エッジは引き続きブレンドされますが、結果はそれほどシームレスではない可能性があります。<br><br><b>@patchwindow.autosave@</b>が選択されている場合、すべての編集内容はすぐにディスクに保存されます。それ以外の場合は、「保存」ボタンを使用してパッチ適用されたイメージを保存します。<br><br>@detailviewer@ ウィンドウでパッチを作成して @patchwindow@ を起動した場合、編集したパッチ イメージが自動的に再ロードされ、数秒後にプロジェクトが更新されます。パノラマにパッチを適用した後は、コントロール ポイントを編集しないでください。オプティマイザを実行すると画像の配置が変更され、パッチ イメージは元の画像の配置を反映しなくなります。したがって、パッチングはステッチプロセスの最終ステップとして実行する必要があります。 「@mainwindow.tabs.sourceimages@」タブに移動し、プロジェクトからパッチ イメージを削除するだけで、いつでも最初から始めることができます。<br><br>PTGui プロジェクトにパッチ イメージを追加する代わりに、すでにステッチされたパノラマをレタッチすることもできます。パノラマをステッチした後、新しいプロジェクトを開始し、ステッチされたパノラマをソース イメージとして追加します。次に、@detailviewer@ ウィンドウを開き、そこから @patchwindow@ を起動します。"
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>このタブでは、RAW 画像の現像設定を調整できます。<br><br><b>ノイズリダクション:</b>特に高い ISO 値では、RAW カメラ データに大量のノイズが含まれる可能性があります。 PTGui では、RAW 変換時に RAW データにノイズリダクションを適用できます。ノイズリダクションの強さは、クロミナンス（色）とルミナンス（明るさ）別に制御できます。<br><br><b>色収差の除去:</b>色収差はレンズの歪みの一種であり、異なる色にわずかに異なる焦点の合わせ方を引き起こします。これは、オブジェクトのエッジの周りの色のフリンジとして見られます。色収差の軽減量を調整できます。<br><br>このタブの設定は、ステッチする前に RAW および DNG ソース画像に適用されます。さらに調整は、「@panoramaeditor.sidebar.postprocess@」タブと「@panoramaeditor.sidebar.whitebalance@」タブの「@panoramaeditor@」で行うことができます。これらの調整は、ステッチされたパノラマに適用されます。"
 		}
 	]
 }

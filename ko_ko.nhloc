@@ -7427,7 +7427,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@ :</b> (PTGui Pro 만 해당) : @panoramaeditor.sidebar.blendsettings.seamfinding@ (@panoramaeditor@의 @mainwindow.createpanoramatab.blending@ 패널에서)가 비활성화 된 경우 이음새는 일반적으로 두 이미지 사이의 겹치는 중간에 배치됩니다. 소스 이미지의 @mainwindow.imageparameters.blendpriority@를 늘리거나 줄여서 조정할 수 있습니다. 상대 값입니다. 두 이미지의 혼합 우선 순위가 150과 100 인 경우 첫 번째 이미지의 더 큰 부분이 사용됩니다. @panoramaeditor.sidebar.blendsettings.seamfinding@가 활성화 된 경우이 값은 무시됩니다.<br><br><b>@mainwindow.imageparameters.cameracurve@ :</b> 프로젝트에는 여러 카메라 응답 곡선이 포함될 수 있습니다. 이 필드는 각 소스 이미지에 사용할 카메라 응답 곡선을 구성합니다. 카메라 응답 곡선은 @mainwindow.tabs.exposurehdr@ 탭에서 구성됩니다. 프로젝트에 카메라 응답 곡선이 하나만 포함 된 경우 '@txt.globalcameracurve@'라는 이름이 지정됩니다. <b>@txt.cameracurve.linear@</b> 를 선택하면 이미지에 선형 데이터가 포함 된 것으로 간주되며 곡선이 적용되지 않습니다. 자세한 내용은 @mainwindow.tabs.exposurehdr@ 탭의 도구 설명을 참조하십시오.<br><br><b>@mainwindow.imageparameters.whitebalance@ :</b> 각 소스 이미지의 원래 화이트 밸런스를 켈빈도 단위의 색온도로 구성합니다. 이는 @panoramaeditor@의 @panoramaeditor.sidebar.postprocess@ 패널에서 타겟 화이트 밸런스가 구성된 경우에 사용됩니다. 소스 이미지의 색상은 여기에서 구성된 색온도에서 목표 색온도로 조정됩니다. 이 필드가 비어 있으면 기본값 인 5000K로 간주됩니다. @panoramaeditor.sidebar.postprocess@ 패널에서 '@txt.asshot@'를 선택한 경우이 필드는 무시됩니다.<br><br><b>@mainwindow.imageparameters.linked@ :</b> (PTGui Pro 만 해당) : 브래킷 소스 이미지에서 HDR 파노라마를 연결할 때이 확인란은 브래킷 이미지가 동일한 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가질 지 여부를 구성합니다. 브라케팅 된 이미지가 삼각대에서 촬영되지 않았고 독립된 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가져야하는 경우이 상자를 선택 취소하십시오. 브라케팅 된 이미지를 정렬하려면 제어점을 제공해야합니다."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@ :</b> (PTGui Pro 만 해당) : @panoramaeditor.sidebar.blendsettings.seamfinding@ (@panoramaeditor@의 @mainwindow.createpanoramatab.blending@ 패널에서)가 비활성화 된 경우 이음새는 일반적으로 두 이미지 사이의 겹치는 중간에 배치됩니다. 소스 이미지의 @mainwindow.imageparameters.blendpriority@를 늘리거나 줄여서 조정할 수 있습니다. 상대 값입니다. 두 이미지의 혼합 우선 순위가 150과 100 인 경우 첫 번째 이미지의 더 큰 부분이 사용됩니다. @panoramaeditor.sidebar.blendsettings.seamfinding@가 활성화 된 경우이 값은 무시됩니다.<br><br><b>@mainwindow.imageparameters.cameracurve@ :</b> 프로젝트에는 여러 카메라 응답 곡선이 포함될 수 있습니다. 이 필드는 각 소스 이미지에 사용할 카메라 응답 곡선을 구성합니다. 카메라 응답 곡선은 @mainwindow.tabs.exposurehdr@ 탭에서 구성됩니다. 프로젝트에 카메라 응답 곡선이 하나만 포함 된 경우 '@txt.globalcameracurve@'라는 이름이 지정됩니다. <b>@txt.cameracurve.linear@</b> 를 선택하면 이미지에 선형 데이터가 포함 된 것으로 간주되며 곡선이 적용되지 않습니다. 자세한 내용은 @mainwindow.tabs.exposurehdr@ 탭의 도구 설명을 참조하십시오.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@ :</b> (PTGui Pro 만 해당) : 브래킷 소스 이미지에서 HDR 파노라마를 연결할 때이 확인란은 브래킷 이미지가 동일한 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가질 지 여부를 구성합니다. 브라케팅 된 이미지가 삼각대에서 촬영되지 않았고 독립된 @yaw@, @pitch@, @roll@ 및 @viewpoint@ 매개 변수를 가져야하는 경우이 상자를 선택 취소하십시오. 브라케팅 된 이미지를 정렬하려면 제어점을 제공해야합니다."
 		},
 		{
 			"id": "proxysettings.button",
@@ -7573,6 +7573,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "선택한 출력 색상 프로필을 사용할 수 없습니다. 소스 전용 프로필이기 때문일 가능성이 높습니다.\n\n@mainwindow.createpanoramatab.createpanorama@ 탭으로 이동하여 다른 출력 색 공간을 선택하십시오. 이미지 품질이 영향을 받지 않도록 넓은 영역 프로필(예: ProPhoto RGB)을 선택하는 것이 좋습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "(대각선)"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "보다"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "반점"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "스냅 사진"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "이미지를 저장"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "패치 생성"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "패치 에디터"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "이미지 열기"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "이미지를 저장"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "자동으로 저장"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "다른 이름으로 이미지 저장"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "절약..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "이미지가 수정되었습니다. 저장하시겠습니까?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "지원되지 않는 파일 형식: .%0. TIFF 또는 JPEG로만 저장할 수 있습니다."
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "여러 파일이 삭제되었습니다. 한 번에 하나의 파일만 열 수 있습니다."
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "이 포인트 삭제"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "이 패치 삭제"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "포인트 추가"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "이 기능은 <a href=0>Perspective 모드</a> 에서만 사용할 수 있습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "크기:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "해결:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "체재:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "프로젝트 폴더에 저장"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "위치를 선택하세요..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "블렌드 평면을 사용하는 경우에는 이 기능을 사용할 수 없습니다. <a href=0>블렌드 평면을 비활성화합니다.</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "반점"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "자르다"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "알파 포함"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "%0x 압축"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "무손실"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "압축:"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "인접하지 않은 이미지 사이의 제어점 삭제"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "삭제된 제어점이 없습니다.\n\n기준점은 두 이미지 중심 사이의 직선 위에 다른 이미지가 있는 경우에만 제거됩니다. 중간 이미지에는 각 이웃과 함께 최소 4개의 제어점이 있어야 합니다."
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "총 제어점 %0 중 하나의 제어점이 삭제됩니다. 프로젝트를 진행하고 다시 최적화하시겠습니까?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " %0 제어점(%1 전체 제어점 중)이 삭제됩니다. 프로젝트를 진행하고 다시 최적화하시겠습니까?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "@mainwindow.createpanoramatab.output.blendplanes@ 활성화"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "DNG 출력에는 사용할 수 없습니다."
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "DNG 출력에는 톤 매핑 및 노출 융합이 비활성화됩니다."
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "PTGui(표준 버전) 사용해 보기"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "PTGui Pro를 사용해 보세요"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "표준 버전과 PTGui Pro의 차이점은 무엇입니까?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "간격:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "정기적인"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "좁은"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "자동적 인"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "알 수 없는 ICC 프로필"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "ICC 색상 프로필은 지원되지 않는 유형입니다."
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "지원되지 않는 ICC 색상 프로필: %0. 대신 sRGB를 사용하세요."
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "지원되지 않는 ICC 색상 프로필: %0. OpenEXR 출력의 경우 선형 색상 프로필이 필요합니다."
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "ICC 색상 프로필을 구문 분석하지 못했습니다. 대신 sRGB를 사용하세요. 다음 오류가 발생했습니다.\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "ICC 색상 프로필이 손상되었습니다."
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "RAW 전처리"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "노이즈 감소 적용"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "크로마 노이즈 감소:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "루마 노이즈 감소:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "색수차 제거"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "이 이미지(%0)는 원시 파일이 아닙니다."
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "이 원시 이미지(%0)에는 알파 채널이 있으므로 사전 처리할 수 없습니다."
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "이 원시 이미지(%0)에는 부동 소수점 데이터가 포함되어 있으므로 사전 처리할 수 없습니다."
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "@panoramaeditor@의 <a href=0>@panoramaeditor.sidebar.postprocess@</a> 패널에서 더 많은 조정을 할 수 있습니다."
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "탭으로 이동"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "다음 탭"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "이전 탭"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "단순/고급 모드 전환"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "ZIP 압축 수준:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "DWA 압축 수준:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "특허"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@, @mainwindow.imageparameters.whitepoint.tint@:</b>각 소스 이미지의 원래 화이트 밸런스를 구성합니다. 파노라마에 대해 다른 화이트 밸런스가 선택되거나(@panoramaeditor@의 @panoramaeditor.sidebar.postprocess@ 패널에서) 다른 화이트 밸런스가 있는 이미지가 파노라마에 혼합된 경우 PTGui는 대상 화이트 밸런스로 변환합니다. 이를 위해서는 소스 이미지의 원래 화이트 밸런스를 알아야 합니다. <b>@mainwindow.imageparameters.whitepoint.temperature@</b>는 켈빈 색 온도이며 청황색 균형을 조정합니다. 일반적인 값은 백열등의 경우 3000K, 일출 또는 일몰의 경우 3500K, 일광의 경우 5000K, 흐린 하늘의 경우 6500K입니다. <b>@mainwindow.imageparameters.whitepoint.tint@</b>는 녹색-자홍색 균형을 조정합니다. 소스 이미지의 경우 일반적으로 중립 값 0으로 설정할 수 있습니다.",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 온도"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ 틴트"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "온도:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "색조:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "예상치 못한 명령줄 옵션: %0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "명령줄에 오류가 있습니다. 사용법: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "이 템플릿은 PTGui 10 프로젝트 파일입니다. PTGui는 여전히 PTGui 10 프로젝트 파일을 로드할 수 있지만 템플릿으로 사용할 수는 없습니다. 템플릿을 열고 현재 PTGui 형식으로 저장하세요."
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "프로젝트 파일 생성 중"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR 노출"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "참조:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "중간 노출"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "가장 밝은 노출"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "절대 노출"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "오프셋:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "절대 노출 값을 설정합니다. 이는 f/1.0 및 ISO 100에서 1초 노출의 EV 오프셋으로 정의됩니다. 이 (가상) 노출의 흰색은 HDR 파노라마의 1.0에 해당합니다. 값을 1씩 줄이면 밝기가 두 배가 됩니다. 즉, EV = log2(조리개^2 / (노출_시간 * ISO / 100))입니다.<br><br>파노라마에 절대 노출을 사용하려면 모든 소스 이미지의 노출을 알아야 합니다. 각 소스 이미지의 노출 시간, 조리개 및 ISO는 @mainwindow.tabs.imageparameters@ 탭에서 설정할 수 있습니다. 하나 이상의 이미지에 대한 ISO를 알 수 없는 경우 모든 이미지에 대해 ISO 100이 가정됩니다. 마찬가지로 소스 이미지에 대해 이 매개변수가 지정되지 않은 경우 조리개 f/1.0과 노출 시간 1초가 모든 이미지에 대해 가정됩니다."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "컬러 샘플러"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "화이트 밸런스 조정(회색 영역 클릭)"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "HDR 노출 조정"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "이 픽셀이 밝기를 갖도록 HDR 노출을 조정합니다."
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "이것은 검은색 픽셀입니다. 검은색이 아닌 픽셀을 선택하세요."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "보여주다:"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "LDR 파노라마"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR 파노라마"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "이 설정은 HDR 출력에만 영향을 미칩니다. 현재 LDR 파노라마를 보고 계십니다. <a href=\"0\">HDR 미리보기로 전환</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "이 설정은 LDR 출력에만 영향을 미칩니다. 현재 HDR 파노라마를 보고 계십니다. <a href=\"0\">LDR 미리보기로 전환</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "미리보기 노출 조정이 활성화되었습니다: <a href=\"0\">재설정</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "화이트 밸런스"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "링크 그룹:"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "괄호로 묶인 이미지"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "프로젝트에는 %0 이미지만 포함되어 있습니다."
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "프로젝트에 %1의 배수가 아닌 %0 이미지가 포함되어 있습니다."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "프로젝트에는 %0 이미지 세트 하나가 포함됩니다."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "프로젝트에는 %1 이미지의 %0 세트가 포함됩니다."
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "귀하의 라이센스가 PTGui Pro로 업그레이드되었습니다. Pro 기능을 활성화하려면 PTGui를 다시 시작해야 합니다. 지금 작업 내용을 저장하고 PTGui를 다시 시작하시겠습니까?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "PTGui Pro로 업그레이드"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "1/%0에서 솔기를 찾는 데 시간이 오래 걸립니다!"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "@patchwindow@에서 편집"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "이렇게 하면 소스 이미지가 수정되고 덮어쓰여집니다. 확실합니까?"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "현재 프로젝트를 먼저 저장해야 합니다. 지금 그렇게 하시겠습니까?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "프로젝트에는 패치 이미지가 포함되어 있습니다. 프로젝트를 최적화하면 이미지가 이동하여 패치가 잘못 정렬됩니다. 확실합니까?"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "이 설정은 LDR 출력에만 영향을 미칩니다. 현재 HDR 파노라마를 보고 계십니다."
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "%1에서 %0를 열지 못했습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "다음에서 패치 이미지를 편집하세요."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "애플리케이션:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "파일 위치 열기"
 		}
 	],
 	"tooltips": [
@@ -10302,6 +10901,225 @@
 			"machinetranslated": true,
 			"helptext": "노출 융합에 사용할 알고리즘",
 			"morehelptext": "<br><br>PTGui 12.0 ~ 12.20은 PTGui 11 및 이전 버전과 다른 노출 융합 알고리즘을 사용했습니다. PTGui 12.21 이상에서는 이전 알고리즘을 다시 사용할 수 있으며 더 나은 결과를 제공하기 때문에 기본적으로 사용됩니다.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> PTGui 12.0~12.20에서 사용하던 노출 융합 알고리즘을 사용합니다. 이 옵션은 PTGui 12.0~12.20에서 생성된 프로젝트와의 호환성을 위해 사용할 수 있으며 새 프로젝트에는 사용하면 안 됩니다.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> 원래 노출 융합 알고리즘입니다. 이것은 최상의 결과를 제공하며 새 프로젝트에 권장되는 옵션입니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "현재 보기에 대한 패치를 만듭니다.",
+			"morehelptext": "<br><br>현재 보기를 캡처하고 패치 이미지로 저장합니다. 패치 이미지가 프로젝트에 추가되고 파노라마에 오버레이됩니다. @patchwindow@는 패치를 편집하기 위해 개방형입니다.<br><br>패치는 예를 들어 삼각대나 사람을 제거하는 등 파노라마에서 원하지 않는 부분을 제거하는 데 사용할 수 있습니다. 패치는 소스 이미지에 포함되지 않은 구멍(예: 천저 또는 천정)을 채우는 데에도 사용할 수 있습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "현재 보기의 스냅샷을 전체 해상도로 생성합니다."
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "@detailviewer@의 시야각을 검사하거나 편집합니다."
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "이미지 열기",
+			"helptext": "리터칭할 이미지를 엽니다."
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "이미지를 저장",
+			"helptext": "편집된 이미지를 저장합니다."
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "자동으로 저장",
+			"helptext": "각 변경 후 편집된 이미지를 자동으로 저장합니다."
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "다른 이름으로 이미지 저장",
+			"helptext": "편집한 이미지를 다른 이름으로 저장하세요."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "패치 도구는 블렌드 평면과 함께 사용할 수 없습니다.",
+			"morehelptext": "<br><br>패치 도구는 현재 보기를 캡처하여 패치 이미지로 저장합니다. 패치 이미지가 프로젝트에 추가되고 파노라마에 오버레이됩니다. 이는 프로젝트에 단일 혼합 평면이 있는 경우에만 가능합니다.<br><br>@mainwindow.tabs.exposurehdr@ 탭에서 워크플로 '@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@'로 전환하면 혼합 평면을 비활성화할 수 있습니다.<br><br>또는 먼저 파노라마를 마무리하고 연결합니다. 그런 다음 완성된 파노라마를 새 PTGui 프로젝트에 로드하여 패치 도구를 사용할 수 있습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "이미지에 사용할 파일 형식입니다.",
+			"morehelptext": "<br><br>이미지는 JPEG, TIFF 또는 JPEG2000 형식으로 저장할 수 있습니다.<br><br>최고의 이미지 품질을 위해서는 <b>TIFF가</b> 권장되지만 파일 크기가 매우 커질 수 있습니다. 소스 이미지가 채널당 8비트로 제한되고 노출이 동일한 경우 8비트 TIFF를 사용할 수 있습니다. 그렇지 않으면 전체 동적 범위를 보존하기 위해 16비트 TIFF를 사용해야 합니다.<br><br><b>JPEG는</b> 픽셀당 8비트로 제한되어 있으며 투명도를 지원하지 않지만 패치 이미지의 파일 크기는 훨씬 작아집니다.<br><br><b>JPEG2000은</b> 투명도와 채널당 8비트 및 16비트를 모두 지원합니다. 손실 압축으로 인해 파일 크기가 TIFF보다 훨씬 작습니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "설정"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "스냅샷 이미지의 크기(픽셀 단위)입니다. 최적의 크기로 스냅샷을 생성하려면 결과를 100%로 설정하세요."
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "현재 보기의 스냅샷을 만들고 저장합니다. 파일 이름을 묻는 메시지가 표시됩니다."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "최저점을 보려면 피치를 -90°로 설정합니다."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "피치를 0°로 설정합니다."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "천정을 보려면 피치를 90°로 설정합니다."
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "이미지 열기",
+			"helptext": "리터칭할 이미지를 엽니다."
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "자동으로 저장",
+			"helptext": "변경할 때마다 편집된 이미지가 자동으로 저장됩니다."
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "이미지를 저장",
+			"helptext": "편집된 이미지를 저장합니다."
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "모드: 컷 홀",
+			"helptext": "원하지 않는 부분을 제거하려면 이미지에 구멍을 뚫습니다.",
+			"morehelptext": "<br><br>닫힌 영역을 만들려면 이미지를 클릭하세요. 이미지의 이 부분은 투명해집니다. 패치를 추가하기 전에 이 기능을 사용하여 이미지에서 원하지 않는 부분을 제거하십시오."
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "모드: 패치",
+			"helptext": "패치를 복사하여 이미지를 수정합니다.",
+			"morehelptext": "<br><br>패치를 만들려면 이미지를 클릭하여 닫힌 영역을 만듭니다. 이 영역은 패치 대상으로 사용됩니다. 그런 다음 패치 소스로 사용할 위치로 패치를 드래그합니다. 패치는 소스에서 대상 영역으로 복사됩니다."
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "최적의 솔기를 찾아보세요",
+			"helptext": "패치와 기본 이미지 사이의 최적의 이음새를 찾으십시오.",
+			"morehelptext": "<br><br>활성화되면 패치 이미지와 기본 이미지 사이의 이음새가 패치 이미지와 기본 이미지가 가장 유사한 영역을 통해 라우팅됩니다. 이렇게 하면 가장 원활한 결과가 생성됩니다. 먼저 'Cut Hole' 모드를 사용하여 최종 결과에 표시되지 않아야 하는 기본 이미지 부분을 지정해야 합니다.<br><br>비활성화하면 패치가 전체적으로 오버레이됩니다. 가장자리는 계속 혼합되지만 결과는 매끄럽지 않습니다."
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "돕다"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "바로 이웃한 이미지 사이에만 제어점을 유지하세요."
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "사용자 인터페이스 요소 사이의 간격을 구성합니다. 작은 화면에서는 '@options.spacing.narrow@'로 설정될 수 있습니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "파노라마의 화이트 밸런스를 조정합니다.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> 선택하면 평균 소스 이미지의 화이트 밸런스로 파노라마가 생성됩니다. 모든 이미지의 화이트 밸런스가 동일한 경우 화이트 밸런스 변환이 수행되지 않습니다.<br><br>@panoramaeditor.sidebar.postprocess.whitebalance.auto@를 선택하지 않은 경우 원하는 파노라마 색온도(켈빈 단위)를 선택할 수 있습니다. 화이트 밸런스는 원래 색온도에서 선택한 색온도로 조정됩니다. 각 소스 이미지의 원래 색온도는 @mainwindow.tabs.imageparameters@ 탭의 '@mainwindow.imageparameters.whitebalance@' 열에서 구성됩니다. 소스 이미지의 색온도를 알 수 없는 경우 5000K로 가정됩니다."
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "색차(색상) 노이즈에 대한 노이즈 감소 강도"
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "휘도(밝기) 노이즈에 대한 노이즈 감소 강도"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "ZIP 압축에 사용할 압축 수준입니다. 0(낮은 압축 및 높은 이미지 품질)과 9(높은 압축 및 낮은 품질) 사이입니다."
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "색수차는 다양한 색상이 약간 다르게 초점을 맞추게 만드는 렌즈 왜곡의 한 유형입니다. 이는 개체 가장자리 주변의 색상 줄무늬로 볼 수 있습니다. 색수차 감소량을 조정할 수 있습니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "생성된 HDR 이미지의 밝기를 설정합니다.",
+			"morehelptext": "<br><br>HDR 이미지는 (실질적으로) 무제한의 동적 범위를 갖습니다. 일반적인 낮은 동적 범위 이미지의 경우 흰색은 저장할 수 있는 최대 픽셀 값에 해당합니다. 그러나 HDR 이미지에는 '흰색'이라는 것이 없으며 기준 밝기를 선택해야 합니다. PTGui는 다음과 같은 방법으로 생성된 HDR 이미지의 밝기를 조정할 수 있습니다:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> 브래킷 이미지에서 파노라마가 생성된 경우 HDR 파노라마의 값 1.0은 중간 노출의 흰색에 해당합니다. 예를 들어, 0/-2/+2 브라케팅이 사용된 경우 0EV 노출의 흰색 픽셀은 파노라마에서 1.0의 픽셀 값을 갖습니다. 결과 HDR 파노라마에는 일반적으로 1보다 밝은 픽셀이 포함됩니다. 이것이 기본 설정입니다.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> 브래킷 이미지에서 파노라마가 생성된 경우 가장 밝은 소스 이미지의 흰색 색상은 HDR 파노라마의 1.0에 해당합니다. 따라서 HDR 이미지의 모든 픽셀은 0과 1 사이에 있습니다.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>이는 단지 HDR 이미지에 대한 임의의 참조 밝기를 설정한다는 점에 유의하십시오. HDR 이미지는 직접 표시할 수 없으며 1.0 픽셀 값의 실제 의미는 응용 프로그램에 따라 다릅니다. HDR 이미지에는 과다 노출 위험이 없습니다. HDR 이미지가 너무 밝으면 생성된 후 크기를 줄일 수 있습니다. 일반 이미지와 달리 HDR 이미지에서는 하이라이트 클리핑이 발생하지 않습니다."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "HDR 이미지의 밝기에 EV의 추가 오프셋을 적용합니다.",
+			"morehelptext": "<br><br>양수 값은 카메라의 노출 보정과 유사하게 밝기를 증가시킵니다."
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "이 픽셀이 HDR 파노라마에서 지정된 밝기를 갖도록 HDR 파노라마의 노출을 변경합니다.",
+			"morehelptext": "<br><br>이는 HDR 파노라마의 밝기에만 영향을 미칩니다. LDR 파노라마(톤 매핑 또는 노출 융합)는 영향을 받지 않습니다. HDR 노출은 @panoramaeditor@의 '@panoramaeditor.sidebar.hdrpostprocess@' 사이드 바에서 수동으로 조정할 수 있습니다.<br><br>가능한 응용 분야는 반사율이 알려진 그레이 카드를 촬영하고 HDR 노출을 그레이 카드 위치의 장면 조명 강도와 일치시키는 것입니다."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "컬러 샘플러",
+			"morehelptext": "<br><br>색상을 선택하려면 파노라마를 클릭하세요. 다음 기능이 지원됩니다:<br><br><b>화이트 밸런스 조정:</b> 장면에서 회색 개체를 클릭합니다. 선택한 개체가 중간 회색이 되도록 화이트 밸런스가 조정됩니다.<optional product='pro'><br><br><b>HDR 노출 조정:</b> 선택한 픽셀이 특정 밝기를 갖도록 HDR 파노라마의 노출을 조정합니다.</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "HDR과 LDR 미리보기 간에 전환합니다.",
+			"morehelptext": "<br><br>HDR 파노라마를 생성할 때 @panoramaeditor@ 및 @detailviewer@가 높은 동적 범위 파노라마를 표시할지 아니면 낮은 동적 범위 파노라마를 표시할지 선택합니다.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> @mainwindow.tabs.createpanorama@ 탭의 '@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@' 출력 옵션에 해당하는 낮은 동적 범위 출력을 표시합니다. 그러면 @panoramaeditor@의 @panoramaeditor.sidebar.postprocess@ 패널에 적용된 톤 매핑 및 모든 설정의 결과를 미리 볼 수 있습니다.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> @mainwindow.tabs.createpanorama@ 탭의 '@mainwindow.createpanoramatab.output.hdrblended@' 출력 옵션에 해당하는 높은 동적 범위 출력의 미리 보기를 표시합니다. 아래의 '노출' 슬라이더를 조정하여 HDR 이미지의 전체 동적 범위를 검사할 수 있습니다. @panoramaeditor@의 @panoramaeditor.sidebar.hdrpostprocess@ 패널에 있는 설정이 적용됩니다. 톤 곡선이 적용되지 않으므로 LDR 미리 보기에 비해 이미지가 흐릿하게 보입니다."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "Exposure Fusion을 사용하는 경우 HDR 출력을 사용할 수 없습니다.",
+			"morehelptext": "<br><br>Exposure Fusion을 사용하면 높은 동적 범위 이미지를 먼저 생성하지 않고도 브래킷 이미지가 LDR에 병합됩니다. HDR 출력을 활성화하려면 @panoramaeditor@ 사이드바에서 Exposure Fusion을 비활성화하십시오."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "미리보기의 밝기를 높이거나 낮춥니다. 실제 출력이 아닌 @panoramaeditor@ 및 @detailviewer@에 표시된 이미지에만 영향을 미칩니다."
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "DWA 압축에 사용할 압축 수준입니다. 0은 무손실입니다. 값이 높을수록 압축률은 높아지고 이미지 품질은 낮아집니다."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "생성된 패치 이미지를 편집하는 데 사용할 애플리케이션을 선택합니다.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui에 포함된 @patchwindow@에서 패치 이미지를 편집합니다.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> 패치 이미지를 편집하려면 외부 응용 프로그램을 선택하세요. 여기에는 패치 이미지의 파일 형식을 처리하기 위해 등록된 모든 응용 프로그램이 나열되어 있습니다.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@에서 패치 이미지가 포함된 폴더를 엽니다."
 		}
 	],
 	"helppages": [
@@ -10439,6 +11257,16 @@
 			"id": "cameradatabase",
 			"machinetranslated": true,
 			"helptext": "<b>@cameradatabase@</b><br><br>렌즈의 화각을 계산하려면 PTGui는 초점 거리뿐만 아니라 카메라의 센서 크기도 알아야 합니다. 센서 크기를 모르는 상태에서 초점 거리는 의미 없는 값입니다. PTGui는 2000개가 넘는 카메라의 센서 크기를 알고 있지만 간혹 포함되어 있지 않은 카메라도 있을 수 있습니다. 이 경우 해당 카메라의 데이터를 카메라 데이터베이스에 추가할 수 있습니다.<br><br><b>카메라 데이터베이스 사용하기</b><br><br>카메라 데이터베이스 창은 @menubar.tools@ &#62; @cameradatabase@를 클릭해서 열 수 있습니다. 레코드는 여기에서 직접 불러오거나 저장하지 않습니다. 대신 메인 윈도우의 @mainwindow.tabs.lenssettings@ 탭에서 이 작업을 수행합니다. @mainwindow.tabs.lenssettings@ 탭이 표시되지 않으면 @advanced@ 버튼을 눌러 메인 창의 사이드 바를 누르십시오.<br><br>@mainwindow.tabs.lenssettings@ 탭에서 @cameradatabase@ 버튼을 눌러 렌즈 데이터베이스에서 현재 센서 크기를 불러오거나 또는 저장하고 이 데이터를 EXIF ​​'카메라 모델'필드에 있는 카메라 모델과 연결 시키십시오. 다음에 이미지를 이 EXIF ​​카메라 모델로 불러오면 PTGui는 카메라 센서 크기 데이터를 자동으로 초기화 합니다."
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>이 도구를 사용하여 작은 연결 오류를 수정하거나, 원하지 않는 개체(삼각대 등)를 제거하거나, 파노라마에서 누락된 부분을 채울 수 있습니다. 리터칭은 이미지의 일부를 복제하고 이를 이미지의 다른 부분과 혼합하여 수행됩니다. @patchwindow@는 두 가지 방법으로 열 수 있습니다.<br><br><b>@detailviewer@</b> 창에서 수정할 파노라마 부분으로 이동하여 @detailviewer.sidebar.patch@ 사이드 바를 열고 @detailviewer.sidebar.patch.createpatch@ 버튼을 누릅니다. 이렇게 하면 현재 보기의 스냅샷이 생성되어 파노라마에 새 소스 이미지로 추가됩니다. 추가된 이미지에는 원본 소스 이미지 대신 패치 이미지가 사용되도록 완전히 녹색 마스크가 적용됩니다. 그러면 패치 이미지 편집을 위해 @patchwindow@가 열립니다.<br><br>또는 <b>@menubar.tools@ 메뉴</b> 에서 독립 실행형 도구로 직접 @patchwindow@를 엽니다. 이를 통해 편집을 위해 JPEG, JPEG2000 또는 TIFF 이미지를 열 수 있습니다.<br><br>@patchwindow@는 두 가지 가능한 모드로 작동합니다.<br><br><b>@patchwindow.mode.cut@:</b> 이 모드를 사용하면 이미지에서 원하지 않는 개체를 제거할 수 있습니다. 이미지를 클릭하여 개체 주위에 모양을 그립니다. 닫힌 영역이 투명해집니다.<br><br><b>@patchwindow.mode.patch@:</b> 이 모드에서는 이미지를 클릭하여 패치로 덮어야 하는 이미지 부분 주위에 모양을 그립니다. 그런 다음 패치의 소스로 사용할 영역으로 모양을 드래그합니다. 대상 영역은 복제된 소스 영역으로 대체됩니다.<br><br>패치는 이동하거나 편집할 수 있습니다. 패치 내부를 클릭하여 활성화하세요. 활성 패치의 소스 영역은 노란색 점선으로 표시됩니다. 패치 또는 해당 소스 영역을 드래그하여 이동할 수 있습니다. 정점을 드래그하여 패치를 편집할 수 있습니다. 가장자리를 마우스 오른쪽 버튼으로 클릭하면 새 정점을 추가할 수 있습니다. 꼭지점을 마우스 오른쪽 버튼으로 클릭하면 삭제됩니다. macOS에서는 마우스 오른쪽 버튼 대신 Ctrl+클릭을 사용할 수 있습니다.<br><br>기본적으로 <b>@panoramaeditor.sidebar.blendsettings.seamfinding@는</b> 활성화되어 있습니다. 즉, 패치 이미지와 기본 이미지 사이의 이음새가 가장 유사한 영역을 통해 라우팅됩니다. 이렇게 하면 가장 원활한 결과가 생성되지만 패치의 일부만 사용됩니다. 창 위에 마우스 포인터를 올리면 솔기 선이 빨간색 선으로 표시됩니다. 패치를 통해서도 원본 이미지에서 원하지 않는 부분이 계속 보이는 경우, 위에서 설명한 '@patchwindow.mode.cut@' 모드를 사용하여 해당 부분을 투명하게 만들어주세요. 솔기는 투명한 영역 주위로 라우팅됩니다. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@는</b> 하단 도구 모음에서 비활성화할 수 있습니다. 비활성화하면 패치가 전체적으로 오버레이됩니다. 가장자리는 계속 혼합되지만 결과는 매끄럽지 않을 수 있습니다.<br><br><b>@patchwindow.autosave@를</b> 선택하면 모든 편집 내용이 즉시 디스크에 저장됩니다. 그렇지 않으면 저장 버튼을 사용하여 패치된 이미지를 저장하세요.<br><br>@detailviewer@ 창에서 패치를 생성하여 @patchwindow@를 시작한 경우 편집된 패치 이미지가 자동으로 다시 로드되고 몇 초 후에 프로젝트가 업데이트됩니다. 파노라마를 패치한 후에는 제어점을 더 이상 편집하면 안 됩니다. 최적화 프로그램을 실행하면 이미지 정렬이 수정되고 패치 이미지는 더 이상 이미지의 원래 정렬을 반영하지 않습니다. 따라서 패치 작업은 스티칭 과정의 마지막 단계로 수행되어야 합니다. @mainwindow.tabs.sourceimages@ 탭으로 이동하여 프로젝트에서 패치 이미지를 제거하면 처음부터 다시 시작할 수 있습니다.<br><br>PTGui 프로젝트에 패치 이미지를 추가하는 대신 이미 연결된 파노라마를 수정할 수도 있습니다. 파노라마를 연결한 후 새 프로젝트를 시작하고 연결된 파노라마를 소스 이미지로 추가합니다. 그런 다음 @detailviewer@ 창을 열고 거기서 @patchwindow@를 실행합니다."
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>이 탭에서는 RAW 이미지 현상에 대한 설정을 조정할 수 있습니다:<br><br><b>노이즈 감소:</b> 특히 ISO 값이 높을수록 RAW 카메라 데이터에는 상당한 양의 노이즈가 포함될 수 있습니다. PTGui는 RAW 변환 중에 RAW 데이터에 노이즈 감소를 적용할 수 있습니다. 노이즈 감소 강도는 색차(색상)와 휘도(밝기)에 대해 별도로 제어할 수 있습니다.<br><br><b>색수차 제거:</b> 색수차는 다양한 색상의 초점이 약간 다르게 나타나는 렌즈 왜곡의 한 유형입니다. 이는 개체 가장자리 주변의 색상 줄무늬로 볼 수 있습니다. 색수차 감소량을 조정할 수 있습니다.<br><br>이 탭의 설정은 스티칭 전 RAW 및 DNG 소스 이미지에 적용됩니다. @panoramaeditor.sidebar.postprocess@ 및 @panoramaeditor.sidebar.whitebalance@ 탭의 @panoramaeditor@에서 추가 조정을 수행할 수 있습니다. 이러한 조정 사항은 연결된 파노라마에 적용됩니다."
 		}
 	]
 }

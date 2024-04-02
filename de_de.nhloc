@@ -9,7 +9,6 @@
 		"Michael Göricke"
 	],
 	"languagenamelocalized": "Deutsch",
-	"startupmsg": null,
 	"strings": [
 		{
 			"id": "txt.translationby",
@@ -6048,9 +6047,8 @@
 		},
 		{
 			"id": "mainwindow.imageparamstab.helptext2",
-			"machinetranslated": false,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im @panoramaeditor@ im Bereich '@panoramaeditor.sidebar.blendsettings@') deaktiviert ist, werden Schnittkanten normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies passen Sie durch Erhöhen oder Verringern der @mainwindow.imageparameters.blendpriority@ eines Quellbilds an. Die @mainwindow.imageparameters.blendpriority@ ist ein relativer Wert. Wenn zwei Bilder eine Überblendpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamera-Kurven enthalten. In diesem Feld wird für jedes Quellbild die Kamera-Kurve festgelegt. Kamera-Kurven legen Sie auf der Registerkarte '@mainwindow.tabs.exposurehdr@' an. Wenn das Projekt nur eine Kamera-Kurve enthält, wird sie als '@txt.globalcameracurve@' bezeichnet. Wenn '@txt.cameracurve.linear@' ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und es wird keine Kamera-Kurve angewendet. Weitere Informationen erhalten Sie in den Tooltips auf der Registerkarte '@mainwindow.tabs.exposurehdr@'.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Definiert den Weißabgleich des Quellbilds als Farbtemperatur in Grad Kelvin. Dieser Wert wird verwendet, wenn im Bereich '@panoramaeditor.sidebar.postprocess@' des @panoramaeditor@s ein Zielweißabgleich konfiguriert ist. Die Farben aus dem Quellbild werden von der hier definierten Farbtemperatur an die Zielfarbtemperatur angepasst. Wenn dieses Feld leer ist, wird ein Standardwert von 5000 Kelvin angenommen. Dieses Feld wird ignoriert, wenn im Bereich @panoramaeditor.sidebar.postprocess@ '@txt.asshot@' ausgewählt ist.<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtungsreihen zusammenfügen, wird mit diesem Kontrollkästchen definiert, ob die Bilder einer Belichtungsreihe dieselben Parameter für @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn Sie die Belichtungsreihen nicht von einem Stativ aufgenommen haben und die Bilder unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollen. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte erstellt werden."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (nur PTGui Pro): Wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' (im @panoramaeditor@ im Bedienfeld '@panoramaeditor.sidebar.blendsettings@') deaktiviert ist, werden Schnittkanten normalerweise in der Mitte der Überlappung zwischen zwei Bildern platziert. Dies passen Sie durch Erhöhen oder Verringern der @mainwindow.imageparameters.blendpriority@ eines Quellbilds an. Die @mainwindow.imageparameters.blendpriority@ ist ein relativer Wert. Wenn zwei Bilder eine Überblendpriorität von 150 und 100 haben, wird ein größerer Teil des ersten Bildes verwendet. Dieser Wert wird ignoriert, wenn '@panoramaeditor.sidebar.blendsettings.seamfinding@' aktiviert ist.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Ein Projekt kann mehrere Kamera-Kurven enthalten. In diesem Feld wird für jedes Quellbild die Kamera-Kurve festgelegt. Kamera-Kurven legen Sie auf der Registerkarte '@mainwindow.tabs.exposurehdr@' an. Wenn das Projekt nur eine Kamera-Kurve enthält, wird sie als '@txt.globalcameracurve@' bezeichnet. Wenn '@txt.cameracurve.linear@' ausgewählt ist, wird angenommen, dass das Bild lineare Daten enthält und es wird keine Kamera-Kurve angewendet. Weitere Informationen erhalten Sie in den Tooltips auf der Registerkarte '@mainwindow.tabs.exposurehdr@'.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (nur PTGui Pro): Wenn Sie HDR-Panoramen aus Belichtungsreihen zusammenfügen, wird mit diesem Kontrollkästchen definiert, ob die Bilder einer Belichtungsreihe dieselben Parameter für @yaw@, @pitch@, @roll@ und @viewpoint@ haben. Deaktivieren Sie dieses Kontrollkästchen, wenn Sie die Belichtungsreihen nicht von einem Stativ aufgenommen haben und die Bilder unabhängige @yaw@-, @pitch@-, @roll@- und @viewpoint@-Parameter haben sollen. Für die Ausrichtung der Belichtungsreihen müssen Kontrollpunkte erstellt werden."
 		},
 		{
 			"id": "proxysettings.button",
@@ -6196,6 +6194,587 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": false,
 			"txt": "Das ausgewählte Ausgabefarbprofil kann nicht verwendet werden, wahrscheinlich weil es sich um ein reines Quellprofil handelt.\n\nBitte gehen Sie zur Registerkarte '@mainwindow.createpanoramatab.createpanorama@' und wählen Sie einen anderen Farbraum für die Ausgabe aus. Es wird empfohlen, ein Profil mit großem Farbumfang (z.B. ProPhoto RGB) zu wählen, damit die Bildqualität nicht beeinträchtigt wird."
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "(Diagonale)"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "Ansicht"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "Patch"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "Schnappschuss"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "Bild speichern"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "Patch erstellen"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "Patch-Editor"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "Bild öffnen"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "Bild speichern"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "Automatisch speichern"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "Bild speichern als"
+		},
+		{
+			"id": "patchwindow.saving",
+			"txt": "Wird gespeichert..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "Das Bild wurde geändert. Möchten Sie es speichern?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "Nicht unterstützter Dateityp: .%0. Kann nur als TIFF, JPEG2000 oder JPEG gespeichert werden."
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "Mehrere Dateien wurden abgelegt. Es kann jeweils nur eine Datei geöffnet werden."
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "Diesen Punkt löschen"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "Diesen Patch löschen"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"txt": "Eckpunkt hinzufügen"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Funktion ist nur im <a href=0>Perspektivmodus</a> verfügbar."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "Größe:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "Auflösung:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "Format:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "Im Projektordner speichern"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"txt": "Speicherort wählen..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Funktion ist nicht verfügbar, wenn Belichtungsebene verwendet werden. <a href=0>Belichtungsebene deaktivieren.</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "Patch"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"txt": "Ausschneiden"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"txt": "Mit Alphakanal"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "%0x Komprimierung"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "verlustfrei"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "Kompression:"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "Kontrollpunkte zwischen nicht benachbarten Bildern löschen"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "Es wurden keine Kontrollpunkte gelöscht.\n\nKontrollpunkte werden nur entfernt, wenn ein anderes Bild auf der geraden Linie zwischen den beiden Bildzentren liegt. Das mittlere Bild sollte bei jedem Nachbarn mindestens 4 Kontrollpunkte haben."
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "Ein Kontrollpunkt (von insgesamt %0 Kontrollpunkten) wird gelöscht. Möchten Sie fortfahren und das Projekt erneut optimieren?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": "%0 Kontrollpunkte (von %1 insgesamt) werden gelöscht. Möchten Sie fortfahren und das Projekt erneut optimieren?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "@mainwindow.createpanoramatab.output.blendplanes@ aktivieren"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Nicht verfügbar für DNG-Ausgabe"
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Tone Mapping und Exposure Fusion sind für DNG-Ausgabe deaktiviert"
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "PTGui (Standardversion) ausprobieren"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "PTGui Pro ausprobieren"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "Was ist der Unterschied zwischen der Standardversion und PTGui Pro?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "Abstand:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"txt": "Standard"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "Eng"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "Automatisch"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "Unbekanntes ICC-Profil"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "Das ICC-Farbprofil ist von einem nicht unterstützten Typ."
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "Nicht unterstütztes ICC-Farbprofil: %0. Stattdessen wird sRGB verwendet."
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "Nicht unterstütztes ICC-Farbprofil: %0. Für die OpenEXR-Ausgabe ist ein lineares Farbprofil erforderlich."
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "Das ICC-Farbprofil konnte nicht gelesen werden. Stattdessen wird sRGB verwendet. Der folgende Fehler ist aufgetreten:\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "Das ICC-Farbprofil ist beschädigt."
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "RAW-Vorverarbeitung"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"txt": "Rauschreduzierung anwenden"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"txt": "Chrominanz-Rauschreduzierung:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"txt": "Luminanz-Rauschreduzierung:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "Chromatische Aberration entfernen"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "Dieses Bild (%0) ist keine RAW-datei."
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "Dieses RAW-bild (%0) kann nicht vorverarbeitet werden, da es über einen Alphakanal verfügt."
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "Dieses RAW-bild (%0) kann nicht vorverarbeitet werden, da es Gleitkommadaten enthält."
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"format": "html",
+			"txt": "Weitere Anpassungen können Sie im Bedienfeld <a href=0>@panoramaeditor.sidebar.postprocess@</a> im @panoramaeditor@ vornehmen."
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "Registerkarte"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "Nächste Registerkarte"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "Vorherige Registerkarte"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "Einfachen / erweiterten Modus umschalten"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "ZIP-Komprimierungsstufe:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "DWA-Komprimierungsstufe:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "Lizenz"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"format": "html",
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@, @mainwindow.imageparameters.whitepoint.tint@:</b> Konfiguriert den ursprünglichen Weißabgleich jedes Quellbilds. Wenn für das Panorama ein anderer Weißabgleich gewählt wird (im Bedienfeld @panoramaeditor.sidebar.postprocess@ des @panoramaeditor@) oder wenn Bilder mit unterschiedlichen Weißabgleichen in einem Panorama gemischt werden, führt PTGui eine Konvertierung auf den Zielweißabgleich durch. Dazu muss der ursprüngliche Weißabgleich der Quellbilder bekannt sein. <b>@mainwindow.imageparameters.whitepoint.temperature@</b> ist eine Farbtemperatur in Kelvin und passt die Blau-Gelb-Balance an. Übliche Werte sind 3000 K für Glühlampenlicht, 3500 K für Sonnenauf- oder Sonnenuntergang, 5000 K für Tageslicht und 6500 K für bewölkten Himmel. <b>@mainwindow.imageparameters.whitepoint.tint@</b> passt die Grün-Magenta-Balance an. Für Quellbilder kann dieser normalerweise auf den neutralen Wert 0 eingestellt werden."
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ Temperatur"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "@mainwindow.imageparameters.wbprefix@ Farbton"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "Temperatur:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "Farbton:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "Unerwartete Befehlszeilenoption: %0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "Fehler in der Befehlszeile. Verwendung: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"txt": "Bei dieser Vorlage handelt es sich um eine PTGui-10-Projektdatei. PTGui kann weiterhin PTGui-10-Projektdateien laden, jedoch können diese nicht als Vorlage verwendet werden. Bitte öffnen Sie die Vorlage und speichern Sie sie im aktuellen PTGui-Format."
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "Projektdatei wird erstellt"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR-Belichtung"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "Referenz:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "Mittlere Belichtung"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "Hellste Belichtung"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "Absolute Belichtung"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"txt": "Offset:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"format": "html",
+			"txt": "Legt einen absoluten Belichtungswert fest. Dieser ist definiert als EV-Offset ausgehend von einer 1-sekündigen Belichtung bei f/1,0 und ISO 100. Die Farbe Weiß in dieser (imaginären) Belichtung entspricht 1,0 im HDR-Panorama. Wenn Sie den Wert um 1 verringern, verdoppelt sich die Helligkeit. Mit anderen Worten: EV = log2(Blende^2 / (Belichtungszeit * ISO / 100)).<br><br>Um eine absolute Belichtung für das Panorama verwenden zu können, muss die Belichtung aller Quellbilder bekannt sein. Die Belichtungszeit, Blende und ISO jedes Quellbildes können auf der Registerkarte @mainwindow.tabs.imageparameters@ eingeben. Wenn der ISO-Wert eines oder mehrerer Bilder unbekannt ist, wird für alle Bilder ISO 100 angenommen. Ebenso wird für alle Bilder eine Blende von f/1,0 und eine Belichtungszeit von 1 Sekunde angenommen, wenn dieser Parameter für eines der Quellbilder nicht angegeben ist."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"txt": "Farbaufnehmer"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"txt": "Weißabgleich anpassen (klicken Sie auf einen grauen Bereich)"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "HDR-Belichtung anpassen"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "HDR-Belichtung so anpassen, dass dieses Pixel die Helligkeit hat:"
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "Dies ist ein schwarzes Pixel. Bitte wählen Sie ein nicht schwarzes Pixel aus."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "Vorschau:"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "LDR-Panorama"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR-Panorama"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Einstellungen wirken sich nur auf die HDR-Ausgabe aus. Sie betrachten derzeit das LDR-Panorama. <a href=\"0\">Zur HDR-Vorschau wechseln</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Einstellungen wirken sich nur auf die LDR-Ausgabe aus. Sie betrachten derzeit das HDR-Panorama. <a href=\"0\">Zur LDR-Vorschau wechseln</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Einstellungen wirken sich nur auf die LDR-Ausgabe aus. Sie betrachten derzeit das HDR-Panorama."
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Vorschau-Belichtungsanpassung ist aktiv: <a href=\"0\">Zurücksetzen</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "Weißabgleich"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "Verknüpfe:"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "Belichtungsreihen"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "Das Projekt enthält nur %0 Bilder."
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "Das Projekt enthält %0 Bilder, was kein Vielfaches von %1 ist."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "Das Projekt wird einen Satz von %0 Bildern umfassen."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "Das Projekt wird %0 Sätze von %1 Bildern umfassen."
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "Ihre Lizenz wurde auf PTGui Pro aktualisiert. Um die Pro-Funktionen zu aktivieren, muss PTGui neu gestartet werden. Möchten Sie Ihre Arbeit speichern und PTGui jetzt neu starten?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "Upgrade auf PTGui Pro"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "Schnittkanten finden bei 1/%0 dauert lange!"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"txt": "Im @patchwindow@ bearbeiten"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "Das Quellbild wird geändert und überschrieben. Sind Sie sicher?"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "Das aktuelle Projekt muss zunächst gespeichert werden. Möchten Sie das jetzt tun?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"txt": "Das Projekt enthält Patch-Bilder. Durch die Optimierung des Projekts werden Bilder verschoben, wodurch die Patches nicht mehr korrekt ausgerichtet sind. Sind Sie sicher?"
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "%0 konnte nicht in %1 geöffnet werden."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "Patchbild bearbeiten in:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "Anwendung:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "Ordner öffnen"
 		}
 	],
 	"tooltips": [
@@ -6770,9 +7349,8 @@
 		},
 		{
 			"id": "previewexposuretoolbar.exposure",
-			"machinetranslated": false,
 			"label": "Helligkeit der Vorschau",
-			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschaubilder. Dies wirkt sich nur auf die hier angezeigten Bilder, den Panorama-Editor und den Detail-Viewer aus. Das resultierende Panorama ist davon nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um ihn auf 0 zurückzusetzen."
+			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschaubilder. Dies wirkt sich nur auf die hier angezeigten Bilder, den Panorama-Editor und den Detail-Viewer aus. Das resultierende Panorama ist davon nicht betroffen.<br><br>Mit einem Rechtsklick auf den Schieberegler setzen Sie ihn auf 0 zurück."
 		},
 		{
 			"id": "masktoolbar.red",
@@ -7718,8 +8296,7 @@
 		},
 		{
 			"id": "panoramapreviewsettingspanel.exposure",
-			"machinetranslated": false,
-			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschau. Es wird nur das Bild hier und die Darstellung auf den Registerkarten '@mainwindow.tabs.crop@' <optional product='pro'>, '@mainwindow.tabs.mask@',</optional> und '@mainwindow.tabs.controlpoints@' und den Detail-Viewer verändert. Das endgültige Panorama ist nicht betroffen.<br><br>Klicken Sie mit der rechten Maustaste auf den Schieberegler, um ihn auf 0 zurückzusetzen."
+			"helptext": "Erhöhen oder verringern Sie die Helligkeit der Vorschau. Es wird nur die Bilder hier, auf den Registerkarten '@mainwindow.tabs.crop@' <optional product='pro'>, '@mainwindow.tabs.mask@'</optional> und '@mainwindow.tabs.controlpoints@' und im Detail-Viewer verändert. Das endgültige Panorama ist nicht betroffen.<br><br>Mit einem Rechtsklick auf den Schieberegler setzen Sie ihn auf 0 zurück."
 		},
 		{
 			"id": "panoramapreviewsettingspanel.blendplane",
@@ -8867,8 +9444,7 @@
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.saturation",
-			"machinetranslated": false,
-			"helptext": "Erhöhen oder verringern Sie die Farbesättigung im Panorama."
+			"helptext": "Erhöhen oder verringern Sie die Farbsättigung im Panorama."
 		},
 		{
 			"id": "txt.savevignettingcurve",
@@ -8925,6 +9501,207 @@
 			"machinetranslated": true,
 			"helptext": "Legt den Exposure-Fusion-Algorithmus fest.",
 			"morehelptext": "<br><br>PTGui 12.0 bis 12.20 verwendete einen anderen Exposure-Fusion-Algorithmus als PTGui 11 und früher. In PTGui 12.21 und höher ist der alte Algorithmus wieder verfügbar und wird standardmäßig verwendet, da er bessere Ergebnisse liefert.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> Verwendet den Algorithmus, der in PTGui 12.0 bis 12.20 verwendet wurde. Diese Option ist aus Kompatibilitätsgründen mit Projekten verfügbar, die mit PTGui 12.0 bis 12.20 erstellt wurden, und sollte nicht für neue Projekte verwendet werden.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> Dies ist der ursprüngliche Exposure-Fusion-Algorithmus. Er liefert die besten Ergebnisse und ist die empfohlene Option für neue Projekte."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "Einen Patch für die aktuelle Ansicht erstellen.",
+			"morehelptext": "<br><br>Erfasst die aktuelle Ansicht und speichert sie als Patchbild. Das Patchbild wird dem Projekt hinzugefügt und dem Panorama überlagert. Der @patchwindow@ wird zum Bearbeiten des Patches geöffnet.<br><br>Mit dem Patch können unerwünschte Teile des Panoramas entfernt werden, beispielsweise um ein Stativ oder eine Person zu entfernen. Der Patch kann auch zum Füllen von Löchern verwendet werden, die nicht durch die Quellbilder abgedeckt werden, beispielsweise der Nadir oder der Zenit."
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "Erstellt einen Schnappschuss der aktuellen Ansicht in voller Auflösung"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "Überprüft oder bearbeitet die Blickwinkel des @detailviewer@"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"label": "Bild öffnen",
+			"helptext": "Ein Bild zum Retuschieren öffnen."
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "Bild speichern",
+			"helptext": "Das bearbeitete Bild speichern."
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "Automatisch speichern",
+			"helptext": "Das bearbeitete Bild nach jeder Änderung automatisch speichern."
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "Bild speichern als",
+			"helptext": "Das bearbeitete Bild unter einem anderen Namen speichern."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"helptext": "Das Patch-Werkzeug ist in Verbindung mit Belichtungsebenen nicht verfügbar.",
+			"morehelptext": "<br><br>Das Patch-Werkzeug erfasst die aktuelle Ansicht und speichert sie als Patch-Bild. Das Patch-Bild wird dem Projekt hinzugefügt und dem Panorama überlagert. Dies ist nur möglich, wenn das Projekt nur eine einzige Belichtungsebene hat.<br><br>Belichtungsebenen können Sie deaktivieren, indem Sie auf der Registerkarte '@mainwindow.tabs.exposurehdr@' zum Workflow '@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@' wechseln.<br><br>Alternativ können Sie auch zuerst das Panorama fertigstellen und anschließend mit dem Patch-Werkzeug das fertige Panorama in ein neues PTGui-Projekt laden."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"helptext": "Dateiformat, das für das Bild verwendet werden soll.",
+			"morehelptext": "<br><br>Das Bild kann im JPEG-, TIFF- oder JPEG2000-Format gespeichert werden:<br><br>Für die höchste Bildqualität wird <b>TIFF</b> empfohlen, die Dateien können jedoch sehr groß werden. 8-Bit-TIFF können Sie verwenden, wenn die Quellbilder auf 8 Bit pro Kanal beschränkt sind und eine identische Belichtung haben. Andernfalls sollte Sie 16-Bit-TIFF verwenden, um den vollen Dynamikumfang zu erhalten.<br><br><b>JPEG</b> ist auf 8 Bit pro Pixel begrenzt und unterstützt keine Transparenz, die Datei des Patch-Bildes ist jedoch deutlich kleiner.<br><br><b>JPEG2000</b> unterstützt Transparenz und sowohl 8 als auch 16 Bit pro Kanal. Aufgrund der verlustbehafteten Komprimierung ist die Datei deutlich kleiner als bei TIFF."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "Einstellungen"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "Größe (in Pixel) des Schnappschussbildes. Stellen Sie das Ergebnis auf 100 % ein, um einen Schnappschuss in optimaler Größe zu erstellen."
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "Einen Schnappschuss der aktuellen Ansicht erstellen und speichern. Sie werden zur Eingabe des Dateinamens aufgefordert."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "Stellt die Neigung auf -90° ein, um den Nadir anzuzeigen."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "Stellt die Neigung auf 0° ein."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "Stellt die Neigung auf 90° ein, um den Zenit anzuzeigen."
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"label": "Bild öffnen",
+			"helptext": "Ein Bild zum Retuschieren öffnen."
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "Automatisch speichern",
+			"helptext": "Das bearbeitete Bild nach jeder Änderung automatisch speichern."
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "Bild speichern",
+			"helptext": "Das bearbeitete Bild speichern."
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"label": "Modus: Loch ausschneiden",
+			"helptext": "Ein Loch in das Bild schneiden, um unerwünschte Teile zu entfernen.",
+			"morehelptext": "<br><br>Klicken Sie in das Bild und erstellen Sie einen geschlossenen Bereich. Dieser Teil des Bildes wird transparent gemacht. Verwenden Sie diese Funktion, um unerwünschte Teile des Bildes zu entfernen, bevor Sie einen Patch hinzufügen."
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"label": "Modus: Patch",
+			"helptext": "Retuschieren des Bildes durch Kopieren von Patches.",
+			"morehelptext": "<br><br>Um einen Patch zu erstellen, klicken Sie in das Bild und erstellen Sie einen umschlossenen Bereich. Dieser Bereich wird als Ziel für den Patch verwendet. Ziehen Sie als nächstes den Patch an die Stelle, die als Quelle für den Patch verwendet werden soll. Der Patch wird von der Quelle in den Zielbereich kopiert."
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"label": "Optimale Schnittkanten finden",
+			"helptext": "Versucht eine optimale Schnittkante zwischen dem Patch und dem darunter liegenden Bild zu finden.",
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, wird die Schnittkante zwischen dem Patch-Bild und dem darunter liegenden Bild durch Bereiche geführt, in denen das Patch-Bild und das darunter liegende Bild am ähnlichsten sind. Dadurch wird das nahtloseste Ergebnis erzielt. Sie müssen angeben, welche Teile des darunter liegenden Bildes im Endergebnis nicht sichtbar sein sollen, indem Sie zunächst den Modus 'Loch ausschneiden' verwenden.<br><br>Wenn deaktiviert, wird der Patch als Ganzes überlagert. Die Schnittkanten werden zwar weiterhin überblendet, das Ergebnis ist jedoch möglicherweise nicht vollständig nahtlos."
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "Hilfe"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"helptext": "Behalte Kontrollpunkte nur zwischen Bildern bei, die direkt benachbart sind."
+		},
+		{
+			"id": "options.spacing",
+			"helptext": "Konfiguriert den Abstand zwischen Elementen der Benutzeroberfläche. Auf kleineren Bildschirmen kann dies auf '@options.spacing.narrow@' eingestellt werden."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"helptext": "Passt den Weißabgleich des Panoramas an.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> Bei Auswahl wird das Panorama mit dem durchschnittlichen Weißabgleich des Quellbildes erstellt. Wenn alle Bilder den gleichen Weißabgleich haben, erfolgt keine Weißabgleichskonvertierung.<br><br>Wenn '@panoramaeditor.sidebar.postprocess.whitebalance.auto@' nicht ausgewählt ist, können Sie eine gewünschte Farbtemperatur für das Panorama (in Grad Kelvin) auswählen. Der Weißabgleich wird von der ursprünglichen Farbtemperatur auf die ausgewählte Farbtemperatur angepasst. Die ursprüngliche Farbtemperatur jedes Quellbilds wird in der Spalte '@mainwindow.imageparameters.whitebalance@' auf der Registerkarte '@mainwindow.tabs.imageparameters@' konfiguriert. Wenn für keines der Quellbilder eine Farbtemperatur bekannt ist, wird 5000 K angenommen."
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"helptext": "Stärke der Rauschreduzierung vom Chrominanzrauschen (Farbrauschen)."
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"helptext": "Stärke der Rauschreduzierung vom Luminanzrauschen (Helligkeitsrauschen)."
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Komprimierungsstufe, die für die ZIP-Komprimierung verwendet werden soll. Zwischen 0 (für geringe Komprimierung und hohe Bildqualität) und 9 (hohe Komprimierung und geringere Qualität)."
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"helptext": "Chromatische Aberration ist eine Art Linsenverzerrung, die dazu führt, dass verschiedene Farben leicht unterschiedlich fokussiert werden. Dies äußert sich als leichter Farbsaum an den Rändern von Objekten. Den Grad der Reduzierung der chromatischen Aberration stellen Sie hier ein."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"helptext": "Legt die Helligkeit des generierten HDR-Bildes fest.",
+			"morehelptext": "<br><br>HDR-Bilder haben einen (praktisch) unbegrenzten Dynamikumfang. Bei normalen Bildern mit niedrigem Dynamikbereich entspricht die Farbe Weiß dem maximalen Pixelwert, der gespeichert werden kann. Für HDR-Bilder gibt es jedoch kein „Weiß“ und es muss eine Referenzhelligkeit ausgewählt werden. PTGui kann die Helligkeit des generierten HDR-Bildes auf folgende Weise skalieren:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Wird das Panorama aus Belichtungsreihen erstellt, entspricht der Wert 1,0 im HDR-Panorama Weiß in der Mittelbelichtung. Wenn beispielsweise eine Belichtungsreihe von 0/-2/+2 verwendet wurde, haben weiße Pixel bei der 0 EV Belichtung im Panorama einen Pixelwert von 1,0. Das resultierende HDR-Panorama enthält im allgemeinen Pixel, die heller als 1 sind. Dies ist die Standardeinstellung.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Wenn das Panorama aus Belichtungsreihen erstellt wird, entspricht die Farbe Weiß im hellsten Quellbild 1,0 im HDR-Panorama. Alle Pixel des HDR-Bildes liegen also zwischen 0 und 1.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Bitte beachten Sie, dass hierdurch lediglich eine willkürliche Referenzhelligkeit für das HDR-Bild festgelegt wird. HDR-Bilder können nicht direkt angezeigt werden und die tatsächliche Bedeutung eines 1,0-Pixel-Werts hängt von der Anwendung ab. Bei HDR-Bildern besteht keine Gefahr einer Überbelichtung: Sollte das HDR-Bild zu hell sein, kann es nach der Erstellung wieder verlustfrei abgedunkelt werden. Im Gegensatz zu normalen Bildern kommt es bei HDR-Bildern nicht zum Abschneiden von Glanzlichtern."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"helptext": "Wendet einen EV-Offset auf die Helligkeit des HDR-Bildes an.",
+			"morehelptext": "<br><br>Ein positiver Wert erhöht die Helligkeit, ähnlich der Belichtungskorrektur einer Kamera."
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"helptext": "Ändert die Belichtung des HDR-Panoramas, sodass dieses Pixel im HDR-Panorama die angegebene Helligkeit hat.",
+			"morehelptext": "<br><br>Dies wirkt sich nur auf die Helligkeit des HDR-Panoramas aus. Das LDR-Panorama (Tone Mapping oder Exposure Fusion) ist nicht betroffen. Die HDR-Belichtung können Sie im @panoramaeditor@ in der Seitenleiste '@panoramaeditor.sidebar.hdrpostprocess@' manuell anpassen.<br><br>Eine mögliche Anwendung besteht darin, eine Graukarte mit bekanntem Reflexionsgrad zu fotografieren und die HDR-Belichtung an die Lichtintensität der Szene am Ort der Graukarte anzupassen."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"helptext": "Farbaufnehmer",
+			"morehelptext": "<br><br>Klicken Sie in das Panorama, um eine Farbe auszuwählen. Folgende Funktionen werden unterstützt:<br><br><b>Weißabgleich anpassen:</b> Klicken Sie auf ein graues Objekt in der Szene. Der Weißabgleich wird so angepasst, dass das ausgewählte Objekt neutralgrau wird.<optional product='pro'><br><br><b>HDR-Belichtung anpassen:</b> Passt die Belichtung des HDR-Panoramas so an, dass das ausgewählte Pixel eine bestimmte Helligkeit aufweist.</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"helptext": "Auswahl zwischen HDR- und LDR-Vorschau.",
+			"morehelptext": "<br><br>Auswahl, ob der @panoramaeditor@ und der @detailviewer@ das HDR-Panorama oder das LDR-Panorama anzeigen.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> Zeigt die LDR Ausgabe (niedriger Dynamikbereich) an, entsprechend der Ausgabeoption '@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@' auf der Registerkarte '@mainwindow.tabs.createpanorama@'. Dies zeigt eine Vorschau des Ergebnisses der Tonzuordnung und aller im Bedienfeld '@panoramaeditor.sidebar.postprocess@' im @panoramaeditor@ gewählten Einstellungen an.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> Zeigt eine Vorschau der HDR Ausgabe an, entsprechend der Ausgabeoption '@mainwindow.createpanoramatab.output.hdrblended@' auf der Registerkarte '@mainwindow.tabs.createpanorama@'. Den vollen Dynamikbereich des HDR-Bildes können Sie durch Verändern des Schiebereglers 'Belichtung' unten überprüfen. Die Einstellungen vom Bedienfeld '@panoramaeditor.sidebar.hdrpostprocess@' im @panoramaeditor@ werden übernommen. Es werden keine Tonkurven angewendet, sodass das Bild im Vergleich zur LDR-Vorschau blass wirkt."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "Die HDR-Ausgabe ist bei Verwendung von Exposure Fusion nicht verfügbar.",
+			"morehelptext": "<br><br>Mit Exposure Fusion werden Belichtungsreihenbilder zu LDR zusammengeführt, ohne dass zuvor ein Bild mit hohem Dynamikumfang erstellt wird. Um die HDR-Ausgabe zu aktivieren, deaktivieren Sie Exposure Fusion in der @panoramaeditor@-Seitenleiste."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "Erhöht oder verringert die Helligkeit der Vorschau. Betrifft nur das Bild, wie es im @panoramaeditor@ und @detailviewer@ angezeigt wird, nicht die tatsächliche Ausgabe."
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Komprimierungsstufe, die für die DWA-Komprimierung verwendet werden soll. 0 ist verlustfrei; Höhere Werte führen zu höherer Komprimierung und geringerer Bildqualität."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "Wählt die Anwendung aus, die zum Bearbeiten des generierten Patch-Images verwendet werden soll.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bearbeite das Patch-Image im @patchwindow@, das in PTGui enthalten ist.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Wählen Sie eine externe Anwendung zum Bearbeiten des Patch-Images. Hier werden alle Anwendungen aufgelistet, die für die Verarbeitung des Dateityps des Patch-Images registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Öffnet den Ordner mit dem Patch-Image in @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [
@@ -9062,6 +9839,14 @@
 			"id": "mainwindow.controlpointstab",
 			"machinetranslated": false,
 			"helptext": "<b>@mainwindow.tabs.controlpoints@</b><br><br>Kontrollpunkte zeigen an, welche Punkte in den Quellbildern übereinstimmen. Die Kontrollpunkte werden vom Optimierer zum Ausrichten der Bilder verwendet. Der Optimierer ändert die Bildposition und die Objektivparameter so, dass alle Kontrollpunkte so genau wie möglich übereinstimmen.<br><br>PTGui kann Kontrollpunkte automatisch finden:<br><br>• Kontrollpunkte werden als Teil von '@alignimages@' (auf der Registerkarte '@mainwindow.tabs.projectassistant@') generiert. <br>• Kontrollpunkte erzeugen Sie mit '@menubar.controlpoints@' | '@menubar.controlpoints.generate@'.<br>• Mit '@mainwindow.cptab.generatecphere@' erzeugen Sie Kontrollpunkte in einem vorgegebenen Bereich (siehe unten).<br><br>Manchmal kann PTGui Kontrollpunkte nicht automatisch generieren. In diesem Fall müssen Sie einige Kontrollpunkte manuell hinzufügen. Mit dem '@controlpointassistant@' (siehe '@menubar.tools@' | '@controlpointassistant@') überprüfen Sie, welche Bilder zusätzliche Kontrollpunkte benötigen.<br><br>Als Faustregel sollte jedes Paar überlappender Bilder mindestens 4 Kontrollpunkte haben. Versuchen Sie, die Kontrollpunkte so weit wie möglich über den Überlappungsbereich des Bildpaars zu verteilen.<br><br>Die Bearbeitung von Kontrollpunkten ist einfach:<br><br>Einen Kontrollpunkt fügen Sie hinzu, indem Sie zwei überlappende Bilder durch Anklicken der Miniaturansichten über jedem Bereich auswählen. Klicken Sie auf einen Punkt im linken Bild und anschließend auf den entsprechenden Punkt im rechten Bild. PTGui fügt jedem Kontrollpunkt einen nummerierten Marker hinzu. Wenn '@menubar.controlpoints.autojump@' aktiviert ist (siehe untere Symbolleiste), springt der Mauszeiger zur gewünschten Position im anderen Bild, nachdem Sie auf den ersten Punkt geklickt haben.<br><br>So erstellen Sie Kontrollpunkte in einem vorgegebenen Bereich:<br><br>Wählen Sie ein Rechteck in einem der Bilder aus, indem Sie es mit gedrückter Umschalttaste mit der Maus aufziehen. Dann klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> in den ausgewählten Bereich und wählen Sie '@mainwindow.cptab.generatecphere@'. PTGui wird versuchen, übereinstimmende Details in dem anderen Bild zu finden. Dies setzt voraus, dass die Bilder bereits ausgerichtet sind. Der Panorama-Editor sollte also bereits eine korrekte Vorschau Ihres Panoramas anzeigen.<br><br>Um einen Kontrollpunkt zu verschieben, greifen Sie ihn mit der Maus und ziehen ihn zur gewünschten Position. Sie löschen einen Kontrollpunkt oder ändern seinen Typ, indem Sie mit der rechten Maustaste auf den Marker oder in die Kontrollpunktliste klicken.<br><br>Mehrere Kontrollpunkte löschen Sie, indem Sie einen rechteckigen Bereich im Bild durch ziehen mit der Maus bei gedrückter Umschalttaste auswählen. Die ausgewählten Kontrollpunkte beginnen zu blinken. Drücken Sie dann die Entf-Taste oder klicken Sie mit der rechten Maustaste <optional platform='mac'>(oder Strg + Klick)</optional> auf einen der ausgewählten Kontrollpunkte und wählen Sie '@delete@'.<br><br>Zusätzliche Maus- und Tastaturbefehle auf der Registerkarte '@mainwindow.tabs.controlpoints@':<br><br>• Verwenden Sie die rechte Maustaste<optional platform='mac'>( oder Strg + Ziehen oder zwei Finger streichen)</optional>, um die Bilder zu verschieben und zu scrollen. Halten Sie zusätzlich die Alt-Taste gedrückt, um schnell zu ziehen. <optional platform='windows'><br>• Halten Sie beim Verschieben von Kontrollpunkten die Strg-Taste gedrückt, um die Maus um einen zusätzlichen Faktor von 8 zu verlangsamen<br>• Klicken Sie mit der mittleren Maustaste, um zwischen 100% Zoom und Zoom zu wechseln.</optional><br>• Kontrollpunkte können Sie mit der Tastatur verschieben. Klicken Sie auf das Kontrollpunkt-Flag und bewegen Sie den Marker mit den Pfeiltasten.<br><br>Auf der rechten Seite des Fensters befindet sich die Kontrollpunkttabelle. Diese enthält die Liste aller Kontrollpunkte für das ausgewählte Bildpaar. Die Spalte '@cptable.dist@' enthält die Kontrollpunktabstände. Der Kontrollpunktabstand ist ein Hinweis darauf, wie gut ein Panorama ausgerichtet ist. Ein geringerer Abstand bedeutet eine bessere Ausrichtung. Die Abstände werden in Quellbildpixeln gemessen. Die Tabelle sortieren Sie, indem Sie auf die Kopfzeile über der Spalte klicken.<br><br>In der Regel ist ein Abstand unter 5 ein guter Wert. Punkte mit einem Abstand von 20 oder mehr sollten Sie genauer untersuchen. Dies könnten falsch ausgerichtete Kontrollpunkte sein, z.B. bei sich bewegenden Objekten.<br><br>Sind viele Kontrollpunkte mit einem großem Abstand vorhanden, so ist dies normalerweise ein Zeichen von Parallaxenfehlern. Bilder mit Parallaxenfehlern können nicht perfekt zusammengefügt werden. Parallaxenfehler sollten Sie vermeiden, indem Sie alle Bilder von genau demselben Standpunkt aus aufnehmen. Besonders im Innenbereich ist die Verwendung eines Panorama-Stativkopfes notwendig."
+		},
+		{
+			"id": "patchwindow",
+			"helptext": "<b>@patchwindow@</b><br><br>Verwenden Sie dieses Werkzeug, um kleine Stitching-Fehler zu retuschieren, unerwünschte Objekte (wie das Stativ) zu entfernen oder fehlende Teile des Panoramas zu füllen. Die Retusche erfolgt durch das Klonen von Bildabschnitten und deren Überblendung über einen anderen Teil des Bildes. Den @patchwindow@ können Sie auf zwei Wege öffnen:<br><br>Navigieren Sie im Fenster <b>@detailviewer@</b> zu dem Teil des Panoramas, der retuschiert werden soll, öffnen Sie die Seitenleiste '@detailviewer.sidebar.patch@' und klicken Sie auf die Schaltfläche '@detailviewer.sidebar.patch.createpatch@'. Dadurch wird ein Schnappschuss der aktuellen Ansicht erstellt und als neues Quellbild zum Panorama hinzugefügt. Das hinzugefügte Bild verfügt über eine vollständig grüne Maske, die sicherstellt, dass das Patch-Bild anstelle der ursprünglichen Quellbilder verwendet wird. Anschließend öffnet sich der @patchwindow@ zum Bearbeiten des Patch-Bildes.<br><br>Oder Sie öffnen den @patchwindow@ direkt aus dem <b>@menubar.tools@-Menü</b> als eigenständiges Werkzeug. So können Sie jedes beliebige JPEG-, JPEG2000- oder TIFF-Bild zur Bearbeitung öffnen.<br><br>Der @patchwindow@ arbeitet in zwei möglichen Modi:<br><br><b>@patchwindow.mode.cut@:</b> Verwenden Sie diesen Modus, um unerwünschte Objekte aus dem Bild zu entfernen. Klicken Sie in das Bild, um eine Form um das Objekt zu zeichnen. Der umschlossene Bereich wird transparent gemacht.<br><br><b>@patchwindow.mode.patch@:</b> Klicken Sie in diesem Modus in das Bild, um eine Form um den Teil des Bildes zu zeichnen, der mit einem Patch abgedeckt werden soll. Ziehen Sie dann die Form in den Bereich, der als Quelle für den Patch verwendet werden soll. Der Zielbereich wird durch den geklonten Quellbereich ersetzt.<br><br>Sie können Patches verschieben oder bearbeiten: Klicken Sie in einen Patch, um ihn zu aktivieren. Der Quellbereich für den aktiven Patch wird durch eine gelb gestrichelte Linie markiert. Den Patch oder sein Quellbereich können Sie durch Ziehen mit der Maus verschieben. Durch Ziehen der Eckpunkte bearbeiten Sie den Patch. Neue Eckpunkte fügen Sie durch einen Rechtsklick auf eine Kante hinzu. Klicken Sie mit der rechten Maustaste auf einen Eckpunkt, um ihn zu löschen. Unter macOS können Sie statt der rechten Maustaste auch Strg+Klick verwenden.<br><br>Standardmäßig ist <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> aktiviert: Die Schnittkante zwischen dem Patch-Bild und dem darunter liegenden Bild wird durch Bereiche geführt, in denen sie am ähnlichsten sind. Dadurch wird das nahtloseste Ergebnis erzielt, es wird jedoch nur ein Teil des Patches verwendet. Die Schnittkante wird durch eine rote Linie markiert, wenn Sie mit dem Mauszeiger über das Fenster fahren. Wenn durch den Patch immer noch unerwünschte Teile des Originalbilds sichtbar sind, machen Sie diese Teile transparent, indem Sie den Modus '@patchwindow.mode.cut@' wie oben beschrieben verwenden. Die Schnittkante wird um die transparenten Bereiche herumgeführt. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> können Sie in der unteren Symbolleiste deaktivieren. Wenn deaktiviert, wird der Patch als Ganzes überlagert. Die Kanten werden zwar weiterhin überblendet, das Ergebnis ist jedoch möglicherweise nicht vollständig nahtlos<br><br>Wenn <b>@patchwindow.autosave@</b> ausgewählt ist, werden alle Änderungen sofort auf der Festplatte gespeichert. Andernfalls verwenden Sie die Schaltfläche 'Speichern', um das gepatchte Bild zu speichern.<br><br>Wenn der @patchwindow@ durch Erstellen eines Patches im @detailviewer@ gestartet wurde, wird das bearbeitete Patch-Bild automatisch neu geladen und das Projekt wird nach einigen Sekunden aktualisiert. Nach dem Patchen des Panoramas sollten Sie die Kontrollpunkte nicht mehr verändern. Das Ausführen des Optimierers würde die Ausrichtung der Bilder ändern und das Patch-Bild würde nicht mehr zur ursprünglichen Ausrichtung der Bilder passen. Daher sollte das Patchen als letzter Schritt im Stitch-Prozess erfolgen. Es ist immer möglich, von vorne zu beginnen, indem Sie einfach zur Registerkarte '@mainwindow.tabs.sourceimages@' gehen und das Patch-Bild aus dem Projekt entfernen.<br><br>Anstatt ein Patch-Bild zu einem PTGui-Projekt hinzuzufügen, können Sie auch ein bereits zusammengesetztes Panorama retuschieren: Starten Sie nach dem Zusammenfügen des Panoramas ein neues Projekt und fügen Sie das zusammengefügte Panorama als Quellbild hinzu. Öffnen Sie dann den @detailviewer@ und starten Sie von dort aus den @patchwindow@."
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>Auf dieser Registerkarte nehmen Sie Einstellungen für die Entwicklung von RAW-Bildern vor:<br><br><b>Rauschreduzierung:</b> Insbesondere bei höheren ISO-Werten können RAW-Kameradaten erhebliches Bildrauschen enthalten. PTGui kann während der RAW-Konvertierung eine Rauschreduzierung auf die RAW-Daten anwenden. Die Stärke der Rauschreduzierung geben Sie für Chrominanz (Farbe) und Luminanz (Helligkeit) getrennt an.<br><br><b>Chromatische Aberration entfernen:</b> Chromatische Aberration ist eine Art Linsenverzerrung, die verschiedene Farben leicht unterschiedlich fokussiert. Dies äußert sich als leichter Farbsaum an den Rändern von Objekten. Den Grad der Reduzierung der chromatischen Aberration können Sie einstellen.<br><br>Die Einstellungen auf dieser Registerkarte werden vor dem Zusammenfügen auf RAW- und DNG-Quellbilder angewendet. Weitere Anpassungen können Sie im @panoramaeditor@ in den Bedienfeldern '@panoramaeditor.sidebar.postprocess@' und '@panoramaeditor.sidebar.whitebalance@' vornehmen. Diese Anpassungen werden auf das zusammengefügte Panorama angewendet."
 		}
 	]
 }

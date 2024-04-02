@@ -6040,7 +6040,7 @@
 			"id": "mainwindow.imageparamstab.helptext2",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (pouze PTGui Pro): Pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ (na panelu @mainwindow.createpanoramatab.blending@ v @panoramaeditor@) deaktivován, švy se obvykle umístí uprostřed překrytí mezi dvěma obrázky. To lze upravit zvětšením nebo zmenšením @mainwindow.imageparameters.blendpriority@ zdrojového obrazu. Je to relativní hodnota: pokud mají dva obrázky prioritu prolnutí 150 a 100, použije se větší část prvního obrázku. Tato hodnota je ignorována, pokud je povolen @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Projekt může obsahovat více křivek odezvy kamery; toto pole konfiguruje křivku odezvy kamery, která se použije pro každý zdrojový obraz. Křivky odezvy kamery se konfigurují na kartě @mainwindow.tabs.exposurehdr@. Pokud projekt obsahuje pouze jednu křivku odezvy kamery, bude mít název „@txt.globalcameracurve@“. Pokud je vybrána <b>@txt.cameracurve.linear@</b> , předpokládá se, že obraz obsahuje lineární data a nebude použita žádná křivka. Další informace najdete v popisech na kartě @mainwindow.tabs.exposurehdr@.<br><br><b>@mainwindow.imageparameters.whitebalance@:</b> Konfiguruje původní vyvážení bílé každého zdrojového obrazu jako teplotu barev ve stupních Kelvina. To se použije, pokud je na panelu @panoramaeditor.sidebar.postprocess@ na @panoramaeditor@ nakonfigurováno cílové vyvážení bílé. Barvy ze zdrojového obrazu budou upraveny z zde nakonfigurované teploty barev na cílovou teplotu barev. Pokud je toto pole prázdné, předpokládá se výchozí hodnota 5000 kB. Toto pole je ignorováno, pokud je na panelu @panoramaeditor.sidebar.postprocess@ vybrána možnost „@txt.asshot@“.<br><br><b>@mainwindow.imageparameters.linked@:</b> (pouze PTGui Pro): Při spojování HDR panoramat z obrazů s hranatými zdroji toto zaškrtávací políčko konfiguruje, zda budou mít hranaté snímky stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Zrušte zaškrtnutí tohoto políčka, pokud snímky v závorkách nebyly pořízeny ze stativu a měly by mít nezávislé parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Pro zarovnání hranatých obrázků bude třeba poskytnout kontrolní body."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (pouze PTGui Pro): Pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ (na panelu @mainwindow.createpanoramatab.blending@ v @panoramaeditor@) deaktivován, švy se obvykle umístí uprostřed překrytí mezi dvěma obrázky. To lze upravit zvětšením nebo zmenšením @mainwindow.imageparameters.blendpriority@ zdrojového obrazu. Je to relativní hodnota: pokud mají dva obrázky prioritu prolnutí 150 a 100, použije se větší část prvního obrázku. Tato hodnota je ignorována, pokud je povolen @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Projekt může obsahovat více křivek odezvy kamery; toto pole konfiguruje křivku odezvy kamery, která se použije pro každý zdrojový obraz. Křivky odezvy kamery se konfigurují na kartě @mainwindow.tabs.exposurehdr@. Pokud projekt obsahuje pouze jednu křivku odezvy kamery, bude mít název „@txt.globalcameracurve@“. Pokud je vybrána <b>@txt.cameracurve.linear@</b> , předpokládá se, že obraz obsahuje lineární data a nebude použita žádná křivka. Další informace najdete v popisech na kartě @mainwindow.tabs.exposurehdr@.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (pouze PTGui Pro): Při spojování HDR panoramat z obrazů s hranatými zdroji toto zaškrtávací políčko konfiguruje, zda budou mít hranaté snímky stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Zrušte zaškrtnutí tohoto políčka, pokud snímky v závorkách nebyly pořízeny ze stativu a měly by mít nezávislé parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Pro zarovnání hranatých obrázků bude třeba poskytnout kontrolní body."
 		},
 		{
 			"id": "proxysettings.button",
@@ -6186,6 +6186,605 @@
 			"id": "err.lcms.couldntlinkprofiles",
 			"machinetranslated": true,
 			"txt": "Vybraný výstupní barevný profil nelze použít, pravděpodobně proto, že se jedná pouze o zdrojový profil.\n\nPřejděte na kartu @mainwindow.createpanoramatab.createpanorama@ a vyberte jiný výstupní barevný prostor. Doporučuje se zvolit profil širokého gamutu (například ProPhoto RGB), aby nebyla ovlivněna kvalita obrazu."
+		},
+		{
+			"id": "detailviewer.sidebar.view.yaw",
+			"machinetranslated": true,
+			"txt": "@+yaw@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch",
+			"machinetranslated": true,
+			"txt": "@+pitch@:"
+		},
+		{
+			"id": "detailviewer.sidebar.view.fov",
+			"machinetranslated": true,
+			"txt": "@panoramaeditor.sidebar.projectionpanel.fov@"
+		},
+		{
+			"id": "detailviewer.sidebar.view.diagonal",
+			"machinetranslated": true,
+			"txt": "(úhlopříčka)"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"txt": "Pohled"
+		},
+		{
+			"id": "detailviewer.sidebar.patch",
+			"machinetranslated": true,
+			"txt": "Náplast"
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"txt": "Momentka"
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"txt": "Uložit obrázek"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"txt": "Vytvořit opravu"
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"txt": "Patch Editor"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"txt": "Otevřete obrázek"
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"txt": "Uložit obrázek"
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"txt": "Uložit automaticky"
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"txt": "Uložit obrázek jako"
+		},
+		{
+			"id": "patchwindow.saving",
+			"machinetranslated": true,
+			"txt": "Ukládání..."
+		},
+		{
+			"id": "patchwindow.asksave",
+			"machinetranslated": true,
+			"txt": "Obrázek byl upraven. Chcete to uložit?"
+		},
+		{
+			"id": "patchwindow.err.saveunsupportedfiletype",
+			"machinetranslated": true,
+			"txt": "Nepodporovaný typ souboru: .%0. Lze uložit pouze jako TIFF nebo JPEG."
+		},
+		{
+			"id": "patchwindow.err.multiplefilesdropped",
+			"machinetranslated": true,
+			"txt": "Bylo odstraněno několik souborů. Najednou lze otevřít pouze jeden soubor."
+		},
+		{
+			"id": "patchwindow.deletepoint",
+			"machinetranslated": true,
+			"txt": "Smažte tento bod"
+		},
+		{
+			"id": "patchwindow.deletepatch",
+			"machinetranslated": true,
+			"txt": "Smazat tento patch"
+		},
+		{
+			"id": "patchwindow.addpoint",
+			"machinetranslated": true,
+			"txt": "Přidejte bod"
+		},
+		{
+			"id": "detailviewer.sidebar.onlyavailableinperspectivemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato funkce je dostupná pouze v <a href=0>režimu perspektivy</a> ."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"txt": "Velikost:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.resolution",
+			"machinetranslated": true,
+			"txt": "Rozlišení:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"txt": "Formát:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.auto",
+			"machinetranslated": true,
+			"txt": "Uložit do složky projektu"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.saveas.custom",
+			"machinetranslated": true,
+			"txt": "Vyberte umístění..."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato funkce není dostupná při použití rovin prolnutí. <a href=0>Zakázat prolnutí rovin.</a>"
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"txt": "Náplast"
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"txt": "Střih"
+		},
+		{
+			"id": "fileformatsettings.alpha.withalpha",
+			"machinetranslated": true,
+			"txt": "S alfou"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressiontxt",
+			"machinetranslated": true,
+			"txt": "Komprese %0x"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.lossless",
+			"machinetranslated": true,
+			"txt": "bezztrátový"
+		},
+		{
+			"id": "fileformatsettings.jpeg2000.compressionlabel",
+			"machinetranslated": true,
+			"txt": "Komprese:"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"txt": "Odstraňte kontrolní body mezi nesousedícími snímky"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.didnothing",
+			"machinetranslated": true,
+			"txt": "Nebyly smazány žádné kontrolní body.\n\nKontrolní body se odstraní pouze v případě, že na přímce mezi středy dvou snímků leží další snímek. Prostřední obrázek by měl mít alespoň 4 kontrolní body s každým sousedem."
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingonecontrolpoint",
+			"machinetranslated": true,
+			"txt": "Jeden kontrolní bod (z celkového počtu kontrolních bodů %0) bude vymazán. Chcete pokračovat a projekt znovu optimalizovat?"
+		},
+		{
+			"id": "err.controlpoints.deletenonadjacent.deletingsomecontrolpoint",
+			"machinetranslated": true,
+			"txt": " Kontrolní body %0 (z celkových kontrolních bodů %1) budou vymazány. Chcete pokračovat a projekt znovu optimalizovat?"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.enableblendplanes",
+			"machinetranslated": true,
+			"txt": "Povolit @mainwindow.createpanoramatab.output.blendplanes@"
+		},
+		{
+			"id": "txt.disabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Není k dispozici pro výstup DNG"
+		},
+		{
+			"id": "txt.tonemappingexposurefusiondisabledfordngoutput",
+			"machinetranslated": true,
+			"txt": "Tone Mapping a Exposure Fusion jsou pro výstup DNG zakázány"
+		},
+		{
+			"id": "trialversion.trystandard",
+			"machinetranslated": true,
+			"txt": "Vyzkoušejte PTGui (standardní verze)"
+		},
+		{
+			"id": "trialversion.trypro",
+			"machinetranslated": true,
+			"txt": "Zkuste PTGui Pro"
+		},
+		{
+			"id": "trialversion.whatsthedifference",
+			"machinetranslated": true,
+			"txt": "Jaký je rozdíl mezi standardní verzí a PTGui Pro?"
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"txt": "Vzdálenost:"
+		},
+		{
+			"id": "options.spacing.regular",
+			"machinetranslated": true,
+			"txt": "Pravidelný"
+		},
+		{
+			"id": "options.spacing.narrow",
+			"machinetranslated": true,
+			"txt": "Úzký"
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance.auto",
+			"machinetranslated": true,
+			"txt": "Automatický"
+		},
+		{
+			"id": "txt.unkowniccprofile",
+			"machinetranslated": true,
+			"txt": "Neznámý ICC profil"
+		},
+		{
+			"id": "err.unsupportediccprofile",
+			"machinetranslated": true,
+			"txt": "Profil barev ICC je nepodporovaného typu."
+		},
+		{
+			"id": "err.unsupportediccprofilesrgbfallback",
+			"machinetranslated": true,
+			"txt": "Nepodporovaný barevný profil ICC: %0. Místo toho použijte sRGB."
+		},
+		{
+			"id": "err.unsupportediccprofileforexr",
+			"machinetranslated": true,
+			"txt": "Nepodporovaný barevný profil ICC: %0. Pro výstup OpenEXR je potřeba lineární barevný profil."
+		},
+		{
+			"id": "err.failedtoparseiccprofilergbfallback",
+			"machinetranslated": true,
+			"txt": "Analýza profilu barev ICC se nezdařila. Místo toho použijte sRGB. Došlo k následující chybě:\n%0"
+		},
+		{
+			"id": "err.corrupticcprofile",
+			"machinetranslated": true,
+			"txt": "Barevný profil ICC je poškozený."
+		},
+		{
+			"id": "mainwindow.tabs.preprocess",
+			"machinetranslated": true,
+			"txt": "Předzpracování RAW"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.enabled",
+			"machinetranslated": true,
+			"txt": "Použijte redukci šumu"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"txt": "Redukce chroma šumu:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"txt": "Redukce šumu Luma:"
+		},
+		{
+			"id": "mainwindow.preprocesstab.careduction",
+			"machinetranslated": true,
+			"txt": "Odstraňte chromatickou aberaci"
+		},
+		{
+			"id": "mainwindow.preprocesstab.notarawfile",
+			"machinetranslated": true,
+			"txt": "Tento obrázek (%0) není nezpracovaný soubor."
+		},
+		{
+			"id": "mainwindow.preprocesstab.hasalpha",
+			"machinetranslated": true,
+			"txt": "Tento nezpracovaný obrázek (%0) nelze předzpracovat, protože má alfa kanál."
+		},
+		{
+			"id": "mainwindow.preprocesstab.isfloat",
+			"machinetranslated": true,
+			"txt": "Tento nezpracovaný obrázek (%0) nelze předzpracovat, protože obsahuje data s pohyblivou řádovou čárkou."
+		},
+		{
+			"id": "mainwindow.preprocesstab.bottomhtml",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Více úprav lze provést na panelu <a href=0>@panoramaeditor.sidebar.postprocess@</a> v @panoramaeditor@."
+		},
+		{
+			"id": "menubar.view.gototab",
+			"machinetranslated": true,
+			"txt": "Přejděte na kartu"
+		},
+		{
+			"id": "menubar.view.nexttab",
+			"machinetranslated": true,
+			"txt": "Další karta"
+		},
+		{
+			"id": "menubar.view.previoustab",
+			"machinetranslated": true,
+			"txt": "Předchozí karta"
+		},
+		{
+			"id": "menubar.view.togglesimpleadvanced",
+			"machinetranslated": true,
+			"txt": "Přepnout jednoduchý / pokročilý režim"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"txt": "Úroveň komprese ZIP:"
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"txt": "Úroveň komprese DWA:"
+		},
+		{
+			"id": "txt.viewlicense",
+			"machinetranslated": true,
+			"txt": "licence"
+		},
+		{
+			"id": "mainwindow.imageparamstab.helptextwhitepoint",
+			"machinetranslated": true,
+			"txt": "<b>@mainwindow.imageparameters.whitepoint.temperature@, @mainwindow.imageparameters.whitepoint.tint@:</b>Nakonfiguruje původní vyvážení bílé pro každý zdrojový obrázek. Pokud je pro panorama zvoleno jiné vyvážení bílé (na panelu @panoramaeditor.sidebar.postprocess@ na @panoramaeditor@), nebo pokud jsou v panoramatu smíchány snímky s různým vyvážením bílé, PTGui provede převod na cílové vyvážení bílé. K tomu potřebuje znát původní vyvážení bílé zdrojových snímků. <b>@mainwindow.imageparameters.whitepoint.temperature@</b> je teplota barev v Kelvinech a upravuje vyvážení modré a oranžové. Běžné hodnoty jsou 3000K pro žárovkové osvětlení, 3500K pro východ nebo západ slunce, 5000K pro denní světlo a 6500K pro zataženou oblohu. <b>@mainwindow.imageparameters.whitepoint.tint@</b> upravuje vyvážení zelené a purpurové. U zdrojových obrázků to lze normálně nastavit na neutrální hodnotu 0.",
+			"format": "html"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.temperature",
+			"machinetranslated": true,
+			"txt": "Teplota @mainwindow.imageparameters.wbprefix@"
+		},
+		{
+			"id": "mainwindow.imageparameters.whitepoint.tint",
+			"machinetranslated": true,
+			"txt": "Odstín @mainwindow.imageparameters.wbprefix@"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.temperature",
+			"machinetranslated": true,
+			"txt": "Teplota:"
+		},
+		{
+			"id": "mainwindow.exposurehdrpanel.finetune.whitebalance.tint",
+			"machinetranslated": true,
+			"txt": "Nádech:"
+		},
+		{
+			"id": "err.unexpectedcmdlineoption",
+			"machinetranslated": true,
+			"txt": "Neočekávaná možnost příkazového řádku: %0"
+		},
+		{
+			"id": "err.commandlineerror",
+			"machinetranslated": true,
+			"txt": "Chyba v příkazovém řádku. Použití: %0"
+		},
+		{
+			"id": "err.ptgui10projectastemplate",
+			"machinetranslated": true,
+			"txt": "Tato šablona je soubor projektu PTGui 10. I když PTGui může stále načítat soubory projektu PTGui 10, nelze je použít jako šablonu. Otevřete šablonu a uložte ji v aktuálním formátu PTGui."
+		},
+		{
+			"id": "batchbuilder.generatingproject",
+			"machinetranslated": true,
+			"txt": "Generování souboru projektu"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess",
+			"machinetranslated": true,
+			"txt": "HDR expozice"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"txt": "Odkaz:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle",
+			"machinetranslated": true,
+			"txt": "Střední expozice"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest",
+			"machinetranslated": true,
+			"txt": "Nejjasnější expozice"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute",
+			"machinetranslated": true,
+			"txt": "Absolutní expozice"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"txt": "EV @@100ISO:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"txt": "Offset:"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Nastavte absolutní hodnotu expozice. To je definováno jako EV offset od 1sekundové expozice při f/1.0 a ISO 100. Bílá barva na této (imaginární) expozici bude odpovídat 1,0 v HDR panoramatu. Snížením hodnoty o 1 se jas zdvojnásobí. Jinými slovy: EV = log2(apertura^2 / (čas_expozice * ISO / 100)).<br><br>Aby bylo možné pro panorama použít absolutní expozici, musí být známa expozice všech zdrojových snímků. Expoziční čas, clonu a ISO každého zdrojového snímku lze nastavit na záložce @mainwindow.tabs.imageparameters@. Pokud není ISO jednoho nebo více snímků neznámé, bude u všech snímků použito ISO 100. Podobně bude u všech snímků uvažována clona f/1,0 a expoziční čas 1 sekunda, pokud tento parametr není u žádného ze zdrojových snímků uveden."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"txt": "Vzorník barev"
+		},
+		{
+			"id": "panoramaeditor.dropper.setwhitebalance",
+			"machinetranslated": true,
+			"txt": "Upravte vyvážení bílé (klikněte na šedou oblast)"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"txt": "Upravte expozici HDR"
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure.label",
+			"machinetranslated": true,
+			"txt": "Upravte expozici HDR tak, aby tento pixel měl jas:"
+		},
+		{
+			"id": "panoramaeditor.dropper.selectnonblack",
+			"machinetranslated": true,
+			"txt": "Toto je černý pixel. Vyberte prosím nečerný pixel."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"txt": "Ukázat:"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.ldr",
+			"machinetranslated": true,
+			"txt": "panorama LDR"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode.hdr",
+			"machinetranslated": true,
+			"txt": "HDR panorama"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.warnifldrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato nastavení ovlivňují pouze výstup HDR. Právě si prohlížíte panorama LDR. <a href=\"0\">Přepněte na náhled HDR</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato nastavení ovlivňují pouze výstup LDR. Právě si prohlížíte HDR panorama. <a href=\"0\">Přepnout na náhled LDR</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifpreviewexposure",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Nastavení náhledu expozice je aktivní: <a href=\"0\">reset</a>"
+		},
+		{
+			"id": "panoramaeditor.sidebar.whitebalance",
+			"machinetranslated": true,
+			"txt": "Vyvážení bílé"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.prefix",
+			"machinetranslated": true,
+			"txt": "Skupiny odkazů:"
+		},
+		{
+			"id": "linkbracketcustomdialog.caption.postfix",
+			"machinetranslated": true,
+			"txt": "snímky v závorkách"
+		},
+		{
+			"id": "linkbracketcustomdialog.err.toofewimages",
+			"machinetranslated": true,
+			"txt": "Projekt obsahuje pouze obrázky %0."
+		},
+		{
+			"id": "linkbracketcustomdialog.err.notamultiple",
+			"machinetranslated": true,
+			"txt": "Projekt obsahuje obrázky %0, což není násobek %1."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.onesetofbrackets",
+			"machinetranslated": true,
+			"txt": "Projekt bude mít jednu sadu obrázků %0."
+		},
+		{
+			"id": "linkbracketcustomdialog.txt.multiplesetsofbrackets",
+			"machinetranslated": true,
+			"txt": "Projekt bude mít %0 sady obrázků %1."
+		},
+		{
+			"id": "licenseinfo.upgradedtopro",
+			"machinetranslated": true,
+			"txt": "Vaše licence byla upgradována na PTGui Pro. Chcete-li aktivovat funkce Pro, PTGui se musí restartovat. Chcete uložit svou práci a restartovat PTGui nyní?"
+		},
+		{
+			"id": "menubar.help.upgrade",
+			"machinetranslated": true,
+			"txt": "Upgradujte na PTGui Pro"
+		},
+		{
+			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
+			"machinetranslated": true,
+			"txt": "Nalezení švu při 1/%0 trvá dlouho!"
+		},
+		{
+			"id": "menubar.images.editinpatchwindow",
+			"machinetranslated": true,
+			"txt": "Upravit v @patchwindow@"
+		},
+		{
+			"id": "txt.confirmeditsourceimage",
+			"machinetranslated": true,
+			"txt": "Tím se upraví a přepíše zdrojový obrázek. Jsi si jistá?"
+		},
+		{
+			"id": "err.saveprojectfilefirst",
+			"machinetranslated": true,
+			"txt": "Aktuální projekt musí být nejprve uložen. Chtěli byste to udělat teď?"
+		},
+		{
+			"id": "txt.warnoptimizepatchimages",
+			"machinetranslated": true,
+			"txt": "Projekt obsahuje obrázky záplat. Optimalizace projektu posune obrazy, což způsobí nesprávné zarovnání záplat. Jsi si jistá?"
+		},
+		{
+			"id": "panoramaeditor.sidebar.warnifforcedhdrpreview",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato nastavení ovlivňují pouze výstup LDR. Právě si prohlížíte HDR panorama."
+		},
+		{
+			"id": "err.openfilewithappfailed",
+			"machinetranslated": true,
+			"txt": "Nepodařilo se otevřít %0 v %1."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"txt": "Upravte obrázek opravy v:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.patcheditor",
+			"machinetranslated": true,
+			"txt": "PTGui @patchwindow@"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.application",
+			"machinetranslated": true,
+			"txt": "Aplikace:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin.explorer",
+			"machinetranslated": true,
+			"txt": "Otevřít umístění souboru"
 		}
 	],
 	"tooltips": [
@@ -8733,6 +9332,225 @@
 			"machinetranslated": true,
 			"helptext": "Algoritmus, který se má použít pro fúzi expozice",
 			"morehelptext": "<br><br>PTGui 12.0 až 12.20 používaly jiný expoziční fúzní algoritmus než PTGui 11 a starší. V PTGui 12.21 a novějších je starý algoritmus znovu zpřístupněn a používá se ve výchozím nastavení, protože poskytuje lepší výsledky.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> použijte expoziční fúzní algoritmus, který byl použit v PTGui 12.0 až 12.20. Tato možnost je dostupná z důvodu kompatibility s projekty vytvořenými v PTGui 12.0 až 12.20 a neměla by se používat pro nové projekty.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> toto je původní algoritmus fúze expozice. To poskytuje nejlepší výsledky a je to doporučená možnost pro nové projekty."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.createpatch",
+			"machinetranslated": true,
+			"helptext": "Vytvořte opravu pro aktuální pohled.",
+			"morehelptext": "<br><br>Zachyťte aktuální pohled a uložte jej jako obrázek opravy. Obraz patche bude přidán do projektu a překryt na panorama. @patchwindow@ bude otevřený pro editaci patche.<br><br>Záplatu lze použít k odstranění nežádoucích částí panoramatu, například k odstranění stativu nebo osoby. Záplatu lze také použít k vyplnění jakýchkoli děr, které nejsou pokryty zdrojovými obrázky, například nadir nebo zenit."
+		},
+		{
+			"id": "detailviewer.sidebar.extract",
+			"machinetranslated": true,
+			"helptext": "Vytvořte snímek aktuálního pohledu v plném rozlišení"
+		},
+		{
+			"id": "detailviewer.sidebar.view",
+			"machinetranslated": true,
+			"helptext": "Zkontrolujte nebo upravte pozorovací úhly @detailviewer@"
+		},
+		{
+			"id": "patchwindow.openimage",
+			"machinetranslated": true,
+			"label": "Otevřete obrázek",
+			"helptext": "Otevřete obrázek pro retušování."
+		},
+		{
+			"id": "patchwindow.saveimage",
+			"machinetranslated": true,
+			"label": "Uložit obrázek",
+			"helptext": "Uložte upravený obrázek."
+		},
+		{
+			"id": "patchwindow.autosave",
+			"machinetranslated": true,
+			"label": "Uložit automaticky",
+			"helptext": "Automaticky uložit upravený obrázek po každé změně."
+		},
+		{
+			"id": "patchwindow.saveimageas",
+			"machinetranslated": true,
+			"label": "Uložit obrázek jako",
+			"helptext": "Upravený obrázek uložte pod jiným názvem."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
+			"machinetranslated": true,
+			"helptext": "Nástroj Záplata není k dispozici ve spojení s rovinami prolnutí.",
+			"morehelptext": "<br><br>Nástroj Patch zachytí aktuální pohled a uloží jej jako obrázek opravy. Obraz patche bude přidán do projektu a překryt na panorama. To je možné pouze v případě, že projekt má jednu rovinu prolnutí.<br><br>Roviny prolnutí lze zakázat přepnutím na pracovní postup '@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@' na kartě @mainwindow.tabs.exposurehdr@.<br><br>Případně nejprve dodělejte a spojte panorama. Poté lze nástroj patch použít načtením hotového panoramatu do nového projektu PTGui."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format",
+			"machinetranslated": true,
+			"helptext": "Formát souboru, který se má použít pro obrázek.",
+			"morehelptext": "<br><br>Snímek lze uložit ve formátu JPEG, TIFF nebo JPEG2000:<br><br><b>TIFF</b> se doporučuje pro nejvyšší kvalitu obrazu, ale soubory mohou být velmi velké. 8bitový TIFF lze použít, pokud jsou zdrojové obrázky omezeny na 8 bitů na kanál a mají stejnou expozici. Jinak by měl být použit 16bitový TIFF pro zachování plného dynamického rozsahu.<br><br><b>JPEG</b> je omezen na 8 bitů na pixel a nepodporuje průhlednost, ale velikost souboru obrázku opravy bude mnohem menší.<br><br><b>JPEG2000</b> podporuje průhlednost a 8 i 16 bitů na kanál. Velikost souboru je mnohem menší než TIFF kvůli ztrátové kompresi."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.format.settings",
+			"machinetranslated": true,
+			"label": "Nastavení"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.size",
+			"machinetranslated": true,
+			"helptext": "Velikost (v pixelech) snímku snímku. Chcete-li vytvořit snímek v optimální velikosti, nastavte výsledek na 100 %."
+		},
+		{
+			"id": "detailviewer.sidebar.extractsave",
+			"machinetranslated": true,
+			"helptext": "Vytvořte a uložte snímek aktuálního pohledu. Budete vyzváni k zadání názvu souboru."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.down",
+			"machinetranslated": true,
+			"helptext": "Nastavte sklon na -90°, abyste viděli nadir."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.middle",
+			"machinetranslated": true,
+			"helptext": "Nastavte sklon na 0°."
+		},
+		{
+			"id": "detailviewer.sidebar.view.pitch.up",
+			"machinetranslated": true,
+			"helptext": "Nastavte sklon na 90°, abyste viděli zenit."
+		},
+		{
+			"id": "patchwindow.file.openimage",
+			"machinetranslated": true,
+			"label": "Otevřete obrázek",
+			"helptext": "Otevřete obrázek pro retušování."
+		},
+		{
+			"id": "patchwindow.file.autosave",
+			"machinetranslated": true,
+			"label": "Uložit automaticky",
+			"helptext": "Po každé změně automaticky uložte upravený obrázek."
+		},
+		{
+			"id": "patchwindow.file.save",
+			"machinetranslated": true,
+			"label": "Uložit obrázek",
+			"helptext": "Upravený obrázek uložte."
+		},
+		{
+			"id": "patchwindow.mode.cut",
+			"machinetranslated": true,
+			"label": "Režim: Vyříznutý otvor",
+			"helptext": "Vyřízněte do obrázku díru, abyste odstranili nežádoucí části.",
+			"morehelptext": "<br><br>Kliknutím na obrázek vytvoříte uzavřenou oblast. Tato část obrázku bude průhledná. Tuto funkci použijte k odstranění nežádoucích částí obrazu před přidáním záplaty."
+		},
+		{
+			"id": "patchwindow.mode.patch",
+			"machinetranslated": true,
+			"label": "Režim: Patch",
+			"helptext": "Retušujte obrázek zkopírováním záplat.",
+			"morehelptext": "<br><br>Chcete-li vytvořit záplatu, klikněte na obrázek a vytvořte uzavřenou oblast. Tato oblast bude použita jako cíl pro patch. Dále přetáhněte záplatu na místo, které má být použito jako zdroj záplaty. Patch bude zkopírován ze zdroje do cílové oblasti."
+		},
+		{
+			"id": "patchwindow.findoptimumseams",
+			"machinetranslated": true,
+			"label": "Najděte optimální švy",
+			"helptext": "Pokuste se najít optimální šev mezi záplatou a podkladovým obrázkem.",
+			"morehelptext": "<br><br>Pokud je povoleno, spoj mezi obrazem záplaty a základním obrazem bude veden oblastmi, kde jsou obraz záplaty a spodní obraz nejpodobnější. To vytvoří maximálně bezproblémový výsledek. Musíte určit, které části podkladového obrázku by neměly být v konečném výsledku viditelné, a to nejprve pomocí režimu „Vyjmout díru“.<br><br>Pokud je zakázáno, oprava bude překryta jako celek. Okraje budou stále prolnuté, ale výsledek nebude tak hladký."
+		},
+		{
+			"id": "patchwindow.help",
+			"machinetranslated": true,
+			"label": "Pomoc"
+		},
+		{
+			"id": "menubar.controlpoints.deletenonadjacent",
+			"machinetranslated": true,
+			"helptext": "Kontrolní body udržujte pouze mezi snímky, které přímo sousedí."
+		},
+		{
+			"id": "options.spacing",
+			"machinetranslated": true,
+			"helptext": "Konfiguruje mezery mezi prvky uživatelského rozhraní. Na menších obrazovkách to může být nastaveno na „@options.spacing.narrow@“."
+		},
+		{
+			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
+			"machinetranslated": true,
+			"helptext": "Upravte vyvážení bílé panoramatu.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> Je-li vybráno, bude panorama vytvořeno s vyvážením bílé průměrného zdrojového snímku. Pokud mají všechny snímky stejné vyvážení bílé, neprovádí se žádná konverze vyvážení bílé.<br><br>Pokud není vybráno @panoramaeditor.sidebar.postprocess.whitebalance.auto@, lze zvolit požadovanou barevnou teplotu pro panorama (ve stupních Kelvina). Vyvážení bílé bude upraveno z původní teploty barev na zvolenou teplotu barev. Původní barevná teplota každého zdrojového obrázku je nakonfigurována ve sloupci „@mainwindow.imageparameters.whitebalance@“ na kartě @mainwindow.tabs.imageparameters@. Pokud u žádného ze zdrojových obrázků není známa žádná barevná teplota, předpokládá se 5000 K."
+		},
+		{
+			"id": "preprocesstab.noisereduction.chromaamount",
+			"machinetranslated": true,
+			"helptext": "Síla redukce šumu pro chrominanční (barevný) šum"
+		},
+		{
+			"id": "preprocesstab.noisereduction.lumaamount",
+			"machinetranslated": true,
+			"helptext": "Síla redukce šumu pro jasový (jasný) šum"
+		},
+		{
+			"id": "fileformatsettings.exrzipcompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Úroveň komprese pro kompresi ZIP. Mezi 0 (pro nízkou kompresi a vysokou kvalitu obrazu) a 9 (vysoká komprese a nižší kvalita)."
+		},
+		{
+			"id": "preprocesstab.careduction",
+			"machinetranslated": true,
+			"helptext": "Chromatická aberace je typ zkreslení objektivu, který způsobuje, že různé barvy jsou zaostřeny mírně odlišně. To lze vidět jako barevný lem kolem okrajů objektů. Míru redukce chromatické aberace lze upravit."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
+			"machinetranslated": true,
+			"helptext": "Nastavuje jas generovaného HDR obrazu.",
+			"morehelptext": "<br><br>HDR snímky mají (prakticky) neomezený dynamický rozsah. U běžných obrázků s nízkým dynamickým rozsahem odpovídá bílá barva maximální hodnotě pixelů, kterou lze uložit. Ale pro HDR obrázky neexistuje nic jako „bílá“ a je třeba zvolit referenční jas. PTGui může škálovat jas generovaného HDR obrazu následujícími způsoby:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Pokud je panorama generováno ze snímků s různou expozicí, hodnota 1,0 v panoramatu HDR odpovídá bílé ve střední expozici. Pokud byl například použit bracketing 0/-2/+2, bílé pixely v expozici 0EV budou mít v panoramatu hodnotu pixelu 1,0. Výsledné HDR panorama bude obecně obsahovat pixely jasnější než 1. Toto je výchozí nastavení.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Pokud je panorama generováno ze snímků s různou expozicí, bude bílá barva na nejjasnějším zdrojovém snímku odpovídat 1,0 v panoramatu HDR. Takže všechny pixely obrazu HDR budou mezi 0 a 1.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Vezměte prosím na vědomí, že toto pouze nastavuje libovolný referenční jas pro obraz HDR. Obrázky HDR nelze zobrazit přímo a skutečný význam hodnoty 1,0 pixelu závisí na aplikaci. U snímků HDR nehrozí přeexponování: pokud je snímek HDR příliš světlý, lze jej po vygenerování zmenšit. Na rozdíl od běžných snímků nedojde u snímků HDR k oříznutí světel."
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
+			"machinetranslated": true,
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
+		},
+		{
+			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
+			"machinetranslated": true,
+			"helptext": "Použijte další offet v EV na jas obrazu HDR.",
+			"morehelptext": "<br><br>Kladná hodnota zvyšuje jas, podobně jako kompenzace expozice na fotoaparátu."
+		},
+		{
+			"id": "panoramaeditor.dropper.adjusthdrexposure",
+			"machinetranslated": true,
+			"helptext": "Změňte expozici panoramatu HDR tak, aby tento pixel měl stanovený jas v panoramatu HDR.",
+			"morehelptext": "<br><br>To má vliv pouze na jas panoramatu HDR. Panorama LDR (mapované tóny nebo sloučená expozice) není ovlivněno. Expozici HDR lze upravit ručně v postranní liště '@panoramaeditor.sidebar.hdrpostprocess@' v @panoramaeditor@.<br><br>Možnou aplikací je vyfotografovat šedou kartu se známou odrazivostí a přizpůsobit expozici HDR intenzitě světla scény v místě šedé karty."
+		},
+		{
+			"id": "panoramaeditor.toolbar.dropper",
+			"machinetranslated": true,
+			"helptext": "Vzorník barev",
+			"morehelptext": "<br><br>Kliknutím do panoramatu vyberte barvu. Jsou podporovány následující funkce:<br><br><b>Úprava vyvážení bílé:</b> klikněte na šedý objekt ve scéně. Vyvážení bílé bude upraveno tak, aby byl vybraný objekt neutrálně šedý.<optional product='pro'><br><br><b>Upravit expozici HDR:</b> upravte expozici panoramatu HDR tak, aby měl vybraný pixel určitý jas.</optional>"
+		},
+		{
+			"id": "panoramapreviewsettingspanel.previewmode",
+			"machinetranslated": true,
+			"helptext": "Přepínání mezi náhledem HDR a LDR.",
+			"morehelptext": "<br><br>Při generování panoramat HDR zvolte, zda @panoramaeditor@ a @detailviewer@ zobrazí panorama s vysokým dynamickým rozsahem nebo s nízkým dynamickým rozsahem.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@: </b>Zobrazí výstup s nízkým dynamickým rozsahem, odpovídající možnosti výstupu „@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@“ na kartě @mainwindow.tabs.createpanorama@. Toto zobrazí náhled výsledku mapování tónů a všech nastavení použitých v panelu @panoramaeditor.sidebar.postprocess@ v @panoramaeditor@.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@: </b>Zobrazí náhled výstupu s vysokým dynamickým rozsahem, který odpovídá možnosti výstupu „@mainwindow.createpanoramatab.output.hdrblended@“ na kartě @mainwindow.tabs.createpanorama@. Úplný dynamický rozsah obrazu HDR lze zkontrolovat nastavením posuvníku „Expozice“ níže. Použijí se nastavení na panelu @panoramaeditor.sidebar.hdrpostprocess@ v @panoramaeditor@. Nejsou použity žádné tónové křivky, takže obrázek bude vypadat nudně ve srovnání s náhledem LDR."
+		},
+		{
+			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
+			"machinetranslated": true,
+			"helptext": "Výstup HDR není dostupný při použití funkce Exposure Fusion.",
+			"morehelptext": "<br><br>Pomocí funkce Exposure Fusion jsou snímky s posunem sloučeny do LDR, aniž by se nejprve vygeneroval snímek s vysokým dynamickým rozsahem. Chcete-li povolit výstup HDR, vypněte Exposure Fusion na postranním panelu @panoramaeditor@."
+		},
+		{
+			"id": "panoramapreviewsettingspanel.hdrexposure",
+			"machinetranslated": true,
+			"helptext": "Zvyšte nebo snižte jas náhledu. Ovlivňuje pouze obraz zobrazený v @panoramaeditor@ a @detailviewer@, nikoli skutečný výstup."
+		},
+		{
+			"id": "fileformatsettings.exrdwacompressionlevel",
+			"machinetranslated": true,
+			"helptext": "Úroveň komprese, která se má použít pro kompresi DWA. 0 je bezeztrátový; vyšší hodnoty poskytují vyšší kompresi a nižší kvalitu obrazu."
+		},
+		{
+			"id": "detailviewer.sidebar.patch.openin",
+			"machinetranslated": true,
+			"helptext": "Vybere aplikaci, která se použije pro úpravu vygenerovaného obrazu záplaty.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Upravte obrázek patche v @patchwindow@, který je součástí PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Vyberte externí aplikaci pro úpravu obrazu záplaty. Zde jsou uvedeny všechny aplikace, které jsou registrovány pro zpracování typu souboru obrazu opravy.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Otevřete složku obsahující obrázek opravy v @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [
@@ -8870,6 +9688,16 @@
 			"id": "cameradatabase",
 			"machinetranslated": true,
 			"helptext": "<b>@cameradatabase@</b><br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. PTGui zná velikost senzoru více než 2000 fotoaparátů, ale je možné, že fotoaparát není součástí dodávkového zpracování. V takovém případě je můžete přidat do databáze fotoaparátů.<br><br><b>Použití databáze fotoaparátu</b><br><br>Okno databáze fotoaparátů lze otevřít pomocí @menubar.tools@ | @cameradatabase@. Záznamy nejsou načteny a uloženy přímo odtud; místo toho se provádí na kartě @mainwindow.tabs.lenssettings@ v hlavním okně. Pokud karta @mainwindow.tabs.lenssettings@ není zobrazena, stiskněte tlačítko @advanced@ na postranním panelu hlavního okna.<br><br>Na kartě @mainwindow.tabs.lenssettings@ stiskněte tlačítko @cameradatabase@, chcete-li načíst nebo uložit aktuální velikost snímače z nebo do databáze objektivů a přiřadit je k modelu fotoaparátu, jak je uvedeno v poli modelu fotoaparátu EXIF. Při příštím vložení tohoto modelu fotoaparátu EXIF PTGui automaticky inicializuje data o velikosti snímače fotoaparátůy."
+		},
+		{
+			"id": "patchwindow",
+			"machinetranslated": true,
+			"helptext": "<b>@patchwindow@</b><br><br>Pomocí tohoto nástroje můžete retušovat malé chyby ve švech, odstranit nežádoucí objekty (jako je stativ) nebo vyplnit chybějící části panoramatu. Retušování se provádí klonováním částí obrázku a jejich prolnutím přes jinou část obrázku. @patchwindow@ lze otevřít dvěma způsoby:<br><br>V okně <b>@detailviewer@</b> přejděte na část panoramatu, kterou chcete retušovat, otevřete postranní lištu @detailviewer.sidebar.patch@ a stiskněte tlačítko @detailviewer.sidebar.patch.createpatch@. Tím se vytvoří snímek aktuálního pohledu a přidá se jako nový zdrojový obrázek do panoramatu. Přidaný obrázek bude mít plně zelenou masku, aby bylo zajištěno, že obrázek záplaty bude použit místo původních zdrojových obrázků. Poté se otevře @patchwindow@ pro úpravu obrazu patche.<br><br>Nebo otevřete @patchwindow@ přímo z <b>nabídky @menubar.tools@</b> jako samostatný nástroj. To umožňuje otevřít jakýkoli obrázek JPEG, JPEG2000 nebo TIFF pro úpravy.<br><br>@patchwindow@ pracuje ve dvou možných režimech:<br><br><b>@patchwindow.mode.cut@:</b> Tento režim použijte k odstranění nežádoucích objektů z obrazu. Kliknutím do obrázku nakreslete kolem objektu tvar. Uzavřená oblast bude zprůhledněna.<br><br><b>@patchwindow.mode.patch@:</b> V tomto režimu klikněte na obrázek a nakreslete tvar kolem části obrázku, která by měla být překryta záplatou. Potom přetáhněte tvar do oblasti, která má být použita jako zdroj pro záplatu. Cílová oblast bude nahrazena klonovanou zdrojovou oblastí.<br><br>Záplaty lze přesouvat nebo upravovat: kliknutím do záplaty ji aktivujete. Zdrojová oblast pro aktivní patch bude označena žlutou přerušovanou čarou. Opravu nebo její zdrojovou oblast lze přesunout přetažením. Patch lze upravit přetažením jeho vrcholů. Nové vrcholy lze přidat kliknutím pravým tlačítkem na hranu. Kliknutím pravým tlačítkem na vrchol jej odstraníte. V systému macOS lze místo pravého tlačítka myši použít Ctrl+kliknutí.<br><br>Ve výchozím nastavení je povoleno <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> : spoj mezi obrázkem záplaty a obrázkem pod ním bude veden oblastmi, kde jsou si nejvíce podobné. Tím vytvoříte nejplynulejší výsledek, ale použije se pouze část záplaty. Linka švu je označena červenou linkou při najetí kurzorem myši na okno. Pokud se nechtěné části původního obrázku stále zobrazují přes záplatu, zprůhledněte tyto části pomocí režimu '@patchwindow.mode.cut@', jak je vysvětleno výše. Šev bude veden kolem průhledných oblastí. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> lze deaktivovat ve spodním panelu nástrojů. Pokud je zakázáno, oprava bude překryta jako celek. Okraje budou stále prolnuté, ale výsledek nemusí být tak hladký.<br><br>Pokud vyberete <b>@patchwindow.autosave@</b> , všechny úpravy se okamžitě uloží na disk. V opačném případě použijte tlačítko Uložit pro uložení opraveného obrázku.<br><br>Pokud byl @patchwindow@ spuštěn vytvořením opravy v okně @detailviewer@, upravený obraz opravy se automaticky znovu načte a projekt se po několika sekundách aktualizuje. Po záplatování panoramatu by se kontrolní body již neměly upravovat. Spuštěním optimalizátoru by se změnilo zarovnání obrazů a obraz záplaty by již neodrážel původní zarovnání obrazů. Proto by záplatování mělo být provedeno jako poslední krok v procesu šití. Začít od nuly je vždy možné jednoduše tím, že přejdete na kartu @mainwindow.tabs.sourceimages@ a odeberete obraz opravy z projektu.<br><br>Namísto přidání obrázku patche do projektu PTGui je také možné retušovat již spojené panorama: Po spojení panoramatu začněte nový projekt a přidejte spojené panorama jako zdrojový obrázek. Poté otevřete okno @detailviewer@ a spusťte odtud @patchwindow@."
+		},
+		{
+			"id": "mainwindow.preprocesstab",
+			"machinetranslated": true,
+			"helptext": "<b>@mainwindow.tabs.preprocess@</b><br><br>Na této kartě lze upravit nastavení pro vyvolávání snímků RAW:<br><br><b>Redukce šumu:</b> Zejména při vyšších hodnotách ISO mohou data fotoaparátu RAW obsahovat značné množství šumu. PTGui může použít redukci šumu na RAW data během konverze RAW. Sílu redukce šumu lze ovládat samostatně pro chrominanci (barvu) a jas (jas).<br><br><b>Odstranění chromatické aberace:</b> Chromatická aberace je typ zkreslení čočky, který způsobuje, že různé barvy jsou mírně odlišné. To lze vidět jako barevný lem kolem okrajů objektů. Míru redukce chromatické aberace lze upravit.<br><br>Nastavení na této kartě se použijí na zdrojové obrázky RAW a DNG před spojením. Další úpravy lze provést v @panoramaeditor@ na kartách @panoramaeditor.sidebar.postprocess@ a @panoramaeditor.sidebar.whitebalance@; tyto úpravy se použijí na spojené panorama."
 		}
 	]
 }

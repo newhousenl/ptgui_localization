@@ -89,7 +89,7 @@
 		{
 			"id": "txt.finderorexplorer",
 			"format": "html",
-			"txt": "<optional platform='windows'>Windows Explorer</optional><optional platform='mac'>Finder</optional>"
+			"txt": "<optional platform='windows'>Windows Explorer</optional><optional platform='mac'>Finder</optional><optional platform='linux'>Dateimanager</optional>"
 		},
 		{
 			"id": "txt.tb",

@@ -94,7 +94,7 @@
 		{
 			"id": "txt.finderorexplorer",
 			"format": "html",
-			"txt": "<optional platform='windows'>Windowsエクスプローラ</optional><optional platform='mac'>ファインダ</optional>"
+			"txt": "<optional platform='windows'>Windowsエクスプローラ</optional><optional platform='mac'>ファインダ</optional><optional platform='linux'>ファイルマネージャー</optional>"
 		},
 		{
 			"id": "txt.tb",

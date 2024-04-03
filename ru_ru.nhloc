@@ -105,7 +105,7 @@
 			"id": "txt.finderorexplorer",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<optional platform='windows'>проводник Windows</optional><optional platform='mac'>Finder</optional>"
+			"txt": "<optional platform='windows'>проводник Windows</optional><optional platform='mac'>Finder</optional><optional platform='linux'>проводник</optional>"
 		},
 		{
 			"id": "txt.tb",

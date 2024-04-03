@@ -94,7 +94,7 @@
 		{
 			"id": "txt.finderorexplorer",
 			"format": "html",
-			"txt": "<optional platform='windows'>Windows檔案總管</optional><optional platform='mac'>發現者</optional>"
+			"txt": "<optional platform='windows'>Windows檔案總管</optional><optional platform='mac'>發現者</optional><optional platform='linux'>檔案總管</optional>"
 		},
 		{
 			"id": "txt.tb",

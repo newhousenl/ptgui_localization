@@ -114,7 +114,7 @@
 			"id": "txt.finderorexplorer",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<optional platform='windows'>Windows 资源管理器</optional><optional platform='mac'>发现者</optional>"
+			"txt": "<optional platform='windows'>Windows 资源管理器</optional><optional platform='mac'>发现者</optional><optional platform='linux'>资源管理器</optional>"
 		},
 		{
 			"id": "txt.tb",

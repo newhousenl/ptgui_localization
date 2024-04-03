@@ -114,7 +114,7 @@
 			"id": "txt.finderorexplorer",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "<optional platform='windows'>윈도우 익스플로러</optional><optional platform='mac'>파인더</optional>"
+			"txt": "<optional platform='windows'>윈도우 익스플로러</optional><optional platform='mac'>파인더</optional><optional platform='linux'>파일 관리자</optional>"
 		},
 		{
 			"id": "txt.tb",

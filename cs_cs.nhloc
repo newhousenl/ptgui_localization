@@ -94,7 +94,7 @@
 		{
 			"id": "txt.finderorexplorer",
 			"format": "html",
-			"txt": "<optional platform='windows'>Průzkumník Windows</optional><optional platforma='mac'>Vyhledat</optional>"
+			"txt": "<optional platform='windows'>Průzkumník Windows</optional><optional platforma='mac'>Vyhledat</optional><optional platform='linux'>Správce souborů</optional>"
 		},
 		{
 			"id": "txt.tb",

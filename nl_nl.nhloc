@@ -87,7 +87,7 @@
 		{
 			"id": "txt.finderorexplorer",
 			"format": "html",
-			"txt": "<optional platform='windows'>Windows Verkenner</optional><optional platform='mac'>Finder</optional>"
+			"txt": "<optional platform='windows'>Windows Verkenner</optional><optional platform='mac'>Finder</optional><optional platform='linux'>Bestandsverkenner</optional>"
 		},
 		{
 			"id": "help",

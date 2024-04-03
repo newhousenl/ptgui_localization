@@ -9550,7 +9550,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Vybere aplikaci, která se použije pro úpravu vygenerovaného obrazu záplaty.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Upravte obrázek patche v @patchwindow@, který je součástí PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Vyberte externí aplikaci pro úpravu obrazu záplaty. Zde jsou uvedeny všechny aplikace, které jsou registrovány pro zpracování typu souboru obrazu opravy.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Otevřete složku obsahující obrázek opravy v @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Upravte obrázek patche v @patchwindow@, který je součástí PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Vyberte externí aplikaci pro úpravu obrazu záplaty. Zde jsou uvedeny všechny aplikace, které jsou registrovány pro zpracování typu souboru obrazu opravy.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Otevřete složku obsahující obrázek opravy v @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

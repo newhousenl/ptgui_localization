@@ -9302,7 +9302,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Selecteert de toepassing die moet worden gebruikt voor het bewerken van de gegenereerde patchafbeelding.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bewerk de patchafbeelding in de @patchwindow@ die bij PTGui wordt geleverd.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Kies een externe applicatie om de patchafbeelding te bewerken. Hier worden alle applicaties vermeld die zijn geregistreerd om het bestandstype van de patchimage te verwerken.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open de map met de patchafbeelding in @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bewerk de patchafbeelding in de @patchwindow@ die bij PTGui wordt geleverd.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Kies een externe applicatie om de patchafbeelding te bewerken. Hier worden alle applicaties vermeld die zijn geregistreerd om het bestandstype van de patchimage te verwerken.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open de map met de patchafbeelding in @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

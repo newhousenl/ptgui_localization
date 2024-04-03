@@ -11119,7 +11119,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "생성된 패치 이미지를 편집하는 데 사용할 애플리케이션을 선택합니다.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui에 포함된 @patchwindow@에서 패치 이미지를 편집합니다.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> 패치 이미지를 편집하려면 외부 응용 프로그램을 선택하세요. 여기에는 패치 이미지의 파일 형식을 처리하기 위해 등록된 모든 응용 프로그램이 나열되어 있습니다.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@에서 패치 이미지가 포함된 폴더를 엽니다."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui에 포함된 @patchwindow@에서 패치 이미지를 편집합니다.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> 패치 이미지를 편집하려면 외부 응용 프로그램을 선택하세요. 여기에는 패치 이미지의 파일 형식을 처리하기 위해 등록된 모든 응용 프로그램이 나열되어 있습니다.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@에서 패치 이미지가 포함된 폴더를 엽니다."
 		}
 	],
 	"helppages": [

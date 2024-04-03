@@ -10702,7 +10702,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Seleziona l'applicazione da utilizzare per modificare l'immagine patch generata.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> modifica l'immagine della patch nell'@patchwindow@ incluso con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> scegliere un'applicazione esterna per modificare l'immagine della patch. Qui sono elencate tutte le applicazioni registrate per gestire il tipo di file dell'immagine patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> aprire la cartella contenente l'immagine della patch in @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> modifica l'immagine della patch nell'@patchwindow@ incluso con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> scegliere un'applicazione esterna per modificare l'immagine della patch. Qui sono elencate tutte le applicazioni registrate per gestire il tipo di file dell'immagine patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> aprire la cartella contenente l'immagine della patch in @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

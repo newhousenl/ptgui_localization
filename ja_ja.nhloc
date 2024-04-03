@@ -9302,7 +9302,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "生成したパッチイメージを編集するアプリケーションを選択します。",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui に付属の @patchwindow@ 内のパッチ イメージを編集します。<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b>パッチ イメージを編集するには、外部アプリケーションを選択します。ここでは、パッチ イメージのファイル タイプを処理するために登録されているすべてのアプリケーションが一覧表示されます。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@ のパッチ イメージを含むフォルダーを開きます。"
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui に付属の @patchwindow@ 内のパッチ イメージを編集します。<br><br><b>@detailviewer.sidebar.patch.openin.application@</b>パッチ イメージを編集するには、外部アプリケーションを選択します。ここでは、パッチ イメージのファイル タイプを処理するために登録されているすべてのアプリケーションが一覧表示されます。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@ のパッチ イメージを含むフォルダーを開きます。"
 		}
 	],
 	"helppages": [

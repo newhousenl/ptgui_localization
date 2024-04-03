@@ -9113,7 +9113,7 @@
         {
             "id": "detailviewer.sidebar.patch.openin",
             "helptext": "Selects the application to use for editing the generated patch image.",
-            "morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edit the patch image in the @patchwindow@ included with PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Choose an external application to edit the patch image. Here all applications are listed that are registered to handle the file type of the patch image.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open the folder containing the patch image in @txt.finderorexplorer@."
+            "morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edit the patch image in the @patchwindow@ included with PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Choose an external application to edit the patch image. Here all applications are listed that are registered to handle the file type of the patch image.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open the folder containing the patch image in @txt.finderorexplorer@."
         }
 
     ],

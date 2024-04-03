@@ -11109,7 +11109,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Seleciona o aplicativo a ser usado para editar a imagem de patch gerada.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edite a imagem do patch no @patchwindow@ incluído no PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Escolha um aplicativo externo para editar a imagem de correção. Aqui estão listados todos os aplicativos registrados para lidar com o tipo de arquivo da imagem de patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Abra a pasta que contém a imagem do patch em @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edite a imagem do patch no @patchwindow@ incluído no PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Escolha um aplicativo externo para editar a imagem de correção. Aqui estão listados todos os aplicativos registrados para lidar com o tipo de arquivo da imagem de patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Abra a pasta que contém a imagem do patch em @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

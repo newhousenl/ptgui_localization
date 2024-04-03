@@ -9701,7 +9701,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Wählt die Anwendung aus, die zum Bearbeiten des generierten Patch-Images verwendet werden soll.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bearbeite das Patch-Image im @patchwindow@, das in PTGui enthalten ist.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> Wählen Sie eine externe Anwendung zum Bearbeiten des Patch-Images. Hier werden alle Anwendungen aufgelistet, die für die Verarbeitung des Dateityps des Patch-Images registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Öffnet den Ordner mit dem Patch-Image in @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bearbeite das Patch-Image im @patchwindow@, das in PTGui enthalten ist.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie eine externe Anwendung zum Bearbeiten des Patch-Images. Hier werden alle Anwendungen aufgelistet, die für die Verarbeitung des Dateityps des Patch-Images registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Öffnet den Ordner mit dem Patch-Image in @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

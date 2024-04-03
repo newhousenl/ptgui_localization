@@ -11098,7 +11098,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Выбирает приложение, которое будет использоваться для редактирования сгенерированного изображения патча.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> отредактируйте изображение патча в @patchwindow@, включенном в PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> выберите внешнее приложение для редактирования изображения патча. Здесь перечислены все приложения, зарегистрированные для обработки типа файла образа исправления.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> откройте папку, содержащую изображение исправления, в @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> отредактируйте изображение патча в @patchwindow@, включенном в PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> выберите внешнее приложение для редактирования изображения патча. Здесь перечислены все приложения, зарегистрированные для обработки типа файла образа исправления.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> откройте папку, содержащую изображение исправления, в @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

@@ -11119,7 +11119,7 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"machinetranslated": true,
 			"helptext": "Selecciona la aplicación que se utilizará para editar la imagen del parche generado.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> edite la imagen del parche en @patchwindow@ incluido con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@:</b> elija una aplicación externa para editar la imagen del parche. Aquí se enumeran todas las aplicaciones que están registradas para manejar el tipo de archivo de la imagen del parche.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> abra la carpeta que contiene la imagen del parche en @txt.finderorexplorer@."
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> edite la imagen del parche en @patchwindow@ incluido con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> elija una aplicación externa para editar la imagen del parche. Aquí se enumeran todas las aplicaciones que están registradas para manejar el tipo de archivo de la imagen del parche.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> abra la carpeta que contiene la imagen del parche en @txt.finderorexplorer@."
 		}
 	],
 	"helppages": [

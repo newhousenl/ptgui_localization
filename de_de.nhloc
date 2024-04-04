@@ -3344,7 +3344,7 @@
 		},
 		{
 			"id": "licenseagreement.thanksforusing",
-			"txt": "Danke für die Verwendung von %0!"
+			"txt": "Vielen Dank, dass Sie sich für %0 entschieden haben!"
 		},
 		{
 			"id": "licenseagreement.thanksfortrying",
@@ -7633,7 +7633,7 @@
 		{
 			"id": "projectsettingstab.alignimagesbehavior",
 			"machinetranslated": false,
-			"helptext": "Dieser Abschnitt legt das Verhalten fest, wenn Sie auf der Registerkarte '@mainwindow.tabs.projectassistant@' auf '@alignimages@' geklicken oder wenn Sie ein Projekt in den Batch-Stitcher laden und '@alignimages@' in '@mainwindow.projectsettings.batchstitcheractions@' unten aktiviert ist.",
+			"helptext": "Dieser Abschnitt legt das Verhalten fest, wenn Sie auf der Registerkarte '@mainwindow.tabs.projectassistant@' auf '@alignimages@' klicken oder wenn Sie ein Projekt in den Batch-Stitcher laden und '@alignimages@' in '@mainwindow.projectsettings.batchstitcheractions@' unten aktiviert ist.",
 			"morehelptext": "<br><br>'@alignimages@' richtet das Panorama in mehreren Schritten ein. Zuerst werden Kontrollpunkte erzeugt, dann werden die Bilder basierend auf den Kontrollpunkten ausgerichtet. Optional wird das Panorama begradigt und je nach Bildwinkel eine geeignete Projektion gewählt.<br><br>Das Anpassen dieses Verhaltens kann insbesondere bei der Verwendung von Vorlagen nützlich sein oder wenn '@alignimages@' im Rahmen des Batch-Stitcher ausgeführt wird. Zum Beispiel kann die gewünschte Projektion bereits in der Vorlage eingestellt sein, sie sollte dann nicht während der Ausführung des Batch-Stitchers geändert werden."
 		},
 		{
@@ -9699,9 +9699,8 @@
 		},
 		{
 			"id": "detailviewer.sidebar.patch.openin",
-			"machinetranslated": true,
-			"helptext": "Wählt die Anwendung aus, die zum Bearbeiten des generierten Patch-Images verwendet werden soll.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bearbeite das Patch-Image im @patchwindow@, das in PTGui enthalten ist.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie eine externe Anwendung zum Bearbeiten des Patch-Images. Hier werden alle Anwendungen aufgelistet, die für die Verarbeitung des Dateityps des Patch-Images registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Öffnet den Ordner mit dem Patch-Image in @txt.finderorexplorer@."
+      "helptext": "Legt die Anwendung für die Bearbeitung des generierten Patch-Bildes fest.",
+      "morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Der in PTGui enthaltene @patchwindow@ wird für die Bearbeitung des Patch-Bildes verwendet.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie aus der Liste eine externe Anwendung für die Bearbeitung des Patch-Bildes aus. Es werden alle Anwendungen aufgeführt, die für die Verarbeitung des Dateityps des Patch-Bildes registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Der Ordner, in dem das Patch-Bild gespeichert wird, wird im @txt.finderorexplorer@ geöffnet.<br>"
 		}
 	],
 	"helppages": [

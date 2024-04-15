@@ -7046,7 +7046,7 @@
 		{
 			"id": "menubar.file.resetdefault",
 			"machinetranslated": false,
-			"helptext": "Die ursprünglichen Standard-Projekteinstellungen von PTGui wieder herstellen. Dadurch werden alle von '@menubar.file.makedefault@ 'vorgenommenen benutzerdefinierten Einstellungen entfernt."
+			"helptext": "Die ursprünglichen Standard-Projekteinstellungen von PTGui wieder herstellen. Dadurch werden alle von '@menubar.file.makedefault@' vorgenommenen benutzerdefinierten Einstellungen entfernt."
 		},
 		{
 			"id": "menubar.file.newinstance",

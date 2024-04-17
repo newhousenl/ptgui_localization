@@ -8172,6 +8172,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "파일 위치 열기"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "이 기능은 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 블렌더를 사용하고 노출 보정이 활성화된 경우에만 사용할 수 있습니다. <a href=0>지금 수정.</a>"
 		}
 	],
 	"tooltips": [

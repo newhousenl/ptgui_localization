@@ -8151,6 +8151,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Местонахождение открытого файла"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Эта функция доступна только при использовании блендера @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ и включенной компенсации экспозиции. <a href=0>Исправьте сейчас.</a>"
 		}
 	],
 	"tooltips": [

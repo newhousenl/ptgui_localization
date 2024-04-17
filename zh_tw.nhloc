@@ -7225,6 +7225,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "開啟文件所在位置"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "僅當使用 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 混音器並啟用曝光補償時，此功能才可用。<a href=0>現在就修。</a>"
 		}
 	],
 	"tooltips": [

@@ -6793,6 +6793,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Bestandslocatie openen"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Deze functie is alleen beschikbaar als de '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' blender wordt gebruikt en belichtingscompensatie is ingeschakeld. <a href=0>Nu aanpassen.</a>"
 		}
 	],
 	"tooltips": [

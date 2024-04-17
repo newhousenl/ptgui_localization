@@ -6680,6 +6680,11 @@
 {
     "id": "detailviewer.sidebar.patch.openin.explorer",
     "txt": "Open file location"
+},
+{
+    "id": "detailviewer.sidebar.patch.wrongblendsettings",
+    "format": "html",
+    "txt": "This function is available only when the @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ blender is used and Exposure Compensation is enabled. <a href=0>Fix now.</a>"
 }
 
     ],
@@ -8758,7 +8763,7 @@
         {
             "id": "mainwindow.exposurehdrpanel.hdrflow",
             "helptext": "Configures how bracketed exposures are handled.",
-            "morehelptext": "<br><br>Bracketed exposures can be processed in two ways:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui first combines each set of bracketed exposures into an HDR image (or combines them using Exposure Fusion). Then, the combined images are blended into a panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> First, so-called 'blend planes' are created. A blend plane is the complete panorama at one exposure level (i.e. all images taken at identical expsoure time, aperture and ISO). Finally, the separate blend planes are combined into an HDR image or an exposure fused image. This method should be used only for panoramas taken in manual exposure mode. It requires that the entire panorama is fully covered at each exposure level.<br><br><b>@options.automatic@:</b> Chooses the best option for the current project. If the images were taken in manual exposure mode, blend planes will be created. Otherwise the bracketed images will be combined first and then blended."
+            "morehelptext": "<br><br>Bracketed exposures can be processed in two ways:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui first combines each set of bracketed exposures into an HDR image (or combines them using Exposure Fusion). Then, the combined images are blended into a panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> First, so-called 'blend planes' are created. A blend plane is the complete panorama at one exposure level (i.e. all images taken at identical exposure time, aperture and ISO). Finally, the separate blend planes are combined into an HDR image or an exposure fused image. This method should be used only for panoramas taken in manual exposure mode. It requires that the entire panorama is fully covered at each exposure level.<br><br><b>@options.automatic@:</b> Chooses the best option for the current project. If the images were taken in manual exposure mode, blend planes will be created. Otherwise the bracketed images will be combined first and then blended."
         },
         {
             "id": "mainwindow.exposurehdrpanel.mergemethod",

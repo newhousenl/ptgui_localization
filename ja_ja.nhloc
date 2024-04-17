@@ -6795,6 +6795,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "開いているファイルの場所"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "この機能は、@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ ブレンダーが使用され、露出補正が有効になっている場合にのみ使用できます。<a href=0>今すぐ修正してください。</a>"
 		}
 	],
 	"tooltips": [

@@ -8172,6 +8172,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Abrir localización de archivo"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Esta función está disponible solo cuando se utiliza el algoritmo de mezcla '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' y la compensación de exposición está habilitada. <a href=0>Reparalo ahora.</a>"
 		}
 	],
 	"tooltips": [

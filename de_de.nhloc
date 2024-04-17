@@ -6775,6 +6775,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Ordner öffnen"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Diese Funktion ist nur verfügbar, wenn der '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' Blender verwendet wird und Belichtungskorrektur aktiviert ist. <a href=0>Jetzt beheben.</a>"
 		}
 	],
 	"tooltips": [
@@ -9699,8 +9705,8 @@
 		},
 		{
 			"id": "detailviewer.sidebar.patch.openin",
-      "helptext": "Legt die Anwendung für die Bearbeitung des generierten Patch-Bildes fest.",
-      "morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Der in PTGui enthaltene @patchwindow@ wird für die Bearbeitung des Patch-Bildes verwendet.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie aus der Liste eine externe Anwendung für die Bearbeitung des Patch-Bildes aus. Es werden alle Anwendungen aufgeführt, die für die Verarbeitung des Dateityps des Patch-Bildes registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Der Ordner, in dem das Patch-Bild gespeichert wird, wird im @txt.finderorexplorer@ geöffnet.<br>"
+			"helptext": "Legt die Anwendung für die Bearbeitung des generierten Patch-Bildes fest.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Der in PTGui enthaltene @patchwindow@ wird für die Bearbeitung des Patch-Bildes verwendet.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie aus der Liste eine externe Anwendung für die Bearbeitung des Patch-Bildes aus. Es werden alle Anwendungen aufgeführt, die für die Verarbeitung des Dateityps des Patch-Bildes registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Der Ordner, in dem das Patch-Bild gespeichert wird, wird im @txt.finderorexplorer@ geöffnet.<br>"
 		}
 	],
 	"helppages": [

@@ -6785,6 +6785,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Otevřít umístění souboru"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Tato funkce je dostupná pouze v případě, že je použit mixér @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ a je povolena kompenzace expozice. <a href=0>Opravit teď.</a>"
 		}
 	],
 	"tooltips": [

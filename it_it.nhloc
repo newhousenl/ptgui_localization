@@ -7755,6 +7755,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Aprire la destinazione del file"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Questa funzione è disponibile solo quando si utilizza il frullatore @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e la compensazione dell'esposizione è abilitata. <a href=0>Sistemalo adesso.</a>"
 		}
 	],
 	"tooltips": [

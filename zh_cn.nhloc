@@ -8172,6 +8172,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "打开文件所在位置"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "仅当使用 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 混合器并启用曝光补偿时，此功能才可用。<a href=0>立即修复。</a>"
 		}
 	],
 	"tooltips": [

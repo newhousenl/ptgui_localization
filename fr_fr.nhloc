@@ -8176,6 +8176,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Lieu de fichier ouvert"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Cette fonction est disponible uniquement lorsque le mélangeur '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' est utilisé et que la compensation d'exposition est activée. <a href=0>Répare maintenant.</a>"
 		}
 	],
 	"tooltips": [

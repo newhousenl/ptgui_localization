@@ -8162,6 +8162,12 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Abrir local do Ficheiro"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Esta função está disponível somente quando o Algoritmo de mistura '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' é usado e a compensação de exposição está habilitada. <a href=0>Conserte agora.</a>"
 		}
 	],
 	"tooltips": [

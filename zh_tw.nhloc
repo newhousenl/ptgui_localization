@@ -7231,6 +7231,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "僅當使用 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 混音器並啟用曝光補償時，此功能才可用。<a href=0>現在就修。</a>"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.interpolator.nearest",
+			"machinetranslated": true,
+			"txt": "Neirest Neighbor"
 		}
 	],
 	"tooltips": [
@@ -8434,7 +8439,7 @@
 			"id": "createpanoramatab.interpolator",
 			"machinetranslated": true,
 			"helptext": "控制用於計算實際源影像像素之間的像素的方法。",
-			"morehelptext": "<br><br>當將影像變形為全景圖時，需要在源影像中的「像素之間」計算像素值。此過程稱為插值。 PTGui提供了幾種插值演算法。每種演算法都有其優點和缺點;這是最好的插補器是一個品味的問題，取決於實際的影像。插值器之間的差異可能很微妙，但它們在對角線（更平滑或略帶鋸齒）周圍以及高對比度區域（或多或少的「光暈」偽像）周圍是顯而易見的。<br><br><b>最近鄰：</b>該內插器簡單地選擇最接近要計算的像素位置的像素。該演算法非常快，但結果非常差。<br><br><b>雙線性：</b>通過平均所需像素位置周圍的4個像素來完成插值。相對較快且比最近鄰好，但不建議用於生產。<br><br><b>Bicubic：</b>使用4x4內核，即所需像素位置周圍的16個像素用於計算全景圖中的每個像素。可提供三種不同級別的銳化。使用HDR源影像時，建議使用@mainwindow.createpanoramatab.interpolator.bicubicsofter@插值器，因為它不包含負係數。其他插值器確實具有負係數，這可能導致HDR全景圖中高對比度區域周圍的暈圈。<br><br><b>Lanczos和Spline：</b>更復雜的內插器，內核更大。較大的內核提供更平滑的對角線，但更有可能在高對比度物體周圍產生可見光暈。<br><br><b>@default@：</b>將Lanczos2用於常規源影像，或將@mainwindow.createpanoramatab.interpolator.bicubicsofter@用於32位HDR源影像。"
+			"morehelptext": "<br><br>當將影像變形為全景圖時，需要在源影像中的「像素之間」計算像素值。此過程稱為插值。 PTGui提供了幾種插值演算法。每種演算法都有其優點和缺點;這是最好的插補器是一個品味的問題，取決於實際的影像。插值器之間的差異可能很微妙，但它們在對角線（更平滑或略帶鋸齒）周圍以及高對比度區域（或多或少的「光暈」偽像）周圍是顯而易見的。<br><br><b>@mainwindow.createpanoramatab.interpolator.nearest@：</b>該內插器簡單地選擇最接近要計算的像素位置的像素。該演算法非常快，但結果非常差。<br><br><b>@mainwindow.createpanoramatab.interpolator.bilinear@：</b>通過平均所需像素位置周圍的4個像素來完成插值。相對較快且比最近鄰好，但不建議用於生產。<br><br><b>Bicubic：</b>使用4x4內核，即所需像素位置周圍的16個像素用於計算全景圖中的每個像素。可提供三種不同級別的銳化。使用HDR源影像時，建議使用@mainwindow.createpanoramatab.interpolator.bicubicsofter@插值器，因為它不包含負係數。其他插值器確實具有負係數，這可能導致HDR全景圖中高對比度區域周圍的暈圈。<br><br><b>Lanczos和Spline：</b>更復雜的內插器，內核更大。較大的內核提供更平滑的對角線，但更有可能在高對比度物體周圍產生可見光暈。<br><br><b>@default@：</b>將Lanczos2用於常規源影像，或將@mainwindow.createpanoramatab.interpolator.bicubicsofter@用於32位HDR源影像。"
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",

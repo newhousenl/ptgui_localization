@@ -8178,6 +8178,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "仅当使用 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 混合器并启用曝光补偿时，此功能才可用。<a href=0>立即修复。</a>"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.interpolator.nearest",
+			"machinetranslated": true,
+			"txt": "最邻近的邻居"
 		}
 	],
 	"tooltips": [
@@ -9381,7 +9386,7 @@
 			"id": "createpanoramatab.interpolator",
 			"machinetranslated": true,
 			"helptext": "控制用于计算实际源图像像素之间的像素的方法。",
-			"morehelptext": "<br><br>当将图像变形为全景图时，需要在源图像中的“像素之间”计算像素值。此过程称为插值。PTGui 提供了几种插值算法。每种算法都有其优点和缺点；这是最好的插补器是一个品味的问题，取决于实际的图像。插值器之间的差异可能很微妙，但它们在对角线（更平滑或略带锯齿）周围以及高对比度区域（或多或少的“光晕”伪像）周围是显而易见的。<br><br><b>最近邻：</b>该内插器简单地选择最接近要计算的像素位置的像素。该算法非常快，但结果非常差。<br><br><b>双线性：</b>通过平均所需像素位置周围的 4 个像素来完成插值。相对较快且比最近邻好，但不建议用于生产。<br><br><b>Bicubic：</b>使用4x4内核，即所需像素位置周围的 16 个像素用于计算全景图中的每个像素。可提供三种不同级别的锐化。使用 HDR 源图像时，建议使用@mainwindow.createpanoramatab.interpolator.bicubicsofter@插值器，因为它不包含负系数。其他插值器确实具有负系数，这可能导致 HDR 全景图中高对比度区域周围的晕圈。<br><br><b>Lanczos和Spline：</b>更复杂的内插器，内核更大。较大的内核提供更平滑的对角线，但更有可能在高对比度物体周围生成可见光晕。<br><br><b>@default@：</b>将Lanczos2用于常规源图像，或将@mainwindow.createpanoramatab.interpolator.bicubicsofter@用于 32 位 HDR 源图像。"
+			"morehelptext": "<br><br>当将图像变形为全景图时，需要在源图像中的“像素之间”计算像素值。此过程称为插值。PTGui 提供了几种插值算法。每种算法都有其优点和缺点；这是最好的插补器是一个品味的问题，取决于实际的图像。插值器之间的差异可能很微妙，但它们在对角线（更平滑或略带锯齿）周围以及高对比度区域（或多或少的“光晕”伪像）周围是显而易见的。<br><br><b>@mainwindow.createpanoramatab.interpolator.nearest@：</b>该内插器简单地选择最接近要计算的像素位置的像素。该算法非常快，但结果非常差。<br><br><b>@mainwindow.createpanoramatab.interpolator.bilinear@：</b>通过平均所需像素位置周围的 4 个像素来完成插值。相对较快且比最近邻好，但不建议用于生产。<br><br><b>Bicubic：</b>使用4x4内核，即所需像素位置周围的 16 个像素用于计算全景图中的每个像素。可提供三种不同级别的锐化。使用 HDR 源图像时，建议使用@mainwindow.createpanoramatab.interpolator.bicubicsofter@插值器，因为它不包含负系数。其他插值器确实具有负系数，这可能导致 HDR 全景图中高对比度区域周围的晕圈。<br><br><b>Lanczos和Spline：</b>更复杂的内插器，内核更大。较大的内核提供更平滑的对角线，但更有可能在高对比度物体周围生成可见光晕。<br><br><b>@default@：</b>将Lanczos2用于常规源图像，或将@mainwindow.createpanoramatab.interpolator.bicubicsofter@用于 32 位 HDR 源图像。"
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",

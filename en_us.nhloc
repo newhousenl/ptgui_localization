@@ -2616,6 +2616,10 @@
     "txt": "Bicubic sharper (Poly3)"
 },
 {
+    "id": "mainwindow.createpanoramatab.interpolator.nearest",
+    "txt": "Neirest Neighbor"
+},
+{
     "id": "mainwindow.createpanoramatab.restoredefaults",
     "txt": "Restore defaults"
 },

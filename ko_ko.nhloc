@@ -8178,6 +8178,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "이 기능은 @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ 블렌더를 사용하고 노출 보정이 활성화된 경우에만 사용할 수 있습니다. <a href=0>지금 수정.</a>"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.interpolator.nearest",
+			"machinetranslated": true,
+			"txt": "가장 가까운 이웃"
 		}
 	],
 	"tooltips": [
@@ -9381,7 +9386,7 @@
 			"id": "createpanoramatab.interpolator",
 			"machinetranslated": true,
 			"helptext": "실제 소스 이미지 픽셀 사이의 픽셀을 계산하는 데 사용되는 방법을 제어합니다.",
-			"morehelptext": "<br><br>이미지를 파노라마로 왜곡 할 때 원본 이미지에서 픽셀 값을 '중간'픽셀로 계산해야합니다. 이 과정을 보간이라고합니다. PTGui는 여러 보간 알고리즘을 제공합니다. 각 알고리즘에는 장단점이 있습니다. 가장 좋은 보간자인 것은 맛의 문제이며 실제 이미지에 의존합니다. 인터폴 레이터 간의 차이점은 미묘하지만 대각선(부드럽게 또는 약간 들쭉날쭉 함) 주위와 높은 대비 영역(다소 '후광'유물) 주위에서 눈에.니다.<br><br><b>가장 가까운 이웃 :</b> 이 보간자는 계산할 픽셀 위치에 가장 가까운 픽셀을 선택합니다. 알고리즘은 매우 빠르지 만 결과는 매우 나쁩니다.<br><br><b>쌍 선형 :</b> 보간은 원하는 픽셀 위치 주변의 4 픽셀을 평균하여 수행됩니다. 가장 가까운 이웃보다 상대적으로 빠르고 빠르지 만 프로덕션에는 권장되지 않습니다.<br><br><b>Bicubic :</b> 4x4 커널을 사용합니다. 즉, 원하는 픽셀 위치 주변의 16 픽셀을 사용하여 파노라마의 각 픽셀을 계산합니다. 세 가지 다른 레벨의 선명 화가 가능합니다. @mainwindow.createpanoramatab.interpolator.bicubicsofter@ 인터폴 레이터는 음의 계수를 포함하지 않으므로 HDR 소스 이미지를 사용할 때 권장됩니다. 다른 보간 기는 HDR 파노라마에서 고 대비 영역 주위에 후광을 유발할 수있는 음의 계수를 가지고 있습니다.<br><br><b>Lanczos and Spline :</b> 더 큰 커널을 가진보다 정교한 보간 기. 커다란 커널은 더 부드러운 대각선을 제공하지만 콘트라스트가 높은 객체 주위에 보이는 후광을 만드는 경향이 강합니다.<br><br><b>@default@ :</b> 일반 소스 이미지에 Lanczos2를 사용하거나 32 비트 HDR 소스 이미지에 @mainwindow.createpanoramatab.interpolator.bicubicsofter@를 사용합니다."
+			"morehelptext": "<br><br>이미지를 파노라마로 왜곡 할 때 원본 이미지에서 픽셀 값을 '중간'픽셀로 계산해야합니다. 이 과정을 보간이라고합니다. PTGui는 여러 보간 알고리즘을 제공합니다. 각 알고리즘에는 장단점이 있습니다. 가장 좋은 보간자인 것은 맛의 문제이며 실제 이미지에 의존합니다. 인터폴 레이터 간의 차이점은 미묘하지만 대각선(부드럽게 또는 약간 들쭉날쭉 함) 주위와 높은 대비 영역(다소 '후광'유물) 주위에서 눈에.니다.<br><br><b>@mainwindow.createpanoramatab.interpolator.nearest@:</b> 이 보간자는 계산할 픽셀 위치에 가장 가까운 픽셀을 선택합니다. 알고리즘은 매우 빠르지 만 결과는 매우 나쁩니다.<br><br><b>@mainwindow.createpanoramatab.interpolator.bilinear@:</b> 보간은 원하는 픽셀 위치 주변의 4 픽셀을 평균하여 수행됩니다. 가장 가까운 이웃보다 상대적으로 빠르고 빠르지 만 프로덕션에는 권장되지 않습니다.<br><br><b>Bicubic :</b> 4x4 커널을 사용합니다. 즉, 원하는 픽셀 위치 주변의 16 픽셀을 사용하여 파노라마의 각 픽셀을 계산합니다. 세 가지 다른 레벨의 선명 화가 가능합니다. @mainwindow.createpanoramatab.interpolator.bicubicsofter@ 인터폴 레이터는 음의 계수를 포함하지 않으므로 HDR 소스 이미지를 사용할 때 권장됩니다. 다른 보간 기는 HDR 파노라마에서 고 대비 영역 주위에 후광을 유발할 수있는 음의 계수를 가지고 있습니다.<br><br><b>Lanczos and Spline :</b> 더 큰 커널을 가진보다 정교한 보간 기. 커다란 커널은 더 부드러운 대각선을 제공하지만 콘트라스트가 높은 객체 주위에 보이는 후광을 만드는 경향이 강합니다.<br><br><b>@default@ :</b> 일반 소스 이미지에 Lanczos2를 사용하거나 32 비트 HDR 소스 이미지에 @mainwindow.createpanoramatab.interpolator.bicubicsofter@를 사용합니다."
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",

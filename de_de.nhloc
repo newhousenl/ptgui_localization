@@ -6778,7 +6778,7 @@
 		},
 		{
 			"id": "detailviewer.sidebar.patch.wrongblendsettings",
-			"machinetranslated": true,
+			"machinetranslated": false,
 			"format": "html",
 			"txt": "Diese Funktion ist nur verfügbar, wenn der Überblendalgorithmus '@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@' verwendet wird und die Belichtungskorrektur aktiviert ist. <a href=0>Jetzt beide Werte anpassen.</a>"
 		},

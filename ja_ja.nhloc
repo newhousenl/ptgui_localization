@@ -5492,6 +5492,10 @@
 			"txt": "JPEG品質："
 		},
 		{
+			"id": "quality",
+			"txt": "品質："
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"txt": "初期ウィンドウサイズ："
 		},

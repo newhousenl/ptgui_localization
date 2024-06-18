@@ -5521,6 +5521,10 @@
 			"txt": "Kvalita JPEG:"
 		},
 		{
+			"id": "quality",
+			"txt": "Kvalita:"
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"txt": "Počáteční velikost okna:"
 		},

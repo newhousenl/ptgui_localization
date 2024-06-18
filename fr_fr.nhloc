@@ -6772,6 +6772,11 @@
 			"txt": "Qualité JPEG:"
 		},
 		{
+			"id": "quality",
+			"machinetranslated": true,
+			"txt": "Qualité:"
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"machinetranslated": true,
 			"txt": "Taille initiale de la fenêtre:"

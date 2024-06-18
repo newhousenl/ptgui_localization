@@ -6748,6 +6748,11 @@
 			"txt": "JPEG 품질 :"
 		},
 		{
+			"id": "quality",
+			"machinetranslated": true,
+			"txt": "품질 :"
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"machinetranslated": true,
 			"txt": "초기 창 크기 :"

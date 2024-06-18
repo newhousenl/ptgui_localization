@@ -6753,6 +6753,11 @@
 			"txt": "JPEG 品质："
 		},
 		{
+			"id": "quality",
+			"machinetranslated": true,
+			"txt": "品质："
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"machinetranslated": true,
 			"txt": "初始窗口大小："

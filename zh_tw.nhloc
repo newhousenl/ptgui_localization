@@ -5806,6 +5806,11 @@
 			"txt": "JPEG品質："
 		},
 		{
+			"id": "quality",
+			"machinetranslated": true,
+			"txt": "品質："
+		},
+		{
 			"id": "qtvrsettings.initialwindowsize",
 			"machinetranslated": true,
 			"txt": "初始視窗大小："

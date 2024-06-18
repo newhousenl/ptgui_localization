@@ -5656,6 +5656,10 @@
     "txt": "JPEG quality:"
 },
 {
+    "id": "quality",
+    "txt": "Quality:"
+},
+{
     "id": "qtvrsettings.initialwindowsize",
     "txt": "Initial window size:"
 },

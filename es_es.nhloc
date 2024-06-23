@@ -3,11 +3,11 @@
 	"line_endings": "unix",
 	"contributors": [
 		"Mario Carvajal",
-		"lopertyur y Byron S Cubides",
-		""
+		"lopertyur",
+		"Byron S Cubides"
 	],
 	"languagenamelocalized": "Español",
-	"startupmsg": "Esta versión en español de PTGui ha sido traducida del inglés al español por un sistema de traducción por computadora y con el tiempo algunos contribuyentes de la comunidad PTGui se han sumado para hacer correciones y mejorar la experiencia de uso en este idioma. La traducción puede no ser perfecta, pero esperamos que sea comprensible. Si es necesario, puede cambiar a la traducción original en inglés en %0.\n\nSi está interesado, ayúdenos a mejorar PTGui corrigiendo cualquier error en la traducción al español. Para obtener más información, consulte: '@help@ - @txt.improvetranslation@'.",
+	"startupmsg": null,
 	"strings": [
 		{
 			"id": "txt.improvetranslation",

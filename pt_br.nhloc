@@ -2,8 +2,8 @@
 	"$schema": "https://www.ptgui.com/schemas/nhloc_v2.schema.json",
 	"line_endings": "unix",
 	"contributors": [
-		"cjustino",
-		"Bruno Henrique Vaz Silveira"
+		"Bruno Henrique Vaz Silveira",
+		"cjustino"
 	],
 	"languagenamelocalized": "Português do Brasil",
 	"startupmsg": null,
@@ -7803,6 +7803,22 @@
 			"id": "detailviewer.sidebar.patch.openin.explorer",
 			"machinetranslated": true,
 			"txt": "Abrir local do Ficheiro"
+		},
+		{
+			"id": "mainwindow.createpanoramatab.interpolator.nearest",
+			"machinetranslated": true,
+			"txt": "Vizinho mais próximo"
+		},
+		{
+			"id": "quality",
+			"machinetranslated": true,
+			"txt": "Qualidade:"
+		},
+		{
+			"id": "detailviewer.sidebar.patch.wrongblendsettings",
+			"machinetranslated": true,
+			"format": "html",
+			"txt": "Esta função está disponível somente quando o algoritmo de mistura @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ é usado e a compensação de exposição está habilitada. <a href=0>Habilite agora.</a>"
 		}
 	],
 	"tooltips": [
@@ -8886,7 +8902,7 @@
 			"id": "createpanoramatab.interpolator",
 			"machinetranslated": true,
 			"helptext": "Controla o método usado para calcular pixels entre os pixels reais da imagem de origem.",
-			"morehelptext": "<br><br>Ao distorcer imagens em um panorama, os valores de pixel precisam ser calculados em pixels entre os pixels na imagem de origem. Esse processo é chamado de interpolação. O PTGui fornece vários algoritmos de interpolação. Cada algoritmo tem seus prós e contras; Qual é o melhor interpolador é uma questão de gosto e depende das imagens reais. As diferenças entre os interpoladores podem ser sutis, mas são perceptíveis em torno de linhas diagonais (mais lisas ou ligeiramente irregulares) e em torno de áreas de alto contraste (mais ou menos artefatos de 'halo').<br><br><b>Vizinho mais próximo:</b> este interpolador simplesmente escolhe o pixel mais próximo da localização do pixel a ser calculado. O algoritmo é muito rápido, mas os resultados são muito ruins.<br><br><b>Bilinear: a</b> interpolação é feita pela média dos 4 pixels ao redor do local do pixel desejado. Relativamente rápido e melhor que o vizinho mais próximo, mas não recomendado para produção.<br><br><b>Bicubic:</b> usa um kernel 4x4, ou seja, 16 pixels ao redor da localização do pixel desejado são usados ​​para calcular cada pixel no panorama. Três diferentes níveis de nitidez estão disponíveis. O interpolador @mainwindow.createpanoramatab.interpolator.bicubicsofter@ é recomendado ao usar imagens de origem HDR, pois não contém coeficientes negativos. Outros interpoladores têm coeficientes negativos que podem causar halos ao redor de áreas de alto contraste em panoramas de HDR.<br><br><b>Lanczos e Spline:</b> interpoladores mais sofisticados com kernels ainda maiores. Os núcleos maiores fornecem linhas diagonais mais lisas, mas têm uma tendência mais forte para criar halos visíveis ao redor de objetos de alto contraste.<br><br><b>@default@:</b> utiliza o Lanczos2 para imagens de origem regulares ou o @mainwindow.createpanoramatab.interpolator.bicubicsofter@ para imagens de origem HDR de 32 bits."
+			"morehelptext": "<br><br>Ao distorcer imagens em um panorama, os valores de pixel precisam ser calculados em pixels entre os pixels na imagem de origem. Esse processo é chamado de interpolação. O PTGui fornece vários algoritmos de interpolação. Cada algoritmo tem seus prós e contras; Qual é o melhor interpolador é uma questão de gosto e depende das imagens reais. As diferenças entre os interpoladores podem ser sutis, mas são perceptíveis em torno de linhas diagonais (mais lisas ou ligeiramente irregulares) e em torno de áreas de alto contraste (mais ou menos artefatos de 'halo').<br><br><b>@mainwindow.createpanoramatab.interpolator.nearest@:</b> este interpolador simplesmente escolhe o pixel mais próximo da localização do pixel a ser calculado. O algoritmo é muito rápido, mas os resultados são muito ruins.<br><br><b>Bilinear: a</b> interpolação é feita pela média dos 4 pixels ao redor do local do pixel desejado. Relativamente rápido e melhor que o vizinho mais próximo, mas não recomendado para produção.<br><br><b>Bicubic:</b> usa um kernel 4x4, ou seja, 16 pixels ao redor da localização do pixel desejado são usados ​​para calcular cada pixel no panorama. Três diferentes níveis de nitidez estão disponíveis. O interpolador @mainwindow.createpanoramatab.interpolator.bicubicsofter@ é recomendado ao usar imagens de origem HDR, pois não contém coeficientes negativos. Outros interpoladores têm coeficientes negativos que podem causar halos ao redor de áreas de alto contraste em panoramas de HDR.<br><br><b>Lanczos e Spline:</b> interpoladores mais sofisticados com kernels ainda maiores. Os núcleos maiores fornecem linhas diagonais mais lisas, mas têm uma tendência mais forte para criar halos visíveis ao redor de objetos de alto contraste.<br><br><b>@default@:</b> utiliza o Lanczos2 para imagens de origem regulares ou o @mainwindow.createpanoramatab.interpolator.bicubicsofter@ para imagens de origem HDR de 32 bits."
 		},
 		{
 			"id": "createpanoramatab.restoredefaults",

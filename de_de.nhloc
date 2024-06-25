@@ -6735,7 +6735,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision.warnslow",
 			"machinetranslated": true,
-			"txt": "Schnittkanten finden bei 1/%0 dauert lange!"
+			"txt": "Die Schnittkantensuche bei 1/%0 dauert sehr lange!"
 		},
 		{
 			"id": "menubar.images.editinpatchwindow",

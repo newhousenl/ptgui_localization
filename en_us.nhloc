@@ -6697,7 +6697,7 @@
 {
     "id": "dng.outputwillbeover4gb",
     "txt": "The DNG output file will be larger than 4 GB. Many applications will not be able to load this image."
-},
+}
 
 
     ],

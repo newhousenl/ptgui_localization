@@ -6282,7 +6282,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "Niet-ondersteund bestandstype: .%0. Kan alleen opslaan als TIFF, JPEG2000 of JPEG."
+			"txt": "Niet-ondersteund bestandstype: .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

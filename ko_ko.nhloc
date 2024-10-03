@@ -7662,7 +7662,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "지원되지 않는 파일 형식: .%0. TIFF 또는 JPEG로만 저장할 수 있습니다."
+			"txt": "지원되지 않는 파일 형식: .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

@@ -7666,7 +7666,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "Type de fichier non pris en charge : .%0. Peut uniquement être enregistré au format TIFF ou JPEG."
+			"txt": "Type de fichier non pris en charge : .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

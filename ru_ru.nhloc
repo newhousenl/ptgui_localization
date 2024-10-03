@@ -7641,7 +7641,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "Неподдерживаемый тип файла: .%0. Можно сохранить только в формате TIFF или JPEG."
+			"txt": "Неподдерживаемый тип файла: .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

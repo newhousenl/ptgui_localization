@@ -6284,7 +6284,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "サポートされていないファイル タイプ: .%0。 TIFFまたはJPEGでのみ保存できます。"
+			"txt": "サポートされていないファイル タイプ: .%0。"
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

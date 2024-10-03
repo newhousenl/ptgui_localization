@@ -7662,7 +7662,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "不支持的文件类型：.%0。只能另存为 TIFF 或 JPEG。"
+			"txt": "不支持的文件类型：.%0。"
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

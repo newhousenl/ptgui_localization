@@ -7560,7 +7560,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "Tipo de archivo no compatible: .%0. Sólo se puede guardar como TIFF o JPEG."
+			"txt": "Tipo de archivo no compatible: .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

@@ -6274,7 +6274,7 @@
 		{
 			"id": "patchwindow.err.saveunsupportedfiletype",
 			"machinetranslated": true,
-			"txt": "Nepodporovaný typ souboru: .%0. Lze uložit pouze jako TIFF nebo JPEG."
+			"txt": "Nepodporovaný typ souboru: .%0."
 		},
 		{
 			"id": "patchwindow.err.multiplefilesdropped",

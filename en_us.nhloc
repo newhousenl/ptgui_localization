@@ -6207,7 +6207,7 @@
 },
 {
     "id": "patchwindow.err.saveunsupportedfiletype",
-    "txt": "Unsupported file type: .%0. Can only save as TIFF or JPEG."
+    "txt": "Unsupported file type: .%0."
 },
 {
     "id": "patchwindow.err.multiplefilesdropped",

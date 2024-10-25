@@ -6800,6 +6800,11 @@
 			"id": "mainwindow.createpanoramatab.interpolator.nearest",
 			"machinetranslated": true,
 			"txt": "Neirest Neighbor"
+		},
+		{
+			"id": "dng.outputwillbeover4gb",
+			"machinetranslated": true,
+			"txt": "Výstupní soubor DNG bude větší než 4 GB. Mnoho aplikací nebude moci tento obrázek načíst."
 		}
 	],
 	"tooltips": [

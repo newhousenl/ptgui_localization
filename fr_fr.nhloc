@@ -8192,6 +8192,11 @@
 			"id": "mainwindow.createpanoramatab.interpolator.nearest",
 			"machinetranslated": true,
 			"txt": "Nearest Neighbor"
+		},
+		{
+			"id": "dng.outputwillbeover4gb",
+			"machinetranslated": true,
+			"txt": "Le fichier de sortie DNG sera supérieur à 4 Go. De nombreuses applications ne pourront pas charger cette image."
 		}
 	],
 	"tooltips": [

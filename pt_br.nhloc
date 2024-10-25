@@ -7819,6 +7819,11 @@
 			"machinetranslated": true,
 			"format": "html",
 			"txt": "Esta função está disponível somente quando o algoritmo de mistura @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ é usado e a compensação de exposição está habilitada. <a href=0>Habilite agora.</a>"
+		},
+		{
+			"id": "dng.outputwillbeover4gb",
+			"machinetranslated": true,
+			"txt": "O arquivo de saída DNG será maior que 4 GB. Muitos aplicativos não conseguirão carregar esta imagem."
 		}
 	],
 	"tooltips": [

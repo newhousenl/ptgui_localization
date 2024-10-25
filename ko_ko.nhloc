@@ -8188,6 +8188,11 @@
 			"id": "mainwindow.createpanoramatab.interpolator.nearest",
 			"machinetranslated": true,
 			"txt": "가장 가까운 이웃"
+		},
+		{
+			"id": "dng.outputwillbeover4gb",
+			"machinetranslated": true,
+			"txt": "DNG 출력 파일은 4GB보다 큽니다. 많은 애플리케이션이 이 이미지를 로드할 수 없습니다."
 		}
 	],
 	"tooltips": [

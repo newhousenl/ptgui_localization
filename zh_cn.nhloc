@@ -8188,6 +8188,11 @@
 			"id": "mainwindow.createpanoramatab.interpolator.nearest",
 			"machinetranslated": true,
 			"txt": "最邻近的邻居"
+		},
+		{
+			"id": "dng.outputwillbeover4gb",
+			"machinetranslated": true,
+			"txt": "DNG 输出文件将大于 4 GB。许多应用程序将无法加载此图像。"
 		}
 	],
 	"tooltips": [

@@ -929,7 +929,7 @@
 		{
 			"id": "panoeditor.menubar.edit.centerpano",
 			"machinetranslated": true,
-			"txt": "Centrer le panorama verticalement"
+			"txt": "Centrer le panorama"
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpanohorz",
@@ -7184,7 +7184,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
 			"machinetranslated": false,
-			"txt": "Appliquer la Fusoin d'Exposition"
+			"txt": "Appliquer la Fusion d'Exposition"
 		},
 		{
 			"id": "mainwindow.imageparameters.cameracurve",
@@ -7803,7 +7803,7 @@
 		{
 			"id": "panoeditor.menubar.edit.level",
 			"machinetranslated": true,
-			"helptext": "Nivelez le panorama. Cela nécessite des points de contrôle de type @cptable.verticalline@ ou @cptable.horizontalline@."
+			"helptext": "Niveler le panorama. Cela nécessite des points de contrôle de type @cptable.verticalline@ ou @cptable.horizontalline@."
 		},
 		{
 			"id": "menubar.controlpoints.generate",

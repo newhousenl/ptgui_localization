@@ -6812,7 +6812,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "Het DNG-uitvoerbestand zal groter zijn dan 4 GB. Veel applicaties zullen deze afbeelding niet kunnen laden."
+			"txt": "Het DNG-uitvoerbestand is groter dan 4 GB. Veel toepassingen kunnen geen DNG bestanden groter dan 4 GB laden en kunnen melden dat het bestand corrupt is."
 		}
 	],
 	"tooltips": [

@@ -7245,7 +7245,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "DNG 輸出檔將大於 4 GB。許多應用程式將無法載入此圖像。"
+			"txt": "DNG 輸出檔將大於 4 GB。許多應用程式無法載入大於 4 GB 的 DNG 文件，並且可能會報告文件已損壞。"
 		}
 	],
 	"tooltips": [

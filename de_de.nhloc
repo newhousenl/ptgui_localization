@@ -4738,7 +4738,7 @@
 		},
 		{
 			"id": "txt.dontshowthisagain",
-			"txt": "Diese Mitteilung nicht mehr anzeigen"
+			"txt": "Diese Meldung nicht mehr anzeigen"
 		},
 		{
 			"id": "txt.dontaskthisagainforthisproject",
@@ -6794,7 +6794,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "Die DNG-Ausgabedatei wird größer als 4 GB sein. Viele Anwendungen können dieses Bild nicht laden."
+			"txt": "Die DNG-Ausgabedatei wird größer als 4 GB sein. Viele Anwendungen können DNG-Dateien, die größer als 4 GB sind, nicht laden und melden möglicherweise, dass die Datei beschädigt ist."
 		}
 	],
 	"tooltips": [

@@ -8088,7 +8088,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "El archivo de salida DNG tendrá un tamaño superior a 4 GB. Muchas aplicaciones no podrán cargar esta imagen."
+			"txt": "El archivo de salida DNG tendrá un tamaño superior a 4 GB. Muchas aplicaciones no pueden cargar archivos DNG de más de 4 GB y pueden informar que el archivo está dañado."
 		}
 	],
 	"tooltips": [

@@ -8192,7 +8192,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "DNG 输出文件将大于 4 GB。许多应用程序将无法加载此图像。"
+			"txt": "DNG 输出文件将大于 4 GB。许多应用程序无法加载大于 4 GB 的 DNG 文件，并且可能会报告文件已损坏。"
 		}
 	],
 	"tooltips": [

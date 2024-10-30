@@ -7823,7 +7823,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "O arquivo de saída DNG será maior que 4 GB. Muitos aplicativos não conseguirão carregar esta imagem."
+			"txt": "O arquivo de saída DNG será maior que 4 GB. Muitos aplicativos não conseguem carregar arquivos DNG maiores que 4 GB e podem relatar que o arquivo está corrompido."
 		}
 	],
 	"tooltips": [

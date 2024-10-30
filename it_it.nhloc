@@ -7775,7 +7775,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "Il file di output DNG sarà più grande di 4 GB. Molte applicazioni non saranno in grado di caricare questa immagine."
+			"txt": "Il file di output DNG sarà più grande di 4 GB. Molte applicazioni non sono in grado di caricare file DNG più grandi di 4 GB e potrebbero segnalare che il file è corrotto."
 		}
 	],
 	"tooltips": [

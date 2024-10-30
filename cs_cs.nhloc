@@ -6804,7 +6804,7 @@
 		{
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
-			"txt": "Výstupní soubor DNG bude větší než 4 GB. Mnoho aplikací nebude moci tento obrázek načíst."
+			"txt": "Výstupní soubor DNG bude větší než 4 GB. Mnoho aplikací nedokáže načíst soubory DNG větší než 4 GB a mohou hlásit, že je soubor poškozen."
 		}
 	],
 	"tooltips": [

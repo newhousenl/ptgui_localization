@@ -1139,7 +1139,7 @@
 		{
 			"id": "menubar.tools.converttocubic",
 			"machinetranslated": true,
-			"txt": "큐브 면으로 변환 / QTVR"
+			"txt": "큐브 면으로 변환 "
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -6360,7 +6360,7 @@
 		{
 			"id": "cubicconverter.convertto.qtvr",
 			"machinetranslated": true,
-			"txt": "QuickTime VR(.mov)"
+			"txt": "QuickTime VR(구식)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -7572,7 +7572,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.lcms.couldntlinkprofiles",

@@ -917,7 +917,7 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "In Würfelflächen/QTVR konvertieren"
+			"txt": "In Würfelflächen konvertieren"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -5163,7 +5163,7 @@
 		},
 		{
 			"id": "cubicconverter.convertto.qtvr",
-			"txt": "QuickTime VR (.mov)"
+			"txt": "QuickTime VR (veraltet)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -6192,7 +6192,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.lcms.couldntlinkprofiles",
@@ -9747,7 +9747,7 @@
 		{
 			"id": "converttocubic",
 			"machinetranslated": false,
-			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Mit diesem Werkzeug konvertieren Sie ein vorhandenes Panorama in 6 Würfelflächen oder in das QuickTime VR-Format.<br><br>Würfelflächen sind die Projektion eines Panoramas auf die 6 Seiten eines Würfels. Viele Panorama-Viewer benötigen Quellbilder im Würfel-Format. Würfelflächen können auch nützlich sein, um den Nadir und Zenit eines fertigen Panoramas zu retuschieren.<br><br>QTVR war ein spezieller Dialekt im QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt hat. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Im Jahr 2009 hat Apple die Unterstützung für QTVR von QuickTime beendet, daher sollte es jetzt als veraltetes Format betrachtet werden.<br><br><b>Das Panorama erstellen</b><br><br>Um Würfelflächen zu erzeugen, erstellen Sie zuerst ein einzelnes flaches Panorama. In der Regel sollten Sie eine äquirektanguläre Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Die Projektion für das Panorama wählen Sie im Panorama-Editor. Passen Sie die Bildwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Projektion abdeckt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Zuschnittlinien im Panorama-Editor. Dies resultiert in einem asymmetrischen Zuschnitt, der vom Konverter nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Bildwinkel des Panoramas. Er wird in der Seitenleiste des Panorama-Editors unter '@panoramaeditor.sidebar.projection@' angezeigt. Es wird empfohlen, diesen Konverter nur für breite oder sphärische Panoramen zu verwenden, da ansonsten ein großer Teil der Würfelflächen schwarz ist und viel Platz verschwendet wird, um die Auflösung des Panoramas zu erreichen. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen das Panorama im TIFF- oder JPEG-Format.<br><br><b>Nadir/Zenith Retusche</b><br><br>Würfelflächen sind ein ideales Format für die Retusche des Nadirs oder des Zenits, was PTGui auf einfache Weise unterstützt. Konvertieren Sie Ihr äquirektanguläres 360° x 180° Panorama in Würfelflächen (6 separate Dateien) und führen Sie die notwendigen Retuschearbeiten in den Würfelflächen aus. Das äquirektanguläre Bild setzen Sie wieder zusammen, indem Sie ein neues PTGui-Projekt beginnen und die 6 Würfelflächen als Quellbilder hinzufügen. Gehen Sie dann zu '@mainwindow.tabs.createpanorama@'. PTGui wird anhand der Dateinamen erkennen, welches Bild welcher ​​Würfelfläche entspricht. Die Suffixe der Dateinamen (z.B. panorama.left.jpg, panorama.top.jpg) müssen mit den Suffixen übereinstimmen, die Sie unter '@cubicconverter.cubefacenaming@' in diesem Fenster konfiguriert haben."
+			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Mit diesem Werkzeug konvertieren Sie ein vorhandenes Panorama in 6 Würfelflächen oder in das (nicht mehr unterstützte) QuickTime VR-Format.<br><br>Würfelflächen sind die Projektion eines Panoramas auf die 6 Seiten eines Würfels. Viele Panorama-Viewer benötigen Quellbilder im Würfel-Format. Würfelflächen können auch nützlich sein, um den Nadir und Zenit eines fertigen Panoramas zu retuschieren.<br><br>QTVR war ein spezieller Dialekt im QuickTime .mov-Videoformat, das die interaktive Wiedergabe von sphärischen Panoramen unterstützt hat. Jahrelang war dies das bevorzugte Format für das Einbetten von Panoramen in Webseiten. Das QuickTime-Plugin wurde auf jedem Mac und auf vielen Windows-Computern installiert (es wurde in iTunes für Windows mitgeliefert). Im Jahr 2009 hat Apple die Unterstützung für QTVR von QuickTime beendet, daher sollte es jetzt als veraltetes Format betrachtet werden.<br><br><b>Das Panorama erstellen</b><br><br>Um Würfelflächen zu erzeugen, erstellen Sie zuerst ein einzelnes flaches Panorama. In der Regel sollten Sie eine äquirektanguläre Projektion verwenden, da dies vollständig sphärische Panoramen unterstützt. Die Projektion für das Panorama wählen Sie im Panorama-Editor. Passen Sie die Bildwinkel mit den beiden Schiebereglern an, bis das Panorama die gesamte Projektion abdeckt oder verwenden Sie 360​​° x 180° für vollständig sphärische Panoramen. Verwenden Sie nicht die gelben Zuschnittlinien im Panorama-Editor. Dies resultiert in einem asymmetrischen Zuschnitt, der vom Konverter nicht unterstützt wird.<br><br>Notieren Sie sich den horizontalen Bildwinkel des Panoramas. Er wird in der Seitenleiste des Panorama-Editors unter '@panoramaeditor.sidebar.projection@' angezeigt. Es wird empfohlen, diesen Konverter nur für breite oder sphärische Panoramen zu verwenden, da ansonsten ein großer Teil der Würfelflächen schwarz ist und viel Platz verschwendet wird, um die Auflösung des Panoramas zu erreichen. Schließlich gehen Sie zu '@mainwindow.tabs.createpanorama@' und erstellen das Panorama im TIFF- oder JPEG-Format.<br><br><b>Nadir/Zenith Retusche</b><br><br>Würfelflächen sind ein ideales Format für die Retusche des Nadirs oder des Zenits, was PTGui auf einfache Weise unterstützt. Konvertieren Sie Ihr äquirektanguläres 360° x 180° Panorama in Würfelflächen (6 separate Dateien) und führen Sie die notwendigen Retuschearbeiten in den Würfelflächen aus. Das äquirektanguläre Bild setzen Sie wieder zusammen, indem Sie ein neues PTGui-Projekt beginnen und die 6 Würfelflächen als Quellbilder hinzufügen. Gehen Sie dann zu '@mainwindow.tabs.createpanorama@'. PTGui wird anhand der Dateinamen erkennen, welches Bild welcher ​​Würfelfläche entspricht. Die Suffixe der Dateinamen (z.B. panorama.left.jpg, panorama.top.jpg) müssen mit den Suffixen übereinstimmen, die Sie unter '@cubicconverter.cubefacenaming@' in diesem Fenster konfiguriert haben."
 		},
 		{
 			"id": "panoramaeditor",

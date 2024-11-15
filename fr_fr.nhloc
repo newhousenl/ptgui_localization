@@ -1143,7 +1143,7 @@
 		{
 			"id": "menubar.tools.converttocubic",
 			"machinetranslated": true,
-			"txt": "Conversion en faces de cube / QTVR"
+			"txt": "Conversion en faces de cube"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -6374,7 +6374,7 @@
 		{
 			"id": "cubicconverter.convertto.qtvr",
 			"machinetranslated": true,
-			"txt": "QuickTime VR (.mov)"
+			"txt": "QuickTime VR (obsolète)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -7571,7 +7571,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.initopenclfailed",

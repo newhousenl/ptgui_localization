@@ -918,7 +918,7 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "Převést na krychle / QTVR"
+			"txt": "Převést na krychle"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -6184,7 +6184,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.lcms.couldntlinkprofiles",

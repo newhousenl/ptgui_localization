@@ -949,7 +949,7 @@
 },
 {
     "id": "menubar.tools.converttocubic",
-    "txt": "Convert to cube faces / QTVR"
+    "txt": "Convert to cube faces"
 },
 {
     "id": "menubar.tools.philosphere",
@@ -5318,16 +5318,13 @@
     "txt": "Buy PTGui"
 },
 
-
-
-
 {
     "id": "cubicconverter.convertto",
     "txt": "Convert to:"
 },
 {
     "id": "cubicconverter.convertto.qtvr",
-    "txt": "QuickTime VR (.mov)"
+    "txt": "QuickTime VR (legacy)"
 },
 {
     "id": "cubicconverter.convertto.cubefacestrip",
@@ -6420,7 +6417,7 @@
 },
 {
     "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
-    "txt": "PTGui 12.20"
+    "txt": "PTGui 12"
 },
 {
     "id": "mainwindow.tabs.preprocess",
@@ -9067,7 +9064,7 @@
         {
             "id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
             "helptext": "Algorithm to use for exposure fusion",
-            "morehelptext": "<br><br>PTGui 12.0 to 12.20 used a different exposure fusion algoritm than PTGui 11 and earlier. In PTGui 12.21 and later, the old algorithm is made available again, and it is used by default, because it gives better results.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> use the exposure fusion algorithm that was used in PTGui 12.0 to 12.20. This option is available for compatibility reasons with projects created in PTGui 12.0 to 12.20 and should not be used for new projects.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> this is the original exposure fusion algorithm. This gives the best results and is the recommended option for new projects."
+            "morehelptext": "<br><br>PTGui 12.0 to 12.20 used a different exposure fusion algoritm than PTGui 11 and earlier. In PTGui 12.21 and later, the old algorithm is made available again, and it is used by default, because it gives better results.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> use the exposure fusion algorithm that was used in PTGui 12.0 to 12.20. This option is available for compatibility reasons with projects created in PTGui 12.0 to 12.20 and is not recommended for new projects.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> this is the original exposure fusion algorithm. This gives the best results and is the recommended option for new projects."
         },
         {
             "id": "preprocesstab.noisereduction.chromaamount",
@@ -9163,7 +9160,7 @@
         },
         {
             "id": "converttocubic",
-            "helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Use this tool to convert an existing panorama to 6 cube faces, or to the QuickTime VR format.<br><br>Cube faces are the projection of a panorama onto the 6 faces of a cube; many panorama viewers require source images in cube face format. Also, cube faces can be useful for retouching the nadir and zenith of a stitched panorama.<br><br>QTVR was a special dialect in the QuickTime .mov video format supporting interactive playback of spherical panoramas. For many years this has been the format of choice for embedding panoramas in web pages: the QuickTime plugin was installed on every Mac and on many Windows computers (it was included with iTunes for Windows). In 2009 Apple has dropped support for QTVR from QuickTime, so it should be considered a legacy format now.<br><br><b>Stitching the panorama</b><br><br>To generate cube faces, the panorama first should be stitched into a single flat image. In general equirectangular projection should be used, as this can support fully spherical panoramas. When stitching the panorama, the projection can be selected in the panorama editor window. Adjust the field of view using the two sliders until the panorama fills the entire canvas, or use 360° x 180° for fully spherical panoramas. Do not use the yellow crop lines in the panorama editor: these cause asymmetrical cropping which is not supported by the conversion tool.<br><br>Make a note of the horizontal field of view of the panorama: this is shown in the panorama editor sidebar, under Projection. It is recommended to use the this tool only for wide or spherical panoramas, otherwise a large part of the cube faces will be black and much space will be wasted to achieve the resolution of the panorama. Finally go to @mainwindow.tabs.createpanorama@ and create the panorama in TIFF or JPEG format.<br><br><b>Nadir / zenith retouching</b><br><br>Cube faces are an ideal format for retouching the nadir or zenith and PTGui supports this in a straightforward way: simply convert your equirectangular 360° x 180° panorama to cube faces (6 separate files). Do any necessary retouching in the cube face images. To reassemble the equirectangular image simply start a new PTGui project, add the 6 cube faces as source images and go directly to @mainwindow.tabs.createpanorama@. PTGui will figure out which image corresponds to which cube face by looking at the file names. The file name suffixes (e.g. panorama.left.jpg, panorama.top.jpg) should match the suffixes configured at '@cubicconverter.cubefacenaming@' in this window." 
+            "helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Use this tool to convert an existing panorama to 6 cube faces, or to the (legacy) QuickTime VR format.<br><br>Cube faces are the projection of a panorama onto the 6 faces of a cube; many panorama viewers require source images in cube face format. Also, cube faces can be useful for retouching the nadir and zenith of a stitched panorama.<br><br>QTVR was a special dialect in the QuickTime .mov video format supporting interactive playback of spherical panoramas. For many years this has been the format of choice for embedding panoramas in web pages: the QuickTime plugin was installed on every Mac and on many Windows computers (it was included with iTunes for Windows). In 2009 Apple has dropped support for QTVR from QuickTime, so it should be considered a legacy format now.<br><br><b>Stitching the panorama</b><br><br>To generate cube faces, the panorama first should be stitched into a single flat image. In general equirectangular projection should be used, as this can support fully spherical panoramas. When stitching the panorama, the projection can be selected in the panorama editor window. Adjust the field of view using the two sliders until the panorama fills the entire canvas, or use 360° x 180° for fully spherical panoramas. Do not use the yellow crop lines in the panorama editor: these cause asymmetrical cropping which is not supported by the conversion tool.<br><br>Make a note of the horizontal field of view of the panorama: this is shown in the panorama editor sidebar, under Projection. It is recommended to use the this tool only for wide or spherical panoramas, otherwise a large part of the cube faces will be black and much space will be wasted to achieve the resolution of the panorama. Finally go to @mainwindow.tabs.createpanorama@ and create the panorama in TIFF or JPEG format.<br><br><b>Nadir / zenith retouching</b><br><br>Cube faces are an ideal format for retouching the nadir or zenith and PTGui supports this in a straightforward way: simply convert your equirectangular 360° x 180° panorama to cube faces (6 separate files). Do any necessary retouching in the cube face images. To reassemble the equirectangular image simply start a new PTGui project, add the 6 cube faces as source images and go directly to @mainwindow.tabs.createpanorama@. PTGui will figure out which image corresponds to which cube face by looking at the file names. The file name suffixes (e.g. panorama.left.jpg, panorama.top.jpg) should match the suffixes configured at '@cubicconverter.cubefacenaming@' in this window." 
         },
         {
             "id": "panoramaeditor",

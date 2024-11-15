@@ -911,7 +911,7 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "Converteren naar kubusvlakken / QTVR"
+			"txt": "Converteren naar kubusvlakken"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -5149,7 +5149,7 @@
 		},
 		{
 			"id": "cubicconverter.convertto.qtvr",
-			"txt": "QuickTime VR (.mov)"
+			"txt": "QuickTime VR (verouderd)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -6192,7 +6192,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.lcms.couldntlinkprofiles",

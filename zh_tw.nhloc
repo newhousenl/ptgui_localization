@@ -914,7 +914,7 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "轉換為立方體面/ QTVR"
+			"txt": "轉換為立方體面"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -5418,7 +5418,7 @@
 		{
 			"id": "cubicconverter.convertto.qtvr",
 			"machinetranslated": true,
-			"txt": "QuickTime VR（.mov）"
+			"txt": "QuickTime VR（遺留）"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -6625,7 +6625,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGUI 12.20"
+			"txt": "PTGUI 12"
 		},
 		{
 			"id": "err.lcms.couldntlinkprofiles",

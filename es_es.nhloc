@@ -1105,7 +1105,7 @@
 		{
 			"id": "menubar.tools.converttocubic",
 			"machinetranslated": true,
-			"txt": "Convertir a caras de cubos / QTVR"
+			"txt": "Convertir a caras de cubos"
 		},
 		{
 			"id": "menubar.tools.philosphere",
@@ -6234,7 +6234,7 @@
 		{
 			"id": "cubicconverter.convertto.qtvr",
 			"machinetranslated": true,
-			"txt": "QuickTime VR (.mov)"
+			"txt": "QuickTime VR (obsoleto)"
 		},
 		{
 			"id": "cubicconverter.convertto.cubefacestrip",
@@ -7460,7 +7460,7 @@
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12",
 			"machinetranslated": true,
-			"txt": "PTGui 12.20"
+			"txt": "PTGui 12"
 		},
 		{
 			"id": "err.initopenclfailed",
@@ -11073,7 +11073,7 @@
 		{
 			"id": "converttocubic",
 			"machinetranslated": true,
-			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Utilice esta herramienta para convertir un panorama existente a 6 caras de cubo, o al formato QuickTime VR.<br><br>Las caras de cubo son la proyección de un panorama sobre las 6 caras de un cubo; muchos espectadores de panorama requieren imágenes de origen en formato de cara de cubo. Además, las caras de los cubos pueden ser útiles para retocar el nadir y el cenit de un panorama cosido.<br><br>QTVR era un dialecto especial en el formato de video QuickTime .mov que admite la reproducción interactiva de panoramas esféricos. Durante muchos años, este ha sido el formato de elección para incrustar panoramas en páginas web: el complemento QuickTime se instaló en cada Mac y en muchas computadoras con Windows (se incluyó con iTunes para Windows). En 2009, Apple ha eliminado el soporte para QTVR de QuickTime, por lo que ahora debería considerarse un formato heredado.<br><br><b>Cosiendo el panorama</b><br><br>Para generar caras de cubos, el panorama primero debe ser cosido en una sola imagen plana. En general, se debe utilizar la proyección equirectangular, ya que esto puede admitir panoramas completamente esféricos. Al coser el panorama, la proyección se puede seleccionar en la ventana del editor de panorama. Ajuste el campo de visión con los dos controles deslizantes hasta que el panorama ocupe todo el lienzo, o use 360 ​​° x 180° para obtener panoramas completamente esféricos. No utilice las líneas de recorte amarillas en el editor de panorama: esto causa un recorte asimétrico que no es compatible con la herramienta de conversión.<br><br>Tome nota del campo de visión horizontal del panorama: esto se muestra en la barra lateral del editor de panorama, en Proyección. Se recomienda utilizar esta herramienta solo para panoramas amplios o esféricos, de lo contrario, una gran parte de las caras del cubo serán negras y se desperdiciará mucho espacio para lograr la resolución del panorama. Finalmente, vaya a @mainwindow.tabs.createpanorama@ y cree el panorama en formato TIFF o JPEG.<br><br><b>Nadir / Zen retoque</b><br><br>Las caras cúbicas son un formato ideal para retocar el nadir o el cenit y PTGui lo admite de una manera directa: simplemente convierta su panorama equitangular 360° x 180° en caras cúbicas (6 archivos separados). Realiza los retoques necesarios en las imágenes de la cara del cubo. Para volver a ensamblar la imagen equirectangular, simplemente inicie un nuevo proyecto PTGui, agregue las 6 caras del cubo como imágenes de origen y vaya directamente a @mainwindow.tabs.createpanorama@. PTGui descubrirá qué imagen corresponde a qué cara del cubo mirando los nombres de los archivos. Los sufijos de nombre de archivo (por ejemplo, panorama.left.jpg, panorama.top.jpg) deben coincidir con los sufijos configurados en '@cubicconverter.cubefacenaming@' en esta ventana."
+			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Utilice esta herramienta para convertir un panorama existente a 6 caras de cubo, o al formato (obsoleto) QuickTime VR.<br><br>Las caras de cubo son la proyección de un panorama sobre las 6 caras de un cubo; muchos espectadores de panorama requieren imágenes de origen en formato de cara de cubo. Además, las caras de los cubos pueden ser útiles para retocar el nadir y el cenit de un panorama cosido.<br><br>QTVR era un dialecto especial en el formato de video QuickTime .mov que admite la reproducción interactiva de panoramas esféricos. Durante muchos años, este ha sido el formato de elección para incrustar panoramas en páginas web: el complemento QuickTime se instaló en cada Mac y en muchas computadoras con Windows (se incluyó con iTunes para Windows). En 2009, Apple ha eliminado el soporte para QTVR de QuickTime, por lo que ahora debería considerarse un formato heredado.<br><br><b>Cosiendo el panorama</b><br><br>Para generar caras de cubos, el panorama primero debe ser cosido en una sola imagen plana. En general, se debe utilizar la proyección equirectangular, ya que esto puede admitir panoramas completamente esféricos. Al coser el panorama, la proyección se puede seleccionar en la ventana del editor de panorama. Ajuste el campo de visión con los dos controles deslizantes hasta que el panorama ocupe todo el lienzo, o use 360 ​​° x 180° para obtener panoramas completamente esféricos. No utilice las líneas de recorte amarillas en el editor de panorama: esto causa un recorte asimétrico que no es compatible con la herramienta de conversión.<br><br>Tome nota del campo de visión horizontal del panorama: esto se muestra en la barra lateral del editor de panorama, en Proyección. Se recomienda utilizar esta herramienta solo para panoramas amplios o esféricos, de lo contrario, una gran parte de las caras del cubo serán negras y se desperdiciará mucho espacio para lograr la resolución del panorama. Finalmente, vaya a @mainwindow.tabs.createpanorama@ y cree el panorama en formato TIFF o JPEG.<br><br><b>Nadir / Zen retoque</b><br><br>Las caras cúbicas son un formato ideal para retocar el nadir o el cenit y PTGui lo admite de una manera directa: simplemente convierta su panorama equitangular 360° x 180° en caras cúbicas (6 archivos separados). Realiza los retoques necesarios en las imágenes de la cara del cubo. Para volver a ensamblar la imagen equirectangular, simplemente inicie un nuevo proyecto PTGui, agregue las 6 caras del cubo como imágenes de origen y vaya directamente a @mainwindow.tabs.createpanorama@. PTGui descubrirá qué imagen corresponde a qué cara del cubo mirando los nombres de los archivos. Los sufijos de nombre de archivo (por ejemplo, panorama.left.jpg, panorama.top.jpg) deben coincidir con los sufijos configurados en '@cubicconverter.cubefacenaming@' en esta ventana."
 		},
 		{
 			"id": "panoramaeditor",

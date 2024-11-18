@@ -6336,7 +6336,7 @@
 			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
 			"machinetranslated": true,
 			"format": "html",
-			"txt": "Diese Funktion ist nicht verfügbar, wenn Belichtungsebene verwendet werden. <a href=0>Belichtungsebene deaktivieren.</a>"
+			"txt": "Diese Funktion ist nicht verfügbar, wenn Belichtungsebenen verwendet werden. <a href=0>Belichtungsebenen deaktivieren.</a>"
 		},
 		{
 			"id": "patchwindow.mode.patch",

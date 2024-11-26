@@ -6694,6 +6694,10 @@
 {
     "id": "dng.outputwillbeover4gb",
     "txt": "The DNG output file will be larger than 4 GB. Many applications are unable to load DNG files larger than 4 GB and may report that the file is corrupt."
+},
+{
+    "id": "mainwindow.preprocesstab.fringereduction",
+    "txt": "Remove purple fringing"
 }
 
 
@@ -9129,6 +9133,10 @@
             "id": "detailviewer.sidebar.patch.openin",
             "helptext": "Selects the application to use for editing the generated patch image.",
             "morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edit the patch image in the @patchwindow@ included with PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Choose an external application to edit the patch image. Here all applications are listed that are registered to handle the file type of the patch image.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open the folder containing the patch image in @txt.finderorexplorer@."
+        },
+        {
+            "id": "preprocesstab.fringereduction",
+            "helptext": "Purple fringing is a type of chromatic aberration that appears as purple or magenta edges around high-contrast areas in photos, typically seen near bright light sources or against backlit subjects. Select this checkbox to remove or reduce purple fringing."
         }
 
     ],

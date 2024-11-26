@@ -6805,6 +6805,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "Výstupní soubor DNG bude větší než 4 GB. Mnoho aplikací nedokáže načíst soubory DNG větší než 4 GB a mohou hlásit, že je soubor poškozen."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Odstraňte fialové třásně"
 		}
 	],
 	"tooltips": [
@@ -9571,6 +9576,11 @@
 			"machinetranslated": true,
 			"helptext": "Vybere aplikaci, která se použije pro úpravu vygenerovaného obrazu záplaty.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Upravte obrázek patche v @patchwindow@, který je součástí PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Vyberte externí aplikaci pro úpravu obrazu záplaty. Zde jsou uvedeny všechny aplikace, které jsou registrovány pro zpracování typu souboru obrazu opravy.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Otevřete složku obsahující obrázek opravy v @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "fialové třásně je typ chromatické aberace, která se objevuje jako fialové nebo purpurové okraje kolem vysoce kontrastních oblastí na fotografiích, které jsou obvykle vidět v blízkosti jasných světelných zdrojů nebo proti objektům v protisvětle. Zaškrtnutím tohoto políčka odstraníte nebo snížíte fialové třásně."
 		}
 	],
 	"helppages": [

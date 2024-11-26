@@ -8172,6 +8172,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "Выходной файл DNG будет больше 4 ГБ. Многие приложения не могут загрузить файлы DNG размером более 4 ГБ и могут сообщить, что файл поврежден."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Удалить фиолетовую бахрому"
 		}
 	],
 	"tooltips": [
@@ -11120,6 +11125,11 @@
 			"machinetranslated": true,
 			"helptext": "Выбирает приложение, которое будет использоваться для редактирования сгенерированного изображения патча.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> отредактируйте изображение патча в @patchwindow@, включенном в PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> выберите внешнее приложение для редактирования изображения патча. Здесь перечислены все приложения, зарегистрированные для обработки типа файла образа исправления.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> откройте папку, содержащую изображение исправления, в @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Фиолетовая окантовка — это тип хроматической аберрации, которая проявляется в виде фиолетовых или пурпурных краев вокруг высококонтрастных областей на фотографиях, обычно наблюдаемых вблизи ярких источников света или на фоне подсвеченных сзади объектов. Установите этот флажок, чтобы удалить или уменьшить фиолетовую окантовку."
 		}
 	],
 	"helppages": [

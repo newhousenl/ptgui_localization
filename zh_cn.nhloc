@@ -8193,6 +8193,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "DNG 输出文件将大于 4 GB。许多应用程序无法加载大于 4 GB 的 DNG 文件，并且可能会报告文件已损坏。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "消除紫边"
 		}
 	],
 	"tooltips": [
@@ -11141,6 +11146,11 @@
 			"machinetranslated": true,
 			"helptext": "选择用于编辑生成的补丁图像的应用程序。",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@：</b>编辑 PTGui 附带的 @patchwindow@ 中的补丁映像。<br><br><b>@detailviewer.sidebar.patch.openin.application@：</b>选择外部应用程序来编辑补丁图像。这里列出了所有注册来处理补丁映像文件类型的应用程序。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@：</b>打开 @txt.finderorexplorer@ 中包含补丁映像的文件夹。"
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "紫边是一种色差，在照片的高对比度区域周围呈现紫色或洋红色边缘，通常在明亮光源附近或背光拍摄时出现。选中此复选框可移除或减少紫边。"
 		}
 	],
 	"helppages": [

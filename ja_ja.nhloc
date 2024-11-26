@@ -6815,6 +6815,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "DNG 出力ファイルは 4 GB より大きくなります。多くのアプリケーションは 4 GB より大きい DNG ファイルを読み込むことができず、ファイルが破損していると報告する場合があります。"
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "紫色のフリンジを除去する"
 		}
 	],
 	"tooltips": [
@@ -9323,6 +9328,11 @@
 			"machinetranslated": true,
 			"helptext": "生成したパッチイメージを編集するアプリケーションを選択します。",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui に付属の @patchwindow@ 内のパッチ イメージを編集します。<br><br><b>@detailviewer.sidebar.patch.openin.application@</b>パッチ イメージを編集するには、外部アプリケーションを選択します。ここでは、パッチ イメージのファイル タイプを処理するために登録されているすべてのアプリケーションが一覧表示されます。<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@ のパッチ イメージを含むフォルダーを開きます。"
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "パープルフリンジは、写真の高コントラスト領域の周囲に紫またはマゼンタのエッジとして現れる色収差の一種で、通常、明るい光源の近くや逆光の被写体に対して見られます。このチェックボックスを選択すると、パープルフリンジを削除または軽減できます。"
 		}
 	],
 	"helppages": [

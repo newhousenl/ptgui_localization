@@ -8197,6 +8197,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "Le fichier de sortie DNG sera supérieur à 4 Go. De nombreuses applications ne peuvent pas charger des fichiers DNG supérieurs à 4 Go et peuvent signaler que le fichier est corrompu."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Supprimer les franges violettes"
 		}
 	],
 	"tooltips": [
@@ -11144,6 +11149,11 @@
 			"machinetranslated": true,
 			"helptext": "Sélectionne l'application à utiliser pour modifier l'image du correctif générée.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@ :</b> modifiez l'image du correctif dans le fichier @patchwindow@ inclus avec PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@ :</b> choisissez une application externe pour modifier l'image du correctif. Ici, toutes les applications sont répertoriées qui sont enregistrées pour gérer le type de fichier de l'image du correctif.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@ :</b> ouvrir le dossier contenant l'image du correctif dans @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Les franges violettes sont un type d'aberration chromatique qui apparaît sous forme de bordures violettes ou magenta autour des zones à fort contraste sur les photos, généralement observées à proximité de sources de lumière vive ou sur des sujets rétroéclairés. Cochez cette case pour supprimer ou réduire les franges violettes."
 		}
 	],
 	"helppages": [

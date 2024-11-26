@@ -6813,6 +6813,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "Het DNG-uitvoerbestand is groter dan 4 GB. Veel toepassingen kunnen geen DNG bestanden groter dan 4 GB laden en kunnen melden dat het bestand corrupt is."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Purple fringing verwijderen"
 		}
 	],
 	"tooltips": [
@@ -9323,6 +9328,11 @@
 			"machinetranslated": true,
 			"helptext": "Selecteert de toepassing die moet worden gebruikt voor het bewerken van de gegenereerde patchafbeelding.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Bewerk de patchafbeelding in de @patchwindow@ die bij PTGui wordt geleverd.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Kies een externe applicatie om de patchafbeelding te bewerken. Hier worden alle applicaties vermeld die zijn geregistreerd om het bestandstype van de patchimage te verwerken.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Open de map met de patchafbeelding in @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Purple fringing is een type chromatische aberratie dat verschijnt als paarse of magenta randen rond gebieden met een hoog contrast in foto's, meestal gezien in de buurt van felle lichtbronnen of tegen onderwerpen met tegenlicht. Selecteer dit selectievakje om purple fringing te verwijderen of te verminderen."
 		}
 	],
 	"helppages": [

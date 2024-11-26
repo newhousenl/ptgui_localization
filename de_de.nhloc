@@ -6795,6 +6795,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "Die DNG-Ausgabedatei wird größer als 4 GB sein. Viele Anwendungen können DNG-Dateien, die größer als 4 GB sind, nicht laden und melden möglicherweise, dass die Datei beschädigt ist."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Violette Farbsäume entfernen"
 		}
 	],
 	"tooltips": [
@@ -9721,6 +9726,11 @@
 			"id": "detailviewer.sidebar.patch.openin",
 			"helptext": "Legt die Anwendung für die Bearbeitung des generierten Patch-Bildes fest.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Der in PTGui enthaltene @patchwindow@ wird für die Bearbeitung des Patch-Bildes verwendet.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Wählen Sie aus der Liste eine externe Anwendung für die Bearbeitung des Patch-Bildes aus. Es werden alle Anwendungen aufgeführt, die für die Verarbeitung des Dateityps des Patch-Bildes registriert sind.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Der Ordner, in dem das Patch-Bild gespeichert wird, wird im @txt.finderorexplorer@ geöffnet.<br>"
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Violette Farbsäume sind eine Art von chromatischer Aberration, die als violette oder magentafarbene Ränder um Bereiche mit hohem Kontrast in Fotos erscheinen, typischerweise in der Nähe von hellen Lichtquellen oder bei Gegenlichtaufnahmen. Aktivieren Sie dieses Kontrollkästchen, um violette Farbsäume zu entfernen oder zu reduzieren."
 		}
 	],
 	"helppages": [

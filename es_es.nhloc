@@ -8089,6 +8089,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "El archivo de salida DNG tendrá un tamaño superior a 4 GB. Muchas aplicaciones no pueden cargar archivos DNG de más de 4 GB y pueden informar que el archivo está dañado."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Quitar las franjas violetas"
 		}
 	],
 	"tooltips": [
@@ -11037,6 +11042,11 @@
 			"machinetranslated": true,
 			"helptext": "Selecciona la aplicación que se utilizará para editar la imagen del parche generado.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> edite la imagen del parche en @patchwindow@ incluido con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> elija una aplicación externa para editar la imagen del parche. Aquí se enumeran todas las aplicaciones que están registradas para manejar el tipo de archivo de la imagen del parche.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> abra la carpeta que contiene la imagen del parche en @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Las franjas violetas son un tipo de aberración cromática que aparecen como bordes violetas o magenta alrededor de las áreas de alto contraste en las fotografías, que suelen verse cerca de fuentes de luz brillantes o contra objetos a contraluz. Seleccione esta casilla de verificación para eliminar o reducir las franjas violetas."
 		}
 	],
 	"helppages": [

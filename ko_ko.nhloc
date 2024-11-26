@@ -8193,6 +8193,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "DNG 출력 파일은 4GB보다 큽니다. 많은 애플리케이션은 4GB보다 큰 DNG 파일을 로드할 수 없으며 파일이 손상되었다고 보고할 수 있습니다."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "보라색 프린지 제거"
 		}
 	],
 	"tooltips": [
@@ -11141,6 +11146,11 @@
 			"machinetranslated": true,
 			"helptext": "생성된 패치 이미지를 편집하는 데 사용할 애플리케이션을 선택합니다.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> PTGui에 포함된 @patchwindow@에서 패치 이미지를 편집합니다.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> 패치 이미지를 편집하려면 외부 응용 프로그램을 선택하세요. 여기에는 패치 이미지의 파일 형식을 처리하기 위해 등록된 모든 응용 프로그램이 나열되어 있습니다.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> @txt.finderorexplorer@에서 패치 이미지가 포함된 폴더를 엽니다."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "보라색 프린징은 사진에서 고대비 영역 주변에 보라색 또는 자홍색 가장자리로 나타나는 일종의 색수차로, 일반적으로 밝은 광원 근처나 역광 피사체에 나타납니다. 이 확인란을 선택하여 보라색 프린징을 제거하거나 줄입니다."
 		}
 	],
 	"helppages": [

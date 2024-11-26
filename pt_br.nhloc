@@ -7824,6 +7824,11 @@
 			"id": "dng.outputwillbeover4gb",
 			"machinetranslated": true,
 			"txt": "O arquivo de saída DNG será maior que 4 GB. Muitos aplicativos não conseguem carregar arquivos DNG maiores que 4 GB e podem relatar que o arquivo está corrompido."
+		},
+		{
+			"id": "mainwindow.preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"txt": "Remova purple fringing"
 		}
 	],
 	"tooltips": [
@@ -10546,6 +10551,11 @@
 			"machinetranslated": true,
 			"helptext": "Seleciona o aplicativo a ser usado para editar a imagem de patch gerada.",
 			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> Edite a imagem do patch no @patchwindow@ incluído no PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> Escolha um aplicativo externo para editar a imagem de correção. Aqui estão listados todos os aplicativos registrados para lidar com o tipo de arquivo da imagem de patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> Abra a pasta que contém a imagem do patch em @txt.finderorexplorer@."
+		},
+		{
+			"id": "preprocesstab.fringereduction",
+			"machinetranslated": true,
+			"helptext": "Purple fringing é um tipo de aberração cromática que aparece como bordas roxas ou magenta ao redor de áreas de alto contraste em fotos, normalmente vistas perto de fontes de luz brilhantes ou contra objetos contraluz. Selecione esta caixa de seleção para remover ou reduzir o purple fringing."
 		}
 	],
 	"helppages": [

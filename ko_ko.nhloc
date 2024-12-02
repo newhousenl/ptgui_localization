@@ -8203,6 +8203,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "감사의 말과 제3자 라이센스 정보:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "JPEG 2000 이미지를 만들지 못했습니다: 메모리가 부족합니다(이미지가 너무 큽니다)"
 		}
 	],
 	"tooltips": [

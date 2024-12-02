@@ -7786,6 +7786,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Riconoscimenti e informazioni sulla licenza di terze parti:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "Impossibile creare l'immagine JPEG 2000: memoria esaurita (l'immagine è troppo grande)"
 		}
 	],
 	"tooltips": [

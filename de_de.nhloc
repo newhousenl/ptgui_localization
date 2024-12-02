@@ -6805,6 +6805,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Danksagungen und Lizenzinformationen von Drittanbietern:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "Erstellen des JPEG 2000-Bildes fehlgeschlagen: Nicht genügend Arbeitsspeicher (das Bild ist zu groß)"
 		}
 	],
 	"tooltips": [

@@ -6815,6 +6815,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Potvrzení a informace o licenci třetích stran:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "Nepodařilo se vytvořit obrázek JPEG 2000: nedostatek paměti (obrázek je příliš velký)"
 		}
 	],
 	"tooltips": [

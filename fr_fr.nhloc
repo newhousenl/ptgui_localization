@@ -8207,6 +8207,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Remerciements et informations de licence de tiers:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "Échec de la création de l'image JPEG 2000 : mémoire insuffisante (l'image est trop grande)"
 		}
 	],
 	"tooltips": [

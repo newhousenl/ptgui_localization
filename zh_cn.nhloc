@@ -8203,6 +8203,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "致谢和第三方许可信息："
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "无法创建 JPEG 2000 图像：内存不足（图像太大）"
 		}
 	],
 	"tooltips": [

@@ -8099,6 +8099,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Agradecimientos e información de licencias de terceros:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "No se pudo crear la imagen JPEG 2000: no hay memoria (la imagen es demasiado grande)"
 		}
 	],
 	"tooltips": [

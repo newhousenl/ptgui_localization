@@ -7256,6 +7256,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "致謝和第三方許可資訊："
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "無法建立 JPEG 2000 影像：記憶體不足（影像太大）"
 		}
 	],
 	"tooltips": [

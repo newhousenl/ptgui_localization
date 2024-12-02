@@ -8182,6 +8182,11 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Благодарности и информация о лицензии третьей стороны:"
+		},
+		{
+			"id": "err.jp2koutofmemory",
+			"machinetranslated": true,
+			"txt": "Не удалось создать изображение JPEG 2000: недостаточно памяти (изображение слишком большое)"
 		}
 	],
 	"tooltips": [

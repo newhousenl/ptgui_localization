@@ -7834,11 +7834,6 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Agradecimentos e informações sobre licenças de terceiros:"
-		},
-		{
-			"id": "err.jp2koutofmemory",
-			"machinetranslated": true,
-			"txt": "Falha ao criar imagem JPEG 2000: sem memória (a imagem é muito grande)"
 		}
 	],
 	"tooltips": [

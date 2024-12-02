@@ -6823,11 +6823,6 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Erkenningen en licentie-informatie van derden:"
-		},
-		{
-			"id": "err.jp2koutofmemory",
-			"machinetranslated": true,
-			"txt": "Het is niet gelukt om een JPEG 2000-afbeelding te maken: onvoldoende geheugen (de afbeelding is te groot)"
 		}
 	],
 	"tooltips": [

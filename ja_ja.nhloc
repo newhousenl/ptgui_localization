@@ -6825,11 +6825,6 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "謝辞およびサードパーティのライセンス情報:"
-		},
-		{
-			"id": "err.jp2koutofmemory",
-			"machinetranslated": true,
-			"txt": "JPEG 2000 画像の作成に失敗しました: メモリ不足 (画像が大きすぎます)"
 		}
 	],
 	"tooltips": [

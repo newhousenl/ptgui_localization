@@ -6810,6 +6810,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Odstraňte fialové třásně"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Potvrzení a informace o licenci třetích stran:"
 		}
 	],
 	"tooltips": [

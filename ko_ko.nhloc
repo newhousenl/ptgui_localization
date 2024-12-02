@@ -8198,6 +8198,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "보라색 프린지 제거"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "감사의 말과 제3자 라이센스 정보:"
 		}
 	],
 	"tooltips": [

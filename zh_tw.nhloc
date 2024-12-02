@@ -7251,6 +7251,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "去除紫邊"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "致謝和第三方許可資訊："
 		}
 	],
 	"tooltips": [

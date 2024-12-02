@@ -6818,6 +6818,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Purple fringing verwijderen"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Erkenningen en licentie-informatie van derden:"
 		}
 	],
 	"tooltips": [

@@ -8177,6 +8177,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Удалить фиолетовую бахрому"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Благодарности и информация о лицензии третьей стороны:"
 		}
 	],
 	"tooltips": [

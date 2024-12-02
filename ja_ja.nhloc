@@ -6820,6 +6820,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "紫色のフリンジを除去する"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "謝辞およびサードパーティのライセンス情報:"
 		}
 	],
 	"tooltips": [

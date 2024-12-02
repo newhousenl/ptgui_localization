@@ -6698,6 +6698,10 @@
 {
     "id": "mainwindow.preprocesstab.fringereduction",
     "txt": "Remove purple fringing"
+},
+{
+    "id": "about.thirdpartyinfo",
+    "txt": "Acknowledgements and third party license information:"
 }
 
 

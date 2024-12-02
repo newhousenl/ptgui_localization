@@ -8094,6 +8094,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Quitar las franjas violetas"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Agradecimientos e información de licencias de terceros:"
 		}
 	],
 	"tooltips": [

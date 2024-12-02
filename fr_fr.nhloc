@@ -8202,6 +8202,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Supprimer les franges violettes"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Remerciements et informations de licence de tiers:"
 		}
 	],
 	"tooltips": [

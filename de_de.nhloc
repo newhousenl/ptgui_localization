@@ -6800,6 +6800,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Violette Farbsäume entfernen"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Danksagungen und Lizenzinformationen von Drittanbietern:"
 		}
 	],
 	"tooltips": [

@@ -7781,6 +7781,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "Rimuovere il purple fringing"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "Riconoscimenti e informazioni sulla licenza di terze parti:"
 		}
 	],
 	"tooltips": [

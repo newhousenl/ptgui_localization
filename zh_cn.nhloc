@@ -8198,6 +8198,11 @@
 			"id": "mainwindow.preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"txt": "消除紫边"
+		},
+		{
+			"id": "about.thirdpartyinfo",
+			"machinetranslated": true,
+			"txt": "致谢和第三方许可信息："
 		}
 	],
 	"tooltips": [

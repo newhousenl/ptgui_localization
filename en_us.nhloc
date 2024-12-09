@@ -6702,6 +6702,43 @@
 {
     "id": "about.thirdpartyinfo",
     "txt": "Acknowledgements and third party license information:"
+},
+
+{
+    "id": "menubar.window",
+    "txt": "Window"
+},
+{
+    "id": "menubar.window.mac_minimize",
+    "txt": "Minimize"
+},
+{
+    "id": "menubar.window.mac_zoom",
+    "txt": "Zoom"
+},
+{
+    "id": "menubar.window.mac_bringalltofront",
+    "txt": "Bring All to Front"
+},
+{
+    "id": "menubar.apple.services",
+    "txt": "Services"
+},
+{
+    "id": "menubar.apple.hide",
+    "txt": "Hide"
+},
+{
+    "id": "menubar.apple.hide",
+    "txt": "Hide"
+},
+{
+    "id": "menubar.apple.hideothers",
+    "txt": "Hide Others"
+},
+{
+    "id": "menubar.apple.showall",
+    "txt": "Show All"
 }
 
     ],

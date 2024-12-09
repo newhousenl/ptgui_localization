@@ -8182,8 +8182,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Благодарности и информация о лицензии третьей стороны:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "Окно" },
+			{ "id": "menubar.window.mac_minimize", "txt": "Свернуть" },
+			{ "id": "menubar.window.mac_zoom", "txt": "Развернуть" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "Вывести все на передний план" },
+			{ "id": "menubar.apple.services", "txt": "Службы" },
+			{ "id": "menubar.apple.hide", "txt": "Скрыть" },
+			{ "id": "menubar.apple.hideothers", "txt": "Скрыть другие" },
+			{ "id": "menubar.apple.showall", "txt": "Показать все" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

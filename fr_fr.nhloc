@@ -8207,8 +8207,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Remerciements et informations de licence de tiers:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "Fenêtre" },
+			{ "id": "menubar.window.mac_minimize", "txt": "Réduire" },
+			{ "id": "menubar.window.mac_zoom", "txt": "Zoom" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "Tout ramener au premier plan" },
+			{ "id": "menubar.apple.services", "txt": "Services" },
+			{ "id": "menubar.apple.hide", "txt": "Masquer" },
+			{ "id": "menubar.apple.hideothers", "txt": "Masquer les autres" },
+			{ "id": "menubar.apple.showall", "txt": "Tout afficher" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

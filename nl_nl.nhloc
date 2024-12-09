@@ -6823,8 +6823,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Erkenningen en licentie-informatie van derden:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "Venster" },
+			{ "id": "menubar.window.mac_minimize", "txt": "Minimaliseer" },
+			{ "id": "menubar.window.mac_zoom", "txt": "Zoom" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "Breng alles naar voren" },
+			{ "id": "menubar.apple.services", "txt": "Diensten" },
+			{ "id": "menubar.apple.hide", "txt": "Verberg" },
+			{ "id": "menubar.apple.hideothers", "txt": "Verberg anderen" },
+			{ "id": "menubar.apple.showall", "txt": "Toon alles" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

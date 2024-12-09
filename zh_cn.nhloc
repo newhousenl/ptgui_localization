@@ -8203,8 +8203,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "致谢和第三方许可信息："
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "窗口" },
+			{ "id": "menubar.window.mac_minimize", "txt": "最小化" },
+			{ "id": "menubar.window.mac_zoom", "txt": "缩放" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "全部移到前面" },
+			{ "id": "menubar.apple.services", "txt": "服务" },
+			{ "id": "menubar.apple.hide", "txt": "隐藏" },
+			{ "id": "menubar.apple.hideothers", "txt": "隐藏其他" },
+			{ "id": "menubar.apple.showall", "txt": "显示全部" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

@@ -6729,10 +6729,6 @@
     "txt": "Hide"
 },
 {
-    "id": "menubar.apple.hide",
-    "txt": "Hide"
-},
-{
     "id": "menubar.apple.hideothers",
     "txt": "Hide Others"
 },

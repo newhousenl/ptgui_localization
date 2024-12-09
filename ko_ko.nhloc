@@ -8203,8 +8203,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "감사의 말과 제3자 라이센스 정보:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "창" },
+			{ "id": "menubar.window.mac_minimize", "txt": "최소화" },
+			{ "id": "menubar.window.mac_zoom", "txt": "확대" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "모두 맨 앞으로 가져오기" },
+			{ "id": "menubar.apple.services", "txt": "서비스" },
+			{ "id": "menubar.apple.hide", "txt": "가리기" },
+			{ "id": "menubar.apple.hideothers", "txt": "다른 창 가리기" },
+			{ "id": "menubar.apple.showall", "txt": "모두 표시" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

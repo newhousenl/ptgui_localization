@@ -6815,8 +6815,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Potvrzení a informace o licenci třetích stran:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "Okno" },
+			{ "id": "menubar.window.mac_minimize", "txt": "Minimalizovat" },
+			{ "id": "menubar.window.mac_zoom", "txt": "Zvětšit" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "Přenést vše dopředu" },
+			{ "id": "menubar.apple.services", "txt": "Služby" },
+			{ "id": "menubar.apple.hide", "txt": "Skrýt" },
+			{ "id": "menubar.apple.hideothers", "txt": "Skrýt ostatní" },
+			{ "id": "menubar.apple.showall", "txt": "Zobrazit vše" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

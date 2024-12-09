@@ -7256,8 +7256,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "致謝和第三方許可資訊："
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "視窗" },
+			{ "id": "menubar.window.mac_minimize", "txt": "最小化" },
+			{ "id": "menubar.window.mac_zoom", "txt": "縮放" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "全部移到前面" },
+			{ "id": "menubar.apple.services", "txt": "服務" },
+			{ "id": "menubar.apple.hide", "txt": "隱藏" },
+			{ "id": "menubar.apple.hideothers", "txt": "隱藏其他" },
+			{ "id": "menubar.apple.showall", "txt": "顯示全部" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

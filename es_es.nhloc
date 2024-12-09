@@ -8099,8 +8099,16 @@
 			"id": "about.thirdpartyinfo",
 			"machinetranslated": true,
 			"txt": "Agradecimientos e información de licencias de terceros:"
-		}
-	],
+		},
+			{ "id": "menubar.window", "txt": "Ventana" },
+			{ "id": "menubar.window.mac_minimize", "txt": "Minimizar" },
+			{ "id": "menubar.window.mac_zoom", "txt": "Ampliar" },
+			{ "id": "menubar.window.mac_bringalltofront", "txt": "Traer todo al frente" },
+			{ "id": "menubar.apple.services", "txt": "Servicios" },
+			{ "id": "menubar.apple.hide", "txt": "Ocultar" },
+			{ "id": "menubar.apple.hideothers", "txt": "Ocultar Otros" },
+			{ "id": "menubar.apple.showall", "txt": "Mostrar Todo" }
+		],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

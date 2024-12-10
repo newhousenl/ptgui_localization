@@ -7787,15 +7787,43 @@
 			"machinetranslated": true,
 			"txt": "Riconoscimenti e informazioni sulla licenza di terze parti:"
 		},
-			{ "id": "menubar.window", "txt": "Finestra" },
-			{ "id": "menubar.window.mac_minimize", "txt": "Minimizza" },
-			{ "id": "menubar.window.mac_zoom", "txt": "Zoom" },
-			{ "id": "menubar.window.mac_bringalltofront", "txt": "Porta tutto in primo piano" },
-			{ "id": "menubar.apple.services", "txt": "Servizi" },
-			{ "id": "menubar.apple.hide", "txt": "Nascondi" },
-			{ "id": "menubar.apple.hideothers", "txt": "Nascondi altri" },
-			{ "id": "menubar.apple.showall", "txt": "Mostra tutto" }
-		],
+		{
+			"id": "menubar.window",
+			"txt": "Finestra"
+		},
+		{
+			"id": "menubar.window.mac_minimize",
+			"txt": "Minimizza"
+		},
+		{
+			"id": "menubar.window.mac_zoom",
+			"txt": "Zoom"
+		},
+		{
+			"id": "menubar.window.mac_bringalltofront",
+			"txt": "Porta tutto in primo piano"
+		},
+		{
+			"id": "menubar.apple.services",
+			"txt": "Servizi"
+		},
+		{
+			"id": "menubar.apple.hide",
+			"txt": "Nascondi"
+		},
+		{
+			"id": "menubar.apple.hideothers",
+			"txt": "Nascondi altri"
+		},
+		{
+			"id": "menubar.apple.showall",
+			"txt": "Mostra tutto"
+		},
+		{
+			"id": "menubar.apple.quit",
+			"txt": "Esci da %0"
+		}
+	],
 	"tooltips": [
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",

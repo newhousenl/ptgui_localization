@@ -6806,15 +6806,42 @@
 			"machinetranslated": true,
 			"txt": "Danksagungen und Lizenzinformationen von Drittanbietern:"
 		},
-			{ "id": "menubar.window", "txt": "Fenster" },
-			{ "id": "menubar.window.mac_minimize", "txt": "Minimieren" },
-			{ "id": "menubar.window.mac_zoom", "txt": "Zoomen" },
-			{ "id": "menubar.window.mac_bringalltofront", "txt": "Alle in den Vordergrund bringen" },
-			{ "id": "menubar.apple.services", "txt": "Dienste" },
-			{ "id": "menubar.apple.hide", "txt": "Ausblenden" },
-			{ "id": "menubar.apple.hideothers", "txt": "Andere ausblenden" },
-			{ "id": "menubar.apple.showall", "txt": "Alle einblenden" }
-	
+		{
+			"id": "menubar.window",
+			"txt": "Fenster"
+		},
+		{
+			"id": "menubar.window.mac_minimize",
+			"txt": "Minimieren"
+		},
+		{
+			"id": "menubar.window.mac_zoom",
+			"txt": "Zoomen"
+		},
+		{
+			"id": "menubar.window.mac_bringalltofront",
+			"txt": "Alle in den Vordergrund bringen"
+		},
+		{
+			"id": "menubar.apple.services",
+			"txt": "Dienste"
+		},
+		{
+			"id": "menubar.apple.hide",
+			"txt": "Ausblenden"
+		},
+		{
+			"id": "menubar.apple.hideothers",
+			"txt": "Andere ausblenden"
+		},
+		{
+			"id": "menubar.apple.showall",
+			"txt": "Alle einblenden"
+		},
+		{
+			"id": "menubar.apple.quit",
+			"txt": "Beenden %0"
+		}
 	],
 	"tooltips": [
 		{

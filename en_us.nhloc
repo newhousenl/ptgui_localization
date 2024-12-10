@@ -6735,6 +6735,10 @@
 {
     "id": "menubar.apple.showall",
     "txt": "Show All"
+},
+{
+    "id": "menubar.apple.quit",
+    "txt": "Quit %0"
 }
 
     ],

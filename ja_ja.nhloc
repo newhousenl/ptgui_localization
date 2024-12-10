@@ -6826,15 +6826,43 @@
 			"machinetranslated": true,
 			"txt": "謝辞およびサードパーティのライセンス情報:"
 		},
-			{ "id": "menubar.window", "txt": "ウィンドウ" },
-			{ "id": "menubar.window.mac_minimize", "txt": "最小化" },
-			{ "id": "menubar.window.mac_zoom", "txt": "拡大" },
-			{ "id": "menubar.window.mac_bringalltofront", "txt": "すべてを前面へ移動" },
-			{ "id": "menubar.apple.services", "txt": "サービス" },
-			{ "id": "menubar.apple.hide", "txt": "非表示" },
-			{ "id": "menubar.apple.hideothers", "txt": "ほかを非表示" },
-			{ "id": "menubar.apple.showall", "txt": "すべて表示" }
-		],
+		{
+			"id": "menubar.window",
+			"txt": "ウィンドウ"
+		},
+		{
+			"id": "menubar.window.mac_minimize",
+			"txt": "最小化"
+		},
+		{
+			"id": "menubar.window.mac_zoom",
+			"txt": "拡大"
+		},
+		{
+			"id": "menubar.window.mac_bringalltofront",
+			"txt": "すべてを前面へ移動"
+		},
+		{
+			"id": "menubar.apple.services",
+			"txt": "サービス"
+		},
+		{
+			"id": "menubar.apple.hide",
+			"txt": "非表示"
+		},
+		{
+			"id": "menubar.apple.hideothers",
+			"txt": "ほかを非表示"
+		},
+		{
+			"id": "menubar.apple.showall",
+			"txt": "すべて表示"
+		},
+		{
+			"id": "menubar.apple.quit",
+			"txt": "%0 を終了"
+		}
+	],
 	"tooltips": [
 		{
 			"id": "mainwindow.toolbar.newproject",

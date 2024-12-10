@@ -6739,7 +6739,20 @@
 {
     "id": "menubar.apple.quit",
     "txt": "Quit %0"
+},
+{
+    "id": "fileformatsettings.effort",
+    "txt": "Effort:"
+},
+{
+    "id": "fileformatsettings.effort.fastest",
+    "txt": "%0 (fastest)"
+},
+{
+    "id": "fileformatsettings.effort.best",
+    "txt": "%0 (smallest file)"
 }
+
 
     ],
 
@@ -9177,6 +9190,10 @@
         {
             "id": "preprocesstab.fringereduction",
             "helptext": "Purple fringing is a type of chromatic aberration that appears as purple or magenta edges around high-contrast areas in photos, typically seen near bright light sources or against backlit subjects. Select this checkbox to remove or reduce purple fringing."
+        },
+        {
+            "id": "fileformatsettings.effort",
+            "helptext": "The amount of effort to put into compressing the image. Higher values give better compression (and thus smaller files) but take longer to compress."
         }
 
     ],

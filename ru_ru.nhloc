@@ -8218,6 +8218,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Выйти из %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Усилие:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (самый быстрый)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (наименьший файл)"
 		}
 	],
 	"tooltips": [
@@ -11171,6 +11186,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Фиолетовая окантовка — это тип хроматической аберрации, которая проявляется в виде фиолетовых или пурпурных краев вокруг высококонтрастных областей на фотографиях, обычно наблюдаемых вблизи ярких источников света или на фоне подсвеченных сзади объектов. Установите этот флажок, чтобы удалить или уменьшить фиолетовую окантовку."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "Количество усилий, затрачиваемых на сжатие изображения. Более высокие значения обеспечивают лучшее сжатие (и, следовательно, меньшие файлы), но сжатие занимает больше времени."
 		}
 	],
 	"helppages": [

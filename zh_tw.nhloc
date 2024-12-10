@@ -7292,6 +7292,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "退出 %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "努力："
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0（最快）"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0（最小檔案）"
 		}
 	],
 	"tooltips": [
@@ -10245,6 +10260,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "紫邊是一種色差，在照片中高對比區域周圍顯示為紫色或洋紅色邊緣，通常在明亮光源附近或逆光拍攝對像下出現。選擇此複選框可消除或減少紫邊。"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "壓縮圖像所花費的精力。數值越高，壓縮效果越好（因此檔案越小），但壓縮時間越長。"
 		}
 	],
 	"helppages": [

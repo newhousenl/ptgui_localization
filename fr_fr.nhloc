@@ -8243,6 +8243,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Quitter %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Effort:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (le plus rapide)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (le plus petit fichier)"
 		}
 	],
 	"tooltips": [
@@ -11195,6 +11210,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Les franges violettes sont un type d'aberration chromatique qui apparaît sous forme de bordures violettes ou magenta autour des zones à fort contraste sur les photos, généralement observées à proximité de sources de lumière vive ou sur des sujets rétroéclairés. Cochez cette case pour supprimer ou réduire les franges violettes."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "La quantité d'effort à fournir pour compresser l'image. Des valeurs plus élevées donnent une meilleure compression (et donc des fichiers plus petits) mais prennent plus de temps à compresser."
 		}
 	],
 	"helppages": [

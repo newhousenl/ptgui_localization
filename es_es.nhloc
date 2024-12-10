@@ -8135,6 +8135,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Salir de %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Esfuerzo:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (más rápido)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (archivo más pequeño)"
 		}
 	],
 	"tooltips": [
@@ -11088,6 +11103,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Las franjas violetas son un tipo de aberración cromática que aparecen como bordes violetas o magenta alrededor de las áreas de alto contraste en las fotografías, que suelen verse cerca de fuentes de luz brillantes o contra objetos a contraluz. Seleccione esta casilla de verificación para eliminar o reducir las franjas violetas."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "La cantidad de esfuerzo que se debe dedicar a comprimir la imagen. Los valores más altos brindan una mejor compresión (y, por lo tanto, archivos más pequeños), pero la compresión lleva más tiempo."
 		}
 	],
 	"helppages": [

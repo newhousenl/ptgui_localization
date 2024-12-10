@@ -6848,9 +6848,24 @@
 			"id": "menubar.apple.showall",
 			"txt": "Zobrazit vše"
 		},
-		{ 
+		{
 			"id": "menubar.apple.quit",
-			"txt": "Ukončit %0" 
+			"txt": "Ukončit %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Úsilí:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (nejrychlejší)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (nejmenší soubor)"
 		}
 	],
 	"tooltips": [
@@ -9622,6 +9637,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "fialové třásně je typ chromatické aberace, která se objevuje jako fialové nebo purpurové okraje kolem vysoce kontrastních oblastí na fotografiích, které jsou obvykle vidět v blízkosti jasných světelných zdrojů nebo proti objektům v protisvětle. Zaškrtnutím tohoto políčka odstraníte nebo snížíte fialové třásně."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "Množství úsilí vynaloženého na komprimaci obrázku. Vyšší hodnoty poskytují lepší kompresi (a tedy menší soubory), ale komprimace trvá déle."
 		}
 	],
 	"helppages": [

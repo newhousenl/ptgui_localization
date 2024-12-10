@@ -8229,6 +8229,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Sair do %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Esforço:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (mais rápido)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (menor arquivo)"
 		}
 	],
 	"tooltips": [
@@ -11182,6 +11197,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Purple fringing é um tipo de aberração cromática que aparece como bordas roxas ou magenta ao redor de áreas de alto contraste em fotos, normalmente vistas perto de fontes de luz brilhantes ou contra objetos contraluz. Selecione esta caixa de seleção para remover ou reduzir o purple fringing."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "A quantidade de esforço a ser empregado na compactação da imagem. Valores mais altos dão melhor compactação (e, portanto, arquivos menores), mas levam mais tempo para compactar."
 		}
 	],
 	"helppages": [

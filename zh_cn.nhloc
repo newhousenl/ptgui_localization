@@ -8236,7 +8236,25 @@
 			"id": "menubar.apple.showall",
 			"txt": "显示全部"
 		},
-		{ "id": "menubar.apple.quit", "txt": "退出 %0" }
+		{
+			"id": "menubar.apple.quit",
+			"txt": "退出 %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "努力："
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0（最快）"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0（最小文件）"
+		}
 	],
 	"tooltips": [
 		{
@@ -11189,6 +11207,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "紫边是一种色差，在照片的高对比度区域周围呈现紫色或洋红色边缘，通常在明亮光源附近或背光拍摄时出现。选中此复选框可移除或减少紫边。"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "压缩图像所需的工作量。值越高，压缩效果越好（文件越小），但压缩时间越长。"
 		}
 	],
 	"helppages": [

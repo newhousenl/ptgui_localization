@@ -6841,6 +6841,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Beenden %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Aufwand:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (am schnellsten)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (kleinste Datei)"
 		}
 	],
 	"tooltips": [
@@ -9772,6 +9787,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Violette Farbsäume sind eine Art von chromatischer Aberration, die als violette oder magentafarbene Ränder um Bereiche mit hohem Kontrast in Fotos erscheinen, typischerweise in der Nähe von hellen Lichtquellen oder bei Gegenlichtaufnahmen. Aktivieren Sie dieses Kontrollkästchen, um violette Farbsäume zu entfernen oder zu reduzieren."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "Der Aufwand, der zum Komprimieren des Bildes erforderlich ist. Höhere Werte führen zu einer besseren Komprimierung (und damit kleineren Dateien), die Komprimierung dauert jedoch länger."
 		}
 	],
 	"helppages": [

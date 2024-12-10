@@ -6859,6 +6859,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "Stop %0"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "Moeite:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (snelste)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (kleinste bestand)"
 		}
 	],
 	"tooltips": [
@@ -9374,6 +9389,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "Purple fringing is een type chromatische aberratie dat verschijnt als paarse of magenta randen rond gebieden met een hoog contrast in foto's, meestal gezien in de buurt van felle lichtbronnen of tegen onderwerpen met tegenlicht. Selecteer dit selectievakje om purple fringing te verwijderen of te verminderen."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "De hoeveelheid moeite die nodig is om de afbeelding te comprimeren. Hogere waarden geven betere compressie (en dus kleinere bestanden), maar het duurt langer om te comprimeren."
 		}
 	],
 	"helppages": [

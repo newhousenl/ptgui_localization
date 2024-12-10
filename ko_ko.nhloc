@@ -8236,7 +8236,25 @@
 			"id": "menubar.apple.showall",
 			"txt": "모두 표시"
 		},
-		{ "id": "menubar.apple.quit", "txt": "%0 종료" }
+		{
+			"id": "menubar.apple.quit",
+			"txt": "%0 종료"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "노력:"
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0 (가장 빠름)"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (가장 작은 파일)"
+		}
 	],
 	"tooltips": [
 		{
@@ -11189,6 +11207,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "보라색 프린징은 사진에서 고대비 영역 주변에 보라색 또는 자홍색 가장자리로 나타나는 일종의 색수차로, 일반적으로 밝은 광원 근처나 역광 피사체에 나타납니다. 이 확인란을 선택하여 보라색 프린징을 제거하거나 줄입니다."
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "이미지를 압축하는 데 드는 노력의 양. 값이 높을수록 압축이 더 잘 되지만(따라서 파일 크기가 더 작음) 압축하는 데 시간이 더 오래 걸립니다."
 		}
 	],
 	"helppages": [

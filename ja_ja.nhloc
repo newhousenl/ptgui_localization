@@ -6861,6 +6861,21 @@
 		{
 			"id": "menubar.apple.quit",
 			"txt": "%0 を終了"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"txt": "努力："
+		},
+		{
+			"id": "fileformatsettings.effort.fastest",
+			"machinetranslated": true,
+			"txt": "%0（最速）"
+		},
+		{
+			"id": "fileformatsettings.effort.best",
+			"machinetranslated": true,
+			"txt": "%0 (最小ファイル)"
 		}
 	],
 	"tooltips": [
@@ -9374,6 +9389,11 @@
 			"id": "preprocesstab.fringereduction",
 			"machinetranslated": true,
 			"helptext": "パープルフリンジは、写真の高コントラスト領域の周囲に紫またはマゼンタのエッジとして現れる色収差の一種で、通常、明るい光源の近くや逆光の被写体に対して見られます。このチェックボックスを選択すると、パープルフリンジを削除または軽減できます。"
+		},
+		{
+			"id": "fileformatsettings.effort",
+			"machinetranslated": true,
+			"helptext": "イメージを圧縮するためにかける労力の量。値が高いほど圧縮率は高くなります (したがってファイルサイズは小さくなります) が、圧縮にかかる時間は長くなります。"
 		}
 	],
 	"helppages": [

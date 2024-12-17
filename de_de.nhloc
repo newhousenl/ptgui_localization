@@ -5791,12 +5791,12 @@
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
 			"machinetranslated": false,
-			"txt": "Zuerst Belichtungsreihen zu HDR zusammenfügen und sie danach überblenden"
+			"txt": "Zuerst Belichtungsreihen zu HDR zusammenfügen und diese dann überblenden"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
 			"machinetranslated": false,
-			"txt": "Zuerst Belichtungsebenen erstellen und sie dann zusammenfügen"
+			"txt": "Zuerst Belichtungsebenen erstellen und diese dann zu HDR zusammenfügen"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
@@ -7859,7 +7859,7 @@
 			"id": "projectsettingstab.misc.useexif",
 			"machinetranslated": false,
 			"helptext": "Objektiveinstellungen automatisch initialisieren, wenn Bilder zum Projekt hinzugefügt werden.",
-			"morehelptext": "<br><br>Wenn ausgewählt, analysiert PTGui die EXIF-Daten der Bilder, um den Typ der Kamera und des Objektivs zu bestimmen. Die Objektiveinstellungen werden anhand dieser Daten initialisiert. Die Standardeinstellungen können Sie anpassen oder außer Kraft setzen, indem Sie Zuordnungen in der Objektiv-Datenbank und der Kamera-Datenbank vornemmen.<br><br>Dies gilt nur für Bilder, die Sie mit der Schaltfläche '@mainwindow.projectassistant.loadimages@' oder durch Drag &amp; Drop von Bildern zu einem Projekt hinzufügen.<br><br>Wenn diese Option nicht ausgewählt ist, werden die EXIF-Daten ignoriert und die aktuellen Objektiveinstellungen werden beibehalten, wenn Sie Bilder zu diesem Projekt hinzufügen.<br><br>Für den Batch-Builder gibt es eine separate Einstellung, siehe '@mainwindow.projectsettings.batchbuilder@' oben."
+			"morehelptext": "<br><br>Wenn ausgewählt, analysiert PTGui die EXIF-Daten der Bilder, um den Typ der Kamera und des Objektivs zu bestimmen. Die Objektiveinstellungen werden anhand dieser Daten initialisiert. Die Standardeinstellungen können Sie anpassen oder außer Kraft setzen, indem Sie Zuordnungen in der Objektiv-Datenbank und der Kamera-Datenbank vornehmen.<br><br>Dies gilt nur für Bilder, die Sie mit der Schaltfläche '@mainwindow.projectassistant.loadimages@' oder mit Drag &amp; Drop zu einem Projekt hinzufügen.<br><br>Wenn diese Option nicht ausgewählt ist, werden die EXIF-Daten ignoriert und die aktuellen Objektiveinstellungen werden beibehalten, wenn Sie Bilder zu diesem Projekt hinzufügen.<br><br>Für den Batch-Builder gibt es eine separate Einstellung, siehe '@mainwindow.projectsettings.batchbuilder@' oben."
 		},
 		{
 			"id": "projectsettingstab.misc.askinitializeandoptimize",

@@ -2617,7 +2617,7 @@
 },
 {
     "id": "mainwindow.createpanoramatab.interpolator.nearest",
-    "txt": "Neirest Neighbor"
+    "txt": "Nearest Neighbor"
 },
 {
     "id": "mainwindow.createpanoramatab.restoredefaults",

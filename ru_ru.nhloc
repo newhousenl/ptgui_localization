@@ -539,7 +539,7 @@
 		{
 			"id": "menubar.view.exitfullscreen",
 			"machinetranslated": true,
-			"txt": "Выход на полный экран"
+			"txt": "Выйти из полноэкранного режима"
 		},
 		{
 			"id": "menubar.images",

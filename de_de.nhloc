@@ -5151,7 +5151,7 @@
 		{
 			"id": "trialversion.txt",
 			"format": "html",
-			"txt": "<font size=2>%0 Testversion</font><br><br>Dies ist eine kostenlose Testversion der %0 Panorama Stitching Software. Diese Testversion ermöglicht die Evaluierung der Software und unterliegt den folgenden Einschränkungen<br><br>- erstellte Panoramen enthalten das sichtbare Wasserzeichen &quot;www.ptgui.com&quot;<br>- Projektdateien aus der Testversion können nur von PTGui gelesen werden. Der Export in andere Anwendungen ist nicht möglich.<br><br>Abgesehen von den oben genannten Einschränkungen ist die Testversion voll funktionsfähig. Die Testbeschränkungen können Sie durch den Erwerb einer Lizenz entfernen. Mit dem Kauf unterstützen Sie die zukünftige Entwicklung von PTGui! Klicken Sie auf die Schaltfläche @trialversion.buyptgui@, um weitere Informationen zu erhalten.<br><br><b>Danke für's Testen von %0!</b>"
+			"txt": "<font size=2>%0 Testversion</font><br><br>Dies ist eine kostenlose Testversion der %0 Panorama Stitching Software. Diese Testversion ermöglicht die Evaluierung der Software und unterliegt den folgenden Einschränkungen<br><br>- erstellte Panoramen enthalten das sichtbare Wasserzeichen &quot;www.ptgui.com&quot;<br>- Projektdateien aus der Testversion können nur von PTGui gelesen werden. Der Export in andere Anwendungen ist nicht möglich.<br><br>Abgesehen von den oben genannten Einschränkungen ist die Testversion voll funktionsfähig. Die Testbeschränkungen können Sie durch den Erwerb einer Lizenz entfernen. Mit dem Kauf unterstützen Sie die zukünftige Entwicklung von PTGui! Klicken Sie auf die Schaltfläche '@trialversion.buyptgui@', um weitere Informationen zu erhalten.<br><br><b>Danke für's Testen von %0!</b>"
 		},
 		{
 			"id": "trialversion.buyptgui",
@@ -5711,7 +5711,7 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
 			"machinetranslated": false,
-			"txt": "Optimale Schnittkanten finden"
+			"txt": "Optimale Schnittkanten suchen"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blending",
@@ -9693,9 +9693,9 @@
 		},
 		{
 			"id": "patchwindow.findoptimumseams",
-			"label": "Optimale Schnittkanten finden",
+			"label": "Optimale Schnittkanten suchen",
 			"helptext": "Versucht eine optimale Schnittkante zwischen dem Patch und dem darunter liegenden Bild zu finden.",
-			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, wird die Schnittkante zwischen dem Patch-Bild und dem darunter liegenden Bild durch Bereiche geführt, in denen das Patch-Bild und das darunter liegende Bild am ähnlichsten sind. Dadurch wird das nahtloseste Ergebnis erzielt. Sie müssen angeben, welche Teile des darunter liegenden Bildes im Endergebnis nicht sichtbar sein sollen, indem Sie zunächst den Modus 'Loch ausschneiden' verwenden.<br><br>Wenn deaktiviert, wird der Patch als Ganzes überlagert. Die Schnittkanten werden zwar weiterhin überblendet, das Ergebnis ist jedoch möglicherweise nicht vollständig nahtlos."
+			"morehelptext": "<br><br>Wenn diese Option aktiviert ist, wird die Schnittkante zwischen dem Patch-Bild und dem darunter liegenden Bild durch Bereiche geführt, in denen das Patch-Bild und das darunter liegende Bild am ähnlichsten sind. Dadurch wird ein möglichst nahtloses Ergebnis erzielt. Sie müssen angeben, welche Teile des darunter liegenden Bildes im Endergebnis nicht sichtbar sein sollen, indem Sie zunächst den Modus 'Loch ausschneiden' verwenden.<br><br>Wenn deaktiviert, wird der Patch als Ganzes überlagert. Die Schnittkanten werden zwar weiterhin überblendet, das Ergebnis ist jedoch möglicherweise nicht vollständig nahtlos."
 		},
 		{
 			"id": "patchwindow.help",

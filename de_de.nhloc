@@ -1768,7 +1768,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.numbracketsinfo",
-			"txt": "Das Projekt enthält %0 Belichtungsreihen mit je %1 Bildern."
+			"txt": "Das Projekt enthält %0 Belichtungsreihen mit jeweils %1 Bildern."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.infolinked",
@@ -1843,11 +1843,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link",
-			"txt": "HDR-Modus aktivieren und Bilder verknüpfen"
+			"txt": "HDR-Modus aktivieren und die Bilder jeder Belichtungsreihe verknüpfen"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink",
-			"txt": "HDR-Modus aktivieren, aber Bilder nicht verknüpfen"
+			"txt": "HDR-Modus aktivieren, aber alle Bilder einzeln ausrichten"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr",
@@ -4854,11 +4854,11 @@
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
-			"txt": "Das Projekt enthält %0 Belichtungsreihen mit je %1 Bildern. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als ein einzelnes Bild behandeln?\n\nDazu müssen die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sein. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
+			"txt": "Das Projekt enthält %0 Belichtungsreihen mit jeweils %1 Bildern. Möchten Sie die Positionen der Bilder von jeweils einer Belichtungsreihe verknüpfen und jede Belichtungsreihe als ein einzelnes Bild behandeln?\n\nDazu müssen die Bilder von jeder Belichtungsreihe bereits pixelgenau ausgerichtet sein. Tun Sie dies nur, wenn Sie ein Stativ verwendet haben. Wenn Sie die Bilder ohne Stativ aufgenommen haben, wählen Sie '@cancel@'."
 		},
 		{
 			"id": "txt.confirmlinkhdrsetsshort",
-			"txt": "Das Projekt enthält %0 Belichtungsreihen mit je %1 Bildern. Was möchten Sie tun?"
+			"txt": "Das Projekt enthält %0 Belichtungsreihen mit jeweils %1 Bildern. Was möchten Sie tun?"
 		},
 		{
 			"id": "err.nobracketedfound",

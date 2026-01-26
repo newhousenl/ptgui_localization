@@ -9,7 +9,7 @@
 	"strings": [
 		{
 			"id": "txt.improvetranslation",
-			"txt": "Migliora la traduzione italiana"
+			"txt": "Migliorare la traduzione italiana"
 		},
 		{
 			"id": "txt.translationby",
@@ -189,7 +189,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.projectassistant",
-			"txt": "Assistenza"
+			"txt": "Assistente Progetto"
 		},
 		{
 			"id": "mainwindow.tabs.sourceimages",
@@ -197,7 +197,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.lenssettings",
-			"txt": "Parametri Ottica"
+			"txt": "Impostazioni obiettivo"
 		},
 		{
 			"id": "mainwindow.tabs.crop",
@@ -209,7 +209,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.imageparameters",
-			"txt": "Parametri dell'immagine"
+			"txt": "Parametri immagine"
 		},
 		{
 			"id": "mainwindow.tabs.controlpoints",
@@ -217,7 +217,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.optimizer",
-			"txt": "Ottimizzazione"
+			"txt": "Ottimizzatore"
 		},
 		{
 			"id": "mainwindow.tabs.exposurehdr",
@@ -229,7 +229,7 @@
 		},
 		{
 			"id": "mainwindow.tabs.projectsettings",
-			"txt": "Impostazioni del progetto"
+			"txt": "Impostazioni progetto"
 		},
 		{
 			"id": "mainwindow.tabs.preview",
@@ -253,11 +253,11 @@
 		},
 		{
 			"id": "menubar.file.openproject",
-			"txt": "Caricare un progetto"
+			"txt": "Aprire progetto"
 		},
 		{
 			"id": "txt.openpapywizardfile",
-			"txt": "Caricare un file di Papywizard"
+			"txt": "Aprire file Papywizard"
 		},
 		{
 			"id": "txt.savepanorama",
@@ -265,52 +265,52 @@
 		},
 		{
 			"id": "txt.replaceimage",
-			"txt": "Sostituisci l'immagine"
+			"txt": "Sostituire immagine"
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
 			"machinetranslated": true,
-			"txt": "Salva la curva di risposta della telecamera"
+			"txt": "Salvare curva di risposta della fotocamera"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
 			"machinetranslated": true,
-			"txt": "Caricare una curva di risposta della telecamera"
+			"txt": "Caricare curva di risposta della fotocamera"
 		},
 		{
 			"id": "txt.savevignettingcurve",
 			"machinetranslated": true,
-			"txt": "Salva la curva di vignettatura"
+			"txt": "Salvare curva di vignettatura"
 		},
 		{
 			"id": "txt.loadvignettingcurve",
 			"machinetranslated": true,
-			"txt": "Caricare una curva di vignettatura"
+			"txt": "Caricare curva di vignettatura"
 		},
 		{
 			"id": "txt.savewebpagetemplate",
 			"machinetranslated": true,
-			"txt": "Salva modello di pagina Web"
+			"txt": "Salvare modello pagina web"
 		},
 		{
 			"id": "txt.selectwebpagetemplate",
 			"machinetranslated": true,
-			"txt": "Seleziona il modello di pagina Web"
+			"txt": "Selezionare modello pagina web"
 		},
 		{
 			"id": "txt.savetonemapsettings",
 			"machinetranslated": true,
-			"txt": "Salva le impostazioni di mappatura dei toni"
+			"txt": "Salvare impostazioni mappatura tonale"
 		},
 		{
 			"id": "txt.loadtonemapsettings",
 			"machinetranslated": true,
-			"txt": "Caricare le impostazioni di mappatura dei toni"
+			"txt": "Caricare impostazioni mappatura tonale"
 		},
 		{
 			"id": "txt.openpanorama",
 			"machinetranslated": true,
-			"txt": "Caricare Panorama"
+			"txt": "Aprire panorama"
 		},
 		{
 			"id": "txt.supportedformats",
@@ -325,7 +325,7 @@
 		{
 			"id": "menubar.file.applytemplate",
 			"machinetranslated": true,
-			"txt": "Applica modello"
+			"txt": "Applicare modello"
 		},
 		{
 			"id": "menubar.file.applytemplate.other",
@@ -337,15 +337,15 @@
 		},
 		{
 			"id": "menubar.file.saveproject",
-			"txt": "Salva il progetto"
+			"txt": "Salvare progetto"
 		},
 		{
 			"id": "menubar.file.saveprojectas",
-			"txt": "Salva progetto come"
+			"txt": "Salvare progetto con nome"
 		},
 		{
 			"id": "menubar.file.saveastemplate",
-			"txt": "Salva come modello"
+			"txt": "Salvare come modello"
 		},
 		{
 			"id": "menubar.file.export",
@@ -361,7 +361,7 @@
 		},
 		{
 			"id": "menubar.file.makedefault",
-			"txt": "Imposta come predefinito"
+			"txt": "Impostare come predefinito"
 		},
 		{
 			"id": "makedefault.confirmation",
@@ -369,7 +369,7 @@
 		},
 		{
 			"id": "menubar.file.resetdefault",
-			"txt": "Reimposta le impostazioni di progetto predefinite"
+			"txt": "Reimpostare impostazioni di progetto predefinite"
 		},
 		{
 			"id": "resetdefault.confirmation",
@@ -377,11 +377,11 @@
 		},
 		{
 			"id": "menubar.file.newinstance",
-			"txt": "Avvia nuova istanza"
+			"txt": "Avviare nuova istanza"
 		},
 		{
 			"id": "menubar.file.closewindow",
-			"txt": "Chiudi la finestra"
+			"txt": "Chiudere finestra"
 		},
 		{
 			"id": "menubar.file.exit",
@@ -413,22 +413,22 @@
 		},
 		{
 			"id": "menubar.edit.selectall",
-			"txt": "Seleziona tutto"
+			"txt": "Selezionare tutto"
 		},
 		{
 			"id": "batchstitcher.menubar.process",
 			"machinetranslated": true,
-			"txt": "Processara"
+			"txt": "Elaborazione"
 		},
 		{
 			"id": "batchstitcher.menubar.process.run",
 			"machinetranslated": true,
-			"txt": "Inizio"
+			"txt": "Avvia"
 		},
 		{
 			"id": "batchstitcher.menubar.process.stop",
 			"machinetranslated": true,
-			"txt": "Stop"
+			"txt": "Arresta"
 		},
 		{
 			"id": "menubar.view",
@@ -445,7 +445,7 @@
 		},
 		{
 			"id": "menubar.view.zoomtofit",
-			"txt": "Zoom adatta"
+			"txt": "Adatta allo schermo"
 		},
 		{
 			"id": "menubar.view.zoomtopercent",
@@ -469,12 +469,12 @@
 		},
 		{
 			"id": "menubar.view.enterfullscreen",
-			"txt": "schermo intero"
+			"txt": "Attivare schermo intero"
 		},
 		{
 			"id": "menubar.view.exitfullscreen",
 			"machinetranslated": true,
-			"txt": "Esci dalla modalità schermo intero"
+			"txt": "Uscire da schermo intero"
 		},
 		{
 			"id": "menubar.images",
@@ -574,11 +574,11 @@
 		},
 		{
 			"id": "panoramaeditor.menubar.editindividualimages",
-			"txt": "Modifica le singole immagini"
+			"txt": "Modificare singole immagini"
 		},
 		{
 			"id": "panoramaeditor.menubar.editpano",
-			"txt": "Modifica l'intero panorama"
+			"txt": "Modificare intero panorama"
 		},
 		{
 			"id": "panoramaeditor.imagexandy",
@@ -586,7 +586,7 @@
 		},
 		{
 			"id": "panoramaeditor.editmask",
-			"txt": "Modifica maschera"
+			"txt": "Modificare maschera"
 		},
 		{
 			"id": "panoramaeditor.editcontrolpoints",
@@ -740,30 +740,30 @@
 		{
 			"id": "panoeditor.menubar.setcenter",
 			"machinetranslated": true,
-			"txt": "Centro"
+			"txt": "Impostare centro"
 		},
 		{
 			"id": "panoeditor.menubar.mouseover",
 			"machinetranslated": true,
-			"txt": "Seleziona l'immagine sotto il puntatore"
+			"txt": "Selezionare immagine sotto puntatore"
 		},
 		{
 			"id": "panoeditor.menubar.blended",
 			"machinetranslated": true,
-			"txt": "Mostra Panorama fuso"
+			"txt": "Mostrare panorama fuso"
 		},
 		{
 			"id": "panoeditor.menubar.unblended",
 			"machinetranslated": true,
-			"txt": "Mostra Panorama senza fusione"
+			"txt": "Mostrare panorama non fuso"
 		},
 		{
 			"id": "panoeditor.menubar.showseams",
-			"txt": "Mostra bordi"
+			"txt": "Mostrare giunzioni"
 		},
 		{
 			"id": "panoeditor.menubar.showimagenumbers",
-			"txt": "Mostra i numeri delle immagini"
+			"txt": "Mostrare numeri immagini"
 		},
 		{
 			"id": "panoeditor.menubar.mode",
@@ -773,40 +773,40 @@
 		{
 			"id": "panoeditor.menubar.edit.fitpano",
 			"machinetranslated": true,
-			"txt": "Adattare il panorama"
+			"txt": "Adattare panorama"
 		},
 		{
 			"id": "panoeditor.menubar.edit.fitpanohorz",
 			"machinetranslated": true,
-			"txt": "Adattare il panorama in orizzontale"
+			"txt": "Adattare panorama orizzontalmente"
 		},
 		{
 			"id": "panoeditor.menubar.edit.fitpanovert",
 			"machinetranslated": true,
-			"txt": "Adattare il panorama verticalmente"
+			"txt": "Adattare panorama verticalmente"
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpano",
 			"machinetranslated": true,
-			"txt": "Centrare il panorama"
+			"txt": "Centrare panorama"
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpanohorz",
 			"machinetranslated": true,
-			"txt": "Centrare il panorama in orizzontale"
+			"txt": "Centrare panorama orizzontalmente"
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpanovert",
 			"machinetranslated": true,
-			"txt": "Centrare il panorama verticalmente"
+			"txt": "Centrare panorama verticalmente"
 		},
 		{
 			"id": "panoeditor.menubar.edit.straightenpano",
-			"txt": "Raddrizza Panorama"
+			"txt": "Raddrizzare panorama"
 		},
 		{
 			"id": "panoeditor.menubar.edit.level",
-			"txt": "Livella panorama"
+			"txt": "Livellare panorama"
 		},
 		{
 			"id": "panoeditor.menubar.projection",
@@ -816,7 +816,7 @@
 		{
 			"id": "panoeditor.menubar.tools.preview",
 			"machinetranslated": true,
-			"txt": "Mostra nel Viewer"
+			"txt": "Mostrare nel Viewer"
 		},
 		{
 			"id": "menubar.help.helpforthiswindow",
@@ -856,44 +856,44 @@
 		},
 		{
 			"id": "menubar.controlpoints.autojump",
-			"txt": "Corrispondenza"
+			"txt": "Salto automatico"
 		},
 		{
 			"id": "menubar.controlpoints.linkscrollbars",
-			"txt": "Collega le barre di scorrimento"
+			"txt": "Collegare barre di scorrimento"
 		},
 		{
 			"id": "menubar.controlpoints.autoadd",
-			"txt": "Aggiungi automaticamente"
+			"txt": "Aggiungere automaticamente"
 		},
 		{
 			"id": "menubar.controlpoints.autocontrast",
-			"txt": "Aumenta il contrasto"
+			"txt": "Aumentare contrasto"
 		},
 		{
 			"id": "menubar.controlpoints.showmask",
-			"txt": "Mostra maschere"
+			"txt": "Mostrare maschere"
 		},
 		{
 			"id": "menubar.controlpoints.generate",
-			"txt": "Genera punti di controllo"
+			"txt": "Generare punti di controllo"
 		},
 		{
 			"id": "menubar.controlpoints.generateforoverlapping",
-			"txt": "Genera punti di controllo per tutte le immagini sovrapposte"
+			"txt": "Generare punti di controllo per immagini sovrapposte"
 		},
 		{
 			"id": "menubar.controlpoints.deleteall",
-			"txt": "Elimina tutti i punti di controllo"
+			"txt": "Eliminare tutti i punti di controllo"
 		},
 		{
 			"id": "menubar.controlpoints.deleteworst",
 			"machinetranslated": true,
-			"txt": "Elimina i peggiori punti di controllo"
+			"txt": "Eliminare punti di controllo peggiori"
 		},
 		{
 			"id": "menubar.controlpoints.generateforselectedimages",
-			"txt": "Genera punti di controllo per le immagini selezionate"
+			"txt": "Generare punti di controllo per immagini selezionate"
 		},
 		{
 			"id": "menubar.controlpoints.generatefor",
@@ -905,11 +905,11 @@
 		},
 		{
 			"id": "alignimages",
-			"txt": "Allinea immagini"
+			"txt": "Allineare immagini"
 		},
 		{
 			"id": "menubar.project.aligntogrid",
-			"txt": "Allinea alla griglia"
+			"txt": "Allineare alla griglia"
 		},
 		{
 			"id": "menubar.project.optimize",
@@ -918,7 +918,7 @@
 		},
 		{
 			"id": "menubar.project.initializeandoptimize",
-			"txt": "Inizializza e ottimizza"
+			"txt": "Inizializzare e ottimizzare"
 		},
 		{
 			"id": "menubar.project.preview",
@@ -930,11 +930,11 @@
 		},
 		{
 			"id": "menubar.project.saveandsendtobatchstitcher",
-			"txt": "Salva e invia a @batchstitcher@"
+			"txt": "Salvare e inviare a @batchstitcher@"
 		},
 		{
 			"id": "menubar.project.sendtemporarycopytobatchstitcher",
-			"txt": "Invia copia temporanea su @batchstitcher@"
+			"txt": "Inviare copia temporanea a @batchstitcher@"
 		},
 		{
 			"id": "batchstitcher",
@@ -963,19 +963,19 @@
 		},
 		{
 			"id": "menubar.tools.publishtowebsite",
-			"txt": "Pubblica sul sito web"
+			"txt": "Pubblicare su sito web"
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "Converti in facce cubo"
+			"txt": "Convertire in facce del cubo"
 		},
 		{
 			"id": "menubar.tools.philosphere",
-			"txt": "Creare una PhiloSphere"
+			"txt": "Creare PhiloSphere"
 		},
 		{
 			"id": "menubar.tools.openfolder",
-			"txt": "Apri cartella"
+			"txt": "Aprire cartella"
 		},
 		{
 			"id": "menubar.tools.openfolder.sourceimages",
@@ -1047,27 +1047,27 @@
 		},
 		{
 			"id": "addimages",
-			"txt": "Aggiungi immagini"
+			"txt": "Aggiungere immagini"
 		},
 		{
 			"id": "menubar.images.remove",
-			"txt": "Rimuovi"
+			"txt": "Rimuovere"
 		},
 		{
 			"id": "menubar.images.replace",
-			"txt": "Sostituisci"
+			"txt": "Sostituire"
 		},
 		{
 			"id": "menubar.images.opencontainingfolder",
-			"txt": "Apri cartella"
+			"txt": "Aprire cartella"
 		},
 		{
 			"id": "menubar.images.link",
-			"txt": "Collega le immagini selezionate"
+			"txt": "Collegare immagini selezionate"
 		},
 		{
 			"id": "menubar.images.unlink",
-			"txt": "Scollega le immagini selezionate"
+			"txt": "Scollegare immagini selezionate"
 		},
 		{
 			"id": "menubar.images.select",
@@ -1076,12 +1076,12 @@
 		{
 			"id": "menubar.images.select.outside",
 			"machinetranslated": true,
-			"txt": "Tutte le immagini all'esterno dell'area visibile del panorama"
+			"txt": "Immagini fuori dall'area visibile"
 		},
 		{
 			"id": "menubar.images.select.inside",
 			"machinetranslated": true,
-			"txt": "Tutte le immagini all'interno dell'area visibile del panorama"
+			"txt": "Immagini dentro l'area visibile"
 		},
 		{
 			"id": "menubar.images.select.excluded",
@@ -1107,31 +1107,31 @@
 		},
 		{
 			"id": "menubar.images.moveup",
-			"txt": "Sposta sopra"
+			"txt": "Spostare su"
 		},
 		{
 			"id": "menubar.images.movedown",
-			"txt": "Sposta sotto"
+			"txt": "Spostare giù"
 		},
 		{
 			"id": "menubar.images.include",
-			"txt": "Includi nel Panorama"
+			"txt": "Includere nel panorama"
 		},
 		{
 			"id": "menubar.images.exclude",
-			"txt": "Escludi dal Panorama"
+			"txt": "Escludere dal panorama"
 		},
 		{
 			"id": "menubar.images.includeonlyselected",
-			"txt": "Includi solo le immagini selezionate"
+			"txt": "Includere solo immagini selezionate"
 		},
 		{
 			"id": "menubar.images.includeonlyunselected",
-			"txt": "Includi solo le immagini non selezionate"
+			"txt": "Includere solo immagini non selezionate"
 		},
 		{
 			"id": "menubar.images.removeexcluded",
-			"txt": "Rimuovi le immagini escluse"
+			"txt": "Rimuovere immagini escluse"
 		},
 		{
 			"id": "menubar.images.sort",
@@ -1139,16 +1139,16 @@
 		},
 		{
 			"id": "menubar.images.reverseorder",
-			"txt": "Ordine inverso"
+			"txt": "Invertire ordine"
 		},
 		{
 			"id": "menubar.images.linkbracketed",
 			"machinetranslated": true,
-			"txt": "Collega esposizioni con bracketing HDR"
+			"txt": "Collegare esposizioni in bracketing HDR"
 		},
 		{
 			"id": "menubar.images.unlinkall",
-			"txt": "Scollega tutte le immagini"
+			"txt": "Scollegare tutte le immagini"
 		},
 		{
 			"id": "batchstitcher.contextmenu.add",
@@ -1176,7 +1176,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.fillhere",
-			"txt": "Riempi qui"
+			"txt": "Riempire qui"
 		},
 		{
 			"id": "mainwindow.maskmenu.red",
@@ -1200,11 +1200,11 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.decreasepencilsize",
-			"txt": "Diminuisci la dimensione del tratto"
+			"txt": "Diminuire dimensione tratto"
 		},
 		{
 			"id": "mainwindow.maskmenu.increasepencilsize",
-			"txt": "Aumenta la dimensione del tratto"
+			"txt": "Aumentare dimensione tratto"
 		},
 		{
 			"id": "mainwindow.maskmenu.pencilsize",
@@ -1212,23 +1212,23 @@
 		},
 		{
 			"id": "loadmask",
-			"txt": "Carica maschera"
+			"txt": "Caricare maschera"
 		},
 		{
 			"id": "savemask",
-			"txt": "Salva maschera"
+			"txt": "Salvare maschera"
 		},
 		{
 			"id": "copymask",
-			"txt": "Copia maschera"
+			"txt": "Copiare maschera"
 		},
 		{
 			"id": "pastemask",
-			"txt": "Incolla maschera"
+			"txt": "Incollare maschera"
 		},
 		{
 			"id": "clearmask",
-			"txt": "Cancella maschera"
+			"txt": "Cancellare maschera"
 		},
 		{
 			"id": "imagelist.enablevpcorrection",
@@ -1237,19 +1237,19 @@
 		},
 		{
 			"id": "batchstitcher.menubar.addprojects",
-			"txt": "Aggiungi progetti"
+			"txt": "Aggiungere progetti"
 		},
 		{
 			"id": "batchstitcher.menubar.removeprojects",
-			"txt": "Rimuovi progetto"
+			"txt": "Rimuovere progetto"
 		},
 		{
 			"id": "batchstitcher.menubar.openbatchlist",
-			"txt": "Caricare elenco batch"
+			"txt": "Aprire elenco batch"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
-			"txt": "Aggiungi elenco batch"
+			"txt": "Accodare elenco batch"
 		},
 		{
 			"id": "batchstitcher.menubar.recentbatchlists",
@@ -1257,27 +1257,27 @@
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
-			"txt": "Salva elenco batch"
+			"txt": "Salvare elenco batch"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlistas",
-			"txt": "Salva elenco batch con nome"
+			"txt": "Salvare elenco batch con nome"
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
-			"txt": "Salva automaticamente elenco batch"
+			"txt": "Salvare automaticamente elenco batch"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
-			"txt": "Chiudi elenco batch"
+			"txt": "Chiudere elenco batch"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
-			"txt": "Chiudi @batchstitcher@ al termine"
+			"txt": "Chiudere @batchstitcher@ al termine"
 		},
 		{
 			"id": "mainwindow.projectassistant.loadimages",
-			"txt": "Carica immagini"
+			"txt": "Caricare immagini"
 		},
 		{
 			"id": "mainwindow.projectassistant.sourceimages",
@@ -1396,7 +1396,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensprofile",
-			"txt": "Profilo dell'obiettivo:"
+			"txt": "Profilo obiettivo:"
 		},
 		{
 			"id": "mainwindow.lensparams.lens",
@@ -1481,11 +1481,11 @@
 		},
 		{
 			"id": "mainwindow.lensparams.camera.cropfactor",
-			"txt": "Fattore di ritaglio"
+			"txt": "Fattore ritaglio"
 		},
 		{
 			"id": "mainwindow.lensparams.camera.cameradatabase",
-			"txt": "Database delle fotocamere"
+			"txt": "Database fotocamere"
 		},
 		{
 			"id": "mainwindow.lensparams.noexifdata",
@@ -1517,7 +1517,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lensdatabase.show",
-			"txt": "Mostra database degli obiettivi"
+			"txt": "Mostrare database obiettivi"
 		},
 		{
 			"id": "mainwindow.lensparams.initializefromexif",
@@ -1537,7 +1537,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.showlensdatabase",
-			"txt": "Mostra database degli obiettivi"
+			"txt": "Mostrare database obiettivi"
 		},
 		{
 			"id": "mainwindow.lensparams.confirmoverwritelensdatabaserecord",
@@ -1562,7 +1562,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.cameradatabase.show",
-			"txt": "Mostra database delle fotocamere"
+			"txt": "Mostrare database fotocamere"
 		},
 		{
 			"id": "mainwindow.croptab.cropping",
@@ -1667,11 +1667,11 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.optimizefocallength",
-			"txt": "Ottimizza la lunghezza focale dell'obiettivo:"
+			"txt": "Ottimizza lunghezza focale obiettivo:"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion",
-			"txt": "Minimizza la distorsione dell'obiettivo:"
+			"txt": "Minimizza distorsione obiettivo:"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.no",
@@ -2218,7 +2218,7 @@
 		{
 			"id": "mainwindow.imageparameters.lenstype",
 			"machinetranslated": true,
-			"txt": "Tipo di lente"
+			"txt": "Tipo di obiettivo"
 		},
 		{
 			"id": "mainwindow.imageparameters.hfov",
@@ -2313,7 +2313,7 @@
 		{
 			"id": "mainwindow.lenssettings.individualparams.lenstype",
 			"machinetranslated": true,
-			"txt": "Lente"
+			"txt": "Obiettivo"
 		},
 		{
 			"id": "mainwindow.lenssettings.individualparams.shift",
@@ -3901,7 +3901,7 @@
 		{
 			"id": "txt.unknownormanuallens",
 			"machinetranslated": true,
-			"txt": "Lente sconosciuta o manuale"
+			"txt": "Obiettivo sconosciuto o manuale"
 		},
 		{
 			"id": "txt.genericfisheye",

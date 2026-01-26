@@ -438,7 +438,7 @@
 		},
 		{
 			"id": "menubar.view.previousblendplane",
-			"txt": "Předchozí rovina míchání"
+			"txt": "Předchozí rovina prolínání"
 		},
 		{
 			"id": "menubar.view.nextblendplane",
@@ -1605,7 +1605,7 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion",
-			"txt": "Minimalizace Distorze objektivu:"
+			"txt": "Minimalizace zkreslení objektivu:"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.no",
@@ -5681,497 +5681,398 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.noisefloor",
-			"machinetranslated": true,
-			"txt": "Hlasité patro"
+			"txt": "Noise floor"
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
-			"machinetranslated": true,
-			"txt": "Zrcadlo vodorovně"
+			"txt": "Zrcadlit vodorovně"
 		},
 		{
 			"id": "lensdatabase.mirrored",
-			"machinetranslated": true,
-			"txt": "Zrcadlo vodorovně"
+			"txt": "Zrcadlit vodorovně"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blending",
-			"machinetranslated": true,
-			"txt": "Míchání:"
+			"txt": "Prolínání:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
-			"machinetranslated": true,
-			"txt": "Najděte optimální šev"
+			"txt": "Hledání švů"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blending",
-			"machinetranslated": true,
-			"txt": "Prolnutí přes švy"
+			"txt": "Prolínání"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
-			"machinetranslated": true,
 			"txt": "Červené masky:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent",
-			"machinetranslated": true,
-			"txt": "Zajistěte průhlednost"
+			"txt": "Zprůhlednit"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement",
-			"machinetranslated": true,
-			"txt": "Používejte pouze k úpravě švů"
+			"txt": "Použít pouze pro umístění švů"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
-			"machinetranslated": true,
-			"txt": "Vyplňte otvory"
+			"txt": "Vyplnit díry"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings_nonpro",
-			"machinetranslated": true,
-			"txt": "Panorama a nastavení výstupu"
+			"txt": "Nastavení panoramatu a výstupu"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif_nonpro",
-			"machinetranslated": true,
-			"txt": "Při přidávání obrázků automaticky inicializujte nastavení objektivu pomocí dat EXIF"
+			"txt": "Při přidávání snímků automaticky inicializovat nastavení objektivu pomocí EXIF dat"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings",
-			"machinetranslated": true,
-			"txt": "Míchání"
+			"txt": "Prolínání"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.exposurecompensation",
-			"machinetranslated": true,
 			"txt": "Kompenzace expozice"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
-			"machinetranslated": true,
-			"txt": "Barevný prostor pro výstup:"
+			"txt": "Výstupní barevný profil:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
-			"machinetranslated": true,
-			"txt": "Pokud je to možné, použijte barevný prostor ze zdrojových obrázků"
+			"txt": "Použít barevný profil zdrojových snímků (je-li to možné)"
 		},
 		{
 			"id": "txt.iccprofiles",
-			"machinetranslated": true,
 			"txt": "ICC barevné profily"
 		},
 		{
 			"id": "txt.openiccprofile",
-			"machinetranslated": true,
-			"txt": "Načtěte barevný profil ICC"
+			"txt": "Načíst barevný profil ICC"
 		},
 		{
 			"id": "err.iccprofilenotrgb",
-			"machinetranslated": true,
-			"txt": "Nejedná se o barevný profil RGB. Je zapotřebí profilů barev RGB, například profily CMYK nejsou podporovány."
+			"txt": "Nejedná se o barevný profil RGB. Vyžadovány jsou barevné profily RGB (např. CMYK není podporován)."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
-			"machinetranslated": true,
-			"txt": "Pracovní postup HDR:"
+			"txt": "HDR workflow:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.mergethenblend",
-			"machinetranslated": true,
-			"txt": "Sloučte závorkované obrázky do HDR a poté prolněte"
+			"txt": "Sloučit expoziční řady do HDR a poté prolnout"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow.blendthenmerge",
-			"machinetranslated": true,
-			"txt": "Nejprve vytvořte směsná letadla a poté sloučte s HDR"
+			"txt": "Nejprve prolnout roviny a poté sloučit do HDR"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod_short",
-			"machinetranslated": true,
 			"txt": "Sloučit pomocí:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
-			"machinetranslated": true,
-			"txt": "Aktivovat fúzi expozice pro jednotlivé expozice"
+			"txt": "Povolit fúzi expozice pro jednotlivé snímky"
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
-			"machinetranslated": true,
-			"txt": "Aplikujte Exposure Fusion"
+			"txt": "Použít fúzi expozice"
 		},
 		{
 			"id": "mainwindow.imageparameters.cameracurve",
-			"machinetranslated": true,
-			"txt": "Křivka kamery"
+			"txt": "Křivka fotoaparátu"
 		},
 		{
 			"id": "txt.globalcameracurve",
-			"machinetranslated": true,
-			"txt": "Globální křivka kamery"
+			"txt": "Globální křivka fotoaparátu"
 		},
 		{
 			"id": "txt.cameracurve_n",
-			"machinetranslated": true,
-			"txt": "Křivka kamery # %0"
+			"txt": "Křivka fotoaparátu č. %0"
 		},
 		{
 			"id": "txt.cameracurve.linear",
-			"machinetranslated": true,
 			"txt": "Lineární"
 		},
 		{
 			"id": "err.deletecameracurve_inuse",
-			"machinetranslated": true,
-			"txt": "Tuto křivku kamery nelze odstranit, protože ji používá jeden nebo více snímků. Na kartě @mainwindow.tabs.imageparameters@ lze vybrat křivku kamery pro každý snímek."
+			"txt": "Tuto křivku fotoaparátu nelze smazat, protože je používána jedním nebo více snímky. Na kartě @mainwindow.tabs.imageparameters@ můžete zvolit křivku fotoaparátu pro každý snímek zvlášť."
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess",
-			"machinetranslated": true,
-			"txt": "Post Process"
+			"txt": "Následné zpracování"
 		},
 		{
 			"id": "txt.toningparameters",
-			"machinetranslated": true,
-			"txt": "Parametry tónování"
+			"txt": "Tónovací parametry"
 		},
 		{
 			"id": "txt.toningcurve",
-			"machinetranslated": true,
 			"txt": "Tónovací křivka"
 		},
 		{
 			"id": "txt.toningcurve.shape",
-			"machinetranslated": true,
 			"txt": "Tvar:"
 		},
 		{
 			"id": "txt.toningcurve.shift",
-			"machinetranslated": true,
 			"txt": "Posun:"
 		},
 		{
 			"id": "txt.savetoningparameters",
-			"machinetranslated": true,
-			"txt": "Ušetřete @txt.toningparameters@"
+			"txt": "Uložit @txt.toningparameters@"
 		},
 		{
 			"id": "txt.loadtoningparameters",
-			"machinetranslated": true,
-			"txt": "Vložte @txt.toningparameters@"
+			"txt": "Načíst @txt.toningparameters@"
 		},
 		{
 			"id": "txt.saturation",
-			"machinetranslated": true,
-			"txt": "Nasycení"
+			"txt": "Sytost"
 		},
 		{
 			"id": "txt.saturation.shadows",
-			"machinetranslated": true,
 			"txt": "Stíny:"
 		},
 		{
 			"id": "txt.saturation.highlights",
-			"machinetranslated": true,
-			"txt": "Přednosti:"
+			"txt": "Světla:"
 		},
 		{
 			"id": "mainwindow.imageparameters.whitebalance",
-			"machinetranslated": true,
 			"txt": "Vyvážení bílé"
 		},
 		{
 			"id": "txt.asshot",
-			"machinetranslated": true,
-			"txt": "Jako originál"
+			"txt": "Dle snímku"
 		},
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
-			"machinetranslated": true,
-			"txt": "Udržujte více panelů otevřených v postranní liště @panoramaeditor@"
+			"txt": "Ponechat v postranním panelu @panoramaeditor@ otevřeno více sekcí"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
-			"machinetranslated": true,
 			"txt": "Přesnost:"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.halffloat",
-			"machinetranslated": true,
 			"txt": "Half float"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype.float",
-			"machinetranslated": true,
 			"txt": "Float"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
-			"machinetranslated": true,
-			"txt": "ale pouze pokud bylo vyrovnání úspěšné"
+			"txt": "ale pouze pokud bylo zarovnání úspěšné"
 		},
 		{
 			"id": "txt.startupwithshift",
-			"machinetranslated": true,
-			"txt": "Stisknete klávesu Shift. Chcete deaktivovat zrychlení GPU pro tuto relaci?\n\nStisknutím Ne pokračujte jako obvykle."
+			"txt": "Držíte klávesu Shift. Chcete pro toto sezení vypnout GPU akceleraci?\n\nKliknutím na Ne pokračujte jako obvykle."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
-			"machinetranslated": true,
 			"txt": "Přesnost:"
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"txt": "Optimalizace jasu:"
+			"txt": "Optimalizovat jas:"
 		},
 		{
 			"id": "photometricsettings.optimizeexposure.info.enabled",
-			"machinetranslated": true,
 			"txt": "Expoziční čas vašich snímků není znám.\nJas bude optimalizován."
 		},
 		{
 			"id": "photometricsettings.optimizeexposure.info.disabled",
-			"machinetranslated": true,
-			"txt": "Je známa doba expozice vašich snímků.\nJas nebude optimalizován."
+			"txt": "Expoziční čas vašich snímků je znám.\nJas nebude optimalizován."
 		},
 		{
 			"id": "txt.exposurefusionparameters",
-			"machinetranslated": true,
 			"txt": "Parametry fúze expozice"
 		},
 		{
 			"id": "txt.saveexposurefusionparameters",
-			"machinetranslated": true,
 			"txt": "Uložit @txt.exposurefusionparameters@"
 		},
 		{
 			"id": "txt.loadexposurefusionparameters",
-			"machinetranslated": true,
-			"txt": "Načtěte @txt.exposurefusionparameters@"
+			"txt": "Načíst @txt.exposurefusionparameters@"
 		},
 		{
 			"id": "mainwindow.imageparameters.linked",
-			"machinetranslated": true,
-			"txt": "Odkaz"
+			"txt": "Propojit"
 		},
 		{
 			"id": "mainwindow.imageparamstab.linkedhelptxt",
-			"machinetranslated": true,
-			"txt": "Řídí, zda jsou pozice obrázků ve skupině snímků v závorkách nezávislé nebo propojené. Zaškrtnutím tohoto políčka vynutíte, aby obrázky v závorkách měly stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. To lze použít, pokud byla sekvence snímků v záběru pořízena ze stativu a obrázky jsou dokonale zarovnány. Zrušením zaškrtnutí tohoto políčka umožníte každému obrázku ve skupině různé polohy. V druhém případě musí být mezi obrázky ve skupině poskytnuty kontrolní body a optimalizátor je jednotlivě zarovná. Obrázky s propojenými pozicemi také sdílejí stejnou masku. Zaškrtávací políčko @mainwindow.imageparameters.linked@ se zobrazuje pouze v případě, že projekt obsahuje skupiny propojených obrázků."
+			"txt": "Určuje, zda jsou pozice snímků v rámci expoziční řady nezávislé nebo propojené. Zaškrtnutím tohoto políčka vynutíte, aby snímky v řadě měly stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. To lze použít, pokud byla sekvence snímků pořízena ze stativu a snímky jsou přesně zarovnány. Zrušením zaškrtnutí umožníte každému snímku v řadě mít vlastní pozici. V takovém případě je třeba mezi snímky v řadě vytvořit kontrolní body, aby je optimalizátor mohl zarovnat. Propojené snímky sdílejí stejnou masku. Pole @mainwindow.imageparameters.linked@ se zobrazuje pouze v případě, že projekt obsahuje skupiny propojených snímků."
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
-			"machinetranslated": true,
-			"txt": "Když kliknete na '@alignimages@' a budou detekovány závorkované obrázky:"
+			"txt": "Při kliknutí na '@alignimages@' a detekci expozičních řad:"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ask",
-			"machinetranslated": true,
-			"txt": "Zeptejte se mě, co mám dělat"
+			"txt": "Zeptat se na další postup"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking",
-			"machinetranslated": true,
-			"txt": "Použijte výše uvedené, aniž byste se ptali"
+			"txt": "Použít výše uvedené bez dotazu"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode.ignore",
-			"machinetranslated": true,
 			"txt": "Ignorovat"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.subheading_v2",
-			"machinetranslated": true,
-			"txt": "Výchozí zpracování expozic v závorkách:"
+			"txt": "Výchozí zpracování expozičních řad:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
-			"machinetranslated": true,
-			"txt": "Mixér:"
+			"txt": "Blender:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.zerooverlap",
-			"machinetranslated": true,
-			"txt": "Nulové překrytí"
+			"txt": "Nulový překryv"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.multiband",
-			"machinetranslated": true,
-			"txt": "Vícepásmový"
+			"txt": "Vícepásmové (Multiband)"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender.none",
-			"machinetranslated": true,
-			"txt": "Nemíchejte"
+			"txt": "Neprolínat"
 		},
 		{
 			"id": "activationdialog.heading_v2",
-			"machinetranslated": true,
-			"txt": "Na tomto počítači musí být aktivována %0. Zadejte svůj licenční klíč:"
+			"txt": "Program %0 musí být na tomto počítači aktivován. Zadejte licenční klíč:"
 		},
 		{
 			"id": "activationdialog.txt2_mac_v2",
-			"machinetranslated": true,
-			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím Cmd + C jej zkopírujte. Poté klikněte do textového pole výše a stisknutím Cmd + V vložte kód."
+			"txt": "Vyberte klíč ve svém e-mailu a stisknutím Cmd + C jej zkopírujte. Poté klikněte do textového pole výše a stisknutím Cmd + V vložte kód."
 		},
 		{
 			"id": "activationdialog.txt2_nonmac_v2",
-			"machinetranslated": true,
-			"txt": "Vyberte klíč ve své e-mailové aplikaci a stisknutím kláves Ctrl + C jej zkopírujte. Poté klikněte do textového pole výše a vložte Ctrl + V pro vložení kódu."
+			"txt": "Vyberte klíč ve svém e-mailu a stisknutím Ctrl + C jej zkopírujte. Poté klikněte do textového pole výše a stisknutím Ctrl + V vložte kód."
 		},
 		{
 			"id": "activationdialog.txt3_v2",
-			"machinetranslated": true,
 			"format": "html",
-			"txt": "Pokud jste ztratili licenční klíč, <a href=0>kliknutím sem jej načtete.</a>"
+			"txt": "Pokud jste ztratili licenční klíč, <a href=0>klikněte zde pro jeho získání.</a>"
 		},
 		{
 			"id": "licenseinfo.offlineactivation1_v2",
-			"machinetranslated": true,
-			"txt": "Na jiném počítači přejděte na %0\n\nTam zadejte následující kód a licenční klíč:\n\n"
+			"txt": "Na jiném počítači přejděte na %0\n\nZde zadejte následující kód a váš licenční klíč:\n\n"
 		},
 		{
 			"id": "licenseinfo.expiretxt_v2",
-			"machinetranslated": true,
 			"txt": "Platnost vašeho předplatného vyprší %0."
 		},
 		{
 			"id": "mainwindow.imageparamstab.helptext2",
-			"machinetranslated": true,
 			"format": "html",
-			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (pouze PTGui Pro): Pokud je @panoramaeditor.sidebar.blendsettings.seamfinding@ (na panelu @mainwindow.createpanoramatab.blending@ v @panoramaeditor@) deaktivován, švy se obvykle umístí uprostřed překrytí mezi dvěma obrázky. To lze upravit zvětšením nebo zmenšením @mainwindow.imageparameters.blendpriority@ zdrojového obrazu. Je to relativní hodnota: pokud mají dva obrázky prioritu prolnutí 150 a 100, použije se větší část prvního obrázku. Tato hodnota je ignorována, pokud je povolen @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Projekt může obsahovat více křivek odezvy kamery; toto pole konfiguruje křivku odezvy kamery, která se použije pro každý zdrojový obraz. Křivky odezvy kamery se konfigurují na kartě @mainwindow.tabs.exposurehdr@. Pokud projekt obsahuje pouze jednu křivku odezvy kamery, bude mít název „@txt.globalcameracurve@“. Pokud je vybrána <b>@txt.cameracurve.linear@</b> , předpokládá se, že obraz obsahuje lineární data a nebude použita žádná křivka. Další informace najdete v popisech na kartě @mainwindow.tabs.exposurehdr@.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (pouze PTGui Pro): Při spojování HDR panoramat z obrazů s hranatými zdroji toto zaškrtávací políčko konfiguruje, zda budou mít hranaté snímky stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Zrušte zaškrtnutí tohoto políčka, pokud snímky v závorkách nebyly pořízeny ze stativu a měly by mít nezávislé parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Pro zarovnání hranatých obrázků bude třeba poskytnout kontrolní body."
+			"txt": "<b>@mainwindow.imageparameters.blendpriority@:</b> (pouze PTGui Pro): Pokud je vypnuto @panoramaeditor.sidebar.blendsettings.seamfinding@ (v panelu @mainwindow.createpanoramatab.blending@ v @panoramaeditor@), švy jsou obvykle umístěny doprostřed překryvu mezi dvěma snímky. To lze upravit změnou hodnoty @mainwindow.imageparameters.blendpriority@. Jde o relativní hodnota: mají-li dva snímky prioritu 150 a 100, bude použita větší část prvního snímku. Tato hodnota je ignorována, pokud je zapnuto @panoramaeditor.sidebar.blendsettings.seamfinding@.<br><br><b>@mainwindow.imageparameters.cameracurve@:</b> Projekt může obsahovat více křivek odezvy fotoaparátu; toto pole určuje, která křivka se použije pro každý zdrojový snímek. Křivky se konfigurují na kartě @mainwindow.tabs.exposurehdr@. Pokud projekt obsahuje jen jednu křivku, jmenuje se „@txt.globalcameracurve@“. Pokud zvolíte <b>@txt.cameracurve.linear@</b>, předpokládá se, že snímek obsahuje lineární data a žádná křivka se nepoužije. Více informací naleznete na kartě @mainwindow.tabs.exposurehdr@.<br><br>@mainwindow.imageparamstab.helptextwhitepoint@<br><br><b>@mainwindow.imageparameters.linked@:</b> (pouze PTGui Pro): Při spojování HDR panoramat toto pole určuje, zda budou mít snímky v expoziční řadě stejné parametry @yaw@, @pitch@, @roll@ a @viewpoint@. Zrušte zaškrtnutí, pokud snímky v řadě nebyly pořízeny ze stativu a měly by mít nezávislé parametry pozice. Pro jejich zarovnání pak bude nutné vytvořit kontrolní body."
 		},
 		{
 			"id": "proxysettings.button",
-			"machinetranslated": true,
 			"txt": "Proxy..."
 		},
 		{
 			"id": "proxysettings.caption",
-			"machinetranslated": true,
 			"txt": "Proxy server"
 		},
 		{
 			"id": "proxysettings.header",
-			"machinetranslated": true,
-			"txt": "Pokud je tento počítač připojen k internetu prostřednictvím serveru proxy, zadejte podrobnosti zde:"
+			"txt": "Pokud je tento počítač připojen k internetu přes proxy server, zadejte údaje zde:"
 		},
 		{
 			"id": "proxysettings.proxyserverurl",
-			"machinetranslated": true,
 			"txt": "URL proxy serveru:"
 		},
 		{
 			"id": "proxysettings.proxyserverusername",
-			"machinetranslated": true,
 			"txt": "Uživatelské jméno proxy:"
 		},
 		{
 			"id": "proxysettings.proxyserverpassword",
-			"machinetranslated": true,
-			"txt": "Proxy heslo:"
+			"txt": "Heslo proxy:"
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
-			"machinetranslated": true,
-			"txt": "Maskování tlačí zpět švy"
+			"txt": "Maskování odsouvá švy"
 		},
 		{
 			"id": "options.monitorcolorprofile",
-			"machinetranslated": true,
-			"txt": "Barevný profil pro obrazovku počítače:"
+			"txt": "Barevný profil monitoru:"
 		},
 		{
 			"id": "options.monitorcolorprofile.windowsdefault",
-			"machinetranslated": true,
-			"txt": "Použijte Nastavení barev systému Windows"
+			"txt": "Použít nastavení barev systému Windows"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
-			"machinetranslated": true,
-			"txt": "Kopírovat křivku odezvy fotoaparátu:"
+			"txt": "Kopírovat křivku fotoaparátu:"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.yes",
-			"machinetranslated": true,
 			"txt": "Ano"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.no",
-			"machinetranslated": true,
 			"txt": "Ne"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve.nonraw",
-			"machinetranslated": true,
-			"txt": "Ano, kromě snímků ve formátu RAW"
+			"txt": "Ano, kromě RAW snímků"
 		},
 		{
 			"id": "txt.failedtocontactactivationserver",
-			"machinetranslated": true,
 			"txt": "Nepodařilo se kontaktovat licenční server."
 		},
 		{
 			"id": "txt.failedtocontactactivationserver2",
-			"machinetranslated": true,
-			"txt": "@txt.failedtocontactactivationserver@ Uložte si svou práci a restartujte PTGui."
+			"txt": "@txt.failedtocontactactivationserver@ Uložte svou práci a restartujte PTGui."
 		},
 		{
 			"id": "licenseinfo.floating.singlecomputer",
-			"machinetranslated": true,
-			"txt": "Používáte pohyblivou licenci. PTGui lze spustit na jednom počítači současně."
+			"txt": "Používáte plovoucí licenci. PTGui lze spustit vždy jen na jednom počítači."
 		},
 		{
 			"id": "licenseinfo.floating.multipleecomputers",
-			"machinetranslated": true,
-			"txt": "Používáte pohyblivou licenci. PTGui lze spustit na %0 počítačích současně."
+			"txt": "Používáte plovoucí licenci. PTGui lze spustit současně na %0 počítačích."
 		},
-		{
-			"id": "txt.libraw.unsupportedcamera",
-			"machinetranslated": true,
-			"txt": "Soubory RAW z tohoto fotoaparátu (%0) nejsou aktuálně podporovány převodníkem raw v PTGui. Chcete-li tyto obrázky použít, převeďte je na 16bitové soubory TIFF v konvertoru RAW, jako je Adobe Photoshop nebo Adobe Lightroom. Převedené soubory TIFF lze načíst v PTGui."
-		},
-		{
-			"id": "err.activationfromjsonfailed",
-			"machinetranslated": true,
-			"txt": "Aktivace z licensekey.json se nezdařila:\n\n%0"
-		},
-		{
-			"id": "err.allkeysfailed",
-			"machinetranslated": true,
-			"txt": "Žádný z licenčních klíčů nevedl k úspěšné aktivaci. Pokus o použití posledního licenčního klíče vedl k této chybě:\n\n%0"
-		},
-		{
-			"id": "err.errorforlicensekeynumber",
-			"machinetranslated": true,
-			"txt": "Chyba licenčního klíče #%0:\n\n%1"
-		},
-		{
-			"id": "err.mustactivateingui",
-			"machinetranslated": true,
-			"txt": "Musíte aktivovat PTGui. To lze provést spuštěním PTGui jako GUI aplikace nebo poskytnutím souboru licensekey.json. Podrobnosti viz: https://www.ptgui.com/support.html"
-		},
-		{
-			"id": "err.cannotwritetofolder",
-			"machinetranslated": true,
-			"txt": "Nelze zapisovat do složky: %0"
-		},
-		{
-			"id": "txt.contactinglicenseserver",
-			"machinetranslated": true,
-			"txt": "Kontaktování aktivačního serveru..."
-		},
-		{
-			"id": "txt.done",
-			"machinetranslated": true,
-			"txt": "Hotovo."
-		},
-		{
+		        {
+					"id": "txt.libraw.unsupportedcamera",
+					"txt": "RAW soubory z tohoto fotoaparátu (%0) nejsou aktuálně podporovány vestavěným konvertorem PTGui. Chcete-li tyto snímky použít, převeďte je nejprve na 16bitové TIFF soubory v jiném RAW konvertoru (např. Adobe Photoshop nebo Lightroom). Ty pak lze v PTGui načíst."
+				},
+				{
+					"id": "err.activationfromjsonfailed",
+					"txt": "Aktivace ze souboru licensekey.json selhala:\n\n%0"
+				},
+				{
+					"id": "err.allkeysfailed",
+					"txt": "Žádný z licenčních klíčů nevedl k úspěšné aktivaci. Poslední pokus skončil chybou:\n\n%0"
+				},
+				{
+					"id": "err.errorforlicensekeynumber",
+					"txt": "Chyba licenčního klíče č. %0:\n\n%1"
+				},
+				{
+					"id": "err.mustactivateingui",
+					"txt": "PTGui je třeba aktivovat. To lze provést spuštěním aplikace PTGui s grafickým rozhraním nebo poskytnutím souboru licensekey.json. Podrobnosti viz: https://www.ptgui.com/support.html"
+				},
+				{
+					"id": "err.cannotwritetofolder",
+					"txt": "Nepodařilo se zapsat do složky: %0"
+				},
+				{
+					"id": "txt.contactinglicenseserver",
+					"txt": "Kontaktování licenčního serveru..."
+				},
+				{
+					"id": "txt.done",
+					"txt": "Hotovo."
+				},		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
 			"machinetranslated": true,
 			"txt": "Algoritmus:"
@@ -7242,11 +7143,11 @@
 		{
 			"id": "lensparams.fisheyefactor",
 			"helptext": "Existují různé typy projekcí objektivů rybího oka; tento parametr nastavuje konkrétní projekci rybího oka. PTGui rozpoznává řadu běžných modelů objektivů pomocí dat EXIF a automaticky nastaví tuto hodnotu. Pokud máte pochybnosti, zadejte hodnotu -0,5, která odpovídá rovnoměrnému zobrazení většiny objektivů rybí oko.",
-			"morehelptext": "<br><br>Společné hodnoty jsou:<br>Rovnocenné: 0<br>Stereografické: 0,5<br>Orthographic: -1,0<br>Pevné: -0,5<br>Přímé (ne rybí oko): 1.0<br>Většina objektivů na bázi rybího oka na trhu má zhruba rovnoměrnou projekci. Hodnota není kritická; automatická korekce Distorze objektivu (a / b / c) kompenzuje chyby.<br><br>Tuto hodnotu lze vypočítat pomocí optimalizátoru: nastavte parametry Distorze objektivu a / b / c na nulu. Přepněte kartu @mainwindow.tabs.optimizer@ na rozšířený režim, aktivujte optimalizaci faktoru rybího oka a deaktivujte optimalizaci parametrů Distorze objektivu a / b / c. Používejte snímky bez paralaxy a ujistěte se, že máte kontrolní body rozložené po celé oblasti překrytí.<br><br>Matematické pozadí: PTGui používá pro objektivy rybí oko následující projekční funkci:<br>R = f / k tan (kθ) [pro 0 &lt;k ≤ 1]<br>R = fθ [pro k = 0]<br>R = f / k sin (kθ) [pro -1 ≤ k &lt;0]<br>Přičemž R je promítaný poloměr, f ohnisková vzdálenost, θ vstupující světlo paprsku a k faktor rybího oka."
+			"morehelptext": "<br><br>Společné hodnoty jsou:<br>Rovnocenné: 0<br>Stereografické: 0,5<br>Orthographic: -1,0<br>Pevné: -0,5<br>Přímé (ne rybí oko): 1.0<br>Většina objektivů na bázi rybího oka na trhu má zhruba rovnoměrnou projekci. Hodnota není kritická; automatická korekce zkreslení objektivu (a / b / c) kompenzuje chyby.<br><br>Tuto hodnotu lze vypočítat pomocí optimalizátoru: nastavte parametry zkreslení objektivu a / b / c na nulu. Přepněte kartu @mainwindow.tabs.optimizer@ na rozšířený režim, aktivujte optimalizaci faktoru rybího oka a deaktivujte optimalizaci parametrů zkreslení objektivu a / b / c. Používejte snímky bez paralaxy a ujistěte se, že máte kontrolní body rozložené po celé oblasti překrytí.<br><br>Matematické pozadí: PTGui používá pro objektivy rybí oko následující projekční funkci:<br>R = f / k tan (kθ) [pro 0 &lt;k ≤ 1]<br>R = fθ [pro k = 0]<br>R = f / k sin (kθ) [pro -1 ≤ k &lt;0]<br>Přičemž R je promítaný poloměr, f ohnisková vzdálenost, θ vstupující světlo paprsku a k faktor rybího oka."
 		},
 		{
 			"id": "lensparams.abc",
-			"helptext": "Parametry Distorze radiálních čoček (a / b / c): kompenzují \"soudkovitou a poduškovou\" distorzi. PTGui tyto hodnoty určí automaticky.",
+			"helptext": "Parametry zkreslení radiálních čoček (a / b / c): kompenzují \"soudkovitou a poduškovou\" zkreslení. PTGui tyto hodnoty určí automaticky.",
 			"morehelptext": "<br><br>Deformace objektivu je kompenzována pomocí funkce mapování polynomu třetího řádu (přičemž &quot;a&quot; je nejvyšší koeficient pořadí). Optimalizace a / b / c je ve výchozím nastavení povolena; to lze nakonfigurovat na kartě @mainwindow.tabs.optimizer@. Pro přesnou optimalizaci používejte snímky bez paralaxy a ujistěte se, že máte kontrolní body rozložené po celé oblasti překrytí."
 		},
 		{
@@ -7265,7 +7166,7 @@
 		},
 		{
 			"id": "lensparams.sensorsize",
-			"helptext": "Úhlopříčka snímače / crop faktor: velikost diagonály snímače fotoaparátůy. Toto je běžně vyjádřeno jako &quot;koeficient crop faktoru&quot; nebo &quot;násobek ohniskové vzdálenosti&quot;. Pro většinu fotoaparátů to PTGui může automaticky zjistit z dat EXIF.",
+			"helptext": "Úhlopříčka snímače / crop faktor: velikost diagonály snímače fotoaparátu. Toto je běžně vyjádřeno jako &quot;koeficient crop faktoru&quot; nebo &quot;násobek ohniskové vzdálenosti&quot;. Pro většinu fotoaparátů to PTGui může automaticky zjistit z dat EXIF.",
 			"morehelptext": "<br><br>Crop faktor 1x odpovídá klasickým rozměrům snímačů full-frame 36 x 24 mm. Menší snímač bude mít crop faktor větší než jeden.<br><br>U širokoúhlých objektivů a objektivů typu rybí oko PTGui potřebuje znát velikost senzoru; projekce objektivu je určena touto hodnotou a ohniskovou vzdáleností dohromady."
 		},
 		{
@@ -7461,8 +7362,8 @@
 		},
 		{
 			"id": "optimizertab.minimizelensdistortion",
-			"helptext": "Povolit optimalizaci Distorze objektivu a posunu objektivu.",
-			"morehelptext": "<br><br>Po zapnutí optimalizátoru nastaví příslušná nastavení na kartě @mainwindow.tabs.lenssettings@.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> Distorze objektivu nebude optimalizováno. To může být užitečné při použití předem kalibrovaných dat o objektivu.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> optimalizujte pouze parametr Distorze objektivu &quot;b&quot;. Může být použito, pokud existuje jen málo kontrolních bodů, nebo pokud snímky trpí chybami paralaxy, aby se snížilo riziko přetěžování.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> plně optmize distorze objektivu (a, b a c).<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (doporučené nastavení):</b> plně optimalizujte Distorze objektivu a také optimalizujte posun objektivu. Výsledkem bude co nejpřesnější spojení."
+			"helptext": "Povolit optimalizaci zkreslení objektivu a posunu objektivu.",
+			"morehelptext": "<br><br>Po zapnutí optimalizátoru nastaví příslušná nastavení na kartě @mainwindow.tabs.lenssettings@.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.no@:</b> zkreslení objektivu nebude optimalizováno. To může být užitečné při použití předem kalibrovaných dat o objektivu.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.medium@:</b> optimalizujte pouze parametr zkreslení objektivu &quot;b&quot;. Může být použito, pokud existuje jen málo kontrolních bodů, nebo pokud snímky trpí chybami paralaxy, aby se snížilo riziko přetěžování.<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavy@:</b> plně optmize distorze objektivu (a, b a c).<br><br><b>@mainwindow.optimizertab.minimizelensdistortion.heavyplusshift@ (doporučené nastavení):</b> plně optimalizujte zkreslení objektivu a také optimalizujte posun objektivu. Výsledkem bude co nejpřesnější spojení."
 		},
 		{
 			"id": "optimizertab.simplebutton",
@@ -7471,12 +7372,12 @@
 		{
 			"id": "optimizertab.optimizeglobally",
 			"helptext": "Vyberte globální nastavení objektivu, které chcete optimalizovat.",
-			"morehelptext": "<br><br>Pokud je zaškrtnuto políčko, optimalizátor nastaví příslušná nastavení na kartě @mainwindow.tabs.lenssettings@.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> pokud je vybráno, optimalizuje zorné pole (nebo ohniskovou vzdálenost). Pro 360° panorama by to mělo být vždy povoleno. Při vytváření částečného panoramatického snímku ze snímků pořízených s dlouhým teleobjektivem nejsou snímky pro optimalizátor určeny k určení přesné ohniskové vzdálenosti. V takovém případě můžete nastavit ohniskovou vzdálenost na přednastavenou hodnotu a zakázat optimalizaci. Také snímky trpící paralaxou mohou být optimalizovány na nesprávnou hodnotu ohniskové vzdálenosti. Toho lze zabránit vypnutím optimalizace ohniskové vzdálenosti.<br><br><b>a / b / c:</b> pokud je vybrána, optimalizujte korekci Distorze objektivu. To může být deaktivováno, pokud jsou používána předkalibrovaná data objektivu. Obecně platí, že a, b a c by měly být optimalizovány, aby se dosáhlo co nejpřesnějších šicích.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> pokud je vybráno, optimalizujte parametr @mainwindow.imageparameters.fisheyefactor@ na kartě @mainwindow.tabs.lenssettings@ (platí pouze při použití objektivu rybího oka). Obecně by toto nemělo být optimalizováno, PTGui nastaví faktor rybího oka na přednastavenou hodnotu na základě modelu objektivu zjištěného v datech EXIF. Pokud však chcete optimalizovat tento parametr, je třeba se vyvarovat rušení z korekce Distorze objektivu. Proto Restartovat a, b a c na 0 na kartě @mainwindow.tabs.lenssettings@ před optimalizací faktoru rybího oka. Buď faktor a / b / c nebo faktor rybího oka mohou být optimalizovány, nikoliv současně, protože vzájemně narušují.<br><br><b>@mainwindow.imageparameters.longshift@ / @mainwindow.imageparameters.shortshift@:</b> pokud je zvolena, optimalizujte parametry posunu objektivu. Ve většině případů by to mělo být povoleno. Pouze pro snímky s těžkým paralaxem může být optimalizace řazení zakázána, aby se zabránilo přílišnému namáhání.<br><br><b>@+shear@:</b> pokud je vybráno, optimalizujte @shear@. snímky z digitálního fotoaparátu nevykazují Distorze @shear@; toto by mělo být použito pouze pro snímky z rozřezaných skenovacích fotoaparátů nebo plochých skenerů. Pouze horizontální nebo vertikální @shear@ by měly být optimalizovány, nikoliv současně.<br><br>Pokud bylo na kartě @mainwindow.tabs.lenssettings@ vytvořeno více profilů objektivů, lze optimalizovat pro každý profil objektivu zvlášť."
+			"morehelptext": "<br><br>Pokud je zaškrtnuto políčko, optimalizátor nastaví příslušná nastavení na kartě @mainwindow.tabs.lenssettings@.<br><br><b>@mainwindow.optimizertab.fovfocallength@:</b> pokud je vybráno, optimalizuje zorné pole (nebo ohniskovou vzdálenost). Pro 360° panorama by to mělo být vždy povoleno. Při vytváření částečného panoramatického snímku ze snímků pořízených s dlouhým teleobjektivem nejsou snímky pro optimalizátor určeny k určení přesné ohniskové vzdálenosti. V takovém případě můžete nastavit ohniskovou vzdálenost na přednastavenou hodnotu a zakázat optimalizaci. Také snímky trpící paralaxou mohou být optimalizovány na nesprávnou hodnotu ohniskové vzdálenosti. Toho lze zabránit vypnutím optimalizace ohniskové vzdálenosti.<br><br><b>a / b / c:</b> pokud je vybrána, optimalizujte korekci zkreslení objektivu. To může být deaktivováno, pokud jsou používána předkalibrovaná data objektivu. Obecně platí, že a, b a c by měly být optimalizovány, aby se dosáhlo co nejpřesnějších šicích.<br><br><b>@mainwindow.imageparameters.fisheyefactor@:</b> pokud je vybráno, optimalizujte parametr @mainwindow.imageparameters.fisheyefactor@ na kartě @mainwindow.tabs.lenssettings@ (platí pouze při použití objektivu rybího oka). Obecně by toto nemělo být optimalizováno, PTGui nastaví faktor rybího oka na přednastavenou hodnotu na základě modelu objektivu zjištěného v datech EXIF. Pokud však chcete optimalizovat tento parametr, je třeba se vyvarovat rušení z korekce zkreslení objektivu. Proto Restartovat a, b a c na 0 na kartě @mainwindow.tabs.lenssettings@ před optimalizací faktoru rybího oka. Buď faktor a / b / c nebo faktor rybího oka mohou být optimalizovány, nikoliv současně, protože vzájemně narušují.<br><br><b>@mainwindow.imageparameters.longshift@ / @mainwindow.imageparameters.shortshift@:</b> pokud je zvolena, optimalizujte parametry posunu objektivu. Ve většině případů by to mělo být povoleno. Pouze pro snímky s těžkým paralaxem může být optimalizace řazení zakázána, aby se zabránilo přílišnému namáhání.<br><br><b>@+shear@:</b> pokud je vybráno, optimalizujte @shear@. snímky z digitálního fotoaparátu nevykazují zkreslení @shear@; toto by mělo být použito pouze pro snímky z rozřezaných skenovacích fotoaparátů nebo plochých skenerů. Pouze horizontální nebo vertikální @shear@ by měly být optimalizovány, nikoliv současně.<br><br>Pokud bylo na kartě @mainwindow.tabs.lenssettings@ vytvořeno více profilů objektivů, lze optimalizovat pro každý profil objektivu zvlášť."
 		},
 		{
 			"id": "optimizertab.optimizeperimage",
 			"helptext": "Nastavení optimalizace snímku.",
-			"morehelptext": "<br><br>Obecně platí, že @pitch@ a @roll@ musí být optimalizovány pro všechny snímky kromě jednoho (zvolený snímek &quot;kotvy&quot;).<br><br><b>@+yaw@</b> je rotace fotoaparátů ve vodorovné rovině, <b>@+pitch@</b> odpovídá úhlu sklonu nahoru / dolů a <b>@+roll@</b> je otáčení fotoaparátů kolem osy objektivu. <optional product='pro'><br><br><b>@+viewpoint@</b> řídí optimalizaci pohledu: <b>@+reset@</b> zakazuje optimalizaci pohledu a obnoví parametry pohledu na 0 při další optimalizaci. <b>@+keep@</b> zakáže další optimalizaci pohledu, ale zachovává aktuální nastavení snímku. <b>@+optimize@</b> umožňuje optimalizaci pohledu pro tento snímek.</optional><br><br>Pokud byly povoleny jednotlivé parametry (viz karta @mainwindow.tabs.lenssettings@ - '@mainwindow.lensparams.useindividual@'), mohou být tyto parametry zahrnuty nebo vyloučeny z optimalizace."
+			"morehelptext": "<br><br>Obecně platí, že @pitch@ a @roll@ musí být optimalizovány pro všechny snímky kromě jednoho (zvolený snímek &quot;kotvy&quot;).<br><br><b>@+yaw@</b> je rotace fotoaparátu ve vodorovné rovině, <b>@+pitch@</b> odpovídá úhlu sklonu nahoru / dolů a <b>@+roll@</b> je otáčení fotoaparátů kolem osy objektivu. <optional product='pro'><br><br><b>@+viewpoint@</b> řídí optimalizaci pohledu: <b>@+reset@</b> zakazuje optimalizaci pohledu a obnoví parametry pohledu na 0 při další optimalizaci. <b>@+keep@</b> zakáže další optimalizaci pohledu, ale zachovává aktuální nastavení snímku. <b>@+optimize@</b> umožňuje optimalizaci pohledu pro tento snímek.</optional><br><br>Pokud byly povoleny jednotlivé parametry (viz karta @mainwindow.tabs.lenssettings@ - '@mainwindow.lensparams.useindividual@'), mohou být tyto parametry zahrnuty nebo vyloučeny z optimalizace."
 		},
 		{
 			"id": "optimizertab.usecontrolpointsof",
@@ -7531,7 +7432,7 @@
 		{
 			"id": "exposurehdrtab.optimizenow",
 			"helptext": "Spustit optimalizaci expozice.",
-			"morehelptext": "<br><br>Analyzuje překrývající se obrazové body z různých snímků. V závislosti na tom, co je povoleno v okně @settings@, upraví vignetování, expozici, křivku odezvy fotoaparátůy, vyvážení bílé a korekci @lensflare@, dokud se minimalizují rozdíly mezi překrývajícími se obrazovými body.<br><br>Protože je třeba analyzovat skutečné překrývající se pixely, použijte tuto funkci pouze po přesném zarovnání panoramatu."
+			"morehelptext": "<br><br>Analyzuje překrývající se obrazové body z různých snímků. V závislosti na tom, co je povoleno v okně @settings@, upraví vignetování, expozici, křivku odezvy fotoaparátu, vyvážení bílé a korekci @lensflare@, dokud se minimalizují rozdíly mezi překrývajícími se obrazovými body.<br><br>Protože je třeba analyzovat skutečné překrývající se pixely, použijte tuto funkci pouze po přesném zarovnání panoramatu."
 		},
 		{
 			"id": "exposurehdrtab.settings",
@@ -7677,7 +7578,7 @@
 		{
 			"id": "projectsettingstab.batchbuilder.useexif",
 			"helptext": "Pokud je povoleno, Architekt dávkového zpracování použije pro generované projekty automatické nastavení objektivu.",
-			"morehelptext": "<br><br>Tím se přepíše nastavení objektivu projektu šablony a použijí se stejné výchozí parametry objektivu, které by byly výsledkem přidání snímků do nového projektu. Tuto možnost použijte, pokud chcete použít stejnou šablonu u snímků pořízených s různými fotoaparáty nebo objektivy.<br><br>Architekt dávkového zpracování ctí všechny asociaci EXIF vytvořené v databázi objektů a databázi fotoaparátů.<br><br>Pokud je tato funkce deaktivována, budou data EXIF v obrazech ignorována a parametry objektivu budou jednoduše zkopírovány z projektu šablony."
+			"morehelptext": "<br><br>Tím se přepíše nastavení objektivu projektu šablony a použijí se stejné výchozí parametry objektivu, které by byly výsledkem přidání snímků do nového projektu. Tuto možnost použijte, pokud chcete použít stejnou šablonu u snímků pořízených s různými fotoaparáty nebo objektivy.<br><br>Architekt dávkového zpracování ctí všechny asociace EXIF vytvořené v databázi objektivů a databázi fotoaparátů.<br><br>Pokud je tato funkce deaktivována, budou data EXIF v obrazech ignorována a parametry objektivu budou jednoduše zkopírovány z projektu šablony."
 		},
 		{
 			"id": "projectsettingstab.misc.useexiforientation",
@@ -7688,7 +7589,7 @@
 			"id": "projectsettingstab.misc.useexif",
 			"machinetranslated": true,
 			"helptext": "Automatické inicializace nastavení objektivu při přidávání snímků do projektu.",
-			"morehelptext": "<br><br>Pokud je vybrána, PTGui analyzuje data EXIF snímku pro určení typu fotoaparátu a objektivu. Nastavení těchto objektivů bude inicializováno podle těchto údajů. Výchozí nastavení lze přizpůsobit nebo přepsat přidáním asociaci v databázi objektů a v databázi fotoaparátů.<br><br>To platí pouze pro snímky přidané do projektu stisknutím tlačítka &quot;@mainwindow.projectassistant.loadimages@&quot; nebo přetažením snímků do okna PTGui.<br><br>Pokud je tato funkce deaktivována, budou data EXIF ignorována a při přidávání snímků do tohoto projektu budou zachovány aktuální nastavení objektivu.<br><br>Pro Architekt dávkového zpracování je k dispozici samostatné nastavení, viz výše @mainwindow.projectsettings.batchbuilder@."
+			"morehelptext": "<br><br>Pokud je vybrána, PTGui analyzuje data EXIF snímku pro určení typu fotoaparátu a objektivu. Nastavení těchto objektivů bude inicializováno podle těchto údajů. Výchozí nastavení lze přizpůsobit nebo přepsat přidáním asociací v databázi objektivů a v databázi fotoaparátů.<br><br>To platí pouze pro snímky přidané do projektu stisknutím tlačítka &quot;@mainwindow.projectassistant.loadimages@&quot; nebo přetažením snímků do okna PTGui.<br><br>Pokud je tato funkce deaktivována, budou data EXIF ignorována a při přidávání snímků do tohoto projektu budou zachovány aktuální nastavení objektivu.<br><br>Pro Architekt dávkového zpracování je k dispozici samostatné nastavení, viz výše @mainwindow.projectsettings.batchbuilder@."
 		},
 		{
 			"id": "projectsettingstab.misc.askinitializeandoptimize",
@@ -7752,25 +7653,25 @@
 		{
 			"id": "createpanoramatab.widthheight",
 			"machinetranslated": true,
-			"helptext": "Velikost (v pixelech) stitched panorama."
+			"helptext": "Velikost (v pixelech) spojené panorama."
 		},
 		{
 			"id": "createpanoramatab.fixsize",
 			"machinetranslated": true,
 			"helptext": "Výstupní velikost může být nastavena na počet pixelů nebo na optimální velikost (nebo její zlomek).",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Výstupní velikost se bude udržovat na daném počtu pixelů. Pokud se mění poměr stran (např. Změnou projekce, panoramatického zorného pole nebo výstupního oříznutí), může se šířka a výška změnit, ale celkový počet pixelů zůstane stejný. U sférických panoramat se běžně používá rovnoměrná projekce 2: 1, takže tato volba bude mít za následek pevnou šířku a výšku.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> udržujte <b>panoramatu</b> v optimální velikosti nebo v daném procentním podílu optimální velikosti.<br><br>Optimální velikost je velikost výstupu, při které se rozlišení a rovná rozlišení zdrojových snímků. Jinými slovy, nebudou ztraceny žádné detaily ze zdrojových snímků.<br><br>Vzhledem k tomu, že Distorze snímku není v celém panoramatu rovnoměrné, neexistuje skutečně optimální velikost: některé části zdrojových snímků mohou být zvětšeny, zatímco jiné části mohou být zmenšeny. Proto, poněkud libovolně, PTGui považuje optimální velikost za velikost, kdy se úhlové rozlišení středu zdrojových snímků rovná úhlovému rozlišení středu a. Pokud se použije obraz z více čoček, bude tento výpočet založen na zdrojovém snímku s nejvyšším rozlišením.<br><br>Vzhledem k tomu, že optimální velikost závisí na několika parametrech, včetně ohniskové vzdálenosti objektivu, která je obvykle nastavena optimalizátorem, optimální velikost se může po každé optimalizaci mírně měnit. To závisí také na umístění kontrolních bodů. Pokud je toto kolísání nežádoucí, vyberte požadovanou velikost a vyberte možnost '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@:</b> Výstupní velikost se bude udržovat na daném počtu pixelů. Pokud se mění poměr stran (např. Změnou projekce, panoramatického zorného pole nebo výstupního oříznutí), může se šířka a výška změnit, ale celkový počet pixelů zůstane stejný. U sférických panoramat se běžně používá rovnoměrná projekce 2: 1, takže tato volba bude mít za následek pevnou šířku a výšku.<br><br><b>@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.percentofoptimumsize@:</b> udržujte <b>panoramatu</b> v optimální velikosti nebo v daném procentním podílu optimální velikosti.<br><br>Optimální velikost je velikost výstupu, při které se rozlišení a rovná rozlišení zdrojových snímků. Jinými slovy, nebudou ztraceny žádné detaily ze zdrojových snímků.<br><br>Vzhledem k tomu, že zkreslení snímku není v celém panoramatu rovnoměrné, neexistuje skutečně optimální velikost: některé části zdrojových snímků mohou být zvětšeny, zatímco jiné části mohou být zmenšeny. Proto, poněkud libovolně, PTGui považuje optimální velikost za velikost, kdy se úhlové rozlišení středu zdrojových snímků rovná úhlovému rozlišení středu a. Pokud se použije obraz z více čoček, bude tento výpočet založen na zdrojovém snímku s nejvyšším rozlišením.<br><br>Vzhledem k tomu, že optimální velikost závisí na několika parametrech, včetně ohniskové vzdálenosti objektivu, která je obvykle nastavena optimalizátorem, optimální velikost se může po každé optimalizaci mírně měnit. To závisí také na umístění kontrolních bodů. Pokud je toto kolísání nežádoucí, vyberte požadovanou velikost a vyberte možnost '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'."
 		},
 		{
 			"id": "createpanoramatab.hundredpercent",
 			"machinetranslated": true,
 			"helptext": "Nastavte výstupní velikost na optimální velikost.",
-			"morehelptext": "<br><br>Optimální velikost je velikost výstupu, při které se rozlišení a rovná rozlišení zdrojových snímků. Jinými slovy, nejsou ztraceny žádné detaily ze zdrojových snímků.<br><br>Vzhledem k tomu, že Distorze snímku není v celém panoramatu rovnoměrné, neexistuje skutečně optimální velikost: některé části zdrojových snímků mohou být zvětšeny, zatímco jiné části mohou být zmenšeny. Proto, poněkud libovolně, PTGui považuje optimální velikost za velikost, kdy se úhlové rozlišení středu zdrojových snímků rovná úhlovému rozlišení středu a. Pokud se použije obraz z více čoček, bude tento výpočet založen na zdrojovém snímku s nejvyšším rozlišením."
+			"morehelptext": "<br><br>Optimální velikost je velikost výstupu, při které se rozlišení a rovná rozlišení zdrojových snímků. Jinými slovy, nejsou ztraceny žádné detaily ze zdrojových snímků.<br><br>Vzhledem k tomu, že zkreslení snímku není v celém panoramatu rovnoměrné, neexistuje skutečně optimální velikost: některé části zdrojových snímků mohou být zvětšeny, zatímco jiné části mohou být zmenšeny. Proto, poněkud libovolně, PTGui považuje optimální velikost za velikost, kdy se úhlové rozlišení středu zdrojových snímků rovná úhlovému rozlišení středu a. Pokud se použije obraz z více čoček, bude tento výpočet založen na zdrojovém snímku s nejvyšším rozlišením."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformat",
 			"machinetranslated": true,
 			"helptext": "Formát souboru, který chcete použít pro šitý panorama. <optional product='pro'>U panoramatu HDR je formát souboru, který se použije pro výstup mapovaný v tónu.</optional>",
-			"morehelptext": "<br><br>PTGui podporuje následující formáty souborů:<br><br><b>JPEG:</b> nejčastěji používaný formát snímku. Omezený dynamický rozsah (8 bitů na kanál). Transparentnost není podporována: prázdné části panoramatu budou vykresleny jako černé. Omezena na šířku a výšku 65 000 pixelů. Ztráta komprese s konfigurovatelnou kvalitou. Vhodné pro publikování na webu. Pokud bude obraz vytištěn nebo zpracován v editoru snímků, je lepší použít jeden z ostatních formátů na 16 bitů na kanál.<br><br><b>TIFF:</b> univerzální formát snímku podporující mnoho možností. PTGui může odesílat soubory TIFF s 8 nebo 16 bitovými kanály. <optional product='pro'>U panoramatu HDR je podporován také 32bitový TIFF s plovoucí částí.</optional> Komprese snižuje velikost souboru a je bezztrátová (kvalita snímku není degradována). Tradiční formát TIFF je omezen na 4 GB na soubor, ale PTGui automaticky použije dialekt BigTIFF, kdykoli se soubor zvětší. Tyto velké soubory lze číst pouze v aplikacích podporujících BigTIFF. Formát TIFF podporuje průhlednost.<br><br><b>Photoshop (.psd a .psb):</b> jako TIFF, podporuje 8 a 16 bitů na výstup kanálu <optional product='pro'>(a 32bitovou plovoucí bod pro HDR)</optional> s průhledností a bezztrátovou kompresí. Hlavní výhodou formátu photoshop je vrstvený výstup: PTGui dokáže vygenerovat jediný soubor obsahující smíšené a a zkroucené zdrojové snímky v samostatných vrstvách. To usnadňuje retušování a ve Photoshopu. Formát .psd je formát souboru ve formátu Photoshop, který je omezen na šířku a výšku 30000 pixelů. Toto je poskytováno pro zpětnou kompatibilitu. Obecně by měl být použit .psb, který nemá žádné omezení velikosti (i když Photoshop sám o sobě nemůže otevřít soubory širší než 600000 pixelů).<br><br><b>QuickTime VR:</b> QTVR byl speciální dialekt ve formátu QuickTime .mov společnosti Apple, který podporuje interaktivní přehrávání sférických panoramat. Již řadu let se jednalo o formát pro vkládání panoramatu do webových stránek: plugin QuickTime byl nainstalován na všech počítačích Mac a na mnoha počítačích se systémem Windows (byl součástí programu iTunes pro Windows). Bohužel společnost Apple zcela odstranila podporu QTVR od společnosti QuickTime a plugin prohlížeče QuickTime byl opuštěn. Takže QTVR by měl být považován za starší formát. Moderní alternativou pro publikování panoramatu na webu je HTML5. PTGui může publikovat stitched panorama na webovou stránku HTML5 pomocí @menubar.tools@ | @menubar.tools.publishtowebsite@."
+			"morehelptext": "<br><br>PTGui podporuje následující formáty souborů:<br><br><b>JPEG:</b> nejčastěji používaný formát snímku. Omezený dynamický rozsah (8 bitů na kanál). Transparentnost není podporována: prázdné části panoramatu budou vykresleny jako černé. Omezena na šířku a výšku 65 000 pixelů. Ztráta komprese s konfigurovatelnou kvalitou. Vhodné pro publikování na webu. Pokud bude obraz vytištěn nebo zpracován v editoru snímků, je lepší použít jeden z ostatních formátů na 16 bitů na kanál.<br><br><b>TIFF:</b> univerzální formát snímku podporující mnoho možností. PTGui může odesílat soubory TIFF s 8 nebo 16 bitovými kanály. <optional product='pro'>U panoramatu HDR je podporován také 32bitový TIFF s plovoucí částí.</optional> Komprese snižuje velikost souboru a je bezztrátová (kvalita snímku není degradována). Tradiční formát TIFF je omezen na 4 GB na soubor, ale PTGui automaticky použije dialekt BigTIFF, kdykoli se soubor zvětší. Tyto velké soubory lze číst pouze v aplikacích podporujících BigTIFF. Formát TIFF podporuje průhlednost.<br><br><b>Photoshop (.psd a .psb):</b> jako TIFF, podporuje 8 a 16 bitů na výstup kanálu <optional product='pro'>(a 32bitovou plovoucí bod pro HDR)</optional> s průhledností a bezztrátovou kompresí. Hlavní výhodou formátu photoshop je vrstvený výstup: PTGui dokáže vygenerovat jediný soubor obsahující smíšené a a zkroucené zdrojové snímky v samostatných vrstvách. To usnadňuje retušování a ve Photoshopu. Formát .psd je formát souboru ve formátu Photoshop, který je omezen na šířku a výšku 30000 pixelů. Toto je poskytováno pro zpětnou kompatibilitu. Obecně by měl být použit .psb, který nemá žádné omezení velikosti (i když Photoshop sám o sobě nemůže otevřít soubory širší než 600000 pixelů).<br><br><b>QuickTime VR:</b> QTVR byl speciální dialekt ve formátu QuickTime .mov společnosti Apple, který podporuje interaktivní přehrávání sférických panoramat. Již řadu let se jednalo o formát pro vkládání panoramatu do webových stránek: plugin QuickTime byl nainstalován na všech počítačích Mac a na mnoha počítačích se systémem Windows (byl součástí programu iTunes pro Windows). Bohužel společnost Apple zcela odstranila podporu QTVR od společnosti QuickTime a plugin prohlížeče QuickTime byl opuštěn. Takže QTVR by měl být považován za starší formát. Moderní alternativou pro publikování panoramatu na webu je HTML5. PTGui může publikovat spojené panorama na webovou stránku HTML5 pomocí @menubar.tools@ | @menubar.tools.publishtowebsite@."
 		},
 		{
 			"id": "createpanoramatab.ldrfileformatsettings",
@@ -7853,7 +7754,7 @@
 		{
 			"id": "createpanoramatab.components.hdrblendplanes",
 			"machinetranslated": true,
-			"helptext": "Uložte letadla, převedené do formátu HDR. Světelné zářiče se shodují s fokusovanými HDR panorama."
+			"helptext": "Uložit roviny prolnutí převedené do formátu HDR."
 		},
 		{
 			"id": "createpanoramatab.createpanoramabutton",
@@ -7876,7 +7777,7 @@
 			"id": "createpanoramatab.blendertype",
 			"machinetranslated": true,
 			"helptext": "Vyberte mixér, který chcete použít.",
-			"morehelptext": "<br><br>Kromě svého vlastního mixéru podporuje PTGui dva míchací pluginy: Smartblend a Enblend. Ty musí být nejdříve konfigurovány v @optionspreferences@ | @options.plugins@. Mějte na paměti, že existují omezení týkající se směšovacích pluginů: jsou pomalejší než mixér PTGui, mohou způsobit smíchání artefaktů v nadir a zenitu a nepodporují velmi velké panorama. <optional product='pro'>Také zelené masky jsou podporovány pouze mixérem PTGui.</optional>"
+			"morehelptext": "<br><br>Kromě svého vlastního mixéru podporuje PTGui dva míchací pluginy: Smartblend a Enblend. Ty musí být nejdříve konfigurovány v @optionspreferences@ | @options.plugins@. Mějte na paměti, že existují omezení týkající se směšovacích pluginů: jsou pomalejší než mixér PTGui, mohou způsobit sprolínání artefaktů v nadir a zenitu a nepodporují velmi velké panorama. <optional product='pro'>Také zelené masky jsou podporovány pouze mixérem PTGui.</optional>"
 		},
 		{
 			"id": "createpanoramatab.blenderfeather",
@@ -7887,7 +7788,7 @@
 			"id": "createpanoramatab.blendingmode",
 			"machinetranslated": true,
 			"helptext": "Blending algoritmus k použití.",
-			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> jemné detaily jsou smíchány s malým překryvem, zatímco pomalu se měnící detaily a barevné rozdíly jsou smíchány s širokým překrytím.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> provádí jednoduché lineární prolnutí.<br><br>Obecně platí, že kombinace @mainwindow.createpanoramatab.blendmode.multiband@ poskytuje vynikající výsledky. V těchto případech je ale lepší smíchání alfa:<br>• při kompozici sousedních snímků bez překrytí (např. Při sestavování obličejových snímků krychle do panoramatu)<br>• při mixování 32 bitových snímků zdroje HDR, které nejsou správně přizpůsobeny expozici. @mainwindow.createpanoramatab.blendmode.multiband@ může v takovém případě vytvářet tmavé haló."
+			"morehelptext": "<br><br><b>@mainwindow.createpanoramatab.blendmode.multiband@:</b> jemné detaily jsou smíchány s malým překryvem, zatímco pomalu se měnící detaily a barevné rozdíly jsou smíchány s širokým překrytím.<br><br><b>@mainwindow.createpanoramatab.blendmode.alpha@:</b> provádí jednoduché lineární prolnutí.<br><br>Obecně platí, že kombinace @mainwindow.createpanoramatab.blendmode.multiband@ poskytuje vynikající výsledky. V těchto případech je ale lepší sprolínání alfa:<br>• při kompozici sousedních snímků bez překrytí (např. Při sestavování obličejových snímků krychle do panoramatu)<br>• při mixování 32 bitových snímků zdroje HDR, které nejsou správně přizpůsobeny expozici. @mainwindow.createpanoramatab.blendmode.multiband@ může v takovém případě vytvářet tmavé haló."
 		},
 		{
 			"id": "createpanoramatab.interpolator",
@@ -8509,7 +8410,7 @@
 			"id": "batchbuilder.alignimages",
 			"machinetranslated": true,
 			"helptext": "Nakonfigurujte, zda má Hromadné zpracování analyzovat a zarovnat snímky před spojením.",
-			"morehelptext": "<br><br>Ve výchozím nastavení odpovídá nastavení v @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ v projektu šablony. Toto nastavení se zde opakuje a může být přepsáno, protože je běžným zdrojem zmatku.<br><br>Hromadné zpracování je možné nakonfigurovat tak, aby spouštěl &quot;@alignimages@&quot; před spojením panoramatu. Pokud je povoleno, Hromadné zpracování nejprve analyzuje snímky, generuje kontrolní body, optimalizuje projekt atd. Co přesně bude provedeno, je konfigurováno v šabloně pod @mainwindow.tabs.projectsettings@ - Align Images Behavior. Po zarovnání bude aktualizovaný soubor projektu uložen na disk.<br><br>Je-li zakázán, projekt bude šit přesně jako v šabloně, takže šablona by měla obsahovat řádně zarovnávané snímky.<br><br>V podstatě existují dva různé případy použití pro nástroj Architekt dávkového zpracování:<br><br>1. ušitím mnoha panoramat pomocí stejných nastavení bez generování kontrolních bodů. To lze použít například s více fotoaparátůovými soupravami, kde jsou zaručeny všechny panoramatické snímky se stejnou orientací snímku. V tomto případě musí být přeskočen '@alignimages@'.<br><br>2. nebo automaticky stitovat řadu panoramatických snímků pouze tím, že PTGui směřujete do složky s snímky. snímky jsou pořízeny například otočením fotoaparátu na panoramatickou hlavu stativu. V takovém případě se pozice snímků v jednotlivých atech obvykle budou mírně lišit. I když se panoramatická hlava zastaví, mechanické tolerance způsobí malé rozdíly v orientaci snímku v každé panorama. Pro kompenzaci tohoto PTGui by měly být analyzovány snímky pro každé a a generovány kontrolní body, takže &quot;@alignimages@&quot; musí být spuštěn před spojením."
+			"morehelptext": "<br><br>Ve výchozím nastavení odpovídá nastavení v @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ v projektu šablony. Toto nastavení se zde opakuje a může být přepsáno, protože je běžným zdrojem zmatku.<br><br>Hromadné zpracování je možné nakonfigurovat tak, aby spouštěl &quot;@alignimages@&quot; před spojením panoramatu. Pokud je povoleno, Hromadné zpracování nejprve analyzuje snímky, generuje kontrolní body, optimalizuje projekt atd. Co přesně bude provedeno, je konfigurováno v šabloně pod @mainwindow.tabs.projectsettings@ - Align Images Behavior. Po zarovnání bude aktualizovaný soubor projektu uložen na disk.<br><br>Je-li zakázán, projekt bude šit přesně jako v šabloně, takže šablona by měla obsahovat řádně zarovnávané snímky.<br><br>V podstatě existují dva různé případy použití pro nástroj Architekt dávkového zpracování:<br><br>1. uspojováním mnoha panoramat pomocí stejných nastavení bez generování kontrolních bodů. To lze použít například s více fotoaparátůovými soupravami, kde jsou zaručeny všechny panoramatické snímky se stejnou orientací snímku. V tomto případě musí být přeskočen '@alignimages@'.<br><br>2. nebo automaticky stitovat řadu panoramatických snímků pouze tím, že PTGui směřujete do složky s snímky. snímky jsou pořízeny například otočením fotoaparátu na panoramatickou hlavu stativu. V takovém případě se pozice snímků v jednotlivých atech obvykle budou mírně lišit. I když se panoramatická hlava zastaví, mechanické tolerance způsobí malé rozdíly v orientaci snímku v každé panorama. Pro kompenzaci tohoto PTGui by měly být analyzovány snímky pro každé a a generovány kontrolní body, takže &quot;@alignimages@&quot; musí být spuštěn před spojením."
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
@@ -8530,7 +8431,7 @@
 			"id": "batchbuilderdetect.method",
 			"machinetranslated": true,
 			"helptext": "Metoda pro vyhledávání panoramatických snímků.",
-			"morehelptext": "<br><br>Tvůrce dávkového zpracování dokáže rozpoznat panorama jedním z následujících způsobů:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> použijte tuto možnost, pokud jste již uspořádali zdrojové snímky v samostatných složkách pro každé panorama. PTGui Pro bude vypadat ve vybrané složce, ve všech podsložkách, podsložkách a pod. A generovat soubory projektů pro každou složku, která obsahuje jeden nebo více snímků. Každý soubor projektu bude obsahovat všechny snímky nalezené v dané složce.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> Tuto metodu použijte, pokud jsou všechny zdrojové snímky v jedné složce a všechny panorama by měly mít pevný počet snímků. Například pokud složka obsahuje 100 snímků a počet snímků na panorama je nastaven na 7, výsledkem bude 15 projektů se sedmi snímky (kromě posledního). snímky jsou seřazeny a seskupeny abecedně.<br><br><b>@batchbuilderdetect.method.shootingdate@:</b> Projekty budou zjištěny na základě data / času natáčení: snímky budou považovány za <b>panoramatu,</b> pokud byly pořízeny v určeném počtu sekund po sobě. Další kritéria filtru umožňují filtrování na základě ohniskové vzdálenosti a pouze kvalifikaci následných snímků, které mají stejnou ohniskovou vzdálenost, dobu expozice, clonu a / nebo hodnotu ISO.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> Tato metoda může být použita pro vytváření panoramatických <b>snímků s</b> časovým odstupem od několika fotoaparátů. Paměťovou kartu z každé fotoaparátůy můžete zkopírovat do samostatné podsložky. Každá podsložka by měla obsahovat stejný počet snímků ve stejném vzestupném číselném pořadí. Generované soubory projektu pořídí jeden snímek z každé podsložky (s názvy podsložky v abecedním pořadí)."
+			"morehelptext": "<br><br>Tvůrce dávkového zpracování dokáže rozpoznat panorama jedním z následujících způsobů:<br><br><b>@batchbuilderdetect.method.oneperfolder@:</b> použijte tuto možnost, pokud jste již uspořádali zdrojové snímky v samostatných složkách pro každé panorama. PTGui Pro bude vypadat ve vybrané složce, ve všech podsložkách, podsložkách a pod. A generovat soubory projektů pro každou složku, která obsahuje jeden nebo více snímků. Každý soubor projektu bude obsahovat všechny snímky nalezené v dané složce.<br><br><b>@batchbuilderdetect.method.fixednumimages@:</b> Tuto metodu použijte, pokud jsou všechny zdrojové snímky v jedné složce a všechny panorama by měly mít pevný počet snímků. Například pokud složka obsahuje 100 snímků a počet snímků na panorama je nastaven na 7, výsledkem bude 15 projektů se sedmi snímky (kromě posledního). snímky jsou seřazeny a seskupeny abecedně.<br><br><b>@batchbuilderdetect.method.shootingdate@:</b> Projekty budou zjištěny na základě data / času natáčení: snímky budou považovány za <b>panoramatu,</b> pokud byly pořízeny v určeném počtu sekund po sobě. Další kritéria filtru umožňují filtrování na základě ohniskové vzdálenosti a pouze kvalifikaci následných snímků, které mají stejnou ohniskovou vzdálenost, dobu expozice, clonu a / nebo hodnotu ISO.<br><br><b>@batchbuilderdetect.method.subfolderpercamera@:</b> Tato metoda může být použita pro vytváření panoramatických <b>snímků s</b> časovým odstupem od několika fotoaparátů. Paměťovou kartu z každé fotoaparátu můžete zkopírovat do samostatné podsložky. Každá podsložka by měla obsahovat stejný počet snímků ve stejném vzestupném číselném pořadí. Generované soubory projektu pořídí jeden snímek z každé podsložky (s názvy podsložky v abecedním pořadí)."
 		},
 		{
 			"id": "batchbuilderdetect.folder",
@@ -8761,7 +8662,7 @@
 		{
 			"id": "lensdatabase.mappings",
 			"machinetranslated": true,
-			"helptext": "EXIF asociaci pro vybraný záznam databáze objektivu.",
+			"helptext": "Asociace EXIF pro vybraný záznam databáze objektivů.",
 			"morehelptext": "<br><br>Záznamy databáze objektivu mohou být spojeny s daty EXIF, které automaticky použijí vlastní nastavení pro snímky z konkrétní kombinace fotoaparátu a objektivu. Viz: <a href='helppage:lensdatabase'>Použití databáze objektů</a>"
 		},
 		{
@@ -8791,7 +8692,7 @@
 			"id": "cameradatabase.entries.remove",
 			"machinetranslated": true,
 			"label": "Odstranit",
-			"helptext": "Odeberte vybraný záznam databáze fotoaparátůy."
+			"helptext": "Odeberte vybraný záznam databáze fotoaparátu."
 		},
 		{
 			"id": "focallengthdialog.loadfromlensdb",
@@ -8820,18 +8721,18 @@
 			"id": "focallengthdialog.alwaysuse",
 			"machinetranslated": true,
 			"helptext": "Přidání přidružení k databázi objektivů pro tato nastavení objektivu a EXIF data snímku.",
-			"morehelptext": "<br><br>Tím, že provedete přidružení v databázi objektivů, budou tato nastavení automaticky načteny při příjmu snímku ze stejného objektivu / fotoaparátůy. Další informace naleznete v části: <a href='helppage:lensdatabase'>Použití databáze objektů</a>"
+			"morehelptext": "<br><br>Tím, že provedete přidružení v databázi objektivů, budou tato nastavení automaticky načteny při příjmu snímku ze stejného objektivu / fotoaparátu. Další informace naleznete v části: <a href='helppage:lensdatabase'>Použití databáze objektů</a>"
 		},
 		{
 			"id": "sensorsizedialog.sensorsize",
 			"machinetranslated": true,
-			"helptext": "Zde zadejte velikost snímače fotoaparátůy.",
-			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@</b> šířka a výška (v mm) snímače."
+			"helptext": "Zde zadejte velikost snímače fotoaparátu.",
+			"morehelptext": "<br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátu. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. Velikost snímače lze zadat třemi způsoby:<br><br><b>@sensorsizedialog.cropfactor@</b> je to relativní velikost snímače ve srovnání s tradičním snímačem 24 x 36 mm. 1x odpovídá snímači s plným rámem, vyšší hodnoty odpovídají menším rozměrům snímače.<br><br><b>@sensorsizedialog.diagonal@</b> Vzdálenost mezi horním levým a pravým dolním rohem snímače.<br><br><b>@sensorsizedialog.sensorsize@</b> šířka a výška (v mm) snímače."
 		},
 		{
 			"id": "sensorsizedialog.preset",
 			"machinetranslated": true,
-			"helptext": "Pokud nepoznáte velikost snímače fotoaparátůy, vyberte nejvhodnější položku z tohoto seznamu."
+			"helptext": "Pokud nepoznáte velikost snímače fotoaparátu, vyberte nejvhodnější položku z tohoto seznamu."
 		},
 		{
 			"id": "sensorsizedialog.alwaysuse",
@@ -8994,7 +8895,7 @@
 			"id": "options.plugins.enblend.application",
 			"machinetranslated": true,
 			"helptext": "Vyberte cestu spustitelného souboru Enblend nebo klepněte na tlačítko @browse@ a vyberte jej na disku.",
-			"morehelptext": "<br><br>Enblend je aplikace pro blending a třetí strany. Enblend lze zvolit pro smíchání na kartě @mainwindow.tabs.createpanorama@ na '@mainwindow.createpanoramatab.blendusing@'."
+			"morehelptext": "<br><br>Enblend je aplikace pro blending a třetí strany. Enblend lze zvolit pro sprolínání na kartě @mainwindow.tabs.createpanorama@ na '@mainwindow.createpanoramatab.blendusing@'."
 		},
 		{
 			"id": "options.plugins.enblend.cmdline",
@@ -9005,7 +8906,7 @@
 			"id": "options.plugins.smartblend.application",
 			"machinetranslated": true,
 			"helptext": "Vyberte cestu spustitelného souboru Smartblend nebo klepněte na @browse@ a vyberte jej na disku.",
-			"morehelptext": "<br><br>Smartblend je aplikace pro blending a od třetích stran. Funkci Smartblend lze zvolit pro smíchání na kartě @mainwindow.tabs.createpanorama@ na adrese '@mainwindow.createpanoramatab.blendusing@'."
+			"morehelptext": "<br><br>Smartblend je aplikace pro blending a od třetích stran. Funkci Smartblend lze zvolit pro sprolínání na kartě @mainwindow.tabs.createpanorama@ na adrese '@mainwindow.createpanoramatab.blendusing@'."
 		},
 		{
 			"id": "options.plugins.smartblend.cmdline",
@@ -9016,7 +8917,7 @@
 			"id": "options.plugins.dcraw.application",
 			"machinetranslated": true,
 			"helptext": "Zadejte umístění vlastního spustitelného souboru dcraw. Ponechat prázdné, abyste použili dcraw, který je dodáván s PTGui.",
-			"morehelptext": "<br><br>Při načítání RAW souborů fotoaparátůy PTGui používá aplikaci DCRaw s otevřeným zdrojovým kódem. PTGui je dodáván s kopií soupravy DCRaw, ale může být nakonfigurován pro použití jiné verze příkazu DCRaw zadáním úplné cesty k spustitelnému souboru. To může být užitečné, pokud je k dispozici novější verze nástroje DCRaw, než je ten, který je součástí programu PTGui.<br><br>Nechat toto pole prázdné pro použití aplikace DCRaw dodávané s PTGui; novější verze DCRaw budou součástí každé aktualizace PTGui."
+			"morehelptext": "<br><br>Při načítání RAW souborů fotoaparátu PTGui používá aplikaci DCRaw s otevřeným zdrojovým kódem. PTGui je dodáván s kopií soupravy DCRaw, ale může být nakonfigurován pro použití jiné verze příkazu DCRaw zadáním úplné cesty k spustitelnému souboru. To může být užitečné, pokud je k dispozici novější verze nástroje DCRaw, než je ten, který je součástí programu PTGui.<br><br>Nechat toto pole prázdné pro použití aplikace DCRaw dodávané s PTGui; novější verze DCRaw budou součástí každé aktualizace PTGui."
 		},
 		{
 			"id": "options.advanced.showconsolewindowforplugins",
@@ -9092,7 +8993,7 @@
 			"id": "photometricsettings.optimizecameracurve",
 			"machinetranslated": true,
 			"helptext": "Nastavte, zda bude křivka odezvy fotoaparátu optimalizována.",
-			"morehelptext": "<br><br>Hodnoty obrazových bodů v běžných obrazových souborech nepředstavují skutečné skutečné světelné intenzity scény. Místo toho každý fotoaparát mapuje zaznamenaný jas každého pixelu na číselnou hodnotu podle určité křivky. Korekce expozice a generování HDR pracují na intenzitě světla v reálném světě, takže musí být známa křivka odezvy fotoaparátůy. PTGui Pro může určit křivku odezvy analýzou více překrývajících se snímků. Nejpřesnější výsledky se dosáhne, pokud se překrývají snímky s různými časy expozice.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analýza snímků pro určení křivky odezvy. Křivku fotoaparátůy lze přesně určit, pouze pokud projekt obsahuje překrývající se obrazové body pořízené při různých nastaveních expozice. Proto by tato možnost měla být použita pouze pro HDR projekty.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> Nepokoušejte se určit křivku odezvy; použijte namísto toho standardní křivku.<br><br><b>@photometricsettings.keepcurrent@:</b> Křivka aktuální odezvy bude zachována.<br><br><b>@options.automatic@ (výchozí nastavení):</b> pro projekty HDR bude určena krivka odezvy fotoaparátůy; pro projekty bez HDR je použita výchozí křivka."
+			"morehelptext": "<br><br>Hodnoty obrazových bodů v běžných obrazových souborech nepředstavují skutečné skutečné světelné intenzity scény. Místo toho každý fotoaparát mapuje zaznamenaný jas každého pixelu na číselnou hodnotu podle určité křivky. Korekce expozice a generování HDR pracují na intenzitě světla v reálném světě, takže musí být známa křivka odezvy fotoaparátu. PTGui Pro může určit křivku odezvy analýzou více překrývajících se snímků. Nejpřesnější výsledky se dosáhne, pokud se překrývají snímky s různými časy expozice.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analýza snímků pro určení křivky odezvy. Křivku fotoaparátu lze přesně určit, pouze pokud projekt obsahuje překrývající se obrazové body pořízené při různých nastaveních expozice. Proto by tato možnost měla být použita pouze pro HDR projekty.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> Nepokoušejte se určit křivku odezvy; použijte namísto toho standardní křivku.<br><br><b>@photometricsettings.keepcurrent@:</b> Křivka aktuální odezvy bude zachována.<br><br><b>@options.automatic@ (výchozí nastavení):</b> pro projekty HDR bude určena krivka odezvy fotoaparátu; pro projekty bez HDR je použita výchozí křivka."
 		},
 		{
 			"id": "photometricsettings.defaults",
@@ -9179,7 +9080,7 @@
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
 			"machinetranslated": true,
 			"helptext": "Konfiguruje způsob zpracování expozic v závorkách.",
-			"morehelptext": "<br><br>Expozice v závorkách lze zpracovat dvěma způsoby:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui nejprve kombinuje každou sadu expozic v závorkách do obrazu HDR (nebo je kombinuje pomocí Exposure Fusion). Poté se kombinované obrázky spojí do panoramatu.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Nejprve se vytvoří takzvaná „ <b>směsná</b> letadla“. Směšovací rovina je kompletní panorama na jedné expoziční úrovni (tj. Všechny snímky pořízené ve stejném čase expoury, clona a ISO). Nakonec se oddělené roviny prolnutí sloučí do obrazu HDR nebo do obrazu fúzovaného s expozicí. Tuto metodu byste měli použít pouze u panoramatických snímků pořízených v režimu manuální expozice. Vyžaduje, aby bylo celé panorama plně pokryto při každé úrovni expozice.<br><br><b>@options.automatic@: Vybere</b> nejlepší možnost pro aktuální projekt. Pokud byly snímky pořízeny v režimu manuální expozice, vytvoří se roviny prolnutí. V opačném případě budou zkombinované snímky nejprve zkombinovány a poté smíchány."
+			"morehelptext": "<br><br>Expozice v závorkách lze zpracovat dvěma způsoby:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui nejprve kombinuje každou sadu expozic v závorkách do obrazu HDR (nebo je kombinuje pomocí Exposure Fusion). Poté se kombinované obrázky spojí do panoramatu.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Nejprve se vytvoří takzvaná „<b>roviny prolnutí</b>“. Směšovací rovina je kompletní panorama na jedné expoziční úrovni (tj. Všechny snímky pořízené ve stejném čase expoury, clona a ISO). Nakonec se oddělené roviny prolnutí sloučí do obrazu HDR nebo do obrazu fúzovaného s expozicí. Tuto metodu byste měli použít pouze u panoramatických snímků pořízených v režimu manuální expozice. Vyžaduje, aby bylo celé panorama plně pokryto při každé úrovni expozice.<br><br><b>@options.automatic@: Vybere</b> nejlepší možnost pro aktuální projekt. Pokud byly snímky pořízeny v režimu manuální expozice, vytvoří se roviny prolnutí. V opačném případě budou zkombinované snímky nejprve zkombinovány a poté smíchány."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
@@ -9309,14 +9210,14 @@
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
 			"machinetranslated": true,
-			"helptext": "Algoritmus míchání, který se má použít.",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Tento směšovací algoritmus pracuje ve švu mezi dvěma obrazy. Rozdíly jasu a barev jsou distribuovány po celém obrázku, takže jakékoli rozdíly jsou minimalizovány tam, kde se obrázky setkávají ve švech. Obrázky se nemusí překrývat; mimo švy nejsou použity žádné pixely.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Toto je klasický panoramatický směšovací algoritmus (použitý v předchozích verzích PTGui). Prolínání se provádí vyhlazením rozdílů barev a jasu v oblasti, kde se obrázky překrývají. Jemné detaily jsou smíchány v úzkém pásmu překrytí, běžné barvy jsou smíchány s postupným překrytím.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Nemíchejte vůbec. Rozdíly barev a jasu zůstanou viditelné.<br><br>Obecně bude „@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@“ poskytovat nejlepší výsledky, zejména pokud se použije „@panoramaeditor.sidebar.blendsettings.seamfinding@“ (pouze PTGui Pro). Všechny objekty mimo švy budou kompletně skryty, zatímco '@panoramaeditor.sidebar.blendsettings.blender.multiband@' může mít za následek duchovní obrazy objektů těsně mimo švy, protože pro míchání je použita celá překrývající se oblast. Na druhou stranu, „@panoramaeditor.sidebar.blendsettings.blender.multiband@“ může poskytnout lepší výsledky při míchání velmi jemných opakujících se vzorů (například u stropů nebo koberců) a může přinést poněkud lepší výsledky, pokud je pohybující se předmět rozříznut na polovinu švem.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' lze použít v případech, kdy není potřeba míchání, například při rekonstrukci panoramatu z (nepřekrývajících se) ploch krychle."
+			"helptext": "Algoritmus prolínání, který se má použít.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> Tento směšovací algoritmus pracuje ve švu mezi dvěma obrazy. Rozdíly jasu a barev jsou distribuovány po celém obrázku, takže jakékoli rozdíly jsou minimalizovány tam, kde se obrázky setkávají ve švech. Obrázky se nemusí překrývat; mimo švy nejsou použity žádné pixely.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> Toto je klasický panoramatický směšovací algoritmus (použitý v předchozích verzích PTGui). Prolínání se provádí vyhlazením rozdílů barev a jasu v oblasti, kde se obrázky překrývají. Jemné detaily jsou smíchány v úzkém pásmu překrytí, běžné barvy jsou smíchány s postupným překrytím.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Nemíchejte vůbec. Rozdíly barev a jasu zůstanou viditelné.<br><br>Obecně bude „@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@“ poskytovat nejlepší výsledky, zejména pokud se použije „@panoramaeditor.sidebar.blendsettings.seamfinding@“ (pouze PTGui Pro). Všechny objekty mimo švy budou kompletně skryty, zatímco '@panoramaeditor.sidebar.blendsettings.blender.multiband@' může mít za následek duchovní obrazy objektů těsně mimo švy, protože pro prolínání je použita celá překrývající se oblast. Na druhou stranu, „@panoramaeditor.sidebar.blendsettings.blender.multiband@“ může poskytnout lepší výsledky při prolínání velmi jemných opakujících se vzorů (například u stropů nebo koberců) a může přinést poněkud lepší výsledky, pokud je pohybující se předmět rozříznut na polovinu švem.<br><br>'@panoramaeditor.sidebar.blendsettings.blender.none@' lze použít v případech, kdy není potřeba prolínání, například při rekonstrukci panoramatu z (nepřekrývajících se) ploch krychle."
 		},
 		{
 			"id": "exposurehdrtab.cameracurvegraph_v2",
 			"machinetranslated": true,
 			"helptext": "Křivka odezvy kamery",
-			"morehelptext": "<br><br>Tato křivka zobrazuje mapování od skutečné intenzity světla k hodnotám pixelů. Vodorovná osa představuje světelnou instanci (jas scény). Svislá osa je intenzita pixelu v lineárním barevném prostoru (před použitím gama křivky profilu ICC). Obecně PTGui použije křivku dvakrát: před smícháním se použije inverzní křivka k převodu hodnot pixelů na lineární intenzitu světla. Poté se v lineárním barevném prostoru provádí míchání, korekce expozice / vinětace a sloučení HDR. Poté se křivka znovu aplikuje v opačném směru a převede se z lineární hodnoty jasu na hodnoty pixelů. Nakonec se při ukládání obrázku použije korekce gama podle barevného profilu ICC.<br><br>Projekt může obsahovat více křivek kamery: pro každý zdrojový obraz lze přiřadit jednu z křivek kamery ve sloupci „@mainwindow.imageparameters.cameracurve@“ na kartě @mainwindow.tabs.imageparameters@. Pole @mainwindow.imageparameters.cameracurve@ lze také nastavit na „@txt.cameracurve.linear@“, pokud je známo, že zdrojový obraz obsahuje lineární data. PTGui ve výchozím nastavení předpokládá, že zdrojové obrázky RAW a HDR jsou lineární. Pokud jsou všechny zdrojové obrázky lineární, nebude zde vidět žádná křivka kamery.<br><br>Pokud je nakonfigurováno více nebo nulová křivka kamery, lze křivku použitou pro výstup nakonfigurovat v panelu @panoramaeditor@ na panelu @panoramaeditor.sidebar.postprocess@.<br><br>PTGui může určit křivku odezvy kamery jako součást @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Stiskněte tlačítko @mainwindow.exposurehdrpanel.optimizenow@. To vyžaduje snímky v závorkách: křivka odezvy fotoaparátu se určí porovnáním stejného pixelu v různých exponovaných obrázcích. Pro jednotlivé (bez závorek) expozice použije PTGui výchozí křivku, která obvykle funguje dobře.<br><br>Pomocí tlačítek na panelu nástrojů výše můžete křivku upravit, načíst, uložit nebo odstranit nebo k projektu přidat další křivku kamery."
+			"morehelptext": "<br><br>Tato křivka zobrazuje mapování od skutečné intenzity světla k hodnotám pixelů. Vodorovná osa představuje světelnou instanci (jas scény). Svislá osa je intenzita pixelu v lineárním barevném prostoru (před použitím gama křivky profilu ICC). Obecně PTGui použije křivku dvakrát: před sprolínáním se použije inverzní křivka k převodu hodnot pixelů na lineární intenzitu světla. Poté se v lineárním barevném prostoru provádí prolínání, korekce expozice / vinětace a sloučení HDR. Poté se křivka znovu aplikuje v opačném směru a převede se z lineární hodnoty jasu na hodnoty pixelů. Nakonec se při ukládání obrázku použije korekce gama podle barevného profilu ICC.<br><br>Projekt může obsahovat více křivek kamery: pro každý zdrojový obraz lze přiřadit jednu z křivek kamery ve sloupci „@mainwindow.imageparameters.cameracurve@“ na kartě @mainwindow.tabs.imageparameters@. Pole @mainwindow.imageparameters.cameracurve@ lze také nastavit na „@txt.cameracurve.linear@“, pokud je známo, že zdrojový obraz obsahuje lineární data. PTGui ve výchozím nastavení předpokládá, že zdrojové obrázky RAW a HDR jsou lineární. Pokud jsou všechny zdrojové obrázky lineární, nebude zde vidět žádná křivka kamery.<br><br>Pokud je nakonfigurováno více nebo nulová křivka kamery, lze křivku použitou pro výstup nakonfigurovat v panelu @panoramaeditor@ na panelu @panoramaeditor.sidebar.postprocess@.<br><br>PTGui může určit křivku odezvy kamery jako součást @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Stiskněte tlačítko @mainwindow.exposurehdrpanel.optimizenow@. To vyžaduje snímky v závorkách: křivka odezvy fotoaparátu se určí porovnáním stejného pixelu v různých exponovaných obrázcích. Pro jednotlivé (bez závorek) expozice použije PTGui výchozí křivku, která obvykle funguje dobře.<br><br>Pomocí tlačítek na panelu nástrojů výše můžete křivku upravit, načíst, uložit nebo odstranit nebo k projektu přidat další křivku kamery."
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
@@ -9648,7 +9549,7 @@
 		{
 			"id": "batchstitcher",
 			"machinetranslated": true,
-			"helptext": "<b>@batchstitcher@</b><br><br>Spojování velkých panoramat může chvíli trvat. Hromadné zpracování vám umožňuje připravit více projektů a nechat je dávkovém zpracování. Projekty jsou zařazeny do fronty na Hromadné zpracování pomocí tlačítka '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' na kartě@mainwindow.tabs.createpanorama@ a přes @menubar.project.sendtemporarycopytobatchstitcher@ v nabídce @menubar.project@. Můžete také spustit Dávkové zpracování pomocí @menubar.tools@ | @batchstitcher@ a přidat projekty do fronty ručně.<br><br><b>Použití dávkovacího stroje</b><br><br>Hlavní částí dávkovacího stroje (přímo pod panelem nástrojů) je fronta úloh. Zobrazí se úlohy, které mají být zpracovány, a dokončené úlohy. Successfully finished jobs jsou označeny zelenou značkou na pravé straně. Jakékoli úlohy zrušené s chybou jsou označeny červeným vykřičníkem; chybová zpráva se zobrazí v podokně protokolu v dolní části. Pokud se právě zpracovává úloha, zobrazí se panel s průběhem.<br><br>Úkoly lze přidávat pomocí @menubar.file@ | @batchstitcher.menubar.addprojects@ pomocí tlačítka @batchstitcher.menubar.addprojects@ na panelu nástrojů nebo přetažením souboru .pts do okna Batch Stitcher. Úkoly budou přidány také při provádění &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; z hlavního okna. Jeden nebo více projektů lze vybrat tažením myší. Vybrané projekty je možné odstranit pomocí klávesy Del. Seznam projektů lze znovu uspořádat přetažením záhlaví řádku (na levé straně) nahoru nebo dolů.<br><br>Klikněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> v seznamu kontextové nabídky. Použijte '@batchstitcher.contextmenu.markasdone@' a '@batchstitcher.contextmenu.markasnotdone@' ke změně stavu projektu. Pokud je projekt označen jako &quot;@batchstitcher.contextmenu.deletewhendone@&quot;, příslušný soubor projektu (.pts) bude po dokončení odstraněn (samozřejmě bude zachováno vygenerované a). Toto je používáno společností @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Dávkovací stroj lze spustit a zastavit pomocí nabídky @batchstitcher.menubar.process@ a pomocí tlačítek na panelu nástrojů. Dvojklikem na úlohu (nebo stisknutím klávesy Enter) Otevřít projekt v novém okně PTGui. <optional product='pro'><br><br><b>Nastavení projektu šarže</b><br><br>Dávkové zpracování může nejen stitched panoramas, ale může také generovat kontrolní body a zarovnat snímky. Vlastnosti je řízeno nastavením @mainwindow.projectsettings.batchstitcheractions@ na kartě @mainwindow.tabs.projectsettings@ projektu: Je-li <b>vybrána možnost @mainwindow.projectsettings.batchstitcheractions.align@</b> , Hromadné zpracování vytvoří kontrolní body a nastaví panorama. Je-li <b>vybrána možnost @mainwindow.projectsettings.batchstitcheractions.createpanorama@, dávkovací prošívač</b> bude spojení panorama.</optional><br><br><b>Dávkové zpracování</b><br><br>Seznam dávkového zpracování ukládá seznam úloh, které jsou doplněny stavem Hotovo / Nedokončeno pro každou úlohu. Pomocí seznamů pro dávkové zpracování můžete zavřít šarži a pokračovat tam, kde jste přestali. Hromadné zpracování nemůže obnovit částečně dokončené úlohy (potřebujete restartovat celou úlohu), ale bude si pamatovat, které projekty v seznamu dávkového zpracování již byly dokončeny a které nemají.<br><br>Vytvořte Seznam dávkového zpracování vložením jedné nebo více úloh do šarže a výběrem @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Existující Dávkové zpracování lze otevřít pomocí @batchstitcher.menubar.openbatchlist@ nebo @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>Nástroj Builder dávkového zpracování (viz dále) také vytváří Dávkové zpracování, které lze načíst do dávkovacího stroje.</optional><br><br>Pouze jeden Seznam dávkového zpracování může být kdykoli aktivní. Je-li aktivní seznam dávkových položek a je vybrána možnost &quot;@batchstitcher.menubar.autosavebatchlist@&quot;, do seznamu dávkového zpracování se okamžitě uloží všechny změny v seznamu projektů (například když projekt je dokončen nebo projekt přidán do seznamu). Pokud je seznam dávkového zpracování velmi velký (tisíce projektů nebo více), ukládání seznamu dávkového zpracování při každé změně trvá značné množství času. V takovém případě je lepší vypnout funkci &quot;@batchstitcher.menubar.autosavebatchlist@&quot; a ručně nastavit @batchstitcher.menubar.savebatchlist@ pro zápis seznamu změněných dávek na disk jednou za čas.<br><br>@batchbuilder.helptext.appendbatchlist@ <optional product='pro'><br><br><b>Architekt dávkového zpracování</b><br><br>Kombinace Dávkového zpracování a Architekta dávkového zpracování v PTGui Pro je výkonným nástrojem pro rychlé vyrovnání a spojení stovek panoramatických snímků téměř plně automaticky. Další informace naleznete v @menubar.tools@ | @batchbuilder@ a stiskněte tlačítko @help@.</optional>"
+			"helptext": "<b>@batchstitcher@</b><br><br>Spojování velkých panoramat může chvíli trvat. Hromadné zpracování vám umožňuje připravit více projektů a nechat je dávkovém zpracování. Projekty jsou zařazeny do fronty na Hromadné zpracování pomocí tlačítka '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' na kartě@mainwindow.tabs.createpanorama@ a přes @menubar.project.sendtemporarycopytobatchstitcher@ v nabídce @menubar.project@. Můžete také spustit Dávkové zpracování pomocí @menubar.tools@ | @batchstitcher@ a přidat projekty do fronty ručně.<br><br><b>Použití dávkovacího stroje</b><br><br>Hlavní částí dávkovacího stroje (přímo pod panelem nástrojů) je fronta úloh. Zobrazí se úlohy, které mají být zpracovány, a dokončené úlohy. Successfully finished jobs jsou označeny zelenou značkou na pravé straně. Jakékoli úlohy zrušené s chybou jsou označeny červeným vykřičníkem; chybová zpráva se zobrazí v podokně protokolu v dolní části. Pokud se právě zpracovává úloha, zobrazí se panel s průběhem.<br><br>Úkoly lze přidávat pomocí @menubar.file@ | @batchstitcher.menubar.addprojects@ pomocí tlačítka @batchstitcher.menubar.addprojects@ na panelu nástrojů nebo přetažením souboru .pts do okna Batch Stitcher. Úkoly budou přidány také při provádění &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; z hlavního okna. Jeden nebo více projektů lze vybrat tažením myší. Vybrané projekty je možné odstranit pomocí klávesy Del. Seznam projektů lze znovu uspořádat přetažením záhlaví řádku (na levé straně) nahoru nebo dolů.<br><br>Klikněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> v seznamu kontextové nabídky. Použijte '@batchstitcher.contextmenu.markasdone@' a '@batchstitcher.contextmenu.markasnotdone@' ke změně stavu projektu. Pokud je projekt označen jako &quot;@batchstitcher.contextmenu.deletewhendone@&quot;, příslušný soubor projektu (.pts) bude po dokončení odstraněn (samozřejmě bude zachováno vygenerované a). Toto je používáno společností @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Dávkovací stroj lze spustit a zastavit pomocí nabídky @batchstitcher.menubar.process@ a pomocí tlačítek na panelu nástrojů. Dvojklikem na úlohu (nebo stisknutím klávesy Enter) Otevřít projekt v novém okně PTGui. <optional product='pro'><br><br><b>Nastavení projektu šarže</b><br><br>Dávkové zpracování může nejen spojené panoramas, ale může také generovat kontrolní body a zarovnat snímky. Vlastnosti je řízeno nastavením @mainwindow.projectsettings.batchstitcheractions@ na kartě @mainwindow.tabs.projectsettings@ projektu: Je-li <b>vybrána možnost @mainwindow.projectsettings.batchstitcheractions.align@</b> , Hromadné zpracování vytvoří kontrolní body a nastaví panorama. Je-li <b>vybrána možnost @mainwindow.projectsettings.batchstitcheractions.createpanorama@, dávkovací prošívač</b> bude spojení panorama.</optional><br><br><b>Dávkové zpracování</b><br><br>Seznam dávkového zpracování ukládá seznam úloh, které jsou doplněny stavem Hotovo / Nedokončeno pro každou úlohu. Pomocí seznamů pro dávkové zpracování můžete zavřít šarži a pokračovat tam, kde jste přestali. Hromadné zpracování nemůže obnovit částečně dokončené úlohy (potřebujete restartovat celou úlohu), ale bude si pamatovat, které projekty v seznamu dávkového zpracování již byly dokončeny a které nemají.<br><br>Vytvořte Seznam dávkového zpracování vložením jedné nebo více úloh do šarže a výběrem @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Existující Dávkové zpracování lze otevřít pomocí @batchstitcher.menubar.openbatchlist@ nebo @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>Nástroj Builder dávkového zpracování (viz dále) také vytváří Dávkové zpracování, které lze načíst do dávkovacího stroje.</optional><br><br>Pouze jeden Seznam dávkového zpracování může být kdykoli aktivní. Je-li aktivní seznam dávkových položek a je vybrána možnost &quot;@batchstitcher.menubar.autosavebatchlist@&quot;, do seznamu dávkového zpracování se okamžitě uloží všechny změny v seznamu projektů (například když projekt je dokončen nebo projekt přidán do seznamu). Pokud je seznam dávkového zpracování velmi velký (tisíce projektů nebo více), ukládání seznamu dávkového zpracování při každé změně trvá značné množství času. V takovém případě je lepší vypnout funkci &quot;@batchstitcher.menubar.autosavebatchlist@&quot; a ručně nastavit @batchstitcher.menubar.savebatchlist@ pro zápis seznamu změněných dávek na disk jednou za čas.<br><br>@batchbuilder.helptext.appendbatchlist@ <optional product='pro'><br><br><b>Architekt dávkového zpracování</b><br><br>Kombinace Dávkového zpracování a Architekta dávkového zpracování v PTGui Pro je výkonným nástrojem pro rychlé vyrovnání a spojení stovek panoramatických snímků téměř plně automaticky. Další informace naleznete v @menubar.tools@ | @batchbuilder@ a stiskněte tlačítko @help@.</optional>"
 		},
 		{
 			"id": "aligntogrid",
@@ -9658,42 +9559,42 @@
 		{
 			"id": "batchbuilder",
 			"machinetranslated": true,
-			"helptext": "<b>@batchbuilder@</b><br><br>V kombinaci s Dávkovým zpracováním a je nástrojem Architekt dávkového zpracování pro spojení velkého množství panoramat v najednou. Běžně byste do dávkovače přidali jednu nebo více složek se zdrojovými snímky a případně se šablonami projektu. Analyzuje složky zdrojových snímků a najde skupiny snímků, které tvoří panorama. Soubory projektů budou vytvořeny pro každou skupinu snímků. Generované soubory projektu pak mohou být odeslány do Dávkového zpracování.<br><br><b>Používání</b><br><br>Stiskněte <b>@batchbuilder.detectpanoramas@</b> pro skenování složky se zdrojovými snímky pro <b>panorama</b> . Dávkový stavitel poté navrhne seznam projektů. Tím dosud nebyly vytvořeny soubory projektu; skupiny snímků mohou být stále upraveny. Stiskněte černé křížové tlačítko pro odstranění snímků z projektu. Stiskněte ikonu nůžky pro snížení projektu na dva samostatné projekty. Vyberte jeden nebo více projektů a klikněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> pro kontextové menu s dalšími možnostmi: vybrané projekty lze kombinovat do jednoho projektu nebo odstranit ze seznamu. Soubory snímků lze také ručně přidávat do projektu.<br><br>Když byly snímky pro každý projekt správně nastaveny, vyberte šablonu, kterou chcete použít, a stiskněte <b>@batchbuilder.generateprojects@</b> . Tím vytvoříte soubory projektu PTGui, jeden pro každou skupinu snímků a pošlete je do dávkovacího stroje pro zpracování.<br><br><b>Šablony</b><br><br>Architekt dávkového zpracování se obvykle používá ve spojení se šablonou. Šablona konfiguruje například velikost výstupu, formát souboru a umístění pro uložení souboru projektu a spojovaného panoramatu. Šablona může také přepsat výchozí nastavení objektivu nebo nakonfigurovat přesné umístění zdrojových snímků v atu.<br><br>Chcete-li vytvořit šablonu, spusťte nový projekt PTGui Pro, nastavte požadované parametry a zvolte @menubar.file@ | @menubar.file.saveastemplate@. Některé pokyny pro vytváření šablon pro použití s nástrojem Builder Builder:<br><br>• Na kartě @mainwindow.tabs.createpanorama@ nezadávejte název výstupního souboru. Namísto toho zvolte výstupní soubor '@mainwindow.createpanoramatab.usedefault@' a místo toho nastavte požadovaný název výstupního souboru v části @mainwindow.projectsettings.filenaming@ na kartě @mainwindow.tabs.projectsettings@. V opačném případě by všechny generované projekty zapisovaly do stejného panoramatického souboru.<br><br>• V části @mainwindow.projectsettings.filenaming@ na kartě @mainwindow.tabs.projectsettings@ zvolte: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Tvůrce dávkového zpracování zajistí, že názvy projektů jsou jedinečné tím, že k názvu přidáte (1), (2) atd. Protože toto generuje jedinečné názvy souborů projektů, výsledkem budou také jedinečné názvy souborů pro šitá panorama.<br><br>• Často budou všechny panoramatické snímky pořízeny stejným známým objektivem. Pokud ano, může být žádoucí používat předdefinované nastavení objektivu namísto toho, aby PTGui Pro zvolil automatické nastavení objektivu na základě údajů EXIF. Toho lze dosáhnout zrušením volby @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Kruhové snímky rybího oka je třeba oříznout, ovšem kruh oříznutí se bude lišit u jednotlivých fotoaparátů a objektivů. Předdefinovat oříznutí kruhu:<br>- načíst jeden z vašich zdrojových snímků do projektu šablony (pro úpravu oříznutí projektu by měl mít alespoň jeden snímek)<br>- nastavte kruh oříznutí na kartě @mainwindow.tabs.crop@<br>- znovu odebrat zdrojový snímek z projektu. Nastavení oříznutí bude zachováno i po odstranění snímku.<br>- zrušte výběr @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (jinak by vaše nastavení plodin bylo nahrazeno na základě údajů EXIF)<br><br>• Pokud chcete vyhotovit panorama s předdefinovanou projekcí a zorným polem, deaktivujte &quot;@mainwindow.projectsettings.alignimagesbehavior.fit@&quot; a &quot;@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@&quot; na kartě @mainwindow.tabs.projectsettings@. Přepněte na požadovanou projekci a zorné pole v Editoru panoramatických snímků.<br><br>• Chcete-li vygenerovat panoramatu se specifickými rozměry pixelů: přejděte na kartu @mainwindow.tabs.createpanorama@ a zvolte &quot;@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@&quot;. V opačném případě zvolí PTGui optimální velikost, která se může lišit pro každou panoramatu kvůli malým rozdílům v optimalizovaných parametrech objektivu.<br><br>• Ujistěte se, že jste zvolili vhodnou hodnotu pro @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Další informace naleznete v popisu.<br><br>• Pokud byste chtěli zkontrolovat vytvořené projekty předtím, než jsou ve skutečnosti spojené, zrušte výběr @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. Takto dávkovací švovadlo vytvoří pouze kontrolní body, nastaví panoramata a uloží upravené projekty. Po kontrole a eventuálním vylepšení projektů je pošlete znovu na šarži pro konečné šití.<br><br>Po nastavení šablony zvolte @menubar.file@ | @menubar.file.saveastemplate@ pro uložení šablony. Zobrazí se v seznamu &quot;Dávkovač&quot; v seznamu &quot;@batchbuilder.usetemplate@&quot;.<br><br>Viz také: <a href='helppage:workingwithtemplates'>Práce s šablonami</a><br><br>"
+			"helptext": "<b>@batchbuilder@</b><br><br>V kombinaci s Dávkovým zpracováním a je nástrojem Architekt dávkového zpracování pro spojení velkého množství panoramat v najednou. Běžně byste do dávkovače přidali jednu nebo více složek se zdrojovými snímky a případně se šablonami projektu. Analyzuje složky zdrojových snímků a najde skupiny snímků, které tvoří panorama. Soubory projektů budou vytvořeny pro každou skupinu snímků. Generované soubory projektu pak mohou být odeslány do Dávkového zpracování.<br><br><b>Používání</b><br><br>Stiskněte <b>@batchbuilder.detectpanoramas@</b> pro skenování složky se zdrojovými snímky pro <b>panorama</b> . Dávkový stavitel poté navrhne seznam projektů. Tím dosud nebyly vytvořeny soubory projektu; skupiny snímků mohou být stále upraveny. Stiskněte černé křížové tlačítko pro odstranění snímků z projektu. Stiskněte ikonu nůžky pro snížení projektu na dva samostatné projekty. Vyberte jeden nebo více projektů a klikněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> pro kontextové menu s dalšími možnostmi: vybrané projekty lze kombinovat do jednoho projektu nebo odstranit ze seznamu. Soubory snímků lze také ručně přidávat do projektu.<br><br>Když byly snímky pro každý projekt správně nastaveny, vyberte šablonu, kterou chcete použít, a stiskněte <b>@batchbuilder.generateprojects@</b> . Tím vytvoříte soubory projektu PTGui, jeden pro každou skupinu snímků a pošlete je do dávkovacího stroje pro zpracování.<br><br><b>Šablony</b><br><br>Architekt dávkového zpracování se obvykle používá ve spojení se šablonou. Šablona konfiguruje například velikost výstupu, formát souboru a umístění pro uložení souboru projektu a spojovaného panoramatu. Šablona může také přepsat výchozí nastavení objektivu nebo nakonfigurovat přesné umístění zdrojových snímků v atu.<br><br>Chcete-li vytvořit šablonu, spusťte nový projekt PTGui Pro, nastavte požadované parametry a zvolte @menubar.file@ | @menubar.file.saveastemplate@. Některé pokyny pro vytváření šablon pro použití s nástrojem Builder Builder:<br><br>• Na kartě @mainwindow.tabs.createpanorama@ nezadávejte název výstupního souboru. Namísto toho zvolte výstupní soubor '@mainwindow.createpanoramatab.usedefault@' a místo toho nastavte požadovaný název výstupního souboru v části @mainwindow.projectsettings.filenaming@ na kartě @mainwindow.tabs.projectsettings@. V opačném případě by všechny generované projekty zapisovaly do stejného panoramatického souboru.<br><br>• V části @mainwindow.projectsettings.filenaming@ na kartě @mainwindow.tabs.projectsettings@ zvolte: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Tvůrce dávkového zpracování zajistí, že názvy projektů jsou jedinečné tím, že k názvu přidáte (1), (2) atd. Protože toto generuje jedinečné názvy souborů projektů, výsledkem budou také jedinečné názvy souborů pro spojená panorama.<br><br>• Často budou všechny panoramatické snímky pořízeny stejným známým objektivem. Pokud ano, může být žádoucí používat předdefinované nastavení objektivu namísto toho, aby PTGui Pro zvolil automatické nastavení objektivu na základě údajů EXIF. Toho lze dosáhnout zrušením volby @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Kruhové snímky rybího oka je třeba oříznout, ovšem kruh oříznutí se bude lišit u jednotlivých fotoaparátů a objektivů. Předdefinovat oříznutí kruhu:<br>- načíst jeden z vašich zdrojových snímků do projektu šablony (pro úpravu oříznutí projektu by měl mít alespoň jeden snímek)<br>- nastavte kruh oříznutí na kartě @mainwindow.tabs.crop@<br>- znovu odebrat zdrojový snímek z projektu. Nastavení oříznutí bude zachováno i po odstranění snímku.<br>- zrušte výběr @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (jinak by vaše nastavení plodin bylo nahrazeno na základě údajů EXIF)<br><br>• Pokud chcete vyhotovit panorama s předdefinovanou projekcí a zorným polem, deaktivujte &quot;@mainwindow.projectsettings.alignimagesbehavior.fit@&quot; a &quot;@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@&quot; na kartě @mainwindow.tabs.projectsettings@. Přepněte na požadovanou projekci a zorné pole v Editoru panoramatických snímků.<br><br>• Chcete-li vygenerovat panoramatu se specifickými rozměry pixelů: přejděte na kartu @mainwindow.tabs.createpanorama@ a zvolte &quot;@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@&quot;. V opačném případě zvolí PTGui optimální velikost, která se může lišit pro každou panoramatu kvůli malým rozdílům v optimalizovaných parametrech objektivu.<br><br>• Ujistěte se, že jste zvolili vhodnou hodnotu pro @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Další informace naleznete v popisu.<br><br>• Pokud byste chtěli zkontrolovat vytvořené projekty předtím, než jsou ve skutečnosti spojené, zrušte výběr @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. Takto dávkovací švovadlo vytvoří pouze kontrolní body, nastaví panoramata a uloží upravené projekty. Po kontrole a eventuálním vylepšení projektů je pošlete znovu na šarži pro konečné spojování.<br><br>Po nastavení šablony zvolte @menubar.file@ | @menubar.file.saveastemplate@ pro uložení šablony. Zobrazí se v seznamu &quot;Dávkovač&quot; v seznamu &quot;@batchbuilder.usetemplate@&quot;.<br><br>Viz také: <a href='helppage:workingwithtemplates'>Práce s šablonami</a><br><br>"
 		},
 		{
 			"id": "workingwithtemplates",
 			"machinetranslated": true,
-			"helptext": "<b>Práce s šablonami</b><br><br>Použitím šablon lze do projektu rychle použít sadu často používaných nastavení. Šablona je pouze normální projekt projektu PTGui (s příponou .pts) a jakýkoli projekt lze použít jako šablonu.<br><br>Chcete-li rychle vytvořit šablonu z aktivního projektu a uložit ji do složky Šablony, použijte @menubar.file@ | @menubar.file.saveastemplate@. Ale protože šablona je jen běžný soubor projektu, může být také uložena pomocí @menubar.file@ | @menubar.file.saveproject@.<br><br>Chcete-li použít šablonu pro aktuální projekt, použijte @menubar.file@ | @menubar.file.applytemplate@ nebo klepněte na tlačítko @menubar.file.applytemplate@ na panelu nástrojů.<br><br>V souboru @optionspreferences@ lze na ukládání šablon nakonfigurovat výchozí složku šablony. @menubar.file.saveastemplate@ a @menubar.file.applytemplate@ se ve výchozím nastavení dostanou do této složky. Pomocí @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@ lze šablony načíst z libovolné složky.<br><br>Ve výchozím nastavení @menubar.file.applytemplate@ zkopíruje všechna nastavení ze šablony s výjimkou kontrolních bodů a zdrojových snímků. Kontrolní body se nikdy nekopírují, protože jsou specifické pro skutečné zdrojové snímky: kontrolní bod, který směřuje k rohu budovy v původním projektu, může v jiném projektu ukázat na obyčejné modré obloze. Pokud chcete projekt stitovat přesně jako nějaký jiný projekt, kontrolní body nejsou nutné: šicí stroj ignoruje kontrolní body a používá k nastavení panoramatu pouze snímky a panoramatické nastavení.<br><br><optional product='pro'>Na kartě @mainwindow.tabs.projectsettings@ v části @mainwindow.projectsettings.templatebehavior@ může být šablona omezena pouze na konkrétní části projektu. Tak je možné například vytvořit šablonu, která změní nastavení optimalizátoru pouze.<br><br></optional> Pokud zjistíte, že používáte vždy stejnou šablonu, zvažte použití @menubar.file@ | @menubar.file.makedefault@, které změní výchozí nastavení pro všechny nové projekty. <optional product='pro'><br><br>Viz také: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>"
+			"helptext": "<b>Práce s šablonami</b><br><br>Použitím šablon lze do projektu rychle použít sadu často používaných nastavení. Šablona je pouze normální projekt projektu PTGui (s příponou .pts) a jakýkoli projekt lze použít jako šablonu.<br><br>Chcete-li rychle vytvořit šablonu z aktivního projektu a uložit ji do složky Šablony, použijte @menubar.file@ | @menubar.file.saveastemplate@. Ale protože šablona je jen běžný soubor projektu, může být také uložena pomocí @menubar.file@ | @menubar.file.saveproject@.<br><br>Chcete-li použít šablonu pro aktuální projekt, použijte @menubar.file@ | @menubar.file.applytemplate@ nebo klepněte na tlačítko @menubar.file.applytemplate@ na panelu nástrojů.<br><br>V souboru @optionspreferences@ lze na ukládání šablon nakonfigurovat výchozí složku šablony. @menubar.file.saveastemplate@ a @menubar.file.applytemplate@ se ve výchozím nastavení dostanou do této složky. Pomocí @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@ lze šablony načíst z libovolné složky.<br><br>Ve výchozím nastavení @menubar.file.applytemplate@ zkopíruje všechna nastavení ze šablony s výjimkou kontrolních bodů a zdrojových snímků. Kontrolní body se nikdy nekopírují, protože jsou specifické pro skutečné zdrojové snímky: kontrolní bod, který směřuje k rohu budovy v původním projektu, může v jiném projektu ukázat na obyčejné modré obloze. Pokud chcete projekt stitovat přesně jako nějaký jiný projekt, kontrolní body nejsou nutné: sešívač ignoruje kontrolní body a používá k nastavení panoramatu pouze snímky a panoramatické nastavení.<br><br><optional product='pro'>Na kartě @mainwindow.tabs.projectsettings@ v části @mainwindow.projectsettings.templatebehavior@ může být šablona omezena pouze na konkrétní části projektu. Tak je možné například vytvořit šablonu, která změní nastavení optimalizátoru pouze.<br><br></optional> Pokud zjistíte, že používáte vždy stejnou šablonu, zvažte použití @menubar.file@ | @menubar.file.makedefault@, které změní výchozí nastavení pro všechny nové projekty. <optional product='pro'><br><br>Viz také: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>"
 		},
 		{
 			"id": "projections",
 			"machinetranslated": true,
-			"helptext": "<b>Projekce</b><br><br>Panorama, nebo ve skutečnosti nějaká fotografie, je plochou reprezentací scény kolem fotoaparátu. Existuje mnoho způsobů, jak promítat trojrozměrný svět na rovnou plochu, takže PTGui nabízí široký výběr panoramatických projekcí. Každý má své vlastní vlastnosti a omezení.<br><br>Požadovaná projekce je vybrána v Editoru panoramatických snímků, v sekci Projekce na postranním panelu nebo pomocí projekčních tlačítek na panelu nástrojů. PTGui podporuje následující projekce:<br><br><b>@+projection.rectilinear@ (&quot;plochý&quot;):</b> Toto je projekce panoramatické koule na rovný povrch. Je to projekce, na kterou jsou zvyklí naše oči, projekce normální fotoaparátůy. Přirozená projekce má jedinečnou vlastnost zachovat všechny přímé čáry: jakákoliv přímka, která je přímá v reálném světě, je zobrazena jako přímka v panoramatu. To z něj činí vhodnou projekci architektonických snímků. Stejná vlastnost omezuje zorné pole: je fyzicky nemožné promítnout zorné pole o více než 180° a současně zachovat přímé linie. Nad 90° zorným polem se na stranách a rozích snímku projeví roztažení. přímočarý se stává nepoužitelným nad 120°.<br><br>Účinnost rohového protažení může být snížena použitím horizontální a / nebo vertikální komprese; viz posuvníky '@panoramaeditor.sidebar.projectionpanel.compression@' na postranním panelu Projekce v panoramatickém editoru. Stlačením přímého pohledu lze vytvářet panorama téměř 180° x 180° bez extrémního Distorze. Rovné čáry se již nezachovávají: vodorovné a svislé čáry stále zůstávají rovné, ale diagonální čáry se při použití komprese zakřivou.<br><br>U panoramat širší než 180° by měl být použit jeden z ostatních projekcí:<br><br><b>@+projection.cylindrical@:</b> je to výsledek promítání panoramatické koule na povrch válce. Cylindrické panoramaty podporují 360° zorné pole. Vertikálně se projekce podobá přímočaré: svislé zorné pole má fyzický limit 180° a praktický limit 120°. Válcová projekce je proto většinou vhodná pro panoramatické panoramatické panorama o jedné řadě.<br><br>Všechny vertikální přímky jsou zachovány. Horizontální přímky jsou obecně zakřivené. Jen horizont zůstává rovný.<br><br>Stejně jako u přímočarých projekcí může být válcová projekce stlačena svisle. Zvyšující se vertikální komprese snižuje efekt protahování v horní a spodní části panoramatického snímku. Při plné vertikální kompresi se výsledek rovná rovnoměrnému promítání.<br><br><b>@+projection.mercator@:</b> Tato projekce je podobná @+projection.cylindrical@, ale s méně náročným tažením v horní a spodní části ve vyšším vertikálním poli zobrazení. Jedná se o dobrý kompromis mezi válcovým a rovnoměrným přímým výstupem a je vhodný pro 360° panorama s vyšším svislým zorným polem (více než 90°). Kromě toho jsou vlastnosti identické s válcovým projektem: svislé zorné pole je omezeno na 180°; pouze vertikální přímky a linie horizontu zůstávají v panoramatické rovině.<br><br><b>@+projection.equirectangular@:</b> Toto je zeměpisná šířka / délka projekce panoramatické koule. Rovné přímočaré zobrazení může mít zorné pole do 360° x 180°, což je vhodné pro plně sférické panorama.<br><br>Stejně jako v případě válcovitého a mercatorového projek- tu, pouze vertikální čáry a linie horizontu jsou promítány jako přímky v rovnostranné projekci. Všechny ostatní čáry jsou zakřivené.<br><br>360° x 180° equirectangular se stala standardním formátem pro výměnu sférických panoramat mezi aplikacemi. Mnoho interaktivních panoramatických diváků přímo podporuje rovnoměrné snímky.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ a @+projection.transverseequirectangular@:</b> Tyto výstupky se rovnají @+projection.cylindrical@, @+projection.mercator@ a @+projection.equirectangular@, avšak otočeny o 90°. Podporují svislé zorné pole do 360°, zatímco horizontální zorné pole je omezeno na 180°. Tyto výřezy jsou vhodné pro vysoké vertikální panorama.<br><br><b>@+projection.circularfisheye@ a @+projection.fullframefisheye@:</b> Tyto projekce simulují objektiv rybího oka. Obě výstupy poskytují stejný výsledek, ale výstup @projection.circularfisheye@ je oříznut do kruhu, zatímco výstup @projection.fullframefisheye@ je oříznut do obdélníku. Zorné pole může být ve všech směrech až 360°.<br><br>Pro tuto projekci je k dispozici nastavení komprese. Při výchozím plném kompresi je výsledkem skutečná projekce rybího oka. Když je komprese snížena (jezdec je posunut doleva), promítá se do přímočaré projekce. Pohled na rybí oko se sníženou kompresí lze použít jako kompromis pro širokoúhlé přímočaré zobrazení: přímé linie se zachovaly v blízkosti středu panoramatu, ale budou k okraji více zakřivené.<br><br><b>@+projection.vedutismo@:</b> Tato projekce pojmenovaná podle žánru malířství z 18. století zachovává všechny středy panoramatu všechny diagonální přímky. Je nejvhodnější pro širokoúhlé scény s jasným &quot;mizejícím bodem&quot;: pokud je bod přemísťování přesunut do středu a, všechny čáry do bodu zmizení zůstávají rovné.<br><br>Projekce Vedutismo podporuje horizontální zorné pole až do 360°, ačkoli některé vertikální protažení na okrajích je zřejmé pro velmi široké panoramaty. Vertikální zorné pole je omezeno na 180°. Jakékoliv přímé linie, které nejsou přes střed středu panoramatu, se stanou zakřivenými.<br><br><b>@+projection.transversevedutismo@:</b> má stejné vlastnosti, ale je omezeno na 180° vodorovně a 360° svisle a může být použito pro vysoké vertikální panorama.<br><br><b>@+projection.stereographic@:</b> to je projekce koule, jak je vidět z pole, na rovný povrch. Je známý názory &quot;malé planety&quot;. Pro snadné vytváření malých planet je k dispozici další projekce s názvem '@+projection.stereographicdown@', která je stejná, ale otočená tak, že vrchol scény je uprostřed a.<br><br>Stereografická projekce má další parametr komprese. Při maximální kompresi je výsledkem skutečná stereografická projekce; snížení komprese posune pohled z pole do středu koule a efektivně morfuje pohled do přímočarého projevu."
+			"helptext": "<b>Projekce</b><br><br>Panorama, nebo ve skutečnosti nějaká fotografie, je plochou reprezentací scény kolem fotoaparátu. Existuje mnoho způsobů, jak promítat trojrozměrný svět na rovnou plochu, takže PTGui nabízí široký výběr panoramatických projekcí. Každý má své vlastní vlastnosti a omezení.<br><br>Požadovaná projekce je vybrána v Editoru panoramatických snímků, v sekci Projekce na postranním panelu nebo pomocí projekčních tlačítek na panelu nástrojů. PTGui podporuje následující projekce:<br><br><b>@+projection.rectilinear@ (&quot;plochý&quot;):</b> Toto je projekce panoramatické koule na rovný povrch. Je to projekce, na kterou jsou zvyklí naše oči, projekce normální fotoaparátu. Přirozená projekce má jedinečnou vlastnost zachovat všechny přímé čáry: jakákoliv přímka, která je přímá v reálném světě, je zobrazena jako přímka v panoramatu. To z něj činí vhodnou projekci architektonických snímků. Stejná vlastnost omezuje zorné pole: je fyzicky nemožné promítnout zorné pole o více než 180° a současně zachovat přímé linie. Nad 90° zorným polem se na stranách a rozích snímku projeví roztažení. přímočarý se stává nepoužitelným nad 120°.<br><br>Účinnost rohového protažení může být snížena použitím horizontální a / nebo vertikální komprese; viz posuvníky '@panoramaeditor.sidebar.projectionpanel.compression@' na postranním panelu Projekce v panoramatickém editoru. Stlačením přímého pohledu lze vytvářet panorama téměř 180° x 180° bez extrémního zkreslení. Rovné čáry se již nezachovávají: vodorovné a svislé čáry stále zůstávají rovné, ale diagonální čáry se při použití komprese zakřivou.<br><br>U panoramat širší než 180° by měl být použit jeden z ostatních projekcí:<br><br><b>@+projection.cylindrical@:</b> je to výsledek promítání panoramatické koule na povrch válce. Cylindrické panoramaty podporují 360° zorné pole. Vertikálně se projekce podobá přímočaré: svislé zorné pole má fyzický limit 180° a praktický limit 120°. Válcová projekce je proto většinou vhodná pro panoramatické panoramatické panorama o jedné řadě.<br><br>Všechny vertikální přímky jsou zachovány. Horizontální přímky jsou obecně zakřivené. Jen horizont zůstává rovný.<br><br>Stejně jako u přímočarých projekcí může být válcová projekce stlačena svisle. Zvyšující se vertikální komprese snižuje efekt protahování v horní a spodní části panoramatického snímku. Při plné vertikální kompresi se výsledek rovná rovnoměrnému promítání.<br><br><b>@+projection.mercator@:</b> Tato projekce je podobná @+projection.cylindrical@, ale s méně náročným tažením v horní a spodní části ve vyšším vertikálním poli zobrazení. Jedná se o dobrý kompromis mezi válcovým a rovnoměrným přímým výstupem a je vhodný pro 360° panorama s vyšším svislým zorným polem (více než 90°). Kromě toho jsou vlastnosti identické s válcovým projektem: svislé zorné pole je omezeno na 180°; pouze vertikální přímky a linie horizontu zůstávají v panoramatické rovině.<br><br><b>@+projection.equirectangular@:</b> Toto je zeměpisná šířka / délka projekce panoramatické koule. Rovné přímočaré zobrazení může mít zorné pole do 360° x 180°, což je vhodné pro plně sférické panorama.<br><br>Stejně jako v případě válcovitého a mercatorového projek- tu, pouze vertikální čáry a linie horizontu jsou promítány jako přímky v rovnostranné projekci. Všechny ostatní čáry jsou zakřivené.<br><br>360° x 180° equirectangular se stala standardním formátem pro výměnu sférických panoramat mezi aplikacemi. Mnoho interaktivních panoramatických diváků přímo podporuje rovnoměrné snímky.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ a @+projection.transverseequirectangular@:</b> Tyto výstupky se rovnají @+projection.cylindrical@, @+projection.mercator@ a @+projection.equirectangular@, avšak otočeny o 90°. Podporují svislé zorné pole do 360°, zatímco horizontální zorné pole je omezeno na 180°. Tyto výřezy jsou vhodné pro vysoké vertikální panorama.<br><br><b>@+projection.circularfisheye@ a @+projection.fullframefisheye@:</b> Tyto projekce simulují objektiv rybího oka. Obě výstupy poskytují stejný výsledek, ale výstup @projection.circularfisheye@ je oříznut do kruhu, zatímco výstup @projection.fullframefisheye@ je oříznut do obdélníku. Zorné pole může být ve všech směrech až 360°.<br><br>Pro tuto projekci je k dispozici nastavení komprese. Při výchozím plném kompresi je výsledkem skutečná projekce rybího oka. Když je komprese snížena (jezdec je posunut doleva), promítá se do přímočaré projekce. Pohled na rybí oko se sníženou kompresí lze použít jako kompromis pro širokoúhlé přímočaré zobrazení: přímé linie se zachovaly v blízkosti středu panoramatu, ale budou k okraji více zakřivené.<br><br><b>@+projection.vedutismo@:</b> Tato projekce pojmenovaná podle žánru malířství z 18. století zachovává všechny středy panoramatu všechny diagonální přímky. Je nejvhodnější pro širokoúhlé scény s jasným &quot;mizejícím bodem&quot;: pokud je bod přemísťování přesunut do středu a, všechny čáry do bodu zmizení zůstávají rovné.<br><br>Projekce Vedutismo podporuje horizontální zorné pole až do 360°, ačkoli některé vertikální protažení na okrajích je zřejmé pro velmi široké panoramaty. Vertikální zorné pole je omezeno na 180°. Jakékoliv přímé linie, které nejsou přes střed středu panoramatu, se stanou zakřivenými.<br><br><b>@+projection.transversevedutismo@:</b> má stejné vlastnosti, ale je omezeno na 180° vodorovně a 360° svisle a může být použito pro vysoké vertikální panorama.<br><br><b>@+projection.stereographic@:</b> to je projekce koule, jak je vidět z pole, na rovný povrch. Je známý názory &quot;malé planety&quot;. Pro snadné vytváření malých planet je k dispozici další projekce s názvem '@+projection.stereographicdown@', která je stejná, ale otočená tak, že vrchol scény je uprostřed a.<br><br>Stereografická projekce má další parametr komprese. Při maximální kompresi je výsledkem skutečná stereografická projekce; snížení komprese posune pohled z pole do středu koule a efektivně morfuje pohled do přímočarého projevu."
 		},
 		{
 			"id": "publishtowebsite",
 			"machinetranslated": true,
-			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui obsahuje plugin PTGui Viewer pro publikování 360° nebo plně sférické panoramatu na webových stránkách. Zásuvný modul umožňuje návštěvníkům webových stránek &quot;panoramatické prohlížení&quot; kliknutím a tažením myší. Příklady takových interaktivních panoramat naleznete v galerii na adrese www.ptgui.com.<br><br>PTGui může vygenerovat všechny potřebné soubory pro publikování panoramatu na webových stránkách jedním klepnutím. Prohlížeč PTGui je kompatibilní se všemi moderními webovými prohlížeči, včetně prohlížečů v mobilních zařízeních.<br><br><b>Používání</b><br><br>a by měla být nejprve šitá na běžný plochý snímek ve formátu jpeg nebo tiff. V @menubar.tools.publishtowebsite@ přidejte do seznamu <b>stitched</b> panorama a stisknutím <b>@txt.convert@</b> vytvořte soubory potřebné pro publikování na webu. Generované soubory je třeba nahrát na webový server.<br><br><b>Šití panorama</b><br><br>Obecně by měla být použita rovnoměrná přímočará projekce, protože to může podporovat plně sférické panorama. Při šití panoramatu lze v panoramatickém editoru vybrat projekci. Nastavte zorné pole pomocí dvou jezdců, dokud a nevyplní celé plátno, nebo použijte 360° x 180° pro plně sférické panorama. Nepoužívejte žluté řádkování v panoramatickém editoru: způsobují to asymetrické oříznutí, které PTGui Viewer nepodporuje.<br><br>Poznamenejte si horizontální zorné pole panorama: zsnímkuje se v bočním panelu panoramatického editoru v části Projekce. Doporučuje se použít nástroj @menubar.tools.publishtowebsite@ pouze pro panorama větší než 180°: interně panorama se přemění na plné zobrazení 360° x 180°; je spousta místa ztracena, pokud viditelná část a je jen malý zlomek. Nakonec přejděte na @mainwindow.tabs.createpanorama@ a vytvořte panoramatu ve formátu TIFF nebo JPEG.<br><br><b>Nahrávání na web</b><br><br>Nástroj @menubar.tools.publishtowebsite@ generuje řadu souborů; tyto by měly být nahrány do složky na vašem webovém serveru. Obecně se to dělá pomocí FTP, SFTP nebo SCP. Obraťte se na webhostingovou společnost, kde naleznete další informace o tom, jak to udělat. Po zveřejnění souborů můžete k nahranému souboru HTM propojit panorama.<br><br><b>Používání vlastních šablon</b><br><br>PTGui vytvoří základní webovou stránku s výchozím rozložením. Pokud víte, jak upravit html a css, můžete přizpůsobit vygenerovanou webovou stránku jako každý jiný html soubor. Alternativně lze šablonu použít k přizpůsobení rozvržení stránek vygenerovaných nástrojem @menubar.tools.publishtowebsite@.<br><br>Vyberte <b>@publishtowebsite.usecustomtemplate@</b> a použijte vlastní šablonu. Klikněte na @browse@ a přejděte na vlastní soubor šablony (ve formátu .htm). Nebo klikněte na <b>@publishtowebsite.createtemplate@</b> a vytvořte nový soubor šablony: vytvoří se kopie výchozí šablony PTGui, kterou si můžete přizpůsobit.<br><br>Šablona je pravidelný soubor HTML s 3 vlastními značkami:<br><br>{{TITLE}} - bude nahrazen hodnotou zadanou v poli Název webové stránky<br>{{DESCRIPTION}} - nahrazen textem zadaným v poli Popis<br>{{PARAMS}} - parametry prohlížeče panorama"
+			"helptext": "<b>@menubar.tools.publishtowebsite@</b><br><br>PTGui obsahuje plugin PTGui Viewer pro publikování 360° nebo plně sférické panoramatu na webových stránkách. Zásuvný modul umožňuje návštěvníkům webových stránek &quot;panoramatické prohlížení&quot; kliknutím a tažením myší. Příklady takových interaktivních panoramat naleznete v galerii na adrese www.ptgui.com.<br><br>PTGui může vygenerovat všechny potřebné soubory pro publikování panoramatu na webových stránkách jedním klepnutím. Prohlížeč PTGui je kompatibilní se všemi moderními webovými prohlížeči, včetně prohlížečů v mobilních zařízeních.<br><br><b>Používání</b><br><br>a by měla být nejprve spojená na běžný plochý snímek ve formátu jpeg nebo tiff. V @menubar.tools.publishtowebsite@ přidejte do seznamu <b>spojené</b> panorama a stisknutím <b>@txt.convert@</b> vytvořte soubory potřebné pro publikování na webu. Generované soubory je třeba nahrát na webový server.<br><br><b>Šití panorama</b><br><br>Obecně by měla být použita rovnoměrná přímočará projekce, protože to může podporovat plně sférické panorama. Při spojování panoramatu lze v panoramatickém editoru vybrat projekci. Nastavte zorné pole pomocí dvou jezdců, dokud a nevyplní celé plátno, nebo použijte 360° x 180° pro plně sférické panorama. Nepoužívejte žluté řádkování v panoramatickém editoru: způsobují to asymetrické oříznutí, které PTGui Viewer nepodporuje.<br><br>Poznamenejte si horizontální zorné pole panorama: zsnímkuje se v bočním panelu panoramatického editoru v části Projekce. Doporučuje se použít nástroj @menubar.tools.publishtowebsite@ pouze pro panorama větší než 180°: interně panorama se přemění na plné zobrazení 360° x 180°; je spousta místa ztracena, pokud je viditelná část panoramatu jen malý zlomek. Nakonec přejděte na @mainwindow.tabs.createpanorama@ a vytvořte panoramatu ve formátu TIFF nebo JPEG.<br><br><b>Nahrávání na web</b><br><br>Nástroj @menubar.tools.publishtowebsite@ generuje řadu souborů; tyto by měly být nahrány do složky na vašem webovém serveru. Obecně se to dělá pomocí FTP, SFTP nebo SCP. Obraťte se na webhostingovou společnost, kde naleznete další informace o tom, jak to udělat. Po zveřejnění souborů můžete k nahranému souboru HTM propojit panorama.<br><br><b>Používání vlastních šablon</b><br><br>PTGui vytvoří základní webovou stránku s výchozím rozložením. Pokud víte, jak upravit html a css, můžete přizpůsobit vygenerovanou webovou stránku jako každý jiný html soubor. Alternativně lze šablonu použít k přizpůsobení rozvržení stránek vygenerovaných nástrojem @menubar.tools.publishtowebsite@.<br><br>Vyberte <b>@publishtowebsite.usecustomtemplate@</b> a použijte vlastní šablonu. Klikněte na @browse@ a přejděte na vlastní soubor šablony (ve formátu .htm). Nebo klikněte na <b>@publishtowebsite.createtemplate@</b> a vytvořte nový soubor šablony: vytvoří se kopie výchozí šablony PTGui, kterou si můžete přizpůsobit.<br><br>Šablona je pravidelný soubor HTML s 3 vlastními značkami:<br><br>{{TITLE}} - bude nahrazen hodnotou zadanou v poli Název webové stránky<br>{{DESCRIPTION}} - nahrazen textem zadaným v poli Popis<br>{{PARAMS}} - parametry prohlížeče panorama"
 		},
 		{
 			"id": "converttocubic",
 			"machinetranslated": true,
-			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Pomocí tohoto nástroje můžete převést stávající panorama na 6 krychlových ploch nebo do formátu QuickTime VR.<br><br>Cubové plochy jsou projekcí panoramatu na 6 tvářích krychle; mnoho panoramatických diváků vyžaduje zdrojové snímky ve formátu krychle. Rovněž tváře krychle mohou být užitečné pro retušování nadir a zenitu spojeného panoramatu.<br><br>QTVR byl speciální dialekt ve formátu QuickTime .mov, který podporuje interaktivní přehrávání sférických panoramat. Již řadu let se jednalo o formát pro vkládání panoramatu do webových stránek: plugin QuickTime byl nainstalován na všech počítačích Mac a na mnoha počítačích se systémem Windows (byl součástí programu iTunes pro Windows). V roce 2009 Apple zrušil podporu QTVR od QuickTime, takže by měl být považován za starší formát.<br><br><b>Šití panorama</b><br><br>Pro vytvoření krychlových obličejů by se a nejprve měla vložit do jediného plochého snímku. Obecně by měla být použita rovnoměrná přímočará projekce, protože to může podporovat plně sférické panorama. Při šití panoramatu lze v panoramatickém editoru vybrat projekci. Nastavte zorné pole pomocí dvou jezdců, dokud a nevyplní celé plátno, nebo použijte 360° x 18 ° pro plně sférické panorama. Nepoužívejte žluté řádkování v panoramatickém editoru: způsobují to asymetrické oříznutí, které nástroj konverze nepodporuje.<br><br>Poznamenejte si horizontální zorné pole panorama: toto je zobrazeno na bočním panelu panoramatického editoru v části Projekce. Doporučuje se používat tento nástroj pouze pro širokoúhlé nebo kulaté panorama, jinak velká část krychlových ploch bude černá a na dosažení rozlišení a bude zbytečně mnoho místa. Nakonec přejděte na @mainwindow.tabs.createpanorama@ a vytvořte panoramatu ve formátu TIFF nebo JPEG.<br><br><b>Nadir / zenith retušování</b><br><br>Cubové obličeje jsou ideálním formátem pro retušování nadir nebo zenitu a PTGui to podporuje přímým způsobem: jednoduše převeďte panoramatické zobrazení 360° x 180° na krychle (6 samostatných souborů). Proveďte potřebné retušování na snímcích krytu krytu. Chcete-li znovu sestavit rovnoměrný obraz, spusťte nový projekt PTGui, přidejte 6 snímků krychle jako zdrojové snímky a přejděte přímo na @mainwindow.tabs.createpanorama@. PTGui zjistí, který snímek odpovídá na kterou krychličku se podíváme na názvy souborů. Přípony názvu souboru (např. Panorama.left.jpg, panorama.top.jpg) by měly odpovídat příponám nakonfigurovaným v '@cubicconverter.cubefacenaming@' v tomto okně."
+			"helptext": "<b>@menubar.tools.converttocubic@</b><br><br>Pomocí tohoto nástroje můžete převést stávající panorama na 6 krychlových ploch nebo do formátu QuickTime VR.<br><br>Cubové plochy jsou projekcí panoramatu na 6 tvářích krychle; mnoho panoramatických diváků vyžaduje zdrojové snímky ve formátu krychle. Rovněž tváře krychle mohou být užitečné pro retušování nadir a zenitu spojeného panoramatu.<br><br>QTVR byl speciální dialekt ve formátu QuickTime .mov, který podporuje interaktivní přehrávání sférických panoramat. Již řadu let se jednalo o formát pro vkládání panoramatu do webových stránek: plugin QuickTime byl nainstalován na všech počítačích Mac a na mnoha počítačích se systémem Windows (byl součástí programu iTunes pro Windows). V roce 2009 Apple zrušil podporu QTVR od QuickTime, takže by měl být považován za starší formát.<br><br><b>Šití panorama</b><br><br>Pro vytvoření krychlových obličejů by se a nejprve měla vložit do jediného plochého snímku. Obecně by měla být použita rovnoměrná přímočará projekce, protože to může podporovat plně sférické panorama. Při spojování panoramatu lze v panoramatickém editoru vybrat projekci. Nastavte zorné pole pomocí dvou jezdců, dokud a nevyplní celé plátno, nebo použijte 360° x 18 ° pro plně sférické panorama. Nepoužívejte žluté řádkování v panoramatickém editoru: způsobují to asymetrické oříznutí, které nástroj konverze nepodporuje.<br><br>Poznamenejte si horizontální zorné pole panorama: toto je zobrazeno na bočním panelu panoramatického editoru v části Projekce. Doporučuje se používat tento nástroj pouze pro širokoúhlé nebo kulaté panorama, jinak velká část krychlových ploch bude černá a na dosažení rozlišení a bude zbytečně mnoho místa. Nakonec přejděte na @mainwindow.tabs.createpanorama@ a vytvořte panoramatu ve formátu TIFF nebo JPEG.<br><br><b>Nadir / zenith retušování</b><br><br>Cubové obličeje jsou ideálním formátem pro retušování nadir nebo zenitu a PTGui to podporuje přímým způsobem: jednoduše převeďte panoramatické zobrazení 360° x 180° na krychle (6 samostatných souborů). Proveďte potřebné retušování na snímcích krytu krytu. Chcete-li znovu sestavit rovnoměrný obraz, spusťte nový projekt PTGui, přidejte 6 snímků krychle jako zdrojové snímky a přejděte přímo na @mainwindow.tabs.createpanorama@. PTGui zjistí, který snímek odpovídá na kterou krychličku se podíváme na názvy souborů. Přípony názvu souboru (např. Panorama.left.jpg, panorama.top.jpg) by měly odpovídat příponám nakonfigurovaným v '@cubicconverter.cubefacenaming@' v tomto okně."
 		},
 		{
 			"id": "panoramaeditor",
 			"machinetranslated": true,
-			"helptext": "<b>@panoramaeditor@</b><br><br>Editor a zsnímkuje živý náhled panoramatického snímku. Panoramatický výhled panoramatického snímku lze změnit, panorama lze oříznout a jednotlivé panoramatické snímky lze přesunout. Editor a je otevřen od @menubar.tools@ | @panoramaeditor@, nebo <optional platform='windows'>stisknutím kláves Ctrl + E</optional><optional platform='mac'>stisknutím tlačítka Cmd + E</optional> .<br><br>Panoramatický editor může pracovat ve třech režimech, aktivovaných stisknutím příslušného tlačítka panelu nástrojů:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Umístění snímků do atu individuálně.<br><b>@panoramaeditor.menubar.editpano@:</b> pohybovat nebo otáčet panorama jako celek.<br><b>@panoeditor.menubar.setcenter@: centrování</b> panoramatu kolem určitého bodu.<br><br>V závislosti na zvoleném režimu lze celá a nebo jednotlivé snímky pohybovat. Přetáhněte levým tlačítkem myši na pohyb. Přetáhněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + drag)</optional> otočit.<br><br>Klikněte pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> v panoramatické nabídce vyvoláte kontextovou nabídku pro provádění akcí na snímcích pod ukazatelem myši.<br><br>Vlevo a dole se nacházejí dva <b>posuvníky pole Pohled:</b> použijte je pro rozšíření nebo zmenšení panoramatu.<br><br>Na pravé straně je <b>postranní panel, který</b> nabízí další možnosti úprav. Postranní panel může být skrytý nebo zamknutý pomocí šipek.<br><br>Kliknutím na lupu <b>Otevřít Prohlížeč detailů</b> , který lze použít k přiblížení do určitých částí panoramatického snímku.<br><br><b>Mřížku</b> lze překrýt přetažením trojúhelníkového tlačítka (v dolní části) směrem doprava.<br><br>Na panelu nástrojů lze vybrat jeden ze tří <b>režimů Blend</b> : @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ a @panoeditor.menubar.showseams@. Další informace naleznete na nápovědě."
+			"helptext": "<b>@panoramaeditor@</b><br><br>Editor panoramatu zobrazuje živý náhled spojeného panoramatu. Projekci panoramatu lze změnit, panorama lze oříznout a jednotlivé snímky lze v rámci panoramatu přesouvat. Editor panoramatu se otevírá přes @menubar.tools@ | @panoramaeditor@, nebo <optional platform='windows'>stiskem Ctrl + E</optional><optional platform='mac'>stiskem Cmd + E</optional>.<br><br>Editor panoramatu může pracovat ve třech režimech, které se aktivují příslušným tlačítkem na panelu nástrojů:<br><b>@panoramaeditor.menubar.editindividualimages@:</b> Pro individuální umístění snímků v rámci panoramatu.<br><b>@panoramaeditor.menubar.editpano@:</b> Pro posun nebo otočení panoramatu jako celku.<br><b>@panoeditor.menubar.setcenter@:</b> Pro vycentrování panoramatu kolem určitého bodu.<br><br>V závislosti na zvoleném režimu lze posouvat celé panorama nebo jednotlivé snímky. Tažením levým tlačítkem myši posouváte. Tažením pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + tažení)</optional> otáčíte.<br><br>Kliknutím pravým tlačítkem myši <optional platform='mac'>(nebo Ctrl + kliknutí)</optional> v ploše panoramatu vyvoláte kontextovou nabídku pro akce se snímky pod ukazatelem myši.<br><br>Vlevo a dole se nacházejí dva <b>posuvníky zorného pole:</b> použijte je pro rozšíření nebo zmenšení panoramatu.<br><br>Na pravé straně je <b>postranní panel</b> nabízející další možnosti úprav. Panel lze skrýt nebo ukotvit pomocí tlačítka se šipkou.<br><br>Kliknutím na lupu otevřete <b>prohlížeč detailů</b>, který slouží k přiblížení konkrétních částí panoramatu.<br><br><b>Mřížku</b> lze zobrazit přetažením malého trojúhelníkového tlačítka (dole) směrem doprava.<br><br>Na panelu nástrojů lze vybrat jeden ze tří <b>režimů zobrazení</b>: @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ a @panoeditor.menubar.showseams@. Další informace naleznete v nápovědě."
 		},
 		{
 			"id": "detailviewer",
 			"machinetranslated": true,
-			"helptext": "<b>@detailviewer@</b><br><br>Prohlížeč podrobností zsnímkuje náhled konkrétní části panorama v reálném čase. Pomocí prohlížeče podrobností můžete přiblížit panoramatu, aby bylo možné zaznamenat možné švy nebo splynutí. Také v režimu Perspective může prohlížeč detailů užitečné pro kontrolu nadir a zenitu sférické panorama před šitím.<br><br>Chcete-li otevřít Prohlížeč detailů, zvolte @menubar.project@ | @detailviewer@ nebo stiskněte tlačítko lupy v Editoru panoramatických snímků.<br><br>Navigace v detailním prohlížeči se provádí kliknutím a tažením levým tlačítkem myši. Jsou podporovány dva režimy navigace, viz níže. Alternativně lze použít kurzorové klávesy. Prohlížeč detailů lze také vystředit na určitý bod přetažením lupy v Editoru panoramatických snímků na požadovanou pozici.<br><br><optional platform='windows'>Zoomování se provádí otočením kolečka myši při současném podržení ovládacího tlačítka,</optional><optional platform='mac'>Zvětšování se provádí dvěma gesty na dráze,</optional> nebo přetažením posuvníku na levé straně. Klávesy + a - můžete také přiblížit a oddálit.<br><br>Pravým kliknutím <optional platform='mac'>(nebo kliknutím Ctrl +)</optional> v Detail Viewer vyvolá kontextové menu. Z tohoto kontextového menu lze rychle přejít na konkrétní snímek na kartách @mainwindow.tabs.crop@, @mainwindow.tabs.mask@ a @mainwindow.tabs.controlpoints@.<br><br>K dispozici jsou dva režimy zobrazení, vybrané pomocí tlačítek na panelu nástrojů:<br><b>Režim zvětšení:</b> v tomto režimu zsnímkuje prohlížeč podrobností obdélníkový výřez a. Panorama je zobrazena ve skutečném zobrazení.<br><b>Režim výhledu:</b> V tomto režimu je aktuální pohled na panorama přepracován na rovnou (přímočarou) projekci, podobně jako u interaktivního panoramatického prohlížeče.<br><br>Jsou podporovány dva způsoby navigace s myší, zvolené pomocí tlačítek na panelu nástrojů:<br><b>Přetáhnout:</b> snímek lze přetáhnout v každém směru.<br><b>Přetáhněte a podržte:</b> klepněte a přidržte tlačítko myši. Přetáhněte požadovaný směr; pohled se bude trvale pohybovat, dokud nebude tlačítko myši uvolněno. <optional platform='mac'>V obou režimech lze také navigaci provést dvěma gestami pohybujícími se po dráze.</optional><br><br>Na panelu nástrojů lze vybrat jeden ze tří <b>režimů Blend</b> : @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ a @panoeditor.menubar.showseams@. Další informace naleznete na nápovědě."
+			"helptext": "<b>@detailviewer@</b><br><br>Prohlížeč podrobností zsnímkuje náhled konkrétní části panorama v reálném čase. Pomocí prohlížeče podrobností můžete přiblížit panoramatu, aby bylo možné zaznamenat možné švy nebo splynutí. Také v režimu Perspective může prohlížeč detailů užitečné pro kontrolu nadir a zenitu sférické panorama před spojováním.<br><br>Chcete-li otevřít Prohlížeč detailů, zvolte @menubar.project@ | @detailviewer@ nebo stiskněte tlačítko lupy v Editoru panoramatických snímků.<br><br>Navigace v detailním prohlížeči se provádí kliknutím a tažením levým tlačítkem myši. Jsou podporovány dva režimy navigace, viz níže. Alternativně lze použít kurzorové klávesy. Prohlížeč detailů lze také vystředit na určitý bod přetažením lupy v Editoru panoramatických snímků na požadovanou pozici.<br><br><optional platform='windows'>Zoomování se provádí otočením kolečka myši při současném podržení ovládacího tlačítka,</optional><optional platform='mac'>Zvětšování se provádí dvěma gesty na dráze,</optional> nebo přetažením posuvníku na levé straně. Klávesy + a - můžete také přiblížit a oddálit.<br><br>Pravým kliknutím <optional platform='mac'>(nebo kliknutím Ctrl +)</optional> v Detail Viewer vyvolá kontextové menu. Z tohoto kontextového menu lze rychle přejít na konkrétní snímek na kartách @mainwindow.tabs.crop@, @mainwindow.tabs.mask@ a @mainwindow.tabs.controlpoints@.<br><br>K dispozici jsou dva režimy zobrazení, vybrané pomocí tlačítek na panelu nástrojů:<br><b>Režim zvětšení:</b> v tomto režimu zsnímkuje prohlížeč podrobností obdélníkový výřez a. Panorama je zobrazena ve skutečném zobrazení.<br><b>Režim výhledu:</b> V tomto režimu je aktuální pohled na panorama přepracován na rovnou (přímočarou) projekci, podobně jako u interaktivního panoramatického prohlížeče.<br><br>Jsou podporovány dva způsoby navigace s myší, zvolené pomocí tlačítek na panelu nástrojů:<br><b>Přetáhnout:</b> snímek lze přetáhnout v každém směru.<br><b>Přetáhněte a podržte:</b> klepněte a přidržte tlačítko myši. Přetáhněte požadovaný směr; pohled se bude trvale pohybovat, dokud nebude tlačítko myši uvolněno. <optional platform='mac'>V obou režimech lze také navigaci provést dvěma gestami pohybujícími se po dráze.</optional><br><br>Na panelu nástrojů lze vybrat jeden ze tří <b>režimů Blend</b> : @panoeditor.menubar.blended@, @panoeditor.menubar.unblended@ a @panoeditor.menubar.showseams@. Další informace naleznete na nápovědě."
 		},
 		{
 			"id": "mainwindow.projectassistant",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.projectassistant@</b><br><br>Vítejte v PTGui! Právě jste na kartě @mainwindow.tabs.projectassistant@. Asistent projektu vás provede procesem vytváření panoramatu ve třech jednoduchých krocích.<br><br>Na levé straně okna se zobrazí panel Tab. Každá karta otevře stránku s různými nastaveními pro panorama. Zpočátku je zobrazena pouze karta @mainwindow.tabs.projectassistant@. Během procesu budou jiné karty viditelné, pokud jsou relevantní. Stisknutím tlačítka <b>@advanced@</b> můžete zobrazit všechny karty, ale pro většinu panoramat to není nutné.<br><br>Chcete-li šit panoramatu, postupujte podle těchto tří kroků:<br><br><b>1. @mainwindow.projectassistant.loadimages@</b><br>Stisknutím tohoto tlačítka vyberte zdrojové snímky. Můžete otevřít více souborů najednou podržením tlačítka <optional platform='windows'>Klávesa Ctrl</optional><optional platform='mac'>Cmd klíč</optional> při výběru souborů. Případně je možné soubory přetáhnout z (např.) @txt.finderorexplorer@ do okna PTGui<br><br>Pořadí snímků není vůbec důležité: v dalším kroku určí PTGui, jak se snímky překrývají. PTGui dokáže zpracovat více řádek snímků ve stejném panoramatu, stačí načíst všechny snímky najednou.<br><br>snímky lze otáčet pomocí dvou otočných tlačítek. Pokud to provedete po zarovnání panoramatu, otočí se celá a, obraz zůstane zarovnán.<br><br><b>2. @mainwindow.projectassistant.setuppanorama@</b><br>V následujícím kroku PTGui zarovná snímky. Zarovnání se provádí ve dvou krocích: nejprve PTGui analyzuje snímky a hledá odpovídající funkce v překrývajících se snímcích. Při těchto odpovídajících funkcích se přidávají &quot;kontrolní body&quot;. Následně bude spuštěn Optimalizátor. Optimalizátor se pokusí umístit snímky tak, aby kontrolní body odpovídaly co nejblíže.<br><br>Když byly snímky zarovnány, Otevřít editor Panorama a Zobrazit náhled stitched panorama. Pokud dojde k odchylkám, přejděte na kartu @mainwindow.tabs.controlpoints@ pro přidání nebo úpravu kontrolních bodů a spusťte optimalizátor. <optional product='pro'>Přesunuté objekty lze odstranit pomocí karty @mainwindow.tabs.mask@.</optional><br><br><b>3. @mainwindow.tabs.createpanorama@</b><br>Nakonec stisknutím tlačítka @mainwindow.tabs.createpanorama@ přepnete na kartu @mainwindow.tabs.createpanorama@. Zde můžete konfigurovat možnosti výstupu a šit panoramatu."
+			"helptext": "<b>@mainwindow.tabs.projectassistant@</b><br><br>Vítejte v PTGui! Právě jste na kartě @mainwindow.tabs.projectassistant@. Asistent projektu vás provede procesem vytváření panoramatu ve třech jednoduchých krocích.<br><br>Na levé straně okna se zobrazí panel Tab. Každá karta otevře stránku s různými nastaveními pro panorama. Zpočátku je zobrazena pouze karta @mainwindow.tabs.projectassistant@. Během procesu budou jiné karty viditelné, pokud jsou relevantní. Stisknutím tlačítka <b>@advanced@</b> můžete zobrazit všechny karty, ale pro většinu panoramat to není nutné.<br><br>Chcete-li šit panoramatu, postupujte podle těchto tří kroků:<br><br><b>1. @mainwindow.projectassistant.loadimages@</b><br>Stisknutím tohoto tlačítka vyberte zdrojové snímky. Můžete otevřít více souborů najednou podržením tlačítka <optional platform='windows'>Klávesa Ctrl</optional><optional platform='mac'>Cmd klíč</optional> při výběru souborů. Případně je možné soubory přetáhnout z (např.) @txt.finderorexplorer@ do okna PTGui<br><br>Pořadí snímků není vůbec důležité: v dalším kroku určí PTGui, jak se snímky překrývají. PTGui dokáže zpracovat více řádek snímků ve stejném panoramatu, stačí načíst všechny snímky najednou.<br><br>snímky lze otáčet pomocí dvou otočných tlačítek. Pokud to provedete po zarovnání panoramatu, otočí se celá a, obraz zůstane zarovnán.<br><br><b>2. @mainwindow.projectassistant.setuppanorama@</b><br>V následujícím kroku PTGui zarovná snímky. Zarovnání se provádí ve dvou krocích: nejprve PTGui analyzuje snímky a hledá odpovídající funkce v překrývajících se snímcích. Při těchto odpovídajících funkcích se přidávají &quot;kontrolní body&quot;. Následně bude spuštěn Optimalizátor. Optimalizátor se pokusí umístit snímky tak, aby kontrolní body odpovídaly co nejblíže.<br><br>Když byly snímky zarovnány, Otevřít editor Panorama a Zobrazit náhled spojené panorama. Pokud dojde k odchylkám, přejděte na kartu @mainwindow.tabs.controlpoints@ pro přidání nebo úpravu kontrolních bodů a spusťte optimalizátor. <optional product='pro'>Přesunuté objekty lze odstranit pomocí karty @mainwindow.tabs.mask@.</optional><br><br><b>3. @mainwindow.tabs.createpanorama@</b><br>Nakonec stisknutím tlačítka @mainwindow.tabs.createpanorama@ přepnete na kartu @mainwindow.tabs.createpanorama@. Zde můžete konfigurovat možnosti výstupu a šit panoramatu."
 		},
 		{
 			"id": "mainwindow.sourceimagestab",
@@ -9703,7 +9604,7 @@
 		{
 			"id": "mainwindow.lensparamstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Pro přesné spojení potřebuje PTGui znát vlastnosti fotoaparátu a objektivu, který byl použit k vytvoření snímků. Ve většině případů je PTGui schopen automaticky stanovit nastavení objektivu kontrolou dat EXIF a potom je téměř nemusíte se dotýkat těchto nastavení. Pouze pokud nebyla nalezena žádná data EXIF (např. Při použití objektivů s ručním ostřením), musí být zde zadáno nastavení vhodného objektivu. Dokonce i PTGui potřebuje znát pouze typ objektivu a hrubý odhad ohniskové vzdálenosti. Optimalizátor bude moci vyladit všechna nastavení zde.<br><br>Projekt může obsahovat jeden nebo více profilů čoček. To umožňuje, aby snímky z různých čoček nebo fotoaparátů byly použity ve stejném projektu. Zpočátku existuje jeden profil objektivu nazvaný '@txt.globallensprofile@' pro všechny snímky. Při vytváření snímků s různými údaji o objektech EXIF se do projektu přidávají více profilů objektivů. Každý profil objektivu má vlastní nastavení objektivu, <optional product='pro'>vignetting a nastavení křivky fotoaparátůy,</optional> posun a parametry @shear@ a nastavení oříznutí.<br><br>Databáze objektivu můžete použít k uložení a pozdějšímu načtení parametrů objektivu. Databáze objektivů je zpočátku prázdná, používá se pouze pro vlastní data. Lze jej otevřít pomocí programu @menubar.tools@ | @lensdatabase@. Záznamy o databázi objektivu mohou být přidruženy ke konkrétním datům EXIF, takže vaše nastavení budou automaticky načteny při každém načtení snímku z určitého objektivu. Další informace naleznete v části: <a href='helppage:lensdatabase'>Použití databáze objektů</a><br><br><b>Korekce Distorze objektivu</b><br>Všechny objektivy vykazují určité množství Distorze (např. barelová, nebo podušková distorze). Pro přesné šití musí být toto Distorze korigováno; toto se provádí za letu při šití. PTGui používá model objektivu PanoTools pro korekci Distorze. Používá se funkce polynomu třetího řádu se třemi parametry nazvanými a, b a c. Opět je Distorze objektivu přesně určeno optimalizátorem, takže není vůbec nutné tyto hodnoty dotýkat.<br><br>PTGui také kompenzuje jakýkoli posun středu objektivu ze středu snímku (Shift). U plochých skenerů může PTGui kompenzovat i @shear@.<br><br><b>Individuální nastavení</b><br>Ve výchozím nastavení se pro všechny snímky v projektu používají stejné objektivy, posun, @shear@ a nastavení oříznutí. Přesné nastavení konkrétních snímků je možné přepnout výběrem v seznamu &quot;@mainwindow.lensparams.useindividual@&quot;."
+			"helptext": "<b>@mainwindow.tabs.lenssettings@</b><br><br>Pro přesné spojení potřebuje PTGui znát vlastnosti fotoaparátu a objektivu, který byl použit k vytvoření snímků. Ve většině případů je PTGui schopen automaticky stanovit nastavení objektivu kontrolou dat EXIF a potom je téměř nemusíte se dotýkat těchto nastavení. Pouze pokud nebyla nalezena žádná data EXIF (např. Při použití objektivů s ručním ostřením), musí být zde zadáno nastavení vhodného objektivu. Dokonce i PTGui potřebuje znát pouze typ objektivu a hrubý odhad ohniskové vzdálenosti. Optimalizátor bude moci vyladit všechna nastavení zde.<br><br>Projekt může obsahovat jeden nebo více profilů čoček. To umožňuje, aby snímky z různých čoček nebo fotoaparátů byly použity ve stejném projektu. Zpočátku existuje jeden profil objektivu nazvaný '@txt.globallensprofile@' pro všechny snímky. Při vytváření snímků s různými údaji o objektech EXIF se do projektu přidávají více profilů objektivů. Každý profil objektivu má vlastní nastavení objektivu, <optional product='pro'>vignetting a nastavení křivky fotoaparátu,</optional> posun a parametry @shear@ a nastavení oříznutí.<br><br>Databáze objektivu můžete použít k uložení a pozdějšímu načtení parametrů objektivu. Databáze objektivů je zpočátku prázdná, používá se pouze pro vlastní data. Lze jej otevřít pomocí programu @menubar.tools@ | @lensdatabase@. Záznamy o databázi objektivu mohou být přidruženy ke konkrétním datům EXIF, takže vaše nastavení budou automaticky načteny při každém načtení snímku z určitého objektivu. Další informace naleznete v části: <a href='helppage:lensdatabase'>Použití databáze objektů</a><br><br><b>Korekce zkreslení objektivu</b><br>Všechny objektivy vykazují určité množství zkreslení (např. barelová, nebo podušková distorze). Pro přesné spojování musí být toto zkreslení korigováno; toto se provádí za letu při spojování. PTGui používá model objektivu PanoTools pro korekci zkreslení. Používá se funkce polynomu třetího řádu se třemi parametry nazvanými a, b a c. Opět je zkreslení objektivu přesně určeno optimalizátorem, takže není vůbec nutné tyto hodnoty dotýkat.<br><br>PTGui také kompenzuje jakýkoli posun středu objektivu ze středu snímku (Shift). U plochých skenerů může PTGui kompenzovat i @shear@.<br><br><b>Individuální nastavení</b><br>Ve výchozím nastavení se pro všechny snímky v projektu používají stejné objektivy, posun, @shear@ a nastavení oříznutí. Přesné nastavení konkrétních snímků je možné přepnout výběrem v seznamu &quot;@mainwindow.lensparams.useindividual@&quot;."
 		},
 		{
 			"id": "mainwindow.croptab",
@@ -9713,12 +9614,12 @@
 		{
 			"id": "mainwindow.masktab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Při smíchání panoramatického PTGui se implicitně umístí švy přibližně uprostřed oblasti přesahu mezi dvěma zdrojovými snímky. Obzvláště když a obsahuje pohybující se objekty nebo osoby, může to příležitostně způsobit částečně odříznuté objekty nebo osoby bez končetin ve stitched a. To lze předejít použitím masky: maska říká mixéru, které části zdrojového snímku by měly nebo neměly být viditelné v závěrečné panorama. Také masky lze použít k zabránění generování kontrolních bodů v určitých oblastech.<br><br>K dispozici jsou dva typy masky: <b>červená</b> maska označuje část zdrojového snímku, která by měla být v závěrečném panoramatu neviditelná; mixér použije překrývající se oblasti ostatních zdrojových snímků k pokrytí chybějících částí. <b>Zelená</b> maska říká, že určitá část musí být viditelná ve smíšené panorama, tj. Upřednostňuje zelené maskované pixely na pixelech ostatních snímků.<br><br>Generátor kontrolních bodů (a &quot;@alignimages@&quot;) neumísťuje kontrolní body do červených maskovaných oblastí. To může být užitečné, aby se zabránilo kontrolním bodům pohybujících se oblačnosti na obloze nebo kontrolním bodům umístěným na stativu.<br><br>V aplikaci Panorama Editor a Detail Viewer lze v reálném čase sledovat účinky maskování na smíšené panorama. Je-li vybrána možnost @panoeditor.menubar.blended@, jsou vzaty v úvahu masky. V režimu @panoeditor.menubar.showseams@ budou červené čáry zobrazovat změny umístění umístění švů v důsledku maskování.<br><br>Pro lakování masky nakreslete snímek levým tlačítkem myši. Pomocí kláves Shift + klikněte nakreslete přímky. Velikost nástroje nástřiku lze změnit pomocí posuvníku níže nebo pomocí tlačítek K a L. Uzavřené oblasti lze naplnit nástrojem @mainwindow.maskmenu.fill@.<br><br>Masky lze kopírovat, vložit, uložit a uložit. Chcete-li kopii masku na více snímků najednou, přejděte na kartu @mainwindow.tabs.sourceimages@, vyberte snímky, klikněte pravým tlačítkem myši a zvolte @pastemask@.<br><br>Pomocí zkratek @menubar.view.previousimage@ / @menubar.view.nextimage@ v nabídce @menubar.view@ a v panelu nástrojů přepněte na předchozí nebo další snímek.<br><br>Je možné přepínat mezi zobrazením jednoho snímku nebo dvou snímků vedle sebe."
+			"helptext": "<b>@mainwindow.tabs.mask@</b><br><br>Při prolínání panoramatu PTGui ve výchozím nastavení umístí švy přibližně doprostřed oblasti překryvu mezi dvěma zdrojovými snímky. Zejména pokud panorama obsahuje pohybující se objekty nebo osoby, může to občas způsobit částečné odříznutí objektů nebo osob bez končetin ve spojeném panoramatu. Tomu lze předejít použitím masek: maska říká blenderu, které části zdrojového snímku mají nebo nemají být viditelné ve finálním panoramatu. Masky lze také použít k zabránění generování kontrolních bodů v určitých oblastech.<br><br>K dispozici jsou dva typy masky: <b>červená</b> maska označuje část zdrojového snímku, která má být ve finálním panoramatu neviditelná; blender použije překrývající se oblasti ostatních zdrojových snímků k pokrytí chybějících částí. <b>Zelená</b> maska říká blenderu, že určitá část musí být viditelná v prolnutém panoramatu, tj. upřednostní zeleně maskované pixely před pixely ostatních snímků.<br><br>Generátor kontrolních bodů (a funkce '@alignimages@') nebude umisťovat kontrolní body do červeně maskovaných oblastí. To může být užitečné k zabránění vzniku kontrolních bodů na pohybujících se mracích na obloze nebo na stativu.<br><br>Účinky kreslení masky na prolnuté panorama lze sledovat v reálném čase v editoru panoramatu a v prohlížeči detailů. Je-li vybrána možnost @panoeditor.menubar.blended@, jsou masky brány v úvahu. V režimu @panoeditor.menubar.showseams@ budou červené čáry zobrazovat změny v umístění švů v důsledku maskování.<br><br>Masky nakreslíte do snímku pomocí levého tlačítka myši. Pomocí Shift+kliknutí kreslíte přímky. Velikost kreslicího nástroje lze změnit pomocí posuvníku níže nebo pomocí kláves K a L. Uzavřené oblasti lze vyplnit nástrojem @mainwindow.maskmenu.fill@.<br><br>Masky lze kopírovat, vkládat, načítat a ukládat. Chcete-li zkopírovat masku na více snímků najednou, přejděte na kartu @mainwindow.tabs.sourceimages@, vyberte snímky, klikněte pravým tlačítkem myši a zvolte @pastemask@.<br><br>Pomocí zkratek @menubar.view.previousimage@ / @menubar.view.nextimage@ v nabídce @menubar.view@ a v panelu nástrojů přepnete na předchozí nebo další snímek.<br><br>Je možné přepínat mezi zobrazením jednoho snímku nebo dvou snímků vedle sebe."
 		},
 		{
 			"id": "mainwindow.imageparamstab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Tato stránka obsahuje tabulku, kde lze parametry jednotlivých snímků editovat číselně. Obecně není nutné měnit žádné nastavení, obvykle tyto parametry určuje optimalizátor.<br><br>Parametr lze změnit pro více snímků najednou: vyberte buňky tažením myší. Potom zadejte požadovanou hodnotu, která bude zadána ve všech vybraných buňkách.<br><br><b>@mainwindow.imageparameters.image@:</b> zobrazí miniaturu zdrojového snímku.<br><br><b>@mainwindow.imageparameters.warped@:</b> je to zkroucený miniaturní snímek, který ukazuje, jak bude snímek vypadat v závěrečném panoramatu. Miniaturní snímky jsou aktualizovány v reálném čase.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b>@mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@, @roll@:</b> uveďte směr pohledu, ve kterém byl snímek pořízený, a tím i pozici snímku v závěrečné panoramatu. <b>@+yaw@</b> je rotace fotoaparátůy v horizontální rovině, <b>@+pitch@</b> odpovídá úhlu sklonu nahoru / dolů a <b>@+roll@</b> je otáčení fotoaparátůy kolem osy objektivu. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> doba expozice, clona objektivu a citlivost ISO. Ve výchozím nastavení se tyto hodnoty přečte z hlavičky EXIF souboru snímku, ale mohou být potlačeny jinými hodnotami. Tyto hodnoty se používají pro výpočet sloupce @mainwindow.imageparameters.ev@ používaného pro panorama HDR.<br><br><b>@mainwindow.imageparameters.ev@:</b> Hodnota expozice snímků. Tato hodnota udává množství zachyceného světla vzhledem k ostatním snímkům. Hodnota @mainwindow.imageparameters.ev@ +1 označuje, že ve srovnání s obrazem s hodnotou @mainwindow.imageparameters.ev@ bylo dosaženo dvojnásobného množství světla. To mohlo být dosaženo zdvojnásobením doby expozice, zdvojnásobením citlivosti ISO, snížením hodnoty clony o faktor 1,4 nebo kombinací těchto tří. Sloupec @mainwindow.imageparameters.ev@ se vypočte z hodnot v sloupcích @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ a @mainwindow.imageparameters.iso@ a nelze je přímo upravovat. Tato hodnota se používá pro generování panoramatických snímků HDR: PTGui odděluje snímky do skupin, které mají stejné hodnoty @mainwindow.imageparameters.ev@, a vyšívá kompletní panorama z každé skupiny. Tyto přechodové panorama, tzv. &quot;Blended planes&quot;, jsou pak spojeny s HDR panorama.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> lze použít k úpravě jasu jednoho snímku. Příklad zadání hodnoty -1 ztmaví snímek o 1 hodnotu expozice (což odpovídá snížení jasu o faktor 2). Tento sloupec se automaticky upravuje, pokud je na kartě @mainwindow.tabs.exposurehdr@ povolena optimalizace expozice.<br><br><b>@mainwindow.imageparameters.flare@:</b> kladná hodnota v tomto poli odstraňuje @lensflare@ z snímku zvýšením jeho kontrastu. Automaticky se nastavuje, pokud je na kartě @mainwindow.tabs.exposurehdr@ aktivována optimalizace @flare@.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> nastavuje &quot;důležitost&quot; tohoto snímku pro mixér PTGui. Při mixování mají snímky s vysokou prioritou směsí přednost před snímky s nízkým poloměrem. Pokud má snímek velmi malou prioritu (např. 0,001), mixér používá pouze ty části snímku, které jsou nutné pro vyplnění všech mezer, které by zůstaly po smíchání ostatních snímků. Mírně se zvyšující priorita kombinace dává hladší překrytí, přičemž stále používá pouze malou část snímku. Priorita směšování je relativní hodnota: při smíchání mixér porovnává prioritní hodnoty snímků snímků a dává přednost snímku s nejvyšší hodnotou. Absolutní hodnota nezáleží. Parametr priority priority je obzvláště vhodný pro záběry nadir: obraz v nadirové oblasti v sférickém panoramatu je typicky špatně zarovnán a nohy fotografa mohou být viditelné na snímku. Použití nízké priority přidávání pro obraz nadir zajišťuje použití pouze středové části snímku. Zkuste použít prioritu kombinace 10 pro obraz nadir a 100 pro ostatní snímky.<br><br><b>Parametry @mainwindow.imageparameters.vpprefix@:</b> tyto 5 parametrů aplikují korekci posunu pohledu na polohu fotoaparátůy snímku vzhledem k pozici fotoaparátůy ostatních snímků. Není nutné ručně zadávat hodnoty zde; skutečné hodnoty jsou určeny optimizátorem, pokud je @+viewpoint@ vybrán pro optimalizaci na kartě @mainwindow.tabs.optimizer@. Chcete-li obnovit korekci pohledu, zadejte hodnotu 0 pro každý parametr @mainwindow.imageparameters.vpprefix@. Korekce posunu pohledu pouze při fotografování plochých ploch; proces je podrobně vysvětlen v příručce Viewpoint Correction (viz webová stránka PTGui).</optional><br><br>Pokud jsou snímky nakonfigurovány tak, aby používaly jednotlivé objektivy, posun nebo parametry @shear@, tyto hodnoty se také zsnímkují v tabulce. <optional product='pro'><br><br>U panoramatu HDR může PTGui propojit expozice v závorkách. Připojené snímky mohou být zobrazeny v této tabulce buď sbalené na jeden řádek, nebo seznam lze rozšířit pomocí tlačítka malého trojúhelníku pro zobrazení jednotlivých snímků v každé propojené sadě.</optional><br><br>Použijte funkci @fillyaw@ (v kontextovém menu s pravým tlačítkem myši) pro inicializaci úhlů @yaw@ pro řadu snímků na konstantní přírůstky. Například při 360° panorama, který se skládá z 10 snímků, budou hodnoty @yaw@ inicializovány na 0°, 36°, 72°, ... pomocí této funkce.<br><br>@mainwindow.imageparamstab.helptext2@"
+			"helptext": "<b>@mainwindow.tabs.imageparameters@</b><br><br>Tato stránka obsahuje tabulku, kde lze parametry jednotlivých snímků upravovat číselně. Obecně není nutné zde žádná nastavení měnit, tyto parametry obvykle určuje optimalizátor.<br><br>Parametr lze změnit pro více snímků najednou: vyberte buňky tažením myši. Poté zadejte požadovanou hodnotu, která se vloží do všech vybraných buněk.<br><br><b>@mainwindow.imageparameters.image@:</b> zobrazí miniaturu zdrojového snímku.<br><br><b>@mainwindow.imageparameters.warped@:</b> zkroucená miniatura, která ukazuje, jak bude snímek vypadat ve finálním panoramatu. Miniatury jsou aktualizovány v reálném čase.<optional product='pro'><br><br><b>@mainwindow.imageparameters.linked@:</b> @mainwindow.imageparamstab.linkedhelptxt@</optional><br><br><b>@+yaw@, @pitch@, @roll@:</b> udávají směr pohledu, ve kterém byl snímek pořízen, a tím i pozici snímku ve finálním panoramatu. <b>@+yaw@</b> je natočení fotoaparátu v horizontální rovině, <b>@+pitch@</b> odpovídá úhlu sklonu nahoru / dolů a <b>@+roll@</b> je náklon fotoaparátu kolem osy objektivu. <optional product='pro'><br><br><b>@mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@, @mainwindow.imageparameters.iso@:</b> čas expozice, clona objektivu a citlivost ISO. Ve výchozím nastavení se tyto hodnoty načtou z EXIF hlavičky souboru, ale mohou být přepsány jinými hodnotami. Tyto hodnoty se používají pro výpočet sloupce @mainwindow.imageparameters.ev@ používaného pro HDR panoramata.<br><br><b>@mainwindow.imageparameters.ev@:</b> Hodnota expozice (EV) snímků. Tato hodnota udává množství zachyceného světla relativně k ostatním snímkům. Hodnota @mainwindow.imageparameters.ev@ +1 značí, že bylo zachyceno dvakrát více světla oproti snímku s hodnotou 0. Toho lze dosáhnout zdvojnásobením času expozice, zdvojnásobením citlivosti ISO, snížením clonového čísla o faktor 1,4 nebo kombinací těchto tří parametrů. Sloupec @mainwindow.imageparameters.ev@ se vypočítá z hodnot ve sloupcích @mainwindow.imageparameters.exposure@, @mainwindow.imageparameters.aperture@ a @mainwindow.imageparameters.iso@ a nelze jej přímo upravovat. Tato hodnota se používá pro generování HDR panoramat: PTGui rozdělí snímky do skupin se stejnými hodnotami @mainwindow.imageparameters.ev@ a z každé skupiny vytvoří kompletní panorama. Tyto mezivýsledky, tzv. „roviny prolnutí“ (blended planes), jsou pak sloučeny do HDR panoramatu.<br><br><b>@mainwindow.imageparameters.expoffset@:</b> lze použít k úpravě jasu jednoho snímku. Například hodnota -1 ztmaví snímek o 1 EV (což odpovídá snížení jasu na polovinu). Tento sloupec se automaticky upravuje, pokud je na kartě @mainwindow.tabs.exposurehdr@ povolena optimalizace expozice.<br><br><b>@mainwindow.imageparameters.flare@:</b> kladná hodnota v tomto poli odstraňuje @lensflare@ ze snímku zvýšením jeho kontrastu. Automaticky se nastavuje, pokud je na kartě @mainwindow.tabs.exposurehdr@ aktivována optimalizace @flare@.<br><br><b>@mainwindow.imageparameters.blendpriority@:</b> nastavuje „důležitost“ tohoto snímku pro blender PTGui. Při prolínání mají snímky s vysokou prioritou přednost. Pokud má snímek velmi malou prioritu (např. 0,001), blender použije pouze ty jeho části, které jsou nutné pro vyplnění mezer po prolnutí ostatních snímků. Mírně zvýšená priorita dává hladší přechody, přičemž se stále používá jen malá část snímku. Priorita je relativní hodnota: blender porovnává hodnoty priorit jednotlivých snímků a dává přednost snímku s nejvyšší hodnotou. Absolutní hodnota není podstatná. Tento parametr je vhodný zejména pro snímky směřující dolů (nadir): oblast nadiru v sférickém panoramatu bývá často hůře zarovnaná a mohou v ní být vidět nohy fotografa. Použití nízké priority pro snímek nadiru zajistí použití pouze jeho středové části. Zkuste použít prioritu 10 pro nadir a 100 pro ostatní snímky.<br><br><b>Parametry @mainwindow.imageparameters.vpprefix@:</b> těchto 5 parametrů aplikuje korekci úhlu pohledu na pozici fotoaparátu daného snímku relativně k ostatním snímkům. Není nutné zde hodnoty zadávat ručně; jsou určeny optimalizátorem, pokud je zvolena optimalizace @+viewpoint@ na kartě @mainwindow.tabs.optimizer@. Chcete-li korekci resetovat, zadejte 0 pro každý parametr @mainwindow.imageparameters.vpprefix@. Korekce úhlu pohledu funguje pouze při fotografování plochých povrchů; proces je podrobně vysvětlen v příručce Viewpoint Correction na webu PTGui.</optional><br><br>Pokud jsou snímky nastaveny na individuální parametry objektivu, posunu nebo @shear@, tyto hodnoty se také zobrazí v tabulce. <optional product='pro'><br><br>U HDR panoramat může PTGui propojit expoziční řady. Propojené snímky mohou být v tabulce zobrazeny buď sbalené do jednoho řádku, nebo je lze rozbalit pomocí ikony trojúhelníku pro zobrazení jednotlivých snímků v každé sadě.</optional><br><br>Použijte funkci @fillyaw@ (v kontextové nabídce pravého tlačítka) pro inicializaci úhlů @yaw@ pro řadu snímků s konstantním krokem. Například u 360° panoramatu z 10 snímků budou hodnoty @yaw@ inicializovány na 0°, 36°, 72°, ... pomocí této funkce.<br><br>@mainwindow.imageparamstab.helptext2@"
 		},
 		{
 			"id": "mainwindow.controlpointstab",
@@ -9748,7 +9649,7 @@
 		{
 			"id": "mainwindow.metadatatab",
 			"machinetranslated": true,
-			"helptext": "<b>@mainwindow.tabs.metadata@</b><br><br>snímky mohou obsahovat vložená data a poskytují další informace o snímku. Toto se nazývá @mainwindow.tabs.metadata@. Ve výchozím nastavení PTGui zkopíruje určité metadata ze zdrojových snímků do vygenerované panorama:<br><br>• Datum fotografování panoramatu: PTGui použije nejdříve časové razítko nalezené ve všech zdrojových snímcích a.<br><br>• Údaje o expozici: doba expozice, clona a citlivost ISO. Tato data budou vložena pouze tehdy, pokud mají všechny snímky stejnou expozici. <optional product='pro'>Jsou-li vyvedeny oddělené roviny pro směrování HDR, budou mít v rovinách míšení data o expozici zdrojových snímků použitých pro danou rovinu.</optional><br><br>• Profil barev ICC: profil barev bude kopírován ze zdrojových snímků, ale pouze pokud mají všechny snímky stejný profil.<br><br>• Umístění GPS: pokud jsou k dispozici, souřadnice GPS fotoaparátůy se kopírují ze zdrojových snímků. Pokud mají zdrojové snímky různé souřadnice, provede se průměr. Pokud v zdrojových snímcích nejsou k dispozici žádná data GPS, na této kartě lze zadat souřadnice.<br><br>• Orientace snímku: je-li v jednom nebo více zdrojových snímcích k dispozici směr natáčení (úhel kompasu), bude tato funkce vložena do atu. PTGui opraví posunutí každé výřezy, takže metadata směru snímku odkazují na směr pozorování středu a. Není-li v zdrojových snímcích k dispozici žádná data o orientaci, může být v této kartě zadána hodnota.<br><br>• Metadata Google PhotoSphere: pro panorama v rovně přímočaré projekci PTGui vloží metadata &quot;gpano&quot; xmp. To zajistí, že Facebook, Google a další webové stránky rozpoznají obraz jako sférickou panorama.<br><br>• Pro přímočará panoramata PTGui vloží značku FocalLength a FocalLengthIn35mm.<br><br>PTGui momentálně zapisuje pouze metadata do souborů JPEG a TIFF. Podpora metadat pro jiné formáty je naplánována."
+			"helptext": "<b>@mainwindow.tabs.metadata@</b><br><br>snímky mohou obsahovat vložená data a poskytují další informace o snímku. Toto se nazývá @mainwindow.tabs.metadata@. Ve výchozím nastavení PTGui zkopíruje určité metadata ze zdrojových snímků do vygenerované panorama:<br><br>• Datum fotografování panoramatu: PTGui použije nejdříve časové razítko nalezené ve všech zdrojových snímcích a.<br><br>• Údaje o expozici: doba expozice, clona a citlivost ISO. Tato data budou vložena pouze tehdy, pokud mají všechny snímky stejnou expozici. <optional product='pro'>Jsou-li vyvedeny oddělené roviny pro směrování HDR, budou mít v rovinách míšení data o expozici zdrojových snímků použitých pro danou rovinu.</optional><br><br>• Profil barev ICC: profil barev bude kopírován ze zdrojových snímků, ale pouze pokud mají všechny snímky stejný profil.<br><br>• Umístění GPS: pokud jsou k dispozici, souřadnice GPS fotoaparátu se kopírují ze zdrojových snímků. Pokud mají zdrojové snímky různé souřadnice, provede se průměr. Pokud v zdrojových snímcích nejsou k dispozici žádná data GPS, na této kartě lze zadat souřadnice.<br><br>• Orientace snímku: je-li v jednom nebo více zdrojových snímcích k dispozici směr natáčení (úhel kompasu), bude tato funkce vložena do atu. PTGui opraví posunutí každé výřezy, takže metadata směru snímku odkazují na směr pozorování středu a. Není-li v zdrojových snímcích k dispozici žádná data o orientaci, může být v této kartě zadána hodnota.<br><br>• Metadata Google PhotoSphere: pro panorama v rovně přímočaré projekci PTGui vloží metadata &quot;gpano&quot; xmp. To zajistí, že Facebook, Google a další webové stránky rozpoznají obraz jako sférickou panorama.<br><br>• Pro přímočará panoramata PTGui vloží značku FocalLength a FocalLengthIn35mm.<br><br>PTGui momentálně zapisuje pouze metadata do souborů JPEG a TIFF. Podpora metadat pro jiné formáty je naplánována."
 		},
 		{
 			"id": "mainwindow.createpanoramatab",
@@ -9773,17 +9674,17 @@
 		{
 			"id": "lensdatabase",
 			"machinetranslated": true,
-			"helptext": "<b>@lensdatabase@</b><br><br>Databáze objektivů můžete použít k ukládání a načítání parametrů objektivu. Databáze objektivů je zpočátku prázdná, používá se pouze pro vlastní data. Lze jej otevřít pomocí @menubar.tools@ | @lensdatabase@. Záznamy databáze objektivu mohou být přidruženy ke specifickým datům EXIF. Konfigurace PTGui načíst nastavení speciálních objektivů automaticky při každém načtení snímku z určitého objektivu.<br><br>Databáze objektivů se skládá ze dvou tabulek: levý panel je seznam záznamů databáze objektivů. Když je vybrán záznam, v pravém podokně se zobrazí vlastnosti vybraného záznamu databáze objektivu.<br><br><b>Použití databáze objektů</b><br><br>Okno databáze s objektivem lze otevřít pomocí @menubar.tools@ | @lensdatabase@. Záznamy nejsou načteny a uloženy přímo z okna Databáze objektivu; místo toho se provádí na kartě @mainwindow.tabs.lenssettings@ v hlavním okně. Pokud karta @mainwindow.tabs.lenssettings@ není zobrazena, stiskněte tlačítko @advanced@ na bočním panelu hlavního okna. Na kartě @mainwindow.tabs.lenssettings@ stiskněte tlačítko @lensdatabase@ pro načtení nebo uložení aktuálních nastavení objektivu z nebo do databáze objektivů.<br><br>Do databáze objektivů jsou uloženy následující parametry:<br>• Projekce objektivu (přímočarý, rybí oko atd.)<br>• ohnisková vzdálenost (pro přímočaré a rybí oko) nebo horizontální zorné pole (pro rovnoměrné a válcové projekce)<br>• faktor rybího oka (u čoček rybího oka)<br>• nastavení oříznutí<br>• korekce Distorze objektivu<br>• posun objektivu<br>• @shear@ korekce<br><br><b>asociaci EXIF</b><br><br>Záznamy databáze objektivu mohou být spojeny se specifickými daty EXIF. Při přiřazení se nastavení z databáze objektivů automaticky použije při načtení snímku z konkrétní konkrétní fotoaparátůy / objektivu. asociaci mohou být vytvořena dvěma způsoby:<br><br>Pokud jsou načteny snímky z nerozpoznaného fotoaparátu / objektivu, PTGui vás požádá o zadání typu objektivu a ohniskové vzdálenosti. Ve stejném okně je zaškrtávací políčko &quot;vždy používejte tato data pro ... [kombinaci fotoaparátůy / objektivu]. Pokud je vybráno, provede se nový záznam o databázi objektivu a bude přidružen k datům EXIF snímku.<br><br>A asociaci lze provést ručně z karty @mainwindow.tabs.lenssettings@: po načtení snímku klepněte na tlačítko EXIF a zvolte &quot;@mainwindow.lensparams.makeexifassociation@&quot; pro vytvoření přidružení.<br><br>Chcete-li odebrat asociaci, Otevřít okno databáze objektivů, vyberte asociaci v pravé tabulce a stiskněte tlačítko Odstranit."
+			"helptext": "<b>@lensdatabase@</b><br><br>Databáze objektivů můžete použít k ukládání a načítání parametrů objektivu. Databáze objektivů je zpočátku prázdná, používá se pouze pro vlastní data. Lze jej otevřít pomocí @menubar.tools@ | @lensdatabase@. Záznamy databáze objektivu mohou být přidruženy ke specifickým datům EXIF. Konfigurace PTGui načíst nastavení speciálních objektivů automaticky při každém načtení snímku z určitého objektivu.<br><br>Databáze objektivů se skládá ze dvou tabulek: levý panel je seznam záznamů databáze objektivů. Když je vybrán záznam, v pravém podokně se zobrazí vlastnosti vybraného záznamu databáze objektivu.<br><br><b>Použití databáze objektů</b><br><br>Okno databáze s objektivem lze otevřít pomocí @menubar.tools@ | @lensdatabase@. Záznamy nejsou načteny a uloženy přímo z okna Databáze objektivu; místo toho se provádí na kartě @mainwindow.tabs.lenssettings@ v hlavním okně. Pokud karta @mainwindow.tabs.lenssettings@ není zobrazena, stiskněte tlačítko @advanced@ na bočním panelu hlavního okna. Na kartě @mainwindow.tabs.lenssettings@ stiskněte tlačítko @lensdatabase@ pro načtení nebo uložení aktuálních nastavení objektivu z nebo do databáze objektivů.<br><br>Do databáze objektivů jsou uloženy následující parametry:<br>• Projekce objektivu (přímočarý, rybí oko atd.)<br>• ohnisková vzdálenost (pro přímočaré a rybí oko) nebo horizontální zorné pole (pro rovnoměrné a válcové projekce)<br>• faktor rybího oka (u čoček rybího oka)<br>• nastavení oříznutí<br>• korekce zkreslení objektivu<br>• posun objektivu<br>• @shear@ korekce<br><br><b>Asociace EXIF</b><br><br>Záznamy databáze objektivů mohou být spojeny se specifickými daty EXIF. Při přiřazení se nastavení z databáze objektivů automaticky použije při načtení snímku z konkrétní konkrétní fotoaparátu / objektivu. Asociace mohou být vytvořeny dvěma způsoby:<br><br>Pokud jsou načteny snímky z nerozpoznaného fotoaparátu / objektivu, PTGui vás požádá o zadání typu objektivu a ohniskové vzdálenosti. Ve stejném okně je zaškrtávací políčko &quot;vždy používejte tato data pro ... [kombinaci fotoaparátu / objektivu]. Pokud je vybráno, provede se nový záznam o databázi objektivu a bude přidružen k datům EXIF snímku.<br><br>Asociaci lze provést ručně z karty @mainwindow.tabs.lenssettings@: po načtení snímku klepněte na tlačítko EXIF a zvolte &quot;@mainwindow.lensparams.makeexifassociation@&quot; pro vytvoření přidružení.<br><br>Chcete-li odebrat asociaci, Otevřít okno databáze objektivů, vyberte asociaci v pravé tabulce a stiskněte tlačítko Odstranit."
 		},
 		{
 			"id": "cameradatabase",
 			"machinetranslated": true,
-			"helptext": "<b>@cameradatabase@</b><br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátůy. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. PTGui zná velikost senzoru více než 2000 fotoaparátů, ale je možné, že fotoaparát není součástí dodávkového zpracování. V takovém případě je můžete přidat do databáze fotoaparátů.<br><br><b>Použití databáze fotoaparátu</b><br><br>Okno databáze fotoaparátů lze otevřít pomocí @menubar.tools@ | @cameradatabase@. Záznamy nejsou načteny a uloženy přímo odtud; místo toho se provádí na kartě @mainwindow.tabs.lenssettings@ v hlavním okně. Pokud karta @mainwindow.tabs.lenssettings@ není zobrazena, stiskněte tlačítko @advanced@ na postranním panelu hlavního okna.<br><br>Na kartě @mainwindow.tabs.lenssettings@ stiskněte tlačítko @cameradatabase@, chcete-li načíst nebo uložit aktuální velikost snímače z nebo do databáze objektivů a přiřadit je k modelu fotoaparátu, jak je uvedeno v poli modelu fotoaparátu EXIF. Při příštím vložení tohoto modelu fotoaparátu EXIF PTGui automaticky inicializuje data o velikosti snímače fotoaparátůy."
+			"helptext": "<b>@cameradatabase@</b><br><br>Pro výpočet projekce objektivu PTGui potřebuje nejen znát ohniskovou vzdálenost, ale i velikost snímače fotoaparátu. Bez znalosti rozměrů snímače je ohnisková vzdálenost bezvýznamná. PTGui zná velikost senzoru více než 2000 fotoaparátů, ale je možné, že fotoaparát není součástí dodávkového zpracování. V takovém případě je můžete přidat do databáze fotoaparátů.<br><br><b>Použití databáze fotoaparátu</b><br><br>Okno databáze fotoaparátů lze otevřít pomocí @menubar.tools@ | @cameradatabase@. Záznamy nejsou načteny a uloženy přímo odtud; místo toho se provádí na kartě @mainwindow.tabs.lenssettings@ v hlavním okně. Pokud karta @mainwindow.tabs.lenssettings@ není zobrazena, stiskněte tlačítko @advanced@ na postranním panelu hlavního okna.<br><br>Na kartě @mainwindow.tabs.lenssettings@ stiskněte tlačítko @cameradatabase@, chcete-li načíst nebo uložit aktuální velikost snímače z nebo do databáze objektivů a přiřadit je k modelu fotoaparátu, jak je uvedeno v poli modelu fotoaparátu EXIF. Při příštím vložení tohoto modelu fotoaparátu EXIF PTGui automaticky inicializuje data o velikosti snímače fotoaparátu."
 		},
 		{
 			"id": "patchwindow",
 			"machinetranslated": true,
-			"helptext": "<b>@patchwindow@</b><br><br>Pomocí tohoto nástroje můžete retušovat malé chyby ve švech, odstranit nežádoucí objekty (jako je stativ) nebo vyplnit chybějící části panoramatu. Retušování se provádí klonováním částí obrázku a jejich prolnutím přes jinou část obrázku. @patchwindow@ lze otevřít dvěma způsoby:<br><br>V okně <b>@detailviewer@</b> přejděte na část panoramatu, kterou chcete retušovat, otevřete postranní lištu @detailviewer.sidebar.patch@ a stiskněte tlačítko @detailviewer.sidebar.patch.createpatch@. Tím se vytvoří snímek aktuálního pohledu a přidá se jako nový zdrojový obrázek do panoramatu. Přidaný obrázek bude mít plně zelenou masku, aby bylo zajištěno, že obrázek záplaty bude použit místo původních zdrojových obrázků. Poté se otevře @patchwindow@ pro úpravu obrazu patche.<br><br>Nebo otevřete @patchwindow@ přímo z <b>nabídky @menubar.tools@</b> jako samostatný nástroj. To umožňuje otevřít jakýkoli obrázek JPEG, JPEG2000 nebo TIFF pro úpravy.<br><br>@patchwindow@ pracuje ve dvou možných režimech:<br><br><b>@patchwindow.mode.cut@:</b> Tento režim použijte k odstranění nežádoucích objektů z obrazu. Kliknutím do obrázku nakreslete kolem objektu tvar. Uzavřená oblast bude zprůhledněna.<br><br><b>@patchwindow.mode.patch@:</b> V tomto režimu klikněte na obrázek a nakreslete tvar kolem části obrázku, která by měla být překryta záplatou. Potom přetáhněte tvar do oblasti, která má být použita jako zdroj pro záplatu. Cílová oblast bude nahrazena klonovanou zdrojovou oblastí.<br><br>Záplaty lze přesouvat nebo upravovat: kliknutím do záplaty ji aktivujete. Zdrojová oblast pro aktivní patch bude označena žlutou přerušovanou čarou. Opravu nebo její zdrojovou oblast lze přesunout přetažením. Patch lze upravit přetažením jeho vrcholů. Nové vrcholy lze přidat kliknutím pravým tlačítkem na hranu. Kliknutím pravým tlačítkem na vrchol jej odstraníte. V systému macOS lze místo pravého tlačítka myši použít Ctrl+kliknutí.<br><br>Ve výchozím nastavení je povoleno <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> : spoj mezi obrázkem záplaty a obrázkem pod ním bude veden oblastmi, kde jsou si nejvíce podobné. Tím vytvoříte nejplynulejší výsledek, ale použije se pouze část záplaty. Linka švu je označena červenou linkou při najetí kurzorem myši na okno. Pokud se nechtěné části původního obrázku stále zobrazují přes záplatu, zprůhledněte tyto části pomocí režimu '@patchwindow.mode.cut@', jak je vysvětleno výše. Šev bude veden kolem průhledných oblastí. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> lze deaktivovat ve spodním panelu nástrojů. Pokud je zakázáno, oprava bude překryta jako celek. Okraje budou stále prolnuté, ale výsledek nemusí být tak hladký.<br><br>Pokud vyberete <b>@patchwindow.autosave@</b> , všechny úpravy se okamžitě uloží na disk. V opačném případě použijte tlačítko Uložit pro uložení opraveného obrázku.<br><br>Pokud byl @patchwindow@ spuštěn vytvořením opravy v okně @detailviewer@, upravený obraz opravy se automaticky znovu načte a projekt se po několika sekundách aktualizuje. Po záplatování panoramatu by se kontrolní body již neměly upravovat. Spuštěním optimalizátoru by se změnilo zarovnání obrazů a obraz záplaty by již neodrážel původní zarovnání obrazů. Proto by záplatování mělo být provedeno jako poslední krok v procesu šití. Začít od nuly je vždy možné jednoduše tím, že přejdete na kartu @mainwindow.tabs.sourceimages@ a odeberete obraz opravy z projektu.<br><br>Namísto přidání obrázku patche do projektu PTGui je také možné retušovat již spojené panorama: Po spojení panoramatu začněte nový projekt a přidejte spojené panorama jako zdrojový obrázek. Poté otevřete okno @detailviewer@ a spusťte odtud @patchwindow@."
+			"helptext": "<b>@patchwindow@</b><br><br>Pomocí tohoto nástroje můžete retušovat malé chyby ve švech, odstranit nežádoucí objekty (jako je stativ) nebo vyplnit chybějící části panoramatu. Retušování se provádí klonováním částí obrázku a jejich prolnutím přes jinou část obrázku. @patchwindow@ lze otevřít dvěma způsoby:<br><br>V okně <b>@detailviewer@</b> přejděte na část panoramatu, kterou chcete retušovat, otevřete postranní lištu @detailviewer.sidebar.patch@ a stiskněte tlačítko @detailviewer.sidebar.patch.createpatch@. Tím se vytvoří snímek aktuálního pohledu a přidá se jako nový zdrojový obrázek do panoramatu. Přidaný obrázek bude mít plně zelenou masku, aby bylo zajištěno, že obrázek záplaty bude použit místo původních zdrojových obrázků. Poté se otevře @patchwindow@ pro úpravu obrazu patche.<br><br>Nebo otevřete @patchwindow@ přímo z <b>nabídky @menubar.tools@</b> jako samostatný nástroj. To umožňuje otevřít jakýkoli obrázek JPEG, JPEG2000 nebo TIFF pro úpravy.<br><br>@patchwindow@ pracuje ve dvou možných režimech:<br><br><b>@patchwindow.mode.cut@:</b> Tento režim použijte k odstranění nežádoucích objektů z obrazu. Kliknutím do obrázku nakreslete kolem objektu tvar. Uzavřená oblast bude zprůhledněna.<br><br><b>@patchwindow.mode.patch@:</b> V tomto režimu klikněte na obrázek a nakreslete tvar kolem části obrázku, která by měla být překryta záplatou. Potom přetáhněte tvar do oblasti, která má být použita jako zdroj pro záplatu. Cílová oblast bude nahrazena klonovanou zdrojovou oblastí.<br><br>Záplaty lze přesouvat nebo upravovat: kliknutím do záplaty ji aktivujete. Zdrojová oblast pro aktivní patch bude označena žlutou přerušovanou čarou. Opravu nebo její zdrojovou oblast lze přesunout přetažením. Patch lze upravit přetažením jeho vrcholů. Nové vrcholy lze přidat kliknutím pravým tlačítkem na hranu. Kliknutím pravým tlačítkem na vrchol jej odstraníte. V systému macOS lze místo pravého tlačítka myši použít Ctrl+kliknutí.<br><br>Ve výchozím nastavení je povoleno <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> : spoj mezi obrázkem záplaty a obrázkem pod ním bude veden oblastmi, kde jsou si nejvíce podobné. Tím vytvoříte nejplynulejší výsledek, ale použije se pouze část záplaty. Linka švu je označena červenou linkou při najetí kurzorem myši na okno. Pokud se nechtěné části původního obrázku stále zobrazují přes záplatu, zprůhledněte tyto části pomocí režimu '@patchwindow.mode.cut@', jak je vysvětleno výše. Šev bude veden kolem průhledných oblastí. <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> lze deaktivovat ve spodním panelu nástrojů. Pokud je zakázáno, oprava bude překryta jako celek. Okraje budou stále prolnuté, ale výsledek nemusí být tak hladký.<br><br>Pokud vyberete <b>@patchwindow.autosave@</b> , všechny úpravy se okamžitě uloží na disk. V opačném případě použijte tlačítko Uložit pro uložení opraveného obrázku.<br><br>Pokud byl @patchwindow@ spuštěn vytvořením opravy v okně @detailviewer@, upravený obraz opravy se automaticky znovu načte a projekt se po několika sekundách aktualizuje. Po záplatování panoramatu by se kontrolní body již neměly upravovat. Spuštěním optimalizátoru by se změnilo zarovnání obrazů a obraz záplaty by již neodrážel původní zarovnání obrazů. Proto by záplatování mělo být provedeno jako poslední krok v procesu spojování. Začít od nuly je vždy možné jednoduše tím, že přejdete na kartu @mainwindow.tabs.sourceimages@ a odeberete obraz opravy z projektu.<br><br>Namísto přidání obrázku patche do projektu PTGui je také možné retušovat již spojené panorama: Po spojení panoramatu začněte nový projekt a přidejte spojené panorama jako zdrojový obrázek. Poté otevřete okno @detailviewer@ a spusťte odtud @patchwindow@."
 		},
 		{
 			"id": "mainwindow.preprocesstab",

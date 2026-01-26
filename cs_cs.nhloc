@@ -146,15 +146,15 @@
 		},
 		{
 			"id": "yaw",
-			"txt": "stočit"
+			"txt": "natočení"
 		},
 		{
 			"id": "pitch",
-			"txt": "rozteč"
+			"txt": "sklon"
 		},
 		{
 			"id": "roll",
-			"txt": "rolovat"
+			"txt": "náklon"
 		},
 		{
 			"id": "pan",
@@ -262,11 +262,11 @@
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
-			"txt": "Uložte křivku odezvy fotoaparátůy"
+			"txt": "Uložit křivku odezvy fotoaparátu"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"txt": "Nahrát křivku odezvy fotoaparátůy"
+			"txt": "Nahrát křivku odezvy fotoaparátu"
 		},
 		{
 			"id": "txt.savevignettingcurve",
@@ -282,7 +282,7 @@
 		},
 		{
 			"id": "txt.selectwebpagetemplate",
-			"txt": "Vyberte šablonu webové stránky"
+			"txt": "Vybrat šablonu webové stránky"
 		},
 		{
 			"id": "txt.savetonemapsettings",
@@ -306,7 +306,7 @@
 		},
 		{
 			"id": "menubar.file.applytemplate",
-			"txt": "Použijte šablonu"
+			"txt": "Použít šablonu"
 		},
 		{
 			"id": "menubar.file.applytemplate.other",
@@ -358,7 +358,7 @@
 		},
 		{
 			"id": "menubar.file.newinstance",
-			"txt": "Spusťte novou instanci"
+			"txt": "Spustit novou instanci"
 		},
 		{
 			"id": "menubar.file.closewindow",
@@ -482,7 +482,7 @@
 		},
 		{
 			"id": "projection.equirectangular",
-			"txt": "rovnoběžně"
+			"txt": "ekvidistantní válcová"
 		},
 		{
 			"id": "projection.stereographic",
@@ -490,11 +490,11 @@
 		},
 		{
 			"id": "projection.rectilinear",
-			"txt": "přímý"
+			"txt": "rektilineární"
 		},
 		{
 			"id": "projection.cylindrical",
-			"txt": "válcový"
+			"txt": "válcová"
 		},
 		{
 			"id": "projection.fisheye",
@@ -538,7 +538,7 @@
 		},
 		{
 			"id": "projectionpreset.spherical",
-			"txt": "Sferické: 360° x 180° @+projection.equirectangular@"
+			"txt": "Sférické: 360° x 180° @+projection.equirectangular@"
 		},
 		{
 			"id": "projectionpreset.littleplanet",
@@ -710,7 +710,7 @@
 		},
 		{
 			"id": "panoeditor.menubar.mouseover",
-			"txt": "Vyberte snímek pod ukazatelem myši"
+			"txt": "Vybrat snímek pod ukazatelem myši"
 		},
 		{
 			"id": "panoeditor.menubar.blended",
@@ -746,7 +746,7 @@
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpano",
-			"txt": "Střed panoramatu"
+			"txt": "Vycentrovat panorama"
 		},
 		{
 			"id": "panoeditor.menubar.edit.centerpanohorz",
@@ -762,7 +762,7 @@
 		},
 		{
 			"id": "panoeditor.menubar.edit.level",
-			"txt": "Vytvořit panoramatickou úroveň"
+			"txt": "Vyrovnat panorama"
 		},
 		{
 			"id": "panoeditor.menubar.projection",
@@ -850,7 +850,7 @@
 		},
 		{
 			"id": "menubar.controlpoints.generatefor",
-			"txt": "Generujte řídicí body pro %0"
+			"txt": "Generovat kontrolní body pro %0"
 		},
 		{
 			"id": "imagesxandy",
@@ -890,11 +890,11 @@
 		},
 		{
 			"id": "batchstitcher",
-			"txt": "Dávkové zpracování"
+			"txt": "Dávkový sešívač"
 		},
 		{
 			"id": "batchlist",
-			"txt": "Seznam dávkového zpracování"
+			"txt": "Seznam dávek"
 		},
 		{
 			"id": "pressshiftforhelp",
@@ -918,11 +918,11 @@
 		},
 		{
 			"id": "menubar.tools.converttocubic",
-			"txt": "Převést na krychle"
+			"txt": "Převést na stěny krychle"
 		},
 		{
 			"id": "menubar.tools.philosphere",
-			"txt": "Vytvořte PhiloSpheru"
+			"txt": "Vytvořit PhiloSpheru"
 		},
 		{
 			"id": "menubar.tools.openfolder",
@@ -975,7 +975,7 @@
 		},
 		{
 			"id": "batchbuilder",
-			"txt": "Architekt dávkového zpracování "
+			"txt": "Dávkový sestavovač"
 		},
 		{
 			"id": "ptguiviewer",
@@ -1119,7 +1119,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.fillhere",
-			"txt": "Vyplňte zde"
+			"txt": "Vyplnit zde"
 		},
 		{
 			"id": "mainwindow.maskmenu.red",
@@ -1143,7 +1143,7 @@
 		},
 		{
 			"id": "mainwindow.maskmenu.decreasepencilsize",
-			"txt": "Snížení velikosti tužky"
+			"txt": "Zmenšit velikost tužky"
 		},
 		{
 			"id": "mainwindow.maskmenu.increasepencilsize",
@@ -1187,31 +1187,31 @@
 		},
 		{
 			"id": "batchstitcher.menubar.openbatchlist",
-			"txt": "Načíst seznam dávkového zpracování"
+			"txt": "Otevřít seznam dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.appendbatchlist",
-			"txt": "Přidat seznam dávkového zpracování"
+			"txt": "Připojit seznam dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.recentbatchlists",
-			"txt": "Poslední seznam dávkového zpracování"
+			"txt": "Poslední seznamy dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlist",
-			"txt": "Uložit seznam dávkového zpracování"
+			"txt": "Uložit seznam dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.savebatchlistas",
-			"txt": "Uložit Seznam dávkového zpracování jako"
+			"txt": "Uložit seznam dávek jako"
 		},
 		{
 			"id": "batchstitcher.menubar.autosavebatchlist",
-			"txt": "Automaticky uložit seznam dávkového zpracování"
+			"txt": "Automaticky ukládat seznam dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchlist",
-			"txt": "Zavřít seznam dávkového zpracování"
+			"txt": "Zavřít seznam dávek"
 		},
 		{
 			"id": "batchstitcher.menubar.closebatchstitcherwhenfinished",
@@ -1227,7 +1227,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.ordragdrop",
-			"txt": "... nebo sem přesuňte snímky"
+			"txt": "... nebo sem přetáhnout snímky"
 		},
 		{
 			"id": "mainwindow.projectassistant.addmoreimages",
@@ -1235,7 +1235,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.removeorreorderimages",
-			"txt": "odstraňte nebo přesuňte snímky"
+			"txt": "odstranit nebo přesunout snímky"
 		},
 		{
 			"id": "mainwindow.projectassistant.cameraportraitorientation",
@@ -1257,11 +1257,11 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.isprealigned",
-			"txt": "snímky jsou již zhruba umístěny. Vyhledávat pouze kontrolní body v překrývajících se oblastech."
+			"txt": "Snímky jsou již zhruba umístěny. Vyhledávat pouze kontrolní body v překrývajících se oblastech."
 		},
 		{
 			"id": "mainwindow.projectassistant.alignimages",
-			"txt": "Zarovnejte snímky"
+			"txt": "Zarovnat snímky"
 		},
 		{
 			"id": "mainwindow.projectassistant.needoptimizemessage",
@@ -1269,7 +1269,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.runoptimizer",
-			"txt": "Spusťte optimalizátor"
+			"txt": "Spustit optimalizátor"
 		},
 		{
 			"id": "mainwindow.projectassistant.missingcontrolpoints1",
@@ -1325,7 +1325,7 @@
 		},
 		{
 			"id": "mainwindow.projectassistant.createpanorama",
-			"txt": "Vytvořte panorama"
+			"txt": "Vytvořit panorama"
 		},
 		{
 			"id": "error.invalidnumber",
@@ -1369,7 +1369,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.lenscorrection.distortion",
-			"txt": "Distorze (a / b / c):"
+			"txt": "Zkreslení (a / b / c):"
 		},
 		{
 			"id": "keep",
@@ -1461,7 +1461,7 @@
 		},
 		{
 			"id": "mainwindow.lensparams.setfromexif",
-			"txt": "Nastavte velikost snímače na %0 = %1 (z EXIF)"
+			"txt": "Nastavit velikost snímače na %0 = %1 (z EXIF)"
 		},
 		{
 			"id": "mainwindow.lensparams.loadfromlensdatabase",
@@ -1485,11 +1485,11 @@
 		},
 		{
 			"id": "mainwindow.lensparams.setsensorsizefromdb",
-			"txt": "Nastavte velikost snímače na %0 = %1 (z databáze fotoaparátu)"
+			"txt": "Nastavit velikost snímače na %0 = %1 (z databáze fotoaparátu)"
 		},
 		{
 			"id": "mainwindow.lensparams.savetocameradatabase",
-			"txt": "Uložte do databáze fotoaparátu"
+			"txt": "Uložit do databáze fotoaparátu"
 		},
 		{
 			"id": "mainwindow.lensparams.confirmmakecameradbassociationforimageswithoutexif",
@@ -1617,11 +1617,11 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.heavy",
-			"txt": "Silný"
+			"txt": "Silná"
 		},
 		{
 			"id": "mainwindow.optimizertab.minimizelensdistortion.heavyplusshift",
-			"txt": "Silný + posun objektivu"
+			"txt": "Silná + posun objektivu"
 		},
 		{
 			"id": "mainwindow.optimizertab.optimizeglobally",
@@ -1653,11 +1653,11 @@
 		},
 		{
 			"id": "mainwindow.optimizertab.linkroll",
-			"txt": "Link @roll@"
+			"txt": "Propojit @roll@"
 		},
 		{
 			"id": "mainwindow.optimizertab.linkpitch",
-			"txt": "Link @pitch@"
+			"txt": "Propojit @pitch@"
 		},
 		{
 			"id": "mainwindow.optimizertab.runoptimizer",
@@ -1677,11 +1677,11 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod.truehdr",
-			"txt": "Realné HDR"
+			"txt": "Opravdové HDR"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod.exposurefusion",
-			"txt": "Expozice Splynutí"
+			"txt": "Fúze expozice"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrdisabled",
@@ -1693,7 +1693,7 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapldrpanorama",
-			"txt": "Aplikovat na panorama mapování tónů "
+			"txt": "Tónově mapovat spojené panorama"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.autoexpadjustmentsection",
@@ -1753,15 +1753,15 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusionsettings",
-			"txt": "nastavení splynutí expozice"
+			"txt": "nastavení fúze expozice"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.tonemapsettings",
-			"txt": "nastavení tónové mapy"
+			"txt": "nastavení tónového mapování"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.warningmixhdrldr",
-			"txt": "Váš projekt obsahuje mix HDR a LDR zdrojových snímků. S největší pravděpodobností to povede k nestandardním výsledkům!"
+			"txt": "Váš projekt obsahuje kombinaci HDR a LDR zdrojových snímků. To pravděpodobně povede k neočekávaným výsledkům!"
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.shouldenablehdrmode",
@@ -1809,15 +1809,15 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.generatecp",
-			"txt": "Vytvořte kontrolní body"
+			"txt": "Vytvořit kontrolní body"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.prealigned",
-			"txt": "snímky jsou již přibližně umístěny (pouze vyhledávání v překrývajících se snímcích)"
+			"txt": "Snímky jsou již přibližně umístěny (pouze vyhledávání v překrývajících se snímcích)"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimize",
-			"txt": "Optimalizujte projekt"
+			"txt": "Optimalizovat projekt"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.roughlyarrange",
@@ -1833,11 +1833,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.chooseprojection",
-			"txt": "Vyberte vhodnou projekci"
+			"txt": "Vybrat vhodnou projekci"
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure",
-			"txt": "Proveďte automatické nastavení expozice a barev"
+			"txt": "Provést automatické nastavení expozice a barev"
 		},
 		{
 			"id": "resetdefaults",
@@ -1853,7 +1853,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link",
-			"txt": "Aktivujte režim HDR a propojit jednotlivé HDR expozice"
+			"txt": "Aktivovat režim HDR a propojit jednotlivé HDR expozice"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink",
@@ -1877,11 +1877,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.align",
-			"txt": "Do '@alignimages@' uložte upravený projekt"
+			"txt": "Provést '@alignimages@' a uložit upravený projekt"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.createpanorama",
-			"txt": "Vytvořte panorama"
+			"txt": "Vytvořit panorama"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchstitcheractions.stitchonlyifenoughcontrolpoints",
@@ -1893,11 +1893,11 @@
 		},
 		{
 			"id": "panorama",
-			"txt": "a"
+			"txt": "panorama"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.subheading",
-			"txt": "Pro nové projekty použijte následující výchozí názvy souborů:"
+			"txt": "Pro nové projekty použít následující výchozí názvy souborů:"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.projectfile",
@@ -1909,11 +1909,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.prefixfirstimagefilename",
-			"txt": "předpona prvního snímku"
+			"txt": "předpona názvu prvního snímku"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.prefixfirstimagefoldername",
-			"txt": "předpona první složky"
+			"txt": "předpona názvu první složky"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.name",
@@ -1921,11 +1921,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.savein",
-			"txt": "uložení do"
+			"txt": "uložit do"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.sourceimagefolder",
-			"txt": "Složka zdrojového snímku"
+			"txt": "Složka zdrojových snímků"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.folder",
@@ -1977,15 +1977,15 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior",
-			"txt": "Vlastnosti šablon"
+			"txt": "Chování šablony"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.subheading",
-			"txt": "Pokud je tento projekt použit jako šablona, zkopírujte následující nastavení:"
+			"txt": "Pokud je tento projekt použit jako šablona, zkopírovat následující nastavení:"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.lensandcrop",
-			"txt": "Nastavení objektivu a oříznutí"
+			"txt": "Nastavení objektivu a ořezu"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.imageparameters",
@@ -1993,11 +1993,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.masks",
-			"txt": "Maska snímku"
+			"txt": "Masky snímků"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.panoramasettings",
-			"txt": "Panorama, HDR a výstupní nastavení"
+			"txt": "Nastavení panoramatu, HDR a výstupu"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.projectsettings",
@@ -2005,11 +2005,11 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.optimizersettings",
-			"txt": "Nastavení Optimalizátoru"
+			"txt": "Nastavení optimalizátoru"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cpnotcopiedtxt",
-			"txt": "(kontrolní body nejsou nikdy kopírovány, protože jsou specifické pro skutečné zdrojové snímky)"
+			"txt": "(kontrolní body nejsou nikdy kopírovány, protože jsou specifické pro konkrétní zdrojové snímky)"
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages",
@@ -2025,15 +2025,15 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.linkimages.dontchange",
-			"txt": "Neupravujte způsob propojení snímků"
+			"txt": "Neměnit způsob propojení snímků"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder",
-			"txt": "Vlastnosti Dávkového zpracování"
+			"txt": "Chování dávkového sestavovače"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.subheading",
-			"txt": "Pokud je tento projekt používán jako šablona nástrojem Dávkové zpracování:"
+			"txt": "Pokud je tento projekt používán jako šablona v dávkovém sestavovači:"
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexifshort",
@@ -2041,27 +2041,27 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.batchbuilder.useexif",
-			"txt": "@mainwindow.projectsettings.batchbuilder.useexifshort@ (potlačení nastavení objektivu v této šabloně)"
+			"txt": "@mainwindow.projectsettings.batchbuilder.useexifshort@ (přepíše nastavení objektivu v této šabloně)"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc",
-			"txt": "Smíšený"
+			"txt": "Různé"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexiforientation",
-			"txt": "Automaticky otáčet snímky s označením orientace z EXIF dat"
+			"txt": "Automaticky otáčet snímky podle příznaku orientace v EXIF datech"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.useexif",
-			"txt": "Automaticky použijte nastavení objektivu pomocí EXIF dat při přidávání snímků (kromě Dávkového zpracování)"
+			"txt": "Při přidávání snímků automaticky inicializovat nastavení objektivu pomocí EXIF dat (kromě dávkového sestavovače)"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.askinitializeandoptimize",
-			"txt": "Pokud selže optimalizace: zeptat se, zda má být projekt znovu spuštěn"
+			"txt": "Pokud selže optimalizace: zeptat se, zda má být projekt inicializován a optimalizován"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.supportduallenscameras",
-			"txt": "Podpora panoramatických fotoaparátů s dvojitým objektivem  rybí oko:"
+			"txt": "Podpora pro 360° kamery se dvěma objektivy rybí oko:"
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.supportduallenscameras.no",
@@ -2073,15 +2073,15 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.misc.switchtoequirectforwideanglesourceimages",
-			"txt": "Při načítání širokoúhlého nebo sférického snímku nastavte panorama na 360° rovnoměrné zobrazení"
+			"txt": "Při načítání širokoúhlého nebo sférického snímku nastavit panorama na 360° ekvidistantní válcové zobrazení"
 		},
 		{
 			"id": "mainwindow.imageparameters.image",
-			"txt": "Obraz"
+			"txt": "Snímek"
 		},
 		{
 			"id": "mainwindow.imageparameters.warped",
-			"txt": "Zvlnit"
+			"txt": "Zkroucený"
 		},
 		{
 			"id": "mainwindow.imageparameters.blendpriority",
@@ -2089,7 +2089,7 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.vpprefix",
-			"txt": "HL"
+			"txt": "VP"
 		},
 		{
 			"id": "mainwindow.imageparameters.vpx",
@@ -2125,15 +2125,15 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.fisheyefactor",
-			"txt": "Fisheye faktor"
+			"txt": "Faktor rybího oka"
 		},
 		{
 			"id": "mainwindow.imageparameters.longshift",
-			"txt": "Posunout (dlouhá strana)"
+			"txt": "Posun (dlouhá strana)"
 		},
 		{
 			"id": "mainwindow.imageparameters.shortshift",
-			"txt": "Posunout (krátká strana)"
+			"txt": "Posun (krátká strana)"
 		},
 		{
 			"id": "mainwindow.imageparameters.horzshear",
@@ -2169,15 +2169,15 @@
 		},
 		{
 			"id": "mainwindow.imageparameters.wbred",
-			"txt": "@mainwindow.imageparameters.wbprefix@ červená"
+			"txt": "@mainwindow.imageparameters.wbprefix@ Červená"
 		},
 		{
 			"id": "mainwindow.imageparameters.wbgreen",
-			"txt": "@mainwindow.imageparameters.wbprefix@ zelená"
+			"txt": "@mainwindow.imageparameters.wbprefix@ Zelená"
 		},
 		{
 			"id": "mainwindow.imageparameters.wbblue",
-			"txt": "@mainwindow.imageparameters.wbprefix@ modrá"
+			"txt": "@mainwindow.imageparameters.wbprefix@ Modrá"
 		},
 		{
 			"id": "mainwindow.imageparameters.flare",
@@ -2275,7 +2275,7 @@
 		},
 		{
 			"id": "mainwindow.metadata.orientation1",
-			"txt": "Úhel kompasu: %0° (střed a je %1)."
+			"txt": "Úhel kompasu: %0° (střed je %1)."
 		},
 		{
 			"id": "mainwindow.metadata.orientation2",
@@ -2295,7 +2295,7 @@
 		},
 		{
 			"id": "mainwindow.metadata.useexiflocation",
-			"txt": "Použijte údaje o umístění zdrojových snímků"
+			"txt": "Použít údaje o umístění ze zdrojových snímků"
 		},
 		{
 			"id": "mainwindow.metadata.orientation",
@@ -2303,7 +2303,7 @@
 		},
 		{
 			"id": "mainwindow.metadata.useorientationofsourceimages",
-			"txt": "Použijte údaje o GPS pozici ze zdrojových snímků"
+			"txt": "Použít údaje o orientaci ze zdrojových snímků"
 		},
 		{
 			"id": "north",
@@ -2331,15 +2331,15 @@
 		},
 		{
 			"id": "west",
-			"txt": "Západ"
+			"txt": "západ"
 		},
 		{
 			"id": "northwest",
-			"txt": "Severozápad"
+			"txt": "severozápad"
 		},
 		{
 			"id": "mainwindow.metadata.misc",
-			"txt": "Smíšený"
+			"txt": "Různé"
 		},
 		{
 			"id": "mainwindow.metadata.resolution",
@@ -2351,7 +2351,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize",
-			"txt": "zachovat na:"
+			"txt": "Zachovat na:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.fixsize.megapixels",
@@ -2379,19 +2379,19 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usedefault",
-			"txt": "Použijte výchozí"
+			"txt": "Použít výchozí"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.view",
-			"txt": "Pohled"
+			"txt": "Zobrazit"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.errnooutputfileselected",
-			"txt": "Nebyl vybrán žádný výstupní soubor! Nejprve vytvořte panorama."
+			"txt": "Nebyl vybrán žádný výstupní soubor! Nejprve vytvořit panorama."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputfiledoesnotexist",
-			"txt": "Výstupní soubor neexistuje! Nejprve vytvořte panorama."
+			"txt": "Výstupní soubor neexistuje! Nejprve vytvořit panorama."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.output",
@@ -2423,7 +2423,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.output.hdrblended",
-			"txt": "Panorama HDR"
+			"txt": "Opravdové HDR"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.output.hdrlayers",
@@ -2431,7 +2431,7 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.output.hdrblendplanes",
-			"txt": "HDR rovina prolnutí"
+			"txt": "HDR roviny prolnutí"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.output.ldr",
@@ -2447,23 +2447,23 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.layersin",
-			"txt": "použité vrstvy"
+			"txt": "vrstvy v"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.layerin",
-			"txt": "použitá vrstva"
+			"txt": "vrstva v"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.tonemappedpanorama",
-			"txt": "Panorama z tónového mapovaní"
+			"txt": "Tónově mapované panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.exposurefusedpanorama",
-			"txt": "Expozice fůze panorama"
+			"txt": "Panorama s fúzí expozice"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendedpanorama",
-			"txt": "Sloučené panorama"
+			"txt": "Prolnuté panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputfileprefix",
@@ -2475,47 +2475,47 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.createpanorama",
-			"txt": "Vytvořte panorama"
+			"txt": "Vytvořit panorama"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.saveandsendtobatchstitcher",
-			"txt": "Uložit a odeslat do dávkového zpracování"
+			"txt": "Uložit a odeslat do dávkového sešívače"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing",
-			"txt": "Sloučit pomocí:"
+			"txt": "Prolnout pomocí:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing.enblend",
-			"txt": "Enblend plugin"
+			"txt": "Enblend"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendusing.smartblend",
-			"txt": "Smartblend plugin"
+			"txt": "Smartblend"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather",
-			"txt": "Ostrost sloučení panorama:"
+			"txt": "Šířka prolnutí švů:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather.sharp",
-			"txt": "ostrý"
+			"txt": "ostré"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.feather.soft",
-			"txt": "měkký"
+			"txt": "měkké"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode",
-			"txt": "Režim prolnutí:"
+			"txt": "Režim prolínání:"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.multiband",
-			"txt": "Multipásmové"
+			"txt": "Vícepásmové"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendmode.alpha",
-			"txt": "Sloučení alfa"
+			"txt": "Alfa prolnutí"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator",
@@ -2531,15 +2531,15 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator.bicubicsofter",
-			"txt": "Bicubické měkké"
+			"txt": "Bikubický měkčí"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator.bicubicnormal",
-			"txt": "Bikubické normální"
+			"txt": "Bikubický normální"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.interpolator.bicubicsharper",
-			"txt": "Bicubické ostřejší (Poly3)"
+			"txt": "Bikubický ostřejší (Poly3)"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.restoredefaults",
@@ -2551,11 +2551,11 @@
 		},
 		{
 			"id": "mainwindow.createpanoramatab.stitchingongpu",
-			"txt": "Zpracování na GPU (%0)."
+			"txt": "Spojování na GPU (%0)."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.stitchingoncpu",
-			"txt": "Zpracování na CPU."
+			"txt": "Spojování na CPU."
 		},
 		{
 			"id": "cptable.num",
@@ -2603,19 +2603,19 @@
 		},
 		{
 			"id": "bracketedexposureswindow.title",
-			"txt": "Bracketingová expozice"
+			"txt": "Expoziční řady"
 		},
 		{
 			"id": "bracketedexposureswindow.linktxt",
-			"txt": "Tuto možnost vyberte, pokud byly snímky pořízeny ze stativu a jsou již zarovnány s přesností pixelů."
+			"txt": "Tuto možnost vyberte, pokud byly snímky pořízeny ze stativu a jsou již zarovnány s přesností na pixely."
 		},
 		{
 			"id": "bracketedexposureswindow.dontlinktxt",
-			"txt": "Zvolte tuto možnost, pokud byly snímky pořízeny ručně. PTGui se pokusí zarovnat jednotlivé expozice."
+			"txt": "Zvolte tuto možnost, pokud byly snímky pořízeny z ruky. PTGui se pokusí zarovnat jednotlivé expozice."
 		},
 		{
 			"id": "bracketedexposureswindow.nohdr",
-			"txt": "Toto pravděpodobně není sada expozic HDR. Neumožňujte režim HDR."
+			"txt": "Toto pravděpodobně není expoziční řada HDR. Nepovolovat režim HDR."
 		},
 		{
 			"id": "bracketedexposureswindow.hdrmethod",
@@ -2623,7 +2623,7 @@
 		},
 		{
 			"id": "cubefacenaming.egpanorama",
-			"txt": "např .: panorama"
+			"txt": "např.: panorama"
 		},
 		{
 			"id": "cubefacenaming.errfillall",
@@ -2631,15 +2631,15 @@
 		},
 		{
 			"id": "cubefacenaming.errsame",
-			"txt": "Zadejte prosím v každé oblasti jinou hodnotu."
+			"txt": "Zadejte prosím v každém poli jinou hodnotu."
 		},
 		{
 			"id": "cubefacenaming.title",
-			"txt": "Cube Face pojmenování"
+			"txt": "Pojmenování stěn krychle"
 		},
 		{
 			"id": "cubefacenaming.heading",
-			"txt": "Přípony pro Cube face snímky:"
+			"txt": "Přípony pro snímky stěn krychle:"
 		},
 		{
 			"id": "cubefacenaming.front",
@@ -2647,7 +2647,7 @@
 		},
 		{
 			"id": "cubefacenaming.right",
-			"txt": "Pravý:"
+			"txt": "Pravá:"
 		},
 		{
 			"id": "cubefacenaming.back",
@@ -2655,7 +2655,7 @@
 		},
 		{
 			"id": "cubefacenaming.left",
-			"txt": "Vlevo:"
+			"txt": "Levá:"
 		},
 		{
 			"id": "cubefacenaming.top",
@@ -2668,7 +2668,7 @@
 		{
 			"id": "philosphere.heading",
 			"format": "html",
-			"txt": "PhiloSpera je projekce panoramatického snímku na mhohostěn, který se blíží skutečnému tvaru oblohy. Je to pravděpodobně nejlepší způsob, jak vytisknout panoramatické snímky. Tento způsob vymyslel Philo, <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">navštivte jeho webové stránky pro více informací.</a><br><br>Chcete-li vytvořit PhiloSpeere, klepněte na tlačítko <b>@philosphere.start@</b> . Budete vyzváni k lokalizaci vašeho panoramatického snímku. Mělo by se jednat o 360° x 180° panorama v rovně přímočaré projekci. PTGui vytvoří dva snímky, které můžete vytisknout, skládat a lepit do PhiloSphery."
+			"txt": "PhiloSphere je projekce panoramatického snímku na mnohostěn, který se blíží skutečnému tvaru koule. Je to pravděpodobně nejlepší způsob, jak vytisknout panoramatické snímky. Tento způsob vymyslel Philo, <a href=\"http://www.philohome.com/rhombicuboctahedron/rhombicuboctahedron.htm\">navštivte jeho webové stránky pro více informací.</a><br><br>Chcete-li vytvořit PhiloSpheru, klepněte na tlačítko <b>@philosphere.start@</b>. Budete vyzváni k výběru vašeho panoramatického snímku. Mělo by se jednat o 360° x 180° panorama v ekvidistantní válcové projekci. PTGui vytvoří dva snímky, které můžete vytisknout, vystřihnout a slepit do PhiloSphery."
 		},
 		{
 			"id": "philosphere.outputsize",
@@ -2680,11 +2680,11 @@
 		},
 		{
 			"id": "philosphere.warn_not_2_1",
-			"txt": "Chcete-li vytvořit PhiloSpheru, je potřeba 360° x 180° rovný přímý obrazec. Takový obraz má poměr šířka / výška 2: 1. Zvolený snímek má jiný poměr stran; výsledek pravděpodobně nebude dobrý.\n\nPřesto pokračovat?"
+			"txt": "Chcete-li vytvořit PhiloSpheru, je potřeba 360° x 180° ekvidistantní válcový obraz. Takový obraz má poměr šířka / výška 2:1. Zvolený snímek má jiný poměr stran; výsledek pravděpodobně nebude dobrý.\n\nPřesto pokračovat?"
 		},
 		{
 			"id": "philosphere.savepart",
-			"txt": "Uložit Philospheru (část %0)"
+			"txt": "Uložit PhiloSpheru (část %0)"
 		},
 		{
 			"id": "philosphere.jpgfiles",
@@ -2696,7 +2696,7 @@
 		},
 		{
 			"id": "philosphere.title",
-			"txt": "Vytvořit PhiloSphery"
+			"txt": "Vytvořit PhiloSpheru"
 		},
 		{
 			"id": "photometricsettings.onlyifnecessary",
@@ -2712,7 +2712,7 @@
 		},
 		{
 			"id": "photometricsettings.optimizeexposure.finetune",
-			"txt": "Povoleno (pouze jemná ladění)"
+			"txt": "Povoleno (pouze jemné ladění)"
 		},
 		{
 			"id": "photometricsettings.optimizeexposure.full",
@@ -2728,7 +2728,7 @@
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance.info.enabled",
-			"txt": "Vaše snímky byly pořízeny s automatickou vyvážení bílé.\nVyvážení bílé bude optimalizováno."
+			"txt": "Vaše snímky byly pořízeny s automatickým vyvážením bílé.\nVyvážení bílé bude optimalizováno."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance.info.disabled",
@@ -2736,7 +2736,7 @@
 		},
 		{
 			"id": "photometricsettings.optimizeflare",
-			"txt": "Optimalizujte @lensflare@:"
+			"txt": "Optimalizovat @lensflare@:"
 		},
 		{
 			"id": "photometricsettings.images",
@@ -2744,7 +2744,7 @@
 		},
 		{
 			"id": "photometricsettings.global",
-			"txt": "Globální:"
+			"txt": "Globálně:"
 		},
 		{
 			"id": "photometricsettings.percamera",
@@ -2756,11 +2756,11 @@
 		},
 		{
 			"id": "photometricsettings.optimizevignetting",
-			"txt": "Optimalizace vignetování:"
+			"txt": "Optimalizovat vinětaci:"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve",
-			"txt": "Křivka odezvy fotoaparátůy:"
+			"txt": "Křivka odezvy fotoaparátu:"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.automatic",
@@ -2768,15 +2768,15 @@
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.generate",
-			"txt": "Vytvořit nový"
+			"txt": "Vytvořit novou"
 		},
 		{
 			"id": "photometricsettings.cameraresponsecurve.usedefault",
-			"txt": "Použijte výchozí křivku"
+			"txt": "Použít výchozí křivku"
 		},
 		{
 			"id": "photometricsettings.title",
-			"txt": "Nastavení expozice a nastavení barev"
+			"txt": "Nastavení expozice a barev"
 		},
 		{
 			"id": "previewappselector.openinptguiviewer",
@@ -2829,11 +2829,11 @@
 		},
 		{
 			"id": "options.theme",
-			"txt": "Téma:"
+			"txt": "Motiv:"
 		},
 		{
 			"id": "options.theme.dark",
-			"txt": "Temný"
+			"txt": "Tmavý"
 		},
 		{
 			"id": "options.theme.light",
@@ -2841,7 +2841,7 @@
 		},
 		{
 			"id": "options.requiresrestart",
-			"txt": "(je vyžadován restart)"
+			"txt": "(vyžaduje restart)"
 		},
 		{
 			"id": "options.language",
@@ -2853,7 +2853,7 @@
 		},
 		{
 			"id": "options.tooltipmode",
-			"txt": "Zobrazit tipy:"
+			"txt": "Zobrazovat nápovědu:"
 		},
 		{
 			"id": "options.tooltipmode.no",
@@ -2865,15 +2865,15 @@
 		},
 		{
 			"id": "options.tooltipmode.onlytoolbars",
-			"txt": "Pouze pro ikony panelu nástrojů"
+			"txt": "Pouze pro ikony panelů nástrojů"
 		},
 		{
 			"id": "options.showroundedvalues",
-			"txt": "Zobrazit zaokrouhlené hodnoty, pokud kurzor není v číselném poli"
+			"txt": "Zobrazovat zaokrouhlené hodnoty, pokud kurzor není v číselném poli"
 		},
 		{
 			"id": "options.checkforupdates",
-			"txt": "Automaticky zkontrolovat aktualizace softwaru"
+			"txt": "Automaticky kontrolovat aktualizace softwaru"
 		},
 		{
 			"id": "options.checkforupdates.beta",
@@ -2881,15 +2881,15 @@
 		},
 		{
 			"id": "options.resetwarnings",
-			"txt": "Restartovat všechna upozornění"
+			"txt": "Resetovat všechna upozornění"
 		},
 		{
 			"id": "options.autoaddrelatedimages.enabled",
-			"txt": "Při přidávání jednoho snímku doporučujeme přidat další snímky pořízené ve stejnou dobu"
+			"txt": "Při přidávání jednoho snímku doporučit přidání dalších snímků pořízených ve stejnou dobu"
 		},
 		{
 			"id": "options.autoaddrelatedimages.threshold",
-			"txt": "až do:"
+			"txt": "do:"
 		},
 		{
 			"id": "options.autoaddrelatedimages.secondsbetweenshots",
@@ -2897,23 +2897,23 @@
 		},
 		{
 			"id": "options.autoaddrelatedimages.useexifdate",
-			"txt": "Použijte původní datum / čas natáčení z dat EXIF"
+			"txt": "Použít původní datum / čas pořízení z EXIF dat"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone",
-			"txt": "Po odeslání projektů do dávkového zpracování:"
+			"txt": "Po odeslání projektů do dávkového sešívače:"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone.yes",
-			"txt": "Po dokončení zavřete Dávkové zpracování"
+			"txt": "Po dokončení zavřít dávkový sešívač"
 		},
 		{
 			"id": "options.batchstitcher.closewhendone.no",
-			"txt": "Nechat Dávkové zpracování otevřené"
+			"txt": "Nechat dávkový sešívač otevřený"
 		},
 		{
 			"id": "options.showintaskbar",
-			"txt": "Zobrazit v panelu úloh:"
+			"txt": "Zobrazit v hlavním panelu:"
 		},
 		{
 			"id": "options.showintaskbar.mainwindow",
@@ -2929,27 +2929,27 @@
 		},
 		{
 			"id": "options.mousewheelaction.mac.scrolling",
-			"txt": "Posouvání (přidržte stisknutou klávesu Cmd pro přiblížení)"
+			"txt": "Posouvání (přidržet Cmd pro přiblížení)"
 		},
 		{
 			"id": "options.mousewheelaction.mac.zooming",
-			"txt": "Přiblížení (držte stisknutou klávesu Cmd pro posouvání)"
+			"txt": "Přiblížení (přidržet Cmd pro posouvání)"
 		},
 		{
 			"id": "options.mousewheelaction.nonmac.scrolling",
-			"txt": "Posouvání (přidržením klávesy Ctrl pro zvětšení)"
+			"txt": "Posouvání (přidržet Ctrl pro přiblížení)"
 		},
 		{
 			"id": "options.mousewheelaction.nonmac.zooming",
-			"txt": "Přiblížení (podržením klávesy Ctrl pro rolování)"
+			"txt": "Přiblížení (přidržet Ctrl pro posouvání)"
 		},
 		{
 			"id": "options.disablemouserepositioning",
-			"txt": "Zakázat přesunutí ukazatele myši"
+			"txt": "Zakázat přemísťování ukazatele myši"
 		},
 		{
 			"id": "options.disablemouserepositioning.txt",
-			"txt": "(vyberte při použití tabletu, tužky nebo dotykové obrazovky)"
+			"txt": "(vyberte při použití tabletu, pera nebo dotykové obrazovky)"
 		},
 		{
 			"id": "options.defaultsettings.txt",
@@ -3194,7 +3194,7 @@
 		},
 		{
 			"id": "options.useatownrisk",
-			"txt": "Používejte na vlastní nebezpečí - toto zařízení momentálně není podporováno"
+			"txt": "Použít na vlastní nebezpečí - toto zařízení momentálně není podporováno"
 		},
 		{
 			"id": "options.applications",
@@ -3202,7 +3202,7 @@
 		},
 		{
 			"id": "options.errtxttempfolders",
-			"txt": "Zkontrolujte nastavení pro Dočasné soubory. Pokud máte pochybnosti, nechte tuto sekci prázdnou. V tom případě PTGui automaticky vybere vhodnou složku."
+			"txt": "Zkontrolujte nastavení pro dočasné soubory. Pokud si nejste jisti, ponechte tuto sekci prázdnou. PTGui automaticky vybere vhodnou složku."
 		},
 		{
 			"id": "about.version",
@@ -3210,39 +3210,39 @@
 		},
 		{
 			"id": "about.websiteandsupport",
-			"txt": "Webová stránka a podpora:"
+			"txt": "Web a podpora:"
 		},
 		{
 			"id": "licenseinfo.personal.singlecomputer",
-			"txt": "Používáte osobní licenci pro jeden počítač. PTGui může být použito pouze %0."
+			"txt": "Používáte osobní licenci pro jeden počítač. PTGui smí používat pouze %0."
 		},
 		{
 			"id": "licenseinfo.personal.multipleecomputers",
-			"txt": "Používáte osobní licenci. Může být aktivován až na %1 počítačích, ale PTGui může být v těchto počítačích používán pouze %0."
+			"txt": "Používáte osobní licenci. Může být aktivována až na %1 počítačích, ale PTGui smí v daném čase používat pouze %0."
 		},
 		{
 			"id": "licenseinfo.company.singlecomputer",
-			"txt": "Používáte licenci společnosti. Každý licenční klíč lze aktivovat v jediném počítači, který vlastní %0. PTGui může používat každý uživatel na tomto počítači."
+			"txt": "Používáte firemní licenci. Každý licenční klíč lze aktivovat na jednom počítači vlastněném společností %0. PTGui může používat jakýkoliv uživatel na daném počítači."
 		},
 		{
 			"id": "licenseinfo.company.multipleecomputers",
-			"txt": "Používáte licenci společnosti. Může být aktivován až na %1 počítačích, které vlastní %0. PTGui může používat každý uživatel vna tomto počítači."
+			"txt": "Používáte firemní licenci. Může být aktivována až na %1 počítačích vlastněných společností %0. PTGui může používat jakýkoliv uživatel na daných počítačích."
 		},
 		{
 			"id": "licenseinfo.activationcount",
-			"txt": "Vaše licence je aktuálně aktivována na %0 ze %1 počítačů."
+			"txt": "Vaše licence je aktuálně aktivována na %0 z %1 počítačů."
 		},
 		{
 			"id": "licenseinfo.expiretxt",
-			"txt": "Jedná se o dočasnou licenci, která končí v %0."
+			"txt": "Toto je dočasná licence, která vyprší %0."
 		},
 		{
 			"id": "licenseinfo.expiredtxt",
-			"txt": "Jedná se o dočasnou licenci, která vypršela na adrese %0."
+			"txt": "Toto je dočasná licence, která vypršela %0."
 		},
 		{
 			"id": "licenseinfo.expiredtxt1",
-			"txt": "Jedná se o dočasnou licenci, která vypršela."
+			"txt": "Toto je dočasná licence, která vypršela."
 		},
 		{
 			"id": "licenseinfo.invalidkey",
@@ -3254,23 +3254,23 @@
 		},
 		{
 			"id": "licenseinfo.deactivatetxt",
-			"txt": "Stiskněte tlačítko @licenseinfo.deactivate@, chcete-li tuto licenci přesunout do jiného počítače nebo použít jiný licenční klíč v tomto počítači."
+			"txt": "Klikněte na tlačítko @licenseinfo.deactivate@, chcete-li tuto licenci přesunout do jiného počítače nebo použít jiný licenční klíč na tomto počítači."
 		},
 		{
 			"id": "licenseinfo.deactivatewarning",
-			"txt": "Tímto způsobem deaktivujete licenci PTGui v tomto počítači. Udělejte to, pokud chcete přesunout PTGui do jiného počítače nebo chcete-li použít jiný licenční klíč v tomto počítači.\n\nPokud budete pokračovat, PTGui se ukončí, proto nejprve uložte svou práci."
+			"txt": "Tímto deaktivujete licenci PTGui na tomto počítači. Proveďte to, pokud chcete přesunout PTGui do jiného počítače nebo použít jiný licenční klíč na tomto počítači.\n\nPokud budete pokračovat, PTGui se ukončí, proto si nejprve uložte práci."
 		},
 		{
 			"id": "licenseinfo.manageactivations",
-			"txt": "Spravovat vaše aktivace"
+			"txt": "Spravovat aktivace"
 		},
 		{
 			"id": "licenseinfo.hardwarechanges",
-			"txt": "Software musí být znovu aktivován kvůli změnám hardwarové konfigurace."
+			"txt": "Software musí být znovu aktivován kvůli změnám v hardwarové konfiguraci."
 		},
 		{
 			"id": "licenseinfo.needprokey",
-			"txt": "Váš licenční klíč platí pouze pro standardní verzi PTGui. Zadejte prosím licenční klíč pro PTGui Pro nebo místo toho stáhněte standardní verzi."
+			"txt": "Váš licenční klíč platí pouze pro standardní verzi PTGui. Zadejte prosím licenční klíč pro PTGui Pro nebo si stáhněte standardní verzi."
 		},
 		{
 			"id": "licenseinfo.oldkey",
@@ -3298,11 +3298,11 @@
 		},
 		{
 			"id": "activateoffline",
-			"txt": "Aktivovat službu offline"
+			"txt": "Aktivovat offline"
 		},
 		{
 			"id": "licenseinfo.failure",
-			"txt": "Nepodařilo se vám aktivovat licenci. Možná, že váš počítač chrání brána firewall, nebo internetový bezpečnostní software brání přístupu k aktivačnímu serveru.\n\nPokud problém přetrvává, použijte místo toho aktivaci offline: po odmítnutí tohoto okna stiskněte @activateoffline@.\n\nChybová zpráva: %0"
+			"txt": "Nepodařilo se aktivovat licenci. Možná váš počítač chrání firewall nebo bezpečnostní software brání přístupu k aktivačnímu serveru.\n\nPokud problém přetrvává, použijte offline aktivaci: po zavření tohoto okna klikněte na @activateoffline@.\n\nChybová zpráva: %0"
 		},
 		{
 			"id": "licenseinfo.deactivationfailed",
@@ -3310,15 +3310,15 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation1",
-			"txt": "V jiném počítači přejděte na stránku %0\n\nZde zadejte své registrační jméno a klíč a následující kód:\n\n"
+			"txt": "Na jiném počítači přejděte na %0\n\nZde zadejte své registrační jméno a klíč a následující kód:\n\n"
 		},
 		{
 			"id": "licenseinfo.offlineactivation2",
-			"txt": "Aktivační webová stránka vygeneruje odpovídající kód; zadejte jej níže:"
+			"txt": "Aktivační web vygeneruje odpovědní kód; zadejte jej níže:"
 		},
 		{
 			"id": "licenseinfo.offlineactivation3",
-			"txt": "Zadejte odpovídající kód vygenerovaný webovou stránkou."
+			"txt": "Zadejte odpovědní kód vygenerovaný webovou stránkou."
 		},
 		{
 			"id": "licenseinfo.installforallusers",
@@ -3326,84 +3326,84 @@
 		},
 		{
 			"id": "licenseinfo.offlineactivation.errnostartmarker",
-			"txt": "Odpovídající kód by měl začínat:\n%0\n\nZadejte celou odpověď, včetně tohoto řádku."
+			"txt": "Odpovědní kód by měl začínat:\n%0\n\nVložte celou odpověď včetně tohoto řádku."
 		},
 		{
 			"id": "licenseinfo.offlineactivation.errnoendmarker",
-			"txt": "Odpovídající kód by měl skončit:\n%0\n\nZadejte celou odpověď, včetně tohoto řádku."
+			"txt": "Odpovědní kód by měl končit:\n%0\n\nVložte celou odpověď včetně tohoto řádku."
 		},
 		{
 			"id": "licenseinfo.offlineactivation.errinvalidresponse",
-			"txt": "Neplatný Odpovídající kód. Ujistěte se, že kód je kopírován / vložen bez chyb."
+			"txt": "Neplatný odpovědní kód. Ujistěte se, že kód je zkopírován bez chyb."
 		},
 		{
 			"id": "licenseagreement.title",
-			"txt": "Licenční smlouva"
+			"txt": "Licenční ujednání"
 		},
 		{
 			"id": "licenseagreement.save",
-			"txt": "Uložit licenční smlouvu"
+			"txt": "Uložit licenční ujednání"
 		},
 		{
 			"id": "licenseagreement.accept",
-			"txt": "Ruzumím a souhlasím s touto licenční smlouvou"
+			"txt": "Rozumím a souhlasím s tímto licenčním ujednáním"
 		},
 		{
 			"id": "licenseagreement.useissubject",
-			"txt": "Použití tohoto softwaru podléhá následujícím podmínkám:"
+			"txt": "Používání tohoto softwaru podléhá následujícím podmínkám:"
 		},
 		{
 			"id": "licenseagreement.privacy",
 			"format": "html",
-			"txt": "Vaše údaje jsou zpracovávány v souladu s naším <a href=0>prohlášením o ochraně osobních údajů</a> ."
+			"txt": "Vaše údaje jsou zpracovávány v souladu s naším <a href=0>prohlášením o ochraně soukromí</a>."
 		},
 		{
 			"id": "licenseagreement.savetofile",
-			"txt": "(uložit do souboru ...)"
+			"txt": "(uložit do souboru...)"
 		},
 		{
 			"id": "licenseagreement.thanksforusing",
-			"txt": "Díky za používání %0!"
+			"txt": "Děkujeme, že používáte %0!"
 		},
 		{
 			"id": "licenseagreement.thanksfortrying",
-			"txt": "Díky, že jste zkusili %0!"
+			"txt": "Děkujeme, že zkoušíte %0!"
 		},
 		{
 			"id": "txt.welcomevideotutorial",
-			"txt": "Vítejte na %0! Pokud používáte PTGui poprvé, doporučujeme vám podívat se na video tutoriál. Chtěli byste to udělat teď?"
+			"txt": "Vítejte v %0! Pokud používáte PTGui poprvé, doporučujeme shlédnout video tutoriál. Chcete to udělat nyní?"
 		},
 		{
 			"id": "txt.welcomevideotutorial.later",
-			"txt": "Žádný problém. Videa tutoriály můžete kdykoli sledovat výběrem položky @menubar.help@ | @menubar.help.videotutorial@."
+			"txt": "Žádný problém. Video tutoriály můžete shlédnout kdykoliv výběrem @menubar.help@ | @menubar.help.videotutorial@."
 		},
 		{
 			"id": "txt.seewhatsnew",
-			"txt": "Děkujeme za upgrade na %0 verzi %1!\n\nChtěli byste vidět, co je v tomto vydání nové?"
+			"txt": "Děkujeme za upgrade %0 na verzi %1!\n\nChcete se podívat, co je v této verzi nového?"
 		},
 		{
 			"id": "txt.seewhatsnew.later",
-			"txt": "Žádný problém. Tyto informace můžete kdykoli zobrazit výběrem položky '@menubar.help@ | @menubar.help.whatsnew@'."
+			"txt": "Žádný problém. Tyto informace si můžete kdykoliv zobrazit výběrem '@menubar.help@ | @menubar.help.whatsnew@'."
 		},
 		{
 			"id": "txt.wouldyouliketogotooptions",
-			"txt": "Chtěli byste jít na %0, abyste to opravili?"
+			"txt": "Chcete přejít do %0 a opravit to?"
 		},
 		{
 			"id": "txt.dontcheckforupdatesanymore",
-			"txt": "Již nadále nesledovat nové aktualizace"
+			"txt": "Již nekontrolovat aktualizace"
 		},
 		{
 			"id": "err.failedtocheckforupdates",
-			"txt": "Nepodařilo se zkontrolovat aktualizace. Zkuste to prosím znovu později nebo navštivte www.ptgui.com a zjistěte, zda je k dispozici nová verze."
+			"txt": "Nepodařilo se zkontrolovat aktualizace. Zkuste to prosím později nebo navštivte www.ptgui.com a zjistěte, zda je k dispozici nová verze."
 		},
 		{
 			"id": "txt.newversionavailable",
-			"txt": "K dispozici je nová verze, %0 %1! Chcete nyní upgradovat?"
+			"txt": "Je k dispozici nová verze, %0 %1! Chcete nyní provést upgrade?"
 		},
 		{
 			"id": "txt.ptguiuptodate",
-			"txt": "PTGui v tomto počítači je aktuální."
+			"txt": "Verze PTGui v tomto počítači je aktuální."
 		},
 		{
 			"id": "txt.trialversion",
@@ -3411,37 +3411,37 @@
 		},
 		{
 			"id": "txt.licensedto",
-			"txt": "%0 licencovaný k %1"
+			"txt": "%0 licencováno pro %1"
 		},
 		{
 			"id": "txt.licensedtohtml",
 			"format": "html",
-			"txt": "%0 licencovaný k <b>%1</b>"
+			"txt": "%0 licencováno pro <b>%1</b>"
 		},
 		{
 			"id": "txt.newversiondownloadlink",
-			"txt": "Odkaz na stažení se otevře ve webovém prohlížeči. Klepnutím na tlačítko OK přepněte do webového prohlížeče a pokračujte v upgradu."
+			"txt": "Odkaz ke stažení se otevře ve webovém prohlížeči. Kliknutím na OK přejděte do prohlížeče a pokračujte v upgradu."
 		},
 		{
 			"id": "txt.optimizerresult",
 			"format": "html",
-			"txt": "Optimalizátor optimalizoval panorama a vrátil následující výsledky:<br><br>Průměrná vzdálenost kontrolních bodů: %0<br>Minimální vzdálenost kontrolních bodů: %1<br>Maximální vzdálenost mezi kontrolními body: %2<br><br>(měřeno v pixelech zdrojového snímku)<br><br>Toto je %3<br><br>Chcete přijmout změny provedené optimalizátorem?"
+			"txt": "Optimalizátor dokončil práci s následujícími výsledky:<br><br>Průměrná vzdálenost kontrolních bodů: %0<br>Minimální vzdálenost kontrolních bodů: %1<br>Maximální vzdálenost kontrolních bodů: %2<br><br>(měřeno v pixelech zdrojového snímku)<br><br>Výsledek je: %3<br><br>Chcete přijmout změny provedené optimalizátorem?"
 		},
 		{
 			"id": "txt.optimizerresult.toogood",
-			"txt": "příliš dobré na to, aby to byla pravda"
+			"txt": "příliš dobrý, než aby to byla pravda"
 		},
 		{
 			"id": "txt.optimizerresult.verygood",
-			"txt": "velmi dobré"
+			"txt": "velmi dobrý"
 		},
 		{
 			"id": "txt.optimizerresult.good",
-			"txt": "dobré"
+			"txt": "dobrý"
 		},
 		{
 			"id": "txt.optimizerresult.notbad",
-			"txt": "není to špatné"
+			"txt": "ujde to"
 		},
 		{
 			"id": "txt.optimizerresult.notsogood",
@@ -3449,31 +3449,31 @@
 		},
 		{
 			"id": "txt.optimizerresult.bad",
-			"txt": "špatné"
+			"txt": "špatný"
 		},
 		{
 			"id": "txt.optimizerresult.verybad",
-			"txt": "velmi špatné"
+			"txt": "velmi špatný"
 		},
 		{
 			"id": "systeminformation.heading",
-			"txt": "Informace o počítači:"
+			"txt": "Systémové informace:"
 		},
 		{
 			"id": "txt.unknownormanuallens",
-			"txt": "Neznámé nebo manuální objektivy"
+			"txt": "Neznámý nebo manuální objektiv"
 		},
 		{
 			"id": "txt.genericfisheye",
-			"txt": "Rybí oko"
+			"txt": "rybí oko"
 		},
 		{
 			"id": "txt.genericxfisheye",
-			"txt": "Rybí oko %0"
+			"txt": "rybí oko %0"
 		},
 		{
 			"id": "txt.runningx",
-			"txt": "%0 pracuje ..."
+			"txt": "%0 běží..."
 		},
 		{
 			"id": "err.blendernotconfigured",
@@ -3481,19 +3481,19 @@
 		},
 		{
 			"id": "err.blendernotfound",
-			"txt": "Nakonfigurovaná aplikace %0 nebyla nalezena. Zkontrolujte nastavení v %1 - @options.plugins@."
+			"txt": "Konfigurovaná aplikace %0 nebyla nalezena. Zkontrolujte nastavení v %1 - @options.plugins@."
 		},
 		{
 			"id": "err.blenderfailed",
-			"txt": "%0 nezdařilo se s kódem chyby %1."
+			"txt": "%0 selhal s chybovým kódem %1."
 		},
 		{
 			"id": "err.blenderfailed.witherror",
-			"txt": "%0 nezdařilo se s kódem chyby %1 zároveň byla nahlášena následující chyba:\n\n%2"
+			"txt": "%0 selhal s chybovým kódem %1 a nahlásil následující chybu:\n\n%2"
 		},
 		{
 			"id": "err.blenderfailednooutput",
-			"txt": "%0 selhalo: výstupní soubor nebyl generován. Může to být způsobeno nedostatkem paměti nebo místem na disku. Zkuste vytvořit panorama v menší velikosti."
+			"txt": "%0 selhal: nebyl vygenerován výstupní soubor. To může být způsobeno nedostatkem paměti nebo místa na disku. Zkuste vytvořit panorama v menší velikosti."
 		},
 		{
 			"id": "err.invalidvalue",
@@ -3501,23 +3501,23 @@
 		},
 		{
 			"id": "err.invalidjpegdata",
-			"txt": "Byly zjištěny neplatné údaje JPEG"
+			"txt": "Zjištěna neplatná JPEG data"
 		},
 		{
 			"id": "err.notajpegfile",
-			"txt": "JPEG soubor ne"
+			"txt": "není soubor JPEG"
 		},
 		{
 			"id": "err.jpegtoolarge",
-			"txt": "Soubory JPEG nesmí být širší nebo vyšší než obrazové body %0."
+			"txt": "Soubory JPEG nesmí být širší nebo vyšší než %0 pixelů."
 		},
 		{
 			"id": "err.jpeg.exiftoolarge",
-			"txt": "Nepodařilo se zapsat soubor JPEG: Velikost EXIF přesahuje 64 kb"
+			"txt": "Nepodařilo se zapsat soubor JPEG: Velikost EXIF dat přesahuje 64 kB"
 		},
 		{
 			"id": "err.jpeg.unsupportednumcomponents",
-			"txt": "Chyba JPEG: Nepodporovaný počet komponentů: %0"
+			"txt": "Chyba JPEG: Nepodporovaný počet komponent: %0"
 		},
 		{
 			"id": "err.jpegerror",
@@ -3525,23 +3525,23 @@
 		},
 		{
 			"id": "err.hdrrequirespro",
-			"txt": "snímky HDR jsou podporovány pouze verzí PTGui Pro."
+			"txt": "HDR snímky jsou podporovány pouze ve verzi PTGui Pro."
 		},
 		{
 			"id": "err.failedtoreadfolder",
-			"txt": "Složku se nepodařilo přečíst: %0"
+			"txt": "Nepodařilo se přečíst složku: %0"
 		},
 		{
 			"id": "err.failedtoopenfileforwriting",
-			"txt": "Nelze otevřít soubor pro zápis: %0"
+			"txt": "Nepodařilo se otevřít soubor pro zápis: %0"
 		},
 		{
 			"id": "err.failedtoopenfileforreading",
-			"txt": "Nelze otevřít soubor pro čtení: %0"
+			"txt": "Nepodařilo se otevřít soubor pro čtení: %0"
 		},
 		{
 			"id": "err.failedtoopenfileforwriting.containingdirnotexist",
-			"txt": "Nelze zapsat do souboru:\n%0\n\nprotože složka neexistuje:\n%1"
+			"txt": "Nepodařilo se zapsat do souboru:\n%0\n\nprotože složka neexistuje:\n%1"
 		},
 		{
 			"id": "batchbuilder.err.nosubfolders",
@@ -3549,39 +3549,39 @@
 		},
 		{
 			"id": "batchbuilder.err.nosubfoldersstartingwith",
-			"txt": "Žádné podsložky začínající na '%1' nebyly ve složce nalezeny : %0"
+			"txt": "Ve složce %0 nebyly nalezeny žádné podsložky začínající na '%1'."
 		},
 		{
 			"id": "batchbuilder.err.nosubfolders2",
-			"txt": "Tento režim vyžaduje, aby existovalo více podsložek, z nichž každý má stejný počet snímků."
+			"txt": "Tento režim vyžaduje existenci více podsložek, přičemž každá musí obsahovat stejný počet snímků."
 		},
 		{
 			"id": "batchbuilder.err.subfoldershavedifferetnumberofimages",
-			"txt": "Podsložky obsahují různý počet snímků. Každá podsložka by měla obsahovat stejný počet snímků.\n\nSložka '%0' obsahuje snímky %1;\nSložka '%2' obsahuje snímky %3."
+			"txt": "Podsložky obsahují různý počet snímků. Každá podsložka by měla obsahovat stejný počet snímků.\n\nSložka '%0' obsahuje %1 snímků;\nSložka '%2' obsahuje %3 snímků."
 		},
 		{
 			"id": "batchbuilder.err.noimagefiles",
-			"txt": "Ve složce nebyly nalezeny žádné obrazové soubory: %0"
+			"txt": "Ve složce nebyly nalezeny žádné soubory snímků: %0"
 		},
 		{
 			"id": "batchbuilder.err.noimagefileswithextension",
-			"txt": "Žádné soubory snímků s příponou %1 nebyly ve složce nalezeny : %0"
+			"txt": "Ve složce %0 nebyly nalezeny žádné soubory snímků s příponou %1."
 		},
 		{
 			"id": "batchbuilder.generatingprojects",
-			"txt": "Generování projektových souborů"
+			"txt": "Generování souborů projektů"
 		},
 		{
 			"id": "batchbuilder.detectpanoramas",
-			"txt": "Detekce panoramat"
+			"txt": "Detekovat panoramata"
 		},
 		{
 			"id": "batchbuilder.selectimagesmanually",
-			"txt": "Vyberat snímky ručně"
+			"txt": "Vybrat snímky ručně"
 		},
 		{
 			"id": "batchbuilder.generateprojects",
-			"txt": "Vygenerovat projekty"
+			"txt": "Generovat projekty"
 		},
 		{
 			"id": "batchbuilder.generateprojects1",
@@ -3593,31 +3593,31 @@
 		},
 		{
 			"id": "batchbuilder.alignmode",
-			"txt": "Dávkové zpracování"
+			"txt": "Dávkový sešívač"
 		},
 		{
 			"id": "batchbuilder.alignmode.true",
-			"txt": "bude spuštěn \"@alignimages@\" pro každý jednotlivý projekt před vytvořením a"
+			"txt": "před vytvořením panoramatu spustí \"@alignimages@\" pro každý projekt"
 		},
 		{
 			"id": "batchbuilder.alignmode.false",
-			"txt": "nespustí '@alignimages@'. Každé a bude vytvořeno přesně jako šablona."
+			"txt": "nespustí '@alignimages@'. Každé panorama bude vytvořeno přesně podle šablony."
 		},
 		{
 			"id": "batchbuilder.savetobatchlist",
-			"txt": "Uložit do seznamu dávkového zpracování:"
+			"txt": "Uložit do seznamu dávek:"
 		},
 		{
 			"id": "batchbuilder.removeproject",
-			"txt": "Odstraňit projekt"
+			"txt": "Odstranit projekt"
 		},
 		{
 			"id": "batchbuilder.removeprojects",
-			"txt": "Odstraňit projekty"
+			"txt": "Odstranit projekty"
 		},
 		{
 			"id": "batchbuilder.combineprojects",
-			"txt": "Kombinovat projekty"
+			"txt": "Sloučit projekty"
 		},
 		{
 			"id": "batchbuilder.addimagestoproject",
@@ -3625,7 +3625,7 @@
 		},
 		{
 			"id": "batchbuilder.showinfinder",
-			"txt": "Zobrazit v aplikaci Finder"
+			"txt": "Zobrazit ve Finderu"
 		},
 		{
 			"id": "batchbuilder.showinexplorer",
@@ -3645,7 +3645,7 @@
 		},
 		{
 			"id": "batchbuilder.batchlistof",
-			"txt": "Seznam dávkového zpracování %0"
+			"txt": "Seznam dávek pro %0"
 		},
 		{
 			"id": "batchbuilder.findingpanoramas",
@@ -3653,11 +3653,11 @@
 		},
 		{
 			"id": "batchbuilder.err.notemplateselected",
-			"txt": "Žádná šablona nebyla vybrána"
+			"txt": "Nebyla vybrána žádná šablona"
 		},
 		{
 			"id": "batchbuilder.asksendtobatchstitcher",
-			"txt": "Chcete nyní odeslat seznam do Dávkového zpracování?"
+			"txt": "Chcete nyní odeslat seznam do dávkového sešívače?"
 		},
 		{
 			"id": "batchbuilder.or",
@@ -3666,7 +3666,7 @@
 		{
 			"id": "batchbuilder.helptext.appendbatchlist",
 			"format": "html",
-			"txt": "Použijte @menubar.file@ | @batchstitcher.menubar.appendbatchlist@ ke sloučení dvou seznamů pro dávkového zpracování. Projekty z vybraného seznamu dávkového zpracování budou připojeny k aktuálně aktivnímu seznamu dávkového zpracování."
+			"txt": "Ke sloučení dvou seznamů dávek použijte @menubar.file@ | @batchstitcher.menubar.appendbatchlist@. Projekty z vybraného seznamu dávek budou připojeny k aktuálně aktivnímu seznamu dávek."
 		},
 		{
 			"id": "batchbuilder.newemptyproject",
@@ -3674,7 +3674,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.title",
-			"txt": "Nastavení pro detekci panoramat"
+			"txt": "Nastavení detekce panoramat"
 		},
 		{
 			"id": "batchbuilderdetect.method",
@@ -3682,39 +3682,39 @@
 		},
 		{
 			"id": "batchbuilderdetect.method.oneperfolder",
-			"txt": "Jedno panorama na jednu složku"
+			"txt": "Jedno panorama na složku"
 		},
 		{
 			"id": "batchbuilderdetect.method.fixednumimages",
-			"txt": "Více panoramat v jedné složce s pevným počtem snímků"
+			"txt": "Více panoramat ve složce s pevným počtem snímků"
 		},
 		{
 			"id": "batchbuilderdetect.method.shootingdate",
-			"txt": "Kombinovat snímky, které byly pořízeny ve stejnou dobu"
+			"txt": "Sloučit snímky pořízené ve stejnou dobu"
 		},
 		{
 			"id": "batchbuilderdetect.method.subfolderpercamera",
-			"txt": "Více fotoaparátů, jedna podsložka na jeden fotoaparát"
+			"txt": "Více fotoaparátů, jedna podsložka na fotoaparát"
 		},
 		{
 			"id": "batchbuilderdetect.sourcefolder",
-			"txt": "Zdrojový adresář:"
+			"txt": "Zdrojová složka:"
 		},
 		{
 			"id": "batchbuilderdetect.subfolderprefix",
-			"txt": "Název podsložky by měl začínat:"
+			"txt": "Název podsložky musí začínat na:"
 		},
 		{
 			"id": "batchbuilderdetect.subfolderprefixtxt",
-			"txt": "(používají se pouze podsložky s názvy začínajícími tímto předčíslem. Nechat prázdné pro použití všech podsložek)"
+			"txt": "(použijí se pouze podsložky začínající touto předponou. Ponechte prázdné pro použití všech podsložek)"
 		},
 		{
 			"id": "batchbuilderdetect.imagefileextension",
-			"txt": "Typ obrazového souboru:"
+			"txt": "Přípona souboru snímku:"
 		},
 		{
 			"id": "batchbuilderdetect.imagefileextensiontxt",
-			"txt": "(např. JPG nebo nechat prázdné)"
+			"txt": "(např. JPG nebo ponechte prázdné)"
 		},
 		{
 			"id": "batchbuilderdetect.imagesperpanorama",
@@ -3742,7 +3742,7 @@
 		},
 		{
 			"id": "batchbuilderdetect.sameexposuretime",
-			"txt": "Pouze snímky se stejnou dobou expozice"
+			"txt": "Pouze snímky se stejným časem expozice"
 		},
 		{
 			"id": "batchbuilderdetect.sameaperture",
@@ -3754,27 +3754,27 @@
 		},
 		{
 			"id": "batchstitcher.err.onlyoneimage",
-			"txt": "Nelze generovat kontrolní body, protože existuje pouze jeden snímek."
+			"txt": "Nelze generovat kontrolní body, protože projekt obsahuje pouze jeden snímek."
 		},
 		{
 			"id": "batchstitcher.err.nocpsfoundaborting",
-			"txt": "Nelze najít kontrolní body pro všechny snímky; panorama nebude generováno."
+			"txt": "Nepodařilo se najít kontrolní body pro všechny snímky; panorama nebude vytvořeno."
 		},
 		{
 			"id": "batchstitcher.nocpsfoundwarning",
-			"txt": "Nelze najít kontrolní body pro všechny snímky; výsledná panorama obsahuje nezarovnané snímky. Prosím, otevřete projekt v PTGui a přidejte chybějící kontrolní body."
+			"txt": "Nepodařilo se najít kontrolní body pro všechny snímky; výsledné panorama obsahuje nezarovnané snímky. Otevřete prosím projekt v PTGui a přidejte chybějící kontrolní body ručně."
 		},
 		{
 			"id": "batchstitcher.confirmabort",
-			"txt": "Program Dávkovézpracování je zaneprázdněn zpracováním projektu; tímto bude přerušen. Pokračovat?"
+			"txt": "Dávkový sešívač právě zpracovává projekt; akce bude přerušena. Pokračovat?"
 		},
 		{
 			"id": "batchstitcher.asksave",
-			"txt": "Aktuální seznam dávkového zpracování byl změněn. Uložit změny %0?"
+			"txt": "Aktuální seznam dávek byl změněn. Uložit změny v %0?"
 		},
 		{
 			"id": "batchstitcher.errnoprojectfile",
-			"txt": "Očekávání souborů projektu PTGui (přípona .pts)."
+			"txt": "Očekávány soubory projektů PTGui (přípona .pts)."
 		},
 		{
 			"id": "batchstitcher.project",
@@ -3782,7 +3782,7 @@
 		},
 		{
 			"id": "batchstitcher.log",
-			"txt": "Log:"
+			"txt": "Protokol:"
 		},
 		{
 			"id": "batchstitcher.askmergebatchlist.replace",
@@ -3794,19 +3794,19 @@
 		},
 		{
 			"id": "batchstitcher.askmergebatchlist",
-			"txt": "Aktuální seznam dávkového zpracování dosud nebyl zcela zpracován. Chcete ukončit aktuální seznam dávkového zpracování a nahradit ji tímto? Nebo by měly být projekty z tohoto seznamu dávkového zpracování připojeny k aktuálnímu seznamu?"
+			"txt": "Aktuální seznam dávek nebyl zcela zpracován. Chcete zahodit aktuální seznam dávek a nahradit jej tímto? Nebo mají být projekty z tohoto seznamu připojeny k aktuálnímu?"
 		},
 		{
 			"id": "blendplaneselector.heading",
-			"txt": "Pro které snímky by měly být přidány body?"
+			"txt": "Pro které snímky mají být přidány body?"
 		},
 		{
 			"id": "blendplaneselector.image",
-			"txt": "obraz"
+			"txt": "snímek"
 		},
 		{
 			"id": "blendplaneselector.title",
-			"txt": "Vyberat snímky"
+			"txt": "Vybrat snímky"
 		},
 		{
 			"id": "sensorsizedialog.title",
@@ -3814,11 +3814,11 @@
 		},
 		{
 			"id": "sensorsizedialog.cropfactor",
-			"txt": "Multiplikační faktor / ohnisková vzdálenost:"
+			"txt": "Faktor ořezu (Crop Factor) / násobič ohniskové vzdálenosti:"
 		},
 		{
 			"id": "sensorsizedialog.choosepreset",
-			"txt": "Zvolte možnost Presetu"
+			"txt": "Vybrat předvolbu"
 		},
 		{
 			"id": "sensorsizedialog.choosepreset.35mm",
@@ -3834,7 +3834,7 @@
 		},
 		{
 			"id": "sensorsizedialog.choosepreset.notapplicable",
-			"txt": "Není možné použít, nebo se nejednáo  fotoaparát (například 3D rendering)"
+			"txt": "Nelze použít (např. 3D rendering)"
 		},
 		{
 			"id": "sensorsizedialog.diagonal",
@@ -3846,28 +3846,28 @@
 		},
 		{
 			"id": "sensorsizedialog.alwayuse.noexif",
-			"txt": "Vždy používejte tato data pro snímky z neznámého fotoaparátu"
+			"txt": "Vždy používat tato data pro snímky bez EXIFu"
 		},
 		{
 			"id": "sensorsizedialog.alwaysuse",
-			"txt": "Vždy používejte tato data pro %0"
+			"txt": "Vždy používat tato data pro %0"
 		},
 		{
 			"id": "sensorsizedialog.heading1",
-			"txt": "PTGui potřebuje znát velikost senzoru fotoaparátu, ale data EXIF snímků neobsahují žádné informace."
+			"txt": "PTGui potřebuje znát velikost snímače fotoaparátu, ale EXIF data snímků neobsahují žádné informace."
 		},
 		{
 			"id": "sensorsizedialog.heading2",
-			"txt": "PTGui potřebuje znát velikost senzoru fotoaparátu, ale nerozpozná fotoaparát."
+			"txt": "PTGui potřebuje znát velikost snímače fotoaparátu, ale tento model fotoaparátu nezná."
 		},
 		{
 			"id": "sensorsizedialog.heading3",
-			"txt": "Vyplňte prosím jedno z níže uvedených polí. Pokud nemáte tušení, klikněte na tlačítko @sensorsizedialog.choosepreset@ a vyberte nejvhodnější položku."
+			"txt": "Vyplňte prosím jedno z níže uvedených polí. Pokud nevíte, klikněte na tlačítko @sensorsizedialog.choosepreset@ a vyberte nejvhodnější položku."
 		},
 		{
 			"id": "sensorsizedialog.txtsubmitexif",
 			"format": "html",
-			"txt": "Pomozte nám zlepšit PTGui <a href=0>odesláním dat fotoaparátůy</a> , abychom mohli zahrnout podporu pro váš fotoaparát v nadcházející verzi."
+			"txt": "Pomozte nám zlepšit PTGui <a href=0>odesláním dat o vašem fotoaparátu</a>, abychom mohli podporu pro něj zahrnout do příští verze."
 		},
 		{
 			"id": "cptablewindow.images",
@@ -3879,15 +3879,15 @@
 		},
 		{
 			"id": "cptablewindow.all",
-			"txt": "(Všechno)"
+			"txt": "(Všechny)"
 		},
 		{
 			"id": "cptablewindow.any",
-			"txt": "Všechno"
+			"txt": "Všechny"
 		},
 		{
 			"id": "cptablewindow.allexceptnormal",
-			"txt": "Všichno kromě normálu"
+			"txt": "Všechny kromě normálních"
 		},
 		{
 			"id": "cpassistant.noimages",
@@ -3903,7 +3903,7 @@
 		},
 		{
 			"id": "cpassistant.enoughcontrolpoints",
-			"txt": "Dostatečné kontrolní body"
+			"txt": "Dostatečný počet kontrolních bodů"
 		},
 		{
 			"id": "cpassistant.allimageslinked",
@@ -3911,11 +3911,11 @@
 		},
 		{
 			"id": "cpassistant.suggestionsforimprovement",
-			"txt": "Návrhy ke zlepšení výsledků"
+			"txt": "Návrhy na zlepšení výsledků"
 		},
 		{
 			"id": "cpassistant.showsuggestionsforimprovement",
-			"txt": "Zobrazit návrhy pro zlepšení výsledků"
+			"txt": "Zobrazit návrhy na zlepšení výsledků"
 		},
 		{
 			"id": "cpassistant.hide",
@@ -3923,21 +3923,21 @@
 		},
 		{
 			"id": "cpassistant.misalignedcps",
-			"txt": "Nesprávné kontrolní body"
+			"txt": "Nepřesné kontrolní body"
 		},
 		{
 			"id": "cpassistant.misalignedcpstext",
-			"txt": "Některé kontrolní body mají velkou chybu optimalizace, což znamená, že optimalizátor nebyl schopen dokonale sladit kontrolní body. To může být způsobeno (např.) nesprávně umístěnými kontrolními body, kontrolními body na pohybujících se objektech nebo velkými chybami paralaxy."
+			"txt": "Některé kontrolní body mají velkou chybu optimalizace, což znamená, že optimalizátor nebyl schopen tyto body dokonale sladit. To může být způsobeno např. nesprávně umístěnými kontrolními body, kontrolními body na pohybujících se objektech nebo velkou chybou paralaxy."
 		},
 		{
 			"id": "cpassistant.toimprovegotocptable",
 			"format": "html",
-			"txt": "Chcete-li zlepšit výsledky, přejděte na <a href=0>@controlpointstable@</a> a zkontrolujte umístění kontrolních bodů s nejvyšší hodnotou vzdálenosti."
+			"txt": "Chcete-li zlepšit výsledky, přejděte do <a href=0>@controlpointstable@</a> a zkontrolujte umístění kontrolních bodů s nejvyšší hodnotou vzdálenosti."
 		},
 		{
 			"id": "cpassistant.shouldaddcps",
 			"format": "html",
-			"txt": "Všechny snímky v projektu PTGui by měly být propojeny řídícími body buď přímo, nebo nepřímo (prostřednictvím kontrolních bodů propojujících jiné snímky).<br><br>Vaše panorama ještě není připraveno k vygenerování. Přejděte na <a href=0>kartu @mainwindow.tabs.controlpoints@</a> a přidejte potřebné kontrolní body."
+			"txt": "Všechny snímky v projektu PTGui by měly být propojeny kontrolními body buď přímo, nebo nepřímo (prostřednictvím kontrolních bodů propojujících jiné snímky).<br><br>Vaše panorama ještě není připraveno k vytvoření. Přejděte na <a href=0>kartu @mainwindow.tabs.controlpoints@</a> a přidejte potřebné kontrolní body."
 		},
 		{
 			"id": "cpassistant.nocontrolpoints",
@@ -3950,7 +3950,7 @@
 		{
 			"id": "cpassistant.ptguicangeneratecps",
 			"format": "html",
-			"txt": "PTGui pro vás může generovat kontrolní body spuštěním <a href=0>@alignimages@</a> ."
+			"txt": "PTGui může vygenerovat kontrolní body automaticky spuštěním funkce <a href=0>@alignimages@</a>."
 		},
 		{
 			"id": "cpassistant.and",
@@ -3970,11 +3970,11 @@
 		},
 		{
 			"id": "cpassistant.clusters",
-			"txt": "Klastry"
+			"txt": "Skupiny snímků"
 		},
 		{
 			"id": "cpassistant.clusterstxt",
-			"txt": "V následujících skupinách jsou snímky propojeny kontrolními body v každé skupině, ale neexistují žádné kontrolní body, které by spojovaly obraz v jedné skupině a snímek v jiné skupině. Mezi snímky v každé skupině je třeba přidat několik kontrolních bodů:"
+			"txt": "V následujících skupinách jsou snímky propojeny kontrolními body navzájem, ale chybí body, které by propojily snímky mezi těmito skupinami. Je třeba přidat kontrolní body propojující snímky z různých skupin:"
 		},
 		{
 			"id": "cpassistant.toofewcps",
@@ -3982,29 +3982,29 @@
 		},
 		{
 			"id": "cpassistant.imagehastoofewcps",
-			"txt": "snímek %0 má méně než 4 kontrolní body. Ujistěte se, že každý snímek je spojen s jinými snímky nejméně čtyřmi kontrolními body."
+			"txt": "snímek %0 má méně než 4 kontrolní body. Ujistěte se, že každý snímek je spojen s ostatními snímky alespoň čtyřmi kontrolními body."
 		},
 		{
 			"id": "cpassistant.imageshavetoofewcps",
-			"txt": "snímky %0 mají méně než 4 kontrolní body. Ujistěte se, že každý snímek je spojen s jinými snímky nejméně čtyřmi kontrolními body."
+			"txt": "snímky %0 mají méně než 4 kontrolní body. Ujistěte se, že každý snímek je spojen s ostatními snímky alespoň čtyřmi kontrolními body."
 		},
 		{
 			"id": "cpassistant.missingcontrolpoints",
-			"txt": "Chybí kontrolní body"
+			"txt": "Chybějící kontrolní body"
 		},
 		{
 			"id": "cpassistant.multiplemissingcontrolpointstxt",
 			"format": "html",
-			"txt": "Následující dvojice snímků se překrývají, ale nemají kontrolní body:<br>%0<br>"
+			"txt": "Následující dvojice snímků se překrývají, ale nemají žádné kontrolní body:<br>%0<br>"
 		},
 		{
 			"id": "cpassistant.singlepairmissingcontrolpointstxt",
 			"format": "html",
-			"txt": "snímky %0 se překrývají, ale nemají kontrolní body."
+			"txt": "snímky %0 se překrývají, ale nemají žádné kontrolní body."
 		},
 		{
 			"id": "cpassistant.missingcontrolpointsbottomtxt",
-			"txt": "Ačkoli není nutné mít kontrolní body pro každou dvojici překrývajících se snímků (pokud jsou snímky nepřímo propojeny kontrolními body mezi jinými snímky), může to zlepšit výsledky optimalizace."
+			"txt": "Ačkoliv není nezbytné mít kontrolní body pro každý pár překrývajících se snímků (pokud jsou snímky propojeny nepřímo přes jiné snímky), může to zlepšit výsledky optimalizace."
 		},
 		{
 			"id": "cpassistant.multiplepairstoofewcontrolpointstxt",
@@ -4018,7 +4018,7 @@
 		},
 		{
 			"id": "cpassistant.pairstoofewcontrolpointsbottomtxt",
-			"txt": "Nejlepší výsledky získáte, pokud každá dvojice překrývajících se snímků má alespoň 4 kontrolní body."
+			"txt": "Nejlepší výsledky získáte, pokud má každý pár překrývajících se snímků alespoň 4 kontrolní body."
 		},
 		{
 			"id": "fileformatsettings.bitsperchannel",
@@ -4030,7 +4030,7 @@
 		},
 		{
 			"id": "fileformatsettings.32bitsfloatingpoints",
-			"txt": "32 bitů bodů"
+			"txt": "32 bitů (floating point)"
 		},
 		{
 			"id": "fileformatsettings.fileformatoptionstxt",
@@ -4038,7 +4038,7 @@
 		},
 		{
 			"id": "fileformatsettings.bitdepth",
-			"txt": "Hloubka bitů:"
+			"txt": "Bitová hloubka:"
 		},
 		{
 			"id": "fileformatsettings.compression",
@@ -4046,7 +4046,7 @@
 		},
 		{
 			"id": "fileformatsettings.compression.none",
-			"txt": "Žádný"
+			"txt": "Žádná"
 		},
 		{
 			"id": "fileformatsettings.alpha",
@@ -4054,15 +4054,15 @@
 		},
 		{
 			"id": "fileformatsettings.alpha.associated",
-			"txt": "Normální (přidružené)"
+			"txt": "Normální (associated)"
 		},
 		{
 			"id": "fileformatsettings.alpha.unassociated",
-			"txt": "Nezařazeno"
+			"txt": "Nepřiřazený (unassociated)"
 		},
 		{
 			"id": "fileformatsettings.alpha.separate",
-			"txt": "Samostatně"
+			"txt": "Samostatný"
 		},
 		{
 			"id": "fileformatsettings.alpha.none",
@@ -4094,7 +4094,7 @@
 		},
 		{
 			"id": "fillyaw.yawincrement",
-			"txt": "Přírůstek @+yaw@:"
+			"txt": "Krok @+yaw@:"
 		},
 		{
 			"id": "fillyaw.imagesperrow",
@@ -4110,15 +4110,15 @@
 		},
 		{
 			"id": "focallengthdialog.heading.unknownlenstype",
-			"txt": "PTGui potřebuje vědět, zda byly snímky pořízeny objektivem rybí oko nebo běžným objektivem. Bohužel to nebylo možné zjistit z EXIFu. Vyberte prosím, jaký typ objektivu byl použit:"
+			"txt": "PTGui potřebuje vědět, zda byly snímky pořízeny objektivem rybí oko nebo běžným objektivem. Tyto informace nebylo možné zjistit z EXIF dat. Vyberte prosím typ použitého objektivu:"
 		},
 		{
 			"id": "focallengthdialog.heading.unknownfocallength",
-			"txt": "PTGui potřebuje znát ohniskovou vzdálenost a typ objektivu. Bohužel to nebylo možné zjistit z EXIFu. Vyberte prosím, jaké nastavení bylo použito"
+			"txt": "PTGui potřebuje znát ohniskovou vzdálenost a typ objektivu. Tyto informace nebylo možné zjistit z EXIF dat. Vyberte prosím použité nastavení:"
 		},
 		{
 			"id": "focallengthdialog.regularlens",
-			"txt": "Klasické objektivy objektivy (ne rybí oko)"
+			"txt": "Běžné objektivy (ne rybí oko)"
 		},
 		{
 			"id": "focallengthdialog.caption",
@@ -4130,15 +4130,15 @@
 		},
 		{
 			"id": "focallengthdialog.loadfromdb",
-			"txt": "Nahrát z databáze objektivů:"
+			"txt": "Načíst z databáze objektivů:"
 		},
 		{
 			"id": "focallengthdialog.choosepreset",
-			"txt": "Zvolte možnost Přednastavení"
+			"txt": "Vybrat předvolbu"
 		},
 		{
 			"id": "focallengthdialog.choosepreset.tele",
-			"txt": "Tele objektiv"
+			"txt": "Teleobjektiv"
 		},
 		{
 			"id": "focallengthdialog.choosepreset.normal",
@@ -4158,7 +4158,7 @@
 		},
 		{
 			"id": "focallengthdialog.alwaysusefor",
-			"txt": "Vždy používejte tato data pro %0"
+			"txt": "Vždy používat tato data pro %0"
 		},
 		{
 			"id": "lensdatabase.xony",
@@ -4166,7 +4166,7 @@
 		},
 		{
 			"id": "lensdatabase.unknowncameranoexif",
-			"txt": "Neznámý fotoaparát (žádná data EXIF)"
+			"txt": "Neznámý fotoaparát (bez EXIF dat)"
 		},
 		{
 			"id": "lensdatabase.name",
@@ -4178,35 +4178,35 @@
 		},
 		{
 			"id": "lensdatabase.additemtxt",
-			"txt": "Chcete-li přidat položku, klepněte na tlačítko @mainwindow.lensparams.lensdatabasebutton@ na kartě @mainwindow.tabs.lenssettings@ a zvolte @save@. Pro zobrazení karty @mainwindow.tabs.lenssettings@ musí být PTGui v rozšířeném režimu."
+			"txt": "Chcete-li přidat položku, klikněte na tlačítko @mainwindow.lensparams.lensdatabasebutton@ na kartě @mainwindow.tabs.lenssettings@ a zvolte @save@. Pro zobrazení karty @mainwindow.tabs.lenssettings@ musí být PTGui v rozšířeném (Advanced) režimu."
 		},
 		{
 			"id": "lensdatabase.addmappingtxt",
-			"txt": "Pro použití tohoto nastavení objektivu jako výchozího nastavení pro snímky s určitými daty EXIF: načtěte snímek a přejděte na kartu @mainwindow.tabs.lenssettings@ (PTGui by měl být v rozšířeném režimu). Přímou asociaci lze přidat pomocí funkce \"EXIF - @mainwindow.lensparams.makeexifassociation@\"."
+			"txt": "Pro použití tohoto nastavení objektivu jako výchozího pro snímky s určitými daty EXIF: načtěte snímek a přejděte na kartu @mainwindow.tabs.lenssettings@ (PTGui musí být v rozšířeném režimu). Přímou asociaci lze přidat pomocí funkce \"EXIF - @mainwindow.lensparams.makeexifassociation@\"."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleitem",
-			"txt": "Odstranit vybranou položku? Tento krok nelze vrátit zpět."
+			"txt": "Smazat vybranou položku? Tuto akci nelze vrátit zpět."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleitems",
-			"txt": "Odstranit vybrané položky %0? Tento krok nelze vrátit zpět."
+			"txt": "Smazat %0 vybraných položek? Tuto akci nelze vrátit zpět."
 		},
 		{
 			"id": "lensdatabase.confirmdeletesingleassociation",
-			"txt": "Odstranit vybranou asociaci? Tento krok nelze vrátit zpět."
+			"txt": "Smazat vybranou asociaci? Tuto akci nelze vrátit zpět."
 		},
 		{
 			"id": "lensdatabase.confirmdeletemultipleassociations",
-			"txt": "Odstranit vybranou asociaci %0? Tento krok nelze vrátit zpět."
+			"txt": "Smazat %0 vybraných asociací? Tuto akci nelze vrátit zpět."
 		},
 		{
 			"id": "lensdatabase.croppingcircle",
-			"txt": "Ořezávací kružnice"
+			"txt": "Ořezová kružnice"
 		},
 		{
 			"id": "lensdatabase.cropped",
-			"txt": "Oříznuté"
+			"txt": "Oříznuto"
 		},
 		{
 			"id": "lensdatabase.lensshift",
@@ -4226,7 +4226,7 @@
 		},
 		{
 			"id": "lensdatabase.exifassociationsheading",
-			"txt": "Tato nastavení se použije automaticky, pokud je načten snímek obsahující následující data EXIF:"
+			"txt": "Tato nastavení se použijí automaticky, pokud je načten snímek obsahující následující EXIF data:"
 		},
 		{
 			"id": "errorsframe.caption",
@@ -4238,11 +4238,11 @@
 		},
 		{
 			"id": "err.exposureopt.needtwoimages",
-			"txt": "Pro optimalizaci expozice a barvy by měl projekt obsahovat alespoň dva překrývající se snímky."
+			"txt": "Pro optimalizaci expozice a barev musí projekt obsahovat alespoň dva překrývající se snímky."
 		},
 		{
 			"id": "err.exposureopt.couldnotgather",
-			"txt": "Nelze získat dostatek dat pro optimalizaci. Možná, že vybrané snímky nemají dostatek překrytí."
+			"txt": "Nepodařilo se získat dostatek dat pro optimalizaci. Možná vybrané snímky nemají dostatečný překryv."
 		},
 		{
 			"id": "txt.analyzingimages",
@@ -4254,15 +4254,15 @@
 		},
 		{
 			"id": "txt.stitchingpanorama",
-			"txt": "Generování panorama"
+			"txt": "Generování panoramatu"
 		},
 		{
 			"id": "txt.convertingtoqtvr",
-			"txt": "Převedení na QTVR"
+			"txt": "Převod do QTVR"
 		},
 		{
 			"id": "txt.compressingpsd",
-			"txt": "Komprese výstupu Photoshopu"
+			"txt": "Komprese PSD výstupu"
 		},
 		{
 			"id": "txt.finishingoutputfiles",
@@ -4278,11 +4278,11 @@
 		},
 		{
 			"id": "err.exposureopt.needtwoimages2",
-			"txt": "Pro optimalizaci expozice a barvy by měly být optimalizovány alespoň dva překrývající se snímky. Stiskněte @settings@ a vyberte dva nebo více snímků."
+			"txt": "Pro optimalizaci expozice a barev musí být optimalizovány alespoň dva překrývající se snímky. Klikněte na @settings@ a vyberte dva nebo více snímků."
 		},
 		{
 			"id": "err.notabatchlist",
-			"txt": "Toto není PTGui Seznam dávkového zpracování ."
+			"txt": "Toto není seznam dávek PTGui."
 		},
 		{
 			"id": "err.lensparamsincompatiblewithv10",
@@ -4290,7 +4290,7 @@
 		},
 		{
 			"id": "err.individuallensparamsincompatiblewithv10",
-			"txt": "Jednotlivé parametry objektivu nejsou kompatibilní s PTGui 10."
+			"txt": "Individuální parametry objektivu nejsou kompatibilní s PTGui 10."
 		},
 		{
 			"id": "err.noptguiprojectfile",
@@ -4298,19 +4298,19 @@
 		},
 		{
 			"id": "err.noptguilensdbfile",
-			"txt": "Zdá se, že to není soubor s databází objektivů PTGui"
+			"txt": "Zdá se, že toto není soubor databáze objektivů PTGui"
 		},
 		{
 			"id": "err.lensdbfileincompatible",
-			"txt": "Tato databáze objektivů byla vytvořena s novější verzí PTGui a není kompatibilní s touto verzí PTGui. Otevření této databáze objektivů vyžaduje %0 nebo novější."
+			"txt": "Tato databáze objektivů byla vytvořena v novější verzi PTGui a není kompatibilní s touto verzí. Otevření vyžaduje PTGui verze %0 nebo novější."
 		},
 		{
 			"id": "err.unexpectedendoffile",
-			"txt": "došlo k neočekávané chybě souboru"
+			"txt": "došlo k neočekávanému konci souboru"
 		},
 		{
 			"id": "err.notjson",
-			"txt": "JSON data jsou očekávána"
+			"txt": "očekávána JSON data"
 		},
 		{
 			"id": "err.invalidfileformat",
@@ -4322,35 +4322,35 @@
 		},
 		{
 			"id": "err.couldnotreadprojectfile",
-			"txt": "Nelze přečíst tento soubor projektu:"
+			"txt": "Nepodařilo se přečíst soubor projektu:"
 		},
 		{
 			"id": "err.couldnotreadlensdbfile",
-			"txt": "Nelze přečíst soubor s databází objektů:"
+			"txt": "Nepodařilo se přečíst soubor databáze objektivů:"
 		},
 		{
 			"id": "warn.compat.newerandpro",
-			"txt": "Tento projekt byl vytvořen s novější verzí PTGui. Zároveň to bylo vytvořeno s verzí PTGui Pro, zatímco momentálně je spuštěna standardní verze PTGui."
+			"txt": "Tento projekt byl vytvořen v novější verzi PTGui a zároveň ve verzi PTGui Pro, zatímco momentálně používáte standardní verzi PTGui."
 		},
 		{
 			"id": "warn.compat.newer",
-			"txt": "Tento projekt byl vytvořen s novější verzí PTGui."
+			"txt": "Tento projekt byl vytvořen v novější verzi PTGui."
 		},
 		{
 			"id": "warn.compat.needspro",
-			"txt": "Tento projekt byl vytvořen s verzí PTGui Pro, zatímco momentálně je spuštěna standardní verze PTGui."
+			"txt": "Tento projekt byl vytvořen ve verzi PTGui Pro, zatímco momentálně používáte standardní verzi PTGui."
 		},
 		{
 			"id": "warn.compat.txt2",
-			"txt": "A proto nemusí být k dispozici všechny funkce a výsledné panorama může vypadat jinak než originál."
+			"txt": "Z tohoto důvodu nemusí být k dispozici všechny funkce a výsledné panorama může vypadat jinak než originál."
 		},
 		{
 			"id": "err.incompatibleprojectfromnewerversion",
-			"txt": "Tento projekt byl vytvořen s novější verzí PTGui a není kompatibilní s touto verzí. Otevření tohoto projektu vyžaduje %0 nebo novější."
+			"txt": "Tento projekt byl vytvořen v novější verzi PTGui a není kompatibilní s touto verzí. Otevření vyžaduje PTGui verze %0 nebo novější."
 		},
 		{
 			"id": "err.psd30000",
-			"txt": "Soubory aplikace Photoshop (.psd) nemohou být širší než 30000 pixelů. Uložte soubor případně pod jiným formátem."
+			"txt": "Soubory aplikace Photoshop (.psd) nesmí být širší než 30 000 pixelů. Uložte soubor v jiném formátu."
 		},
 		{
 			"id": "err.outputfoldernotexist",
@@ -4358,27 +4358,27 @@
 		},
 		{
 			"id": "err.outputfileidenticaltosourcefile",
-			"txt": "Název výstupního souboru je totožný s jedním ze zdrojových snímků; vytvoření panorama by přepsalo jeden ze zdrojových snímků."
+			"txt": "Název výstupního souboru je totožný s jedním ze zdrojových snímků; vytvoření panoramatu by tento snímek přepsalo."
 		},
 		{
 			"id": "warn.psb300000",
-			"txt": "ačkoli PTGui může vytvářet velké soubory Photoshopu (.psb) s rozměry širšími nebo vyššími než 300000 pixelů, aplikace Photoshop nebude moci takovéto velké snímky otevřít."
+			"txt": "Ačkoliv PTGui umí vytvořit velké soubory Photoshopu (.psb) s rozměry nad 300 000 pixelů, samotný Photoshop nemusí být schopen takto velké snímky otevřít."
 		},
 		{
 			"id": "err.jpg65500",
-			"txt": "PTGui nepodporuje ukládání souborů JPEG širších nebo vyšších než 65500 pixelů. Uložte soubor případně pod jiným formátem."
+			"txt": "PTGui nepodporuje ukládání souborů JPEG širších nebo vyšších než 65 500 pixelů. Uložte soubor v jiném formátu."
 		},
 		{
 			"id": "err.nooutputcomponents",
-			"txt": "Nebyly vybrány žádné komponenty výstupu, takže není nic co dělat."
+			"txt": "Nebyly vybrány žádné součásti výstupu, není co provádět."
 		},
 		{
 			"id": "warn.cpsmodified",
-			"txt": "Kontrolní body byly upraveny, ale od té doby nebyl projekt optimalizován. Pravděpodobně byste měli stisknout @cancel@ a nejprve spustit optimalizátor předtím, než budete pokračovat. Optimalizační proces sladí obraz tak, aby kontrolní body odpovídaly co nejlépe."
+			"txt": "Kontrolní body byly změněny, ale projekt od té doby nebyl optimalizován. Před pokračováním byste měli spustit optimalizátor. Optimalizační proces srovná snímky tak, aby kontrolní body co nejlépe odpovídaly."
 		},
 		{
 			"id": "warn.badhdrinterpolator",
-			"txt": "Zvolený interpolátor není optimální pro snímky HDR . Vzhledem k vysokému dynamickému rozsahu zdrojových snímků se kolem světlých pixelů může objevit tmavé haló.\n\nPři práci se snímky HDR doporučujeme použít interpolátor pouze s kladnými koeficienty, jako je @mainwindow.createpanoramatab.interpolator.bicubicsofter@ nebo @mainwindow.createpanoramatab.interpolator.bilinear@."
+			"txt": "Zvolený interpolátor není optimální pro HDR snímky. Vzhledem k vysokému dynamickému rozsahu se kolem světlých pixelů může objevit tmavé haló.\n\nPři práci s HDR snímky doporučujeme použít interpolátor pouze s kladnými koeficienty, jako je @mainwindow.createpanoramatab.interpolator.bicubicsofter@ nebo @mainwindow.createpanoramatab.interpolator.bilinear@."
 		},
 		{
 			"id": "txt.globallensprofile",
@@ -4390,7 +4390,7 @@
 		},
 		{
 			"id": "txt.ptswrongextension",
-			"txt": "Zvolený název souboru má špatnou koncovku. Chcete jej změnit na .pts?"
+			"txt": "Zvolený název souboru má nesprávnou příponu. Chcete ji změnit na .pts?"
 		},
 		{
 			"id": "txt.allfiles",
@@ -4398,7 +4398,7 @@
 		},
 		{
 			"id": "txt.profilenumber",
-			"txt": "Profil #"
+			"txt": "Profil č. "
 		},
 		{
 			"id": "txt.untiltledproject",
@@ -4410,7 +4410,7 @@
 		},
 		{
 			"id": "txt.paintmask",
-			"txt": "Vytvořit masku"
+			"txt": "Kreslit masku"
 		},
 		{
 			"id": "err.cannotchangephysicallyrotateimages",

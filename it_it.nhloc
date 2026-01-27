@@ -8543,189 +8543,131 @@
 		},
 		{
 			"id": "options.advanced.showconsolewindowforplugins",
-			"machinetranslated": true,
-			"helptext": "Se abilitato, i plugin di fusione Enblend e Smartblend verranno eseguiti in una finestra del prompt dei comandi separata (DOS) durante il ricamo.",
-			"morehelptext": "<br><br>Questo può essere utile per il debug di problemi con Enblend o Smartblend. Se abilitato, il plugin verrà eseguito in una finestra del prompt dei comandi ('DOS box'), in modo da poter vedere progressi dettagliati.<br><br>Si consiglia di disabilitare questa impostazione però: avendo i plugin in esecuzione in background PTGui sarà in grado di catturare e visualizzare eventuali messaggi di errore. Se si verifica un errore durante l'esecuzione di un plug-in in una finestra del prompt dei comandi, PTGui non sarà in grado di rilevare il messaggio di errore e la finestra verrà chiusa prima di avere la possibilità di leggere il messaggio di errore.",
-			"todo": true
+			"helptext": "Se abilitato, i plugin di fusione Enblend e Smartblend verranno eseguiti in una finestra del prompt dei comandi separata (DOS) durante la cucitura.",
+			"morehelptext": "<br><br>Questo può essere utile per il debug di problemi con Enblend o Smartblend. Se abilitato, il plugin verrà eseguito in una finestra del prompt dei comandi ('DOS box'), in modo da poter vedere progressi dettagliati.<br><br>Si consiglia di disabilitare questa impostazione però: avendo i plugin in esecuzione in background PTGui sarà in grado di catturare e visualizzare eventuali messaggi di errore. Se si verifica un errore durante l'esecuzione di un plug-in in una finestra del prompt dei comandi, PTGui non sarà in grado di rilevare il messaggio di errore e la finestra verrà chiusa prima di avere la possibilità di leggere il messaggio di errore."
 		},
 		{
 			"id": "options.advanced.maxram",
-			"machinetranslated": true,
-			"helptext": "La quantità massima di RAM che deve essere utilizzata da PTGui. Usa '@options.automatic@' o impostalo per essere significativamente inferiore alla quantità di RAM installata nel computer.",
-			"morehelptext": "<br><br>Durante la cucitura e quando si lavora su un progetto, PTGui deve conservare molti dati temporanei. Inizialmente PTGui manterrà i dati temporanei nella memoria RAM. Solo quando l'utilizzo della memoria raggiunge l'importo configurato qui, i dati temporanei inizieranno a essere scritti su file temporanei. Poiché l'accesso ai file è molto più lento dell'accesso alla RAM, l'uso di più RAM aumenterà le prestazioni, fino a un limite. Bisogna fare attenzione a non allocare troppa RAM a PTGui, altrimenti il ​​sistema operativo inizierà a scambiare altre applicazioni attive su disco. Se si scopre che il computer si sta bloccando mentre PTGui sta cucendo, ciò significa che PTGui sta tentando di utilizzare più RAM di quella disponibile. In tal caso, la riduzione di questo numero potrebbe essere d'aiuto. Scegliere @options.automatic@ per consentire a PTGui di prelevare un importo predefinito.",
-			"todo": true
+			"helptext": "Quantità massima di RAM utilizzata da PTGui. Usa '@options.automatic@' o imposta un valore significativamente inferiore alla quantità di RAM installata nel computer.",
+			"morehelptext": "<br><br>Durante la cucitura e quando si lavora su un progetto, PTGui deve conservare molti dati temporanei. Inizialmente PTGui manterrà i dati temporanei nella memoria RAM. Solo quando l'utilizzo della memoria raggiunge l'importo configurato qui, i dati temporanei inizieranno a essere scritti su file temporanei. Poiché l'accesso ai file è molto più lento dell'accesso alla RAM, l'uso di più RAM aumenterà le prestazioni, fino a un limite. Bisogna fare attenzione a non allocare troppa RAM a PTGui, altrimenti il sistema operativo inizierà a scambiare altre applicazioni attive su disco. Se si scopre che il computer si sta bloccando mentre PTGui sta cucendo, ciò significa che PTGui sta tentando di utilizzare più RAM di quella disponibile. In tal caso, la riduzione di questo numero potrebbe essere d'aiuto. Scegliere @options.automatic@ per consentire a PTGui di prelevare un importo predefinito."
 		},
 		{
 			"id": "options.advanced.automaxram",
-			"machinetranslated": true,
-			"helptext": "Scegli un valore adatto per la quantità massima di RAM da utilizzare. Deseleziona se vuoi sovrascriverlo.",
-			"todo": true
+			"helptext": "Scegli un valore adatto per la quantità massima di RAM da utilizzare. Deseleziona se vuoi sovrascriverlo."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.enabled",
-			"machinetranslated": true,
 			"helptext": "Se abilitato, PTGui utilizzerà la scheda grafica (GPU) per l'elaborazione delle immagini, se possibile.",
-			"morehelptext": "<br><br>Una potente GPU può accelerare le cuciture più volte. Per utilizzare la GPU per cucire è necessaria una scheda video che supporti OpenCL 1.1, con un minimo di 512 MB di RAM video. Si consigliano almeno 2 GB di RAM video. È supportata ogni recente GPU di AMD e NVIDIA. La grafica integrata (un processore grafico integrato nella CPU) non è supportata; in generale, questi sarebbero più lenti delle cuciture sulla CPU.",
-			"todo": true
+			"morehelptext": "<br><br>Una potente GPU può accelerare le cuciture più volte. Per utilizzare la GPU per cucire è necessaria una scheda video che supporti OpenCL 1.1, con un minimo di 512 MB di RAM video. Si consigliano almeno 2 GB di RAM video. È supportata ogni recente GPU di AMD e NVIDIA. La grafica integrata (un processore grafico integrato nella CPU) non è supportata; in generale, questi sarebbero più lenti delle cuciture sulla CPU."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.enableforpreview",
-			"machinetranslated": true,
-			"helptext": "Disabilita questa funzione se riscontri problemi o blocchi durante l'uso di Panorama Editor o Detail Viewer.",
-			"todo": true
+			"helptext": "Disabilita questa funzione se riscontri problemi o blocchi durante l'uso di Panorama Editor o Detail Viewer."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.device",
-			"machinetranslated": true,
-			"helptext": "Se il tuo computer ha più GPU, seleziona il dispositivo da utilizzare qui.",
-			"todo": true
+			"helptext": "Se il computer ha più GPU, seleziona il dispositivo da utilizzare qui."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.maxvideoram",
-			"machinetranslated": true,
-			"helptext": "Quantità massima di RAM video da utilizzare da PTGui.",
-			"todo": true
+			"helptext": "Quantità massima di RAM video utilizzata da PTGui."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.automaxvideoram",
-			"machinetranslated": true,
-			"helptext": "Lascia che PTGui decida la quantità di RAM video da utilizzare.",
-			"todo": true
+			"helptext": "Lascia che PTGui decida la quantità di RAM video da utilizzare."
 		},
 		{
 			"id": "options.advanced.gpuacceleration.dontaskdisableopenclifcrashed",
-			"machinetranslated": true,
-			"helptext": "Se si verifica un arresto anomalo mentre viene utilizzato OpenCL, dopo il riavvio PTGui chiederà se l'accelerazione GPU deve essere disabilitata. Seleziona questa casella di controllo se PTGui non dovrebbe più chiedere questo.",
-			"todo": true
+			"helptext": "Se si verifica un arresto anomalo mentre viene utilizzato OpenCL, dopo il riavvio PTGui chiederà se l'accelerazione GPU deve essere disabilitata. Seleziona questa casella di controllo se PTGui non deve più chiederlo."
 		},
 		{
 			"id": "photometricsettings.optimizeflare",
-			"machinetranslated": true,
-			"helptext": "Controlla se @lensflare@ delle singole immagini sorgente sarà compensato. Il contrasto delle singole immagini verrà aumentato per compensare la riduzione del contrasto causata da @lensflare@.",
-			"morehelptext": "<br><br>Se abilitato, le colonne &quot;@+flare@&quot; nella scheda @mainwindow.tabs.imageparameters@ verranno regolate.<br><br><b>@photometricsettings.disabled@:</b> @lensflare@ non verrà ottimizzato e i parametri @flare@ di tutte le immagini verranno azzerati alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@:</b> @lensflare@ sarà ottimizzato.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti gli attuali parametri @flare@.",
-			"todo": true
+			"helptext": "Controlla se compensare @lensflare@ delle singole immagini sorgente. Il contrasto delle singole immagini verrà aumentato per compensare la riduzione del contrasto causata da @lensflare@.",
+			"morehelptext": "<br><br>Se abilitato, le colonne &quot;@+flare@&quot; nella scheda @mainwindow.tabs.imageparameters@ verranno regolate.<br><br><b>@photometricsettings.disabled@:</b> @lensflare@ non verrà ottimizzato e i parametri @flare@ di tutte le immagini verranno azzerati alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@:</b> @lensflare@ sarà ottimizzato.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti gli attuali parametri @flare@."
 		},
 		{
 			"id": "photometricsettings.images",
-			"machinetranslated": true,
-			"helptext": "Le impostazioni sul lato sinistro verranno regolate solo per le immagini selezionate.",
-			"todo": true
+			"helptext": "Le impostazioni a sinistra verranno regolate solo per le immagini selezionate."
 		},
 		{
 			"id": "photometricsettings.lensprofile",
-			"machinetranslated": true,
-			"helptext": "Vengono utilizzati profili multipli di lenti; selezionare un profilo dell'obiettivo dall'elenco per modificare le impostazioni sul lato destro",
-			"todo": true
+			"helptext": "Sono utilizzati più profili obiettivo; seleziona un profilo dall'elenco per modificare le impostazioni a destra."
 		},
 		{
 			"id": "photometricsettings.optimizevignetting",
-			"machinetranslated": true,
-			"helptext": "Configura se la vignettatura sarà ottimizzata.",
-			"morehelptext": "<br><br>La vignettatura viene anche chiamata &quot;caduta leggera&quot;. La vignettatura fa sì che l'immagine diventi più scura verso gli angoli. È un artefatto della lente; generalmente l'effetto è più forte a diaframmi più grandi (valori f-stop più bassi). La vignettatura è la causa principale dei disallineamenti di esposizione nei panorami.<br><br><b>Disabilitato: la</b> vignettatura non verrà ottimizzata e la curva di vignettatura verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@: la</b> vignettatura sarà ottimizzata.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti gli attuali parametri di vignettatura.",
-			"todo": true
+			"helptext": "Configura se ottimizzare la vignettatura.",
+			"morehelptext": "<br><br>La vignettatura viene anche chiamata &quot;caduta di luce&quot;. La vignettatura fa sì che l'immagine diventi più scura verso gli angoli. È un artefatto dell'obiettivo; generalmente l'effetto è più forte a diaframmi più grandi (valori f-stop più bassi). La vignettatura è la causa principale dei disallineamenti di esposizione nei panorami.<br><br><b>Disabilitato:</b> la vignettatura non verrà ottimizzata e la curva di vignettatura verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@:</b> la vignettatura sarà ottimizzata.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti gli attuali parametri di vignettatura."
 		},
 		{
 			"id": "photometricsettings.optimizecameracurve",
-			"machinetranslated": true,
-			"helptext": "Configurare se la curva di risposta della telecamera sarà ottimizzata.",
-			"morehelptext": "<br><br>I valori dei pixel nei normali file di immagine non rappresentano le effettive intensità luminose reali della scena. Invece, ogni camera mappa la luminosità registrata di ciascun pixel in un valore numerico in base a una determinata curva. La correzione dell'esposizione e la generazione di HDR operano su intensità di luce del mondo reale, pertanto è necessario conoscere la curva di risposta della telecamera. PTGui Pro può determinare la curva di risposta analizzando più immagini sovrapposte. I risultati più accurati si ottengono se ci sono immagini sovrapposte scattate con tempi di esposizione diversi.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analizza le immagini per determinare la curva di risposta. La curva della telecamera può essere determinata con precisione solo se il progetto contiene pixel sovrapposti presi con diverse impostazioni di esposizione. Pertanto questa opzione dovrebbe essere utilizzata solo per i progetti HDR.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> non tentare di determinare la curva di risposta; utilizzare invece una curva standard.<br><br><b>@photometricsettings.keepcurrent@:</b> verrà mantenuta la curva di risposta corrente.<br><br><b>@options.automatic@ (predefinito):</b> per i progetti HDR verrà determinata la curva di risposta della telecamera; per i progetti non HDR viene utilizzata la curva predefinita.",
-			"todo": true
+			"helptext": "Configura se ottimizzare la curva di risposta della fotocamera.",
+			"morehelptext": "<br><br>I valori dei pixel nei normali file di immagine non rappresentano le effettive intensità luminose reali della scena. Invece, ogni fotocamera mappa la luminosità registrata di ciascun pixel in un valore numerico in base a una determinata curva. La correzione dell'esposizione e la generazione di HDR operano su intensità di luce del mondo reale, pertanto è necessario conoscere la curva di risposta della fotocamera. PTGui Pro può determinare la curva di risposta analizzando più immagini sovrapposte. I risultati più accurati si ottengono se ci sono immagini sovrapposte scattate con tempi di esposizione diversi.<br><br><b>@photometricsettings.cameraresponsecurve.generate@:</b> analizza le immagini per determinare la curva di risposta. La curva della fotocamera può essere determinata con precisione solo se il progetto contiene pixel sovrapposti presi con diverse impostazioni di esposizione. Pertanto questa opzione dovrebbe essere utilizzata solo per i progetti HDR.<br><br><b>@photometricsettings.cameraresponsecurve.usedefault@:</b> non tentare di determinare la curva di risposta; utilizzare invece una curva standard.<br><br><b>@photometricsettings.keepcurrent@:</b> verrà mantenuta la curva di risposta corrente.<br><br><b>@options.automatic@ (predefinito):</b> per i progetti HDR verrà determinata la curva di risposta della fotocamera; per i progetti non HDR viene utilizzata la curva predefinita."
 		},
 		{
 			"id": "photometricsettings.defaults",
-			"machinetranslated": true,
-			"helptext": "Ripristina tutte le impostazioni ai valori predefiniti.",
-			"todo": true
+			"helptext": "Ripristina tutte le impostazioni ai valori predefiniti."
 		},
 		{
 			"id": "projectsettingstab.templatebehavior.preservepanoramaorientation",
-			"machinetranslated": true,
-			"helptext": "Dopo aver applicato il modello, l'intero panorama viene ruotato in modo tale che le immagini @yaw@, @pitch@ e @roll@ corrispondano il più possibile ai valori originali.",
-			"morehelptext": "<br><br>L'allineamento relativo delle immagini verrà copiato dal modello, ma l'orientamento generale del panorama rimarrà il più possibile lo stesso.<br><br>Abilitare questa impostazione se il modello verrà utilizzato per le immagini precedentemente posizionate (ad esempio in base ai metadati del sensore di orientamento).",
-			"todo": true
+			"helptext": "Dopo aver applicato il modello, l'intero panorama viene ruotato in modo che @yaw@, @pitch@ e @roll@ delle immagini corrispondano il più possibile ai valori originali.",
+			"morehelptext": "<br><br>L'allineamento relativo delle immagini verrà copiato dal modello, ma l'orientamento generale del panorama rimarrà il più possibile lo stesso.<br><br>Abilita questa impostazione se il modello verrà utilizzato per le immagini precedentemente posizionate (ad esempio in base ai metadati del sensore di orientamento)."
 		},
 		{
 			"id": "projectsettingstab.misc.useorientationsensor",
-			"machinetranslated": true,
-			"helptext": "Quando si aggiungono immagini al progetto, @yaw@, @pitch@ e @roll@ delle immagini verranno inizializzati automaticamente in base ai metadati del sensore di orientamento della fotocamera (per le telecamere supportate).",
-			"todo": true
+			"helptext": "Quando si aggiungono immagini al progetto, @yaw@, @pitch@ e @roll@ delle immagini verranno inizializzati automaticamente in base ai metadati del sensore di orientamento della fotocamera (per le fotocamere supportate)."
 		},
 		{
 			"id": "batchbuilder.deleteprojectswhendone",
-			"machinetranslated": true,
-			"helptext": "Batch Stitcher eliminerà i file di progetto generati dopo l'elaborazione. Le immagini di origine non verranno eliminate.",
-			"todo": true
+			"helptext": "Il Batch Stitcher eliminerà i file di progetto generati dopo l'elaborazione. Le immagini di origine non verranno eliminate."
 		},
 		{
 			"id": "batchbuilder.sendtobatchstitcher",
-			"machinetranslated": true,
-			"helptext": "Dopo aver fatto clic su &quot;@batchbuilder.generateprojects@&quot;, verrà avviato Bitch Stitcher per elaborare i progetti.",
-			"todo": true
+			"helptext": "Dopo aver fatto clic su &quot;@batchbuilder.generateprojects@&quot;, verrà avviato il Batch Stitcher per elaborare i progetti."
 		},
 		{
 			"id": "menubar.file.mergeproject",
-			"machinetranslated": true,
-			"helptext": "Unisci un altro progetto in questo progetto. Le immagini, i punti di controllo e i dati dell'obiettivo dell'altro progetto verranno aggiunti a questo progetto.",
-			"todo": true
+			"helptext": "Unisci un altro progetto in questo. Immagini, punti di controllo e dati dell'obiettivo dell'altro progetto verranno aggiunti."
 		},
 		{
 			"id": "menubar.tools.openfolder.configfolder",
-			"machinetranslated": true,
-			"helptext": "Apri la cartella in cui PTGui memorizza i suoi file di configurazione.",
-			"todo": true
+			"helptext": "Apri la cartella in cui PTGui memorizza i suoi file di configurazione."
 		},
 		{
 			"id": "exposurehdrtab.noisefloor",
-			"machinetranslated": true,
-			"helptext": "Compensa il rumore dell'immagine nelle immagini di origine quando si unisce a HDR.",
-			"morehelptext": "<br><br>Quando si combinano immagini con bracketing in HDR, PTGui prende i pixel &quot;migliori&quot; da ciascuna immagine sorgente sovrapposta. Per tutte le immagini ad eccezione dell'immagine più lunga esposta, i pixel al di sotto di una certa luminosità vengono ignorati, poiché quei pixel scuri potrebbero essere disturbi dell'immagine. Questo cursore imposta la soglia per scartare quei pixel rumorosi. Se le immagini sorgente sono rumorose (ad es. Scattate a valori ISO elevati) e il rumore diventa visibile nel panorama HDR, spostare il cursore verso destra fino a quando il rumore scompare. Tuttavia, ciò potrebbe aumentare gli artefatti HDR intorno agli oggetti in movimento, quindi per ottenere i migliori risultati spostare il dispositivo di scorrimento il più a sinistra possibile finché non viene visualizzato il rumore. Il risultato può essere osservato nel Visualizzatore dettagli.<br><br>Il rumore dell'immagine potrebbe essere ancora visibile in alcune parti del panorama che sono nere anche nell'esposizione più luminosa. Per ridurre il rumore, è necessario aggiungere più immagini con bracketing a tempi di esposizione più lunghi.",
-			"todo": true
+			"helptext": "Compensa il rumore nelle immagini di origine quando si unisce a HDR.",
+			"morehelptext": "<br><br>Quando si combinano immagini con bracketing in HDR, PTGui prende i pixel &quot;migliori&quot; da ciascuna immagine sorgente sovrapposta. Per tutte le immagini ad eccezione dell'immagine esposta più a lungo, i pixel al di sotto di una certa luminosità vengono ignorati, poiché quei pixel scuri potrebbero essere disturbi dell'immagine. Questo cursore imposta la soglia per scartare quei pixel rumorosi. Se le immagini sorgente sono rumorose (ad es. scattate a valori ISO elevati) e il rumore diventa visibile nel panorama HDR, sposta il cursore verso destra fino a quando il rumore scompare. Tuttavia, ciò potrebbe aumentare gli artefatti HDR intorno agli oggetti in movimento, quindi per ottenere i migliori risultati sposta il dispositivo di scorrimento il più a sinistra possibile finché non viene visualizzato il rumore. Il risultato può essere osservato nel Visualizzatore dettagli.<br><br>Il rumore dell'immagine potrebbe essere ancora visibile in alcune parti del panorama che sono nere anche nell'esposizione più luminosa. Per ridurre il rumore, è necessario aggiungere più immagini con bracketing a tempi di esposizione più lunghi."
 		},
 		{
 			"id": "mainwindow.lensparams.mirrored",
-			"machinetranslated": true,
-			"helptext": "Specchia l'immagine sorgente in orizzontale. Se l'immagine viene ritagliata, il mirroring verrà eseguito dopo aver ritagliato l'immagine.",
-			"todo": true
+			"helptext": "Specchia l'immagine sorgente in orizzontale. Se l'immagine viene ritagliata, il mirroring verrà eseguito dopo il ritaglio."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfinding",
-			"machinetranslated": true,
-			"helptext": "Le immagini sovrapposte vengono analizzate e la giuntura viene posizionata in modo tale da risultare meno evidente.",
-			"todo": true
+			"helptext": "Le immagini sovrapposte vengono analizzate e la giuntura viene posizionata in modo da risultare meno evidente."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blending",
-			"machinetranslated": true,
-			"helptext": "Equalizza il colore e la luminosità su ciascun lato della cucitura, per renderla invisibile.",
-			"todo": true
+			"helptext": "Equalizza colore e luminosità su ciascun lato della cucitura, per renderla invisibile."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.redmaskmode",
-			"machinetranslated": true,
 			"helptext": "Controlla il comportamento delle maschere rosse (inserite nella scheda @mainwindow.tabs.mask@).",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b> : le aree verniciate rosse nella scheda @mainwindow.tabs.mask@ saranno rese trasparenti nel panorama. Se non ci sono altre immagini sovrapposte, verrà visualizzato un buco nel panorama cucito. Nell'output a strati (creato con l'opzione @mainwindow.createpanoramatab.output.individuallayers@), le aree mascherate rosse diventeranno trasparenti.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b> : le maschere rosse vengono utilizzate solo per indicare quali aree non devono essere visibili nel panorama miscelato. Il frullatore eviterà queste aree allontanando le cuciture da esse. Tuttavia, se non vi sono altre immagini sovrapposte per riempire gli spazi vuoti, le aree mascherate rosse appariranno comunque nel panorama combinato. L'output a strati non è influenzato dalle maschere rosse.",
-			"todo": true
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.maketransparent@</b> : le aree verniciate rosse nella scheda @mainwindow.tabs.mask@ saranno rese trasparenti nel panorama. Se non ci sono altre immagini sovrapposte, verrà visualizzato un buco nel panorama unito. Nell'output a strati (creato con l'opzione @mainwindow.createpanoramatab.output.individuallayers@), le aree mascherate rosse diventeranno trasparenti.<br><br><b>@panoramaeditor.sidebar.blendsettings.redmaskmode.onlyforseamplacement@</b> : le maschere rosse vengono utilizzate solo per indicare quali aree non devono essere visibili nel panorama miscelato. Il miscelatore eviterà queste aree allontanando le cuciture da esse. Tuttavia, se non vi sono altre immagini sovrapposte per riempire gli spazi vuoti, le aree mascherate rosse appariranno comunque nel panorama combinato. L'output a strati non è influenzato dalle maschere rosse."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.fillholes",
-			"machinetranslated": true,
 			"helptext": "Riempi tutte le aree trasparenti nel panorama con un colore simile all'area circostante.",
-			"morehelptext": "<br><br>Se abilitato, tutte le aree trasparenti del panorama verranno riempite con una sfumatura di colore uniforme. Questo può essere usato ad esempio per riempire il cielo o il fondo del panorama se non è stata scattata alcuna immagine di nadir o zenit.<br><br>Può anche essere utilizzato in combinazione con lo strumento @mainwindow.tabs.mask@ per sfocare alcune parti del panorama. Ad esempio per sfocare i volti delle persone per renderle irriconoscibili o per rimuovere le macchie di polvere nelle foto.",
-			"todo": true
+			"morehelptext": "<br><br>Se abilitato, tutte le aree trasparenti del panorama verranno riempite con una sfumatura di colore uniforme. Questo può essere usato ad esempio per riempire il cielo o il pavimento del panorama se non è stata scattata alcuna immagine di nadir o zenit.<br><br>Può anche essere utilizzato in combinazione con lo strumento @mainwindow.tabs.mask@ per sfocare alcune parti del panorama. Ad esempio per sfocare i volti delle persone per renderle irriconoscibili o per rimuovere le macchie di polvere nelle foto."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.outputcolorprofile",
-			"machinetranslated": true,
 			"helptext": "Seleziona il profilo colore ICC per il panorama generato.",
-			"morehelptext": "<br><br>I colori nelle immagini digitali sono generalmente prodotti combinando diverse quantità di colori rosso, verde e blu. Tuttavia, una determinata combinazione di valori di rosso, verde e blu non descrive in modo univoco un colore fisico: il colore riprodotto effettivo dipende dalle proprietà fisiche del display. In altre parole: diversi dispositivi di visualizzazione utilizzano tipi leggermente diversi di colori di base rosso, verde e blu. Senza ulteriori informazioni l'immagine potrebbe apparire diversa su ogni schermo. Includendo un profilo colore, i valori dei pixel in un'immagine sono abbinati ai colori fisici reali. PTGui convertirà tutti i colori nello spazio colore selezionato e includerà il profilo colore ICC nel file di immagine.<br><br>I profili colore comuni sono:<br><br><b>sRGB</b> : questo è lo spazio colore standard di fatto per le immagini digitali. L'immagine apparirà ragionevolmente buona su display non calibrati e in applicazioni che non sono gestite a colori. Se il tuo panorama verrà pubblicato su Internet, sRGB è una buona scelta. D'altra parte sRGB è uno spazio colore relativamente stretto. Alcuni colori che possono essere stampati su carta, non sono coperti dallo spazio colore sRGB.<br><br><b>Adobe RGB (1998)</b> : questo spazio colore ha una gamma cromatica più ampia rispetto a sRGB e copre quasi tutti i colori che possono essere stampati su carta. Questa è una buona scelta se il panorama verrà stampato.<br><br><b>ProPhoto RGB</b> e <b>Wide Gamut RGB</b> : questi spazi colore hanno una gamma molto ampia, che copre quasi tutti i colori possibili che un essere umano può percepire. Ma poiché coprono una gamma di colori molto più ampia rispetto a sRGB, l'immagine risultante deve essere visualizzata in un'applicazione gestita a colori, altrimenti i colori appariranno molto opachi.<br><br>Gli ampi spazi colore di gamma dovrebbero essere generalmente utilizzati con output a 16 bit. 8 bit di risoluzione non sono sufficienti per coprire tutti i colori disponibili e le sfumature di colore uniformi possono avere un aspetto &quot;posterizzato&quot;. Di conseguenza, JPEG non è un formato adatto perché è limitato a 8 bit.<br><br>Tieni presente che non vi è alcun vantaggio nell'output in uno spazio colore più ampio rispetto allo spazio colore dell'immagine sorgente. La conversione di un'immagine sRGB in uno spazio cromatico di ampia gamma non migliorerà l'immagine. Pertanto PTGui offre la possibilità di utilizzare lo stesso profilo colore delle immagini di origine. Questo viene fatto per impostazione predefinita se tutte le immagini nel panorama hanno lo stesso profilo colore.<br><br>Per le immagini RAW è necessario scegliere esplicitamente uno spazio colore; questo spazio colore verrà utilizzato durante la conversione grezza.",
-			"todo": true
+			"morehelptext": "<br><br>I colori nelle immagini digitali sono generalmente prodotti combinando diverse quantità di colori rosso, verde e blu. Tuttavia, una determinata combinazione di valori di rosso, verde e blu non descrive in modo univoco un colore fisico: il colore riprodotto effettivo dipende dalle proprietà fisiche del display. In altre parole: diversi dispositivi di visualizzazione utilizzano tipi leggermente diversi di colori di base rosso, verde e blu. Senza ulteriori informazioni l'immagine potrebbe apparire diversa su ogni schermo. Includendo un profilo colore, i valori dei pixel in un'immagine sono abbinati ai colori fisici reali. PTGui convertirà tutti i colori nello spazio colore selezionato e includerà il profilo colore ICC nel file di immagine.<br><br>I profili colore comuni sono:<br><br><b>sRGB</b> : questo è lo spazio colore standard di fatto per le immagini digitali. L'immagine apparirà ragionevolmente buona su display non calibrati e in applicazioni che non sono gestite con profilo colore. Se il tuo panorama verrà pubblicato su Internet, sRGB è una buona scelta. D'altra parte sRGB è uno spazio colore relativamente stretto. Alcuni colori che possono essere stampati su carta, non sono coperti dallo spazio colore sRGB.<br><br><b>Adobe RGB (1998)</b> : questo spazio colore ha una gamma cromatica più ampia rispetto a sRGB e copre quasi tutti i colori che possono essere stampati su carta. Questa è una buona scelta se il panorama verrà stampato.<br><br><b>ProPhoto RGB</b> e <b>Wide Gamut RGB</b> : questi spazi colore hanno una gamma molto ampia, che copre quasi tutti i colori possibili che un essere umano può percepire. Ma poiché coprono una gamma di colori molto più ampia rispetto a sRGB, l'immagine risultante deve essere visualizzata in un'applicazione gestita con profilo colore, altrimenti i colori appariranno molto opachi.<br><br>Gli ampi spazi colore di gamma dovrebbero essere generalmente utilizzati con output a 16 bit. 8 bit di risoluzione non sono sufficienti p... [truncated]"
 		},
 		{
 			"id": "mainwindow.createpanoramatab.usesourcecolorprofile",
-			"machinetranslated": true,
-			"helptext": "Se tutte le immagini hanno lo stesso spazio colore, verrà utilizzato questo spazio colore (anziché lo spazio colore selezionato sopra).",
-			"morehelptext": "<br><br>Si noti che questa impostazione viene ignorata per le immagini di origine RAW. Le immagini RAW verranno sempre convertite nello spazio colore selezionato sopra.",
-			"todo": true
+			"helptext": "Se tutte le immagini hanno lo stesso spazio colore, verrà utilizzato questo spazio colore (anziché quello selezionato sopra).",
+			"morehelptext": "<br><br>Si noti che questa impostazione viene ignorata per le immagini di origine RAW. Le immagini RAW verranno sempre convertite nello spazio colore selezionato sopra."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",

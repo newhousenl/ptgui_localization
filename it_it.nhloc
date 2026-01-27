@@ -8671,587 +8671,409 @@
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.hdrflow",
-			"machinetranslated": true,
-			"helptext": "Configura come vengono gestite le esposizioni con bracketing.",
-			"morehelptext": "<br><br>Le esposizioni con bracketing possono essere elaborate in due modi:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui per prima cosa combina ogni serie di esposizioni con bracketing in un'immagine HDR (o le combina usando Fusion esposizione). Quindi, le immagini combinate vengono unite in un panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@: vengono creati i</b> primi &quot;piani di fusione&quot;. Un piano di fusione è il panorama completo a un livello di esposizione (ovvero tutte le immagini scattate con tempi di esposizione, apertura e ISO identici). Infine, i piani di fusione separati vengono combinati in un'immagine HDR o in un'immagine fusa con l'esposizione. Questo metodo deve essere utilizzato solo per i panorami acquisiti nella modalità di esposizione manuale. Richiede che l'intero panorama sia completamente coperto ad ogni livello di esposizione.<br><br><b>@options.automatic@:</b> sceglie l'opzione migliore per il progetto corrente. Se le immagini sono state scattate in modalità di esposizione manuale, verranno creati i piani di fusione. In caso contrario, le immagini con bracketing verranno prima combinate e poi miscelate.",
-			"todo": true
+			"helptext": "Configura gestione esposizioni con bracketing.",
+			"morehelptext": "<br><br>Esposizioni con bracketing elaborabili in due modi:<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@:</b> PTGui combina prima ogni serie di esposizioni con bracketing in immagine HDR (o le combina usando Fusione esposizione). Quindi, immagini combinate vengono unite in panorama.<br><br><b>@mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@:</b> Per prima cosa vengono creati &quot;piani di fusione&quot;. Un piano di fusione è un panorama completo a un livello di esposizione (ovvero tutte immagini scattate con tempi esposizione, apertura e ISO identici). Infine, piani di fusione separati combinati in immagine HDR o immagine con Fusione esposizione. Metodo da utilizzare solo per panorami acquisiti in modalità esposizione manuale. Richiede che intero panorama sia completamente coperto ad ogni livello di esposizione.<br><br><b>@options.automatic@:</b> Sceglie opzione migliore per progetto corrente. Se immagini scattate in modalità esposizione manuale, verranno creati piani di fusione. In caso contrario, immagini con bracketing verranno prima combinate e poi miscelate."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.mergemethod",
-			"machinetranslated": true,
-			"helptext": "Configura come vengono combinate le esposizioni con bracketing.",
-			"morehelptext": "Le esposizioni con bracketing (per HDR) verranno combinate in un'unica immagine. PTGui può farlo in due modi diversi:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> le esposizioni con bracketing vengono prima combinate in una vera immagine ad alta gamma dinamica. Questa immagine HDR copre l'intera gamma dinamica di tutte le immagini sorgente, dalle immagini più scure a quelle più luminose. Quindi, generalmente verrà utilizzata la mappatura dei toni per convertirla in un'immagine a bassa gamma dinamica adatta per la visualizzazione o la stampa.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@: le</b> esposizioni con bracketing vengono combinate direttamente in un'immagine a bassa gamma dinamica mappata in toni. In questo modo si ignora la prima fase di creazione di un'immagine ad alta gamma dinamica per la mappatura dei toni.<br><br>Le impostazioni per la mappatura dei toni e le fusioni di esposizione possono essere regolate nella barra laterale di Panorama Editor.",
-			"todo": true
+			"helptext": "Configura combinazione esposizioni con bracketing.",
+			"morehelptext": "Esposizioni con bracketing (per HDR) verranno combinate in un'unica immagine. PTGui può farlo in due modi diversi:<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.truehdr@:</b> Esposizioni con bracketing vengono prima combinate in vera immagine ad alta gamma dinamica. Questa immagine HDR copre intera gamma dinamica di tutte le immagini sorgente, da più scure a più luminose. Quindi, generalmente verrà utilizzata mappatura toni per convertirla in immagine a bassa gamma dinamica adatta per visualizzazione o stampa.<br><br><b>@mainwindow.exposurehdrpanel.mergemethod.exposurefusion@:</b> Esposizioni con bracketing combinate direttamente in immagine a bassa gamma dinamica con mappatura toni. In questo modo si ignora prima fase di creazione immagine ad alta gamma dinamica per mappatura toni.<br><br>Impostazioni per mappatura toni e fusioni esposizione regolabili nella barra laterale di Editor Panorama."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.exposurefusesinglebrackets",
-			"machinetranslated": true,
-			"helptext": "Abilita Fusion esposizione per immagini senza parentesi",
-			"morehelptext": "<br><br>Normalmente, Exposure Fusion viene utilizzato per combinare più expsoures con bracketing in una singola immagine con una gamma dinamica ridotta. Ma PTGui può utilizzare la fusione dell'esposizione anche su singole immagini, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni.",
-			"todo": true
+			"helptext": "Abilita Fusione esposizione per immagini senza bracketing",
+			"morehelptext": "<br><br>Normalmente, Fusione esposizione utilizzata per combinare più esposizioni con bracketing in singola immagine con gamma dinamica ridotta. Ma PTGui può utilizzare Fusione esposizione anche su singole immagini, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta dettagli visibili in ombre e luci, in modo simile a mappatura toni."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.enable",
-			"machinetranslated": true,
-			"helptext": "Combina esposizioni con bracketing usando Fusion Exposure",
-			"morehelptext": "<br><br>La fusione dell'esposizione viene utilizzata per combinare più expesoures con bracketing in una singola immagine con intervallo dinamico ridotto. È anche possibile utilizzare Exposure Fusion anche su immagini singole, senza parentesi, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta i dettagli visibili nelle ombre e nelle luci, in modo simile alla mappatura dei toni.",
-			"todo": true
+			"helptext": "Combina esposizioni con bracketing usando Fusione esposizione",
+			"morehelptext": "<br><br>Fusione esposizione utilizzata per combinare più esposizioni con bracketing in singola immagine con intervallo dinamico ridotto. Possibile utilizzare Fusione esposizione anche su immagini singole, senza bracketing, creando copie artificiali più scure e più luminose della stessa immagine. Ciò aumenta dettagli visibili in ombre e luci, in modo simile a mappatura toni."
 		},
 		{
 			"id": "photometricsettings.optimizewhitebalance",
-			"machinetranslated": true,
-			"helptext": "Controlla se il bilanciamento del bianco delle singole immagini sorgente verrà regolato, al fine di ridurre al minimo le differenze di colore tra le immagini.",
-			"morehelptext": "<br><br>Se abilitato, la colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; nella scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se i dati EXIF di una o più immagini indicano che è stato utilizzato il bilanciamento del bianco automatico, verrà eseguita l'ottimizzazione del bilanciamento del bianco. Se (in base ai dati EXIF) le immagini sono state scattate con un predefinito di bilanciamento del bianco specifico, si presume che tutte le immagini abbiano impostazioni di bilanciamento del bianco identiche, quindi il bilanciamento del bianco non sarà ottimizzato.<br><br><b>@photometricsettings.disabled@:</b> il bilanciamento del bianco non verrà ottimizzato e verranno mantenuti gli attuali parametri di bilanciamento del bianco.<br><br><b>@photometricsettings.enabled@:</b> il bilanciamento del bianco sarà ottimizzato.",
-			"todo": true
+			"helptext": "Controlla se bilanciamento del bianco di singole immagini sorgente verrà regolato, al fine di ridurre al minimo differenze di colore tra immagini.",
+			"morehelptext": "<br><br>Se abilitato, colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; in scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se dati EXIF di una o più immagini indicano utilizzo bilanciamento del bianco automatico, verrà eseguita ottimizzazione bilanciamento del bianco. Se (in base a dati EXIF) immagini scattate con predefinito bilanciamento del bianco specifico, si presume che tutte immagini abbiano impostazioni bilanciamento del bianco identiche, quindi bilanciamento del bianco non sarà ottimizzato.<br><br><b>@photometricsettings.disabled@:</b> bilanciamento del bianco non verrà ottimizzato e verranno mantenuti attuali parametri bilanciamento del bianco.<br><br><b>@photometricsettings.enabled@:</b> bilanciamento del bianco sarà ottimizzato."
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasraw",
-			"machinetranslated": true,
-			"helptext": "Impossibile utilizzare lo spazio colore delle immagini di origine, poiché sono stati caricati file RAW o DNG. Per i file RAW o DNG, selezionare il profilo colore desiderato nell'elenco sopra.",
-			"todo": true
+			"helptext": "Impossibile utilizzare spazio colore immagini di origine, poiché caricati file RAW o DNG. Per file RAW o DNG, selezionare profilo colore desiderato in elenco sopra."
 		},
 		{
 			"id": "createpanoramapanel.warnsourceimageprofilenotused.hasdifferent",
-			"machinetranslated": true,
-			"helptext": "Non è possibile utilizzare lo spazio colore delle immagini di origine, poiché le immagini di origine non hanno profili colore identici. Scegli il profilo colore di output desiderato nell'elenco sopra.",
-			"todo": true
+			"helptext": "Impossibile utilizzare spazio colore immagini di origine, poiché immagini di origine non hanno profili colore identici. Scegliere profilo colore output desiderato in elenco sopra."
 		},
 		{
 			"id": "exposurehdrtab.currentcameracurveisnotusedwarning",
-			"machinetranslated": true,
-			"helptext": "Questa curva della telecamera non è attualmente utilizzata. La curva della telecamera deve essere assegnata a una o più immagini nella colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; nella scheda @mainwindow.tabs.imageparameters@.",
-			"todo": true
+			"helptext": "Curva fotocamera non attualmente utilizzata. Curva fotocamera deve essere assegnata a una o più immagini in colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; in scheda @mainwindow.tabs.imageparameters@."
 		},
 		{
 			"id": "options.keepmultiplesidebarpanelsopen",
-			"machinetranslated": true,
-			"helptext": "Se selezionato, è possibile aprire contemporaneamente più pannelli nella barra laterale. Il pannello precedente non si chiuderà automaticamente all'apertura di un altro pannello.",
-			"todo": true
+			"helptext": "Se selezionato, possibile aprire contemporaneamente più pannelli in barra laterale. Pannello precedente non si chiuderà automaticamente all'apertura di altro pannello."
 		},
 		{
 			"id": "mainwindow.exposurehdrpanel.blenddatatype",
-			"machinetranslated": true,
-			"helptext": "Precisione interna della pipeline di elaborazione.",
-			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> tutta l'elaborazione interna viene eseguita in formato a metà virgola mobile a 16 bit per canale (64 bit per pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> tutta l'elaborazione interna viene eseguita in formato a virgola mobile a 32 bit per canale (128 bit per pixel).<br><br>Generalmente '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' è sufficiente. Solo quando si lavora con immagini a gamma dinamica estremamente elevata (almeno 16 stop), può essere necessario utilizzare '@mainwindow.exposurehdrpanel.blenddatatype.float@' per evitare il clipping delle alte luci, ma l'elaborazione richiederà più tempo e richiederà il doppio della memoria e dello spazio temporaneo sul disco.",
-			"todo": true
+			"helptext": "Precisione interna pipeline di elaborazione.",
+			"morehelptext": "<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.halffloat@:</b> tutta elaborazione interna eseguita in formato a metà virgola mobile a 16 bit per canale (64 bit per pixel).<br><br><b>@mainwindow.exposurehdrpanel.blenddatatype.float@:</b> tutta elaborazione interna eseguita in formato a virgola mobile a 32 bit per canale (128 bit per pixel).<br><br>Generalmente '@mainwindow.exposurehdrpanel.blenddatatype.halffloat@' sufficiente. Solo quando si lavora con immagini a gamma dinamica estremamente elevata (almeno 16 stop), può essere necessario utilizzare '@mainwindow.exposurehdrpanel.blenddatatype.float@' per evitare clipping alte luci, ma elaborazione richiederà più tempo e doppio della memoria e spazio temporaneo su disco."
 		},
 		{
 			"id": "mainwindow.projectsettings.alignimagesbehavior.optimizeexposure.onlyifalignmentsuccesful",
-			"machinetranslated": true,
-			"helptext": "Salta l'esposizione automatica e la regolazione del colore se non è possibile allineare le immagini.",
-			"morehelptext": "<br><br>L'esposizione automatica e la regolazione del colore vengono eseguite confrontando i pixel dalle immagini sovrapposte. Pertanto è necessario che le immagini siano allineate correttamente. Se questa opzione è abilitata e PTGui non è riuscito ad allineare le immagini (ad esempio perché non è stato trovato alcun punto di controllo), l'esposizione automatica e la regolazione del colore verranno ignorate.",
-			"todo": true
+			"helptext": "Salta esposizione automatica e regolazione colore se impossibile allineare immagini.",
+			"morehelptext": "<br><br>Esposizione automatica e regolazione colore eseguite confrontando pixel da immagini sovrapposte. Pertanto necessario che immagini siano allineate correttamente. Se opzione abilitata e PTGui non riuscito ad allineare immagini (ad esempio perché nessun punto di controllo trovato), esposizione automatica e regolazione colore verranno ignorate."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.seamfindingprecision",
-			"machinetranslated": true,
-			"helptext": "Precisione dell'algoritmo di ricerca della cucitura ottimale",
-			"morehelptext": "<br><br>Se <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> è abilitato, PTGui tenta di posizionare le cuciture in modo tale che siano le meno percettibili. PTGui ispeziona le aree in cui le immagini si sovrappongono e instrada le cuciture attraverso le aree in cui le immagini sovrapposte sono più simili. Questo cursore configura la risoluzione dell'algoritmo di ricerca della cucitura, come una frazione della dimensione ottimale del panorama. Per impostazione predefinita, la ricerca della cucitura viene eseguita a 1/8 della dimensione ottimale. Questo è sufficiente per correggere la maggior parte degli errori di cucitura, ad esempio causati dallo spostamento di oggetti. In alcuni casi, le cuciture possono essere ulteriormente migliorate mediante una regolazione più fine delle cuciture. Tuttavia, l'esecuzione ottimale della ricerca della cucitura alla massima risoluzione richiede molto tempo e utilizza molta memoria.",
-			"todo": true
+			"helptext": "Precisione algoritmo ricerca giunzioni ottimali",
+			"morehelptext": "<br><br>Se <b>@panoramaeditor.sidebar.blendsettings.seamfinding@</b> abilitato, PTGui tenta di posizionare giunzioni in modo tale che siano meno percettibili. PTGui ispeziona aree sovrapposizione immagini e instrada giunzioni attraverso aree in cui immagini sovrapposte più simili. Cursore configura risoluzione algoritmo ricerca giunzioni, come frazione di dimensione ottimale panorama. Per impostazione predefinita, ricerca giunzioni eseguita a 1/8 di dimensione ottimale. Questo è sufficiente per correggere maggior parte errori di unione, ad esempio causati da oggetti in movimento. In alcuni casi, giunzioni ulteriormente migliorabili mediante regolazione più fine. Tuttavia, esecuzione ricerca giunzioni ottimali a massima risoluzione richiede molto tempo e memoria."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.blendplanesnotavailableinfo",
-			"machinetranslated": true,
-			"helptext": "I piani di fusione non vengono generati perché le immagini in bracketing vengono prima unite a HDR e quindi cucite.",
-			"morehelptext": "<br><br>PTGui può elaborare esposizioni in bracketing in due modi diversi. I piani di fusione vengono generati solo se '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' è configurato nella scheda @mainwindow.tabs.exposurehdr@. Per ulteriori informazioni, consultare la descrizione comandi per questa impostazione nella scheda @mainwindow.tabs.exposurehdr@.",
-			"todo": true
+			"helptext": "Piani di fusione non generati perché immagini in bracketing vengono prima unite a HDR e poi cucite.",
+			"morehelptext": "<br><br>PTGui può elaborare esposizioni in bracketing in due modi diversi. Piani di fusione generati solo se '@mainwindow.exposurehdrpanel.hdrflow@ @mainwindow.exposurehdrpanel.hdrflow.blendthenmerge@' configurato in scheda @mainwindow.tabs.exposurehdr@. Per ulteriori informazioni, consultare descrizione comandi per questa impostazione in scheda @mainwindow.tabs.exposurehdr@."
 		},
 		{
 			"id": "photometricsettings.optimizeexposure",
-			"machinetranslated": true,
-			"helptext": "Controlla se la luminosità delle singole immagini sorgente verrà regolata, al fine di ridurre al minimo le differenze di luminosità tra le immagini sovrapposte.",
-			"morehelptext": "<br><br>Se abilitato, la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; nella scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se i dati EXIF delle immagini contengono informazioni sull'esposizione, si presume che questi dati siano corretti e non viene eseguita alcuna ulteriore ottimizzazione della luminosità. Se i dati EXIF non contengono informazioni sull'esposizione, la luminosità verrà ottimizzata.<br><br><b>@photometricsettings.disabled@: la</b> luminosità non verrà ottimizzata e la colonna &quot;@mainwindow.imageparameters.expoffset@&quot; di tutte le immagini nella scheda @mainwindow.tabs.imageparameters@ verrà azzerata alla successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@: la</b> luminosità delle immagini sorgente verrà regolata.<br><br><b>@photometricsettings.keepcurrent@: verranno mantenuti</b> i valori correnti nella colonna &quot;@mainwindow.imageparameters.expoffset@&quot;.",
-			"todo": true
+			"helptext": "Controlla se luminosità singole immagini sorgente verrà regolata, al fine di ridurre al minimo differenze luminosità tra immagini sovrapposte.",
+			"morehelptext": "<br><br>Se abilitato, colonna &quot;@mainwindow.imageparameters.expoffset@&quot; in scheda @mainwindow.tabs.imageparameters@ verrà regolata.<br><br><b>@photometricsettings.onlyifnecessary@:</b> se dati EXIF immagini contengono informazioni su esposizione, dati presunti corretti e non eseguita ulteriore ottimizzazione luminosità. Se dati EXIF non contengono informazioni su esposizione, luminosità verrà ottimizzata.<br><br><b>@photometricsettings.disabled@:</b> luminosità non verrà ottimizzata e colonna &quot;@mainwindow.imageparameters.expoffset@&quot; di tutte immagini in scheda @mainwindow.tabs.imageparameters@ verrà azzerata a successiva ottimizzazione.<br><br><b>@photometricsettings.enabled@:</b> luminosità immagini sorgente verrà regolata.<br><br><b>@photometricsettings.keepcurrent@:</b> verranno mantenuti valori correnti in colonna &quot;@mainwindow.imageparameters.expoffset@&quot;."
 		},
 		{
 			"id": "txt.saveexposurefusionparameters",
-			"machinetranslated": true,
-			"label": "@txt.saveexposurefusionparameters@",
-			"todo": true
+			"label": "@txt.saveexposurefusionparameters@"
 		},
 		{
 			"id": "txt.loadexposurefusionparameters",
-			"machinetranslated": true,
-			"label": "@txt.loadexposurefusionparameters@",
-			"todo": true
+			"label": "@txt.loadexposurefusionparameters@"
 		},
 		{
 			"id": "txt.savetonemapsettings",
-			"machinetranslated": true,
-			"label": "@txt.savetonemapsettings@",
-			"todo": true
+			"label": "@txt.savetonemapsettings@"
 		},
 		{
 			"id": "txt.loadtonemapsettings",
-			"machinetranslated": true,
-			"label": "@txt.loadtonemapsettings@",
-			"todo": true
+			"label": "@txt.loadtonemapsettings@"
 		},
 		{
 			"id": "txt.savetoningparameters",
-			"machinetranslated": true,
-			"label": "@txt.savetoningparameters@",
-			"todo": true
+			"label": "@txt.savetoningparameters@"
 		},
 		{
 			"id": "txt.loadtoningparameters",
-			"machinetranslated": true,
-			"label": "@txt.loadtoningparameters@",
-			"todo": true
+			"label": "@txt.loadtoningparameters@"
 		},
 		{
 			"id": "txt.savecameraresponsecurve",
-			"machinetranslated": true,
-			"label": "@txt.savecameraresponsecurve@",
-			"todo": true
+			"label": "@txt.savecameraresponsecurve@"
 		},
 		{
 			"id": "txt.loadcameraresponsecurve",
-			"machinetranslated": true,
-			"label": "@txt.loadcameraresponsecurve@",
-			"todo": true
+			"label": "@txt.loadcameraresponsecurve@"
 		},
 		{
 			"id": "defaults",
-			"machinetranslated": true,
-			"label": "@defaults@",
-			"todo": true
+			"label": "@defaults@"
 		},
 		{
 			"id": "mainwindow.projectsettings.hdrdefaults.askmode",
-			"machinetranslated": true,
-			"helptext": "Determina il comportamento quando si fa clic su &quot;@alignimages@&quot; nella scheda @mainwindow.tabs.projectassistant@, se vengono rilevate immagini con bracketing.",
-			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> verrà visualizzata una finestra di dialogo che chiede se le immagini devono essere collegate o meno.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> le impostazioni configurate sopra (dopo &quot;@mainwindow.projectsettings.hdrdefaults.subheading_v2@&quot;) verranno applicate automaticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> non <b>eseguire</b> alcuna operazione; continua con @alignimages@ normalmente.",
-			"todo": true
+			"helptext": "Determina comportamento al clic su &quot;@alignimages@&quot; in scheda @mainwindow.tabs.projectassistant@, se rilevate immagini con bracketing.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ask@:</b> visualizzata finestra di dialogo che chiede se immagini devono essere collegate.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.applywithoutasking@:</b> impostazioni configurate sopra (dopo &quot;@mainwindow.projectsettings.hdrdefaults.subheading_v2@&quot;) applicate automaticamente.<br><br><b>@mainwindow.projectsettings.hdrdefaults.askmode.ignore@:</b> Nessuna operazione; continua con @alignimages@ normalmente."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.blender",
-			"machinetranslated": true,
-			"helptext": "L'algoritmo di fusione da utilizzare.",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> questo algoritmo di fusione funziona alla giunzione tra due immagini. La luminosità e le differenze di colore sono distribuite sull'intera immagine, in modo tale da ridurre al minimo eventuali differenze nel punto in cui le immagini si incontrano nelle giunzioni. Le immagini non devono sovrapporsi; nessun pixel viene utilizzato al di fuori delle cuciture.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> questo è il classico algoritmo di fusione panoramica (utilizzato nelle versioni precedenti di PTGui). La fusione viene eseguita attenuando le differenze di colore e luminosità nell'area in cui le immagini si sovrappongono. I dettagli raffinati si fondono in una stretta fascia sovrapposta, i colori a tinta unita si fondono con una graduale sovrapposizione.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Non mescolare affatto. Le differenze di colore e luminosità rimarranno visibili.<br><br>In generale, &quot;@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@&quot; darà i migliori risultati, in particolare se viene utilizzato &quot;@panoramaeditor.sidebar.blendsettings.seamfinding@&quot; (solo PTGui Pro). Tutti gli oggetti al di fuori delle giunzioni verranno nascosti completamente, mentre &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; potrebbe dare come risultato immagini fantasma di oggetti appena fuori dalle giunture perché l'intera regione di sovrapposizione viene utilizzata per la fusione. D'altra parte, &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; può dare risultati migliori quando si fondono motivi ripetuti molto fini (ad esempio in soffitti o tappeti) e può dare risultati leggermente migliori se un oggetto in movimento viene tagliato a metà da una cucitura.<br><br>&quot;@panoramaeditor.sidebar.blendsettings.blender.none@&quot; può essere utilizzato nei casi in cui la fusione non è necessaria, ad esempio quando si ricostruisce un panorama da facce di cubi (non sovrapposte).",
-			"todo": true
+			"helptext": "Algoritmo di fusione da utilizzare.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@:</b> algoritmo fusione funziona a giunzione tra due immagini. Differenze luminosità e colore distribuite su intera immagine, per ridurre al minimo differenze in punto dove immagini si incontrano in giunzioni. Immagini non devono sovrapporsi; nessun pixel utilizzato fuori da giunzioni.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.multiband@:</b> classico algoritmo fusione panoramica (utilizzato in versioni precedenti PTGui). Fusione eseguita attenuando differenze colore e luminosità in area sovrapposizione immagini. Dettagli fini fusi in stretta fascia sovrapposta, colori tinta unita fusi con graduale sovrapposizione.<br><br><b>@panoramaeditor.sidebar.blendsettings.blender.none@:</b> Nessuna fusione. Differenze colore e luminosità rimarranno visibili.<br><br>In generale, &quot;@panoramaeditor.sidebar.blendsettings.blender.zerooverlap@&quot; darà migliori risultati, in particolare se utilizzato &quot;@panoramaeditor.sidebar.blendsettings.seamfinding@&quot; (solo PTGui Pro). Oggetti fuori da giunzioni nascosti completamente, mentre &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; potrebbe risultare in immagini fantasma di oggetti fuori da giunture perché intera regione sovrapposizione utilizzata per fusione. D'altra parte, &quot;@panoramaeditor.sidebar.blendsettings.blender.multiband@&quot; può dare risultati migliori in fusione motivi ripetuti molto fini (ad esempio in soffitti o tappeti) e leggermente migliori se oggetto in movimento tagliato a metà da giunzione.<br><br>&quot;@panoramaeditor.sidebar.blendsettings.blender.none@&quot; utilizzabile in casi in cui fusione non necessaria, ad esempio ricostruendo panorama da facce cubo (non sovrapposte)."
 		},
 		{
 			"id": "exposurehdrtab.cameracurvegraph_v2",
-			"machinetranslated": true,
-			"helptext": "Curva di risposta della telecamera",
-			"morehelptext": "<br><br>Questa curva mostra la mappatura dall'intensità della luce reale ai valori dei pixel. L'asse orizzontale rappresenta l'istanza di luce (luminanza della scena). L'asse verticale è l'intensità dei pixel nello spazio colore lineare (prima dell'applicazione della curva di gamma del profilo ICC). In generale PTGui applica la curva due volte: prima della fusione, viene applicata la curva inversa per convertire i valori dei pixel in intensità di luce lineari. Quindi, la fusione, la correzione dell'esposizione / vignettatura e l'unione HDR vengono eseguite in uno spazio colore lineare. Quindi la curva viene applicata di nuovo nella direzione opposta per convertire dalla luminanza lineare ai valori dei pixel. Infine, quando si salva l'immagine viene applicata la correzione della gamma in base al profilo colore ICC.<br><br>Un progetto può contenere più curve della telecamera: per ciascuna immagine sorgente una delle curve della telecamera può essere assegnata nella colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; nella scheda @mainwindow.tabs.imageparameters@. Il campo @mainwindow.imageparameters.cameracurve@ può anche essere impostato su &quot;@txt.cameracurve.linear@&quot; se si sa che l'immagine sorgente contiene dati lineari. PTGui per impostazione predefinita presuppone che le immagini sorgente RAW e HDR siano lineari. Se tutte le immagini sorgente sono lineari, nessuna curva della telecamera sarà visibile qui.<br><br>Se sono configurate più o zero curve della telecamera, la curva da utilizzare per l'uscita può essere configurata nell'@panoramaeditor@ nel pannello @panoramaeditor.sidebar.postprocess@.<br><br>PTGui può determinare la curva di risposta della telecamera come parte di @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Premere il pulsante @mainwindow.exposurehdrpanel.optimizenow@ per farlo. Ciò richiede immagini a forcella: la curva di risposta della fotocamera viene determinata confrontando lo stesso pixel in immagini esposte in modo diverso. Per le esposizioni singole (non a forcella) PTGui utilizzerà una curva predefinita, che di solito funziona bene.<br><br>Utilizzare i pulsanti nella barra degli strumenti in alto per modificare, caricare, salvare o eliminare la curva o per aggiungere un'ulteriore curva della telecamera al progetto.",
-			"todo": true
+			"helptext": "Curva risposta fotocamera",
+			"morehelptext": "<br><br>Curva mostra mappatura da intensità luce reale a valori pixel. Asse orizzontale rappresenta intensità luce (luminanza scena). Asse verticale è intensità pixel in spazio colore lineare (prima applicazione curva gamma profilo ICC). In generale PTGui applica curva due volte: prima di fusione, applicata curva inversa per convertire valori pixel in intensità luce lineari. Quindi, fusione, correzione esposizione / vignettatura e unione HDR eseguite in spazio colore lineare. Poi curva applicata di nuovo in direzione opposta per convertire da luminanza lineare a valori pixel. Infine, in salvataggio immagine applicata correzione gamma in base a profilo colore ICC.<br><br>Progetto può contenere più curve fotocamera: per ciascuna immagine sorgente una curva fotocamera assegnabile in colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; in scheda @mainwindow.tabs.imageparameters@. Campo @mainwindow.imageparameters.cameracurve@ può anche essere impostato su &quot;@txt.cameracurve.linear@&quot; se noto che immagine sorgente contiene dati lineari. PTGui per impostazione predefinita presuppone che immagini sorgente RAW e HDR siano lineari. Se tutte immagini sorgente lineari, nessuna curva fotocamera visibile qui.<br><br>Se configurate più o zero curve fotocamera, curva da utilizzare per uscita configurabile in @panoramaeditor@ in pannello @panoramaeditor.sidebar.postprocess@.<br><br>PTGui può determinare curva risposta fotocamera come parte di @mainwindow.exposurehdrpanel.autoexpadjustmentsection@. Premere pulsante @mainwindow.exposurehdrpanel.optimizenow@ per farlo. Richiede immagini in bracketing: curva risposta fotocamera determinata confrontando stesso pixel in immagini esposte diversamente. Per esposizioni singole (non bracketing) PTGui utilizzerà curva predefinita, che di solito funziona bene.<br><br>Usa pulsanti in barra strumenti sopra per modificare, caricare, salvare o eliminare curva, o per aggiungere ulteriore curva fotocamera a progetto."
 		},
 		{
 			"id": "txt.addcameraresponsecurve",
-			"machinetranslated": true,
-			"helptext": "Aggiungi la curva di risposta della fotocamera",
-			"morehelptext": "<br><br>Aggiunge una curva di risposta della telecamera al progetto. Un progetto può contenere più curve della telecamera; per ciascuna immagine sorgente è possibile assegnare una delle curve della telecamera nella colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; nella scheda @mainwindow.tabs.imageparameters@.",
-			"todo": true
+			"helptext": "Aggiungi curva risposta fotocamera",
+			"morehelptext": "<br><br>Aggiunge curva risposta fotocamera a progetto. Progetto può contenere più curve fotocamera; per ciascuna immagine sorgente possibile assegnare una curva fotocamera in colonna &quot;@mainwindow.imageparameters.cameracurve@&quot; in scheda @mainwindow.tabs.imageparameters@."
 		},
 		{
 			"id": "txt.removecameraresponsecurve",
-			"machinetranslated": true,
-			"helptext": "Rimuovi la curva di risposta della fotocamera",
-			"morehelptext": "<br><br>Rimuove questa curva di risposta della telecamera dal progetto. Una curva può essere rimossa solo se non è utilizzata nel progetto: la curva non deve essere selezionata nella colonna '@mainwindow.imageparameters.cameracurve@' nella scheda @mainwindow.tabs.imageparameters@.",
-			"todo": true
+			"helptext": "Rimuovere curva risposta fotocamera",
+			"morehelptext": "<br><br>Rimuove curva risposta fotocamera da progetto. Curva rimovibile solo se non utilizzata in progetto: curva non deve essere selezionata in colonna '@mainwindow.imageparameters.cameracurve@' in scheda @mainwindow.tabs.imageparameters@."
 		},
 		{
 			"id": "txt.editcameraresponsecurve",
-			"machinetranslated": true,
-			"helptext": "Modifica la curva di risposta della fotocamera",
-			"todo": true
+			"helptext": "Modificare curva risposta fotocamera"
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.toningcurve",
-			"machinetranslated": true,
 			"helptext": "@txt.toningcurve@",
-			"morehelptext": "<br><br>Questa curva mostra la mappatura dall'intensità della luce ai valori dei pixel. L'asse orizzontale rappresenta l'istanza di luce (luminanza della scena). L'asse verticale è il valore del pixel nello spazio colore lineare (prima dell'applicazione della curva di gamma del profilo ICC). Questa curva può essere regolata per modificare il contrasto e la luminosità del panorama.",
-			"todo": true
+			"morehelptext": "<br><br>Curva mostra mappatura da intensità luce a valori pixel. Asse orizzontale rappresenta intensità luce (luminanza scena). Asse verticale è valore pixel in spazio colore lineare (prima applicazione curva gamma profilo ICC). Curva regolabile per modificare contrasto e luminosità panorama."
 		},
 		{
 			"id": "toningcurve.shapeshift",
-			"machinetranslated": true,
-			"helptext": "Regola la curva",
-			"morehelptext": "<br><br>Usa i cursori Forma e Spostamento per regolare la curva. Il parametro Forma regola la curva in modo che diventi più o meno a forma di S. Il parametro Shift applica una funzione esponenziale, spostando efficacemente la curva verso sinistra o verso destra.",
-			"todo": true
+			"helptext": "Regolare curva",
+			"morehelptext": "<br><br>Usa cursori Forma e Spostamento per regolare curva. Parametro Forma regola curva in modo che diventi più o meno a forma di S. Parametro Shift applica funzione esponenziale, spostando curva verso sinistra o destra."
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.saturation",
-			"machinetranslated": true,
-			"helptext": "Aumenta o riduci la vivacità dei colori nel panorama.",
-			"todo": true
+			"helptext": "Aumenta o riduci vivacità colori in panorama."
 		},
 		{
 			"id": "txt.savevignettingcurve",
-			"machinetranslated": true,
-			"helptext": "Salva curva di vignettatura",
-			"todo": true
+			"helptext": "Salva curva vignettatura"
 		},
 		{
 			"id": "txt.loadvignettingcurve",
-			"machinetranslated": true,
-			"helptext": "Carica la curva di vignettatura",
-			"todo": true
+			"helptext": "Carica curva vignettatura"
 		},
 		{
 			"id": "exposurehdrtab.whitebalance_v2",
-			"machinetranslated": true,
-			"helptext": "Regola il bilanciamento del bianco per l'intero panorama.",
-			"morehelptext": "<br><br><b>@txt.asshot@:</b> se selezionato, il bilanciamento del bianco non verrà regolato. Le immagini verranno miscelate nei colori originali.<br><br>Se @txt.asshot@ non è selezionato, è possibile scegliere la temperatura colore desiderata per il panorama (in gradi Kelvin). Il bilanciamento del bianco verrà regolato dalla temperatura del colore originale alla temperatura del colore selezionata. La temperatura del colore originale di ciascuna immagine sorgente è configurata nella colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; nella scheda @mainwindow.tabs.imageparameters@. Se non viene fornita alcuna temperatura del colore per un'immagine sorgente, si presume 5000K.",
-			"todo": true
+			"helptext": "Regola bilanciamento del bianco per intero panorama.",
+			"morehelptext": "<br><br><b>@txt.asshot@:</b> se selezionato, bilanciamento del bianco non regolato. Immagini miscelate in colori originali.<br><br>Se @txt.asshot@ non selezionato, possibile scegliere temperatura colore desiderata per panorama (in gradi Kelvin). Bilanciamento del bianco regolato da temperatura colore originale a temperatura colore selezionata. Temperatura colore originale di ciascuna immagine sorgente configurata in colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; in scheda @mainwindow.tabs.imageparameters@. Se non fornita alcuna temperatura colore per immagine sorgente, si presume 5000K."
 		},
 		{
 			"id": "proxysettings.proxyserverurl",
-			"machinetranslated": true,
-			"helptext": "Indirizzo, protocollo e porta del server proxy",
-			"morehelptext": "<br><br>Immettere l'URL del server proxy, inclusi il protocollo e il numero di porta. Per esempio:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>Il server proxy dovrebbe essere configurato per consentire HTTPS CONNECT. Lascia vuoto questo campo se il computer può connettersi a Internet senza un server proxy.",
-			"todo": true
+			"helptext": "Indirizzo, protocollo e porta server proxy",
+			"morehelptext": "<br><br>Immettere URL server proxy, inclusi protocollo e numero porta. Per esempio:<br><br><b>http://proxy.example.com:8888</b> (proxy HTTP)<br><b>socks5://proxy.example.com:1080</b> (proxy SOCKS)<br><br>Server proxy deve essere configurato per consentire HTTPS CONNECT. Lasciare vuoto campo se computer può connettersi a Internet senza server proxy."
 		},
 		{
 			"id": "proxysettings.proxyserverusername",
-			"machinetranslated": true,
-			"helptext": "Se il server proxy richiede l'autenticazione, immettere il nome utente.",
-			"todo": true
+			"helptext": "Se server proxy richiede autenticazione, immettere nome utente."
 		},
 		{
 			"id": "proxysettings.proxyserverpassword",
-			"machinetranslated": true,
-			"helptext": "Se il server proxy richiede l'autenticazione, immettere la password.",
-			"todo": true
+			"helptext": "Se server proxy richiede autenticazione, immettere password."
 		},
 		{
 			"id": "panoramaeditor.sidebar.blendsettings.maskpushseams",
-			"machinetranslated": true,
-			"helptext": "Posiziona le cuciture lontano dalle aree mascherate.",
-			"morehelptext": "<br><br>Se abilitato, le cuciture verranno instradate a una certa distanza da eventuali aree mascherate rosse o verdi. Se disabilitato, le cuciture rimarranno vicino al centro dell'area di sovrapposizione anche se le maschere sono posizionate nelle vicinanze.<br><br>Disponibile solo per il frullatore @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ è disabilitato.",
-			"todo": true
+			"helptext": "Posiziona giunzioni lontano da aree mascherate.",
+			"morehelptext": "<br><br>Se abilitato, giunzioni instradate a certa distanza da eventuali aree mascherate rosse o verdi. Se disabilitato, giunzioni rimarranno vicino a centro area sovrapposizione anche se maschere posizionate nelle vicinanze.<br><br>Disponibile solo per algoritmo fusione @panoramaeditor.sidebar.blendsettings.blender.zerooverlap@ e se @panoramaeditor.sidebar.blendsettings.seamfinding@ disabilitato."
 		},
 		{
 			"id": "options.monitorcolorprofile",
-			"machinetranslated": true,
-			"helptext": "Scegli il profilo colore da utilizzare per le immagini visualizzate nell'interfaccia utente di PTGui. Questa impostazione viene utilizzata solo per la visualizzazione, i panorami generati non sono interessati.",
-			"morehelptext": "<br><br>Se il tuo computer ha un display calibrato, puoi caricare il suo profilo colore qui in modo che PTGui l'interfaccia utente di PTGui mostri i colori corretti.<br><br>Sotto Windows lo stesso può essere ottenuto configurando il profilo colore in Windows Color Settings.<br><br>PTGui per Linux utilizzerà sRGB se nessun profilo colore è caricato qui.",
-			"todo": true
+			"helptext": "Scegli profilo colore per immagini visualizzate in interfaccia utente PTGui. Impostazione usata solo per visualizzazione, panorami generati non interessati.",
+			"morehelptext": "<br><br>Se computer ha display calibrato, puoi caricare profilo colore qui affinché interfaccia utente PTGui mostri colori corretti.<br><br>Sotto Windows stesso ottenibile configurando profilo colore in Impostazioni colore Windows.<br><br>PTGui per Linux utilizzerà sRGB se nessun profilo colore caricato qui."
 		},
 		{
 			"id": "mainwindow.projectsettings.templatebehavior.cameracurve",
-			"machinetranslated": true,
-			"helptext": "Controlla se la curva di risposta della telecamera viene copiata dal modello.",
-			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> tutte le curve di risposta della telecamera vengono copiate dal progetto del modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati dal modello.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> le curve di risposta della telecamera vengono copiate dal modello e i campi @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ vengono copiati, ad eccezione delle immagini RAW. Per le immagini RAW, il campo @mainwindow.imageparameters.cameracurve@ nella scheda @mainwindow.tabs.imageparameters@ rimarrà impostato su @txt.cameracurve.linear@ anche se il modello utilizza una curva della telecamera ottimizzata. Questa è l'impostazione consigliata; assicurerà che lo stesso modello possa essere utilizzato per immagini RAW e normali.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Le impostazioni della curva di risposta della telecamera nel progetto di destinazione non verranno modificate.",
-			"todo": true
+			"helptext": "Controlla se curva risposta fotocamera copiata da modello.",
+			"morehelptext": "<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.yes@:</b> tutte curve risposta fotocamera copiate da progetto modello e campi @mainwindow.imageparameters.cameracurve@ in scheda @mainwindow.tabs.imageparameters@ copiati da modello.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.nonraw@:</b> curve risposta fotocamera copiate da modello e campi @mainwindow.imageparameters.cameracurve@ in scheda @mainwindow.tabs.imageparameters@ copiati, eccetto per immagini RAW. Per immagini RAW, campo @mainwindow.imageparameters.cameracurve@ in scheda @mainwindow.tabs.imageparameters@ rimarrà impostato su @txt.cameracurve.linear@ anche se modello utilizza curva fotocamera ottimizzata. Impostazione consigliata; assicura che stesso modello utilizzabile per immagini RAW e normali.<br><br><b>@mainwindow.projectsettings.templatebehavior.cameracurve.no@:</b> Impostazioni curva risposta fotocamera in progetto destinazione non modificate."
 		},
 		{
 			"id": "projectsettingstab.alignimages.hdrdefaultmode",
-			"machinetranslated": true,
-			"helptext": "Impostazioni predefinite quando vengono rilevate esposizioni con bracketing.",
-			"morehelptext": "<br><br>Controlla l'impostazione predefinita della finestra popup che appare quando si esegue '@alignimages@' su esposizioni a forcella.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> le immagini con bracketing vengono combinate (per formare un panorama HDR). Inoltre, le immagini in ogni serie con bracketing devono avere le stesse impostazioni @yaw@ / @pitch@ / @roll@ selezionando le caselle di controllo @mainwindow.imageparameters.linked@ nella scheda @mainwindow.tabs.imageparameters@. Utilizzare questa opzione se è stato utilizzato un treppiede stabile durante le riprese.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> le immagini con bracketing vengono combinate per formare un panorama HDR, ma le caselle di controllo @mainwindow.imageparameters.linked@ nella scheda @mainwindow.tabs.imageparameters@ non sono selezionate. Ciò significa che ogni immagine avrà il proprio angolo @yaw@ / @pitch@ / @roll@. Utilizzare questa opzione se le esposizioni con bracketing non si sovrappongono esattamente, ad esempio quando si scatta a mano libera.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignora il fatto che sono state rilevate esposizioni con bracketing. Le immagini non vengono combinate e non viene generato alcun panorama HDR.",
-			"todo": true
+			"helptext": "Impostazioni predefinite a rilevamento esposizioni con bracketing.",
+			"morehelptext": "<br><br>Controlla impostazione predefinita finestra popup che appare eseguendo '@alignimages@' su esposizioni con bracketing.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.link@:</b> immagini con bracketing combinate (per formare panorama HDR). Inoltre, immagini in ogni serie con bracketing devono avere stesse impostazioni @yaw@ / @pitch@ / @roll@ selezionando caselle controllo @mainwindow.imageparameters.linked@ in scheda @mainwindow.tabs.imageparameters@. Utilizzare opzione se usato treppiede stabile durante riprese.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.dontlink@:</b> immagini con bracketing combinate per formare panorama HDR, ma caselle controllo @mainwindow.imageparameters.linked@ in scheda @mainwindow.tabs.imageparameters@ non selezionate. Ciò significa che ogni immagine avrà proprio angolo @yaw@ / @pitch@ / @roll@. Utilizzare opzione se esposizioni con bracketing non si sovrappongono esattamente, ad esempio scattando a mano libera.<br><br><b>@mainwindow.projectsettings.hdrdefaults.hdrdefaultmode.nohdr@:</b> ignora rilevamento esposizioni con bracketing. Immagini non combinate e nessun panorama HDR generato."
 		},
 		{
 			"id": "panoramaeditor.sidebar.exposurefusionsettings.algorithm",
-			"machinetranslated": true,
-			"helptext": "Algoritmo da utilizzare per la fusione dell'esposizione",
-			"morehelptext": "<br><br>PTGui da 12.0 a 12.20 utilizzava un algoritmo di fusione dell'esposizione diverso rispetto a PTGui 11 e versioni precedenti. In PTGui 12.21 e versioni successive, il vecchio algoritmo è nuovamente disponibile e viene utilizzato per impostazione predefinita, poiché fornisce risultati migliori.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> utilizza l'algoritmo di fusione dell'esposizione utilizzato in PTGui da 12.0 a 12.20. Questa opzione è disponibile per motivi di compatibilità con i progetti creati in PTGui dalla 12.0 alla 12.20 e non deve essere utilizzata per i nuovi progetti.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> questo è l'algoritmo di fusione dell'esposizione originale. Questo dà i migliori risultati ed è l'opzione consigliata per i nuovi progetti.",
-			"todo": true
+			"helptext": "Algoritmo da utilizzare per Fusione esposizione",
+			"morehelptext": "<br><br>PTGui da 12.0 a 12.20 utilizzava algoritmo Fusione esposizione diverso rispetto a PTGui 11 e versioni precedenti. In PTGui 12.21 e versioni successive, vecchio algoritmo nuovamente disponibile e utilizzato per impostazione predefinita, poiché fornisce risultati migliori.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.ptgui12@:</b> utilizza algoritmo Fusione esposizione usato in PTGui da 12.0 a 12.20. Opzione disponibile per compatibilità con progetti creati in PTGui da 12.0 a 12.20 e non raccomandata per nuovi progetti.<br><br><b>@panoramaeditor.sidebar.exposurefusionsettings.algorithm.default@:</b> questo è algoritmo Fusione esposizione originale. Dà migliori risultati ed è opzione consigliata per nuovi progetti."
 		},
 		{
 			"id": "detailviewer.sidebar.patch.createpatch",
-			"machinetranslated": true,
-			"helptext": "Crea una patch per la vista corrente.",
-			"morehelptext": "<br><br>Cattura la vista corrente e salvala come immagine patch. L'immagine patch verrà aggiunta al progetto e sovrapposta al panorama. L'@patchwindow@ verrà aperto per modificare la patch.<br><br>La toppa può essere utilizzata per rimuovere parti indesiderate del panorama, ad esempio per rimuovere un treppiede o una persona. La patch può essere utilizzata anche per riempire eventuali buchi non coperti dalle immagini sorgente, ad esempio il nadir o lo zenit.",
-			"todo": true
+			"helptext": "Crea patch per vista corrente.",
+			"morehelptext": "<br><br>Cattura vista corrente e salvala come immagine patch. Immagine patch aggiunta a progetto e sovrapposta a panorama. @patchwindow@ aperto per modificare patch.<br><br>Patch può essere utilizzata per rimuovere parti indesiderate panorama, ad esempio per rimuovere treppiede o persona. Patch può essere utilizzata anche per riempire buchi non coperti da immagini sorgente, ad esempio nadir o zenit."
 		},
 		{
 			"id": "detailviewer.sidebar.extract",
-			"machinetranslated": true,
-			"helptext": "Crea un'istantanea della vista corrente alla massima risoluzione",
-			"todo": true
+			"helptext": "Crea istantanea vista corrente a massima risoluzione"
 		},
 		{
 			"id": "detailviewer.sidebar.view",
-			"machinetranslated": true,
-			"helptext": "Ispeziona o modifica gli angoli di visione dell'@detailviewer@",
-			"todo": true
+			"helptext": "Ispeziona o modifica angoli visione @detailviewer@"
 		},
 		{
 			"id": "patchwindow.openimage",
-			"machinetranslated": true,
 			"label": "Apri immagine",
-			"helptext": "Apri un'immagine per il ritocco.",
-			"todo": true
+			"helptext": "Apri immagine per ritocco."
 		},
 		{
 			"id": "patchwindow.saveimage",
-			"machinetranslated": true,
 			"label": "Salva immagine",
-			"helptext": "Salva l'immagine modificata.",
-			"todo": true
+			"helptext": "Salva immagine modificata."
 		},
 		{
 			"id": "patchwindow.autosave",
-			"machinetranslated": true,
 			"label": "Salva automaticamente",
-			"helptext": "Salva automaticamente l'immagine modificata dopo ogni modifica.",
-			"todo": true
+			"helptext": "Salva automaticamente immagine modificata dopo ogni modifica."
 		},
 		{
 			"id": "patchwindow.saveimageas",
-			"machinetranslated": true,
-			"label": "Salva l'immagine come",
-			"helptext": "Salva l'immagine modificata con un nome diverso.",
-			"todo": true
+			"label": "Salva immagine con nome",
+			"helptext": "Salva immagine modificata con nome diverso."
 		},
 		{
 			"id": "detailviewer.sidebar.patch.notavailableinblendplanemode",
-			"machinetranslated": true,
-			"helptext": "Lo strumento Toppa non è disponibile insieme ai piani di fusione.",
-			"morehelptext": "<br><br>Lo strumento Toppa cattura la vista corrente e la salva come immagine di toppa. L'immagine patch verrà aggiunta al progetto e sovrapposta al panorama. Ciò è possibile solo se il progetto ha un unico piano di raccordo.<br><br>I piani di fusione possono essere disabilitati passando al flusso di lavoro &quot;@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@&quot; nella scheda @mainwindow.tabs.exposurehdr@.<br><br>Oppure, in alternativa, rifinisci e cuci prima il panorama. Quindi lo strumento patch può essere utilizzato caricando il panorama finito in un nuovo progetto PTGui.",
-			"todo": true
+			"helptext": "Strumento Toppa non disponibile con piani di fusione.",
+			"morehelptext": "<br><br>Strumento Toppa cattura vista corrente e la salva come immagine toppa. Immagine toppa verrà aggiunta al progetto e sovrapposta al panorama. Possibile solo se progetto ha unico piano di raccordo.<br><br>Piani di fusione possono essere disabilitati passando a flusso di lavoro &quot;@mainwindow.exposurehdrpanel.hdrflow.mergethenblend@&quot; in scheda @mainwindow.tabs.exposurehdr@.<br><br>Oppure, in alternativa, rifinire e cucire prima il panorama. Quindi strumento toppa può essere utilizzato caricando panorama finito in nuovo progetto PTGui."
 		},
 		{
 			"id": "detailviewer.sidebar.patch.format",
-			"machinetranslated": true,
-			"helptext": "Formato file da utilizzare per l'immagine.",
-			"morehelptext": "<br><br>L'immagine può essere salvata in formato JPEG, TIFF o JPEG2000:<br><br><b>TIFF</b> è consigliato per la massima qualità dell'immagine, ma i file possono essere molto grandi. È possibile utilizzare TIFF a 8 bit se le immagini sorgente sono limitate a 8 bit per canale e hanno un'esposizione identica. Altrimenti è necessario utilizzare TIFF a 16 bit per preservare l'intera gamma dinamica.<br><br><b>JPEG</b> è limitato a 8 bit per pixel e non supporta la trasparenza, ma la dimensione del file dell'immagine patch sarà molto più piccola.<br><br><b>JPEG2000</b> supporta la trasparenza e sia 8 che 16 bit per canale. La dimensione del file è molto inferiore a quella del TIFF a causa della compressione con perdita di dati.",
-			"todo": true
+			"helptext": "Formato file da utilizzare per immagine.",
+			"morehelptext": "<br><br>Immagine può essere salvata in formato JPEG, TIFF o JPEG2000:<br><br><b>TIFF</b> consigliato per massima qualità immagine, ma file possono essere molto grandi. Possibile utilizzare TIFF a 8 bit se immagini sorgente limitate a 8 bit per canale e hanno esposizione identica. Altrimenti necessario utilizzare TIFF a 16 bit per preservare intera gamma dinamica.<br><br><b>JPEG</b> limitato a 8 bit per pixel e non supporta trasparenza, ma dimensione file immagine patch sarà molto più piccola.<br><br><b>JPEG2000</b> supporta trasparenza e sia 8 che 16 bit per canale. Dimensione file molto inferiore a quella del TIFF a causa della compressione con perdita di dati."
 		},
 		{
 			"id": "detailviewer.sidebar.patch.format.settings",
-			"machinetranslated": true,
-			"label": "Impostazioni",
-			"todo": true
+			"label": "Impostazioni"
 		},
 		{
 			"id": "detailviewer.sidebar.patch.size",
-			"machinetranslated": true,
-			"helptext": "Dimensioni (in pixel) dell'immagine istantanea. Imposta il risultato al 100% per creare un'istantanea con le dimensioni ottimali.",
-			"todo": true
+			"helptext": "Dimensioni (in pixel) immagine istantanea. Impostare risoluzione al 100% per creare istantanea con dimensioni ottimali."
 		},
 		{
 			"id": "detailviewer.sidebar.extractsave",
-			"machinetranslated": true,
-			"helptext": "Crea e salva un'istantanea della vista corrente. Ti verrà richiesto il nome del file.",
-			"todo": true
+			"helptext": "Creare e salvare istantanea vista corrente. Verrà richiesto nome file."
 		},
 		{
 			"id": "detailviewer.sidebar.view.pitch.down",
-			"machinetranslated": true,
-			"helptext": "Impostare l'inclinazione su -90° per visualizzare il nadir.",
-			"todo": true
+			"helptext": "Impostare inclinazione a -90° per visualizzare nadir."
 		},
 		{
 			"id": "detailviewer.sidebar.view.pitch.middle",
-			"machinetranslated": true,
-			"helptext": "Imposta l'inclinazione su 0°.",
-			"todo": true
+			"helptext": "Impostare inclinazione a 0°."
 		},
 		{
 			"id": "detailviewer.sidebar.view.pitch.up",
-			"machinetranslated": true,
-			"helptext": "Impostare l'inclinazione su 90° per visualizzare lo zenit.",
-			"todo": true
+			"helptext": "Impostare inclinazione a 90° per visualizzare zenit."
 		},
 		{
 			"id": "patchwindow.file.openimage",
-			"machinetranslated": true,
-			"label": "Apri immagine",
-			"helptext": "Apri un'immagine per il ritocco.",
-			"todo": true
+			"label": "Aprire immagine",
+			"helptext": "Aprire immagine per ritocco."
 		},
 		{
 			"id": "patchwindow.file.autosave",
-			"machinetranslated": true,
-			"label": "Salva automaticamente",
-			"helptext": "Dopo ogni modifica, salva automaticamente l'immagine modificata.",
-			"todo": true
+			"label": "Salvare automaticamente",
+			"helptext": "Dopo ogni modifica, salvare automaticamente immagine modificata."
 		},
 		{
 			"id": "patchwindow.file.save",
-			"machinetranslated": true,
-			"label": "Salva immagine",
-			"helptext": "Salva l'immagine modificata.",
-			"todo": true
+			"label": "Salvare immagine",
+			"helptext": "Salvare immagine modificata."
 		},
 		{
 			"id": "patchwindow.mode.cut",
-			"machinetranslated": true,
-			"label": "Modalità: foro tagliato",
-			"helptext": "Taglia un buco nell'immagine per rimuovere le parti indesiderate.",
-			"morehelptext": "<br><br>Fare clic sull'immagine per creare un'area chiusa. Questa parte dell'immagine verrà resa trasparente. Utilizzare questa funzione per rimuovere parti indesiderate dell'immagine, prima di aggiungere una patch.",
-			"todo": true
+			"label": "Modalità: Tagliare foro",
+			"helptext": "Tagliare foro nell'immagine per rimuovere parti indesiderate.",
+			"morehelptext": "<br><br>Fare clic su immagine per creare area chiusa. Questa parte dell'immagine verrà resa trasparente. Utilizzare funzione per rimuovere parti indesiderate dell'immagine, prima di aggiungere patch."
 		},
 		{
 			"id": "patchwindow.mode.patch",
-			"machinetranslated": true,
-			"label": "Modalità: patch",
-			"helptext": "Ritoccare l'immagine copiando le patch.",
-			"morehelptext": "<br><br>Per creare una patch, fare clic sull'immagine per creare un'area chiusa. Quest'area verrà utilizzata come destinazione per la patch. Successivamente, trascina la patch nella posizione che dovrebbe essere utilizzata come sorgente per la patch. La patch verrà copiata dall'area sorgente all'area di destinazione.",
-			"todo": true
+			"label": "Modalità: Patch",
+			"helptext": "Ritoccare immagine copiando patch.",
+			"morehelptext": "<br><br>Per creare patch, fare clic su immagine per creare area chiusa. Quest'area verrà utilizzata come destinazione per patch. Successivamente, trascinare patch nella posizione che dovrebbe essere utilizzata come sorgente per patch. Patch verrà copiata da area sorgente a area destinazione."
 		},
 		{
 			"id": "patchwindow.findoptimumseams",
-			"machinetranslated": true,
-			"label": "Trova cuciture ottimali",
-			"helptext": "Tentare di trovare una cucitura ottimale tra la toppa e l'immagine sottostante.",
-			"morehelptext": "<br><br>Se abilitato, la giunzione tra l'immagine patch e l'immagine sottostante verrà instradata attraverso aree in cui l'immagine patch e l'immagine sottostante sono più simili. Ciò creerà il risultato più fluido. È necessario indicare quali parti dell'immagine sottostante non dovrebbero essere visibili nel risultato finale, utilizzando prima la modalità 'Taglia foro'.<br><br>Se disabilitato, la patch verrà sovrapposta nel suo insieme. I bordi verranno comunque sfumati, ma il risultato non sarà altrettanto uniforme.",
-			"todo": true
+			"label": "Trovare cuciture ottimali",
+			"helptext": "Tentare di trovare cucitura ottimale tra toppa e immagine sottostante.",
+			"morehelptext": "<br><br>Se abilitato, giunzione tra immagine patch e immagine sottostante verrà instradata attraverso aree in cui immagine patch e immagine sottostante sono più simili. Ciò creerà risultato più fluido. Necessario indicare quali parti dell'immagine sottostante non dovrebbero essere visibili nel risultato finale, utilizzando prima modalità 'Tagliare foro'.<br><br>Se disabilitato, patch verrà sovrapposta nel suo insieme. Bordi verranno comunque sfumati, ma risultato non sarà altrettanto uniforme."
 		},
 		{
 			"id": "patchwindow.help",
-			"machinetranslated": true,
-			"label": "Aiuto",
-			"todo": true
+			"label": "Aiuto"
 		},
 		{
 			"id": "menubar.controlpoints.deletenonadjacent",
-			"machinetranslated": true,
-			"helptext": "Mantieni solo i punti di controllo tra le immagini che sono direttamente vicine.",
-			"todo": true
+			"helptext": "Mantenere solo punti di controllo tra immagini direttamente vicine."
 		},
 		{
 			"id": "options.spacing",
-			"machinetranslated": true,
-			"helptext": "Configura la spaziatura tra gli elementi dell'interfaccia utente. Sugli schermi più piccoli potrebbe essere impostato su &quot;@options.spacing.narrow@&quot;.",
-			"todo": true
+			"helptext": "Configurare spaziatura tra elementi interfaccia utente. Su schermi più piccoli può essere impostato su &quot;@options.spacing.narrow@&quot;."
 		},
 		{
 			"id": "panoramaeditor.sidebar.postprocess.whitebalance",
-			"machinetranslated": true,
-			"helptext": "Regola il bilanciamento del bianco del panorama.",
-			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> se selezionato, il panorama verrà creato con il bilanciamento del bianco medio dell'immagine sorgente. Se tutte le immagini hanno lo stesso bilanciamento del bianco, non verrà eseguita alcuna conversione del bilanciamento del bianco.<br><br>Se @panoramaeditor.sidebar.postprocess.whitebalance.auto@ non è selezionato, è possibile scegliere la temperatura del colore desiderata per il panorama (in gradi Kelvin). Il bilanciamento del bianco verrà regolato dalla temperatura del colore originale alla temperatura del colore selezionata. La temperatura del colore originale di ciascuna immagine sorgente è configurata nella colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; nella scheda @mainwindow.tabs.imageparameters@. Se non è nota la temperatura del colore per nessuna delle immagini sorgente, si presuppone 5000K.",
-			"todo": true
+			"helptext": "Regolare bilanciamento del bianco del panorama.",
+			"morehelptext": "<br><br><b>@panoramaeditor.sidebar.postprocess.whitebalance.auto@:</b> se selezionato, panorama verrà creato con bilanciamento del bianco medio dell'immagine sorgente. Se tutte le immagini hanno stesso bilanciamento del bianco, non verrà eseguita alcuna conversione.<br><br>Se @panoramaeditor.sidebar.postprocess.whitebalance.auto@ non è selezionato, possibile scegliere temperatura colore desiderata per panorama (in gradi Kelvin). Bilanciamento del bianco verrà regolato da temperatura colore originale a temperatura colore selezionata. Temperatura colore originale di ciascuna immagine sorgente è configurata nella colonna &quot;@mainwindow.imageparameters.whitebalance@&quot; nella scheda @mainwindow.tabs.imageparameters@. Se non nota temperatura colore per nessuna delle immagini sorgente, si presuppone 5000K."
 		},
 		{
 			"id": "preprocesstab.noisereduction.chromaamount",
-			"machinetranslated": true,
-			"helptext": "Intensità della riduzione del rumore per il rumore della crominanza (colore).",
-			"todo": true
+			"helptext": "Intensità riduzione rumore crominanza (colore)."
 		},
 		{
 			"id": "preprocesstab.noisereduction.lumaamount",
-			"machinetranslated": true,
-			"helptext": "Intensità della riduzione del rumore per il rumore della luminanza (luminosità).",
-			"todo": true
+			"helptext": "Intensità riduzione rumore luminanza (luminosità)."
 		},
 		{
 			"id": "fileformatsettings.exrzipcompressionlevel",
-			"machinetranslated": true,
-			"helptext": "Livello di compressione da utilizzare per la compressione ZIP. Tra 0 (per compressione bassa e qualità immagine elevata) e 9 (compressione alta e qualità inferiore).",
-			"todo": true
+			"helptext": "Livello compressione da utilizzare per compressione ZIP. Tra 0 (bassa compressione e alta qualità immagine) e 9 (alta compressione e qualità inferiore)."
 		},
 		{
 			"id": "preprocesstab.careduction",
-			"machinetranslated": true,
-			"helptext": "L'aberrazione cromatica è un tipo di distorsione della lente che fa sì che i diversi colori vengano messi a fuoco in modo leggermente diverso. Questo può essere visto come una frangia colorata attorno ai bordi degli oggetti. È possibile regolare la quantità di riduzione dell'aberrazione cromatica.",
-			"todo": true
+			"helptext": "Aberrazione cromatica è tipo di distorsione lente che fa sì che diversi colori vengano messi a fuoco in modo leggermente diverso. Questo può essere visto come frangia colorata attorno ai bordi degli oggetti. Possibile regolare quantità riduzione aberrazione cromatica."
 		},
 		{
 			"id": "panoramaeditor.sidebar.hdrpostprocess.exposurereference",
-			"machinetranslated": true,
-			"helptext": "Imposta la luminosità dell'immagine HDR generata.",
-			"morehelptext": "<br><br>Le immagini HDR hanno una gamma dinamica (praticamente) illimitata. Per le normali immagini a bassa gamma dinamica, il colore bianco corrisponde al valore pixel massimo che può essere memorizzato. Ma per le immagini HDR non esiste il &quot;bianco&quot; ed è necessario selezionare una luminosità di riferimento. PTGui può ridimensionare la luminosità dell'immagine HDR generata nei seguenti modi:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Se il panorama è generato da immagini tra parentesi, il valore 1.0 nel panorama HDR corrisponde al bianco nell'esposizione centrale. Ad esempio, se è stato utilizzato il bracketing 0/-2/+2, i pixel bianchi nell'esposizione 0EV avranno un valore pixel di 1,0 nel panorama. Il panorama HDR risultante conterrà generalmente pixel più luminosi di 1. Questa è l'impostazione predefinita.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Se il panorama è generato da immagini tra parentesi, il colore bianco nell'immagine sorgente più luminosa corrisponderà a 1,0 nel panorama HDR. Pertanto, tutti i pixel dell'immagine HDR saranno compresi tra 0 e 1.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Tieni presente che questo imposta semplicemente una luminosità di riferimento arbitraria per l'immagine HDR. Le immagini HDR non possono essere visualizzate direttamente e il significato effettivo di un valore di 1,0 pixel dipende dall'applicazione. Non c'è rischio di sovraesposizione nelle immagini HDR: se l'immagine HDR è troppo luminosa può essere ridimensionata dopo averla generata. Contrariamente alle immagini normali, nelle immagini HDR non si verificherà il ritaglio delle luci.",
-			"todo": true
+			"helptext": "Impostare luminosità immagine HDR generata.",
+			"morehelptext": "<br><br>Immagini HDR hanno gamma dinamica (praticamente) illimitata. Per normali immagini a bassa gamma dinamica, colore bianco corrisponde al valore pixel massimo che può essere memorizzato. Ma per immagini HDR non esiste &quot;bianco&quot; ed è necessario selezionare luminosità di riferimento. PTGui può ridimensionare luminosità immagine HDR generata nei seguenti modi:<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.middle@:</b> Se panorama è generato da immagini in bracketing, valore 1.0 nel panorama HDR corrisponde al bianco nell'esposizione centrale. Ad esempio, se è stato utilizzato bracketing 0/-2/+2, pixel bianchi nell'esposizione 0EV avranno valore pixel di 1,0 nel panorama. Panorama HDR risultante conterrà generalmente pixel più luminosi di 1. Questa è impostazione predefinita.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.brightest@:</b> Se panorama è generato da immagini in bracketing, colore bianco nell'immagine sorgente più luminosa corrisponderà a 1,0 nel panorama HDR. Pertanto, tutti pixel dell'immagine HDR saranno compresi tra 0 e 1.<br><br><b>@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute@:</b> @panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@<br><br>Notare che questo imposta semplicemente luminosità di riferimento arbitraria per immagine HDR. Immagini HDR non possono essere visualizzate direttamente e significato effettivo di valore 1,0 pixel dipende dall'applicazione. Non c'è rischio di sovraesposizione nelle immagini HDR: se immagine HDR è troppo luminosa può essere ridimensionata dopo averla generata. Contrariamente a immagini normali, in immagini HDR non si verificherà ritaglio delle luci."
 		},
 		{
 			"id": "panoramaeditor.sidebar.hdrpostprocess.absexposure",
-			"machinetranslated": true,
-			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@",
-			"todo": true
+			"helptext": "@panoramaeditor.sidebar.hdrpostprocess.exposurereference.absolute.helptext@"
 		},
 		{
 			"id": "panoramaeditor.sidebar.hdrpostprocess.exposureoffset",
-			"machinetranslated": true,
-			"helptext": "Applica un ulteriore offset in EV alla luminosità dell'immagine HDR.",
-			"morehelptext": "<br><br>Un valore positivo aumenta la luminosità, in modo simile alla compensazione dell'esposizione su una fotocamera.",
-			"todo": true
+			"helptext": "Applicare ulteriore offset in EV a luminosità immagine HDR.",
+			"morehelptext": "<br><br>Valore positivo aumenta luminosità, in modo simile a compensazione esposizione su fotocamera."
 		},
 		{
 			"id": "panoramaeditor.dropper.adjusthdrexposure",
-			"machinetranslated": true,
-			"helptext": "Modifica l'esposizione del panorama HDR, in modo tale che questo pixel abbia la luminosità specificata nel panorama HDR.",
-			"morehelptext": "<br><br>Ciò influisce solo sulla luminosità del panorama HDR. Il panorama LDR (mappatura dei toni o fusione dell'esposizione) non è influenzato. L'esposizione HDR può essere regolata manualmente nella barra laterale &quot;@panoramaeditor.sidebar.hdrpostprocess@&quot; nell'@panoramaeditor@.<br><br>Una possibile applicazione è quella di fotografare un cartoncino grigio con riflettanza nota e abbinare l'esposizione HDR all'intensità della luce della scena nella posizione del cartoncino grigio.",
-			"todo": true
+			"helptext": "Modificare esposizione panorama HDR, in modo che questo pixel abbia luminosità specificata nel panorama HDR.",
+			"morehelptext": "<br><br>Ciò influisce solo su luminosità panorama HDR. Panorama LDR (mappatura toni o fusione esposizione) non è influenzato. Esposizione HDR può essere regolata manualmente in barra laterale &quot;@panoramaeditor.sidebar.hdrpostprocess@&quot; in @panoramaeditor@.<br><br>Possibile applicazione è fotografare cartoncino grigio con riflettanza nota e abbinare esposizione HDR a intensità luce scena in posizione cartoncino grigio."
 		},
 		{
 			"id": "panoramaeditor.toolbar.dropper",
-			"machinetranslated": true,
-			"helptext": "Campionatore di colori",
-			"morehelptext": "<br><br>Fare clic nel panorama per selezionare un colore. Sono supportate le seguenti funzioni:<br><br><b>Regolazione del bilanciamento del bianco:</b> fare clic su un oggetto di colore grigio nella scena. Il bilanciamento del bianco verrà regolato in modo tale che l'oggetto selezionato diventi grigio neutro.<optional product='pro'><br><br><b>Regola esposizione HDR:</b> regola l'esposizione del panorama HDR in modo che il pixel selezionato abbia una certa luminosità.</optional>",
-			"todo": true
+			"helptext": "Campionatore colori",
+			"morehelptext": "<br><br>Fare clic nel panorama per selezionare colore. Supportate seguenti funzioni:<br><br><b>Regolazione bilanciamento del bianco:</b> fare clic su oggetto colore grigio nella scena. Bilanciamento del bianco verrà regolato in modo tale che oggetto selezionato diventi grigio neutro.<optional product='pro'><br><br><b>Regola esposizione HDR:</b> regolare esposizione panorama HDR in modo che pixel selezionato abbia certa luminosità.</optional>"
 		},
 		{
 			"id": "panoramapreviewsettingspanel.previewmode",
-			"machinetranslated": true,
-			"helptext": "Passa dall'anteprima HDR a quella LDR.",
-			"morehelptext": "<br><br>Quando generi panorami HDR, scegli se @panoramaeditor@ e @detailviewer@ visualizzano il panorama con gamma dinamica elevata o con gamma dinamica bassa.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> mostra l'uscita a gamma dinamica bassa, corrispondente all'opzione di uscita &quot;@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@&quot; nella scheda @mainwindow.tabs.createpanorama@. Visualizza in anteprima il risultato della mappatura dei toni e qualsiasi impostazione applicata nel pannello @panoramaeditor.sidebar.postprocess@ in @panoramaeditor@.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> mostra un'anteprima dell'output ad alta gamma dinamica, corrispondente all'opzione di output &quot;@mainwindow.createpanoramatab.output.hdrblended@&quot; nella scheda @mainwindow.tabs.createpanorama@. L'intera gamma dinamica dell'immagine HDR può essere controllata regolando il cursore &quot;Esposizione&quot; di seguito. Vengono applicate le impostazioni nel pannello @panoramaeditor.sidebar.hdrpostprocess@ in @panoramaeditor@. Non viene applicata alcuna curva di tono, quindi l'immagine apparirà opaca rispetto all'anteprima LDR.",
-			"todo": true
+			"helptext": "Passare da anteprima HDR a LDR.",
+			"morehelptext": "<br><br>Quando si generano panorami HDR, scegliere se @panoramaeditor@ e @detailviewer@ visualizzano panorama con gamma dinamica elevata o con gamma dinamica bassa.<br><br><b>@panoramapreviewsettingspanel.previewmode.ldr@:</b> mostra uscita a gamma dinamica bassa, corrispondente a opzione uscita &quot;@mainwindow.createpanoramatab.output.ldr@ @mainwindow.createpanoramatab.blendedpanorama@&quot; in scheda @mainwindow.tabs.createpanorama@. Visualizza in anteprima risultato mappatura toni e qualsiasi impostazione applicata nel pannello @panoramaeditor.sidebar.postprocess@ in @panoramaeditor@.<br><br><b>@panoramapreviewsettingspanel.previewmode.hdr@:</b> mostra anteprima output ad alta gamma dinamica, corrispondente a opzione output &quot;@mainwindow.createpanoramatab.output.hdrblended@&quot; in scheda @mainwindow.tabs.createpanorama@. Intera gamma dinamica immagine HDR può essere controllata regolando cursore &quot;Esposizione&quot; di seguito. Vengono applicate impostazioni nel pannello @panoramaeditor.sidebar.hdrpostprocess@ in @panoramaeditor@. Non viene applicata alcuna curva tono, quindi immagine apparirà opaca rispetto a anteprima LDR."
 		},
 		{
 			"id": "mainwindow.createpanoramatab.hdroutputnotavailablewithexpfuseinfo",
-			"machinetranslated": true,
-			"helptext": "L'uscita HDR non è disponibile quando si utilizza Exposure Fusion.",
-			"morehelptext": "<br><br>Con Exposure Fusion, le immagini tra parentesi vengono unite a LDR senza generare prima un'immagine ad alta gamma dinamica. Per abilitare l'output HDR, disabilita Exposure Fusion nella barra laterale @panoramaeditor@.",
-			"todo": true
+			"helptext": "Uscita HDR non disponibile quando si utilizza Exposure Fusion.",
+			"morehelptext": "<br><br>Con Exposure Fusion, immagini in bracketing vengono unite a LDR senza generare prima immagine ad alta gamma dinamica. Per abilitare output HDR, disabilitare Exposure Fusion in barra laterale @panoramaeditor@."
 		},
 		{
 			"id": "panoramapreviewsettingspanel.hdrexposure",
-			"machinetranslated": true,
-			"helptext": "Aumenta o diminuisce la luminosità dell'anteprima. Influisce solo sull'immagine visualizzata in @panoramaeditor@ e @detailviewer@, non sull'output effettivo.",
-			"todo": true
+			"helptext": "Aumentare o diminuire luminosità anteprima. Influisce solo su immagine visualizzata in @panoramaeditor@ e @detailviewer@, non su output effettivo."
 		},
 		{
 			"id": "fileformatsettings.exrdwacompressionlevel",
-			"machinetranslated": true,
-			"helptext": "Livello di compressione da utilizzare per la compressione DWA. 0 è senza perdite; valori più alti danno una compressione maggiore e una qualità dell'immagine inferiore.",
-			"todo": true
+			"helptext": "Livello compressione da utilizzare per compressione DWA. 0 è senza perdite; valori più alti danno compressione maggiore e qualità immagine inferiore."
 		},
 		{
 			"id": "detailviewer.sidebar.patch.openin",
-			"machinetranslated": true,
-			"helptext": "Seleziona l'applicazione da utilizzare per modificare l'immagine patch generata.",
-			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> modifica l'immagine della patch nell'@patchwindow@ incluso con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> scegliere un'applicazione esterna per modificare l'immagine della patch. Qui sono elencate tutte le applicazioni registrate per gestire il tipo di file dell'immagine patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> aprire la cartella contenente l'immagine della patch in @txt.finderorexplorer@.",
-			"todo": true
+			"helptext": "Selezionare applicazione da utilizzare per modificare immagine patch generata.",
+			"morehelptext": "<br><br><b>@detailviewer.sidebar.patch.openin.patcheditor@:</b> modifica immagine patch in @patchwindow@ incluso con PTGui.<br><br><b>@detailviewer.sidebar.patch.openin.application@</b> scegliere applicazione esterna per modificare immagine patch. Qui elencate tutte applicazioni registrate per gestire tipo file immagine patch.<br><br><b>@detailviewer.sidebar.patch.openin.explorer@:</b> aprire cartella contenente immagine patch in @txt.finderorexplorer@."
 		},
 		{
 			"id": "preprocesstab.fringereduction",
-			"machinetranslated": true,
-			"helptext": "Il purple fringing è un tipo di aberrazione cromatica che appare come bordi viola o magenta attorno ad aree ad alto contrasto nelle foto, solitamente visibili vicino a fonti di luce intensa o contro soggetti retroilluminati. Seleziona questa casella di controllo per rimuovere o ridurre il purple fringing.",
-			"todo": true
+			"helptext": "Purple fringing è tipo di aberrazione cromatica che appare come bordi viola o magenta attorno ad aree ad alto contrasto nelle foto, solitamente visibili vicino a fonti di luce intensa o contro soggetti retroilluminati. Selezionare casella di controllo per rimuovere o ridurre purple fringing."
 		},
 		{
 			"id": "fileformatsettings.effort",
-			"machinetranslated": true,
-			"helptext": "La quantità di sforzo da impiegare per comprimere l'immagine. Valori più alti offrono una compressione migliore (e quindi file più piccoli) ma richiedono più tempo per essere compressi.",
-			"todo": true
+			"helptext": "Quantità di sforzo da impiegare per comprimere immagine. Valori più alti offrono compressione migliore (e quindi file più piccoli) ma richiedono più tempo per essere compressi."
 		}
 	],
 	"helppages": [
 		{
 			"id": "batchstitcher",
-			"machinetranslated": true,
-			"helptext": "<b>@batchstitcher@</b><br><br>Cucire panorami di grandi dimensioni può richiedere un po 'di tempo. Batch Stitcher ti consente di preparare più progetti e farli ricucire in gruppo. I progetti vengono accodati alla stazione di cucitura batch utilizzando il pulsante &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; nella scheda @mainwindow.tabs.createpanorama@ e tramite @menubar.project.sendtemporarycopytobatchstitcher@ nel menu @menubar.project@. È inoltre possibile avviare la cucitrice in batch utilizzando @menubar.tools@ | @batchstitcher@ e aggiungere manualmente i progetti alla coda.<br><br><b>Uso del batch stitcher</b><br><br>La parte principale di Batch Stitcher (direttamente sotto la barra degli strumenti) è la coda dei lavori. Questo elenca i lavori da elaborare e i lavori finiti. I lavori completati con successo sono indicati da un segno di spunta verde sul lato destro. Tutti i lavori interrotti con un errore sono indicati da un punto esclamativo rosso; il messaggio di errore è mostrato nel riquadro Log in basso. Se un lavoro è attualmente in fase di elaborazione, viene visualizzata una barra di avanzamento.<br><br>I lavori possono essere aggiunti utilizzando @menubar.file@ | @batchstitcher.menubar.addprojects@, utilizzando il pulsante @batchstitcher.menubar.addprojects@ nella barra degli strumenti o trascinando un file .pts nella finestra Batch Stitcher. I lavori verranno aggiunti anche quando si esegue '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' dalla finestra principale. Uno o più progetti possono essere selezionati trascinando con il mouse. I progetti selezionati possono essere rimossi utilizzando il tasto Canc. L'elenco dei progetti può essere riordinato trascinando l'intestazione della riga (sul lato sinistro) verso l'alto o verso il basso.<br><br>Pulsante destro del mouse <optional platform='mac'>(o Ctrl + clic)</optional> nell'elenco per un menu di scelta rapida. Usare '@batchstitcher.contextmenu.markasdone@' e '@batchstitcher.contextmenu.markasnotdone@' per cambiare lo stato di un progetto. Se un progetto è contrassegnato come '@batchstitcher.contextmenu.deletewhendone@', il file di progetto corrispondente (.pts) verrà cancellato al completamento (ovviamente il panorama generato verrà mantenuto). Questo è usato da @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Batch Stitcher può essere avviato e arrestato tramite il menu @batchstitcher.menubar.process@ e utilizzando i pulsanti nella barra degli strumenti. Fare doppio clic su un lavoro (o premere il tasto Invio) per aprire il progetto in una nuova finestra di PTGui. <optional product='pro'><br><br><b>Impostazioni del progetto Stitcher batch</b><br><br>Batch Stitcher può non solo ricamare panorami, ma può anche generare punti di controllo e allineare le immagini. Il comportamento è controllato dalle impostazioni @mainwindow.projectsettings.batchstitcheractions@ nella scheda @mainwindow.tabs.projectsettings@ del progetto: Se è selezionato <b>@mainwindow.projectsettings.batchstitcheractions.align@</b> , il punto di <b>cucitura</b> batch genera punti di controllo e imposta il panorama. Se è selezionato <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@,</b> la cucitrice in <b>sequenza cucirà</b> il panorama.</optional><br><br><b>Liste di lotti</b><br><br>Un elenco batch memorizza un elenco di lavori, completo dello stato Fatto / Non completato di ciascun lavoro. L'uso di elenchi batch consente di chiudere la cucitrice in sequenza e continuare da dove era stata interrotta. La cucitrice non può riprendere i lavori parzialmente finiti (è necessario riavviare l'intero lavoro) ma ricorderà quali progetti nell'elenco dei batch sono già stati completati e quali no.<br><br>Crea una lista batch caricando uno o più lavori nella Stitcher di lotti e scegliendo @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Gli elenchi di lotti esistenti possono essere aperti utilizzando @batchstitcher.menubar.openbatchlist@ o @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>Lo strumento Batch Builder (vedi sotto) crea anche elenchi batch che possono essere caricati in Stitcher batch.</optional><br><br>Solo una lista di lotti può essere attiva in qualsiasi momento. Quando è attiva una lista batch e viene selezionato '@batchstitcher.menubar.autosavebatchlist@', qualsiasi modifica alla lista di progetti (ad esempio quando un progetto è completato o quando un progetto viene aggiunto alla lista) viene immediatamente salvata nella lista batch. Se l'elenco batch è molto grande (migliaia di progetti o più) il salvataggio dell'elenco batch su ogni modifica richiederà molto tempo. In tal caso è meglio disabilitare '@batchstitcher.menubar.autosavebatchlist@' e fare manualmente @batchstitcher.menubar.savebatchlist@ per scrivere l'elenco di batch modificati su disco ogni tanto.<br><br>@batchbuilder.helptext.appendbatchlist@ <optional product='pro'><br><br><b>Batch Builder</b><br><br>La combinazione di Batch Stitcher e Batch Builder rende PTGui Pro uno strumento potente per allineare e cucire rapidamente centinaia di panorami quasi completamente automaticamente. Per ulteriori informazioni fare @menubar.tools@ | @batchbuilder@ e premere il pulsante @help@ lì.</optional>",
-			"todo": true
+			"helptext": "<b>@batchstitcher@</b><br><br>Unire panorami di grandi dimensioni può richiedere del tempo. Batch Stitcher consente di preparare più progetti e farli unire in gruppo. I progetti vengono accodati al Batch Stitcher utilizzando il pulsante &quot;@mainwindow.createpanoramatab.saveandsendtobatchstitcher@&quot; nella scheda @mainwindow.tabs.createpanorama@ e tramite @menubar.project.sendtemporarycopytobatchstitcher@ nel menu @menubar.project@. È inoltre possibile avviare il Batch Stitcher utilizzando @menubar.tools@ | @batchstitcher@ e aggiungere manualmente i progetti alla coda.<br><br><b>Uso del Batch Stitcher</b><br><br>La parte principale di Batch Stitcher (direttamente sotto la barra degli strumenti) è la coda dei lavori. Questa elenca i lavori da elaborare e i lavori finiti. I lavori completati con successo sono indicati da un segno di spunta verde sul lato destro. Tutti i lavori interrotti con un errore sono indicati da un punto esclamativo rosso; il messaggio di errore è mostrato nel riquadro Log in basso. Se un lavoro è attualmente in fase di elaborazione, viene visualizzata una barra di avanzamento.<br><br>I lavori possono essere aggiunti utilizzando @menubar.file@ | @batchstitcher.menubar.addprojects@, utilizzando il pulsante @batchstitcher.menubar.addprojects@ nella barra degli strumenti o trascinando un file .pts nella finestra Batch Stitcher. I lavori verranno aggiunti anche quando si esegue '@mainwindow.createpanoramatab.saveandsendtobatchstitcher@' dalla finestra principale. Uno o più progetti possono essere selezionati trascinando con il mouse. I progetti selezionati possono essere rimossi utilizzando il tasto Canc. L'elenco dei progetti può essere riordinato trascinando l'intestazione della riga (sul lato sinistro) verso l'alto o verso il basso.<br><br>Fare clic con il tasto destro <optional platform='mac'>(o Ctrl + clic)</optional> nell'elenco per un menu di scelta rapida. Usare '@batchstitcher.contextmenu.markasdone@' e '@batchstitcher.contextmenu.markasnotdone@' per cambiare lo stato di un progetto. Se un progetto è contrassegnato come '@batchstitcher.contextmenu.deletewhendone@', il file di progetto corrispondente (.pts) verrà cancellato al completamento (ovviamente il panorama generato verrà mantenuto). Questo è usato da @menubar.project@ | @menubar.project.sendtemporarycopytobatchstitcher@.<br><br>Batch Stitcher può essere avviato e arrestato tramite il menu @batchstitcher.menubar.process@ e utilizzando i pulsanti nella barra degli strumenti. Fare doppio clic su un lavoro (o premere il tasto Invio) per aprire il progetto in una nuova finestra di PTGui. <optional product='pro'><br><br><b>Impostazioni del progetto Batch Stitcher</b><br><br>Batch Stitcher può non solo unire panorami, ma può anche generare punti di controllo e allineare le immagini. Il comportamento è controllato dalle impostazioni @mainwindow.projectsettings.batchstitcheractions@ nella scheda @mainwindow.tabs.projectsettings@ del progetto: Se è selezionato <b>@mainwindow.projectsettings.batchstitcheractions.align@</b>, il Batch Stitcher genera punti di controllo e imposta il panorama. Se è selezionato <b>@mainwindow.projectsettings.batchstitcheractions.createpanorama@,</b> il Batch Stitcher unirà il panorama.</optional><br><br><b>Liste batch</b><br><br>Una lista batch memorizza un elenco di lavori, completo dello stato Fatto / Non completato di ciascun lavoro. L'uso di liste batch consente di chiudere il Batch Stitcher e continuare da dove era stato interrotto. Il Batch Stitcher non può riprendere i lavori parzialmente finiti (è necessario riavviare l'intero lavoro) ma ricorderà quali progetti nell'elenco dei batch sono già stati completati e quali no.<br><br>Creare una lista batch caricando uno o più lavori nel Batch Stitcher e scegliendo @menubar.file@ | @batchstitcher.menubar.savebatchlistas@. Le liste batch esistenti possono essere aperte utilizzando @batchstitcher.menubar.openbatchlist@ o @batchstitcher.menubar.recentbatchlists@. <optional product='pro'>Lo strumento Batch Builder (vedi sotto) crea anche liste batch che possono essere caricate in Batch Stitcher.</optional><br><br>Solo una lista batch può essere attiva in qualsiasi momento. Quando è attiva una lista batch e viene selezionato '@batchstitcher.menubar.autosavebatchlist@', qualsiasi modifica alla lista di progetti (ad esempio quando un progetto è completato o quando un progetto viene aggiunto alla lista) viene immediatamente salvata nella lista batch. Se la lista batch è molto grande (migliaia di progetti o più) il salvataggio della lista batch su ogni modifica richiederà molto tempo. In tal caso è meglio disabilitare '@batchstitcher.menubar.autosavebatchlist@' e fare manualmente @batchstitcher.menubar.savebatchlist@ per scrivere la lista batch modificata su disco ogni tanto.<br><br>@batchbuilder.helptext.appendbatchlist@ <optional product='pro'><br><br><b>Batch Builder</b><br><br>La combinazione di Batch Stitcher e Batch Builder rende PTGui Pro uno strumento potente per allineare e unire rapidamente centinaia di panorami quasi completamente automaticamente. Per ulteriori informazioni fare @menubar.tools@ | @batchbuilder@ e premere il pulsante @help@ lì.</optional>"
 		},
 		{
 			"id": "aligntogrid",
-			"machinetranslated": true,
-			"helptext": "<b>@menubar.project.aligntogrid@</b><br><br>Questo strumento inizializza gli angoli @yaw@ e @pitch@ delle immagini nel progetto corrente in una griglia di righe e colonne. È utile quando si creano panorami in gigapixel usando una testa panoramica motorizzata.<br><br><b>uso</b><br><br>Innanzitutto, è necessario caricare tutte le immagini per il panorama. Quindi, nella sezione <b>@gridsetup.grid@</b> , seleziona la gamma di immagini a cui deve essere applicata la griglia (per le griglie uniformi questo sarebbe '@gridsetup.allimages@').<br><br>Configura la direzione del movimento sotto <b>@gridsetup.shootingconfiguration@</b> .<br><br>Per entrambi gli assi orizzontale e verticale è possibile configurare un offset e una quantità di sovrapposizione.<br><br>Infine, premere <b>@txt.apply@</b> per applicare la griglia al progetto. Verifica il risultato nell'Editor Panorama.<br><br>Poiché nessuna testata panoramica sarà precisa al 100%, dopo aver impostato la griglia è ancora necessario eseguire &quot;@alignimages@&quot;. Questo metterà a punto l'allineamento. L'ottimizzatore tenterà di preservare la struttura della griglia per tutte le immagini che non hanno punti di controllo.<br><br><b>Griglie non uniformi</b><br><br>Se l'intero panorama è stato preso come una griglia uniforme (cioè lo stesso numero di colonne per ogni riga), la griglia può essere applicata a tutte le immagini. Sono supportate anche le griglie non uniformi: è sufficiente applicare diverse griglie a diverse sezioni del panorama. Per ogni sezione, selezionare la gamma di immagini per applicare la griglia, configurare la griglia e premere @txt.apply@. Quindi ripetere per la sezione successiva.<br><br>Se la stessa griglia verrà utilizzata per più panorami, utilizzare @menubar.file@ - @menubar.file.saveastemplate@. La configurazione della griglia può quindi essere applicata applicando il modello invece di utilizzare @menubar.project.aligntogrid@.",
-			"todo": true
+			"helptext": "<b>@menubar.project.aligntogrid@</b><br><br>Questo strumento inizializza gli angoli @yaw@ e @pitch@ delle immagini nel progetto corrente in una griglia di righe e colonne. È utile quando si creano panorami in gigapixel usando una testa panoramica motorizzata.<br><br><b>Uso</b><br><br>Innanzitutto, caricare tutte le immagini per il panorama. Quindi, nella sezione <b>@gridsetup.grid@</b>, selezionare la gamma di immagini a cui deve essere applicata la griglia (per le griglie uniformi questo sarebbe '@gridsetup.allimages@').<br><br>Configurare la direzione del movimento sotto <b>@gridsetup.shootingconfiguration@</b>.<br><br>Per entrambi gli assi orizzontale e verticale è possibile configurare un offset e una quantità di sovrapposizione.<br><br>Infine, premere <b>@txt.apply@</b> per applicare la griglia al progetto. Verificare il risultato nell'Editor Panorama.<br><br>Poiché nessuna testa panoramica sarà precisa al 100%, dopo aver impostato la griglia è ancora necessario eseguire &quot;@alignimages@&quot;. Questo metterà a punto l'allineamento. L'ottimizzatore tenterà di preservare la struttura della griglia per tutte le immagini che non hanno punti di controllo.<br><br><b>Griglie non uniformi</b><br><br>Se l'intero panorama è stato scattato come una griglia uniforme (cioè lo stesso numero di colonne per ogni riga), la griglia può essere applicata a tutte le immagini. Sono supportate anche le griglie non uniformi: è sufficiente applicare diverse griglie a diverse sezioni del panorama. Per ogni sezione, selezionare la gamma di immagini per applicare la griglia, configurare la griglia e premere @txt.apply@. Quindi ripetere per la sezione successiva.<br><br>Se la stessa griglia verrà utilizzata per più panorami, utilizzare @menubar.file@ - @menubar.file.saveastemplate@. La configurazione della griglia può quindi essere applicata applicando il modello invece di utilizzare @menubar.project.aligntogrid@."
 		},
 		{
 			"id": "batchbuilder",
-			"machinetranslated": true,
-			"helptext": "<b>@batchbuilder@</b><br><br>In combinazione con Batch Stitcher, il Batch Builder è uno strumento per cucire un gran numero di panorami in batch. In genere alimenta il Batch Builder con una o più cartelle con immagini di origine e opzionalmente un progetto di modello. Analizza le cartelle delle immagini di origine per trovare gruppi di immagini che formano un panorama. I file di progetto verranno creati per ciascun gruppo di immagini. I file di progetto generati possono quindi essere inviati a Batch Stitcher per l'elaborazione.<br><br><b>uso</b><br><br>Premere <b>@batchbuilder.detectpanoramas@</b> per eseguire la scansione di una cartella con immagini di origine per panorami. Il Batch Builder propone quindi un elenco di progetti. Questo non crea ancora file di progetto; i gruppi di immagini possono ancora essere modificati. Premere il pulsante nero per rimuovere le immagini da un progetto. Premi l'icona delle forbici per tagliare un progetto in due progetti separati. Seleziona uno o più progetti e fai clic con il pulsante destro del mouse <optional platform='mac'>(o Ctrl + clic)</optional> per un menu contestuale con opzioni aggiuntive: i progetti selezionati possono essere combinati in un singolo progetto o rimossi dall'elenco. Anche i file di immagine possono essere aggiunti manualmente a un progetto.<br><br>Quando le immagini per ciascun progetto sono state impostate correttamente, selezionare un modello da utilizzare e premere <b>@batchbuilder.generateprojects@</b> . Questo creerà i file di progetto PTGui, uno per ciascun gruppo di immagini, e li invierà a Batch Stitcher per l'elaborazione.<br><br><b>Modelli</b><br><br>Generalmente il Batch Builder viene utilizzato insieme a un modello. Il modello configura ad esempio la dimensione dell'output, il formato del file e la posizione in cui archiviare il file di progetto e il panorama cucito. Un modello può anche sovrascrivere le impostazioni predefinite dell'obiettivo o configurare il posizionamento esatto delle immagini sorgente nel panorama.<br><br>Per creare un modello, avviare un nuovo progetto PTGui Pro, impostare i parametri desiderati e scegliere @menubar.file@ | @menubar.file.saveastemplate@. Alcune linee guida per la creazione di modelli da utilizzare con Batch Builder:<br><br>• Non inserire il nome del file di output nella scheda @mainwindow.tabs.createpanorama@. Selezionare invece '@mainwindow.createpanoramatab.usedefault@' per il nome file di output e impostare il nome del file di output desiderato nella sezione @mainwindow.projectsettings.filenaming@ della scheda @mainwindow.tabs.projectsettings@. Altrimenti tutti i progetti generati scriveranno nello stesso file panorama.<br><br>• Nella sezione @mainwindow.projectsettings.filenaming@ della scheda @mainwindow.tabs.projectsettings@, scegliere: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Il Batch Builder assicurerà che i nomi dei progetti siano univoci aggiungendo opzionalmente (1), (2) ecc. Al nome. Poiché ciò genera nomi di file di progetto univoci, genererà anche nomi di file univoci per il panorama cucito.<br><br>• Spesso tutti i panorami sono stati ripresi utilizzando lo stesso obiettivo noto. In tal caso, potrebbe essere preferibile utilizzare le impostazioni predefinite dell'obiettivo invece di consentire a PTGui Pro di scegliere le impostazioni dell'obiettivo automatico in base ai dati EXIF. Questo può essere ottenuto deselezionando @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Le immagini fisheye circolari devono essere ritagliate, ma il cerchio di ritaglio sarà diverso per ogni telecamera e obiettivo. Per predefinire il cerchio di ritaglio:<br>- carica una delle tue immagini sorgente nel progetto del modello (per regolare il ritaglio il progetto dovrebbe avere almeno un'immagine)<br>- regola il cerchio di ritaglio nella scheda @mainwindow.tabs.crop@<br>- rimuovere nuovamente l'immagine sorgente dal progetto. Le impostazioni di ritaglio verranno mantenute anche quando l'immagine viene rimossa.<br>- deseleziona @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (altrimenti le impostazioni del tuo raccolto saranno sovrascritte in base ai dati EXIF)<br><br>• Se si desidera produrre panorami con una proiezione e un campo di visione predefiniti, disabilitare &quot;@mainwindow.projectsettings.alignimagesbehavior.fit@&quot; e &quot;@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@&quot; nella scheda @mainwindow.tabs.projectsettings@. Passa alla proiezione desiderata e al campo visivo nell'Editor Panorama.<br><br>• Se vuoi produrre un panorama con specifiche dimensioni in pixel: vai alla scheda @mainwindow.tabs.createpanorama@ e seleziona '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'. In caso contrario, PTGui selezionerà una dimensione ottimale, che potrebbe essere diversa per ogni panorama a causa di piccole variazioni nei parametri ottimizzati dell'obiettivo.<br><br>• Assicurati di scegliere il valore dell'apprioriate per @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Vedi il tooltip lì per ulteriori informazioni.<br><br>• Se si desidera esaminare i progetti generati prima che vengano effettivamente cuciti, deselezionare @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. In questo modo la cucitrice batch genererà solo punti di controllo, imposta i panorami e salva i progetti modificati. Dopo aver ispezionato e possibilmente modificato i progetti, inviarli nuovamente al Cucchiaio per la cucitura finale.<br><br>Una volta impostato il modello, scegliere @menubar.file@ | @menubar.file.saveastemplate@ per salvarlo. Verrà quindi visualizzato in Batch Builder nell'elenco &quot;@batchbuilder.usetemplate@&quot;.<br><br>Vedi anche: <a href='helppage:workingwithtemplates'>Lavorare con i modelli</a><br><br>",
-			"todo": true
+			"helptext": "<b>@batchbuilder@</b><br><br>In combinazione con Batch Stitcher, il Batch Builder è uno strumento per unire un gran numero di panorami in batch. In genere alimenta il Batch Builder con una o più cartelle con immagini di origine e opzionalmente un progetto di modello. Analizza le cartelle delle immagini di origine per trovare gruppi di immagini che formano un panorama. I file di progetto verranno creati per ciascun gruppo di immagini. I file di progetto generati possono quindi essere inviati a Batch Stitcher per l'elaborazione.<br><br><b>Uso</b><br><br>Premere <b>@batchbuilder.detectpanoramas@</b> per eseguire la scansione di una cartella con immagini di origine per panorami. Il Batch Builder propone quindi un elenco di progetti. Questo non crea ancora file di progetto; i gruppi di immagini possono ancora essere modificati. Premere il pulsante nero per rimuovere le immagini da un progetto. Premere l'icona delle forbici per tagliare un progetto in due progetti separati. Selezionare uno o più progetti e fare clic con il pulsante destro del mouse <optional platform='mac'>(o Ctrl + clic)</optional> per un menu contestuale con opzioni aggiuntive: i progetti selezionati possono essere combinati in un singolo progetto o rimossi dall'elenco. Anche i file di immagine possono essere aggiunti manualmente a un progetto.<br><br>Quando le immagini per ciascun progetto sono state impostate correttamente, selezionare un modello da utilizzare e premere <b>@batchbuilder.generateprojects@</b>. Questo creerà i file di progetto PTGui, uno per ciascun gruppo di immagini, e li invierà a Batch Stitcher per l'elaborazione.<br><br><b>Modelli</b><br><br>Generalmente il Batch Builder viene utilizzato insieme a un modello. Il modello configura ad esempio la dimensione dell'output, il formato del file e la posizione in cui archiviare il file di progetto e il panorama unito. Un modello può anche sovrascrivere le impostazioni predefinite dell'obiettivo o configurare il posizionamento esatto delle immagini sorgente nel panorama.<br><br>Per creare un modello, avviare un nuovo progetto PTGui Pro, impostare i parametri desiderati e scegliere @menubar.file@ | @menubar.file.saveastemplate@. Alcune linee guida per la creazione di modelli da utilizzare con Batch Builder:<br><br>• Non inserire il nome del file di output nella scheda @mainwindow.tabs.createpanorama@. Selezionare invece '@mainwindow.createpanoramatab.usedefault@' per il nome file di output e impostare il nome del file di output desiderato nella sezione @mainwindow.projectsettings.filenaming@ della scheda @mainwindow.tabs.projectsettings@. Altrimenti tutti i progetti generati scriveranno sullo stesso file panorama.<br><br>• Nella sezione @mainwindow.projectsettings.filenaming@ della scheda @mainwindow.tabs.projectsettings@, scegliere: '@panorama@: @mainwindow.projectsettings.filenaming.saveas@: @mainwindow.projectsettings.filenaming.sameasprojectname@'. Il Batch Builder assicurerà che i nomi dei progetti siano univoci aggiungendo opzionalmente (1), (2) ecc. al nome. Poiché ciò genera nomi di file di progetto univoci, genererà anche nomi di file univoci per il panorama unito.<br><br>• Spesso tutti i panorami sono stati ripresi utilizzando lo stesso obiettivo noto. In tal caso, potrebbe essere preferibile utilizzare le impostazioni predefinite dell'obiettivo invece di consentire a PTGui Pro di scegliere le impostazioni automatiche dell'obiettivo in base ai dati EXIF. Questo può essere ottenuto deselezionando @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@'.<br><br>• Le immagini fisheye circolari devono essere ritagliate, ma il cerchio di ritaglio sarà diverso per ogni fotocamera e obiettivo. Per predefinire il cerchio di ritaglio:<br>- caricare una delle tue immagini sorgente nel progetto del modello (per regolare il ritaglio il progetto dovrebbe avere almeno un'immagine)<br>- regolare il cerchio di ritaglio nella scheda @mainwindow.tabs.crop@<br>- rimuovere nuovamente l'immagine sorgente dal progetto. Le impostazioni di ritaglio verranno mantenute anche quando l'immagine viene rimossa.<br>- deselezionare @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchbuilder@ - '@mainwindow.projectsettings.batchbuilder.useexifshort@' (altrimenti le impostazioni di ritaglio saranno sovrascritte in base ai dati EXIF)<br><br>• Se si desidera produrre panorami con una proiezione e un campo di visione predefiniti, disabilitare &quot;@mainwindow.projectsettings.alignimagesbehavior.fit@&quot; e &quot;@mainwindow.projectsettings.alignimagesbehavior.chooseprojection@&quot; nella scheda @mainwindow.tabs.projectsettings@. Passare alla proiezione desiderata e al campo visivo nell'Editor Panorama.<br><br>• Se vuoi produrre un panorama con specifiche dimensioni in pixel: andare alla scheda @mainwindow.tabs.createpanorama@ e selezionare '@mainwindow.createpanoramatab.fixsize@ ... @mainwindow.createpanoramatab.fixsize.megapixels@'. In caso contrario, PTGui selezionerà una dimensione ottimale, che potrebbe essere diversa per ogni panorama a causa di piccole variazioni nei parametri ottimizzati dell'obiettivo.<br><br>• Assicurarsi di scegliere il valore appropriato per @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - @mainwindow.projectsettings.batchstitcheractions.align@. Vedere il tooltip lì per ulteriori informazioni.<br><br>• Se si desidera esaminare i progetti generati prima che vengano effettivamente uniti, deselezionare @mainwindow.tabs.projectsettings@ - @mainwindow.projectsettings.batchstitcheractions@ - '@mainwindow.projectsettings.batchstitcheractions.createpanorama@'. In questo modo il Batch Stitcher genererà solo punti di controllo, imposta i panorami e salva i progetti modificati. Dopo aver ispezionato e possibilmente modificato i progetti, inviarli nuovamente al Batch Stitcher per l'unione finale.<br><br>Una volta impostato il modello, scegliere @menubar.file@ | @menubar.file.saveastemplate@ per salvarlo. Verrà quindi visualizzato in Batch Builder nell'elenco &quot;@batchbuilder.usetemplate@&quot;.<br><br>Vedere anche: <a href='helppage:workingwithtemplates'>Lavorare con i modelli</a><br><br>"
 		},
 		{
 			"id": "workingwithtemplates",
-			"machinetranslated": true,
-			"helptext": "<b>Lavorare con i modelli</b><br><br>Utilizzando i modelli è possibile applicare rapidamente a un progetto una serie di impostazioni utilizzate di frequente. Un modello è solo un normale file di progetto PTGui (con estensione .pts) e qualsiasi progetto può essere utilizzato come modello.<br><br>Per creare rapidamente un modello dal progetto attivo e memorizzarlo nella cartella Modelli, utilizzare @menubar.file@ | @menubar.file.saveastemplate@. Ma poiché un modello è solo un normale file di progetto, può anche essere salvato utilizzando @menubar.file@ | @menubar.file.saveproject@.<br><br>Per applicare un modello al progetto corrente, utilizzare @menubar.file@ | @menubar.file.applytemplate@ oppure fare clic sul pulsante @menubar.file.applytemplate@ nella barra degli strumenti.<br><br>In @optionspreferences@ è possibile configurare una cartella modello predefinita per la memorizzazione dei modelli. @menubar.file.saveastemplate@ e @menubar.file.applytemplate@ andranno automaticamente in questa cartella. Utilizzando @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@, i modelli possono essere caricati da qualsiasi cartella.<br><br>Di default @menubar.file.applytemplate@ copia tutte le impostazioni dal modello ad eccezione dei punti di controllo e delle immagini di origine. I punti di controllo non vengono mai copiati poiché sono specifici delle immagini di origine effettive: un punto di controllo che punta all'angolo di un edificio nel progetto originale potrebbe indicare un semplice cielo blu in un altro progetto. Se vuoi ricamare un progetto esattamente come un altro progetto, i punti di controllo non sono necessari: la stitcher ignora i punti di controllo e usa solo le impostazioni dell'immagine e del panorama per creare il panorama.<br><br><optional product='pro'>Nella scheda @mainwindow.tabs.projectsettings@, sezione @mainwindow.projectsettings.templatebehavior@, un modello può essere limitato per applicare solo parti specifiche di un progetto. Pertanto è possibile ad esempio creare un modello che modifica solo le impostazioni dell'ottimizzatore.<br><br></optional> Se ritieni di utilizzare sempre lo stesso modello, prendi in considerazione l'utilizzo di @menubar.file@ | @menubar.file.makedefault@, che modifica le impostazioni predefinite per tutti i nuovi progetti. <optional product='pro'><br><br>Vedi anche: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>",
-			"todo": true
+			"helptext": "<b>Lavorare con i modelli</b><br><br>Utilizzando i modelli è possibile applicare rapidamente a un progetto una serie di impostazioni utilizzate di frequente. Un modello è solo un normale file di progetto PTGui (con estensione .pts) e qualsiasi progetto può essere utilizzato come modello.<br><br>Per creare rapidamente un modello dal progetto attivo e memorizzarlo nella cartella Modelli, utilizzare @menubar.file@ | @menubar.file.saveastemplate@. Ma poiché un modello è solo un normale file di progetto, può anche essere salvato utilizzando @menubar.file@ | @menubar.file.saveproject@.<br><br>Per applicare un modello al progetto corrente, utilizzare @menubar.file@ | @menubar.file.applytemplate@ oppure fare clic sul pulsante @menubar.file.applytemplate@ nella barra degli strumenti.<br><br>In @optionspreferences@ è possibile configurare una cartella modello predefinita per la memorizzazione dei modelli. @menubar.file.saveastemplate@ e @menubar.file.applytemplate@ andranno automaticamente in questa cartella. Utilizzando @menubar.file@ | @menubar.file.applytemplate@ | @menubar.file.applytemplate.other@, i modelli possono essere caricati da qualsiasi cartella.<br><br>Di default @menubar.file.applytemplate@ copia tutte le impostazioni dal modello ad eccezione dei punti di controllo e delle immagini di origine. I punti di controllo non vengono mai copiati poiché sono specifici delle immagini di origine effettive: un punto di controllo che punta all'angolo di un edificio nel progetto originale potrebbe indicare un semplice cielo blu in un altro progetto. Se si desidera unire un progetto esattamente come un altro progetto, i punti di controllo non sono necessari: lo stitcher ignora i punti di controllo e usa solo le impostazioni dell'immagine e del panorama per creare il panorama.<br><br><optional product='pro'>Nella scheda @mainwindow.tabs.projectsettings@, sezione @mainwindow.projectsettings.templatebehavior@, un modello può essere limitato per applicare solo parti specifiche di un progetto. Pertanto è possibile ad esempio creare un modello che modifica solo le impostazioni dell'ottimizzatore.<br><br></optional> Se si ritiene di utilizzare sempre lo stesso modello, prendere in considerazione l'utilizzo di @menubar.file@ | @menubar.file.makedefault@, che modifica le impostazioni predefinite per tutti i nuovi progetti. <optional product='pro'><br><br>Vedere anche: <a href='helppage:batchbuilder'>@batchbuilder@</a></optional>"
 		},
 		{
 			"id": "projections",
-			"machinetranslated": true,
-			"helptext": "<b>proiezioni</b><br><br>Un panorama, o in effetti qualsiasi fotografia, è una rappresentazione piatta della scena intorno alla telecamera. Esistono diversi modi per proiettare un mondo tridimensionale su una superficie piana, pertanto PTGui offre un'ampia scelta di proiezioni panoramiche. Ognuno ha le sue proprietà e limitazioni.<br><br>La proiezione desiderata è selezionata nell'editor Panorama, nella sezione Proiezione nella barra laterale o utilizzando i pulsanti di proiezione nella barra degli strumenti. PTGui supporta le seguenti proiezioni:<br><br><b>@+projection.rectilinear@ ('flat'):</b> questa è la proiezione della sfera panoramica su una superficie piana. È la proiezione a cui sono abituati i nostri occhi, la proiezione di una normale macchina fotografica. La proiezione rettilinea ha la proprietà unica di preservare tutte le linee rette: qualsiasi linea che è dritta nel mondo reale, viene visualizzata come una linea retta nel panorama. Questo lo rende una proiezione adatta per immagini architettoniche. La stessa proprietà limita il campo visivo: è fisicamente impossibile proiettare più di 180° di campo di vista e allo stesso tempo preservare le linee rette. Sopra il campo visivo di 90°, lo stiramento diventa evidente nei lati e negli angoli dell'immagine; rettilineo diventa inutilizzabile sopra 120°.<br><br>L'effetto di allungamento dell'angolo può essere ridotto utilizzando la compressione orizzontale e / o verticale; vedere i cursori '@panoramaeditor.sidebar.projectionpanel.compression@' nella barra laterale Proiezione nell'editor panorama. Comprimendo la vista rettilinea è possibile creare panorami vicini a 180° x 180° senza distorsioni estreme. Le linee rette non sono più conservate: le linee orizzontali e verticali rimangono dritte, ma le linee diagonali si curvano quando si utilizza la compressione.<br><br>Per panorami più ampi di 180° si dovrebbe usare una delle altre proiezioni:<br><br><b>@+projection.cylindrical@:</b> questo è il risultato della proiezione della sfera panoramica sulla superficie di un cilindro. I panorami cilindrici supportano il campo visivo a 360°. Verticalmente la proiezione si comporta in modo simile al rettilineo: il campo visivo verticale ha un limite fisico di 180° e un limite pratico di circa 120°. La proiezione cilindrica è quindi particolarmente adatta per panorami a 360° a fila singola.<br><br>Tutte le linee rette verticali sono conservate. Le linee rette orizzontali sono generalmente curve. Solo l'orizzonte rimane dritto.<br><br>Come per la proiezione rettilinea, la proiezione cilindrica può essere compressa verticalmente. L'aumento della compressione verticale riduce l'effetto di stretching vicino alla parte superiore e inferiore del panorama. A piena compressione verticale il risultato equivale a proiezione equirettangolare.<br><br><b>@+projection.mercator@:</b> questa proiezione è simile a @+projection.cylindrical@, ma con uno stiramento meno grave nella parte superiore e inferiore del campo visivo verticale più alto. Questo è un buon compromesso tra proiezione cilindrica ed equirettangolare e adatto per panorami a 360° con un campo visivo verticale più alto (oltre 90°). Oltre a questo, le proprietà sono identiche alla proiezione cilindrica: il campo visivo verticale è limitato a 180°; solo le linee rette verticali e la linea dell'orizzonte rimangono linee rette nel panorama.<br><br><b>@+projection.equirectangular@:</b> Questa è una proiezione di latitudine / longitudine della sfera panoramica. La proiezione equirettangolare può avere un campo visivo fino a 360° x 180°, rendendolo adatto a panorami completamente sferici.<br><br>Come per la proiezione cilindrica e mercator, solo le linee verticali e la linea dell'orizzonte vengono proiettate come linee rette nella proiezione equirettangolare. Tutte le altre linee diventano curve.<br><br>L'equirettangolare 360 ​​° x 180° è diventato il formato standard per lo scambio di panorami sferici tra le applicazioni. Molti visualizzatori di panorama interattivi supportano direttamente le immagini equirettangolari.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ e @+projection.transverseequirectangular@:</b> queste proiezioni sono uguali a @+projection.cylindrical@, @+projection.mercator@ e @+projection.equirectangular@, rispettivamente, ma ruotate di 90°. Supportano un campo visivo verticale fino a 360° mentre il campo visivo orizzontale è limitato a 180°. Queste proiezioni sono adatte per panorami verticali alti.<br><br><b>@+projection.circularfisheye@ e @+projection.fullframefisheye@:</b> queste proiezioni simulano un obiettivo fisheye. Entrambe le proiezioni danno lo stesso risultato, ma l'output @projection.circularfisheye@ viene ritagliato in un cerchio mentre l'output @projection.fullframefisheye@ viene ritagliato in un rettangolo. Il campo visivo può essere fino a 360° in tutte le direzioni.<br><br>Un'impostazione di compressione è disponibile per questa proiezione. Con la compressione completa predefinita, il risultato è una vera proiezione di fisheye. Quando la compressione viene ridotta (il cursore viene spostato verso sinistra) la proiezione si trasforma in proiezione rettilinea. Una vista grandangolare con compressione ridotta può essere utilizzata come compromesso per le viste rettilinee grandangolari: le linee rette vengono conservate vicino al centro del panorama ma diventeranno più curve verso i bordi.<br><br><b>@+projection.vedutismo@: dal</b> nome del genere pittorico del XVIII secolo, questa proiezione conserva tutte le linee rette diagonali attraverso il centro del panorama. È più adatto per scene grandangolari con un chiaro &quot;punto di fuga&quot;: se il punto di fuga viene spostato al centro del panorama, tutte le linee nel punto di fuga rimangono diritte.<br><br>La proiezione del Vedutismo supporta un campo visivo orizzontale fino a 360°, anche se alcuni allungamenti verticali ai bordi diventano evidenti per panorami molto ampi. Il campo visivo verticale è limitato a 180°. Qualsiasi linea retta non attraverso il punto centrale del panorama si curverà.<br><br><b>@+projection.transversevedutismo@:</b> ha le stesse proprietà ma è limitato a 180° in orizzontale e 360 ​​° in verticale e potrebbe essere utilizzato per panorami verticali alti.<br><br><b>@+projection.stereographic@:</b> questa è la proiezione di una sfera, vista dal polo, su una superficie piana. È famoso per le vedute del &quot;piccolo pianeta&quot;. Per semplificare la creazione di piccoli pianeti, viene fornita un'ulteriore proiezione denominata &quot;@+projection.stereographicdown@&quot;, che è la stessa proiezione ma ruotata in modo tale che il punto più basso della scena si trovi al centro del panorama.<br><br>La proiezione stereografica ha un parametro di compressione aggiuntivo. Alla massima compressione il risultato è una vera proiezione stereografica; riducendo la compressione si sposta il punto di vista dal polo al centro della sfera, trasformando efficacemente la vista in una proiezione rettilinea.",
-			"todo": true
+			"helptext": "<b>Proiezioni</b><br><br>Un panorama, o in effetti qualsiasi fotografia, è una rappresentazione piatta della scena intorno alla fotocamera. Esistono diversi modi per proiettare un mondo tridimensionale su una superficie piana, pertanto PTGui offre un'ampia scelta di proiezioni panoramiche. Ognuna ha le sue proprietà e limitazioni.<br><br>La proiezione desiderata è selezionata nell'Editor Panorama, nella sezione Proiezione nella barra laterale o utilizzando i pulsanti di proiezione nella barra degli strumenti. PTGui supporta le seguenti proiezioni:<br><br><b>@+projection.rectilinear@ ('flat'):</b> questa è la proiezione della sfera panoramica su una superficie piana. È la proiezione a cui sono abituati i nostri occhi, la proiezione di una normale fotocamera. La proiezione rettilinea ha la proprietà unica di preservare tutte le linee rette: qualsiasi linea retta nel mondo reale viene visualizzata come una linea retta nel panorama. Questo la rende una proiezione adatta per immagini architettoniche. La stessa proprietà limita il campo visivo: è fisicamente impossibile proiettare più di 180° di campo di vista e allo stesso tempo preservare le linee rette. Sopra il campo visivo di 90°, lo stiramento diventa evidente nei lati e negli angoli dell'immagine; la proiezione rettilinea diventa inutilizzabile sopra 120°.<br><br>L'effetto di allungamento dell'angolo può essere ridotto utilizzando la compressione orizzontale e / o verticale; vedere i cursori '@panoramaeditor.sidebar.projectionpanel.compression@' nella barra laterale Proiezione nell'Editor Panorama. Comprimendo la vista rettilinea è possibile creare panorami vicini a 180° x 180° senza distorsioni estreme. Le linee rette non sono più conservate: le linee orizzontali e verticali rimangono dritte, ma le linee diagonali si curvano quando si utilizza la compressione.<br><br>Per panorami più ampi di 180° si dovrebbe usare una delle altre proiezioni:<br><br><b>@+projection.cylindrical@:</b> questo è il risultato della proiezione della sfera panoramica sulla superficie di un cilindro. I panorami cilindrici supportano il campo visivo a 360°. Verticalmente la proiezione si comporta in modo simile alla rettilinea: il campo visivo verticale ha un limite fisico di 180° e un limite pratico di circa 120°. La proiezione cilindrica è quindi particolarmente adatta per panorami a 360° a fila singola.<br><br>Tutte le linee rette verticali sono conservate. Le linee rette orizzontali sono generalmente curve. Solo l'orizzonte rimane dritto.<br><br>Come per la proiezione rettilinea, la proiezione cilindrica può essere compressa verticalmente. L'aumento della compressione verticale riduce l'effetto di stiramento vicino alla parte superiore e inferiore del panorama. A piena compressione verticale il risultato equivale a proiezione equirettangolare.<br><br><b>@+projection.mercator@:</b> questa proiezione è simile a @+projection.cylindrical@, ma con uno stiramento meno grave nella parte superiore e inferiore del campo visivo verticale più alto. Questo è un buon compromesso tra proiezione cilindrica ed equirettangolare e adatta per panorami a 360° con un campo visivo verticale più alto (oltre 90°). Oltre a questo, le proprietà sono identiche alla proiezione cilindrica: il campo visivo verticale è limitato a 180°; solo le linee rette verticali e la linea dell'orizzonte rimangono linee rette nel panorama.<br><br><b>@+projection.equirectangular@:</b> Questa è una proiezione di latitudine / longitudine della sfera panoramica. La proiezione equirettangolare può avere un campo visivo fino a 360° x 180°, rendendola adatta a panorami completamente sferici.<br><br>Come per la proiezione cilindrica e Mercatore, solo le linee verticali e la linea dell'orizzonte vengono proiettate come linee rette nella proiezione equirettangolare. Tutte le altre linee diventano curve.<br><br>L'equirettangolare 360° x 180° è diventato il formato standard per lo scambio di panorami sferici tra le applicazioni. Molti visualizzatori di panorama interattivi supportano direttamente le immagini equirettangolari.<br><br><b>@+projection.transversecylindrical@, @+projection.transversemercator@ e @+projection.transverseequirectangular@:</b> queste proiezioni sono uguali a @+projection.cylindrical@, @+projection.mercator@ e @+projection.equirectangular@, rispettivamente, ma ruotate di 90°. Supportano un campo visivo verticale fino a 360° mentre il campo visivo orizzontale è limitato a 180°. Queste proiezioni sono adatte per panorami verticali alti.<br><br><b>@+projection.circularfisheye@ e @+projection.fullframefisheye@:</b> queste proiezioni simulano un obiettivo fisheye. Entrambe le proiezioni danno lo stesso risultato, ma l'output @projection.circularfisheye@ viene ritagliato in un cerchio mentre l'output @projection.fullframefisheye@ viene ritagliato in un rettangolo. Il campo visivo può essere fino a 360° in tutte le direzioni.<br><br>Un'impostazione di compressione è disponibile per questa proiezione. Con la compressione completa predefinita, il risultato è una vera proiezione fisheye. Quando la compressione viene ridotta (il cursore viene spostato verso sinistra) la proiezione si trasforma in proiezione rettilinea. Una vista grandangolare con compressione ridotta può essere utilizzata come compromesso per le viste rettilinee grandangolari: le linee rette vengono conservate vicino al centro del panorama ma diventeranno più curve verso i bordi.<br><br><b>@+projection.vedutismo@:</b> dal nome del genere pittorico del XVIII secolo, questa proiezione conserva tutte le linee rette diagonali attraverso il centro del panorama. È più adatta per scene grandangolari con un chiaro &quot;punto di fuga&quot;: se il punto di fuga viene spostato al centro del panorama, tutte le linee nel punto di fuga rimangono diritte.<br><br>La proiezione Vedutismo supporta un campo visivo orizzontale fino a 360°, anche se alcuni allungamenti verticali ai bordi diventano evidenti per panorami molto ampi. Il campo visivo verticale è limitato a 180°. Qualsiasi linea retta non attraverso il punto centrale del panorama si curverà.<br><br><b>@+projection.transversevedutismo@:</b> ha le stesse proprietà ma è limitata a 180° in orizzontale e 360° in verticale e potrebbe essere utilizzata per panorami verticali alti.<br><br><b>@+projection.stereographic@:</b> questa è la proiezione di una sfera, vista dal polo, su una superficie piana. È famosa per le vedute &quot;Little Planet&quot;. Per semplificare la creazione di Little Planet, viene fornita un'ulteriore proiezione denominata &quot;@+projection.stereographicdown@&quot;, che è la stessa proiezione ma ruotata in modo tale che il punto più basso della scena si trovi al centro del panorama.<br><br>La proiezione stereografica ha un parametro di compressione aggiuntivo. Alla massima compressione il risultato è una vera proiezione stereografica; riducendo la compressione si sposta il punto di vista dal polo al centro della sfera, trasformando efficacemente la vista in una proiezione rettilinea."
 		},
 		{
 			"id": "publishtowebsite",

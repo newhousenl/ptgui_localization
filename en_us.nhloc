@@ -6751,8 +6751,16 @@
 {
     "id": "fileformatsettings.effort.best",
     "txt": "%0 (smallest file)"
-}
+},
 
+{
+    "id": "fileformatsettings.deflatecompression",
+    "txt": "ZIP compression"
+},
+{
+    "id": "fileformatsettings.jpegxlcompression",
+    "txt": "JPEG XL compression"
+}
 
     ],
 

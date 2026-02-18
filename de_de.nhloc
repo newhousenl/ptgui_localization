@@ -6856,6 +6856,14 @@
 			"id": "fileformatsettings.effort.best",
 			"machinetranslated": true,
 			"txt": "%0 (kleinste Datei)"
+		},
+		{
+				"id": "fileformatsettings.deflatecompression",
+				"txt": "ZIP-Komprimierung"
+		},
+		{
+				"id": "fileformatsettings.jpegxlcompression",
+				"txt": "JPEG XL-Komprimierung"
 		}
 	],
 	"tooltips": [

@@ -8254,6 +8254,14 @@
 			"id": "fileformatsettings.effort.best",
 			"machinetranslated": true,
 			"txt": "%0（最小文件）"
+		},
+		{
+				"id": "fileformatsettings.deflatecompression",
+				"txt": "ZIP 压缩"
+		},
+		{
+				"id": "fileformatsettings.jpegxlcompression",
+				"txt": "JPEG XL 压缩"
 		}
 	],
 	"tooltips": [

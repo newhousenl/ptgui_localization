@@ -8233,7 +8233,15 @@
 			"id": "fileformatsettings.effort.best",
 			"machinetranslated": true,
 			"txt": "%0 (наименьший файл)"
-		}
+		},
+		{
+				"id": "fileformatsettings.deflatecompression",
+				"txt": "Сжатие ZIP"
+		},
+		{
+				"id": "fileformatsettings.jpegxlcompression",
+				"txt": "Сжатие JPEG XL"
+		}		
 	],
 	"tooltips": [
 		{

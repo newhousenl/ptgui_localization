@@ -6622,6 +6622,14 @@
 		{
 			"id": "fileformatsettings.effort.best",
 			"txt": "%0 (file più piccolo)"
+		},
+		{
+				"id": "fileformatsettings.deflatecompression",
+				"txt": "Compressione ZIP"
+		},
+		{
+				"id": "fileformatsettings.jpegxlcompression",
+				"txt": "Compressione JPEG XL"
 		}
 	],
 	"tooltips": [

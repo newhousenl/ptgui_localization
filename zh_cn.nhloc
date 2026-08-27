@@ -4793,7 +4793,8 @@
 		},
 		{
 			"id": "err.optimizerfailed",
-			"txt": "优化器未能使图像良好对齐。可能是当前图像的错位导致优化器卡住。在这种情况下，运行“@menubar.project.initializeandoptimize@”可能会有所帮助：这会将镜头设置重置为默认值并重新运行优化器。"
+			"txt": "优化器未能使图像良好对齐。可能是当前图像的错位导致优化器卡住。在这种情况下，运行“@menubar.project.initializeandoptimize@”可能会有所帮助：这会将镜头设置和图像位置重置为初始状态，并尝试从头开始重新定位图像。\n\n是否要运行“@menubar.project.initializeandoptimize@”？"
+      
 		},
 		{
 			"id": "txt.confirmlinkhdrsets",
@@ -4829,7 +4830,7 @@
 		},
 		{
 			"id": "err.removeworstcps.didnothing",
-			"txt": "未删除任何控制点。\n\n@menubar.controlpoints.deleteworst@仅删除错误远高于同一对图像中其他控制点的控制点。如果许多控制点具有高错误（通常由视差引起），则可能不会删除任何控制点。"
+      "txt": "未删除任何控制点。\n\n@menubar.controlpoints.deleteworst@仅删除错误远高于同一对图像中其他控制点的控制点。如果许多控制点具有高错误（通常由视差引起），则不会删除任何控制点。\n\n此外，PTGui 将确保每对图像至少保留 4 个控制点。"
 		},
 		{
 			"id": "err.removeworstcps.deletingoneworstcontrolpoint",

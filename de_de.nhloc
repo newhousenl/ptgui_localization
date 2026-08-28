@@ -1931,7 +1931,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt1",
-			"txt": "(der relative Pfad wird aus dem Quellbildordner erstellt)"
+			"txt": "(relative Pfade beziehen sich auf den Ordner der Quellbilder)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.panorama",
@@ -1955,7 +1955,7 @@
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.relativepathtxt2",
-			"txt": "(der relative Pfad wird aus dem Projektdateiordner erstellt)"
+			"txt": "(relative Pfade beziehen sich auf den Ordner der Projektdatei)"
 		},
 		{
 			"id": "mainwindow.projectsettings.filenaming.outputfileoverriddentxt",

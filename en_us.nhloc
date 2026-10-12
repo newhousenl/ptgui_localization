@@ -4896,7 +4896,7 @@
 },
 {
     "id": "warn.alignimagesmissingcontrolpoints",
-    "txt": "PTGui has analyzed your images but was not able to match all of them. To align all images you will need to add a few control points manually. These control points tell indicate which parts of which images should overlap.\n\nThe Control Point Assistant gives detailed information about which images require additional control points.\n\nWould you like to add control points now?"
+    "txt": "PTGui has analyzed your images but was not able to match all of them. To align all images you will need to add a few control points manually. These control points indicate which parts of which images should overlap.\n\nThe Control Point Assistant gives detailed information about which images require additional control points.\n\nWould you like to add control points now?"
 },
 {
     "id": "txt.dontaskthisagain",
